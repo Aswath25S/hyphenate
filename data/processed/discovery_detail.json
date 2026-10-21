@@ -1,0 +1,2772 @@
+[
+  {
+    "slug": "openai",
+    "company": "OpenAI",
+    "domain": "openai.com",
+    "ats": "ashby",
+    "total_jobs": 809,
+    "finance_titles": 25,
+    "finance_us": 24,
+    "finance_us_recent": 18,
+    "sample_titles": [
+      "Strategic Finance, Emerging B2B Products",
+      "Strategic Finance, Compute",
+      "Manager, Revenue Accounting",
+      "Senior Manager, Financial Reporting",
+      "Head of First Party Chip Finance",
+      "Lead, Technical Accounting (Compute Infrastructure)"
+    ],
+    "has_salary_text": 18,
+    "total": 808,
+    "n": 18,
+    "salary": 18,
+    "titles": [
+      "u Strategic Finance, Emerging B2B Products",
+      "u Strategic Finance, Compute",
+      "k Manager, Revenue Accounting",
+      "k Senior Manager, Financial Reporting",
+      "u Head of First Party Chip Finance",
+      "k Lead, Technical Accounting (Compute Infrastructure)",
+      "k Manager, Technical & Operational Accounting",
+      "k Business Systems Lead, Procure-to-Pay",
+      "u Head of Finance - Data Centers",
+      "k Lead, Revenue Accounting, Technical",
+      "k Manager, Revenue Accounting, Technical (Strategic Commercial Deals)",
+      "u Strategic Finance, Ads",
+      "u M&A Finance Integration Lead",
+      "k Senior Manager, Accounts Payable - Compute",
+      "k Payroll Initiatives Lead",
+      "k Technical Accounting Lead, Ads Revenue",
+      "k Accounting Manager",
+      "u Strategic Finance Partner, OpenAI for Inference"
+    ]
+  },
+  {
+    "slug": "anthropic",
+    "company": "Anthropic",
+    "domain": "anthropic.com",
+    "ats": "greenhouse",
+    "total_jobs": 675,
+    "finance_titles": 39,
+    "finance_us": 35,
+    "finance_us_recent": 21,
+    "sample_titles": [
+      "3P Revenue Accounting & Reporting",
+      "Director, Financial Reporting - Special Projects",
+      "Director, Infrastructure Lease Accounting",
+      "Director, IT SOX",
+      "Director, SOX Infrastructure",
+      "Director, Technical Accounting – Investments"
+    ],
+    "has_salary_text": 21,
+    "total": 675,
+    "n": 18,
+    "salary": 18,
+    "titles": [
+      "k 3P Revenue Accounting & Reporting",
+      "k Director, Financial Reporting - Special Projects",
+      "k Director, Infrastructure Lease Accounting",
+      "k Director, IT SOX",
+      "k Director, SOX Infrastructure",
+      "k Director, Technical Accounting – Investments",
+      "k Director, Technical Revenue Accounting",
+      "u Finance & Strategy, Compute Network",
+      "k Financial Data and Controls Lead, Billing Platform",
+      "k Head of Accounting Policy",
+      "k Head of Payroll & Equity",
+      "k Lead, Security Controls Assurance - SOX",
+      "u Manager, Technical Deployment (Financial Services)",
+      "k Senior Manager, Infrastructure Asset Accounting",
+      "k Senior Manager, Infrastructure Lease Accounting",
+      "u Senior Manager, M&A Finance Integration",
+      "k Treasury Director, Investments & Liquidity",
+      "k Treasury, Liquidity & Capital Planning"
+    ]
+  },
+  {
+    "slug": "samsara",
+    "company": "Samsara",
+    "domain": "samsara.com",
+    "ats": "greenhouse",
+    "total_jobs": 286,
+    "finance_titles": 11,
+    "finance_us": 11,
+    "finance_us_recent": 10,
+    "sample_titles": [
+      "Manager II, Accounting",
+      "Revenue Accounting Manager",
+      "Senior Financial Analyst",
+      "Senior Financial Analyst",
+      "Senior Financial Analyst",
+      "Senior Financial Analyst"
+    ],
+    "has_salary_text": 10,
+    "total": 286,
+    "n": 9,
+    "salary": 9,
+    "titles": [
+      "k Manager II, Accounting",
+      "k Revenue Accounting Manager",
+      "k Senior Financial Analyst",
+      "k Senior Financial Analyst",
+      "k Senior Financial Analyst",
+      "k Senior Financial Analyst",
+      "k Senior Manager, Revenue Accounting",
+      "k Sr Billing/AR Consultant",
+      "u Sr Customer Experience Specialist - Finance"
+    ]
+  },
+  {
+    "slug": "fivetran",
+    "company": "Fivetran",
+    "domain": "fivetran.com",
+    "ats": "greenhouse",
+    "total_jobs": 176,
+    "finance_titles": 15,
+    "finance_us": 10,
+    "finance_us_recent": 9,
+    "sample_titles": [
+      "Senior Manager Accounting",
+      "Senior Manager Accounting",
+      "Senior Strategic Finance Analyst",
+      "Senior Strategic Finance Analyst",
+      "Senior Strategic Finance Analyst",
+      "Technical Accounting & Reporting Senior Manager"
+    ],
+    "has_salary_text": 9,
+    "total": 176,
+    "n": 9,
+    "salary": 9,
+    "titles": [
+      "k Senior Manager Accounting",
+      "k Senior Manager Accounting",
+      "k Senior Strategic Finance Analyst",
+      "k Senior Strategic Finance Analyst",
+      "k Senior Strategic Finance Analyst",
+      "k Technical Accounting & Reporting Senior Manager",
+      "k Technical Accounting & Reporting Senior Manager",
+      "k Technical Accounting Senior Manager",
+      "k Technical Accounting Senior Manager"
+    ]
+  },
+  {
+    "slug": "databricks",
+    "company": "Databricks",
+    "domain": "databricks.com",
+    "ats": "greenhouse",
+    "total_jobs": 901,
+    "finance_titles": 26,
+    "finance_us": 16,
+    "finance_us_recent": 12,
+    "sample_titles": [
+      "Accounting Data & Technology Manager",
+      "Accounting Manager, Accounts Receivable",
+      "Director, Order to Revenue Compliance",
+      "Global Cash & Treasury Operations Manager",
+      "Lakebase Associate Director- Financial Services",
+      "Product Finance Director, AI Products & GPU Investment Strategy"
+    ],
+    "has_salary_text": 12,
+    "total": 901,
+    "n": 9,
+    "salary": 9,
+    "titles": [
+      "k Accounting Data & Technology Manager",
+      "k Accounting Manager, Accounts Receivable",
+      "k Global Cash & Treasury Operations Manager",
+      "u Lakebase Associate Director- Financial Services",
+      "u Product Finance Director, AI Products & GPU Investment Strategy",
+      "u Product Finance Senior Manager, Cloud Platform Costs & Operations",
+      "k Revenue Accounting Manager",
+      "u Sr. Deployment Strategist, FDE - Financial Services",
+      "u Sr. Engagement Manager, FDE - Financial Services"
+    ]
+  },
+  {
+    "slug": "oscar",
+    "company": "Oscar Health",
+    "domain": "hioscar.com",
+    "ats": "greenhouse",
+    "total_jobs": 247,
+    "finance_titles": 20,
+    "finance_us": 20,
+    "finance_us_recent": 11,
+    "sample_titles": [
+      "Associate Director, FP&A",
+      "Director, Accounting",
+      "Senior Accountant",
+      "Senior Director, Strategic Finance & Enterprise Planning",
+      "Senior Director, Strategic Finance & Enterprise Planning",
+      "Senior Director, Strategic Finance & Enterprise Planning"
+    ],
+    "has_salary_text": 11,
+    "total": 248,
+    "n": 7,
+    "salary": 7,
+    "titles": [
+      "k Associate Director, FP&A",
+      "k Director, Accounting",
+      "k Senior Accountant",
+      "u Senior Director, Strategic Finance & Enterprise Planning",
+      "u Senior Director, Strategic Finance & Enterprise Planning",
+      "u Senior Director, Strategic Finance & Enterprise Planning",
+      "u Senior Director, Strategic Finance & Enterprise Planning"
+    ]
+  },
+  {
+    "slug": "reddit",
+    "company": "Reddit",
+    "domain": "reddit.com",
+    "ats": "greenhouse",
+    "total_jobs": 155,
+    "finance_titles": 7,
+    "finance_us": 7,
+    "finance_us_recent": 6,
+    "sample_titles": [
+      "Global Indirect Tax Manager",
+      "Global Indirect Tax Manager",
+      "Global Indirect Tax Manager",
+      "International Payroll Analyst",
+      "International Payroll Analyst",
+      "Strategic Finance Senior Manager"
+    ],
+    "has_salary_text": 3,
+    "total": 155,
+    "n": 6,
+    "salary": 3,
+    "titles": [
+      "k Global Indirect Tax Manager",
+      "k Global Indirect Tax Manager",
+      "k Global Indirect Tax Manager",
+      "k International Payroll Analyst",
+      "k International Payroll Analyst",
+      "u Strategic Finance Senior Manager"
+    ]
+  },
+  {
+    "slug": "perplexity",
+    "company": "Perplexity",
+    "domain": "perplexity.ai",
+    "ats": "ashby",
+    "total_jobs": 133,
+    "finance_titles": 8,
+    "finance_us": 8,
+    "finance_us_recent": 6,
+    "sample_titles": [
+      "Strategic Finance Lead - Compute",
+      "Strategic Finance Lead - AI",
+      "Payroll Analyst",
+      "Billing Operations Lead",
+      "Strategic Finance Lead - GTM",
+      "Global Treasury Manager, Investments & Risk"
+    ],
+    "has_salary_text": 6,
+    "total": 133,
+    "n": 6,
+    "salary": 6,
+    "titles": [
+      "u Strategic Finance Lead - Compute",
+      "u Strategic Finance Lead - AI",
+      "k Payroll Analyst",
+      "k Billing Operations Lead",
+      "u Strategic Finance Lead - GTM",
+      "k Global Treasury Manager, Investments & Risk"
+    ]
+  },
+  {
+    "slug": "notion",
+    "company": "Notion",
+    "domain": "notion.so",
+    "ats": "ashby",
+    "total_jobs": 135,
+    "finance_titles": 8,
+    "finance_us": 8,
+    "finance_us_recent": 7,
+    "sample_titles": [
+      "Global Head of Land Revenue",
+      "Technical Program Manager, Finance Systems & Compliance",
+      "Strategic Finance, AI & Business Partnership",
+      "Strategic Finance, Corporate",
+      "Senior Tax Accountant",
+      "Senior Accountant - Corporate Accounting"
+    ],
+    "has_salary_text": 7,
+    "total": 135,
+    "n": 5,
+    "salary": 5,
+    "titles": [
+      "u Strategic Finance, AI & Business Partnership",
+      "u Strategic Finance, Corporate",
+      "k Senior Tax Accountant",
+      "k Senior Accountant - Corporate Accounting",
+      "k Payroll Analyst"
+    ]
+  },
+  {
+    "slug": "braze",
+    "company": "Braze",
+    "domain": "braze.com",
+    "ats": "greenhouse",
+    "total_jobs": 323,
+    "finance_titles": 4,
+    "finance_us": 4,
+    "finance_us_recent": 4,
+    "sample_titles": [
+      "Financial Analyst II, FP&A",
+      "Financial Analyst II, FP&A",
+      "Financial Analyst II, FP&A",
+      "Financial Analyst II, FP&A"
+    ],
+    "has_salary_text": 4,
+    "total": 323,
+    "n": 4,
+    "salary": 4,
+    "titles": [
+      "k Financial Analyst II, FP&A",
+      "k Financial Analyst II, FP&A",
+      "k Financial Analyst II, FP&A",
+      "k Financial Analyst II, FP&A"
+    ]
+  },
+  {
+    "slug": "mixpanel",
+    "company": "Mixpanel",
+    "domain": "mixpanel.com",
+    "ats": "greenhouse",
+    "total_jobs": 46,
+    "finance_titles": 4,
+    "finance_us": 4,
+    "finance_us_recent": 4,
+    "sample_titles": [
+      "Senior Strategic Finance Associate, G&A",
+      "Senior Strategic Finance Associate, G&A",
+      "Strategic Finance Associate, GTM",
+      "Strategic Finance Associate, GTM"
+    ],
+    "has_salary_text": 4,
+    "total": 46,
+    "n": 4,
+    "salary": 4,
+    "titles": [
+      "k Senior Strategic Finance Associate, G&A",
+      "k Senior Strategic Finance Associate, G&A",
+      "k Strategic Finance Associate, GTM",
+      "k Strategic Finance Associate, GTM"
+    ]
+  },
+  {
+    "slug": "saronic",
+    "company": "Saronic",
+    "domain": "saronic.com",
+    "ats": "ashby",
+    "total_jobs": 233,
+    "finance_titles": 4,
+    "finance_us": 4,
+    "finance_us_recent": 4,
+    "sample_titles": [
+      "Contract Payroll Manager (Workday)",
+      "Senior Revenue Accountant",
+      "Accounts Payable Manager",
+      "Senior FP&A Analyst – Corporate Finance"
+    ],
+    "has_salary_text": 0,
+    "total": 233,
+    "n": 4,
+    "salary": 0,
+    "titles": [
+      "k Contract Payroll Manager (Workday)",
+      "k Senior Revenue Accountant",
+      "k Accounts Payable Manager",
+      "k Senior FP&A Analyst – Corporate Finance"
+    ]
+  },
+  {
+    "slug": "oura",
+    "company": "Oura",
+    "domain": "ouraring.com",
+    "ats": "greenhouse",
+    "total_jobs": 81,
+    "finance_titles": 7,
+    "finance_us": 7,
+    "finance_us_recent": 4,
+    "sample_titles": [
+      "Accounting Manager, Fixed Assets & Capital Accounting",
+      "Senior Manager, Corporate Accounting",
+      "Senior SEC Reporting Accountant",
+      "Technical Revenue Accounting and Policy Manager"
+    ],
+    "has_salary_text": 4,
+    "total": 81,
+    "n": 4,
+    "salary": 4,
+    "titles": [
+      "k Accounting Manager, Fixed Assets & Capital Accounting",
+      "k Senior Manager, Corporate Accounting",
+      "k Senior SEC Reporting Accountant",
+      "k Technical Revenue Accounting and Policy Manager"
+    ]
+  },
+  {
+    "slug": "relativity",
+    "company": "Relativity Space",
+    "domain": "relativityspace.com",
+    "ats": "greenhouse",
+    "total_jobs": 383,
+    "finance_titles": 5,
+    "finance_us": 5,
+    "finance_us_recent": 4,
+    "sample_titles": [
+      "Plant Controller, Cape",
+      "Plant Controller, Long Beach",
+      "Plant Controller, Stennis",
+      "Senior Accountant II"
+    ],
+    "has_salary_text": 4,
+    "total": 383,
+    "n": 4,
+    "salary": 4,
+    "titles": [
+      "k Plant Controller, Cape",
+      "k Plant Controller, Long Beach",
+      "k Plant Controller, Stennis",
+      "k Senior Accountant II"
+    ]
+  },
+  {
+    "slug": "shieldai",
+    "company": "Shield AI",
+    "domain": "shield.ai",
+    "ats": "lever",
+    "total_jobs": 657,
+    "finance_titles": 21,
+    "finance_us": 19,
+    "finance_us_recent": 7,
+    "sample_titles": [
+      "Lead Program Finance (R5875)",
+      "Senior Accountant, Technical Accounting & Reporting (R6349)",
+      "Senior Manager, Corporate Finance (R5631)",
+      "Senior Program Finance Analyst (R5882)",
+      "Staff Business Systems Analyst – Order to Cash (R5881)",
+      "Staff Business Systems Analyst – Procure to Pay (R5879)"
+    ],
+    "has_salary_text": 7,
+    "total": 656,
+    "n": 4,
+    "salary": 4,
+    "titles": [
+      "u Lead Program Finance (R5875)",
+      "k Senior Accountant, Technical Accounting & Reporting (R6349)",
+      "u Senior Manager, Corporate Finance (R5631)",
+      "k Senior Program Finance Analyst (R5882)"
+    ]
+  },
+  {
+    "slug": "klaviyo",
+    "company": "Klaviyo",
+    "domain": "klaviyo.com",
+    "ats": "greenhouse",
+    "total_jobs": 165,
+    "finance_titles": 4,
+    "finance_us": 4,
+    "finance_us_recent": 4,
+    "sample_titles": [
+      "Lead Treasury Analyst",
+      "Lead Treasury Analyst",
+      "Manager, IT SOX",
+      "Manager, IT SOX"
+    ],
+    "has_salary_text": 4,
+    "total": 165,
+    "n": 4,
+    "salary": 4,
+    "titles": [
+      "k Lead Treasury Analyst",
+      "k Lead Treasury Analyst",
+      "k Manager, IT SOX",
+      "k Manager, IT SOX"
+    ]
+  },
+  {
+    "slug": "plaid",
+    "company": "Plaid",
+    "domain": "plaid.com",
+    "ats": "ashby",
+    "total_jobs": 129,
+    "finance_titles": 7,
+    "finance_us": 7,
+    "finance_us_recent": 5,
+    "sample_titles": [
+      "Revenue Enablement Leader",
+      "Head of Revenue - Banking and Wealth",
+      "Financial Analyst, Corporate FP&A",
+      "Senior Financial Analyst, Corporate Finance & Strategy",
+      "Strategic Finance, GTM & Revenue"
+    ],
+    "has_salary_text": 5,
+    "total": 129,
+    "n": 3,
+    "salary": 3,
+    "titles": [
+      "k Financial Analyst, Corporate FP&A",
+      "k Senior Financial Analyst, Corporate Finance & Strategy",
+      "u Strategic Finance, GTM & Revenue"
+    ]
+  },
+  {
+    "slug": "checkr",
+    "company": "Checkr",
+    "domain": "checkr.com",
+    "ats": "greenhouse",
+    "total_jobs": 42,
+    "finance_titles": 4,
+    "finance_us": 4,
+    "finance_us_recent": 3,
+    "sample_titles": [
+      "Senior Strategic Finance Manager - Go-To-Market",
+      "Strategic Finance Senior Analyst",
+      "Technical Revenue Accounting Manager"
+    ],
+    "has_salary_text": 3,
+    "total": 42,
+    "n": 3,
+    "salary": 3,
+    "titles": [
+      "k Senior Strategic Finance Manager - Go-To-Market",
+      "u Strategic Finance Senior Analyst",
+      "k Technical Revenue Accounting Manager"
+    ]
+  },
+  {
+    "slug": "headway",
+    "company": "Headway",
+    "domain": "headway.co",
+    "ats": "ashby",
+    "total_jobs": 89,
+    "finance_titles": 6,
+    "finance_us": 6,
+    "finance_us_recent": 3,
+    "sample_titles": [
+      "Strategic Finance Manager",
+      "Senior Strategic Finance Manager",
+      "Accounts Payable Manager"
+    ],
+    "has_salary_text": 3,
+    "total": 89,
+    "n": 3,
+    "salary": 3,
+    "titles": [
+      "k Strategic Finance Manager",
+      "k Senior Strategic Finance Manager",
+      "k Accounts Payable Manager"
+    ]
+  },
+  {
+    "slug": "verkada",
+    "company": "Verkada",
+    "domain": "verkada.com",
+    "ats": "greenhouse",
+    "total_jobs": 327,
+    "finance_titles": 3,
+    "finance_us": 3,
+    "finance_us_recent": 3,
+    "sample_titles": [
+      "Senior Accountant",
+      "(Sr) Associate / Manager, Strategic Finance & Business Operations",
+      "(Sr) Manager, Strategic Finance & Business Operations - GTM"
+    ],
+    "has_salary_text": 3,
+    "total": 327,
+    "n": 3,
+    "salary": 3,
+    "titles": [
+      "k Senior Accountant",
+      "u (Sr) Associate / Manager, Strategic Finance & Business Operations",
+      "u (Sr) Manager, Strategic Finance & Business Operations - GTM"
+    ]
+  },
+  {
+    "slug": "applied",
+    "company": "Applied Intuition",
+    "domain": "appliedintuition.com",
+    "ats": "ashby",
+    "total_jobs": 330,
+    "finance_titles": 3,
+    "finance_us": 3,
+    "finance_us_recent": 3,
+    "sample_titles": [
+      "Technical Revenue Accounting Manager",
+      "Treasury Manager",
+      "Senior Cost Accountant - Government Contracting (Accounts Payable, Job Costing)"
+    ],
+    "has_salary_text": 3,
+    "total": 330,
+    "n": 3,
+    "salary": 3,
+    "titles": [
+      "k Technical Revenue Accounting Manager",
+      "k Treasury Manager",
+      "k Senior Cost Accountant - Government Contracting (Accounts Payable, Job Costing)"
+    ]
+  },
+  {
+    "slug": "lucidmotors",
+    "company": "Lucid Motors",
+    "domain": "lucidmotors.com",
+    "ats": "greenhouse",
+    "total_jobs": 446,
+    "finance_titles": 7,
+    "finance_us": 3,
+    "finance_us_recent": 3,
+    "sample_titles": [
+      "Manager, SAP Finance",
+      "Sr. Payroll Professional",
+      "Sr. Treasury Analyst"
+    ],
+    "has_salary_text": 2,
+    "total": 446,
+    "n": 3,
+    "salary": 2,
+    "titles": [
+      "u Manager, SAP Finance",
+      "k Sr. Payroll Professional",
+      "k Sr. Treasury Analyst"
+    ]
+  },
+  {
+    "slug": "roofstock",
+    "company": "Roofstock",
+    "domain": "roofstock.com",
+    "ats": "greenhouse",
+    "total_jobs": 10,
+    "finance_titles": 3,
+    "finance_us": 3,
+    "finance_us_recent": 3,
+    "sample_titles": [
+      "Accounting Manager",
+      "Property Accountant, Institutional",
+      "Property Accountant, Retail"
+    ],
+    "has_salary_text": 3,
+    "total": 10,
+    "n": 3,
+    "salary": 3,
+    "titles": [
+      "k Accounting Manager",
+      "k Property Accountant, Institutional",
+      "k Property Accountant, Retail"
+    ]
+  },
+  {
+    "slug": "lyrahealth",
+    "company": "Lyra Health",
+    "domain": "lyrahealth.com",
+    "ats": "lever",
+    "total_jobs": 476,
+    "finance_titles": 5,
+    "finance_us": 3,
+    "finance_us_recent": 3,
+    "sample_titles": [
+      "Prescribing MD or DO - Conway, AR  - 1099 Contract",
+      "Sr. Accounting Transformation Lead",
+      "Vice President, Global Accounting"
+    ],
+    "has_salary_text": 2,
+    "total": 476,
+    "n": 3,
+    "salary": 2,
+    "titles": [
+      "k Prescribing MD or DO - Conway, AR  - 1099 Contract",
+      "k Sr. Accounting Transformation Lead",
+      "u Vice President, Global Accounting"
+    ]
+  },
+  {
+    "slug": "chime",
+    "company": "Chime",
+    "domain": "chime.com",
+    "ats": "greenhouse",
+    "total_jobs": 70,
+    "finance_titles": 4,
+    "finance_us": 4,
+    "finance_us_recent": 4,
+    "sample_titles": [
+      "Lead Analyst, Financial Crimes",
+      "Senior Associate, Strategic Finance",
+      "Senior Data Scientist, Finance & Strategy",
+      "Senior Manager, Financial Reporting"
+    ],
+    "has_salary_text": 4,
+    "total": 70,
+    "n": 2,
+    "salary": 2,
+    "titles": [
+      "u Senior Associate, Strategic Finance",
+      "k Senior Manager, Financial Reporting"
+    ]
+  },
+  {
+    "slug": "pagerduty",
+    "company": "PagerDuty",
+    "domain": "pagerduty.com",
+    "ats": "greenhouse",
+    "total_jobs": 54,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Senior FP&A Manager",
+      "Tax Manager"
+    ],
+    "has_salary_text": 0,
+    "total": 54,
+    "n": 2,
+    "salary": 0,
+    "titles": [
+      "k Senior FP&A Manager",
+      "k Tax Manager"
+    ]
+  },
+  {
+    "slug": "squarespace",
+    "company": "Squarespace",
+    "domain": "squarespace.com",
+    "ats": "greenhouse",
+    "total_jobs": 26,
+    "finance_titles": 3,
+    "finance_us": 3,
+    "finance_us_recent": 3,
+    "sample_titles": [
+      "Finance Manager",
+      "Manager, Financial Systems",
+      "Senior Director, FP&A"
+    ],
+    "has_salary_text": 3,
+    "total": 26,
+    "n": 2,
+    "salary": 2,
+    "titles": [
+      "k Finance Manager",
+      "k Senior Director, FP&A"
+    ]
+  },
+  {
+    "slug": "vercel",
+    "company": "Vercel",
+    "domain": "vercel.com",
+    "ats": "greenhouse",
+    "total_jobs": 94,
+    "finance_titles": 5,
+    "finance_us": 3,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "FP&A Manager, Product",
+      "Senior Accountant"
+    ],
+    "has_salary_text": 2,
+    "total": 94,
+    "n": 2,
+    "salary": 2,
+    "titles": [
+      "k FP&A Manager, Product",
+      "k Senior Accountant"
+    ]
+  },
+  {
+    "slug": "sentry",
+    "company": "Sentry",
+    "domain": "sentry.io",
+    "ats": "ashby",
+    "total_jobs": 45,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Director, FP&A",
+      "FP&A Manager"
+    ],
+    "has_salary_text": 2,
+    "total": 45,
+    "n": 2,
+    "salary": 2,
+    "titles": [
+      "k Director, FP&A",
+      "k FP&A Manager"
+    ]
+  },
+  {
+    "slug": "benchling",
+    "company": "Benchling",
+    "domain": "benchling.com",
+    "ats": "ashby",
+    "total_jobs": 53,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Strategic Financial Analyst, GTM",
+      "Revenue Accountant Manager"
+    ],
+    "has_salary_text": 2,
+    "total": 53,
+    "n": 2,
+    "salary": 2,
+    "titles": [
+      "k Strategic Financial Analyst, GTM",
+      "k Revenue Accountant Manager"
+    ]
+  },
+  {
+    "slug": "angi",
+    "company": "Angi",
+    "domain": "angi.com",
+    "ats": "ashby",
+    "total_jobs": 19,
+    "finance_titles": 3,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Finance Manager",
+      "Senior Manager, Financial Reporting & Technical Accounting"
+    ],
+    "has_salary_text": 2,
+    "total": 19,
+    "n": 2,
+    "salary": 2,
+    "titles": [
+      "k Finance Manager",
+      "k Senior Manager, Financial Reporting & Technical Accounting"
+    ]
+  },
+  {
+    "slug": "flexport",
+    "company": "Flexport",
+    "domain": "flexport.com",
+    "ats": "greenhouse",
+    "total_jobs": 206,
+    "finance_titles": 10,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Accounts Receivable Collections Analyst",
+      "Treasury Manager"
+    ],
+    "has_salary_text": 2,
+    "total": 206,
+    "n": 2,
+    "salary": 2,
+    "titles": [
+      "k Accounts Receivable Collections Analyst",
+      "k Treasury Manager"
+    ]
+  },
+  {
+    "slug": "lemonade",
+    "company": "Lemonade",
+    "domain": "lemonade.com",
+    "ats": "ashby",
+    "total_jobs": 39,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Senior Manager, Treasury",
+      "Senior Accountant"
+    ],
+    "has_salary_text": 2,
+    "total": 39,
+    "n": 2,
+    "salary": 2,
+    "titles": [
+      "k Senior Manager, Treasury",
+      "k Senior Accountant"
+    ]
+  },
+  {
+    "slug": "whoop",
+    "company": "WHOOP",
+    "domain": "whoop.com",
+    "ats": "ashby",
+    "total_jobs": 168,
+    "finance_titles": 4,
+    "finance_us": 4,
+    "finance_us_recent": 3,
+    "sample_titles": [
+      "Senior Revenue Recovery Analyst",
+      "Staff Accountant",
+      "FP&A Manager"
+    ],
+    "has_salary_text": 3,
+    "total": 168,
+    "n": 2,
+    "salary": 2,
+    "titles": [
+      "k Staff Accountant",
+      "k FP&A Manager"
+    ]
+  },
+  {
+    "slug": "snorkelai",
+    "company": "Snorkel AI",
+    "domain": "snorkel.ai",
+    "ats": "greenhouse",
+    "total_jobs": 46,
+    "finance_titles": 3,
+    "finance_us": 3,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Corporate FP&A Manager",
+      "Finance Manager, DaaS"
+    ],
+    "has_salary_text": 2,
+    "total": 46,
+    "n": 2,
+    "salary": 2,
+    "titles": [
+      "k Corporate FP&A Manager",
+      "k Finance Manager, DaaS"
+    ]
+  },
+  {
+    "slug": "includedhealth",
+    "company": "Included Health",
+    "domain": "includedhealth.com",
+    "ats": "lever",
+    "total_jobs": 52,
+    "finance_titles": 3,
+    "finance_us": 3,
+    "finance_us_recent": 3,
+    "sample_titles": [
+      "Accounts Receivable Staff Accountant",
+      "Sr. Manager, Accounting",
+      "Workday Systems Analyst – Finance"
+    ],
+    "has_salary_text": 3,
+    "total": 52,
+    "n": 2,
+    "salary": 2,
+    "titles": [
+      "k Accounts Receivable Staff Accountant",
+      "k Sr. Manager, Accounting"
+    ]
+  },
+  {
+    "slug": "renttherunway",
+    "company": "Rent the Runway",
+    "domain": "renttherunway.com",
+    "ats": "greenhouse",
+    "total_jobs": 28,
+    "finance_titles": 3,
+    "finance_us": 3,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Manager, FP&A",
+      "Staff Accountant"
+    ],
+    "has_salary_text": 2,
+    "total": 28,
+    "n": 2,
+    "salary": 2,
+    "titles": [
+      "k Manager, FP&A",
+      "k Staff Accountant"
+    ]
+  },
+  {
+    "slug": "honeycomb",
+    "company": "Honeycomb",
+    "domain": "honeycomb.io",
+    "ats": "greenhouse",
+    "total_jobs": 24,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Payroll Manager",
+      "Senior Financial Analyst"
+    ],
+    "has_salary_text": 2,
+    "total": 24,
+    "n": 2,
+    "salary": 2,
+    "titles": [
+      "k Payroll Manager",
+      "k Senior Financial Analyst"
+    ]
+  },
+  {
+    "slug": "snyk",
+    "company": "Snyk",
+    "domain": "snyk.io",
+    "ats": "ashby",
+    "total_jobs": 28,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Senior Revenue Accountant",
+      "Senior Manager, Revenue Accounting"
+    ],
+    "has_salary_text": 2,
+    "total": 28,
+    "n": 2,
+    "salary": 2,
+    "titles": [
+      "k Senior Revenue Accountant",
+      "k Senior Manager, Revenue Accounting"
+    ]
+  },
+  {
+    "slug": "fastly",
+    "company": "Fastly",
+    "domain": "fastly.com",
+    "ats": "greenhouse",
+    "total_jobs": 53,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Manager, Accounting",
+      "Strategic Finance Senior Manager"
+    ],
+    "has_salary_text": 2,
+    "total": 53,
+    "n": 2,
+    "salary": 2,
+    "titles": [
+      "k Manager, Accounting",
+      "u Strategic Finance Senior Manager"
+    ]
+  },
+  {
+    "slug": "peloton",
+    "company": "Peloton",
+    "domain": "onepeloton.com",
+    "ats": "greenhouse",
+    "total_jobs": 58,
+    "finance_titles": 4,
+    "finance_us": 4,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Sr. Accountant",
+      "Sr. Financial Analyst, Financial Planning and Analysis"
+    ],
+    "has_salary_text": 2,
+    "total": 58,
+    "n": 2,
+    "salary": 2,
+    "titles": [
+      "k Sr. Accountant",
+      "k Sr. Financial Analyst, Financial Planning and Analysis"
+    ]
+  },
+  {
+    "slug": "redwoodmaterials",
+    "company": "Redwood Materials",
+    "domain": "redwoodmaterials.com",
+    "ats": "greenhouse",
+    "total_jobs": 140,
+    "finance_titles": 4,
+    "finance_us": 4,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Accounts Payable Specialist",
+      "Senior Finance Associate"
+    ],
+    "has_salary_text": 1,
+    "total": 141,
+    "n": 2,
+    "salary": 1,
+    "titles": [
+      "k Accounts Payable Specialist",
+      "k Senior Finance Associate"
+    ]
+  },
+  {
+    "slug": "rula",
+    "company": "Rula",
+    "domain": "rula.com",
+    "ats": "ashby",
+    "total_jobs": 39,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Sr. Strategic Finance Manager (Remote)",
+      "Sr. Finance Manager - Deal Desk (Remote)"
+    ],
+    "has_salary_text": 2,
+    "total": 39,
+    "n": 2,
+    "salary": 2,
+    "titles": [
+      "k Sr. Strategic Finance Manager (Remote)",
+      "k Sr. Finance Manager - Deal Desk (Remote)"
+    ]
+  },
+  {
+    "slug": "thatch",
+    "company": "Thatch",
+    "domain": "thatch.com",
+    "ats": "greenhouse",
+    "total_jobs": 28,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Operations Specialist, Billing and Collections",
+      "Operations Specialist, Payroll Reconciliation"
+    ],
+    "has_salary_text": 2,
+    "total": 28,
+    "n": 2,
+    "salary": 2,
+    "titles": [
+      "k Operations Specialist, Billing and Collections",
+      "k Operations Specialist, Payroll Reconciliation"
+    ]
+  },
+  {
+    "slug": "amplitude",
+    "company": "Amplitude",
+    "domain": "amplitude.com",
+    "ats": "ashby",
+    "total_jobs": 41,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Sr Billing and Collections Analyst"
+    ],
+    "has_salary_text": 1,
+    "total": 41,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Sr Billing and Collections Analyst"
+    ]
+  },
+  {
+    "slug": "clickup",
+    "company": "ClickUp",
+    "domain": "clickup.com",
+    "ats": "ashby",
+    "total_jobs": 44,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Strategic Finance Manager"
+    ],
+    "has_salary_text": 1,
+    "total": 44,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Strategic Finance Manager"
+    ]
+  },
+  {
+    "slug": "coursera",
+    "company": "Coursera",
+    "domain": "coursera.org",
+    "ats": "greenhouse",
+    "total_jobs": 28,
+    "finance_titles": 2,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Corporate FP&A Manager"
+    ],
+    "has_salary_text": 1,
+    "total": 28,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Corporate FP&A Manager"
+    ]
+  },
+  {
+    "slug": "gitlab",
+    "company": "GitLab",
+    "domain": "gitlab.com",
+    "ats": "greenhouse",
+    "total_jobs": 232,
+    "finance_titles": 3,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Director, FP&A",
+      "Senior Revenue Operations Manager"
+    ],
+    "has_salary_text": 2,
+    "total": 232,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Director, FP&A"
+    ]
+  },
+  {
+    "slug": "gusto",
+    "company": "Gusto",
+    "domain": "gusto.com",
+    "ats": "greenhouse",
+    "total_jobs": 100,
+    "finance_titles": 4,
+    "finance_us": 4,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "FP&A AI Architect",
+      "Payroll and Taxes Manager"
+    ],
+    "has_salary_text": 2,
+    "total": 100,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Payroll and Taxes Manager"
+    ]
+  },
+  {
+    "slug": "thumbtack",
+    "company": "Thumbtack",
+    "domain": "thumbtack.com",
+    "ats": "ashby",
+    "total_jobs": 52,
+    "finance_titles": 5,
+    "finance_us": 2,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Corporate FP&A Manager"
+    ],
+    "has_salary_text": 1,
+    "total": 52,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Corporate FP&A Manager"
+    ]
+  },
+  {
+    "slug": "betterment",
+    "company": "Betterment",
+    "domain": "betterment.com",
+    "ats": "greenhouse",
+    "total_jobs": 24,
+    "finance_titles": 4,
+    "finance_us": 4,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Payroll & Benefits Coordinator",
+      "Revenue Operations Manager - Revenue Planning & Insights"
+    ],
+    "has_salary_text": 2,
+    "total": 24,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Payroll & Benefits Coordinator"
+    ]
+  },
+  {
+    "slug": "yext",
+    "company": "Yext",
+    "domain": "yext.com",
+    "ats": "greenhouse",
+    "total_jobs": 25,
+    "finance_titles": 2,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Director, Revenue Accounting"
+    ],
+    "has_salary_text": 1,
+    "total": 25,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Director, Revenue Accounting"
+    ]
+  },
+  {
+    "slug": "outreach",
+    "company": "Outreach",
+    "domain": "outreach.io",
+    "ats": "lever",
+    "total_jobs": 24,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior Financial Analyst"
+    ],
+    "has_salary_text": 1,
+    "total": 24,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Senior Financial Analyst"
+    ]
+  },
+  {
+    "slug": "blend",
+    "company": "Blend",
+    "domain": "blend.com",
+    "ats": "greenhouse",
+    "total_jobs": 15,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior Manager, Technical Accounting"
+    ],
+    "has_salary_text": 1,
+    "total": 15,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Senior Manager, Technical Accounting"
+    ]
+  },
+  {
+    "slug": "classpass",
+    "company": "ClassPass",
+    "domain": "classpass.com",
+    "ats": "greenhouse",
+    "total_jobs": 34,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Manager of FP&A, ClassPass"
+    ],
+    "has_salary_text": 1,
+    "total": 34,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Manager of FP&A, ClassPass"
+    ]
+  },
+  {
+    "slug": "cockroachlabs",
+    "company": "Cockroach Labs",
+    "domain": "cockroachlabs.com",
+    "ats": "greenhouse",
+    "total_jobs": 15,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Director, FP&A"
+    ],
+    "has_salary_text": 1,
+    "total": 15,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Director, FP&A"
+    ]
+  },
+  {
+    "slug": "outschool",
+    "company": "Outschool",
+    "domain": "outschool.com",
+    "ats": "ashby",
+    "total_jobs": 7,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Financial Planning & Analysis Manager"
+    ],
+    "has_salary_text": 1,
+    "total": 7,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Financial Planning & Analysis Manager"
+    ]
+  },
+  {
+    "slug": "everlaw",
+    "company": "Everlaw",
+    "domain": "everlaw.com",
+    "ats": "greenhouse",
+    "total_jobs": 36,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior Financial Analyst"
+    ],
+    "has_salary_text": 1,
+    "total": 36,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Senior Financial Analyst"
+    ]
+  },
+  {
+    "slug": "ro",
+    "company": "Ro",
+    "domain": "ro.co",
+    "ats": "lever",
+    "total_jobs": 52,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior Payroll Analyst"
+    ],
+    "has_salary_text": 1,
+    "total": 52,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Senior Payroll Analyst"
+    ]
+  },
+  {
+    "slug": "sardine",
+    "company": "Sardine",
+    "domain": "sardine.ai",
+    "ats": "ashby",
+    "total_jobs": 46,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Payroll Specialist - US/Canada"
+    ],
+    "has_salary_text": 1,
+    "total": 46,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Payroll Specialist - US/Canada"
+    ]
+  },
+  {
+    "slug": "forter",
+    "company": "Forter",
+    "domain": "forter.com",
+    "ats": "greenhouse",
+    "total_jobs": 22,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior Accountant"
+    ],
+    "has_salary_text": 1,
+    "total": 22,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Senior Accountant"
+    ]
+  },
+  {
+    "slug": "qualia",
+    "company": "Qualia",
+    "domain": "qualia.com",
+    "ats": "greenhouse",
+    "total_jobs": 22,
+    "finance_titles": 3,
+    "finance_us": 3,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Technical Accounting and Special Projects Manager"
+    ],
+    "has_salary_text": 1,
+    "total": 22,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Technical Accounting and Special Projects Manager"
+    ]
+  },
+  {
+    "slug": "via",
+    "company": "Via",
+    "domain": "ridewithvia.com",
+    "ats": "greenhouse",
+    "total_jobs": 181,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Global Head of Payroll"
+    ],
+    "has_salary_text": 1,
+    "total": 181,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Global Head of Payroll"
+    ]
+  },
+  {
+    "slug": "posthog",
+    "company": "PostHog",
+    "domain": "posthog.com",
+    "ats": "ashby",
+    "total_jobs": 10,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Finance Manager, Revenue Accounting"
+    ],
+    "has_salary_text": 1,
+    "total": 10,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Finance Manager, Revenue Accounting"
+    ]
+  },
+  {
+    "slug": "abnormalsecurity",
+    "company": "Abnormal Security",
+    "domain": "abnormalsecurity.com",
+    "ats": "greenhouse",
+    "total_jobs": 79,
+    "finance_titles": 3,
+    "finance_us": 3,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior Director, GTM Finance"
+    ],
+    "has_salary_text": 1,
+    "total": 79,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "u Senior Director, GTM Finance"
+    ]
+  },
+  {
+    "slug": "stitchfix",
+    "company": "Stitch Fix",
+    "domain": "stitchfix.com",
+    "ats": "greenhouse",
+    "total_jobs": 15,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior Accountant, Financial Reporting"
+    ],
+    "has_salary_text": 1,
+    "total": 15,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Senior Accountant, Financial Reporting"
+    ]
+  },
+  {
+    "slug": "watershed",
+    "company": "Watershed",
+    "domain": "watershed.com",
+    "ats": "ashby",
+    "total_jobs": 39,
+    "finance_titles": 4,
+    "finance_us": 2,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Corporate FP&A manager"
+    ],
+    "has_salary_text": 1,
+    "total": 39,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Corporate FP&A manager"
+    ]
+  },
+  {
+    "slug": "elevenlabs",
+    "company": "ElevenLabs",
+    "domain": "elevenlabs.io",
+    "ats": "ashby",
+    "total_jobs": 157,
+    "finance_titles": 8,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Executive Assistant - Revenue",
+      "Revenue Accountant"
+    ],
+    "has_salary_text": 2,
+    "total": 157,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Revenue Accountant"
+    ]
+  },
+  {
+    "slug": "scaleai",
+    "company": "Scale AI",
+    "domain": "scale.com",
+    "ats": "greenhouse",
+    "total_jobs": 178,
+    "finance_titles": 7,
+    "finance_us": 6,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Revenue Operations Manager",
+      "US Payroll Specialist"
+    ],
+    "has_salary_text": 1,
+    "total": 178,
+    "n": 1,
+    "salary": 0,
+    "titles": [
+      "k US Payroll Specialist"
+    ]
+  },
+  {
+    "slug": "airbyte",
+    "company": "Airbyte",
+    "domain": "airbyte.com",
+    "ats": "ashby",
+    "total_jobs": 13,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Accounting Manager"
+    ],
+    "has_salary_text": 1,
+    "total": 13,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Accounting Manager"
+    ]
+  },
+  {
+    "slug": "grafanalabs",
+    "company": "Grafana Labs",
+    "domain": "grafana.com",
+    "ats": "greenhouse",
+    "total_jobs": 133,
+    "finance_titles": 3,
+    "finance_us": 3,
+    "finance_us_recent": 3,
+    "sample_titles": [
+      "Finance Systems Manager | EST Canada | Remote",
+      "Finance Systems Manager | EST United States | Remote",
+      "Technical Accounting & Financial Reporting Manager | United States | Remote"
+    ],
+    "has_salary_text": 3,
+    "total": 133,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Technical Accounting & Financial Reporting Manager | United States | Remote"
+    ]
+  },
+  {
+    "slug": "clickhouse",
+    "company": "ClickHouse",
+    "domain": "clickhouse.com",
+    "ats": "ashby",
+    "total_jobs": 202,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior Revenue Accountant"
+    ],
+    "has_salary_text": 1,
+    "total": 202,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Senior Revenue Accountant"
+    ]
+  },
+  {
+    "slug": "greenlight",
+    "company": "Greenlight",
+    "domain": "greenlight.com",
+    "ats": "lever",
+    "total_jobs": 13,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Strategic Finance Manager"
+    ],
+    "has_salary_text": 1,
+    "total": 13,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Strategic Finance Manager"
+    ]
+  },
+  {
+    "slug": "temporal",
+    "company": "Temporal",
+    "domain": "temporal.io",
+    "ats": "ashby",
+    "total_jobs": 73,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Corporate Finance"
+    ],
+    "has_salary_text": 1,
+    "total": 73,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "u Corporate Finance"
+    ]
+  },
+  {
+    "slug": "huntress",
+    "company": "Huntress",
+    "domain": "huntress.com",
+    "ats": "greenhouse",
+    "total_jobs": 35,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Director, Revenue Readiness",
+      "Vice President, FP&A"
+    ],
+    "has_salary_text": 2,
+    "total": 33,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "u Vice President, FP&A"
+    ]
+  },
+  {
+    "slug": "upgrade",
+    "company": "Upgrade",
+    "domain": "upgrade.com",
+    "ats": "greenhouse",
+    "total_jobs": 26,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Corporate FP&A Manager",
+      "Senior Collections Strategy Analyst"
+    ],
+    "has_salary_text": 2,
+    "total": 26,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Corporate FP&A Manager"
+    ]
+  },
+  {
+    "slug": "acorns",
+    "company": "Acorns",
+    "domain": "acorns.com",
+    "ats": "ashby",
+    "total_jobs": 14,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Finance Analyst"
+    ],
+    "has_salary_text": 1,
+    "total": 14,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Finance Analyst"
+    ]
+  },
+  {
+    "slug": "poshmark",
+    "company": "Poshmark",
+    "domain": "poshmark.com",
+    "ats": "ashby",
+    "total_jobs": 33,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Director, Financial Crimes Compliance - AML Officer",
+      "Senior Revenue Accountant"
+    ],
+    "has_salary_text": 2,
+    "total": 33,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Senior Revenue Accountant"
+    ]
+  },
+  {
+    "slug": "pagaya",
+    "company": "Pagaya",
+    "domain": "pagaya.com",
+    "ats": "greenhouse",
+    "total_jobs": 15,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Analyst, Treasury",
+      "Senior Lead - Collections & Recovery"
+    ],
+    "has_salary_text": 1,
+    "total": 15,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Analyst, Treasury"
+    ]
+  },
+  {
+    "slug": "melio",
+    "company": "Melio",
+    "domain": "meliopayments.com",
+    "ats": "greenhouse",
+    "total_jobs": 24,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "FP&A Lead"
+    ],
+    "has_salary_text": 1,
+    "total": 24,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k FP&A Lead"
+    ]
+  },
+  {
+    "slug": "eightsleep",
+    "company": "Eight Sleep",
+    "domain": "eightsleep.com",
+    "ats": "ashby",
+    "total_jobs": 40,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Accounting Manager"
+    ],
+    "has_salary_text": 0,
+    "total": 40,
+    "n": 1,
+    "salary": 0,
+    "titles": [
+      "k Accounting Manager"
+    ]
+  },
+  {
+    "slug": "thrivemarket",
+    "company": "Thrive Market",
+    "domain": "thrivemarket.com",
+    "ats": "greenhouse",
+    "total_jobs": 16,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior Accountant"
+    ],
+    "has_salary_text": 1,
+    "total": 15,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Senior Accountant"
+    ]
+  },
+  {
+    "slug": "aurorasolar",
+    "company": "Aurora Solar",
+    "domain": "aurorasolar.com",
+    "ats": "ashby",
+    "total_jobs": 10,
+    "finance_titles": 2,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "FP&A Manager"
+    ],
+    "has_salary_text": 1,
+    "total": 10,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k FP&A Manager"
+    ]
+  },
+  {
+    "slug": "liquiddeath",
+    "company": "Liquid Death",
+    "domain": "liquiddeath.com",
+    "ats": "greenhouse",
+    "total_jobs": 1,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior Accounting Clerk (Contract)"
+    ],
+    "has_salary_text": 1,
+    "total": 1,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Senior Accounting Clerk (Contract)"
+    ]
+  },
+  {
+    "slug": "hermeus",
+    "company": "Hermeus",
+    "domain": "hermeus.com",
+    "ats": "lever",
+    "total_jobs": 80,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior Finance Manager"
+    ],
+    "has_salary_text": 1,
+    "total": 80,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Senior Finance Manager"
+    ]
+  },
+  {
+    "slug": "astranis",
+    "company": "Astranis",
+    "domain": "astranis.com",
+    "ats": "greenhouse",
+    "total_jobs": 182,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Finance Systems Associate (Winter 2027)",
+      "Financial Analyst"
+    ],
+    "has_salary_text": 2,
+    "total": 182,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Financial Analyst"
+    ]
+  },
+  {
+    "slug": "formlabs",
+    "company": "Formlabs",
+    "domain": "formlabs.com",
+    "ats": "greenhouse",
+    "total_jobs": 246,
+    "finance_titles": 5,
+    "finance_us": 5,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Accounting & Operations Staff"
+    ],
+    "has_salary_text": 0,
+    "total": 246,
+    "n": 1,
+    "salary": 0,
+    "titles": [
+      "k Accounting & Operations Staff"
+    ]
+  },
+  {
+    "slug": "demandbase",
+    "company": "Demandbase",
+    "domain": "demandbase.com",
+    "ats": "ashby",
+    "total_jobs": 15,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior FP&A Manager"
+    ],
+    "has_salary_text": 1,
+    "total": 15,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Senior FP&A Manager"
+    ]
+  },
+  {
+    "slug": "zoominfo",
+    "company": "ZoomInfo",
+    "domain": "zoominfo.com",
+    "ats": "greenhouse",
+    "total_jobs": 107,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior Manager, FP&A"
+    ],
+    "has_salary_text": 0,
+    "total": 107,
+    "n": 1,
+    "salary": 0,
+    "titles": [
+      "k Senior Manager, FP&A"
+    ]
+  },
+  {
+    "slug": "commure",
+    "company": "Commure",
+    "domain": "commure.com",
+    "ats": "ashby",
+    "total_jobs": 77,
+    "finance_titles": 5,
+    "finance_us": 3,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior Operations Manager, Implementation & Accounts - Hospital Billing"
+    ],
+    "has_salary_text": 1,
+    "total": 77,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Senior Operations Manager, Implementation & Accounts - Hospital Billing"
+    ]
+  },
+  {
+    "slug": "pathward",
+    "company": "Pathward",
+    "domain": "pathward.com",
+    "ats": "greenhouse",
+    "total_jobs": 58,
+    "finance_titles": 8,
+    "finance_us": 8,
+    "finance_us_recent": 7,
+    "sample_titles": [
+      "Capital Markets Analyst – Warehouse Finance",
+      "Credit Portfolio Analyst II (Structured Finance)",
+      "Financial Crimes Quality Assurance (QA) Analyst I",
+      "Financial Crimes Quality Assurance (QA) Analyst II",
+      "Financial Crimes Quality Assurance (QA) Sr. Analyst",
+      "Payroll Administrator I"
+    ],
+    "has_salary_text": 7,
+    "total": 58,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Payroll Administrator I"
+    ]
+  },
+  {
+    "slug": "nomihealth",
+    "company": "Nomi Health",
+    "domain": "nomihealth.com",
+    "ats": "lever",
+    "total_jobs": 6,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Technical Implementation Specialist - Financial Services"
+    ],
+    "has_salary_text": 1,
+    "total": 6,
+    "n": 1,
+    "salary": 0,
+    "titles": [
+      "u Technical Implementation Specialist - Financial Services"
+    ]
+  },
+  {
+    "slug": "latitude",
+    "company": "Latitude",
+    "domain": "latitude.io",
+    "ats": "greenhouse",
+    "total_jobs": 34,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Accounts Payable Analyst (Contract)"
+    ],
+    "has_salary_text": 0,
+    "total": 34,
+    "n": 1,
+    "salary": 0,
+    "titles": [
+      "k Accounts Payable Analyst (Contract)"
+    ]
+  },
+  {
+    "slug": "angellist",
+    "company": "AngelList",
+    "domain": "angellist.com",
+    "ats": "lever",
+    "total_jobs": 25,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Staff Accountant, AP & Procurement"
+    ],
+    "has_salary_text": 1,
+    "total": 25,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Staff Accountant, AP & Procurement"
+    ]
+  },
+  {
+    "slug": "avetta",
+    "company": "Avetta",
+    "domain": "avetta.com",
+    "ats": "greenhouse",
+    "total_jobs": 11,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Billing Specialist (B2B)"
+    ],
+    "has_salary_text": 0,
+    "total": 11,
+    "n": 1,
+    "salary": 0,
+    "titles": [
+      "k Billing Specialist (B2B)"
+    ]
+  },
+  {
+    "slug": "classdojo",
+    "company": "ClassDojo",
+    "domain": "classdojo.com",
+    "ats": "ashby",
+    "total_jobs": 10,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Head of Accounting (Controller)"
+    ],
+    "has_salary_text": 1,
+    "total": 10,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Head of Accounting (Controller)"
+    ]
+  },
+  {
+    "slug": "twochairs",
+    "company": "Two Chairs",
+    "domain": "twochairs.com",
+    "ats": "greenhouse",
+    "total_jobs": 34,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Corporate FP&A Manager"
+    ],
+    "has_salary_text": 1,
+    "total": 34,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Corporate FP&A Manager"
+    ]
+  },
+  {
+    "slug": "garnerhealth",
+    "company": "Garner Health",
+    "domain": "getgarner.com",
+    "ats": "greenhouse",
+    "total_jobs": 80,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "FP&A Manager, GTM"
+    ],
+    "has_salary_text": 1,
+    "total": 80,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k FP&A Manager, GTM"
+    ]
+  },
+  {
+    "slug": "tripactions",
+    "company": "Navan",
+    "domain": "navan.com",
+    "ats": "greenhouse",
+    "total_jobs": 215,
+    "finance_titles": 2,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Sr. Accountant, Financial Reporting"
+    ],
+    "has_salary_text": 1,
+    "total": 215,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Sr. Accountant, Financial Reporting"
+    ]
+  },
+  {
+    "slug": "instawork",
+    "company": "Instawork",
+    "domain": "instawork.com",
+    "ats": "greenhouse",
+    "total_jobs": 56,
+    "finance_titles": 3,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Finance Automation Lead"
+    ],
+    "has_salary_text": 1,
+    "total": 56,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "u Finance Automation Lead"
+    ]
+  },
+  {
+    "slug": "mightynetworks",
+    "company": "Mighty Networks",
+    "domain": "mightynetworks.com",
+    "ats": "greenhouse",
+    "total_jobs": 3,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "FP&A Manager"
+    ],
+    "has_salary_text": 1,
+    "total": 3,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k FP&A Manager"
+    ]
+  },
+  {
+    "slug": "ag1",
+    "company": "AG1",
+    "domain": "drinkag1.com",
+    "ats": "greenhouse",
+    "total_jobs": 4,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Manager, Retail Finance"
+    ],
+    "has_salary_text": 1,
+    "total": 4,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "u Manager, Retail Finance"
+    ]
+  },
+  {
+    "slug": "prenuvo",
+    "company": "Prenuvo",
+    "domain": "prenuvo.com",
+    "ats": "greenhouse",
+    "total_jobs": 65,
+    "finance_titles": 2,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Accounts Receivable Manager (13-month Contract)"
+    ],
+    "has_salary_text": 1,
+    "total": 65,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Accounts Receivable Manager (13-month Contract)"
+    ]
+  },
+  {
+    "slug": "tia",
+    "company": "Tia",
+    "domain": "asktia.com",
+    "ats": "greenhouse",
+    "total_jobs": 33,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Billing Care Coordinator - Remote"
+    ],
+    "has_salary_text": 1,
+    "total": 33,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Billing Care Coordinator - Remote"
+    ]
+  },
+  {
+    "slug": "babylist",
+    "company": "Babylist",
+    "domain": "babylist.com",
+    "ats": "greenhouse",
+    "total_jobs": 40,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Finance Manager, E-Commerce"
+    ],
+    "has_salary_text": 1,
+    "total": 40,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Finance Manager, E-Commerce"
+    ]
+  },
+  {
+    "slug": "rover",
+    "company": "Rover",
+    "domain": "rover.com",
+    "ats": "lever",
+    "total_jobs": 37,
+    "finance_titles": 4,
+    "finance_us": 3,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior Accountant, Financial Reporting"
+    ],
+    "has_salary_text": 1,
+    "total": 37,
+    "n": 1,
+    "salary": 1,
+    "titles": [
+      "k Senior Accountant, Financial Reporting"
+    ]
+  },
+  {
+    "slug": "figma",
+    "company": "Figma",
+    "domain": "figma.com",
+    "ats": "greenhouse",
+    "total_jobs": 141,
+    "finance_titles": 4,
+    "finance_us": 4,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Payroll Program Manager"
+    ],
+    "has_salary_text": 1,
+    "total": 141,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "affirm",
+    "company": "Affirm",
+    "domain": "affirm.com",
+    "ats": "greenhouse",
+    "total_jobs": 219,
+    "finance_titles": 6,
+    "finance_us": 4,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Analytics Lead, Full Stack (Strategic Revenue Insights)",
+      "Analytics Lead, Full Stack (Strategic Revenue Insights)"
+    ],
+    "has_salary_text": 2,
+    "total": 219,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "zocdoc",
+    "company": "Zocdoc",
+    "domain": "zocdoc.com",
+    "ats": "greenhouse",
+    "total_jobs": 59,
+    "finance_titles": 3,
+    "finance_us": 2,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Director of Finance Technology and Transformation"
+    ],
+    "has_salary_text": 1,
+    "total": 59,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "drata",
+    "company": "Drata",
+    "domain": "drata.com",
+    "ats": "ashby",
+    "total_jobs": 30,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Revenue Operations Manager"
+    ],
+    "has_salary_text": 1,
+    "total": 30,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "cribl",
+    "company": "Cribl",
+    "domain": "cribl.io",
+    "ats": "greenhouse",
+    "total_jobs": 74,
+    "finance_titles": 3,
+    "finance_us": 3,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Onboarding Program Owner, Revenue Enablement"
+    ],
+    "has_salary_text": 1,
+    "total": 74,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "flatironhealth",
+    "company": "Flatiron Health",
+    "domain": "flatiron.com",
+    "ats": "greenhouse",
+    "total_jobs": 21,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Associate, Revenue Operations"
+    ],
+    "has_salary_text": 0,
+    "total": 21,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "vanta",
+    "company": "Vanta",
+    "domain": "vanta.com",
+    "ats": "ashby",
+    "total_jobs": 85,
+    "finance_titles": 2,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior Data Analyst, Strategic Finance"
+    ],
+    "has_salary_text": 1,
+    "total": 85,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "justworks",
+    "company": "Justworks",
+    "domain": "justworks.com",
+    "ats": "greenhouse",
+    "total_jobs": 97,
+    "finance_titles": 4,
+    "finance_us": 4,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Quality Assurance Payroll Tax Compliance Specialist",
+      "Revenue Enablement Programs Manager"
+    ],
+    "has_salary_text": 2,
+    "total": 97,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "sigmacomputing",
+    "company": "Sigma Computing",
+    "domain": "sigmacomputing.com",
+    "ats": "greenhouse",
+    "total_jobs": 77,
+    "finance_titles": 2,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Revenue Operations Manager"
+    ],
+    "has_salary_text": 1,
+    "total": 77,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "hex",
+    "company": "Hex",
+    "domain": "hex.tech",
+    "ats": "ashby",
+    "total_jobs": 44,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Revenue Operations Director",
+      "Revenue Systems"
+    ],
+    "has_salary_text": 2,
+    "total": 44,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "talkspace",
+    "company": "Talkspace",
+    "domain": "talkspace.com",
+    "ats": "greenhouse",
+    "total_jobs": 24,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Billing and Claims Support Representative"
+    ],
+    "has_salary_text": 1,
+    "total": 24,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "cohere",
+    "company": "Cohere",
+    "domain": "cohere.com",
+    "ats": "ashby",
+    "total_jobs": 116,
+    "finance_titles": 4,
+    "finance_us": 3,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Revenue Enablement Program Manager"
+    ],
+    "has_salary_text": 1,
+    "total": 116,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "omadahealth",
+    "company": "Omada Health",
+    "domain": "omadahealth.com",
+    "ats": "greenhouse",
+    "total_jobs": 18,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior Manager, Revenue Operations"
+    ],
+    "has_salary_text": 1,
+    "total": 18,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "harvey",
+    "company": "Harvey",
+    "domain": "harvey.ai",
+    "ats": "ashby",
+    "total_jobs": 344,
+    "finance_titles": 4,
+    "finance_us": 3,
+    "finance_us_recent": 3,
+    "sample_titles": [
+      "Lead Product Owner, Finance Applications",
+      "Lead Product Owner, Finance Applications",
+      "Lead Product Owner, Finance Applications"
+    ],
+    "has_salary_text": 3,
+    "total": 344,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "figure",
+    "company": "Figure",
+    "domain": "figure.com",
+    "ats": "greenhouse",
+    "total_jobs": 18,
+    "finance_titles": 4,
+    "finance_us": 4,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Financial Crimes Associate",
+      "Senior Financial Portfolio Analyst, Servicing"
+    ],
+    "has_salary_text": 2,
+    "total": 18,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "gopuff",
+    "company": "Gopuff",
+    "domain": "gopuff.com",
+    "ats": "lever",
+    "total_jobs": 791,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior Oracle Business Analyst, Finance"
+    ],
+    "has_salary_text": 1,
+    "total": 791,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "mural",
+    "company": "Mural",
+    "domain": "mural.co",
+    "ats": "ashby",
+    "total_jobs": 13,
+    "finance_titles": 1,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Senior Director, Revenue Strategy"
+    ],
+    "has_salary_text": 1,
+    "total": 13,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "fieldwire",
+    "company": "Fieldwire",
+    "domain": "fieldwire.com",
+    "ats": "greenhouse",
+    "total_jobs": 27,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Chief of Staff - Finance & Ops"
+    ],
+    "has_salary_text": 1,
+    "total": 27,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "weave",
+    "company": "Weave",
+    "domain": "getweave.com",
+    "ats": "ashby",
+    "total_jobs": 28,
+    "finance_titles": 2,
+    "finance_us": 2,
+    "finance_us_recent": 2,
+    "sample_titles": [
+      "Billing Support",
+      "Director of Revenue Operations"
+    ],
+    "has_salary_text": 0,
+    "total": 28,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "smartsheet",
+    "company": "Smartsheet",
+    "domain": "smartsheet.com",
+    "ats": "greenhouse",
+    "total_jobs": 88,
+    "finance_titles": 2,
+    "finance_us": 1,
+    "finance_us_recent": 1,
+    "sample_titles": [
+      "Director, Finance Systems & ERP"
+    ],
+    "has_salary_text": 1,
+    "total": 88,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  },
+  {
+    "slug": "qualtrics",
+    "company": "Qualtrics",
+    "domain": "qualtrics.com",
+    "ats": "greenhouse",
+    "total_jobs": 81,
+    "finance_titles": 5,
+    "finance_us": 3,
+    "finance_us_recent": 3,
+    "sample_titles": [
+      "Principal Analyst, Revenue Operations Strategy",
+      "Principal Analyst, Revenue Operations Strategy",
+      "Principal Analyst, Revenue Operations Strategy"
+    ],
+    "has_salary_text": 2,
+    "total": 81,
+    "n": 0,
+    "salary": 0,
+    "titles": []
+  }
+]

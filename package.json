@@ -15,7 +15,8 @@
     "golden": "tsx pipeline/golden.ts",
     "seed:discover": "tsx pipeline/discover.ts",
     "preview:fixtures": "tsx pipeline/preview.ts",
-    "fixtures:build": "tsx tests/fixtures/build-fixtures.ts"
+    "fixtures:build": "tsx tests/fixtures/build-fixtures.ts",
+    "report:collection": "tsx pipeline/report-collection.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.137.0",

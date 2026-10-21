@@ -1,0 +1,621 @@
+{
+  "at": "2026-10-21T03:36:30.463Z",
+  "seeds": 102,
+  "total_jobs": 9236,
+  "finance_candidates": 295,
+  "manual": 0,
+  "boards": [
+    {
+      "company": "Samsara",
+      "ats": "greenhouse",
+      "total_jobs": 286,
+      "finance_candidates": 10
+    },
+    {
+      "company": "Fivetran",
+      "ats": "greenhouse",
+      "total_jobs": 176,
+      "finance_candidates": 14
+    },
+    {
+      "company": "Oscar Health",
+      "ats": "greenhouse",
+      "total_jobs": 248,
+      "finance_candidates": 16
+    },
+    {
+      "company": "Reddit",
+      "ats": "greenhouse",
+      "total_jobs": 155,
+      "finance_candidates": 6
+    },
+    {
+      "company": "Perplexity",
+      "ats": "ashby",
+      "total_jobs": 133,
+      "finance_candidates": 7
+    },
+    {
+      "company": "Notion",
+      "ats": "ashby",
+      "total_jobs": 135,
+      "finance_candidates": 6
+    },
+    {
+      "company": "Braze",
+      "ats": "greenhouse",
+      "total_jobs": 323,
+      "finance_candidates": 4
+    },
+    {
+      "company": "Mixpanel",
+      "ats": "greenhouse",
+      "total_jobs": 46,
+      "finance_candidates": 4
+    },
+    {
+      "company": "Saronic",
+      "ats": "ashby",
+      "total_jobs": 233,
+      "finance_candidates": 4
+    },
+    {
+      "company": "Oura",
+      "ats": "greenhouse",
+      "total_jobs": 81,
+      "finance_candidates": 7
+    },
+    {
+      "company": "Relativity Space",
+      "ats": "greenhouse",
+      "total_jobs": 383,
+      "finance_candidates": 5
+    },
+    {
+      "company": "Shield AI",
+      "ats": "lever",
+      "total_jobs": 656,
+      "finance_candidates": 17
+    },
+    {
+      "company": "Klaviyo",
+      "ats": "greenhouse",
+      "total_jobs": 165,
+      "finance_candidates": 4
+    },
+    {
+      "company": "Plaid",
+      "ats": "ashby",
+      "total_jobs": 129,
+      "finance_candidates": 5
+    },
+    {
+      "company": "Checkr",
+      "ats": "greenhouse",
+      "total_jobs": 42,
+      "finance_candidates": 4
+    },
+    {
+      "company": "Headway",
+      "ats": "ashby",
+      "total_jobs": 89,
+      "finance_candidates": 4
+    },
+    {
+      "company": "Verkada",
+      "ats": "greenhouse",
+      "total_jobs": 327,
+      "finance_candidates": 3
+    },
+    {
+      "company": "Applied Intuition",
+      "ats": "ashby",
+      "total_jobs": 330,
+      "finance_candidates": 3
+    },
+    {
+      "company": "Roofstock",
+      "ats": "greenhouse",
+      "total_jobs": 10,
+      "finance_candidates": 3
+    },
+    {
+      "company": "Lyra Health",
+      "ats": "lever",
+      "total_jobs": 476,
+      "finance_candidates": 4
+    },
+    {
+      "company": "Chime",
+      "ats": "greenhouse",
+      "total_jobs": 70,
+      "finance_candidates": 2
+    },
+    {
+      "company": "PagerDuty",
+      "ats": "greenhouse",
+      "total_jobs": 54,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Squarespace",
+      "ats": "greenhouse",
+      "total_jobs": 26,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Vercel",
+      "ats": "greenhouse",
+      "total_jobs": 94,
+      "finance_candidates": 5
+    },
+    {
+      "company": "Sentry",
+      "ats": "ashby",
+      "total_jobs": 45,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Benchling",
+      "ats": "ashby",
+      "total_jobs": 53,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Angi",
+      "ats": "ashby",
+      "total_jobs": 19,
+      "finance_candidates": 3
+    },
+    {
+      "company": "Flexport",
+      "ats": "greenhouse",
+      "total_jobs": 206,
+      "finance_candidates": 10
+    },
+    {
+      "company": "Lemonade",
+      "ats": "ashby",
+      "total_jobs": 39,
+      "finance_candidates": 2
+    },
+    {
+      "company": "WHOOP",
+      "ats": "ashby",
+      "total_jobs": 168,
+      "finance_candidates": 3
+    },
+    {
+      "company": "Snorkel AI",
+      "ats": "greenhouse",
+      "total_jobs": 46,
+      "finance_candidates": 3
+    },
+    {
+      "company": "Included Health",
+      "ats": "lever",
+      "total_jobs": 52,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Rent the Runway",
+      "ats": "greenhouse",
+      "total_jobs": 28,
+      "finance_candidates": 3
+    },
+    {
+      "company": "Honeycomb",
+      "ats": "greenhouse",
+      "total_jobs": 24,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Snyk",
+      "ats": "ashby",
+      "total_jobs": 28,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Fastly",
+      "ats": "greenhouse",
+      "total_jobs": 53,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Peloton",
+      "ats": "greenhouse",
+      "total_jobs": 59,
+      "finance_candidates": 3
+    },
+    {
+      "company": "Redwood Materials",
+      "ats": "greenhouse",
+      "total_jobs": 141,
+      "finance_candidates": 4
+    },
+    {
+      "company": "Rula",
+      "ats": "ashby",
+      "total_jobs": 39,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Thatch",
+      "ats": "greenhouse",
+      "total_jobs": 28,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Amplitude",
+      "ats": "ashby",
+      "total_jobs": 41,
+      "finance_candidates": 1
+    },
+    {
+      "company": "ClickUp",
+      "ats": "ashby",
+      "total_jobs": 44,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Coursera",
+      "ats": "greenhouse",
+      "total_jobs": 28,
+      "finance_candidates": 2
+    },
+    {
+      "company": "GitLab",
+      "ats": "greenhouse",
+      "total_jobs": 232,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Gusto",
+      "ats": "greenhouse",
+      "total_jobs": 100,
+      "finance_candidates": 3
+    },
+    {
+      "company": "Thumbtack",
+      "ats": "ashby",
+      "total_jobs": 52,
+      "finance_candidates": 5
+    },
+    {
+      "company": "Betterment",
+      "ats": "greenhouse",
+      "total_jobs": 24,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Yext",
+      "ats": "greenhouse",
+      "total_jobs": 25,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Outreach",
+      "ats": "lever",
+      "total_jobs": 24,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Blend",
+      "ats": "greenhouse",
+      "total_jobs": 15,
+      "finance_candidates": 1
+    },
+    {
+      "company": "ClassPass",
+      "ats": "greenhouse",
+      "total_jobs": 34,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Cockroach Labs",
+      "ats": "greenhouse",
+      "total_jobs": 15,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Outschool",
+      "ats": "ashby",
+      "total_jobs": 7,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Everlaw",
+      "ats": "greenhouse",
+      "total_jobs": 36,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Ro",
+      "ats": "lever",
+      "total_jobs": 52,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Sardine",
+      "ats": "ashby",
+      "total_jobs": 46,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Forter",
+      "ats": "greenhouse",
+      "total_jobs": 22,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Qualia",
+      "ats": "greenhouse",
+      "total_jobs": 22,
+      "finance_candidates": 3
+    },
+    {
+      "company": "Via",
+      "ats": "greenhouse",
+      "total_jobs": 181,
+      "finance_candidates": 1
+    },
+    {
+      "company": "PostHog",
+      "ats": "ashby",
+      "total_jobs": 10,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Abnormal Security",
+      "ats": "greenhouse",
+      "total_jobs": 79,
+      "finance_candidates": 3
+    },
+    {
+      "company": "Stitch Fix",
+      "ats": "greenhouse",
+      "total_jobs": 15,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Watershed",
+      "ats": "ashby",
+      "total_jobs": 39,
+      "finance_candidates": 4
+    },
+    {
+      "company": "ElevenLabs",
+      "ats": "ashby",
+      "total_jobs": 157,
+      "finance_candidates": 5
+    },
+    {
+      "company": "Scale AI",
+      "ats": "greenhouse",
+      "total_jobs": 178,
+      "finance_candidates": 5
+    },
+    {
+      "company": "Airbyte",
+      "ats": "ashby",
+      "total_jobs": 13,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Grafana Labs",
+      "ats": "greenhouse",
+      "total_jobs": 133,
+      "finance_candidates": 1
+    },
+    {
+      "company": "ClickHouse",
+      "ats": "ashby",
+      "total_jobs": 202,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Greenlight",
+      "ats": "lever",
+      "total_jobs": 13,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Temporal",
+      "ats": "ashby",
+      "total_jobs": 73,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Huntress",
+      "ats": "greenhouse",
+      "total_jobs": 33,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Upgrade",
+      "ats": "greenhouse",
+      "total_jobs": 26,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Acorns",
+      "ats": "ashby",
+      "total_jobs": 14,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Poshmark",
+      "ats": "ashby",
+      "total_jobs": 33,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Pagaya",
+      "ats": "greenhouse",
+      "total_jobs": 15,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Melio",
+      "ats": "greenhouse",
+      "total_jobs": 24,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Eight Sleep",
+      "ats": "ashby",
+      "total_jobs": 40,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Thrive Market",
+      "ats": "greenhouse",
+      "total_jobs": 15,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Aurora Solar",
+      "ats": "ashby",
+      "total_jobs": 10,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Liquid Death",
+      "ats": "greenhouse",
+      "total_jobs": 1,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Hermeus",
+      "ats": "lever",
+      "total_jobs": 80,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Astranis",
+      "ats": "greenhouse",
+      "total_jobs": 182,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Formlabs",
+      "ats": "greenhouse",
+      "total_jobs": 246,
+      "finance_candidates": 5
+    },
+    {
+      "company": "Demandbase",
+      "ats": "ashby",
+      "total_jobs": 15,
+      "finance_candidates": 1
+    },
+    {
+      "company": "ZoomInfo",
+      "ats": "greenhouse",
+      "total_jobs": 107,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Commure",
+      "ats": "ashby",
+      "total_jobs": 77,
+      "finance_candidates": 4
+    },
+    {
+      "company": "Pathward",
+      "ats": "greenhouse",
+      "total_jobs": 58,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Nomi Health",
+      "ats": "lever",
+      "total_jobs": 6,
+      "finance_candidates": 0
+    },
+    {
+      "company": "Latitude",
+      "ats": "greenhouse",
+      "total_jobs": 34,
+      "finance_candidates": 1
+    },
+    {
+      "company": "AngelList",
+      "ats": "lever",
+      "total_jobs": 25,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Avetta",
+      "ats": "greenhouse",
+      "total_jobs": 11,
+      "finance_candidates": 1
+    },
+    {
+      "company": "ClassDojo",
+      "ats": "ashby",
+      "total_jobs": 10,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Two Chairs",
+      "ats": "greenhouse",
+      "total_jobs": 34,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Garner Health",
+      "ats": "greenhouse",
+      "total_jobs": 80,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Navan",
+      "ats": "greenhouse",
+      "total_jobs": 215,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Instawork",
+      "ats": "greenhouse",
+      "total_jobs": 56,
+      "finance_candidates": 3
+    },
+    {
+      "company": "Mighty Networks",
+      "ats": "greenhouse",
+      "total_jobs": 3,
+      "finance_candidates": 1
+    },
+    {
+      "company": "AG1",
+      "ats": "greenhouse",
+      "total_jobs": 4,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Prenuvo",
+      "ats": "greenhouse",
+      "total_jobs": 65,
+      "finance_candidates": 2
+    },
+    {
+      "company": "Tia",
+      "ats": "greenhouse",
+      "total_jobs": 33,
+      "finance_candidates": 0
+    },
+    {
+      "company": "Babylist",
+      "ats": "greenhouse",
+      "total_jobs": 40,
+      "finance_candidates": 1
+    },
+    {
+      "company": "Rover",
+      "ats": "lever",
+      "total_jobs": 37,
+      "finance_candidates": 4
+    }
+  ]
+}
