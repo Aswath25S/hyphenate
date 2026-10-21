@@ -88,3 +88,19 @@ input[type="range"] { accent-color: var(--accent); }
 .dot-live { animation: pulse-dot 1.1s ease-in-out infinite; }
 
 @media (prefers-reduced-motion: reduce) { .dot-live { animation: none; } * { transition: none !important; } }
+
+/* Pointer cursor on everything clickable (Tailwind 4 preflight resets buttons to default). */
+a[href], button, [role="button"], select, summary, label:has(> input[type="checkbox"]), label:has(> input[type="radio"]),
+input[type="range"], input[type="checkbox"], input[type="radio"], input[type="submit"], .cursor-pointer { cursor: pointer; }
+button:disabled, select:disabled, input:disabled { cursor: not-allowed; }
+
+/* Dropdowns: custom chevron with breathing room from the right border. */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 6l4 4 4-4' fill='none' stroke='%23897D71' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 14px 14px;
+  padding-right: 2.25rem !important;
+}

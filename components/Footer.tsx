@@ -1,4 +1,4 @@
-import { AUTHOR_NAME, COVERAGE_AS_OF } from '@/config/site';
+import { AUTHOR_NAME, COVERAGE_AS_OF, ROLE_APPLIED_FOR } from '@/config/site';
 import { Wordmark } from './Wordmark';
 
 export function Footer({ asOf }: { asOf?: string | null }) {
@@ -8,7 +8,7 @@ export function Footer({ asOf }: { asOf?: string | null }) {
         <div className="space-y-3">
           <Wordmark />
           <p className="max-w-[640px] text-[14px] leading-relaxed text-ink-muted">
-            Independent prototype by {AUTHOR_NAME}, built to study Hyphenate&apos;s market. Not affiliated with or endorsed by Hyphenate.
+            Independent prototype by {AUTHOR_NAME}, built to express my interest in the {ROLE_APPLIED_FOR} role at Hyphenate. Not affiliated with or endorsed by Hyphenate.
             Coverage based on hyphenate.ai as of {COVERAGE_AS_OF}.
           </p>
         </div>

@@ -51,12 +51,12 @@ export function PostingEvidence({ p, live = false }: { p: PostingDetail; live?: 
         <div className="card p-5">
           <div className="num text-[44px] leading-none tracking-[-0.03em] text-ink-display">{p.n ? pct(p.overlap) : '–'}</div>
           <div className="t-mono mt-2">Overlap</div>
-          <div className="mt-2 text-[13px] text-ink-muted">{p.C} covered + {p.A} assisted of {p.n} scored duties</div>
+          <div className="mt-2 text-[13px] text-ink-muted">{p.C} done end to end + {p.A} prepared for approval, of {p.n} duties</div>
         </div>
         <div className="card p-5">
           <div className="num text-[44px] leading-none tracking-[-0.03em] text-ink-display">{p.n ? pct(p.covered_share) : '–'}</div>
-          <div className="t-mono mt-2">Covered share</div>
-          <div className="mt-2 text-[13px] text-ink-muted">Fully covered duties only; used for savings</div>
+          <div className="t-mono mt-2">Done end to end</div>
+          <div className="mt-2 text-[13px] text-ink-muted">Duties Hyphenate does end to end; used for savings</div>
         </div>
         <div className="card p-5">
           <div className="num text-[30px] leading-tight tracking-[-0.02em] text-ink-display">{p.salary_min !== null ? `${usd(p.salary_min)}${p.salary_max ? `–${usd(p.salary_max)}` : ''}` : 'No salary posted'}</div>
@@ -88,9 +88,9 @@ export function PostingEvidence({ p, live = false }: { p: PostingDetail; live?: 
             </div>
           </div>
           <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 text-[12.5px] text-ink-muted">
-            <span><span className="hl hl-covered px-1">covered</span> agent does it end to end</span>
-            <span><span className="hl hl-assisted px-1">assisted</span> agent prepares, a person approves</span>
-            <span><span className="hl hl-human">human / gap / unclear</span> not counted</span>
+            <span><span className="hl hl-covered px-1">green highlight</span> Hyphenate does it end to end</span>
+            <span><span className="hl hl-assisted px-1">orange highlight</span> Hyphenate prepares it, a person approves</span>
+            <span><span className="hl hl-human">dotted underline</span> not on Hyphenate&apos;s site</span>
           </div>
         </div>
       )}
@@ -121,6 +121,12 @@ export function PostingEvidence({ p, live = false }: { p: PostingDetail; live?: 
 
         {/* Side panel */}
         <aside className="space-y-4 lg:sticky lg:top-24 lg:max-h-[calc(100vh-7rem)] lg:self-start lg:overflow-y-auto">
+          <div className="rounded-[var(--radius-card)] border border-line bg-surface-tint px-5 py-3">
+            <Mono>Role</Mono>
+            <p className="text-[15px] font-medium leading-snug">{p.title}</p>
+            <Mono className="mt-2 block">Company</Mono>
+            <p className="text-[15px] leading-snug">{live || !p.slug ? p.company : <Link href={`/companies/${p.slug}`} className="link">{p.company}</Link>}</p>
+          </div>
           <div className="card p-5 lg:min-h-[300px]">
             {ad ? (
               <div className="space-y-3">

@@ -5,7 +5,7 @@ import { Container, Eyebrow, Mono } from '@/components/ui';
 import { PostingEvidence } from '@/components/PostingEvidence';
 import { BackLink } from '@/components/BackLink';
 import { getPosting, getPostings } from '@/lib/data';
-import { pct } from '@/lib/format';
+import { pct, shortDate } from '@/lib/format';
 
 export function generateStaticParams() {
   return getPostings().map((p) => ({ id: p.posting_id }));
@@ -33,13 +33,15 @@ export default async function PostingPage({ params }: { params: Promise<{ id: st
             <BackLink href={`/companies/${p.slug}`} label={p.company} />
             <BackLink href="/leads" label="All lead companies" />
           </div>
-          <div className="flex flex-wrap items-center gap-3">
-            <Eyebrow>The evidence</Eyebrow>
-            <Mono><Link href={`/companies/${p.slug}`} className="hover:text-brand">{p.company}</Link> · {p.title}</Mono>
+          <Eyebrow>Duty breakdown</Eyebrow>
+          <div className="space-y-2">
+            <h1 className="t-section max-w-[1100px]">{p.title}</h1>
+            <p className="t-sub">at <Link href={`/companies/${p.slug}`} className="underline decoration-accent/40 decoration-2 underline-offset-4 hover:decoration-accent">{p.company}</Link></p>
+            <Mono>{p.locations.join(' · ') || 'Location not listed'}{p.posted_at ? ` · posted ${shortDate(p.posted_at)}` : ''}</Mono>
           </div>
-          <h1 className="t-section max-w-[1000px]">{headline}</h1>
-          <p className="max-w-[760px] text-[16px] text-ink/75">
-            Every highlight below is a duty the model split out of the original text, labelled against the coverage map. Overlap {pct(p.overlap)}; savings use covered duties only.
+          <p className="max-w-[900px] text-[20px] leading-snug text-ink">{headline}</p>
+          <p className="max-w-[760px] text-[15px] text-ink/70">
+            Every highlight below is a duty the model split out of the original text, labelled against Hyphenate&apos;s public capabilities. Overlap {pct(p.overlap)}; savings use only duties Hyphenate does end to end.
           </p>
         </Container>
       </section>

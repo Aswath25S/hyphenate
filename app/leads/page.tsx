@@ -35,7 +35,7 @@ export default function LeadsPage() {
       <PageHero
         eyebrow="The leads"
         title={<>{strong} companies are hiring for roles where at least half the duties are on Hyphenate&apos;s site.</>}
-        sub={top ? <>Every company gets a lead score from 0 to 100. By default, half of it reflects how much of the work in its open finance jobs Hyphenate already does, a quarter how closely it resembles a typical Hyphenate customer, and a quarter whether recent news suggests it is ready to buy. {top.company} scores highest. Click any row to see its open jobs and why it scored the way it did.</> : undefined}
+        sub={top ? <>Every company gets a lead score from 0 to 100. By default, 50% of the score reflects how much of the work in its open finance jobs that Hyphenate already does, 25% of how closely it resembles a typical Hyphenate customer, and the remaining 25% whether recent news suggests it has the potential to become a paying customer. Click any row to see its open jobs and the detailed breakdown.</> : undefined}
         meta={`As of ${meta.as_of} · median overlap ${pct(meta.headlines.median_overlap)}`}
       />
       <section className="hatch border-b border-line py-10 sm:py-14">

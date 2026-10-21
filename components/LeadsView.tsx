@@ -28,7 +28,7 @@ const KEYS = ['wp', 'wf', 'wt', 'sort', 'dir', 'role', 'erp', 'size', 'state', '
 const PARTS = {
   pain: { name: 'Hyphenate can do the work', tag: 'Pain', desc: 'How much of the work in their open finance roles is on Hyphenate’s site, and how many of those roles they are hiring for.' },
   fit: { name: 'Looks like a Hyphenate customer', tag: 'Fit', desc: 'Runs an ERP Hyphenate works with (NetSuite, SAP, Intacct, Dynamics, Oracle), has 200–5,000 employees, and has complex finance such as several entities or currencies.' },
-  timing: { name: 'Reason to buy now', tag: 'Timing', desc: 'Recent news such as a funding round, acquisition, new CFO or ERP change. News older than 90 days counts half; older than 180 days, not at all.' },
+  timing: { name: 'Potential paying customer', tag: 'Timing', desc: 'Recent news such as a funding round, acquisition, new CFO or ERP change. News older than 90 days counts half; older than 180 days, not at all.' },
 } as const;
 
 export function LeadsView({ rows, excludedCount }: { rows: LeadRow[]; excludedCount: number }) {
@@ -142,7 +142,16 @@ export function LeadsView({ rows, excludedCount }: { rows: LeadRow[]; excludedCo
         </div>
         <OverlapLegend />
         <div className="card relative overflow-x-auto">
-          <table className="w-full min-w-[680px] border-collapse text-[14px]">
+          <table className="w-full min-w-[720px] table-fixed border-collapse text-[14px]">
+            {/* Fixed column widths so headers never shift when a row opens. */}
+            <colgroup>
+              <col className="w-[3.5rem]" />
+              <col />
+              <col className="w-[7.5rem]" />
+              <col className="w-[12rem]" />
+              <col className="w-[10rem]" />
+              <col className="w-[10.5rem]" />
+            </colgroup>
             <thead className="border-b border-line">
               <tr>
                 {th('rank', '#')}{th('company', 'Company')}{th('score', 'Lead score', true)}{th('overlap', 'Overlap')}{th('savings', 'Min. savings / yr', true)}
@@ -180,13 +189,17 @@ export function LeadsView({ rows, excludedCount }: { rows: LeadRow[]; excludedCo
                         </button>
                       </td>
                     </tr>
-                    {isOpen && (
-                      <tr className="bg-surface-tint">
-                        <td colSpan={6} className="px-3 pb-6 pt-2 sm:px-5">
-                          <Details r={r} weights={weights} />
-                        </td>
-                      </tr>
-                    )}
+                    <tr className={isOpen ? 'bg-surface-tint' : ''} aria-hidden={!isOpen}>
+                      <td colSpan={6} className="p-0">
+                        <div className={`grid transition-[grid-template-rows,opacity] duration-300 ease-out motion-reduce:transition-none ${isOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
+                          <div className="min-h-0 overflow-hidden">
+                            <div className="px-3 pb-6 pt-2 sm:px-5" inert={!isOpen}>
+                              <Details r={r} weights={weights} />
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
                   </Fragment>
                 );
               })}
@@ -223,16 +236,16 @@ function Details({ r, weights }: { r: LeadRow & { parts: { pain: number; fit: nu
         <span className="t-mono">Open finance roles</span>
         <ul className="mt-2 divide-y divide-dashed divide-line-dashed rounded-[var(--radius-card)] border border-line bg-surface">
           {r.roles.map((x) => (
-            <li key={x.posting_id} className="grid grid-cols-1 gap-2 px-4 py-3 sm:grid-cols-[1fr_9rem_10rem_auto] sm:items-center">
+            <li key={x.posting_id} className="grid grid-cols-1 gap-3 px-5 py-4 sm:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)] sm:items-center sm:gap-6">
               <span>
                 <span className="text-[14.5px] font-medium">{x.title}</span>
                 <span className="t-mono ml-2">{ROLE_LABELS[x.role_family] ?? x.role_family}</span>
               </span>
               <span><OverlapBar covered={x.covered_share} assisted={Math.max(0, x.overlap - x.covered_share)} /><span className="t-mono mt-1 block">{pct(x.overlap)} of duties</span></span>
-              <span className="num text-[13px] leading-snug sm:text-right">
+              <span className="num text-[13px] leading-snug">
                 {x.salary_min !== null ? <>Salary from {usd(x.salary_min)}<span className="block text-ink-muted">Min. savings {x.savings !== null ? usd(x.savings) : '–'}</span></> : <span className="text-ink-muted">No salary posted</span>}
               </span>
-              <span className="flex gap-3 text-[13px] sm:justify-end">
+              <span className="flex flex-wrap gap-x-4 gap-y-1 text-[13px]">
                 <Link href={`/postings/${x.posting_id}`} className="link whitespace-nowrap">Duty breakdown</Link>
                 <a href={x.source_url} target="_blank" rel="noreferrer" className="link whitespace-nowrap">Job posting ↗</a>
               </span>
@@ -251,13 +264,6 @@ function Details({ r, weights }: { r: LeadRow & { parts: { pain: number; fit: nu
             : r.news_searched ? <>No qualifying news in the last 180 days.</> : <>News is only searched for the 30 strongest companies by the first two parts.</>)}
         </div>
       </div>
-
-      <dl className="grid grid-cols-2 gap-x-6 gap-y-3 text-[13.5px] sm:grid-cols-4">
-        <div><dt className="t-mono">Lead with</dt><dd className="mt-1">{r.lead_product ?? '–'}</dd></div>
-        <div><dt className="t-mono">HQ state</dt><dd className="mt-1">{r.hq_state ?? '–'}</dd></div>
-        <div><dt className="t-mono">Roles with salary</dt><dd className="mt-1">{r.salary_roles} of {r.open_roles}</dd></div>
-        <div><dt className="t-mono">Tools in postings</dt><dd className="mt-1">{r.tools.length ? r.tools.slice(0, 6).join(', ') : '–'}</dd></div>
-      </dl>
 
       <div className="flex flex-wrap items-center gap-3">
         <Link href={`/companies/${r.slug}`} className="btn-primary !py-2 !text-[14px]">View full case for {r.company}</Link>

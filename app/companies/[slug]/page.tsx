@@ -132,23 +132,34 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
       </Section>
 
       <Section id="products" eyebrow="Product split" title={c.lead_product ? `Lead with ${c.lead_product}.` : 'No product match yet.'}>
-        <div className="card space-y-4 p-5 sm:p-6">
-          {PRODUCT_ORDER.filter((p) => c.product_split[p]).map((p) => {
-            const v = c.product_split[p];
+        <p className="mb-5 max-w-[760px] text-[15px] leading-relaxed text-ink/80">
+          Hyphenate sells five products. For each one, this counts how many duties across {c.company}&apos;s open finance roles it would handle.
+          The product with the most is the one to open the conversation with.
+        </p>
+        <OverlapLegend className="mb-4" />
+        <div className="card divide-y divide-dashed divide-line-dashed">
+          {PRODUCT_ORDER.map((p) => {
+            const v = c.product_split[p] ?? { covered: 0, assisted: 0, weighted: 0 };
+            const total = v.covered + v.assisted;
+            const isLead = p === c.lead_product;
             return (
-              <div key={p} className="grid grid-cols-[9rem_1fr_6rem] items-center gap-3 sm:grid-cols-[12rem_1fr_8rem]">
-                <span className={`text-[14px] ${p === c.lead_product ? 'font-medium text-accent-ink' : ''}`}>{p}</span>
-                <div className="flex h-6 gap-[2px]">
-                  <div className="rounded-l-[4px] bg-success" style={{ width: `${(v.covered / maxW) * 100}%` }} title={`${v.covered} covered`} />
-                  <div className="rounded-r-[4px] bg-accent/70" style={{ width: `${(v.assisted / maxW) * 100}%` }} title={`${v.assisted} assisted`} />
+              <div key={p} className={`grid grid-cols-1 gap-3 px-5 py-4 md:grid-cols-[16rem_1fr] md:items-center md:gap-6 ${isLead ? 'bg-surface-tint' : ''}`}>
+                <div>
+                  <p className="flex flex-wrap items-center gap-2 text-[15px] font-medium"><span className="whitespace-nowrap">{p}</span>{isLead && <span className="whitespace-nowrap rounded-full bg-accent-soft px-2 py-0.5 font-mono text-[10.5px] uppercase tracking-[0.08em] text-accent-ink">Lead product</span>}</p>
+                  <p className="mt-0.5 text-[13px] text-ink-muted">
+                    {total ? <>{v.covered} {v.covered === 1 ? 'duty' : 'duties'} done end to end · {v.assisted} prepared for approval</> : 'No matching duties in these roles'}
+                  </p>
                 </div>
-                <span className="num text-right font-mono text-[12px] text-ink-muted">{v.covered} cov · {v.assisted} asst</span>
+                <div className="flex h-7 items-stretch gap-[2px]" aria-hidden>
+                  {v.covered > 0 && <div className="flex min-w-[1.75rem] items-center justify-end rounded-l-[4px] bg-success px-2 font-mono text-[11px] text-white" style={{ width: `${(v.covered / maxW) * 100}%` }}>{v.covered}</div>}
+                  {v.assisted > 0 && <div className={`flex min-w-[1.75rem] items-center justify-end bg-accent/70 px-2 font-mono text-[11px] text-ink ${v.covered ? '' : 'rounded-l-[4px]'} rounded-r-[4px]`} style={{ width: `${(v.assisted / maxW) * 100}%` }}>{v.assisted}</div>}
+                  {!total && <div className="w-full rounded-[4px] bg-bg ring-1 ring-line" />}
+                </div>
               </div>
             );
           })}
-          {!Object.keys(c.product_split).length && <Note>No duties matched a capability.</Note>}
-          <Note>Lead product = most weighted duties (covered + 0.5 × assisted) across all open roles; ties go to more covered duties.</Note>
         </div>
+        <div className="mt-3"><Note>Bars share one scale: the longest bar is the product with the most matching duties ({maxW}). When two products tie, the one with more duties done end to end leads.</Note></div>
       </Section>
 
       <Section id="score" eyebrow="Score breakdown" title={`Lead score ${c.lead_score.toFixed(0)} out of 100.`}>
@@ -156,7 +167,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
           {([
             ['Hyphenate can do the work', c.pain, c.lead_parts.pain, `On average ${pct(c.avg_overlap)} of the duties in their ${c.open_roles} open finance ${c.open_roles === 1 ? 'role are' : 'roles are'} work Hyphenate advertises. More open roles raise this part.`],
             ['Looks like a Hyphenate customer', c.fit, c.lead_parts.fit, `ERP: ${c.erp.join(', ') || 'not stated'}. Size: ${c.employee_band ?? 'unknown'}${c.employee_band ? ' (unverified estimate)' : ''}. Complex finance: ${Object.entries(c.complexity_flags).filter(([, v]) => v).map(([k]) => k.replace(/_/g, ' ')).join(', ') || 'none stated'}.`],
-            ['Reason to buy now', c.timing, c.lead_parts.timing, c.top_trigger ? `${TRIGGER_LABELS[c.top_trigger.trigger_type]} on ${shortDate(c.top_trigger.event_date)}.${c.top_trigger.age_multiplier < 1 ? ' Counts half because it is over 90 days old.' : ''}` : c.news_searched ? 'No qualifying news in the last 180 days.' : 'News is only searched for the 30 strongest companies by the first two parts.'],
+            ['Potential paying customer', c.timing, c.lead_parts.timing, c.top_trigger ? `${TRIGGER_LABELS[c.top_trigger.trigger_type]} on ${shortDate(c.top_trigger.event_date)}.${c.top_trigger.age_multiplier < 1 ? ' Counts half because it is over 90 days old.' : ''}` : c.news_searched ? 'No qualifying news in the last 180 days.' : 'News is only searched for the 30 strongest companies by the first two parts.'],
           ] as const).map(([name, v, pts, text]) => (
             <div key={name} className="card p-5">
               <div className="flex items-baseline justify-between gap-2"><span className="font-medium">{name}</span><span className="num font-mono text-[12px] text-ink-display">{pts.toFixed(1)} pts</span></div>
@@ -165,7 +176,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
             </div>
           ))}
         </div>
-        <div className="mt-4"><Note>Default weights: 50% for the work Hyphenate does, 25% customer fit, 25% timing. <Link href="/method#scoring" className="link">How scores are calculated</Link>.</Note></div>
+        <div className="mt-4"><Note>Default weights: 50% for the work Hyphenate does, 25% for looking like a Hyphenate customer, 25% for being a potential paying customer. <Link href="/method#scoring" className="link">How scores are calculated</Link>.</Note></div>
       </Section>
 
       <Section eyebrow="Why now" title={c.triggers.length ? `${c.triggers.length} trigger ${c.triggers.length === 1 ? 'event' : 'events'}.` : 'No trigger events found.'}>

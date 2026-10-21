@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Container, Mono, PageHero, Section } from '@/components/ui';
 import { getMeta } from '@/lib/data';
-import { AUTHOR_EMAIL, AUTHOR_GITHUB, AUTHOR_LINKEDIN, AUTHOR_NAME, PRODUCT_NAME, ROLE_APPLIED_FOR } from '@/config/site';
+import { AUTHOR_EMAIL, AUTHOR_GITHUB, AUTHOR_LINKEDIN, AUTHOR_NAME, AUTHOR_WEBSITE, PRODUCT_NAME, ROLE_APPLIED_FOR, ROLE_URL } from '@/config/site';
 
 export const metadata: Metadata = { title: 'About' };
 
@@ -12,15 +12,21 @@ export default function AboutPage() {
     AUTHOR_EMAIL && { label: 'Email', value: AUTHOR_EMAIL, href: `mailto:${AUTHOR_EMAIL}` },
     AUTHOR_LINKEDIN && { label: 'LinkedIn', value: AUTHOR_LINKEDIN.replace(/^https?:\/\/(www\.)?/, ''), href: AUTHOR_LINKEDIN },
     AUTHOR_GITHUB && { label: 'GitHub', value: AUTHOR_GITHUB.replace(/^https?:\/\/(www\.)?/, ''), href: AUTHOR_GITHUB },
+    AUTHOR_WEBSITE && { label: 'Website', value: AUTHOR_WEBSITE.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, ''), href: AUTHOR_WEBSITE },
   ].filter(Boolean) as { label: string; value: string; href: string }[];
 
   return (
     <>
       <PageHero
         eyebrow="About"
-        title={<>Built by {AUTHOR_NAME} to find Hyphenate&apos;s next customers.</>}
-        sub={<>{PRODUCT_NAME} is an independent project I made while applying for the {ROLE_APPLIED_FOR} role at Hyphenate. Instead of telling you how I would help, I tried to do a slice of the job.</>}
-      />
+        title={<>I&apos;m {AUTHOR_NAME}, and I&apos;d like to join Hyphenate as a {ROLE_APPLIED_FOR}.</>}
+        sub={<>My main goal is to be considered for the {ROLE_APPLIED_FOR} role at Hyphenate. {PRODUCT_NAME} is the demo I built for that application: instead of only telling you how I would help, I tried to do a slice of the job.</>}
+      >
+        <div className="flex flex-wrap gap-3 pt-2">
+          <a href={ROLE_URL} target="_blank" rel="noreferrer" className="btn-primary">View the role ↗</a>
+          {AUTHOR_EMAIL && <a href={`mailto:${AUTHOR_EMAIL}`} className="btn-secondary">Email me</a>}
+        </div>
+      </PageHero>
 
       <Section eyebrow="Why I built it" title="Job postings are a buying signal hiding in plain sight.">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1.2fr_1fr]">
@@ -42,8 +48,12 @@ export default function AboutPage() {
         </div>
       </Section>
 
-      <Section eyebrow="Contact" title="I would love to talk.">
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+      <Section eyebrow="Contact" title="I would love to talk about the role.">
+        <p className="mb-6 max-w-[760px] text-[16px] leading-relaxed text-ink/80">
+          If this is the kind of work a {ROLE_APPLIED_FOR} would do at Hyphenate, I would be glad to walk you through it, hear where it is wrong, and talk about what I would build next.{' '}
+          <a href={ROLE_URL} target="_blank" rel="noreferrer" className="link">The role on Hyphenate&apos;s job board ↗</a>
+        </p>
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {contacts.map((c) => (
             <a key={c.label} href={c.href} target={c.href.startsWith('mailto:') ? undefined : '_blank'} rel="noreferrer" className="card block p-5 transition-transform hover:-translate-y-0.5">
               <Mono>{c.label}</Mono>
