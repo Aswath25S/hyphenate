@@ -267,7 +267,6 @@ function Details({ r, weights }: { r: LeadRow & { parts: { pain: number; fit: nu
 
       <div className="flex flex-wrap items-center gap-3">
         <Link href={`/companies/${r.slug}`} className="btn-primary !py-2 !text-[14px]">View full case for {r.company}</Link>
-        {r.has_brief && <span className="text-[13px] text-ink-muted">Includes a written sales brief.</span>}
       </div>
     </div>
   );
