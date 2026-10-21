@@ -1,0 +1,645 @@
+{
+  "themes": [
+    {
+      "theme_id": "process_improvement",
+      "name": "Process improvement projects",
+      "description": "Automation, system implementations, AI tooling and close acceleration.",
+      "bucket": "human_work",
+      "duty_ids": [
+        "02a51009dde2c9ac-h23",
+        "02a51009dde2c9ac-h24",
+        "02a51009dde2c9ac-h25",
+        "02a51009dde2c9ac-h26",
+        "2a2227ca3a396266-h14",
+        "59ad88cfde5a04c4-h11",
+        "59ad88cfde5a04c4-h17",
+        "612889fe106d8b35-h14",
+        "612889fe106d8b35-h15",
+        "62638b661de9e066-h12",
+        "62638b661de9e066-h17",
+        "62638b661de9e066-h18",
+        "692ef12fde873670-h07",
+        "9a161438308499f8-h10",
+        "aa2de5a053310233-h09"
+      ],
+      "canonical_tasks": [
+        "improve data accuracy and reduce manual work",
+        "assist with testing accounting system updates",
+        "support use of automation and ai tools",
+        "maintain process documentation and provide backup support",
+        "test and document process improvements",
+        "drive ap process improvement and automation",
+        "use ai tools to automate ap workflows",
+        "support system implementations",
+        "document standard operating procedures",
+        "speed up the close to 4 to 5 days",
+        "identify automation and process optimization opportunities",
+        "implement ai automation for journal entries",
+        "build ai tools that automate quote-to-cash work",
+        "update treasury procedures, controls and reporting templates",
+        "improve and automate order-to-cash workflows"
+      ],
+      "metrics": {
+        "postings": 8,
+        "companies": 8,
+        "share_strong_leads": 0.8571428571428571,
+        "strong_postings_with_theme": 6,
+        "strong_postings_total": 7,
+        "salary_attached": 85410.45751633987,
+        "salary_postings": 7,
+        "roles": [
+          "AP",
+          "AR",
+          "Close_Mgmt",
+          "GL",
+          "Revenue",
+          "Treasury"
+        ]
+      },
+      "posting_ids": [
+        "02a51009dde2c9ac",
+        "2a2227ca3a396266",
+        "59ad88cfde5a04c4",
+        "612889fe106d8b35",
+        "62638b661de9e066",
+        "692ef12fde873670",
+        "9a161438308499f8",
+        "aa2de5a053310233"
+      ],
+      "company_domains": [
+        "liquiddeath.com",
+        "flexport.com",
+        "headway.co",
+        "whoop.com",
+        "roofstock.com",
+        "checkr.com",
+        "pagaya.com",
+        "amplitude.com"
+      ],
+      "examples": [
+        {
+          "duty_id": "02a51009dde2c9ac-h23",
+          "posting_id": "02a51009dde2c9ac",
+          "company": "Liquid Death",
+          "source_span": "Identify practical ways to improve data accuracy, simplify routine reconciliations, and reduce manual work"
+        },
+        {
+          "duty_id": "2a2227ca3a396266-h14",
+          "posting_id": "2a2227ca3a396266",
+          "company": "Flexport",
+          "source_span": "work with the AR manager to test and document process improvements"
+        },
+        {
+          "duty_id": "59ad88cfde5a04c4-h11",
+          "posting_id": "59ad88cfde5a04c4",
+          "company": "Headway",
+          "source_span": "Drive process improvements and automation initiatives to scale AP workflows"
+        },
+        {
+          "duty_id": "612889fe106d8b35-h14",
+          "posting_id": "612889fe106d8b35",
+          "company": "WHOOP",
+          "source_span": "supporting system implementations"
+        },
+        {
+          "duty_id": "62638b661de9e066-h12",
+          "posting_id": "62638b661de9e066",
+          "company": "Roofstock",
+          "source_span": "speed up the close to a 4 to 5 day timeline"
+        }
+      ]
+    },
+    {
+      "theme_id": "cross_functional",
+      "name": "Cross-functional partnering",
+      "description": "Partnering with GTM, operations and leadership; escalations and guidance.",
+      "bucket": "human_work",
+      "duty_ids": [
+        "2a2227ca3a396266-h05",
+        "2a2227ca3a396266-h06",
+        "59ad88cfde5a04c4-h12",
+        "612889fe106d8b35-h05",
+        "612889fe106d8b35-h08",
+        "62638b661de9e066-h06",
+        "62638b661de9e066-h16",
+        "692ef12fde873670-h06",
+        "706c77c425582d9c-h07",
+        "9a161438308499f8-h05",
+        "aa2de5a053310233-h06"
+      ],
+      "canonical_tasks": [
+        "build relationships with customers' ap teams",
+        "coordinate incoming requests and handle initial escalations",
+        "partner with corporate accounting and fp&a",
+        "gather marketing accrual inputs from stakeholders",
+        "partner with manufacturing, supply chain and r&d on capex",
+        "handle vendor escalations",
+        "partner cross-functionally on special projects",
+        "provide strategic accounting guidance to the business",
+        "partner with accounting, revenue, billing and product",
+        "act as operational contact for banks, servicers and custodians",
+        "partner with gtm and finance teams on resolutions"
+      ],
+      "metrics": {
+        "postings": 8,
+        "companies": 8,
+        "share_strong_leads": 0.7142857142857143,
+        "strong_postings_with_theme": 5,
+        "strong_postings_total": 7,
+        "salary_attached": 79524.67320261439,
+        "salary_postings": 7,
+        "roles": [
+          "AP",
+          "AR",
+          "Close_Mgmt",
+          "GL",
+          "Revenue",
+          "Tax",
+          "Treasury"
+        ]
+      },
+      "posting_ids": [
+        "2a2227ca3a396266",
+        "59ad88cfde5a04c4",
+        "612889fe106d8b35",
+        "62638b661de9e066",
+        "692ef12fde873670",
+        "706c77c425582d9c",
+        "9a161438308499f8",
+        "aa2de5a053310233"
+      ],
+      "company_domains": [
+        "flexport.com",
+        "headway.co",
+        "whoop.com",
+        "roofstock.com",
+        "checkr.com",
+        "notion.so",
+        "pagaya.com",
+        "amplitude.com"
+      ],
+      "examples": [
+        {
+          "duty_id": "2a2227ca3a396266-h05",
+          "posting_id": "2a2227ca3a396266",
+          "company": "Flexport",
+          "source_span": "Build relationships with customers"
+        },
+        {
+          "duty_id": "59ad88cfde5a04c4-h12",
+          "posting_id": "59ad88cfde5a04c4",
+          "company": "Headway",
+          "source_span": "Partner with Corporate Accounting and FP&A to support accrual accuracy"
+        },
+        {
+          "duty_id": "612889fe106d8b35-h05",
+          "posting_id": "612889fe106d8b35",
+          "company": "WHOOP",
+          "source_span": "gathering inputs from Marketing stakeholders"
+        },
+        {
+          "duty_id": "62638b661de9e066-h06",
+          "posting_id": "62638b661de9e066",
+          "company": "Roofstock",
+          "source_span": "vendor escalations"
+        },
+        {
+          "duty_id": "692ef12fde873670-h06",
+          "posting_id": "692ef12fde873670",
+          "company": "Checkr",
+          "source_span": "Provide strategic accounting guidance to the business"
+        }
+      ]
+    },
+    {
+      "theme_id": "team_leadership",
+      "name": "Team leadership",
+      "description": "Managing, mentoring and leading finance staff and reviews.",
+      "bucket": "human_work",
+      "duty_ids": [
+        "2a2227ca3a396266-h11",
+        "59ad88cfde5a04c4-h15",
+        "59ad88cfde5a04c4-h16",
+        "62638b661de9e066-h15",
+        "692ef12fde873670-h03"
+      ],
+      "canonical_tasks": [
+        "lead biweekly receivables reviews with business leaders",
+        "build standardized ap procedures",
+        "mentor and manage ap staff",
+        "manage a team of two",
+        "lead the month-end and quarter-end revenue close"
+      ],
+      "metrics": {
+        "postings": 4,
+        "companies": 4,
+        "share_strong_leads": 0.42857142857142855,
+        "strong_postings_with_theme": 3,
+        "strong_postings_total": 7,
+        "salary_attached": 33877.12418300654,
+        "salary_postings": 3,
+        "roles": [
+          "AP",
+          "AR",
+          "Close_Mgmt",
+          "Revenue"
+        ]
+      },
+      "posting_ids": [
+        "2a2227ca3a396266",
+        "59ad88cfde5a04c4",
+        "62638b661de9e066",
+        "692ef12fde873670"
+      ],
+      "company_domains": [
+        "flexport.com",
+        "headway.co",
+        "roofstock.com",
+        "checkr.com"
+      ],
+      "examples": [
+        {
+          "duty_id": "2a2227ca3a396266-h11",
+          "posting_id": "2a2227ca3a396266",
+          "company": "Flexport",
+          "source_span": "Lead biweekly reviews with business leaders on open receivables"
+        },
+        {
+          "duty_id": "59ad88cfde5a04c4-h15",
+          "posting_id": "59ad88cfde5a04c4",
+          "company": "Headway",
+          "source_span": "Build standardized AP procedures and expectations"
+        },
+        {
+          "duty_id": "62638b661de9e066-h15",
+          "posting_id": "62638b661de9e066",
+          "company": "Roofstock",
+          "source_span": "Manage a team of two initially"
+        },
+        {
+          "duty_id": "692ef12fde873670-h03",
+          "posting_id": "692ef12fde873670",
+          "company": "Checkr",
+          "source_span": "Lead the revenue accounting close for month-end and quarter-end"
+        },
+        {
+          "duty_id": "59ad88cfde5a04c4-h16",
+          "posting_id": "59ad88cfde5a04c4",
+          "company": "Headway",
+          "source_span": "mentor and manage additional AP resources"
+        }
+      ]
+    },
+    {
+      "theme_id": "auditor_relationships",
+      "name": "Auditor relationships",
+      "description": "Acting as the primary contact for and partner to external auditors.",
+      "bucket": "human_work",
+      "duty_ids": [
+        "59ad88cfde5a04c4-h10",
+        "612889fe106d8b35-h13",
+        "e41b5102e70d4f15-h11"
+      ],
+      "canonical_tasks": [
+        "serve as ap expert for external auditors",
+        "respond to auditor inquiries",
+        "partner with auditors"
+      ],
+      "metrics": {
+        "postings": 3,
+        "companies": 3,
+        "share_strong_leads": 0.42857142857142855,
+        "strong_postings_with_theme": 3,
+        "strong_postings_total": 7,
+        "salary_attached": 19130.481283422458,
+        "salary_postings": 3,
+        "roles": [
+          "AP",
+          "GL"
+        ]
+      },
+      "posting_ids": [
+        "59ad88cfde5a04c4",
+        "612889fe106d8b35",
+        "e41b5102e70d4f15"
+      ],
+      "company_domains": [
+        "headway.co",
+        "whoop.com",
+        "lemonade.com"
+      ],
+      "examples": [
+        {
+          "duty_id": "59ad88cfde5a04c4-h10",
+          "posting_id": "59ad88cfde5a04c4",
+          "company": "Headway",
+          "source_span": "serve as the primary AP subject matter expert for external auditors"
+        },
+        {
+          "duty_id": "612889fe106d8b35-h13",
+          "posting_id": "612889fe106d8b35",
+          "company": "WHOOP",
+          "source_span": "assisting with responses to auditor inquiries"
+        },
+        {
+          "duty_id": "e41b5102e70d4f15-h11",
+          "posting_id": "e41b5102e70d4f15",
+          "company": "Lemonade",
+          "source_span": "acting as a reliable partner to auditors"
+        }
+      ]
+    },
+    {
+      "theme_id": "vague_support",
+      "name": "Vague support duties",
+      "description": "Duties too general to judge, such as supporting close or operations.",
+      "bucket": "unclear",
+      "duty_ids": [
+        "2a2227ca3a396266-h12",
+        "2a2227ca3a396266-h15",
+        "692ef12fde873670-h02",
+        "e41b5102e70d4f15-h09"
+      ],
+      "canonical_tasks": [
+        "resolve payment delays with credit, sales, disputes and legal",
+        "support month-end close activities",
+        "assess complex contracts and non-standard deal structures",
+        "support cash transactions and financial operations"
+      ],
+      "metrics": {
+        "postings": 3,
+        "companies": 3,
+        "share_strong_leads": 0.2857142857142857,
+        "strong_postings_with_theme": 2,
+        "strong_postings_total": 7,
+        "salary_attached": 22858.58585858586,
+        "salary_postings": 2,
+        "roles": [
+          "AR",
+          "GL",
+          "Revenue"
+        ]
+      },
+      "posting_ids": [
+        "2a2227ca3a396266",
+        "692ef12fde873670",
+        "e41b5102e70d4f15"
+      ],
+      "company_domains": [
+        "flexport.com",
+        "checkr.com",
+        "lemonade.com"
+      ],
+      "examples": [
+        {
+          "duty_id": "2a2227ca3a396266-h12",
+          "posting_id": "2a2227ca3a396266",
+          "company": "Flexport",
+          "source_span": "Work with Credit, Account Management, Sales, Disputes, and Legal to resolve issues that delay payment"
+        },
+        {
+          "duty_id": "692ef12fde873670-h02",
+          "posting_id": "692ef12fde873670",
+          "company": "Checkr",
+          "source_span": "including contract assessments, non-standard deal structures"
+        },
+        {
+          "duty_id": "e41b5102e70d4f15-h09",
+          "posting_id": "e41b5102e70d4f15",
+          "company": "Lemonade",
+          "source_span": "Support cash-related transactions and broader financial operations processes"
+        },
+        {
+          "duty_id": "2a2227ca3a396266-h15",
+          "posting_id": "2a2227ca3a396266",
+          "company": "Flexport",
+          "source_span": "Support Finance and Accounting with month-end close activities"
+        }
+      ]
+    },
+    {
+      "theme_id": "expense_review",
+      "name": "Expense report review",
+      "description": "Reviewing employee expense reports and expense-management processes.",
+      "bucket": "possible_gap",
+      "duty_ids": [
+        "612889fe106d8b35-h11",
+        "e41b5102e70d4f15-h08"
+      ],
+      "canonical_tasks": [
+        "support company-wide expense management",
+        "review expense reports"
+      ],
+      "metrics": {
+        "postings": 2,
+        "companies": 2,
+        "share_strong_leads": 0.2857142857142857,
+        "strong_postings_with_theme": 2,
+        "strong_postings_total": 7,
+        "salary_attached": 12636.363636363636,
+        "salary_postings": 2,
+        "roles": [
+          "GL"
+        ]
+      },
+      "posting_ids": [
+        "612889fe106d8b35",
+        "e41b5102e70d4f15"
+      ],
+      "company_domains": [
+        "whoop.com",
+        "lemonade.com"
+      ],
+      "examples": [
+        {
+          "duty_id": "612889fe106d8b35-h11",
+          "posting_id": "612889fe106d8b35",
+          "company": "WHOOP",
+          "source_span": "Support company-wide expense management processes"
+        },
+        {
+          "duty_id": "e41b5102e70d4f15-h08",
+          "posting_id": "e41b5102e70d4f15",
+          "company": "Lemonade",
+          "source_span": "expense reports"
+        }
+      ]
+    },
+    {
+      "theme_id": "indirect_tax_1099",
+      "name": "Indirect tax and 1099 compliance",
+      "description": "Sales and use tax, VAT/GST filings, notices, registrations and 1099 reporting.",
+      "bucket": "possible_gap",
+      "duty_ids": [
+        "02a51009dde2c9ac-h02",
+        "706c77c425582d9c-h01",
+        "706c77c425582d9c-h02",
+        "706c77c425582d9c-h04",
+        "706c77c425582d9c-h05",
+        "706c77c425582d9c-h08"
+      ],
+      "canonical_tasks": [
+        "maintain 1099 reporting documentation",
+        "own recurring us and global indirect-tax filings",
+        "manage tax notices and registrations",
+        "investigate tax variances with ai tools",
+        "strengthen tax controls and documentation",
+        "contribute to income tax compliance and reporting"
+      ],
+      "metrics": {
+        "postings": 2,
+        "companies": 2,
+        "share_strong_leads": 0.14285714285714285,
+        "strong_postings_with_theme": 1,
+        "strong_postings_total": 7,
+        "salary_attached": 86775,
+        "salary_postings": 2,
+        "roles": [
+          "AP",
+          "Tax"
+        ]
+      },
+      "posting_ids": [
+        "02a51009dde2c9ac",
+        "706c77c425582d9c"
+      ],
+      "company_domains": [
+        "liquiddeath.com",
+        "notion.so"
+      ],
+      "examples": [
+        {
+          "duty_id": "02a51009dde2c9ac-h02",
+          "posting_id": "02a51009dde2c9ac",
+          "company": "Liquid Death",
+          "source_span": "documentation supporting 1099 reporting"
+        },
+        {
+          "duty_id": "706c77c425582d9c-h01",
+          "posting_id": "706c77c425582d9c",
+          "company": "Notion",
+          "source_span": "Take ownership of recurring U.S. and global indirect-tax filings"
+        },
+        {
+          "duty_id": "706c77c425582d9c-h02",
+          "posting_id": "706c77c425582d9c",
+          "company": "Notion",
+          "source_span": "notices, registrations, and close support"
+        },
+        {
+          "duty_id": "706c77c425582d9c-h04",
+          "posting_id": "706c77c425582d9c",
+          "company": "Notion",
+          "source_span": "Use AI-enabled workflows and data tools to investigate variances"
+        },
+        {
+          "duty_id": "706c77c425582d9c-h05",
+          "posting_id": "706c77c425582d9c",
+          "company": "Notion",
+          "source_span": "Make tax operations more scalable and audit-ready by strengthening controls, process documentation"
+        }
+      ]
+    },
+    {
+      "theme_id": "payroll_accounting",
+      "name": "Payroll and benefits accounting",
+      "description": "Owning payroll and benefits accounting entries and reconciliations.",
+      "bucket": "possible_gap",
+      "duty_ids": [
+        "62638b661de9e066-h07"
+      ],
+      "canonical_tasks": [
+        "own payroll and benefits accounting"
+      ],
+      "metrics": {
+        "postings": 1,
+        "companies": 1,
+        "share_strong_leads": 0.14285714285714285,
+        "strong_postings_with_theme": 1,
+        "strong_postings_total": 7,
+        "salary_attached": 6666.666666666667,
+        "salary_postings": 1,
+        "roles": [
+          "Close_Mgmt"
+        ]
+      },
+      "posting_ids": [
+        "62638b661de9e066"
+      ],
+      "company_domains": [
+        "roofstock.com"
+      ],
+      "examples": [
+        {
+          "duty_id": "62638b661de9e066-h07",
+          "posting_id": "62638b661de9e066",
+          "company": "Roofstock",
+          "source_span": "Own payroll and benefits accounting"
+        }
+      ]
+    },
+    {
+      "theme_id": "structured_finance_ops",
+      "name": "Structured-finance treasury operations",
+      "description": "Loan purchases, concentration limits, trust account setup and KYC packages.",
+      "bucket": "possible_gap",
+      "duty_ids": [
+        "9a161438308499f8-h01",
+        "9a161438308499f8-h03",
+        "9a161438308499f8-h04",
+        "9a161438308499f8-h07"
+      ],
+      "canonical_tasks": [
+        "coordinate concurrent loan purchases across deal structures",
+        "track concentration limits and borrowing base criteria",
+        "set up bank and trust accounts for new deals",
+        "own institutional kyc documentation"
+      ],
+      "metrics": {
+        "postings": 1,
+        "companies": 1,
+        "share_strong_leads": 0,
+        "strong_postings_with_theme": 0,
+        "strong_postings_total": 7,
+        "salary_attached": 34000,
+        "salary_postings": 1,
+        "roles": [
+          "Treasury"
+        ]
+      },
+      "posting_ids": [
+        "9a161438308499f8"
+      ],
+      "company_domains": [
+        "pagaya.com"
+      ],
+      "examples": [
+        {
+          "duty_id": "9a161438308499f8-h01",
+          "posting_id": "9a161438308499f8",
+          "company": "Pagaya",
+          "source_span": "Coordinate and manage concurrent loan purchases across multiple deal structures"
+        },
+        {
+          "duty_id": "9a161438308499f8-h03",
+          "posting_id": "9a161438308499f8",
+          "company": "Pagaya",
+          "source_span": "Track portfolio concentration limits, borrowing base parameters, and eligibility criteria"
+        },
+        {
+          "duty_id": "9a161438308499f8-h04",
+          "posting_id": "9a161438308499f8",
+          "company": "Pagaya",
+          "source_span": "Lead the end-to-end operational setup of bank and trust accounts for new deal structures"
+        },
+        {
+          "duty_id": "9a161438308499f8-h07",
+          "posting_id": "9a161438308499f8",
+          "company": "Pagaya",
+          "source_span": "Own institutional KYC/AML documentation packages"
+        }
+      ]
+    }
+  ],
+  "strong_overlap": 0.6
+}

@@ -30,7 +30,7 @@ export function Nav() {
           ))}
         </ul>
         <div className="flex items-center gap-2">
-          <Link href="/try" className="btn-primary !px-3.5 !py-2 !text-[14px]">Try it live</Link>
+          <Link href="/try" className="btn-primary whitespace-nowrap !px-3 !py-2 !text-[14px]">Try it live</Link>
           <button className="rounded-md border border-line px-2.5 py-2 text-[13px] md:hidden" onClick={() => setOpen((o) => !o)} aria-expanded={open} aria-label="Menu">
             {open ? 'Close' : 'Menu'}
           </button>

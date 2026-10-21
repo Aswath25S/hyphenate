@@ -14,12 +14,13 @@ export function scoredDuties(p: Pick<Posting, 'duties'>) {
   return p.duties.filter((d) => !d.is_boilerplate && !d.is_requirement);
 }
 
-export async function matchOne(p: Pick<Posting, 'duties' | 'title' | 'role_family'>, coverage: CoverageMap, opts: { ephemeral?: boolean } = {}) {
+export async function matchOne(p: Pick<Posting, 'duties' | 'title' | 'role_family'>, coverage: CoverageMap, opts: { ephemeral?: boolean; stage?: string; effort?: 'low' | 'medium' | 'high' } = {}) {
   const duties = scoredDuties(p);
   const idx = coverageIndex(coverage);
   if (!duties.length) return { ok: true as const, labels: [] as FinalLabel[], cost: 0 };
   const res = await callTool({
-    stage: 'match',
+    stage: opts.stage ?? 'match',
+    effort: opts.effort,
     system: matchSystem(coverage.capabilities),
     user: matchUser(duties, { title: p.title, role_family: p.role_family }),
     toolName: MATCH_TOOL.name,

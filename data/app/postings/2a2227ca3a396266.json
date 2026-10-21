@@ -1,0 +1,411 @@
+{
+  "posting_id": "2a2227ca3a396266",
+  "company": "Flexport",
+  "slug": "flexport",
+  "domain": "flexport.com",
+  "title": "Accounts Receivable Collections Analyst",
+  "role_family": "AR",
+  "seniority": "entry",
+  "n": 15,
+  "C": 6,
+  "A": 3,
+  "covered_share": 0.4,
+  "overlap": 0.6,
+  "weighted_overlap": 0.5,
+  "thin": false,
+  "salary_min": null,
+  "salary_max": null,
+  "salary_varies": false,
+  "salary_source": null,
+  "savings": null,
+  "savings_reason": "no_salary",
+  "lead_product": "Order-to-cash",
+  "product_split": {
+    "Order-to-cash": {
+      "covered": 5,
+      "assisted": 1,
+      "weighted": 5.5
+    },
+    "Treasury": {
+      "covered": 0,
+      "assisted": 2,
+      "weighted": 1
+    },
+    "GL accounting": {
+      "covered": 1,
+      "assisted": 0,
+      "weighted": 1
+    }
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [],
+  "posted_at": "2026-10-12T13:07:47-04:00",
+  "source_url": "https://job-boards.greenhouse.io/flexport/jobs/8273282",
+  "locations": [
+    "Atlanta, Georgia, United States"
+  ],
+  "remote": "unknown",
+  "excluded": null,
+  "text": "About Flexport:\n\nAt Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise across 112 countries a year.\n\nThe recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people. Ready to tackle global challenges that impact business, society, and the environment? Come join us.\n\nThe Opportunity\n\nWe’re looking for an Accounts Receivable Collections Analyst to manage a portfolio of customer accounts and help collect payments on time. You’ll investigate overdue balances, resolve payment issues, and build relationships with customers’ Accounts Payable teams.\n\nThis role calls for persistence, careful analysis, and good judgment in sensitive conversations. You’ll work with teams across Flexport and use AI and automation to improve daily collections work. The role reports to the Head of North American Collections.\n\nYou Will\n\n• Manage collections for assigned accounts through email and phone outreach. Prioritize overdue balances and follow through on commitments to help meet cash collection and days sales outstanding (DSO) targets.\n\n• Review account aging and collection activity daily. Keep records of customer conversations, payment promises, disputes, and next steps accurate and up to date.\n\n• Build relationships with customers’ Accounts Payable teams and act as their point of contact for collections and payment questions.\n\n• Coordinate incoming requests and handle initial escalations. Resolve issues promptly and bring in the right team when a problem needs further review.\n\n• Investigate complex account balances and recommend next steps based on the facts, customer history, and payment risk.\n\n• Research invoice and payment discrepancies, reconcile account information, and work with the appropriate teams to resolve customers’ AR/AP questions.\n\n• Work with Credit to arrange and monitor approved payment schedules for overdue accounts.\n\n• Lead biweekly reviews with business leaders on open receivables, collection risks, and the actions needed to resolve them.\n\n• Work with Credit, Account Management, Sales, Disputes, and Legal to resolve issues that delay payment while maintaining professional customer relationships.\n\n• Use approved AI tools to summarize account histories, analyze aging data, and draft follow-ups. Verify amounts and claims before acting, protect customer information, and work with the AR manager to test and document process improvements.\n\n• Support Finance and Accounting with month-end close activities, accurate account records, and other projects as needed.\n\nSuccess in Your First Year\n\n• Your assigned accounts have clear action plans, reliable records, and consistent follow-up.\n\n• Collection performance improves against agreed targets, with overdue balances and disputes addressed promptly.\n\n• Customers and internal partners receive clear answers and dependable service.\n\n• You use AI and process improvements to reduce manual work while maintaining accuracy and financial controls.\n\nYou Should Have\n\n• Strong performance and ownership of results in work, school, or projects you’ve pursued.\n\n• The ability to learn unfamiliar processes and systems quickly, ask thoughtful questions, and apply feedback.\n\n• Clear written and verbal communication, attention to detail, and the judgment to handle sensitive conversations professionally.\n\n• Persistence and initiative: you follow up, find practical ways to resolve issues, and take responsibility for results.\n\n• The ability to work independently and with others, manage competing priorities, and stay organized as workloads change.\n\n• Hands-on experience using generative AI to research, analyze, or improve a recurring task. You can explain how you used it and checked the results.\n\n• Strong problem-solving skills: you can investigate a discrepancy, identify what is missing, and follow the issue through resolution.\n\n• Sound judgment about AI output and confidential data. You verify facts and figures, recognize when an answer is unreliable, and know when to seek human review.\n\n• Comfort working with numbers and spreadsheets. You can organize information, spot inconsistencies, and learn the Excel or Google Sheets tools needed to investigate account balances.\n\n• Collections, finance, customer service, and experience with NetSuite, Tesorio, or Stripe are helpful but optional.\n\nCommitment to Equal Opportunity\n\nAt Flexport, our ability to fulfill our mission of making global commerce easy and accessible relies on having a diverse, dedicated and engaged workforce. All qualified applicants will receive consideration for employment regardless of race, color, religion, sex, national origin, age, physical and mental disability, health status, marital and family status, sexual orientation, gender identity and expression, military and veteran status, and any other characteristic protected by applicable law.\n\nGlobal Data Privacy Notice for Job Candidates and Applicants\n\nDepending on your location, the General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA) may regulate the way we manage the data of job applicants. By submitting your application, you are agreeing to our use and processing of your data as required. Please see our Privacy Notice available at www.flexport.com/privacy for additional information.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": null,
+    "max": null,
+    "period": null,
+    "currency": null,
+    "raw_text": null
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "fetched_at": "2026-10-21T03:26:56.710Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "2a2227ca3a396266-h01",
+      "text": "Manage collections for assigned accounts by email and phone",
+      "source_span": "Manage collections for assigned accounts through email and phone outreach",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1360,
+        "end": 1433
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.collections",
+      "capability": "Send payment reminders and chase overdue invoices",
+      "product": "Order-to-cash",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-h02",
+      "text": "Prioritize overdue balances to meet DSO targets",
+      "source_span": "Prioritize overdue balances and follow through on commitments",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1435,
+        "end": 1496
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.collections",
+      "capability": "Send payment reminders and chase overdue invoices",
+      "product": "Order-to-cash",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-h03",
+      "text": "Review account aging and collection activity daily",
+      "source_span": "Review account aging and collection activity daily",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1571,
+        "end": 1621
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.collections",
+      "capability": "Send payment reminders and chase overdue invoices",
+      "product": "Order-to-cash",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-h04",
+      "text": "Keep records of customer conversations and payment promises",
+      "source_span": "Keep records of customer conversations, payment promises, disputes, and next steps accurate and up to date",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1623,
+        "end": 1729
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.collections",
+      "capability": "Send payment reminders and chase overdue invoices",
+      "product": "Order-to-cash",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-h05",
+      "text": "Build relationships with customers' AP teams",
+      "source_span": "Build relationships with customers",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1734,
+        "end": 1768
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": {
+        "theme_id": "cross_functional",
+        "name": "Cross-functional partnering",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "2a2227ca3a396266-h06",
+      "text": "Coordinate incoming requests and handle initial escalations",
+      "source_span": "Coordinate incoming requests and handle initial escalations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1869,
+        "end": 1928
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": {
+        "theme_id": "cross_functional",
+        "name": "Cross-functional partnering",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "2a2227ca3a396266-h07",
+      "text": "Investigate complex account balances and recommend next steps",
+      "source_span": "Investigate complex account balances and recommend next steps",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2022,
+        "end": 2083
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "tre.exceptions",
+      "capability": "Flag short-paid, unmatched or over-policy items",
+      "product": "Treasury",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-h08",
+      "text": "Research invoice and payment discrepancies",
+      "source_span": "Research invoice and payment discrepancies",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2143,
+        "end": 2185
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "tre.exceptions",
+      "capability": "Flag short-paid, unmatched or over-policy items",
+      "product": "Treasury",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-h09",
+      "text": "Reconcile customer account information",
+      "source_span": "reconcile account information",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2187,
+        "end": 2216
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.account_recs",
+      "capability": "Balance-sheet account reconciliations",
+      "product": "GL accounting",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-h10",
+      "text": "Arrange and monitor approved payment schedules",
+      "source_span": "Work with Credit to arrange and monitor approved payment schedules for overdue accounts",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2296,
+        "end": 2383
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "o2c.collections",
+      "capability": "Send payment reminders and chase overdue invoices",
+      "product": "Order-to-cash",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-h11",
+      "text": "Lead biweekly receivables reviews with business leaders",
+      "source_span": "Lead biweekly reviews with business leaders on open receivables",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2388,
+        "end": 2451
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": {
+        "theme_id": "team_leadership",
+        "name": "Team leadership",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "2a2227ca3a396266-h12",
+      "text": "Resolve payment delays with Credit, Sales, Disputes and Legal",
+      "source_span": "Work with Credit, Account Management, Sales, Disputes, and Legal to resolve issues that delay payment",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2514,
+        "end": 2615
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": {
+        "theme_id": "vague_support",
+        "name": "Vague support duties",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "2a2227ca3a396266-h13",
+      "text": "Use AI tools to summarize account histories and draft follow-ups",
+      "source_span": "Use approved AI tools to summarize account histories, analyze aging data, and draft follow-ups",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2674,
+        "end": 2768
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.collections",
+      "capability": "Send payment reminders and chase overdue invoices",
+      "product": "Order-to-cash",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-h14",
+      "text": "Test and document process improvements",
+      "source_span": "work with the AR manager to test and document process improvements",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2845,
+        "end": 2911
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": {
+        "theme_id": "process_improvement",
+        "name": "Process improvement projects",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "2a2227ca3a396266-h15",
+      "text": "Support month-end close activities",
+      "source_span": "Support Finance and Accounting with month-end close activities",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2916,
+        "end": 2978
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": {
+        "theme_id": "vague_support",
+        "name": "Vague support duties",
+        "bucket": "unclear"
+      }
+    }
+  ]
+}

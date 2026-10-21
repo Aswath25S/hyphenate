@@ -55,11 +55,12 @@ export function buildPosting(p: FilteredPosting, out: ExtractionOutput): Extract
   };
 }
 
-export async function extractOne(p: FilteredPosting, opts: { ephemeral?: boolean } = {}) {
+export async function extractOne(p: FilteredPosting, opts: { ephemeral?: boolean; stage?: string; effort?: 'low' | 'medium' | 'high' } = {}) {
   const text = postingText(p);
   const board = boardSalary(p);
   return callTool({
-    stage: 'extract',
+    stage: opts.stage ?? 'extract',
+    effort: opts.effort,
     system: EXTRACT_SYSTEM,
     user: extractUser({ company: p.company, title: p.title, locations: p.locations, text, salaryHint: board ? board.raw_text : null }),
     toolName: EXTRACT_TOOL.name,

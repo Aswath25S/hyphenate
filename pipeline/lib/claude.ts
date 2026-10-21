@@ -178,10 +178,14 @@ export async function callTool<T>(req: ToolCallRequest<T>): Promise<ToolCallResu
 
 /** Token and dollar usage per stage. Never includes prompt content. */
 function logUsage(stage: string, model: string, input_tokens: number, output_tokens: number, cached: boolean) {
-  appendLine(path.join(P.logs, 'usage.jsonl'), {
+  try {
+    appendLine(path.join(P.logs, 'usage.jsonl'), {
     at: new Date().toISOString(), stage, model, cached, input_tokens, output_tokens,
-    cost_usd: Number(cost(model, input_tokens, output_tokens).toFixed(6)),
-  });
+      cost_usd: Number(cost(model, input_tokens, output_tokens).toFixed(6)),
+    });
+  } catch {
+    /* read-only filesystem (e.g. serverless): usage logging is best-effort */
+  }
 }
 
 /** Run async tasks with a concurrency cap. */

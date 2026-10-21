@@ -18,8 +18,7 @@ export function PageHero({ eyebrow, title, sub, meta, children }: { eyebrow: str
   return (
     <section className="relative overflow-hidden border-b border-line">
       <div aria-hidden className="hero-lines pointer-events-none absolute inset-0" />
-      <div aria-hidden className="pointer-events-none absolute left-[8%] top-[38%] h-px w-16 bg-accent/70" />
-      <div aria-hidden className="pointer-events-none absolute right-[12%] top-[22%] h-px w-10 bg-accent/60" />
+      <div aria-hidden className="pointer-events-none absolute right-[12%] top-[22%] hidden h-px w-10 bg-accent/60 lg:block" />
       <Container className="relative pb-14 pt-16 sm:pb-20 sm:pt-24">
         <div className="max-w-[1100px] space-y-6">
           <Eyebrow>{eyebrow}</Eyebrow>
@@ -36,15 +35,15 @@ export function PageHero({ eyebrow, title, sub, meta, children }: { eyebrow: str
 export function StatBlock({ value, label, href, note }: { value: ReactNode; label: string; href?: string; note?: ReactNode }) {
   const body = (
     <>
-      <div className="num text-[44px] leading-none tracking-[-0.03em] text-ink-display sm:text-[56px]">{value}</div>
+      <div className="num text-[40px] leading-none tracking-[-0.03em] text-ink-display [overflow-wrap:anywhere] sm:text-[56px]">{value}</div>
       <div className="t-mono mt-3">{label}</div>
       {note && <div className="mt-2 text-[13px] text-ink-muted">{note}</div>}
     </>
   );
   return href ? (
-    <Link href={href} className="card group block p-6 transition-transform hover:-translate-y-0.5">{body}</Link>
+    <Link href={href} className="card group block min-w-0 p-5 sm:p-6 transition-transform hover:-translate-y-0.5">{body}</Link>
   ) : (
-    <div className="card p-6">{body}</div>
+    <div className="card min-w-0 p-5 sm:p-6">{body}</div>
   );
 }
 

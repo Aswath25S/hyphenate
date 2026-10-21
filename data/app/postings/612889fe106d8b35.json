@@ -1,0 +1,402 @@
+{
+  "posting_id": "612889fe106d8b35",
+  "company": "WHOOP",
+  "slug": "whoop",
+  "domain": "whoop.com",
+  "title": "Staff Accountant",
+  "role_family": "GL",
+  "seniority": "entry",
+  "n": 15,
+  "C": 4,
+  "A": 5,
+  "covered_share": 0.26666666666666666,
+  "overlap": 0.6,
+  "weighted_overlap": 0.43333333333333335,
+  "thin": false,
+  "salary_min": 60000,
+  "salary_max": 90000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 8000,
+  "savings_reason": null,
+  "lead_product": "GL accounting",
+  "product_split": {
+    "GL accounting": {
+      "covered": 4,
+      "assisted": 5,
+      "weighted": 6.5
+    }
+  },
+  "erp": [
+    "NetSuite",
+    "Oracle"
+  ],
+  "tools": [],
+  "posted_at": "2026-08-25T17:49:34.113+00:00",
+  "source_url": "https://jobs.ashbyhq.com/whoop/3b6827ad-945c-46be-b920-897de9cc85ba",
+  "locations": [
+    "Boston, MA"
+  ],
+  "remote": "unknown",
+  "excluded": null,
+  "text": "At WHOOP, we're on a mission to unlock human performance and extend healthspan. Through continuous health and performance monitoring, WHOOP empowers members to better understand their bodies and make informed decisions that improve their daily lives.\n\nAs a Staff Accountant, Corporate Accounting, you will play a key role in supporting the accuracy, integrity, and scalability of WHOOP's financial operations. You will support critical areas of the month-end close process, including fixed assets, accruals, prepaid expenses, expense management, and balance sheet reconciliations. This role offers broad exposure across the organization through partnerships with Marketing, Manufacturing, Legal, Operations, R&D, and Finance teams. This is an excellent opportunity to build a strong technical foundation, gain a deep understanding of WHOOP's business operations, and grow within a high-performing accounting team.\n\nThe ideal candidate is detail-oriented, analytical, and eager to learn, with a passion for problem-solving and leveraging technology to improve efficiency.\n\nThis role is based in Boston, MA. Candidates must be willing to relocate, if necessary, to work from our Boston office.\n\nRESPONSIBILITIES:\n\n - Support the month-end close process through the preparation of journal entries, accruals, account reconciliations, and monthly fluctuation analyses, helping ensure the accuracy and completeness of financial results.\n\n - Support the monthly marketing accrual process by gathering inputs from Marketing stakeholders and preparing accrual calculations related to campaigns, agency relationships, and partnerships with high-profile athletes, influencers, and brand ambassadors.\n\n - Maintain fixed asset accounting, including recording asset additions, placements, transfers, disposals, and monthly depreciation, partnering with Manufacturing, Supply Chain, and R&D teams to support capital expenditure initiatives.\n\n - Prepare prepaid expense schedules and monthly amortization entries, reviewing vendor contracts and invoices to help ensure costs are recorded over the appropriate benefit period.\n\n - Support company-wide expense management processes, helping ensure accurate reporting, policy compliance, and scalable controls.\n\n - Support annual audits and quarterly reviews by preparing schedules and supporting documentation and assisting with responses to auditor inquiries.\n\n - Contribute to process improvement and finance transformation initiatives by supporting system implementations, documenting standard operating procedures, and leveraging automation and AI-driven solutions to enhance efficiency.\n\nQUALIFICATIONS:\n\n - Bachelor's degree in Accounting, Finance, or a related field.\n\n - 1-3 years of accounting experience; public accounting experience is a plus\n\n - Foundational understanding of U.S. GAAP and core accounting principles.\n\n - CPA candidacy or interest in pursuing the CPA is a plus.\n\n - Strong Excel skills, with comfort working with large datasets.\n\n - Experience with NetSuite, Oracle, or a comparable ERP system is a plus.\n\n - Strong analytical and problem-solving skills, with intellectual curiosity and a willingness to ask questions and learn.\n\n - Excellent written and verbal communication skills, with the ability to collaborate effectively across teams.\n\n - Highly organized, detail-oriented, and motivated by continuous improvement and process optimization.\n\nThe WHOOP compensation philosophy is designed to attract, motivate, and retain exceptional talent by offering competitive base salaries, meaningful equity, and consistent pay practices that reflect our mission and core values.\n\nAt WHOOP, we view total compensation as the combination of base salary, equity, and benefits, with equity serving as a key differentiator that aligns our employees with the long-term success of the company and allows every member of our corporate team to own part of WHOOP and share in the company's long-term growth and success.\n\nThe U.S. base salary range for this full-time position is $60,000 -$90,000. Salary ranges are determined by role, level, and location. Within each range, individual pay is based on factors such as job-related skills, experience, performance, and relevant education or training.\n\nIn addition to the base salary, the successful candidate will also receive benefits and a generous equity package.\n\nThese ranges may be modified in the future to reflect evolving market conditions and organizational needs. While most offers will typically fall toward the starting point of the range, total compensation will depend on the candidate's specific qualifications, expertise, and alignment with the role's requirements.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 60000,
+    "max": 90000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The U.S. base salary range for this full-time position is $60,000 -$90,000. Salary ranges are determined by role, level, and location. Within each range, individual pay is based on factors such as job-related skills, experience, performance, and relevant education or training."
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "fetched_at": "2026-10-21T03:26:57.704Z",
+  "ats": "ashby",
+  "duties": [
+    {
+      "duty_id": "612889fe106d8b35-h01",
+      "text": "Prepare month-end journal entries",
+      "source_span": "preparation of journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1263,
+        "end": 1293
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.journal_entries",
+      "capability": "Prepare and post journal entries",
+      "product": "GL accounting",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-h02",
+      "text": "Prepare month-end accruals",
+      "source_span": "journal entries, accruals",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1278,
+        "end": 1303
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.accruals",
+      "capability": "Estimate accruals from history, POs and budget",
+      "product": "GL accounting",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-h03",
+      "text": "Prepare account reconciliations",
+      "source_span": "account reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1305,
+        "end": 1328
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.account_recs",
+      "capability": "Balance-sheet account reconciliations",
+      "product": "GL accounting",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-h04",
+      "text": "Prepare monthly fluctuation analyses",
+      "source_span": "monthly fluctuation analyses",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1334,
+        "end": 1362
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.flux",
+      "capability": "Variance (flux) analysis with draft commentary",
+      "product": "GL accounting",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-h05",
+      "text": "Gather marketing accrual inputs from stakeholders",
+      "source_span": "gathering inputs from Marketing stakeholders",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1484,
+        "end": 1528
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": {
+        "theme_id": "cross_functional",
+        "name": "Cross-functional partnering",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "612889fe106d8b35-h06",
+      "text": "Prepare marketing accrual calculations",
+      "source_span": "preparing accrual calculations related to campaigns",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1533,
+        "end": 1584
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.accruals",
+      "capability": "Estimate accruals from history, POs and budget",
+      "product": "GL accounting",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-h07",
+      "text": "Record fixed asset additions, transfers, disposals and depreciation",
+      "source_span": "Maintain fixed asset accounting, including recording asset additions, placements, transfers, disposals, and monthly depreciation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1693,
+        "end": 1821
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.subledgers",
+      "capability": "Prepaids, fixed assets, ASC 842 leases, R&D capitalisation",
+      "product": "GL accounting",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-h08",
+      "text": "Partner with Manufacturing, Supply Chain and R&D on capex",
+      "source_span": "partnering with Manufacturing, Supply Chain, and R&D teams to support capital expenditure initiatives",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1823,
+        "end": 1924
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": {
+        "theme_id": "cross_functional",
+        "name": "Cross-functional partnering",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "612889fe106d8b35-h09",
+      "text": "Prepare prepaid schedules and monthly amortization entries",
+      "source_span": "Prepare prepaid expense schedules and monthly amortization entries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1930,
+        "end": 1996
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.subledgers",
+      "capability": "Prepaids, fixed assets, ASC 842 leases, R&D capitalisation",
+      "product": "GL accounting",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-h10",
+      "text": "Review vendor contracts and invoices for benefit periods",
+      "source_span": "reviewing vendor contracts and invoices to help ensure costs are recorded over the appropriate benefit period",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1998,
+        "end": 2107
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.subledgers",
+      "capability": "Prepaids, fixed assets, ASC 842 leases, R&D capitalisation",
+      "product": "GL accounting",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-h11",
+      "text": "Support company-wide expense management",
+      "source_span": "Support company-wide expense management processes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2113,
+        "end": 2162
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": {
+        "theme_id": "expense_review",
+        "name": "Expense report review",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "612889fe106d8b35-h12",
+      "text": "Prepare audit schedules and supporting documentation",
+      "source_span": "Support annual audits and quarterly reviews by preparing schedules and supporting documentation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2245,
+        "end": 2340
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-h13",
+      "text": "Respond to auditor inquiries",
+      "source_span": "assisting with responses to auditor inquiries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2345,
+        "end": 2390
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": {
+        "theme_id": "auditor_relationships",
+        "name": "Auditor relationships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "612889fe106d8b35-h14",
+      "text": "Support system implementations",
+      "source_span": "supporting system implementations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2472,
+        "end": 2505
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": {
+        "theme_id": "process_improvement",
+        "name": "Process improvement projects",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "612889fe106d8b35-h15",
+      "text": "Document standard operating procedures",
+      "source_span": "documenting standard operating procedures",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2507,
+        "end": 2548
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": {
+        "theme_id": "process_improvement",
+        "name": "Process improvement projects",
+        "bucket": "human_work"
+      }
+    }
+  ]
+}

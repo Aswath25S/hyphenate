@@ -44,7 +44,7 @@ async function main() {
       Object.assign(row, { extract_error: ex.error });
     }
 
-    const m = await matchOne({ duties: fx.expected.duties, title: fx.input.title, role_family: fx.expected.role_family }, coverage);
+    const m = await matchOne({ duties: fx.expected.duties, title: fx.input.title, role_family: fx.expected.role_family as never }, coverage);
     if (m.ok) {
       const byId = new Map(m.labels.map((l) => [l.duty_id, l]));
       let a = 0;

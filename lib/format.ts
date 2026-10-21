@@ -29,7 +29,7 @@ export function usd(x: number | null | undefined, opts: { compact?: boolean } = 
   const v = Math.abs(x);
   let s: string;
   if (opts.compact && v >= 1_000_000) s = `$${(v / 1_000_000).toFixed(v >= 10_000_000 ? 1 : 2)}M`;
-  else if (opts.compact && v >= 10_000) s = `$${Math.round(v / 1000)}K`;
+  else if (opts.compact && v >= 1000) s = `$${Math.round(v / 1000)}K`;
   else s = `$${(Math.round(v / 100) * 100).toLocaleString('en-US')}`;
   return neg ? `(${s})` : s;
 }

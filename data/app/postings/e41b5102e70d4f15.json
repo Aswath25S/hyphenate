@@ -1,0 +1,310 @@
+{
+  "posting_id": "e41b5102e70d4f15",
+  "company": "Lemonade",
+  "slug": "lemonade",
+  "domain": "lemonade.com",
+  "title": "Senior Accountant",
+  "role_family": "GL",
+  "seniority": "senior",
+  "n": 11,
+  "C": 3,
+  "A": 5,
+  "covered_share": 0.2727272727272727,
+  "overlap": 0.7272727272727273,
+  "weighted_overlap": 0.5,
+  "thin": false,
+  "salary_min": 95000,
+  "salary_max": 112500,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 12954.545454545454,
+  "savings_reason": null,
+  "lead_product": "GL accounting",
+  "product_split": {
+    "GL accounting": {
+      "covered": 2,
+      "assisted": 5,
+      "weighted": 4.5
+    },
+    "Procure-to-pay": {
+      "covered": 1,
+      "assisted": 0,
+      "weighted": 1
+    }
+  },
+  "erp": [
+    "Workday"
+  ],
+  "tools": [],
+  "posted_at": "2026-09-15T21:06:11.824+00:00",
+  "source_url": "https://jobs.ashbyhq.com/lemonade/7bfec8fa-c2fd-4288-90a4-0e8b74061d4f",
+  "locations": [
+    "NYC"
+  ],
+  "remote": "unknown",
+  "excluded": null,
+  "text": "We're looking for a Senior Accountant to help drive automation, transparency, and greater efficiency across Lemonade's financial operations. You'll sit within our Finance team, playing a key role in the month-end close process and the daily financial operations that keep the business running smoothly. This isn't a back-office role — you'll be an integral part of projects that help us scale, with real ownership over the processes you touch.\n\nWe believe three things matter for every role at Lemonade: drive to push through challenges, efficiency that keeps standards high while moving fast, and adaptability that lets you pivot with data and AI insights. These aren't buzzwords, they're how we actually work.\n\nOur AI-first approach isn't just a tagline either. We're building the future of insurance with AI at the center, and we need people who are genuinely excited to learn and grow alongside these tools.\n\n\n\n\nIN THIS ROLE YOU'LL\n\n - Prepare and post journal entries and manage accrual schedules with accuracy and timeliness\n\n - Own monthly workbooks and take a leading role in key areas of the month and year-end close process\n\n - Manage balance sheet reconciliation schedules and perform P&L analytics that surface meaningful insights\n\n - Review supplier invoices and expense reports, keeping financial operations clean and compliant\n\n - Support cash-related transactions and broader financial operations processes\n\n - Drive quarterly and annual external audit requirements, acting as a reliable partner to auditors\n\n\nWHAT YOU'LL NEED\n\n - 3-5 years of experience in public or private accounting, with a record of noteworthy accomplishments\n\n - Strong understanding of US GAAP and financial statements\n\n - Solid experience working in a month-end close environment and owning processes start to finish\n\n - Advanced Excel skills\n\n - Experience with Workday ERP is a plus\n\n - A bachelor's degree in Accounting, Finance, or a related field\n\n - Ready to work in an office environment most days of the week\n\nPlease note that we are unable to sponsor applicants for work visas.\n\n\n\nUnfortunately, we cannot consider applicants from these states: Alaska, California, Colorado, Montana, Hawaii, New Mexico and Puerto Rico.\n\nLemonade's US base salary range for this full-time position is $95,000 - $112,500 plus equity + benefits. Our salary ranges are determined by role, level, and location. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Our competitive total rewards package includes comprehensive health & wellness coverage, equity, a 401(k) plan with employer match, 20 paid vacation days, and parental leave. Speak to your recruiter to hear more about the specific salary range for your preferred location and our total rewards package.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 95000,
+    "max": 112500,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Lemonade's US base salary range for this full-time position is $95,000 - $112,500 plus equity + benefits. Our salary ranges are determined by role, level, and location. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Our competitive total rewards package includes comprehensive health & wellness coverage, equity, a 401(k) plan with employer match, 20 paid vacation days, and parental leave. Speak to your recruiter to hear more about the specific salary range for your preferred location and our total rewards package."
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "fetched_at": "2026-10-21T03:26:56.860Z",
+  "ats": "ashby",
+  "duties": [
+    {
+      "duty_id": "e41b5102e70d4f15-h01",
+      "text": "Prepare and post journal entries",
+      "source_span": "Prepare and post journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 940,
+        "end": 972
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.journal_entries",
+      "capability": "Prepare and post journal entries",
+      "product": "GL accounting",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h02",
+      "text": "Manage accrual schedules",
+      "source_span": "manage accrual schedules",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 977,
+        "end": 1001
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.accruals",
+      "capability": "Estimate accruals from history, POs and budget",
+      "product": "GL accounting",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h03",
+      "text": "Own monthly close workbooks",
+      "source_span": "Own monthly workbooks",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1035,
+        "end": 1056
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.close_checklist",
+      "capability": "Run month-end close checklist tasks",
+      "product": "GL accounting",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h04",
+      "text": "Lead key areas of the month and year-end close",
+      "source_span": "take a leading role in key areas of the month and year-end close process",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1061,
+        "end": 1133
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.close_checklist",
+      "capability": "Run month-end close checklist tasks",
+      "product": "GL accounting",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h05",
+      "text": "Manage balance sheet reconciliation schedules",
+      "source_span": "Manage balance sheet reconciliation schedules",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1138,
+        "end": 1183
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.account_recs",
+      "capability": "Balance-sheet account reconciliations",
+      "product": "GL accounting",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h06",
+      "text": "Perform P&L analytics",
+      "source_span": "perform P&L analytics that surface meaningful insights",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1188,
+        "end": 1242
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.flux",
+      "capability": "Variance (flux) analysis with draft commentary",
+      "product": "GL accounting",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h07",
+      "text": "Review supplier invoices",
+      "source_span": "Review supplier invoices",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1247,
+        "end": 1271
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.bill_capture",
+      "capability": "Read and code vendor bills to GL, class and entity",
+      "product": "Procure-to-pay",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h08",
+      "text": "Review expense reports",
+      "source_span": "expense reports",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1276,
+        "end": 1291
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": {
+        "theme_id": "expense_review",
+        "name": "Expense report review",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h09",
+      "text": "Support cash transactions and financial operations",
+      "source_span": "Support cash-related transactions and broader financial operations processes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1346,
+        "end": 1422
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": {
+        "theme_id": "vague_support",
+        "name": "Vague support duties",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h10",
+      "text": "Drive quarterly and annual external audit requirements",
+      "source_span": "Drive quarterly and annual external audit requirements",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1427,
+        "end": 1481
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h11",
+      "text": "Partner with auditors",
+      "source_span": "acting as a reliable partner to auditors",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1483,
+        "end": 1523
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "gap_theme": {
+        "theme_id": "auditor_relationships",
+        "name": "Auditor relationships",
+        "bucket": "human_work"
+      }
+    }
+  ]
+}
