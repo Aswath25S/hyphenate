@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { Container, EmptyState, Mono, Note, OverlapBar, PageHero, Section, StatBlock } from '@/components/ui';
-import { getCompanies, getGaps, getMeta } from '@/lib/data';
-import { TRIGGER_LABELS, pct, usd } from '@/lib/format';
+import { Container, EmptyState, Mono, Note, OverlapBar, OverlapLegend, PageHero, Section, StatBlock } from '@/components/ui';
+import { getCompanies, getGaps, getMeta, getPostings } from '@/lib/data';
+import { ROLE_LABELS, pct, usd } from '@/lib/format';
 import { PRODUCT_NAME } from '@/config/site';
 
 export default function Overview() {
@@ -17,13 +17,14 @@ export default function Overview() {
   const h = meta.headlines;
   const excluded = h.companies - h.lead_companies;
   const companies = getCompanies();
+  const postings = getPostings();
   const leads = companies.filter((c) => c.rank !== null).slice(0, 5);
   const gaps = getGaps().themes.filter((t) => t.bucket === 'possible_gap').slice(0, 3);
   return (
     <>
       <PageHero
         eyebrow="The finding"
-        title={<>{h.companies_with_covered_work} of {h.lead_companies} lead companies are hiring for work Hyphenate&apos;s agents already do.</>}
+        title={<>{h.companies_with_covered_work} companies are hiring for work Hyphenate&apos;s agents already do.</>}
         sub={<>We analysed {h.postings} open finance postings from {h.companies} US companies. {h.lead_companies} of those companies are leads{excluded ? <> ({excluded} finance-software {excluded === 1 ? 'vendor is' : 'vendors are'} analysed but never shown as {excluded === 1 ? 'a lead' : 'leads'})</> : null}, and {h.companies_with_covered_work} of the leads have at least one open role with a duty Hyphenate fully covers. The median posting has {pct(h.median_overlap)} of its duties on Hyphenate&apos;s public site. That is work that Hyphenate could replace.</>}
         meta={`As of ${meta.as_of} · ${h.postings} postings · ${h.companies} companies`}
       >
@@ -45,23 +46,31 @@ export default function Overview() {
       </section>
 
       <Section eyebrow="The leads" title="Top five companies to call first." action={<Link href="/leads" className="btn-secondary">All {h.lead_companies} lead companies</Link>}>
+        <OverlapLegend className="mb-4" />
         <div className="card overflow-hidden">
-          {leads.map((c) => (
-            <Link key={c.slug} href={`/companies/${c.slug}`} className="dash-row grid grid-cols-[2.25rem_1fr_auto] items-center gap-4 px-5 py-4 transition-colors hover:bg-surface-tint sm:grid-cols-[2.5rem_1.6fr_1fr_1fr_5rem]">
-              <span className="num font-mono text-[13px] text-ink-muted">{String(c.rank).padStart(2, '0')}</span>
-              <span>
-                <span className="t-card block">{c.company}</span>
-                <Mono>{c.open_roles} open {c.open_roles === 1 ? 'role' : 'roles'} · {c.lead_product ?? 'no lead product'}</Mono>
-              </span>
-              <span className="hidden sm:block">
-                <OverlapBar covered={c.avg_overlap ? c.avg_weighted_overlap - (c.avg_overlap - c.avg_weighted_overlap) : 0} assisted={c.avg_overlap ? 2 * (c.avg_overlap - c.avg_weighted_overlap) : 0} />
-                <Mono className="mt-1 block">{pct(c.avg_overlap)} overlap</Mono>
-              </span>
-              <span className="hidden text-[14px] text-ink/80 sm:block">{c.top_trigger ? TRIGGER_LABELS[c.top_trigger.trigger_type] : <span className="text-ink-muted">{c.news_searched ? "No trigger found" : "News not searched"}</span>}</span>
-              <span className="num text-right text-[28px] leading-none tracking-[-0.03em] text-ink-display">{c.lead_score.toFixed(0)}</span>
-            </Link>
-          ))}
+          <div className="hidden grid-cols-[1.1fr_1.6fr_1fr_1.1fr] gap-4 border-b border-line px-5 py-3 md:grid">
+            <Mono>Company</Mono><Mono>Open finance roles</Mono><Mono>Role type</Mono><Mono>Work Hyphenate does</Mono>
+          </div>
+          {leads.map((c) => {
+            const roles = postings.filter((p) => c.posting_ids.includes(p.posting_id)).sort((a, b) => b.overlap - a.overlap);
+            const covered = roles.length ? roles.reduce((a, p) => a + p.covered_share, 0) / roles.length : 0;
+            return (
+              <Link key={c.slug} href={`/companies/${c.slug}`} className="dash-row grid grid-cols-1 gap-3 px-5 py-4 transition-colors hover:bg-surface-tint md:grid-cols-[1.1fr_1.6fr_1fr_1.1fr] md:items-center md:gap-4">
+                <span className="t-card">{c.company}</span>
+                <span className="text-[14px]">
+                  {roles.slice(0, 2).map((p) => <span key={p.posting_id} className="block">{p.title}</span>)}
+                  {roles.length > 2 && <span className="t-mono">+{roles.length - 2} more</span>}
+                </span>
+                <span className="text-[14px] text-ink/80">{[...new Set(roles.map((p) => ROLE_LABELS[p.role_family] ?? p.role_family))].join(', ')}</span>
+                <span>
+                  <OverlapBar covered={covered} assisted={Math.max(0, c.avg_overlap - covered)} />
+                  <Mono className="mt-1 block">{pct(c.avg_overlap)} of duties</Mono>
+                </span>
+              </Link>
+            );
+          })}
         </div>
+        <div className="mt-3"><Note>Ranked by lead score, which also weighs how closely each company resembles a Hyphenate customer and recent news. See <Link href="/leads" className="link">all lead companies</Link> for the full ranking.</Note></div>
       </Section>
 
       <Section eyebrow="The gaps" title="What postings ask for that Hyphenate's site does not mention." action={<Link href="/gaps" className="btn-secondary">All gap themes</Link>}>

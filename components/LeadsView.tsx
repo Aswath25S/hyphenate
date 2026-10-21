@@ -6,7 +6,7 @@ import { leadScore } from '@/lib/scoring';
 import { ROLE_LABELS, TRIGGER_LABELS, pct, shortDate, usd } from '@/lib/format';
 import { useUrlState } from '@/lib/useUrlState';
 import { downloadCsv } from '@/lib/csv';
-import { OverlapBar } from './ui';
+import { Note, OverlapBar, OverlapLegend } from './ui';
 
 export type LeadRole = { posting_id: string; title: string; role_family: string; source_url: string; overlap: number; covered_share: number; salary_min: number | null; savings: number | null };
 
@@ -85,7 +85,7 @@ export function LeadsView({ rows, excludedCount }: { rows: LeadRow[]; excludedCo
   const select = (k: keyof typeof f, label: string, opts: [string, string][]) => (
     <label className="flex min-w-0 flex-col gap-1">
       <span className="t-mono">{label}</span>
-      <select value={f[k]} onChange={(e) => u.set({ [k]: e.target.value })} className="rounded-md border border-line bg-surface px-2.5 py-2 text-[14px]">
+      <select value={f[k]} onChange={(e) => u.set({ [k]: e.target.value })} className="w-full min-w-0 rounded-md border border-line bg-surface px-2.5 py-2 text-[14px]">
         <option value="">All</option>
         {opts.map(([v, l]) => <option key={v} value={v}>{l}</option>)}
       </select>
@@ -140,7 +140,8 @@ export function LeadsView({ rows, excludedCount }: { rows: LeadRow[]; excludedCo
             <button onClick={exportCsv} className="btn-secondary !py-1.5 !text-[13px]">Export CSV</button>
           </div>
         </div>
-        <div className="card overflow-x-auto">
+        <OverlapLegend />
+        <div className="card relative overflow-x-auto">
           <table className="w-full min-w-[680px] border-collapse text-[14px]">
             <thead className="border-b border-line">
               <tr>
@@ -193,6 +194,11 @@ export function LeadsView({ rows, excludedCount }: { rows: LeadRow[]; excludedCo
             </tbody>
           </table>
         </div>
+        <Note>
+          <b className="font-medium text-ink">Salary</b> is the lowest yearly pay the job posting lists.{' '}
+          <b className="font-medium text-ink">Min. savings / yr</b> is the part of that salary tied to work Hyphenate fully does: salary × share of duties Hyphenate does end to end × 0.5 safety discount, summed across the company&apos;s open roles.
+          It is a deliberate floor, before Hyphenate&apos;s own price. <Link href="/savings" className="link">How savings are calculated</Link>.
+        </Note>
       </div>
     </div>
   );
@@ -217,13 +223,15 @@ function Details({ r, weights }: { r: LeadRow & { parts: { pain: number; fit: nu
         <span className="t-mono">Open finance roles</span>
         <ul className="mt-2 divide-y divide-dashed divide-line-dashed rounded-[var(--radius-card)] border border-line bg-surface">
           {r.roles.map((x) => (
-            <li key={x.posting_id} className="grid grid-cols-1 gap-2 px-4 py-3 sm:grid-cols-[1fr_9rem_8rem_auto] sm:items-center">
+            <li key={x.posting_id} className="grid grid-cols-1 gap-2 px-4 py-3 sm:grid-cols-[1fr_9rem_10rem_auto] sm:items-center">
               <span>
                 <span className="text-[14.5px] font-medium">{x.title}</span>
                 <span className="t-mono ml-2">{ROLE_LABELS[x.role_family] ?? x.role_family}</span>
               </span>
               <span><OverlapBar covered={x.covered_share} assisted={Math.max(0, x.overlap - x.covered_share)} /><span className="t-mono mt-1 block">{pct(x.overlap)} of duties</span></span>
-              <span className="num text-[13.5px] sm:text-right">{x.salary_min !== null ? `from ${usd(x.salary_min)}` : <span className="text-ink-muted">No salary</span>}</span>
+              <span className="num text-[13px] leading-snug sm:text-right">
+                {x.salary_min !== null ? <>Salary from {usd(x.salary_min)}<span className="block text-ink-muted">Min. savings {x.savings !== null ? usd(x.savings) : '–'}</span></> : <span className="text-ink-muted">No salary posted</span>}
+              </span>
               <span className="flex gap-3 text-[13px] sm:justify-end">
                 <Link href={`/postings/${x.posting_id}`} className="link whitespace-nowrap">Duty breakdown</Link>
                 <a href={x.source_url} target="_blank" rel="noreferrer" className="link whitespace-nowrap">Job posting ↗</a>

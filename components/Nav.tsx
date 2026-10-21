@@ -10,6 +10,7 @@ const LINKS = [
   { href: '/gaps', label: 'Gaps' },
   { href: '/savings', label: 'Savings' },
   { href: '/method', label: 'Method' },
+  { href: '/about', label: 'About' },
 ];
 
 export function Nav() {

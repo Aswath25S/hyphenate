@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { Container, Eyebrow, LabelChip, Mono, Note, OverlapBar, Section, StatBlock } from '@/components/ui';
+import { Container, Eyebrow, LabelChip, Mono, Note, OverlapBar, OverlapLegend, Section, StatBlock } from '@/components/ui';
 import { BackLink } from '@/components/BackLink';
-import { getCompanies, getCompany, getGaps, getPostings } from '@/lib/data';
+import { getCompanies, getCompany, getGaps, getPosting, getPostings } from '@/lib/data';
 import { PRODUCT_ORDER, ROLE_LABELS, TRIGGER_LABELS, pct, shortDate, usd } from '@/lib/format';
 
 export function generateStaticParams() {
@@ -64,6 +64,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
       )}
 
       <Section id="roles" eyebrow="Open roles" title={`${roles.length} open finance ${roles.length === 1 ? 'role' : 'roles'}.`}>
+        <OverlapLegend className="mb-4" />
         <div className="card overflow-hidden">
           {roles.map((r) => (
             <Link key={r.posting_id} href={`/postings/${r.posting_id}`} className="dash-row grid grid-cols-1 gap-3 px-5 py-4 transition-colors hover:bg-surface-tint sm:grid-cols-[1.6fr_1fr_8rem_8rem] sm:items-center">
@@ -75,6 +76,59 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
           ))}
         </div>
         <div className="mt-3 flex justify-end gap-8 pr-5 text-right"><Mono>Salary min</Mono><Mono>Min. savings</Mono></div>
+      </Section>
+
+      <Section id="duties" eyebrow="Duty breakdown" title="What each role asks for, duty by duty.">
+        <OverlapLegend className="mb-5" />
+        <div className="space-y-5">
+          {roles.map((r) => {
+            const detail = getPosting(r.posting_id);
+            const duties = (detail?.duties ?? []).filter((d) => d.scored);
+            const order = { covered: 0, assisted: 1, gap_candidate: 2, human: 3, unclear: 4 } as Record<string, number>;
+            return (
+              <div key={r.posting_id} className="card overflow-hidden">
+                <div className="flex flex-col gap-3 border-b border-line px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
+                  <div>
+                    <p className="t-card">{r.title}</p>
+                    <Mono>{r.C} done end to end · {r.A} prepared for approval · {r.n - r.C - r.A} not on Hyphenate&apos;s site</Mono>
+                  </div>
+                  <div className="flex shrink-0 flex-wrap gap-2">
+                    <Link href={`/postings/${r.posting_id}`} className="btn-secondary !py-1.5 !text-[13px]">Full duty breakdown</Link>
+                    <a href={r.source_url} target="_blank" rel="noreferrer" className="btn-secondary !py-1.5 !text-[13px]">Job posting ↗</a>
+                  </div>
+                </div>
+                {(() => {
+                  const sorted = [...duties].sort((a, b) => (order[a.label ?? 'unclear'] ?? 9) - (order[b.label ?? 'unclear'] ?? 9));
+                  const matched = sorted.filter((d) => d.label === 'covered' || d.label === 'assisted');
+                  const rest = sorted.filter((d) => d.label !== 'covered' && d.label !== 'assisted');
+                  const row = (d: (typeof duties)[number]) => (
+                    <li key={d.duty_id} className="dash-row grid grid-cols-1 gap-1.5 px-5 py-3 sm:grid-cols-[10.5rem_1fr_minmax(0,16rem)] sm:items-start sm:gap-4">
+                      <span><LabelChip label={d.label} /></span>
+                      <span className="text-[14.5px]">{d.text}</span>
+                      <span className="text-[13px] text-ink-muted">{d.capability ? `${d.product}: ${d.capability}` : d.gap_theme ? `Gap theme: ${d.gap_theme.name}` : ''}</span>
+                    </li>
+                  );
+                  return (
+                    <>
+                      <ul>{matched.map(row)}</ul>
+                      {!duties.length && <p className="px-5 py-4 text-[14px] text-ink-muted">No scorable duties in this posting.</p>}
+                      {duties.length > 0 && !matched.length && <p className="px-5 py-4 text-[14px] text-ink-muted">None of this role&apos;s duties are on Hyphenate&apos;s site.</p>}
+                      {rest.length > 0 && (
+                        <details className="group border-t border-line">
+                          <summary className="cursor-pointer list-none px-5 py-3 text-[14px] text-brand hover:bg-surface-tint">
+                            <span className="group-open:hidden">Show {rest.length} {rest.length === 1 ? 'duty' : 'duties'} not on Hyphenate&apos;s site</span>
+                            <span className="hidden group-open:inline">Hide {rest.length} {rest.length === 1 ? 'duty' : 'duties'} not on Hyphenate&apos;s site</span>
+                          </summary>
+                          <ul>{rest.map(row)}</ul>
+                        </details>
+                      )}
+                    </>
+                  );
+                })()}
+              </div>
+            );
+          })}
+        </div>
       </Section>
 
       <Section id="products" eyebrow="Product split" title={c.lead_product ? `Lead with ${c.lead_product}.` : 'No product match yet.'}>

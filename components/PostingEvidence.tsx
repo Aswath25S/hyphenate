@@ -121,7 +121,7 @@ export function PostingEvidence({ p, live = false }: { p: PostingDetail; live?: 
 
         {/* Side panel */}
         <aside className="space-y-4 lg:sticky lg:top-24 lg:max-h-[calc(100vh-7rem)] lg:self-start lg:overflow-y-auto">
-          <div className="card p-5">
+          <div className="card p-5 lg:min-h-[300px]">
             {ad ? (
               <div className="space-y-3">
                 <div className="flex items-center justify-between gap-2"><LabelChip label={ad.scored ? ad.label : null} />{ad.confidence !== null && <Mono>Confidence {ad.confidence.toFixed(2)}</Mono>}</div>
@@ -136,7 +136,7 @@ export function PostingEvidence({ p, live = false }: { p: PostingDetail; live?: 
                 ) : <p className="text-[13px] text-ink-muted">{ad.is_requirement ? 'A qualification, not a task. Excluded from scoring.' : 'Boilerplate. Excluded from scoring.'}</p>}
                 <div><Mono>Source span</Mono><p className="mt-1 text-[13px] italic text-ink/75">&ldquo;{ad.source_span}&rdquo;</p></div>
               </div>
-            ) : <p className="text-[14px] text-ink-muted">Hover or click a highlighted duty to see its label, capability and rationale.</p>}
+            ) : <p className="text-[14px] text-ink-muted">Hover over a highlight in the posting, or click a duty in the list below, to see its label, capability and rationale.</p>}
           </div>
 
           <div className="card-flat p-2">
@@ -144,7 +144,7 @@ export function PostingEvidence({ p, live = false }: { p: PostingDetail; live?: 
             <ul>
               {scored.map(({ d, i }) => (
                 <li key={d.duty_id}>
-                  <button onClick={() => focus(i)} onMouseEnter={() => setHover(i)} onMouseLeave={() => setHover(null)}
+                  <button onClick={() => focus(i)}
                     className={`flex w-full items-start gap-2 rounded-md border-l-[3px] px-3 py-2 text-left text-[13.5px] transition-colors ${selected === i ? 'border-accent bg-surface-tint text-accent-ink' : 'border-transparent hover:bg-bg'}`}>
                     <span className={`mt-1.5 h-2 w-2 shrink-0 rounded-full ${d.label === 'covered' ? 'bg-success' : d.label === 'assisted' ? 'bg-accent' : 'border border-ink-muted'}`} />
                     <span className="min-w-0 flex-1">{d.text}{!d.span && <span className="ml-1 text-[11px] text-ink-muted">(span not found)</span>}</span>

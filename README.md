@@ -1,4 +1,4 @@
-# Finance Hiring Signals
+# Potential Market for Hyphenate
 
 An independent prototype that reads US finance and CFO-office job postings, splits each into single duties, and measures how many of those duties Hyphenate's AI agents already advertise. One extraction engine feeds three outputs:
 

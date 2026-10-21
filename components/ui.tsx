@@ -96,15 +96,15 @@ export function StatusChip({ children, tone = 'muted', live = false }: { childre
 
 export function LabelChip({ label }: { label: string | null }) {
   const map: Record<string, { cls: string; text: string }> = {
-    covered: { cls: 'bg-success-soft text-success-ink border-success/30', text: 'Covered' },
-    assisted: { cls: 'bg-accent-soft text-accent-ink border-accent/30', text: 'Assisted' },
-    human: { cls: 'bg-bg text-ink-muted border-line', text: 'Human' },
-    gap_candidate: { cls: 'bg-bg text-ink-muted border-line border-dashed', text: 'Gap candidate' },
-    unclear: { cls: 'bg-bg text-ink-muted border-line italic', text: 'Unclear' },
+    covered: { cls: 'bg-success-soft text-success-ink border-success/30', text: 'Hyphenate does it' },
+    assisted: { cls: 'bg-accent-soft text-accent-ink border-accent/30', text: 'Hyphenate prepares' },
+    human: { cls: 'bg-bg text-ink-muted border-line', text: 'Needs a person' },
+    gap_candidate: { cls: 'bg-bg text-ink-muted border-line border-dashed', text: 'Possible gap' },
+    unclear: { cls: 'bg-bg text-ink-muted border-line italic', text: 'Too vague' },
   };
   const m = label ? map[label] : null;
   if (!m) return <span className="font-mono text-[11px] uppercase tracking-[0.08em] text-ink-muted">Not scored</span>;
-  return <span className={`inline-flex items-center rounded-full border px-2 py-0.5 font-mono text-[10.5px] uppercase tracking-[0.08em] ${m.cls}`}>{m.text}</span>;
+  return <span className={`inline-flex items-center whitespace-nowrap rounded-full border px-2 py-0.5 font-mono text-[10.5px] uppercase tracking-[0.08em] ${m.cls}`}>{m.text}</span>;
 }
 
 /** Thin horizontal bar: covered (green) + assisted (orange) shares. */
@@ -113,6 +113,17 @@ export function OverlapBar({ covered, assisted, className = '' }: { covered: num
     <div className={`flex h-2 w-full overflow-hidden rounded-full bg-bg ring-1 ring-line ${className}`} aria-hidden>
       <div className="bg-success" style={{ width: `${covered * 100}%` }} />
       <div className="bg-accent/70" style={{ width: `${assisted * 100}%` }} />
+    </div>
+  );
+}
+
+/** Explains the green / orange colours used in every overlap bar. */
+export function OverlapLegend({ className = '' }: { className?: string }) {
+  return (
+    <div className={`flex flex-wrap items-center gap-x-5 gap-y-1.5 text-[13px] text-ink/80 ${className}`}>
+      <span className="inline-flex items-center gap-2"><span className="h-2.5 w-5 rounded-sm bg-success" />Hyphenate does it end to end</span>
+      <span className="inline-flex items-center gap-2"><span className="h-2.5 w-5 rounded-sm bg-accent/70" />Hyphenate prepares it, a person approves</span>
+      <span className="inline-flex items-center gap-2"><span className="h-2.5 w-5 rounded-sm bg-bg ring-1 ring-line" />Not on Hyphenate&apos;s site</span>
     </div>
   );
 }
