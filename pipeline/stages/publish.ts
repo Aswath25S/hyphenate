@@ -121,7 +121,7 @@ export async function publish(opts: { asOf?: Date; mode?: 'pipeline' | 'fixture_
   writeJson(path.join(P.app, 'companies.json'), companies);
   writeJson(path.join(P.app, 'gaps.json'), { themes: gapData.themes, strong_overlap: CONFIG.OVERLAP.strongLeadOverlap });
   writeJson(path.join(P.app, 'meta.json'), {
-    as_of: asOf, generated_at: new Date().toISOString(), mode: opts.mode ?? 'pipeline', model: MODEL(),
+    as_of: asOf, generated_at: new Date().toISOString(), mode: opts.mode ?? 'pipeline', model: opts.mode === 'fixture_preview' ? 'hand labels (no model calls)' : MODEL(),
     headlines, stage_stats: stageStats, cost_report: costReport(), spans: { found: spansFound, total: spansTotal },
     news: { as_of: news?.as_of ?? null, companies_searched: news?.companies.length ?? 0 },
     briefs: { count: Object.keys(briefs.briefs).length, dropped: briefs.dropped.length },

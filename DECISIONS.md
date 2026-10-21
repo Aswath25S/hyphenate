@@ -50,3 +50,10 @@ Choices made inside the spec's latitude. Newest at the bottom of each section.
 - **All nine stages are implemented and proven end to end with a fake Claude transport** (`tests/integration.test.ts`): breakdowns add up, every uncovered duty lands in exactly one theme, briefs pass the fact check, reruns hit the cache, usage is logged per stage.
 - **The real M4 run needs `ANTHROPIC_API_KEY`**, which was not available in the build session. Run `npm run pipeline` (or stage by stage) once it is set. Expected spend at list prices is a few dollars: ~150 extraction calls and ~150 matching calls on Sonnet 5.5, plus ~2 gap calls, ~30 news calls and 15 briefs.
 - **News headlines can name executives** (e.g. "Acme names Jane Doe CFO"). They are stored as published news context for the trigger, at company level. No recruiter or hiring-manager data is collected from postings.
+
+## M7
+
+- **FINDINGS.md is generated** (`npm run findings`) from `data/app`, so the memo always matches the dashboard. It is marked as a preview while the data comes from fixtures.
+- **Spot check.** `npm run spotcheck` writes 20 random labels to `docs/spot-check.md`. The spec asks for the results here after each full run; none yet, because the full run has not happened.
+- **Live-demo limits are in memory.** Good enough for a demo on one server; a public deploy should use a shared store.
+- **Pages are statically prerendered.** The data only changes when the pipeline runs, so rebuild (`npm run build`) after publishing.

@@ -1,8 +1,8 @@
 {
   "as_of": "2026-10-20",
-  "generated_at": "2026-10-21T03:42:56.696Z",
+  "generated_at": "2026-10-21T03:51:43.400Z",
   "mode": "fixture_preview",
-  "model": "claude-sonnet-5-5",
+  "model": "hand labels (no model calls)",
   "headlines": {
     "postings": 10,
     "companies": 10,
@@ -47,7 +47,7 @@
       "notes": [
         "fixture preview: hand labels, no Claude calls"
       ],
-      "at": "2026-10-21T03:42:56.685Z"
+      "at": "2026-10-21T03:51:43.387Z"
     },
     "match": {
       "stage": "match",
@@ -56,7 +56,7 @@
       "notes": [
         "fixture preview: hand labels, no Claude calls"
       ],
-      "at": "2026-10-21T03:42:56.687Z"
+      "at": "2026-10-21T03:51:43.388Z"
     },
     "score": {
       "stage": "score",
@@ -67,7 +67,7 @@
         "0 thin postings",
         "9 with salary"
       ],
-      "at": "2026-10-21T03:42:56.690Z"
+      "at": "2026-10-21T03:51:43.392Z"
     },
     "publish": {
       "stage": "publish",
@@ -77,7 +77,7 @@
         "10 companies",
         "139/139 duty spans located in posting text"
       ],
-      "at": "2026-10-21T03:34:23.164Z"
+      "at": "2026-10-21T03:42:56.697Z"
     },
     "gaps": {
       "stage": "gaps",
@@ -86,7 +86,7 @@
       "notes": [
         "fixture preview: hand-assigned themes, no Claude calls"
       ],
-      "at": "2026-10-21T03:42:56.692Z"
+      "at": "2026-10-21T03:51:43.395Z"
     }
   },
   "cost_report": {},

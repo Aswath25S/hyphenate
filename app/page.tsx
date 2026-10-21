@@ -55,7 +55,7 @@ export default function Overview() {
                 <OverlapBar covered={c.avg_overlap ? c.avg_weighted_overlap - (c.avg_overlap - c.avg_weighted_overlap) : 0} assisted={c.avg_overlap ? 2 * (c.avg_overlap - c.avg_weighted_overlap) : 0} />
                 <Mono className="mt-1 block">{pct(c.avg_overlap)} overlap</Mono>
               </span>
-              <span className="hidden text-[14px] text-ink/80 sm:block">{c.top_trigger ? TRIGGER_LABELS[c.top_trigger.trigger_type] : <span className="text-ink-muted">No trigger found</span>}</span>
+              <span className="hidden text-[14px] text-ink/80 sm:block">{c.top_trigger ? TRIGGER_LABELS[c.top_trigger.trigger_type] : <span className="text-ink-muted">{c.news_searched ? "No trigger found" : "News not searched"}</span>}</span>
               <span className="num text-right text-[28px] leading-none tracking-[-0.03em] text-ink-display">{c.lead_score.toFixed(0)}</span>
             </Link>
           ))}
