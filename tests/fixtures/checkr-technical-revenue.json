@@ -1,0 +1,132 @@
+{
+  "fixture_id": "checkr-technical-revenue",
+  "labelled_by": "Draft hand labels by Claude Code; pending user review",
+  "source": {
+    "company": "Checkr",
+    "title": "Technical Revenue Accounting Manager",
+    "source_url": "https://job-boards.greenhouse.io/checkr/jobs/8241317",
+    "posted_at": "2026-09-29T16:55:31-04:00"
+  },
+  "input": {
+    "company": "Checkr",
+    "domain": "checkr.com",
+    "ats": "greenhouse",
+    "board_token": "checkr",
+    "api_url": "https://boards-api.greenhouse.io/v1/boards/checkr/jobs?content=true",
+    "fetched_at": "2026-10-21T03:26:47.797Z",
+    "raw_id": "greenhouse:checkr:8241317",
+    "source_job_id": "8241317",
+    "title": "Technical Revenue Accounting Manager",
+    "locations": [
+      "Denver, Colorado, United States; San Francisco, California, United States",
+      "San Francisco, California, United States"
+    ],
+    "text": "About Checkr\nCheckr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a date. Customers include Uber, Pennymac, Airbnb, Doordash, and Anthropic.\n\nWe’re a team that thrives on solving complex problems with innovative solutions that advance our mission. Checkr is recognized on Forbes Cloud 100 2025 List and is a Y Combinator 2024 Breakthrough Company.\n\nAbout the team/role\n\nReporting to the Senior Manager of Revenue Accounting and based in San Francisco, CA or Denver, CO, you'll play a strategic, highly visible role within Checkr's Finance Operations (FinOps) organization — shaping how deals are structured and new revenue models come to market while ensuring alignment with ASC 606 and U.S. GAAP. You'll lead technical revenue accounting analyses, own the revenue close process, and translate accounting guidance into clear, scalable policies that balance compliance, efficiency, and commercial impact. You'll partner closely with Sales, Deal Desk, Legal, and RevOps to influence decisions that directly shape Checkr's continued growth.\n\nWhat you’ll do\n\n• Own technical revenue accounting under ASC 606, serving as subject matter expert for complex revenue recognition matters, including contract assessments, non-standard deal structures, and evolving pricing and product models.\n\n• Lead the revenue accounting close for month-end and quarter-end, ensuring accurate and timely revenue recognition, reconciliations, and reporting.\n\n• Provide strategic accounting guidance to the business, partnering with Sales, Deal Desk, Legal, RevOps, and FP&A to influence deal structures, product launches, and go-to-market initiatives before execution.\n\n• Design, prototype, and ship AI-enabled tools and agents that automate manual work across the quote-to-cash lifecycle, compounding impact within the team and beyond.\n\n• Draft technical accounting memos and maintain SOX-ready documentation, owning key controls and supporting audit readiness across revenue processes as the business scales.\n\n• Lead high-impact revenue initiatives and special projects, applying technical judgment and analytical insight to enable compliant growth and data-driven decision-making.\n\nWhat you bring\n\n• Bachelor's degree in Accounting or related field; CPA strongly preferred; 6+ years of progressive revenue accounting experience (Big 4 plus industry preferred).\n\n• Deep technical expertise in U.S. GAAP and ASC 606, with demonstrated experience evaluating complex customer contracts, non-standard deal structures, and revenue recognition judgments.\n\n• Track record owning revenue close activities with increasing scope, speed, and accuracy, plus strong project ownership leading ambiguous or cross-functional initiatives.\n\n• Demonstrated AI fluency — you've moved past using AI for one-off tasks toward building and shipping tools or agents (e.g., with Claude, Lovable, Cursor, Gemini, or similar) that create leverage for the broader team, with hands-on SQL/BI experience.\n\n• Excellent written and verbal communicator who partners effectively with Sales, Deal Desk, Legal, Product, RevOps, FP&A, and Engineering — translating technical accounting conclusions for non-technical stakeholders.\n\n• An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes.\n\n#LI-CJ2\n\nPay Transparency Disclosure\n\nWe use geographic cost of labor as an input to develop ranges for our roles and as such, each location where we hire may have a different range. If this role is remote, we have listed the top to the bottom of the possible range, but we will specify the target range for an exact location when you are selected for a recruiting discussion. For more information on our compensation philosophy, see our website.\n\nOn-target Earnings OR Base Salary range (San Francisco, CA)\n\n$151,000—$178,000 USD\n\nOn-target Earnings OR Base Salary range (Denver, CO)\n\n$128,000—$151,000 USD\n\nWhat We Offer\n\n• A fast-paced and collaborative environment\n\n• Learning and development allowance\n\n• Competitive cash and equity compensation, and opportunity for advancement\n\n• 100% medical, dental, and vision coverage\n\n• Up to $25K reimbursement for fertility, adoption, and parental planning services\n\n• Flexible PTO policy\n\n• Monthly wellness stipend\n\nAt Checkr, we believe an in office work environment strengthens collaboration, drives innovation, and encourages connection. Our hub locations are Denver, CO; San Francisco, CA; Nashville, TN; and Santiago, Chile. Individuals are expected to work from the office 3+ days a week. In-office perks are provided, such as lunch five times a week, a commuter stipend, and an abundance of snacks and beverages. A relocation stipend may be available for those willing to relocate to a Checkr hub location.\n\nEqual Employment Opportunities at Checkr\nCheckr is committed to building the best product and company, which requires hiring talented and qualified individuals with a diverse set of perspectives and lived experiences. Checkr believes in hiring people of all backgrounds, including those whose histories are impacted by the justice system in accordance with local, state, and/or federal laws, including the San Francisco’s Fair Chance Ordinance.\n\nApplicant Privacy Policy\nIf you are a California resident or are located in Alberta or British Columbia, our Applicant Privacy Policy applies to our collection and processing of your personal information when you apply for a role with us or otherwise participate in our recruitment process.\n\nFor applicants in Massachusetts: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.\n\n*Legitimate Checkr emails will always include our official domain name after the @ symbol (e.g., name@checkr.com or name@ext.checkr.com).",
+    "structured_salary": null,
+    "workplace": null,
+    "posted_at": "2026-09-29T16:55:31-04:00",
+    "updated_at": "2026-09-29T16:55:31-04:00",
+    "source_url": "https://job-boards.greenhouse.io/checkr/jobs/8241317",
+    "posting_id": "692ef12fde873670",
+    "merged_raw_ids": [
+      "greenhouse:checkr:8241317"
+    ],
+    "extra_salary_lines": [],
+    "date_basis": "posted_at",
+    "title_decision": "rule"
+  },
+  "expected": {
+    "role_family": "Revenue",
+    "seniority": "manager",
+    "salary_annual": {
+      "min": 128000,
+      "max": 178000,
+      "period": "year"
+    },
+    "erp": [],
+    "scored_duty_count": 9,
+    "duties": [
+      {
+        "duty_id": "692ef12fde873670-h01",
+        "text": "Own technical revenue accounting under ASC 606",
+        "source_span": "Own technical revenue accounting under ASC 606",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "assisted",
+        "capability_id": "o2c.rev_rec"
+      },
+      {
+        "duty_id": "692ef12fde873670-h02",
+        "text": "Assess complex contracts and non-standard deal structures",
+        "source_span": "including contract assessments, non-standard deal structures",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "human",
+        "capability_id": null
+      },
+      {
+        "duty_id": "692ef12fde873670-h03",
+        "text": "Lead the month-end and quarter-end revenue close",
+        "source_span": "Lead the revenue accounting close for month-end and quarter-end",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "human",
+        "capability_id": null
+      },
+      {
+        "duty_id": "692ef12fde873670-h04",
+        "text": "Ensure accurate and timely revenue recognition",
+        "source_span": "ensuring accurate and timely revenue recognition",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "assisted",
+        "capability_id": "o2c.rev_rec"
+      },
+      {
+        "duty_id": "692ef12fde873670-h05",
+        "text": "Prepare revenue reconciliations",
+        "source_span": "reconciliations, and reporting",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "covered",
+        "capability_id": "gl.account_recs"
+      },
+      {
+        "duty_id": "692ef12fde873670-h06",
+        "text": "Provide strategic accounting guidance to the business",
+        "source_span": "Provide strategic accounting guidance to the business",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "human",
+        "capability_id": null
+      },
+      {
+        "duty_id": "692ef12fde873670-h07",
+        "text": "Build AI tools that automate quote-to-cash work",
+        "source_span": "Design, prototype, and ship AI-enabled tools and agents",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "human",
+        "capability_id": null
+      },
+      {
+        "duty_id": "692ef12fde873670-h08",
+        "text": "Draft technical accounting memos",
+        "source_span": "Draft technical accounting memos",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "assisted",
+        "capability_id": "o2c.rev_rec"
+      },
+      {
+        "duty_id": "692ef12fde873670-h09",
+        "text": "Maintain SOX documentation and own key controls",
+        "source_span": "maintain SOX-ready documentation, owning key controls",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "assisted",
+        "capability_id": "gl.audit_support"
+      }
+    ]
+  }
+}

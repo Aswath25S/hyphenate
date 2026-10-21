@@ -1,0 +1,214 @@
+{
+  "fixture_id": "roofstock-accounting-manager",
+  "labelled_by": "Draft hand labels by Claude Code; pending user review",
+  "source": {
+    "company": "Roofstock",
+    "title": "Accounting Manager",
+    "source_url": "https://job-boards.greenhouse.io/roofstock/jobs/8821792002",
+    "posted_at": "2026-09-18T14:47:01-04:00"
+  },
+  "input": {
+    "company": "Roofstock",
+    "domain": "roofstock.com",
+    "ats": "greenhouse",
+    "board_token": "roofstock",
+    "api_url": "https://boards-api.greenhouse.io/v1/boards/roofstock/jobs?content=true",
+    "fetched_at": "2026-10-21T03:26:49.969Z",
+    "raw_id": "greenhouse:roofstock:8821792002",
+    "source_job_id": "8821792002",
+    "title": "Accounting Manager",
+    "locations": [
+      "Oakland, California, United States"
+    ],
+    "text": "What we do and why we do it\n\nAs the leading end-to-end investment platform for single-family rental homes (SFR), our mission is to reinvent the rental housing ecosystem for the benefit of all. We successfully merge our passion for helping investors build wealth through real estate with cutting edge technology that transforms the way they do it.\n\nHow it's going (and growing)\n\nWith a talented team of 750+ Roofsters, our collaborative, can-do culture is what fuels our growth. In 2022, we closed on our Series E, raising $240 million, and have offices in the Bay Area and New York City. Our growth includes recent acquisitions of Stessa (financial and asset management software), RentPrep (tenant screening and placement service for landlords), and Mynd (property management platform for both Retail and Institutional investors).\n\nAbout the Role\n\nWe are seeking an experienced and detail-oriented Manager, Accounting to lead our accounts payable, procurement, and corporate accounting functions. This is a hybrid role that pairs ownership of AP and procurement operations with hands-on general accounting: booking and reviewing journal entries, researching GL issues, preparing and reviewing reconciliations, owning payroll and benefits accounting, and producing cash reporting and the monthly close package. The ideal candidate is a hands-on leader who can both manage a team and dig into the details of the close.\n\nResponsibilities\n\n• Own AP & Procurement: Manage and oversee the full cycle of accounts payable and procurement operations, including invoice processing and approval routing, purchase order workflow, contract approvals, vendor onboarding/KYC, and vendor escalations\n\n• Payroll & Benefits: Own payroll and benefits accounting, including related journal entries and account reconciliations\n\n• Journal Entries & Account Reconciliations: Prepare and review journal entries. Reconcile 100% of balance sheet accounts monthly\n\n• Month-end close: Support the monthly close process, ensuring deadlines are met and results are accurate and compliant with US GAAP, and speed up the close to a 4 to 5 day timeline\n\n• Reporting: Produce recurring cash reporting (monthly at minimum, ideally weekly) and the monthly close package, including GAAP financials, reconciliation to non-GAAP measures (including EBITDA), and cash analysis\n\n• Team management: Manage a team of two initially (may increase next year), including day-to-day supervision, workload assignment, and review\n\n• Cross-functional: Partner cross-functionally with FP&A, external consultants, and other departments on special projects\n\n• Process improvement: Identify opportunities for automation and process optimization to increase efficiency and accuracy\n\n• AI & automation: Identify and implement AI-driven automation for journal entries and accounting workflows to improve accuracy and accelerate the close process\n\nQualifications\n\n• Bachelor's degree in Accounting or Finance required\n\n• 4+ years of progressive accounting experience\n\n• 1-2 years in a supervisory or team-lead role\n\n• Experience managing month-end and year-end close in a fast-paced environment\n\n• Hands-on experience with accounts payable and procurement operations\n\n• Solid working knowledge of US GAAP\n\n• Advanced Excel skills and proficiency in financial reporting tools\n\nNice to Have\n\n• Hands-on experience with major ERP systems (NetSuite)\n\n• Experience with AP or procurement platforms (Zip, Ramp)\n\n• Payroll and benefits accounting experience\n\n• Big 4 or large regional public accounting experience\n\n• CPA preferred\n\nTravel Required\n\nN/A\n\nLocation\n\nThis position is classified as a HYBRID work environment in Oakland, CA.\n\nThis is a 2 day hybrid role in the Bay Area office, effective October 2026.\n\nCompensation:\n\n$120,000 - $145,000 annually\n\nCompensation may be adjusted based on experience, skills, and interview performance.\n\nPay Transparency\n\nOur compensation reflects several US geographic markets. The base pay for this position represents the expected salary for this position. Ultimately, in determining your pay it will be based on several factors including location, job-related knowledge, skills, experience and other job-related factors. Roofstock is a total compensation company; the base salary is only a part of our total compensation package.\n\nCompetitive & Unique Benefits Package\n\n• Generous PTO Policy\n\n• 12 Paid Holidays\n\n• Volunteer Time Off\n\n• Paid Parental Leave\n\n• 401k Program\n\n• Wellness and home office/cell phone subsidies\n\n• Robust health, dental, vision insurance, and more\n\nMust be authorized to work in the U.S. is a precondition of employment and we are unable to sponsor H1-B Visas at this time.\n\nAny offer of employment is conditioned upon the successful completion of a background investigation.\n\nCommitment to Equal Employment Opportunity\n\nRoofstock is an equal opportunity employer. In keeping with the values of Roofstock, we make all employment decisions including hiring, evaluation, termination, promotional and training opportunities, without regard to race, religion, color, sex, age, national origin, ancestry, sexual orientation, physical handicap, mental disability, medical condition, disability, gender or identity or expression, pregnancy or pregnancy-related condition, marital status, height and/or weight.",
+    "structured_salary": null,
+    "workplace": null,
+    "posted_at": "2026-09-18T14:47:01-04:00",
+    "updated_at": "2026-09-18T14:47:01-04:00",
+    "source_url": "https://job-boards.greenhouse.io/roofstock/jobs/8821792002",
+    "posting_id": "62638b661de9e066",
+    "merged_raw_ids": [
+      "greenhouse:roofstock:8821792002"
+    ],
+    "extra_salary_lines": [],
+    "date_basis": "posted_at",
+    "title_decision": "rule"
+  },
+  "expected": {
+    "role_family": "Close_Mgmt",
+    "seniority": "manager",
+    "salary_annual": {
+      "min": 120000,
+      "max": 145000,
+      "period": "year"
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "scored_duty_count": 18,
+    "duties": [
+      {
+        "duty_id": "62638b661de9e066-h01",
+        "text": "Process AP invoices",
+        "source_span": "invoice processing",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "covered",
+        "capability_id": "p2p.bill_capture"
+      },
+      {
+        "duty_id": "62638b661de9e066-h02",
+        "text": "Route invoice approvals",
+        "source_span": "approval routing",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "covered",
+        "capability_id": "p2p.approvals"
+      },
+      {
+        "duty_id": "62638b661de9e066-h03",
+        "text": "Manage the purchase order workflow",
+        "source_span": "purchase order workflow",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "covered",
+        "capability_id": "p2p.po_matching"
+      },
+      {
+        "duty_id": "62638b661de9e066-h04",
+        "text": "Route contract approvals",
+        "source_span": "contract approvals",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "covered",
+        "capability_id": "p2p.approvals"
+      },
+      {
+        "duty_id": "62638b661de9e066-h05",
+        "text": "Onboard vendors and complete KYC",
+        "source_span": "vendor onboarding/KYC",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "covered",
+        "capability_id": "p2p.vendor_followup"
+      },
+      {
+        "duty_id": "62638b661de9e066-h06",
+        "text": "Handle vendor escalations",
+        "source_span": "vendor escalations",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "human",
+        "capability_id": null
+      },
+      {
+        "duty_id": "62638b661de9e066-h07",
+        "text": "Own payroll and benefits accounting",
+        "source_span": "Own payroll and benefits accounting",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "gap_candidate",
+        "capability_id": null
+      },
+      {
+        "duty_id": "62638b661de9e066-h08",
+        "text": "Prepare payroll journal entries and reconciliations",
+        "source_span": "including related journal entries and account reconciliations",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "assisted",
+        "capability_id": "gl.journal_entries"
+      },
+      {
+        "duty_id": "62638b661de9e066-h09",
+        "text": "Prepare and review journal entries",
+        "source_span": "Prepare and review journal entries",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "assisted",
+        "capability_id": "gl.journal_entries"
+      },
+      {
+        "duty_id": "62638b661de9e066-h10",
+        "text": "Reconcile all balance sheet accounts monthly",
+        "source_span": "Reconcile 100% of balance sheet accounts monthly",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "covered",
+        "capability_id": "gl.account_recs"
+      },
+      {
+        "duty_id": "62638b661de9e066-h11",
+        "text": "Support the monthly close process",
+        "source_span": "Support the monthly close process",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "covered",
+        "capability_id": "gl.close_checklist"
+      },
+      {
+        "duty_id": "62638b661de9e066-h12",
+        "text": "Speed up the close to 4 to 5 days",
+        "source_span": "speed up the close to a 4 to 5 day timeline",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "human",
+        "capability_id": null
+      },
+      {
+        "duty_id": "62638b661de9e066-h13",
+        "text": "Produce recurring cash reporting",
+        "source_span": "Produce recurring cash reporting",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "covered",
+        "capability_id": "tre.cash_position"
+      },
+      {
+        "duty_id": "62638b661de9e066-h14",
+        "text": "Produce the monthly close package with GAAP and non-GAAP reconciliations",
+        "source_span": "the monthly close package, including GAAP financials, reconciliation to non-GAAP measures",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "assisted",
+        "capability_id": "rep.management_reports"
+      },
+      {
+        "duty_id": "62638b661de9e066-h15",
+        "text": "Manage a team of two",
+        "source_span": "Manage a team of two initially",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "human",
+        "capability_id": null
+      },
+      {
+        "duty_id": "62638b661de9e066-h16",
+        "text": "Partner cross-functionally on special projects",
+        "source_span": "Partner cross-functionally with FP&A, external consultants, and other departments on special projects",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "human",
+        "capability_id": null
+      },
+      {
+        "duty_id": "62638b661de9e066-h17",
+        "text": "Identify automation and process optimization opportunities",
+        "source_span": "Identify opportunities for automation and process optimization",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "human",
+        "capability_id": null
+      },
+      {
+        "duty_id": "62638b661de9e066-h18",
+        "text": "Implement AI automation for journal entries",
+        "source_span": "Identify and implement AI-driven automation for journal entries and accounting workflows",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "human",
+        "capability_id": null
+      }
+    ]
+  }
+}

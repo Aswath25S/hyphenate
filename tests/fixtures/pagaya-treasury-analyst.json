@@ -1,0 +1,141 @@
+{
+  "fixture_id": "pagaya-treasury-analyst",
+  "labelled_by": "Draft hand labels by Claude Code; pending user review",
+  "source": {
+    "company": "Pagaya",
+    "title": "Analyst, Treasury",
+    "source_url": "https://job-boards.greenhouse.io/pagaya/jobs/8014453003",
+    "posted_at": "2026-10-06T09:54:40-04:00"
+  },
+  "input": {
+    "company": "Pagaya",
+    "domain": "pagaya.com",
+    "ats": "greenhouse",
+    "board_token": "pagaya",
+    "api_url": "https://boards-api.greenhouse.io/v1/boards/pagaya/jobs?content=true",
+    "fetched_at": "2026-10-21T03:27:25.278Z",
+    "raw_id": "greenhouse:pagaya:8014453003",
+    "source_job_id": "8014453003",
+    "title": "Analyst, Treasury",
+    "locations": [
+      "New York, NY",
+      "New York, New York, United States"
+    ],
+    "text": "About Pagaya\n\nShape the Future of Finance\n\nPagaya is building a leading artificial intelligence network to help our partners grow their businesses and better serve their customers.\n\nPagaya is a global technology company making life-changing financial products and services available to more people nationwide, as it reshapes the financial services ecosystem. By using machine learning, a vast data network and a sophisticated AI-driven approach, Pagaya provides comprehensive consumer credit and residential real estate solutions for its partners, their customers, and investors. Its proprietary API and capital solutions integrate into its network of partners to deliver seamless user experiences and greater access to the mainstream economy. Pagaya has offices in New York and Tel Aviv. For more information, visit pagaya.com.\n\nLet's create better outcomes together!\n\nAbout the Role\n\nPagaya is seeking a Treasury Analyst to join our team in NYC. Treasury at Pagaya is a core team responsible for managing daily capital deployment, infrastructure, and funding workflows across our investment vehicles, including ABS, forward flows, and investment funds.\n\nIn this role, you will own the operational execution of multi-deal capital movements, deal onboarding, and account setups while serving as a primary operational liaison for external banking partners, loan servicers, and custodians. You will track liquidity across complex SPV networks, ensure assets meet concentration limits, and lead daily data reconciliations to ensure operational integrity across high-velocity financial flows. This position offers direct, hands-on exposure to structured finance mechanics, capital markets execution, and partner operations.\n\nWhat You’ll Do\n\n•\n\nFunding & Capital Deployment: Coordinate and manage concurrent loan purchases across multiple deal structures and diverse loan origination and servicer networks, ensuring seamless daily execution.\n\n•\n\nLiquidity: Monitor real-time cash balances, facility draw capacities, and liquidity positioning across dozens of SPVs, warehouse facilities, and investment funds.\n\n•\n\nConcentration Limit & Covenant Monitoring: Track portfolio concentration limits, borrowing base parameters, and eligibility criteria during asset allocation to ensure strict compliance with deal indentures and credit agreements.\n\n•\n\nNew Deal Onboarding & Account Setup: Lead the end-to-end operational setup of bank and trust accounts for new deal structures, managing entitlements, portal configurations, and onboarding checklists.\n\n•\n\nPartner Operations: Act as a main operational point of contact for external originators, loan servicers, custodians, and banking institutions to coordinate daily cash flows and resolve operational exceptions.\n\n•\n\nKYC: Own institutional KYC/AML documentation packages, periodic account reviews, and legal entity updates across banking and lending relationships.\n\n•\n\nData Reconciliation & Reporting: Perform daily account and transaction-level reconciliations; analyze loan tapes and servicer data to identify and resolve cash or reporting discrepancies.\n\n•\n\nOperational Controls: Identify friction points in daily treasury workflows and implement updated procedures, controls, and reporting templates.\n\nWhat We’re Looking For\n\n•\n\nRelevant Experience:\n\n•\n\n1–3 years in treasury operations, middle office, or settlement roles within financial services, fintech, or investment management.\n\n•\n\nRequired Skills:\n\n•\n\nProven ability to manage multi-entity funding workflows, bank portals, and daily settlement cutoffs with strict attention to detail.\n\n•\n\nExperience navigating institutional KYC requests and legal entity structures.\n\n•\n\nSolid working knowledge of Excel (SUMIFS, XLOOKUP, Pivot Tables).\n\n•\n\nAbility to collaborate effectively with external counterparties (banks, servicers, trustees) and internal teams (Legal, Capital Markets, Finance).\n\nPreferred Skills\n\n•\n\n•\n\nStructured Finance Exposure: Familiarity with ABS SPVs, trust accounts, loan tapes, or securitization mechanics.\n\n•\n\nData Skills: Familiarity with SQL or automated reconciliation tools for handling large financial datasets.\n\nThe pay ranges for New York-based hires are commensurate with candidate experience.\n\nPay ranges for candidates working in locations other than New York may differ based on the cost of labor in that location.\n\nCompensation Range for New York Based Hires\n\n$85,000—$100,000 USD\n\nOur Team\n\nPagaya was founded in 2016 by seasoned research, finance, and technology entrepreneurs with our head quarters located in NYC and Tel Aviv.\n\nWe move fast and smart, identifying new opportunities and building end-to-end solutions from AI models and unique data sources. Every Pagaya team member is solving new and exciting challenges every day in a culture based on partnership, collaboration, and community.\n\nJoin a team of builders who are working every day to enable better outcomes for our partners and their customers.\n\nOur Values\n\n• Continuously Learn- We challenge ourselves for the sake of getting better as individuals, as teams, and as an organization to deliver for our partners.\n\n• Debate and Commit- We respectfully and openly debate to strengthen our ideas and build shared conviction - once we decide, we go all in, together.\n\n• Dream Big and Act- We boldly tackle complex problems, pressure-test solutions in real-time, and adapt with speed and energy.\n\n• Advance Inclusion- We create a world where everyone can win, designing systems that better represent people and generate sustainable value for our employees, partners and investors.\n\n• Be Accountable Together- We proudly own our actions and our results, taking initiative to ensure our work gets over the finish line as a team.\n\nMore than just a job\n\nWe believe health, happiness, and productivity go hand-in-hand. That's why we're continually looking to enhance the ways we support you with benefits programs and perks that allow every Pagayan to do the best work of their life.",
+    "structured_salary": null,
+    "workplace": null,
+    "posted_at": "2026-10-06T09:54:40-04:00",
+    "updated_at": "2026-10-06T09:54:40-04:00",
+    "source_url": "https://job-boards.greenhouse.io/pagaya/jobs/8014453003",
+    "posting_id": "9a161438308499f8",
+    "merged_raw_ids": [
+      "greenhouse:pagaya:8014453003"
+    ],
+    "extra_salary_lines": [],
+    "date_basis": "posted_at",
+    "title_decision": "rule"
+  },
+  "expected": {
+    "role_family": "Treasury",
+    "seniority": "entry",
+    "salary_annual": {
+      "min": 85000,
+      "max": 100000,
+      "period": "year"
+    },
+    "erp": [],
+    "scored_duty_count": 10,
+    "duties": [
+      {
+        "duty_id": "9a161438308499f8-h01",
+        "text": "Coordinate concurrent loan purchases across deal structures",
+        "source_span": "Coordinate and manage concurrent loan purchases across multiple deal structures",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "gap_candidate",
+        "capability_id": null
+      },
+      {
+        "duty_id": "9a161438308499f8-h02",
+        "text": "Monitor cash balances and liquidity across SPVs",
+        "source_span": "Monitor real-time cash balances, facility draw capacities, and liquidity positioning",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "covered",
+        "capability_id": "tre.cash_position"
+      },
+      {
+        "duty_id": "9a161438308499f8-h03",
+        "text": "Track concentration limits and borrowing base criteria",
+        "source_span": "Track portfolio concentration limits, borrowing base parameters, and eligibility criteria",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "gap_candidate",
+        "capability_id": null
+      },
+      {
+        "duty_id": "9a161438308499f8-h04",
+        "text": "Set up bank and trust accounts for new deals",
+        "source_span": "Lead the end-to-end operational setup of bank and trust accounts for new deal structures",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "gap_candidate",
+        "capability_id": null
+      },
+      {
+        "duty_id": "9a161438308499f8-h05",
+        "text": "Act as operational contact for banks, servicers and custodians",
+        "source_span": "Act as a main operational point of contact for external originators, loan servicers, custodians, and banking institutions",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "human",
+        "capability_id": null
+      },
+      {
+        "duty_id": "9a161438308499f8-h06",
+        "text": "Resolve operational cash exceptions",
+        "source_span": "resolve operational exceptions",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "assisted",
+        "capability_id": "tre.exceptions"
+      },
+      {
+        "duty_id": "9a161438308499f8-h07",
+        "text": "Own institutional KYC documentation",
+        "source_span": "Own institutional KYC/AML documentation packages",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "gap_candidate",
+        "capability_id": null
+      },
+      {
+        "duty_id": "9a161438308499f8-h08",
+        "text": "Perform daily account and transaction reconciliations",
+        "source_span": "Perform daily account and transaction-level reconciliations",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "covered",
+        "capability_id": "tre.bank_rec"
+      },
+      {
+        "duty_id": "9a161438308499f8-h09",
+        "text": "Analyze loan tapes and servicer data for discrepancies",
+        "source_span": "analyze loan tapes and servicer data to identify and resolve cash or reporting discrepancies",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "assisted",
+        "capability_id": "tre.exceptions"
+      },
+      {
+        "duty_id": "9a161438308499f8-h10",
+        "text": "Update treasury procedures, controls and reporting templates",
+        "source_span": "Identify friction points in daily treasury workflows and implement updated procedures, controls, and reporting templates",
+        "is_boilerplate": false,
+        "is_requirement": false,
+        "label": "human",
+        "capability_id": null
+      }
+    ]
+  }
+}

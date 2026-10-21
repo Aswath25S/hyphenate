@@ -1,0 +1,202 @@
+{
+  "_note": "Hand labels for the 10 golden fixtures. Drafted with Claude Code from the posting text; the user should review and correct them. Format per duty: [text, verbatim source_span, label, capability_id|null]. Only scored duties (responsibilities) are listed.",
+  "aa2de5a053310233": {
+    "slug": "amplitude-billing-collections", "role_family": "AR", "seniority": "senior",
+    "salary": { "min": 121000, "max": 181000, "period": "year" }, "erp": [],
+    "duties": [
+      ["Generate, review and deliver customer invoices", "invoice generation, review, delivery", "covered", "o2c.invoicing"],
+      ["Resolve billing issues across revenue streams", "resolution of billing issues", "assisted", "o2c.orders_refunds"],
+      ["Check that invoices match contract terms", "Ensure invoices are accurate and aligned with contractual terms", "covered", "o2c.contract_terms"],
+      ["Identify and resolve invoice discrepancies", "proactively identifying and resolving discrepancies", "assisted", "tre.exceptions"],
+      ["Answer customer billing and contract inquiries", "Serve as a key point of contact for customer billing and contract inquiries", "assisted", "o2c.orders_refunds"],
+      ["Partner with GTM and Finance teams on resolutions", "partnering with internal GTM and Finance teams to drive timely, accurate resolution", "human", null],
+      ["Support collections to ensure timely customer payments", "Support collections activities to help ensure timely customer payments", "covered", "o2c.collections"],
+      ["Investigate issues that delay customer payments", "investigating and resolving issues that may create payment delays", "assisted", "tre.exceptions"],
+      ["Improve and automate order-to-cash workflows", "Identify and drive opportunities to improve, automate, and scale order-to-cash workflows", "human", null],
+      ["Support SOX controls and external audit requirements", "supporting SOX controls and external audit requirements", "assisted", "gl.audit_support"]
+    ]
+  },
+  "2a2227ca3a396266": {
+    "slug": "flexport-ar-collections", "role_family": "AR", "seniority": "entry",
+    "salary": { "min": null, "max": null, "period": null }, "erp": ["NetSuite"],
+    "duties": [
+      ["Manage collections for assigned accounts by email and phone", "Manage collections for assigned accounts through email and phone outreach", "covered", "o2c.collections"],
+      ["Prioritize overdue balances to meet DSO targets", "Prioritize overdue balances and follow through on commitments", "covered", "o2c.collections"],
+      ["Review account aging and collection activity daily", "Review account aging and collection activity daily", "covered", "o2c.collections"],
+      ["Keep records of customer conversations and payment promises", "Keep records of customer conversations, payment promises, disputes, and next steps accurate and up to date", "covered", "o2c.collections"],
+      ["Build relationships with customers' AP teams", "Build relationships with customers", "human", null],
+      ["Coordinate incoming requests and handle initial escalations", "Coordinate incoming requests and handle initial escalations", "human", null],
+      ["Investigate complex account balances and recommend next steps", "Investigate complex account balances and recommend next steps", "assisted", "tre.exceptions"],
+      ["Research invoice and payment discrepancies", "Research invoice and payment discrepancies", "assisted", "tre.exceptions"],
+      ["Reconcile customer account information", "reconcile account information", "covered", "gl.account_recs"],
+      ["Arrange and monitor approved payment schedules", "Work with Credit to arrange and monitor approved payment schedules for overdue accounts", "assisted", "o2c.collections"],
+      ["Lead biweekly receivables reviews with business leaders", "Lead biweekly reviews with business leaders on open receivables", "human", null],
+      ["Resolve payment delays with Credit, Sales, Disputes and Legal", "Work with Credit, Account Management, Sales, Disputes, and Legal to resolve issues that delay payment", "human", null],
+      ["Use AI tools to summarize account histories and draft follow-ups", "Use approved AI tools to summarize account histories, analyze aging data, and draft follow-ups", "covered", "o2c.collections"],
+      ["Test and document process improvements", "work with the AR manager to test and document process improvements", "human", null],
+      ["Support month-end close activities", "Support Finance and Accounting with month-end close activities", "unclear", null]
+    ]
+  },
+  "59ad88cfde5a04c4": {
+    "slug": "headway-ap-manager", "role_family": "AP", "seniority": "manager",
+    "salary": { "min": 110400, "max": 172500, "period": "year" }, "erp": ["NetSuite"],
+    "duties": [
+      ["Process vendor invoices", "invoice processing", "covered", "p2p.bill_capture"],
+      ["Route invoice approvals", "approvals", "covered", "p2p.approvals"],
+      ["Process vendor payments", "payments", "assisted", "p2p.payments"],
+      ["Book AP accruals", "accruals", "assisted", "gl.accruals"],
+      ["Maintain prepaids and post them to the GL", "prepaids to ensure timely and accurate posting to the GL", "covered", "gl.subledgers"],
+      ["Run AP month-end and year-end close procedures", "Own month-end and year-end close procedures for AP", "covered", "gl.close_checklist"],
+      ["Reconcile AP accounts", "including reconciliations", "covered", "gl.account_recs"],
+      ["Apply cut-off controls", "cut-off controls", "covered", "gl.controls"],
+      ["Prepare and maintain audit PBCs", "Prepare, review, and maintain audit-ready PBCs", "assisted", "gl.audit_support"],
+      ["Serve as AP expert for external auditors", "serve as the primary AP subject matter expert for external auditors", "human", null],
+      ["Drive AP process improvement and automation", "Drive process improvements and automation initiatives to scale AP workflows", "human", null],
+      ["Partner with Corporate Accounting and FP&A", "Partner with Corporate Accounting and FP&A to support accrual accuracy", "human", null],
+      ["Support cash forecasting", "cash forecasting", "assisted", "tre.forecast"],
+      ["Resolve vendor issues", "timely resolution of vendor issues", "covered", "p2p.vendor_followup"],
+      ["Build standardized AP procedures", "Build standardized AP procedures and expectations", "human", null],
+      ["Mentor and manage AP staff", "mentor and manage additional AP resources", "human", null],
+      ["Use AI tools to automate AP workflows", "Enhance automation and process efficiency by leveraging AI tools", "human", null]
+    ]
+  },
+  "612889fe106d8b35": {
+    "slug": "whoop-staff-accountant", "role_family": "GL", "seniority": "entry",
+    "salary": { "min": 60000, "max": 90000, "period": "year" }, "erp": ["NetSuite", "Oracle"],
+    "duties": [
+      ["Prepare month-end journal entries", "preparation of journal entries", "assisted", "gl.journal_entries"],
+      ["Prepare month-end accruals", "journal entries, accruals", "assisted", "gl.accruals"],
+      ["Prepare account reconciliations", "account reconciliations", "covered", "gl.account_recs"],
+      ["Prepare monthly fluctuation analyses", "monthly fluctuation analyses", "assisted", "gl.flux"],
+      ["Gather marketing accrual inputs from stakeholders", "gathering inputs from Marketing stakeholders", "human", null],
+      ["Prepare marketing accrual calculations", "preparing accrual calculations related to campaigns", "assisted", "gl.accruals"],
+      ["Record fixed asset additions, transfers, disposals and depreciation", "Maintain fixed asset accounting, including recording asset additions, placements, transfers, disposals, and monthly depreciation", "covered", "gl.subledgers"],
+      ["Partner with Manufacturing, Supply Chain and R&D on capex", "partnering with Manufacturing, Supply Chain, and R&D teams to support capital expenditure initiatives", "human", null],
+      ["Prepare prepaid schedules and monthly amortization entries", "Prepare prepaid expense schedules and monthly amortization entries", "covered", "gl.subledgers"],
+      ["Review vendor contracts and invoices for benefit periods", "reviewing vendor contracts and invoices to help ensure costs are recorded over the appropriate benefit period", "covered", "gl.subledgers"],
+      ["Support company-wide expense management", "Support company-wide expense management processes", "gap_candidate", null],
+      ["Prepare audit schedules and supporting documentation", "Support annual audits and quarterly reviews by preparing schedules and supporting documentation", "assisted", "gl.audit_support"],
+      ["Respond to auditor inquiries", "assisting with responses to auditor inquiries", "human", null],
+      ["Support system implementations", "supporting system implementations", "human", null],
+      ["Document standard operating procedures", "documenting standard operating procedures", "human", null]
+    ]
+  },
+  "e41b5102e70d4f15": {
+    "slug": "lemonade-senior-accountant", "role_family": "GL", "seniority": "senior",
+    "salary": { "min": 95000, "max": 112500, "period": "year" }, "erp": ["Workday"],
+    "duties": [
+      ["Prepare and post journal entries", "Prepare and post journal entries", "assisted", "gl.journal_entries"],
+      ["Manage accrual schedules", "manage accrual schedules", "assisted", "gl.accruals"],
+      ["Own monthly close workbooks", "Own monthly workbooks", "covered", "gl.close_checklist"],
+      ["Lead key areas of the month and year-end close", "take a leading role in key areas of the month and year-end close process", "assisted", "gl.close_checklist"],
+      ["Manage balance sheet reconciliation schedules", "Manage balance sheet reconciliation schedules", "covered", "gl.account_recs"],
+      ["Perform P&L analytics", "perform P&L analytics that surface meaningful insights", "assisted", "gl.flux"],
+      ["Review supplier invoices", "Review supplier invoices", "covered", "p2p.bill_capture"],
+      ["Review expense reports", "expense reports", "gap_candidate", null],
+      ["Support cash transactions and financial operations", "Support cash-related transactions and broader financial operations processes", "unclear", null],
+      ["Drive quarterly and annual external audit requirements", "Drive quarterly and annual external audit requirements", "assisted", "gl.audit_support"],
+      ["Partner with auditors", "acting as a reliable partner to auditors", "human", null]
+    ]
+  },
+  "692ef12fde873670": {
+    "slug": "checkr-technical-revenue", "role_family": "Revenue", "seniority": "manager",
+    "salary": { "min": 128000, "max": 178000, "period": "year" }, "erp": [],
+    "duties": [
+      ["Own technical revenue accounting under ASC 606", "Own technical revenue accounting under ASC 606", "assisted", "o2c.rev_rec"],
+      ["Assess complex contracts and non-standard deal structures", "including contract assessments, non-standard deal structures", "human", null],
+      ["Lead the month-end and quarter-end revenue close", "Lead the revenue accounting close for month-end and quarter-end", "human", null],
+      ["Ensure accurate and timely revenue recognition", "ensuring accurate and timely revenue recognition", "assisted", "o2c.rev_rec"],
+      ["Prepare revenue reconciliations", "reconciliations, and reporting", "covered", "gl.account_recs"],
+      ["Provide strategic accounting guidance to the business", "Provide strategic accounting guidance to the business", "human", null],
+      ["Build AI tools that automate quote-to-cash work", "Design, prototype, and ship AI-enabled tools and agents", "human", null],
+      ["Draft technical accounting memos", "Draft technical accounting memos", "assisted", "o2c.rev_rec"],
+      ["Maintain SOX documentation and own key controls", "maintain SOX-ready documentation, owning key controls", "assisted", "gl.audit_support"]
+    ]
+  },
+  "9a161438308499f8": {
+    "slug": "pagaya-treasury-analyst", "role_family": "Treasury", "seniority": "entry",
+    "salary": { "min": 85000, "max": 100000, "period": "year" }, "erp": [],
+    "duties": [
+      ["Coordinate concurrent loan purchases across deal structures", "Coordinate and manage concurrent loan purchases across multiple deal structures", "gap_candidate", null],
+      ["Monitor cash balances and liquidity across SPVs", "Monitor real-time cash balances, facility draw capacities, and liquidity positioning", "covered", "tre.cash_position"],
+      ["Track concentration limits and borrowing base criteria", "Track portfolio concentration limits, borrowing base parameters, and eligibility criteria", "gap_candidate", null],
+      ["Set up bank and trust accounts for new deals", "Lead the end-to-end operational setup of bank and trust accounts for new deal structures", "gap_candidate", null],
+      ["Act as operational contact for banks, servicers and custodians", "Act as a main operational point of contact for external originators, loan servicers, custodians, and banking institutions", "human", null],
+      ["Resolve operational cash exceptions", "resolve operational exceptions", "assisted", "tre.exceptions"],
+      ["Own institutional KYC documentation", "Own institutional KYC/AML documentation packages", "gap_candidate", null],
+      ["Perform daily account and transaction reconciliations", "Perform daily account and transaction-level reconciliations", "covered", "tre.bank_rec"],
+      ["Analyze loan tapes and servicer data for discrepancies", "analyze loan tapes and servicer data to identify and resolve cash or reporting discrepancies", "assisted", "tre.exceptions"],
+      ["Update treasury procedures, controls and reporting templates", "Identify friction points in daily treasury workflows and implement updated procedures, controls, and reporting templates", "human", null]
+    ]
+  },
+  "02a51009dde2c9ac": {
+    "slug": "liquid-death-accounting-clerk", "role_family": "AP", "seniority": "mid",
+    "salary": { "min": 62400, "max": 72800, "period": "hour" }, "erp": ["NetSuite"],
+    "duties": [
+      ["Maintain vendor records and new vendor setup", "Maintain accurate vendor records, including new vendor setup, approved changes, tax forms", "covered", "p2p.vendor_followup"],
+      ["Maintain 1099 reporting documentation", "documentation supporting 1099 reporting", "gap_candidate", null],
+      ["Process vendor invoices and credits in Tipalti", "Process vendor invoices and credits in Tipalti", "covered", "p2p.bill_capture"],
+      ["Check invoices for coding, approvals and duplicates", "checking for complete documentation, appropriate coding, required approvals, and duplicate submissions", "covered", "p2p.bill_capture"],
+      ["Obtain invoice approvals from business teams", "Partner with Operations, Sales, and Marketing to obtain timely invoice reviews, approvals, and supporting information", "covered", "p2p.approvals"],
+      ["Prepare payment batches for approval", "Prepare payment batches and supporting documentation for review and approval", "assisted", "p2p.payments"],
+      ["Respond to vendor inquiries", "Respond to vendor inquiries", "covered", "p2p.vendor_followup"],
+      ["Research invoice and payment discrepancies", "research invoice and payment discrepancies", "assisted", "tre.exceptions"],
+      ["Follow up on outstanding credits and balances", "follow through on outstanding credits and balances", "covered", "p2p.aging"],
+      ["Prepare AP aging reports and flag overdue items", "Prepare AP aging reports and flag overdue items", "covered", "p2p.aging"],
+      ["Reconcile vendor statements", "Reconcile vendor statements", "covered", "p2p.vendor_followup"],
+      ["Assist with AP subledger-to-GL reconciliations", "assist with AP subledger-to-general-ledger reconciliations", "covered", "p2p.aging"],
+      ["Complete assigned close-support tasks", "Complete assigned transaction processing and close-support tasks", "covered", "gl.close_checklist"],
+      ["Maintain payables and prepaid schedules", "Maintain supporting schedules and documentation for payables, prepaid expenses", "covered", "gl.subledgers"],
+      ["Identify unpaid invoices for month-end accruals", "Identify unpaid invoices and gather information", "assisted", "gl.accruals"],
+      ["Prepare routine journal entries from templates", "Prepare routine journal entries using established templates", "assisted", "gl.journal_entries"],
+      ["Verify account coding and transaction dates", "Verify account coding and transaction dates against established guidelines", "covered", "p2p.bill_capture"],
+      ["Research reconciling differences", "Research reconciling differences", "covered", "gl.account_recs"],
+      ["Keep supporting documents complete and accessible", "Keep invoices, approvals, payment records, reconciliations, and other supporting documents complete and accessible", "assisted", "gl.audit_support"],
+      ["Review transaction reports for errors and duplicates", "Review transaction reports for missing information, duplicate entries, and other potential errors", "covered", "gl.controls"],
+      ["Prepare documentation for audit and tax requests", "Retrieve records and prepare supporting documentation for audit, tax, and other accounting requests", "assisted", "gl.audit_support"],
+      ["Follow approval procedures and flag exceptions", "Follow established approval procedures and financial controls, promptly flagging exceptions or discrepancies", "assisted", "tre.exceptions"],
+      ["Improve data accuracy and reduce manual work", "Identify practical ways to improve data accuracy, simplify routine reconciliations, and reduce manual work", "human", null],
+      ["Assist with testing accounting system updates", "Assist with testing accounting system updates and changes to established workflows", "human", null],
+      ["Support use of automation and AI tools", "Support responsible use of approved automation and AI tools, verifying outputs before use", "unclear", null],
+      ["Maintain process documentation and provide backup support", "Maintain clear process documentation and provide backup support for related accounting tasks as needed", "unclear", null]
+    ]
+  },
+  "62638b661de9e066": {
+    "slug": "roofstock-accounting-manager", "role_family": "Close_Mgmt", "seniority": "manager",
+    "salary": { "min": 120000, "max": 145000, "period": "year" }, "erp": ["NetSuite"],
+    "duties": [
+      ["Process AP invoices", "invoice processing", "covered", "p2p.bill_capture"],
+      ["Route invoice approvals", "approval routing", "covered", "p2p.approvals"],
+      ["Manage the purchase order workflow", "purchase order workflow", "covered", "p2p.po_matching"],
+      ["Route contract approvals", "contract approvals", "covered", "p2p.approvals"],
+      ["Onboard vendors and complete KYC", "vendor onboarding/KYC", "covered", "p2p.vendor_followup"],
+      ["Handle vendor escalations", "vendor escalations", "human", null],
+      ["Own payroll and benefits accounting", "Own payroll and benefits accounting", "gap_candidate", null],
+      ["Prepare payroll journal entries and reconciliations", "including related journal entries and account reconciliations", "assisted", "gl.journal_entries"],
+      ["Prepare and review journal entries", "Prepare and review journal entries", "assisted", "gl.journal_entries"],
+      ["Reconcile all balance sheet accounts monthly", "Reconcile 100% of balance sheet accounts monthly", "covered", "gl.account_recs"],
+      ["Support the monthly close process", "Support the monthly close process", "covered", "gl.close_checklist"],
+      ["Speed up the close to 4 to 5 days", "speed up the close to a 4 to 5 day timeline", "human", null],
+      ["Produce recurring cash reporting", "Produce recurring cash reporting", "covered", "tre.cash_position"],
+      ["Produce the monthly close package with GAAP and non-GAAP reconciliations", "the monthly close package, including GAAP financials, reconciliation to non-GAAP measures", "assisted", "rep.management_reports"],
+      ["Manage a team of two", "Manage a team of two initially", "human", null],
+      ["Partner cross-functionally on special projects", "Partner cross-functionally with FP&A, external consultants, and other departments on special projects", "human", null],
+      ["Identify automation and process optimization opportunities", "Identify opportunities for automation and process optimization", "human", null],
+      ["Implement AI automation for journal entries", "Identify and implement AI-driven automation for journal entries and accounting workflows", "human", null]
+    ]
+  },
+  "706c77c425582d9c": {
+    "slug": "notion-senior-tax", "role_family": "Tax", "seniority": "senior",
+    "salary": { "min": 135000, "max": 155000, "period": "year" }, "erp": [],
+    "duties": [
+      ["Own recurring US and global indirect-tax filings", "Take ownership of recurring U.S. and global indirect-tax filings", "gap_candidate", null],
+      ["Manage tax notices and registrations", "notices, registrations, and close support", "gap_candidate", null],
+      ["Run reconciliations across billing, tax engines, filings and the GL", "Establish a reliable reconciliation and exception workflow across billing, tax engines, filings, payments, and the general ledger", "assisted", "gl.account_recs"],
+      ["Investigate tax variances with AI tools", "Use AI-enabled workflows and data tools to investigate variances", "unclear", null],
+      ["Strengthen tax controls and documentation", "Make tax operations more scalable and audit-ready by strengthening controls, process documentation", "human", null],
+      ["Support tax audits and SOX walkthroughs", "audit support, and SOX walkthrough readiness", "assisted", "gl.audit_support"],
+      ["Partner with Accounting, Revenue, Billing and Product", "Become a trusted partner to Accounting, Revenue, Billing, Product, Engineering, Data, and Customer Experience", "human", null],
+      ["Contribute to income tax compliance and reporting", "contribute to income tax compliance and reporting", "gap_candidate", null]
+    ]
+  }
+}
