@@ -93,7 +93,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
                     <Mono>{r.C} done end to end · {r.A} prepared for approval · {r.n - r.C - r.A} not on Hyphenate&apos;s site</Mono>
                   </div>
                   <div className="flex shrink-0 flex-wrap gap-2">
-                    <Link href={`/postings/${r.posting_id}`} className="btn-secondary !py-1.5 !text-[13px]">Full duty breakdown</Link>
+                    <Link href={`/postings/${r.posting_id}`} className="btn-secondary !py-1.5 !text-[13px]">Full role breakdown</Link>
                     <a href={r.source_url} target="_blank" rel="noreferrer" className="btn-secondary !py-1.5 !text-[13px]">Job posting ↗</a>
                   </div>
                 </div>
