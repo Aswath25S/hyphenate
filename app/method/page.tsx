@@ -34,7 +34,7 @@ const LIMITS = [
 function KV({ rows }: { rows: [string, React.ReactNode][] }) {
   return (
     <dl className="divide-y divide-dashed divide-line-dashed">
-      {rows.map(([k, v]) => <div key={k} className="grid grid-cols-[1fr_auto] gap-4 py-2 text-[14px]"><dt className="text-ink/80">{k}</dt><dd className="num text-right font-mono text-[13px]">{v}</dd></div>)}
+      {rows.map(([k, v], i) => <div key={`${i}-${k}`} className="grid grid-cols-[1fr_auto] gap-4 py-2 text-[14px]"><dt className="text-ink/80">{k}</dt><dd className="num text-right font-mono text-[13px]">{v}</dd></div>)}
     </dl>
   );
 }
@@ -117,7 +117,7 @@ export default function MethodPage() {
           <div className="card p-5"><Mono>Overlap</Mono>
             <KV rows={[['Covered share', 'C ÷ n'], ['Overlap (headline)', '(C + A) ÷ n'], ['Weighted overlap (lead score)', `(C + ${C.OVERLAP.assistedWeight}A) ÷ n`], ['Thin posting', `< ${C.OVERLAP.thinPostingMinDuties} scored duties`], ['Strong lead (gaps)', `overlap ≥ ${pct(C.OVERLAP.strongLeadOverlap)}`]]} /></div>
           <div className="card p-5"><Mono>Lead score</Mono>
-            <KV rows={[['Pain', pct(C.LEAD_WEIGHTS.pain)], ['Fit', pct(C.LEAD_WEIGHTS.fit)], ['Timing', pct(C.LEAD_WEIGHTS.timing)], ['Pain = overlap part', `${C.PAIN.overlapWeight} × avg weighted overlap`], ['Pain = roles part', `${C.PAIN.rolesWeight} × min(roles, ${C.PAIN.rolesCap}) ÷ ${C.PAIN.rolesCap}`], ['Fit', `${C.FIT_WEIGHTS.erp} ERP + ${C.FIT_WEIGHTS.size} size + ${C.FIT_WEIGHTS.complexity} complexity`]]} /></div>
+            <KV rows={[['Weight: Hyphenate can do the work (pain)', pct(C.LEAD_WEIGHTS.pain)], ['Weight: looks like a customer (fit)', pct(C.LEAD_WEIGHTS.fit)], ['Weight: potential paying customer (timing)', pct(C.LEAD_WEIGHTS.timing)], ['Pain, overlap part', `${C.PAIN.overlapWeight} × avg weighted overlap`], ['Pain, open-roles part', `${C.PAIN.rolesWeight} × min(roles, ${C.PAIN.rolesCap}) ÷ ${C.PAIN.rolesCap}`], ['Fit formula', `${C.FIT_WEIGHTS.erp} ERP + ${C.FIT_WEIGHTS.size} size + ${C.FIT_WEIGHTS.complexity} complexity`]]} /></div>
           <div className="card p-5"><Mono>Fit factors</Mono>
             <KV rows={[['ERP: NetSuite, SAP, Intacct, Dynamics, Oracle', C.ERP_SCORES.enterprise], ['ERP: not stated', C.ERP_SCORES.notStated], ['ERP: QuickBooks or Xero only', C.ERP_SCORES.smbOnly], [`Size ${C.SIZE_BAND.min.toLocaleString()}–${C.SIZE_BAND.max.toLocaleString()}`, C.SIZE_SCORES.inBand], ['Size unknown / outside', `${C.SIZE_SCORES.unknown} / ${C.SIZE_SCORES.outOfBand}`], ['Complexity 2+ / 1 / none', `${C.COMPLEXITY_SCORES.twoOrMore} / ${C.COMPLEXITY_SCORES.one} / ${C.COMPLEXITY_SCORES.none}`]]} /></div>
           <div className="card p-5"><Mono>Timing triggers</Mono>
