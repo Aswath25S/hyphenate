@@ -44,3 +44,9 @@ Choices made inside the spec's latitude. Newest at the bottom of each section.
 - **Fonts.** hyphenate.ai uses Saans, Saans Mono (Displaay) and Bw Gradual, all commercial. We use Geist and Geist Mono (the `geist` package, self-hosted, OFL).
 - **Colours** were confirmed against the site's production CSS (variables `--y3kxgx*`), which differ slightly from the spec's eyeballed values: page `#F9F7F1`, headlines `#550004`, brand `#84000D`, accent `#FF6716`, accent-soft `#FFE9DE`, muted ink `#897D71`. `styles/tokens.css` notes each source.
 - **Author name** in the footer is `config/site.ts → AUTHOR_NAME`.
+
+## M4 status
+
+- **All nine stages are implemented and proven end to end with a fake Claude transport** (`tests/integration.test.ts`): breakdowns add up, every uncovered duty lands in exactly one theme, briefs pass the fact check, reruns hit the cache, usage is logged per stage.
+- **The real M4 run needs `ANTHROPIC_API_KEY`**, which was not available in the build session. Run `npm run pipeline` (or stage by stage) once it is set. Expected spend at list prices is a few dollars: ~150 extraction calls and ~150 matching calls on Sonnet 5.5, plus ~2 gap calls, ~30 news calls and 15 briefs.
+- **News headlines can name executives** (e.g. "Acme names Jane Doe CFO"). They are stored as published news context for the trigger, at company level. No recruiter or hiring-manager data is collected from postings.
