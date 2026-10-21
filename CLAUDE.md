@@ -1,4 +1,4 @@
-# Before the Next Hire
+# Finance Hiring Signals
 
 Prospect-intelligence prototype: finance job postings → single duties → coverage against Hyphenate's public capabilities → leads, gaps, minimum savings. Full spec in `SPEC.md`; choices in `DECISIONS.md`.
 

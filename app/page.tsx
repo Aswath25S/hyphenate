@@ -2,18 +2,20 @@ import Link from 'next/link';
 import { Container, EmptyState, Mono, Note, OverlapBar, PageHero, Section, StatBlock } from '@/components/ui';
 import { getCompanies, getGaps, getMeta } from '@/lib/data';
 import { TRIGGER_LABELS, pct, usd } from '@/lib/format';
+import { PRODUCT_NAME } from '@/config/site';
 
 export default function Overview() {
   const meta = getMeta();
   if (!meta) {
     return (
       <>
-        <PageHero eyebrow="Before the Next Hire" title="Finance job postings, read duty by duty." sub="A prospect-intelligence prototype. It reads finance job postings, splits each into single duties, and measures how many of them an AI finance platform already advertises." />
+        <PageHero eyebrow={PRODUCT_NAME} title="Finance job postings, read duty by duty." sub="A prospect-intelligence prototype. It reads finance job postings, splits each into single duties, and measures how many of them an AI finance platform already advertises." />
         <Section><EmptyState /></Section>
       </>
     );
   }
   const h = meta.headlines;
+  const excluded = h.companies - h.lead_companies;
   const companies = getCompanies();
   const leads = companies.filter((c) => c.rank !== null).slice(0, 5);
   const gaps = getGaps().themes.filter((t) => t.bucket === 'possible_gap').slice(0, 3);
@@ -21,8 +23,8 @@ export default function Overview() {
     <>
       <PageHero
         eyebrow="The finding"
-        title={<>{h.companies_with_covered_work} companies are hiring for work Hyphenate&apos;s agents already do.</>}
-        sub={<>Across {h.postings} open finance postings from {h.companies} US companies, the median posting has {pct(h.median_overlap)} of its duties on Hyphenate&apos;s public site. That is work an AI platform could absorb before the next hire.</>}
+        title={<>{h.companies_with_covered_work} of {h.lead_companies} lead companies are hiring for work Hyphenate&apos;s agents already do.</>}
+        sub={<>We analysed {h.postings} open finance postings from {h.companies} US companies. {h.lead_companies} of those companies are leads{excluded ? <> ({excluded} finance-software {excluded === 1 ? 'vendor is' : 'vendors are'} analysed but never shown as {excluded === 1 ? 'a lead' : 'leads'})</> : null}, and {h.companies_with_covered_work} of the leads have at least one open role with a duty Hyphenate fully covers. The median posting has {pct(h.median_overlap)} of its duties on Hyphenate&apos;s public site. That is work that Hyphenate could replace.</>}
         meta={`As of ${meta.as_of} · ${h.postings} postings · ${h.companies} companies`}
       >
         <div className="flex flex-wrap gap-3 pt-2">
@@ -34,15 +36,15 @@ export default function Overview() {
       <section className="hatch border-b border-line py-12 sm:py-16">
         <Container>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            <StatBlock value={h.postings} label="Postings analysed" href="/method#data" />
-            <StatBlock value={h.companies} label="Companies" href="/leads" />
+            <StatBlock value={h.postings} label="Postings analysed" href="/method#data" note="Open US finance roles, last 60 days" />
+            <StatBlock value={h.companies} label="Companies analysed" href="/leads" note={excluded ? `${h.lead_companies} are leads; ${excluded} software ${excluded === 1 ? 'vendor' : 'vendors'} excluded` : `All ${h.lead_companies} are leads`} />
             <StatBlock value={pct(h.median_overlap)} label="Median overlap" href="/savings#roles" note="Covered + assisted duties ÷ scored duties" />
             <StatBlock value={usd(h.savings_total, { compact: true })} label="Minimum $ a year" href="/savings" note={`Based on ${h.savings_postings} of ${h.postings} postings`} />
           </div>
         </Container>
       </section>
 
-      <Section eyebrow="The leads" title="Top five companies to call first." action={<Link href="/leads" className="btn-secondary">All {h.lead_companies} leads</Link>}>
+      <Section eyebrow="The leads" title="Top five companies to call first." action={<Link href="/leads" className="btn-secondary">All {h.lead_companies} lead companies</Link>}>
         <div className="card overflow-hidden">
           {leads.map((c) => (
             <Link key={c.slug} href={`/companies/${c.slug}`} className="dash-row grid grid-cols-[2.25rem_1fr_auto] items-center gap-4 px-5 py-4 transition-colors hover:bg-surface-tint sm:grid-cols-[2.5rem_1.6fr_1fr_1fr_5rem]">

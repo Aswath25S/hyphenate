@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { Container, Eyebrow, Mono } from '@/components/ui';
 import { PostingEvidence } from '@/components/PostingEvidence';
+import { BackLink } from '@/components/BackLink';
 import { getPosting, getPostings } from '@/lib/data';
 import { pct } from '@/lib/format';
 
@@ -27,7 +28,11 @@ export default async function PostingPage({ params }: { params: Promise<{ id: st
     <>
       <section className="relative border-b border-line">
         <div aria-hidden className="hero-lines pointer-events-none absolute inset-0" />
-        <Container className="relative space-y-5 pb-10 pt-14 sm:pt-20">
+        <Container className="relative space-y-5 pb-10 pt-10 sm:pt-14">
+          <div className="flex flex-wrap gap-2">
+            <BackLink href={`/companies/${p.slug}`} label={p.company} />
+            <BackLink href="/leads" label="All lead companies" />
+          </div>
           <div className="flex flex-wrap items-center gap-3">
             <Eyebrow>The evidence</Eyebrow>
             <Mono><Link href={`/companies/${p.slug}`} className="hover:text-brand">{p.company}</Link> · {p.title}</Mono>

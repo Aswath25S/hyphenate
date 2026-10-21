@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { Container, Eyebrow, LabelChip, Mono, Note, OverlapBar, Section, StatBlock } from '@/components/ui';
+import { BackLink } from '@/components/BackLink';
 import { getCompanies, getCompany, getGaps, getPostings } from '@/lib/data';
 import { PRODUCT_ORDER, ROLE_LABELS, TRIGGER_LABELS, pct, shortDate, usd } from '@/lib/format';
 
@@ -29,7 +30,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
     <>
       <section className="relative border-b border-line">
         <div aria-hidden className="hero-lines pointer-events-none absolute inset-0" />
-        <Container className="relative space-y-5 pb-12 pt-14 sm:pt-20">
+        <Container className="relative space-y-5 pb-12 pt-10 sm:pt-14">
+          <BackLink href="/leads" label="All lead companies" />
           <div className="flex flex-wrap items-center gap-3">
             <Eyebrow>The case</Eyebrow>
             <Mono>{c.company} · {c.domain}{c.rank ? ` · rank ${c.rank}` : ''}</Mono>
@@ -42,7 +44,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
       <section className="hatch border-b border-line py-10 sm:py-14">
         <Container>
           <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
-            <StatBlock value={c.lead_score.toFixed(0)} label="Lead score" href="#score" note={`${c.lead_parts.pain.toFixed(1)} pain + ${c.lead_parts.fit.toFixed(1)} fit + ${c.lead_parts.timing.toFixed(1)} timing`} />
+            <StatBlock value={c.lead_score.toFixed(0)} label="Lead score" href="#score" note="Out of 100. See the breakdown below." />
             <StatBlock value={pct(c.avg_overlap)} label="Average overlap" href="#roles" note={`${c.open_roles} open ${c.open_roles === 1 ? 'role' : 'roles'}`} />
             <StatBlock value={c.savings_roles ? usd(c.savings_total, { compact: true }) : '–'} label="Minimum savings a year" href="#savings" note={c.savings_roles ? `At least ${usd(c.savings_total)} across ${c.savings_roles} ${c.savings_roles === 1 ? 'role' : 'roles'}` : 'No salary posted'} />
             <StatBlock value={<span className="text-[26px] tracking-[-0.02em] sm:text-[34px]">{c.lead_product ?? '–'}</span>} label="Lead with" href="#products" />
@@ -95,15 +97,21 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
         </div>
       </Section>
 
-      <Section id="score" eyebrow="Score breakdown" title={`Lead score ${c.lead_score.toFixed(0)}.`}>
+      <Section id="score" eyebrow="Score breakdown" title={`Lead score ${c.lead_score.toFixed(0)} out of 100.`}>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-          <div className="card p-5"><Mono>Pain · {c.pain.toFixed(2)} → {c.lead_parts.pain.toFixed(1)} pts</Mono>
-            <p className="mt-2 text-[14px]">0.8 × {pct(c.avg_weighted_overlap)} average weighted overlap + 0.2 × {Math.min(c.open_roles, 4)}/4 open roles.</p></div>
-          <div className="card p-5"><Mono>Fit · {c.fit.toFixed(2)} → {c.lead_parts.fit.toFixed(1)} pts</Mono>
-            <p className="mt-2 text-[14px]">ERP {c.erp_score} ({c.erp.join(', ') || 'not stated'}) · size {c.size_score} ({c.employee_band ?? 'unknown'}{c.employee_band ? ', unverified estimate' : ''}) · complexity {c.complexity_score} ({Object.entries(c.complexity_flags).filter(([, v]) => v).map(([k]) => k.replace(/_/g, ' ')).join(', ') || 'none stated'}).</p></div>
-          <div className="card p-5"><Mono>Timing · {c.timing.toFixed(2)} → {c.lead_parts.timing.toFixed(1)} pts</Mono>
-            <p className="mt-2 text-[14px]">{c.top_trigger ? `${TRIGGER_LABELS[c.top_trigger.trigger_type]} (weight ${c.top_trigger.weight}) × age ${c.top_trigger.age_multiplier}.` : c.news_searched ? 'No qualifying trigger found in the last 180 days.' : 'Not in the top 30 by pain and fit, so news was not searched.'}</p></div>
+          {([
+            ['Hyphenate can do the work', c.pain, c.lead_parts.pain, `On average ${pct(c.avg_overlap)} of the duties in their ${c.open_roles} open finance ${c.open_roles === 1 ? 'role are' : 'roles are'} work Hyphenate advertises. More open roles raise this part.`],
+            ['Looks like a Hyphenate customer', c.fit, c.lead_parts.fit, `ERP: ${c.erp.join(', ') || 'not stated'}. Size: ${c.employee_band ?? 'unknown'}${c.employee_band ? ' (unverified estimate)' : ''}. Complex finance: ${Object.entries(c.complexity_flags).filter(([, v]) => v).map(([k]) => k.replace(/_/g, ' ')).join(', ') || 'none stated'}.`],
+            ['Reason to buy now', c.timing, c.lead_parts.timing, c.top_trigger ? `${TRIGGER_LABELS[c.top_trigger.trigger_type]} on ${shortDate(c.top_trigger.event_date)}.${c.top_trigger.age_multiplier < 1 ? ' Counts half because it is over 90 days old.' : ''}` : c.news_searched ? 'No qualifying news in the last 180 days.' : 'News is only searched for the 30 strongest companies by the first two parts.'],
+          ] as const).map(([name, v, pts, text]) => (
+            <div key={name} className="card p-5">
+              <div className="flex items-baseline justify-between gap-2"><span className="font-medium">{name}</span><span className="num font-mono text-[12px] text-ink-display">{pts.toFixed(1)} pts</span></div>
+              <div className="mt-2 h-1.5 rounded-full bg-bg ring-1 ring-line"><div className="h-full rounded-full bg-accent" style={{ width: `${Math.min(1, v) * 100}%` }} /></div>
+              <p className="mt-3 text-[14px] leading-relaxed text-ink/85">{text}</p>
+            </div>
+          ))}
         </div>
+        <div className="mt-4"><Note>Default weights: 50% for the work Hyphenate does, 25% customer fit, 25% timing. <Link href="/method#scoring" className="link">How scores are calculated</Link>.</Note></div>
       </Section>
 
       <Section eyebrow="Why now" title={c.triggers.length ? `${c.triggers.length} trigger ${c.triggers.length === 1 ? 'event' : 'events'}.` : 'No trigger events found.'}>

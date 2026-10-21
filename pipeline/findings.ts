@@ -5,6 +5,7 @@ import { readJson } from './lib/io';
 import { P } from './lib/paths';
 import { pct, usd, ROLE_LABELS } from '../lib/format';
 import { median } from '../lib/scoring';
+import { PRODUCT_NAME } from '../config/site';
 import type { CompanyRow, GapsFile, Meta, PostingRow } from '../lib/app-types';
 
 const meta = readJson<Meta>(path.join(P.app, 'meta.json'));
@@ -27,7 +28,7 @@ const topProduct = [...products.entries()].sort((a, b) => b[1] - a[1])[0];
 
 const preview = meta.mode === 'fixture_preview';
 const lines = [
-  '# Findings: Before the Next Hire', '',
+  `# Findings: ${PRODUCT_NAME}`, '',
   `Data as of ${meta.as_of}. ${h.postings} US finance postings from ${h.companies} companies, read duty by duty against Hyphenate's public capabilities (model ${meta.model}).`,
   ...(preview ? ['', '> **Fixture preview.** These numbers come from the 10 hand-labelled fixtures, not the full pipeline run. Rerun `npm run pipeline && npm run findings` with an API key for the real memo.'] : []),
   '', '## Three headline numbers', '',

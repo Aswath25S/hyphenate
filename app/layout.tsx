@@ -5,9 +5,10 @@ import './globals.css';
 import { Nav } from '@/components/Nav';
 import { Footer } from '@/components/Footer';
 import { getMeta } from '@/lib/data';
+import { PRODUCT_NAME } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: { default: 'Before the Next Hire', template: '%s · Before the Next Hire' },
+  title: { default: PRODUCT_NAME, template: `%s · ${PRODUCT_NAME}` },
   description: 'Independent prototype: which finance job duties could an AI finance platform absorb before a company makes its next hire?',
 };
 

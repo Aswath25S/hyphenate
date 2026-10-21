@@ -24,6 +24,8 @@ export default function LeadsPage() {
       employee_band: c.employee_band, complexity_score: c.complexity_score, complexity_count: c.complexity_count, complexity_flags: c.complexity_flags,
       hq_state: c.hq_state, role_families: [...new Set(ps.map((p) => p.role_family))],
       covered_share_avg: ps.length ? ps.reduce((a, p) => a + p.covered_share, 0) / ps.length : 0,
+      tools: c.tools, has_brief: Boolean(c.brief),
+      roles: [...ps].sort((a, b) => b.overlap - a.overlap).map((p) => ({ posting_id: p.posting_id, title: p.title, role_family: p.role_family, source_url: p.source_url, overlap: p.overlap, covered_share: p.covered_share, salary_min: p.salary_min, savings: p.savings })),
     };
   });
   const strong = leads.filter((c) => c.avg_overlap >= 0.5).length;
@@ -32,8 +34,8 @@ export default function LeadsPage() {
     <>
       <PageHero
         eyebrow="The leads"
-        title={<>{strong} of {leads.length} companies are hiring for roles where at least half the duties are on Hyphenate&apos;s site.</>}
-        sub={top ? <>{top.company} ranks first. Lead score blends pain (overlap and open roles), fit (ERP, size, complexity) and timing (recent trigger events). Move the weights to re-rank instantly.</> : undefined}
+        title={<>{strong} of {leads.length} lead companies are hiring for roles where at least half the duties are on Hyphenate&apos;s site.</>}
+        sub={top ? <>Every company gets a lead score from 0 to 100. By default, half of it reflects how much of the work in its open finance jobs Hyphenate already does, a quarter how closely it resembles a typical Hyphenate customer, and a quarter whether recent news suggests it is ready to buy. {top.company} scores highest. Click any row to see its open jobs and why it scored the way it did.</> : undefined}
         meta={`As of ${meta.as_of} · median overlap ${pct(meta.headlines.median_overlap)}`}
       />
       <section className="hatch border-b border-line py-10 sm:py-14">
