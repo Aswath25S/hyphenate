@@ -78,7 +78,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
         <div className="mt-3 flex justify-end gap-8 pr-5 text-right"><Mono>Salary min</Mono><Mono>Min. savings</Mono></div>
       </Section>
 
-      <Section id="duties" eyebrow="Duty breakdown" title="What each role asks for, duty by duty.">
+      <Section id="duties" eyebrow="Role breakdown" title="What each role asks for, duty by duty.">
         <OverlapLegend className="mb-5" />
         <div className="space-y-5">
           {roles.map((r) => {

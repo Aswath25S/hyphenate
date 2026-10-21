@@ -246,7 +246,7 @@ function Details({ r, weights }: { r: LeadRow & { parts: { pain: number; fit: nu
                 {x.salary_min !== null ? <>Salary from {usd(x.salary_min)}<span className="block text-ink-muted">Min. savings {x.savings !== null ? usd(x.savings) : '–'}</span></> : <span className="text-ink-muted">No salary posted</span>}
               </span>
               <span className="flex flex-wrap gap-x-4 gap-y-1 text-[13px]">
-                <Link href={`/postings/${x.posting_id}`} className="link whitespace-nowrap">Duty breakdown</Link>
+                <Link href={`/postings/${x.posting_id}`} className="link whitespace-nowrap">Role breakdown</Link>
                 <a href={x.source_url} target="_blank" rel="noreferrer" className="link whitespace-nowrap">Job posting ↗</a>
               </span>
             </li>

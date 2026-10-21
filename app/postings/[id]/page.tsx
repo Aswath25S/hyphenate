@@ -33,7 +33,7 @@ export default async function PostingPage({ params }: { params: Promise<{ id: st
             <BackLink href={`/companies/${p.slug}`} label={p.company} />
             <BackLink href="/leads" label="All lead companies" />
           </div>
-          <Eyebrow>Duty breakdown</Eyebrow>
+          <Eyebrow>Role breakdown</Eyebrow>
           <div className="space-y-2">
             <h1 className="t-section max-w-[1100px]">{p.title}</h1>
             <p className="t-sub">at <Link href={`/companies/${p.slug}`} className="underline decoration-accent/40 decoration-2 underline-offset-4 hover:decoration-accent">{p.company}</Link></p>
