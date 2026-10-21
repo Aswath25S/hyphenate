@@ -1,0 +1,87 @@
+{
+  "posting_id": "692ef12fde873670",
+  "prompt_version": "hand-labelled",
+  "labels": [
+    {
+      "duty_id": "692ef12fde873670-h01",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-h02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-h03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-h04",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-h05",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-h06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-h07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-h08",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-h09",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

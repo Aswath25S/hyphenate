@@ -1,0 +1,105 @@
+{
+  "posting_id": "e41b5102e70d4f15",
+  "prompt_version": "hand-labelled",
+  "labels": [
+    {
+      "duty_id": "e41b5102e70d4f15-h01",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h02",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h03",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h04",
+      "label": "assisted",
+      "capability_id": "gl.close_checklist",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h05",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h06",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h07",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h09",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h10",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-h11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

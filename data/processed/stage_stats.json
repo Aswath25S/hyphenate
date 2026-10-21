@@ -1,0 +1,74 @@
+{
+  "collect": {
+    "stage": "collect",
+    "in": 102,
+    "out": 295,
+    "failed": 0,
+    "notes": [
+      "9236 jobs seen across 102 boards"
+    ],
+    "at": "2026-10-21T03:36:30.464Z"
+  },
+  "filter": {
+    "stage": "filter",
+    "in": 295,
+    "out": 152,
+    "notes": [
+      "94 companies",
+      "dropped 39: not US",
+      "dropped 62: older than 60 days",
+      "dropped 25: unclear title, not checked (no API key)",
+      "dropped 17: duplicate (merged)",
+      "25 unclear titles dropped: no ANTHROPIC_API_KEY for the Claude title check"
+    ],
+    "at": "2026-10-21T03:36:30.898Z"
+  },
+  "extract": {
+    "stage": "extract",
+    "in": 10,
+    "out": 10,
+    "notes": [
+      "fixture preview: hand labels, no model calls"
+    ],
+    "at": "2026-10-21T04:09:50.823Z"
+  },
+  "match": {
+    "stage": "match",
+    "in": 10,
+    "out": 10,
+    "notes": [
+      "fixture preview: hand labels, no model calls"
+    ],
+    "at": "2026-10-21T04:09:50.824Z"
+  },
+  "score": {
+    "stage": "score",
+    "in": 10,
+    "out": 10,
+    "notes": [
+      "10 companies",
+      "0 thin postings",
+      "9 with salary"
+    ],
+    "at": "2026-10-21T04:09:50.828Z"
+  },
+  "publish": {
+    "stage": "publish",
+    "in": 10,
+    "out": 10,
+    "notes": [
+      "10 companies",
+      "139/139 duty spans located in posting text"
+    ],
+    "at": "2026-10-21T04:09:50.835Z"
+  },
+  "gaps": {
+    "stage": "gaps",
+    "in": 51,
+    "out": 9,
+    "notes": [
+      "fixture preview: hand-assigned themes, no model calls"
+    ],
+    "at": "2026-10-21T04:09:50.829Z"
+  }
+}

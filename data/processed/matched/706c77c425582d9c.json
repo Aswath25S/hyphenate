@@ -1,0 +1,78 @@
+{
+  "posting_id": "706c77c425582d9c",
+  "prompt_version": "hand-labelled",
+  "labels": [
+    {
+      "duty_id": "706c77c425582d9c-h01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-h02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-h03",
+      "label": "assisted",
+      "capability_id": "gl.account_recs",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-h04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-h05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-h06",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-h07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-h08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    }
+  ]
+}

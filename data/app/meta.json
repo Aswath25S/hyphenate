@@ -1,6 +1,6 @@
 {
   "as_of": "2026-10-20",
-  "generated_at": "2026-10-21T03:51:43.400Z",
+  "generated_at": "2026-10-21T04:09:50.835Z",
   "mode": "fixture_preview",
   "model": "hand labels (no model calls)",
   "headlines": {
@@ -45,18 +45,18 @@
       "in": 10,
       "out": 10,
       "notes": [
-        "fixture preview: hand labels, no Claude calls"
+        "fixture preview: hand labels, no model calls"
       ],
-      "at": "2026-10-21T03:51:43.387Z"
+      "at": "2026-10-21T04:09:50.823Z"
     },
     "match": {
       "stage": "match",
       "in": 10,
       "out": 10,
       "notes": [
-        "fixture preview: hand labels, no Claude calls"
+        "fixture preview: hand labels, no model calls"
       ],
-      "at": "2026-10-21T03:51:43.388Z"
+      "at": "2026-10-21T04:09:50.824Z"
     },
     "score": {
       "stage": "score",
@@ -67,7 +67,7 @@
         "0 thin postings",
         "9 with salary"
       ],
-      "at": "2026-10-21T03:51:43.392Z"
+      "at": "2026-10-21T04:09:50.828Z"
     },
     "publish": {
       "stage": "publish",
@@ -77,16 +77,16 @@
         "10 companies",
         "139/139 duty spans located in posting text"
       ],
-      "at": "2026-10-21T03:42:56.697Z"
+      "at": "2026-10-21T03:51:43.401Z"
     },
     "gaps": {
       "stage": "gaps",
       "in": 51,
       "out": 9,
       "notes": [
-        "fixture preview: hand-assigned themes, no Claude calls"
+        "fixture preview: hand-assigned themes, no model calls"
       ],
-      "at": "2026-10-21T03:51:43.395Z"
+      "at": "2026-10-21T04:09:50.829Z"
     }
   },
   "cost_report": {},

@@ -1,0 +1,160 @@
+{
+  "posting_id": "59ad88cfde5a04c4",
+  "company": "Headway",
+  "domain": "headway.co",
+  "title": "Accounts Payable Manager",
+  "role_family": "AP",
+  "seniority": "manager",
+  "locations": [
+    "Remote"
+  ],
+  "remote": "unknown",
+  "salary": {
+    "min": 110400,
+    "max": 172500,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The expected base pay range for this position is $110,400- $172,500, based on a variety of factors including qualifications, experience, and geographic location. In addition to base salary, this role may be eligible for an equity grant, depending on the position and level."
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "duties": [
+    {
+      "duty_id": "59ad88cfde5a04c4-h01",
+      "text": "Process vendor invoices",
+      "source_span": "invoice processing",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h02",
+      "text": "Route invoice approvals",
+      "source_span": "approvals",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h03",
+      "text": "Process vendor payments",
+      "source_span": "payments",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h04",
+      "text": "Book AP accruals",
+      "source_span": "accruals",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h05",
+      "text": "Maintain prepaids and post them to the GL",
+      "source_span": "prepaids to ensure timely and accurate posting to the GL",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h06",
+      "text": "Run AP month-end and year-end close procedures",
+      "source_span": "Own month-end and year-end close procedures for AP",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h07",
+      "text": "Reconcile AP accounts",
+      "source_span": "including reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h08",
+      "text": "Apply cut-off controls",
+      "source_span": "cut-off controls",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h09",
+      "text": "Prepare and maintain audit PBCs",
+      "source_span": "Prepare, review, and maintain audit-ready PBCs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h10",
+      "text": "Serve as AP expert for external auditors",
+      "source_span": "serve as the primary AP subject matter expert for external auditors",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h11",
+      "text": "Drive AP process improvement and automation",
+      "source_span": "Drive process improvements and automation initiatives to scale AP workflows",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h12",
+      "text": "Partner with Corporate Accounting and FP&A",
+      "source_span": "Partner with Corporate Accounting and FP&A to support accrual accuracy",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h13",
+      "text": "Support cash forecasting",
+      "source_span": "cash forecasting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h14",
+      "text": "Resolve vendor issues",
+      "source_span": "timely resolution of vendor issues",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h15",
+      "text": "Build standardized AP procedures",
+      "source_span": "Build standardized AP procedures and expectations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h16",
+      "text": "Mentor and manage AP staff",
+      "source_span": "mentor and manage additional AP resources",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h17",
+      "text": "Use AI tools to automate AP workflows",
+      "source_span": "Enhance automation and process efficiency by leveraging AI tools",
+      "is_boilerplate": false,
+      "is_requirement": false
+    }
+  ],
+  "posted_at": "2026-09-25T17:53:14.587+00:00",
+  "source_url": "https://jobs.ashbyhq.com/headway/e58bd5b3-72cf-40f0-adab-8fbe7dfcef37",
+  "fetched_at": "2026-10-21T03:26:48.631Z",
+  "prompt_version": "hand-labelled",
+  "text": "1 in 4 people in the US have a treatable mental health condition, but most providers don't accept insurance, making therapy too expensive for most people. Headway’s mission is to fix this by building a new mental healthcare system everyone can access. We started by solving the biggest barrier to care: insurance. The admin work - credentialing, claims, payment reconciliation - is a nightmare. We've automated that.\n\n\n\nBut we're going further. Over 90,000 providers across all 50 states run their practice on our software, serving over 2.6 million patients. We are building the best tools for therapists to run their entire practice, reimagining the experience of finding a therapist, and investing in the platform foundations to enable this at scale, and building much of it with AI. We aren't just a billing layer; we are becoming the platform where care actually happens.\n\n\n\nWe're a Series D company with $325M+ in funding (a16z, Accel, Spark Capital, etc.), looking for exceptional people to help us achieve this mission. We want your time here to be the most meaningful experience of your career. Join us, and help change mental healthcare for the better.\n\n\n\nAbout the role:\nHeadway is seeking an AP Manager to own the accounts payable function and build scalable, efficient processes that support accurate financial reporting and audit readiness. In this role, you’ll manage AP operations, month-end close, reconciliations, and audit support while partnering cross-functionally to optimize workflows and vendor management. This is a great opportunity for a hands-on, detail-oriented individual to drive accuracy, efficiency, and scalability across the AP function. \n\nYou will:\n\n - Lead end-to-end AP operations including invoice processing, approvals, payments, accruals, and prepaids to ensure timely and accurate posting to the GL.\n\n - Own month-end and year-end close procedures for AP, including reconciliations and cut-off controls, reducing post-close adjustments and supporting a clean trial balance.\n\n - Prepare, review, and maintain audit-ready PBCs and serve as the primary AP subject matter expert for external auditors such as KPMG.\n\n - Drive process improvements and automation initiatives to scale AP workflows, reduce manual effort, and strengthen internal controls.\n\n - Partner with Corporate Accounting and FP&A to support accrual accuracy, cash forecasting, and timely resolution of vendor issues.\n\n - Build standardized AP procedures and expectations, with future opportunity to mentor and manage additional AP resources as the function scales.\n\n - Enhance automation and process efficiency by leveraging AI tools to streamline workflows, reduce manual effort, and improve accuracy and scalability across operations\n\nYou’d be a great fit if:\n\n - You have 7+ years of accounting experience with 3+ years managing AP operations in a high-growth or complex environment (healthcare, fintech, or SaaS preferred).\n\n - Proven experience with month-end/year-end close, reconciliations, and audit support.\n\n - Strong knowledge of AP-related US GAAP (expense recognition, accruals, prepaids) and internal controls.\n\n - Hands-on operator who can implement scalable processes and drive automation initiatives.\n\n - Excellent communicator with strong interpersonal skills, able to collaborate with cross-functional partners and vendors.\n\n - Passionate about building reliable, efficient AP processes and developing team capabilities.\n\n - Hands-on experience with NetSuite and Ramp, with the ability to optimize workflows and reporting within these systems.\n\n - A curiosity into using AI tools and a dedication to leveraging AI for process automation and efficiency.\n\nCompensation and Benefits:\n\nThe expected base pay range for this position is $110,400- $172,500, based on a variety of factors including qualifications, experience, and geographic location. In addition to base salary, this role may be eligible for an equity grant, depending on the position and level.\n\nWe are committed to offering a comprehensive and competitive total rewards package, including robust health and wellness benefits, retirement savings, and meaningful ownership opportunities through equity. Compensation decisions are made holistically, ensuring fairness and alignment with market benchmarks while recognizing individual contributions and potential.\n\n - Benefits offered include:\n   \n   - Equity compensation\n   \n   - Medical, Dental, and Vision coverage\n   \n   - HSA / FSA\n   \n   - 401K\n   \n   - Work-from-Home Stipend\n   \n   - Therapy Reimbursement\n   \n   - 16-week parental leave for eligible employees\n   \n   - Carrot Fertility annual reimbursement and membership\n   \n   - 13 paid holidays each year as well as a Holiday Break during the week between December 25th and December 31st\n   \n   - Flexible PTO\n   \n   - Employee Assistance Program (EAP)\n   \n   - Training and professional development\n\n \n\n\n\nWe believe a team's strength is in its people, and we cannot achieve this mission without a team that reflects the diversity of this problem – across race, ethnicity, gender, sexuality, age, national origin, religion, family status, disability, military status, and experience. Headway is committed to the full inclusion of all qualified individuals. As part of this commitment, Headway will ensure that persons with disabilities are provided with reasonable accommodations. If reasonable accommodation is needed to participate in the job application or interview process, to perform essential job functions, and/or receive other benefits and privileges of employment, please inform the recruiter when they contact you to schedule your interview.\n\n\n\nHeadway participates in E-Verify. To learn more, click here. https://www.e-verify.gov/sites/default/files/everify/posters/EVerifyParticipationPoster.pdf\n\n\n\nA notice to Headway applicants: To protect yourself against phishing and recruitment fraud, please note that Headway only accepts applications through our official careers page at https://headway.co/careers. Headway will never refer you to external websites, ask for payment or personal information, or conduct interviews via messaging apps. All official communication will come from a @findheadway.com http://findheadway.com email address. If you are contacted by someone claiming to be from Headway via an unofficial channel, please do not share any information and report it as spam.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "ashby"
+}

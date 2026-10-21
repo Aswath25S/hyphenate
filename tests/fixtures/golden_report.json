@@ -1,0 +1,162 @@
+{
+  "at": "2026-10-21T04:25:32.970Z",
+  "prompts": {
+    "extract": "extract-v1",
+    "match": "match-v1"
+  },
+  "fixtures": 10,
+  "m1": {
+    "schema_valid": "10/10",
+    "duty_count_within_1": "0/10",
+    "salary_exact": "10/10",
+    "pass": false
+  },
+  "m2": {
+    "label_agreement": 0.6935483870967742,
+    "labels": "86/124",
+    "capability_agreement_when_label_agrees": 1,
+    "covered_or_assisted_without_capability": 0,
+    "pass": false
+  },
+  "confusion_hand_vs_model": {
+    "covered": {
+      "covered": 34,
+      "assisted": 1,
+      "unclear": 2,
+      "gap_candidate": 5
+    },
+    "assisted": {
+      "covered": 5,
+      "assisted": 23,
+      "human": 5,
+      "unclear": 1,
+      "gap_candidate": 3
+    },
+    "human": {
+      "human": 17,
+      "gap_candidate": 2,
+      "unclear": 11
+    },
+    "gap_candidate": {
+      "gap_candidate": 9,
+      "human": 1,
+      "unclear": 1
+    },
+    "unclear": {
+      "unclear": 3,
+      "gap_candidate": 1
+    }
+  },
+  "rows": [
+    {
+      "fixture": "amplitude-billing-collections",
+      "expected_duties": 10,
+      "extracted_duties": 16,
+      "duty_diff": 6,
+      "salary": "121000–181000",
+      "salary_ok": true,
+      "role_family": "AR",
+      "role_ok": true,
+      "label_agreement": "6/10"
+    },
+    {
+      "fixture": "checkr-technical-revenue",
+      "expected_duties": 9,
+      "extracted_duties": 27,
+      "duty_diff": 18,
+      "salary": "128000–178000",
+      "salary_ok": true,
+      "role_family": "Revenue",
+      "role_ok": true,
+      "label_agreement": "3/9"
+    },
+    {
+      "fixture": "flexport-ar-collections",
+      "expected_duties": 15,
+      "extracted_duties": 33,
+      "duty_diff": 18,
+      "salary": "–––",
+      "salary_ok": true,
+      "role_family": "AR",
+      "role_ok": true,
+      "match_error": "covered/assisted labels need a valid capability_id from the map: 2a2227ca3a396266-h01=tre.collections, 2a2227ca3a396266-h02=tre.collections, 2a2227ca3a396266-h03=tre.collections, 2a2227ca3a396266-h04=tre.collections, 2a2227ca3a396266-h13=tre.collections"
+    },
+    {
+      "fixture": "headway-ap-manager",
+      "expected_duties": 17,
+      "extracted_duties": 35,
+      "duty_diff": 18,
+      "salary": "110400–172500",
+      "salary_ok": true,
+      "role_family": "AP",
+      "role_ok": true,
+      "label_agreement": "13/17"
+    },
+    {
+      "fixture": "lemonade-senior-accountant",
+      "expected_duties": 11,
+      "extracted_duties": 15,
+      "duty_diff": 4,
+      "salary": "95000–112500",
+      "salary_ok": true,
+      "role_family": "GL",
+      "role_ok": true,
+      "label_agreement": "10/11"
+    },
+    {
+      "fixture": "liquid-death-accounting-clerk",
+      "expected_duties": 26,
+      "extracted_duties": 72,
+      "duty_diff": 46,
+      "salary": "62400–72800",
+      "salary_ok": true,
+      "role_family": "AP",
+      "role_ok": true,
+      "label_agreement": "20/26"
+    },
+    {
+      "fixture": "notion-senior-tax",
+      "expected_duties": 8,
+      "extracted_duties": 35,
+      "duty_diff": 27,
+      "salary": "135000–155000",
+      "salary_ok": true,
+      "role_family": "Tax",
+      "role_ok": true,
+      "label_agreement": "4/8"
+    },
+    {
+      "fixture": "pagaya-treasury-analyst",
+      "expected_duties": 10,
+      "extracted_duties": 26,
+      "duty_diff": 16,
+      "salary": "85000–100000",
+      "salary_ok": true,
+      "role_family": "Treasury",
+      "role_ok": true,
+      "label_agreement": "9/10"
+    },
+    {
+      "fixture": "roofstock-accounting-manager",
+      "expected_duties": 18,
+      "extracted_duties": 33,
+      "duty_diff": 15,
+      "salary": "120000–145000",
+      "salary_ok": true,
+      "role_family": "Close_Mgmt",
+      "role_ok": true,
+      "label_agreement": "10/18"
+    },
+    {
+      "fixture": "whoop-staff-accountant",
+      "expected_duties": 15,
+      "extracted_duties": 33,
+      "duty_diff": 18,
+      "salary": "60000–90000",
+      "salary_ok": true,
+      "role_family": "GL",
+      "role_ok": true,
+      "label_agreement": "11/15"
+    }
+  ]
+}

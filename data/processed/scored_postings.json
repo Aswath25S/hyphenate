@@ -1,0 +1,750 @@
+[
+  {
+    "posting_id": "02a51009dde2c9ac",
+    "company": "Liquid Death",
+    "domain": "liquiddeath.com",
+    "slug": "liquid-death",
+    "title": "Senior Accounting Clerk (Contract)",
+    "role_family": "AP",
+    "seniority": "mid",
+    "n": 26,
+    "C": 14,
+    "A": 7,
+    "covered_share": 0.5384615384615384,
+    "overlap": 0.8076923076923077,
+    "weighted_overlap": 0.6730769230769231,
+    "thin": false,
+    "covered_ids": [
+      "02a51009dde2c9ac-h01",
+      "02a51009dde2c9ac-h03",
+      "02a51009dde2c9ac-h04",
+      "02a51009dde2c9ac-h05",
+      "02a51009dde2c9ac-h07",
+      "02a51009dde2c9ac-h09",
+      "02a51009dde2c9ac-h10",
+      "02a51009dde2c9ac-h11",
+      "02a51009dde2c9ac-h12",
+      "02a51009dde2c9ac-h13",
+      "02a51009dde2c9ac-h14",
+      "02a51009dde2c9ac-h17",
+      "02a51009dde2c9ac-h18",
+      "02a51009dde2c9ac-h20"
+    ],
+    "assisted_ids": [
+      "02a51009dde2c9ac-h06",
+      "02a51009dde2c9ac-h08",
+      "02a51009dde2c9ac-h15",
+      "02a51009dde2c9ac-h16",
+      "02a51009dde2c9ac-h19",
+      "02a51009dde2c9ac-h21",
+      "02a51009dde2c9ac-h22"
+    ],
+    "product_split": {
+      "Procure-to-pay": {
+        "covered": 10,
+        "assisted": 1,
+        "weighted": 10.5
+      },
+      "Treasury": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      },
+      "GL accounting": {
+        "covered": 4,
+        "assisted": 4,
+        "weighted": 6
+      }
+    },
+    "lead_product": "Procure-to-pay",
+    "salary": {
+      "min": 62400,
+      "max": 72800,
+      "period_in": "hour",
+      "varies_by_location": false,
+      "raw_text": "The typical salary range for this position is: $30.00 - $35.00 per hour (non exempt)"
+    },
+    "salary_source": "posting_text",
+    "savings": {
+      "value": 16800,
+      "reason": null,
+      "salary_used": 62400,
+      "share": 0.5384615384615384
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [],
+    "complexity": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false,
+      "entity_count": null
+    },
+    "posted_at": "2026-10-20T09:11:58-04:00",
+    "source_url": "https://job-boards.greenhouse.io/liquiddeath/jobs/4457806009",
+    "locations": [
+      "Remote",
+      "Remote - United States"
+    ],
+    "remote": "unknown",
+    "matched": true
+  },
+  {
+    "posting_id": "2a2227ca3a396266",
+    "company": "Flexport",
+    "domain": "flexport.com",
+    "slug": "flexport",
+    "title": "Accounts Receivable Collections Analyst",
+    "role_family": "AR",
+    "seniority": "entry",
+    "n": 15,
+    "C": 6,
+    "A": 3,
+    "covered_share": 0.4,
+    "overlap": 0.6,
+    "weighted_overlap": 0.5,
+    "thin": false,
+    "covered_ids": [
+      "2a2227ca3a396266-h01",
+      "2a2227ca3a396266-h02",
+      "2a2227ca3a396266-h03",
+      "2a2227ca3a396266-h04",
+      "2a2227ca3a396266-h09",
+      "2a2227ca3a396266-h13"
+    ],
+    "assisted_ids": [
+      "2a2227ca3a396266-h07",
+      "2a2227ca3a396266-h08",
+      "2a2227ca3a396266-h10"
+    ],
+    "product_split": {
+      "Order-to-cash": {
+        "covered": 5,
+        "assisted": 1,
+        "weighted": 5.5
+      },
+      "Treasury": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      },
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 0,
+        "weighted": 1
+      }
+    },
+    "lead_product": "Order-to-cash",
+    "salary": {
+      "min": null,
+      "max": null,
+      "period_in": null,
+      "varies_by_location": false,
+      "raw_text": null
+    },
+    "salary_source": null,
+    "savings": {
+      "value": null,
+      "reason": "no_salary",
+      "salary_used": null,
+      "share": null
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [],
+    "complexity": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false,
+      "entity_count": null
+    },
+    "posted_at": "2026-10-12T13:07:47-04:00",
+    "source_url": "https://job-boards.greenhouse.io/flexport/jobs/8273282",
+    "locations": [
+      "Atlanta, Georgia, United States"
+    ],
+    "remote": "unknown",
+    "matched": true
+  },
+  {
+    "posting_id": "59ad88cfde5a04c4",
+    "company": "Headway",
+    "domain": "headway.co",
+    "slug": "headway",
+    "title": "Accounts Payable Manager",
+    "role_family": "AP",
+    "seniority": "manager",
+    "n": 17,
+    "C": 7,
+    "A": 4,
+    "covered_share": 0.4117647058823529,
+    "overlap": 0.6470588235294118,
+    "weighted_overlap": 0.5294117647058824,
+    "thin": false,
+    "covered_ids": [
+      "59ad88cfde5a04c4-h01",
+      "59ad88cfde5a04c4-h02",
+      "59ad88cfde5a04c4-h05",
+      "59ad88cfde5a04c4-h06",
+      "59ad88cfde5a04c4-h07",
+      "59ad88cfde5a04c4-h08",
+      "59ad88cfde5a04c4-h14"
+    ],
+    "assisted_ids": [
+      "59ad88cfde5a04c4-h03",
+      "59ad88cfde5a04c4-h04",
+      "59ad88cfde5a04c4-h09",
+      "59ad88cfde5a04c4-h13"
+    ],
+    "product_split": {
+      "Procure-to-pay": {
+        "covered": 3,
+        "assisted": 1,
+        "weighted": 3.5
+      },
+      "GL accounting": {
+        "covered": 4,
+        "assisted": 2,
+        "weighted": 5
+      },
+      "Treasury": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "lead_product": "GL accounting",
+    "salary": {
+      "min": 110400,
+      "max": 172500,
+      "period_in": "year",
+      "varies_by_location": false,
+      "raw_text": "The expected base pay range for this position is $110,400- $172,500, based on a variety of factors including qualifications, experience, and geographic location. In addition to base salary, this role may be eligible for an equity grant, depending on the position and level."
+    },
+    "salary_source": "posting_text",
+    "savings": {
+      "value": 22729.41176470588,
+      "reason": null,
+      "salary_used": 110400,
+      "share": 0.4117647058823529
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [],
+    "complexity": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false,
+      "entity_count": null
+    },
+    "posted_at": "2026-09-25T17:53:14.587+00:00",
+    "source_url": "https://jobs.ashbyhq.com/headway/e58bd5b3-72cf-40f0-adab-8fbe7dfcef37",
+    "locations": [
+      "Remote"
+    ],
+    "remote": "unknown",
+    "matched": true
+  },
+  {
+    "posting_id": "612889fe106d8b35",
+    "company": "WHOOP",
+    "domain": "whoop.com",
+    "slug": "whoop",
+    "title": "Staff Accountant",
+    "role_family": "GL",
+    "seniority": "entry",
+    "n": 15,
+    "C": 4,
+    "A": 5,
+    "covered_share": 0.26666666666666666,
+    "overlap": 0.6,
+    "weighted_overlap": 0.43333333333333335,
+    "thin": false,
+    "covered_ids": [
+      "612889fe106d8b35-h03",
+      "612889fe106d8b35-h07",
+      "612889fe106d8b35-h09",
+      "612889fe106d8b35-h10"
+    ],
+    "assisted_ids": [
+      "612889fe106d8b35-h01",
+      "612889fe106d8b35-h02",
+      "612889fe106d8b35-h04",
+      "612889fe106d8b35-h06",
+      "612889fe106d8b35-h12"
+    ],
+    "product_split": {
+      "GL accounting": {
+        "covered": 4,
+        "assisted": 5,
+        "weighted": 6.5
+      }
+    },
+    "lead_product": "GL accounting",
+    "salary": {
+      "min": 60000,
+      "max": 90000,
+      "period_in": "year",
+      "varies_by_location": false,
+      "raw_text": "The U.S. base salary range for this full-time position is $60,000 -$90,000. Salary ranges are determined by role, level, and location. Within each range, individual pay is based on factors such as job-related skills, experience, performance, and relevant education or training."
+    },
+    "salary_source": "posting_text",
+    "savings": {
+      "value": 8000,
+      "reason": null,
+      "salary_used": 60000,
+      "share": 0.26666666666666666
+    },
+    "erp": [
+      "NetSuite",
+      "Oracle"
+    ],
+    "tools": [],
+    "complexity": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false,
+      "entity_count": null
+    },
+    "posted_at": "2026-08-25T17:49:34.113+00:00",
+    "source_url": "https://jobs.ashbyhq.com/whoop/3b6827ad-945c-46be-b920-897de9cc85ba",
+    "locations": [
+      "Boston, MA"
+    ],
+    "remote": "unknown",
+    "matched": true
+  },
+  {
+    "posting_id": "62638b661de9e066",
+    "company": "Roofstock",
+    "domain": "roofstock.com",
+    "slug": "roofstock",
+    "title": "Accounting Manager",
+    "role_family": "Close_Mgmt",
+    "seniority": "manager",
+    "n": 18,
+    "C": 8,
+    "A": 3,
+    "covered_share": 0.4444444444444444,
+    "overlap": 0.6111111111111112,
+    "weighted_overlap": 0.5277777777777778,
+    "thin": false,
+    "covered_ids": [
+      "62638b661de9e066-h01",
+      "62638b661de9e066-h02",
+      "62638b661de9e066-h03",
+      "62638b661de9e066-h04",
+      "62638b661de9e066-h05",
+      "62638b661de9e066-h10",
+      "62638b661de9e066-h11",
+      "62638b661de9e066-h13"
+    ],
+    "assisted_ids": [
+      "62638b661de9e066-h08",
+      "62638b661de9e066-h09",
+      "62638b661de9e066-h14"
+    ],
+    "product_split": {
+      "Procure-to-pay": {
+        "covered": 5,
+        "assisted": 0,
+        "weighted": 5
+      },
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 2,
+        "weighted": 3
+      },
+      "Treasury": {
+        "covered": 1,
+        "assisted": 0,
+        "weighted": 1
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "lead_product": "Procure-to-pay",
+    "salary": {
+      "min": 120000,
+      "max": 145000,
+      "period_in": "year",
+      "varies_by_location": false,
+      "raw_text": "$120,000 - $145,000 annually"
+    },
+    "salary_source": "posting_text",
+    "savings": {
+      "value": 26666.666666666664,
+      "reason": null,
+      "salary_used": 120000,
+      "share": 0.4444444444444444
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [],
+    "complexity": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false,
+      "entity_count": null
+    },
+    "posted_at": "2026-09-18T14:47:01-04:00",
+    "source_url": "https://job-boards.greenhouse.io/roofstock/jobs/8821792002",
+    "locations": [
+      "Oakland, California, United States"
+    ],
+    "remote": "unknown",
+    "matched": true
+  },
+  {
+    "posting_id": "692ef12fde873670",
+    "company": "Checkr",
+    "domain": "checkr.com",
+    "slug": "checkr",
+    "title": "Technical Revenue Accounting Manager",
+    "role_family": "Revenue",
+    "seniority": "manager",
+    "n": 9,
+    "C": 1,
+    "A": 4,
+    "covered_share": 0.1111111111111111,
+    "overlap": 0.5555555555555556,
+    "weighted_overlap": 0.3333333333333333,
+    "thin": false,
+    "covered_ids": [
+      "692ef12fde873670-h05"
+    ],
+    "assisted_ids": [
+      "692ef12fde873670-h01",
+      "692ef12fde873670-h04",
+      "692ef12fde873670-h08",
+      "692ef12fde873670-h09"
+    ],
+    "product_split": {
+      "Order-to-cash": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      },
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 1,
+        "weighted": 1.5
+      }
+    },
+    "lead_product": "GL accounting",
+    "salary": {
+      "min": 128000,
+      "max": 178000,
+      "period_in": "year",
+      "varies_by_location": false,
+      "raw_text": "$151,000—$178,000 USD"
+    },
+    "salary_source": "posting_text",
+    "savings": {
+      "value": 7111.11111111111,
+      "reason": null,
+      "salary_used": 128000,
+      "share": 0.1111111111111111
+    },
+    "erp": [],
+    "tools": [],
+    "complexity": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false,
+      "entity_count": null
+    },
+    "posted_at": "2026-09-29T16:55:31-04:00",
+    "source_url": "https://job-boards.greenhouse.io/checkr/jobs/8241317",
+    "locations": [
+      "Denver, Colorado, United States; San Francisco, California, United States",
+      "San Francisco, California, United States"
+    ],
+    "remote": "unknown",
+    "matched": true
+  },
+  {
+    "posting_id": "706c77c425582d9c",
+    "company": "Notion",
+    "domain": "notion.so",
+    "slug": "notion",
+    "title": "Senior Tax Accountant",
+    "role_family": "Tax",
+    "seniority": "senior",
+    "n": 8,
+    "C": 0,
+    "A": 2,
+    "covered_share": 0,
+    "overlap": 0.25,
+    "weighted_overlap": 0.125,
+    "thin": false,
+    "covered_ids": [],
+    "assisted_ids": [
+      "706c77c425582d9c-h03",
+      "706c77c425582d9c-h06"
+    ],
+    "product_split": {
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "lead_product": "GL accounting",
+    "salary": {
+      "min": 135000,
+      "max": 155000,
+      "period_in": "year",
+      "varies_by_location": false,
+      "raw_text": "Notion is committed to providing highly competitive cash compensation, equity, and benefits. The compensation offered for this role will be based on multiple factors such as location, the role’s scope and complexity, and the candidate’s experience and expertise, and may vary from the range provided below. For roles based in San Francisco, the estimated base salary range for this role is $135,000 - $155,000 per year."
+    },
+    "salary_source": "posting_text",
+    "savings": {
+      "value": 0,
+      "reason": null,
+      "salary_used": 135000,
+      "share": 0
+    },
+    "erp": [],
+    "tools": [],
+    "complexity": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false,
+      "entity_count": null
+    },
+    "posted_at": "2026-09-22T21:34:58.002+00:00",
+    "source_url": "https://jobs.ashbyhq.com/notion/3ba04d35-9f56-4968-bce6-df26a3dc8523",
+    "locations": [
+      "San Francisco, California"
+    ],
+    "remote": "unknown",
+    "matched": true
+  },
+  {
+    "posting_id": "9a161438308499f8",
+    "company": "Pagaya",
+    "domain": "pagaya.com",
+    "slug": "pagaya",
+    "title": "Analyst, Treasury",
+    "role_family": "Treasury",
+    "seniority": "entry",
+    "n": 10,
+    "C": 2,
+    "A": 2,
+    "covered_share": 0.2,
+    "overlap": 0.4,
+    "weighted_overlap": 0.3,
+    "thin": false,
+    "covered_ids": [
+      "9a161438308499f8-h02",
+      "9a161438308499f8-h08"
+    ],
+    "assisted_ids": [
+      "9a161438308499f8-h06",
+      "9a161438308499f8-h09"
+    ],
+    "product_split": {
+      "Treasury": {
+        "covered": 2,
+        "assisted": 2,
+        "weighted": 3
+      }
+    },
+    "lead_product": "Treasury",
+    "salary": {
+      "min": 85000,
+      "max": 100000,
+      "period_in": "year",
+      "varies_by_location": false,
+      "raw_text": "$85,000—$100,000 USD"
+    },
+    "salary_source": "posting_text",
+    "savings": {
+      "value": 8500,
+      "reason": null,
+      "salary_used": 85000,
+      "share": 0.2
+    },
+    "erp": [],
+    "tools": [],
+    "complexity": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false,
+      "entity_count": null
+    },
+    "posted_at": "2026-10-06T09:54:40-04:00",
+    "source_url": "https://job-boards.greenhouse.io/pagaya/jobs/8014453003",
+    "locations": [
+      "New York, NY",
+      "New York, New York, United States"
+    ],
+    "remote": "unknown",
+    "matched": true
+  },
+  {
+    "posting_id": "aa2de5a053310233",
+    "company": "Amplitude",
+    "domain": "amplitude.com",
+    "slug": "amplitude",
+    "title": "Sr Billing and Collections Analyst",
+    "role_family": "AR",
+    "seniority": "senior",
+    "n": 10,
+    "C": 3,
+    "A": 5,
+    "covered_share": 0.3,
+    "overlap": 0.8,
+    "weighted_overlap": 0.55,
+    "thin": false,
+    "covered_ids": [
+      "aa2de5a053310233-h01",
+      "aa2de5a053310233-h03",
+      "aa2de5a053310233-h07"
+    ],
+    "assisted_ids": [
+      "aa2de5a053310233-h02",
+      "aa2de5a053310233-h04",
+      "aa2de5a053310233-h05",
+      "aa2de5a053310233-h08",
+      "aa2de5a053310233-h10"
+    ],
+    "product_split": {
+      "Order-to-cash": {
+        "covered": 3,
+        "assisted": 2,
+        "weighted": 4
+      },
+      "Treasury": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      },
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "lead_product": "Order-to-cash",
+    "salary": {
+      "min": 121000,
+      "max": 181000,
+      "period_in": "year",
+      "varies_by_location": false,
+      "raw_text": "Based on legislation in California, the following details are for individuals who will work for Amplitude in San Francisco Bay Area of California. Salary range: $121,000 - $181,000 total target cash (inclusive of bonus or commission)"
+    },
+    "salary_source": "posting_text",
+    "savings": {
+      "value": 18150,
+      "reason": null,
+      "salary_used": 121000,
+      "share": 0.3
+    },
+    "erp": [],
+    "tools": [],
+    "complexity": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false,
+      "entity_count": null
+    },
+    "posted_at": "2026-09-09T22:16:20.686+00:00",
+    "source_url": "https://jobs.ashbyhq.com/amplitude/34ca5ceb-d713-4e96-b034-6694d3038b2c",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": "unknown",
+    "matched": true
+  },
+  {
+    "posting_id": "e41b5102e70d4f15",
+    "company": "Lemonade",
+    "domain": "lemonade.com",
+    "slug": "lemonade",
+    "title": "Senior Accountant",
+    "role_family": "GL",
+    "seniority": "senior",
+    "n": 11,
+    "C": 3,
+    "A": 5,
+    "covered_share": 0.2727272727272727,
+    "overlap": 0.7272727272727273,
+    "weighted_overlap": 0.5,
+    "thin": false,
+    "covered_ids": [
+      "e41b5102e70d4f15-h03",
+      "e41b5102e70d4f15-h05",
+      "e41b5102e70d4f15-h07"
+    ],
+    "assisted_ids": [
+      "e41b5102e70d4f15-h01",
+      "e41b5102e70d4f15-h02",
+      "e41b5102e70d4f15-h04",
+      "e41b5102e70d4f15-h06",
+      "e41b5102e70d4f15-h10"
+    ],
+    "product_split": {
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 5,
+        "weighted": 4.5
+      },
+      "Procure-to-pay": {
+        "covered": 1,
+        "assisted": 0,
+        "weighted": 1
+      }
+    },
+    "lead_product": "GL accounting",
+    "salary": {
+      "min": 95000,
+      "max": 112500,
+      "period_in": "year",
+      "varies_by_location": false,
+      "raw_text": "Lemonade's US base salary range for this full-time position is $95,000 - $112,500 plus equity + benefits. Our salary ranges are determined by role, level, and location. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Our competitive total rewards package includes comprehensive health & wellness coverage, equity, a 401(k) plan with employer match, 20 paid vacation days, and parental leave. Speak to your recruiter to hear more about the specific salary range for your preferred location and our total rewards package."
+    },
+    "salary_source": "posting_text",
+    "savings": {
+      "value": 12954.545454545454,
+      "reason": null,
+      "salary_used": 95000,
+      "share": 0.2727272727272727
+    },
+    "erp": [
+      "Workday"
+    ],
+    "tools": [],
+    "complexity": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false,
+      "entity_count": null
+    },
+    "posted_at": "2026-09-15T21:06:11.824+00:00",
+    "source_url": "https://jobs.ashbyhq.com/lemonade/7bfec8fa-c2fd-4288-90a4-0e8b74061d4f",
+    "locations": [
+      "NYC"
+    ],
+    "remote": "unknown",
+    "matched": true
+  }
+]

@@ -1,0 +1,159 @@
+{
+  "posting_id": "59ad88cfde5a04c4",
+  "prompt_version": "hand-labelled",
+  "labels": [
+    {
+      "duty_id": "59ad88cfde5a04c4-h01",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h02",
+      "label": "covered",
+      "capability_id": "p2p.approvals",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h03",
+      "label": "assisted",
+      "capability_id": "p2p.payments",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h04",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h05",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h06",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h07",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h08",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h09",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h13",
+      "label": "assisted",
+      "capability_id": "tre.forecast",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h14",
+      "label": "covered",
+      "capability_id": "p2p.vendor_followup",
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "59ad88cfde5a04c4-h17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 1,
+      "rationale": "Hand label (fixture).",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}
