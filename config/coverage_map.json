@@ -1,0 +1,519 @@
+{
+  "as_of": "2026-10-20",
+  "note": "Our reading of hyphenate.ai public claims, not Hyphenate's own list. Based on public site, to be validated.",
+  "known_not_advertised": [
+    "payroll processing",
+    "sales and use tax filing",
+    "1099s",
+    "sales commissions",
+    "expense-report review",
+    "budgeting and planning models",
+    "inventory and cost accounting",
+    "equity and stock-comp accounting"
+  ],
+  "capabilities": [
+    {
+      "id": "o2c.contract_terms",
+      "product": "Order-to-cash",
+      "capability": "Extract contract terms, obligations and pricing",
+      "default_level": "covered",
+      "example_phrases": [
+        "Review customer contracts to identify billing terms",
+        "Abstract key terms from sales contracts",
+        "Set up new customer contracts and pricing in the billing system",
+        "Maintain contract and pricing data in the CRM-to-billing handoff"
+      ],
+      "not_included": [
+        "Negotiate contract terms with customers (human)",
+        "Legal review of contracts"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "o2c.rev_rec",
+      "product": "Order-to-cash",
+      "capability": "Apply ASC 606 policy, build revenue schedules and documentation",
+      "default_level": "assisted",
+      "example_phrases": [
+        "Prepare revenue recognition schedules under ASC 606",
+        "Maintain the revenue waterfall",
+        "Document revenue recognition conclusions for new contracts",
+        "Calculate deferred revenue and unbilled receivables",
+        "Record monthly revenue entries"
+      ],
+      "not_included": [
+        "Set or interpret revenue recognition policy (human judgment)",
+        "Technical accounting memos on novel arrangements"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "o2c.invoicing",
+      "product": "Order-to-cash",
+      "capability": "Create and send invoices, including usage-based billing",
+      "default_level": "covered",
+      "example_phrases": [
+        "Prepare and send customer invoices",
+        "Generate monthly usage-based invoices",
+        "Manage the billing cycle in NetSuite",
+        "Issue credit memos and invoice adjustments",
+        "Process recurring subscription billing"
+      ],
+      "not_included": [
+        "Design pricing or packaging",
+        "Sales commissions calculations"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "o2c.collections",
+      "product": "Order-to-cash",
+      "capability": "Send payment reminders and chase overdue invoices",
+      "default_level": "covered",
+      "example_phrases": [
+        "Follow up on past-due accounts",
+        "Send dunning notices to customers",
+        "Manage the collections process to reduce DSO",
+        "Contact customers by email and phone regarding overdue balances",
+        "Monitor AR aging and pursue delinquent accounts"
+      ],
+      "not_included": [
+        "Negotiate payment plans with strategic customers (judgment)",
+        "Set credit policy",
+        "Escalate to legal or agencies"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "o2c.orders_refunds",
+      "product": "Order-to-cash",
+      "capability": "Process orders, refunds and sales triage",
+      "default_level": "covered",
+      "example_phrases": [
+        "Process customer refunds",
+        "Enter sales orders into the ERP",
+        "Resolve billing inquiries from customers and sales",
+        "Process customer credits and chargebacks"
+      ],
+      "not_included": [
+        "Customer success relationship management"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "tre.cash_application",
+      "product": "Treasury",
+      "capability": "Match bank activity to open invoices and bills",
+      "default_level": "covered",
+      "example_phrases": [
+        "Apply customer payments daily",
+        "Post cash receipts to customer accounts",
+        "Match incoming wires, ACH and lockbox receipts to invoices",
+        "Identify and apply unapplied cash"
+      ],
+      "not_included": [
+        "Investigate customer disputes requiring negotiation"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "tre.exceptions",
+      "product": "Treasury",
+      "capability": "Flag short-paid, unmatched or over-policy items",
+      "default_level": "assisted",
+      "example_phrases": [
+        "Research and resolve unapplied or short payments",
+        "Investigate payment discrepancies",
+        "Resolve unmatched bank transactions",
+        "Flag out-of-policy spend"
+      ],
+      "not_included": [
+        "Fraud investigations",
+        "Customer dispute negotiation"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "tre.bank_rec",
+      "product": "Treasury",
+      "capability": "Daily bank reconciliation",
+      "default_level": "covered",
+      "example_phrases": [
+        "Reconcile bank accounts daily",
+        "Prepare monthly bank reconciliations",
+        "Reconcile cash accounts to bank statements",
+        "Investigate reconciling items on bank recs"
+      ],
+      "not_included": [
+        "Open or close bank accounts",
+        "Manage banking relationships"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "tre.cash_position",
+      "product": "Treasury",
+      "capability": "Cash position across accounts, entities and banks",
+      "default_level": "covered",
+      "example_phrases": [
+        "Prepare the daily cash position report",
+        "Monitor cash balances across bank accounts and entities",
+        "Report on global liquidity",
+        "Track daily cash activity"
+      ],
+      "not_included": [
+        "Investment decisions",
+        "Debt covenant negotiation"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "tre.forecast",
+      "product": "Treasury",
+      "capability": "13-week cash forecast",
+      "default_level": "assisted",
+      "example_phrases": [
+        "Prepare the 13-week cash flow forecast",
+        "Forecast short-term cash needs",
+        "Update rolling cash forecasts",
+        "Analyze forecast versus actual cash"
+      ],
+      "not_included": [
+        "Annual budgeting and long-range planning models (FP&A)",
+        "Capital allocation decisions"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "gl.close_checklist",
+      "product": "GL accounting",
+      "capability": "Run month-end close checklist tasks",
+      "default_level": "covered",
+      "example_phrases": [
+        "Complete month-end close tasks",
+        "Manage the close checklist and calendar",
+        "Perform month-end and quarter-end close procedures",
+        "Track close task completion"
+      ],
+      "not_included": [
+        "Lead or manage the close team (human)",
+        "Redesign the close process (judgment)"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "gl.journal_entries",
+      "product": "GL accounting",
+      "capability": "Prepare and post journal entries",
+      "default_level": "assisted",
+      "example_phrases": [
+        "Prepare and post journal entries",
+        "Record recurring monthly entries",
+        "Book adjusting entries",
+        "Prepare reclass entries"
+      ],
+      "not_included": [
+        "Review and approve journal entries prepared by staff (human review)"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "gl.account_recs",
+      "product": "GL accounting",
+      "capability": "Balance-sheet account reconciliations",
+      "default_level": "covered",
+      "example_phrases": [
+        "Prepare balance sheet account reconciliations",
+        "Reconcile general ledger accounts monthly",
+        "Reconcile subledgers to the general ledger",
+        "Perform account analysis and resolve reconciling items",
+        "Reconcile clearing and suspense accounts"
+      ],
+      "not_included": [
+        "Review reconciliations prepared by others (human review)",
+        "Bank reconciliations (use tre.bank_rec)"
+      ],
+      "source_url": "https://hyphenate.ai/controller"
+    },
+    {
+      "id": "gl.subledgers",
+      "product": "GL accounting",
+      "capability": "Prepaids, fixed assets, ASC 842 leases, R&D capitalisation",
+      "default_level": "covered",
+      "example_phrases": [
+        "Maintain the fixed asset register and depreciation",
+        "Maintain prepaid expense schedules and amortization",
+        "Account for leases under ASC 842",
+        "Track capitalized software development costs",
+        "Maintain amortization schedules"
+      ],
+      "not_included": [
+        "Inventory and cost accounting",
+        "Equity and stock-based compensation accounting"
+      ],
+      "source_url": "https://hyphenate.ai/controller"
+    },
+    {
+      "id": "gl.accruals",
+      "product": "GL accounting",
+      "capability": "Estimate accruals from history, POs and budget",
+      "default_level": "assisted",
+      "example_phrases": [
+        "Prepare monthly accruals",
+        "Estimate and record expense accruals",
+        "Maintain the accrued liabilities schedule",
+        "Accrue for received-not-invoiced goods"
+      ],
+      "not_included": [
+        "Payroll and bonus accruals that require HR inputs may still match; payroll processing itself does not"
+      ],
+      "source_url": "https://hyphenate.ai/controller"
+    },
+    {
+      "id": "gl.intercompany",
+      "product": "GL accounting",
+      "capability": "Intercompany recs, eliminations and allocations",
+      "default_level": "covered",
+      "example_phrases": [
+        "Reconcile intercompany balances",
+        "Prepare intercompany eliminations",
+        "Record intercompany transactions and allocations",
+        "Manage intercompany settlements across entities",
+        "Calculate transfer pricing charges"
+      ],
+      "not_included": [
+        "Set transfer pricing policy (tax judgment)",
+        "Statutory filings for foreign entities"
+      ],
+      "source_url": "https://hyphenate.ai/controller"
+    },
+    {
+      "id": "gl.flux",
+      "product": "GL accounting",
+      "capability": "Variance (flux) analysis with draft commentary",
+      "default_level": "assisted",
+      "example_phrases": [
+        "Perform monthly flux analysis",
+        "Analyze balance sheet and P&L fluctuations",
+        "Explain variances to prior period",
+        "Prepare variance commentary"
+      ],
+      "not_included": [
+        "Budget versus actual analysis for planning (FP&A)",
+        "Present results to leadership (human)"
+      ],
+      "source_url": "https://hyphenate.ai/controller"
+    },
+    {
+      "id": "gl.controls",
+      "product": "GL accounting",
+      "capability": "Monitor manual entries and close controls",
+      "default_level": "covered",
+      "example_phrases": [
+        "Monitor internal controls over financial reporting",
+        "Execute SOX controls",
+        "Maintain documentation of key controls",
+        "Test and monitor manual journal entries"
+      ],
+      "not_included": [
+        "Design the control framework (judgment)",
+        "Manage external auditors (human)"
+      ],
+      "source_url": "https://hyphenate.ai/controller"
+    },
+    {
+      "id": "gl.audit_support",
+      "product": "GL accounting",
+      "capability": "Audit trail and support for each entry",
+      "default_level": "assisted",
+      "example_phrases": [
+        "Prepare audit schedules and PBC requests",
+        "Provide documentation to support audits",
+        "Maintain supporting documentation for entries",
+        "Support the annual financial statement audit"
+      ],
+      "not_included": [
+        "Serve as primary contact with external auditors (human relationship)",
+        "Tax audits"
+      ],
+      "source_url": "https://hyphenate.ai/controller"
+    },
+    {
+      "id": "p2p.bill_capture",
+      "product": "Procure-to-pay",
+      "capability": "Read and code vendor bills to GL, class and entity",
+      "default_level": "covered",
+      "example_phrases": [
+        "Process vendor invoices",
+        "Enter and code vendor bills in the ERP",
+        "Review invoices for proper GL coding",
+        "Process high volume of AP invoices"
+      ],
+      "not_included": [
+        "Employee expense report review",
+        "1099 preparation"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "p2p.allocations",
+      "product": "Procure-to-pay",
+      "capability": "Split bills across departments or classes",
+      "default_level": "covered",
+      "example_phrases": [
+        "Allocate expenses across departments",
+        "Code invoices to the correct department and class",
+        "Allocate shared costs across entities"
+      ],
+      "not_included": [
+        "Allocation methodology design (FP&A judgment)"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "p2p.po_matching",
+      "product": "Procure-to-pay",
+      "capability": "Match bills to purchase orders",
+      "default_level": "covered",
+      "example_phrases": [
+        "Perform two- and three-way matching",
+        "Match invoices to purchase orders and receipts",
+        "Resolve PO and invoice discrepancies"
+      ],
+      "not_included": [
+        "Issue purchase orders as a buyer (procurement sourcing)",
+        "Negotiate vendor pricing"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "p2p.approvals",
+      "product": "Procure-to-pay",
+      "capability": "Route approvals by policy",
+      "default_level": "covered",
+      "example_phrases": [
+        "Route invoices for approval",
+        "Ensure invoices are approved per policy",
+        "Manage the AP approval workflow"
+      ],
+      "not_included": [
+        "Approve spend as a budget owner (human)"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "p2p.vendor_followup",
+      "product": "Procure-to-pay",
+      "capability": "Chase vendors for missing invoices or details",
+      "default_level": "covered",
+      "example_phrases": [
+        "Respond to vendor inquiries",
+        "Communicate with vendors about missing invoices and statements",
+        "Reconcile vendor statements",
+        "Maintain vendor master data and W-9s"
+      ],
+      "not_included": [
+        "Vendor relationship and contract negotiation",
+        "1099 filing"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "p2p.aging",
+      "product": "Procure-to-pay",
+      "capability": "Track open payables until resolved",
+      "default_level": "covered",
+      "example_phrases": [
+        "Maintain AP aging",
+        "Monitor open payables",
+        "Reconcile AP subledger to the GL",
+        "Research aged payables and credits"
+      ],
+      "not_included": [],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "p2p.payments",
+      "product": "Procure-to-pay",
+      "capability": "Prepare payment runs for approval",
+      "default_level": "assisted",
+      "example_phrases": [
+        "Prepare weekly payment runs",
+        "Process vendor payments via ACH, wire and check",
+        "Schedule payments to optimize cash",
+        "Prepare check runs for approval"
+      ],
+      "not_included": [
+        "Payroll processing",
+        "Employee expense reimbursements",
+        "Sales tax remittance"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "rep.consolidation",
+      "product": "Reporting",
+      "capability": "Roll entities and ERPs into one view, map charts of accounts",
+      "default_level": "covered",
+      "example_phrases": [
+        "Prepare consolidated financial statements",
+        "Consolidate results across subsidiaries",
+        "Perform foreign currency translation for consolidation",
+        "Maintain the chart of accounts mapping"
+      ],
+      "not_included": [
+        "Statutory financial statements for local GAAP",
+        "SEC filings (10-K, 10-Q)"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "rep.management_reports",
+      "product": "Reporting",
+      "capability": "Build management reports and board decks",
+      "default_level": "assisted",
+      "example_phrases": [
+        "Prepare monthly management reporting package",
+        "Prepare board deck financials",
+        "Produce monthly financial statements and KPIs",
+        "Build recurring reports for leadership"
+      ],
+      "not_included": [
+        "Present results to the board (human)",
+        "Budgeting and forecasting models"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "rep.adhoc_analysis",
+      "product": "Reporting",
+      "capability": "Answer finance questions traced to source entries",
+      "default_level": "assisted",
+      "example_phrases": [
+        "Perform ad hoc financial analysis",
+        "Respond to ad hoc requests from leadership",
+        "Provide financial data for business partners"
+      ],
+      "not_included": [
+        "Strategic projects with no defined analysis",
+        "Special projects as assigned"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    },
+    {
+      "id": "rep.driver_analysis",
+      "product": "Reporting",
+      "capability": "Explain changes using CRM, contract or bill data",
+      "default_level": "assisted",
+      "example_phrases": [
+        "Analyze revenue and spend drivers",
+        "Explain changes in key metrics using source data",
+        "Analyze customer and contract trends"
+      ],
+      "not_included": [
+        "Build driver-based budget models (FP&A planning)"
+      ],
+      "source_url": "https://hyphenate.ai/platform"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+/*
+ * Design tokens. Values confirmed against hyphenate.ai's production CSS on
+ * 20 Oct 2026 (palette variables --y3kxgx*), not just sampled from screenshots.
+ * Fonts: the site uses Saans / Saans Mono / Bw Gradual (commercial); we use
+ * Geist and Geist Mono instead (see DECISIONS.md).
+ */
+:root {
+  --bg:            #F9F7F1;  /* warm cream page (site: --y3kxgx5) */
+  --bg-raised:     #FDFCFA;  /* lighter section bands (site: --y3kxgx4) */
+  --surface:       #FFFFFF;  /* cards */
+  --surface-tint:  #F8F1EA;  /* selected row (site: --y3kxgx6) */
+  --ink-display:   #550004;  /* headlines, oxblood (site: --y3kxgx12) */
+  --brand:         #84000D;  /* primary buttons (site: --y3kxgx10; theme-color #790005) */
+  --brand-hover:   #770008;  /* (site: --y3kxgx11) */
+  --ink:           #272320;  /* body text (site: --y3kxgxg) */
+  --ink-muted:     #897D71;  /* mono labels, axis text (site: --y3kxgxe) */
+  --line:          #EBE2D8;  /* borders, hairlines (between site --y3kxgx8/9) */
+  --line-dashed:   #E0D0C1;  /* dashed row separators (site: --y3kxgxa) */
+  --accent:        #FF6716;  /* orange: active states, bars, rings (site: --y3kxgxw) */
+  --accent-soft:   #FFE9DE;  /* pill and highlight fill (site: --y3kxgxn) */
+  --accent-ink:    #C04A0C;  /* orange text on light fills, for contrast */
+  --success:       #2DB46A;  /* done, covered */
+  --success-ink:   #1E7A48;
+  --success-soft:  #E3F4EA;
+  --shadow-card:   0 20px 60px rgba(120, 60, 20, 0.08);
+  --radius-section: 24px;
+  --radius-card:   14px;
+  --container:     1520px;
+}
