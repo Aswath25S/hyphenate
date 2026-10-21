@@ -9,24 +9,29 @@ import { computeLeads } from '../lib/leads';
 import { locateSpan } from '../lib/text';
 import { recordStage, type StageStat } from '../lib/stats';
 import { median } from '../../lib/scoring';
-import { MODEL } from '../lib/claude';
+import { MODEL } from '../lib/llm';
 import type { ExtractedPosting, MatchedPosting } from '../lib/types';
 import type { CompanyBase, PostingScore } from './score';
 import type { GapTheme } from './gaps';
 import type { StoredTrigger } from './news';
 import type { BriefOutput } from '../../lib/schemas';
 
-export function costReport(): Record<string, { calls: number; cached: number; input_tokens: number; output_tokens: number; cost_usd: number }> {
+type CostRow = { calls: number; cached: number; input_tokens: number; output_tokens: number; cost_usd: number; unpriced_calls: number };
+
+export function costReport(): Record<string, CostRow> {
   const file = path.join(P.logs, 'usage.jsonl');
-  const out: Record<string, { calls: number; cached: number; input_tokens: number; output_tokens: number; cost_usd: number }> = {};
+  const out: Record<string, CostRow> = {};
   if (!fs.existsSync(file)) return out;
   for (const line of fs.readFileSync(file, 'utf8').split('\n')) {
     if (!line.trim()) continue;
     const u = JSON.parse(line);
     if (u.stage === 'live') continue;
-    const s = (out[u.stage] ??= { calls: 0, cached: 0, input_tokens: 0, output_tokens: 0, cost_usd: 0 });
+    const s = (out[u.stage] ??= { calls: 0, cached: 0, input_tokens: 0, output_tokens: 0, cost_usd: 0, unpriced_calls: 0 });
     if (u.cached) s.cached++;
-    else { s.calls++; s.input_tokens += u.input_tokens; s.output_tokens += u.output_tokens; s.cost_usd += u.cost_usd; }
+    else {
+      s.calls++; s.input_tokens += u.input_tokens; s.output_tokens += u.output_tokens;
+      if (typeof u.cost_usd === 'number') s.cost_usd += u.cost_usd; else s.unpriced_calls++;
+    }
   }
   return out;
 }

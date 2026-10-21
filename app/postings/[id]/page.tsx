@@ -34,7 +34,7 @@ export default async function PostingPage({ params }: { params: Promise<{ id: st
           </div>
           <h1 className="t-section max-w-[1000px]">{headline}</h1>
           <p className="max-w-[760px] text-[16px] text-ink/75">
-            Every highlight below is a duty Claude split out of the original text, labelled against the coverage map. Overlap {pct(p.overlap)}; savings use covered duties only.
+            Every highlight below is a duty the model split out of the original text, labelled against the coverage map. Overlap {pct(p.overlap)}; savings use covered duties only.
           </p>
         </Container>
       </section>

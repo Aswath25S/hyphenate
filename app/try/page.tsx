@@ -18,10 +18,10 @@ function samples(): Sample[] {
 }
 
 export default function TryPage() {
-  const enabled = (process.env.LIVE_DEMO_ENABLED ?? 'true') !== 'false' && Boolean(process.env.ANTHROPIC_API_KEY || process.env.ANTHROPIC_AUTH_TOKEN);
+  const enabled = (process.env.LIVE_DEMO_ENABLED ?? 'true') !== 'false' && Boolean(process.env.OPENAI_API_KEY);
   return (
     <>
-      <PageHero eyebrow="Try it live" title="Paste any finance job posting. See it split, matched and priced." sub="The same engine that built this dashboard runs on your posting: Claude splits it into single duties, labels each against Hyphenate's public capabilities, and code prices the covered work." />
+      <PageHero eyebrow="Try it live" title="Paste any finance job posting. See it split, matched and priced." sub="The same engine that built this dashboard runs on your posting: OpenAI's GPT model splits it into single duties, labels each against Hyphenate's public capabilities, and code prices the covered work." />
       <section className="hatch border-b border-line py-10 sm:py-14"><Container><TryView samples={samples()} enabled={enabled} /></Container></section>
     </>
   );

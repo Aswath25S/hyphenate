@@ -93,7 +93,7 @@ export function TryView({ samples, enabled }: { samples: Sample[]; enabled: bool
         </div>
         {!enabled && <p className="mt-3 text-[14px] text-brand">The live demo is not configured on this server.</p>}
         {error && <p role="alert" className="mt-3 rounded-md border border-brand/30 bg-surface-tint px-3 py-2 text-[14px] text-brand">{error}</p>}
-        <p className="mt-4 text-[12.5px] text-ink-muted">Pasted text is sent to Claude for this one analysis and is never stored or logged. Limit: {LIVE_DEMO.perIpPerHour} analyses an hour.</p>
+        <p className="mt-4 text-[12.5px] text-ink-muted">Pasted text is sent to OpenAI's API for this one analysis and is never stored or logged. Limit: {LIVE_DEMO.perIpPerHour} analyses an hour.</p>
       </div>
       {result && (
         <div ref={resultRef} className="scroll-mt-24 space-y-6">

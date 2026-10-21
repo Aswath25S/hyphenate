@@ -18,7 +18,7 @@ import { collectGapDuties, themeMetrics, type GapTheme } from './stages/gaps';
 import { readJson } from './lib/io';
 import type { PostingScore } from './stages/score';
 
-/** Hand-assigned preview themes (keyword rules over hand-labelled duties). The real run clusters with Claude. */
+/** Hand-assigned preview themes (keyword rules over hand-labelled duties). The real run clusters with the LLM. */
 const PREVIEW_THEMES: { theme_id: string; name: string; description: string; bucket: GapTheme['bucket']; re: RegExp }[] = [
   { theme_id: 'indirect_tax_1099', name: 'Indirect tax and 1099 compliance', description: 'Sales and use tax, VAT/GST filings, notices, registrations and 1099 reporting.', bucket: 'possible_gap', re: /tax|1099/i },
   { theme_id: 'expense_review', name: 'Expense report review', description: 'Reviewing employee expense reports and expense-management processes.', bucket: 'possible_gap', re: /expense/i },
@@ -48,7 +48,7 @@ function previewGaps() {
     ...themeMetrics(members.get(t.theme_id)!, byId, scored),
   })).sort((a, b) => b.metrics.share_strong_leads - a.metrics.share_strong_leads || b.metrics.postings - a.metrics.postings);
   writeJson(path.join(P.processed, 'gaps.json'), { themes, duties: duties.map((d) => ({ duty_id: d.duty_id, canonical: d.text.toLowerCase(), label: d.label })) });
-  recordStage({ stage: 'gaps', in: duties.length, out: themes.length, notes: ['fixture preview: hand-assigned themes, no Claude calls'] });
+  recordStage({ stage: 'gaps', in: duties.length, out: themes.length, notes: ['fixture preview: hand-assigned themes, no model calls'] });
 }
 
 async function main() {
@@ -76,8 +76,8 @@ async function main() {
     writeJson(path.join(P.extracted, `${p.posting_id}.json`), posting);
     writeJson(path.join(P.matched, `${p.posting_id}.json`), matched);
   }
-  recordStage({ stage: 'extract', in: fixtures.length, out: fixtures.length, notes: ['fixture preview: hand labels, no Claude calls'] });
-  recordStage({ stage: 'match', in: fixtures.length, out: fixtures.length, notes: ['fixture preview: hand labels, no Claude calls'] });
+  recordStage({ stage: 'extract', in: fixtures.length, out: fixtures.length, notes: ['fixture preview: hand labels, no model calls'] });
+  recordStage({ stage: 'match', in: fixtures.length, out: fixtures.length, notes: ['fixture preview: hand labels, no model calls'] });
   // Stale downstream outputs from a previous real run must not leak into the preview.
   for (const f of ['news.json', 'gaps.json', 'briefs.json']) fs.rmSync(path.join(P.processed, f), { force: true });
   await score();

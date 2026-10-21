@@ -1,8 +1,8 @@
 /**
- * Claude client: tool-use structured output, cached by a hash of the full
- * input, validated with zod, retried once, usage logged per stage.
+ * LLM client (OpenAI): structured output via a strict JSON schema, cached by a
+ * hash of the full input, validated with zod, retried once, usage logged per stage.
  */
-import Anthropic from '@anthropic-ai/sdk';
+import OpenAI from 'openai';
 import fs from 'node:fs';
 import path from 'node:path';
 import { z } from 'zod';
@@ -10,18 +10,18 @@ import { LLM } from '../../config/scoring';
 import { appendLine, ensureDir, sha256 } from './io';
 import { P } from './paths';
 
-export const MODEL = () => process.env.ANTHROPIC_MODEL || LLM.defaultModel;
+export const MODEL = () => process.env.OPENAI_MODEL || LLM.defaultModel;
 
 /** Bump to invalidate every cached response (e.g. after a breaking prompt change). */
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2-openai';
 
 const UNSUPPORTED_KEYS = new Set([
   '$schema', 'minimum', 'maximum', 'exclusiveMinimum', 'exclusiveMaximum', 'minLength', 'maxLength',
   'minItems', 'maxItems', 'pattern', 'format', 'multipleOf', 'default',
 ]);
 
-/** zod → JSON schema suitable for a strict tool (bounds are checked by zod instead). */
-export function toToolSchema(schema: z.ZodType): Record<string, unknown> {
+/** zod → JSON schema for OpenAI strict structured outputs (bounds are checked by zod instead). */
+export function toResponseSchema(schema: z.ZodType): Record<string, unknown> {
   const walk = (node: unknown): unknown => {
     if (Array.isArray(node)) return node.map(walk);
     if (node && typeof node === 'object') {
@@ -38,22 +38,25 @@ export function toToolSchema(schema: z.ZodType): Record<string, unknown> {
   return walk(z.toJSONSchema(schema)) as Record<string, unknown>;
 }
 
-export type ToolCallRequest<T> = {
+export type Effort = 'low' | 'medium' | 'high';
+
+export type LlmRequest<T> = {
   stage: string;
   system: string;
   user: string;
-  toolName: string;
-  toolDescription: string;
+  /** Name of the JSON object the model returns (a-z, 0-9, underscores). */
+  formatName: string;
+  formatDescription: string;
   schema: z.ZodType<T>;
   /** Extra semantic checks after zod; return an error string to trigger a retry. */
   check?: (out: T) => string | null;
   maxTokens?: number;
   /** Live demo: no cache, no content in logs. */
   ephemeral?: boolean;
-  effort?: 'low' | 'medium' | 'high';
+  effort?: Effort;
 };
 
-export type ToolCallResult<T> =
+export type LlmResult<T> =
   | { ok: true; data: T; cached: boolean; usage: Usage }
   | { ok: false; error: string; usage: Usage };
 
@@ -64,63 +67,74 @@ export type Transport = (params: {
   model: string;
   system: string;
   user: string;
-  tool: { name: string; description: string; input_schema: Record<string, unknown> };
+  format: { name: string; description: string; schema: Record<string, unknown> };
   maxTokens: number;
-  effort: 'low' | 'medium' | 'high';
-}) => Promise<{ toolInput: unknown | null; text: string; stopReason: string | null; input_tokens: number; output_tokens: number }>;
+  effort: Effort;
+}) => Promise<{ output: unknown | null; refusal: string | null; finishReason: string | null; input_tokens: number; output_tokens: number }>;
 
-let client: Anthropic | null = null;
-
-export function hasCredentials(): boolean {
-  return Boolean(process.env.ANTHROPIC_API_KEY || process.env.ANTHROPIC_AUTH_TOKEN);
+let client: OpenAI | null = null;
+/** For tests: inject a client (e.g. one with a stub fetch). */
+export function setClient(c: OpenAI | null) {
+  client = c;
 }
 
-const anthropicTransport: Transport = async ({ model, system, user, tool, maxTokens, effort }) => {
-  client ??= new Anthropic();
-  const useFallbacks = (process.env.ANTHROPIC_FALLBACKS ?? 'default') !== 'off';
-  const res = await client.beta.messages.create({
+export function hasCredentials(): boolean {
+  return Boolean(process.env.OPENAI_API_KEY);
+}
+
+/** Reasoning models take reasoning_effort; others reject it. */
+function isReasoningModel(model: string): boolean {
+  return /^(gpt-5|o\d)/.test(model) && !/chat/.test(model);
+}
+
+const openaiTransport: Transport = async ({ model, system, user, format, maxTokens, effort }) => {
+  client ??= new OpenAI();
+  const res = await client.chat.completions.create({
     model,
-    max_tokens: maxTokens,
-    system,
-    // Forced tool_choice is rejected on current models: use auto + strict + an explicit instruction.
-    tools: [{ ...tool, strict: true } as Anthropic.Beta.BetaTool],
-    tool_choice: { type: 'auto', disable_parallel_tool_use: true },
-    output_config: { effort },
-    messages: [{ role: 'user', content: user }],
-    ...(useFallbacks ? { betas: ['server-side-fallback-2026-07-01'], fallbacks: 'default' as const } : {}),
+    max_completion_tokens: maxTokens,
+    messages: [
+      { role: 'developer', content: system },
+      { role: 'user', content: user },
+    ],
+    response_format: { type: 'json_schema', json_schema: { name: format.name, description: format.description, schema: format.schema, strict: true } },
+    ...(isReasoningModel(model) ? { reasoning_effort: effort } : {}),
   });
-  const toolBlock = res.content.find((b) => b.type === 'tool_use' && b.name === tool.name);
-  const text = res.content.map((b) => (b.type === 'text' ? b.text : '')).join('');
+  const choice = res.choices[0];
+  const content = choice?.message?.content ?? null;
+  let output: unknown | null = null;
+  if (content) {
+    try { output = JSON.parse(content); } catch { output = null; }
+  }
   return {
-    toolInput: toolBlock && toolBlock.type === 'tool_use' ? toolBlock.input : null,
-    text,
-    stopReason: res.stop_reason,
-    input_tokens: res.usage.input_tokens + (res.usage.cache_read_input_tokens ?? 0) + (res.usage.cache_creation_input_tokens ?? 0),
-    output_tokens: res.usage.output_tokens,
+    output,
+    refusal: choice?.message?.refusal ?? null,
+    finishReason: choice?.finish_reason ?? null,
+    input_tokens: res.usage?.prompt_tokens ?? 0,
+    output_tokens: res.usage?.completion_tokens ?? 0,
   };
 };
 
-let transport: Transport = anthropicTransport;
+let transport: Transport = openaiTransport;
 export function setTransport(t: Transport | null) {
-  transport = t ?? anthropicTransport;
+  transport = t ?? openaiTransport;
 }
 
-function cost(model: string, inTok: number, outTok: number): number {
-  const p = LLM.pricePerMTok[model] ?? LLM.pricePerMTok[LLM.defaultModel];
-  return (inTok * p.input + outTok * p.output) / 1e6;
+/** USD for a call, or null when the model has no price in config/scoring.ts. */
+function cost(model: string, inTok: number, outTok: number): number | null {
+  const p = LLM.pricePerMTok[model];
+  return p ? (inTok * p.input + outTok * p.output) / 1e6 : null;
 }
 
 function cachePath(stage: string, key: string) {
   return path.join(P.cache, stage, `${key}.json`);
 }
 
-export async function callTool<T>(req: ToolCallRequest<T>): Promise<ToolCallResult<T>> {
+export async function callLlm<T>(req: LlmRequest<T>): Promise<LlmResult<T>> {
   const model = MODEL();
-  const input_schema = toToolSchema(req.schema);
-  const tool = { name: req.toolName, description: req.toolDescription, input_schema };
+  const format = { name: req.formatName, description: req.formatDescription, schema: toResponseSchema(req.schema) };
   const effort = req.effort ?? 'medium';
   const maxTokens = req.maxTokens ?? LLM.maxTokens;
-  const key = sha256(JSON.stringify([CACHE_VERSION, model, effort, req.system, req.user, tool]));
+  const key = sha256(JSON.stringify([CACHE_VERSION, model, effort, req.system, req.user, format]));
   const usage: Usage = { input_tokens: 0, output_tokens: 0, cost_usd: 0, calls: 0 };
 
   if (!req.ephemeral) {
@@ -140,26 +154,26 @@ export async function callTool<T>(req: ToolCallRequest<T>): Promise<ToolCallResu
     const user =
       attempt === 0
         ? req.user
-        : `${req.user}\n\n<previous_attempt_error>\nYour previous ${req.toolName} call was rejected: ${lastError.slice(0, 1500)}\nCall ${req.toolName} again with corrected input.\n</previous_attempt_error>`;
+        : `${req.user}\n\n<previous_attempt_error>\nYour previous ${req.formatName} object was rejected: ${lastError.slice(0, 1500)}\nReturn a corrected ${req.formatName} object.\n</previous_attempt_error>`;
     let r;
     try {
-      r = await transport({ model, system: req.system, user, tool, maxTokens, effort });
+      r = await transport({ model, system: req.system, user, format, maxTokens, effort });
     } catch (e) {
-      lastError = e instanceof Anthropic.APIError ? `API ${e.status}: ${e.message}` : String((e as Error).message ?? e);
-      // Non-retryable client errors (bad request, auth) fail straight away.
-      if (e instanceof Anthropic.APIError && e.status && e.status < 500 && e.status !== 429) break;
+      lastError = e instanceof OpenAI.APIError ? `API ${e.status}: ${e.message}` : String((e as Error).message ?? e);
+      // Non-retryable client errors (bad request, auth, unknown model) fail straight away.
+      if (e instanceof OpenAI.APIError && e.status && e.status < 500 && e.status !== 429) break;
       continue;
     }
     usage.calls++;
     usage.input_tokens += r.input_tokens;
     usage.output_tokens += r.output_tokens;
-    usage.cost_usd += cost(model, r.input_tokens, r.output_tokens);
+    usage.cost_usd += cost(model, r.input_tokens, r.output_tokens) ?? 0;
     logUsage(req.stage, model, r.input_tokens, r.output_tokens, false);
 
-    if (r.stopReason === 'refusal') { lastError = 'model declined (refusal)'; continue; }
-    if (r.stopReason === 'max_tokens') { lastError = 'output hit max_tokens; be more concise'; continue; }
-    if (r.toolInput === null) { lastError = `no ${req.toolName} tool call in the response`; continue; }
-    const parsed = req.schema.safeParse(r.toolInput);
+    if (r.refusal) { lastError = `model refused: ${r.refusal.slice(0, 200)}`; continue; }
+    if (r.finishReason === 'length') { lastError = 'output hit the token limit; be more concise'; continue; }
+    if (r.output === null) { lastError = `no valid ${req.formatName} JSON in the response`; continue; }
+    const parsed = req.schema.safeParse(r.output);
     if (!parsed.success) {
       lastError = parsed.error.issues.slice(0, 8).map((i) => `${i.path.join('.')}: ${i.message}`).join('; ');
       continue;
@@ -179,9 +193,10 @@ export async function callTool<T>(req: ToolCallRequest<T>): Promise<ToolCallResu
 /** Token and dollar usage per stage. Never includes prompt content. */
 function logUsage(stage: string, model: string, input_tokens: number, output_tokens: number, cached: boolean) {
   try {
+    const c = cost(model, input_tokens, output_tokens);
     appendLine(path.join(P.logs, 'usage.jsonl'), {
-    at: new Date().toISOString(), stage, model, cached, input_tokens, output_tokens,
-      cost_usd: Number(cost(model, input_tokens, output_tokens).toFixed(6)),
+      at: new Date().toISOString(), stage, model, cached, input_tokens, output_tokens,
+      cost_usd: c === null ? null : Number(c.toFixed(6)),
     });
   } catch {
     /* read-only filesystem (e.g. serverless): usage logging is best-effort */

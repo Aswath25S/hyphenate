@@ -4,7 +4,7 @@ import { BriefOutputSchema } from '../../lib/schemas';
 export const briefSchema = BriefOutputSchema;
 export const BRIEF_TOOL = { name: 'record_brief', description: 'Record the company brief fields.' };
 
-export const BRIEF_SYSTEM = `You write short sales-research briefs from structured data about one company's open finance job postings. Use only facts in the <data> block. Every number and every proper name you write must appear in the data exactly as given (percentages as given, dollar figures as given). Call record_brief exactly once.
+export const BRIEF_SYSTEM = `You write short sales-research briefs from structured data about one company's open finance job postings. Use only facts in the <data> block. Every number and every proper name you write must appear in the data exactly as given (percentages as given, dollar figures as given). Return the record_brief JSON object.
 
 Fields:
 - headline: one sentence naming the company and the most telling open role, e.g. "Acme is hiring its third AR specialist to match payments by hand."
@@ -18,7 +18,7 @@ Fields:
 Tone: short declarative sentences, sentence case, no hype, never about cutting people. Never claim the platform cannot do something.`;
 
 export function briefUser(data: unknown): string {
-  return `<data>\n${JSON.stringify(data, null, 2)}\n</data>\n\nCall record_brief once.`;
+  return `<data>\n${JSON.stringify(data, null, 2)}\n</data>\n\nReturn the record_brief JSON object.`;
 }
 
 /**

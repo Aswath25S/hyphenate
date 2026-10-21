@@ -50,14 +50,14 @@ export default function MethodPage() {
       <PageHero
         eyebrow="The method"
         title="Every number traces back to the posting text that produced it."
-        sub="One extraction engine feeds three outputs: a ranked lead list, a gap report and a minimum cost-savings estimate. Claude reads and labels; code does all the arithmetic."
+        sub="One extraction engine feeds three outputs: a ranked lead list, a gap report and a minimum cost-savings estimate. An OpenAI GPT model reads and labels; code does all the arithmetic."
         meta={meta ? `As of ${meta.as_of} · model ${meta.model} · generated ${shortDate(meta.generated_at)}` : 'No pipeline run yet'}
       />
 
       <Section id="how" eyebrow="How it works" title="Nine stages, each rerunnable on its own.">
         <div className="card overflow-x-auto">
           <table className="w-full min-w-[720px] text-[14px]">
-            <thead className="border-b border-line"><tr>{['', 'Stage', 'What it does', 'Claude', 'In → out'].map((h, i) => <th key={i} className={`px-4 py-3 text-left font-normal ${i === 4 ? 'text-right' : ''}`}><Mono>{h}</Mono></th>)}</tr></thead>
+            <thead className="border-b border-line"><tr>{['', 'Stage', 'What it does', 'LLM', 'In → out'].map((h, i) => <th key={i} className={`px-4 py-3 text-left font-normal ${i === 4 ? 'text-right' : ''}`}><Mono>{h}</Mono></th>)}</tr></thead>
             <tbody>
               {STAGES.map(([name, what, llm], i) => (
                 <tr key={name} className="border-t border-dashed border-line-dashed align-top">
@@ -72,19 +72,19 @@ export default function MethodPage() {
           </table>
         </div>
         <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-3">
-          <div className="card-flat p-5 text-[14px] leading-relaxed"><Mono>Cached and validated</Mono><p className="mt-2">Every Claude call is cached by a hash of its input, so reruns cost nothing and results stay stable. Every response is validated against a schema, retried once on failure, then logged as failed.</p></div>
+          <div className="card-flat p-5 text-[14px] leading-relaxed"><Mono>Cached and validated</Mono><p className="mt-2">Every model call is cached by a hash of its input, so reruns cost nothing and results stay stable. Every response is validated against a schema, retried once on failure, then logged as failed.</p></div>
           <div className="card-flat p-5 text-[14px] leading-relaxed"><Mono>Strict labels</Mono><p className="mt-2">Covered or assisted labels need a capability id. Confidence below {C.OVERLAP.unclearConfidenceBelow} becomes unclear. A covered label on an assisted capability is downgraded to assisted.</p></div>
           <div className="card-flat p-5 text-[14px] leading-relaxed"><Mono>Spans located</Mono><p className="mt-2">{meta ? `${meta.spans.found} of ${meta.spans.total}` : '–'} duty spans were found verbatim in the posting text, so each can be highlighted in the evidence view.</p></div>
         </div>
         {Object.keys(cost).length > 0 && (
           <div className="mt-6 card overflow-x-auto">
             <table className="w-full min-w-[560px] text-[14px]">
-              <thead className="border-b border-line"><tr>{['Stage', 'Claude calls', 'Cache hits', 'Input tokens', 'Output tokens', 'Cost'].map((h, i) => <th key={h} className={`px-4 py-3 font-normal ${i ? 'text-right' : 'text-left'}`}><Mono>{h}</Mono></th>)}</tr></thead>
+              <thead className="border-b border-line"><tr>{['Stage', 'Model calls', 'Cache hits', 'Input tokens', 'Output tokens', 'Cost'].map((h, i) => <th key={h} className={`px-4 py-3 font-normal ${i ? 'text-right' : 'text-left'}`}><Mono>{h}</Mono></th>)}</tr></thead>
               <tbody>
                 {Object.entries(cost).map(([k, v]) => (
-                  <tr key={k} className="num border-t border-dashed border-line-dashed font-mono text-[13px]"><td className="px-4 py-2.5 font-sans text-[14px]">{k}</td><td className="px-4 py-2.5 text-right">{v.calls}</td><td className="px-4 py-2.5 text-right">{v.cached}</td><td className="px-4 py-2.5 text-right">{v.input_tokens.toLocaleString()}</td><td className="px-4 py-2.5 text-right">{v.output_tokens.toLocaleString()}</td><td className="px-4 py-2.5 text-right">${v.cost_usd.toFixed(2)}</td></tr>
+                  <tr key={k} className="num border-t border-dashed border-line-dashed font-mono text-[13px]"><td className="px-4 py-2.5 font-sans text-[14px]">{k}</td><td className="px-4 py-2.5 text-right">{v.calls}</td><td className="px-4 py-2.5 text-right">{v.cached}</td><td className="px-4 py-2.5 text-right">{v.input_tokens.toLocaleString()}</td><td className="px-4 py-2.5 text-right">{v.output_tokens.toLocaleString()}</td><td className="px-4 py-2.5 text-right">{v.unpriced_calls ? 'price not set' : `$${v.cost_usd.toFixed(2)}`}</td></tr>
                 ))}
-                <tr className="num border-t border-line font-mono text-[13px]"><td className="px-4 py-2.5 font-sans font-medium">Total</td><td colSpan={4} /><td className="px-4 py-2.5 text-right font-medium">${totalCost.toFixed(2)}</td></tr>
+                <tr className="num border-t border-line font-mono text-[13px]"><td className="px-4 py-2.5 font-sans font-medium">Total</td><td colSpan={4} /><td className="px-4 py-2.5 text-right font-medium">{Object.values(cost).some((v) => v.unpriced_calls) ? 'price not set' : `$${totalCost.toFixed(2)}`}</td></tr>
               </tbody>
             </table>
           </div>

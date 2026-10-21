@@ -1,7 +1,7 @@
 /**
  * Extraction prompt + schema. One call per posting turns the description into
  * structured fields and single duties. The zod schema (lib/schemas.ts) is the
- * source of truth; the tool's JSON schema is generated from it.
+ * source of truth; the response JSON schema is generated from it.
  */
 import { ExtractionOutputSchema, type ExtractionOutput } from '../../lib/schemas';
 
@@ -62,7 +62,7 @@ Requirements (is_requirement true): "CPA preferred", "4+ years in public account
 Fields: role_family GL, seniority senior, salary {min 85000, max 115000, period "year", currency "USD", raw_text "Pay: $95,000 - $115,000 (San Francisco), $85,000 - $105,000 (Austin)."}, erp ["Sage Intacct"], tools ["FloQast"], complexity {multi_entity true, multi_currency true, usage_based_billing false, high_volume false, entity_count 6}.
 </example>`;
 
-export const EXTRACT_SYSTEM = `You extract structured data from finance and accounting job postings for a research tool. Read the posting in the <posting> block and call the record_posting tool exactly once with the result. Do not reply with prose.
+export const EXTRACT_SYSTEM = `You extract structured data from finance and accounting job postings for a research tool. Read the posting in the <posting> block and return the result as the record_posting JSON object.
 
 Duty-splitting rules:
 1. One action per duty. "Reconcile bank accounts and partner with sales on disputes" becomes two duties. Split lists of objects that share one verb when each object is a separate task (e.g. "journal entries, accruals and reconciliations" → three duties).
@@ -81,7 +81,7 @@ Field rules:
 - pain_phrases: up to 8 verbatim phrases that signal manual or growing workload (e.g. "manual reconciliations", "high volume of invoices", "scale our processes").
 - locations: as listed; remote: onsite, hybrid, remote or unknown.
 
-Two worked examples follow. They show the splitting standard; your output goes through the tool, not in this format.
+Two worked examples follow. They show the splitting standard; your output is the JSON object, not this format.
 
 ${EXAMPLE_AR}
 
@@ -96,7 +96,7 @@ Listed locations: ${p.locations.join('; ') || 'not listed'}${p.salaryHint ? `\nS
 ${p.text}
 </posting>
 
-Call record_posting once with the extraction.`;
+Return the record_posting JSON object with the extraction.`;
 }
 
 /** Semantic checks beyond the schema; returns an error to trigger the one retry. */

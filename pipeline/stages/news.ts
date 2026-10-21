@@ -5,7 +5,7 @@ import { readJson, shortHash, writeJson } from '../lib/io';
 import { P } from '../lib/paths';
 import { getXml } from '../lib/fetch';
 import { parseFeed, type FeedItem } from '../lib/rss';
-import { callTool, hasCredentials } from '../lib/claude';
+import { callLlm, hasCredentials } from '../lib/llm';
 import { NEWS_SYSTEM, NEWS_TOOL, newsSchema, newsUser } from '../prompts/news';
 import { recordStage } from '../lib/stats';
 import { daysBetween } from '../../lib/scoring';
@@ -49,11 +49,11 @@ export async function news(asOf = new Date()) {
     seen += uniq.length;
     out[c.domain] = [];
     if (!uniq.length) continue;
-    if (!hasCredentials()) { notes.push('no ANTHROPIC_API_KEY: news fetched but not classified'); continue; }
+    if (!hasCredentials()) { notes.push('no OPENAI_API_KEY: news fetched but not classified'); continue; }
     const withIds = uniq.map((i) => ({ item_id: shortHash(i.link, 8), title: i.title, source: i.source, published: i.published ?? 'unknown', snippet: i.snippet }));
-    const res = await callTool({
+    const res = await callLlm({
       stage: 'news', system: NEWS_SYSTEM, user: newsUser(c.company, c.domain, withIds),
-      toolName: NEWS_TOOL.name, toolDescription: NEWS_TOOL.description, schema: newsSchema, effort: 'low', maxTokens: 6000,
+      formatName: NEWS_TOOL.name, formatDescription: NEWS_TOOL.description, schema: newsSchema, effort: 'low', maxTokens: 12000,
     });
     if (!res.ok) { notes.push(`${c.company}: classification failed: ${res.error}`); continue; }
     for (const cls of res.data.items) {

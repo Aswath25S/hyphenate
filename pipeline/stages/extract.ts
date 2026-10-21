@@ -1,9 +1,9 @@
-/** Stage 3: Claude turns each posting into structured fields and single duties. */
+/** Stage 3: the LLM turns each posting into structured fields and single duties. */
 import path from 'node:path';
 import fs from 'node:fs';
 import { readJson, writeJson, ensureDir } from '../lib/io';
 import { P } from '../lib/paths';
-import { callTool, hasCredentials, pool } from '../lib/claude';
+import { callLlm, hasCredentials, pool } from '../lib/llm';
 import { locateSpan } from '../lib/text';
 import { EXTRACT_PROMPT_VERSION, EXTRACT_SYSTEM, EXTRACT_TOOL, checkExtraction, extractSchema, extractUser } from '../prompts/extract';
 import { recordStage } from '../lib/stats';
@@ -58,22 +58,22 @@ export function buildPosting(p: FilteredPosting, out: ExtractionOutput): Extract
 export async function extractOne(p: FilteredPosting, opts: { ephemeral?: boolean; stage?: string; effort?: 'low' | 'medium' | 'high' } = {}) {
   const text = postingText(p);
   const board = boardSalary(p);
-  return callTool({
+  return callLlm({
     stage: opts.stage ?? 'extract',
     effort: opts.effort,
     system: EXTRACT_SYSTEM,
     user: extractUser({ company: p.company, title: p.title, locations: p.locations, text, salaryHint: board ? board.raw_text : null }),
-    toolName: EXTRACT_TOOL.name,
-    toolDescription: EXTRACT_TOOL.description,
+    formatName: EXTRACT_TOOL.name,
+    formatDescription: EXTRACT_TOOL.description,
     schema: extractSchema,
     check: (out) => checkExtraction(out, text, locateSpan),
     ephemeral: opts.ephemeral,
-    maxTokens: 12000,
+    maxTokens: 24000,
   });
 }
 
 export async function extract(opts: { limit?: number } = {}) {
-  if (!hasCredentials()) throw new Error('extract needs ANTHROPIC_API_KEY.');
+  if (!hasCredentials()) throw new Error('extract needs OPENAI_API_KEY.');
   const all = readJson<FilteredPosting[]>(path.join(P.processed, 'filtered.json'));
   const postings = opts.limit ? all.slice(0, opts.limit) : all;
   ensureDir(P.extracted);

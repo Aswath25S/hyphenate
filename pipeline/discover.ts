@@ -11,7 +11,7 @@ import { P } from './lib/paths';
 import { classifyTitle } from './lib/roles';
 import { fetchBoard, type Ats, type RawPosting } from './lib/sources';
 import { isUsLocation } from './lib/geo';
-import { pool } from './lib/claude';
+import { pool } from './lib/llm';
 
 type Candidate = { slug: string; company: string; domain: string };
 

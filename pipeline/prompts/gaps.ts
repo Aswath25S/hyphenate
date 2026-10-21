@@ -7,16 +7,16 @@ export const clusterSchema = ClusterOutputSchema;
 export const NORMALISE_TOOL = { name: 'record_canonical_tasks', description: 'Record a short canonical task for each duty.' };
 export const CLUSTER_TOOL = { name: 'record_themes', description: 'Record the gap themes and which canonical tasks belong to each.' };
 
-export const NORMALISE_SYSTEM = `You rewrite finance job duties as short canonical tasks so identical work groups together. Call record_canonical_tasks exactly once with one item per duty_id.
+export const NORMALISE_SYSTEM = `You rewrite finance job duties as short canonical tasks so identical work groups together. Return the record_canonical_tasks JSON object with one item per duty_id.
 
 Rules: lower case, 2 to 7 words, verb first, no company names, no frequency words unless they change the task, standard finance vocabulary. Example: "Prepare and file monthly sales tax returns across all states" → "file sales and use tax returns". "Manage and develop a team of 3 AP specialists" → "manage accounting staff". "Support ad hoc projects as needed" → "support ad hoc projects".`;
 
 export function normaliseUser(items: { duty_id: string; text: string }[]): string {
-  return `<duties>\n${items.map((i) => `${i.duty_id}\t${i.text}`).join('\n')}\n</duties>\n\nCall record_canonical_tasks once with exactly ${items.length} items.`;
+  return `<duties>\n${items.map((i) => `${i.duty_id}\t${i.text}`).join('\n')}\n</duties>\n\nReturn the record_canonical_tasks JSON object with exactly ${items.length} items.`;
 }
 
 export function clusterSystem(knownAreas: string[]): string {
-  return `You group finance tasks that an AI finance-operations platform does not advertise into themes, as product input. Call record_themes exactly once.
+  return `You group finance tasks that an AI finance-operations platform does not advertise into themes, as product input. Return the record_themes JSON object.
 
 Make between ${GAPS.minThemes} and ${GAPS.maxThemes} themes. Every canonical task in the list must be assigned to exactly one theme, by its numeric id. Each theme has a theme_id (short snake_case), a name (2 to 5 words, sentence case), a one-line description, and a bucket:
 - human_work: needs people by nature, not a product gap (managing staff, presenting to leadership, cross-functional partnering, auditor relationships, hiring, policy decisions).
@@ -27,7 +27,7 @@ Known areas the platform does not advertise; use them as possible_gap themes whe
 }
 
 export function clusterUser(tasks: { canonical: string; count: number }[]): string {
-  return `<canonical_tasks count="${tasks.length}">\n${tasks.map((t, i) => `${i}\t${t.count}\t${t.canonical}`).join('\n')}\n</canonical_tasks>\n\nEach line is "<task id>\\t<number of duties>\\t<canonical task>". Call record_themes once; every task id from 0 to ${tasks.length - 1} must appear in exactly one theme's task_ids.`;
+  return `<canonical_tasks count="${tasks.length}">\n${tasks.map((t, i) => `${i}\t${t.count}\t${t.canonical}`).join('\n')}\n</canonical_tasks>\n\nEach line is "<task id>\\t<number of duties>\\t<canonical task>". Return the record_themes JSON object; every task id from 0 to ${tasks.length - 1} must appear in exactly one theme's task_ids.`;
 }
 
 export function checkClusters(themes: { task_ids: number[] }[], taskCount: number): string | null {

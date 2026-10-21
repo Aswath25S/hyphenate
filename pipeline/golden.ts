@@ -9,7 +9,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { writeJson } from './lib/io';
 import { P } from './lib/paths';
-import { hasCredentials } from './lib/claude';
+import { hasCredentials } from './lib/llm';
 import { loadFixtures } from './lib/fixtures';
 import { loadCoverage } from './lib/coverage';
 import { extractOne, buildPosting } from './stages/extract';
@@ -21,7 +21,7 @@ import { MATCH_PROMPT_VERSION } from './prompts/match';
 if (fs.existsSync('.env')) process.loadEnvFile('.env');
 
 async function main() {
-  if (!hasCredentials()) { console.error('golden needs ANTHROPIC_API_KEY'); process.exit(1); }
+  if (!hasCredentials()) { console.error('golden needs OPENAI_API_KEY'); process.exit(1); }
   const fixtures = loadFixtures();
   const coverage = loadCoverage();
   const rows: Record<string, unknown>[] = [];

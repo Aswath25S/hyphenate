@@ -4,7 +4,7 @@ import { NewsClassificationSchema } from '../../lib/schemas';
 export const newsSchema = NewsClassificationSchema;
 export const NEWS_TOOL = { name: 'record_triggers', description: 'Record one classification per news item.' };
 
-export const NEWS_SYSTEM = `You classify news items about one company into "trigger events" that change how its finance team works. Call record_triggers exactly once with one entry per item_id. Use only the headline, source and snippet given; never use outside knowledge.
+export const NEWS_SYSTEM = `You classify news items about one company into "trigger events" that change how its finance team works. Return the record_triggers JSON object with one entry per item_id. Use only the headline, source and snippet given; never use outside knowledge.
 
 trigger_type:
 - acquisition: the company acquires another company (not: is acquired, invests in, partners with).
@@ -26,5 +26,5 @@ export function newsUser(company: string, domain: string, items: { item_id: stri
 ${items.map((i) => `<item id="${i.item_id}">\nHeadline: ${i.title}\nSource: ${i.source}\nPublished: ${i.published}\nSnippet: ${i.snippet}\n</item>`).join('\n')}
 </items>
 
-Call record_triggers once with one entry per item id.`;
+Return the record_triggers JSON object with one entry per item id.`;
 }

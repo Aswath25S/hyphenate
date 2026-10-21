@@ -10,12 +10,12 @@ Every score, gap and dollar figure links back to the posting text that produced 
 
 ## Run it
 
-Requires Node 20+ (the repo's `venv` links Node via nodeenv) and an Anthropic API key for the Claude stages.
+Requires Node 20+ (the repo's `venv` links Node via nodeenv) and an OpenAI API key for the LLM stages.
 
 ```bash
 source venv/bin/activate
 npm install
-cp .env.example .env          # set ANTHROPIC_API_KEY
+cp .env.example .env          # set OPENAI_API_KEY
 npm run pipeline              # collect → filter → extract → match → score → news → gaps → brief → publish
 npm run findings              # writes FINDINGS.md from the published data
 npm run dev                   # http://localhost:3000
@@ -38,16 +38,16 @@ Other commands:
 | `npm run seed:discover -- <file>` | Probe candidate board slugs on Greenhouse, Lever and Ashby. |
 | `npm test` · `npm run typecheck` · `npm run build` | Tests, types, production build. |
 
-Environment: `ANTHROPIC_API_KEY` (required for Claude stages), `ANTHROPIC_MODEL` (default `claude-sonnet-5-5`), `ANTHROPIC_FALLBACKS` (`default` or `off`), `LIVE_DEMO_ENABLED` (default `true`), `LIVE_DEMO_DAILY_LIMIT` (default `200`).
+Environment: `OPENAI_API_KEY` (required for LLM stages), `OPENAI_MODEL` (default `gpt-5.5`), `LIVE_DEMO_ENABLED` (default `true`), `LIVE_DEMO_DAILY_LIMIT` (default `200`).
 
 ## How it is built
 
 - `pipeline/stages/*.ts`: one file per stage, each reading the previous stage's JSON in `data/`.
-- `pipeline/prompts/*.ts`: prompt text and schemas. Every Claude call is cached by input hash, validated with zod, retried once, and logged with token cost.
+- `pipeline/prompts/*.ts`: prompt text and schemas. Every LLM call (OpenAI, strict JSON-schema output) is cached by input hash, validated with zod, retried once, and logged with token cost.
 - `lib/scoring.ts`: every formula, pure code, shared by the pipeline, the live demo and the dashboard sliders.
 - `config/scoring.ts`: every weight, discount and threshold.
 - `config/coverage_map.json`: 30 capabilities read from hyphenate.ai on 20 Oct 2026. Based on the public site, to be validated.
-- `app/`, `components/`: Next.js dashboard. Only `/api/analyze` (the live demo) calls Claude at request time.
+- `app/`, `components/`: Next.js dashboard. Only `/api/analyze` (the live demo) calls the LLM at request time.
 
 See `SPEC.md` for the full specification and `DECISIONS.md` for every judgment call.
 
@@ -59,9 +59,9 @@ See `SPEC.md` for the full specification and `DECISIONS.md` for every judgment c
 | M1 Extraction on fixtures | 10 fixtures hand-labelled (draft, needs your review). Golden run needs an API key. |
 | M2 Matching on fixtures | Same. |
 | M3 Collection | Done: 152 postings from 94 companies (`docs/collection-report.md`). |
-| M4 Full pipeline | All stages built and tested end to end with a fake Claude. Real run needs an API key. |
+| M4 Full pipeline | All stages built and tested end to end with a fake LLM. Real run needs an API key. |
 | M5 Dashboard | Done: 8 routes, evidence links, client-side recompute, 375 px checked. |
-| M6 Live demo | Built and tested with a fake Claude. Timing target needs a real key to verify. |
+| M6 Live demo | Built and tested with a fake LLM. Timing target needs a real key to verify. |
 | M7 Polish | `/method`, CSV exports, `FINDINGS.md` generator. Findings show preview numbers until the real run. |
 
 ## Known limits

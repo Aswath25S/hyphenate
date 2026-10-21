@@ -7,7 +7,7 @@ export type FilteredPosting = RawPosting & {
   merged_raw_ids: string[];
   extra_salary_lines: { location: string; line: string }[];
   date_basis: 'posted_at' | 'updated_at' | 'unknown';
-  title_decision: 'rule' | 'claude';
+  title_decision: 'rule' | 'llm';
 };
 
 export type ExtractedPosting = Posting & {

@@ -6,7 +6,7 @@ import { P } from '../lib/paths';
 import { classifyTitle } from '../lib/roles';
 import { isUsLocation } from '../lib/geo';
 import { normaliseTitle, textSimilarity } from '../lib/text';
-import { callTool, hasCredentials } from '../lib/claude';
+import { callLlm, hasCredentials } from '../lib/llm';
 import { TITLE_SYSTEM, TITLE_TOOL, titleCheckSchema, titleUser } from '../prompts/filter';
 import { recordStage } from '../lib/stats';
 import type { RawPosting } from '../lib/sources';
@@ -59,30 +59,30 @@ export async function filter(asOf = new Date()) {
     stage1.push({ ...r, _verdict: v });
   }
 
-  // Claude check for unclear titles, batched.
+  // LLM check for unclear titles, batched.
   const unclear = stage1.filter((r) => r._verdict === 'unclear');
-  const claudeKeep = new Set<string>();
+  const llmKeep = new Set<string>();
   if (unclear.length && hasCredentials()) {
     for (let i = 0; i < unclear.length; i += 25) {
       const batch = unclear.slice(i, i + 25);
-      const res = await callTool({
-        stage: 'filter', system: TITLE_SYSTEM, toolName: TITLE_TOOL.name, toolDescription: TITLE_TOOL.description,
-        schema: titleCheckSchema, effort: 'low', maxTokens: 4000,
+      const res = await callLlm({
+        stage: 'filter', system: TITLE_SYSTEM, formatName: TITLE_TOOL.name, formatDescription: TITLE_TOOL.description,
+        schema: titleCheckSchema, effort: 'low', maxTokens: 8000,
         user: titleUser(batch.map((b) => ({ id: b.raw_id, title: b.title, snippet: b.text.slice(0, 700) }))),
       });
       if (res.ok) {
-        for (const it of res.data.items) if (it.keep) claudeKeep.add(it.id);
+        for (const it of res.data.items) if (it.keep) llmKeep.add(it.id);
       } else {
         notes.push(`title check batch failed: ${res.error}`);
       }
     }
   } else if (unclear.length) {
-    notes.push(`${unclear.length} unclear titles dropped: no ANTHROPIC_API_KEY for the Claude title check`);
+    notes.push(`${unclear.length} unclear titles dropped: no OPENAI_API_KEY for the title check`);
   }
 
   const kept: FilteredPosting[] = [];
   for (const r of stage1) {
-    if (r._verdict === 'unclear' && !claudeKeep.has(r.raw_id)) { drop(hasCredentials() ? 'unclear title, Claude check said drop' : 'unclear title, not checked (no API key)'); continue; }
+    if (r._verdict === 'unclear' && !llmKeep.has(r.raw_id)) { drop(hasCredentials() ? 'unclear title, LLM check said drop' : 'unclear title, not checked (no API key)'); continue; }
     const { _verdict, ...rest } = r;
     kept.push({
       ...rest,
@@ -90,7 +90,7 @@ export async function filter(asOf = new Date()) {
       merged_raw_ids: [r.raw_id],
       extra_salary_lines: [],
       date_basis: r.posted_at ? 'posted_at' : r.updated_at ? 'updated_at' : 'unknown',
-      title_decision: _verdict === 'keep' ? 'rule' : 'claude',
+      title_decision: _verdict === 'keep' ? 'rule' : 'llm',
     });
   }
   const { kept: unique, merged } = dedupe(kept);

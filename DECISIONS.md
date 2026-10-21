@@ -8,16 +8,19 @@ Choices made inside the spec's latitude. Newest at the bottom of each section.
 - **TypeScript 5.9, not 7.** TypeScript 7 (native compiler) is the npm `latest`, but Next.js 16 does not yet document support for it.
 - **Next.js 16 + React 19 + Tailwind 4.** Tailwind 4's CSS-first config maps the design tokens directly (`@theme inline` in `app/globals.css`).
 
-## Claude calls
+## LLM calls
 
-- **Model default `claude-sonnet-5-5`**, overridable with `ANTHROPIC_MODEL` (spec).
-- **No `temperature: 0`.** Sonnet 5.5 rejects non-default sampling parameters with a 400. Stability comes from the input-hash cache instead: the same input always returns the cached output.
-- **No forced `tool_choice`.** Current models reject `{type: "tool"}`. We send `tool_choice: auto` with `disable_parallel_tool_use`, mark the tool `strict: true` (schema-valid arguments), and instruct "call X exactly once". A response without the tool call counts as a failure and gets the one retry.
-- **Strict tool schemas are generated from zod** (`toToolSchema`). Bounds (min/max, lengths) are stripped from the tool schema because strict mode does not accept them; zod still enforces them after the call.
-- **Server-side refusal fallback** (`fallbacks: "default"`, beta `server-side-fallback-2026-07-01`) is on by default. Set `ANTHROPIC_FALLBACKS=off` to disable.
-- **Effort**: `medium` for extraction, matching, clustering and briefs; `low` for title checks, news and normalisation.
+- **OpenAI instead of Anthropic (user decision, 21 Oct 2026).** The spec named the Anthropic SDK; the user asked to switch to the OpenAI API because they already have credits. All calls go through `pipeline/lib/llm.ts` using the official `openai` package (chat completions). The swappable transport means tests and stages did not change shape.
+- **Model default `gpt-5.5`**, overridable with `OPENAI_MODEL`. Chosen as the newest general GPT-5 model listed in the installed SDK; a `-mini` model is the cheaper option if quality holds on the golden fixtures.
+- **Structured output** uses `response_format: json_schema` with `strict: true`, generated from the zod schemas (`toResponseSchema`). Bounds (min/max, lengths) are stripped from the JSON schema and still enforced by zod after the call.
+- **No `temperature: 0`.** GPT-5 reasoning models do not accept a custom temperature. Stability comes from the input-hash cache: the same input always returns the cached output.
+- **Effort** maps to `reasoning_effort` (`medium` for extraction, matching, clustering and briefs; `low` for title checks, news, normalisation and the live demo). It is only sent to reasoning models (`gpt-5*`, `o*`, not `*-chat*`).
+- **Token budgets** (`max_completion_tokens`) were roughly doubled versus the Anthropic version because reasoning tokens count toward the limit.
+- **Refusals and truncation** (`message.refusal`, `finish_reason: "length"`) count as failures and get the one retry.
 - **Retry with feedback.** The one retry appends the validation error to the user message so the model can correct it.
+- **Prices are not hard-coded.** `config/scoring.ts → LLM.pricePerMTok` is empty; fill in rates from your OpenAI pricing page. Until then the cost report shows token counts and "price not set".
 - **Deterministic post-rules on labels** (`finaliseLabels`): confidence below 0.6 becomes `unclear`; a `covered` label on a capability whose default is `assisted` becomes `assisted` (strictest fitting label). The model's original label is kept as `model_label` and shown in the evidence panel.
+- **Cache version bumped** (`v2-openai`), so no Anthropic-era cache entries are reused.
 
 ## Data collection
 
@@ -25,7 +28,7 @@ Choices made inside the spec's latitude. Newest at the bottom of each section.
 - **Excluded from seeds as likely over 5,000 employees:** OpenAI, Anthropic, Databricks, Lucid Motors.
 - **Employee bands are unverified estimates.** Fetching a public size source (Wikipedia, company filings) would mean fetching a site not listed in the spec, which needs the user's go-ahead. Every row says `unverified estimate` in `size_note`, and `size_source_url` is blank. The UI shows "size unverified" next to every band. **Action for the user:** replace bands with sourced values.
 - **Collect stores only plausible titles.** Boards return ~9,000 jobs; `collect` keeps postings whose title is not rejected by the role rules (`pipeline/lib/roles.ts`) to keep `data/raw` small. Every board's total job count is kept in the collection report.
-- **Unclear titles** (e.g. "Head of Finance") go to a batched Claude check. Without an API key they are dropped and the count is logged.
+- **Unclear titles** (e.g. "Head of Finance") go to a batched LLM check. Without an API key they are dropped and the count is logged.
 - **Dates.** All three APIs expose a first-published date (Greenhouse `first_published`, Lever `createdAt`, Ashby `publishedAt`). Postings older than 60 days at the `--as-of` date are dropped.
 - **Dedupe** uses Jaccard similarity on 5-word shingles ≥ 0.9 with the same domain and normalised title. Salary lines from merged location postings are appended to the extraction input as "pay listed on other location postings", so the lowest minimum is used.
 - **Structured pay from job boards** (Lever `salaryRange`, Ashby compensation) is used only when the posting text has no salary. `salary_source` records which one was used.
@@ -47,8 +50,8 @@ Choices made inside the spec's latitude. Newest at the bottom of each section.
 
 ## M4 status
 
-- **All nine stages are implemented and proven end to end with a fake Claude transport** (`tests/integration.test.ts`): breakdowns add up, every uncovered duty lands in exactly one theme, briefs pass the fact check, reruns hit the cache, usage is logged per stage.
-- **The real M4 run needs `ANTHROPIC_API_KEY`**, which was not available in the build session. Run `npm run pipeline` (or stage by stage) once it is set. Expected spend at list prices is a few dollars: ~150 extraction calls and ~150 matching calls on Sonnet 5.5, plus ~2 gap calls, ~30 news calls and 15 briefs.
+- **All nine stages are implemented and proven end to end with a fake LLM transport** (`tests/integration.test.ts`): breakdowns add up, every uncovered duty lands in exactly one theme, briefs pass the fact check, reruns hit the cache, usage is logged per stage.
+- **The real M4 run needs `OPENAI_API_KEY`**, which was not available in the build session. Run `npm run pipeline` (or stage by stage) once it is set. Volume: ~150 extraction calls and ~150 matching calls, plus ~2 gap calls, ~30 news calls and 15 briefs.
 - **News headlines can name executives** (e.g. "Acme names Jane Doe CFO"). They are stored as published news context for the trigger, at company level. No recruiter or hiring-manager data is collected from postings.
 
 ## M7

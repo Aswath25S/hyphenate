@@ -107,15 +107,11 @@ export const LIVE_DEMO = {
 };
 
 export const LLM = {
-  defaultModel: 'claude-sonnet-5-5',
-  maxTokens: 16000,
-  // Approximate list prices, USD per million tokens, for the cost report.
-  pricePerMTok: {
-    'claude-sonnet-5-5': { input: 2, output: 10 },
-    'claude-opus-5-5': { input: 4, output: 20 },
-    'claude-haiku-5-5': { input: 0.1, output: 0.5 },
-    'claude-fable-5-1': { input: 10, output: 50 },
-  } as Record<string, { input: number; output: number }>,
+  defaultModel: 'gpt-5.5', // override with OPENAI_MODEL
+  maxTokens: 16000, // max_completion_tokens; reasoning tokens count toward it
+  // USD per million tokens, for the cost report. Fill in from your OpenAI pricing page;
+  // models without an entry are logged with cost "price not set".
+  pricePerMTok: {} as Record<string, { input: number; output: number }>,
 };
 
 /** Shape the UI uses for client-side recompute. */

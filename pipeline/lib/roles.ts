@@ -1,4 +1,4 @@
-/** Title rules for "roles to keep". Unclear titles go to a Claude check in the filter stage. */
+/** Title rules for "roles to keep". Unclear titles go to an LLM check in the filter stage. */
 
 const KEEP = [
   /\baccounts? receivable\b/i, /(?<!,\s?)\bA\/?R\b(?!\s*-\s*\d)/, /\bbilling\b/i, /\bcollections?\b/i, /\bcash appl/i, /\bcredit (analyst|manager|specialist)\b/i,

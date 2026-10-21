@@ -3,11 +3,11 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { P } from '../pipeline/lib/paths';
-import { setTransport } from '../pipeline/lib/claude';
+import { setTransport } from '../pipeline/lib/llm';
 import { resetLimits } from '../lib/ratelimit';
 import { POST } from '../app/api/analyze/route';
 import { loadFixtures } from '../pipeline/lib/fixtures';
-import { fake } from './helpers/fakeClaude';
+import { fake } from './helpers/fakeLlm';
 
 const original = { ...P };
 let tmp: string;
@@ -25,12 +25,12 @@ beforeAll(() => {
   tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'btnh-live-'));
   (P as Record<string, string>).cache = path.join(tmp, 'cache');
   (P as Record<string, string>).logs = path.join(tmp, 'logs');
-  process.env.ANTHROPIC_API_KEY = 'test-key';
+  process.env.OPENAI_API_KEY = 'test-key';
   setTransport(fake);
 });
 afterAll(() => {
   setTransport(null);
-  delete process.env.ANTHROPIC_API_KEY;
+  delete process.env.OPENAI_API_KEY;
   delete process.env.LIVE_DEMO_DAILY_LIMIT;
   Object.assign(P, original);
   fs.rmSync(tmp, { recursive: true, force: true });

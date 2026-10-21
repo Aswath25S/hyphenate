@@ -5,7 +5,7 @@ import { P } from './lib/paths';
 import { classifyTitle } from './lib/roles';
 import { isUsLocation } from './lib/geo';
 import { fetchBoard, type Ats } from './lib/sources';
-import { pool } from './lib/claude';
+import { pool } from './lib/llm';
 import { FILTER } from '../config/scoring';
 
 const disc = readJson<{ slug: string; company: string; domain: string; ats: Ats; finance_us_recent?: number }[]>(path.join(P.processed, 'discovery.json'));

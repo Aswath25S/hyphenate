@@ -21,7 +21,7 @@ export function matchSystem(capabilities: Capability[]): string {
     typical phrasings: ${c.example_phrases.join('; ')}
     NOT this capability: ${c.not_included.join('; ') || 'n/a'}`)
     .join('\n');
-  return `You label finance job duties against a coverage map of what an AI finance-operations platform advertises on its public website. For each duty, decide whether its core action is work the platform performs. Call the record_labels tool exactly once with one label per duty_id. Do not reply with prose.
+  return `You label finance job duties against a coverage map of what an AI finance-operations platform advertises on its public website. For each duty, decide whether its core action is work the platform performs. Return the record_labels JSON object with one label per duty_id. Do not reply with prose.
 
 Labels:
 - covered: the duty's core action is a capability marked [covered] below, done end to end.
@@ -49,7 +49,7 @@ export function matchUser(duties: { duty_id: string; text: string; source_span: 
 ${lines}
 </duties>
 
-Call record_labels once, with exactly one label for each of the ${duties.length} duty_ids above.`;
+Return the record_labels JSON object, with exactly one label for each of the ${duties.length} duty_ids above.`;
 }
 
 export function checkMatch(out: z.infer<typeof MatchOutputSchema>, dutyIds: string[], capabilityIds: Set<string>): string | null {

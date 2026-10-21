@@ -1,5 +1,5 @@
 /**
- * End-to-end plumbing test with a fake Claude transport: extract → match →
+ * End-to-end plumbing test with a fake LLM transport: extract → match →
  * score → gaps → brief → publish on three fixture postings in a temp data dir.
  * Checks the M4 invariants: lead breakdowns add up, every uncovered duty sits in
  * exactly one gap theme, briefs pass the fact check, every number traces to ids.
@@ -9,7 +9,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { P } from '../pipeline/lib/paths';
-import { setTransport, type Transport } from '../pipeline/lib/claude';
+import { setTransport, type Transport } from '../pipeline/lib/llm';
 import { loadFixtures } from '../pipeline/lib/fixtures';
 import { extract } from '../pipeline/stages/extract';
 import { match } from '../pipeline/stages/match';
@@ -18,7 +18,7 @@ import { gaps } from '../pipeline/stages/gaps';
 import { brief } from '../pipeline/stages/brief';
 import { publish } from '../pipeline/stages/publish';
 import { writeJson } from '../pipeline/lib/io';
-import { fake } from './helpers/fakeClaude';
+import { fake } from './helpers/fakeLlm';
 
 const original = { ...P };
 let tmp: string;
@@ -28,7 +28,7 @@ beforeAll(() => {
   for (const k of ['processed', 'extracted', 'matched', 'app', 'appPostings', 'cache', 'logs', 'rawNews'] as const) {
     (P as Record<string, string>)[k] = path.join(tmp, k === 'extracted' || k === 'matched' ? `processed/${k}` : k === 'appPostings' ? 'app/postings' : k);
   }
-  process.env.ANTHROPIC_API_KEY = 'test-key';
+  process.env.OPENAI_API_KEY = 'test-key';
   setTransport(fake);
   const fixtures = loadFixtures().slice(0, 3);
   writeJson(path.join(P.processed, 'filtered.json'), fixtures.map((f) => f.input));
@@ -36,12 +36,12 @@ beforeAll(() => {
 
 afterAll(() => {
   setTransport(null);
-  delete process.env.ANTHROPIC_API_KEY;
+  delete process.env.OPENAI_API_KEY;
   Object.assign(P, original);
   fs.rmSync(tmp, { recursive: true, force: true });
 });
 
-describe('pipeline plumbing with a fake Claude', () => {
+describe('pipeline plumbing with a fake LLM', () => {
   it('runs extract → match → score → gaps → brief → publish', async () => {
     await extract();
     await match();
@@ -77,7 +77,7 @@ describe('pipeline plumbing with a fake Claude', () => {
     }
   });
 
-  it('reruns are free: every Claude call is served from cache', async () => {
+  it('reruns are free: every LLM call is served from cache', async () => {
     let calls = 0;
     setTransport(async (p) => { calls++; return fake(p); });
     await extract();
@@ -89,6 +89,7 @@ describe('pipeline plumbing with a fake Claude', () => {
   it('logs token usage per stage', () => {
     const meta = JSON.parse(fs.readFileSync(path.join(P.app, 'meta.json'), 'utf8'));
     expect(meta.cost_report.extract.calls).toBe(3);
-    expect(meta.cost_report.extract.cost_usd).toBeGreaterThan(0);
+    expect(meta.cost_report.extract.input_tokens).toBe(3000);
+    expect(meta.cost_report.extract.unpriced_calls).toBe(3); // no price configured for the default model
   });
 });

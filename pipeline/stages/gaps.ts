@@ -3,7 +3,7 @@ import path from 'node:path';
 import { GAPS, OVERLAP } from '../../config/scoring';
 import { listJson, readJson, writeJson } from '../lib/io';
 import { P } from '../lib/paths';
-import { callTool, hasCredentials } from '../lib/claude';
+import { callLlm, hasCredentials } from '../lib/llm';
 import { loadCoverage } from '../lib/coverage';
 import { CLUSTER_TOOL, NORMALISE_SYSTEM, NORMALISE_TOOL, checkClusters, clusterSchema, clusterSystem, clusterUser, normaliseSchema, normaliseUser } from '../prompts/gaps';
 import { recordStage } from '../lib/stats';
@@ -82,7 +82,7 @@ export function themeMetrics(dutyIds: string[], duties: Map<string, GapDuty>, sc
 }
 
 export async function gaps() {
-  if (!hasCredentials()) throw new Error('gaps needs ANTHROPIC_API_KEY.');
+  if (!hasCredentials()) throw new Error('gaps needs OPENAI_API_KEY.');
   const coverage = loadCoverage();
   const postings = listJson(P.extracted).map((f) => readJson<ExtractedPosting>(f));
   const matched = new Map(listJson(P.matched).map((f) => readJson<MatchedPosting>(f)).map((m) => [m.posting_id, m]));
@@ -95,9 +95,9 @@ export async function gaps() {
   for (let i = 0; i < duties.length; i += GAPS.normaliseBatchSize) {
     const batch = duties.slice(i, i + GAPS.normaliseBatchSize);
     const ids = batch.map((b) => b.duty_id);
-    const res = await callTool({
+    const res = await callLlm({
       stage: 'gaps-normalise', system: NORMALISE_SYSTEM, user: normaliseUser(batch.map((b) => ({ duty_id: b.duty_id, text: b.text }))),
-      toolName: NORMALISE_TOOL.name, toolDescription: NORMALISE_TOOL.description, schema: normaliseSchema, effort: 'low', maxTokens: 8000,
+      formatName: NORMALISE_TOOL.name, formatDescription: NORMALISE_TOOL.description, schema: normaliseSchema, effort: 'low', maxTokens: 16000,
       check: (o) => {
         const got = new Set(o.items.map((x) => x.duty_id));
         const missing = ids.filter((id) => !got.has(id));
@@ -114,9 +114,9 @@ export async function gaps() {
   const counts = new Map<string, number>();
   for (const d of duties) counts.set(d.canonical!, (counts.get(d.canonical!) ?? 0) + 1);
   const tasks = [...counts.entries()].map(([canonical, count]) => ({ canonical, count })).sort((a, b) => b.count - a.count || a.canonical.localeCompare(b.canonical));
-  const res = await callTool({
+  const res = await callLlm({
     stage: 'gaps-cluster', system: clusterSystem(coverage.known_not_advertised), user: clusterUser(tasks),
-    toolName: CLUSTER_TOOL.name, toolDescription: CLUSTER_TOOL.description, schema: clusterSchema, maxTokens: 16000,
+    formatName: CLUSTER_TOOL.name, formatDescription: CLUSTER_TOOL.description, schema: clusterSchema, maxTokens: 32000,
     check: (o) => {
       if (o.themes.length < GAPS.minThemes || o.themes.length > GAPS.maxThemes) return `need ${GAPS.minThemes}-${GAPS.maxThemes} themes, got ${o.themes.length}`;
       return checkClusters(o.themes, tasks.length);

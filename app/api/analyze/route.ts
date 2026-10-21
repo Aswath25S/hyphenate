@@ -1,7 +1,7 @@
 import { analyzePosting } from '@/lib/live';
 import { checkLimits } from '@/lib/ratelimit';
 import { LIVE_DEMO } from '@/config/scoring';
-import { hasCredentials } from '@/pipeline/lib/claude';
+import { hasCredentials } from '@/pipeline/lib/llm';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';

@@ -32,7 +32,7 @@ const lines = [
   `**Board errors:** ${errors.length ? errors.join('; ') : 'none'}.`, '',
   `**Companies with the most kept postings:** ${top.slice(0, 12).map(([c, n]) => `${c} (${n})`).join(', ')}.`, '',
   '## Known gaps', '',
-  ...(st.filter?.notes ?? []).filter((n) => n.includes('not checked')).map((n) => `- ${n}. With an API key the filter sends these titles to a Claude check, which may add a few postings.`),
+  ...(st.filter?.notes ?? []).filter((n) => n.includes('not checked')).map((n) => `- ${n}. With an API key the filter sends these titles to an LLM check, which may add a few postings.`),
   '- Employee bands in the seed list are unverified estimates (see DECISIONS.md).',
   '- Public job boards over-represent venture-backed technology companies; FP&A roles are a large share of what they list.',
 ];

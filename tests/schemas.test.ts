@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { BriefOutputSchema, ClusterOutputSchema, DutyLabelSchema, ExtractionOutputSchema, MatchOutputSchema, NewsClassificationSchema, NormaliseOutputSchema } from '../lib/schemas';
 import { titleCheckSchema } from '../pipeline/prompts/filter';
-import { toToolSchema } from '../pipeline/lib/claude';
+import { toResponseSchema } from '../pipeline/lib/llm';
 
 const extraction = {
   title: 'Staff Accountant', role_family: 'GL', seniority: 'mid', locations: ['Austin, TX'], remote: 'hybrid',
@@ -11,7 +11,7 @@ const extraction = {
   pain_phrases: [], duties: [{ text: 'Reconcile bank accounts', source_span: 'Reconcile bank accounts', is_boilerplate: false, is_requirement: false }],
 };
 
-describe('Claude output schemas', () => {
+describe('LLM output schemas', () => {
   it('extraction accepts a valid object and rejects bad enums', () => {
     expect(ExtractionOutputSchema.safeParse(extraction).success).toBe(true);
     expect(ExtractionOutputSchema.safeParse({ ...extraction, role_family: 'Sales' }).success).toBe(false);
@@ -35,7 +35,7 @@ describe('Claude output schemas', () => {
   });
   it('every schema converts to a strict tool schema', () => {
     for (const s of [ExtractionOutputSchema, MatchOutputSchema, NewsClassificationSchema, NormaliseOutputSchema, ClusterOutputSchema, BriefOutputSchema, titleCheckSchema]) {
-      const j = toToolSchema(s) as { type: string; additionalProperties: boolean };
+      const j = toResponseSchema(s) as { type: string; additionalProperties: boolean };
       expect(j.type).toBe('object');
       expect(j.additionalProperties).toBe(false);
     }

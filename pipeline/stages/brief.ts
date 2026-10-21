@@ -1,10 +1,10 @@
-/** Stage 8: Claude writes a short brief per top company from structured data only. */
+/** Stage 8: the LLM writes a short brief per top company from structured data only. */
 import path from 'node:path';
 import fs from 'node:fs';
 import { BRIEFS } from '../../config/scoring';
 import { readJson, writeJson } from '../lib/io';
 import { P } from '../lib/paths';
-import { callTool, hasCredentials } from '../lib/claude';
+import { callLlm, hasCredentials } from '../lib/llm';
 import { computeLeads, type CompanyLead } from '../lib/leads';
 import { BRIEF_SYSTEM, BRIEF_TOOL, briefSchema, briefUser, factCheckBrief } from '../prompts/brief';
 import { recordStage } from '../lib/stats';
@@ -44,7 +44,7 @@ export function briefData(c: CompanyLead, postings: PostingScore[], themes: GapT
 }
 
 export async function brief(asOf = new Date()) {
-  if (!hasCredentials()) throw new Error('brief needs ANTHROPIC_API_KEY.');
+  if (!hasCredentials()) throw new Error('brief needs OPENAI_API_KEY.');
   const asOfStr = asOf.toISOString().slice(0, 10);
   const companies = readJson<CompanyBase[]>(path.join(P.processed, 'scored_companies.json'));
   const postings = readJson<PostingScore[]>(path.join(P.processed, 'scored_postings.json'));
@@ -62,9 +62,9 @@ export async function brief(asOf = new Date()) {
     let attempts = 0;
     for (; attempts < 2; attempts++) {
       const extra = attempts === 0 ? '' : `\n\nA previous draft used facts not in the data: ${problems.join(', ')}. Use only facts in the data.`;
-      const res = await callTool({
+      const res = await callLlm({
         stage: 'brief', system: BRIEF_SYSTEM, user: briefUser(data) + extra,
-        toolName: BRIEF_TOOL.name, toolDescription: BRIEF_TOOL.description, schema: briefSchema, maxTokens: 3000,
+        formatName: BRIEF_TOOL.name, formatDescription: BRIEF_TOOL.description, schema: briefSchema, maxTokens: 8000,
       });
       if (!res.ok) { problems = [res.error]; continue; }
       problems = factCheckBrief(res.data, data, ALLOWED);

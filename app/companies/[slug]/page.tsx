@@ -57,7 +57,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
               <div key={k} className="card p-5"><Mono>{k}</Mono><p className="mt-2 text-[16px] leading-relaxed">{v}</p></div>
             ))}
           </div>
-          <div className="mt-4"><Note>Written by Claude from the structured data on this page only, then checked in code: every number and name in it appears in the source data.</Note></div>
+          <div className="mt-4"><Note>Written by the model from the structured data on this page only, then checked in code: every number and name in it appears in the source data.</Note></div>
         </Section>
       )}
 

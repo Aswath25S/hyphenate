@@ -1,9 +1,9 @@
-/** Stage 4: Claude labels each scored duty against the coverage map. */
+/** Stage 4: the LLM labels each scored duty against the coverage map. */
 import path from 'node:path';
 import fs from 'node:fs';
 import { ensureDir, listJson, readJson, writeJson } from '../lib/io';
 import { P } from '../lib/paths';
-import { callTool, hasCredentials, pool } from '../lib/claude';
+import { callLlm, hasCredentials, pool } from '../lib/llm';
 import { loadCoverage, coverageIndex, type CoverageMap } from '../lib/coverage';
 import { MATCH_PROMPT_VERSION, MATCH_TOOL, checkMatch, finaliseLabels, matchSchema, matchSystem, matchUser, type FinalLabel } from '../prompts/match';
 import { recordStage } from '../lib/stats';
@@ -18,17 +18,17 @@ export async function matchOne(p: Pick<Posting, 'duties' | 'title' | 'role_famil
   const duties = scoredDuties(p);
   const idx = coverageIndex(coverage);
   if (!duties.length) return { ok: true as const, labels: [] as FinalLabel[], cost: 0 };
-  const res = await callTool({
+  const res = await callLlm({
     stage: opts.stage ?? 'match',
     effort: opts.effort,
     system: matchSystem(coverage.capabilities),
     user: matchUser(duties, { title: p.title, role_family: p.role_family }),
-    toolName: MATCH_TOOL.name,
-    toolDescription: MATCH_TOOL.description,
+    formatName: MATCH_TOOL.name,
+    formatDescription: MATCH_TOOL.description,
     schema: matchSchema,
     check: (out) => checkMatch(out, duties.map((d) => d.duty_id), idx.ids),
     ephemeral: opts.ephemeral,
-    maxTokens: 8000,
+    maxTokens: 16000,
   });
   if (!res.ok) return { ok: false as const, error: res.error, cost: res.usage.cost_usd };
   const order = new Map(duties.map((d, i) => [d.duty_id, i]));
@@ -37,7 +37,7 @@ export async function matchOne(p: Pick<Posting, 'duties' | 'title' | 'role_famil
 }
 
 export async function match() {
-  if (!hasCredentials()) throw new Error('match needs ANTHROPIC_API_KEY.');
+  if (!hasCredentials()) throw new Error('match needs OPENAI_API_KEY.');
   const coverage = loadCoverage();
   const files = listJson(P.extracted);
   ensureDir(P.matched);
