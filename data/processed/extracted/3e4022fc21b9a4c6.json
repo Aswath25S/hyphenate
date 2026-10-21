@@ -1,0 +1,425 @@
+{
+  "posting_id": "3e4022fc21b9a4c6",
+  "company": "ElevenLabs",
+  "domain": "elevenlabs.io",
+  "title": "Revenue Accountant",
+  "role_family": "Revenue",
+  "seniority": "senior",
+  "locations": [
+    "New York",
+    "Dublin",
+    "London"
+  ],
+  "remote": "remote",
+  "salary": {
+    "min": null,
+    "max": null,
+    "period": null,
+    "currency": null,
+    "raw_text": null
+  },
+  "erp": [],
+  "tools": [
+    "Stripe",
+    "Metronome",
+    "HubiFi"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": true,
+    "high_volume": true,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "complex and fast-evolving revenue model",
+    "build scalable processes and controls",
+    "hands-on, high-ownership role",
+    "lean Finance team",
+    "run recurring workstreams",
+    "help scale the revenue accounting operating model",
+    "improve and automate recurring revenue processes",
+    "high-volume SaaS context"
+  ],
+  "duties": [
+    {
+      "duty_id": "3e4022fc21b9a4c6-01",
+      "text": "Execute significant portions of the monthly revenue close",
+      "source_span": "Execute significant portions of the monthly revenue close",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-02",
+      "text": "Prepare journal entries",
+      "source_span": "journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-03",
+      "text": "Prepare deferred and unbilled revenue schedules",
+      "source_span": "deferred and unbilled revenue schedules",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-04",
+      "text": "Perform reconciliations",
+      "source_span": "reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-05",
+      "text": "Perform flux analysis",
+      "source_span": "flux analysis",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-06",
+      "text": "Perform recurring usage / consumption completeness",
+      "source_span": "recurring usage / consumption completeness",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-07",
+      "text": "Perform billing-to-GL reconciliations",
+      "source_span": "billing-to-GL reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-08",
+      "text": "Investigate exceptions",
+      "source_span": "investigate exceptions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-09",
+      "text": "Drive resolution with cross-functional partners",
+      "source_span": "drive resolution with cross-functional partners",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-10",
+      "text": "Review customer contracts",
+      "source_span": "Review customer contracts",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-11",
+      "text": "Apply established ASC 606 guidance to standard arrangements",
+      "source_span": "apply established ASC 606 guidance to standard arrangements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-12",
+      "text": "Escalate novel, high-judgment, or precedent-setting matters",
+      "source_span": "escalate novel, high-judgment, or precedent-setting matters",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-13",
+      "text": "Support accounting for credits, refunds, contract modifications, cutoff, and variable consideration",
+      "source_span": "Support accounting for credits, refunds, contract modifications, cutoff, and variable consideration, with clear and audit-ready documentation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-14",
+      "text": "Prepare revenue workpapers",
+      "source_span": "revenue workpapers",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-15",
+      "text": "Prepare audit support",
+      "source_span": "audit support",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-16",
+      "text": "Prepare control evidence",
+      "source_span": "control evidence",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-17",
+      "text": "Support external audit",
+      "source_span": "external audit",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-18",
+      "text": "Support walkthroughs",
+      "source_span": "walkthroughs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-19",
+      "text": "Support SOX readiness activities",
+      "source_span": "SOX readiness activities",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-20",
+      "text": "Support accounting readiness and UAT for new products, pricing structures, billing models, and partner / channel launches",
+      "source_span": "Support accounting readiness and UAT for new products, pricing structures, billing models, and partner / channel launches",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-21",
+      "text": "Improve and automate recurring revenue processes, reconciliations, documentation, and exception reporting as the business scales",
+      "source_span": "Improve and automate recurring revenue processes, reconciliations, documentation, and exception reporting as the business scales",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-22",
+      "text": "Deep expertise in ASC 606",
+      "source_span": "Deep expertise in ASC 606",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-23",
+      "text": "Experience with multi-element arrangements",
+      "source_span": "multi-element arrangements",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-24",
+      "text": "Experience with SSP evaluation",
+      "source_span": "SSP evaluation",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-25",
+      "text": "Experience with variable consideration",
+      "source_span": "variable consideration",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-26",
+      "text": "Experience with contract modifications",
+      "source_span": "contract modifications",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-27",
+      "text": "Experience with principal vs. agent analysis",
+      "source_span": "principal vs. agent analysis",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-28",
+      "text": "Experience leading the revenue close",
+      "source_span": "Experience leading the revenue close",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-29",
+      "text": "Experience with deferred revenue management",
+      "source_span": "deferred revenue management",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-30",
+      "text": "Experience with unbilled receivables",
+      "source_span": "unbilled receivables",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-31",
+      "text": "Experience with journal entry review",
+      "source_span": "journal entry review",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-32",
+      "text": "Experience with month-end flux analysis",
+      "source_span": "month-end flux analysis",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-33",
+      "text": "Partner with Sales and Legal on contract review and revenue impact assessments",
+      "source_span": "Track record of partnering with Sales and Legal on contract review and revenue impact assessments",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-34",
+      "text": "Experience operating in a pre-IPO or public company environment",
+      "source_span": "Experience operating in a pre-IPO or public company environment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-35",
+      "text": "Direct exposure to external audit",
+      "source_span": "external audit",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-36",
+      "text": "Direct exposure to controls build-out",
+      "source_span": "controls build-out",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-37",
+      "text": "Direct exposure to revenue accounting documentation",
+      "source_span": "revenue accounting documentation",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-38",
+      "text": "CPA qualification (active)",
+      "source_span": "CPA",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-39",
+      "text": "ACA qualification (active)",
+      "source_span": "ACA",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-40",
+      "text": "ACCA qualification (active)",
+      "source_span": "ACCA",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-41",
+      "text": "Big 4 background",
+      "source_span": "Big 4",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-42",
+      "text": "public accounting background",
+      "source_span": "public accounting background",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-43",
+      "text": "Strong systems proficiency",
+      "source_span": "Strong systems proficiency",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-44",
+      "text": "Experience with Stripe",
+      "source_span": "Stripe",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-45",
+      "text": "Experience with Metronome",
+      "source_span": "Metronome",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-46",
+      "text": "Experience with HubiFi",
+      "source_span": "HubiFi",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-47",
+      "text": "Experience with a comparable revenue recognition tool",
+      "source_span": "a comparable revenue recognition tool",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-48",
+      "text": "Experience with consumption/usage-based billing models",
+      "source_span": "consumption/usage-based and subscription billing models",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-49",
+      "text": "Experience with subscription billing models",
+      "source_span": "subscription billing models",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-50",
+      "text": "Familiarity with ASC 326 (CECL)",
+      "source_span": "ASC 326 (CECL)",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-51",
+      "text": "Familiarity with AR accounting in a high-volume SaaS context",
+      "source_span": "AR accounting in a high-volume SaaS context",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-52",
+      "text": "Experience with multi-entity revenue accounting",
+      "source_span": "Multi-entity or international revenue accounting background",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-53",
+      "text": "Experience with international revenue accounting",
+      "source_span": "Multi-entity or international revenue accounting background",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-10-15T08:29:02.194+00:00",
+  "source_url": "https://jobs.ashbyhq.com/elevenlabs/9d731858-01bf-4d42-89e5-5912ae94cf55",
+  "fetched_at": "2026-10-21T17:34:38.368Z",
+  "prompt_version": "extract-v1",
+  "text": "ABOUT ELEVENLABS\n\nElevenLabs is an AI research and product company transforming how we interact with technology.\n\nWe launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always.\n\nWe have expanded from voice into three main platforms:\n\n - ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale.\n\n - ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages.\n\n - ElevenAPI gives developers access to our leading AI audio foundational models.\n\nEverything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you.\n\n\n\n\nHOW WE WORK\n\n - High-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy.\n\n - Impact not job titles: We don’t have job titles. Instead, it’s about the impact you have. No task is above or beneath you.\n\n - AI first: We use AI to move faster with higher-quality results. We do this across the whole company—from engineering to growth to operations.\n\n - Excellence everywhere: Everything we do should match the quality of our AI models.\n\n - Global team: We prioritize your talent, not your location.\n\n\n\n\nWHAT WE OFFER\n\n - Innovative culture: You’ll be part of a generational opportunity to define the trajectory of AI, surrounded by a team pushing the boundaries of what’s possible.\n\n - Growth paths: Joining ElevenLabs means joining a dynamic team with countless opportunities to drive impact - beyond your immediate role and responsibilities.\n\n - Learning & development: ElevenLabs proactively supports professional development through an annual discretionary stipend.\n\n - Social travel: We also provide an annual discretionary stipend to meet up with colleagues each year, however you choose.\n\n - Annual company offsite: Each year, we bring the entire team together in a new location - past offsites have included Croatia and Italy.\n\n - Co-working: If you’re not located near one of our main hubs, we offer a monthly co-working stipend.\n\n\nABOUT THE ROLE\n\nElevenLabs operates a complex and fast-evolving revenue model – enterprise contracts, self-serve API subscriptions, usage-based billing, and expanding international markets. As a Revenue Accountant, you will play a key role in ElevenLabs’ revenue accounting function. \n\nYou will own significant portions of the monthly revenue close, support the application of ASC 606 to customer arrangements, and help build scalable processes and controls as ElevenLabs grows toward IPO readiness.\n\nYou will work cross-functionally with Sales, Legal, Billing Operations, Engineering, and FP&A to support contract review, usage and billing completeness, new product launches, and accurate and timely revenue recognition. This is a hands-on, high-ownership role in a lean Finance team – the right person will independently run recurring workstreams, identify issues early, and help scale the revenue accounting operating model as the business grows.\n\n\n\n\nWHAT YOU’LL DO\n\n - Execute significant portions of the monthly revenue close, including journal entries, deferred and unbilled revenue schedules, reconciliations, and flux analysis\n\n - Perform recurring usage / consumption completeness and billing-to-GL reconciliations; investigate exceptions and drive resolution with cross-functional partners\n\n - Review customer contracts and apply established ASC 606 guidance to standard arrangements; escalate novel, high-judgment, or precedent-setting matters\n\n - Support accounting for credits, refunds, contract modifications, cutoff, and variable consideration, with clear and audit-ready documentation\n\n - Prepare revenue workpapers, audit support, and control evidence; support external audit, walkthroughs, and SOX readiness activities\n\n - Support accounting readiness and UAT for new products, pricing structures, billing models, and partner / channel launches\n\n - Improve and automate recurring revenue processes, reconciliations, documentation, and exception reporting as the business scales\n\n\n\n\nREQUIREMENTS\n\n - Deep expertise in ASC 606, including multi-element arrangements, SSP evaluation, variable consideration, contract modifications, and principal vs. agent analysis\n\n - Experience leading the revenue close: deferred revenue management, unbilled receivables, journal entry review, and month-end flux analysis\n\n - Track record of partnering with Sales and Legal on contract review and revenue impact assessments\n\n - Experience operating in a pre-IPO or public company environment, with direct exposure to external audit, controls build-out, and revenue accounting documentation\n\n - CPA, ACA, or ACCA qualification (active); Big 4 or public accounting background a strong plus\n\n - Strong systems proficiency; Stripe, Metronome, HubiFi or a comparable revenue recognition tool preferred\n\n\n\n\nBONUS:\n\n - Experience with consumption/usage-based and subscription billing models\n\n - Familiarity with ASC 326 (CECL) and AR accounting in a high-volume SaaS context\n\n - Multi-entity or international revenue accounting background\n\n\n\n\nLOCATION\n\nThis role is remote-first, so it can be executed from anywhere in Central Europe or Eastern US timezones. If you prefer, you can work from our offices in London, New York and Warsaw. \n\n\n\n#LI-Remote\n\nWe are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses.",
+  "extra_salary_lines": [],
+  "salary_source": null,
+  "ats": "ashby"
+}

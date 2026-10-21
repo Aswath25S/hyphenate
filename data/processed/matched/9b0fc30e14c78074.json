@@ -1,0 +1,303 @@
+{
+  "posting_id": "9b0fc30e14c78074",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "9b0fc30e14c78074-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Owning the product investment envelope is budgeting and resource allocation work, which is not a listed platform capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Managing OpEx budgets is budgeting/modeling work that the map does not cover.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Managing headcount budgets is a workforce-planning/budgeting task outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Ensuring investments align with company strategy is a judgment and advisory action, not an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Maintaining spend and margin targets is planning/control work that matches no listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Driving workforce planning across teams is an FP&A planning function that is not in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Building bottom-up headcount models is a budgeting model task with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Partnering with Engineering leaders to sequence hiring is cross-functional advising and coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Partnering with Engineering leaders on compliance-driven hiring decisions is advisory work requiring human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Partnering with Engineering leaders to sequence hiring for scale is collaborative decision-making, not a finance platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Modeling infrastructure and internal systems economics is a forecasting/modeling task with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Forecasting cloud hosting costs is a budgeting model task not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Forecasting AI/compute costs is a planning model task with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Forecasting internal tooling costs is a planning/modeling activity outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Forecasting SaaS application costs is a budgeting model task not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Forecasting enterprise systems costs is a planning model task with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-21",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Identifying optimization opportunities across tech spend is analysis and process improvement that the map does not cover.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Translating corporate priorities into financial tradeoffs is strategic advisory work requiring judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Evaluating build-versus-buy decisions is a judgment-heavy business decision, not an operational finance workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Evaluating capitalizable versus expensed R&D is accounting policy judgment rather than an automated routine.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Evaluating vendor investments is an advisory decision-making task, not a covered platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Providing ROI-based recommendations is advisory work that depends on human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Elevating budget-versus-actual rigor across the organization is influencing and change management work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Leading monthly BvA reviews is a facilitation and presentation duty, not a platform automation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-29",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Automating reporting is a generic automation task that matches no specific capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-30",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Improving accrual accuracy is process improvement around accruals, which is not a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-31",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.66,
+      "rationale": "Surfacing actionable insights is analytical reporting work that fits ad hoc finance analysis, though it needs judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-32",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Designing scalable financial controls is control-framework judgment, which the map excludes.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-33",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Implementing approval workflows for headcount is a vague workflow project with no direct capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-34",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "Implementing approval workflows for vendor spend is a workflow project, but the exact finance operation is not specified.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-35",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "Implementing approval workflows for enterprise tooling is too project-oriented and does not map cleanly to a capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-36",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Using automation and AI to reduce manual review is a generic process-improvement statement without a specific covered capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b0fc30e14c78074-37",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Using automation and AI to eliminate bottlenecks is a broad optimization goal rather than a defined finance workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

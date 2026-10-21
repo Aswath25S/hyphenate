@@ -1,0 +1,332 @@
+{
+  "posting_id": "c6b4af82070a09c4",
+  "company": "Chime",
+  "domain": "chime.com",
+  "title": "Senior Associate, Strategic Finance",
+  "role_family": "Reporting_FPA",
+  "seniority": "senior",
+  "locations": [
+    "San Francisco, CA, USA",
+    "San Francisco, California, United States"
+  ],
+  "remote": "hybrid",
+  "salary": {
+    "min": 119000,
+    "max": 165000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "$119,000—$165,000 USD"
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Pigment",
+    "Excel",
+    "Google Sheets",
+    "Looker",
+    "Snowflake"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "compressing close-to-forecast turnaround",
+    "reducing manual effort in Pigment and Sheets",
+    "scale finance workflows"
+  ],
+  "duties": [
+    {
+      "duty_id": "c6b4af82070a09c4-01",
+      "text": "Support the development of unit economic frameworks",
+      "source_span": "Support the development of unit economic frameworks",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-02",
+      "text": "Evaluate the ROI of various products, features, and business strategies",
+      "source_span": "evaluate the ROI of various products, features, and business strategies",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-03",
+      "text": "Guide Chime’s decision-making",
+      "source_span": "guide Chime’s decision-making",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-04",
+      "text": "Evaluate economic viability",
+      "source_span": "Evaluate economic viability",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-05",
+      "text": "Drive strategy for Chime’s new and emerging products",
+      "source_span": "drive strategy for Chime’s new and emerging products",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-06",
+      "text": "Build strong working relationships with cross-functional teams including Product, Risk, Analytics, and Marketing",
+      "source_span": "Build strong working relationships with cross-functional teams including Product, Risk, Analytics, and Marketing",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-07",
+      "text": "Strategically advise on financial impact",
+      "source_span": "strategically advise on financial impact",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-08",
+      "text": "Improve business performance",
+      "source_span": "improve business performance",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-09",
+      "text": "Manage and own financial forecasts",
+      "source_span": "manage and own financial forecasts",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-10",
+      "text": "Advise executive leadership on business unit and product performance on a regular basis",
+      "source_span": "advise executive leadership on business unit and product performance on a regular basis",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-11",
+      "text": "Contribute to board/investor materials",
+      "source_span": "Contribute to board/investor materials",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-12",
+      "text": "Contribute to public facing materials & disclosures",
+      "source_span": "public facing materials & disclosures",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-13",
+      "text": "Contribute to other external reporting",
+      "source_span": "other external reporting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-14",
+      "text": "Advise investors and other key partners on overall company financial health",
+      "source_span": "advise investors and other key partners on overall company financial health",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-15",
+      "text": "Advise investors and other key partners on product positioning & performance",
+      "source_span": "product positioning & performance",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-16",
+      "text": "Partner closely with our Analytics team",
+      "source_span": "partner closely with our Analytics team",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-17",
+      "text": "Create dashboards",
+      "source_span": "create dashboards",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-18",
+      "text": "Create KPIs",
+      "source_span": "and KPIs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-19",
+      "text": "Track product health",
+      "source_span": "track product health",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-20",
+      "text": "Evaluate experimental results",
+      "source_span": "evaluate experimental results",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-21",
+      "text": "Champion the adoption of AI and automation across the forecast process",
+      "source_span": "Champion the adoption of AI and automation across the forecast process",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-22",
+      "text": "Compress close-to-forecast turnaround",
+      "source_span": "compressing close-to-forecast turnaround",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-23",
+      "text": "Standardize recurring reporting",
+      "source_span": "standardizing recurring reporting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-24",
+      "text": "Reduce manual effort in Pigment and Sheets",
+      "source_span": "reducing manual effort in Pigment and Sheets",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-25",
+      "text": "Minimum 4-7 years of relevant experience in strategic finance, FP&A, investment banking, consulting, or business intelligence",
+      "source_span": "Minimum 4-7 years of relevant experience in strategic finance, FP&A, investment banking, consulting, or business intelligence; prior experience at a high-growth technology or financial technology company a plus",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-26",
+      "text": "Prior experience at a high-growth technology or financial technology company a plus",
+      "source_span": "prior experience at a high-growth technology or financial technology company a plus",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-27",
+      "text": "Bachelor’s Degree, or equivalent degree in Business, Finance, Economics, Accounting or other relevant field",
+      "source_span": "Bachelor’s Degree, or equivalent degree in Business, Finance, Economics, Accounting or other relevant field",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-28",
+      "text": "Demonstrated experience building driver-based forecasts with a clear point of view on how you validate drivers and diagnose forecast vs. actual variance",
+      "source_span": "Demonstrated experience building driver-based forecasts (e.g., volume × rate, unit economics, cohort models) with a clear point of view on how you validate drivers and diagnose forecast vs. actual variance",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-29",
+      "text": "Expertise in Excel / Google Sheets",
+      "source_span": "Expertise in Excel / Google Sheets",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-30",
+      "text": "Build scalable, efficient, and auditable models with clear assumptions",
+      "source_span": "you can build scalable, efficient, and auditable models with clear assumptions",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-31",
+      "text": "Have opinions about how a model should be structured",
+      "source_span": "and you have opinions about how a model should be structured",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-32",
+      "text": "Superior communication skills and the ability to collaborate with all levels of an organization",
+      "source_span": "Superior communication skills and the ability to collaborate with all levels of an organization",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-33",
+      "text": "Take a complex, multi-driver result and give a non-finance partner the answer first, then the logic",
+      "source_span": "you can take a complex, multi-driver result and give a non-finance partner the answer first, then the logic",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-34",
+      "text": "A strong sense of ownership and comfort with ambiguity",
+      "source_span": "A strong sense of ownership and comfort with ambiguity",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-35",
+      "text": "Strong process-improvement mindset with demonstrated ability to leverage AI and automation to scale finance workflows and improve forecasting precision and turnaround time",
+      "source_span": "Strong process-improvement mindset with demonstrated ability to leverage AI and automation to scale finance workflows and improve forecasting precision and turnaround time",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-36",
+      "text": "A team-oriented mindset and a positive attitude",
+      "source_span": "A team-oriented mindset and a positive attitude",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-37",
+      "text": "Bonus Experience: payments, banking, or money-movement economics; cohort analysis; Pigment, NetSuite, Looker, Snowflake",
+      "source_span": "Bonus Experience: payments, banking, or money-movement economics; cohort analysis; Pigment, NetSuite, Looker, Snowflake",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-38",
+      "text": "We know that great work can’t be done without a diverse team and inclusive environment.",
+      "source_span": "We know that great work can’t be done without a diverse team and inclusive environment.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-39",
+      "text": "Chime is proud to be an Equal Opportunity Employer.",
+      "source_span": "Chime is proud to be an Equal Opportunity Employer.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-40",
+      "text": "We consider qualified applicants without regard to race, color, ancestry, religion, sex, national origin, sexual orientation, gender identity, age, marital or family status, disability, genetic information, veteran status, or any other legally protected basis under provincial, federal, state, and local laws, regulations, or ordinances.",
+      "source_span": "We consider qualified applicants without regard to race, color, ancestry, religion, sex, national origin, sexual orientation, gender identity, age, marital or family status, disability, genetic information, veteran status, or any other legally protected basis under provincial, federal, state, and local laws, regulations, or ordinances.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    }
+  ],
+  "posted_at": "2026-09-29T13:04:58-04:00",
+  "source_url": "https://boards.greenhouse.io/chime/jobs/8801438002?gh_jid=8801438002",
+  "fetched_at": "2026-10-21T17:34:10.289Z",
+  "prompt_version": "extract-v1",
+  "text": "About the role\n\nWe’re seeking a Strategic Finance Senior Associate to join the Finance team at Chime. As a finance team member, you will have a key role in collaborating with the Strategic Finance team to shape our business and financial strategy, while completing numerous high-impact initiatives at the company. You will help us build unit economic frameworks to better understand our business model to drive continuous improvement of KPIs, while collaborating with cross-functional business partners to evaluate the ROI of products, features, and initiatives. We are looking for an analytical problem-solver with a strategic mindset - someone who can do more than just crunch numbers! A key part of this role is the ability to understand the details while keeping sight of the broader strategy. This is a high-visibility role on a tight knit team. You will work day to day with Product, Analytics, Risk, Growth, Accounting, and Corporate Finance. The StratFin team routinely interacts with senior executives and cross-functional partnership is an everyday occurrence, so effective communication skills are a must!\n\nIn this role, you can expect to\n\n• Support the development of unit economic frameworks to evaluate the ROI of various products, features, and business strategies and guide Chime’s decision-making\n\n• Evaluate economic viability and drive strategy for Chime’s new and emerging products\n\n• Build strong working relationships with cross-functional teams including Product, Risk, Analytics, and Marketing to strategically advise on financial impact and improve business performance\n\n• Use tools such as Pigment to manage and own financial forecasts and advise executive leadership on business unit and product performance on a regular basis\n\n• Contribute to board/investor materials, public facing materials & disclosures, and other external reporting to advise investors and other key partners on overall company financial health and product positioning & performance\n\n• Guide and partner closely with our Analytics team to create dashboards and KPIs to track product health, as well as evaluate experimental results\n\n• Champion the adoption of AI and automation across the forecast process, compressing close-to-forecast turnaround, standardizing recurring reporting, and reducing manual effort in Pigment and Sheets\n\nTo thrive in this role, you have\n\n• Minimum 4-7 years of relevant experience in strategic finance, FP&A, investment banking, consulting, or business intelligence; prior experience at a high-growth technology or financial technology company a plus\n\n• Bachelor’s Degree, or equivalent degree in Business, Finance, Economics, Accounting or other relevant field\n\n• Demonstrated experience building driver-based forecasts (e.g., volume × rate, unit economics, cohort models) with a clear point of view on how you validate drivers and diagnose forecast vs. actual variance\n\n• Expertise in Excel / Google Sheets — you can build scalable, efficient, and auditable models with clear assumptions, and you have opinions about how a model should be structured\n\n• Superior communication skills and the ability to collaborate with all levels of an organization — you can take a complex, multi-driver result and give a non-finance partner the answer first, then the logic\n\n• A strong sense of ownership and comfort with ambiguity\n\n• Strong process-improvement mindset with demonstrated ability to leverage AI and automation to scale finance workflows and improve forecasting precision and turnaround time\n\n• A team-oriented mindset and a positive attitude\n\n• Bonus Experience: payments, banking, or money-movement economics; cohort analysis; Pigment, NetSuite, Looker, Snowflake\n\n#LI-Onsite #LI-LB1\n\nBelow is the base salary offered for this role and level of experience. Full-time employees may also be eligible for bonus(es), competitive equity, and benefits. For commissioned roles, the base salary listed in this job description does not include incentive/variable pay. The actual base salary offered may be higher, depending on your location, skills, qualifications, and experience.\n\nWage Notice\n\n$119,000—$165,000 USD\n\nA little about us\n\nAt Chime, we believe that everyone can achieve financial progress. We created Chime—a financial technology company, not a bank*—on the premise that core banking services should be helpful, easy, and free. Through our user-friendly tools and intuitive platforms, we empower our members to take control of their finances and work towards their goals. Whether it's starting a savings account, purchasing a first car or home, launching a business, or pursuing higher education, we're proud to have helped millions unlock their financial potential.\n\nWe're a team of problem solvers, dreamers, and builders with one shared obsession: our members. From day one, Chimers have worked tirelessly to out-hustle and out-execute competitors to bring our mission to life. Their grit and determination inspire us to work harder every day to deliver the very best experience possible. We each bring an owner's mindset to our work, refusing to be outdone and holding ourselves accountable to meet and exceed the highest bars for our teams, our company, and our members.\n\nWe believe in being bold, dreaming big, and taking risks, while also working together, embracing our diverse perspectives, and giving each other honest feedback. Our culture remains deeply entrepreneurial, encouraging every Chimer to see themselves as stewards of our mission to help everyday Americans unlock their financial progress.\n\nWe know that to achieve our mission, we must earn and keep people's trust—so we hold ourselves to the highest standards of integrity in everything we do. These aren't just words on a wall—our values are embedded in every aspect of our business, serving as a north star that guides us as we work to help millions achieve their financial potential.\n\nBecause if we don't—who will?\n\n*Chime is a financial technology company, not a bank. Banking services provided by The Bancorp Bank, N.A. or Stride Bank, N.A., Members FDIC.\n\nWhat we offer for our full-time, regular employees\n\n• 🏢 Our in-office work policy is designed to keep you connected - with four days a week in the office and Fridays from home for those near one of our offices, plus team and company-wide events depending on location. Whether you’re coming in regularly or are part of our fully remote program, you’ll stay engaged with your work and teammates.\n\n• 💻 Benefits that support your work and life, including backup child, elder, and pet care and subsidized commuter benefits for eligible employees.\n\n• ✨ Comprehensive health, financial, and wellbeing benefits designed to support you at every stage of life.\n\n• 🏝 Generous vacation policy and company-wide paid days off\n\n• 🫂 1% of your time off to support local community organizations of your choice\n\n• 👟 Annual wellness stipend to use towards eligible wellness related expenses\n\n• 👶 Up to 22 weeks of paid parental leave for birthing parents and 12 weeks of paid parental leave for non-birthing parents\n\n• 👪 Access to family planning reimbursement\n\n• 💚 A challenging and fulfilling opportunity to join one of the most experienced teams in FinTech and help millions unlock financial progress\n\nWe know that great work can’t be done without a diverse team and inclusive environment. That’s why we specifically look for individuals of varying strengths, skills, backgrounds, and ideas to join our team. We believe this gives us a competitive advantage to better serve our members and helps us all grow as Chimers and individuals.\n\nChime is proud to be an Equal Opportunity Employer. We consider qualified applicants without regard to race, color, ancestry, religion, sex, national origin, sexual orientation, gender identity, age, marital or family status, disability, genetic information, veteran status, or any other legally protected basis under provincial, federal, state, and local laws, regulations, or ordinances. We will also consider qualified applicants with criminal histories in a manner consistent with the requirements of state and local laws, including the San Francisco Fair Chance Ordinance, Cook County Ordinance, NYC Fair Chance Act, and the LA City Fair Chance Ordinance, and consistent with Canadian provincial and federal laws. If you have a disability or special need that requires accommodation during any stage of the application process, please contact: accommodations@chime.com.\n\nTo learn more about how Chime collects and uses your personal information during the application process, please see the Chime Applicant Privacy Notice.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

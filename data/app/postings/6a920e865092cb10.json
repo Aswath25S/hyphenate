@@ -1,0 +1,741 @@
+{
+  "posting_id": "6a920e865092cb10",
+  "company": "Thatch",
+  "slug": "thatch",
+  "domain": "thatch.com",
+  "title": "Operations Specialist, Payroll Reconciliation",
+  "role_family": "Payroll",
+  "seniority": "mid",
+  "n": 15,
+  "C": 0,
+  "A": 3,
+  "covered_share": 0,
+  "overlap": 0.2,
+  "weighted_overlap": 0.1,
+  "thin": false,
+  "salary_min": 91000,
+  "salary_max": 120000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 0,
+  "savings_reason": null,
+  "lead_product": "Reporting",
+  "product_split": {
+    "GL accounting": {
+      "covered": 0,
+      "assisted": 1,
+      "weighted": 0.5
+    },
+    "Reporting": {
+      "covered": 0,
+      "assisted": 2,
+      "weighted": 1
+    }
+  },
+  "erp": [],
+  "tools": [],
+  "posted_at": "2026-09-03T13:30:13-04:00",
+  "source_url": "https://thatch.com/jobs/5414786008?gh_jid=5414786008",
+  "locations": [
+    "Austin, Texas, United States"
+  ],
+  "remote": "onsite",
+  "excluded": null,
+  "text": "About Thatch\n\nFor most people, health insurance is something that happens to them: a plan chosen by someone else, with little room to fit their life. Thatch is changing that. We help companies give every employee a real healthcare budget instead of a one-size-fits-all plan, so people can choose the coverage and care that works for them, and employers get predictable costs they can control.\n\nIt’s a simple idea, but making it real means solving hard problems across healthcare, payments, and technology, and we’re just getting started. We look for people who like solving complex problems, use good judgment, and are comfortable working through ambiguity. People here care deeply about our customers, take real responsibility for what gets built, and are driven by doing work that matters.\n\nAbout the role\n\nThatch is building a healthcare system people love, and getting people’s money right — every deduction, every invoice, every payroll cycle — is foundational to earning that trust. This role will focus on execution within a key operations function, supporting operational OKRs and day-to-day queue management. We’re seeking a candidate with a proven track record of executing at a high level in fast-growing startups, leveraging data and process for impactful results. This individual must possess the ability to dive deep into the details of daily execution and maintain consistency in a continuously evolving environment.\n\nA critical focus area for the team is the ongoing reconciliation of our payment infrastructure. This complex function is vital for financial accuracy and stability. Its efficient management directly and positively impacts our members, driving trust and satisfaction through seamless and accurate financial experiences.\n\nYou’ll sit at the intersection of Operations, Engineering, and Finance: reviewing payroll deductions before they reach employers, tracing discrepancies back to root cause, and partnering with Engineering to automate away the reconciliation work that shouldn’t require manual review every cycle. This role is based onsite in our Austin, TX office and is well suited to someone who exercises strong independent judgment on complex financial data and is energized by building the process and tooling that let Thatch scale reconciliation without scaling headcount linearly.\n\nWhat you'll do\n\n• Own the payroll deduction reconciliation queue, reviewing new and updated deductions before each payroll run and approving or escalating flagged discrepancies with clear reasoning\n\n• Trace reconciliation errors back to root cause across enrollment, premium, and payroll connection data, and drive fixes upstream rather than patching individual cases\n\n• Partner with Engineering to scope and prioritize automation opportunities, such as auto-approval rules, tooling, and monitoring that reduce the volume of manual review over time\n\n• Manage escalations from payroll connection failures and invoice review queues, routing issues to the right stakeholder\n\n• Build and maintain SOPs and audit trails so reconciliation logic and decisions are transparent and repeatable across the team\n\n• Report on reconciliation accuracy and queue health, surfacing trends and risk areas to Operations and Finance leadership\n\nBackground we're looking for\n\n• 4-7 years of experience in operations, financial/payroll reconciliation, or management consulting, with a track record of solving complex, ambiguous problems independently\n\n• Strong analytical skills and comfort working directly with financial and payroll data to identify discrepancies and root causes\n\n• Demonstrated success designing or improving reconciliation, audit, or financial control processes\n\n• Strong judgment — able to make sound decisions on ambiguous or high-stakes cases without heavy oversight\n\n• Experience partnering with Engineering to translate operational pain points into tooling or automation requirements\n\n• Bachelor’s degree required\n\n• Ability and willingness to work onsite in our Austin, TX office\n\nExperience we’d be particularly excited about\n\n• MBA or other advanced degree\n\n• Background in management consulting (e.g. strategy or operations consulting) prior to moving into an Operations role\n\n• Experience with payroll, benefits, or fintech reconciliation systems\n\n• Comfort writing SQL queries or working directly with engineers to scope automation requirements\n\n• Prior experience in a high-growth startup environment\n\nWhat to expect\n\nWe interview rigorously based on integrity, talent, and drive; the trust we display in our teammates from day 1 is a reflection of the confidence we have in this process. We aim to evaluate the things you’ll be doing every day as best we can, and we move quickly. Here's what to expect:\n\n• 30 minute video meeting to talk through your background and interest in Thatch\n\n• 30 minute video meeting with the hiring manager to dive deeper into your experience and the role\n\n• 30 minute video meeting to meet 2-3 members of the team\n\n• 30 minute video meeting with the hiring manager to work through a live case study\n\n• 30 minute video meeting with our founders to discuss your approach to culture and our operating principles\n\nEstimated Compensation Range\n\n$91,000—$120,000 USD",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 91000,
+    "max": 120000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Estimated Compensation Range\n\n$91,000—$120,000 USD"
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "manual review every cycle",
+    "reduce the volume of manual review over time",
+    "scale reconciliation without scaling headcount linearly"
+  ],
+  "fetched_at": "2026-10-21T17:34:22.978Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "6a920e865092cb10-01",
+      "text": "Own the payroll deduction reconciliation queue",
+      "source_span": "Own the payroll deduction reconciliation queue",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2342,
+        "end": 2388
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Owning a payroll deduction reconciliation queue is repetitive reconciliation work, but no payroll reconciliation capability is in the map.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a920e865092cb10-02",
+      "text": "Review new and updated deductions before each payroll run",
+      "source_span": "reviewing new and updated deductions before each payroll run",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2390,
+        "end": 2450
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Reviewing new and updated deductions before each payroll run is a rules-based payroll review task with no matching capability.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a920e865092cb10-03",
+      "text": "Approve flagged discrepancies with clear reasoning",
+      "source_span": "approving flagged discrepancies with clear reasoning",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": null,
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Approving flagged discrepancies is manual exception handling for payroll reconciliation, which is not covered by the map.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a920e865092cb10-04",
+      "text": "Escalate flagged discrepancies with clear reasoning",
+      "source_span": "or escalating flagged discrepancies with clear reasoning",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2465,
+        "end": 2521
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Escalating flagged discrepancies is operational queue handling, but there is no payroll escalation capability listed.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a920e865092cb10-05",
+      "text": "Trace reconciliation errors back to root cause across enrollment, premium, and payroll connection data",
+      "source_span": "Trace reconciliation errors back to root cause across enrollment, premium, and payroll connection data",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2525,
+        "end": 2627
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.87,
+      "rationale": "Tracing reconciliation errors to root cause across source data is investigation work that does not match a listed capability.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "6a920e865092cb10-06",
+      "text": "Drive fixes upstream rather than patching individual cases",
+      "source_span": "drive fixes upstream rather than patching individual cases",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2633,
+        "end": 2691
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.74,
+      "rationale": "Driving upstream fixes is process improvement work, but the duty is too broad to map to a specific finance-ops capability.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a920e865092cb10-07",
+      "text": "Partner with Engineering to scope and prioritize automation opportunities, such as auto-approval rules, tooling, and monitoring that reduce the volume of manual review over time",
+      "source_span": "Partner with Engineering to scope and prioritize automation opportunities, such as auto-approval rules, tooling, and monitoring that reduce the volume of manual review over time",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2695,
+        "end": 2872
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Engineering to scope and prioritize automation opportunities is cross-functional collaboration and prioritization work.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a920e865092cb10-08",
+      "text": "Manage escalations from payroll connection failures",
+      "source_span": "Manage escalations from payroll connection failures",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2876,
+        "end": 2927
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Managing escalations from payroll connection failures is exception handling with no matching capability in the map.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a920e865092cb10-09",
+      "text": "Manage escalations from invoice review queues",
+      "source_span": "and invoice review queues",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2928,
+        "end": 2953
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.89,
+      "rationale": "Managing escalations from invoice review queues is queue triage work, but invoice review itself is not the core action here.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a920e865092cb10-10",
+      "text": "Route issues to the right stakeholder",
+      "source_span": "routing issues to the right stakeholder",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2955,
+        "end": 2994
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Routing issues to the right stakeholder is workflow triage, which is not a listed finance-ops capability.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "6a920e865092cb10-11",
+      "text": "Build SOPs",
+      "source_span": "Build",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2998,
+        "end": 3003
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.82,
+      "rationale": "Building SOPs is process documentation work, but the duty is too unspecific to map cleanly.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a920e865092cb10-12",
+      "text": "Maintain audit trails",
+      "source_span": "maintain audit trails",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": null,
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.97,
+      "rationale": "Maintaining audit trails matches the audit-support capability of preserving supporting documentation for entries.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-13",
+      "text": "Report on reconciliation accuracy",
+      "source_span": "Report on reconciliation accuracy",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3127,
+        "end": 3160
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.84,
+      "rationale": "Reporting on reconciliation accuracy is recurring KPI reporting, which fits management reporting.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-14",
+      "text": "Report on queue health",
+      "source_span": "queue health",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3165,
+        "end": 3177
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.84,
+      "rationale": "Reporting on queue health is recurring operational reporting, which fits management reporting.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-15",
+      "text": "Surface trends and risk areas to Operations and Finance leadership",
+      "source_span": "surfacing trends and risk areas to Operations and Finance leadership",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3179,
+        "end": 3247
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Surfacing trends and risk areas to leadership is an advising and presentation task.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "6a920e865092cb10-16",
+      "text": "4-7 years of experience in operations, financial/payroll reconciliation, or management consulting, with a track record of solving complex, ambiguous problems independently",
+      "source_span": "4-7 years of experience in operations, financial/payroll reconciliation, or management consulting, with a track record of solving complex, ambiguous problems independently",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3281,
+        "end": 3452
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-17",
+      "text": "Strong analytical skills",
+      "source_span": "Strong analytical skills",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3456,
+        "end": 3480
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-18",
+      "text": "Comfort working directly with financial and payroll data to identify discrepancies and root causes",
+      "source_span": "comfort working directly with financial and payroll data to identify discrepancies and root causes",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3485,
+        "end": 3583
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-19",
+      "text": "Demonstrated success designing or improving reconciliation, audit, or financial control processes",
+      "source_span": "Demonstrated success designing or improving reconciliation, audit, or financial control processes",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3587,
+        "end": 3684
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-20",
+      "text": "Strong judgment — able to make sound decisions on ambiguous or high-stakes cases without heavy oversight",
+      "source_span": "Strong judgment — able to make sound decisions on ambiguous or high-stakes cases without heavy oversight",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3688,
+        "end": 3792
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-21",
+      "text": "Experience partnering with Engineering to translate operational pain points into tooling or automation requirements",
+      "source_span": "Experience partnering with Engineering to translate operational pain points into tooling or automation requirements",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3796,
+        "end": 3911
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-22",
+      "text": "Bachelor’s degree required",
+      "source_span": "Bachelor’s degree required",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3915,
+        "end": 3941
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-23",
+      "text": "Ability and willingness to work onsite in our Austin, TX office",
+      "source_span": "Ability and willingness to work onsite in our Austin, TX office",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3945,
+        "end": 4008
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-24",
+      "text": "MBA or other advanced degree",
+      "source_span": "MBA or other advanced degree",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4059,
+        "end": 4087
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-25",
+      "text": "Background in management consulting (e.g. strategy or operations consulting) prior to moving into an Operations role",
+      "source_span": "Background in management consulting (e.g. strategy or operations consulting) prior to moving into an Operations role",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4091,
+        "end": 4207
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-26",
+      "text": "Experience with payroll, benefits, or fintech reconciliation systems",
+      "source_span": "Experience with payroll, benefits, or fintech reconciliation systems",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4211,
+        "end": 4279
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-27",
+      "text": "Comfort writing SQL queries or working directly with engineers to scope automation requirements",
+      "source_span": "Comfort writing SQL queries or working directly with engineers to scope automation requirements",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4283,
+        "end": 4378
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-28",
+      "text": "Prior experience in a high-growth startup environment",
+      "source_span": "Prior experience in a high-growth startup environment",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4382,
+        "end": 4435
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-29",
+      "text": "We look for people who like solving complex problems, use good judgment, and are comfortable working through ambiguity.",
+      "source_span": "We look for people who like solving complex problems, use good judgment, and are comfortable working through ambiguity.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 538,
+        "end": 657
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-30",
+      "text": "People here care deeply about our customers, take real responsibility for what gets built, and are driven by doing work that matters.",
+      "source_span": "People here care deeply about our customers, take real responsibility for what gets built, and are driven by doing work that matters.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 658,
+        "end": 791
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

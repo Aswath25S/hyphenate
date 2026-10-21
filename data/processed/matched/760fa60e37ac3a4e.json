@@ -1,0 +1,60 @@
+{
+  "posting_id": "760fa60e37ac3a4e",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "760fa60e37ac3a4e-01",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.93,
+      "rationale": "The duty’s core action is preparing and recording payroll journal entries, which matches journal entry preparation even though it mentions review.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "760fa60e37ac3a4e-02",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.95,
+      "rationale": "The duty’s core action is reconciling payroll-related balance-sheet accounts in the general ledger.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "760fa60e37ac3a4e-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The duty is about ASC 606 commission accounting and amortization/impairment of sales commissions, which is repetitive accounting work but not covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "760fa60e37ac3a4e-04",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.9,
+      "rationale": "The duty centers on accounting for internally developed software costs, which fits capitalized software development cost tracking under subledgers.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "760fa60e37ac3a4e-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The duty is about collaborating with external auditors, which is a human relationship/coordination function.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "760fa60e37ac3a4e-06",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "The duty describes broad process-improvement and automation initiatives without a specific finance-operation task to map.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

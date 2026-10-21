@@ -1,0 +1,258 @@
+{
+  "posting_id": "286e23d95e0724a0",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "286e23d95e0724a0-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Serving as the senior accounting leader is a leadership role rather than an automatable accounting task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.68,
+      "rationale": "Owning the accuracy and integrity of site financial results is a broad responsibility, not a specific process action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Partnering closely with site leadership is cross-functional relationship work done by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Leading plant accounting and close activities is management of the function rather than the underlying accounting task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Managing inventory is repetitive manufacturing accounting work with no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-06",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.86,
+      "rationale": "Managing fixed assets aligns with maintaining the fixed asset register and depreciation.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Managing capital projects is project accounting work not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-08",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.98,
+      "rationale": "Preparing reconciliations matches balance-sheet account reconciliation work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-09",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.98,
+      "rationale": "Preparing accruals matches the accrual-estimation capability, which still requires judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-10",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.84,
+      "rationale": "Preparing financial reporting aligns with building recurring management reports and financial statements.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Owning manufacturing and cost accounting is cost accounting work with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Managing standard costs is cost-accounting maintenance not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Managing labor and overhead is manufacturing cost accounting work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Managing work in process is manufacturing inventory accounting not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Managing inventory valuation is cost accounting work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-16",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.62,
+      "rationale": "Analyzing production and manufacturing variances is driver-style analysis using operational data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Establishing strong financial controls is designing the control framework, which requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.69,
+      "rationale": "Establishing disciplined processes across inventory is process-improvement work rather than a specific platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-19",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.69,
+      "rationale": "Establishing disciplined processes across production reporting is process-improvement work rather than a specific platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.69,
+      "rationale": "Establishing disciplined processes across purchasing is process-improvement work rather than a specific platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.69,
+      "rationale": "Establishing disciplined processes across receiving is process-improvement work rather than a specific platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.69,
+      "rationale": "Establishing disciplined processes across fixed assets is process-improvement work rather than a specific platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-23",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.69,
+      "rationale": "Establishing disciplined processes across capital expenditures is process-improvement work rather than a specific platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-24",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Establishing disciplined processes across other plant operations is too broad to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Partnering closely with other functions is cross-functional collaboration done by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-26",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.68,
+      "rationale": "Translating manufacturing activity into financial insights is analysis of operational drivers and results.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-27",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.64,
+      "rationale": "Building the accounting infrastructure for a manufacturing transition is a broad implementation project, not a specific covered workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "286e23d95e0724a0-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Leading and developing the site accounting team is people management and training work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

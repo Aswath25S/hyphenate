@@ -6,12 +6,12 @@
   "title": "Senior Tax Accountant",
   "role_family": "Tax",
   "seniority": "senior",
-  "n": 8,
+  "n": 35,
   "C": 0,
-  "A": 2,
+  "A": 0,
   "covered_share": 0,
-  "overlap": 0.25,
-  "weighted_overlap": 0.125,
+  "overlap": 0,
+  "weighted_overlap": 0,
   "thin": false,
   "salary_min": 135000,
   "salary_max": 155000,
@@ -19,14 +19,8 @@
   "salary_source": "posting_text",
   "savings": 0,
   "savings_reason": null,
-  "lead_product": "GL accounting",
-  "product_split": {
-    "GL accounting": {
-      "covered": 0,
-      "assisted": 2,
-      "weighted": 1
-    }
-  },
+  "lead_product": null,
+  "product_split": {},
   "erp": [],
   "tools": [],
   "posted_at": "2026-09-22T21:34:58.002+00:00",
@@ -34,7 +28,7 @@
   "locations": [
     "San Francisco, California"
   ],
-  "remote": "unknown",
+  "remote": "onsite",
   "excluded": null,
   "text": "WHO WE ARE\n\nNotion is the collaborative AI workspace where teams and agents think together https://www.youtube.com/watch?v=vkpYpWfEK5s. We're building one place where your knowledge, projects, meetings, and AI tools live side by side, so work is faster, clearer, and less fragmented. Millions of individuals, small teams, and large companies run their work on Notion.\n\n\n\nNotinos (our employees) are customer zero in bringing this future of work to life. We care about craft, building things that last, and the belief that great work is still fundamentally human. Our goal isn’t to ship the next feature. Each and every team of Notinos is working to set the standard for how humans work together in the AI era. From building a business’s system of record to making and managing AI agents to automating away the busy work, we care deeply about giving our customers more time for their life’s work.\n\n\n\n\nABOUT THE ROLE:\n\nNotion’s Tax team is growing, and we’re looking for a Senior Tax Accountant to support our global tax operations. In this role, you’ll run global indirect tax operations and strengthen the systems behind them. As Notion scales across products and jurisdictions, this role exists to make compliance, close, audits, and tax data more accurate, scalable, and audit-ready. You’ll own recurring sales and use tax, VAT/GST, business tax, registrations, notices, reconciliations, and related controls, while building exposure to income tax compliance and reporting. The work is hands-on and cross-functional: you’ll trace differences across billing, tax engines, filings, payments, and the general ledger with Accounting, Revenue, Billing, Product, Engineering, Data, and Customer Experience partners.\n\n \n\nThis role is based in San Francisco. We work from our offices on Mondays, Tuesdays and Thursdays (our Anchor Days) because we do our best thinking and building together in person. We’re looking for someone who’s excited to work alongside the team during those days. \n\n\n\n\nWHAT YOU'LL ACHIEVE:\n\n - Take ownership of recurring U.S. and global indirect-tax filings, calendars, data packages, notices, registrations, and close support—with accurate, review-ready work.\n\n - Establish a reliable reconciliation and exception workflow across billing, tax engines, filings, payments, and the general ledger, escalating issues clearly and early.\n\n - Use AI-enabled workflows and data tools to investigate variances, quality-check work papers, and improve documentation while preserving human review and controls.\n\n - Make tax operations more scalable and audit-ready by strengthening controls, process documentation, evidence, handoffs, audit support, and SOX walkthrough readiness.\n\n - Become a trusted partner to Accounting, Revenue, Billing, Product, Engineering, Data, and Customer Experience—and contribute to income tax compliance and reporting with guidance from experienced teammates.\n\n\n\n\nSKILLS YOU'LL NEED TO BRING: \n\n - Bachelor’s degree in Accounting, Finance, Economics, a related field, or equivalent practical experience.\n\n - At least 3 years of public accounting and/or industry tax experience, with a primary focus on indirect tax compliance and operations.\n\n - Hands-on experience with indirect tax compliance or operations, especially U.S. sales and use tax, VAT/GST, business taxes, or other non-income-based taxes; this is the foundation for owning Notion’s recurring global work.\n\n - Experience preparing accurate reconciliations, journal entries, filings, payments, and audit-ready work papers, with the ability to connect activity across source systems and the general ledger.\n\n - Strong operational judgment: you manage recurring deadlines, investigate exceptions, keep documentation organized, escalate issues promptly, and drive assigned work through completion.\n\n - Clear written and verbal communication, with a collaborative approach to working across Finance, Accounting, business teams, and external advisors.\n\n - Curiosity and learning agility, including willingness to build income-tax capability and demonstrated AI fluency—using AI to analyze data, investigate variances, improve documentation, perform quality checks, or automate repeatable workflows while validating outputs and protecting sensitive information.\n\n\n\n\nNotion is committed to providing highly competitive cash compensation, equity, and benefits. The compensation offered for this role will be based on multiple factors such as location, the role’s scope and complexity, and the candidate’s experience and expertise, and may vary from the range provided below. For roles based in San Francisco, the estimated base salary range for this role is $135,000 - $155,000 per year.\n\n\n\nBy clicking “Submit Application”, I understand and agree that Notion and its affiliates and subsidiaries will collect and process my information in accordance with Notion’s Global Recruiting Privacy Policy https://notion.notion.site/Notion-Global-Recruiting-Privacy-Policy-fc3eb4e829354a26a2bb6fd5e289b550. https://dev.notion.so/a3ce416456924276a59de91bca740028?pvs=21\n\n\n\n#LI-Onsite\n\n\n\n\nA NOTE ON AI\n\nYou don’t need deep AI expertise for every role, but we do expect every Notino to be intellectually curious, drawn to tinkering and discovery, and excited to use AI as a real collaborator in their work. For some roles, AI fluency is a core requirement — when that’s the case, we'll say so explicitly in the qualifications. People who thrive here don’t treat AI as a novelty. They use it to think better, and make their work easier for others to build on.\n\n\n\n\nEQUAL OPPORTUNITY & ACCOMMODATIONS\n\nWe hire talented people from a wide range of backgrounds. If you’re excited about this role but don’t meet every bullet, we still encourage you to apply. Notion is an equal opportunity employer and does not discriminate on the basis of any legally protected characteristic. Consistent with applicable law, we will consider for employment qualified applicants with arrest and conviction records. Notion provides reasonable accommodations during the application process; if you need one, please let your recruiter know.\n\n\n\nNotion is proud to be an equal opportunity employer. We do not discriminate in hiring or any employment decision based on race, color, religion, national origin, age, sex (including pregnancy, childbirth, or related medical conditions), marital status, ancestry, physical or mental disability, genetic information, veteran status, gender identity or expression, sexual orientation, or other applicable legally protected characteristic. Notion considers qualified applicants with criminal histories, consistent with applicable federal, state and local law. Notion is also committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If you need assistance or an accommodation due to a disability, please let your recruiter know.",
   "extra_salary_lines": [],
@@ -43,7 +37,7 @@
     "max": 155000,
     "period": "year",
     "currency": "USD",
-    "raw_text": "Notion is committed to providing highly competitive cash compensation, equity, and benefits. The compensation offered for this role will be based on multiple factors such as location, the role’s scope and complexity, and the candidate’s experience and expertise, and may vary from the range provided below. For roles based in San Francisco, the estimated base salary range for this role is $135,000 - $155,000 per year."
+    "raw_text": "For roles based in San Francisco, the estimated base salary range for this role is $135,000 - $155,000 per year."
   },
   "complexity": {
     "multi_entity": false,
@@ -52,20 +46,227 @@
     "high_volume": false,
     "entity_count": null
   },
-  "pain_phrases": [],
-  "fetched_at": "2026-10-21T03:26:41.917Z",
+  "pain_phrases": [
+    "recurring U.S. and global indirect-tax filings",
+    "reconciliation and exception workflow",
+    "investigate variances",
+    "audit-ready",
+    "SOX walkthrough readiness",
+    "trace differences across billing, tax engines, filings, payments, and the general ledger"
+  ],
+  "fetched_at": "2026-10-21T17:33:56.977Z",
   "ats": "ashby",
   "duties": [
     {
-      "duty_id": "706c77c425582d9c-h01",
-      "text": "Own recurring US and global indirect-tax filings",
-      "source_span": "Take ownership of recurring U.S. and global indirect-tax filings",
+      "duty_id": "706c77c425582d9c-01",
+      "text": "Support global tax operations",
+      "source_span": "support our global tax operations.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 996,
+        "end": 1030
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.74,
+      "rationale": "The phrase 'support global tax operations' is too broad to map to a specific covered action.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-02",
+      "text": "Own recurring sales and use tax",
+      "source_span": "you’ll own recurring sales and use tax",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1286,
+        "end": 1324
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Recurring sales and use tax compliance is repetitive tax filing work with no matching capability.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-03",
+      "text": "Own VAT/GST",
+      "source_span": "VAT/GST",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1326,
+        "end": 1333
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "VAT/GST compliance and filing is repetitive tax work that is not covered by the map.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-04",
+      "text": "Own business tax",
+      "source_span": "business tax",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1335,
+        "end": 1347
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Owning business tax compliance and reporting is tax-filing work with no matching capability.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-05",
+      "text": "Own registrations",
+      "source_span": "registrations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1349,
+        "end": 1362
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Managing registrations is administrative compliance work with no matching capability.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-06",
+      "text": "Own notices",
+      "source_span": "notices",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1364,
+        "end": 1371
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Handling tax notices is compliance correspondence work that does not match a covered capability.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-07",
+      "text": "Own reconciliations",
+      "source_span": "reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1373,
+        "end": 1388
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Reconciliations outside the listed GL/bank/intercompany capabilities are repetitive finance work with no match.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-08",
+      "text": "Own related controls",
+      "source_span": "related controls",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1394,
+        "end": 1410
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.87,
+      "rationale": "Maintaining related tax controls is control work but not one of the listed finance-ops capabilities.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-09",
+      "text": "Take ownership of recurring U.S. and global indirect-tax filings",
+      "source_span": "Take ownership of recurring U.S. and global indirect-tax filings, calendars, data packages, notices, registrations, and close support—with accurate, review-ready work.",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 2012,
-        "end": 2076
+        "end": 2179
       },
       "label": "gap_candidate",
       "model_label": "gap_candidate",
@@ -73,63 +274,217 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.99,
+      "rationale": "Recurring indirect-tax filings are compliance filings that are not covered by the map.",
       "gap_theme": {
-        "theme_id": "indirect_tax_1099",
-        "name": "Indirect tax and 1099 compliance",
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "706c77c425582d9c-h02",
-      "text": "Manage tax notices and registrations",
-      "source_span": "notices, registrations, and close support",
+      "duty_id": "706c77c425582d9c-10",
+      "text": "Manage calendars",
+      "source_span": "calendars",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 2104,
+        "start": 2078,
+        "end": 2087
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.8,
+      "rationale": "Managing calendars is administrative coordination work with no matching finance-ops capability.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-11",
+      "text": "Manage data packages",
+      "source_span": "data packages",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2089,
+        "end": 2102
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.78,
+      "rationale": "Managing data packages is data-prep coordination work that does not match a listed capability.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-12",
+      "text": "Manage notices",
+      "source_span": "notices",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1364,
+        "end": 1371
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Managing notices is compliance correspondence work with no matching capability.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-13",
+      "text": "Manage registrations",
+      "source_span": "registrations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1349,
+        "end": 1362
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Managing registrations is administrative compliance work with no matching capability.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-14",
+      "text": "Provide close support",
+      "source_span": "close support",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2132,
         "end": 2145
       },
-      "label": "gap_candidate",
-      "model_label": "gap_candidate",
+      "label": "unclear",
+      "model_label": "unclear",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.81,
+      "rationale": "'Provide close support' is too vague to map to a specific action or capability.",
       "gap_theme": {
-        "theme_id": "indirect_tax_1099",
-        "name": "Indirect tax and 1099 compliance",
-        "bucket": "possible_gap"
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
       }
     },
     {
-      "duty_id": "706c77c425582d9c-h03",
-      "text": "Run reconciliations across billing, tax engines, filings and the GL",
-      "source_span": "Establish a reliable reconciliation and exception workflow across billing, tax engines, filings, payments, and the general ledger",
+      "duty_id": "706c77c425582d9c-15",
+      "text": "Establish a reliable reconciliation workflow across billing, tax engines, filings, payments, and the general ledger",
+      "source_span": "a reliable reconciliation and exception workflow across billing, tax engines, filings, payments, and the general ledger",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 2184,
+        "start": 2194,
         "end": 2313
       },
-      "label": "assisted",
-      "model_label": "assisted",
+      "label": "human",
+      "model_label": "human",
       "adjusted": null,
-      "capability_id": "gl.account_recs",
-      "capability": "Balance-sheet account reconciliations",
-      "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "gap_theme": null
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.79,
+      "rationale": "Establishing a reconciliation workflow is process design and coordination rather than a direct system capability.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
     },
     {
-      "duty_id": "706c77c425582d9c-h04",
-      "text": "Investigate tax variances with AI tools",
+      "duty_id": "706c77c425582d9c-16",
+      "text": "Establish a reliable exception workflow across billing, tax engines, filings, payments, and the general ledger",
+      "source_span": "a reliable reconciliation and exception workflow across billing, tax engines, filings, payments, and the general ledger",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2194,
+        "end": 2313
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.77,
+      "rationale": "Establishing an exception workflow is process design work that requires human judgment and coordination.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-17",
+      "text": "Escalate issues clearly and early",
+      "source_span": "escalating issues clearly and early",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2315,
+        "end": 2350
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Escalating issues clearly and early is a human communication and coordination task.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-18",
+      "text": "Use AI-enabled workflows and data tools to investigate variances",
       "source_span": "Use AI-enabled workflows and data tools to investigate variances",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -139,29 +494,79 @@
         "end": 2420
       },
       "label": "unclear",
-      "model_label": "unclear",
-      "adjusted": null,
-      "capability_id": null,
-      "capability": null,
-      "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "model_label": "assisted",
+      "adjusted": "confidence 0.57 below 0.6",
+      "capability_id": "rep.adhoc_analysis",
+      "capability": "Answer finance questions traced to source entries",
+      "product": "Reporting",
+      "confidence": 0.57,
+      "rationale": "Investigating variances with data tools matches ad hoc analysis of finance questions traced to source data.",
       "gap_theme": {
-        "theme_id": "indirect_tax_1099",
-        "name": "Indirect tax and 1099 compliance",
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "706c77c425582d9c-h05",
-      "text": "Strengthen tax controls and documentation",
-      "source_span": "Make tax operations more scalable and audit-ready by strengthening controls, process documentation",
+      "duty_id": "706c77c425582d9c-19",
+      "text": "Use AI-enabled workflows and data tools to quality-check work papers",
+      "source_span": "quality-check work papers",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 2523,
-        "end": 2621
+        "start": 2422,
+        "end": 2447
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.7,
+      "rationale": "Quality-checking work papers is review work with no specific matching capability in the map.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-20",
+      "text": "Use AI-enabled workflows and data tools to improve documentation",
+      "source_span": "improve documentation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2453,
+        "end": 2474
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.74,
+      "rationale": "Improving documentation is a process-improvement task that is not directly covered.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-21",
+      "text": "Preserve human review and controls",
+      "source_span": "while preserving human review and controls",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2475,
+        "end": 2517
       },
       "label": "human",
       "model_label": "human",
@@ -169,45 +574,174 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.85,
+      "rationale": "Preserving human review and controls is governance and oversight work by nature.",
       "gap_theme": {
-        "theme_id": "indirect_tax_1099",
-        "name": "Indirect tax and 1099 compliance",
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "706c77c425582d9c-h06",
-      "text": "Support tax audits and SOX walkthroughs",
-      "source_span": "audit support, and SOX walkthrough readiness",
+      "duty_id": "706c77c425582d9c-22",
+      "text": "Strengthen controls",
+      "source_span": "strengthening controls",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2576,
+        "end": 2598
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.89,
+      "rationale": "Strengthening controls is control-framework judgment and oversight rather than a direct automated task.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-23",
+      "text": "Strengthen process documentation",
+      "source_span": "process documentation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2600,
+        "end": 2621
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.83,
+      "rationale": "Strengthening process documentation is a process-improvement task with no direct capability match.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-24",
+      "text": "Strengthen evidence",
+      "source_span": "evidence",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2623,
+        "end": 2631
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.86,
+      "rationale": "Strengthening evidence is documentation and evidence-management work that is not directly covered.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-25",
+      "text": "Strengthen handoffs",
+      "source_span": "handoffs",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2633,
+        "end": 2641
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Strengthening handoffs is cross-functional coordination and process improvement work.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-26",
+      "text": "Strengthen audit support",
+      "source_span": "audit support",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 2643,
-        "end": 2687
+        "end": 2656
       },
-      "label": "assisted",
-      "model_label": "assisted",
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
       "adjusted": null,
-      "capability_id": "gl.audit_support",
-      "capability": "Audit trail and support for each entry",
-      "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "gap_theme": null
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.69,
+      "rationale": "Strengthening audit support is audit-prep process work but not the direct act of preparing support.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
     },
     {
-      "duty_id": "706c77c425582d9c-h07",
-      "text": "Partner with Accounting, Revenue, Billing and Product",
-      "source_span": "Become a trusted partner to Accounting, Revenue, Billing, Product, Engineering, Data, and Customer Experience",
+      "duty_id": "706c77c425582d9c-27",
+      "text": "Build SOX walkthrough readiness",
+      "source_span": "SOX walkthrough readiness",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 2693,
-        "end": 2802
+        "start": 2662,
+        "end": 2687
+      },
+      "label": "unclear",
+      "model_label": "assisted",
+      "adjusted": "confidence 0.56 below 0.6",
+      "capability_id": "gl.controls",
+      "capability": "Monitor manual entries and close controls",
+      "product": "GL accounting",
+      "confidence": 0.56,
+      "rationale": "Building SOX walkthrough readiness aligns with maintaining and testing internal controls for SOX.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-28",
+      "text": "Partner with Accounting",
+      "source_span": "Accounting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1620,
+        "end": 1630
       },
       "label": "human",
       "model_label": "human",
@@ -215,16 +749,166 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Partnering with Accounting is cross-team collaboration and advisory work by nature.",
       "gap_theme": {
-        "theme_id": "cross_functional",
-        "name": "Cross-functional partnering",
-        "bucket": "human_work"
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "706c77c425582d9c-h08",
+      "duty_id": "706c77c425582d9c-29",
+      "text": "Partner with Revenue",
+      "source_span": "Revenue",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1632,
+        "end": 1639
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Revenue is cross-functional collaboration and advisory work by nature.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-30",
+      "text": "Partner with Billing",
+      "source_span": "Billing",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1641,
+        "end": 1648
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Billing is cross-functional collaboration and advisory work by nature.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-31",
+      "text": "Partner with Product",
+      "source_span": "Product",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1650,
+        "end": 1657
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Product is cross-functional collaboration and advisory work by nature.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-32",
+      "text": "Partner with Engineering",
+      "source_span": "Engineering",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1659,
+        "end": 1670
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Engineering is cross-functional collaboration and advisory work by nature.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-33",
+      "text": "Partner with Data",
+      "source_span": "Data",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1672,
+        "end": 1676
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Data is cross-functional collaboration and advisory work by nature.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-34",
+      "text": "Partner with Customer Experience",
+      "source_span": "Customer Experience",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1682,
+        "end": 1701
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Customer Experience is cross-functional collaboration and advisory work by nature.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "706c77c425582d9c-35",
       "text": "Contribute to income tax compliance and reporting",
       "source_span": "contribute to income tax compliance and reporting",
       "is_boilerplate": false,
@@ -240,13 +924,349 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.94,
+      "rationale": "Income tax compliance and reporting is repetitive tax compliance work with no matching capability.",
       "gap_theme": {
-        "theme_id": "indirect_tax_1099",
-        "name": "Indirect tax and 1099 compliance",
-        "bucket": "possible_gap"
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
       }
+    },
+    {
+      "duty_id": "706c77c425582d9c-36",
+      "text": "Bachelor’s degree in Accounting, Finance, Economics, a related field, or equivalent practical experience.",
+      "source_span": "Bachelor’s degree in Accounting, Finance, Economics, a related field, or equivalent practical experience.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2937,
+        "end": 3042
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-37",
+      "text": "At least 3 years of public accounting and/or industry tax experience, with a primary focus on indirect tax compliance and operations.",
+      "source_span": "At least 3 years of public accounting and/or industry tax experience, with a primary focus on indirect tax compliance and operations.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3047,
+        "end": 3180
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-38",
+      "text": "Hands-on experience with indirect tax compliance or operations, especially U.S. sales and use tax, VAT/GST, business taxes, or other non-income-based taxes; this is the foundation for owning Notion’s recurring global work.",
+      "source_span": "Hands-on experience with indirect tax compliance or operations, especially U.S. sales and use tax, VAT/GST, business taxes, or other non-income-based taxes; this is the foundation for owning Notion’s recurring global work.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3185,
+        "end": 3407
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-39",
+      "text": "Experience preparing accurate reconciliations",
+      "source_span": "Experience preparing accurate reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3412,
+        "end": 3457
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-40",
+      "text": "Experience preparing journal entries",
+      "source_span": "journal entries",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3459,
+        "end": 3474
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-41",
+      "text": "Experience preparing filings",
+      "source_span": "filings",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1573,
+        "end": 1580
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-42",
+      "text": "Experience preparing payments",
+      "source_span": "payments",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1582,
+        "end": 1590
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-43",
+      "text": "Experience preparing audit-ready work papers",
+      "source_span": "audit-ready work papers",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3499,
+        "end": 3522
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-44",
+      "text": "Strong operational judgment",
+      "source_span": "Strong operational judgment",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3611,
+        "end": 3638
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-45",
+      "text": "Clear written and verbal communication",
+      "source_span": "Clear written and verbal communication",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3800,
+        "end": 3838
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-46",
+      "text": "Curiosity and learning agility",
+      "source_span": "Curiosity and learning agility",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3952,
+        "end": 3982
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-47",
+      "text": "Willingness to build income-tax capability",
+      "source_span": "willingness to build income-tax capability",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3994,
+        "end": 4036
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-48",
+      "text": "Demonstrated AI fluency",
+      "source_span": "demonstrated AI fluency—using AI to analyze data, investigate variances, improve documentation, perform quality checks, or automate repeatable workflows while validating outputs and protecting sensitive information.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4041,
+        "end": 4256
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-49",
+      "text": "Notion is the collaborative AI workspace where teams and agents think together https://www.youtube.com/watch?v=vkpYpWfEK5s.",
+      "source_span": "Notion is the collaborative AI workspace where teams and agents think together https://www.youtube.com/watch?v=vkpYpWfEK5s.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 12,
+        "end": 135
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-50",
+      "text": "Notinos (our employees) are customer zero in bringing this future of work to life.",
+      "source_span": "Notinos (our employees) are customer zero in bringing this future of work to life.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 371,
+        "end": 453
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-51",
+      "text": "We care about craft, building things that last, and the belief that great work is still fundamentally human.",
+      "source_span": "We care about craft, building things that last, and the belief that great work is still fundamentally human.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 454,
+        "end": 562
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
     }
   ]
 }

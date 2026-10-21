@@ -1,0 +1,87 @@
+{
+  "posting_id": "be9a04b3fe24c1ad",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "be9a04b3fe24c1ad-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Owning revenue and opex models is FP&A budgeting/forecasting work, which is not covered by the map and is explicitly called out as a gap example.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Developing AI-powered workflows is too vague and sounds like a technical project rather than a specific finance-operation capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-03",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Developing automated analyses is nonspecific and does not clearly map to a listed finance workflow capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Creating intelligence systems is a broad systems-building project, not a defined finance-operations task in the coverage map.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Assessing and defining strategic priorities is a judgment-heavy strategic decision-making task rather than an automatable finance workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Driving influence toward high-ROI initiatives is cross-functional strategic advisory work that depends on human judgment and persuasion.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Delivering insights and recommendations for tactics, roadmaps, and board/investor materials is advisory and presentation work, not a covered automated capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Collaborating with Sales, Product, Finance, and Corporate Development is cross-functional partnering work done by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Contributing to long-range, annual, and quarterly planning is FP&A planning work that matches the gap example of budgeting and forecasting models.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "posting_id": "d82710b3aa83a05b",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "d82710b3aa83a05b-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Owning pieces of a revenue forecast is forecasting model work, which is a gap candidate because revenue forecasting is not in the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82710b3aa83a05b-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Building and refining revenue forecast models is a budgeting/forecasting model task that is not covered by the platform.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82710b3aa83a05b-03",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.73,
+      "rationale": "Refining forecast processes is a vague process-improvement duty that does not map cleanly to a specific covered capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82710b3aa83a05b-04",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.78,
+      "rationale": "Explaining what is driving the forecast matches driver analysis using source data, which is an assisted reporting capability.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82710b3aa83a05b-05",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.82,
+      "rationale": "Analyzing internal data fits ad hoc financial analysis and answering finance questions from source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82710b3aa83a05b-06",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Analyzing external market and macro factors is too broad and not tied to a covered finance-operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82710b3aa83a05b-07",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Making the process more automated and scalable is a generic process-improvement/project duty without a specific mapped capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82710b3aa83a05b-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering day-to-day with the GTM organization is cross-functional relationship work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82710b3aa83a05b-09",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.74,
+      "rationale": "Turning forecasting and analytics work into insights matches ad hoc analysis and synthesis of finance questions.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82710b3aa83a05b-10",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.89,
+      "rationale": "Owning recurring KPI and variance reporting cadences aligns with recurring management reporting for stakeholders.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82710b3aa83a05b-11",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.67,
+      "rationale": "Surfacing risks and opportunities early is analysis and insight generation from finance data, which best fits ad hoc analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82710b3aa83a05b-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Helping recruit and grow a finance team is hiring and team development, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

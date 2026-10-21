@@ -1,0 +1,87 @@
+{
+  "posting_id": "3e29790f2f7f1526",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "3e29790f2f7f1526-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "The core action is building technology budgets, forecasts, and long-range plans, which is FP&A planning work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e29790f2f7f1526-07",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.74,
+      "rationale": "The core action is tracking and reporting technology KPIs and financial metrics, which fits management reporting even though forecast elements are adjacent.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e29790f2f7f1526-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "The duty centers on partnering with accounting and operations teams on close support, which is collaborative work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e29790f2f7f1526-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The core action is providing insights and commentary to finance leadership and stakeholders, which is advisory and communicative work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e29790f2f7f1526-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Although variance analysis fits reporting, the duty also includes presenting findings to leadership, which makes the core action human-led communication.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e29790f2f7f1526-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The core action is developing financial models and scenario analyses for strategic technology decisions, which is FP&A modeling not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e29790f2f7f1526-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Challenging assumptions and providing an independent perspective on strategy is judgment and advisory work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e29790f2f7f1526-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "The core action is supporting LRP and budget planning by translating growth targets into technology investment needs, which is planning/modeling outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e29790f2f7f1526-14",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "The duty is too broad and generic, describing ad hoc projects and strategic initiatives without a specific actionable finance-operation task.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

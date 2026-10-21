@@ -1,0 +1,213 @@
+{
+  "posting_id": "1d2f40e016c4b1c6",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "1d2f40e016c4b1c6-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Serving as a finance business partner for R&D is partnering with and advising other teams, which is inherently human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Owning monthly close implies managing the close process end to end, which goes beyond the close checklist tasks the platform performs.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Owning forecasting is FP&A planning work and does not match the platform's cash forecast capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Annual planning is long-range budgeting and planning, which is explicitly outside the platform's coverage.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Building a framework to track API usage and inference costs is custom FP&A modeling and cost tracking, not a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Building a framework for GPU and cloud compute costs is custom infrastructure cost modeling with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Building a framework for AI tooling and software licenses is spend tracking/modeling that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Building a framework for AI headcount and contracted services is FP&A tracking/modeling, which is not explicitly covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Developing ROI methodologies and scorecards is judgment-heavy framework design, not a covered operational task.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-10",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.77,
+      "rationale": "Monitoring cost-per-output is recurring KPI reporting, which fits building management reports and KPIs.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-11",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.77,
+      "rationale": "Monitoring cost as a percentage of revenue is recurring KPI reporting, which fits management reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-12",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.74,
+      "rationale": "Surfacing trends and anomalies is finance analysis work that aligns with answering ad hoc finance questions.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Engineering, Product, and Data Science is cross-functional collaboration, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with the FinOps team to optimize cloud costs is collaboration and advising other teams, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Collaborating on cloud cost allocation is a cross-team working relationship, not an end-to-end platform task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Collaborating on commitment-based savings strategies is strategic cross-functional work rather than a listed automated capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Collaborating on efficiency initiatives is advisory project work with other teams, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Tracking and forecasting R&D investments is FP&A budgeting/forecasting work that is outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-19",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.99,
+      "rationale": "Performing variance analysis matches flux analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Delivering recommendations on spend to organizational teams is advising other teams, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Presenting financial results to executives is presenting to leadership, which is explicitly human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Presenting strategic insights to executives is a presentation and advisory activity, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-23",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Identifying and driving process improvements is a broad process-improvement duty that does not map cleanly to a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

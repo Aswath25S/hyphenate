@@ -1,0 +1,851 @@
+{
+  "posting_id": "29a1ba1744eeef27",
+  "company": "Blend",
+  "slug": "blend",
+  "domain": "blend.com",
+  "title": "Senior Manager, Technical Accounting",
+  "role_family": "Reporting_FPA",
+  "seniority": "manager",
+  "n": 19,
+  "C": 0,
+  "A": 0,
+  "covered_share": 0,
+  "overlap": 0,
+  "weighted_overlap": 0,
+  "thin": false,
+  "salary_min": 117000,
+  "salary_max": 137000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 0,
+  "savings_reason": null,
+  "lead_product": null,
+  "product_split": {},
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [],
+  "posted_at": "2026-10-08T10:34:00-04:00",
+  "source_url": "https://job-boards.greenhouse.io/blend/jobs/6219753004",
+  "locations": [
+    "United States"
+  ],
+  "remote": "unknown",
+  "excluded": null,
+  "text": "Blend is a diverse team of problem solvers who believe that the world’s financial resources should be more accessible. Our cloud banking platform is used by Wells Fargo, U.S. Bank, and over 330 other financial services firms to acquire more customers, increase productivity, and deliver end-to-end digital experiences. Our software enables our customers to process an average of more than $5 billion in loans per day, making it possible for consumers to reach their financial goals faster and lead better lives. Come do work that matters.\n\nBlend is seeking a Senior Manager, Technical Accounting to lead our Technical Accounting function in our next phase of growth. This is a high-profile position that will play a critical role in addressing a wide variety of complex technical accounting matters. You will collaborate closely with stakeholders throughout the Company to ensure the successful execution of key initiatives within the Finance organization.\n\nHow You’ll Contribute:\n\n• Lead technical accounting research and provide technical accounting guidance for complex and emerging accounting issues (e.g., consolidations, investments, internally developed software, revenue recognition, business combinations, leases, stock-based compensation, impairments, debt / equity instruments, earnings per share). Specific responsibilities will include:\n\n• Research and conclude on technical accounting matters and document conclusions in formal accounting position papers.\n\n• Serve as a liaison with the external auditors to ensure they concur with our accounting positions.\n\n• Design, implementation, and operate SOX 404 controls over assigned technical accounting areas.\n\n• Stay current with FASB and SEC initiatives, tracking proposed changes and new accounting standards and determining the financial impact.\n\n• Be a trusted business partner and advisor to various stakeholders within Accounting, Finance, Legal, and other cross-functional teams.\n\n• Build technical accounting capability across the finance organization through training and scalable frameworks so routine judgments are made correctly at source.\n\n• Lead monthly, quarterly and year-end close process for technical accounting matters, including review of journal entries, reconciliations, and SEC disclosures and support, with delegation of routine items to team members.\n\n• Take a leadership role in special projects and workflow process improvements, including the implementation of AI initiatives.\n\nRequired Qualifications:\n\n• Bachelor’s degree in Accounting or Finance\n\n• Active CPA\n\n• 10+ years of progressive experience with concentration on technical accounting; strong technical expertise in multiple facets of US GAAP and capability to conduct independent research\n\n• Prior public accounting experience required, Big 4 preferred\n\n• Experience with ERP systems (NetSuite preferred)\n\n• A track record of process automation, with a passion for applying AI to accounting workflows.\n\n• Exceptional communication and interpersonal skills to collaborate with internal and external stakeholders\n\nAt Blend, we are committed to offering a competitive compensation package.\n\nTo comply with local legislation, as well as to provide greater transparency to candidates, we share base pay ranges on all job postings regardless of desired hiring location. Final base pay offer amounts will vary depending on multiple factors, including but not limited to function, level, geographic location, job related knowledge, skills, and experience. Beyond base pay, Blends benefits and perks are described below.\n\nCompensation:\n\n• Base Salary Range: $117,000 to $137,000 (This applies to full time hires. Final offer determined by multiple factors, including but not limited to function, level, geographic location, job related knowledge, skills, and experience.)\n\n• Bonus: Eligibility is contingent upon both company performance against established goals and achievement of individual performance objectives.\n\n• Equity: Meaningful Restricted Stock Units in public company stock (NYSE: BLND) so you share in Blend’s long-term growth and success.\n\nOur Benefits at a Glance\n\nWe offer a comprehensive and competitive benefits package designed to support your health and work-life balance.\n\nHealth & Wellbeing\n\n• We offer medical, dental, and vision benefits, with a generous employer contribution that helps keep your medical insurance costs low.\n\n• Company-paid life, short-term, and long-term disability coverage\n\n• Generous PTO, holidays, and maternity/parental leave\n\n• Employee Assistance Program (EAP): mental health, legal, childcare & eldercare, financial planning, college search, and more\n\n• Voluntary benefits: accident, critical illness, hospital indemnity, identity theft, and legal insurance\n\n• Monthly wellness stipend for fitness, mental health, and well-being\n\n• Additional perks: Milk Stork, pet insurance, and paid volunteer time off\n\nGrowth & Future\n\n• 401(k) retirement plan with company match\n\n• Pre-tax savings: healthcare & dependent care FSAs, Limited Purpose FSA, and HSA",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 117000,
+    "max": 137000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Base Salary Range: $117,000 to $137,000 (This applies to full time hires. Final offer determined by multiple factors, including but not limited to function, level, geographic location, job related knowledge, skills, and experience.)"
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "complex and emerging accounting issues",
+    "scalable frameworks",
+    "routine judgments are made correctly at source",
+    "workflow process improvements"
+  ],
+  "fetched_at": "2026-10-21T17:34:30.197Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "29a1ba1744eeef27-01",
+      "text": "Blend is a diverse team of problem solvers who believe that the world’s financial resources should be more accessible.",
+      "source_span": "Blend is a diverse team of problem solvers who believe that the world’s financial resources should be more accessible.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 0,
+        "end": 118
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-02",
+      "text": "Come do work that matters.",
+      "source_span": "Come do work that matters.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 512,
+        "end": 538
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-03",
+      "text": "Lead technical accounting research",
+      "source_span": "Lead technical accounting research",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 984,
+        "end": 1018
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Leading technical accounting research is advisory judgment work rather than an automated finance-operations capability.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-04",
+      "text": "Provide technical accounting guidance for complex and emerging accounting issues (e.g., consolidations, investments, internally developed software, revenue recognition, business combinations, leases, stock-based compensation, impairments, debt / equity instruments, earnings per share).",
+      "source_span": "provide technical accounting guidance for complex and emerging accounting issues (e.g., consolidations, investments, internally developed software, revenue recognition, business combinations, leases, stock-based compensation, impairments, debt / equity instruments, earnings per share).",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1023,
+        "end": 1309
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Providing guidance on complex accounting issues requires technical judgment and policy interpretation, which is human work.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-05",
+      "text": "Research and conclude on technical accounting matters",
+      "source_span": "Research and conclude on technical accounting matters",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1353,
+        "end": 1406
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Researching and concluding on technical accounting matters is judgment-based analysis, not a platform-executable routine.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-06",
+      "text": "Document conclusions in formal accounting position papers",
+      "source_span": "document conclusions in formal accounting position papers",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1411,
+        "end": 1468
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.82,
+      "rationale": "Drafting formal accounting position papers on technical matters is a judgment-heavy accounting memo task outside the listed capabilities.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-07",
+      "text": "Serve as a liaison with the external auditors",
+      "source_span": "Serve as a liaison with the external auditors",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1473,
+        "end": 1518
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Serving as a liaison with external auditors is a relationship-management duty explicitly classified as human.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-08",
+      "text": "Design, implementation, and operate SOX 404 controls over assigned technical accounting areas.",
+      "source_span": "Design, implementation, and operate SOX 404 controls over assigned technical accounting areas.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1575,
+        "end": 1669
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Designing SOX 404 controls is control-framework judgment, even though operating controls is automation-friendly.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-09",
+      "text": "Stay current with FASB and SEC initiatives",
+      "source_span": "Stay current with FASB and SEC initiatives",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1673,
+        "end": 1715
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Staying current with FASB and SEC initiatives is professional monitoring and interpretation work, not a covered operational workflow.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-10",
+      "text": "Tracking proposed changes and new accounting standards",
+      "source_span": "tracking proposed changes and new accounting standards",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1717,
+        "end": 1771
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.91,
+      "rationale": "Tracking proposed accounting standard changes is an interpretive research task rather than a finance-ops automation capability.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-11",
+      "text": "Determining the financial impact",
+      "source_span": "determining the financial impact",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1776,
+        "end": 1808
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.87,
+      "rationale": "Determining the financial impact of new standards requires accounting judgment and analysis, which is human work.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-12",
+      "text": "Be a trusted business partner and advisor to various stakeholders within Accounting, Finance, Legal, and other cross-functional teams.",
+      "source_span": "Be a trusted business partner and advisor to various stakeholders within Accounting, Finance, Legal, and other cross-functional teams.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1813,
+        "end": 1947
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Being a trusted business partner and advisor to stakeholders is advisory relationship work by nature.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-13",
+      "text": "Build technical accounting capability across the finance organization",
+      "source_span": "Build technical accounting capability across the finance organization",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1951,
+        "end": 2020
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Building technical accounting capability across the organization is a training and enablement responsibility, not a platform workflow.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-14",
+      "text": "Training and scalable frameworks so routine judgments are made correctly at source",
+      "source_span": "training and scalable frameworks so routine judgments are made correctly at source",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2029,
+        "end": 2111
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Training staff and creating scalable judgment frameworks is people-management and enablement work.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-15",
+      "text": "Lead monthly, quarterly and year-end close process for technical accounting matters",
+      "source_span": "Lead monthly, quarterly and year-end close process for technical accounting matters",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2116,
+        "end": 2199
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Leading the close process is management of people and process, not just running close checklist tasks.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-16",
+      "text": "Review journal entries",
+      "source_span": "review of journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2211,
+        "end": 2236
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Reviewing journal entries is human review, which is explicitly excluded from the journal-entry capability.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-17",
+      "text": "Review reconciliations",
+      "source_span": "reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2238,
+        "end": 2253
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Reviewing reconciliations is human review of work product, not the reconciliation workflow itself.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-18",
+      "text": "Review SEC disclosures and support",
+      "source_span": "SEC disclosures and support",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2259,
+        "end": 2286
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Reviewing SEC disclosures and support involves judgment and regulatory oversight outside the listed automation capabilities.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-19",
+      "text": "Delegate routine items to team members",
+      "source_span": "delegation of routine items to team members",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2293,
+        "end": 2336
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Delegating routine items to team members is a people-management duty rather than a finance-operations task.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-20",
+      "text": "Special projects",
+      "source_span": "special projects",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 2367,
+        "end": 2383
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-21",
+      "text": "Workflow process improvements",
+      "source_span": "workflow process improvements",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2388,
+        "end": 2417
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.55,
+      "rationale": "Workflow process improvements is too vague to map to a specific finance-operations capability.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-22",
+      "text": "Implement AI initiatives",
+      "source_span": "the implementation of AI initiatives",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2429,
+        "end": 2465
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.51,
+      "rationale": "Implement AI initiatives is a broad project statement that does not specify a matching finance-operations workflow.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-23",
+      "text": "Bachelor's degree in Accounting or Finance",
+      "source_span": "Bachelor’s degree in Accounting or Finance",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2496,
+        "end": 2538
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-24",
+      "text": "Active CPA",
+      "source_span": "Active CPA",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2542,
+        "end": 2552
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-25",
+      "text": "10+ years of progressive experience with concentration on technical accounting",
+      "source_span": "10+ years of progressive experience with concentration on technical accounting",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2556,
+        "end": 2634
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-26",
+      "text": "Strong technical expertise in multiple facets of US GAAP",
+      "source_span": "strong technical expertise in multiple facets of US GAAP",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2636,
+        "end": 2692
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-27",
+      "text": "Capability to conduct independent research",
+      "source_span": "capability to conduct independent research",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2697,
+        "end": 2739
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-28",
+      "text": "Prior public accounting experience required",
+      "source_span": "Prior public accounting experience required",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2743,
+        "end": 2786
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-29",
+      "text": "Big 4 preferred",
+      "source_span": "Big 4 preferred",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2788,
+        "end": 2803
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-30",
+      "text": "Experience with ERP systems",
+      "source_span": "Experience with ERP systems (NetSuite preferred)",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2807,
+        "end": 2855
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-31",
+      "text": "NetSuite preferred",
+      "source_span": "NetSuite preferred",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2836,
+        "end": 2854
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-32",
+      "text": "A track record of process automation",
+      "source_span": "A track record of process automation",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2859,
+        "end": 2895
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-33",
+      "text": "A passion for applying AI to accounting workflows",
+      "source_span": "a passion for applying AI to accounting workflows",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2902,
+        "end": 2951
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-34",
+      "text": "Exceptional communication and interpersonal skills to collaborate with internal and external stakeholders",
+      "source_span": "Exceptional communication and interpersonal skills to collaborate with internal and external stakeholders",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2956,
+        "end": 3061
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

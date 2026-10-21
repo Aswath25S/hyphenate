@@ -1,0 +1,150 @@
+{
+  "posting_id": "e752a908c6766797",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "e752a908c6766797-01",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.89,
+      "rationale": "The duty is performing month-end close work, which matches running the close checklist and close procedures.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e752a908c6766797-02",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.96,
+      "rationale": "The duty is preparing ongoing journal entries, which matches preparing and posting journal entries.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e752a908c6766797-03",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.97,
+      "rationale": "The duty is preparing recurring accruals, which matches estimating and recording expense accruals.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e752a908c6766797-04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.54,
+      "rationale": "The duty only says maintaining weekly and monthly schedules, which is too vague to map to a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e752a908c6766797-05",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.98,
+      "rationale": "The duty is performing balance sheet account reconciliations, which directly matches balance-sheet account reconciliations.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e752a908c6766797-06",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.72,
+      "rationale": "The duty is investigating reporting discrepancies and anomalies, which aligns with variance analysis and explaining fluctuations.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e752a908c6766797-07",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.38,
+      "rationale": "The duty only says communicating issues timely, which is too generic to identify a covered finance-operation action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e752a908c6766797-08",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.86,
+      "rationale": "The duty is reviewing invoices, which fits reviewing vendor bills for proper GL coding and accounting.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e752a908c6766797-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The duty is reviewing expense reports, which is repetitive finance work but has no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e752a908c6766797-10",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.79,
+      "rationale": "The duty is reviewing capital expenditures for proper coding and accounting treatment, which is part of coding vendor bills and invoices.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e752a908c6766797-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "The duty is liaising with business partners about accrual accounting, which is cross-functional collaboration and judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e752a908c6766797-12",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.95,
+      "rationale": "The duty is preparing support for the year-end financial statement audit, which matches audit schedules and PBC support.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e752a908c6766797-13",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.79,
+      "rationale": "The duty is preparing support for statutory audits, which is audit-trail and documentation support even though the audit type is broader.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e752a908c6766797-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "The duty is supporting the planning and budgeting team, which is partnering with another team rather than performing an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e752a908c6766797-15",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.9,
+      "rationale": "The duty is compiling ad-hoc reports, which matches answering ad hoc finance questions and building requested analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e752a908c6766797-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.56,
+      "rationale": "The duty only says compiling schedules, which is too vague without knowing whether they are close, audit, or reconciliation schedules.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

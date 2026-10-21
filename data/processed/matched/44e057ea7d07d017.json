@@ -1,0 +1,312 @@
+{
+  "posting_id": "44e057ea7d07d017",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "44e057ea7d07d017-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The action is serving as the senior leader for the site accounting function, which is people leadership rather than a platform task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.61,
+      "rationale": "The duty states ownership of result integrity without a concrete operational action, so it is too broad to classify.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with plant leadership is advisory and relationship work, which is human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Leading manufacturing-cost accounting is cost accounting work that is not covered by the platform map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Leading close activities for inventory is oversight rather than direct inventory accounting work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Leading close activities for fixed assets is oversight rather than simply maintaining subledgers.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Leading close activities for capital projects is project-accounting work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Leading reconciliations as part of close is oversight rather than direct account reconciliation work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Leading accrual close activities is oversight of accrual work rather than the accrual preparation itself.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Leading financial reporting close activities is management of the reporting process, not a report-building task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Manufacturing and cost accounting is a cost accounting function outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Standard cost ownership is inventory and cost accounting work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Labor and overhead costing is manufacturing cost accounting, which is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Work-in-process accounting is inventory and cost accounting work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Inventory valuation is cost accounting work that the map explicitly treats as a gap.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Analyzing production variances is manufacturing variance analysis with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Analyzing manufacturing variances is cost and variance accounting not covered by the platform.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Establishing controls over inventory is designing a control framework, which is human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Establishing controls over production reporting is control design work rather than monitoring existing controls.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Establishing controls over purchasing is control design and policy work, which is human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Establishing controls over receiving is control framework design, not a platform-run control.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Establishing controls over fixed assets is control design work rather than subledger maintenance.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Establishing controls over capital expenditures is policy and control design, which is human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Establishing controls over other plant operations is broad control design work and too human-driven to automate.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering closely with Operations is cross-functional advising and relationship work, which is human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering closely with Engineering is cross-functional relationship work, not an operational finance task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering closely with Supply Chain is advisory coordination with another team, which is human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering closely with FP&A is cross-functional collaboration, which is human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering closely with Corporate Accounting is relationship and advisory work, not a platform task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-30",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.73,
+      "rationale": "Translating manufacturing activity into financial insights is analysis that explains source-data-driven changes, fitting driver analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-31",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Improving business decisions is an outcome, not a specific finance operation, so it is too vague to classify.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-32",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Building and strengthening accounting infrastructure is a strategic process-improvement project with no exact capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-33",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Leading the site accounting team is people management, which is human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "44e057ea7d07d017-34",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Developing the site accounting team is training and talent development, which is human.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

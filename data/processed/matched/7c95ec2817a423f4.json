@@ -1,0 +1,276 @@
+{
+  "posting_id": "7c95ec2817a423f4",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "7c95ec2817a423f4-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Building forecasting and budgeting models is FP&A planning work with no matching platform capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Maintaining long-range planning and budgeting models is FP&A model upkeep, which is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Scaling forecasting and budgeting models is planning-model work that does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-04",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.66,
+      "rationale": "Analyzing data trends to develop business insights fits ad hoc financial analysis and response work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Delivering actionable recommendations to leadership is advisory work that requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Program Management and Aircraft Ops is cross-functional collaboration, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with other teams on spend trends is a relationship and advisory function, not platform execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with teams on headcount planning is collaborative planning work requiring human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-09",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.89,
+      "rationale": "Developing recurring KPI reporting cadences matches building management reports and recurring reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-10",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.86,
+      "rationale": "Developing KPI dashboards is recurring management reporting and KPI presentation work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-11",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.66,
+      "rationale": "Participating in the month-end close process is too vague to map to a specific close task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-12",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.66,
+      "rationale": "Participating in the quarter-end close process is too vague to determine a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-13",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.98,
+      "rationale": "Performing variance analysis matches flux analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-14",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.91,
+      "rationale": "Preparing executive reporting matches building management reports and board-deck style reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Supporting financial operational planning cycles is FP&A planning work with no listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Assisting with business reviews is a presentation and collaboration activity that is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Supporting investment decision-making is advisory decision support that requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Supporting data transformation initiatives is too broad to map to a specific finance operation capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Supporting basic modeling efforts is modeling work, but not one of the listed covered or assisted capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Driving continuous process improvement is a broad improvement initiative without a specific automatable finance action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Identifying automation opportunities is a strategic improvement activity rather than a defined platform task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Identifying efficiency opportunities is broad process-improvement work without a matching capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with inventory and supply chain teams is cross-functional collaboration, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with inventory and supply chain teams on usage is collaborative work rather than platform automation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with inventory and supply chain teams on cost trends is a cross-functional advisory activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-26",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Monitoring actuals versus plan is budget-versus-actual analysis, which is an FP&A task not listed in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-27",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Flagging risks and opportunities is too vague to determine a specific finance-operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-28",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Supporting EAC updates is project forecasting and planning work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Ensuring alignment through regular operational reviews is a human review and partnership activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7c95ec2817a423f4-30",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.73,
+      "rationale": "Ensuring alignment through ad hoc analysis matches ad hoc financial analysis work.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

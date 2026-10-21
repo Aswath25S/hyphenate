@@ -1,0 +1,627 @@
+{
+  "posting_id": "a3d8e0f261d05ea3",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "a3d8e0f261d05ea3-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Building a high-performing FP&A team is managing and developing staff, which is a human leadership duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Leading an FP&A team is people management rather than an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Developing team members is training and coaching staff, which is inherently human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Creating a culture of strategic thinking is leadership and organizational development, not a platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Creating a culture of operational excellence is a management and change-leadership responsibility.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Creating a culture of accountability is setting expectations and leading people, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Creating a culture of continuous improvement is organizational leadership, not a finance operations capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Establishing scalable FP&A practices is process design and standard-setting, which requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Establishing scalable FP&A processes is redesigning operating procedures, which is not a covered automation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Establishing FP&A standards is setting policy and governance, which is human-led work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Enabling the team to deliver accurate insights is a leadership and oversight responsibility.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Enabling the team to deliver meaningful business partnership is about coaching and cross-functional leadership.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Hiring top talent is a human recruiting activity, not a finance operations workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Developing top talent is coaching and performance management, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Retaining top talent is people management and leadership, not an automatable finance task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Strengthening capabilities for a growing business is an organizational leadership duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Serving as a strategic advisor to the President is executive advising, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-18",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.9,
+      "rationale": "Providing financial insights is ad hoc analysis that traces to finance data and source entries.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Providing recommendations is advising leadership, which is a human judgment task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Providing perspectives is advisory work aimed at leadership, not an operational finance workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Shaping business priorities and decisions is executive decision support and human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Partnering with the executive leadership team is cross-functional relationship management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-23",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.82,
+      "rationale": "Evaluating financial implications of business strategies is ad hoc financial analysis for leadership.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-24",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Evaluating resource allocation decisions is planning and budgeting analysis, which is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Evaluating investment implications is FP&A decision support and budgeting work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-26",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "Evaluating growth initiatives is planning analysis rather than a covered reporting or accounting capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Providing actionable recommendations to executive and board audiences is advisory and presentation work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-28",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Helping the company achieve objectives is too broad to map to a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-29",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.86,
+      "rationale": "Translating complex data into clear narratives matches building management reports and board-ready analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-30",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Translating data into recommendations for executive and board audiences is advisory work for leadership.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-31",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Leading preparation of executive and board presentations is presentation leadership and not a platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-32",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.89,
+      "rationale": "Preparing monthly performance reviews matches recurring management reporting and KPI packages.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-33",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Preparing long-range planning updates is budgeting and planning work, which is outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-34",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Supporting M&A activity is too broad to determine a specific automatable finance action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-35",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Supporting corporate development opportunities is vague and does not specify a covered finance task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-36",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.91,
+      "rationale": "Providing financial analysis is ad hoc analysis answered from finance data and source records.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-37",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Providing due diligence is analytical diligence work with no specific matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-38",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Informing strategic decision-making is executive advisory work that requires judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-39",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Owning end-to-end P&L accountability is managerial accountability, not an automatable task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-40",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Driving financial performance is leadership and business ownership rather than a discrete finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-41",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.73,
+      "rationale": "Driving visibility is too vague to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-42",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Driving commercial decision-making at the portfolio level is advisory decision support for leaders.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-43",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Leading the annual budgeting process is planning and budgeting work that is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-44",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Leading the rolling forecast cycle is FP&A forecasting work without a matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-45",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Identifying risks across business units is too broad to classify as a specific covered workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-46",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Identifying opportunities across business units is too vague to map cleanly to a capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-47",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Conducting variance analysis in FP&A is planning analysis and not the covered flux-analysis capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-48",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Conducting scenario modeling is FP&A planning work with no corresponding capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-49",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Conducting profitability analysis is analytical planning work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-50",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Informing pricing decisions is advisory work that influences policy and strategy.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-51",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Informing investment decisions is executive advisory work requiring judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-52",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Informing resource allocation decisions is leadership advice, not an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-53",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Establishing an accountability framework is setting governance and policy, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-54",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Leading the accountability framework is organizational leadership and oversight.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-55",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with product and business leaders is cross-functional collaboration and advising.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-56",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Driving profitability is a business outcome and leadership responsibility rather than a discrete platform action.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-57",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Optimizing investments is strategic decision support and judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-58",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Supporting data-driven decisionmaking is advisory and analytical leadership work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-59",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Leading FP&A evolution through automation is a transformation and change-management duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-60",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Leading FP&A evolution through analytics is organizational strategy and leadership work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-61",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Leading FP&A evolution through AI-enabled tools is transformation leadership, not an operational capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-62",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Improving efficiency is too vague to map to a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-63",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Improving accuracy is a generic outcome that does not specify a covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-64",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Improving speed of insight generation is vague and not a named capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-65",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Identifying opportunities to simplify financial processes is process improvement and judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-66",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Identifying opportunities to scale financial processes is process design and leadership work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-67",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Reducing manual reporting is repetitive reporting automation work without a specific matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-68",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Increasing time spent on strategic analysis is an outcome statement rather than a concrete task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a3d8e0f261d05ea3-69",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Driving consistent planning and reporting practices is organization-wide standard setting and governance.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

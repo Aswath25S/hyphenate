@@ -1,28 +1,26 @@
 # Findings: Before the Next Hire
 
-Data as of 2026-10-20. 10 US finance postings from 10 companies, read duty by duty against Hyphenate's public capabilities (model hand labels (no model calls)).
-
-> **Fixture preview.** These numbers come from the 10 hand-labelled fixtures, not the full pipeline run. Rerun `npm run pipeline && npm run findings` with an API key for the real memo.
+Data as of 2026-10-21. 165 US finance postings from 95 companies, read duty by duty against Hyphenate's public capabilities (model gpt-5.4-mini).
 
 ## Three headline numbers
 
-1. **61% median overlap.** The median posting has 61% of its scored duties on Hyphenate's public site (covered or assisted). AP roles are highest at 73% median across 2 postings.
-2. **9 companies are hiring for work Hyphenate's agents already do.** That is 9 of 10 lead companies with at least one fully covered duty in an open role. GL accounting is the most common lead product (5 companies).
-3. **At least $120,900 a year** in posted salary is tied to duties Hyphenate's agents already handle, across 9 postings (based on 9 of 10 postings that list a salary). AP roles hold the most ($39,500). This is a floor: lowest advertised salary × covered share × 0.5. It is gross value, not net of Hyphenate's price, and it is work Hyphenate could absorb before the next hire, not people to cut.
+1. **19% median overlap.** The median posting has 19% of its scored duties on Hyphenate's public site (covered or assisted). AP roles are highest at 44% median across 8 postings.
+2. **58 companies are hiring for work Hyphenate's agents already do.** That is 58 of 92 lead companies with at least one fully covered duty in an open role. GL accounting is the most common lead product (44 companies).
+3. **At least $510,500 a year** in posted salary is tied to duties Hyphenate's agents already handle, across 148 postings (based on 149 of 165 postings that list a salary). GL roles hold the most ($113,800). This is a floor: lowest advertised salary × covered share × 0.5. It is gross value, not net of Hyphenate's price, and it is work Hyphenate could absorb before the next hire, not people to cut.
 
 ## Who to call first
 
-- **Liquid Death** (lead score 48): 1 open role, 81% overlap, lead with Procure-to-pay.
-- **Headway** (lead score 43): 1 open role, 65% overlap, lead with GL accounting.
-- **Roofstock** (lead score 43): 1 open role, 61% overlap, lead with Procure-to-pay.
-- **Flexport** (lead score 42): 1 open role, 60% overlap, lead with Order-to-cash.
-- **WHOOP** (lead score 39): 1 open role, 60% overlap, lead with GL accounting.
+- **Latitude** (lead score 67): 1 open role, 78% overlap, lead with Procure-to-pay; trigger: Latitude Raises $35M Series A to Connect Stablecoin Payments to Local Rails Worldwide - Financial IT.
+- **ElevenLabs** (lead score 64): 1 open role, 67% overlap, lead with GL accounting; trigger: ElevenLabs Hires CFO, Eyes 2028 IPO - The Information.
+- **ClickHouse** (lead score 63): 1 open role, 55% overlap, lead with GL accounting; trigger: ClickHouse acquires RunReveal to deepen its push into security analytics - Dealroom.
+- **Applied Intuition** (lead score 63): 3 open roles, 34% overlap, lead with GL accounting; trigger: Applied Intuition Fields Offers at $30 Billion Valuation - The Information.
+- **Avetta** (lead score 61): 1 open role, 32% overlap, lead with Order-to-cash; trigger: EQT acquires Avetta from WCAS (supply-chain risk SaaS, Apr 2024) - Dealroom.
 
 ## What prospects will ask about
 
-- **Expense report review**: in 29% of strong leads (2 postings, 2 companies). Not on Hyphenate's public site; verification pending.
-- **Indirect tax and 1099 compliance**: in 14% of strong leads (2 postings, 2 companies). Not on Hyphenate's public site; verification pending.
-- **Payroll and benefits accounting**: in 14% of strong leads (1 postings, 1 companies). Not on Hyphenate's public site; verification pending.
+- **Strategic planning models**: in 43% of strong leads (124 postings, 73 companies). Not on Hyphenate's public site; verification pending.
+- **Process automation**: in 43% of strong leads (98 postings, 65 companies). Not on Hyphenate's public site; verification pending.
+- **Vendor contracts**: in 43% of strong leads (75 postings, 58 companies). Not on Hyphenate's public site; verification pending.
 
 ## Caveats
 

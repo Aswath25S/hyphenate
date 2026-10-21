@@ -1,0 +1,159 @@
+{
+  "posting_id": "a174d299db28a16a",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "a174d299db28a16a-01",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Owning an end-to-end revenue workstream is too broad and does not map to a specific automatable finance action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a174d299db28a16a-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Challenging the status quo and implementing best practices is process-improvement work that is too vague for a specific capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a174d299db28a16a-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Providing daily supervision of team members is people management, which is inherently human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a174d299db28a16a-04",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.74,
+      "rationale": "Owning the revenue accounting close process is the execution of month-end close procedures and checklist tasks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a174d299db28a16a-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Interacting with business partners and external auditors is relationship management and auditor coordination, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a174d299db28a16a-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Preparing journal entries fits the system, but reviewing them is human review and makes the duty a human role overall.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a174d299db28a16a-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Preparing account reconciliations is supported, but reviewing them is human review and dominates the duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a174d299db28a16a-08",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.7,
+      "rationale": "Calculating revenue analytics and KPIs aligns with building recurring management reporting and KPI outputs for leadership.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a174d299db28a16a-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Presenting analytics to finance leadership is a human presentation activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a174d299db28a16a-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Communicating analytics to finance leadership is stakeholder communication work that is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a174d299db28a16a-11",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.82,
+      "rationale": "Developing documentation around SOX-compliant internal controls matches maintaining key control documentation.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a174d299db28a16a-12",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.89,
+      "rationale": "Ensuring controls are performed and documented fits monitoring and executing internal controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a174d299db28a16a-13",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Ensuring data integrity and compliance across systems is too broad to map cleanly to a single listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a174d299db28a16a-14",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.66,
+      "rationale": "Investigating reporting discrepancies is too vague to tell whether it is variance analysis, reconciliation, or another finance task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a174d299db28a16a-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Communicating issues effectively is general stakeholder communication, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a174d299db28a16a-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Continuously improving business processes through automation and benchmarking is broad process-improvement work without a specific capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a174d299db28a16a-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with other teams to support business processes is cross-functional collaboration, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

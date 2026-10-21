@@ -1,0 +1,123 @@
+{
+  "posting_id": "0ae58f01342abcaf",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "0ae58f01342abcaf-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Developing an ASC 606 policy framework is setting accounting policy, which is human judgment by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Maintaining a defensible ASC 606 policy framework is ongoing accounting policy management, which requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Delivering conclusions on complex deals is technical accounting judgment on novel arrangements, not a routine system task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Reviewing strategic, non-standard arrangements is deal judgment and legal/accounting review, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Capturing reasoning in technical memos for complex revenue conclusions is human judgment and documentation of policy decisions.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Partnering with Sales, Legal, Deal Desk, FP&A, and RevOps is cross-functional collaboration and advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Surfacing revenue considerations before deals are signed is advisory support to the deal process, not an automated revenue workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.62,
+      "rationale": "Supporting timely, accurate revenue results each close is too vague to map to a specific platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-09",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Building a more scalable revenue function is a broad process-improvement project rather than a specific automatable duty.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-10",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Creating templates is too generic and does not match a specific covered finance-operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-11",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Creating checklists is a generic process-design task and not the execution of a listed platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-12",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Creating playbooks is a broad enablement task that does not map to a specific covered workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-13",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Identifying automation opportunities is a process-improvement activity, not a defined end-to-end finance operation capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

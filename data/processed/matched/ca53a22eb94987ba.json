@@ -1,0 +1,159 @@
+{
+  "posting_id": "ca53a22eb94987ba",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "ca53a22eb94987ba-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Building full-year budgets is FP&A planning work, which is not covered by the platform.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ca53a22eb94987ba-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Building quarterly forecasts is planning/forecasting work outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ca53a22eb94987ba-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Monthly/quarterly budget-versus-actual variance analysis is FP&A planning analysis and is explicitly outside the flux capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ca53a22eb94987ba-04",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.72,
+      "rationale": "Identifying and highlighting business drivers matches driver analysis, though the proactive communication adds human judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ca53a22eb94987ba-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Commissions calculations are a finance operation not covered by the platform.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ca53a22eb94987ba-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Commissions reporting is not a listed capability and is outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ca53a22eb94987ba-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Commissions analytics is not covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ca53a22eb94987ba-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Designing the annual compensation plan is policy/design work that requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ca53a22eb94987ba-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Supporting annual and long-range planning is FP&A planning work not covered by the platform.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ca53a22eb94987ba-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with Accounting on vendor trend reviews is cross-functional advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ca53a22eb94987ba-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with Accounting on closed-won opportunities is a cross-functional business partnership task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ca53a22eb94987ba-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Partnering with Accounting on collections is relationship-based coordination rather than the collections work itself.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ca53a22eb94987ba-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with Accounting on commissions payments is cross-functional coordination work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ca53a22eb94987ba-14",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.73,
+      "rationale": "Developing and improving sales and customer metrics is specific but does not cleanly match any listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ca53a22eb94987ba-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with business leaders to drive strategic initiatives is advising other teams and influencing decisions.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ca53a22eb94987ba-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Providing recommendations based on analysis is advisory work to other teams.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ca53a22eb94987ba-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Driving ad-hoc projects and analysis for long-term growth is too broad and includes strategic projects not covered by the map.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "posting_id": "6a920e865092cb10",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "6a920e865092cb10-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Owning a payroll deduction reconciliation queue is repetitive reconciliation work, but no payroll reconciliation capability is in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Reviewing new and updated deductions before each payroll run is a rules-based payroll review task with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Approving flagged discrepancies is manual exception handling for payroll reconciliation, which is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Escalating flagged discrepancies is operational queue handling, but there is no payroll escalation capability listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Tracing reconciliation errors to root cause across source data is investigation work that does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-06",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Driving upstream fixes is process improvement work, but the duty is too broad to map to a specific finance-ops capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Engineering to scope and prioritize automation opportunities is cross-functional collaboration and prioritization work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Managing escalations from payroll connection failures is exception handling with no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Managing escalations from invoice review queues is queue triage work, but invoice review itself is not the core action here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Routing issues to the right stakeholder is workflow triage, which is not a listed finance-ops capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-11",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Building SOPs is process documentation work, but the duty is too unspecific to map cleanly.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-12",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.97,
+      "rationale": "Maintaining audit trails matches the audit-support capability of preserving supporting documentation for entries.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-13",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.84,
+      "rationale": "Reporting on reconciliation accuracy is recurring KPI reporting, which fits management reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-14",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.84,
+      "rationale": "Reporting on queue health is recurring operational reporting, which fits management reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a920e865092cb10-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Surfacing trends and risk areas to leadership is an advising and presentation task.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "posting_id": "6c2b9ae862e34712",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "6c2b9ae862e34712-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Leading a team is people management work by nature rather than an automatable finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Supporting team members' daily activities is direct people management and coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Creating a development culture is leadership and team management work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Mentoring the team is inherently human coaching and development work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Coaching the team is people management, not a platform-executable finance task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Providing feedback is a managerial human judgment activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Empowering a team to use systems and metrics is leadership over people and process, not a finance operations workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Understanding team performance is managerial oversight and evaluation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Coaching individuals to meet goals is direct people management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-10",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Monitoring and improving customer experience is outside the finance-operations coverage map and the specific action is too context-dependent.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Communicating company initiatives, OKRs, and metrics is a managerial coordination task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-12",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Identifying process improvements from data is too vague and not tied to a covered finance workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Building collaboration with another team is cross-functional relationship management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Prioritizing product enhancements is a cross-functional decision and partnership activity, not finance operations automation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-15",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "Reducing inbound inquiries is too vague and does not map cleanly to a covered finance task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Partnering cross-functionally to develop the team is people leadership and collaboration work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Utilizing AI to learn quickly is not a specific duty that maps to a covered finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Creating process improvement is too vague to map to a specific covered capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-19",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Gaining efficiencies is too generic to judge as a specific automatable finance task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Driving organizational change is leadership and change management work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

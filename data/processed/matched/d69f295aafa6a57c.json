@@ -1,0 +1,249 @@
+{
+  "posting_id": "d69f295aafa6a57c",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "d69f295aafa6a57c-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Maintaining a DaaS revenue model is FP&A-style modeling work and does not match any covered order-to-cash, treasury, GL, P2P, or reporting capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with RevOps on the forecast is cross-functional collaboration rather than a platform-performed finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-03",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.86,
+      "rationale": "Running the weekly forecast deck and summary is recurring management reporting and board-deck style output.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-04",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.61,
+      "rationale": "Reconciling the field forecast call with a deal-by-deal finance view is an ad hoc finance analysis against source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-05",
+      "label": "unclear",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.55,
+      "rationale": "Quantifying coverage, swing deals, and risks is forecast analysis that the platform can assist with from source data.",
+      "model_label": "assisted",
+      "adjusted": "confidence 0.55 below 0.6"
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Tracking delivery pacing and acceptance against plan is repetitive planning/monitoring work with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-07",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Identifying execution risks is too vague to map to a specific finance-operations action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Building forecast-to-actual and bookings-to-revenue bridges for planning is FP&A variance analysis, which is not a covered reporting capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Building annual operating plan and long-range plan inputs is budgeting and long-range planning work outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Partnering with Accounting on revenue recognition inputs and margin actuals is cross-team collaboration, not end-to-end platform work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Maintaining a delivery capacity model is a planning model task with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Reconciling the capacity plan to actual staffing data is planning reconciliation work outside the mapped capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Explaining mix, productivity, and headcount variances is FP&A-style variance analysis not covered by the flux capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Translating bookings pipeline into staffing demand is workforce planning/modeling work with no capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Flagging hiring or contributor needs is planning and workforce forecasting work outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Leading a capacity planning review with Delivery leadership is a management and partnering activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-17",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.68,
+      "rationale": "Surfacing trends in pricing, mix, margin, and pacing is source-data-driven analysis that can be assisted by the platform.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Deal Desk on deals is cross-functional coordination, which is human work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Reviewing deal models and pricing templates for accuracy and margin is analytical model review with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Recommend adjustments is too vague without knowing what is being adjusted.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-21",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.66,
+      "rationale": "Analyzing customer and product profitability tied to revenue is an ad hoc finance analysis task over source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-22",
+      "label": "unclear",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.58,
+      "rationale": "Analyzing product economics and margin targets is finance analysis that the platform can assist with, though investment judgment remains human.",
+      "model_label": "assisted",
+      "adjusted": "confidence 0.58 below 0.6"
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-23",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Finding broken or slow processes is too broad to map cleanly to a specific advertised capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Recommending and driving fixes is process-improvement and change-management work that is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-25",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Automate what repeats is too generic to map to a specific finance operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Moving recurring models from spreadsheets to scalable tools is a systems implementation and process redesign effort.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d69f295aafa6a57c-27",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.69,
+      "rationale": "Supporting board and investor content is recurring reporting and deck preparation rather than presenting to the board.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

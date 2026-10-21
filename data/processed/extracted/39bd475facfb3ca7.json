@@ -1,0 +1,461 @@
+{
+  "posting_id": "39bd475facfb3ca7",
+  "company": "Airbyte",
+  "domain": "airbyte.com",
+  "title": "Accounting Manager",
+  "role_family": "Close_Mgmt",
+  "seniority": "manager",
+  "locations": [
+    "San Francisco"
+  ],
+  "remote": "onsite",
+  "salary": {
+    "min": 133000,
+    "max": 160000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Job board pay data: $133K – $160K • Offers Equity"
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Rillet",
+    "Campfire",
+    "Ramp",
+    "Carta",
+    "Orb",
+    "Claude Code"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "manual processes",
+    "outsourced accounting firm dependencies",
+    "bring accounting back in-house",
+    "continuously shorten and automate it",
+    "reducing manual work",
+    "building for scale"
+  ],
+  "duties": [
+    {
+      "duty_id": "39bd475facfb3ca7-01",
+      "text": "Airbyte is the data and action layer for AI agents.",
+      "source_span": "Airbyte is the data and action layer for AI agents.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-02",
+      "text": "We give agents fast, accurate, authenticated access to business data across hundreds of sources, so they can discover the entities that matter, reason over real-time context, and take action in the systems they read from, not just observe them.",
+      "source_span": "We give agents fast, accurate, authenticated access to business data across hundreds of sources, so they can discover the entities that matter, reason over real-time context, and take action in the systems they read from, not just observe them.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-03",
+      "text": "Our mission is unchanged: make data available and actionable to everyone, everywhere.",
+      "source_span": "Our mission is unchanged: make data available and actionable to everyone, everywhere.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-04",
+      "text": "Own accounting operations and reporting",
+      "source_span": "Own accounting operations and reporting - GL, AP/AR, and the general ledger close - with accuracy, timeliness, and US GAAP compliance; you’ll operate with high ownership and strong judgment.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-05",
+      "text": "Own GL",
+      "source_span": "Own accounting operations and reporting - GL, AP/AR, and the general ledger close - with accuracy, timeliness, and US GAAP compliance; you’ll operate with high ownership and strong judgment.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-06",
+      "text": "Own AP/AR",
+      "source_span": "Own accounting operations and reporting - GL, AP/AR, and the general ledger close - with accuracy, timeliness, and US GAAP compliance; you’ll operate with high ownership and strong judgment.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-07",
+      "text": "Own the general ledger close",
+      "source_span": "Own accounting operations and reporting - GL, AP/AR, and the general ledger close - with accuracy, timeliness, and US GAAP compliance; you’ll operate with high ownership and strong judgment.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-08",
+      "text": "Run the month-end close",
+      "source_span": "Run the month-end close, and continuously shorten and automate it.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-09",
+      "text": "Shorten and automate the month-end close",
+      "source_span": "Run the month-end close, and continuously shorten and automate it.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-10",
+      "text": "Manage a Senior Accountant",
+      "source_span": "Manage a Senior Accountant and our outsourced accounting team, and help lead the transition of work in-house over time.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-11",
+      "text": "Manage the outsourced accounting team",
+      "source_span": "Manage a Senior Accountant and our outsourced accounting team, and help lead the transition of work in-house over time.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-12",
+      "text": "Lead the transition of work in-house over time",
+      "source_span": "Manage a Senior Accountant and our outsourced accounting team, and help lead the transition of work in-house over time.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-13",
+      "text": "Prepare for external audits",
+      "source_span": "Prepare for and support external audits, including documentation, technical accounting memos, and internal controls.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-14",
+      "text": "Support external audits",
+      "source_span": "Prepare for and support external audits, including documentation, technical accounting memos, and internal controls.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-15",
+      "text": "Prepare audit documentation",
+      "source_span": "Prepare for and support external audits, including documentation, technical accounting memos, and internal controls.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-16",
+      "text": "Prepare technical accounting memos",
+      "source_span": "Prepare for and support external audits, including documentation, technical accounting memos, and internal controls.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-17",
+      "text": "Support internal controls",
+      "source_span": "Prepare for and support external audits, including documentation, technical accounting memos, and internal controls.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-18",
+      "text": "Apply technical accounting policies",
+      "source_span": "Apply and help maintain technical accounting policies, including revenue recognition under ASC 606 and lease accounting under ASC 842.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-19",
+      "text": "Apply revenue recognition under ASC 606",
+      "source_span": "Apply and help maintain technical accounting policies, including revenue recognition under ASC 606 and lease accounting under ASC 842.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-20",
+      "text": "Apply lease accounting under ASC 842",
+      "source_span": "Apply and help maintain technical accounting policies, including revenue recognition under ASC 606 and lease accounting under ASC 842.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-21",
+      "text": "Evaluate accounting systems and workflows",
+      "source_span": "Evaluate, implement, and optimize accounting systems and workflows - reducing manual work and building for scale.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-22",
+      "text": "Implement accounting systems and workflows",
+      "source_span": "Evaluate, implement, and optimize accounting systems and workflows - reducing manual work and building for scale.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-23",
+      "text": "Optimize accounting systems and workflows",
+      "source_span": "Evaluate, implement, and optimize accounting systems and workflows - reducing manual work and building for scale.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-24",
+      "text": "Partner with Sales",
+      "source_span": "Partner cross-functionally with Sales, Marketing, Engineering, and Support to keep accounting accurate across our business systems.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-25",
+      "text": "Partner with Marketing",
+      "source_span": "Partner cross-functionally with Sales, Marketing, Engineering, and Support to keep accounting accurate across our business systems.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-26",
+      "text": "Partner with Engineering",
+      "source_span": "Partner cross-functionally with Sales, Marketing, Engineering, and Support to keep accounting accurate across our business systems.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-27",
+      "text": "Partner with Support",
+      "source_span": "Partner cross-functionally with Sales, Marketing, Engineering, and Support to keep accounting accurate across our business systems.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-28",
+      "text": "Act as a thought partner to the Director of Finance",
+      "source_span": "Act as a thought partner to the Director of Finance on automating close and operations, including using AI where it drives real impact.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-29",
+      "text": "Automate close and operations",
+      "source_span": "Act as a thought partner to the Director of Finance on automating close and operations, including using AI where it drives real impact.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-30",
+      "text": "Use AI where it drives real impact",
+      "source_span": "Act as a thought partner to the Director of Finance on automating close and operations, including using AI where it drives real impact.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-31",
+      "text": "Grow into broader ownership of the accounting function",
+      "source_span": "Grow into broader ownership of the accounting function as the business scales.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-32",
+      "text": "Perform detailed flux analysis",
+      "source_span": "Perform and review detailed flux and variance analysis, identifying and proactively investigating unexpected trends or anomalies in our financials.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-33",
+      "text": "Review detailed variance analysis",
+      "source_span": "Perform and review detailed flux and variance analysis, identifying and proactively investigating unexpected trends or anomalies in our financials.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-34",
+      "text": "Identify unexpected trends or anomalies in our financials",
+      "source_span": "Perform and review detailed flux and variance analysis, identifying and proactively investigating unexpected trends or anomalies in our financials.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-35",
+      "text": "Have 5+ years of progressive accounting experience",
+      "source_span": "5+ years of progressive accounting experience.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-36",
+      "text": "Have a Big 4 audit and startup combined background",
+      "source_span": "Ideally a Big 4 audit and startup combined background.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-37",
+      "text": "Have working knowledge of US GAAP",
+      "source_span": "Working knowledge of US GAAP, including revenue recognition (ASC 606) and lease accounting (ASC 842).",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-38",
+      "text": "Have working knowledge of revenue recognition (ASC 606)",
+      "source_span": "Working knowledge of US GAAP, including revenue recognition (ASC 606) and lease accounting (ASC 842).",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-39",
+      "text": "Have working knowledge of lease accounting (ASC 842)",
+      "source_span": "Working knowledge of US GAAP, including revenue recognition (ASC 606) and lease accounting (ASC 842).",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-40",
+      "text": "Have strong systems instincts",
+      "source_span": "Strong systems instincts - you’ve evaluated, implemented, or redesigned accounting workflows and tools, and you reach for automation before manual effort.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-41",
+      "text": "Evaluate, implement, or redesign accounting workflows and tools",
+      "source_span": "Strong systems instincts - you’ve evaluated, implemented, or redesigned accounting workflows and tools, and you reach for automation before manual effort.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-42",
+      "text": "Reach for automation before manual effort",
+      "source_span": "Strong systems instincts - you’ve evaluated, implemented, or redesigned accounting workflows and tools, and you reach for automation before manual effort.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-43",
+      "text": "Be tech-savvy and genuinely AI-curious",
+      "source_span": "Tech-savvy and genuinely AI-curious - you’ve explored (or are eager to explore) how automation and AI can transform accounting, and you like building.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-44",
+      "text": "Explore how automation and AI can transform accounting",
+      "source_span": "Tech-savvy and genuinely AI-curious - you’ve explored (or are eager to explore) how automation and AI can transform accounting, and you like building.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-45",
+      "text": "Have an operational, ownership mindset",
+      "source_span": "An operational, ownership mindset - pragmatic, solution-oriented, and able to work autonomously. Startups move fast, so the ability to adapt and learn quickly is key.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-46",
+      "text": "Be pragmatic, solution-oriented, and able to work autonomously",
+      "source_span": "An operational, ownership mindset - pragmatic, solution-oriented, and able to work autonomously. Startups move fast, so the ability to adapt and learn quickly is key.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-47",
+      "text": "Adapt and learn quickly",
+      "source_span": "An operational, ownership mindset - pragmatic, solution-oriented, and able to work autonomously. Startups move fast, so the ability to adapt and learn quickly is key.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-48",
+      "text": "Be a people person",
+      "source_span": "A people person. We have a strong culture and care about bringing in teammates who fit in and make it better.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-49",
+      "text": "CPA or CMA certification is a plus",
+      "source_span": "CPA or CMA certification is a plus.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-50",
+      "text": "Have experience implementing or migrating to a new ERP system",
+      "source_span": "Experience implementing or migrating to a new ERP system.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-51",
+      "text": "Have experience with PLG and/or enterprise SaaS revenue models",
+      "source_span": "Experience with PLG and/or enterprise SaaS revenue models.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-52",
+      "text": "Be familiar with NetSuite, Rillet, Campfire, Ramp, Carta, Orb, and Claude Code",
+      "source_span": "Familiarity with our stack: NetSuite, Rillet, Campfire, Ramp, Carta, Orb, and Claude Code.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-53",
+      "text": "Have experience with auditing",
+      "source_span": "Experience with auditing.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-54",
+      "text": "We have a strong culture and care about bringing in teammates who fit in and make it better.",
+      "source_span": "We have a strong culture and care about bringing in teammates who fit in and make it better.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-55",
+      "text": "Flexible PTO with a culture that encourages at least 25 days off annually",
+      "source_span": "Flexible PTO with a culture that encourages at least 25 days off annually",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-56",
+      "text": "16 weeks fully paid parental leave for all parents",
+      "source_span": "16 weeks fully paid parental leave for all parents",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-57",
+      "text": "A collaborative, in-person culture focused on learning, growth, and impact",
+      "source_span": "A collaborative, in-person culture focused on learning, growth, and impact",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-58",
+      "text": "We are not accepting agency submissions or recruiting firm support for this role.",
+      "source_span": "We are not accepting agency submissions or recruiting firm support for this role.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    }
+  ],
+  "posted_at": "2026-10-16T20:55:22.484+00:00",
+  "source_url": "https://jobs.ashbyhq.com/airbyte/af867d0a-bd70-4a8e-80f9-13567bd0f3a8",
+  "fetched_at": "2026-10-21T17:34:39.542Z",
+  "prompt_version": "extract-v1",
+  "text": "Airbyte is the data and action layer for AI agents. We give agents fast, accurate, authenticated access to business data across hundreds of sources, so they can discover the entities that matter, reason over real-time context, and take action in the systems they read from, not just observe them.\n\n\n\nWe started as the open-source standard for data movement and proved the economics of data integration at scale: hundreds of connectors, thousands of companies, and, since 2020, have raised $181M from leading investors including Benchmark, Accel, Altimeter, Coatue, and Y Combinator. As our CEO Michel Tricot puts it, \"the last ten years were all about structured data. The future is all about context.\" We're now building that context infrastructure for production-grade agents on the same open foundation, as agents become the primary consumers of enterprise data.\n\n\n\nOur mission is unchanged: make data available and actionable to everyone, everywhere. That everyone now includes AI agents.\n\n \n\n\nTHE ROLE:\n\nAs Airbyte's Accounting Manager, you’ll own the day-to-day of our accounting operations and reporting - and you’ll help us rebuild how that work gets done, replacing manual processes and outsourced accounting firm dependencies with clean, automated, in-house workflows.\n\nWe currently run a lean model with an outsourced accounting firm and a Senior Accountant. You’ll manage both, and over time help us bring accounting back in-house - taking ownership of more of the function as you go. You’ll report directly to the Director of Finance (who reports to the COO) as a thought partner on automating our close and operations, and you’ll have real room to experiment with modern tooling and AI to do it.\n\nWe're hiring someone with the intention of investing in their long-term growth. As the business evolves, this role is expected to take on increasing ownership and responsibility, with the opportunity to help shape and ultimately lead the accounting function over time. If you want to build a modern accounting function - not just maintain one - this is that seat.\n\n \n\n\nWHAT YOU’LL DO:\n\n - Own accounting operations and reporting - GL, AP/AR, and the general ledger close - with accuracy, timeliness, and US GAAP compliance; you’ll operate with high ownership and strong judgment.\n\n - Run the month-end close, and continuously shorten and automate it.\n\n - Manage a Senior Accountant and our outsourced accounting team, and help lead the transition of work in-house over time.\n\n - Prepare for and support external audits, including documentation, technical accounting memos, and internal controls.\n\n - Apply and help maintain technical accounting policies, including revenue recognition under ASC 606 and lease accounting under ASC 842.\n\n - Evaluate, implement, and optimize accounting systems and workflows - reducing manual work and building for scale.\n\n - Partner cross-functionally with Sales, Marketing, Engineering, and Support to keep accounting accurate across our business systems.\n\n - Act as a thought partner to the Director of Finance on automating close and operations, including using AI where it drives real impact.\n\n - Grow into broader ownership of the accounting function as the business scales.\n\n - Perform and review detailed flux and variance analysis, identifying and proactively investigating unexpected trends or anomalies in our financials.\n\n \n\n\nWHAT YOU’LL NEED:\n\n - 5+ years of progressive accounting experience.\n\n - Ideally a Big 4 audit and startup combined background.\n\n - Working knowledge of US GAAP, including revenue recognition (ASC 606) and lease accounting (ASC 842).\n\n - Strong systems instincts - you’ve evaluated, implemented, or redesigned accounting workflows and tools, and you reach for automation before manual effort.\n\n - Tech-savvy and genuinely AI-curious - you’ve explored (or are eager to explore) how automation and AI can transform accounting, and you like building.\n\n - An operational, ownership mindset - pragmatic, solution-oriented, and able to work autonomously. Startups move fast, so the ability to adapt and learn quickly is key.\n\n - A people person. We have a strong culture and care about bringing in teammates who fit in and make it better.\n\n \n\n\nNICE TO HAVE:\n\n - CPA or CMA certification is a plus.\n\n - Experience implementing or migrating to a new ERP system.\n\n - Experience with PLG and/or enterprise SaaS revenue models.\n\n - Familiarity with our stack: NetSuite, Rillet, Campfire, Ramp, Carta, Orb, and Claude Code.\n\n - Experience with auditing.\n\n \n\n\nLOCATION:\n\n - Onsite 4 days/week in San Francisco, CA\n\n\n\n\nWHY YOU'LL LOVE WORKING AT AIRBYTE:\n\nAt Airbyte, we believe great work happens when people feel supported, trusted, and empowered to grow. Our market-leading Total Rewards package is designed to help you thrive professionally and personally. Our benefits and perks include:\n\n\n\n• Flexible PTO with a culture that encourages at least 25 days off annually\n • 16 weeks fully paid parental leave for all parents\n • Comprehensive medical, dental, and vision coverage for employees and dependents\n • 401(k) retirement plan\n • Professional development budget, conference sponsorship, and book reimbursement\n • Commuter benefits and monthly internet reimbursement\n\n •  Breakfast and lunch in our San Francisco office\n • A collaborative, in-person culture focused on learning, growth, and impact\n\n\n\nIf you find this role exciting, we encourage you to apply even if you think you don’t meet all of the requirements!\n\n\n\nWe are not accepting agency submissions or recruiting firm support for this role. Unsolicited resumes will not be considered.\n\n\n\nAirbyte is an equal opportunity employer that does not discriminate on the basis of actual or perceived race, creed, color, religion, national origin, ancestry, age, physical or mental disability, pregnancy, genetic information, sex, sexual orientation, gender identity or expression, marital status, familial status, domestic violence victim status, veteran or military status, or any other legally recognized protected basis under federal, state or local laws. Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\n\n\n\nAirbyte is committed to providing reasonable accommodations for qualified individuals with disabilities in our job application procedures. Please let us know if you need assistance or accommodations due to a disability.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "ashby"
+}

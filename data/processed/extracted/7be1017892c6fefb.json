@@ -1,0 +1,512 @@
+{
+  "posting_id": "7be1017892c6fefb",
+  "company": "Yext",
+  "domain": "yext.com",
+  "title": "Director, Revenue Accounting",
+  "role_family": "Revenue",
+  "seniority": "director_plus",
+  "locations": [
+    "Remote - US",
+    "New York, NY, United States"
+  ],
+  "remote": "remote",
+  "salary": {
+    "min": 142650,
+    "max": 263000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Annual Base Pay Range\n\n$142,650—$263,000 USD"
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "SFDC",
+    "Zuora"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "process and workflow improvements",
+    "automate manual processes using AI",
+    "building and refining processes in a scaling business environment",
+    "increase automation and improve productivity and accuracy"
+  ],
+  "duties": [
+    {
+      "duty_id": "7be1017892c6fefb-01",
+      "text": "Direct and oversee the month-end close process for revenue",
+      "source_span": "Direct and oversee the month-end close process for revenue",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-02",
+      "text": "Direct and oversee the month-end close process for accounts receivable",
+      "source_span": "accounts receivable",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-03",
+      "text": "Direct and oversee the month-end close process for allowances",
+      "source_span": "allowances",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-04",
+      "text": "Direct and oversee the month-end close process for deferred revenue",
+      "source_span": "deferred revenue",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-05",
+      "text": "Direct and oversee the month-end close process for commissions",
+      "source_span": "commissions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-06",
+      "text": "Review journal entries",
+      "source_span": "reviewing journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-07",
+      "text": "Review reconciliations",
+      "source_span": "reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-08",
+      "text": "Review other analyses",
+      "source_span": "other analyses",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-09",
+      "text": "Own revenue recognition policy",
+      "source_span": "Own the company’s revenue recognition",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-10",
+      "text": "Own commissions accounting policy",
+      "source_span": "commissions accounting policies",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-11",
+      "text": "Review policy changes with external auditors",
+      "source_span": "reviewing any changes with the Company’s external auditors",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-12",
+      "text": "Ensure day-to-day compliance",
+      "source_span": "ensuring compliance on a day-to-day basis",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-13",
+      "text": "Manage the day-to-day activities of the Revenue, Billing, and Collections teams",
+      "source_span": "Manage the day-to-day activities of the Revenue, Billing, and Collections teams",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-14",
+      "text": "Ensure efficient operation in compliance with the company's internal controls",
+      "source_span": "ensure efficient operation in compliance with the company's internal controls",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-15",
+      "text": "Work closely with Deal Desk and customer-facing commercial teams to ensure alignment on process and controls",
+      "source_span": "Work closely with Deal Desk and customer-facing commercial teams to ensure alignment on process and controls",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-16",
+      "text": "Develop technical revenue recognition policies for new products",
+      "source_span": "to develop technical revenue recognition policies for new products",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-17",
+      "text": "Develop technical revenue recognition policies for changes in commercial strategy",
+      "source_span": "and changes in commercial strategy",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-18",
+      "text": "Own internal controls for revenue transactions and reporting",
+      "source_span": "Own internal controls for revenue transactions and reporting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-19",
+      "text": "Partner with Internal Audit to develop and maintain a strong, high-quality internal controls environment",
+      "source_span": "partner with Internal Audit to develop and maintain a strong, high-quality internal controls environment",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-20",
+      "text": "Partner closely with Revenue Systems and Business Systems teams to identify and implement changes in processes",
+      "source_span": "Partner closely with Revenue Systems and Business Systems teams to identify and implement changes in processes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-21",
+      "text": "Identify opportunities to automate manual processes using AI",
+      "source_span": "Identify opportunities to automate manual processes using AI.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-22",
+      "text": "Lead external audit regarding annual audit requirements for revenue, accounts receivable, allowances, deferred revenue, and commissions",
+      "source_span": "Lead external audit regarding annual audit requirements for revenue, accounts receivable, allowances, deferred revenue, and commissions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-23",
+      "text": "Review financial statement footnotes",
+      "source_span": "review financial statement footnotes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-24",
+      "text": "Review earnings",
+      "source_span": "earnings",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-25",
+      "text": "Review disclosures related to ARR, revenue, and accounts receivable",
+      "source_span": "disclosures related to ARR, revenue, and accounts receivable",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-26",
+      "text": "Support ongoing M&A activity",
+      "source_span": "Support ongoing M&A activity",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-27",
+      "text": "Oversee revenue due diligence",
+      "source_span": "overseeing revenue due diligence",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-28",
+      "text": "Oversee the opening balance sheet",
+      "source_span": "opening balance sheet",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-29",
+      "text": "Oversee post-acquisition integration activities",
+      "source_span": "post-acquisition integration activities",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-30",
+      "text": "Conduct ad hoc analysis",
+      "source_span": "Conduct ad hoc analysis",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-31",
+      "text": "Conduct ad hoc reviews",
+      "source_span": "reviews based on inquiries from senior management",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-32",
+      "text": "Support strategic company projects/initiatives",
+      "source_span": "Support strategic company projects/initiatives",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-33",
+      "text": "Apply critical thinking skills to provide solutions that drive company performance",
+      "source_span": "apply critical thinking skills to provide solutions that drive company performance",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-34",
+      "text": "Coach a high-performing global team",
+      "source_span": "Coach, mentor, and develop a high-performing global team",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-35",
+      "text": "Mentor a high-performing global team",
+      "source_span": "Coach, mentor, and develop a high-performing global team",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-36",
+      "text": "Develop a high-performing global team",
+      "source_span": "Coach, mentor, and develop a high-performing global team",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-37",
+      "text": "This role will require domestic and international travel.",
+      "source_span": "This role will require domestic and international travel.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-38",
+      "text": "BA/BS degree in Accounting or related field",
+      "source_span": "BA/BS degree in Accounting or related field",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-39",
+      "text": "CPA or equivalent professional designation is required",
+      "source_span": "CPA or equivalent professional designation is required",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-40",
+      "text": "10+ years of total experience",
+      "source_span": "10+ years of total experience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-41",
+      "text": "5 or more years of Big-4 public accounting firm experience",
+      "source_span": "5 or more years of Big-4 public accounting firm experience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-42",
+      "text": "relevant industry experience, preferably in the SaaS or software industry space",
+      "source_span": "relevant industry experience, preferably in the SaaS or software industry space",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-43",
+      "text": "Strong knowledge of ASC 606",
+      "source_span": "Strong knowledge of ASC 606",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-44",
+      "text": "Revenue Recognition, including associated issues and technical interpretations",
+      "source_span": "Revenue Recognition, including associated issues and technical interpretations",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-45",
+      "text": "Exceptional people management skills",
+      "source_span": "Exceptional people management skills",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-46",
+      "text": "strong interest in team development",
+      "source_span": "strong interest in team development",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-47",
+      "text": "prior international team management experience",
+      "source_span": "prior international team management experience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-48",
+      "text": "Ability to work effectively with all levels of an organization and manage relationships with external parties",
+      "source_span": "Ability to work effectively with all levels of an organization and manage relationships with external parties",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-49",
+      "text": "strong communication skills",
+      "source_span": "strong communication skills",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-50",
+      "text": "the ability to discuss financial statement implications with a non-technical audience",
+      "source_span": "the ability to discuss financial statement implications with a non-technical audience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-51",
+      "text": "Strong, detail-oriented analytical skills",
+      "source_span": "Strong, detail-oriented analytical skills",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-52",
+      "text": "recognize problems",
+      "source_span": "recognize problems",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-53",
+      "text": "gather data",
+      "source_span": "gather data",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-54",
+      "text": "draw valid conclusions",
+      "source_span": "draw valid conclusions",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-55",
+      "text": "make effective, business-oriented recommendations",
+      "source_span": "make effective, business-oriented recommendations",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-56",
+      "text": "Ability to manage competing priorities and deadlines",
+      "source_span": "Ability to manage competing priorities and deadlines",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-57",
+      "text": "collaborative, solutions-oriented approach",
+      "source_span": "collaborative, solutions-oriented approach",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-58",
+      "text": "Interest in building and refining processes in a scaling business environment",
+      "source_span": "Interest in building and refining processes in a scaling business environment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-59",
+      "text": "strong interest in continuous improvement",
+      "source_span": "strong interest in continuous improvement",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-60",
+      "text": "Strong sense of ownership",
+      "source_span": "Strong sense of ownership",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-61",
+      "text": "proactive, self-starter mindset",
+      "source_span": "proactive, self-starter mindset",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-62",
+      "text": "Experience with NetSuite, SFDC, Zuora, or other relevant systems is a plus",
+      "source_span": "Experience with NetSuite, SFDC, Zuora, or other relevant systems is a plus",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "7be1017892c6fefb-63",
+      "text": "Yext (NYSE: YEXT) is the enterprise agentic marketing platform.",
+      "source_span": "Yext (NYSE: YEXT) is the enterprise agentic marketing platform.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-64",
+      "text": "In addition to base salaries, employees at Yext are typically eligible for a comprehensive package of benefits",
+      "source_span": "In addition to base salaries, employees at Yext are typically eligible for a comprehensive package of benefits",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-65",
+      "text": "Yext is an equal opportunity employer committed to building a results-driven, engaging culture",
+      "source_span": "Yext is an equal opportunity employer committed to building a results-driven, engaging culture",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "7be1017892c6fefb-66",
+      "text": "All legitimate Yext communications come from @yext.com email addresses.",
+      "source_span": "All legitimate Yext communications come from @yext.com email addresses.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    }
+  ],
+  "posted_at": "2026-10-01T09:09:47-04:00",
+  "source_url": "https://job-boards.greenhouse.io/yext/jobs/8237972",
+  "fetched_at": "2026-10-21T17:34:28.027Z",
+  "prompt_version": "extract-v1",
+  "text": "Yext (NYSE: YEXT) is the enterprise agentic marketing platform. Built on the world's most comprehensive structured data platform for local businesses, Yext gives brands and their partners the visibility intelligence to win every moment of discovery – across AI and traditional search. Yext's API-first architecture connects structured data to APIs, MCP servers, and generative interfaces, so partners and developers can build purpose-built experiences on the same infrastructure powering Yext's own products. Thousands of brands and digital marketing partners in financial services, healthcare, retail, hospitality, and food rely on Yext to manage, measure, and optimize visibility at scale. For more information, visit yext.com.\n\nReporting to the Senior Director, Assistant Controller, the Director, Revenue Accounting will oversee the Revenue, Billing, and Collections teams and will work closely with the Revenue Systems, General Ledger, Deal Desk, Legal, and FP&A teams. This role is responsible for overseeing the revenue accounting, contract review, commissions accounting, billings, and collections processes, and will have primary responsibility for the monthly close, key metrics, and management reporting processes for these areas. Other responsibilities will include M&A activities, such as overseeing revenue due diligence and integration, as well as process and workflow improvements. The successful candidate must be a proven team leader, demonstrate knowledge of revenue and accounting concepts, and have strong attention to detail. This role will oversee a global team of 12, with members located in the United States and India.\n\nWhat You'll Do\n\n• Direct and oversee the month-end close process for revenue, accounts receivable, allowances, deferred revenue, and commissions, including reviewing journal entries, reconciliations, and other analyses, in order to ensure an accurate and timely revenue close.\n\n• Own the company’s revenue recognition and commissions accounting policies, including reviewing any changes with the Company’s external auditors, and ensuring compliance on a day-to-day basis\n\n• Manage the day-to-day activities of the Revenue, Billing, and Collections teams and ensure efficient operation in compliance with the company's internal controls\n\n• Work closely with Deal Desk and customer-facing commercial teams to ensure alignment on process and controls, and to develop technical revenue recognition policies for new products and changes in commercial strategy\n\n• Own internal controls for revenue transactions and reporting, and partner with Internal Audit to develop and maintain a strong, high-quality internal controls environment\n\n• Partner closely with Revenue Systems and Business Systems teams to identify and implement changes in processes to increase automation and improve productivity and accuracy. Identify opportunities to automate manual processes using AI.\n\n• Lead external audit regarding annual audit requirements for revenue, accounts receivable, allowances, deferred revenue, and commissions\n\n• Work closely with SEC Reporting team and Investor Relations to review financial statement footnotes, earnings, and disclosures related to ARR, revenue, and accounts receivable\n\n• Support ongoing M&A activity, including overseeing revenue due diligence, opening balance sheet, and post-acquisition integration activities\n\n• Conduct ad hoc analysis and reviews based on inquiries from senior management\n\n• Support strategic company projects/initiatives and apply critical thinking skills to provide solutions that drive company performance\n\n• Coach, mentor, and develop a high-performing global team.\n\n• This role will require domestic and international travel.\n\nWhat You Have\n\n• BA/BS degree in Accounting or related field\n\n• CPA or equivalent professional designation is required\n\n• 10+ years of total experience with 5 or more years of Big-4 public accounting firm experience, combined with relevant industry experience, preferably in the SaaS or software industry space\n\n• Strong knowledge of ASC 606, Revenue Recognition, including associated issues and technical interpretations\n\n• Exceptional people management skills, with a strong interest in team development, preferably with prior international team management experience\n\n• Ability to work effectively with all levels of an organization and manage relationships with external parties, including strong communication skills, and the ability to discuss financial statement implications with a non-technical audience\n\n• Strong, detail-oriented analytical skills with the ability to recognize problems, gather data, draw valid conclusions, and make effective, business-oriented recommendations\n\n• Ability to manage competing priorities and deadlines, with a collaborative, solutions-oriented approach\n\n• Interest in building and refining processes in a scaling business environment, with a strong interest in continuous improvement\n\n• Strong sense of ownership with a proactive, self-starter mindset\n\n• Experience with NetSuite, SFDC, Zuora, or other relevant systems is a plus\n\n#LI-MF1\n\nPay ranges at Yext are established based on an analysis of salaries for positions with a similar level of accountability and impact in the relevant labor market. Salary levels are expected to change to reflect an employee’s job performance (results and impact) over time. Salaries at the time of hire are typically offered in the lower to middle of the above-referenced range in order to provide the opportunity to reflect performance-based increases over time. In addition to base salaries, employees at Yext are typically eligible for a comprehensive package of benefits including medical, dental and vision benefits; life insurance; short term and long-term disability; 401(k) retirement plan; and vacation and sick leave. Successful candidates may also be eligible for variable pay programs based on performance relative to goals and targets.\n\nAnnual Base Pay Range\n\n$142,650—$263,000 USD\n\nYext is an equal opportunity employer committed to building a results-driven, engaging culture where every employee has the opportunity to contribute to the success of the Company, perform at the highest possible level, and grow their skills and capabilities. Yext welcomes employees and applicants of all backgrounds and demographics, and does not engage in discrimination on the basis of any protected characteristic recognized under applicable law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. The Company believes a broad variety of life experiences across the Yext team is critical to its mission to help every business in the world be visible everywhere customers search. By seeking out fresh perspectives and fostering a positive interview experience and employee experience, Yext can remain at the forefront of innovation, and better serve its customers.\n\nIt is Yext’s policy to provide reasonable accommodations to people with disabilities as required by applicable law. If you have a disability that requires an accommodation in completing this application, interviewing, or participating in the employee selection process, please complete this form.\n\nSecurity Alert\n\nAll legitimate Yext communications come from @yext.com email addresses. Messages from other domains (for example, @yext.team) are not authorized and are likely fraudulent. If you receive a message that seems suspicious, do not share personal information, click on links, or provide payment. Instead, please report the communication to security@yext.com.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

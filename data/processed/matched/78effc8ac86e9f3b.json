@@ -1,0 +1,312 @@
+{
+  "posting_id": "78effc8ac86e9f3b",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "78effc8ac86e9f3b-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Serving as a finance partner to business leaders is advisory and cross-functional relationship work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Owning the full forecast cycle is FP&A planning work that is not covered by the cash-forecast capability and is a classic automation gap.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Building the annual operating plan is budgeting and long-range planning, which is outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Building monthly planning is FP&A planning/modeling work with no matching capability on the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Building quarterly planning is a planning-model task that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Bottoms-up budget builds are budgeting models, which are explicitly outside the covered capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Headcount planning is an FP&A planning model and does not match any covered capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Scenario modeling for executives is planning work and not one of the listed finance-operations capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Investment analysis is broader FP&A analysis and does not map cleanly to a covered reporting or accounting capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Dynamic headcount models are planning models and are outside the covered set.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Dynamic OpEx models are budgeting/planning models, which are not covered capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Dynamic unit economics models are FP&A planning models with no matching capability on the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Leading monthly business reviews and presenting a point of view is leadership presentation work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Leading quarterly business reviews is a leadership and presentation duty, not an automated finance-operation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Proactively surfacing risks requires judgment and advisory work rather than a covered operational capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Proactively surfacing opportunities is strategic advisory work and therefore human-led.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Surfacing financial implications of strategic choices is judgment-heavy advising, not a covered automated workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering cross-functionally with Accounting is relationship and collaboration work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering cross-functionally with Sales Finance is collaboration and advisory work rather than an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Connecting operational drivers to financial outcomes for other business units is advisory cross-functional work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Contributing to core FP&A processes is too vague to map to a specific covered or gap capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-22",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.97,
+      "rationale": "Monthly flux analysis matches variance analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-23",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.96,
+      "rationale": "Monthly variance analysis is the same core action as flux analysis with commentary support.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Providing Board narrative support is board-facing advisory/presentation work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-25",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.78,
+      "rationale": "Providing ELT forecast reporting is recurring management reporting for leadership.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-26",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Maintaining corporate financial systems is operational system administration with no matching capability listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-27",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Improving corporate financial systems is too broad and could describe a project rather than a specific finance-operation task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-28",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Maintaining rollforwards is vague without knowing whether it refers to a specific covered subledger schedule.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-29",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Improving rollforwards is too vague to map cleanly to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-30",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Maintaining planning infrastructure is vague and does not identify a specific covered finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-31",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Improving planning infrastructure is a broad project statement with no specific mapped capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-32",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.81,
+      "rationale": "Automating recurring variance reporting is building recurring management reports for leadership.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-33",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.84,
+      "rationale": "Automating recurring commentary aligns with variance commentary generation from flux analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "78effc8ac86e9f3b-34",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Automating recurring scenario planning is FP&A planning-model automation with no matching capability on the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    }
+  ]
+}

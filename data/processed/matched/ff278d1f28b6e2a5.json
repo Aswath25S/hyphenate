@@ -1,0 +1,303 @@
+{
+  "posting_id": "ff278d1f28b6e2a5",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "ff278d1f28b6e2a5-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "This is people management of an AP team, which is managerial work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Mentoring AP specialists is staff development and coaching, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Developing specialists is training and talent development, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Fostering accountability is team management and oversight, not a platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Fostering growth is people leadership and coaching, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Fostering high performance is a management responsibility rather than an automatable finance task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Overseeing end-to-end AP operations is overall operational management, not a specific platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-08",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.95,
+      "rationale": "Processing invoice processing maps to reading and coding vendor bills to the GL, class and entity.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-09",
+      "label": "assisted",
+      "capability_id": "p2p.payments",
+      "confidence": 0.95,
+      "rationale": "Processing vendor payments matches preparing payment runs and vendor payments, though approval or timing may still need human oversight.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Expense reimbursements are repetitive AP work but are not covered by the listed AP payment capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-11",
+      "label": "assisted",
+      "capability_id": "p2p.payments",
+      "confidence": 0.94,
+      "rationale": "Managing domestic vendor payments maps to preparing and processing payment runs.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-12",
+      "label": "assisted",
+      "capability_id": "p2p.payments",
+      "confidence": 0.94,
+      "rationale": "Managing international vendor payments still matches payment-run preparation and processing, with possible human oversight for exceptions.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Handling foreign currency transactions is finance operations work but no listed capability covers FX transaction handling.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Ensuring compliance with local regulations is a policy/compliance oversight duty rather than a defined automation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with other functions is collaboration and advisory work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-16",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.96,
+      "rationale": "Ensuring proper GL coding matches coding vendor invoices to the correct GL, class and entity.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Streamlining workflows is too vague to map to a specific finance-operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Year-end 1099 processing is a repetitive tax/reporting task that is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Submitting year-end 1099 forms is a tax filing task outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Preparing sales tax allocation reports is tax compliance work that is not covered here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Maintaining compliance with laws and regulations is compliance oversight and policy work, which is not a platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-22",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.95,
+      "rationale": "Owning month-end close activities maps to running month-end close checklist tasks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-23",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.9,
+      "rationale": "Performing reconciliations matches balance-sheet account reconciliations and account analysis.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-24",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Preparing reporting is too vague to determine whether it is management reporting, audit support, or another task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-25",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Driving process improvements is a broad initiative with no specific automatable finance action stated.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-26",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Driving automation is too broad and describes an initiative rather than a specific covered capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-27",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Driving system enhancements is a project/initiative statement without a specific covered operational action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Maintaining positive vendor relationships is relationship management, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Resolving escalations is relationship handling and judgment work, not a specific automated workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-30",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.95,
+      "rationale": "Supporting audits matches preparing audit support and PBC documentation, with humans still involved in the audit relationship.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-31",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.86,
+      "rationale": "Providing documentation fits audit support and supporting documentation for entries, though the context is broad.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-32",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Providing explanations is too vague without knowing whether it is audit, variance, or vendor communication.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ff278d1f28b6e2a5-33",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Providing process insights is too vague to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

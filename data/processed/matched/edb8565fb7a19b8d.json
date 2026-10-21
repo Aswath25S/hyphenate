@@ -1,0 +1,177 @@
+{
+  "posting_id": "edb8565fb7a19b8d",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "edb8565fb7a19b8d-01",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.81,
+      "rationale": "The duty is to analyze cloud-hosting COGS drivers and spending patterns, which matches driver analysis of spend using source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-02",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.77,
+      "rationale": "Breaking hosting spend down by area is a source-data spend analysis task that fits driver analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-03",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.77,
+      "rationale": "Breaking hosting spend down by customer is an analysis of spend drivers by segment, which matches driver analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-04",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.82,
+      "rationale": "Understanding customer-level usage and margin is a source-data driver analysis of customer behavior and profitability.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-05",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.69,
+      "rationale": "Taking ownership of a BI and planning tool is too vague and sounds like system ownership rather than a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-06",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.87,
+      "rationale": "Building and maintaining reports matches recurring management reporting work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Supporting forecasting is FP&A planning work and no listed capability covers general forecasting models.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-08",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.9,
+      "rationale": "Supporting monthly and quarterly close maps to executing close checklist tasks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Partnering with engineering is cross-functional collaboration and relationship work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-10",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.88,
+      "rationale": "Capitalizing engineering time for product development matches R&D capitalization under fixed assets/subledger accounting.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Running forecasting for the R&D organization is an FP&A planning model task with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Running planning for the R&D organization is budgeting and planning work that is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Headcount planning is an FP&A staffing model task and does not match a covered finance-ops capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Software planning is a planning-model activity and no listed capability covers that FP&A work.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Tracking AI/LLM tooling costs is spend monitoring and cost analysis that does not match a specific listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Helping manage AI/LLM tooling costs is cost monitoring and control work outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Monitoring usage against budget is budget-versus-actual planning analysis, which is not a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Collaborating cross-functionally with other teams to improve processes and reporting is partnership and coordination work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-19",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.93,
+      "rationale": "Supporting ad-hoc analysis matches answering finance questions with source-data analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

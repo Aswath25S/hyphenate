@@ -6,25 +6,30 @@
   "title": "Senior Accountant",
   "role_family": "GL",
   "seniority": "senior",
-  "n": 11,
-  "C": 3,
-  "A": 5,
-  "covered_share": 0.2727272727272727,
-  "overlap": 0.7272727272727273,
-  "weighted_overlap": 0.5,
+  "n": 15,
+  "C": 2,
+  "A": 4,
+  "covered_share": 0.13333333333333333,
+  "overlap": 0.4,
+  "weighted_overlap": 0.26666666666666666,
   "thin": false,
   "salary_min": 95000,
   "salary_max": 112500,
   "salary_varies": false,
   "salary_source": "posting_text",
-  "savings": 12954.545454545454,
+  "savings": 6333.333333333333,
   "savings_reason": null,
   "lead_product": "GL accounting",
   "product_split": {
     "GL accounting": {
-      "covered": 2,
-      "assisted": 5,
-      "weighted": 4.5
+      "covered": 1,
+      "assisted": 3,
+      "weighted": 2.5
+    },
+    "Reporting": {
+      "covered": 0,
+      "assisted": 1,
+      "weighted": 0.5
     },
     "Procure-to-pay": {
       "covered": 1,
@@ -35,13 +40,15 @@
   "erp": [
     "Workday"
   ],
-  "tools": [],
+  "tools": [
+    "Excel"
+  ],
   "posted_at": "2026-09-15T21:06:11.824+00:00",
   "source_url": "https://jobs.ashbyhq.com/lemonade/7bfec8fa-c2fd-4288-90a4-0e8b74061d4f",
   "locations": [
     "NYC"
   ],
-  "remote": "unknown",
+  "remote": "onsite",
   "excluded": null,
   "text": "We're looking for a Senior Accountant to help drive automation, transparency, and greater efficiency across Lemonade's financial operations. You'll sit within our Finance team, playing a key role in the month-end close process and the daily financial operations that keep the business running smoothly. This isn't a back-office role — you'll be an integral part of projects that help us scale, with real ownership over the processes you touch.\n\nWe believe three things matter for every role at Lemonade: drive to push through challenges, efficiency that keeps standards high while moving fast, and adaptability that lets you pivot with data and AI insights. These aren't buzzwords, they're how we actually work.\n\nOur AI-first approach isn't just a tagline either. We're building the future of insurance with AI at the center, and we need people who are genuinely excited to learn and grow alongside these tools.\n\n\n\n\nIN THIS ROLE YOU'LL\n\n - Prepare and post journal entries and manage accrual schedules with accuracy and timeliness\n\n - Own monthly workbooks and take a leading role in key areas of the month and year-end close process\n\n - Manage balance sheet reconciliation schedules and perform P&L analytics that surface meaningful insights\n\n - Review supplier invoices and expense reports, keeping financial operations clean and compliant\n\n - Support cash-related transactions and broader financial operations processes\n\n - Drive quarterly and annual external audit requirements, acting as a reliable partner to auditors\n\n\nWHAT YOU'LL NEED\n\n - 3-5 years of experience in public or private accounting, with a record of noteworthy accomplishments\n\n - Strong understanding of US GAAP and financial statements\n\n - Solid experience working in a month-end close environment and owning processes start to finish\n\n - Advanced Excel skills\n\n - Experience with Workday ERP is a plus\n\n - A bachelor's degree in Accounting, Finance, or a related field\n\n - Ready to work in an office environment most days of the week\n\nPlease note that we are unable to sponsor applicants for work visas.\n\n\n\nUnfortunately, we cannot consider applicants from these states: Alaska, California, Colorado, Montana, Hawaii, New Mexico and Puerto Rico.\n\nLemonade's US base salary range for this full-time position is $95,000 - $112,500 plus equity + benefits. Our salary ranges are determined by role, level, and location. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Our competitive total rewards package includes comprehensive health & wellness coverage, equity, a 401(k) plan with employer match, 20 paid vacation days, and parental leave. Speak to your recruiter to hear more about the specific salary range for your preferred location and our total rewards package.",
   "extra_salary_lines": [],
@@ -50,7 +57,7 @@
     "max": 112500,
     "period": "year",
     "currency": "USD",
-    "raw_text": "Lemonade's US base salary range for this full-time position is $95,000 - $112,500 plus equity + benefits. Our salary ranges are determined by role, level, and location. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Our competitive total rewards package includes comprehensive health & wellness coverage, equity, a 401(k) plan with employer match, 20 paid vacation days, and parental leave. Speak to your recruiter to hear more about the specific salary range for your preferred location and our total rewards package."
+    "raw_text": "Lemonade's US base salary range for this full-time position is $95,000 - $112,500 plus equity + benefits."
   },
   "complexity": {
     "multi_entity": false,
@@ -60,12 +67,138 @@
     "entity_count": null
   },
   "pain_phrases": [],
-  "fetched_at": "2026-10-21T03:26:56.860Z",
+  "fetched_at": "2026-10-21T17:34:15.612Z",
   "ats": "ashby",
   "duties": [
     {
-      "duty_id": "e41b5102e70d4f15-h01",
-      "text": "Prepare and post journal entries",
+      "duty_id": "e41b5102e70d4f15-01",
+      "text": "We're looking for a Senior Accountant to help drive automation, transparency, and greater efficiency across Lemonade's financial operations.",
+      "source_span": "We're looking for a Senior Accountant to help drive automation, transparency, and greater efficiency across Lemonade's financial operations.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 0,
+        "end": 140
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-02",
+      "text": "You'll sit within our Finance team, playing a key role in the month-end close process and the daily financial operations that keep the business running smoothly.",
+      "source_span": "You'll sit within our Finance team, playing a key role in the month-end close process and the daily financial operations that keep the business running smoothly.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 141,
+        "end": 302
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-03",
+      "text": "This isn't a back-office role — you'll be an integral part of projects that help us scale, with real ownership over the processes you touch.",
+      "source_span": "This isn't a back-office role — you'll be an integral part of projects that help us scale, with real ownership over the processes you touch.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 303,
+        "end": 443
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-04",
+      "text": "We believe three things matter for every role at Lemonade: drive to push through challenges, efficiency that keeps standards high while moving fast, and adaptability that lets you pivot with data and AI insights.",
+      "source_span": "We believe three things matter for every role at Lemonade: drive to push through challenges, efficiency that keeps standards high while moving fast, and adaptability that lets you pivot with data and AI insights.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 445,
+        "end": 657
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-05",
+      "text": "Our AI-first approach isn't just a tagline either.",
+      "source_span": "Our AI-first approach isn't just a tagline either.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 713,
+        "end": 763
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-06",
+      "text": "We're building the future of insurance with AI at the center, and we need people who are genuinely excited to learn and grow alongside these tools.",
+      "source_span": "We're building the future of insurance with AI at the center, and we need people who are genuinely excited to learn and grow alongside these tools.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 764,
+        "end": 911
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-07",
+      "text": "Prepare journal entries",
       "source_span": "Prepare and post journal entries",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -80,20 +213,41 @@
       "capability_id": "gl.journal_entries",
       "capability": "Prepare and post journal entries",
       "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Preparing journal entries matches the journal entry preparation capability, which is assisted because it still requires accounting judgment.",
       "gap_theme": null
     },
     {
-      "duty_id": "e41b5102e70d4f15-h02",
-      "text": "Manage accrual schedules",
-      "source_span": "manage accrual schedules",
+      "duty_id": "e41b5102e70d4f15-08",
+      "text": "Post journal entries",
+      "source_span": "and post journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 948,
+        "end": 972
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.journal_entries",
+      "capability": "Prepare and post journal entries",
+      "product": "GL accounting",
+      "confidence": 0.98,
+      "rationale": "Posting journal entries is the core journal entry workflow and fits the assisted journal-entry capability.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-09",
+      "text": "Manage accrual schedules with accuracy and timeliness",
+      "source_span": "manage accrual schedules with accuracy and timeliness",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 977,
-        "end": 1001
+        "end": 1030
       },
       "label": "assisted",
       "model_label": "assisted",
@@ -101,13 +255,13 @@
       "capability_id": "gl.accruals",
       "capability": "Estimate accruals from history, POs and budget",
       "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.97,
+      "rationale": "Managing accrual schedules is accrual estimation and recording, which matches the assisted accruals capability.",
       "gap_theme": null
     },
     {
-      "duty_id": "e41b5102e70d4f15-h03",
-      "text": "Own monthly close workbooks",
+      "duty_id": "e41b5102e70d4f15-10",
+      "text": "Own monthly workbooks",
       "source_span": "Own monthly workbooks",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -116,19 +270,23 @@
         "start": 1035,
         "end": 1056
       },
-      "label": "covered",
-      "model_label": "covered",
+      "label": "unclear",
+      "model_label": "unclear",
       "adjusted": null,
-      "capability_id": "gl.close_checklist",
-      "capability": "Run month-end close checklist tasks",
-      "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "gap_theme": null
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.69,
+      "rationale": "Own monthly workbooks is too vague to map to a specific finance-operations capability.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
     },
     {
-      "duty_id": "e41b5102e70d4f15-h04",
-      "text": "Lead key areas of the month and year-end close",
+      "duty_id": "e41b5102e70d4f15-11",
+      "text": "Take a leading role in key areas of the month-end close process",
       "source_span": "take a leading role in key areas of the month and year-end close process",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -137,18 +295,47 @@
         "start": 1061,
         "end": 1133
       },
-      "label": "assisted",
-      "model_label": "assisted",
+      "label": "human",
+      "model_label": "human",
       "adjusted": null,
-      "capability_id": "gl.close_checklist",
-      "capability": "Run month-end close checklist tasks",
-      "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "gap_theme": null
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Taking a leading role in month-end close is managing the close process, which is a human leadership duty.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
     },
     {
-      "duty_id": "e41b5102e70d4f15-h05",
+      "duty_id": "e41b5102e70d4f15-12",
+      "text": "Take a leading role in key areas of the year-end close process",
+      "source_span": "take a leading role in key areas of the month and year-end close process",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1061,
+        "end": 1133
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Taking a leading role in year-end close is process leadership rather than an automatable system task.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-13",
       "text": "Manage balance sheet reconciliation schedules",
       "source_span": "Manage balance sheet reconciliation schedules",
       "is_boilerplate": false,
@@ -164,13 +351,13 @@
       "capability_id": "gl.account_recs",
       "capability": "Balance-sheet account reconciliations",
       "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.95,
+      "rationale": "Managing balance sheet reconciliation schedules is part of balance-sheet account reconciliation work.",
       "gap_theme": null
     },
     {
-      "duty_id": "e41b5102e70d4f15-h06",
-      "text": "Perform P&L analytics",
+      "duty_id": "e41b5102e70d4f15-14",
+      "text": "Perform P&L analytics that surface meaningful insights",
       "source_span": "perform P&L analytics that surface meaningful insights",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -182,15 +369,15 @@
       "label": "assisted",
       "model_label": "assisted",
       "adjusted": null,
-      "capability_id": "gl.flux",
-      "capability": "Variance (flux) analysis with draft commentary",
-      "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "capability_id": "rep.adhoc_analysis",
+      "capability": "Answer finance questions traced to source entries",
+      "product": "Reporting",
+      "confidence": 0.74,
+      "rationale": "Performing P&L analytics is financial analysis that fits the assisted ad hoc analysis capability.",
       "gap_theme": null
     },
     {
-      "duty_id": "e41b5102e70d4f15-h07",
+      "duty_id": "e41b5102e70d4f15-15",
       "text": "Review supplier invoices",
       "source_span": "Review supplier invoices",
       "is_boilerplate": false,
@@ -206,19 +393,19 @@
       "capability_id": "p2p.bill_capture",
       "capability": "Read and code vendor bills to GL, class and entity",
       "product": "Procure-to-pay",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.95,
+      "rationale": "Reviewing supplier invoices matches vendor bill review and coding in procure-to-pay.",
       "gap_theme": null
     },
     {
-      "duty_id": "e41b5102e70d4f15-h08",
+      "duty_id": "e41b5102e70d4f15-16",
       "text": "Review expense reports",
-      "source_span": "expense reports",
+      "source_span": "and expense reports",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 1276,
+        "start": 1272,
         "end": 1291
       },
       "label": "gap_candidate",
@@ -227,23 +414,48 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Reviewing expense reports is a repetitive AP-style review task that is explicitly outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "expense_review",
-        "name": "Expense report review",
+        "theme_id": "process_automation",
+        "name": "Process automation",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "e41b5102e70d4f15-h09",
-      "text": "Support cash transactions and financial operations",
-      "source_span": "Support cash-related transactions and broader financial operations processes",
+      "duty_id": "e41b5102e70d4f15-17",
+      "text": "Support cash-related transactions",
+      "source_span": "Support cash-related transactions",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 1346,
+        "end": 1379
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.8,
+      "rationale": "Support cash-related transactions is too broad to determine whether it means cash application, payments, or something else.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-18",
+      "text": "Support broader financial operations processes",
+      "source_span": "and broader financial operations processes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1380,
         "end": 1422
       },
       "label": "unclear",
@@ -252,17 +464,17 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.94,
+      "rationale": "Support broader financial operations processes is too vague to map to one specific capability.",
       "gap_theme": {
-        "theme_id": "vague_support",
-        "name": "Vague support duties",
-        "bucket": "unclear"
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
       }
     },
     {
-      "duty_id": "e41b5102e70d4f15-h10",
-      "text": "Drive quarterly and annual external audit requirements",
+      "duty_id": "e41b5102e70d4f15-19",
+      "text": "Drive quarterly external audit requirements",
       "source_span": "Drive quarterly and annual external audit requirements",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -271,19 +483,48 @@
         "start": 1427,
         "end": 1481
       },
-      "label": "assisted",
-      "model_label": "assisted",
+      "label": "human",
+      "model_label": "human",
       "adjusted": null,
-      "capability_id": "gl.audit_support",
-      "capability": "Audit trail and support for each entry",
-      "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "gap_theme": null
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Driving external audit requirements implies managing the auditor relationship, which is a human duty.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
     },
     {
-      "duty_id": "e41b5102e70d4f15-h11",
-      "text": "Partner with auditors",
+      "duty_id": "e41b5102e70d4f15-20",
+      "text": "Drive annual external audit requirements",
+      "source_span": "Drive quarterly and annual external audit requirements",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1427,
+        "end": 1481
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Driving annual external audit requirements is external auditor management, which is a human relationship task.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-21",
+      "text": "Act as a reliable partner to auditors",
       "source_span": "acting as a reliable partner to auditors",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -298,13 +539,202 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Acting as a reliable partner to auditors is a relationship-management duty with external auditors.",
       "gap_theme": {
-        "theme_id": "auditor_relationships",
-        "name": "Auditor relationships",
-        "bucket": "human_work"
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
       }
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-22",
+      "text": "3-5 years of experience in public or private accounting, with a record of noteworthy accomplishments",
+      "source_span": "3-5 years of experience in public or private accounting, with a record of noteworthy accomplishments",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1547,
+        "end": 1647
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-23",
+      "text": "Strong understanding of US GAAP and financial statements",
+      "source_span": "Strong understanding of US GAAP and financial statements",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1652,
+        "end": 1708
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-24",
+      "text": "Solid experience working in a month-end close environment and owning processes start to finish",
+      "source_span": "Solid experience working in a month-end close environment and owning processes start to finish",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1713,
+        "end": 1807
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-25",
+      "text": "Advanced Excel skills",
+      "source_span": "Advanced Excel skills",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1812,
+        "end": 1833
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-26",
+      "text": "Experience with Workday ERP is a plus",
+      "source_span": "Experience with Workday ERP is a plus",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1838,
+        "end": 1875
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-27",
+      "text": "A bachelor's degree in Accounting, Finance, or a related field",
+      "source_span": "A bachelor's degree in Accounting, Finance, or a related field",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1880,
+        "end": 1942
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-28",
+      "text": "Ready to work in an office environment most days of the week",
+      "source_span": "Ready to work in an office environment most days of the week",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1947,
+        "end": 2007
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-29",
+      "text": "Please note that we are unable to sponsor applicants for work visas.",
+      "source_span": "Please note that we are unable to sponsor applicants for work visas.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 2009,
+        "end": 2077
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-30",
+      "text": "Unfortunately, we cannot consider applicants from these states: Alaska, California, Colorado, Montana, Hawaii, New Mexico and Puerto Rico.",
+      "source_span": "Unfortunately, we cannot consider applicants from these states: Alaska, California, Colorado, Montana, Hawaii, New Mexico and Puerto Rico.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 2081,
+        "end": 2219
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
     }
   ]
 }

@@ -1,0 +1,1832 @@
+{
+  "posting_id": "15246f2ca318bac0",
+  "company": "Instawork",
+  "slug": "instawork",
+  "domain": "instawork.com",
+  "title": "Finance Automation Lead",
+  "role_family": "AR",
+  "seniority": "manager",
+  "n": 54,
+  "C": 14,
+  "A": 7,
+  "covered_share": 0.25925925925925924,
+  "overlap": 0.3888888888888889,
+  "weighted_overlap": 0.32407407407407407,
+  "thin": false,
+  "salary_min": 110000,
+  "salary_max": 140000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 14259.25925925926,
+  "savings_reason": null,
+  "lead_product": "Procure-to-pay",
+  "product_split": {
+    "Order-to-cash": {
+      "covered": 2,
+      "assisted": 0,
+      "weighted": 2
+    },
+    "Reporting": {
+      "covered": 0,
+      "assisted": 2,
+      "weighted": 1
+    },
+    "Treasury": {
+      "covered": 4,
+      "assisted": 1,
+      "weighted": 4.5
+    },
+    "GL accounting": {
+      "covered": 3,
+      "assisted": 3,
+      "weighted": 4.5
+    },
+    "Procure-to-pay": {
+      "covered": 5,
+      "assisted": 1,
+      "weighted": 5.5
+    }
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Upflow",
+    "Salesforce",
+    "Workato",
+    "Zapier",
+    "n8n",
+    "Make",
+    "Excel",
+    "Google Sheets",
+    "Fieldglass",
+    "Beeline",
+    "Coupa",
+    "Ariba"
+  ],
+  "posted_at": "2026-10-09T12:10:54-04:00",
+  "source_url": "https://job-boards.greenhouse.io/instawork/jobs/4720633006",
+  "locations": [
+    "San Francisco, California, United States"
+  ],
+  "remote": "onsite",
+  "excluded": null,
+  "text": "Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we’re looking for exceptional talent to reimagine the way the world works.\n\nWe're looking for a builder to own Instawork's order-to-cash process and lead finance automation across the Finance team. The role is split roughly evenly: half on billing, collections, and cash conversion, and half on automating finance workflows beyond accounts receivable (AR), from close and reconciliations to Accounts Payable, treasury, and reporting. You'll oversee our offshore collections analysts, work directly with Account Managers, Sales and our business partners (customers) on billing and collection issues, and build AI-powered workflows that cut manual work across Finance. You'll start hands-on to learn how each process runs, then redesign it so it runs with far less manual effort. This position reports directly to the Controller and is based in our San Francisco office (downtown near public transit) and follows an onsite work model, requiring in-office presence 5 days a week.\n\nWhat You'll Do:\n\nOrder-to-Cash & Collections (~50%)\n\n• Own the collections strategy and the AR balance, with DSO and the cash conversion cycle as the main measures, and run a weekly cash review with Finance leadership.\n\n• Work directly with Sales, Account Management, and our business partners to resolve billing questions, disputes, and past-due balances. Serve as the escalation point for enterprise, MSA, and VMS accounts.\n\n• Find the root causes of late cash, such as billing errors, account setup that doesn't match the contract, portal approval delays, and drive fixes with Sales, Ops, and Product.\n\n• Own invoicing setup QA and cash application, and support month-end close with AR reconciliations and reserves.\n\n• Oversee and coach our collections analysts in the Philippines, setting priorities and performance expectations and shifting their work toward exception handling as automation takes over the routine flow.\n\n• Establish, maintain and own the credit approval process including running credit checks and working with Sales on creative credit options for potential new partners (customers)\n\n• Build AI agents and workflows for collections prioritization and outreach, remittance matching, dispute triage, VMS portal tracking, and pre-send invoice checks.\n\nFinance Automation (~50%)\n\n• Partner with the Accounting & FP&A (Finance) team to map manual workflows, rank automation opportunities by time saved and risk reduced, and manage a prioritized backlog.\n\n• Build and deploy AI/LLM-powered agents and workflows across Finance, such as bank and balance sheet reconciliations, journal entry preparation, accruals, close task tracking, and variance analysis.\n\n• Automate procure-to-pay and spend workflows, including invoice intake and coding, approvals, vendor onboarding, and payment runs.\n\n• Automate cash reporting, including daily cash positions, bank and payout reconciliations, cash forecast inputs, and lender compliance reporting.\n\n• Build integrations and data flows between NetSuite, our billing and payment systems, banks, and BI tools, and replace manual spreadsheets with automated dashboards and reports.\n\n• Design human-in-the-loop controls, audit trails, and documentation so automated outputs are accurate, auditable, and ready for external audit.\n\n• Train the Finance team on new tools, write runbooks, and own what you ship in production.\n\nWho You Are:\n\n• Recent, demonstrable experience building AI/LLM-powered or agentic workflows that run in a real operation and that people still use.\n\n• Working knowledge of core finance processes (order-to-cash, procure-to-pay, month-end close, reconciliations) and how they connect to the ERP.\n\n• Strong quantitative and problem-solving skills with advanced Excel/Google Sheets.\n\n• Experience with workflow automation or integration tools (e.g., Workato, Zapier, n8n, Make) or APIs.\n\n• Experience leading or developing people, including remote or offshore teams.\n\n• Confidence working directly with customers and Sales on billing and collection issues, and influencing teams you don't manage.\n\n• Ownership, urgency, and comfort working on messy, ambiguous problems in a fast-paced environment.\n\n• Nice to have experience in AR, billing, collections, or broader finance operations\n\n• Familiarity with systems such as NetSuite, Upflow, Salesforce, or VMS and procurement portals (e.g., Fieldglass, Beeline, Coupa, Ariba).\n\n• Familiarity with internal controls, SOX, or supporting external audits.\n\nFor CA Based Applicants:\n\n• The base salary for this position is between $110K to $140K\n\n• This position is eligible for equity in the form of stock options\n\n• This position is eligible for Instawork benefits, including:\n\n• Variety of medical, dental, and vision plans with coverage beginning on the date of hire\n\n• Flexible paid time off\n\n• At least 8 paid company holidays annually\n\n• Phone stipend\n\n• Commuter stipend\n\n• Supplemental pay on qualified leaves\n\n• Employee health savings accounts (HSA) contribution\n\n• Flexible spending plans\n\n• 401K plan\n\n• Perkspot - discount program through Lumity\n\n#LI-Onsite\n\nOur Values\n\n•\n\nEmpathy, Trust & Candor\nWe put ourselves in the shoes of our colleagues and customers and don’t shy away from uncomfortable conversations, instead building trust through honest and direct feedback.\n\n•\n\nBias for Action\nWe practice high-velocity decision-making, clear-eyed that we often operate with incomplete information. Growing quickly means it’s OK to be wrong, so long as we learn from our mistakes and course correct!\n\n•\n\nAlways Be Learning\nWe’re a curious bunch, and with AI transforming our workplace we encourage everyone to learn from each other, compounding our knowledge and experience to help us change an entire industry.\n\n•\n\nAct Like an Owner\nWe work long, hard, and smart, building products that delight our users and drive growth. Your ability to impact Instawork is limited only by your courage and conviction, not your job description.\n\nAbout Instawork\n\nFounded in 2015, Instawork is the nation’s leading online labor marketplace for food services, hospitality, light industry, and logistics, connecting more than 7M skilled workers with local restaurants, hotels, warehouses, stadiums, and more. Our AI-powered platform serves thousands of businesses across more than 50 major markets in the United States and Canada. We're not just helping fill shifts, we're supporting local economies—and we're just getting started!\n\nInstawork has been featured by CBS News, The Wall Street Journal, The Washington Post, and the Associated Press. Forbes included us on their Next Billion Dollar Startups list; RetailTech Breakthrough named us Workforce Hiring Solution of the Year for 2025; and Inc. 5000 recognized us as one of the country's top 10% fastest-growing companies two years in a row. But what matters most is our impact. We're solving real problems for real people, and we’re doing it at scale.\n\nJoin our team to help us build something that matters! We’re looking for superstars who want to help us shape the future of work. With hubs in San Francisco, Bangalore, and Chicago, city offices in New York, Phoenix, and Singapore, we're back to working together in-person five days a week because we believe the best ideas happen when great people collaborate face-to-face. We also value diverse perspectives and encourage applications from candidates of all backgrounds.\n\nReady to make an impact? Learn more at www.instawork.com/about.\n\nPersonnel Privacy Policy",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 110000,
+    "max": 140000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The base salary for this position is between $110K to $140K"
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "cut manual work",
+    "manual work across Finance",
+    "far less manual effort",
+    "manual workflows",
+    "manual spreadsheets",
+    "messy, ambiguous problems",
+    "start hands-on",
+    "learn how each process runs"
+  ],
+  "fetched_at": "2026-10-21T17:34:56.661Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "15246f2ca318bac0-01",
+      "text": "Own Instawork's order-to-cash process",
+      "source_span": "own Instawork's order-to-cash process",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 503,
+        "end": 540
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Owning the order-to-cash process is process leadership and coordination, not the platform executing a specific O2C task end to end.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-02",
+      "text": "Lead finance automation across the Finance team",
+      "source_span": "lead finance automation across the Finance team",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 545,
+        "end": 592
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Leading finance automation across the team is management and transformation work rather than a finance operation capability.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-03",
+      "text": "Own the collections strategy",
+      "source_span": "Own the collections strategy",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1429,
+        "end": 1457
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Owning the collections strategy is setting policy and approach, which is human judgment rather than collections execution.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-04",
+      "text": "Own the AR balance",
+      "source_span": "the AR balance",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1462,
+        "end": 1476
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.57,
+      "rationale": "Owning the AR balance is too vague to tell whether it means operational management, analysis, or reconciliation work.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-05",
+      "text": "Run a weekly cash review with Finance leadership",
+      "source_span": "run a weekly cash review with Finance leadership",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1543,
+        "end": 1591
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Running a weekly cash review with leadership is a meeting and presentation activity, not cash reporting execution.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-06",
+      "text": "Work directly with Sales, Account Management, and our business partners to resolve billing questions",
+      "source_span": "Work directly with Sales, Account Management, and our business partners to resolve billing questions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1596,
+        "end": 1696
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.orders_refunds",
+      "capability": "Process orders, refunds and sales triage",
+      "product": "Order-to-cash",
+      "confidence": 0.9,
+      "rationale": "Resolving billing questions with Sales and partners matches customer billing inquiry handling and resolution.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-07",
+      "text": "Work directly with Sales, Account Management, and our business partners to resolve disputes",
+      "source_span": "Work directly with Sales, Account Management, and our business partners to resolve billing questions, disputes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1596,
+        "end": 1706
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Resolving disputes with internal partners is relationship and judgment work rather than a defined platform workflow.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-08",
+      "text": "Work directly with Sales, Account Management, and our business partners to resolve past-due balances",
+      "source_span": "Work directly with Sales, Account Management, and our business partners to resolve billing questions, disputes, and past-due balances",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1596,
+        "end": 1729
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.collections",
+      "capability": "Send payment reminders and chase overdue invoices",
+      "product": "Order-to-cash",
+      "confidence": 0.97,
+      "rationale": "Resolving past-due balances is the core action of collections and dunning follow-up.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-09",
+      "text": "Serve as the escalation point for enterprise, MSA, and VMS accounts",
+      "source_span": "Serve as the escalation point for enterprise, MSA, and VMS accounts",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1731,
+        "end": 1798
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Serving as the escalation point for key accounts is human relationship management and negotiation support.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-10",
+      "text": "Find the root causes of late cash",
+      "source_span": "Find the root causes of late cash",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1803,
+        "end": 1836
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.driver_analysis",
+      "capability": "Explain changes using CRM, contract or bill data",
+      "product": "Reporting",
+      "confidence": 0.72,
+      "rationale": "Finding the root causes of late cash is driver analysis using source data, but it still requires interpretation.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-11",
+      "text": "Drive fixes with Sales, Ops, and Product",
+      "source_span": "drive fixes with Sales, Ops, and Product",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1937,
+        "end": 1977
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Driving fixes with Sales, Ops, and Product is cross-functional partnering and coordination work.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-12",
+      "text": "Own invoicing setup QA",
+      "source_span": "Own invoicing setup QA",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1982,
+        "end": 2004
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.61,
+      "rationale": "Owning invoicing setup QA is too vague to map cleanly to invoice creation or another specific capability.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-13",
+      "text": "Own cash application",
+      "source_span": "cash application",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2009,
+        "end": 2025
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "tre.cash_application",
+      "capability": "Match bank activity to open invoices and bills",
+      "product": "Treasury",
+      "confidence": 0.99,
+      "rationale": "Owning cash application is exactly matching incoming payments to open invoices.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-14",
+      "text": "Support month-end close with AR reconciliations",
+      "source_span": "support month-end close with AR reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2031,
+        "end": 2078
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.account_recs",
+      "capability": "Balance-sheet account reconciliations",
+      "product": "GL accounting",
+      "confidence": 0.92,
+      "rationale": "Supporting month-end close with AR reconciliations is a balance-sheet account reconciliation task.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-15",
+      "text": "Support month-end close with reserves",
+      "source_span": "and reserves",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2079,
+        "end": 2091
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.66,
+      "rationale": "Supporting month-end close with reserves is a rules-based accounting estimate that is not covered by a specific capability here.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-16",
+      "text": "Oversee and coach our collections analysts in the Philippines",
+      "source_span": "Oversee and coach our collections analysts in the Philippines",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2096,
+        "end": 2157
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Overseeing and coaching analysts is team management and people development work.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-17",
+      "text": "Set priorities and performance expectations",
+      "source_span": "setting priorities and performance expectations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2159,
+        "end": 2206
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Setting priorities and performance expectations is managerial leadership, not platform execution.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-18",
+      "text": "Shift their work toward exception handling as automation takes over the routine flow",
+      "source_span": "shifting their work toward exception handling as automation takes over the routine flow",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2211,
+        "end": 2298
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Shifting team work toward exception handling is managing work allocation and process change.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-19",
+      "text": "Establish, maintain and own the credit approval process",
+      "source_span": "Establish, maintain and own the credit approval process",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2303,
+        "end": 2358
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Establishing and owning the credit approval process is policy design and governance.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-20",
+      "text": "Run credit checks",
+      "source_span": "running credit checks",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2369,
+        "end": 2390
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.86,
+      "rationale": "Running credit checks is repetitive operational work, but no credit-check capability appears in the coverage map.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-21",
+      "text": "Work with Sales on creative credit options for potential new partners (customers)",
+      "source_span": "working with Sales on creative credit options for potential new partners (customers)",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2395,
+        "end": 2479
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Working with Sales on creative credit options is negotiating or advising on credit terms, which is human judgment.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-22",
+      "text": "Build AI agents and workflows for collections prioritization and outreach",
+      "source_span": "Build AI agents and workflows for collections prioritization and outreach",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2483,
+        "end": 2556
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.7,
+      "rationale": "Building AI agents and workflows is a technical implementation task that is not a listed finance-operations capability.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-23",
+      "text": "Build AI agents and workflows for remittance matching",
+      "source_span": "remittance matching",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2558,
+        "end": 2577
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.7,
+      "rationale": "Building AI agents for remittance matching is development work rather than the matching operation itself.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-24",
+      "text": "Build AI agents and workflows for dispute triage",
+      "source_span": "dispute triage",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2579,
+        "end": 2593
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.7,
+      "rationale": "Building AI agents for dispute triage is a technical build task, not a covered finance operation.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-25",
+      "text": "Build AI agents and workflows for VMS portal tracking",
+      "source_span": "VMS portal tracking",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2595,
+        "end": 2614
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.7,
+      "rationale": "Building AI agents for VMS portal tracking is implementation work outside the listed operational capabilities.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-26",
+      "text": "Build AI agents and workflows for pre-send invoice checks",
+      "source_span": "pre-send invoice checks",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2620,
+        "end": 2643
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.7,
+      "rationale": "Building AI agents for pre-send invoice checks is tooling development, not invoice creation or review execution.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-27",
+      "text": "Partner with the Accounting & FP&A (Finance) team to map manual workflows",
+      "source_span": "Partner with the Accounting & FP&A (Finance) team to map manual workflows",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2675,
+        "end": 2748
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with Accounting and FP&A to map workflows is cross-functional coordination and process discovery.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-28",
+      "text": "Rank automation opportunities by time saved and risk reduced",
+      "source_span": "rank automation opportunities by time saved and risk reduced",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2750,
+        "end": 2810
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Ranking automation opportunities is prioritization and judgment, not a finance operation task.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-29",
+      "text": "Manage a prioritized backlog",
+      "source_span": "manage a prioritized backlog",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2816,
+        "end": 2844
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Managing a prioritized backlog is project management work.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-30",
+      "text": "Build and deploy AI/LLM-powered agents and workflows across Finance",
+      "source_span": "Build and deploy AI/LLM-powered agents and workflows across Finance",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2849,
+        "end": 2916
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.68,
+      "rationale": "Building and deploying AI/LLM workflows is product/engineering implementation rather than a specific finance-operations workflow.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-31",
+      "text": "Automate bank and balance sheet reconciliations",
+      "source_span": "bank and balance sheet reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2926,
+        "end": 2964
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.account_recs",
+      "capability": "Balance-sheet account reconciliations",
+      "product": "GL accounting",
+      "confidence": 0.88,
+      "rationale": "Automating bank and balance sheet reconciliations matches the reconciliation work the platform performs, with balance-sheet recs as the clearest fit.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-32",
+      "text": "Automate journal entry preparation",
+      "source_span": "journal entry preparation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2966,
+        "end": 2991
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.journal_entries",
+      "capability": "Prepare and post journal entries",
+      "product": "GL accounting",
+      "confidence": 0.97,
+      "rationale": "Automating journal entry preparation matches journal entry work, but preparation still needs accounting judgment.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-33",
+      "text": "Automate accruals",
+      "source_span": "accruals",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2993,
+        "end": 3001
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.accruals",
+      "capability": "Estimate accruals from history, POs and budget",
+      "product": "GL accounting",
+      "confidence": 0.96,
+      "rationale": "Automating accruals matches estimated accrual preparation, which still depends on assumptions and review.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-34",
+      "text": "Automate close task tracking",
+      "source_span": "close task tracking",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3003,
+        "end": 3022
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.close_checklist",
+      "capability": "Run month-end close checklist tasks",
+      "product": "GL accounting",
+      "confidence": 0.99,
+      "rationale": "Automating close task tracking is exactly the close checklist workflow.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-35",
+      "text": "Automate variance analysis",
+      "source_span": "variance analysis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3028,
+        "end": 3045
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.flux",
+      "capability": "Variance (flux) analysis with draft commentary",
+      "product": "GL accounting",
+      "confidence": 0.95,
+      "rationale": "Automating variance analysis matches flux analysis, but explanatory commentary still involves judgment.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-36",
+      "text": "Automate procure-to-pay workflows",
+      "source_span": "Automate procure-to-pay and spend workflows",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3050,
+        "end": 3093
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.bill_capture",
+      "capability": "Read and code vendor bills to GL, class and entity",
+      "product": "Procure-to-pay",
+      "confidence": 0.71,
+      "rationale": "Automating procure-to-pay workflows falls within AP invoice processing and related P2P workflow automation.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-37",
+      "text": "Automate spend workflows",
+      "source_span": "Automate procure-to-pay and spend workflows",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3050,
+        "end": 3093
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.approvals",
+      "capability": "Route approvals by policy",
+      "product": "Procure-to-pay",
+      "confidence": 0.8,
+      "rationale": "Automating spend workflows most directly aligns to policy-based approval routing.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-38",
+      "text": "Automate invoice intake and coding",
+      "source_span": "invoice intake and coding",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3105,
+        "end": 3130
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.bill_capture",
+      "capability": "Read and code vendor bills to GL, class and entity",
+      "product": "Procure-to-pay",
+      "confidence": 0.99,
+      "rationale": "Automating invoice intake and coding is the core bill capture workflow.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-39",
+      "text": "Automate approvals",
+      "source_span": "approvals",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3132,
+        "end": 3141
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.approvals",
+      "capability": "Route approvals by policy",
+      "product": "Procure-to-pay",
+      "confidence": 0.99,
+      "rationale": "Automating approvals is exactly the policy-based AP approval workflow.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-40",
+      "text": "Automate vendor onboarding",
+      "source_span": "vendor onboarding",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3143,
+        "end": 3160
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.vendor_followup",
+      "capability": "Chase vendors for missing invoices or details",
+      "product": "Procure-to-pay",
+      "confidence": 0.86,
+      "rationale": "Automating vendor onboarding aligns with vendor master data and W-9 follow-up work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-41",
+      "text": "Automate payment runs",
+      "source_span": "payment runs",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3166,
+        "end": 3178
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "p2p.payments",
+      "capability": "Prepare payment runs for approval",
+      "product": "Procure-to-pay",
+      "confidence": 0.96,
+      "rationale": "Automating payment runs matches payment preparation, but final release typically needs approval.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-42",
+      "text": "Automate cash reporting",
+      "source_span": "Automate cash reporting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3183,
+        "end": 3206
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "tre.cash_position",
+      "capability": "Cash position across accounts, entities and banks",
+      "product": "Treasury",
+      "confidence": 0.98,
+      "rationale": "Automating cash reporting is the same as producing the cash position report.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-43",
+      "text": "Automate daily cash positions",
+      "source_span": "daily cash positions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3218,
+        "end": 3238
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "tre.cash_position",
+      "capability": "Cash position across accounts, entities and banks",
+      "product": "Treasury",
+      "confidence": 0.99,
+      "rationale": "Automating daily cash positions directly matches cash position reporting across accounts.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-44",
+      "text": "Automate bank and payout reconciliations",
+      "source_span": "bank and payout reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3240,
+        "end": 3271
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "tre.bank_rec",
+      "capability": "Daily bank reconciliation",
+      "product": "Treasury",
+      "confidence": 0.95,
+      "rationale": "Automating bank and payout reconciliations is daily bank reconciliation work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-45",
+      "text": "Automate cash forecast inputs",
+      "source_span": "cash forecast inputs",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3273,
+        "end": 3293
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "tre.forecast",
+      "capability": "13-week cash forecast",
+      "product": "Treasury",
+      "confidence": 0.92,
+      "rationale": "Automating cash forecast inputs supports the 13-week cash forecast, which still requires judgment.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-46",
+      "text": "Automate lender compliance reporting",
+      "source_span": "lender compliance reporting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3299,
+        "end": 3326
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.85,
+      "rationale": "Automating lender compliance reporting is repetitive finance reporting work with no matching capability in the map.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-47",
+      "text": "Build integrations and data flows between NetSuite, our billing and payment systems, banks, and BI tools",
+      "source_span": "Build integrations and data flows between NetSuite, our billing and payment systems, banks, and BI tools",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3331,
+        "end": 3435
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.78,
+      "rationale": "Building integrations and data flows is systems engineering work, not a defined finance-operations capability.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-48",
+      "text": "Replace manual spreadsheets with automated dashboards and reports",
+      "source_span": "replace manual spreadsheets with automated dashboards and reports",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3441,
+        "end": 3506
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.89,
+      "rationale": "Replacing spreadsheets with automated dashboards and reports matches management reporting and recurring leadership reporting.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-49",
+      "text": "Design human-in-the-loop controls",
+      "source_span": "Design human-in-the-loop controls",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3511,
+        "end": 3544
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Designing human-in-the-loop controls is control framework design, which requires human judgment.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-50",
+      "text": "Design audit trails",
+      "source_span": "audit trails",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3546,
+        "end": 3558
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Designing audit trails is framework and governance design rather than an execution workflow.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-51",
+      "text": "Design documentation",
+      "source_span": "documentation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3564,
+        "end": 3577
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Designing documentation is documentation planning work, not a specific operational capability.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-52",
+      "text": "Train the Finance team on new tools",
+      "source_span": "Train the Finance team on new tools",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3657,
+        "end": 3692
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Training the Finance team is people enablement and change management.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-53",
+      "text": "Write runbooks",
+      "source_span": "write runbooks",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3694,
+        "end": 3708
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.64,
+      "rationale": "Writing runbooks is operational documentation work, but it is too generic to map to a specific capability.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-54",
+      "text": "Own what you ship in production",
+      "source_span": "own what you ship in production",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3714,
+        "end": 3745
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.62,
+      "rationale": "Owning what you ship in production is too vague and sounds like broad product accountability rather than a finance operation task.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "15246f2ca318bac0-55",
+      "text": "Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe.",
+      "source_span": "Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 0,
+        "end": 135
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-56",
+      "text": "Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI.",
+      "source_span": "Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 136,
+        "end": 280
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-57",
+      "text": "Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we’re looking for exceptional talent to reimagine the way the world works.",
+      "source_span": "Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we’re looking for exceptional talent to reimagine the way the world works.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 281,
+        "end": 470
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-58",
+      "text": "Empathy, Trust & Candor",
+      "source_span": "Empathy, Trust & Candor",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5475,
+        "end": 5498
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-59",
+      "text": "Bias for Action",
+      "source_span": "Bias for Action",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5677,
+        "end": 5692
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-60",
+      "text": "Always Be Learning",
+      "source_span": "Always Be Learning",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5903,
+        "end": 5921
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-61",
+      "text": "Act Like an Owner",
+      "source_span": "Act Like an Owner",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 6115,
+        "end": 6132
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-62",
+      "text": "Join our team to help us build something that matters!",
+      "source_span": "Join our team to help us build something that matters!",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 7290,
+        "end": 7344
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-63",
+      "text": "This position is eligible for equity in the form of stock options",
+      "source_span": "This position is eligible for equity in the form of stock options",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4936,
+        "end": 5001
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-64",
+      "text": "This position is eligible for Instawork benefits, including:",
+      "source_span": "This position is eligible for Instawork benefits, including:",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5005,
+        "end": 5065
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-65",
+      "text": "Variety of medical, dental, and vision plans with coverage beginning on the date of hire",
+      "source_span": "Variety of medical, dental, and vision plans with coverage beginning on the date of hire",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5069,
+        "end": 5157
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-66",
+      "text": "Flexible paid time off",
+      "source_span": "Flexible paid time off",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5161,
+        "end": 5183
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-67",
+      "text": "Recent, demonstrable experience building AI/LLM-powered or agentic workflows that run in a real operation and that people still use.",
+      "source_span": "Recent, demonstrable experience building AI/LLM-powered or agentic workflows that run in a real operation and that people still use.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3764,
+        "end": 3896
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-68",
+      "text": "Working knowledge of core finance processes (order-to-cash, procure-to-pay, month-end close, reconciliations) and how they connect to the ERP.",
+      "source_span": "Working knowledge of core finance processes (order-to-cash, procure-to-pay, month-end close, reconciliations) and how they connect to the ERP.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3900,
+        "end": 4042
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-69",
+      "text": "Strong quantitative and problem-solving skills with advanced Excel/Google Sheets.",
+      "source_span": "Strong quantitative and problem-solving skills with advanced Excel/Google Sheets.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4046,
+        "end": 4127
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-70",
+      "text": "Experience with workflow automation or integration tools (e.g., Workato, Zapier, n8n, Make) or APIs.",
+      "source_span": "Experience with workflow automation or integration tools (e.g., Workato, Zapier, n8n, Make) or APIs.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4131,
+        "end": 4231
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-71",
+      "text": "Experience leading or developing people, including remote or offshore teams.",
+      "source_span": "Experience leading or developing people, including remote or offshore teams.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4235,
+        "end": 4311
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-72",
+      "text": "Confidence working directly with customers and Sales on billing and collection issues, and influencing teams you don't manage.",
+      "source_span": "Confidence working directly with customers and Sales on billing and collection issues, and influencing teams you don't manage.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4315,
+        "end": 4441
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-73",
+      "text": "Ownership, urgency, and comfort working on messy, ambiguous problems in a fast-paced environment.",
+      "source_span": "Ownership, urgency, and comfort working on messy, ambiguous problems in a fast-paced environment.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4445,
+        "end": 4542
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-74",
+      "text": "Nice to have experience in AR, billing, collections, or broader finance operations",
+      "source_span": "Nice to have experience in AR, billing, collections, or broader finance operations",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4546,
+        "end": 4628
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-75",
+      "text": "Familiarity with systems such as NetSuite, Upflow, Salesforce, or VMS and procurement portals (e.g., Fieldglass, Beeline, Coupa, Ariba).",
+      "source_span": "Familiarity with systems such as NetSuite, Upflow, Salesforce, or VMS and procurement portals (e.g., Fieldglass, Beeline, Coupa, Ariba).",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4632,
+        "end": 4768
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-76",
+      "text": "Familiarity with internal controls, SOX, or supporting external audits.",
+      "source_span": "Familiarity with internal controls, SOX, or supporting external audits.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4772,
+        "end": 4843
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

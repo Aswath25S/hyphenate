@@ -1,0 +1,447 @@
+{
+  "posting_id": "379d3ed6c300be8a",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "379d3ed6c300be8a-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "The duty is inventory accounting, which is repetitive accounting work but has no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "The duty is manufacturing cost accounting, which is a cost-accounting task not covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "The duty concerns labor accounting at a plant, which is payroll/cost accounting work without a matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-10",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.98,
+      "rationale": "The duty is day-to-day fixed asset accounting, which matches fixed assets and related subledger maintenance.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The duty is capital project accounting/CIP work, which is not specifically covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-12",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.97,
+      "rationale": "The duty is accrual accounting, which matches estimating and recording accruals.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-13",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "The duty says reconciliations in general without specifying the account type or task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-14",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.98,
+      "rationale": "The duty is preparing journal entries, which matches the journal-entry capability.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-15",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.99,
+      "rationale": "The duty is balance-sheet reconciliations, which directly matches account reconciliations.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-16",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.96,
+      "rationale": "The duty is preparing variance explanations, which matches flux analysis and commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-17",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.98,
+      "rationale": "The duty is performing close-calendar activities, which matches month-end close checklist work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "The duty is supporting standard costs, which is manufacturing cost accounting not listed in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "The duty is supporting labor and machine rates, which is standard-costing work outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "The duty is overhead absorption support, which is manufacturing cost accounting not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-21",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The duty is supporting bills of material, which is manufacturing master-data work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-22",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The duty is supporting work centers, which is manufacturing data support not represented in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-23",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The duty is supporting routings, which is manufacturing master-data support without a matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-24",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "The duty says work-order review without enough detail to map it to a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-25",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.86,
+      "rationale": "The duty is analyzing purchase price variances, which is variance analysis on source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-26",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.86,
+      "rationale": "The duty is analyzing usage variances, which fits variance analysis and explanation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-27",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.86,
+      "rationale": "The duty is analyzing efficiency variances, which matches variance analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-28",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.86,
+      "rationale": "The duty is analyzing volume variances, which matches flux-style variance analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-29",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.86,
+      "rationale": "The duty is analyzing scrap variances, which is variance analysis on operational data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-30",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.86,
+      "rationale": "The duty is analyzing rework variances, which fits variance analysis with commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-31",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.98,
+      "rationale": "The duty is reconciling inventory subledgers to the GL, which matches subledger-to-GL reconciliations.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-32",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "The duty is supporting cycle counts, which is inventory-control work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-33",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "The duty is supporting physical inventories, which is inventory-count work outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-34",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.85,
+      "rationale": "The duty is supporting variance analysis, which matches assisted flux analysis work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-35",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.68,
+      "rationale": "The duty only says adjustments, which is too vague to map to a specific finance capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-36",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "The duty is evaluating excess or obsolete material, which is inventory valuation work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-37",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.98,
+      "rationale": "The duty is handling fixed assets, which matches fixed asset subledger accounting.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-38",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "The duty is handling capital projects, which is project accounting not specifically covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-39",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The duty is deciding capital versus expense treatment, which is technical accounting judgment without a direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-40",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.97,
+      "rationale": "The duty is handling additions, which is standard fixed asset accounting.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-41",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.97,
+      "rationale": "The duty is handling transfers, which is standard fixed asset accounting.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-42",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.97,
+      "rationale": "The duty is handling disposals, which is standard fixed asset accounting.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-43",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.98,
+      "rationale": "The duty is handling depreciation, which matches fixed asset subledger maintenance.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-44",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "The duty is releasing completed projects from CIP, which is capital-project accounting not in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-45",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The duty is partnering daily with Operations, which is cross-functional relationship work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-46",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The duty is partnering daily with Supply Chain, which is cross-functional relationship work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-47",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The duty is partnering daily with Engineering, which is cross-functional relationship work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-48",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The duty is partnering daily with Quality, which is cross-functional relationship work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-49",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The duty is partnering daily with Corporate Accounting, which is cross-functional relationship work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-50",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "The duty is investigating transaction issues, which is exception handling but does not match a specific listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-51",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.98,
+      "rationale": "The duty is executing controls, which matches internal-control monitoring and SOX controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-52",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.97,
+      "rationale": "The duty is supporting audits, which matches audit support and documentation work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-53",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "The duty is driving process improvements, which is too broad to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-54",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "The duty is driving master-data improvements, which is too vague and project-like to classify precisely.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-55",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "The duty is driving ERP improvements, which is a broad systems-improvement project rather than a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

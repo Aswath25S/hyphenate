@@ -1,0 +1,105 @@
+{
+  "posting_id": "a21e3ec6bbbc6930",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "a21e3ec6bbbc6930-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Building and maintaining project finance models is FP&A-style modeling work that is not covered by any listed finance-operations capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a21e3ec6bbbc6930-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Scenario analysis is a planning/modeling task that matches no listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a21e3ec6bbbc6930-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Sensitivity testing is a modeling exercise outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a21e3ec6bbbc6930-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Producing IRR and NPV outputs is financial modeling work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a21e3ec6bbbc6930-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Preparing investor-ready presentations is a presentation and communication duty that is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a21e3ec6bbbc6930-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Supporting contract negotiation is human work, and the duty explicitly includes negotiation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a21e3ec6bbbc6930-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Providing financial analysis and recommendations is advisory work to other teams rather than a covered operations process.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a21e3ec6bbbc6930-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Owning the financial diligence and approval package is a transaction support task with no direct match in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a21e3ec6bbbc6930-09",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.71,
+      "rationale": "Structuring analysis for executive and cross-functional review matches ad hoc financial analysis, though it goes beyond simple question answering.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a21e3ec6bbbc6930-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Developing pricing frameworks is pricing-policy design and strategic judgment, which is not a platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a21e3ec6bbbc6930-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with sales and BD is an advisory cross-functional relationship duty that is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

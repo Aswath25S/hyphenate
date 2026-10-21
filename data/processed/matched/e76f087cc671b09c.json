@@ -1,0 +1,186 @@
+{
+  "posting_id": "e76f087cc671b09c",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "e76f087cc671b09c-01",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.93,
+      "rationale": "The duty is to perform monthly and quarterly close activities, which matches running close checklist tasks end to end.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-02",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.68,
+      "rationale": "The duty is to perform revenue analysis, which fits general finance analysis even though the exact analysis method is unspecified.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-03",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.97,
+      "rationale": "The duty is to prepare journal entries, which matches journal entry preparation and posting with some human review.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-04",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.98,
+      "rationale": "The duty is to prepare account reconciliations for revenue and related accounts, which is balance-sheet account reconciliation work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-05",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.9,
+      "rationale": "The duty is to execute O2C controls, which matches monitoring and executing close/control procedures.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-06",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.84,
+      "rationale": "The duty is to reconcile transactions across multiple systems, which is reconciliation work tied to accounting balances.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-07",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.63,
+      "rationale": "The duty is to investigate and resolve unusual revenue transaction inquiries, which is ad hoc finance analysis rather than a named operational workflow.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The duty is to collaborate with other teams, which is partnership work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The duty is to support system enhancements, which is project collaboration with other teams rather than a finance-ops workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The duty is to support API implementations, which is cross-functional implementation work rather than a finance-ops capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "The duty is to support process automation, which is a cross-functional improvement project rather than an end-to-end platform task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-12",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.95,
+      "rationale": "The duty is to reconcile internal and external data to posted accounting balances, which is account reconciliation work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "The duty is to perform complex O2C reconciliations, which is repetitive reconciliation work but does not match a specific capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "The duty is to support product and marketing program launches, which is cross-functional project support rather than a finance-ops workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "The duty is to configure systems for launches, which is implementation/project work with other teams.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "The duty is to test systems for launches, which is project testing rather than a finance-operations capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-17",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.96,
+      "rationale": "The duty is to ensure ASC 606 compliance, which matches applying revenue recognition policy and documenting conclusions.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "The duty is to assist with SOX implementation, which is control-framework project work rather than routine control execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-19",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.95,
+      "rationale": "The duty is to maintain compliance with SOX 404 controls, which matches monitoring and maintaining internal controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e76f087cc671b09c-20",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.97,
+      "rationale": "The duty is to support internal and external audits, which matches preparing support and documentation for audits.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

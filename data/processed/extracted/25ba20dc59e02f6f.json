@@ -1,0 +1,670 @@
+{
+  "posting_id": "25ba20dc59e02f6f",
+  "company": "GitLab",
+  "domain": "gitlab.com",
+  "title": "Director, FP&A",
+  "role_family": "Reporting_FPA",
+  "seniority": "director_plus",
+  "locations": [
+    "Remote, United States",
+    "United States of America"
+  ],
+  "remote": "remote",
+  "salary": {
+    "min": 168000,
+    "max": 285600,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "United States Salary Range\n\n$168,000—$285,600 USD"
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "GitLab",
+    "Google Sheets",
+    "Sisense",
+    "Adaptive Planning"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "duties": [
+    {
+      "duty_id": "25ba20dc59e02f6f-01",
+      "text": "GitLab is the intelligent orchestration platform for DevSecOps.",
+      "source_span": "GitLab is the intelligent orchestration platform for DevSecOps.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-02",
+      "text": "GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation.",
+      "source_span": "GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-03",
+      "text": "More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.",
+      "source_span": "More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-04",
+      "text": "We embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact.",
+      "source_span": "we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-05",
+      "text": "GitLab is where careers accelerate, innovation flourishes, and every voice is valued.",
+      "source_span": "GitLab is where careers accelerate, innovation flourishes, and every voice is valued.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-06",
+      "text": "Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems.",
+      "source_span": "Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-07",
+      "text": "Co-create the future with us as we build technology that transforms how the world develops software.",
+      "source_span": "Co-create the future with us as we build technology that transforms how the world develops software.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-08",
+      "text": "Serve as the finance advisor to the CTO and R&D leadership.",
+      "source_span": "Serve as the finance advisor to the CTO and R&D leadership.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-09",
+      "text": "Hold partners accountable for execution against plan.",
+      "source_span": "Hold partners accountable for execution against plan and connect R&D priorities to company financial targets.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-10",
+      "text": "Connect R&D priorities to company financial targets.",
+      "source_span": "Hold partners accountable for execution against plan and connect R&D priorities to company financial targets.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-11",
+      "text": "Lead annual planning.",
+      "source_span": "Lead annual planning, and rolling forecasts for R&D.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-12",
+      "text": "Lead rolling forecasts for R&D.",
+      "source_span": "Lead annual planning, and rolling forecasts for R&D.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-13",
+      "text": "Own the operating plan across headcount.",
+      "source_span": "Own the operating plan across headcount, compensation, contractors, hosting and cloud, AI and large language model (LLM) costs, software, and tooling.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-14",
+      "text": "Own the operating plan across compensation.",
+      "source_span": "Own the operating plan across headcount, compensation, contractors, hosting and cloud, AI and large language model (LLM) costs, software, and tooling.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-15",
+      "text": "Own the operating plan across contractors.",
+      "source_span": "Own the operating plan across headcount, compensation, contractors, hosting and cloud, AI and large language model (LLM) costs, software, and tooling.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-16",
+      "text": "Own the operating plan across hosting and cloud.",
+      "source_span": "Own the operating plan across headcount, compensation, contractors, hosting and cloud, AI and large language model (LLM) costs, software, and tooling.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-17",
+      "text": "Own the operating plan across AI and large language model (LLM) costs.",
+      "source_span": "Own the operating plan across headcount, compensation, contractors, hosting and cloud, AI and large language model (LLM) costs, software, and tooling.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-18",
+      "text": "Own the operating plan across software.",
+      "source_span": "Own the operating plan across headcount, compensation, contractors, hosting and cloud, AI and large language model (LLM) costs, software, and tooling.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-19",
+      "text": "Own the operating plan across tooling.",
+      "source_span": "Own the operating plan across headcount, compensation, contractors, hosting and cloud, AI and large language model (LLM) costs, software, and tooling.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-20",
+      "text": "Build frameworks that connect R&D investment to product roadmap outcomes.",
+      "source_span": "Build frameworks that connect R&D investment to product roadmap outcomes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-21",
+      "text": "Evaluate business cases for new initiatives.",
+      "source_span": "Evaluate business cases for new initiatives, AI capabilities, build-versus-buy decisions, and vendor commitments, and present risks and opportunities to leadership.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-22",
+      "text": "Evaluate business cases for AI capabilities.",
+      "source_span": "Evaluate business cases for new initiatives, AI capabilities, build-versus-buy decisions, and vendor commitments, and present risks and opportunities to leadership.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-23",
+      "text": "Evaluate business cases for build-versus-buy decisions.",
+      "source_span": "Evaluate business cases for new initiatives, AI capabilities, build-versus-buy decisions, and vendor commitments, and present risks and opportunities to leadership.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-24",
+      "text": "Evaluate business cases for vendor commitments.",
+      "source_span": "Evaluate business cases for new initiatives, AI capabilities, build-versus-buy decisions, and vendor commitments, and present risks and opportunities to leadership.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-25",
+      "text": "Present risks and opportunities to leadership.",
+      "source_span": "Evaluate business cases for new initiatives, AI capabilities, build-versus-buy decisions, and vendor commitments, and present risks and opportunities to leadership.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-26",
+      "text": "Define R&D efficiency metrics.",
+      "source_span": "Define and track R&D efficiency metrics, including R&D spend as a percentage of revenue, cost per engineer, hosting cost per user, and AI inference cost per feature.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-27",
+      "text": "Track R&D spend as a percentage of revenue.",
+      "source_span": "Define and track R&D efficiency metrics, including R&D spend as a percentage of revenue, cost per engineer, hosting cost per user, and AI inference cost per feature.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-28",
+      "text": "Track cost per engineer.",
+      "source_span": "Define and track R&D efficiency metrics, including R&D spend as a percentage of revenue, cost per engineer, hosting cost per user, and AI inference cost per feature.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-29",
+      "text": "Track hosting cost per user.",
+      "source_span": "Define and track R&D efficiency metrics, including R&D spend as a percentage of revenue, cost per engineer, hosting cost per user, and AI inference cost per feature.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-30",
+      "text": "Track AI inference cost per feature.",
+      "source_span": "Define and track R&D efficiency metrics, including R&D spend as a percentage of revenue, cost per engineer, hosting cost per user, and AI inference cost per feature.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-31",
+      "text": "Identify large-scale savings opportunities.",
+      "source_span": "Identify large-scale savings and reallocation opportunities and see them through to completion.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-32",
+      "text": "Identify reallocation opportunities.",
+      "source_span": "Identify large-scale savings and reallocation opportunities and see them through to completion.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-33",
+      "text": "See them through to completion.",
+      "source_span": "Identify large-scale savings and reallocation opportunities and see them through to completion.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-34",
+      "text": "Partner with People and R&D leaders on hiring plans.",
+      "source_span": "Partner with People and R&D leaders on hiring plans, location strategy, and organizational design.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-35",
+      "text": "Partner with People and R&D leaders on location strategy.",
+      "source_span": "Partner with People and R&D leaders on hiring plans, location strategy, and organizational design.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-36",
+      "text": "Partner with People and R&D leaders on organizational design.",
+      "source_span": "Partner with People and R&D leaders on hiring plans, location strategy, and organizational design.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-37",
+      "text": "Keep headcount forecasts accurate.",
+      "source_span": "Keep headcount forecasts accurate and reconciled to actuals.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-38",
+      "text": "Reconcile headcount forecasts to actuals.",
+      "source_span": "Keep headcount forecasts accurate and reconciled to actuals.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-39",
+      "text": "Lead the AI transformation of R&D finance.",
+      "source_span": "Lead the AI transformation of R&D finance.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-40",
+      "text": "Rethink planning workflows.",
+      "source_span": "Rethink planning, forecasting, and reporting workflows, and use AI tools to make them faster, more accurate, and more insightful.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-41",
+      "text": "Rethink forecasting workflows.",
+      "source_span": "Rethink planning, forecasting, and reporting workflows, and use AI tools to make them faster, more accurate, and more insightful.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-42",
+      "text": "Rethink reporting workflows.",
+      "source_span": "Rethink planning, forecasting, and reporting workflows, and use AI tools to make them faster, more accurate, and more insightful.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-43",
+      "text": "Use AI tools to make workflows faster.",
+      "source_span": "Rethink planning, forecasting, and reporting workflows, and use AI tools to make them faster, more accurate, and more insightful.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-44",
+      "text": "Use AI tools to make workflows more accurate.",
+      "source_span": "Rethink planning, forecasting, and reporting workflows, and use AI tools to make them faster, more accurate, and more insightful.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-45",
+      "text": "Use AI tools to make workflows more insightful.",
+      "source_span": "Rethink planning, forecasting, and reporting workflows, and use AI tools to make them faster, more accurate, and more insightful.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-46",
+      "text": "Redesign FP&A processes.",
+      "source_span": "Redesign FP&A processes, policies, and planning and reporting systems for efficiency and effectiveness, with AI in the center.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-47",
+      "text": "Redesign FP&A policies.",
+      "source_span": "Redesign FP&A processes, policies, and planning and reporting systems for efficiency and effectiveness, with AI in the center.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-48",
+      "text": "Redesign planning and reporting systems for efficiency and effectiveness.",
+      "source_span": "Redesign FP&A processes, policies, and planning and reporting systems for efficiency and effectiveness, with AI in the center.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-49",
+      "text": "Work with Accounting on capitalized software.",
+      "source_span": "Work with Accounting on capitalized software, accruals, and allocations, and with Procurement on process improvements.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-50",
+      "text": "Work with Accounting on accruals.",
+      "source_span": "Work with Accounting on capitalized software, accruals, and allocations, and with Procurement on process improvements.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-51",
+      "text": "Work with Accounting on allocations.",
+      "source_span": "Work with Accounting on capitalized software, accruals, and allocations, and with Procurement on process improvements.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-52",
+      "text": "Work with Procurement on process improvements.",
+      "source_span": "Work with Accounting on capitalized software, accruals, and allocations, and with Procurement on process improvements.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-53",
+      "text": "Lead your R&D finance team.",
+      "source_span": "Lead and develop your R&D finance team:: hire and coach team members, set goals and priorities, and give expert feedback.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-54",
+      "text": "Hire team members.",
+      "source_span": "Lead and develop your R&D finance team:: hire and coach team members, set goals and priorities, and give expert feedback.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-55",
+      "text": "Coach team members.",
+      "source_span": "Lead and develop your R&D finance team:: hire and coach team members, set goals and priorities, and give expert feedback.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-56",
+      "text": "Set goals and priorities.",
+      "source_span": "Lead and develop your R&D finance team:: hire and coach team members, set goals and priorities, and give expert feedback.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-57",
+      "text": "Give expert feedback.",
+      "source_span": "Lead and develop your R&D finance team:: hire and coach team members, set goals and priorities, and give expert feedback.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-58",
+      "text": "Put GitLab's values into practice through handbook-first, asynchronous collaboration across time zones.",
+      "source_span": "Put GitLab's values into practice through handbook-first, asynchronous collaboration across time zones.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-59",
+      "text": "Extensive finance experience.",
+      "source_span": "Extensive finance experience, including serving as the lead finance partner to an R&D, Engineering, or Product organization plus experience leading a team of analysts",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-60",
+      "text": "Serve as the lead finance partner to an R&D, Engineering, or Product organization.",
+      "source_span": "Extensive finance experience, including serving as the lead finance partner to an R&D, Engineering, or Product organization plus experience leading a team of analysts",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-61",
+      "text": "Experience leading a team of analysts.",
+      "source_span": "Extensive finance experience, including serving as the lead finance partner to an R&D, Engineering, or Product organization plus experience leading a team of analysts",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-62",
+      "text": "A strong understanding of financial statements.",
+      "source_span": "A strong understanding of financial statements, accounting principles, and R&D cost drivers, including engineering headcount, cloud hosting, AI and LLM usage, software licenses, and capitalized software development.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-63",
+      "text": "A strong understanding of accounting principles.",
+      "source_span": "A strong understanding of financial statements, accounting principles, and R&D cost drivers, including engineering headcount, cloud hosting, AI and LLM usage, software licenses, and capitalized software development.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-64",
+      "text": "A strong understanding of R&D cost drivers.",
+      "source_span": "A strong understanding of financial statements, accounting principles, and R&D cost drivers, including engineering headcount, cloud hosting, AI and LLM usage, software licenses, and capitalized software development.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-65",
+      "text": "Understand engineering headcount.",
+      "source_span": "A strong understanding of financial statements, accounting principles, and R&D cost drivers, including engineering headcount, cloud hosting, AI and LLM usage, software licenses, and capitalized software development.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-66",
+      "text": "Understand cloud hosting.",
+      "source_span": "A strong understanding of financial statements, accounting principles, and R&D cost drivers, including engineering headcount, cloud hosting, AI and LLM usage, software licenses, and capitalized software development.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-67",
+      "text": "Understand AI and LLM usage.",
+      "source_span": "A strong understanding of financial statements, accounting principles, and R&D cost drivers, including engineering headcount, cloud hosting, AI and LLM usage, software licenses, and capitalized software development.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-68",
+      "text": "Understand software licenses.",
+      "source_span": "A strong understanding of financial statements, accounting principles, and R&D cost drivers, including engineering headcount, cloud hosting, AI and LLM usage, software licenses, and capitalized software development.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-69",
+      "text": "Understand capitalized software development.",
+      "source_span": "A strong understanding of financial statements, accounting principles, and R&D cost drivers, including engineering headcount, cloud hosting, AI and LLM usage, software licenses, and capitalized software development.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-70",
+      "text": "Experience leading process redesign and change in a finance team.",
+      "source_span": "Experience leading process redesign and change in a finance team, including hands-on use of AI tools to improve how work gets done.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-71",
+      "text": "Hands-on use of AI tools to improve how work gets done.",
+      "source_span": "Experience leading process redesign and change in a finance team, including hands-on use of AI tools to improve how work gets done.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-72",
+      "text": "Influence senior technical stakeholders.",
+      "source_span": "Expertise in influencing senior technical stakeholders and translating complex analysis into clear recommendations for executives.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-73",
+      "text": "Translate complex analysis into clear recommendations for executives.",
+      "source_span": "Expertise in influencing senior technical stakeholders and translating complex analysis into clear recommendations for executives.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-74",
+      "text": "Advanced financial modeling skills that follow industry best practices.",
+      "source_span": "Advanced financial modeling skills that follow industry best practices, expertise in Google Sheets, and hands-on experience with financial and data visualization tools.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-75",
+      "text": "Expertise in Google Sheets.",
+      "source_span": "Advanced financial modeling skills that follow industry best practices, expertise in Google Sheets, and hands-on experience with financial and data visualization tools.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-76",
+      "text": "Hands-on experience with financial and data visualization tools.",
+      "source_span": "Advanced financial modeling skills that follow industry best practices, expertise in Google Sheets, and hands-on experience with financial and data visualization tools.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-77",
+      "text": "We don't use Excel for modeling.",
+      "source_span": "We don't use Excel for modeling.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-78",
+      "text": "A bachelor's degree in Finance, Accounting, Economics, or a related field.",
+      "source_span": "A bachelor's degree in Finance, Accounting, Economics, or a related field.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-79",
+      "text": "Comfort working remotely and asynchronously.",
+      "source_span": "Comfort working remotely and asynchronously, and the ability to use GitLab.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-80",
+      "text": "The ability to use GitLab.",
+      "source_span": "Comfort working remotely and asynchronously, and the ability to use GitLab.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-81",
+      "text": "Enterprise software-as-a-service (SaaS) finance experience.",
+      "source_span": "Preferred experience includes enterprise software-as-a-service (SaaS) finance; direct CTO partnership; NetSuite, Sisense, Adaptive Planning, or SQL; or a Master of Business Administration (MBA), Chartered Financial Analyst (CFA), or Certified Public Accountant (CPA) qualification.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-82",
+      "text": "Direct CTO partnership experience.",
+      "source_span": "Preferred experience includes enterprise software-as-a-service (SaaS) finance; direct CTO partnership; NetSuite, Sisense, Adaptive Planning, or SQL; or a Master of Business Administration (MBA), Chartered Financial Analyst (CFA), or Certified Public Accountant (CPA) qualification.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-83",
+      "text": "Experience with NetSuite.",
+      "source_span": "Preferred experience includes enterprise software-as-a-service (SaaS) finance; direct CTO partnership; NetSuite, Sisense, Adaptive Planning, or SQL; or a Master of Business Administration (MBA), Chartered Financial Analyst (CFA), or Certified Public Accountant (CPA) qualification.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-84",
+      "text": "Experience with Sisense.",
+      "source_span": "Preferred experience includes enterprise software-as-a-service (SaaS) finance; direct CTO partnership; NetSuite, Sisense, Adaptive Planning, or SQL; or a Master of Business Administration (MBA), Chartered Financial Analyst (CFA), or Certified Public Accountant (CPA) qualification.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-85",
+      "text": "Experience with Adaptive Planning.",
+      "source_span": "Preferred experience includes enterprise software-as-a-service (SaaS) finance; direct CTO partnership; NetSuite, Sisense, Adaptive Planning, or SQL; or a Master of Business Administration (MBA), Chartered Financial Analyst (CFA), or Certified Public Accountant (CPA) qualification.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-86",
+      "text": "Experience with SQL.",
+      "source_span": "Preferred experience includes enterprise software-as-a-service (SaaS) finance; direct CTO partnership; NetSuite, Sisense, Adaptive Planning, or SQL; or a Master of Business Administration (MBA), Chartered Financial Analyst (CFA), or Certified Public Accountant (CPA) qualification.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-87",
+      "text": "Master of Business Administration (MBA).",
+      "source_span": "Preferred experience includes enterprise software-as-a-service (SaaS) finance; direct CTO partnership; NetSuite, Sisense, Adaptive Planning, or SQL; or a Master of Business Administration (MBA), Chartered Financial Analyst (CFA), or Certified Public Accountant (CPA) qualification.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-88",
+      "text": "Chartered Financial Analyst (CFA).",
+      "source_span": "Preferred experience includes enterprise software-as-a-service (SaaS) finance; direct CTO partnership; NetSuite, Sisense, Adaptive Planning, or SQL; or a Master of Business Administration (MBA), Chartered Financial Analyst (CFA), or Certified Public Accountant (CPA) qualification.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-89",
+      "text": "Certified Public Accountant (CPA).",
+      "source_span": "Preferred experience includes enterprise software-as-a-service (SaaS) finance; direct CTO partnership; NetSuite, Sisense, Adaptive Planning, or SQL; or a Master of Business Administration (MBA), Chartered Financial Analyst (CFA), or Certified Public Accountant (CPA) qualification.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-10-13T09:46:46-04:00",
+  "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8827981002",
+  "fetched_at": "2026-10-21T17:34:25.045Z",
+  "prompt_version": "extract-v1",
+  "text": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.\n\nThe same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software.\n\n*Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab.\n\nAn overview of this role\n\nAs Director, Financial Planning and Analysis (FP&A), you'll lead finance for GitLab's Research & Development (R&D) organization, our largest operating expense area. You'll be the strategic finance partner to our Chief Technology Officer (CTO) and their leadership team, owning R&D planning, forecasting, and investment decisions.\n\nR&D builds our AI-powered development, security, and operations (DevSecOps) platform, which more than 100,000 organizations use. You'll connect investment in headcount, infrastructure, AI and cloud usage, and tooling to product outcomes, with clear measurement and reliable forecasts.\n\nYou'll sit at the CTO's staff table, shape GitLab's long-range plan, and help leadership decide where to invest next, making R&D spend predictable.\n\nWhat you’ll do\n\n• Serve as the finance advisor to the CTO and R&D leadership. Hold partners accountable for execution against plan and connect R&D priorities to company financial targets.\n\n• Lead annual planning, and rolling forecasts for R&D. Own the operating plan across headcount, compensation, contractors, hosting and cloud, AI and large language model (LLM) costs, software, and tooling.\n\n• Build frameworks that connect R&D investment to product roadmap outcomes. Evaluate business cases for new initiatives, AI capabilities, build-versus-buy decisions, and vendor commitments, and present risks and opportunities to leadership.\n\n• Define and track R&D efficiency metrics, including R&D spend as a percentage of revenue, cost per engineer, hosting cost per user, and AI inference cost per feature. Identify large-scale savings and reallocation opportunities and see them through to completion.\n\n• Partner with People and R&D leaders on hiring plans, location strategy, and organizational design. Keep headcount forecasts accurate and reconciled to actuals.\n\n• Lead the AI transformation of R&D finance. Rethink planning, forecasting, and reporting workflows, and use AI tools to make them faster, more accurate, and more insightful.\n\n• Redesign FP&A processes, policies, and planning and reporting systems for efficiency and effectiveness, with AI in the center. Work with Accounting on capitalized software, accruals, and allocations, and with Procurement on process improvements.\n\n• Lead and develop your R&D finance team:: hire and coach team members, set goals and priorities, and give expert feedback. Put GitLab's values into practice through handbook-first, asynchronous collaboration across time zones.\n\nWhat you’ll bring\n\n• Extensive finance experience, including serving as the lead finance partner to an R&D, Engineering, or Product organization plus experience leading a team of analysts\n\n• A strong understanding of financial statements, accounting principles, and R&D cost drivers, including engineering headcount, cloud hosting, AI and LLM usage, software licenses, and capitalized software development.\n\n• Experience leading process redesign and change in a finance team, including hands-on use of AI tools to improve how work gets done.\n\n• Expertise in influencing senior technical stakeholders and translating complex analysis into clear recommendations for executives.\n\n• Advanced financial modeling skills that follow industry best practices, expertise in Google Sheets, and hands-on experience with financial and data visualization tools. We don't use Excel for modeling.\n\n• A bachelor's degree in Finance, Accounting, Economics, or a related field.\n\n• Comfort working remotely and asynchronously, and the ability to use GitLab.\n\n• Preferred experience includes enterprise software-as-a-service (SaaS) finance; direct CTO partnership; NetSuite, Sisense, Adaptive Planning, or SQL; or a Master of Business Administration (MBA), Chartered Financial Analyst (CFA), or Certified Public Accountant (CPA) qualification.\n\nThe base salary range for this role’s listed level is currently for residents of the United States only. This range is intended to reflect the role's base salary rate in locations throughout the US. Grade level and salary ranges are determined through interviews and a review of education, experience, knowledge, skills, abilities of the applicant, equity with other team members, alignment with market data, and geographic location. The base salary range does not include any bonuses, equity, or benefits. See more information on our benefits and equity. Sales roles are also eligible for incentive pay targeted at up to 100% of the offered base salary.\n\nUnited States Salary Range\n\n$168,000—$285,600 USD\n\nHow GitLab Supports Full-Time Employees\n\n• Benefits to support your health, finances, and well-being\n\n• Flexible Paid Time Off\n\n• Team Member Resource Groups\n\n• Equity Compensation & Employee Stock Purchase Plan\n\n• Growth and Development Fund\n\n• Parental Leave\n\nPlease note that we welcome interest from candidates with varying levels of experience; many successful candidates do not meet every single requirement. Additionally, studies have shown that people from underrepresented groups are less likely to apply to a job unless they meet every single qualification. If you're excited about this role, please apply and allow our recruiters to assess your application.\n\nCountry Hiring Guidelines: GitLab hires new team members in countries around the world. All of our roles are remote, however some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions about location after starting the recruiting process.\n\nPrivacy Policy: Please review our Recruitment Privacy Policy. Your privacy is important to us.\n\nGitLab is proud to be an equal opportunity workplace and is an affirmative action employer. GitLab’s policies and practices relating to recruitment, employment, career development and advancement, promotion, and retirement are based solely on merit, regardless of race, color, religion, ancestry, sex (including pregnancy, lactation, sexual orientation, gender identity, or gender expression), national origin, age, citizenship, marital status, mental or physical disability, genetic information (including family medical history), discharge status from the military, protected veteran status (which includes disabled veterans, recently separated veterans, active duty wartime or campaign badge veterans, and Armed Forces service medal veterans), or any other basis protected by law. GitLab will not tolerate discrimination or harassment based on any of these characteristics. See also GitLab’s EEO Policy and EEO is the Law. If you have a disability or special need that requires accommodation, please let us know during the recruiting process.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

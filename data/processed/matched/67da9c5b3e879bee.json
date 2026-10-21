@@ -1,0 +1,213 @@
+{
+  "posting_id": "67da9c5b3e879bee",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "67da9c5b3e879bee-01",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.97,
+      "rationale": "The duty is about executing month-end close tasks and ensuring close completion, which matches the close checklist capability.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-02",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.93,
+      "rationale": "The duty centers on tracking close calendar steps and sequencing close workstreams, which is part of running the close checklist.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "The duty requires assessing judgment areas and presenting recommendations to a controller, which is managerial judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.62,
+      "rationale": "The duty is a systems data-sync and tie-out coordination task that is operational but does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-05",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.95,
+      "rationale": "The duty is about preparing and improving accrual processes, which matches accrual accounting but involves assumption review and oversight.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-06",
+      "label": "assisted",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.89,
+      "rationale": "The duty covers ASC 842 lease accounting and ROU schedules, but the reviewer role and classification checks add human judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The duty is a review function over material and non-routine entries and schedules, which is human approval work rather than preparation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The duty is first-pass and secondary review of manual journal entries, which is human review by definition.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "The duty emphasizes overseeing preparation and rigorous review of reconciliations, which is supervisory review work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "The duty is review and approval of fixed asset workpapers prepared by others, which is managerial review rather than direct subledger maintenance.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-11",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.96,
+      "rationale": "The duty is monthly and quarterly variance analysis explaining business drivers, which matches flux analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "The duty is partnering to translate findings into executive narratives, which is advisory and communication work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "The duty involves collaborating with platform administrators to improve workflows, which is cross-functional coordination and process improvement.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "The duty is partnering on operationalizing new tools and workflows, which is a transformation/project coordination task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "The duty is implementing policy and designing SOPs, which is policy/process design work requiring human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "The duty is partnering to embed accounting standard changes into workflows, which is cross-functional technical coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "The duty is collaborating across teams to improve data integrity and documentation standards, which is partnership work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "The duty makes the person the primary auditor interface, which is a human relationship and audit coordination role.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-19",
+      "label": "assisted",
+      "capability_id": "gl.controls",
+      "confidence": 0.84,
+      "rationale": "The duty involves executing and documenting SOX controls, but designing controls adds judgment beyond the covered monitoring capability.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The duty requires identifying control issues and partnering on remediation plans, which is judgment and cross-functional management work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The duty is directly managing, mentoring, and upskilling staff, which is people management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The duty is setting performance metrics and development plans for a team, which is management and talent development.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "67da9c5b3e879bee-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The duty is building a leadership bench, which is succession planning and organizational management.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

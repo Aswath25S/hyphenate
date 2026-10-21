@@ -1,0 +1,446 @@
+{
+  "posting_id": "b0bc3ca642325d88",
+  "company": "ClassDojo",
+  "domain": "classdojo.com",
+  "title": "Head of Accounting (Controller)",
+  "role_family": "Controller",
+  "seniority": "director_plus",
+  "locations": [
+    "Remote"
+  ],
+  "remote": "remote",
+  "salary": {
+    "min": 187000,
+    "max": 300000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "CA, WA, NY, NJ, CT states: $220,000 - $300,000 (USD)\n\nAll other states in the US: $187,000 - $255,000 (USD)"
+  },
+  "erp": [],
+  "tools": [
+    "Rillet"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "build and scale financial systems, processes, and policies",
+    "scale finance operations through major process or systems overhauls",
+    "growth in volume and complexity of the business",
+    "generate utmost confidence in the quality of our financial reports and processes",
+    "own additional areas of responsibility as needed"
+  ],
+  "duties": [
+    {
+      "duty_id": "b0bc3ca642325d88-01",
+      "text": "Oversee and scale all aspects of the Company's accounting and tax operations and strategy",
+      "source_span": "oversee and scale all aspects of the Company’s accounting and tax operations and strategy",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-02",
+      "text": "Build and scale financial systems",
+      "source_span": "build and scale financial systems",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-03",
+      "text": "Build and scale financial processes",
+      "source_span": "processes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-04",
+      "text": "Build and scale financial policies",
+      "source_span": "policies",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-05",
+      "text": "Oversee the company's monthly close process",
+      "source_span": "oversee the company’s monthly close process",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-06",
+      "text": "Oversee annual audits",
+      "source_span": "annual audits",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-07",
+      "text": "Oversee financial reporting",
+      "source_span": "financial reporting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-08",
+      "text": "Oversee overall control processes",
+      "source_span": "overall control processes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-09",
+      "text": "Oversee our in-house accounting team",
+      "source_span": "oversee our in-house accounting team",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-10",
+      "text": "Oversee external consultants",
+      "source_span": "external consultants",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-11",
+      "text": "Manage GL",
+      "source_span": "GL",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-12",
+      "text": "Manage AP",
+      "source_span": "AP",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-13",
+      "text": "Manage technical / revenue accounting",
+      "source_span": "technical / revenue accounting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-14",
+      "text": "Manage payroll",
+      "source_span": "payroll",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-15",
+      "text": "Manage equity",
+      "source_span": "equity",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-16",
+      "text": "Manage tax",
+      "source_span": "tax",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-17",
+      "text": "Manage treasury",
+      "source_span": "treasury",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-18",
+      "text": "Partner with a range of stakeholders across the organization",
+      "source_span": "partner with a range of stakeholders across the organization",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-19",
+      "text": "Support strategic initiatives including M&A, fundraising, secondary transactions, and potentially a future IPO",
+      "source_span": "support the CFO and other executives across a range of strategic initiatives, including M&A, fundraising, secondary transactions, and potentially a future IPO",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-20",
+      "text": "ClassDojo's goal is to give every child on Earth an education they love.",
+      "source_span": "ClassDojo's goal is to give every child on Earth an education they love.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-21",
+      "text": "We hire for talent density.",
+      "source_span": "We hire for talent density.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-22",
+      "text": "We believe you’ll do the best work of your life here—and you’ll pioneer the future of education, too.",
+      "source_span": "We believe you’ll do the best work of your life here—and you’ll pioneer the future of education, too.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-23",
+      "text": "Have 12+ years of experience",
+      "source_span": "12+ years of experience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-24",
+      "text": "Have 3+ years at a top-tier audit firm",
+      "source_span": "3+ years at a top-tier audit firm",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-25",
+      "text": "Have 8+ years in-house accounting at fast-growing startups",
+      "source_span": "8+ years in-house accounting at fast-growing startups",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-26",
+      "text": "Hold diverse and increasing levels of responsibility culminating in a controller or assistant controller role",
+      "source_span": "diverse and increasing levels of responsibility culminating in a controller or assistant controller role",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-27",
+      "text": "Build and retain an accounting team of meaningful scale and complexity",
+      "source_span": "built and retained an accounting team of meaningful scale and complexity",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-28",
+      "text": "Design and manage full-cycle accounting close and operations",
+      "source_span": "designed and managed full-cycle accounting close and operations",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-29",
+      "text": "Manage tax",
+      "source_span": "tax",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-30",
+      "text": "Manage treasury",
+      "source_span": "treasury",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-31",
+      "text": "Manage payroll",
+      "source_span": "payroll",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-32",
+      "text": "Manage equity administration",
+      "source_span": "equity administration",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-33",
+      "text": "Lead accounting teams through multiple clean audits with Big Four firms",
+      "source_span": "led accounting teams through multiple clean audits with Big Four firms",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-34",
+      "text": "Apply US GAAP to complex business transactions",
+      "source_span": "applied your knowledge of US GAAP to complex business transactions",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-35",
+      "text": "Document clear conclusions",
+      "source_span": "documenting clear conclusions",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-36",
+      "text": "Establish practical business processes",
+      "source_span": "establishing practical business processes",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-37",
+      "text": "Defend accounting positions directly to external auditors",
+      "source_span": "defending accounting positions directly to external auditors",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-38",
+      "text": "Scale finance operations through major process or systems overhauls",
+      "source_span": "scaling finance operations through major process or systems overhauls",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-39",
+      "text": "Incorporate AI-powered workflows",
+      "source_span": "including experience incorporating AI-powered workflows",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-40",
+      "text": "Oversee global indirect tax compliance",
+      "source_span": "overseen global indirect tax compliance",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-41",
+      "text": "Manage US sales tax",
+      "source_span": "US sales tax",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-42",
+      "text": "Manage international VAT/GST",
+      "source_span": "international VAT/GST",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-43",
+      "text": "Find and nurture high potential talent",
+      "source_span": "finding and nurturing high potential talent",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-44",
+      "text": "Instill a sense of integrity and ownership",
+      "source_span": "instilling a sense of integrity and ownership",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-45",
+      "text": "Implement financial systems and processes with meaningful cross functional impact",
+      "source_span": "implement financial systems and processes with meaningful cross functional impact",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-46",
+      "text": "Support growth in volume and complexity of the business",
+      "source_span": "support growth in volume and complexity of the business",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-47",
+      "text": "Develop subject matter expertise in key US GAAP standards",
+      "source_span": "Subject matter expertise in key US GAAP standards (including ASC 606, ASC 718, ASC 805, and ASC 350)",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-48",
+      "text": "Identify complex issues early in the transaction lifecycle",
+      "source_span": "independently identify complex issues early in the transaction lifecycle",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-49",
+      "text": "Show deep curiosity for the company's products and business strategy",
+      "source_span": "Deep curiosity for the company’s products and business strategy",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-50",
+      "text": "Articulate decisions effectively with external partners and internal leaders",
+      "source_span": "Ability to articulate these decisions effectively in communications with external partners and internal leaders",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-51",
+      "text": "Prioritize rigorously and prefer quality over volume",
+      "source_span": "Tendency to prioritize rigorously and preference for quality over volume",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-52",
+      "text": "Demonstrate growth mindset and willingness to own additional areas of responsibility as needed",
+      "source_span": "Demonstrated growth-mindset and willingness to own additional areas of responsibility as needed",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-53",
+      "text": "Have experience in a lead-level accounting role at a public tech company",
+      "source_span": "Experience in a lead-level accounting role at a public tech company",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-54",
+      "text": "Use emerging AI-native finance tooling, e.g. Rillet",
+      "source_span": "Experience with emerging AI-native finance tooling, e.g. Rillet",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-55",
+      "text": "Have experience with complex businesses with multiple products and different revenue models",
+      "source_span": "Experience with complex businesses (multiple products with different revenue models)",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-56",
+      "text": "Have experience with business combination accounting and integrations",
+      "source_span": "Experience with business combination accounting and integrations",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-57",
+      "text": "Hold an active CPA license",
+      "source_span": "An active CPA license",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-10-08T20:36:24.690+00:00",
+  "source_url": "https://jobs.ashbyhq.com/classdojo/44ab6771-27b9-4065-b441-8666a3df40be",
+  "fetched_at": "2026-10-21T17:34:53.576Z",
+  "prompt_version": "extract-v1",
+  "text": "ClassDojo's goal is to give every child on Earth an education they love.\n\nWe started by building a powerful network for communication. ClassDojo’s flagship app is the #1 communication app connecting K-12 teachers, children, and families globally. Teachers use it to share what’s happening throughout the day through photos, videos, and messages that make parents feel like they’re there. It’s actively used in over 95% of US schools, reaching over 45 million children in 180 countries, with a team of just around 200 people [1]. We are now beginning to use this network to give kids the best learning experiences in the world, far beyond those a standard school can provide.\n\nWe hire for talent density. Our team comprises the most talented, entrepreneurial, and innovative teammates from around the world, with experience in education and large scale consumer internet companies, including Instagram, Netflix, Dropbox, Stripe, Uber, Y Combinator, and more. We’re building a company where the most talented people want to work. We believe you’ll do the best work of your life here—and you’ll pioneer the future of education, too.\n\n\n\nWhat you’ll do:\n\nClassDojo is looking for an experienced, entrepreneurial, and high-energy leader to oversee and scale all aspects of the Company’s accounting and tax operations and strategy, with an opportunity to own additional related areas such as procurement.\n\n\n\nIn this role, you will build and scale financial systems, processes, and policies to support the financial health and efficient scaling of our entire business. You will oversee the company’s monthly close process, annual audits, financial reporting, and overall control processes, with the goal of generating utmost confidence in the quality of our financial reports and processes both internally and externally, across team members, the Board of Directors, third-party partners, regulators, and prospective investors.\n\n\n\nYou will oversee our in-house accounting team and external consultants in managing the accounting function, including GL, AP, technical / revenue accounting, financial reporting, payroll, equity, tax, and treasury. You will partner with a range of stakeholders across the organization, including but not limited to leaders across our various business units as well as functional leaders across Strategic Finance, People, Engineering, Legal, and other teams. You will support the CFO and other executives across a range of strategic initiatives, including M&A, fundraising, secondary transactions, and potentially a future IPO. This role will report directly to the CFO.\n\n \n\nYou will be a match if:\n\n - Experiences\n   \n   - You have 12+ years of experience, with 3+ years at a top-tier audit firm and 8+ years in-house accounting at fast-growing startups, with diverse and increasing levels of responsibility culminating in a controller or assistant controller role\n   \n   - You have built and retained an accounting team of meaningful scale and complexity, including both managers and individual contributors\n   \n   - You have designed and managed full-cycle accounting close and operations, and managed related areas including tax, treasury, payroll, and equity administration\n   \n   - You have led accounting teams through multiple clean audits with Big Four firms\n   \n   - You have applied your knowledge of US GAAP to complex business transactions, successfully documenting clear conclusions, establishing practical business processes, and defending accounting positions directly to external auditors\n   \n   - You have a proven track record of scaling finance operations through major process or systems overhauls, including experience incorporating AI-powered workflows\n   \n   - You have overseen global indirect tax compliance, including US sales tax and international VAT/GST\n\n\n\n - Attributes\n   \n   - Leadership - Proven record of finding and nurturing high potential talent and instilling a sense of integrity and ownership\n   \n   - Cross-functional effectiveness - Demonstrated ability to implement financial systems and processes with meaningful cross functional impact to support growth in volume and complexity of the business\n   \n   - Technical accounting acumen - Subject matter expertise in key US GAAP standards (including ASC 606, ASC 718, ASC 805, and ASC 350), with the ability to independently identify complex issues early in the transaction lifecycle\n   \n   - Strategic mindset - Deep curiosity for the company’s products and business strategy, and how these could impact accounting decisions. Ability to articulate these decisions effectively in communications with external partners and internal leaders\n   \n   - Scrappiness - Tendency to prioritize rigorously and preference for quality over volume. Demonstrated growth-mindset and willingness to own additional areas of responsibility as needed\n\n\n\nBonus:\n\n - Experience in a lead-level accounting role at a public tech company\n\n - Experience with emerging AI-native finance tooling, e.g. Rillet\n\n - Experience with complex businesses (multiple products with different revenue models)\n\n - Experience with business combination accounting and integrations\n\n - An active CPA license\n\n \n\n[1] Some more context:\n\n(If you are on LinkedIn, you will not be able to access the hyperlinks below. Once you click apply, you will be directed to our career website (if you are not on there already) and will be able to access the hyperlinks)\n\n - How ClassDojo Connects Parents, Students, and Teachers  https://www.youtube.com/watch?v=7XBnlzHpXTQ\n\n - “Whats New on ClassDojo 2023 https://youtu.be/O8Tora5T7O4”\n\n - TechCrunch Article: Second Act comes with First Profits https://techcrunch.com/2021/01/26/classdojos-second-act-comes-with-first-profits/\n\nClick here https://www.classdojo.com/press/ if you're interested in learning more about what we've been up to.\n\nWe are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. In accordance with the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records. We are happy to accommodate any disabilities or special needs. We are a distributed company, so we hire regardless of location, as long as you are willing to have significant hours overlap with one of the Americas time zones.\n\nClassDojo takes a number of factors into consideration when determining compensation, including geographic location, experience, and skillset. Salary ranges (United States):\n\nCA, WA, NY, NJ, CT states: $220,000 - $300,000 (USD)\n\nAll other states in the US: $187,000 - $255,000 (USD)\n\n\n\n#LI-Remote",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "ashby"
+}

@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-21T04:25:32.970Z",
+  "at": "2026-10-21T17:33:45.901Z",
   "prompts": {
     "extract": "extract-v1",
     "match": "match-v1"
@@ -12,39 +12,39 @@
     "pass": false
   },
   "m2": {
-    "label_agreement": 0.6935483870967742,
-    "labels": "86/124",
+    "label_agreement": 0.6906474820143885,
+    "labels": "96/139",
     "capability_agreement_when_label_agrees": 1,
     "covered_or_assisted_without_capability": 0,
     "pass": false
   },
   "confusion_hand_vs_model": {
     "covered": {
-      "covered": 34,
-      "assisted": 1,
-      "unclear": 2,
-      "gap_candidate": 5
+      "covered": 37,
+      "assisted": 2,
+      "gap_candidate": 7,
+      "unclear": 2
     },
     "assisted": {
       "covered": 5,
-      "assisted": 23,
-      "human": 5,
+      "assisted": 25,
+      "human": 6,
       "unclear": 1,
       "gap_candidate": 3
     },
     "human": {
-      "human": 17,
-      "gap_candidate": 2,
+      "human": 21,
+      "gap_candidate": 3,
       "unclear": 11
+    },
+    "unclear": {
+      "unclear": 4,
+      "gap_candidate": 1
     },
     "gap_candidate": {
       "gap_candidate": 9,
       "human": 1,
       "unclear": 1
-    },
-    "unclear": {
-      "unclear": 3,
-      "gap_candidate": 1
     }
   },
   "rows": [
@@ -79,7 +79,7 @@
       "salary_ok": true,
       "role_family": "AR",
       "role_ok": true,
-      "match_error": "covered/assisted labels need a valid capability_id from the map: 2a2227ca3a396266-h01=tre.collections, 2a2227ca3a396266-h02=tre.collections, 2a2227ca3a396266-h03=tre.collections, 2a2227ca3a396266-h04=tre.collections, 2a2227ca3a396266-h13=tre.collections"
+      "label_agreement": "10/15"
     },
     {
       "fixture": "headway-ap-manager",

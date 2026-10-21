@@ -1,0 +1,348 @@
+{
+  "posting_id": "9b7cf0d999993619",
+  "company": "Mighty Networks",
+  "domain": "mightynetworks.com",
+  "title": "FP&A Manager",
+  "role_family": "Reporting_FPA",
+  "seniority": "manager",
+  "locations": [
+    "Remote"
+  ],
+  "remote": "remote",
+  "salary": {
+    "min": null,
+    "max": null,
+    "period": null,
+    "currency": null,
+    "raw_text": null
+  },
+  "erp": [],
+  "tools": [
+    "Excel",
+    "Google Sheets",
+    "Stripe"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "improve the systems and processes that get data from source to report",
+    "turn it around quickly",
+    "which parts of the workflow should stay manual"
+  ],
+  "duties": [
+    {
+      "duty_id": "9b7cf0d999993619-01",
+      "text": "Own the company operating model and rolling forecast",
+      "source_span": "You will own the company operating model and rolling forecast, covering revenue, headcount, operating expenses, and cash, and keep it current as the business changes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-02",
+      "text": "Keep it current as the business changes",
+      "source_span": "and keep it current as the business changes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-03",
+      "text": "Run the annual budget",
+      "source_span": "You will run the annual budget",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-04",
+      "text": "Run the regular reforecast process",
+      "source_span": "and the regular reforecast process",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-05",
+      "text": "Work with department leaders to build their plans",
+      "source_span": "working with department leaders to build their plans",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-06",
+      "text": "Hold them to them",
+      "source_span": "and hold them to them",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-07",
+      "text": "Produce monthly budget versus actuals reporting",
+      "source_span": "You will produce monthly budget versus actuals reporting and variance analysis, explaining what moved and why in terms leadership can act on",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-08",
+      "text": "Produce variance analysis",
+      "source_span": "and variance analysis, explaining what moved and why in terms leadership can act on",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-09",
+      "text": "Explain what moved and why in terms leadership can act on",
+      "source_span": "and variance analysis, explaining what moved and why in terms leadership can act on",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-10",
+      "text": "Build and maintain the SaaS metrics",
+      "source_span": "You will build and maintain the SaaS metrics that describe the business, including ARR, MRR, churn, retention, customer acquisition cost, lifetime value, and gross margin",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-11",
+      "text": "Model pricing, packaging, and new product scenarios",
+      "source_span": "You will model pricing, packaging, and new product scenarios",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-12",
+      "text": "Show what each one does to revenue, margin, and cash",
+      "source_span": "and show what each one does to revenue, margin, and cash",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-13",
+      "text": "Track our cost structure",
+      "source_span": "You will track and forecast our cost structure, including hosting, infrastructure, and third party software spend",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-14",
+      "text": "Forecast our cost structure",
+      "source_span": "and forecast our cost structure, including hosting, infrastructure, and third party software spend",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-15",
+      "text": "Prepare the financial materials for board meetings",
+      "source_span": "You will prepare the financial materials for board meetings and investor updates alongside our Head of Finance",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-16",
+      "text": "Prepare the financial materials for investor updates",
+      "source_span": "and investor updates alongside our Head of Finance",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-17",
+      "text": "Partner with accounting on the close",
+      "source_span": "You will partner with accounting on the close so the numbers in the model tie to the books, and improve the systems and processes that get data from source to report",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-18",
+      "text": "Improve the systems and processes that get data from source to report",
+      "source_span": "and improve the systems and processes that get data from source to report",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-19",
+      "text": "Take on ad hoc analysis for leadership",
+      "source_span": "You will take on ad hoc analysis for leadership, from hiring plans to vendor decisions to new product bets, and turn it around quickly",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-20",
+      "text": "Turn it around quickly",
+      "source_span": "and turn it around quickly",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "9b7cf0d999993619-21",
+      "text": "Have five or more years in FP&A",
+      "source_span": "You have five or more years in FP&A, with meaningful time at a subscription software or SaaS company, and you have owned a forecast rather than contributed to one",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-22",
+      "text": "Have meaningful time at a subscription software or SaaS company",
+      "source_span": "with meaningful time at a subscription software or SaaS company",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-23",
+      "text": "Have owned a forecast rather than contributed to one",
+      "source_span": "and you have owned a forecast rather than contributed to one",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-24",
+      "text": "Build a three-statement operating model from scratch",
+      "source_span": "You can build a three-statement operating model from scratch and are fluent enough in Excel and Google Sheets that your models are clean, flexible, and easy for someone else to follow",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-25",
+      "text": "Be fluent enough in Excel and Google Sheets",
+      "source_span": "and are fluent enough in Excel and Google Sheets that your models are clean, flexible, and easy for someone else to follow",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-26",
+      "text": "Know SaaS metrics well and explain how they connect to each other and to cash",
+      "source_span": "You know SaaS metrics well and can explain how they connect to each other and to cash",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-27",
+      "text": "Understand accounting well enough to work closely with a controller and staff accountants",
+      "source_span": "You understand accounting well enough to work closely with a controller and staff accountants, including revenue recognition, accruals, and how the close works",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-28",
+      "text": "Understand revenue recognition, accruals, and how the close works",
+      "source_span": "including revenue recognition, accruals, and how the close works",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-29",
+      "text": "Work independently",
+      "source_span": "You work independently, you know what good looks like without being told, and you bring a recommendation along with the analysis",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-30",
+      "text": "Know what good looks like without being told",
+      "source_span": "you know what good looks like without being told",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-31",
+      "text": "Bring a recommendation along with the analysis",
+      "source_span": "and you bring a recommendation along with the analysis",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-32",
+      "text": "Communicate clearly with people who are not in finance",
+      "source_span": "You communicate clearly with people who are not in finance, and you can walk a department leader through their numbers in a way that changes what they do",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-33",
+      "text": "Walk a department leader through their numbers in a way that changes what they do",
+      "source_span": "and you can walk a department leader through their numbers in a way that changes what they do",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-34",
+      "text": "Be comfortable pulling data from systems such as Stripe, our general ledger, a CRM, and our product database",
+      "source_span": "You are comfortable pulling data from systems such as Stripe, our general ledger, a CRM, and our product database",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-35",
+      "text": "Use AI tools as part of how you work, beyond prompting",
+      "source_span": "You use AI tools as part of how you work, beyond prompting, whether that is building reusable skills or agents, wiring tools together to automate reporting, or knowing which parts of the workflow should stay manual",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-36",
+      "text": "Build reusable skills or agents",
+      "source_span": "whether that is building reusable skills or agents",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-37",
+      "text": "Wire tools together to automate reporting",
+      "source_span": "wiring tools together to automate reporting",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-38",
+      "text": "Know which parts of the workflow should stay manual",
+      "source_span": "or knowing which parts of the workflow should stay manual",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-39",
+      "text": "Be accurate and careful with detail",
+      "source_span": "You are accurate and careful with detail, because leadership will make real decisions on your numbers",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-40",
+      "text": "Have modeled a pricing change or a new product launch at a subscription business",
+      "source_span": "You have modeled a pricing change or a new product launch at a subscription business",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-41",
+      "text": "Have worked at a creator, community, or marketplace business where revenue flows through the platform to customers",
+      "source_span": "You have worked at a creator, community, or marketplace business where revenue flows through the platform to customers",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-42",
+      "text": "Have been the first or only FP&A hire and built the function's models and reporting yourself",
+      "source_span": "You have been the first or only FP&A hire and built the function's models and reporting yourself",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "9b7cf0d999993619-43",
+      "text": "Be comfortable with SQL or willing to get there quickly",
+      "source_span": "You are comfortable with SQL or willing to get there quickly",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-10-01T15:17:09-04:00",
+  "source_url": "https://job-boards.greenhouse.io/mightynetworks/jobs/8861164002?gh_jid=8861164002",
+  "fetched_at": "2026-10-21T17:34:57.620Z",
+  "prompt_version": "extract-v1",
+  "text": "About Us\n\nMighty Networks helps people and brands build communities, online courses, memberships, challenges, and events. Through its advanced technology, called people magic, Mighty helps the members of those networks build relationships with each other by surfacing the most relevant and interesting connections.\n\nBecause of this novel approach and member-centered experience, Mighty has produced the most $1M communities and helped its Hosts earn over $500M.\n\nThe Role\n\nYou own FP&A at Mighty. That means the operating model, the forecast, the budget, the monthly reporting, and the analysis leadership uses to make decisions. You take a business question, find the data, build the model, and come back with an answer and a point of view, without needing someone to lay out the steps for you.\n\nOur SaaS community platform is the core of the business, and the launch of people magic ai will complement it. You will help leadership understand how the business is performing and where to invest.\n\nYou report to our Head of Finance and work closely with our accounting team and with leaders across product, engineering, sales, success, and marketing. This is an individual contributor role for someone who has done this work before and wants to own it.\n\nWhat You'll Own\n\n• You will own the company operating model and rolling forecast, covering revenue, headcount, operating expenses, and cash, and keep it current as the business changes\n\n• You will run the annual budget and the regular reforecast process, working with department leaders to build their plans and hold them to them\n\n• You will produce monthly budget versus actuals reporting and variance analysis, explaining what moved and why in terms leadership can act on\n\n• You will build and maintain the SaaS metrics that describe the business, including ARR, MRR, churn, retention, customer acquisition cost, lifetime value, and gross margin\n\n• You will model pricing, packaging, and new product scenarios and show what each one does to revenue, margin, and cash\n\n• You will track and forecast our cost structure, including hosting, infrastructure, and third party software spend\n\n• You will prepare the financial materials for board meetings and investor updates alongside our Head of Finance\n\n• You will partner with accounting on the close so the numbers in the model tie to the books, and improve the systems and processes that get data from source to report\n\n• You will take on ad hoc analysis for leadership, from hiring plans to vendor decisions to new product bets, and turn it around quickly\n\nWhat We're Looking For\n\n• You have five or more years in FP&A, with meaningful time at a subscription software or SaaS company, and you have owned a forecast rather than contributed to one\n\n• You can build a three-statement operating model from scratch and are fluent enough in Excel and Google Sheets that your models are clean, flexible, and easy for someone else to follow\n\n• You know SaaS metrics well and can explain how they connect to each other and to cash\n\n• You understand accounting well enough to work closely with a controller and staff accountants, including revenue recognition, accruals, and how the close works\n\n• You work independently, you know what good looks like without being told, and you bring a recommendation along with the analysis\n\n• You communicate clearly with people who are not in finance, and you can walk a department leader through their numbers in a way that changes what they do\n\n• You are comfortable pulling data from systems such as Stripe, our general ledger, a CRM, and our product database\n\n• You use AI tools as part of how you work, beyond prompting, whether that is building reusable skills or agents, wiring tools together to automate reporting, or knowing which parts of the workflow should stay manual\n\n• You are accurate and careful with detail, because leadership will make real decisions on your numbers\n\nBonus, none required. Any one of these moves a candidate up the list.\n\n• You have modeled a pricing change or a new product launch at a subscription business\n\n• You have worked at a creator, community, or marketplace business where revenue flows through the platform to customers\n\n• You have been the first or only FP&A hire and built the function's models and reporting yourself\n\n• You are comfortable with SQL or willing to get there quickly",
+  "extra_salary_lines": [],
+  "salary_source": null,
+  "ats": "greenhouse"
+}

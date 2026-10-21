@@ -1,0 +1,285 @@
+{
+  "posting_id": "9dab558bef433de4",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "9dab558bef433de4-01",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.41,
+      "rationale": "The duty is too broad—providing daily accounting functions spans many activities that do not map cleanly to one capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-02",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.82,
+      "rationale": "Preparing monthly financial reports fits management reporting and financial statement package production.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-03",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.37,
+      "rationale": "Distributing reports is a delivery task rather than a clear reporting capability in the map.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-04",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.95,
+      "rationale": "Preparing monthly accrual journal entries matches accrual estimation and recording.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-05",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.9,
+      "rationale": "Preparing financial statement reconciliations is account reconciliation work on the balance sheet.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-06",
+      "label": "covered",
+      "capability_id": "tre.bank_rec",
+      "confidence": 0.99,
+      "rationale": "Preparing bank reconciliations is the core daily bank reconciliation task.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Preparing monthly client distributions is repetitive payment/disbursement processing with no direct matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.46,
+      "rationale": "Reviewing and maintaining general ledger accuracy is too general to map to a single covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-09",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.86,
+      "rationale": "Posting G/L activity is journal entry preparation and posting work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-10",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.98,
+      "rationale": "Reconciling balance sheet accounts is exactly the balance-sheet account reconciliation capability.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-11",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.72,
+      "rationale": "Maintaining subsidiary ledgers is subledger maintenance work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Supporting property accounting managers is a people-support duty rather than an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Supporting property accounting managers with distributions is managerial support, not a platform task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-15",
+      "label": "covered",
+      "capability_id": "tre.cash_application",
+      "confidence": 0.79,
+      "rationale": "Monitoring cash receipt postings aligns with applying and matching cash receipts to open items.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.44,
+      "rationale": "Monitoring tenant billings is vague oversight and does not clearly match a specific invoicing action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.45,
+      "rationale": "Monitoring billing adjustments is too vague to map cleanly to invoicing or order-to-cash processing.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-18",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.88,
+      "rationale": "Performing tenant ledger reconciliations is an account reconciliation activity.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-19",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.97,
+      "rationale": "Reviewing invoice coding matches coding vendor bills to the GL, class, and entity.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.42,
+      "rationale": "Reviewing invoice workflow is too vague and does not directly match a single approval or coding action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Ensuring adherence to capitalization policies involves accounting policy judgment and enforcement.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-22",
+      "label": "assisted",
+      "capability_id": "p2p.payments",
+      "confidence": 0.9,
+      "rationale": "Ensuring timely payments to vendors aligns with preparing and scheduling payment runs.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Coordinating with various departments is cross-functional partnering work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-24",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.47,
+      "rationale": "Ensuring accounting accuracy and completeness of financial packages is a broad quality-assurance statement without a specific mapped action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-25",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.74,
+      "rationale": "Researching historical cash transactions is ad hoc analysis traced to source activity.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Providing responses to portfolio managers and regional directors is advisory cross-functional communication.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-27",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.77,
+      "rationale": "Providing accounting detail and assistance for auditors matches audit support and documentation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Researching new accounting laws and regulations requires human interpretation and policy judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-29",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Preparing 1099 reporting is tax form processing that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-30",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Preparing 1096 reporting is tax form filing work outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-31",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Preparing quarterly 592 forms is state tax filing work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9dab558bef433de4-32",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Preparing quarterly 588 forms is state tax filing work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    }
+  ]
+}

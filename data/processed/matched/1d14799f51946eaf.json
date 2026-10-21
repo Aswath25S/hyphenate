@@ -1,0 +1,150 @@
+{
+  "posting_id": "1d14799f51946eaf",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "1d14799f51946eaf-01",
+      "label": "assisted",
+      "capability_id": "p2p.payments",
+      "confidence": 0.84,
+      "rationale": "Processing check requests is preparing vendor payments for issuance, which matches payment runs but still needs approval.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Processing employee expense reports is a rules-based AP task that is explicitly outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-03",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.97,
+      "rationale": "Reviewing vendor invoices is the core bill capture action of reading and coding vendor bills.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-04",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.99,
+      "rationale": "Coding vendor invoices directly matches reading and coding vendor bills to the GL, class and entity.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-05",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.95,
+      "rationale": "Processing vendor invoices accurately is the end-to-end bill capture workflow.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-06",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.96,
+      "rationale": "Monthly account reconciliations are balance-sheet account reconciliations.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-07",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.55,
+      "rationale": "Resolving discrepancies is too vague to tell whether it is invoice, payment, or reconciliation work.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-08",
+      "label": "covered",
+      "capability_id": "p2p.vendor_followup",
+      "confidence": 0.79,
+      "rationale": "Maintaining multiple vendor accounts aligns with maintaining vendor master data and related vendor follow-up records.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Ensuring compliance with company policies is a broad judgment and governance responsibility rather than a specific platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-10",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.95,
+      "rationale": "Entering accurate accounts payable data is part of processing and coding vendor bills in the ERP.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-11",
+      "label": "covered",
+      "capability_id": "p2p.aging",
+      "confidence": 0.72,
+      "rationale": "Maintaining accurate AP records maps to tracking open payables and keeping the AP subledger current.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-12",
+      "label": "covered",
+      "capability_id": "p2p.vendor_followup",
+      "confidence": 0.96,
+      "rationale": "Researching vendor inquiries is vendor follow-up work handled by communicating about missing details and statements.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-13",
+      "label": "covered",
+      "capability_id": "p2p.vendor_followup",
+      "confidence": 0.96,
+      "rationale": "Addressing vendor inquiries is the same vendor follow-up workflow of responding to vendor questions and missing information.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-14",
+      "label": "covered",
+      "capability_id": "p2p.vendor_followup",
+      "confidence": 0.95,
+      "rationale": "Responding to vendor inquiries is explicitly within vendor follow-up.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Collaborating with internal teams is relationship and coordination work rather than a finance-operations automation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Collaborating with internal teams on issue resolution is human coordination and problem-solving across functions.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

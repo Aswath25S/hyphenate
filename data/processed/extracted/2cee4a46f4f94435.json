@@ -1,0 +1,311 @@
+{
+  "posting_id": "2cee4a46f4f94435",
+  "company": "Benchling",
+  "domain": "benchling.com",
+  "title": "Revenue Accountant Manager",
+  "role_family": "Revenue",
+  "seniority": "manager",
+  "locations": [
+    "San Francisco, CA"
+  ],
+  "remote": "hybrid",
+  "salary": {
+    "min": 133280,
+    "max": 180320,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Job board pay data: $133,280 – $180,320 • Offers Equity"
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Excel",
+    "Salesforce CPQ"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": true,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "slow, manual, disconnected steps",
+    "high-growth SaaS environment",
+    "build the tracking/reporting process",
+    "no settled playbook yet",
+    "new product and pricing model launches",
+    "entity or geographic expansion",
+    "replaced a manual process with a scalable one"
+  ],
+  "duties": [
+    {
+      "duty_id": "2cee4a46f4f94435-01",
+      "text": "Own the deferred revenue process end to end",
+      "source_span": "Own the deferred revenue process end to end",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-02",
+      "text": "Manage deferred revenue schedules",
+      "source_span": "deferred revenue",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-03",
+      "text": "Manage contract asset schedules",
+      "source_span": "contract asset",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-04",
+      "text": "Manage unbilled receivables schedules",
+      "source_span": "unbilled receivables schedules",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-05",
+      "text": "Prepare rollforwards",
+      "source_span": "rollforwards",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-06",
+      "text": "Prepare reconciliations",
+      "source_span": "reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-07",
+      "text": "Prepare supporting analytics",
+      "source_span": "supporting analytics.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-08",
+      "text": "Own the allowance for credit losses from methodology through audit deliverable",
+      "source_span": "Own the allowance for credit losses from methodology through audit deliverable",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-09",
+      "text": "Partner with Collections and Sales on customer risk",
+      "source_span": "partnering with Collections and Sales on customer risk",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-10",
+      "text": "Own supporting memo",
+      "source_span": "own supporting memo.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-11",
+      "text": "Perform technical analysis for contract modifications",
+      "source_span": "Perform technical analysis for contract modifications",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-12",
+      "text": "Perform technical analysis under ASC 606",
+      "source_span": "under ASC 606",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-13",
+      "text": "Lead SSP analyses",
+      "source_span": "lead SSP analyses",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-14",
+      "text": "Prepare complex revenue arrangement memos",
+      "source_span": "complex revenue arrangement memos.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-15",
+      "text": "Lead AI and usage-based product initiatives",
+      "source_span": "Lead or assist in AI and usage-based product initiatives",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-16",
+      "text": "Establish revenue recognition positions for consumption-based arrangements",
+      "source_span": "establish revenue recognition positions for consumption-based arrangements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-17",
+      "text": "Build the tracking/reporting process for AI partnership fees",
+      "source_span": "build the tracking/reporting process for AI partnership fees.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-18",
+      "text": "Own professional services revenue end to end",
+      "source_span": "Own professional services revenue (fixed-fee, T&M) end to end",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-19",
+      "text": "Drive process optimization across PS revenue with Services Operations",
+      "source_span": "drive process optimization across PS revenue with Services Operations.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-20",
+      "text": "Prepare materials for quarterly close presentations",
+      "source_span": "Prepare materials",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-21",
+      "text": "Present financial results in quarterly close presentations",
+      "source_span": "present financial results in quarterly close presentations.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-22",
+      "text": "Own revenue flux analyses across all streams",
+      "source_span": "revenue flux analyses across all streams",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-23",
+      "text": "Own deferred revenue flux analyses across all streams",
+      "source_span": "deferred revenue flux analyses across all streams",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-24",
+      "text": "Participate in the monthly/quarterly/annual close for your workstreams",
+      "source_span": "participate in the monthly/quarterly/annual close for your workstreams.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-25",
+      "text": "Special projects",
+      "source_span": "Lead or assist on special projects such as new product and pricing model launches, entity or geographic expansion.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-26",
+      "text": "Own designated audit areas during the annual audit",
+      "source_span": "Owner for designated audit areas during the annual audit",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-27",
+      "text": "Manage PBC deliverables",
+      "source_span": "managing PBC deliverables",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-28",
+      "text": "Resolve auditor inquiries",
+      "source_span": "resolving auditor inquiries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-29",
+      "text": "Drive issues to closure",
+      "source_span": "driving issues to closure.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-30",
+      "text": "BS/BA in Accounting, strong GAAP/GL/financial statement command.",
+      "source_span": "BS/BA in Accounting, strong GAAP/GL/financial statement command.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-31",
+      "text": "CPA strongly preferred.",
+      "source_span": "CPA strongly preferred.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-32",
+      "text": "7+ years progressive revenue accounting experience in a SaaS/software company, with deep hands-on ASC 606 expertise including complex, non-standard arrangements.",
+      "source_span": "7+ years progressive revenue accounting experience in a SaaS/software company, with deep hands-on ASC 606 expertise including complex, non-standard arrangements.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-33",
+      "text": "End-to-end ownership of an allowance for credit losses or similar reserve process, including audit support.",
+      "source_span": "End-to-end ownership of an allowance for credit losses or similar reserve process, including audit support.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-34",
+      "text": "High-growth SaaS experience spanning subscription and professional services revenue; public accounting/public company experience strongly preferred; IPO or first-year SOX a plus.",
+      "source_span": "High-growth SaaS experience spanning subscription and professional services revenue; public accounting/public company experience strongly preferred; IPO or first-year SOX a plus.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-35",
+      "text": "Track record owning SOX-compliant processes and driving automation - you've replaced a manual process with a scalable one.",
+      "source_span": "Track record owning SOX-compliant processes and driving automation - you've replaced a manual process with a scalable one.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-36",
+      "text": "Proficiency with NetSuite Advanced Revenue Management; advanced Excel/data skills.Familiarity with Salesforce CPQ.",
+      "source_span": "Proficiency with NetSuite Advanced Revenue Management; advanced Excel/data skills.Familiarity with Salesforce CPQ.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2cee4a46f4f94435-37",
+      "text": "Strong communicator who can influence cross-functionally without formal authority, and self-directed under close deadlines.",
+      "source_span": "Strong communicator who can influence cross-functionally without formal authority, and self-directed under close deadlines.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-09-14T17:09:37.431+00:00",
+  "source_url": "https://jobs.ashbyhq.com/benchling/3309acf5-0fc2-43ee-a3da-242faa81f7e4",
+  "fetched_at": "2026-10-21T17:34:13.542Z",
+  "prompt_version": "extract-v1",
+  "text": "We are rebuilding biotech for the AI era.\n\nWhen a breakthrough is delayed, the world waits. Getting a molecule from discovery to patients, or a crop from lab to field, involves thousands of slow, manual, disconnected steps. AI has the potential to change this, compressing decades of R&D work into years. But that only happens when clean, structured scientific data and AI are built into how science gets done.\n\nBenchling is the AI platform for biotech R&D. Scientists use Benchling to design experiments, capture structured data, and run AI agents and models directly in their workflows. Over 200,000 scientists around the world trust Benchling to power their most important work, from academic labs to Sanofi, Moderna, and more than half of the world's top 50 biopharma.\n\nWe’re building an AI scientist for our customers. We can’t do that if we haven’t built the muscle ourselves. AI fluency is the foundation we build on; it's core to how we work, and we're committed to helping every new hire integrate it into their day-to-day. As part of our interview process, you'll complete a brief AI-focused exercise or discussion so we can understand how you think about and use AI to drive impact in your role. Feel free to reference any tools, platforms, or workflows you use today.\n\n\n\n\n\n\nROLE OVERVIEW\n\nBenchling is looking for a Revenue Accountant Manager to own key areas of our revenue accounting and Order to Cash functions in a high-growth SaaS environment. This is a hands-on individual contributor role built for someone who wants deep technical ownership: the deferred revenue process, the end-to-end allowance process, contract modification accounting, and the revenue implications of new AI-driven business models.\n\nYou will be a core contributor to the revenue close alongside the broader team, while carrying full ownership of your areas end to end. A significant part of this role is forward-looking: helping shape how Benchling recognizes revenue on consumption-based products and how we track and account for AI partnership economics as those models evolve.\n\nIf you are motivated by technical revenue accounting, cross-functional partnership, and building processes for products that do not have a settled playbook yet, we would love to meet you.\n\nThis role is based out of the San Francisco HQ and reports to the Head of Revenue Accounting. There are no direct reports, though you will help coach the revenue accounting team and review their work.\n\n \n\n\nRESPONSIBILITIES\n\n - Own the deferred revenue process end to end - deferred revenue, contract asset, and unbilled receivables schedules, rollforwards, reconciliations, and supporting analytics.\n\n - Own the allowance for credit losses from methodology through audit deliverable, partnering with Collections and Sales on customer risk, and own supporting memo.\n\n - Perform technical analysis for contract modifications, under ASC 606, and lead SSP analyses and complex revenue arrangement memos.\n\n - Lead or assist in AI and usage-based product initiatives - establish revenue recognition positions for consumption-based arrangements and build the tracking/reporting process for AI partnership fees.\n\n - Own professional services revenue (fixed-fee, T&M) end to end, and drive process optimization across PS revenue with Services Operations.\n\n - Prepare materials and present financial results in quarterly close presentations.\n\n - Own revenue and deferred revenue flux analyses across all streams, and participate in the monthly/quarterly/annual close for your workstreams.\n\n - Lead or assist on special projects such as new product and pricing model launches, entity or geographic expansion.\n\n - Owner for designated audit areas during the annual audit - managing PBC deliverables, resolving auditor inquiries, and driving issues to closure.\n\n \n\n\nQUALIFICATIONS\n\n - BS/BA in Accounting, strong GAAP/GL/financial statement command. CPA strongly preferred.\n\n - 7+ years progressive revenue accounting experience in a SaaS/software company, with deep hands-on ASC 606 expertise including complex, non-standard arrangements.\n\n - End-to-end ownership of an allowance for credit losses or similar reserve process, including audit support.\n\n - High-growth SaaS experience spanning subscription and professional services revenue; public accounting/public company experience strongly preferred, IPO or first-year SOX a plus.\n\n - Track record owning SOX-compliant processes and driving automation - you've replaced a manual process with a scalable one.\n\n - Proficiency with NetSuite Advanced Revenue Management; advanced Excel/data skills.Familiarity with Salesforce CPQ.\n\n - Strong communicator who can influence cross-functionally without formal authority, and self-directed under close deadlines.\n\n\n\n\nHOW WE WORK\n\nWe offer a flexible hybrid work arrangement that prioritizes in-office collaboration. Employees are expected to be on-site 3 days per week (Monday, Tuesday, and Thursday).\n\n\n\n\n#LI-Hybrid \n\n#BI-Hybrid \n\nBenchling welcomes everyone.\n\nWe believe diversity enriches our team so we hire people with a wide range of identities, backgrounds, and experiences. \n\nWe are an equal opportunity employer. That means we don’t discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. We also consider for employment qualified applicants with arrest and conviction records, consistent with applicable federal, state and local law, including but not limited to the San Francisco Fair Chance Ordinance.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "ashby"
+}

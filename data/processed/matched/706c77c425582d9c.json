@@ -1,76 +1,319 @@
 {
   "posting_id": "706c77c425582d9c",
-  "prompt_version": "hand-labelled",
+  "prompt_version": "match-v1",
   "labels": [
     {
-      "duty_id": "706c77c425582d9c-h01",
-      "label": "gap_candidate",
-      "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "gap_candidate",
-      "adjusted": null
-    },
-    {
-      "duty_id": "706c77c425582d9c-h02",
-      "label": "gap_candidate",
-      "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "gap_candidate",
-      "adjusted": null
-    },
-    {
-      "duty_id": "706c77c425582d9c-h03",
-      "label": "assisted",
-      "capability_id": "gl.account_recs",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "assisted",
-      "adjusted": null
-    },
-    {
-      "duty_id": "706c77c425582d9c-h04",
+      "duty_id": "706c77c425582d9c-01",
       "label": "unclear",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.74,
+      "rationale": "The phrase 'support global tax operations' is too broad to map to a specific covered action.",
       "model_label": "unclear",
       "adjusted": null
     },
     {
-      "duty_id": "706c77c425582d9c-h05",
-      "label": "human",
-      "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "human",
-      "adjusted": null
-    },
-    {
-      "duty_id": "706c77c425582d9c-h06",
-      "label": "assisted",
-      "capability_id": "gl.audit_support",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "assisted",
-      "adjusted": null
-    },
-    {
-      "duty_id": "706c77c425582d9c-h07",
-      "label": "human",
-      "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "human",
-      "adjusted": null
-    },
-    {
-      "duty_id": "706c77c425582d9c-h08",
+      "duty_id": "706c77c425582d9c-02",
       "label": "gap_candidate",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Recurring sales and use tax compliance is repetitive tax filing work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "VAT/GST compliance and filing is repetitive tax work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Owning business tax compliance and reporting is tax-filing work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Managing registrations is administrative compliance work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Handling tax notices is compliance correspondence work that does not match a covered capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Reconciliations outside the listed GL/bank/intercompany capabilities are repetitive finance work with no match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Maintaining related tax controls is control work but not one of the listed finance-ops capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Recurring indirect-tax filings are compliance filings that are not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Managing calendars is administrative coordination work with no matching finance-ops capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Managing data packages is data-prep coordination work that does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Managing notices is compliance correspondence work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Managing registrations is administrative compliance work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-14",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "'Provide close support' is too vague to map to a specific action or capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Establishing a reconciliation workflow is process design and coordination rather than a direct system capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Establishing an exception workflow is process design work that requires human judgment and coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Escalating issues clearly and early is a human communication and coordination task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-18",
+      "label": "unclear",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.57,
+      "rationale": "Investigating variances with data tools matches ad hoc analysis of finance questions traced to source data.",
+      "model_label": "assisted",
+      "adjusted": "confidence 0.57 below 0.6"
+    },
+    {
+      "duty_id": "706c77c425582d9c-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Quality-checking work papers is review work with no specific matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Improving documentation is a process-improvement task that is not directly covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Preserving human review and controls is governance and oversight work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Strengthening controls is control-framework judgment and oversight rather than a direct automated task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-23",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Strengthening process documentation is a process-improvement task with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-24",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Strengthening evidence is documentation and evidence-management work that is not directly covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Strengthening handoffs is cross-functional coordination and process improvement work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-26",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.69,
+      "rationale": "Strengthening audit support is audit-prep process work but not the direct act of preparing support.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-27",
+      "label": "unclear",
+      "capability_id": "gl.controls",
+      "confidence": 0.56,
+      "rationale": "Building SOX walkthrough readiness aligns with maintaining and testing internal controls for SOX.",
+      "model_label": "assisted",
+      "adjusted": "confidence 0.56 below 0.6"
+    },
+    {
+      "duty_id": "706c77c425582d9c-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Accounting is cross-team collaboration and advisory work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Revenue is cross-functional collaboration and advisory work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-30",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Billing is cross-functional collaboration and advisory work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-31",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Product is cross-functional collaboration and advisory work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-32",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Engineering is cross-functional collaboration and advisory work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-33",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Data is cross-functional collaboration and advisory work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-34",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Customer Experience is cross-functional collaboration and advisory work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "706c77c425582d9c-35",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Income tax compliance and reporting is repetitive tax compliance work with no matching capability.",
       "model_label": "gap_candidate",
       "adjusted": null
     }

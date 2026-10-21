@@ -1,0 +1,276 @@
+{
+  "posting_id": "6c2b9ae862e34712",
+  "company": "Gusto",
+  "domain": "gusto.com",
+  "title": "Payroll and Taxes Manager",
+  "role_family": "Payroll",
+  "seniority": "manager",
+  "locations": [
+    "Denver, CO",
+    "Scottsdale, AZ"
+  ],
+  "remote": "hybrid",
+  "salary": {
+    "min": 69000,
+    "max": 91000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Our cash compensation amount for this role is $69,000/yearly - $85,000/yearly in Phoenix and $74,245/yearly - $91,000/yearly in Denver, Chicago and Las Vegas."
+  },
+  "erp": [],
+  "tools": [],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "scale our operation",
+    "use scalable systems and metrics",
+    "as we scale",
+    "highly complex and regulated support environment"
+  ],
+  "duties": [
+    {
+      "duty_id": "6c2b9ae862e34712-01",
+      "text": "Lead a team of passionate individuals",
+      "source_span": "Lead a team of passionate individuals",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-02",
+      "text": "Support their daily activities",
+      "source_span": "support their daily activities",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-03",
+      "text": "Create an environment of continuous development and improvement",
+      "source_span": "Create an environment of continuous development and improvement",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-04",
+      "text": "Mentor the team",
+      "source_span": "mentoring",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-05",
+      "text": "Coach the team",
+      "source_span": "coaching",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-06",
+      "text": "Provide feedback",
+      "source_span": "feedback",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-07",
+      "text": "Empower your team to use scalable systems and metrics to monitor and improve the customer experience",
+      "source_span": "Empower your team to use scalable systems and metrics to monitor and improve the customer experience",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-08",
+      "text": "Understand your team's performance",
+      "source_span": "Understand your team's performance",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-09",
+      "text": "Coach individuals to meet or exceed their performance goals",
+      "source_span": "coach individuals to meet or exceed their performance goals",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-10",
+      "text": "Use scalable systems and metrics to monitor and improve the customer experience, driving loyalty, retention, and growth.",
+      "source_span": "Use scalable systems and metrics to monitor and improve the customer experience, driving loyalty, retention, and growth.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-11",
+      "text": "Understand and communicate company initiatives, OKRs, and metrics used to measure growth and performance in customer support.",
+      "source_span": "Understand and communicate company initiatives, OKRs, and metrics used to measure growth and performance in customer support.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-12",
+      "text": "Use data to identify how we can improve our tools and processes as we scale.",
+      "source_span": "Use data to identify how we can improve our tools and processes as we scale.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-13",
+      "text": "Build a strong culture of collaboration with our product team",
+      "source_span": "Build a strong culture of collaboration with our product team",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-14",
+      "text": "Prioritize the most impactful product enhancements",
+      "source_span": "prioritize the most impactful product enhancements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-15",
+      "text": "Reduce inbound inquiries",
+      "source_span": "reduce inbound inquiries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-16",
+      "text": "Partner cross-functionally to develop your team's skills and capabilities over time.",
+      "source_span": "Partner cross-functionally to develop your team's skills and capabilities over time.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-17",
+      "text": "Utilize AI to learn quickly",
+      "source_span": "Utilized AI to learn quickly",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-18",
+      "text": "Create process improvement",
+      "source_span": "create process improvement",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-19",
+      "text": "Gain efficiencies",
+      "source_span": "gain efficiencies",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-20",
+      "text": "Drive organizational change for you and your team",
+      "source_span": "drive organizational change for you and your team",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-21",
+      "text": "Minimum of 3 years of experience leading teams of individual contributors.",
+      "source_span": "Minimum of 3 years of experience leading teams of individual contributors.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-22",
+      "text": "Deep understanding of customer experience, support metrics, best practices, and tools.",
+      "source_span": "Deep understanding of customer experience, support metrics, best practices, and tools.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-23",
+      "text": "Loves creative problem-solving to dissolve roadblocks.",
+      "source_span": "Loves creative problem-solving to dissolve roadblocks.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-24",
+      "text": "Background in payroll and/or tax is desired.",
+      "source_span": "Background in payroll and/or tax is desired.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-25",
+      "text": "Deep understanding of customer satisfaction indicators and best practices.",
+      "source_span": "Deep understanding of customer satisfaction indicators and best practices.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-26",
+      "text": "Expertise in identifying, analyzing, and implementing behaviors that build customer loyalty.",
+      "source_span": "Expertise in identifying, analyzing, and implementing behaviors that build customer loyalty.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-27",
+      "text": "Demonstrated success in continuous process improvement.",
+      "source_span": "Demonstrated success in continuous process improvement.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-28",
+      "text": "Experience using data to build new processes and improve existing ones.",
+      "source_span": "Experience using data to build new processes and improve existing ones.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-29",
+      "text": "Hire top talent",
+      "source_span": "hire",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-30",
+      "text": "Coach top talent",
+      "source_span": "coach",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-31",
+      "text": "Retain top talent",
+      "source_span": "retain",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-32",
+      "text": "Bachelor's degree preferred, but not required.",
+      "source_span": "Bachelor's degree preferred, but not required.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6c2b9ae862e34712-33",
+      "text": "Adopts AI in their daily tasks and works to efficiently use these tools to drive the business",
+      "source_span": "Adopts AI in their daily tasks and works to efficiently use these tools to drive the business",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-09-21T17:59:09-04:00",
+  "source_url": "https://job-boards.greenhouse.io/gusto/jobs/8208066",
+  "fetched_at": "2026-10-21T17:34:26.160Z",
+  "prompt_version": "extract-v1",
+  "text": "About Gusto\n\nAt Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy.\n\nAI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process.\n\nAbout the Role:\n\nAs a Payroll & Tax Team Leader, you will be at the heart of our world-class support team, playing a pivotal role in ensuring businesses run smoothly. You'll lead a dedicated team that leverages Gusto's powerful platform to handle one of the most vital tasks—ensuring employees get paid accurately and on time while maintaining compliance with state and federal tax laws. With your leadership, we'll continue to set the bar for service excellence, driving customer happiness and industry-leading NPS while supporting over 300,000 businesses (and counting!).\n\nYou'll coach and mentor a high-performing team of customer advocates, leading with passion and vision to scale our operation for millions of businesses in the years ahead. If you're excited by the challenge of driving impact for small businesses and their employees, and ready to help Gusto shape the future of work, we want to hear from you!\n\nHere’s what you’ll do day-to-day:\n\n• Lead a team of passionate individuals and support their daily activities.\n\n• Create an environment of continuous development and improvement through mentoring, coaching, and feedback.\n\n• Empower your team to use scalable systems and metrics to monitor and improve the customer experience.\n\n• Understand your team's performance and coach individuals to meet or exceed their performance goals.\n\n• Use scalable systems and metrics to monitor and improve the customer experience, driving loyalty, retention, and growth.\n\n• Understand and communicate company initiatives, OKRs, and metrics used to measure growth and performance in customer support.\n\n• Use data to identify how we can improve our tools and processes as we scale.\n\n• Build a strong culture of collaboration with our product team to prioritize the most impactful product enhancements and reduce inbound inquiries.\n\n• Partner cross-functionally to develop your team's skills and capabilities over time.\n\n• Utilized AI to learn quickly, create process improvement, gain efficiencies and drive organizational change for you and your team.\n\nHere’s what we're looking for:\n\n• Minimum of 3 years of experience leading teams of individual contributors.\n\n• Deep understanding of customer experience, support metrics, best practices, and tools.\n\n• Loves creative problem-solving to dissolve roadblocks.\n\n• Background in payroll and/or tax is desired.\n\n• Deep understanding of customer satisfaction indicators and best practices.\n\n• Expertise in identifying, analyzing, and implementing behaviors that build customer loyalty.\n\n• Demonstrated success in continuous process improvement.\n\n• Experience using data to build new processes and improve existing ones.\n\n• Ability to hire, coach, and retain top talent in a highly complex and regulated support environment.\n\n• Bachelor's degree preferred, but not required.\n\n• Adopts AI in their daily tasks and works to efficiently use these tools to drive the business\n\nOur cash compensation amount for this role is $69,000/yearly - $85,000/yearly in Phoenix and $74,245/yearly - $91,000/yearly in Denver, Chicago and Las Vegas. Final offer amounts are determined by multiple factors including candidate location, experience and expertise and may vary from the amounts listed above.\n\nAt Gusto, we don't use titles the traditional way, as a signal of rank or hierarchy. Instead, our titles describe two things at once — your craft (what you do, e.g. Engineering, Design) and your scope of ownership (what you're accountable for) — which is why you'll see something like \"Head of X\" instead of a rank word like \"Director\" that tells you neither. Because of this, the title on this posting may look different from what you'd expect based on the scope and seniority of the role, and from how similar roles are typically titled elsewhere. If you have questions about how this role compares to your current title or level, your recruiter can help translate.\n\nGusto has physical office spaces in Denver, San Francisco, and New York City. Employees who are based in those locations will be expected to work from the office on designated days approximately 2-3 days per week (or more depending on role). The same office expectations apply to all Symmetry roles, Gusto's subsidiary, whose physical office is in Scottsdale.\n\nNote: The San Francisco office expectations encompass both the San Francisco and San Jose metro areas.\n\nWhen approved to work from a location other than a Gusto office, a secure, reliable, and consistent internet connection is required. This includes non-office days for hybrid employees.\n\nReliable, consistent presence: We expect regular and predictable attendance, whether you're working in-office, hybrid, or fully remote, so that you stay closely connected to your team, customers, and stakeholders in real time and ensure colleagues and customers receive the timely support and responsiveness they deserve.\n\nOur customers come from all walks of life and so do we. We hire great people from a wide variety of backgrounds, not just because it's the right thing to do, but because it makes our company stronger. If you share our values and our enthusiasm for small businesses, you will find a home at Gusto.\n\nGusto is proud to be an equal opportunity employer. We do not discriminate in hiring or any employment decision based on race, color, religion, national origin, age, sex (including pregnancy, childbirth, or related medical conditions), marital status, ancestry, physical or mental disability, genetic information, veteran status, gender identity or expression, sexual orientation, or other applicable legally protected characteristic. Gusto considers qualified applicants with criminal histories, consistent with applicable federal, state and local law. Gusto is also committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. We want to see our candidates perform to the best of their ability. If you require a medical or religious accommodation at any time throughout your candidate journey, please fill out this form and a member of our team will get in touch with you.\n\nGusto takes security and protection of your personal information very seriously. Please review our Fraudulent Activity Disclaimer.\n\nPersonal information collected and processed as part of your Gusto application will be subject to Gusto's Applicant Privacy Notice.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

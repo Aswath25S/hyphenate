@@ -1,0 +1,276 @@
+{
+  "posting_id": "1d2f40e016c4b1c6",
+  "company": "Squarespace",
+  "domain": "squarespace.com",
+  "title": "Finance Manager",
+  "role_family": "Reporting_FPA",
+  "seniority": "manager",
+  "locations": [
+    "New York City"
+  ],
+  "remote": "onsite",
+  "salary": {
+    "min": 148500,
+    "max": 208000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Cash Compensation Range: $148,500 - $208,000 USD"
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Workday",
+    "Excel"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "high-impact, high-autonomy role",
+    "large, complex technology portfolio",
+    "building the financial infrastructure",
+    "fast-moving environment",
+    "without constant oversight",
+    "across cloud providers and data center environments",
+    "identify and drive process improvements"
+  ],
+  "duties": [
+    {
+      "duty_id": "1d2f40e016c4b1c6-01",
+      "text": "Serve as the primary finance business partner for the R&D organization, including Engineering and Product",
+      "source_span": "Serve as the primary finance business partner for the R&D organization, including Engineering and Product",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-02",
+      "text": "Own monthly close",
+      "source_span": "monthly close",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-03",
+      "text": "Own forecasting",
+      "source_span": "forecasting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-04",
+      "text": "Own annual planning",
+      "source_span": "annual planning",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-05",
+      "text": "Build and own financial frameworks to track model API usage and inference costs end-to-end",
+      "source_span": "model API usage and inference costs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-06",
+      "text": "Build and own financial frameworks to track GPU/cloud compute infrastructure costs end-to-end",
+      "source_span": "GPU/cloud compute infrastructure",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-07",
+      "text": "Build and own financial frameworks to track AI tooling and software licenses end-to-end",
+      "source_span": "AI tooling and software licenses",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-08",
+      "text": "Build and own financial frameworks to track AI-related headcount and contracted services end-to-end",
+      "source_span": "AI-related headcount and contracted services",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-09",
+      "text": "Develop ROI methodologies and scorecards for AI initiatives",
+      "source_span": "Develop ROI methodologies and scorecards for AI initiatives",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-10",
+      "text": "Monitor AI spend efficiency metrics such as cost-per-output",
+      "source_span": "cost-per-output",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-11",
+      "text": "Monitor AI spend efficiency metrics such as cost as a percentage of revenue",
+      "source_span": "cost as a percentage of revenue",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-12",
+      "text": "Surface trends and anomalies proactively",
+      "source_span": "trends and anomalies proactively",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-13",
+      "text": "Partner with Engineering, Product, and Data Science teams to create visibility into how AI costs scale with product usage",
+      "source_span": "Partner with Engineering, Product, and Data Science teams to create visibility into how AI costs scale with product usage",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-14",
+      "text": "Partner with the FinOps team to track and optimize cloud infrastructure costs, including compute, storage, and data transfer spend across cloud providers and data center environments",
+      "source_span": "Partner with the FinOps team to track and optimize cloud infrastructure costs, including compute, storage, and data transfer spend across cloud providers and data center environments",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-15",
+      "text": "Collaborate on cloud cost allocation",
+      "source_span": "cloud cost allocation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-16",
+      "text": "Collaborate on commitment-based savings strategies",
+      "source_span": "commitment-based savings strategies",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-17",
+      "text": "Collaborate on ongoing efficiency initiatives to ensure infrastructure investment scales responsibly with the business",
+      "source_span": "ongoing efficiency initiatives",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-18",
+      "text": "Track and forecast all R&D investments including headcount, software, contracted services, and other operating expenses across products globally",
+      "source_span": "Track and forecast all R&D investments including headcount, software, contracted services, and other operating expenses across products globally",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-19",
+      "text": "Perform variance analysis",
+      "source_span": "Perform variance analysis",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-20",
+      "text": "Deliver actionable recommendations on spend across organizational teams",
+      "source_span": "deliver actionable recommendations on spend across organizational teams",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-21",
+      "text": "Present financial results independently to executive stakeholders and corporate finance leadership",
+      "source_span": "Present financial results independently to executive stakeholders and corporate finance leadership",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-22",
+      "text": "Present strategic insights independently to executive stakeholders and corporate finance leadership",
+      "source_span": "strategic insights independently to executive stakeholders and corporate finance leadership",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-23",
+      "text": "Identify and drive process improvements that enhance reporting efficiency and the quality of business metrics",
+      "source_span": "Identify and drive process improvements that enhance reporting efficiency and the quality of business metrics",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-24",
+      "text": "8+ years of experience in FP&A or related finance roles, with experience supporting technical or R&D organizations strongly preferred",
+      "source_span": "8+ years of experience in FP&A or related finance roles, with experience supporting technical or R&D organizations strongly preferred",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-25",
+      "text": "Bachelor's degree in Finance, Economics, Accounting",
+      "source_span": "Bachelor's degree in Finance, Economics, Accounting",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-26",
+      "text": "Deep expertise in financial modeling and FP&A systems (e.g., Workday,, NetSuite); mastery of Excel required",
+      "source_span": "Deep expertise in financial modeling and FP&A systems (e.g., Workday,, NetSuite); mastery of Excel required",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-27",
+      "text": "Demonstrated ability to operate with a high degree of autonomy — making sound decisions on budget, forecasting, and investment analysis without constant oversight",
+      "source_span": "Demonstrated ability to operate with a high degree of autonomy — making sound decisions on budget, forecasting, and investment analysis without constant oversight",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-28",
+      "text": "Strong strategic thinking skills with the ability to develop long-term financial plans and assess risk across a large, multifaceted portfolio",
+      "source_span": "Strong strategic thinking skills with the ability to develop long-term financial plans and assess risk across a large, multifaceted portfolio",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-29",
+      "text": "Intellectually curious about emerging technology, with a willingness to develop fluency in AI cost structures and how they differ from traditional software spend",
+      "source_span": "Intellectually curious about emerging technology, with a willingness to develop fluency in AI cost structures and how they differ from traditional software spend",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-30",
+      "text": "Proven ability to communicate complex financial topics clearly to non-financial stakeholders at the executive level",
+      "source_span": "Proven ability to communicate complex financial topics clearly to non-financial stakeholders at the executive level",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-31",
+      "text": "A self-starter who thrives in dynamic environments and takes ownership of workstreams end-to-end",
+      "source_span": "A self-starter who thrives in dynamic environments and takes ownership of workstreams end-to-end",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "1d2f40e016c4b1c6-32",
+      "text": "Strong ethical foundation with a commitment to presenting unbiased, accurate information to all stakeholders",
+      "source_span": "Strong ethical foundation with a commitment to presenting unbiased, accurate information to all stakeholders",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-08-27T16:40:07-04:00",
+  "source_url": "http://www.squarespace.com/about/careers?gh_jid=8159515",
+  "fetched_at": "2026-10-21T17:34:11.392Z",
+  "prompt_version": "extract-v1",
+  "text": "The Squarespace Finance team is seeking a Finance Manager to serve as a dedicated FP&A business partner to our R&D organization. This is a high-impact, high-autonomy role responsible for overseeing the financial health of a large, complex technology portfolio spanning Engineering, Product, and Squarespace's expanding AI initiatives.\n\nAs Squarespace scales its investment in artificial intelligence, this role will be instrumental in building the financial infrastructure to track AI costs, evaluate ROI, and translate complex technology spend into strategic insights for senior leadership. The ideal candidate brings deep financial expertise, strong cross-functional instincts, and the judgment to operate independently in a fast-moving environment.\n\nYou will report to the FP&A Director and be based in our New York City office.\n\nYou’ll Get To…\n\n• Serve as the primary finance business partner for the R&D organization, including Engineering and Product, owning the full planning cycle: monthly close, forecasting, and annual planning\n\n• Build and own financial frameworks to track AI-related costs end-to-end including model API usage and inference costs, GPU/cloud compute infrastructure, AI tooling and software licenses, and AI-related headcount and contracted services\n\n• Develop ROI methodologies and scorecards for AI initiatives, helping leadership evaluate where investments are generating value and where to reallocate\n\n• Monitor AI spend efficiency metrics such as cost-per-output and cost as a percentage of revenue, and surface trends and anomalies proactively\n\n• Partner with Engineering, Product, and Data Science teams to create visibility into how AI costs scale with product usage, helping the company plan for growth scenarios\n\n• Partner with the FinOps team to track and optimize cloud infrastructure costs, including compute, storage, and data transfer spend across cloud providers and data center environments; collaborate on cloud cost allocation, commitment-based savings strategies , and ongoing efficiency initiatives to ensure infrastructure investment scales responsibly with the business\n\n• Track and forecast all R&D investments including headcount, software, contracted services, and other operating expenses across products globally\n\n• Perform variance analysis and deliver actionable recommendations on spend across organizational teams\n\n• Present financial results and strategic insights independently to executive stakeholders and corporate finance leadership\n\n• Identify and drive process improvements that enhance reporting efficiency and the quality of business metrics\n\nWho We're Looking For\n\n• 8+ years of experience in FP&A or related finance roles, with experience supporting technical or R&D organizations strongly preferred\n\n• Bachelor's degree in Finance, Economics, Accounting\n\n• Deep expertise in financial modeling and FP&A systems (e.g., Workday,, NetSuite); mastery of Excel required\n\n• Demonstrated ability to operate with a high degree of autonomy — making sound decisions on budget, forecasting, and investment analysis without constant oversight\n\n• Strong strategic thinking skills with the ability to develop long-term financial plans and assess risk across a large, multifaceted portfolio\n\n• Intellectually curious about emerging technology, with a willingness to develop fluency in AI cost structures and how they differ from traditional software spend\n\n• Proven ability to communicate complex financial topics clearly to non-financial stakeholders at the executive level\n\n• A self-starter who thrives in dynamic environments and takes ownership of workstreams end-to-end\n\n• Strong ethical foundation with a commitment to presenting unbiased, accurate information to all stakeholders\n\nBenefits & Perks\n\n• A choice between medical plans with an option for 100% covered premiums\n\n• Fertility and adoption benefits\n\n• Access to supplemental insurance plans for additional coverage\n\n• Headspace mindfulness app subscription\n\n• Global Employee Assistance Program\n\n• Retirement benefits with employer match\n\n• Flexible paid time off\n\n• 12 weeks paid parental leave and family care leave\n\n• Pretax commuter benefit\n\n• Education reimbursement\n\n• Employee donation match to community organizations\n\n• 7 Global Employee Resource Groups (ERGs)\n\n• Dog-friendly workplace\n\n• Free lunch and snacks\n\n• Private rooftop\n\n• Hack week twice per year\n\nCash Compensation Range: $148,500 - $208,000 USD\n\nThe base salary for this position will vary based on job-related criteria including relevant skills, experience, and location, among other factors.\n\nIn addition to the cash compensation above (which includes base salary and, where applicable for eligible roles, may include overtime pay), Squarespace employees are eligible to be granted an option to purchase our common stock. Sales positions generally offer a competitive On Target Earnings (OTE) incentive structure in addition to base salary.\n\nAbout Squarespace\n\nSquarespace is a design-driven platform helping entrepreneurs build brands and businesses online. We empower millions of customers in more than 200 countries and territories with all the tools they need to create an online presence, build an audience, monetize, and scale their business. Our suite of products range from websites, domains, ecommerce, and marketing tools, as well as tools for scheduling with Acuity and creating and managing social media presence with Bio Sites and Unfold. Our team of more than 1,700 is headquartered in New York City, with offices in Dublin, Ireland, and Aveiro, Portugal. For more information about our company, visit https://www.squarespace.com/about/careers.\n\nOur Commitment\n\nToday, more than a million people around the globe use Squarespace to share different perspectives and experiences with the world. Not only do we embrace and celebrate the diversity of our customers, but we also work toward the same in our employees. At Squarespace, we are committed to equal employment opportunity regardless of race, color, ethnicity, ancestry, religion, national origin, gender, sex, gender identity or expression, sexual orientation, age, citizenship, marital or parental status, disability, veteran status, or other class protected by applicable law. We are proud to be an equal opportunity workplace.\n\nThank you in advance for providing the following details about your work history from your resume! This helps us ensure that your candidate information is accurate and consistent during the hiring process.\n\nSquarespace will never solicit your personal banking information or ask you to transfer money in connection with a job offer or interview. We also will not reach out to you via phone or SMS without your permission or knowledge.\n\nIf you plan to use AI in any capacity during your candidate journey, please review our Candidate AI Policy.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

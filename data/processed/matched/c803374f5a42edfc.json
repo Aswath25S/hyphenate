@@ -1,0 +1,267 @@
+{
+  "posting_id": "c803374f5a42edfc",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "c803374f5a42edfc-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.55,
+      "rationale": "The duty is broad expense management, which is FP&A-style spend control but matches no specific covered capability.",
+      "model_label": "gap_candidate",
+      "adjusted": "confidence 0.55 below 0.6"
+    },
+    {
+      "duty_id": "c803374f5a42edfc-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Approving vendor and invoice approvals is a budget-owner approval decision, which is explicitly human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Planning headcount is budgeting and workforce planning, which is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Forecasting non-headcount spend is a budgeting/forecasting model task with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Tracking cloud infrastructure costs is spend analysis outside the listed reporting or accounting capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-07",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.96,
+      "rationale": "Performing month-end variance analysis matches flux analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-08",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.95,
+      "rationale": "Preparing leadership reporting matches building recurring management reports for leadership.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Driving expense forecasting is a forecasting/budgeting model task that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Approving vendor approvals is a spend-approval decision made by a human budget owner.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-11",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.95,
+      "rationale": "Performing month-end close activities matches running month-end close checklist tasks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-12",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.97,
+      "rationale": "Performing variance analysis matches flux analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Preparing BvA reporting is budget-versus-actual planning work, which is outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-14",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.96,
+      "rationale": "Preparing board of directors reporting decks matches building board deck financials.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-15",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.91,
+      "rationale": "Preparing QFR reporting decks fits recurring management reporting deliverables.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-16",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.88,
+      "rationale": "Preparing investor-ready reporting decks is management-reporting output, though investor presentation itself is human.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.38,
+      "rationale": "Billings actualization is too vague to map confidently to a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Forecasting billings is a planning model task that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Delivering finance readouts to executive leadership is presenting to leadership, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with Accounting through close is cross-functional collaboration, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-21",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.93,
+      "rationale": "Performing soft close matches month-end close checklist tasks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-22",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.93,
+      "rationale": "Performing hard close matches month-end close checklist tasks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Reviewing results with budget owners is a human partnership and discussion activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-24",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Maintaining rolling forecasts is forecasting model work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-25",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.96,
+      "rationale": "Providing variance commentary for material deviations matches flux analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-26",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Locking forecasts on a monthly cadence is a forecasting workflow step with no listed capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Collaborating cross-functionally on headcount and spend decisions is a human decision-making activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-28",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.31,
+      "rationale": "Leveraging AI tools to accelerate forecasting workflows describes tool usage rather than a finance-operation duty the platform performs.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-29",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.31,
+      "rationale": "Leveraging AI tools to accelerate variance commentary is too meta and does not map cleanly to a platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c803374f5a42edfc-30",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.31,
+      "rationale": "Leveraging AI tools to accelerate ad-hoc analysis describes tool usage rather than a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

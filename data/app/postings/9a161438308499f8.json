@@ -5,30 +5,32 @@
   "domain": "pagaya.com",
   "title": "Analyst, Treasury",
   "role_family": "Treasury",
-  "seniority": "entry",
-  "n": 10,
-  "C": 2,
+  "seniority": "mid",
+  "n": 26,
+  "C": 4,
   "A": 2,
-  "covered_share": 0.2,
-  "overlap": 0.4,
-  "weighted_overlap": 0.3,
+  "covered_share": 0.15384615384615385,
+  "overlap": 0.23076923076923078,
+  "weighted_overlap": 0.19230769230769232,
   "thin": false,
   "salary_min": 85000,
   "salary_max": 100000,
   "salary_varies": false,
   "salary_source": "posting_text",
-  "savings": 8500,
+  "savings": 6538.461538461539,
   "savings_reason": null,
   "lead_product": "Treasury",
   "product_split": {
     "Treasury": {
-      "covered": 2,
+      "covered": 4,
       "assisted": 2,
-      "weighted": 3
+      "weighted": 5
     }
   },
   "erp": [],
-  "tools": [],
+  "tools": [
+    "Excel"
+  ],
   "posted_at": "2026-10-06T09:54:40-04:00",
   "source_url": "https://job-boards.greenhouse.io/pagaya/jobs/8014453003",
   "locations": [
@@ -44,29 +46,34 @@
     "max": 100000,
     "period": "year",
     "currency": "USD",
-    "raw_text": "$85,000—$100,000 USD"
+    "raw_text": "Compensation Range for New York Based Hires\n\n$85,000—$100,000 USD"
   },
   "complexity": {
-    "multi_entity": false,
+    "multi_entity": true,
     "multi_currency": false,
     "usage_based_billing": false,
     "high_volume": false,
     "entity_count": null
   },
-  "pain_phrases": [],
-  "fetched_at": "2026-10-21T03:27:25.278Z",
+  "pain_phrases": [
+    "daily data reconciliations",
+    "across dozens of SPVs",
+    "multi-entity funding workflows",
+    "high-velocity financial flows"
+  ],
+  "fetched_at": "2026-10-21T17:34:44.524Z",
   "ats": "greenhouse",
   "duties": [
     {
-      "duty_id": "9a161438308499f8-h01",
-      "text": "Coordinate concurrent loan purchases across deal structures",
-      "source_span": "Coordinate and manage concurrent loan purchases across multiple deal structures",
+      "duty_id": "9a161438308499f8-01",
+      "text": "Coordinate concurrent loan purchases across multiple deal structures.",
+      "source_span": "Coordinate and manage concurrent loan purchases across multiple deal structures and diverse loan origination and servicer networks, ensuring seamless daily execution.",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 1770,
-        "end": 1849
+        "end": 1936
       },
       "label": "gap_candidate",
       "model_label": "gap_candidate",
@@ -74,24 +81,49 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.82,
+      "rationale": "Coordinating concurrent loan purchases is an operational transaction workflow that does not match any treasury capability on the map.",
       "gap_theme": {
-        "theme_id": "structured_finance_ops",
-        "name": "Structured-finance treasury operations",
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "9a161438308499f8-02",
+      "text": "Manage concurrent loan purchases across diverse loan origination and servicer networks.",
+      "source_span": "Coordinate and manage concurrent loan purchases across multiple deal structures and diverse loan origination and servicer networks, ensuring seamless daily execution.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1770,
+        "end": 1936
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.81,
+      "rationale": "Managing loan purchases across origination and servicer networks is counterparties-and-process work with no matching capability listed.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "9a161438308499f8-h02",
-      "text": "Monitor cash balances and liquidity across SPVs",
-      "source_span": "Monitor real-time cash balances, facility draw capacities, and liquidity positioning",
+      "duty_id": "9a161438308499f8-03",
+      "text": "Monitor real-time cash balances.",
+      "source_span": "Monitor real-time cash balances, facility draw capacities, and liquidity positioning across dozens of SPVs, warehouse facilities, and investment funds.",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 1952,
-        "end": 2036
+        "end": 2103
       },
       "label": "covered",
       "model_label": "covered",
@@ -99,20 +131,66 @@
       "capability_id": "tre.cash_position",
       "capability": "Cash position across accounts, entities and banks",
       "product": "Treasury",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.97,
+      "rationale": "Monitoring real-time cash balances is the core cash position capability across accounts and entities.",
       "gap_theme": null
     },
     {
-      "duty_id": "9a161438308499f8-h03",
-      "text": "Track concentration limits and borrowing base criteria",
-      "source_span": "Track portfolio concentration limits, borrowing base parameters, and eligibility criteria",
+      "duty_id": "9a161438308499f8-04",
+      "text": "Monitor facility draw capacities.",
+      "source_span": "Monitor real-time cash balances, facility draw capacities, and liquidity positioning across dozens of SPVs, warehouse facilities, and investment funds.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1952,
+        "end": 2103
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.76,
+      "rationale": "Monitoring facility draw capacities is a liquidity-monitoring task but not one of the listed treasury capabilities.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "9a161438308499f8-05",
+      "text": "Monitor liquidity positioning across dozens of SPVs, warehouse facilities, and investment funds.",
+      "source_span": "Monitor real-time cash balances, facility draw capacities, and liquidity positioning across dozens of SPVs, warehouse facilities, and investment funds.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1952,
+        "end": 2103
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "tre.cash_position",
+      "capability": "Cash position across accounts, entities and banks",
+      "product": "Treasury",
+      "confidence": 0.93,
+      "rationale": "Monitoring liquidity positioning across entities and facilities matches cash position reporting across accounts, entities and banks.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9a161438308499f8-06",
+      "text": "Track portfolio concentration limits.",
+      "source_span": "Track portfolio concentration limits, borrowing base parameters, and eligibility criteria during asset allocation to ensure strict compliance with deal indentures and credit agreements.",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 2151,
-        "end": 2240
+        "end": 2336
       },
       "label": "gap_candidate",
       "model_label": "gap_candidate",
@@ -120,24 +198,74 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.86,
+      "rationale": "Tracking portfolio concentration limits is a compliance monitoring task with no matching capability on the map.",
       "gap_theme": {
-        "theme_id": "structured_finance_ops",
-        "name": "Structured-finance treasury operations",
-        "bucket": "possible_gap"
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
       }
     },
     {
-      "duty_id": "9a161438308499f8-h04",
-      "text": "Set up bank and trust accounts for new deals",
-      "source_span": "Lead the end-to-end operational setup of bank and trust accounts for new deal structures",
+      "duty_id": "9a161438308499f8-07",
+      "text": "Track borrowing base parameters.",
+      "source_span": "Track portfolio concentration limits, borrowing base parameters, and eligibility criteria during asset allocation to ensure strict compliance with deal indentures and credit agreements.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2151,
+        "end": 2336
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Tracking borrowing base parameters is rules-based monitoring that is not covered by any listed capability.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "9a161438308499f8-08",
+      "text": "Track eligibility criteria during asset allocation to ensure strict compliance with deal indentures and credit agreements.",
+      "source_span": "Track portfolio concentration limits, borrowing base parameters, and eligibility criteria during asset allocation to ensure strict compliance with deal indentures and credit agreements.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2151,
+        "end": 2336
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Tracking eligibility criteria for asset allocation is compliance checking against deal terms, which is not a listed capability.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "9a161438308499f8-09",
+      "text": "Lead the end-to-end operational setup of bank accounts for new deal structures.",
+      "source_span": "Lead the end-to-end operational setup of bank and trust accounts for new deal structures, managing entitlements, portal configurations, and onboarding checklists.",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 2378,
-        "end": 2466
+        "end": 2540
       },
       "label": "gap_candidate",
       "model_label": "gap_candidate",
@@ -145,70 +273,186 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.92,
+      "rationale": "Operational setup of bank accounts is specifically excluded from the bank reconciliation capability and is not otherwise covered.",
       "gap_theme": {
-        "theme_id": "structured_finance_ops",
-        "name": "Structured-finance treasury operations",
-        "bucket": "possible_gap"
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
       }
     },
     {
-      "duty_id": "9a161438308499f8-h05",
-      "text": "Act as operational contact for banks, servicers and custodians",
-      "source_span": "Act as a main operational point of contact for external originators, loan servicers, custodians, and banking institutions",
+      "duty_id": "9a161438308499f8-10",
+      "text": "Lead the end-to-end operational setup of trust accounts for new deal structures.",
+      "source_span": "Lead the end-to-end operational setup of bank and trust accounts for new deal structures, managing entitlements, portal configurations, and onboarding checklists.",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 2565,
-        "end": 2686
+        "start": 2378,
+        "end": 2540
       },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.91,
+      "rationale": "Operational setup of trust accounts is account-opening work that is not covered by the map.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "9a161438308499f8-11",
+      "text": "Manage entitlements.",
+      "source_span": "Lead the end-to-end operational setup of bank and trust accounts for new deal structures, managing entitlements, portal configurations, and onboarding checklists.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2378,
+        "end": 2540
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Managing entitlements is access administration rather than a listed finance-operations capability.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "9a161438308499f8-12",
+      "text": "Manage portal configurations.",
+      "source_span": "Lead the end-to-end operational setup of bank and trust accounts for new deal structures, managing entitlements, portal configurations, and onboarding checklists.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2378,
+        "end": 2540
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.87,
+      "rationale": "Managing portal configurations is system administration and does not match a listed capability.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "9a161438308499f8-13",
+      "text": "Manage onboarding checklists.",
+      "source_span": "Lead the end-to-end operational setup of bank and trust accounts for new deal structures, managing entitlements, portal configurations, and onboarding checklists.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2378,
+        "end": 2540
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.83,
+      "rationale": "Managing onboarding checklists is workflow administration that is not covered by the capability map.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "9a161438308499f8-14",
+      "text": "Serve as a main operational point of contact for external originators, loan servicers, custodians, and banking institutions.",
+      "source_span": "Serve as a main operational point of contact for external originators, loan servicers, custodians, and banking institutions to coordinate daily cash flows and resolve operational exceptions.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": null,
       "label": "human",
       "model_label": "human",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.96,
+      "rationale": "Being the main operational point of contact for external parties is relationship management, which is labeled human.",
       "gap_theme": {
-        "theme_id": "cross_functional",
-        "name": "Cross-functional partnering",
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
         "bucket": "human_work"
       }
     },
     {
-      "duty_id": "9a161438308499f8-h06",
-      "text": "Resolve operational cash exceptions",
-      "source_span": "resolve operational exceptions",
+      "duty_id": "9a161438308499f8-15",
+      "text": "Coordinate daily cash flows.",
+      "source_span": "Serve as a main operational point of contact for external originators, loan servicers, custodians, and banking institutions to coordinate daily cash flows and resolve operational exceptions.",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
-      "span": {
-        "start": 2722,
-        "end": 2752
-      },
+      "span": null,
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.8,
+      "rationale": "Coordinating daily cash flows is treasury operations work but not a listed automated capability.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "9a161438308499f8-16",
+      "text": "Resolve operational exceptions.",
+      "source_span": "Serve as a main operational point of contact for external originators, loan servicers, custodians, and banking institutions to coordinate daily cash flows and resolve operational exceptions.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": null,
       "label": "assisted",
       "model_label": "assisted",
       "adjusted": null,
       "capability_id": "tre.exceptions",
       "capability": "Flag short-paid, unmatched or over-policy items",
       "product": "Treasury",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.86,
+      "rationale": "Resolving operational exceptions matches the treasury exceptions capability for researching and resolving unmatched or short items.",
       "gap_theme": null
     },
     {
-      "duty_id": "9a161438308499f8-h07",
-      "text": "Own institutional KYC documentation",
-      "source_span": "Own institutional KYC/AML documentation packages",
+      "duty_id": "9a161438308499f8-17",
+      "text": "Own institutional KYC/AML documentation packages.",
+      "source_span": "Own institutional KYC/AML documentation packages, periodic account reviews, and legal entity updates across banking and lending relationships.",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 2763,
-        "end": 2811
+        "end": 2905
       },
       "label": "gap_candidate",
       "model_label": "gap_candidate",
@@ -216,24 +460,74 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.89,
+      "rationale": "Owning KYC/AML documentation packages is compliance documentation work with no matching capability listed.",
       "gap_theme": {
-        "theme_id": "structured_finance_ops",
-        "name": "Structured-finance treasury operations",
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "9a161438308499f8-h08",
-      "text": "Perform daily account and transaction reconciliations",
-      "source_span": "Perform daily account and transaction-level reconciliations",
+      "duty_id": "9a161438308499f8-18",
+      "text": "Own periodic account reviews.",
+      "source_span": "Own institutional KYC/AML documentation packages, periodic account reviews, and legal entity updates across banking and lending relationships.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2763,
+        "end": 2905
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Owning periodic account reviews is a recurring compliance/account-maintenance task not covered by the map.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "9a161438308499f8-19",
+      "text": "Own legal entity updates across banking and lending relationships.",
+      "source_span": "Own institutional KYC/AML documentation packages, periodic account reviews, and legal entity updates across banking and lending relationships.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2763,
+        "end": 2905
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.86,
+      "rationale": "Managing legal entity updates across relationships is entity administration that does not match a listed capability.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "9a161438308499f8-20",
+      "text": "Perform daily account reconciliations.",
+      "source_span": "Perform daily account and transaction-level reconciliations; analyze loan tapes and servicer data to identify and resolve cash or reporting discrepancies.",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 2943,
-        "end": 3002
+        "end": 3097
       },
       "label": "covered",
       "model_label": "covered",
@@ -241,20 +535,41 @@
       "capability_id": "tre.bank_rec",
       "capability": "Daily bank reconciliation",
       "product": "Treasury",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Performing daily account reconciliations matches the daily bank reconciliation capability.",
       "gap_theme": null
     },
     {
-      "duty_id": "9a161438308499f8-h09",
-      "text": "Analyze loan tapes and servicer data for discrepancies",
-      "source_span": "analyze loan tapes and servicer data to identify and resolve cash or reporting discrepancies",
+      "duty_id": "9a161438308499f8-21",
+      "text": "Perform transaction-level reconciliations.",
+      "source_span": "Perform daily account and transaction-level reconciliations; analyze loan tapes and servicer data to identify and resolve cash or reporting discrepancies.",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 3004,
-        "end": 3096
+        "start": 2943,
+        "end": 3097
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "tre.bank_rec",
+      "capability": "Daily bank reconciliation",
+      "product": "Treasury",
+      "confidence": 0.74,
+      "rationale": "Performing transaction-level reconciliations is a reconciliation task that fits the bank reconciliation capability at the transaction level.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9a161438308499f8-22",
+      "text": "Analyze loan tapes and servicer data to identify and resolve cash or reporting discrepancies.",
+      "source_span": "Perform daily account and transaction-level reconciliations; analyze loan tapes and servicer data to identify and resolve cash or reporting discrepancies.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2943,
+        "end": 3097
       },
       "label": "assisted",
       "model_label": "assisted",
@@ -262,34 +577,466 @@
       "capability_id": "tre.exceptions",
       "capability": "Flag short-paid, unmatched or over-policy items",
       "product": "Treasury",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.83,
+      "rationale": "Analyzing loan tapes and servicer data to find and resolve discrepancies matches treasury exception research and resolution.",
       "gap_theme": null
     },
     {
-      "duty_id": "9a161438308499f8-h10",
-      "text": "Update treasury procedures, controls and reporting templates",
-      "source_span": "Identify friction points in daily treasury workflows and implement updated procedures, controls, and reporting templates",
+      "duty_id": "9a161438308499f8-23",
+      "text": "Identify friction points in daily treasury workflows.",
+      "source_span": "Identify friction points in daily treasury workflows and implement updated procedures, controls, and reporting templates.",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 3124,
-        "end": 3244
+        "end": 3245
       },
-      "label": "human",
-      "model_label": "human",
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.78,
+      "rationale": "Identifying friction points in treasury workflows is process-improvement analysis with no matching capability.",
       "gap_theme": {
-        "theme_id": "process_improvement",
-        "name": "Process improvement projects",
-        "bucket": "human_work"
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
       }
+    },
+    {
+      "duty_id": "9a161438308499f8-24",
+      "text": "Implement updated procedures.",
+      "source_span": "Identify friction points in daily treasury workflows and implement updated procedures, controls, and reporting templates.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3124,
+        "end": 3245
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Implementing updated procedures is process-change work rather than a listed finance-operations capability.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "9a161438308499f8-25",
+      "text": "Implement controls.",
+      "source_span": "Identify friction points in daily treasury workflows and implement updated procedures, controls, and reporting templates.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3124,
+        "end": 3245
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Implementing controls is control-design work, which is not covered by the monitoring-controls capability.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "9a161438308499f8-26",
+      "text": "Implement reporting templates.",
+      "source_span": "Identify friction points in daily treasury workflows and implement updated procedures, controls, and reporting templates.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3124,
+        "end": 3245
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.87,
+      "rationale": "Implementing reporting templates is template design and rollout, not a listed reporting capability.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "9a161438308499f8-27",
+      "text": "Have 1–3 years in treasury operations, middle office, or settlement roles within financial services, fintech, or investment management.",
+      "source_span": "1–3 years in treasury operations, middle office, or settlement roles within financial services, fintech, or investment management.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3299,
+        "end": 3429
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9a161438308499f8-28",
+      "text": "Be able to manage multi-entity funding workflows, bank portals, and daily settlement cutoffs with strict attention to detail.",
+      "source_span": "Proven ability to manage multi-entity funding workflows, bank portals, and daily settlement cutoffs with strict attention to detail.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3455,
+        "end": 3587
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9a161438308499f8-29",
+      "text": "Navigate institutional KYC requests and legal entity structures.",
+      "source_span": "Experience navigating institutional KYC requests and legal entity structures.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3592,
+        "end": 3669
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9a161438308499f8-30",
+      "text": "Be proficient in Excel (SUMIFS, XLOOKUP, Pivot Tables).",
+      "source_span": "Solid working knowledge of Excel (SUMIFS, XLOOKUP, Pivot Tables).",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3674,
+        "end": 3739
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9a161438308499f8-31",
+      "text": "Collaborate effectively with external counterparties (banks, servicers, trustees) and internal teams (Legal, Capital Markets, Finance).",
+      "source_span": "Ability to collaborate effectively with external counterparties (banks, servicers, trustees) and internal teams (Legal, Capital Markets, Finance).",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3744,
+        "end": 3890
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9a161438308499f8-32",
+      "text": "Be familiar with ABS SPVs, trust accounts, loan tapes, or securitization mechanics.",
+      "source_span": "Familiarity with ABS SPVs, trust accounts, loan tapes, or securitization mechanics.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3945,
+        "end": 4028
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9a161438308499f8-33",
+      "text": "Be familiar with SQL or automated reconciliation tools for handling large financial datasets.",
+      "source_span": "Familiarity with SQL or automated reconciliation tools for handling large financial datasets.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4046,
+        "end": 4139
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9a161438308499f8-34",
+      "text": "Pagaya is building a leading artificial intelligence network to help our partners grow their businesses and better serve their customers.",
+      "source_span": "Pagaya is building a leading artificial intelligence network to help our partners grow their businesses and better serve their customers.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 43,
+        "end": 180
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9a161438308499f8-35",
+      "text": "Let's create better outcomes together!",
+      "source_span": "Let's create better outcomes together!",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 830,
+        "end": 868
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9a161438308499f8-36",
+      "text": "Pagaya was founded in 2016 by seasoned research, finance, and technology entrepreneurs with our head quarters located in NYC and Tel Aviv.",
+      "source_span": "Pagaya was founded in 2016 by seasoned research, finance, and technology entrepreneurs with our head quarters located in NYC and Tel Aviv.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4427,
+        "end": 4565
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9a161438308499f8-37",
+      "text": "We move fast and smart, identifying new opportunities and building end-to-end solutions from AI models and unique data sources.",
+      "source_span": "We move fast and smart, identifying new opportunities and building end-to-end solutions from AI models and unique data sources.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4567,
+        "end": 4694
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9a161438308499f8-38",
+      "text": "We challenge ourselves for the sake of getting better as individuals, as teams, and as an organization to deliver for our partners.",
+      "source_span": "We challenge ourselves for the sake of getting better as individuals, as teams, and as an organization to deliver for our partners.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4984,
+        "end": 5115
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9a161438308499f8-39",
+      "text": "We respectfully and openly debate to strengthen our ideas and build shared conviction - once we decide, we go all in, together.",
+      "source_span": "We respectfully and openly debate to strengthen our ideas and build shared conviction - once we decide, we go all in, together.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5138,
+        "end": 5265
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9a161438308499f8-40",
+      "text": "We boldly tackle complex problems, pressure-test solutions in real-time, and adapt with speed and energy.",
+      "source_span": "We boldly tackle complex problems, pressure-test solutions in real-time, and adapt with speed and energy.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5288,
+        "end": 5393
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9a161438308499f8-41",
+      "text": "We create a world where everyone can win, designing systems that better represent people and generate sustainable value for our employees, partners and investors.",
+      "source_span": "We create a world where everyone can win, designing systems that better represent people and generate sustainable value for our employees, partners and investors.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5416,
+        "end": 5578
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9a161438308499f8-42",
+      "text": "We proudly own our actions and our results, taking initiative to ensure our work gets over the finish line as a team.",
+      "source_span": "We proudly own our actions and our results, taking initiative to ensure our work gets over the finish line as a team.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5607,
+        "end": 5724
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9a161438308499f8-43",
+      "text": "We believe health, happiness, and productivity go hand-in-hand.",
+      "source_span": "We believe health, happiness, and productivity go hand-in-hand.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5748,
+        "end": 5811
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
     }
   ]
 }

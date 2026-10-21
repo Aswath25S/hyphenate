@@ -1,0 +1,294 @@
+{
+  "posting_id": "3cac77d190f17a6b",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "3cac77d190f17a6b-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Leading annual department budgets is FP&A planning work and no listed capability covers budgeting models end to end.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Rolling forecasts for headcount and expenses are planning-model work that falls outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-03",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.61,
+      "rationale": "Aligning spending to growth and profitability targets is too broad to map to a specific automated finance action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Owning the headcount model is a budgeting and workforce-planning model not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Owning the personnel cost model is FP&A planning work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Reflecting hiring plans is part of a headcount forecast model, which is not listed as covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Reflecting attrition is a workforce-planning forecast task with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Reflecting compensation and benefits is a personnel cost planning task outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with department leaders on hiring decisions is advisory work with people managers.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with department leaders on investment decisions is collaborative judgment work, not platform automation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-11",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.56,
+      "rationale": "Identifying cost savings is too open-ended to map cleanly to a specific finance-ops capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-12",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Evaluating tradeoffs in growth, capacity and profitability is strategic judgment rather than a defined operational workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Partnering with Accounting on close work is a cross-functional collaboration, even though accruals themselves are automatable.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Variance analysis against budget and forecast is an FP&A planning analysis not covered by the reporting capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Tracking SaaS spend is a spend-monitoring task with no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Tracking vendor spend is monitoring and reporting work outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.68,
+      "rationale": "Owning the purchase order system is a vague systems-ownership duty that does not map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-18",
+      "label": "covered",
+      "capability_id": "p2p.approvals",
+      "confidence": 0.82,
+      "rationale": "Owning procurement approvals is the same core action as routing approvals by policy.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Working with Legal, IT and Accounting on purchases is cross-functional partnering and not an automated finance workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Working with Legal, IT and Accounting on renewals is relationship and coordination work with other teams.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.64,
+      "rationale": "Managing Ramp is too vague because it could mean several different spend-management activities.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-22",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Managing spend programs is a generic spend-control task with no direct listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-23",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Managing company cards is spend administration work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-24",
+      "label": "covered",
+      "capability_id": "p2p.approvals",
+      "confidence": 0.78,
+      "rationale": "Managing approval workflows matches routing approvals by policy end to end.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Managing expense policies is policy setting and governance, which the map classifies as human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-26",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.73,
+      "rationale": "Implementing planning tools is a project activity and not a finance-ops workflow capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-27",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Administering planning tools is system administration work that does not match a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-28",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "Improving data integrations is too broad and project-oriented to map to a specific covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-29",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Improving reporting processes is a vague process-improvement duty without a specific matching capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-30",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Improving planning processes is broad process work and not a defined capability in the map.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-31",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Partnering with the Senior FP&A Manager is collaboration with another manager rather than an automated reporting task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-32",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.83,
+      "rationale": "Providing commentary on spending trends for executive reviews and board materials matches building management-report commentary, though it is not presenting.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

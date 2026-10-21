@@ -1,0 +1,123 @@
+{
+  "posting_id": "6695ead5f07cf0e5",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "6695ead5f07cf0e5-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Serving as a finance partner to executives is advisory and cross-functional relationship work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6695ead5f07cf0e5-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Building trusted relationships and being a thought partner is partnering and advising other teams, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6695ead5f07cf0e5-03",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.71,
+      "rationale": "Developing AI-powered workflows describes building systems rather than a specific advertised finance-operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6695ead5f07cf0e5-04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Developing automated analyses is too broad and reads like building analytics tooling, which is not a listed end-to-end capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6695ead5f07cf0e5-05",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Developing intelligence systems is a vague systems-building duty that does not map cleanly to a specific covered finance workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6695ead5f07cf0e5-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Assessing current and future strategic priorities is judgment and advisory work, not an automated finance-ops task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6695ead5f07cf0e5-07",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.72,
+      "rationale": "Quantitatively validating high-ROI initiatives is ad hoc financial analysis that the reporting capability can support with source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6695ead5f07cf0e5-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Advocating for initiatives is influence and advisory work, which is human rather than a platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6695ead5f07cf0e5-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Delivering recommendations to inform tactics and roadmaps is cross-functional advising and presentation work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6695ead5f07cf0e5-10",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Building frameworks for sales efficiency and productivity is a model-design task that does not match a specific advertised capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6695ead5f07cf0e5-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Partnering with Data Analytics to develop reporting is collaboration with another team, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6695ead5f07cf0e5-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Owning annual and long-range planning is FP&A planning work, which is a common finance task not covered in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6695ead5f07cf0e5-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Developing and growing an analyst is management and training of staff, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

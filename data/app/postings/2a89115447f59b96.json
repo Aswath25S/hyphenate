@@ -1,0 +1,956 @@
+{
+  "posting_id": "2a89115447f59b96",
+  "company": "Angi",
+  "slug": "angi",
+  "domain": "angi.com",
+  "title": "Finance Manager",
+  "role_family": "Reporting_FPA",
+  "seniority": "manager",
+  "n": 23,
+  "C": 0,
+  "A": 6,
+  "covered_share": 0,
+  "overlap": 0.2608695652173913,
+  "weighted_overlap": 0.13043478260869565,
+  "thin": false,
+  "salary_min": 110000,
+  "salary_max": 165000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 0,
+  "savings_reason": null,
+  "lead_product": "Reporting",
+  "product_split": {
+    "Reporting": {
+      "covered": 0,
+      "assisted": 5,
+      "weighted": 2.5
+    },
+    "GL accounting": {
+      "covered": 0,
+      "assisted": 1,
+      "weighted": 0.5
+    }
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "PBCS",
+    "Essbase",
+    "SQL",
+    "Looker"
+  ],
+  "posted_at": "2026-09-04T19:11:08.221+00:00",
+  "source_url": "https://jobs.ashbyhq.com/angi/3494df9f-0ec4-43a9-8bee-560bfd37f392",
+  "locations": [
+    "Onsite - United States - New York - NYC"
+  ],
+  "remote": "onsite",
+  "excluded": null,
+  "text": "For over 30 years, Angi has powered the future of the home services industry, creating an environment where homeowners and pros benefit from more jobs done well.\n\nFor homeowners, our platform is a reliable way to find skilled pros. For pros, we're a reliable business partner who helps them find the winnable work they want, when they want. For employees, we're an amazing place to call home. We can't wait to welcome you.\n\nAngi at a glance:\n\n - Founded in 1995 as Angie’s List and rebranded in 2021\n\n - Global company with 9 brands in 8 countries and employees worldwide\n\n - Homeowners have turned to us for 300 million home projects and counting\n\nAbout the team\n\nAngi is seeking a Finance Manager to join our finance team. In this role, you will be instrumental in driving financial performance and supporting strategic initiatives across the company through mastery of our fixed costs. The Finance Manager will work closely with business leaders to analyze financial data, build models, and provide actionable insights that help steer key decisions at Angi. This is a high-impact role that requires a deep understanding of financial analysis, budgeting, forecasting, and business operations in a fast-paced, tech-driven environment.\n\nWhat you’ll do\n\n - P&L Management: Own and manage all aspects of the Profit & Loss (P&L) for specific business lines or departments. Ensure financial accuracy and accountability for all items on the P&L, both small and large.\n\n - Budgeting & Forecasting: In collaboration with department heads and their teams, lead the development and execution of annual budgets and forecasts, ensuring they align with corporate goals and strategic priorities, and track actual expenses against projections\n\n - Financial Analysis & Reporting: Provide financial analysis and insights across various business units, including detailed reports on trends, cost control, and operational efficiency.\n\n - Variance Analysis: Conduct variance analysis, comparing actual results to forecasts and budgets, and provide recommendations to senior management based on findings.\n\n - Strategic Planning Support: Assist in long-term strategic planning by developing financial models, conducting scenario analysis, and forecasting the impact of new initiatives or changes in the business environment.\n\n - Cost Optimization: Identify opportunities for cost reductions and efficiency improvements, working cross-functionally to implement cost-saving initiatives that align with Angi’s strategic goals.\n\n - Collaboration with Stakeholders: Partner with business leaders across the organization to provide financial support and ensure alignment of financial performance with overall business goals.\n\n - KPI Reporting: Develop and maintain key performance indicators (KPIs) to track and drive financial and operational performance. Present findings and recommendations to senior leadership.\n\nWho you are\n\n - You have 5+ years of professional experience in FP&A. Experience in-house at a tech company, combined with investment banking, private equity, consulting, or experience with analytics is ideal.\n\n - You are proficient in financial analysis, financial modeling and problem-solving; you are comfortable building complex financial models from scratch.\n\n - You have the ability to analyze financial data and prepare financial reports and projections.\n\n - You have a go-getter mentality, a “no job too big or small” attitude.\n\n - You are an autonomous self-starter, with the ability to exercise sound judgment, deal effectively with ambiguity and thrive in a fast-moving and ever-changing environment.\n\n - You are a team player with exceptional interpersonal skills; ability to build and maintain cross-functional relationships and communicate effectively with senior leadership\n\n - As a strongly-desired plus, you have experience with PBCS or Essbase, while NetSuite, SQL, and/or Looker are additional nice-to-haves\n\nCompensation & Benefits\n\n - The base salary band for this position ranges $110,000 - $165,000 commensurate with experience and performance.\n\n - This position will be eligible for a competitive year end performance bonus & equity package.\n\n - Full medical, dental, vision package to fit your needs\n\n - Flexible vacation policy; work hard and take time when you need it\n\n - Pet discount plans & retirement plan with company match (401K)\n\n - The rare opportunity to work with sharp, motivated teammates solving some of the most unique challenges and changing the world\n\nWe value diversity\n\nWe know that the best ideas come from teams where diverse points of view uncover new solutions to hard problems. We welcome and value individuals who bring diverse life experiences, educational backgrounds, cultures, and work experiences.\n\n\n\nOur hiring process may utilize artificial intelligence (AI) tools to assist in candidate screening and assessment. Our AI tools are designed to complement, not replace, human decision-making.\n\n\n#LI-Hybrid",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 110000,
+    "max": 165000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The base salary band for this position ranges $110,000 - $165,000 commensurate with experience and performance."
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "fetched_at": "2026-10-21T17:34:14.460Z",
+  "ats": "ashby",
+  "duties": [
+    {
+      "duty_id": "2a89115447f59b96-01",
+      "text": "Own and manage all aspects of the Profit & Loss (P&L) for specific business lines or departments.",
+      "source_span": "Own and manage all aspects of the Profit & Loss (P&L) for specific business lines or departments.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1272,
+        "end": 1369
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.55,
+      "rationale": "Owning and managing a P&L is a broad responsibility rather than a specific finance-ops task in the coverage map.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "2a89115447f59b96-02",
+      "text": "Ensure financial accuracy and accountability for all items on the P&L, both small and large.",
+      "source_span": "Ensure financial accuracy and accountability for all items on the P&L, both small and large.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1370,
+        "end": 1462
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.5,
+      "rationale": "Ensuring accuracy and accountability for the P&L is an ownership statement, not a specific automatable workflow.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "2a89115447f59b96-03",
+      "text": "Lead the development and execution of annual budgets and forecasts",
+      "source_span": "Lead the development and execution of annual budgets and forecasts",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1548,
+        "end": 1614
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Developing annual budgets and forecasts is FP&A planning work that is explicitly outside the forecast capability listed here.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "2a89115447f59b96-04",
+      "text": "Ensure budgets and forecasts align with corporate goals and strategic priorities",
+      "source_span": "ensuring they align with corporate goals and strategic priorities",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1616,
+        "end": 1681
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.56,
+      "rationale": "Aligning budgets and forecasts to corporate strategy is strategic judgment without a matching platform capability.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "2a89115447f59b96-05",
+      "text": "Track actual expenses against projections",
+      "source_span": "track actual expenses against projections",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1687,
+        "end": 1728
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.91,
+      "rationale": "Tracking actual expenses against projections is budget-versus-actual monitoring, which is not covered by the map.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "2a89115447f59b96-06",
+      "text": "Provide financial analysis and insights across various business units",
+      "source_span": "Provide financial analysis and insights across various business units",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1765,
+        "end": 1834
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.adhoc_analysis",
+      "capability": "Answer finance questions traced to source entries",
+      "product": "Reporting",
+      "confidence": 0.78,
+      "rationale": "Providing financial analysis and insights across business units matches ad hoc finance analysis traced to source data.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-07",
+      "text": "Prepare detailed reports on trends",
+      "source_span": "detailed reports on trends",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1846,
+        "end": 1872
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.81,
+      "rationale": "Preparing detailed trend reports fits recurring management reporting and KPI-style reporting.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-08",
+      "text": "Prepare detailed reports on cost control",
+      "source_span": "cost control",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1874,
+        "end": 1886
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.79,
+      "rationale": "Preparing detailed cost-control reports is management reporting rather than a transactional finance workflow.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-09",
+      "text": "Prepare detailed reports on operational efficiency",
+      "source_span": "operational efficiency",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1892,
+        "end": 1914
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.78,
+      "rationale": "Preparing detailed operational-efficiency reports fits recurring management reports and KPI output.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-10",
+      "text": "Conduct variance analysis",
+      "source_span": "Conduct variance analysis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1939,
+        "end": 1964
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.flux",
+      "capability": "Variance (flux) analysis with draft commentary",
+      "product": "GL accounting",
+      "confidence": 0.7,
+      "rationale": "Conducting variance analysis matches flux analysis with draft commentary.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-11",
+      "text": "Compare actual results to forecasts and budgets",
+      "source_span": "comparing actual results to forecasts and budgets",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1966,
+        "end": 2015
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Comparing actual results to forecasts and budgets is FP&A budget-versus-actual analysis, which is not covered.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "2a89115447f59b96-12",
+      "text": "Provide recommendations to senior management based on findings",
+      "source_span": "provide recommendations to senior management based on findings",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2021,
+        "end": 2083
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Providing recommendations to senior management is advisory judgment, which is classified as human work.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "2a89115447f59b96-13",
+      "text": "Assist in long-term strategic planning",
+      "source_span": "Assist in long-term strategic planning",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2117,
+        "end": 2155
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Assisting in long-term strategic planning is strategic advisory work, not an automation workflow.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "2a89115447f59b96-14",
+      "text": "Develop financial models",
+      "source_span": "developing financial models",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2159,
+        "end": 2186
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Developing financial models is FP&A modeling work with no matching capability in the map.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "2a89115447f59b96-15",
+      "text": "Conduct scenario analysis",
+      "source_span": "conducting scenario analysis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2188,
+        "end": 2216
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Conducting scenario analysis is planning-model work that is not covered by the listed capabilities.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "2a89115447f59b96-16",
+      "text": "Forecast the impact of new initiatives or changes in the business environment",
+      "source_span": "forecasting the impact of new initiatives or changes in the business environment",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2222,
+        "end": 2302
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Forecasting the impact of new initiatives or business changes is a planning model task outside the coverage map.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "2a89115447f59b96-17",
+      "text": "Identify opportunities for cost reductions",
+      "source_span": "Identify opportunities for cost reductions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2327,
+        "end": 2369
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Identifying opportunities for cost reductions is analytical FP&A work with no direct capability match.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "2a89115447f59b96-18",
+      "text": "Identify opportunities for efficiency improvements",
+      "source_span": "efficiency improvements",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2374,
+        "end": 2397
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Identifying opportunities for efficiency improvements is strategic analysis rather than a covered finance-ops process.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "2a89115447f59b96-19",
+      "text": "Work cross-functionally to implement cost-saving initiatives that align with Angi’s strategic goals",
+      "source_span": "working cross-functionally to implement cost-saving initiatives that align with Angi’s strategic goals",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2399,
+        "end": 2501
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Working cross-functionally to implement cost-saving initiatives is partnering and change management, which is human work.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "2a89115447f59b96-20",
+      "text": "Partner with business leaders across the organization to provide financial support",
+      "source_span": "Partner with business leaders across the organization to provide financial support",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2540,
+        "end": 2622
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Partnering with business leaders to provide financial support is cross-functional advisory work.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "2a89115447f59b96-21",
+      "text": "Ensure alignment of financial performance with overall business goals",
+      "source_span": "ensure alignment of financial performance with overall business goals",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2627,
+        "end": 2696
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Ensuring alignment of financial performance with business goals is strategic leadership and advisory work.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "2a89115447f59b96-22",
+      "text": "Develop and maintain key performance indicators (KPIs) to track and drive financial and operational performance",
+      "source_span": "Develop and maintain key performance indicators (KPIs) to track and drive financial and operational performance",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2717,
+        "end": 2828
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.76,
+      "rationale": "Developing and maintaining KPIs matches building recurring management reports and KPI reporting.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-23",
+      "text": "Present findings and recommendations to senior leadership",
+      "source_span": "Present findings and recommendations to senior leadership",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2830,
+        "end": 2887
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Presenting findings and recommendations to senior leadership is presentation work, which is classified as human.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "2a89115447f59b96-24",
+      "text": "For over 30 years, Angi has powered the future of the home services industry, creating an environment where homeowners and pros benefit from more jobs done well.",
+      "source_span": "For over 30 years, Angi has powered the future of the home services industry, creating an environment where homeowners and pros benefit from more jobs done well.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 0,
+        "end": 161
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-25",
+      "text": "We value diversity",
+      "source_span": "We value diversity",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4485,
+        "end": 4503
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-26",
+      "text": "We know that the best ideas come from teams where diverse points of view uncover new solutions to hard problems.",
+      "source_span": "We know that the best ideas come from teams where diverse points of view uncover new solutions to hard problems.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4505,
+        "end": 4617
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-27",
+      "text": "5+ years of professional experience in FP&A",
+      "source_span": "You have 5+ years of professional experience in FP&A.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2906,
+        "end": 2959
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-28",
+      "text": "Experience in-house at a tech company, combined with investment banking, private equity, consulting, or experience with analytics is ideal",
+      "source_span": "Experience in-house at a tech company, combined with investment banking, private equity, consulting, or experience with analytics is ideal.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2960,
+        "end": 3099
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-29",
+      "text": "You are proficient in financial analysis, financial modeling and problem-solving",
+      "source_span": "You are proficient in financial analysis, financial modeling and problem-solving",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3104,
+        "end": 3184
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-30",
+      "text": "You are comfortable building complex financial models from scratch",
+      "source_span": "you are comfortable building complex financial models from scratch.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3186,
+        "end": 3253
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-31",
+      "text": "You have the ability to analyze financial data",
+      "source_span": "You have the ability to analyze financial data",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3258,
+        "end": 3304
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-32",
+      "text": "prepare financial reports and projections",
+      "source_span": "prepare financial reports and projections.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3309,
+        "end": 3351
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-33",
+      "text": "You have a go-getter mentality, a “no job too big or small” attitude",
+      "source_span": "You have a go-getter mentality, a “no job too big or small” attitude.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3356,
+        "end": 3425
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-34",
+      "text": "You are an autonomous self-starter, with the ability to exercise sound judgment, deal effectively with ambiguity and thrive in a fast-moving and ever-changing environment",
+      "source_span": "You are an autonomous self-starter, with the ability to exercise sound judgment, deal effectively with ambiguity and thrive in a fast-moving and ever-changing environment.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3430,
+        "end": 3601
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-35",
+      "text": "You are a team player with exceptional interpersonal skills",
+      "source_span": "You are a team player with exceptional interpersonal skills; ability to build and maintain cross-functional relationships and communicate effectively with senior leadership",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3606,
+        "end": 3778
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-36",
+      "text": "ability to build and maintain cross-functional relationships",
+      "source_span": "ability to build and maintain cross-functional relationships",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3667,
+        "end": 3727
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-37",
+      "text": "communicate effectively with senior leadership",
+      "source_span": "communicate effectively with senior leadership",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3732,
+        "end": 3778
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-38",
+      "text": "As a strongly-desired plus, you have experience with PBCS or Essbase, while NetSuite, SQL, and/or Looker are additional nice-to-haves",
+      "source_span": "As a strongly-desired plus, you have experience with PBCS or Essbase, while NetSuite, SQL, and/or Looker are additional nice-to-haves.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": null,
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-39",
+      "text": "Our AI tools are designed to complement, not replace, human decision-making.",
+      "source_span": "Our AI tools are designed to complement, not replace, human decision-making.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4862,
+        "end": 4938
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

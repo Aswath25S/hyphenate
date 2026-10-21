@@ -1,0 +1,186 @@
+{
+  "posting_id": "4146130fca3775c6",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "4146130fca3775c6-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Owning a consolidated corporate model is planning-model maintenance, which is outside the covered reporting and consolidation capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.55,
+      "rationale": "Owning the monthly reporting cadence is too vague and describes process ownership rather than a specific covered finance action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Closing actuals is a period-close or planning workflow that is not one of the mapped capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "Closing budget-vs-actual is FP&A variance work, which the map explicitly excludes from flux analysis coverage.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Closing the rolling reforecast is a forecasting and planning-model task not covered by the treasury forecast capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-06",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.93,
+      "rationale": "Connecting performance to revenue, headcount, and spend drivers matches driver analysis using source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Maintaining and evolving the planning system is system administration and project work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Maintaining the corporate model structure is planning-model upkeep, not a covered reporting capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Running monthly data loads is repetitive ETL and load work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Running scenario snapshots is a planning-system workflow not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Reconciling P&L, headcount, and departmental views is a cross-view data reconciliation task without a matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Building new models and views is planning-model development, which is outside the covered capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-13",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.9,
+      "rationale": "Preparing presentations that communicate financial performance and outlook aligns with building management and board reporting materials.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Delivering presentations to executives, the board, and investors is presenting and relationship work that is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-15",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.69,
+      "rationale": "Raising reporting infrastructure quality is a broad improvement goal rather than a specific automatable finance action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.67,
+      "rationale": "Reducing manual work and improving accuracy is too general to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Challenging existing processes and data inconsistencies is a vague process-improvement duty without a specific capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Working cross-functionally with other teams is collaboration and partnering, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-19",
+      "label": "covered",
+      "capability_id": "rep.consolidation",
+      "confidence": 0.9,
+      "rationale": "Keeping source data, mappings, and the chart of accounts aligned matches chart-of-accounts mapping in consolidation.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4146130fca3775c6-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Tightening the handoffs between close and forecast is a vague process-improvement duty with no exact capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

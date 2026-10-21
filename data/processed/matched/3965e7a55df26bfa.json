@@ -1,0 +1,240 @@
+{
+  "posting_id": "3965e7a55df26bfa",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "3965e7a55df26bfa-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Preparing Form 10-Q financial statements is SEC reporting work that is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Preparing Form 10-K financial statements is SEC reporting work that does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Preparing Form 8-K financial statements is an SEC filing task outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Preparing footnotes for external filings is reporting support that is not explicitly covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-05",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.78,
+      "rationale": "Preparing supporting schedules is audit-style support documentation that matches the audit support capability.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Preparing tie-outs is repetitive reporting support work with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-07",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.84,
+      "rationale": "Preparing a support binder is maintaining audit support documentation, which fits audit support.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Preparing information for external reporting is general reporting work that is not directly covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-09",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Providing information for internal reporting purposes is too vague to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-10",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "Helping build the external reporting calendar is a vague planning task without a clear capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-11",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Helping build templates is too vague and project-oriented to map to a covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-12",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Helping build supporting documentation is too vague to tie to a specific listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-13",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Supporting a SOX initiative is broad and does not specify a covered control task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Designing internal controls over financial reporting is control-framework judgment, which is explicitly excluded.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-15",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.95,
+      "rationale": "Documenting internal controls over financial reporting matches maintaining documentation of key controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.67,
+      "rationale": "Implementing internal controls over financial reporting is a broad setup task that is not specific enough to map cleanly.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-17",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.86,
+      "rationale": "Owning the PBC rollforward is audit support work tied to preparing schedules and supporting audit requests.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Owning end-to-end PBC management is managing the audit-support process and auditor relationship, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-19",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.87,
+      "rationale": "Building and maintaining the request list is audit support documentation work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-20",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.9,
+      "rationale": "Chasing down supporting documentation is preparing and maintaining audit support evidence.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Keeping status visible to the team and auditors is communication and coordination with auditors, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Partnering cross-functionally to source disclosure inputs is collaborative human work rather than an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-23",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Improving reporting processes is too vague to judge against a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-24",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Improving reporting systems is a broad project task without a specific mapped action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-25",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Improving reporting documentation is too vague to map cleanly to a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-26",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.88,
+      "rationale": "Participating in ad hoc analyses matches responding to ad hoc finance questions and analysis requests.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "posting_id": "286e23d95e0724a0",
+  "company": "Relativity Space",
+  "domain": "relativityspace.com",
+  "title": "Plant Controller, Stennis",
+  "role_family": "Controller",
+  "seniority": "director_plus",
+  "locations": [
+    "Stennis Space Center, Mississippi, United States"
+  ],
+  "remote": "onsite",
+  "salary": {
+    "min": 158000,
+    "max": 238000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Hiring Range:\n\n$158,000—$238,000 USD"
+  },
+  "erp": [
+    "Infor LN",
+    "SAP",
+    "Oracle"
+  ],
+  "tools": [],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "build and strengthen the accounting infrastructure",
+    "development and low-rate production to repeatable, rate-based manufacturing",
+    "maintain a regular, hands-on presence within manufacturing operations",
+    "growing or evolving manufacturing environment"
+  ],
+  "duties": [
+    {
+      "duty_id": "286e23d95e0724a0-01",
+      "text": "Serve as the senior accounting leader for the manufacturing site",
+      "source_span": "Serve as the senior accounting leader for the manufacturing site",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-02",
+      "text": "Own the accuracy and integrity of site financial results",
+      "source_span": "owning the accuracy and integrity of site financial results",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-03",
+      "text": "Partner closely with the Plant Manager and site leadership",
+      "source_span": "partnering closely with the Plant Manager and site leadership",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-04",
+      "text": "Lead plant accounting and close activities across manufacturing costs",
+      "source_span": "Lead plant accounting and close activities across manufacturing costs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-05",
+      "text": "Manage inventory",
+      "source_span": "inventory",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-06",
+      "text": "Manage fixed assets",
+      "source_span": "fixed assets",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-07",
+      "text": "Manage capital projects",
+      "source_span": "capital projects",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-08",
+      "text": "Prepare reconciliations",
+      "source_span": "reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-09",
+      "text": "Prepare accruals",
+      "source_span": "accruals",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-10",
+      "text": "Prepare financial reporting",
+      "source_span": "financial reporting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-11",
+      "text": "Own manufacturing and cost accounting",
+      "source_span": "Own manufacturing and cost accounting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-12",
+      "text": "Manage standard costs",
+      "source_span": "standard costs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-13",
+      "text": "Manage labor and overhead",
+      "source_span": "labor and overhead",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-14",
+      "text": "Manage work in process",
+      "source_span": "work in process",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-15",
+      "text": "Manage inventory valuation",
+      "source_span": "inventory valuation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-16",
+      "text": "Analyze production and manufacturing variances",
+      "source_span": "analysis of production and manufacturing variances",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-17",
+      "text": "Establish strong financial controls",
+      "source_span": "Establish strong financial controls",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-18",
+      "text": "Establish disciplined processes across inventory",
+      "source_span": "inventory",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-19",
+      "text": "Establish disciplined processes across production reporting",
+      "source_span": "production reporting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-20",
+      "text": "Establish disciplined processes across purchasing",
+      "source_span": "purchasing",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-21",
+      "text": "Establish disciplined processes across receiving",
+      "source_span": "receiving",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-22",
+      "text": "Establish disciplined processes across fixed assets",
+      "source_span": "fixed assets",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-23",
+      "text": "Establish disciplined processes across capital expenditures",
+      "source_span": "capital expenditures",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-24",
+      "text": "Establish disciplined processes across other plant operations",
+      "source_span": "other plant operations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-25",
+      "text": "Partner closely with Operations, Engineering, Supply Chain, FP&A, and Corporate Accounting",
+      "source_span": "Partner closely with Operations, Engineering, Supply Chain, FP&A, and Corporate Accounting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-26",
+      "text": "Translate manufacturing activity into accurate financial insights",
+      "source_span": "translate manufacturing activity into accurate financial insights",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-27",
+      "text": "Build and strengthen the accounting infrastructure needed to support the transition from development and low-rate production to repeatable, rate-based manufacturing",
+      "source_span": "Build and strengthen the accounting infrastructure needed to support the transition from development and low-rate production to repeatable, rate-based manufacturing",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-28",
+      "text": "Lead and develop the site accounting team",
+      "source_span": "leading and developing the site accounting team",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "286e23d95e0724a0-29",
+      "text": "Bachelor’s degree in Accounting, Finance, or a related field",
+      "source_span": "Bachelor’s degree in Accounting, Finance, or a related field",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "286e23d95e0724a0-30",
+      "text": "10+ years of progressive accounting and finance experience, including significant experience in manufacturing",
+      "source_span": "10+ years of progressive accounting and finance experience, including significant experience in manufacturing",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "286e23d95e0724a0-31",
+      "text": "Proven experience in plant controllership, site accounting, or manufacturing accounting leadership within a complex, capital-intensive environment",
+      "source_span": "Proven experience in plant controllership, site accounting, or manufacturing accounting leadership within a complex, capital-intensive environment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "286e23d95e0724a0-32",
+      "text": "Strong knowledge of U.S. GAAP, inventory accounting, standard costing, manufacturing variances, fixed assets, and capital-project accounting",
+      "source_span": "Strong knowledge of U.S. GAAP, inventory accounting, standard costing, manufacturing variances, fixed assets, and capital-project accounting",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "286e23d95e0724a0-33",
+      "text": "Demonstrated ability to partner effectively with Operations, Engineering, Supply Chain, and plant leadership to understand operational drivers and solve complex financial issues",
+      "source_span": "Demonstrated ability to partner effectively with Operations, Engineering, Supply Chain, and plant leadership to understand operational drivers and solve complex financial issues",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "286e23d95e0724a0-34",
+      "text": "Experience building or strengthening accounting processes, internal controls, and financial reporting in a growing or evolving manufacturing environment",
+      "source_span": "Experience building or strengthening accounting processes, internal controls, and financial reporting in a growing or evolving manufacturing environment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "286e23d95e0724a0-35",
+      "text": "Strong analytical and problem-solving skills with the ability to investigate financial results at the operational level and maintain a regular, hands-on presence within manufacturing operations",
+      "source_span": "Strong analytical and problem-solving skills with the ability to investigate financial results at the operational level and maintain a regular, hands-on presence within manufacturing operations",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "286e23d95e0724a0-36",
+      "text": "CPA, CMA, MBA, or other relevant advanced qualification",
+      "source_span": "CPA, CMA, MBA, or other relevant advanced qualification",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "286e23d95e0724a0-37",
+      "text": "Experience in aerospace, defense, automotive, industrial equipment, heavy machinery, or another highly engineered manufacturing environment",
+      "source_span": "Experience in aerospace, defense, automotive, industrial equipment, heavy machinery, or another highly engineered manufacturing environment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "286e23d95e0724a0-38",
+      "text": "Experience supporting a transition from development or low-rate production to repeatable manufacturing, including implementing or improving standard costing and manufacturing master data",
+      "source_span": "Experience supporting a transition from development or low-rate production to repeatable manufacturing, including implementing or improving standard costing and manufacturing master data",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "286e23d95e0724a0-39",
+      "text": "Experience with complex manufacturing ERPs such as Infor LN, SAP, or Oracle, along with exposure to SOX, government contracting, project accounting, data analytics, or process automation",
+      "source_span": "Experience with complex manufacturing ERPs such as Infor LN, SAP, or Oracle, along with exposure to SOX, government contracting, project accounting, data analytics, or process automation",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "286e23d95e0724a0-40",
+      "text": "Successful candidates must clear a background check administered by the US government to obtain clearance for on-site work at our government partner location in Stennis, Mississippi",
+      "source_span": "Successful candidates must clear a background check administered by the US government to obtain clearance for on-site work at our government partner location in Stennis, Mississippi.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-10-01T11:37:22-04:00",
+  "source_url": "https://boards.greenhouse.io/relativity/jobs/8843210002?gh_jid=8843210002",
+  "fetched_at": "2026-10-21T17:34:00.006Z",
+  "prompt_version": "extract-v1",
+  "text": "At Relativity Space, we’re building rockets to serve today’s needs and tomorrow’s breakthroughs. Our Terran R vehicle will deliver customer payloads to orbit, meeting the growing demand for launch capacity. But that’s just the start. Achieving commercial success with Terran R will unlock new opportunities to advance science, exploration, and innovation, pioneering progress that reaches beyond the known.\n\nJoining Relativity means becoming part of something where autonomy, ownership, and impact exist at every level. Here, you're not just executing tasks; you're solving problems that haven’t been solved before, helping develop a rocket, a factory, and a business from the ground up. Whether you’re in propulsion, manufacturing, software, avionics, or a corporate function, you’ll collaborate across teams, shape decisions, and see your work come to life in record time. Relativity is a place where creativity and technical rigor go hand in hand, and your voice will help define the stories we’re writing together. Now is a unique moment in time where it’s early enough to leave your mark on the product, the process, and the culture, but far enough along that Terran R is tangible and picking up momentum. The most meaningful work of your career is waiting. Join us.\n\nAbout the Team:\n\nThe Accounting team at Relativity spans tax and compliance, financial operations, general ledger, and business data strategy. While each group brings unique insights, they are united by a shared goal of protecting the financial integrity of Relativity, while also enabling smarter, faster decisions to help the company scale. You’ll collaborate deeply with teams across the business, ask the right questions, and become a trusted partner, not just a processor. With a focus on enabling growth, you’ll bring both structure and creativity to a highly dynamic environment.\n\nAbout the Role\n\n• Serve as the senior accounting leader for the manufacturing site, owning the accuracy and integrity of site financial results and partnering closely with the Plant Manager and site leadership.\n\n• Lead plant accounting and close activities across manufacturing costs, inventory, fixed assets, capital projects, reconciliations, accruals, and financial reporting.\n\n• Own manufacturing and cost accounting, including standard costs, labor and overhead, work in process, inventory valuation, and analysis of production and manufacturing variances.\n\n• Establish strong financial controls and disciplined processes across inventory, production reporting, purchasing, receiving, fixed assets, capital expenditures, and other plant operations.\n\n• Partner closely with Operations, Engineering, Supply Chain, FP&A, and Corporate Accounting to translate manufacturing activity into accurate financial insights and improve business decisions.\n\n• Build and strengthen the accounting infrastructure needed to support the transition from development and low-rate production to repeatable, rate-based manufacturing, while leading and developing the site accounting team.\n\nAbout You\n\n• Bachelor’s degree in Accounting, Finance, or a related field with 10+ years of progressive accounting and finance experience, including significant experience in manufacturing.\n\n• Proven experience in plant controllership, site accounting, or manufacturing accounting leadership within a complex, capital-intensive environment.\n\n• Strong knowledge of U.S. GAAP, inventory accounting, standard costing, manufacturing variances, fixed assets, and capital-project accounting.\n\n• Demonstrated ability to partner effectively with Operations, Engineering, Supply Chain, and plant leadership to understand operational drivers and solve complex financial issues.\n\n• Experience building or strengthening accounting processes, internal controls, and financial reporting in a growing or evolving manufacturing environment.\n\n• Strong analytical and problem-solving skills with the ability to investigate financial results at the operational level and maintain a regular, hands-on presence within manufacturing operations.\n\nNice to Have\n\n• CPA, CMA, MBA, or other relevant advanced qualification.\n\n• Experience in aerospace, defense, automotive, industrial equipment, heavy machinery, or another highly engineered manufacturing environment.\n\n• Experience supporting a transition from development or low-rate production to repeatable manufacturing, including implementing or improving standard costing and manufacturing master data.\n\n• Experience with complex manufacturing ERPs such as Infor LN, SAP, or Oracle, along with exposure to SOX, government contracting, project accounting, data analytics, or process automation.\n\nSuccessful candidates must clear a background check administered by the US government to obtain clearance for on-site work at our government partner location in Stennis, Mississippi.\n\nAt Relativity Space, we are committed to transparency and fairness in our compensation practices. Actual compensation will be determined based on experience, qualifications, and other job-related factors.\n\nCompensation is only one part of our total rewards package. Relativity Space offers competitive salary and equity, a generous PTO and sick leave policy, parental leave, an annual learning and development stipend, and more! To see some of the benefits & perks we offer, please visit here.\n\nHiring Range:\n\n$158,000—$238,000 USD\n\nWe are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.\n\nIf you need a reasonable accommodation, please contact us at accommodations@relativityspace.com.\n\nPlease note: Relativity Space does not accept unsolicited resumes, candidate profiles, or referrals from recruitment agencies or search firms. Any unsolicited submission - via email, our website, social media, or directly to an employee - will be deemed the property of Relativity Space, and no fee will be owed absent a current, fully executed agreement with Talent Acquisition that specifically authorizes submissions for the applicable role.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

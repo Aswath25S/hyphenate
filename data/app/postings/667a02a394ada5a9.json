@@ -1,0 +1,1139 @@
+{
+  "posting_id": "667a02a394ada5a9",
+  "company": "Perplexity",
+  "slug": "perplexity",
+  "domain": "perplexity.ai",
+  "title": "Strategic Finance Lead - AI",
+  "role_family": "Reporting_FPA",
+  "seniority": "senior",
+  "n": 27,
+  "C": 0,
+  "A": 8,
+  "covered_share": 0,
+  "overlap": 0.2962962962962963,
+  "weighted_overlap": 0.14814814814814814,
+  "thin": false,
+  "salary_min": 190000,
+  "salary_max": 240000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 0,
+  "savings_reason": null,
+  "lead_product": "Reporting",
+  "product_split": {
+    "GL accounting": {
+      "covered": 0,
+      "assisted": 1,
+      "weighted": 0.5
+    },
+    "Order-to-cash": {
+      "covered": 0,
+      "assisted": 1,
+      "weighted": 0.5
+    },
+    "Reporting": {
+      "covered": 0,
+      "assisted": 6,
+      "weighted": 3
+    }
+  },
+  "erp": [],
+  "tools": [],
+  "posted_at": "2026-09-01T19:09:29.116+00:00",
+  "source_url": "https://jobs.ashbyhq.com/perplexity/f4d81f6b-958c-4bc0-a9aa-9850c3508ca9",
+  "locations": [
+    "San Francisco"
+  ],
+  "remote": "hybrid",
+  "excluded": null,
+  "text": "ABOUT THE ROLE\n\nWe are seeking a Strategic Finance Lead to help lead the economics of our AI products. In this role, you will be a key partner to our product, inference, and data teams, providing financial expertise to optimize model spend and drive pricing and margin decisions.\n\n\n\nIn this role, you'll develop deep expertise in the unit economics of AI products, from per-request serving cost to consolidated product-level margin across our portfolio. You'll build the models that inform Perplexity's pricing, packaging, and model-deployment decisions, own the product-margin methodology that reconciles revenue and inference cost from production data, and translate complex model economics into clear financial narratives for leadership.\n\n\n\nThis is a high-impact role for someone who thrives at the intersection of finance and AI product strategy, and who is energized by building frameworks from scratch in a fast-moving environment.\n\n\n\nThis position is based in San Francisco and requires in-person attendance 2-3 days per week.\n\n\n\n\nKEY RESPONSIBILITIES\n\n - Finance lead for inference and model spend, including budgeting, monthly forecasting, variance analysis, and financial plan maintenance\n\n - Build and maintain product-margin models across the product portfolio, reconciling revenue, serving cost, and gross margin from production usage data\n\n - Develop deep expertise in model provider contracts, pricing structures, and cost drivers, and surface optimization opportunities across the model portfolio and routing mix\n\n - Serve as subject matter expert for product unit economics, owning source of truth on cost per request, margin by product and tier, and customer-segment and feature-level economics\n\n - Own the consolidated model-cost forecast, translating product roadmaps and model transitions into forward-looking spend and margin trajectories\n\n - Analyze the margin impact of pricing, packaging, and model-deployment decisions, distilled into a framework for product and pricing strategy\n\n - Partner closely with product, inference, and data engineering to understand how usage and serving cost scale, and translate those technical dynamics into financial frameworks\n\n\nYOU MAY BE A GOOD FIT IF YOU HAVE\n\n - Exceptional analytical skills with an ability to synthesize data into compelling insights and develop complex financial operating models\n\n - Extraordinary problem-solving and critical thinking abilities to develop new frameworks for assessing product margin and unit economics in a rapidly evolving industry\n\n - Attention to detail and patience for getting to the source of truth on complex and interconnected usage, revenue, and cost data\n\n - Comfort working cross-functionally and are adept at communicating complex financial information to non-finance audiences\n\n - Sound commercial judgment across pricing, packaging, discounting, and the tradeoffs between growth and margin\n\n - A proven track record of partnering with technical and product teams to drive financial optimization initiatives\n\n - A bias toward action, strong work ethic, and experience driving operational outcomes under tight timelines\n\n - Background in AI, ML, or consumption-based business models with complex cost structures\n\n\nPREFERRED QUALIFICATIONS\n\n - 4+ years of experience in strategic finance, private equity, growth equity, consulting, or investment banking, preferably with software or AI product experience\n\n - Experience in AI or LLM product financial management, including direct work with model providers or inference platforms\n\n - Deep expertise in usage-based pricing, subscription economics, and gross-margin and COGS attribution by customer and model family\n\n - Experience with model serving economics, including how latency, throughput, and token usage flow through to margin performance\n\n - Proficiency with financial modeling tools",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 190000,
+    "max": 240000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Job board pay data: $190K – $240K • Offers Equity"
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "building frameworks from scratch",
+    "fast-moving environment",
+    "getting to the source of truth",
+    "complex and interconnected usage, revenue, and cost data",
+    "tight timelines"
+  ],
+  "fetched_at": "2026-10-21T17:33:56.764Z",
+  "ats": "ashby",
+  "duties": [
+    {
+      "duty_id": "667a02a394ada5a9-01",
+      "text": "Lead finance for inference and model spend",
+      "source_span": "Finance lead for inference and model spend",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1063,
+        "end": 1105
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.86,
+      "rationale": "Leading finance for inference and model spend is management/ownership work, not an automated platform workflow.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-02",
+      "text": "Budget inference and model spend",
+      "source_span": "budgeting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1117,
+        "end": 1126
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Budgeting inference and model spend is an FP&A planning model outside the coverage map.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-03",
+      "text": "Forecast inference and model spend monthly",
+      "source_span": "monthly forecasting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1128,
+        "end": 1147
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Forecasting inference and model spend monthly is an FP&A forecast model, not the covered cash forecast.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-04",
+      "text": "Analyze variances",
+      "source_span": "variance analysis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1149,
+        "end": 1166
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.flux",
+      "capability": "Variance (flux) analysis with draft commentary",
+      "product": "GL accounting",
+      "confidence": 0.95,
+      "rationale": "Analyzing variances matches flux analysis with draft commentary.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-05",
+      "text": "Maintain the financial plan",
+      "source_span": "financial plan maintenance",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1172,
+        "end": 1198
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Maintaining the financial plan is budgeting and planning model work outside coverage.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-06",
+      "text": "Build and maintain product-margin models across the product portfolio",
+      "source_span": "Build and maintain product-margin models across the product portfolio",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1203,
+        "end": 1272
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Building and maintaining product-margin models is FP&A modeling with no matching capability.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-07",
+      "text": "Reconcile revenue from production usage data",
+      "source_span": "reconciling revenue",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1274,
+        "end": 1293
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "o2c.rev_rec",
+      "capability": "Apply ASC 606 policy, build revenue schedules and documentation",
+      "product": "Order-to-cash",
+      "confidence": 0.61,
+      "rationale": "Reconciling revenue from production usage data aligns with revenue recognition and revenue schedule work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-08",
+      "text": "Reconcile serving cost from production usage data",
+      "source_span": "serving cost",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 382,
+        "end": 394
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Reconciling serving cost from production usage data is custom cost modeling outside the coverage map.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-09",
+      "text": "Reconcile gross margin from production usage data",
+      "source_span": "gross margin from production usage data",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1313,
+        "end": 1352
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Reconciling gross margin from production usage data is a custom margin model outside coverage.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-10",
+      "text": "Develop deep expertise in model provider contracts",
+      "source_span": "model provider contracts",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1383,
+        "end": 1407
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Developing deep expertise in model provider contracts is a human knowledge and advisory task.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-11",
+      "text": "Develop deep expertise in pricing structures",
+      "source_span": "pricing structures",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1409,
+        "end": 1427
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Developing deep expertise in pricing structures is strategic analysis and judgment, not platform execution.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-12",
+      "text": "Develop deep expertise in cost drivers",
+      "source_span": "cost drivers",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1433,
+        "end": 1445
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.82,
+      "rationale": "Developing deep expertise in cost drivers is an analytical expertise task rather than an automatable workflow.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-13",
+      "text": "Surface optimization opportunities across the model portfolio",
+      "source_span": "surface optimization opportunities across the model portfolio",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1451,
+        "end": 1512
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.driver_analysis",
+      "capability": "Explain changes using CRM, contract or bill data",
+      "product": "Reporting",
+      "confidence": 0.71,
+      "rationale": "Surfacing optimization opportunities across the model portfolio is driver analysis on cost and usage trends.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-14",
+      "text": "Surface optimization opportunities across the routing mix",
+      "source_span": "routing mix",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1517,
+        "end": 1528
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.driver_analysis",
+      "capability": "Explain changes using CRM, contract or bill data",
+      "product": "Reporting",
+      "confidence": 0.69,
+      "rationale": "Surfacing optimization opportunities across the routing mix is driver analysis of performance and cost drivers.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-15",
+      "text": "Serve as subject matter expert for product unit economics",
+      "source_span": "Serve as subject matter expert for product unit economics",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1533,
+        "end": 1590
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Serving as subject matter expert for product unit economics is advisory work by nature.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-16",
+      "text": "Own source of truth on cost per request",
+      "source_span": "cost per request",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1618,
+        "end": 1634
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Owning the source of truth on cost per request is metric/model maintenance outside the coverage map.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-17",
+      "text": "Own source of truth on margin by product and tier",
+      "source_span": "margin by product and tier",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1636,
+        "end": 1662
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Owning the source of truth on margin by product and tier is custom economics reporting outside coverage.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-18",
+      "text": "Own source of truth on customer-segment and feature-level economics",
+      "source_span": "customer-segment and feature-level economics",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1668,
+        "end": 1712
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Owning the source of truth on customer-segment and feature-level economics is custom economics reporting outside coverage.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-19",
+      "text": "Own the consolidated model-cost forecast",
+      "source_span": "Own the consolidated model-cost forecast",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1717,
+        "end": 1757
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.91,
+      "rationale": "Owning the consolidated model-cost forecast is an FP&A forecast model outside coverage.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-20",
+      "text": "Translate product roadmaps and model transitions into forward-looking spend and margin trajectories",
+      "source_span": "translating product roadmaps and model transitions into forward-looking spend and margin trajectories",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1759,
+        "end": 1860
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Translating roadmaps and model transitions into forward-looking spend and margin trajectories is custom planning-model work.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-21",
+      "text": "Analyze the margin impact of pricing decisions",
+      "source_span": "pricing",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 250,
+        "end": 257
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.driver_analysis",
+      "capability": "Explain changes using CRM, contract or bill data",
+      "product": "Reporting",
+      "confidence": 0.67,
+      "rationale": "Analyzing the margin impact of pricing decisions is driver analysis of pricing effects on margins.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-22",
+      "text": "Analyze the margin impact of packaging decisions",
+      "source_span": "packaging",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 512,
+        "end": 521
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.driver_analysis",
+      "capability": "Explain changes using CRM, contract or bill data",
+      "product": "Reporting",
+      "confidence": 0.64,
+      "rationale": "Analyzing the margin impact of packaging decisions is driver analysis of revenue and margin drivers.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-23",
+      "text": "Analyze the margin impact of model-deployment decisions",
+      "source_span": "model-deployment decisions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 527,
+        "end": 553
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.driver_analysis",
+      "capability": "Explain changes using CRM, contract or bill data",
+      "product": "Reporting",
+      "confidence": 0.64,
+      "rationale": "Analyzing the margin impact of model-deployment decisions is driver analysis of cost and margin drivers.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-24",
+      "text": "Distill findings into a framework for product and pricing strategy",
+      "source_span": "distilled into a framework for product and pricing strategy",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1946,
+        "end": 2005
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.86,
+      "rationale": "Distilling findings into a strategy framework is advisory work that requires judgment.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-25",
+      "text": "Partner closely with product, inference, and data engineering",
+      "source_span": "Partner closely with product, inference, and data engineering",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2010,
+        "end": 2071
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Partnering closely with product, inference, and data engineering is cross-functional relationship work.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-26",
+      "text": "Understand how usage and serving cost scale",
+      "source_span": "understand how usage and serving cost scale",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2075,
+        "end": 2118
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.driver_analysis",
+      "capability": "Explain changes using CRM, contract or bill data",
+      "product": "Reporting",
+      "confidence": 0.61,
+      "rationale": "Understanding how usage and serving cost scale is driver analysis of cost behavior.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-27",
+      "text": "Translate those technical dynamics into financial frameworks",
+      "source_span": "translate those technical dynamics into financial frameworks",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2124,
+        "end": 2184
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.82,
+      "rationale": "Translating technical dynamics into financial frameworks is interpretive advisory work rather than a covered workflow.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "667a02a394ada5a9-28",
+      "text": "Demonstrate exceptional analytical skills",
+      "source_span": "Exceptional analytical skills",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2225,
+        "end": 2254
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-29",
+      "text": "Synthesize data into compelling insights",
+      "source_span": "synthesize data into compelling insights",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2274,
+        "end": 2314
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-30",
+      "text": "Develop complex financial operating models",
+      "source_span": "develop complex financial operating models",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2319,
+        "end": 2361
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-31",
+      "text": "Develop new frameworks for assessing product margin and unit economics in a rapidly evolving industry",
+      "source_span": "develop new frameworks for assessing product margin and unit economics in a rapidly evolving industry",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2431,
+        "end": 2532
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-32",
+      "text": "Get to the source of truth on complex and interconnected usage, revenue, and cost data",
+      "source_span": "getting to the source of truth on complex and interconnected usage, revenue, and cost data",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2574,
+        "end": 2664
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-33",
+      "text": "Communicate complex financial information to non-finance audiences",
+      "source_span": "communicating complex financial information to non-finance audiences",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2721,
+        "end": 2789
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-34",
+      "text": "Apply sound commercial judgment across pricing, packaging, discounting, and the tradeoffs between growth and margin",
+      "source_span": "Sound commercial judgment across pricing, packaging, discounting, and the tradeoffs between growth and margin",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2794,
+        "end": 2903
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-35",
+      "text": "Partner with technical and product teams to drive financial optimization initiatives",
+      "source_span": "partnering with technical and product teams to drive financial optimization initiatives",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2933,
+        "end": 3020
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-36",
+      "text": "Drive operational outcomes under tight timelines",
+      "source_span": "driving operational outcomes under tight timelines",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3081,
+        "end": 3131
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-37",
+      "text": "Have background in AI, ML, or consumption-based business models with complex cost structures",
+      "source_span": "Background in AI, ML, or consumption-based business models with complex cost structures",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3136,
+        "end": 3223
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-38",
+      "text": "Have 4+ years of experience in strategic finance, private equity, growth equity, consulting, or investment banking",
+      "source_span": "4+ years of experience in strategic finance, private equity, growth equity, consulting, or investment banking",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3255,
+        "end": 3364
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-39",
+      "text": "Prefer software or AI product experience",
+      "source_span": "preferably with software or AI product experience",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3366,
+        "end": 3415
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-40",
+      "text": "Have experience in AI or LLM product financial management",
+      "source_span": "Experience in AI or LLM product financial management",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3420,
+        "end": 3472
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-41",
+      "text": "Work directly with model providers or inference platforms",
+      "source_span": "direct work with model providers or inference platforms",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3484,
+        "end": 3539
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-42",
+      "text": "Develop deep expertise in usage-based pricing",
+      "source_span": "usage-based pricing",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3562,
+        "end": 3581
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-43",
+      "text": "Develop deep expertise in subscription economics",
+      "source_span": "subscription economics",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3583,
+        "end": 3605
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-44",
+      "text": "Develop expertise in gross-margin and COGS attribution by customer and model family",
+      "source_span": "gross-margin and COGS attribution by customer and model family",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3611,
+        "end": 3673
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-45",
+      "text": "Have experience with model serving economics",
+      "source_span": "Experience with model serving economics",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3678,
+        "end": 3717
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-46",
+      "text": "Understand how latency, throughput, and token usage flow through to margin performance",
+      "source_span": "how latency, throughput, and token usage flow through to margin performance",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3729,
+        "end": 3804
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-47",
+      "text": "Use financial modeling tools proficiently",
+      "source_span": "Proficiency with financial modeling tools",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3809,
+        "end": 3850
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

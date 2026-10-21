@@ -1,0 +1,907 @@
+{
+  "posting_id": "8b36b63020ac86ec",
+  "company": "Latitude",
+  "slug": "latitude",
+  "domain": "latitude.io",
+  "title": "Accounts Payable Analyst (Contract)",
+  "role_family": "AP",
+  "seniority": "mid",
+  "n": 18,
+  "C": 9,
+  "A": 5,
+  "covered_share": 0.5,
+  "overlap": 0.7777777777777778,
+  "weighted_overlap": 0.6388888888888888,
+  "thin": false,
+  "salary_min": null,
+  "salary_max": null,
+  "salary_varies": false,
+  "salary_source": null,
+  "savings": null,
+  "savings_reason": "no_salary",
+  "lead_product": "Procure-to-pay",
+  "product_split": {
+    "Procure-to-pay": {
+      "covered": 9,
+      "assisted": 2,
+      "weighted": 10
+    },
+    "GL accounting": {
+      "covered": 0,
+      "assisted": 3,
+      "weighted": 1.5
+    }
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [],
+  "posted_at": "2026-10-11T22:44:32-04:00",
+  "source_url": "https://job-boards.greenhouse.io/latitude/jobs/8268216",
+  "locations": [
+    "Pittsburgh, PA",
+    "Pittsburgh, PA, United States"
+  ],
+  "remote": "unknown",
+  "excluded": null,
+  "text": "Latitude AI (lat.ai) is building the future of Ford’s autonomy roadmap to make travel safer, less stressful, and more enjoyable for everyone. Bringing this vision to scale, our fully in-house developed hands-free ADAS platform will debut on the all-new Ford Fathom in 2027.\n\nWhen you join the Latitude team, you’ll work alongside leading experts across machine learning and robotics, cloud platforms, mapping, sensors and compute systems, test operations, systems and safety engineering – all dedicated to redefining the relationship between people and their vehicles for millions of customers.\n\nAs a Ford Motor Company subsidiary, we operate independently to develop automated driving technology at the speed of a technology startup. Latitude is headquartered in Pittsburgh with engineering centers in Dearborn, Mich., and Palo Alto, Calif.\n\nMeet the team:\n\nLatitude’s Finance & Accounting team is responsible for the end-to-end planning & recording of all financial activity in the business. The AP Analyst will own invoice resolution & payment, help to maintain accurate vendor records, and support reconciliations during month end close. Accounts Payable at Latitude has a broad cross-functional scope supporting procurement during purchasing, stakeholders buying goods, and employees across Latitude requesting T&E spend.\n\nThis contract will be 4-5 months in length.\n\nWhat you’ll do:\n\n• Invoice Processing: Review invoices for required details, code them to the correct GL accounts, departments, locations and categories in NetSuite\n\n• PO & Approval Matching: Matches invoices to Purchase Orders during the receiving process in NetSuite to allow for accurate & timely recording\n\n• Exception Resolution: Investigate PO & invoice anomalies, and coordinate with purchasers & Procurement team to appropriately resolve discrepancies timely\n\n• Vendor Support: Respond to invoice and payment-status questions, follow up on missing invoices or credits, and reconcile vendor statements\n\n• Payment Support: Prepare payment batches, verify accuracy of payments and ensure timely payment of invoices\n\n• Controls & Records: Follow approval limits & segregation of duties, maintain professional skepticism for duplicate and/or suspicious invoices and retain clear documentation\n\n• Month-End Close: Help reconcile AP aging or related accounts, identify invoices received but not yet recorded and provide information for accruals and month-end close\n\nWhat you'll need to succeed:\n\n• At least 2 years of experience in accounts payable, invoice processing, or a related accounting role\n\n• Experience reviewing invoices, assigning general ledger accounts and cost categories, and checking invoices against purchase orders\n\n• Ability to investigate invoice discrepancies and coordinate timely resolutions with vendors, purchasing teams, and internal stakeholders\n\n• Experience responding to vendor questions, reviewing vendor statements, and supporting invoice payments\n\n• Knowledge of invoice approval procedures, payment controls, and confidential financial record keeping\n\n• Experience supporting account reconciliations, identifying unrecorded invoices, or preparing information for month-end close\n\n• Strong attention to detail, organization, communication, and follow-through while managing multiple deadlines\n\nNice to have:\n\n• Experience using NetSuite or another accounting or enterprise resource planning system\n\n• Experience preparing payment batches or supporting electronic invoice and payment processes\n\n• Experience working with procurement teams or supporting accounts payable in a technology, automotive, or other fast-paced organization\n\nLearn more about Latitude’s team, mission and career opportunities at lat.ai!\n\n#LI-NC1\n\nWe are an Equal Opportunity Employer committed to a culturally diverse workforce. All qualified applicants will receive consideration for employment without regard to race, religion, color, age, sex, national origin, sexual orientation, gender identity, disability status or protected veteran status.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": null,
+    "max": null,
+    "period": null,
+    "currency": null,
+    "raw_text": null
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "invoice anomalies",
+    "missing invoices or credits",
+    "multiple deadlines"
+  ],
+  "fetched_at": "2026-10-21T17:34:51.809Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "8b36b63020ac86ec-01",
+      "text": "Review invoices for required details",
+      "source_span": "Review invoices for required details",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1412,
+        "end": 1448
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.bill_capture",
+      "capability": "Read and code vendor bills to GL, class and entity",
+      "product": "Procure-to-pay",
+      "confidence": 0.98,
+      "rationale": "Reviewing invoices for required details is part of reading and coding vendor bills.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-02",
+      "text": "Code invoices to the correct GL accounts, departments, locations and categories in NetSuite",
+      "source_span": "code them to the correct GL accounts, departments, locations and categories in NetSuite",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1450,
+        "end": 1537
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.bill_capture",
+      "capability": "Read and code vendor bills to GL, class and entity",
+      "product": "Procure-to-pay",
+      "confidence": 0.96,
+      "rationale": "Coding vendor invoices to GL accounts and dimensions matches AP bill coding in the ERP.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-03",
+      "text": "Match invoices to Purchase Orders during the receiving process in NetSuite",
+      "source_span": "Matches invoices to Purchase Orders during the receiving process in NetSuite to allow for accurate & timely recording",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1565,
+        "end": 1682
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.po_matching",
+      "capability": "Match bills to purchase orders",
+      "product": "Procure-to-pay",
+      "confidence": 0.99,
+      "rationale": "Matching invoices to purchase orders is the core PO-matching workflow.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-04",
+      "text": "Investigate PO & invoice anomalies",
+      "source_span": "Investigate PO & invoice anomalies",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1708,
+        "end": 1742
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.po_matching",
+      "capability": "Match bills to purchase orders",
+      "product": "Procure-to-pay",
+      "confidence": 0.88,
+      "rationale": "Investigating PO and invoice anomalies is part of resolving PO-invoice discrepancies.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-05",
+      "text": "Coordinate with purchasers & Procurement team to resolve discrepancies timely",
+      "source_span": "coordinate with purchasers & Procurement team to appropriately resolve discrepancies timely",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1748,
+        "end": 1839
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Coordinating with purchasers and Procurement is cross-functional partnering with other teams.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-06",
+      "text": "Respond to invoice and payment-status questions",
+      "source_span": "Respond to invoice and payment-status questions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1859,
+        "end": 1906
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.vendor_followup",
+      "capability": "Chase vendors for missing invoices or details",
+      "product": "Procure-to-pay",
+      "confidence": 0.93,
+      "rationale": "Responding to invoice and payment-status questions matches vendor inquiry follow-up.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-07",
+      "text": "Follow up on missing invoices or credits",
+      "source_span": "follow up on missing invoices or credits",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1908,
+        "end": 1948
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.vendor_followup",
+      "capability": "Chase vendors for missing invoices or details",
+      "product": "Procure-to-pay",
+      "confidence": 0.98,
+      "rationale": "Following up on missing invoices or credits is explicit vendor follow-up work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-08",
+      "text": "Reconcile vendor statements",
+      "source_span": "reconcile vendor statements",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1954,
+        "end": 1981
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.vendor_followup",
+      "capability": "Chase vendors for missing invoices or details",
+      "product": "Procure-to-pay",
+      "confidence": 0.99,
+      "rationale": "Reconciling vendor statements is directly covered by vendor follow-up capabilities.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-09",
+      "text": "Prepare payment batches",
+      "source_span": "Prepare payment batches",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2002,
+        "end": 2025
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "p2p.payments",
+      "capability": "Prepare payment runs for approval",
+      "product": "Procure-to-pay",
+      "confidence": 0.98,
+      "rationale": "Preparing payment batches matches preparing payment runs for approval.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-10",
+      "text": "Verify accuracy of payments",
+      "source_span": "verify accuracy of payments",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2027,
+        "end": 2054
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.8,
+      "rationale": "Verifying the accuracy of payments is AP control work but not a listed capability.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-11",
+      "text": "Ensure timely payment of invoices",
+      "source_span": "ensure timely payment of invoices",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2059,
+        "end": 2092
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "p2p.payments",
+      "capability": "Prepare payment runs for approval",
+      "product": "Procure-to-pay",
+      "confidence": 0.89,
+      "rationale": "Ensuring invoices are paid on time aligns with preparing and scheduling payment runs.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-12",
+      "text": "Follow approval limits & segregation of duties",
+      "source_span": "Follow approval limits & segregation of duties",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2116,
+        "end": 2162
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.approvals",
+      "capability": "Route approvals by policy",
+      "product": "Procure-to-pay",
+      "confidence": 0.78,
+      "rationale": "Following approval limits and segregation of duties is part of enforcing policy-based approval workflow.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-13",
+      "text": "Maintain professional skepticism for duplicate and/or suspicious invoices",
+      "source_span": "maintain professional skepticism for duplicate and/or suspicious invoices",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2164,
+        "end": 2237
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Applying skepticism to duplicate or suspicious invoices is fraud-minded review not mapped to a listed capability.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-14",
+      "text": "Retain clear documentation",
+      "source_span": "retain clear documentation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2242,
+        "end": 2268
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.76,
+      "rationale": "Retaining clear documentation matches maintaining supporting documentation for audit trails.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-15",
+      "text": "Help reconcile AP aging or related accounts",
+      "source_span": "Help reconcile AP aging or related accounts",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2289,
+        "end": 2332
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.aging",
+      "capability": "Track open payables until resolved",
+      "product": "Procure-to-pay",
+      "confidence": 0.96,
+      "rationale": "Helping reconcile AP aging or related accounts matches tracking open payables until resolved.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-16",
+      "text": "Identify invoices received but not yet recorded",
+      "source_span": "identify invoices received but not yet recorded",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2334,
+        "end": 2381
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.accruals",
+      "capability": "Estimate accruals from history, POs and budget",
+      "product": "GL accounting",
+      "confidence": 0.74,
+      "rationale": "Identifying invoices received but not recorded is akin to supporting accrued liabilities and received-not-invoiced items.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-17",
+      "text": "Provide information for accruals",
+      "source_span": "provide information for accruals",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2386,
+        "end": 2418
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.accruals",
+      "capability": "Estimate accruals from history, POs and budget",
+      "product": "GL accounting",
+      "confidence": 0.97,
+      "rationale": "Providing information for accruals supports the accrual estimation process.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-18",
+      "text": "Provide information for month-end close",
+      "source_span": "month-end close",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2423,
+        "end": 2438
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.58,
+      "rationale": "Providing information for month-end close is too vague to map to a specific capability.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-19",
+      "text": "Latitude AI (lat.ai) is building the future of Ford’s autonomy roadmap to make travel safer, less stressful, and more enjoyable for everyone.",
+      "source_span": "Latitude AI (lat.ai) is building the future of Ford’s autonomy roadmap to make travel safer, less stressful, and more enjoyable for everyone.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 0,
+        "end": 141
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-20",
+      "text": "We are an Equal Opportunity Employer committed to a culturally diverse workforce.",
+      "source_span": "We are an Equal Opportunity Employer committed to a culturally diverse workforce.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3728,
+        "end": 3809
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-21",
+      "text": "At least 2 years of experience in accounts payable, invoice processing, or a related accounting role",
+      "source_span": "At least 2 years of experience in accounts payable, invoice processing, or a related accounting role",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2472,
+        "end": 2572
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-22",
+      "text": "Review invoices",
+      "source_span": "reviewing invoices",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2587,
+        "end": 2605
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-23",
+      "text": "Assign general ledger accounts and cost categories",
+      "source_span": "assigning general ledger accounts and cost categories",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2607,
+        "end": 2660
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-24",
+      "text": "Check invoices against purchase orders",
+      "source_span": "checking invoices against purchase orders",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2666,
+        "end": 2707
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-25",
+      "text": "Investigate invoice discrepancies",
+      "source_span": "investigate invoice discrepancies",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2722,
+        "end": 2755
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-26",
+      "text": "Coordinate timely resolutions with vendors, purchasing teams, and internal stakeholders",
+      "source_span": "coordinate timely resolutions with vendors, purchasing teams, and internal stakeholders",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2760,
+        "end": 2847
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-27",
+      "text": "Respond to vendor questions",
+      "source_span": "responding to vendor questions",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2862,
+        "end": 2892
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-28",
+      "text": "Review vendor statements",
+      "source_span": "reviewing vendor statements",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2894,
+        "end": 2921
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-29",
+      "text": "Support invoice payments",
+      "source_span": "supporting invoice payments",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2927,
+        "end": 2954
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-30",
+      "text": "Follow invoice approval procedures",
+      "source_span": "invoice approval procedures",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2971,
+        "end": 2998
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-31",
+      "text": "Follow payment controls",
+      "source_span": "payment controls",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3000,
+        "end": 3016
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-32",
+      "text": "Maintain confidential financial record keeping",
+      "source_span": "confidential financial record keeping",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3022,
+        "end": 3059
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-33",
+      "text": "Support account reconciliations",
+      "source_span": "supporting account reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3074,
+        "end": 3108
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-34",
+      "text": "Identify unrecorded invoices",
+      "source_span": "identifying unrecorded invoices",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3110,
+        "end": 3141
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-35",
+      "text": "Prepare information for month-end close",
+      "source_span": "preparing information for month-end close",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3146,
+        "end": 3187
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-36",
+      "text": "Demonstrate strong attention to detail, organization, communication, and follow-through while managing multiple deadlines",
+      "source_span": "Strong attention to detail, organization, communication, and follow-through while managing multiple deadlines",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3191,
+        "end": 3300
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-37",
+      "text": "Experience using NetSuite or another accounting or enterprise resource planning system",
+      "source_span": "Experience using NetSuite or another accounting or enterprise resource planning system",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3319,
+        "end": 3405
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-38",
+      "text": "Experience preparing payment batches or supporting electronic invoice and payment processes",
+      "source_span": "Experience preparing payment batches or supporting electronic invoice and payment processes",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3409,
+        "end": 3500
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-39",
+      "text": "Experience working with procurement teams or supporting accounts payable in a technology, automotive, or other fast-paced organization",
+      "source_span": "Experience working with procurement teams or supporting accounts payable in a technology, automotive, or other fast-paced organization",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3504,
+        "end": 3638
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

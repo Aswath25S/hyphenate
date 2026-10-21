@@ -1,0 +1,195 @@
+{
+  "posting_id": "3e4022fc21b9a4c6",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "3e4022fc21b9a4c6-01",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.94,
+      "rationale": "Executing monthly revenue close work is a month-end close checklist task done end to end.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-02",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.98,
+      "rationale": "Preparing journal entries matches journal entry preparation, but it is assisted because the capability includes human review and judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-03",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.97,
+      "rationale": "Preparing deferred and unbilled revenue schedules is revenue recognition work under ASC 606.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-04",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.95,
+      "rationale": "Performing reconciliations matches balance-sheet account reconciliation work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-05",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.96,
+      "rationale": "Performing flux analysis matches variance analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Checking recurring usage or consumption completeness is rules-based revenue support but does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-07",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.92,
+      "rationale": "Billing-to-GL reconciliation is a ledger-to-subledger reconciliation task.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Investigating exceptions is a repetitive exception-handling task with no direct listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Driving resolution with cross-functional partners is collaboration and coordination with other people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-10",
+      "label": "covered",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.98,
+      "rationale": "Reviewing customer contracts to identify terms and pricing matches contract term extraction.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-11",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.97,
+      "rationale": "Applying established ASC 606 guidance to standard arrangements is revenue recognition policy application.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Escalating novel, high-judgment, or precedent-setting matters requires human accounting judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-13",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.88,
+      "rationale": "Accounting for credits, refunds, contract modifications, cutoff, and variable consideration is revenue recognition work that can be assisted but involves judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-14",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.86,
+      "rationale": "Preparing revenue workpapers is documentation supporting accounting entries and conclusions.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-15",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.98,
+      "rationale": "Preparing audit support matches providing schedules and documentation for audit requests.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-16",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.95,
+      "rationale": "Preparing control evidence is part of maintaining SOX and internal control documentation.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-17",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.91,
+      "rationale": "Supporting external audit matches audit support, though serving as the primary auditor contact would be human.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Supporting walkthroughs implies working with auditors in a relationship-driven process.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-19",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.84,
+      "rationale": "Supporting SOX readiness activities aligns with internal controls and control documentation work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.73,
+      "rationale": "Supporting readiness and UAT for new products and billing models is a broad implementation project that does not map cleanly to a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e4022fc21b9a4c6-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "Improving and automating recurring revenue processes is a broad process-improvement assignment rather than a specific operational task.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

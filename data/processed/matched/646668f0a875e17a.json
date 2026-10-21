@@ -1,0 +1,204 @@
+{
+  "posting_id": "646668f0a875e17a",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "646668f0a875e17a-01",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.98,
+      "rationale": "The duty is to prepare and record journal entries, which matches journal entry preparation and posting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-02",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.99,
+      "rationale": "The duty is to perform general ledger reconciliations, which is balance-sheet account reconciliation work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-03",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.98,
+      "rationale": "The duty is variance analysis, which matches flux analysis and variance commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.49,
+      "rationale": "The duty broadly requires ensuring US GAAP and policy compliance across accounting areas, which is too general to map cleanly to a single platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "The duty is leading inventory accounting initiatives, which is inventory and cost accounting work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The duty is perpetual-to-general-ledger reconciliation, which is inventory subledger reconciliation not listed in the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The duty is calculating COGS, which is cost accounting work outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The duty is calculating landed costs, which is inventory costing rather than a covered capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The duty is resolving standard cost variances, which is cost accounting work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The duty is partnering closely with Operations and Supply Chain, which is cross-functional collaboration rather than a platform task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "The duty is coordinating physical inventory counts, which is an operational coordination activity done by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "The duty is coordinating cycle count programs, which is an operational management activity rather than an automatable finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-13",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.96,
+      "rationale": "The duty is preparing periodic and ad hoc financial reporting, which matches building management reports and board-style financial reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-14",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.96,
+      "rationale": "The duty is conducting financial analysis, which matches ad hoc finance analysis traced to source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-15",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.95,
+      "rationale": "The duty is explaining trends or relationships on the financial statements, which matches driver analysis and variance explanation using source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-16",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.98,
+      "rationale": "The duty is ensuring compliance with SOX 404 key controls, which matches monitoring internal controls and executing SOX controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The duty is analyzing reserves such as E&O, which is reserve accounting and inventory-related analysis not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-18",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.97,
+      "rationale": "The duty is assisting with internal and external audit requests, which matches audit support and providing documentation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The duty is supporting cross-functional initiatives, which is collaborative project work rather than a defined finance-operation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "The duty is providing accounting insights, which is advisory work to other teams and not a specific automated capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.55,
+      "rationale": "The duty is troubleshooting operational issues, which is too vague to map to a specific finance-operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "646668f0a875e17a-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.56,
+      "rationale": "The duty is contributing to process improvements for month-end close efficiency, which is too broad and judgment-based to classify precisely.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

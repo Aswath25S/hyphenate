@@ -1,0 +1,767 @@
+{
+  "posting_id": "726d19d1c5320028",
+  "company": "Saronic",
+  "slug": "saronic",
+  "domain": "saronic.com",
+  "title": "Senior Revenue Accountant",
+  "role_family": "Revenue",
+  "seniority": "senior",
+  "n": 15,
+  "C": 3,
+  "A": 3,
+  "covered_share": 0.2,
+  "overlap": 0.4,
+  "weighted_overlap": 0.3,
+  "thin": false,
+  "salary_min": null,
+  "salary_max": null,
+  "salary_varies": false,
+  "salary_source": null,
+  "savings": null,
+  "savings_reason": "no_salary",
+  "lead_product": "GL accounting",
+  "product_split": {
+    "Order-to-cash": {
+      "covered": 2,
+      "assisted": 0,
+      "weighted": 2
+    },
+    "GL accounting": {
+      "covered": 1,
+      "assisted": 3,
+      "weighted": 2.5
+    }
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Salesforce",
+    "WAWF",
+    "Overwatch",
+    "Finance Receipts Tracker"
+  ],
+  "posted_at": "2026-09-28T14:55:17.372+00:00",
+  "source_url": "https://jobs.ashbyhq.com/saronic/0bad9646-6fdd-488a-99da-8043207ea1d8",
+  "locations": [
+    "San Diego, CA"
+  ],
+  "remote": "unknown",
+  "excluded": null,
+  "text": "Saronic Technologies is a leader in revolutionizing autonomy at sea, dedicated to developing state-of-the-art solutions that enhance maritime operations through autonomous and intelligent platforms.\n\n\n\n\nJOB OVERVIEW:\n\n - We are seeking an experienced and technically strong Senior Revenue Accountant to own the day-to-day execution of our revenue accounting and billing operations. This is a unique opportunity to join a newly established revenue accounting function at the ground level and help build the processes that will scale with Saronic's continued growth and complexity.\n\n - This role will be responsible for the full billing lifecycle of complex government contracts, from sales order validation through invoice submission and payment tracking, as well as drafting technical accounting memos and preparing monthly revenue entries under ASC 606. The ideal candidate combines strong accounting fundamentals with hands-on systems fluency and thrives in a fast-paced environment where ownership and follow-through matter.\n\n - The Revenue Accountant will work closely with the Senior Manager of Revenue Accounting and partner cross-functionally with Contracts, Business Development, and Finance to ensure revenue is recognized properly and cash is collected efficiently.\n   \n\nKey Responsibilities:\n\nBilling Operations\n\nValidate and approve sales orders in Salesforce and NetSuite for each Closed Won opportunity, including review of line items and milestone billing schedules on complex contracts with numerous CLINs and option CLINs.\n\n - Prepare and submit customer invoices in NetSuite and WAWF, including milestone eligibility review and CLIN reconciliation, ensuring invoices are accurate, timely, and compliant with contract terms.\n\n - Own invoice rejection resolution and resubmission, working with internal stakeholders and government systems to keep billing on track.\n\n - Maintain billing and payment status across internal tracking systems, including Overwatch, Salesforce approvals, and the Finance Receipts Tracker, at each billing and payment event.\n\nRevenue Accounting \n\n - Draft ASC 606 technical accounting memos for new contract awards and contract modifications, supporting review and sign-off by revenue accounting leadership.\n\n - Prepare monthly revenue journal entries and supporting reconciliations, ensuring accurate recognition and reporting in accordance with ASC 606.\n\n - Support external audit requests related to revenue, billing, and receivables, maintaining audit-ready documentation.\n\nProcess Improvement & Collaboration\n\n - Identify and recommend improvements to billing and revenue workflows, supporting automation and systems initiatives across NetSuite and Salesforce.\n\n - Partner with Contracts, Business Development, and Finance to ensure contract terms, billing schedules, and revenue treatment are aligned throughout the award lifecycle.\n\nQualifications\n\n - Bachelor's degree in Accounting or Finance; CPA or active CPA candidacy a plus.\n\n - 4 – 7 years of relevant accounting experience; public accounting, government contracting, or revenue/billing operations experience preferred.\n\n - Demonstrated knowledge of ASC 606 revenue recognition; experience independently drafting technical accounting memos required.\n\n - Experience with ERP and CRM systems (NetSuite and Salesforce preferred); familiarity with WAWF or other government invoicing systems highly desirable.\n\n - Experience in defense, aerospace, or government contracting highly desirable, including familiarity with CLIN-based contract structures and milestone billing.\n\n - Ability to operate independently and exercise sound judgment in a lean team environment, including cross-functional communication with varying audiences and stakeholders\n\n - Strong analytical, communication, and organizational skills with a proactive, solution-oriented mindset.\n\n - Ability to manage multiple priorities and take ownership of end-to-end processes in a fast-paced, ambiguous environment.\n\n\n\n\nBENEFITS\n\nMedical Insurance: Comprehensive health insurance plans covering a range of services\n\nSaronic pays 100% of the premium for employees and 80% for dependents\n\nDental and Vision Insurance: Coverage for routine dental check-ups, orthodontics, and vision care\n\nSaronic pays 100% of the premium under the basic plan for employees and 80% for dependents\n\nTime Off: Generous PTO and Holidays\n\nParental Leave: Paid maternity and paternity leave to support new parents\n\nCompetitive Salary: Industry-standard salaries with opportunities for performance-based bonuses\n\nRetirement Plan: 401(k) plan with company match\n\nStock Options: Equity options to give employees a stake in the company’s success\n\nLife and Disability Insurance: Basic life insurance and short- and long-term disability coverage\n\nPet Insurance: Discounted pet insurance options including 24/7 Telehealth helpline\n\nAdditional Perks: Free lunch benefit and unlimited free drinks and snacks in the office\n\n\n\nSaronic CCPA Notice for Candidates and California Employees https://saronic-assets-public.s3.us-east-2.amazonaws.com/Saronic%20CCPA%20Notice%20for%20Candidates%20and%20California%20Employees.pdf\n\n\n\nIf this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status. As defined by U.S. law, individuals who are any one of the following are considered to be a “U.S. Person”: (1) U.S. citizens, (2) legal permanent residents (a.k.a. green card holders), and (3) certain protected classes of asylees and refugees, as defined in 8 U.S.C. 1324b(a)(3) https://www.govinfo.gov/link/uscode/8/1324b.\n\nSaronic does not discriminate on the basis of race, sex, color, religion, age, national origin, marital status, disability, veteran status, genetic information, sexual orientation, gender identity or any other reason prohibited by law in provision of employment opportunities and benefits. We are also committed to providing reasonable accommodations for qualified individuals with disabilities.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": null,
+    "max": null,
+    "period": null,
+    "currency": null,
+    "raw_text": null
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "newly established revenue accounting function",
+    "build the processes that will scale with Saronic's continued growth and complexity",
+    "full billing lifecycle of complex government contracts",
+    "invoice rejection resolution and resubmission",
+    "lean team environment",
+    "fast-paced, ambiguous environment",
+    "multiple priorities"
+  ],
+  "fetched_at": "2026-10-21T17:33:58.994Z",
+  "ats": "ashby",
+  "duties": [
+    {
+      "duty_id": "726d19d1c5320028-01",
+      "text": "Own the day-to-day execution of revenue accounting and billing operations",
+      "source_span": "own the day-to-day execution of our revenue accounting and billing operations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 303,
+        "end": 380
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.77,
+      "rationale": "The duty broadly covers owning revenue accounting and billing operations without a specific operational action that maps cleanly to one capability.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "726d19d1c5320028-02",
+      "text": "Validate and approve sales orders in Salesforce and NetSuite for each Closed Won opportunity, including review of line items and milestone billing schedules on complex contracts with numerous CLINs and option CLINs",
+      "source_span": "Validate and approve sales orders in Salesforce and NetSuite for each Closed Won opportunity, including review of line items and milestone billing schedules on complex contracts with numerous CLINs and option CLINs.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1324,
+        "end": 1539
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "The duty centers on validating and approving sales orders and milestone schedules, which is a rules-based review/approval workflow not directly covered by the map.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "726d19d1c5320028-03",
+      "text": "Prepare and submit customer invoices in NetSuite and WAWF",
+      "source_span": "Prepare and submit customer invoices in NetSuite and WAWF",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1544,
+        "end": 1601
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.invoicing",
+      "capability": "Create and send invoices, including usage-based billing",
+      "product": "Order-to-cash",
+      "confidence": 0.98,
+      "rationale": "The duty is to prepare and submit customer invoices, which is exactly the invoicing capability.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-04",
+      "text": "Review milestone eligibility",
+      "source_span": "milestone eligibility review",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1613,
+        "end": 1641
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.71,
+      "rationale": "The duty reviews milestone eligibility, a judgment-heavy contract/billing determination that does not match a listed capability.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "726d19d1c5320028-05",
+      "text": "Reconcile CLINs",
+      "source_span": "CLIN reconciliation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1646,
+        "end": 1665
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.79,
+      "rationale": "The duty reconciles CLINs, which is a contract-line-item matching task not explicitly covered by the map.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "726d19d1c5320028-06",
+      "text": "Resolve invoice rejections and resubmit invoices",
+      "source_span": "Own invoice rejection resolution and resubmission",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1746,
+        "end": 1795
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.invoicing",
+      "capability": "Create and send invoices, including usage-based billing",
+      "product": "Order-to-cash",
+      "confidence": 0.89,
+      "rationale": "The duty resolves invoice rejections and resubmits invoices, which is part of creating, adjusting, and sending invoices.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-07",
+      "text": "Maintain billing and payment status across internal tracking systems",
+      "source_span": "Maintain billing and payment status across internal tracking systems",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1885,
+        "end": 1953
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.83,
+      "rationale": "The duty maintains billing and payment status in tracking systems, an administrative tracking task with no direct capability match.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "726d19d1c5320028-08",
+      "text": "Draft ASC 606 technical accounting memos for new contract awards and contract modifications",
+      "source_span": "Draft ASC 606 technical accounting memos for new contract awards and contract modifications",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2092,
+        "end": 2183
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "The duty drafts ASC 606 technical accounting memos, which requires technical accounting judgment and interpretation.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "726d19d1c5320028-09",
+      "text": "Prepare monthly revenue journal entries",
+      "source_span": "Prepare monthly revenue journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2254,
+        "end": 2293
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.journal_entries",
+      "capability": "Prepare and post journal entries",
+      "product": "GL accounting",
+      "confidence": 0.99,
+      "rationale": "The duty prepares monthly revenue journal entries, which matches journal entry preparation.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-10",
+      "text": "Prepare supporting reconciliations",
+      "source_span": "supporting reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2298,
+        "end": 2324
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.account_recs",
+      "capability": "Balance-sheet account reconciliations",
+      "product": "GL accounting",
+      "confidence": 0.92,
+      "rationale": "The duty prepares supporting reconciliations, which fits balance-sheet account reconciliation work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-11",
+      "text": "Support external audit requests related to revenue, billing, and receivables",
+      "source_span": "Support external audit requests related to revenue, billing, and receivables",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2402,
+        "end": 2478
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.97,
+      "rationale": "The duty supports external audit requests, which matches audit support and PBC/documentation work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-12",
+      "text": "Maintain audit-ready documentation",
+      "source_span": "maintaining audit-ready documentation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2480,
+        "end": 2517
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.94,
+      "rationale": "The duty maintains audit-ready documentation, which is audit support documentation work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-13",
+      "text": "Identify and recommend improvements to billing and revenue workflows",
+      "source_span": "Identify and recommend improvements to billing and revenue workflows",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2560,
+        "end": 2628
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.82,
+      "rationale": "The duty is a broad process-improvement request for billing and revenue workflows without a specific executable action.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "726d19d1c5320028-14",
+      "text": "Support automation and systems initiatives across NetSuite and Salesforce",
+      "source_span": "supporting automation and systems initiatives across NetSuite and Salesforce",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2630,
+        "end": 2706
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.85,
+      "rationale": "The duty supports automation and systems initiatives, which is too vague and project-oriented to map to a specific capability.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "726d19d1c5320028-15",
+      "text": "Partner with Contracts, Business Development, and Finance to ensure contract terms, billing schedules, and revenue treatment are aligned throughout the award lifecycle",
+      "source_span": "Partner with Contracts, Business Development, and Finance to ensure contract terms, billing schedules, and revenue treatment are aligned throughout the award lifecycle",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2712,
+        "end": 2879
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "The duty partners with other teams to align contract terms, billing schedules, and revenue treatment, which is cross-functional coordination and advisory work.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "726d19d1c5320028-16",
+      "text": "Bachelor's degree in Accounting or Finance",
+      "source_span": "Bachelor's degree in Accounting or Finance",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2901,
+        "end": 2943
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-17",
+      "text": "CPA or active CPA candidacy a plus",
+      "source_span": "CPA or active CPA candidacy a plus",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2945,
+        "end": 2979
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-18",
+      "text": "4 – 7 years of relevant accounting experience",
+      "source_span": "4 – 7 years of relevant accounting experience",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2985,
+        "end": 3030
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-19",
+      "text": "public accounting, government contracting, or revenue/billing operations experience preferred",
+      "source_span": "public accounting, government contracting, or revenue/billing operations experience preferred",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3032,
+        "end": 3125
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-20",
+      "text": "Demonstrated knowledge of ASC 606 revenue recognition",
+      "source_span": "Demonstrated knowledge of ASC 606 revenue recognition",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3131,
+        "end": 3184
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-21",
+      "text": "experience independently drafting technical accounting memos required",
+      "source_span": "experience independently drafting technical accounting memos required",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3186,
+        "end": 3255
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-22",
+      "text": "Experience with ERP and CRM systems (NetSuite and Salesforce preferred)",
+      "source_span": "Experience with ERP and CRM systems (NetSuite and Salesforce preferred)",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3261,
+        "end": 3332
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-23",
+      "text": "familiarity with WAWF or other government invoicing systems highly desirable",
+      "source_span": "familiarity with WAWF or other government invoicing systems highly desirable",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3334,
+        "end": 3410
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-24",
+      "text": "Experience in defense, aerospace, or government contracting highly desirable",
+      "source_span": "Experience in defense, aerospace, or government contracting highly desirable",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3416,
+        "end": 3492
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-25",
+      "text": "familiarity with CLIN-based contract structures and milestone billing",
+      "source_span": "including familiarity with CLIN-based contract structures and milestone billing",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3494,
+        "end": 3573
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-26",
+      "text": "Ability to operate independently",
+      "source_span": "Ability to operate independently",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3579,
+        "end": 3611
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-27",
+      "text": "Exercise sound judgment in a lean team environment",
+      "source_span": "exercise sound judgment in a lean team environment",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3616,
+        "end": 3666
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-28",
+      "text": "cross-functional communication with varying audiences and stakeholders",
+      "source_span": "including cross-functional communication with varying audiences and stakeholders",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3668,
+        "end": 3748
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-29",
+      "text": "Strong analytical, communication, and organizational skills with a proactive, solution-oriented mindset",
+      "source_span": "Strong analytical, communication, and organizational skills with a proactive, solution-oriented mindset.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3753,
+        "end": 3857
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-30",
+      "text": "Ability to manage multiple priorities",
+      "source_span": "Ability to manage multiple priorities",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3862,
+        "end": 3899
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-31",
+      "text": "Take ownership of end-to-end processes in a fast-paced, ambiguous environment",
+      "source_span": "take ownership of end-to-end processes in a fast-paced, ambiguous environment",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3904,
+        "end": 3981
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

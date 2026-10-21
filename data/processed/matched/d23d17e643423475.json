@@ -1,0 +1,501 @@
+{
+  "posting_id": "d23d17e643423475",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "d23d17e643423475-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Leading global payroll operations is a management responsibility rather than a platform-executed finance task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Ensuring payroll processing is timely, accurate, and compliant is payroll processing work that is repetitive but not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Managing Payroll Managers and professionals is people management by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Coaching payroll staff is direct people development work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Developing a payroll team is a management and talent-development duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Establishing payroll governance is setting policy and oversight, which is human judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Establishing payroll controls is designing the control framework, which is not end-to-end automation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Establishing payroll policies is policy-setting work reserved for people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Establishing operating procedures is process design and governance, not a platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Owning relationships with global payroll providers is vendor relationship management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Owning relationships with Employer of Record partners is external relationship management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Owning relationships with tax advisors is advisory relationship management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Owning relationships with other payroll vendors is vendor management, not automation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Ensuring service quality is supervisory oversight rather than a specific platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Ensuring accountability is managerial oversight work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.52,
+      "rationale": "Driving continuous improvement is too vague to map to a specific covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering closely with People Operations is cross-functional collaboration work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Ensuring employee data flows for new hires is repetitive operational data coordination with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Ensuring employee data flows for terminations is repetitive operational data coordination with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Ensuring employee data flows for compensation changes is repetitive operational data coordination with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-21",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Ensuring employee data flows for benefits is repetitive operational data coordination with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-22",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Ensuring employee data flows for leave programs is repetitive operational data coordination with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-23",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Ensuring employee data flows for equity transactions is repetitive operational data coordination with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-24",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Ensuring employee data flows for organizational changes is repetitive operational data coordination with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with Finance, Accounting, Tax, Equity Administration, and Legal is cross-functional coordination and compliance work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-26",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Processing and reporting equity compensation is stock-comp accounting work, which is explicitly outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-27",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Processing RSUs is equity compensation administration and accounting, which is not covered here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-28",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Processing stock options is equity compensation administration and accounting, which is not covered here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-29",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Managing related payroll tax obligations is tax compliance work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-30",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Driving payroll technology strategy and optimization is strategy-setting and oversight work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-31",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Managing Workday Payroll is payroll system administration work with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-32",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Managing global payroll platforms is system administration work with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-33",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Managing integrations is technical systems work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-34",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.57,
+      "rationale": "Managing automation is too broad to map confidently to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-35",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Managing reporting is overseeing a function rather than performing a specific automated reporting task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-36",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Managing system implementations is project leadership work, not a finance-ops execution capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-37",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Developing payroll metrics is KPI design and analysis that has no direct match in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-38",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.78,
+      "rationale": "Developing dashboards is recurring management reporting work that matches building reports for leadership.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-39",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.82,
+      "rationale": "Developing reporting packages matches building recurring management reports and board-style reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-40",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.8,
+      "rationale": "Preparing headcount reporting is a recurring management report for leadership.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-41",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Preparing payroll spend analysis is payroll-specific analysis with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-42",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.86,
+      "rationale": "Performing variance analysis matches flux analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-43",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Preparing payroll tax reporting is tax reporting work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-44",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.8,
+      "rationale": "Preparing executive-level reporting matches building management reports for leadership.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-45",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Ensuring payroll tax filings are timely and accurate is tax filing work outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-46",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Ensuring payroll tax registrations are timely and accurate is tax registration work outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-47",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Ensuring payroll tax remittances are timely and accurate is payroll tax remittance work outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-48",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Ensuring garnishments are timely and accurate is a payroll processing obligation not covered here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-49",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Ensuring statutory reporting requirements are timely and accurate is compliance reporting outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-50",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.61,
+      "rationale": "Identifying opportunities to streamline processes is too vague to tie to a specific covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-51",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.61,
+      "rationale": "Identifying opportunities to improve controls is too vague to map confidently to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-52",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.61,
+      "rationale": "Identifying opportunities to reduce risk is too vague to map confidently to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-53",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Identifying opportunities to enhance the employee payroll experience is too broad and not a specific covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-54",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Serving as the senior escalation point for complex payroll matters is advisory and judgment-based coordination work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d23d17e643423475-55",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Driving timely resolution of payroll-related issues is operational issue handling with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    }
+  ]
+}

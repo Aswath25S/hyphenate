@@ -1,0 +1,899 @@
+{
+  "as_of": "2026-10-21",
+  "briefs": {
+    "latitude.io": {
+      "brief": {
+        "headline": "Latitude is hiring an Accounts Payable Analyst (Contract) to support procure-to-pay work.",
+        "why_them": "Latitude has 1 open finance role with 78% overlap to an Accounts Payable Analyst (Contract) posting. The ERP is NetSuite and the lead product is procure-to-pay.",
+        "why_now": "Latitude Raises $35M Series A to Connect Stablecoin Payments to Local Rails Worldwide - Financial IT on Sep 11, 2026.",
+        "lead_with": "Procure-to-pay, because the role is AP and the ERP is NetSuite.",
+        "minimum_savings": "No salary posted, so no figure.",
+        "may_not_cover": "Systems integration is not on Hyphenate's public site.",
+        "angle": "This is work to absorb before your next hire in AP."
+      },
+      "data": {
+        "company": "Latitude",
+        "open_finance_roles": 1,
+        "roles": [
+          {
+            "title": "Accounts Payable Analyst (Contract)",
+            "role_family": "AP",
+            "overlap": "78%",
+            "posting_id": "8b36b63020ac86ec"
+          }
+        ],
+        "average_overlap": "78%",
+        "erp": [
+          "NetSuite"
+        ],
+        "lead_product": "Procure-to-pay",
+        "lead_product_duties": {
+          "covered": 9,
+          "assisted": 2
+        },
+        "strongest_trigger": {
+          "type": "Funding round",
+          "date": "Sep 11, 2026",
+          "headline": "Latitude Raises $35M Series A to Connect Stablecoin Payments to Local Rails Worldwide - Financial IT",
+          "summary": "Latitude raised a $35 million Series A round to expand its stablecoin payments platform."
+        },
+        "minimum_savings": null,
+        "top_gap_themes": [
+          "Systems integration"
+        ],
+        "tools_named_in_postings": []
+      },
+      "attempts": 1
+    },
+    "elevenlabs.io": {
+      "brief": {
+        "headline": "ElevenLabs is hiring a Revenue Accountant to cover 67% overlap in revenue work.",
+        "why_them": "ElevenLabs has 1 open finance role, and the Revenue Accountant posting shows 67% overlap. ERP is not stated.",
+        "why_now": "New CFO or controller on Sep 8, 2026: ElevenLabs hired a CFO and is reportedly eyeing a 2028 IPO.",
+        "lead_with": "GL accounting for the Revenue Accountant role.",
+        "minimum_savings": "No salary posted, so no figure.",
+        "may_not_cover": "Strategic planning models, Vendor contracts, and Accounting policy are not on Hyphenate's public site.",
+        "angle": "A fit before your next hire for work that can be absorbed in GL accounting and revenue support."
+      },
+      "data": {
+        "company": "ElevenLabs",
+        "open_finance_roles": 1,
+        "roles": [
+          {
+            "title": "Revenue Accountant",
+            "role_family": "Revenue",
+            "overlap": "67%",
+            "posting_id": "3e4022fc21b9a4c6"
+          }
+        ],
+        "average_overlap": "67%",
+        "erp": [
+          "not stated"
+        ],
+        "lead_product": "GL accounting",
+        "lead_product_duties": {
+          "covered": 5,
+          "assisted": 5
+        },
+        "strongest_trigger": {
+          "type": "New CFO or controller",
+          "date": "Sep 8, 2026",
+          "headline": "ElevenLabs Hires CFO, Eyes 2028 IPO - The Information",
+          "summary": "ElevenLabs hired a CFO and is reportedly eyeing a 2028 IPO."
+        },
+        "minimum_savings": null,
+        "top_gap_themes": [
+          "Strategic planning models",
+          "Vendor contracts",
+          "Accounting policy"
+        ],
+        "tools_named_in_postings": [
+          "HubiFi",
+          "Metronome",
+          "Stripe"
+        ]
+      },
+      "attempts": 1
+    },
+    "clickhouse.com": {
+      "brief": {
+        "headline": "ClickHouse is hiring a Senior Revenue Accountant for revenue work in NetSuite.",
+        "why_them": "ClickHouse has 1 open finance role with 55% average overlap, and the stack includes NetSuite. The posting points to revenue work that fits a focused finance ops brief.",
+        "why_now": "ClickHouse acquired RunReveal to deepen its security analytics push.",
+        "lead_with": "GL accounting, because it covers 2 duties and assists 4 more.",
+        "minimum_savings": "At least $12,700 a year across 1 role could be absorbed before the next hire.",
+        "may_not_cover": "Strategic planning models, process automation, and vendor contracts are not on Hyphenate's public site.",
+        "angle": "Before your next hire, this looks like a narrow finance workload already concentrated in one role."
+      },
+      "data": {
+        "company": "ClickHouse",
+        "open_finance_roles": 1,
+        "roles": [
+          {
+            "title": "Senior Revenue Accountant",
+            "role_family": "Revenue",
+            "overlap": "55%",
+            "posting_id": "8ddb414440333fcc"
+          }
+        ],
+        "average_overlap": "55%",
+        "erp": [
+          "NetSuite"
+        ],
+        "lead_product": "GL accounting",
+        "lead_product_duties": {
+          "covered": 2,
+          "assisted": 4
+        },
+        "strongest_trigger": {
+          "type": "Acquisition",
+          "date": "Sep 2, 2026",
+          "headline": "ClickHouse acquires RunReveal to deepen its push into security analytics - Dealroom",
+          "summary": "ClickHouse acquired RunReveal to deepen its security analytics push."
+        },
+        "minimum_savings": "at least $12,700 a year across 1 role",
+        "top_gap_themes": [
+          "Strategic planning models",
+          "Process automation",
+          "Vendor contracts"
+        ],
+        "tools_named_in_postings": [
+          "Salesforce",
+          "Stripe"
+        ]
+      },
+      "attempts": 1
+    },
+    "appliedintuition.com": {
+      "brief": {
+        "headline": "Applied Intuition is hiring a Senior Cost Accountant - Government Contracting (Accounts Payable, Job Costing) for AP and job costing work.",
+        "why_them": "Applied Intuition has 3 open finance roles with 34% average overlap, and the ERP stack includes NetSuite, PROCAS, Deltek Costpoint, and Unanet.",
+        "why_now": "Applied Intuition is reported to be fielding offers at a $30 billion valuation on Oct 13, 2026.",
+        "lead_with": "GL accounting, because it covers 8 duties and assists 10.",
+        "minimum_savings": "At least $38,800 a year across 3 roles could be absorbed before the next hire.",
+        "may_not_cover": "Strategic planning models, Process automation, and Vendor contracts are not on Hyphenate's public site.",
+        "angle": "Before your next hire, this looks like finance work that could be absorbed across AP, Revenue, and Treasury."
+      },
+      "data": {
+        "company": "Applied Intuition",
+        "open_finance_roles": 3,
+        "roles": [
+          {
+            "title": "Senior Cost Accountant - Government Contracting (Accounts Payable, Job Costing)",
+            "role_family": "AP",
+            "overlap": "45%",
+            "posting_id": "5823b9c70331f1ac"
+          },
+          {
+            "title": "Technical Revenue Accounting Manager",
+            "role_family": "Revenue",
+            "overlap": "35%",
+            "posting_id": "0f7d46a0f255fcc2"
+          },
+          {
+            "title": "Treasury Manager",
+            "role_family": "Treasury",
+            "overlap": "22%",
+            "posting_id": "faaf62fae58cc9fe"
+          }
+        ],
+        "average_overlap": "34%",
+        "erp": [
+          "NetSuite",
+          "PROCAS",
+          "Deltek Costpoint",
+          "Unanet"
+        ],
+        "lead_product": "GL accounting",
+        "lead_product_duties": {
+          "covered": 8,
+          "assisted": 10
+        },
+        "strongest_trigger": {
+          "type": "Funding round",
+          "date": "Oct 13, 2026",
+          "headline": "Applied Intuition Fields Offers at $30 Billion Valuation - The Information",
+          "summary": "Applied Intuition is reported to be fielding offers at a $30 billion valuation."
+        },
+        "minimum_savings": "at least $38,800 a year across 3 roles",
+        "top_gap_themes": [
+          "Strategic planning models",
+          "Process automation",
+          "Vendor contracts"
+        ],
+        "tools_named_in_postings": [
+          "Kyriba",
+          "Microsoft Excel",
+          "Salesforce"
+        ]
+      },
+      "attempts": 1
+    },
+    "avetta.com": {
+      "brief": {
+        "headline": "Avetta is hiring a Billing Specialist (B2B) to cover 32% AR overlap.",
+        "why_them": "Avetta has 1 open finance role with 32% overlap in AR, and its ERP is NetSuite.",
+        "why_now": "EQT acquires Avetta from WCAS on Sep 19, 2026.",
+        "lead_with": "Order-to-cash, because the posting covers 5 duties.",
+        "minimum_savings": "No salary posted, so no figure.",
+        "may_not_cover": "Process automation, vendor contracts, and systems integration are not on Hyphenate's public site.",
+        "angle": "Order-to-cash before your next hire for Billing Specialist (B2B)."
+      },
+      "data": {
+        "company": "Avetta",
+        "open_finance_roles": 1,
+        "roles": [
+          {
+            "title": "Billing Specialist (B2B)",
+            "role_family": "AR",
+            "overlap": "32%",
+            "posting_id": "d82f7db13edabe30"
+          }
+        ],
+        "average_overlap": "32%",
+        "erp": [
+          "NetSuite"
+        ],
+        "lead_product": "Order-to-cash",
+        "lead_product_duties": {
+          "covered": 5,
+          "assisted": 0
+        },
+        "strongest_trigger": {
+          "type": "Acquisition",
+          "date": "Sep 19, 2026",
+          "headline": "EQT acquires Avetta from WCAS (supply-chain risk SaaS, Apr 2024) - Dealroom",
+          "summary": "EQT acquires Avetta from WCAS."
+        },
+        "minimum_savings": null,
+        "top_gap_themes": [
+          "Process automation",
+          "Vendor contracts",
+          "Systems integration"
+        ],
+        "tools_named_in_postings": [
+          "Adobe Acrobat",
+          "CoPilot",
+          "Excel",
+          "Jira",
+          "Onsite",
+          "Outlook",
+          "Salesforce",
+          "Word",
+          "Zuora"
+        ]
+      },
+      "attempts": 1
+    },
+    "includedhealth.com": {
+      "brief": {
+        "headline": "Included Health is hiring an Accounts Receivable Staff Accountant to match 48% overlap in order-to-cash work.",
+        "why_them": "Included Health has 2 open finance roles with an average overlap of 38%, and Workday is the ERP named in the data. The Accounts Receivable Staff Accountant role overlaps 48% with current work.",
+        "why_now": "Included Health agreed to acquire Firefly Health on Jul 28, 2026 to expand alternative health plans for employers.",
+        "lead_with": "Order-to-cash, because it already covers 15 duties and assists 3 more.",
+        "minimum_savings": "At least $15,300 a year across 2 roles could be absorbed before the next hire.",
+        "may_not_cover": "Strategic planning models, vendor contracts, and accounting policy are not on Hyphenate's public site.",
+        "angle": "Order-to-cash can absorb this work before your next hire."
+      },
+      "data": {
+        "company": "Included Health",
+        "open_finance_roles": 2,
+        "roles": [
+          {
+            "title": "Accounts Receivable Staff Accountant",
+            "role_family": "AR",
+            "overlap": "48%",
+            "posting_id": "34482a131783b21f"
+          },
+          {
+            "title": "Sr. Manager, Accounting",
+            "role_family": "Close mgmt",
+            "overlap": "27%",
+            "posting_id": "4984df0392ee3419"
+          }
+        ],
+        "average_overlap": "38%",
+        "erp": [
+          "Workday"
+        ],
+        "lead_product": "Order-to-cash",
+        "lead_product_duties": {
+          "covered": 15,
+          "assisted": 3
+        },
+        "strongest_trigger": {
+          "type": "Acquisition",
+          "date": "Jul 28, 2026",
+          "headline": "Included Health inks agreement to acquire Firefly Health to scale alternative health plans for employers - Fierce Healthcare",
+          "summary": "Included Health agreed to acquire Firefly Health to expand alternative health plans for employers."
+        },
+        "minimum_savings": "at least $15,300 a year across 2 roles",
+        "top_gap_themes": [
+          "Strategic planning models",
+          "Vendor contracts",
+          "Accounting policy"
+        ],
+        "tools_named_in_postings": [
+          "GSuite",
+          "Looker",
+          "Microsoft Excel",
+          "Microsoft Suite",
+          "Salesforce"
+        ]
+      },
+      "attempts": 2
+    },
+    "klaviyo.com": {
+      "brief": {
+        "headline": "Klaviyo is hiring a Lead Treasury Analyst to cover treasury work alongside NetSuite.",
+        "why_them": "Klaviyo has 2 open finance roles with an average overlap of 20%, and the postings point to NetSuite. The Lead Treasury Analyst role is 35% overlap, while Manager, IT SOX is 4%.",
+        "why_now": "Klaviyo acquired Elias Torres’ Agency on Aug 5, 2026.",
+        "lead_with": "GL accounting because it covers 2 duties and assists 1.",
+        "minimum_savings": "At least $8,400 a year across 2 roles could be absorbed before the next hire.",
+        "may_not_cover": "Strategic planning models, process automation, and vendor contracts are not on Hyphenate's public site.",
+        "angle": "Before your next hire, Klaviyo could absorb treasury and IT SOX work already showing up in 2 open finance roles."
+      },
+      "data": {
+        "company": "Klaviyo",
+        "open_finance_roles": 2,
+        "roles": [
+          {
+            "title": "Lead Treasury Analyst",
+            "role_family": "Treasury",
+            "overlap": "35%",
+            "posting_id": "2ad92cdccb8e118d"
+          },
+          {
+            "title": "Manager, IT SOX",
+            "role_family": "Other",
+            "overlap": "4%",
+            "posting_id": "5a8bc39f61e891c2"
+          }
+        ],
+        "average_overlap": "20%",
+        "erp": [
+          "NetSuite"
+        ],
+        "lead_product": "GL accounting",
+        "lead_product_duties": {
+          "covered": 2,
+          "assisted": 1
+        },
+        "strongest_trigger": {
+          "type": "Acquisition",
+          "date": "Aug 5, 2026",
+          "headline": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders - TechCrunch",
+          "summary": "Klaviyo acquired Elias Torres’ Agency."
+        },
+        "minimum_savings": "at least $8,400 a year across 2 roles",
+        "top_gap_themes": [
+          "Strategic planning models",
+          "Process automation",
+          "Vendor contracts"
+        ],
+        "tools_named_in_postings": [
+          "AuditBoard",
+          "CitiDirect",
+          "FXAll",
+          "Google Sheets",
+          "Microsoft Excel",
+          "Optro",
+          "Tableau",
+          "Trovata"
+        ]
+      },
+      "attempts": 1
+    },
+    "notion.so": {
+      "brief": {
+        "headline": "Notion is hiring a Senior Accountant - Corporate Accounting for GL accounting.",
+        "why_them": "Notion has 5 open finance roles and a 20% average overlap across Workday and NetSuite. The mix spans GL, Reporting & FP&A, Payroll and Tax.",
+        "why_now": "Notion's acquisition of ZeroEntropy on Jul 25, 2026 is the strongest trigger event.",
+        "lead_with": "GL accounting, because it covers 6 duties and assists 5 more.",
+        "minimum_savings": "At least $23,800 a year across 5 roles could be absorbed before the next hire.",
+        "may_not_cover": "Strategic planning models, process automation, and vendor contracts are not on Hyphenate's public site.",
+        "angle": "This is a before your next hire case for absorbing GL accounting and adjacent finance work."
+      },
+      "data": {
+        "company": "Notion",
+        "open_finance_roles": 5,
+        "roles": [
+          {
+            "title": "Senior Accountant - Corporate Accounting",
+            "role_family": "GL",
+            "overlap": "50%",
+            "posting_id": "ede3af0ad8079d41"
+          },
+          {
+            "title": "Strategic Finance, AI & Business Partnership",
+            "role_family": "Reporting & FP&A",
+            "overlap": "27%",
+            "posting_id": "84997cec2d74dcf5"
+          },
+          {
+            "title": "Strategic Finance, Corporate",
+            "role_family": "Reporting & FP&A",
+            "overlap": "15%",
+            "posting_id": "4146130fca3775c6"
+          },
+          {
+            "title": "Payroll Analyst",
+            "role_family": "Payroll",
+            "overlap": "9%",
+            "posting_id": "2696e80a70c64392"
+          },
+          {
+            "title": "Senior Tax Accountant",
+            "role_family": "Tax",
+            "overlap": "0%",
+            "posting_id": "706c77c425582d9c"
+          }
+        ],
+        "average_overlap": "20%",
+        "erp": [
+          "Workday",
+          "NetSuite"
+        ],
+        "lead_product": "GL accounting",
+        "lead_product_duties": {
+          "covered": 6,
+          "assisted": 5
+        },
+        "strongest_trigger": {
+          "type": "Acquisition",
+          "date": "Jul 25, 2026",
+          "headline": "Notion acquires ZeroEntropy, the AI search startup co-founded by Moroccan CEO Ghita Houir Alami - FWDStart",
+          "summary": "Notion is reported to have acquired AI search startup ZeroEntropy."
+        },
+        "minimum_savings": "at least $23,800 a year across 5 roles",
+        "top_gap_themes": [
+          "Strategic planning models",
+          "Process automation",
+          "Vendor contracts"
+        ],
+        "tools_named_in_postings": [
+          "ADP",
+          "Adaptive",
+          "Anaplan",
+          "Fidelity",
+          "MS Excel",
+          "Pigment",
+          "Vena",
+          "Zip"
+        ]
+      },
+      "attempts": 1
+    },
+    "ouraring.com": {
+      "brief": {
+        "headline": "Oura is hiring a Technical Revenue Accounting and Policy Manager, its 0% overlap finance role.",
+        "why_them": "Oura has 4 open finance roles with 19% average overlap across NetSuite, Oracle, and SAP. The mix spans Reporting & FP&A, Close mgmt, and Revenue.",
+        "why_now": "Oura delayed its IPO because of market uncertainty, with IPO or SOX readiness flagged for Sep 28, 2026.",
+        "lead_with": "GL accounting, because it covers 7 duties and assists 11.",
+        "minimum_savings": "At least $16,700 a year across 4 roles could be absorbed before the next hire.",
+        "may_not_cover": "Strategic planning models, Process automation, and Vendor contracts are not on Hyphenate's public site.",
+        "angle": "Before your next hire, absorb the GL accounting work and the surrounding close, reporting, and revenue tasks."
+      },
+      "data": {
+        "company": "Oura",
+        "open_finance_roles": 4,
+        "roles": [
+          {
+            "title": "Senior SEC Reporting Accountant",
+            "role_family": "Reporting & FP&A",
+            "overlap": "27%",
+            "posting_id": "3965e7a55df26bfa"
+          },
+          {
+            "title": "Senior Manager, Corporate Accounting",
+            "role_family": "Close mgmt",
+            "overlap": "26%",
+            "posting_id": "67da9c5b3e879bee"
+          },
+          {
+            "title": "Accounting Manager, Fixed Assets & Capital Accounting",
+            "role_family": "Close mgmt",
+            "overlap": "22%",
+            "posting_id": "e8039e5e382a675f"
+          },
+          {
+            "title": "Technical Revenue Accounting and Policy Manager",
+            "role_family": "Revenue",
+            "overlap": "0%",
+            "posting_id": "0ae58f01342abcaf"
+          }
+        ],
+        "average_overlap": "19%",
+        "erp": [
+          "NetSuite",
+          "Oracle",
+          "SAP"
+        ],
+        "lead_product": "GL accounting",
+        "lead_product_duties": {
+          "covered": 7,
+          "assisted": 11
+        },
+        "strongest_trigger": {
+          "type": "IPO or SOX readiness",
+          "date": "Sep 28, 2026",
+          "headline": "Smart-ring maker Oura delays its IPO citing market uncertainty - NPR",
+          "summary": "Oura delayed its IPO because of market uncertainty."
+        },
+        "minimum_savings": "at least $16,700 a year across 4 roles",
+        "top_gap_themes": [
+          "Strategic planning models",
+          "Process automation",
+          "Vendor contracts"
+        ],
+        "tools_named_in_postings": [
+          "FloQast",
+          "LeaseQuery",
+          "Lucernex",
+          "Workiva"
+        ]
+      },
+      "attempts": 1
+    },
+    "snyk.io": {
+      "brief": {
+        "headline": "Snyk is hiring a Senior Manager, Revenue Accounting for revenue work in NetSuite.",
+        "why_them": "Snyk has 2 open finance roles with an average overlap of 43%, both in Revenue, and NetSuite is the ERP.",
+        "why_now": "A funding-round listing indicates Snyk raised new capital in 2026.",
+        "lead_with": "Order-to-cash, because it covers 3 duties and assists 5 more.",
+        "minimum_savings": "At least $7,900 a year across 2 roles could be absorbed before the next hire.",
+        "may_not_cover": "Strategic planning models, Systems integration, and Treasury banking are not on Hyphenate's public site.",
+        "angle": "Before your next hire, use Order-to-cash to take on revenue work in NetSuite."
+      },
+      "data": {
+        "company": "Snyk",
+        "open_finance_roles": 2,
+        "roles": [
+          {
+            "title": "Senior Revenue Accountant",
+            "role_family": "Revenue",
+            "overlap": "45%",
+            "posting_id": "6d1488a82d8850c5"
+          },
+          {
+            "title": "Senior Manager, Revenue Accounting",
+            "role_family": "Revenue",
+            "overlap": "40%",
+            "posting_id": "dd8c4e558e26af9e"
+          }
+        ],
+        "average_overlap": "43%",
+        "erp": [
+          "NetSuite"
+        ],
+        "lead_product": "Order-to-cash",
+        "lead_product_duties": {
+          "covered": 3,
+          "assisted": 5
+        },
+        "strongest_trigger": {
+          "type": "Funding round",
+          "date": "Sep 25, 2026",
+          "headline": "Snyk - 2026 Funding Rounds & List of Investors - Tracxn",
+          "summary": "A funding-round listing indicates Snyk raised new capital in 2026."
+        },
+        "minimum_savings": "at least $7,900 a year across 2 roles",
+        "top_gap_themes": [
+          "Strategic planning models",
+          "Systems integration",
+          "Treasury banking"
+        ],
+        "tools_named_in_postings": [
+          "Claude",
+          "Claude Cowork",
+          "Claude Skills",
+          "Salesforce",
+          "Sigma",
+          "Zone Billing"
+        ]
+      },
+      "attempts": 1
+    },
+    "angellist.com": {
+      "brief": {
+        "headline": "AngelList is hiring a Staff Accountant, AP & Procurement to cover AP and procurement work.",
+        "why_them": "AngelList has 1 open finance role with 45% overlap, and it uses NetSuite. The opening sits in AP while the lead product is GL accounting.",
+        "why_now": "AngelList acquired Ark on Jul 16, 2026 to combine fund administration software, banking, and AI in one platform.",
+        "lead_with": "GL accounting for AP and procurement work.",
+        "minimum_savings": "At least $12,500 a year across 1 role could be absorbed before the next hire.",
+        "may_not_cover": "Strategic planning models, Treasury banking, and Payroll and benefits are not on Hyphenate's public site.",
+        "angle": "Before your next hire, AngelList could absorb AP and procurement work into GL accounting."
+      },
+      "data": {
+        "company": "AngelList",
+        "open_finance_roles": 1,
+        "roles": [
+          {
+            "title": "Staff Accountant, AP & Procurement",
+            "role_family": "AP",
+            "overlap": "45%",
+            "posting_id": "cbb765df78854fb8"
+          }
+        ],
+        "average_overlap": "45%",
+        "erp": [
+          "NetSuite"
+        ],
+        "lead_product": "GL accounting",
+        "lead_product_duties": {
+          "covered": 3,
+          "assisted": 3
+        },
+        "strongest_trigger": {
+          "type": "Acquisition",
+          "date": "Jul 16, 2026",
+          "headline": "AngelList Acquires Ark, Combining Fund Administration Software, Banking, and AI in One Platform - Business Wire",
+          "summary": "AngelList acquired Ark to combine fund administration software, banking, and AI in one platform."
+        },
+        "minimum_savings": "at least $12,500 a year across 1 role",
+        "top_gap_themes": [
+          "Strategic planning models",
+          "Treasury banking",
+          "Payroll and benefits"
+        ],
+        "tools_named_in_postings": [
+          "Ramp"
+        ]
+      },
+      "attempts": 1
+    },
+    "shield.ai": {
+      "brief": {
+        "headline": "Shield AI is hiring a Senior Program Finance Analyst (R5882) with 31% overlap.",
+        "why_them": "Shield AI has 4 open finance roles with 20% average overlap across Reporting & FP&A. Costpoint and Oracle are the ERP stack.",
+        "why_now": "The strongest trigger is the Sep 14, 2026 funding round, when Shield AI was reported to be in talks for a new financing round at a valuation of at least $20 billion.",
+        "lead_with": "Reporting, because 0 duties are covered and 15 are assisted.",
+        "minimum_savings": "At least $6,700 a year across 4 roles could be absorbed before the next hire.",
+        "may_not_cover": "Strategic planning models, process automation, and vendor contracts are not on Hyphenate's public site.",
+        "angle": "Before your next hire, Reporting work tied to Costpoint and Oracle could absorb part of the current load."
+      },
+      "data": {
+        "company": "Shield AI",
+        "open_finance_roles": 4,
+        "roles": [
+          {
+            "title": "Senior Program Finance Analyst (R5882)",
+            "role_family": "Reporting & FP&A",
+            "overlap": "31%",
+            "posting_id": "60cda1db954b419c"
+          },
+          {
+            "title": "Lead Program Finance (R5875)",
+            "role_family": "Reporting & FP&A",
+            "overlap": "20%",
+            "posting_id": "7c95ec2817a423f4"
+          },
+          {
+            "title": "Senior Accountant, Technical Accounting & Reporting (R6349)",
+            "role_family": "Reporting & FP&A",
+            "overlap": "17%",
+            "posting_id": "e791861b49dee539"
+          },
+          {
+            "title": "Senior Manager, Corporate Finance (R5631)",
+            "role_family": "Reporting & FP&A",
+            "overlap": "14%",
+            "posting_id": "ba522a400e348c6b"
+          }
+        ],
+        "average_overlap": "20%",
+        "erp": [
+          "Costpoint",
+          "Oracle"
+        ],
+        "lead_product": "Reporting",
+        "lead_product_duties": {
+          "covered": 0,
+          "assisted": 15
+        },
+        "strongest_trigger": {
+          "type": "Funding round",
+          "date": "Sep 14, 2026",
+          "headline": "Defense Startup Shield AI in Talks for Valuation of at Least $20 Billion - The Information",
+          "summary": "Shield AI was reported to be in talks for a new financing round at a valuation of at least $20 billion."
+        },
+        "minimum_savings": "at least $6,700 a year across 4 roles",
+        "top_gap_themes": [
+          "Strategic planning models",
+          "Process automation",
+          "Vendor contracts"
+        ],
+        "tools_named_in_postings": [
+          "Adaptive",
+          "Anaplan",
+          "DAX",
+          "Excel",
+          "Microsoft Fabric",
+          "Pigment",
+          "Power BI",
+          "Power Query",
+          "Vena",
+          "Workiva"
+        ]
+      },
+      "attempts": 1
+    },
+    "whoop.com": {
+      "brief": {
+        "headline": "WHOOP is hiring a Staff Accountant to cover GL accounting in NetSuite and Oracle.",
+        "why_them": "WHOOP has 2 open finance roles with 30% average overlap. The stack includes NetSuite and Oracle.",
+        "why_now": "A funding round was noted on Sep 12, 2026.",
+        "lead_with": "GL accounting, because it covers 9 duties and assists 10.",
+        "minimum_savings": "At least $9,100 a year across 2 roles could be absorbed before the next hire.",
+        "may_not_cover": "Strategic planning models, process automation, and vendor contracts are not on Hyphenate's public site.",
+        "angle": "This is a before your next hire opportunity to absorb GL accounting work and related reporting demand."
+      },
+      "data": {
+        "company": "WHOOP",
+        "open_finance_roles": 2,
+        "roles": [
+          {
+            "title": "Staff Accountant",
+            "role_family": "GL",
+            "overlap": "61%",
+            "posting_id": "612889fe106d8b35"
+          },
+          {
+            "title": "FP&A Manager",
+            "role_family": "Reporting & FP&A",
+            "overlap": "0%",
+            "posting_id": "beec960040f74010"
+          }
+        ],
+        "average_overlap": "30%",
+        "erp": [
+          "NetSuite",
+          "Oracle"
+        ],
+        "lead_product": "GL accounting",
+        "lead_product_duties": {
+          "covered": 9,
+          "assisted": 10
+        },
+        "strongest_trigger": {
+          "type": "Funding round",
+          "date": "Sep 12, 2026",
+          "headline": "Whoop - 2026 Funding Rounds & List of Investors - Tracxn",
+          "summary": "A funding roundup indicates WHOOP raised capital in 2026."
+        },
+        "minimum_savings": "at least $9,100 a year across 2 roles",
+        "top_gap_themes": [
+          "Strategic planning models",
+          "Process automation",
+          "Vendor contracts"
+        ],
+        "tools_named_in_postings": [
+          "Excel",
+          "Google Sheets",
+          "Microsoft Excel",
+          "Python",
+          "SQL"
+        ]
+      },
+      "attempts": 1
+    },
+    "flexport.com": {
+      "brief": {
+        "headline": "Flexport is hiring an Accounts Receivable Collections Analyst to keep order-to-cash moving in NetSuite.",
+        "why_them": "Flexport has 2 open finance roles with 27% average overlap, including an Accounts Receivable Collections Analyst at 33% overlap and a Treasury Manager at 20% overlap. NetSuite is the ERP.",
+        "why_now": "International expansion on Sep 2, 2026, when Flexport expanded its fulfillment network into Canada and the UK.",
+        "lead_with": "Order-to-cash for 7 covered duties and 1 assisted.",
+        "minimum_savings": "At least $2,100 a year across 1 role could be absorbed before the next hire.",
+        "may_not_cover": "Strategic planning models, accounting policy, and systems integration are not on Hyphenate's public site.",
+        "angle": "Order-to-cash could absorb work before your next hire."
+      },
+      "data": {
+        "company": "Flexport",
+        "open_finance_roles": 2,
+        "roles": [
+          {
+            "title": "Accounts Receivable Collections Analyst",
+            "role_family": "AR",
+            "overlap": "33%",
+            "posting_id": "2a2227ca3a396266"
+          },
+          {
+            "title": "Treasury Manager",
+            "role_family": "Treasury",
+            "overlap": "20%",
+            "posting_id": "a34b9e7ae610c854"
+          }
+        ],
+        "average_overlap": "27%",
+        "erp": [
+          "NetSuite"
+        ],
+        "lead_product": "Order-to-cash",
+        "lead_product_duties": {
+          "covered": 7,
+          "assisted": 1
+        },
+        "strongest_trigger": {
+          "type": "International expansion",
+          "date": "Sep 2, 2026",
+          "headline": "Flexport takes fulfillment network international with Canada, UK expansion - FreightWaves",
+          "summary": "Flexport expanded its fulfillment network into Canada and the UK."
+        },
+        "minimum_savings": "at least $2,100 a year across 1 role",
+        "top_gap_themes": [
+          "Strategic planning models",
+          "Accounting policy",
+          "Systems integration"
+        ],
+        "tools_named_in_postings": [
+          "Excel",
+          "Google Sheets",
+          "Stripe",
+          "Tesorio"
+        ]
+      },
+      "attempts": 1
+    },
+    "onepeloton.com": {
+      "brief": {
+        "headline": "Peloton is hiring a Sr. Financial Analyst, Financial Planning and Analysis to cover its strongest open finance need.",
+        "why_them": "Peloton has 2 open finance roles with an average overlap of 35%, and the stack includes NetSuite. The postings span Reporting & FP&A and Revenue.",
+        "why_now": "Peloton acquired connected Pilates startup Skōp on Jun 5, 2026.",
+        "lead_with": "GL accounting, because it already covers 3 duties and assists 4 more.",
+        "minimum_savings": "At least $8,100 a year across 2 roles could be absorbed before the next hire.",
+        "may_not_cover": "Strategic planning models, process automation, and vendor contracts are not on Hyphenate's public site.",
+        "angle": "Before your next hire, use the open roles and NetSuite footprint to decide what can be handled by one workflow."
+      },
+      "data": {
+        "company": "Peloton",
+        "open_finance_roles": 2,
+        "roles": [
+          {
+            "title": "Sr. Financial Analyst, Financial Planning and Analysis",
+            "role_family": "Reporting & FP&A",
+            "overlap": "46%",
+            "posting_id": "f7193884e3b2f6c6"
+          },
+          {
+            "title": "Sr. Accountant",
+            "role_family": "Revenue",
+            "overlap": "24%",
+            "posting_id": "a174d299db28a16a"
+          }
+        ],
+        "average_overlap": "35%",
+        "erp": [
+          "NetSuite"
+        ],
+        "lead_product": "GL accounting",
+        "lead_product_duties": {
+          "covered": 3,
+          "assisted": 4
+        },
+        "strongest_trigger": {
+          "type": "Acquisition",
+          "date": "Jun 5, 2026",
+          "headline": "Peloton Acquires Connected Pilates Startup Skōp - Fitt Insider",
+          "summary": "Peloton acquired connected Pilates startup Skōp."
+        },
+        "minimum_savings": "at least $8,100 a year across 2 roles",
+        "top_gap_themes": [
+          "Strategic planning models",
+          "Process automation",
+          "Vendor contracts"
+        ],
+        "tools_named_in_postings": [
+          "Excel",
+          "Google Sheets",
+          "Google Slides",
+          "Microsoft Excel",
+          "Oracle ARCS",
+          "Oracle EPM",
+          "Oracle Hyperion Essbase"
+        ]
+      },
+      "attempts": 1
+    }
+  },
+  "dropped": []
+}

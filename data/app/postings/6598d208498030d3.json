@@ -1,0 +1,819 @@
+{
+  "posting_id": "6598d208498030d3",
+  "company": "Rula",
+  "slug": "rula",
+  "domain": "rula.com",
+  "title": "Sr. Finance Manager - Deal Desk (Remote)",
+  "role_family": "Reporting_FPA",
+  "seniority": "manager",
+  "n": 7,
+  "C": 0,
+  "A": 1,
+  "covered_share": 0,
+  "overlap": 0.14285714285714285,
+  "weighted_overlap": 0.07142857142857142,
+  "thin": false,
+  "salary_min": 166000,
+  "salary_max": 215000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 0,
+  "savings_reason": null,
+  "lead_product": "Reporting",
+  "product_split": {
+    "Reporting": {
+      "covered": 0,
+      "assisted": 1,
+      "weighted": 0.5
+    }
+  },
+  "erp": [],
+  "tools": [],
+  "posted_at": "2026-08-25T11:24:06.685+00:00",
+  "source_url": "https://jobs.ashbyhq.com/rula/a2a4a220-714b-4460-82f1-3ae926b14ac9",
+  "locations": [
+    "Remote - United States"
+  ],
+  "remote": "remote",
+  "excluded": null,
+  "text": "We believe that mental health is just as important as physical health. We recognize that mental health issues can be complex and multifaceted, and we are dedicated to treating the whole person, not just the symptoms.\n\nWe aim to create a world where mental health is no longer stigmatized or marginalized, but rather is embraced as an integral part of one's overall well-being. \n\nWe believe that by providing quality care that is both evidence-based and compassionate, we can empower individuals to take charge of their mental health and achieve their full potential. We are passionate about making a positive impact on the lives of those struggling with mental health issues and we strive to be a force for positive change in the field of mental healthcare.\n\nRula is a remote-first company. We currently hire in most U.S. states, with the exception of Hawaii.\n\nAbout the Role\n\nWe’re seeking a Sr. Finance Manager - Deal Desk to guide how Rula grows. As an individual contributor, you’ll partner closely with our Sales, Marketing, and Revenue Operations teams to shape growth strategy, evaluate trade-offs, and develop strategic forecasting of complex deals. You’ll be responsible to turn complex financial data into clear, actionable insights, while balancing short-term efficiency with long-term impact. This role is ideal for someone who enjoys working in a fast-paced collaborative environment, navigating ambiguity, and shaping strategic decisions.\n\nRequired Qualifications\n\n - 7+ years of progressive finance experience, investment banking, consulting, FP&A, or commercial finance\n\n - Bachelor's degree in Finance, Economics, or related field; MBA or CFA a plus\n\n - At least 2 years of experience directly related to transactional finance, such as corporate development, deal desk, private equity, or investment banking\n\n - Strong command of financial modeling, pricing analysis, and contract economics\n\n - Excellent communication skills with the ability to present clearly to cross-functional and executive audiences\n\n - Health care industry or relevant consulting experience\n\nPreferred Qualifications\n\nWhile having the preferred qualifications enhances your candidacy, having all of them is not mandatory. We encourage all interested applicants to apply, even those who may not meet every preferred requirement.\n\n - Experience with contracting vehicles, payor dynamics, EAP, or value-based models\n\n - Background in a high-growth, marketplace environment, or scaling company\n\n - Experience partnering closely with Marketing, Revenue Operations, or GTM teams\n\nWe're serious about your well-being! As part of our team, full-time employees receive:\n\n - 100% remote work environment: Working hours to support a healthy work-life balance, ensuring you can meet both professional and personal commitments (must be based in United States, currently not hiring in Hawaii)\n\n - Attractive pay and benefits: Full transparency of pay ranges regardless of where you live in the United States\n\n - Comprehensive health benefits: Medical, dental, vision, life, disability, and FSA/HSA\n\n - 401(k) plan access: Start saving for your future\n\n - Generous time-off policies: Including 2 company-wide shutdown weeks each year for self-care (for most employees)\n\n - Paid parental leave: Available for all parents, including birthing, non-birthing, adopting, and fostering\n\n - Employee Assistance Program (EAP): Supporting your mental and physical health\n\n - Quarterly department stipend: Fun team-building activities or in-person gatherings\n\n - Community and employee resource groups: Participate in groups that celebrate employee identity and lived experiences, fostering a sense of community and belonging for all\n\n - Home office stipend: New hire home office stipend & $50 monthly stipend to help cover internet or cell phone expenses\n\n - Wellness at Rula program: Year-round wellness initiatives and a $50/month wellness stipend\n\nOur team\n\nWe believe that diversity, equity, and inclusion are fundamental to our mission of making mental healthcare work for everyone.  We are dedicated to having a culture of inclusion that will support our employees in feeling safe, seen, heard, and valued.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 166000,
+    "max": 215000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Job board pay data: $166K – $215K • Offers Equity • Range above includes base salary there is no bonus for this role."
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "fetched_at": "2026-10-21T17:34:22.893Z",
+  "ats": "ashby",
+  "duties": [
+    {
+      "duty_id": "6598d208498030d3-01",
+      "text": "Guide how Rula grows",
+      "source_span": "guide how Rula grows",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 928,
+        "end": 948
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "The duty is about guiding company growth strategy, which is advisory judgment rather than an operational finance workflow.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6598d208498030d3-02",
+      "text": "Partner closely with our Sales, Marketing, and Revenue Operations teams",
+      "source_span": "partner closely with our Sales, Marketing, and Revenue Operations teams",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 987,
+        "end": 1058
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Partnering closely with Sales, Marketing, and Revenue Operations is cross-functional collaboration with other teams.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6598d208498030d3-03",
+      "text": "Shape growth strategy",
+      "source_span": "shape growth strategy",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1062,
+        "end": 1083
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Shaping growth strategy is strategic decision-making and business advising, not a finance-operations process.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "6598d208498030d3-04",
+      "text": "Evaluate trade-offs",
+      "source_span": "evaluate trade-offs",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1085,
+        "end": 1104
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Evaluating trade-offs is a judgment-heavy advisory action rather than a mapped automated finance workflow.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6598d208498030d3-05",
+      "text": "Develop strategic forecasting of complex deals",
+      "source_span": "develop strategic forecasting of complex deals",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1110,
+        "end": 1156
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.86,
+      "rationale": "Developing strategic forecasting is an FP&A planning model task that is not covered by the listed capabilities.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "6598d208498030d3-06",
+      "text": "Turn complex financial data into clear, actionable insights",
+      "source_span": "turn complex financial data into clear, actionable insights",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1183,
+        "end": 1242
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.adhoc_analysis",
+      "capability": "Answer finance questions traced to source entries",
+      "product": "Reporting",
+      "confidence": 0.78,
+      "rationale": "Turning complex financial data into actionable insights matches ad hoc financial analysis and reporting support.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-07",
+      "text": "Balance short-term efficiency with long-term impact",
+      "source_span": "balancing short-term efficiency with long-term impact",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1250,
+        "end": 1303
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Balancing short-term efficiency with long-term impact is strategic judgment and trade-off evaluation.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6598d208498030d3-08",
+      "text": "We believe that mental health is just as important as physical health.",
+      "source_span": "We believe that mental health is just as important as physical health.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 0,
+        "end": 70
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-09",
+      "text": "We recognize that mental health issues can be complex and multifaceted, and we are dedicated to treating the whole person, not just the symptoms.",
+      "source_span": "We recognize that mental health issues can be complex and multifaceted, and we are dedicated to treating the whole person, not just the symptoms.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 71,
+        "end": 216
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-10",
+      "text": "We aim to create a world where mental health is no longer stigmatized or marginalized, but rather is embraced as an integral part of one's overall well-being.",
+      "source_span": "We aim to create a world where mental health is no longer stigmatized or marginalized, but rather is embraced as an integral part of one's overall well-being.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 218,
+        "end": 376
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-11",
+      "text": "We believe that by providing quality care that is both evidence-based and compassionate, we can empower individuals to take charge of their mental health and achieve their full potential.",
+      "source_span": "We believe that by providing quality care that is both evidence-based and compassionate, we can empower individuals to take charge of their mental health and achieve their full potential.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 379,
+        "end": 566
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-12",
+      "text": "We are passionate about making a positive impact on the lives of those struggling with mental health issues and we strive to be a force for positive change in the field of mental healthcare.",
+      "source_span": "We are passionate about making a positive impact on the lives of those struggling with mental health issues and we strive to be a force for positive change in the field of mental healthcare.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 567,
+        "end": 757
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-13",
+      "text": "Rula is a remote-first company. We currently hire in most U.S. states, with the exception of Hawaii.",
+      "source_span": "Rula is a remote-first company. We currently hire in most U.S. states, with the exception of Hawaii.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 759,
+        "end": 859
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-14",
+      "text": "7+ years of progressive finance experience, investment banking, consulting, FP&A, or commercial finance",
+      "source_span": "7+ years of progressive finance experience, investment banking, consulting, FP&A, or commercial finance",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1482,
+        "end": 1585
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-15",
+      "text": "Bachelor's degree in Finance, Economics, or related field; MBA or CFA a plus",
+      "source_span": "Bachelor's degree in Finance, Economics, or related field; MBA or CFA a plus",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1590,
+        "end": 1666
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-16",
+      "text": "At least 2 years of experience directly related to transactional finance, such as corporate development, deal desk, private equity, or investment banking",
+      "source_span": "At least 2 years of experience directly related to transactional finance, such as corporate development, deal desk, private equity, or investment banking",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1671,
+        "end": 1824
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-17",
+      "text": "Strong command of financial modeling, pricing analysis, and contract economics",
+      "source_span": "Strong command of financial modeling, pricing analysis, and contract economics",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1829,
+        "end": 1907
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-18",
+      "text": "Excellent communication skills with the ability to present clearly to cross-functional and executive audiences",
+      "source_span": "Excellent communication skills with the ability to present clearly to cross-functional and executive audiences",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1912,
+        "end": 2022
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-19",
+      "text": "Health care industry or relevant consulting experience",
+      "source_span": "Health care industry or relevant consulting experience",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2027,
+        "end": 2081
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-20",
+      "text": "Experience with contracting vehicles, payor dynamics, EAP, or value-based models",
+      "source_span": "Experience with contracting vehicles, payor dynamics, EAP, or value-based models",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2323,
+        "end": 2403
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-21",
+      "text": "Background in a high-growth, marketplace environment, or scaling company",
+      "source_span": "Background in a high-growth, marketplace environment, or scaling company",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2408,
+        "end": 2480
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-22",
+      "text": "Experience partnering closely with Marketing, Revenue Operations, or GTM teams",
+      "source_span": "Experience partnering closely with Marketing, Revenue Operations, or GTM teams",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2485,
+        "end": 2563
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-23",
+      "text": "100% remote work environment: Working hours to support a healthy work-life balance, ensuring you can meet both professional and personal commitments (must be based in United States, currently not hiring in Hawaii)",
+      "source_span": "100% remote work environment: Working hours to support a healthy work-life balance, ensuring you can meet both professional and personal commitments (must be based in United States, currently not hiring in Hawaii)",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 2656,
+        "end": 2869
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-24",
+      "text": "Attractive pay and benefits: Full transparency of pay ranges regardless of where you live in the United States",
+      "source_span": "Attractive pay and benefits: Full transparency of pay ranges regardless of where you live in the United States",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 2874,
+        "end": 2984
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-25",
+      "text": "Comprehensive health benefits: Medical, dental, vision, life, disability, and FSA/HSA",
+      "source_span": "Comprehensive health benefits: Medical, dental, vision, life, disability, and FSA/HSA",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 2989,
+        "end": 3074
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-26",
+      "text": "401(k) plan access: Start saving for your future",
+      "source_span": "401(k) plan access: Start saving for your future",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3079,
+        "end": 3127
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-27",
+      "text": "Generous time-off policies: Including 2 company-wide shutdown weeks each year for self-care (for most employees)",
+      "source_span": "Generous time-off policies: Including 2 company-wide shutdown weeks each year for self-care (for most employees)",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3132,
+        "end": 3244
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-28",
+      "text": "Paid parental leave: Available for all parents, including birthing, non-birthing, adopting, and fostering",
+      "source_span": "Paid parental leave: Available for all parents, including birthing, non-birthing, adopting, and fostering",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3249,
+        "end": 3354
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-29",
+      "text": "Employee Assistance Program (EAP): Supporting your mental and physical health",
+      "source_span": "Employee Assistance Program (EAP): Supporting your mental and physical health",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3359,
+        "end": 3436
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-30",
+      "text": "Quarterly department stipend: Fun team-building activities or in-person gatherings",
+      "source_span": "Quarterly department stipend: Fun team-building activities or in-person gatherings",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3441,
+        "end": 3523
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-31",
+      "text": "Community and employee resource groups: Participate in groups that celebrate employee identity and lived experiences, fostering a sense of community and belonging for all",
+      "source_span": "Community and employee resource groups: Participate in groups that celebrate employee identity and lived experiences, fostering a sense of community and belonging for all",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3528,
+        "end": 3698
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-32",
+      "text": "Home office stipend: New hire home office stipend & $50 monthly stipend to help cover internet or cell phone expenses",
+      "source_span": "Home office stipend: New hire home office stipend & $50 monthly stipend to help cover internet or cell phone expenses",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3703,
+        "end": 3820
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-33",
+      "text": "Wellness at Rula program: Year-round wellness initiatives and a $50/month wellness stipend",
+      "source_span": "Wellness at Rula program: Year-round wellness initiatives and a $50/month wellness stipend",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3825,
+        "end": 3915
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-34",
+      "text": "We believe that diversity, equity, and inclusion are fundamental to our mission of making mental healthcare work for everyone.",
+      "source_span": "We believe that diversity, equity, and inclusion are fundamental to our mission of making mental healthcare work for everyone.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3927,
+        "end": 4053
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6598d208498030d3-35",
+      "text": "We are dedicated to having a culture of inclusion that will support our employees in feeling safe, seen, heard, and valued.",
+      "source_span": "We are dedicated to having a culture of inclusion that will support our employees in feeling safe, seen, heard, and valued.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4055,
+        "end": 4178
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

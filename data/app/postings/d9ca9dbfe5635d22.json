@@ -1,0 +1,1120 @@
+{
+  "posting_id": "d9ca9dbfe5635d22",
+  "company": "Garner Health",
+  "slug": "garner-health",
+  "domain": "getgarner.com",
+  "title": "FP&A Manager, GTM",
+  "role_family": "Reporting_FPA",
+  "seniority": "manager",
+  "n": 27,
+  "C": 0,
+  "A": 5,
+  "covered_share": 0,
+  "overlap": 0.18518518518518517,
+  "weighted_overlap": 0.09259259259259259,
+  "thin": false,
+  "salary_min": 150000,
+  "salary_max": 175000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 0,
+  "savings_reason": null,
+  "lead_product": "Reporting",
+  "product_split": {
+    "Reporting": {
+      "covered": 0,
+      "assisted": 5,
+      "weighted": 2.5
+    }
+  },
+  "erp": [],
+  "tools": [
+    "Excel",
+    "Salesforce"
+  ],
+  "posted_at": "2026-09-22T15:50:48-04:00",
+  "source_url": "https://job-boards.greenhouse.io/garnerhealth/jobs/6195974004",
+  "locations": [
+    "Remote"
+  ],
+  "remote": "remote",
+  "excluded": null,
+  "text": "What you’ll be part of\n\nGarner is on a mission to transform the U.S. healthcare system — and we’re the only proven player doing exactly that. We partner with employers to redesign how healthcare works: applying 550+ proprietary clinical metrics across 80+ specialties to a dataset of 320M+ patients to identify the best-performing doctors, then using compelling incentives to steer members to the care that helps them get healthier, faster.\n\nThe result is a rare “win win” — better care and lower costs for both members and employers. In just five years, our work has helped over 2.5 million people access higher-quality care and saved $1B in healthcare costs. We recently raised our Series E and have doubled five years running. If you've ever wanted your work to solve a problem that touches every person in this country, this is the opportunity to do exactly that. You'd be joining a team fundamentally reimagining healthcare in the U.S. — and using AI to scale that impact further and faster than anyone else can.\n\nAbout the role:\n\nWe are looking for an FP&A Manager, GTM to join our team. You will be on the front lines of informing company strategy through financial analysis and responsible for building up scalable processes to match company growth. This role reports to the Director, FP&A.\n\nThis position is fully remote.\n\nWhat you will do:\n\n• Lead monthly GTM reporting: pipeline generation, conversion, CAC and pipe-to-spend by channel, with variance analysis for leadership\n\n• Own the GTM budget and re-forecast cycle, including the demand-gen envelope and in-year reallocation across channels\n\n• Build and own the pipeline coverage model: how much pipeline must be created, by segment and channel, to hit the bookings target\n\n• Own GTM unit economics — CAC, payback, LTV, and net revenue retention by segment — and the measurement standards behind them\n\n• Serve as a thought partner on sales capacity to determine quota coverage, rep ramp, territory productivity and headcount required to carry out the plan\n\n• Partner directly with the CRO and CMO as the finance counterpart in pipeline reviews, channel bets, and budget reallocation\n\n• Conduct in-depth ad-hoc financial analysis to evaluate new business opportunities\n\nWhat you will bring to the team:\n\n• 4-8+ years of experience; ideally in investment banking, private equity or GTM / sales finance at a high growth startup Bachelor’s degree in Finance, Accounting, Economics, or a related field\n\n• Strong financial modeling and analytical skills, with advanced proficiency in Excel Salesforce reporting and AI tooling; nice to have - demonstrated experience owning GTM forecasting and modeling\n\n• Ability to manage multiple priorities in a fast-paced, ambiguous environmentStrong communication and presentation skills, with the ability to partner effectively across departments\n\n• Demonstrated ability to improve processes and build scalable reporting infrastructure; comfort operating where attribution is imperfect — able to say when a number isn't good enough to plan on, and propose the fixIntellectual curiosity and a structured, problem-solving approach to breaking down complex challenges\n\n• A proactive, hands-on mindset with a willingness to roll up your sleeves and take ownership\n\n• A desire to be a part of a high-performing, mission-driven team that operates with intense urgency, a strong sense of individual accountability, and a commitment to authentic feedback\n\nThis is a unique opportunity to join a fast-growing company in a transformative role, helping shape the future of healthcare.\n\nPlease note: we are unable to sponsor or take over sponsorship of an employment visa at this time.\n\nCompensation Transparency:\n\nThe base salary range for this position is $150,000 to $175,000. Individual compensation for this role will depend on various factors, including qualifications, skills, and applicable laws. In addition to base compensation, this role is eligible to participate in our equity incentive and competitive benefits plans, including but not limited to: flexible PTO, Medical/Dental/Vision plan options, 401(k), Teladoc Health and more.\n\nFraud and Security Notice:\n\nPlease be aware of recent job scam attempts. Our recruiters use getgarner.com and garnerhealth.com email domains exclusively. If you have been contacted by someone claiming to be a Garner recruiter or a hiring manager from a different domain about a potential job, please report it to law enforcement here and to candidateprotection@garnerhealth.com.\n\nEqual Employment Opportunity:\n\nGarner Health is proud to be an Equal Employment Opportunity employer and values diversity in the workplace. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, reproductive health decisions, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, genetic information, political views or activity, or other applicable legally protected characteristics.\n\nGarner Health is committed to providing accommodations for qualified individuals with disabilities in our recruiting process. If you need assistance or an accommodation due to a disability, you may contact us at talent@garnerhealth.com.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 150000,
+    "max": 175000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The base salary range for this position is $150,000 to $175,000."
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "build up scalable processes to match company growth",
+    "improve processes and build scalable reporting infrastructure"
+  ],
+  "fetched_at": "2026-10-21T17:34:54.586Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "d9ca9dbfe5635d22-01",
+      "text": "Lead monthly GTM reporting",
+      "source_span": "Lead monthly GTM reporting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1353,
+        "end": 1379
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.9,
+      "rationale": "Leading a recurring GTM reporting package matches building recurring management reports.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-02",
+      "text": "Track pipeline generation",
+      "source_span": "pipeline generation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1381,
+        "end": 1400
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.78,
+      "rationale": "Tracking pipeline generation is recurring KPI reporting.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-03",
+      "text": "Track conversion",
+      "source_span": "conversion",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1402,
+        "end": 1412
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.78,
+      "rationale": "Tracking conversion is recurring KPI reporting.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-04",
+      "text": "Track CAC",
+      "source_span": "CAC",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1414,
+        "end": 1417
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "CAC tracking is a planning and marketing efficiency metric with no matching capability.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-05",
+      "text": "Track pipe-to-spend by channel",
+      "source_span": "pipe-to-spend by channel",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1422,
+        "end": 1446
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.driver_analysis",
+      "capability": "Explain changes using CRM, contract or bill data",
+      "product": "Reporting",
+      "confidence": 0.77,
+      "rationale": "Tracking pipe-to-spend by channel uses source data to analyze a channel-level driver.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-06",
+      "text": "Provide variance analysis for leadership",
+      "source_span": "variance analysis for leadership",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1453,
+        "end": 1485
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Variance analysis for leadership in FP&A is budget-versus-actual analysis outside the listed flux capability.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-07",
+      "text": "Own the GTM budget",
+      "source_span": "Own the GTM budget",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1489,
+        "end": 1507
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Owning the GTM budget is budgeting model work with no matching capability.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-08",
+      "text": "Own the re-forecast cycle",
+      "source_span": "re-forecast cycle",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1512,
+        "end": 1529
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Running the reforecast cycle is FP&A forecasting and planning work not covered.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-09",
+      "text": "Manage the demand-gen envelope",
+      "source_span": "the demand-gen envelope",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1541,
+        "end": 1564
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Managing the demand-gen envelope is budget allocation work outside coverage.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-10",
+      "text": "Manage in-year reallocation across channels",
+      "source_span": "in-year reallocation across channels",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1569,
+        "end": 1605
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Reallocating spend across channels is FP&A budget reallocation with no matching capability.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-11",
+      "text": "Build and own the pipeline coverage model",
+      "source_span": "Build and own the pipeline coverage model",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1609,
+        "end": 1650
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Building a pipeline coverage model is a planning model not covered.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-12",
+      "text": "Determine how much pipeline must be created, by segment and channel",
+      "source_span": "how much pipeline must be created, by segment and channel",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1652,
+        "end": 1709
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Determining required pipeline by segment and channel is a capacity planning calculation not covered.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-13",
+      "text": "Own GTM unit economics",
+      "source_span": "Own GTM unit economics",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1741,
+        "end": 1763
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Owning GTM unit economics is a planning and metrics model with no matching capability.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-14",
+      "text": "Track payback",
+      "source_span": "payback",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1771,
+        "end": 1778
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Tracking payback is a GTM economics metric not covered by any capability.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-15",
+      "text": "Track LTV",
+      "source_span": "LTV",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1780,
+        "end": 1783
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Tracking LTV is a unit economics metric with no matching capability.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-16",
+      "text": "Track net revenue retention by segment",
+      "source_span": "net revenue retention by segment",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1789,
+        "end": 1821
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Tracking net revenue retention by segment is recurring KPI reporting without a matching capability.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-17",
+      "text": "Define the measurement standards behind them",
+      "source_span": "measurement standards behind them",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1832,
+        "end": 1865
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Defining measurement standards is policy-setting work that requires human judgment.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-18",
+      "text": "Serve as a thought partner on sales capacity",
+      "source_span": "Serve as a thought partner on sales capacity",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1869,
+        "end": 1913
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Serving as a thought partner on sales capacity is advisory work to another team.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-19",
+      "text": "Determine quota coverage",
+      "source_span": "quota coverage",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1927,
+        "end": 1941
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Determining quota coverage is sales capacity planning with no matching capability.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-20",
+      "text": "Determine rep ramp",
+      "source_span": "rep ramp",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1943,
+        "end": 1951
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Determining rep ramp is workforce planning not covered.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-21",
+      "text": "Determine territory productivity",
+      "source_span": "territory productivity",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1953,
+        "end": 1975
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Determining territory productivity is sales planning analysis with no matching capability.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-22",
+      "text": "Determine headcount required to carry out the plan",
+      "source_span": "headcount required to carry out the plan",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1980,
+        "end": 2020
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Determining headcount required for the plan is FP&A workforce planning not covered.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-23",
+      "text": "Partner directly with the CRO and CMO in pipeline reviews",
+      "source_span": "pipeline reviews",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2092,
+        "end": 2108
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Partnering directly with the CRO and CMO in pipeline reviews is cross-functional advisory work.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-24",
+      "text": "Partner directly with the CRO and CMO on channel bets",
+      "source_span": "channel bets",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2110,
+        "end": 2122
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Partnering on channel bets is strategic advising and decision support, not a platform workflow.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-25",
+      "text": "Partner directly with the CRO and CMO on budget reallocation",
+      "source_span": "budget reallocation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2128,
+        "end": 2147
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Partnering on budget reallocation is human cross-functional decision-making.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-26",
+      "text": "Conduct in-depth ad-hoc financial analysis",
+      "source_span": "Conduct in-depth ad-hoc financial analysis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2151,
+        "end": 2193
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.adhoc_analysis",
+      "capability": "Answer finance questions traced to source entries",
+      "product": "Reporting",
+      "confidence": 0.92,
+      "rationale": "Conducting in-depth ad hoc financial analysis matches responding to defined finance questions.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-27",
+      "text": "Evaluate new business opportunities",
+      "source_span": "evaluate new business opportunities",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2197,
+        "end": 2232
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.78,
+      "rationale": "Evaluating new business opportunities is too broad to map cleanly to a listed capability.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-28",
+      "text": "4-8+ years of experience",
+      "source_span": "4-8+ years of experience",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2270,
+        "end": 2294
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-29",
+      "text": "Ideally in investment banking, private equity or GTM / sales finance at a high growth startup",
+      "source_span": "ideally in investment banking, private equity or GTM / sales finance at a high growth startup",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2296,
+        "end": 2389
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-30",
+      "text": "Bachelor’s degree in Finance, Accounting, Economics, or a related field",
+      "source_span": "Bachelor’s degree in Finance, Accounting, Economics, or a related field",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2390,
+        "end": 2461
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-31",
+      "text": "Strong financial modeling and analytical skills",
+      "source_span": "Strong financial modeling and analytical skills",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2465,
+        "end": 2512
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-32",
+      "text": "Advanced proficiency in Excel",
+      "source_span": "advanced proficiency in Excel",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2519,
+        "end": 2548
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-33",
+      "text": "Salesforce reporting",
+      "source_span": "Salesforce reporting",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2549,
+        "end": 2569
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-34",
+      "text": "AI tooling",
+      "source_span": "AI tooling",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2574,
+        "end": 2584
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-35",
+      "text": "Demonstrated experience owning GTM forecasting and modeling",
+      "source_span": "demonstrated experience owning GTM forecasting and modeling",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2601,
+        "end": 2660
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-36",
+      "text": "Ability to manage multiple priorities in a fast-paced, ambiguous environment",
+      "source_span": "Ability to manage multiple priorities in a fast-paced, ambiguous environment",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2664,
+        "end": 2740
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-37",
+      "text": "Strong communication and presentation skills",
+      "source_span": "Strong communication and presentation skills",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2740,
+        "end": 2784
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-38",
+      "text": "the ability to partner effectively across departments",
+      "source_span": "the ability to partner effectively across departments",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2791,
+        "end": 2844
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-39",
+      "text": "Demonstrated ability to improve processes and build scalable reporting infrastructure",
+      "source_span": "demonstrated ability to improve processes and build scalable reporting infrastructure",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2848,
+        "end": 2933
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-40",
+      "text": "Comfort operating where attribution is imperfect",
+      "source_span": "comfort operating where attribution is imperfect",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2935,
+        "end": 2983
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-41",
+      "text": "able to say when a number isn't good enough to plan on",
+      "source_span": "able to say when a number isn't good enough to plan on",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2986,
+        "end": 3040
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-42",
+      "text": "and propose the fix",
+      "source_span": "and propose the fix",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3042,
+        "end": 3061
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-43",
+      "text": "Intellectual curiosity and a structured, problem-solving approach to breaking down complex challenges",
+      "source_span": "Intellectual curiosity and a structured, problem-solving approach to breaking down complex challenges",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3061,
+        "end": 3162
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-44",
+      "text": "A proactive, hands-on mindset",
+      "source_span": "A proactive, hands-on mindset",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3166,
+        "end": 3195
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-45",
+      "text": "a willingness to roll up your sleeves and take ownership",
+      "source_span": "a willingness to roll up your sleeves and take ownership",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3201,
+        "end": 3257
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-46",
+      "text": "a desire to be a part of a high-performing, mission-driven team that operates with intense urgency, a strong sense of individual accountability, and a commitment to authentic feedback",
+      "source_span": "a desire to be a part of a high-performing, mission-driven team that operates with intense urgency, a strong sense of individual accountability, and a commitment to authentic feedback",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3261,
+        "end": 3444
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

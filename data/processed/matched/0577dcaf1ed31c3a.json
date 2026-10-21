@@ -1,0 +1,204 @@
+{
+  "posting_id": "0577dcaf1ed31c3a",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "0577dcaf1ed31c3a-01",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.45,
+      "rationale": "Managing a high-volume queue is a workflow-management description rather than a specific finance operation capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-02",
+      "label": "covered",
+      "capability_id": "o2c.collections",
+      "confidence": 0.98,
+      "rationale": "Resolving overdue invoices is core collections work to chase past-due balances.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-03",
+      "label": "covered",
+      "capability_id": "o2c.collections",
+      "confidence": 0.84,
+      "rationale": "Resolving unpaid charges with employers is collections work focused on overdue receivables.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-04",
+      "label": "assisted",
+      "capability_id": "o2c.orders_refunds",
+      "confidence": 0.67,
+      "rationale": "Investigating billing discrepancies fits customer billing inquiry resolution, but it requires human judgment to diagnose the issue.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-05",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Resolving coverage corrections is a repetitive billing correction task but does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": "confidence 0.58 below 0.6"
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-06",
+      "label": "covered",
+      "capability_id": "o2c.orders_refunds",
+      "confidence": 0.92,
+      "rationale": "Resolving double-billing is a billing error correction and refund/adjustment workflow.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-07",
+      "label": "covered",
+      "capability_id": "o2c.orders_refunds",
+      "confidence": 0.98,
+      "rationale": "Resolving refund scenarios is directly the refunds workflow.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.52,
+      "rationale": "Using billing and Stripe payment records is too vague to map to a specific end-to-end capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Making independent, judgment-based decisions on collections strategy is human judgment by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-10",
+      "label": "covered",
+      "capability_id": "o2c.collections",
+      "confidence": 0.96,
+      "rationale": "Following up with employers is collections follow-up on overdue balances.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Escalating collections issues is cross-functional coordination with people rather than an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Extending flexibility to an employer is a negotiation decision that requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Involving leadership is a human escalation and coordination activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Balancing collection outcomes against the employer relationship is a judgment and negotiation tradeoff handled by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-15",
+      "label": "covered",
+      "capability_id": "tre.cash_application",
+      "confidence": 0.82,
+      "rationale": "Reconciling billing and payments is matching payment activity to receivables, which is cash application work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-16",
+      "label": "covered",
+      "capability_id": "o2c.orders_refunds",
+      "confidence": 0.86,
+      "rationale": "Ensuring refunds are resolved is the refunds-resolution workflow.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-17",
+      "label": "covered",
+      "capability_id": "o2c.collections",
+      "confidence": 0.94,
+      "rationale": "Ensuring outstanding balances are resolved before churn is collections work to clear overdue receivables.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Building SOPs is process design and documentation work that depends on human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Maintaining SOPs is ongoing process documentation and ownership rather than a listed finance automation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Engineering to improve tooling is cross-functional collaboration with another team.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Collaborating cross-functionally to resolve employer billing needs is partnering with other teams.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Flagging systemic issues is a human escalation and advisory action rather than a specific covered finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

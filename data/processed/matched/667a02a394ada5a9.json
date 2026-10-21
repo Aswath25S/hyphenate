@@ -1,0 +1,249 @@
+{
+  "posting_id": "667a02a394ada5a9",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "667a02a394ada5a9-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Leading finance for inference and model spend is management/ownership work, not an automated platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Budgeting inference and model spend is an FP&A planning model outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Forecasting inference and model spend monthly is an FP&A forecast model, not the covered cash forecast.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-04",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.95,
+      "rationale": "Analyzing variances matches flux analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Maintaining the financial plan is budgeting and planning model work outside coverage.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Building and maintaining product-margin models is FP&A modeling with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-07",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.61,
+      "rationale": "Reconciling revenue from production usage data aligns with revenue recognition and revenue schedule work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Reconciling serving cost from production usage data is custom cost modeling outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Reconciling gross margin from production usage data is a custom margin model outside coverage.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Developing deep expertise in model provider contracts is a human knowledge and advisory task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Developing deep expertise in pricing structures is strategic analysis and judgment, not platform execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Developing deep expertise in cost drivers is an analytical expertise task rather than an automatable workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-13",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.71,
+      "rationale": "Surfacing optimization opportunities across the model portfolio is driver analysis on cost and usage trends.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-14",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.69,
+      "rationale": "Surfacing optimization opportunities across the routing mix is driver analysis of performance and cost drivers.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Serving as subject matter expert for product unit economics is advisory work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Owning the source of truth on cost per request is metric/model maintenance outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Owning the source of truth on margin by product and tier is custom economics reporting outside coverage.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Owning the source of truth on customer-segment and feature-level economics is custom economics reporting outside coverage.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Owning the consolidated model-cost forecast is an FP&A forecast model outside coverage.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Translating roadmaps and model transitions into forward-looking spend and margin trajectories is custom planning-model work.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-21",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.67,
+      "rationale": "Analyzing the margin impact of pricing decisions is driver analysis of pricing effects on margins.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-22",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.64,
+      "rationale": "Analyzing the margin impact of packaging decisions is driver analysis of revenue and margin drivers.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-23",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.64,
+      "rationale": "Analyzing the margin impact of model-deployment decisions is driver analysis of cost and margin drivers.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Distilling findings into a strategy framework is advisory work that requires judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Partnering closely with product, inference, and data engineering is cross-functional relationship work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-26",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.61,
+      "rationale": "Understanding how usage and serving cost scale is driver analysis of cost behavior.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "667a02a394ada5a9-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Translating technical dynamics into financial frameworks is interpretive advisory work rather than a covered workflow.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,880 @@
+{
+  "posting_id": "beec960040f74010",
+  "company": "WHOOP",
+  "slug": "whoop",
+  "domain": "whoop.com",
+  "title": "FP&A Manager",
+  "role_family": "Reporting_FPA",
+  "seniority": "manager",
+  "n": 21,
+  "C": 0,
+  "A": 0,
+  "covered_share": 0,
+  "overlap": 0,
+  "weighted_overlap": 0,
+  "thin": false,
+  "salary_min": 150000,
+  "salary_max": 190000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 0,
+  "savings_reason": null,
+  "lead_product": null,
+  "product_split": {},
+  "erp": [],
+  "tools": [
+    "Microsoft Excel",
+    "Google Sheets",
+    "SQL",
+    "Python"
+  ],
+  "posted_at": "2026-09-11T15:33:42.732+00:00",
+  "source_url": "https://jobs.ashbyhq.com/whoop/0a27d2e6-8782-4a5c-999a-b9426ed6eb07",
+  "locations": [
+    "Boston, MA"
+  ],
+  "remote": "onsite",
+  "excluded": null,
+  "text": "At WHOOP, we're on a mission to unlock and inspire performance for life. WHOOP empowers members to perform at a higher level through a deeper understanding of their bodies and daily lives.\n\nWHOOP is hiring an FP&A Manager to serve as the finance business partner to our rapidly growing Wholesale organization. In this role, you will partner closely with Wholesale leadership to drive forecast accuracy, inform key commercial decisions, and improve the efficiency and profitability of the channel through disciplined financial planning, margin management, and analysis. You will bring together detailed financial modeling and strategic thinking to provide greater visibility into business performance while helping strengthen the finance infrastructure and processes that support the continued growth of Wholesale at WHOOP.\n\nRESPONSIBILITIES:\n\n - Serve as the Finance business partner to the Wholesale organization, providing actionable financial and strategic insights to drive growth, efficiency, and profitability\n\n - Own and enhance financial planning, budgeting, forecasting, and re-forecasting for Wholesale, including revenue, units, gross margin, and key operational drivers across retailers and products\n\n - Drive forecast accuracy and accountability by identifying key variances, risks, and opportunities and translating evolving business performance into an updated financial outlook\n\n - Own and optimize wholesale margin management and channel economics, maintaining visibility into retailer profitability and identifying opportunities to improve financial performance\n\n - Leverage and refine financial models and analytical frameworks to inform key commercial decisions, including new retailer partnerships, geographic expansion, pricing and promotions, and assortment strategy\n\n - Support the transition to an EPM system and continued maturation of core finance infrastructure, implementing process and reporting improvements that increase scalability, accuracy, and structure as the business grows\n\nQUALIFICATIONS:\n\n - 5+ years of progressive experience in FP&A, strategic finance, investment banking, consulting, or another highly analytical finance role\n\n - Strong financial modeling and forecasting skills, with demonstrated ability to translate business performance into forward-looking plans and actionable insights\n\n - Strong understanding of revenue, gross margin, and channel economics, including the impact of pricing, product mix, promotions, and other drivers of profitability\n\n - Advanced proficiency in Microsoft Excel or Google Sheets; experience with EPM systems, SQL, Python, or other analytical tools is a plus\n\n - Strong analytical and commercial judgment, with the ability to identify key business drivers, evaluate tradeoffs, and inform complex decisions\n\n - Highly effective, unbiased communicator with the ability to adapt communication style to different audiences. Can articulate complex data clearly to a diverse range of stakeholders.\n\n - Highly proactive and self-motivated, with a strong sense of ownership and able to identify opportunities, take initiative, and drive projects forward.\n\n - Strong commitment to embracing and leveraging AI tools in day-to-day tasks, ensuring AI-assisted work aligns with the same high-quality standards as personal contributions \n\nThis role is based in the WHOOP office located in Boston, MA. The successful candidate must be prepared to relocate if necessary to work out of the Boston, MA office.\n\nInterested in the role, but don’t meet every qualification? We encourage you to still apply! At WHOOP, we believe there is much more to a candidate than what is written on paper, and we value character as much as experience. As we continue to build a diverse and inclusive environment, we encourage anyone who is interested in this role to apply.\n\nWHOOP is an Equal Opportunity Employer and participates in E-verify  https://www.e-verify.gov/to determine employment eligibility\n\nThe WHOOP compensation philosophy is designed to attract, motivate, and retain exceptional talent by offering competitive base salaries, meaningful equity, and consistent pay practices that reflect our mission and core values.\n\nAt WHOOP, we view total compensation as the combination of base salary, equity, and benefits, with equity serving as a key differentiator that aligns our employees with the long-term success of the company and allows every member of our corporate team to own part of WHOOP and share in the company’s long-term growth and success.\n\nThe U.S. base salary range for this full-time position is $150,000-$190,000. Salary ranges are determined by role, level, and location. Within each range, individual pay is based on factors such as job-related skills, experience, performance, and relevant education or training.\n\nIn addition to the base salary, the successful candidate will also receive benefits and a generous equity package.\n\nThese ranges may be modified in the future to reflect evolving market conditions and organizational needs. While most offers will typically fall toward the starting point of the range, total compensation will depend on the candidate’s specific qualifications, expertise, and alignment with the role’s requirements.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 150000,
+    "max": 190000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The U.S. base salary range for this full-time position is $150,000-$190,000."
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "rapidly growing Wholesale organization",
+    "improve the efficiency and profitability of the channel",
+    "continued maturation of core finance infrastructure",
+    "increase scalability, accuracy, and structure as the business grows"
+  ],
+  "fetched_at": "2026-10-21T17:34:16.460Z",
+  "ats": "ashby",
+  "duties": [
+    {
+      "duty_id": "beec960040f74010-01",
+      "text": "Serve as the Finance business partner to the Wholesale organization",
+      "source_span": "Serve as the Finance business partner to the Wholesale organization, providing actionable financial and strategic insights to drive growth, efficiency, and profitability",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 846,
+        "end": 1015
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Serving as a finance business partner is advisory work with another organization, which is human partnering rather than platform automation.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-02",
+      "text": "Provide actionable financial and strategic insights to drive growth, efficiency, and profitability",
+      "source_span": "Serve as the Finance business partner to the Wholesale organization, providing actionable financial and strategic insights to drive growth, efficiency, and profitability",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 846,
+        "end": 1015
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Providing actionable financial and strategic insights is advisory analysis for business partners, which is human judgment work.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-03",
+      "text": "Own and enhance financial planning for Wholesale, including revenue, units, gross margin, and key operational drivers across retailers and products",
+      "source_span": "Own and enhance financial planning, budgeting, forecasting, and re-forecasting for Wholesale, including revenue, units, gross margin, and key operational drivers across retailers and products",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1020,
+        "end": 1211
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Owning financial planning across revenue, units, margin, and drivers is FP&A planning/modeling, which is not covered by the platform.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-04",
+      "text": "Own and enhance budgeting for Wholesale, including revenue, units, gross margin, and key operational drivers across retailers and products",
+      "source_span": "Own and enhance financial planning, budgeting, forecasting, and re-forecasting for Wholesale, including revenue, units, gross margin, and key operational drivers across retailers and products",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1020,
+        "end": 1211
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Owning budgeting for Wholesale is budgeting model work, which matches no listed capability.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-05",
+      "text": "Own and enhance forecasting for Wholesale, including revenue, units, gross margin, and key operational drivers across retailers and products",
+      "source_span": "Own and enhance financial planning, budgeting, forecasting, and re-forecasting for Wholesale, including revenue, units, gross margin, and key operational drivers across retailers and products",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1020,
+        "end": 1211
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Owning forecasting for revenue, units, margin, and drivers is financial forecasting/planning, not a covered capability.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-06",
+      "text": "Own and enhance re-forecasting for Wholesale, including revenue, units, gross margin, and key operational drivers across retailers and products",
+      "source_span": "Own and enhance financial planning, budgeting, forecasting, and re-forecasting for Wholesale, including revenue, units, gross margin, and key operational drivers across retailers and products",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1020,
+        "end": 1211
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Re-forecasting Wholesale is another planning-model task that the platform does not cover.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-07",
+      "text": "Drive forecast accuracy and accountability",
+      "source_span": "Drive forecast accuracy and accountability by identifying key variances, risks, and opportunities and translating evolving business performance into an updated financial outlook",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1216,
+        "end": 1393
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.81,
+      "rationale": "Driving forecast accuracy is forecast-planning work and accountability management that falls outside the platform's capabilities.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-08",
+      "text": "Identify key variances, risks, and opportunities",
+      "source_span": "Drive forecast accuracy and accountability by identifying key variances, risks, and opportunities and translating evolving business performance into an updated financial outlook",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1216,
+        "end": 1393
+      },
+      "label": "unclear",
+      "model_label": "assisted",
+      "adjusted": "confidence 0.56 below 0.6",
+      "capability_id": "rep.driver_analysis",
+      "capability": "Explain changes using CRM, contract or bill data",
+      "product": "Reporting",
+      "confidence": 0.56,
+      "rationale": "Identifying key variances and drivers is close to driver analysis and variance explanation using source data.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-09",
+      "text": "Translate evolving business performance into an updated financial outlook",
+      "source_span": "Drive forecast accuracy and accountability by identifying key variances, risks, and opportunities and translating evolving business performance into an updated financial outlook",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1216,
+        "end": 1393
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Translating performance into an updated financial outlook is forecast/planning work rather than a covered operational finance task.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-10",
+      "text": "Own wholesale margin management",
+      "source_span": "Own and optimize wholesale margin management and channel economics, maintaining visibility into retailer profitability and identifying opportunities to improve financial performance",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1398,
+        "end": 1579
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Owning wholesale margin management is strategic performance management, not a covered automation capability.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-11",
+      "text": "Optimize channel economics",
+      "source_span": "Own and optimize wholesale margin management and channel economics, maintaining visibility into retailer profitability and identifying opportunities to improve financial performance",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1398,
+        "end": 1579
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.91,
+      "rationale": "Optimizing channel economics is strategic FP&A analysis that is not covered by the platform.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-12",
+      "text": "Maintain visibility into retailer profitability",
+      "source_span": "Own and optimize wholesale margin management and channel economics, maintaining visibility into retailer profitability and identifying opportunities to improve financial performance",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1398,
+        "end": 1579
+      },
+      "label": "unclear",
+      "model_label": "assisted",
+      "adjusted": "confidence 0.59 below 0.6",
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.59,
+      "rationale": "Maintaining visibility into retailer profitability is recurring management reporting and KPI analysis.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-13",
+      "text": "Identify opportunities to improve financial performance",
+      "source_span": "Own and optimize wholesale margin management and channel economics, maintaining visibility into retailer profitability and identifying opportunities to improve financial performance",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1398,
+        "end": 1579
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.72,
+      "rationale": "Identifying opportunities to improve financial performance is too vague to map cleanly to a specific platform capability.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-14",
+      "text": "Use financial models to inform new retailer partnerships",
+      "source_span": "Leverage and refine financial models and analytical frameworks to inform key commercial decisions, including new retailer partnerships, geographic expansion, pricing and promotions, and assortment strategy",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1584,
+        "end": 1789
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Using models to inform new retailer partnerships supports strategic partnership decisions, which are human judgment work.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-15",
+      "text": "Use financial models to inform geographic expansion",
+      "source_span": "Leverage and refine financial models and analytical frameworks to inform key commercial decisions, including new retailer partnerships, geographic expansion, pricing and promotions, and assortment strategy",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1584,
+        "end": 1789
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Using models to inform geographic expansion is a strategic decision-support activity that requires human judgment.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-16",
+      "text": "Use analytical frameworks to inform pricing and promotions",
+      "source_span": "Leverage and refine financial models and analytical frameworks to inform key commercial decisions, including new retailer partnerships, geographic expansion, pricing and promotions, and assortment strategy",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1584,
+        "end": 1789
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Using analytical frameworks to inform pricing and promotions is strategic pricing advice, not a finance-ops automation task.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-17",
+      "text": "Use analytical frameworks to inform assortment strategy",
+      "source_span": "Leverage and refine financial models and analytical frameworks to inform key commercial decisions, including new retailer partnerships, geographic expansion, pricing and promotions, and assortment strategy",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1584,
+        "end": 1789
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Using analytical frameworks to inform assortment strategy is business strategy work that is human-led.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-18",
+      "text": "Support the transition to an EPM system",
+      "source_span": "Support the transition to an EPM system and continued maturation of core finance infrastructure, implementing process and reporting improvements that increase scalability, accuracy, and structure as the business grows",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1794,
+        "end": 2011
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Supporting the transition to an EPM system is a project/implementation duty that is too vague to map to a specific capability.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-19",
+      "text": "Support the continued maturation of core finance infrastructure",
+      "source_span": "Support the transition to an EPM system and continued maturation of core finance infrastructure, implementing process and reporting improvements that increase scalability, accuracy, and structure as the business grows",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1794,
+        "end": 2011
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.87,
+      "rationale": "Supporting the maturation of core finance infrastructure is broad project support and not a specific automatable finance operation.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-20",
+      "text": "Implement process improvements that increase scalability, accuracy, and structure as the business grows",
+      "source_span": "Support the transition to an EPM system and continued maturation of core finance infrastructure, implementing process and reporting improvements that increase scalability, accuracy, and structure as the business grows",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1794,
+        "end": 2011
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Implementing process improvements is a general process-change project rather than a defined platform capability.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-21",
+      "text": "Implement reporting improvements that increase scalability, accuracy, and structure as the business grows",
+      "source_span": "Support the transition to an EPM system and continued maturation of core finance infrastructure, implementing process and reporting improvements that increase scalability, accuracy, and structure as the business grows",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1794,
+        "end": 2011
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.89,
+      "rationale": "Implementing reporting improvements is a vague project duty and does not map cleanly to a specific covered action.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "beec960040f74010-22",
+      "text": "5+ years of progressive experience in FP&A, strategic finance, investment banking, consulting, or another highly analytical finance role",
+      "source_span": "5+ years of progressive experience in FP&A, strategic finance, investment banking, consulting, or another highly analytical finance role",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2033,
+        "end": 2169
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "beec960040f74010-23",
+      "text": "Strong financial modeling and forecasting skills, with demonstrated ability to translate business performance into forward-looking plans and actionable insights",
+      "source_span": "Strong financial modeling and forecasting skills, with demonstrated ability to translate business performance into forward-looking plans and actionable insights",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2174,
+        "end": 2334
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "beec960040f74010-24",
+      "text": "Strong understanding of revenue, gross margin, and channel economics, including the impact of pricing, product mix, promotions, and other drivers of profitability",
+      "source_span": "Strong understanding of revenue, gross margin, and channel economics, including the impact of pricing, product mix, promotions, and other drivers of profitability",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2339,
+        "end": 2501
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "beec960040f74010-25",
+      "text": "Advanced proficiency in Microsoft Excel or Google Sheets",
+      "source_span": "Advanced proficiency in Microsoft Excel or Google Sheets; experience with EPM systems, SQL, Python, or other analytical tools is a plus",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2506,
+        "end": 2641
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "beec960040f74010-26",
+      "text": "Experience with EPM systems, SQL, Python, or other analytical tools is a plus",
+      "source_span": "Advanced proficiency in Microsoft Excel or Google Sheets; experience with EPM systems, SQL, Python, or other analytical tools is a plus",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2506,
+        "end": 2641
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "beec960040f74010-27",
+      "text": "Strong analytical and commercial judgment, with the ability to identify key business drivers, evaluate tradeoffs, and inform complex decisions",
+      "source_span": "Strong analytical and commercial judgment, with the ability to identify key business drivers, evaluate tradeoffs, and inform complex decisions",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2646,
+        "end": 2788
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "beec960040f74010-28",
+      "text": "Highly effective, unbiased communicator with the ability to adapt communication style to different audiences.",
+      "source_span": "Highly effective, unbiased communicator with the ability to adapt communication style to different audiences.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2793,
+        "end": 2902
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "beec960040f74010-29",
+      "text": "Can articulate complex data clearly to a diverse range of stakeholders.",
+      "source_span": "Can articulate complex data clearly to a diverse range of stakeholders.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2903,
+        "end": 2974
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "beec960040f74010-30",
+      "text": "Highly proactive and self-motivated, with a strong sense of ownership and able to identify opportunities, take initiative, and drive projects forward.",
+      "source_span": "Highly proactive and self-motivated, with a strong sense of ownership and able to identify opportunities, take initiative, and drive projects forward.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2979,
+        "end": 3129
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "beec960040f74010-31",
+      "text": "Strong commitment to embracing and leveraging AI tools in day-to-day tasks, ensuring AI-assisted work aligns with the same high-quality standards as personal contributions",
+      "source_span": "Strong commitment to embracing and leveraging AI tools in day-to-day tasks, ensuring AI-assisted work aligns with the same high-quality standards as personal contributions",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3134,
+        "end": 3305
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "beec960040f74010-32",
+      "text": "The successful candidate must be prepared to relocate if necessary to work out of the Boston, MA office.",
+      "source_span": "The successful candidate must be prepared to relocate if necessary to work out of the Boston, MA office.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3370,
+        "end": 3474
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "beec960040f74010-33",
+      "text": "At WHOOP, we're on a mission to unlock and inspire performance for life.",
+      "source_span": "At WHOOP, we're on a mission to unlock and inspire performance for life.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 0,
+        "end": 72
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "beec960040f74010-34",
+      "text": "WHOOP empowers members to perform at a higher level through a deeper understanding of their bodies and daily lives.",
+      "source_span": "WHOOP empowers members to perform at a higher level through a deeper understanding of their bodies and daily lives.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 73,
+        "end": 188
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "beec960040f74010-35",
+      "text": "We encourage anyone who is interested in this role to apply!",
+      "source_span": "We encourage anyone who is interested in this role to apply!",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": null,
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

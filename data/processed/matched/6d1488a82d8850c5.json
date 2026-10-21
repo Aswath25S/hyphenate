@@ -1,0 +1,186 @@
+{
+  "posting_id": "6d1488a82d8850c5",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "6d1488a82d8850c5-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Implementing automation skills is a project to enable reporting and controls rather than an advertised end-to-end finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-03",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.78,
+      "rationale": "Visualizing KPIs is part of building recurring management reports and dashboards.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Evaluating the accounting impact of contract restructures and modifications requires technical accounting judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Confirming appropriate treatment in NetSuite is a judgment and review step rather than a straight-through platform action.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-06",
+      "label": "unclear",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.56,
+      "rationale": "Reviewing subscription data in NetSuite aligns with maintaining contract and pricing data in the billing handoff.",
+      "model_label": "covered",
+      "adjusted": "confidence 0.56 below 0.6"
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-07",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.74,
+      "rationale": "Performing fluctuation analysis by customer is driver analysis using source data to explain changes.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Designing reconciliations across system integrations is a process-design task, not a matched operational capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-09",
+      "label": "assisted",
+      "capability_id": "tre.exceptions",
+      "confidence": 0.7,
+      "rationale": "Monitoring data flow discrepancies is exception monitoring for unmatched or out-of-policy items.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-10",
+      "label": "assisted",
+      "capability_id": "tre.exceptions",
+      "confidence": 0.76,
+      "rationale": "Resolving data flow discrepancies matches researching and resolving exceptions.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with another team to define and drive process improvements is cross-functional human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Advising other teams on accounting matters and deal structures is advisory human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-13",
+      "label": "covered",
+      "capability_id": "o2c.orders_refunds",
+      "confidence": 0.68,
+      "rationale": "Driving contract cancellation issues through resolution matches order, refund, and billing triage work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-14",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.63,
+      "rationale": "Performing SSP analysis is part of ASC 606 revenue allocation work, though it involves accounting judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Updating revenue recognition rules and allocations is setting accounting policy, which is human judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-16",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.91,
+      "rationale": "Preparing audit support schedules matches audit trail and support documentation work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Reviewing audit support schedules is a human review step rather than the support-preparation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Serving as the primary point of contact for audit inquiries is a human relationship role.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-19",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.89,
+      "rationale": "Preparing key revenue reports and metrics matches recurring management reporting work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Reviewing key revenue reports and financial metrics is a human review step.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d1488a82d8850c5-21",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.72,
+      "rationale": "Preparing external revenue disclosures and metrics is reporting work similar to building management reporting packages.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

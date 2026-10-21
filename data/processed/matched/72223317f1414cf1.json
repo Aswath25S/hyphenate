@@ -1,0 +1,123 @@
+{
+  "posting_id": "72223317f1414cf1",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "72223317f1414cf1-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Preparing ASC 740 tax provisions is tax accounting work, but no tax provision capability is in the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "72223317f1414cf1-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Preparing tax-related financial statement disclosures is disclosure drafting work, but it does not match any covered capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "72223317f1414cf1-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Preparing and filing global corporate income tax returns is a tax compliance filing task with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "72223317f1414cf1-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Managing tax credits such as R&D credits is repetitive tax compliance work, but there is no tax credits capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "72223317f1414cf1-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Managing incentives is tax compliance/administration work that is not covered by the platform map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "72223317f1414cf1-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Preparing tax-related accounts is accounting work, but it does not cleanly match any listed GL capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "72223317f1414cf1-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Maintaining tax-related accounts during close is close-related accounting work, but no specific capability covers tax account maintenance.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "72223317f1414cf1-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Serving as the key point of contact for external auditors is a relationship-management duty, which the map explicitly excludes.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "72223317f1414cf1-09",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.98,
+      "rationale": "Maintaining internal controls over financial reporting matches the controls monitoring capability end to end.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "72223317f1414cf1-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Enhancing internal controls to ensure SOX compliance involves designing and improving the control framework, which is a judgment-heavy human task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "72223317f1414cf1-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with cross-functional teams on transfer pricing documentation is collaboration and coordination work, not a platform-executed task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "72223317f1414cf1-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with cross-functional teams on intercompany transactions is cross-functional coordination, which falls under human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "72223317f1414cf1-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering on special tax planning initiatives is advisory and planning work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

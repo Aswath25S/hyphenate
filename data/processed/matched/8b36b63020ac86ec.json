@@ -1,0 +1,168 @@
+{
+  "posting_id": "8b36b63020ac86ec",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "8b36b63020ac86ec-01",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.98,
+      "rationale": "Reviewing invoices for required details is part of reading and coding vendor bills.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-02",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.96,
+      "rationale": "Coding vendor invoices to GL accounts and dimensions matches AP bill coding in the ERP.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-03",
+      "label": "covered",
+      "capability_id": "p2p.po_matching",
+      "confidence": 0.99,
+      "rationale": "Matching invoices to purchase orders is the core PO-matching workflow.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-04",
+      "label": "covered",
+      "capability_id": "p2p.po_matching",
+      "confidence": 0.88,
+      "rationale": "Investigating PO and invoice anomalies is part of resolving PO-invoice discrepancies.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Coordinating with purchasers and Procurement is cross-functional partnering with other teams.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-06",
+      "label": "covered",
+      "capability_id": "p2p.vendor_followup",
+      "confidence": 0.93,
+      "rationale": "Responding to invoice and payment-status questions matches vendor inquiry follow-up.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-07",
+      "label": "covered",
+      "capability_id": "p2p.vendor_followup",
+      "confidence": 0.98,
+      "rationale": "Following up on missing invoices or credits is explicit vendor follow-up work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-08",
+      "label": "covered",
+      "capability_id": "p2p.vendor_followup",
+      "confidence": 0.99,
+      "rationale": "Reconciling vendor statements is directly covered by vendor follow-up capabilities.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-09",
+      "label": "assisted",
+      "capability_id": "p2p.payments",
+      "confidence": 0.98,
+      "rationale": "Preparing payment batches matches preparing payment runs for approval.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Verifying the accuracy of payments is AP control work but not a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-11",
+      "label": "assisted",
+      "capability_id": "p2p.payments",
+      "confidence": 0.89,
+      "rationale": "Ensuring invoices are paid on time aligns with preparing and scheduling payment runs.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-12",
+      "label": "covered",
+      "capability_id": "p2p.approvals",
+      "confidence": 0.78,
+      "rationale": "Following approval limits and segregation of duties is part of enforcing policy-based approval workflow.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Applying skepticism to duplicate or suspicious invoices is fraud-minded review not mapped to a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-14",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.76,
+      "rationale": "Retaining clear documentation matches maintaining supporting documentation for audit trails.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-15",
+      "label": "covered",
+      "capability_id": "p2p.aging",
+      "confidence": 0.96,
+      "rationale": "Helping reconcile AP aging or related accounts matches tracking open payables until resolved.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-16",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.74,
+      "rationale": "Identifying invoices received but not recorded is akin to supporting accrued liabilities and received-not-invoiced items.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-17",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.97,
+      "rationale": "Providing information for accruals supports the accrual estimation process.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Providing information for month-end close is too vague to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

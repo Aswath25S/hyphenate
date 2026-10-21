@@ -1,0 +1,426 @@
+{
+  "posting_id": "6e91ac49cf3316c8",
+  "company": "Aurora Solar",
+  "domain": "aurorasolar.com",
+  "title": "FP&A Manager",
+  "role_family": "Reporting_FPA",
+  "seniority": "manager",
+  "locations": [
+    "United States"
+  ],
+  "remote": "remote",
+  "salary": {
+    "min": 112600,
+    "max": 182900,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Job board pay data: $112.6K – $182.9K • Offers Equity • Offers Bonus • Multiple Ranges"
+  },
+  "erp": [],
+  "tools": [
+    "Pigment",
+    "Excel",
+    "Google Sheets"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "perform ad-hoc analysis",
+    "simplify, streamline, and automate FP&A processes",
+    "streamlining the ones already in place",
+    "continue to scale rapidly and globally"
+  ],
+  "duties": [
+    {
+      "duty_id": "6e91ac49cf3316c8-01",
+      "text": "Partner with cross-functional stakeholders on strategic discussions",
+      "source_span": "Partner with and support strategic discussions with cross-functional stakeholders – help influence effective decision-making by providing valuable insights and building trust",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-02",
+      "text": "Provide valuable insights to influence decision-making",
+      "source_span": "help influence effective decision-making by providing valuable insights and building trust",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-03",
+      "text": "Build trust with cross-functional stakeholders",
+      "source_span": "help influence effective decision-making by providing valuable insights and building trust",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-04",
+      "text": "Own monthly FP&A processes",
+      "source_span": "Own end-to-end monthly, quarterly, and annual FP&A processes (e.g., budgeting/forecasting, Board reporting, BvA’s) for your areas of focus",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-05",
+      "text": "Own quarterly FP&A processes",
+      "source_span": "Own end-to-end monthly, quarterly, and annual FP&A processes (e.g., budgeting/forecasting, Board reporting, BvA’s) for your areas of focus",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-06",
+      "text": "Own annual FP&A processes",
+      "source_span": "Own end-to-end monthly, quarterly, and annual FP&A processes (e.g., budgeting/forecasting, Board reporting, BvA’s) for your areas of focus",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-07",
+      "text": "Own budgeting and forecasting processes",
+      "source_span": "Own end-to-end monthly, quarterly, and annual FP&A processes (e.g., budgeting/forecasting, Board reporting, BvA’s) for your areas of focus",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-08",
+      "text": "Own Board reporting",
+      "source_span": "Own end-to-end monthly, quarterly, and annual FP&A processes (e.g., budgeting/forecasting, Board reporting, BvA’s) for your areas of focus",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-09",
+      "text": "Own BvA’s",
+      "source_span": "Own end-to-end monthly, quarterly, and annual FP&A processes (e.g., budgeting/forecasting, Board reporting, BvA’s) for your areas of focus",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-10",
+      "text": "Own Pigment administration",
+      "source_span": "Own the administration and continued evolution of Pigment, our financial planning platform – from data model design and system integrations to building new forecast models and streamlining the ones already in place",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-11",
+      "text": "Lead the continued evolution of Pigment",
+      "source_span": "Own the administration and continued evolution of Pigment, our financial planning platform – from data model design and system integrations to building new forecast models and streamlining the ones already in place",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-12",
+      "text": "Design the data model",
+      "source_span": "from data model design and system integrations to building new forecast models and streamlining the ones already in place",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-13",
+      "text": "Build system integrations",
+      "source_span": "from data model design and system integrations to building new forecast models and streamlining the ones already in place",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-14",
+      "text": "Build new forecast models",
+      "source_span": "from data model design and system integrations to building new forecast models and streamlining the ones already in place",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-15",
+      "text": "Streamline existing forecast models",
+      "source_span": "streamlining the ones already in place",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-16",
+      "text": "Collaborate with Finance peers to track performance metrics",
+      "source_span": "Collaborate with Finance peers to track performance metrics and KPIs to monitor business results and to drive stakeholder engagement and accountability",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-17",
+      "text": "Collaborate with Finance peers to track KPIs",
+      "source_span": "Collaborate with Finance peers to track performance metrics and KPIs to monitor business results and to drive stakeholder engagement and accountability",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-18",
+      "text": "Monitor business results",
+      "source_span": "to monitor business results and to drive stakeholder engagement and accountability",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-19",
+      "text": "Drive stakeholder engagement",
+      "source_span": "and to drive stakeholder engagement and accountability",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-20",
+      "text": "Drive accountability",
+      "source_span": "and accountability",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-21",
+      "text": "Simplify FP&A processes",
+      "source_span": "Simplify, streamline, and automate FP&A processes, as well as make full use of forecasting and financial system capabilities that will allow us to continue to scale rapidly and globally",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-22",
+      "text": "Streamline FP&A processes",
+      "source_span": "Simplify, streamline, and automate FP&A processes, as well as make full use of forecasting and financial system capabilities that will allow us to continue to scale rapidly and globally",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-23",
+      "text": "Automate FP&A processes",
+      "source_span": "Simplify, streamline, and automate FP&A processes, as well as make full use of forecasting and financial system capabilities that will allow us to continue to scale rapidly and globally",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-24",
+      "text": "Use forecasting capabilities",
+      "source_span": "make full use of forecasting and financial system capabilities that will allow us to continue to scale rapidly and globally",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-25",
+      "text": "Use financial system capabilities",
+      "source_span": "make full use of forecasting and financial system capabilities that will allow us to continue to scale rapidly and globally",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-26",
+      "text": "Scale rapidly and globally",
+      "source_span": "that will allow us to continue to scale rapidly and globally",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-27",
+      "text": "Highlight opportunities to improve operations",
+      "source_span": "Highlight strategic opportunities to improve the way we operate, increase revenue, or decrease costs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-28",
+      "text": "Highlight opportunities to increase revenue",
+      "source_span": "Highlight strategic opportunities to improve the way we operate, increase revenue, or decrease costs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-29",
+      "text": "Highlight opportunities to decrease costs",
+      "source_span": "Highlight strategic opportunities to improve the way we operate, increase revenue, or decrease costs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-30",
+      "text": "Our software has designed millions of solar projects so far, empowering solar companies to sell, design, and install residential and commercial solar arrays accurately, seamlessly, and at scale.",
+      "source_span": "Our software has designed millions of solar projects so far, empowering solar companies to sell, design, and install residential and commercial solar arrays accurately, seamlessly, and at scale.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-31",
+      "text": "We’ve been named one of \"The Best Remote Companies\" by BuiltIn.com https://builtin.com/company/aurora-solar and have been recognized for the second time as a Certified Green Business (CGB) with the city of San Francisco.",
+      "source_span": "We’ve been named one of \"The Best Remote Companies\" by BuiltIn.com https://builtin.com/company/aurora-solar and have been recognized for the second time as a Certified Green Business (CGB) with the city of San Francisco.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-32",
+      "text": "We’re in this together to support the world’s transition to solar.",
+      "source_span": "We’re in this together to support the world’s transition to solar.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-33",
+      "text": "Flexible PTO",
+      "source_span": "Flexible PTO",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-34",
+      "text": "Medical, Dental, and Vision",
+      "source_span": "Medical, Dental, and Vision",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-35",
+      "text": "Build and maintain driver-based models",
+      "source_span": "Strong financial modeling – experience building and maintaining driver-based models",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-36",
+      "text": "Own a financial planning tool",
+      "source_span": "Experience owning a financial planning tool",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-37",
+      "text": "Collaborate effectively across functions and levels",
+      "source_span": "Strong communication skills and ability to collaborate effectively across functions and levels throughout the company",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-38",
+      "text": "Translate model output into narrative summaries for leadership",
+      "source_span": "Ability to translate model output into compelling narrative summaries for leadership and the Board of Directors",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-39",
+      "text": "Translate model output into narrative summaries for the Board of Directors",
+      "source_span": "Ability to translate model output into compelling narrative summaries for leadership and the Board of Directors",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-40",
+      "text": "Prioritize objectives in a fast-paced, high performing environment",
+      "source_span": "Ability to prioritize objectives in a fast-paced, high performing environment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-41",
+      "text": "Use Excel",
+      "source_span": "Advanced knowledge of Excel",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-42",
+      "text": "Use Google Sheets",
+      "source_span": "or Google Sheets",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-43",
+      "text": "Maintain attention to detail and accuracy",
+      "source_span": "Attention to detail and accuracy, coupled with the ability to follow-through",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-44",
+      "text": "Follow through",
+      "source_span": "coupled with the ability to follow-through",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-45",
+      "text": "Demonstrate knowledge of SaaS business models",
+      "source_span": "Demonstrated knowledge of SaaS business models",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-46",
+      "text": "Understand financial statements",
+      "source_span": "Strong understanding of financial statements and GAAP",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-47",
+      "text": "Understand GAAP",
+      "source_span": "Strong understanding of financial statements and GAAP",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-48",
+      "text": "Be a Pigment admin",
+      "source_span": "Direct experience as a Pigment admin",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-49",
+      "text": "Work with usage-based or consumption metrics and modeling",
+      "source_span": "Experience with usage-based or consumption metrics and modeling",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-50",
+      "text": "Work with data systems",
+      "source_span": "Experience with data systems and / or Python, SQL, JavaScript",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-51",
+      "text": "Use Python",
+      "source_span": "Python",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-52",
+      "text": "Use SQL",
+      "source_span": "SQL",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-53",
+      "text": "Use JavaScript",
+      "source_span": "JavaScript",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-54",
+      "text": "Present directly to VP/C-suite stakeholders",
+      "source_span": "Executive presence (ie comfort presenting directly to VP/C-suite stakeholders)",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-09-14T13:24:34.494+00:00",
+  "source_url": "https://jobs.ashbyhq.com/aurorasolar/a763d892-e910-4c11-8954-fc178d388548",
+  "fetched_at": "2026-10-21T17:34:46.587Z",
+  "prompt_version": "extract-v1",
+  "text": "About Aurora Solar\n\nAurora is on a mission to create a future of solar for all. Our award-winning software puts the power of data and technology into the hands of every solar professional to make solar adoption simple and predictable. Our software has designed millions of solar projects so far, empowering solar companies to sell, design, and install residential and commercial solar arrays accurately, seamlessly, and at scale. \n\n\nWe’ve been named one of \"The Best Remote Companies\" by BuiltIn.com https://builtin.com/company/aurora-solar and have been recognized for the second time as a Certified Green Business (CGB) with the city of San Francisco. We’re in this together to support the world’s transition to solar.\n\n\n\nAbout the Team\n\nOur FP&A team drives some of Aurora's most important work — the budgeting, forecasting, and financial analyses that shape the financial future and strategic direction of the business. We're a small, high-performing team that owns the company's annual and quarterly financial planning cycles end-to-end, partners with leaders across the company, and pushes past reporting the numbers to actually driving action from them. We operate with direct exposure to the VP of Finance and CEO.\n\n\n\nAbout the Role\n\nWe are looking for a motivated FP&A Manager who is passionate about driving the business forward through actionable insights. In this highly visible role, you’ll act as a strategic partner to our Leaders and cross-function stakeholders across the company.This role will drive operating efficiency for both the finance function and the company as a whole, play a critical role in executing the annual budgeting and recurring forecasting processes, perform ad-hoc analysis to uncover opportunities, and have ownership over our financial planning platform (Pigment).\n\n\n\nYour Impact\n\n - Partner with and support strategic discussions with cross-functional stakeholders – help influence effective decision-making by providing valuable insights and building trust\n\n - Own end-to-end monthly, quarterly, and annual FP&A processes (e.g., budgeting/forecasting, Board reporting, BvA’s) for your areas of focus\n\n - Own the administration and continued evolution of Pigment, our financial planning platform – from data model design and system integrations to building new forecast models and streamlining the ones already in place\n\n - Collaborate with Finance peers to track performance metrics and KPIs to monitor business results and to drive stakeholder engagement and accountability\n\n - Simplify, streamline, and automate FP&A processes, as well as make full use of forecasting and financial system capabilities that will allow us to continue to scale rapidly and globally\n\n - Highlight strategic opportunities to improve the way we operate, increase revenue, or decrease costs\n   \n   \n\nWhat You Bring\n\n - Strong financial modeling – experience building and maintaining driver-based models\n\n - Experience owning a financial planning tool\n\n - Strong communication skills and ability to collaborate effectively across functions and levels throughout the company\n\n - Ability to translate model output into compelling narrative summaries for leadership and the Board of Directors\n\n - Ability to prioritize objectives in a fast-paced, high performing environment\n\n - Advanced knowledge of Excel or Google Sheets\n\n - Attention to detail and accuracy, coupled with the ability to follow-through\n\n - Demonstrated knowledge of SaaS business models\n\n - Strong understanding of financial statements and GAAP\n   \n   \n\nNice to Haves\n\n - Direct experience as a Pigment admin\n\n - Experience with usage-based or consumption metrics and modeling\n\n - Experience with data systems and / or Python, SQL, JavaScript\n\n - Executive presence (ie comfort presenting directly to VP/C-suite stakeholders)\n   \n   \n\nWhat We Offer\n\n - 🏖️Flexible PTO \n\n - 🍼Parental Leave \n\n - 💰WFH Stipend \n\n - 🏢 Coworking Stipend \n\n - ☀️Energize Fridays \n\n - 📶Connectivity Stipend \n\n - Learning & Development \n\n🩺Medical, Dental, and Vision\n\nPlease take a look at our U.S. Benefits Booklet https://www.canva.com/design/DAFLaobzynI/0YAE1SCIRKE7QHnJVp54iA/view?utm_content=DAFLaobzynI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink for a deeper dive into our offerings\n\n\n\nWhere Aurorans are: Aurora currently has teams within the US, Canada, Poland, and Germany with additional locations on the horizon. We’re united in our work to support the world’s transition to solar!\n\n\n\nAurora is dedicated to building a diverse and inclusive workforce of people who believe in and are passionate about creating a future of solar energy for all. We are an equal opportunity employer, we welcome and consider qualified applicants regardless of gender identity, sexual orientation, race, religion, age, national origin, citizenship, pregnancy status, veteran status, or any other differences. We encourage you to apply even if you believe that you do not meet all of the above criteria!\n\n\n\nAurora is committed to creating an inclusive and accessible experience for all candidates. If you require a reasonable accommodation that would better enable your success during the application or interview process, please complete this form https://docs.google.com/forms/d/e/1FAIpQLSdIvyjhnxPXVhyK2Pn6Rk-Edu4ZQtcmVo6u-0Mvb4nmDFmgPw/viewform.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "ashby"
+}

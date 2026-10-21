@@ -1,0 +1,492 @@
+{
+  "posting_id": "34482a131783b21f",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "34482a131783b21f-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Partnering with Revenue Accounting to ensure accuracy is cross-functional collaboration, not an automated platform task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Assessing compliance with revenue recognition guidance requires accounting judgment and policy interpretation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-03",
+      "label": "covered",
+      "capability_id": "o2c.collections",
+      "confidence": 0.97,
+      "rationale": "Following up on aged A/R balances is collections work the platform can do end to end.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-04",
+      "label": "covered",
+      "capability_id": "o2c.orders_refunds",
+      "confidence": 0.86,
+      "rationale": "Addressing customer inquiries about invoices or billing is part of order-to-cash issue handling.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Working with internal customer success teams is cross-team coordination and relationship management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-06",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.74,
+      "rationale": "Analyzing collections is a finance analysis question that the platform can answer from source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-07",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.46,
+      "rationale": "Developing key metrics is too open-ended and reads more like metric design than a specific supported workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.67,
+      "rationale": "Reviewing received and deposited customer payments is manual review rather than cash application itself.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Working closely with CSMs to get support for invoicing and true-ups is partnering with another team.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-10",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.97,
+      "rationale": "Issuing credit memos is invoice adjustment work the platform performs.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Coordinating with CSMs to understand invoicing changes is cross-functional collaboration.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-12",
+      "label": "unclear",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.55,
+      "rationale": "Classifying a refund liability is revenue-accounting treatment under ASC 606 and needs accounting judgment.",
+      "model_label": "assisted",
+      "adjusted": "confidence 0.55 below 0.6"
+    },
+    {
+      "duty_id": "34482a131783b21f-13",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.95,
+      "rationale": "Supporting recurring billing matches invoice generation and billing-cycle execution.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-14",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.95,
+      "rationale": "Supporting usage-based billing matches usage invoice creation.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-15",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.92,
+      "rationale": "True-ups are billing adjustments that fit invoice and adjustment processing.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-16",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.94,
+      "rationale": "Supporting credits is part of creating and sending invoice adjustments.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-17",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.93,
+      "rationale": "Supporting adjustments is invoice adjustment work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-18",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.88,
+      "rationale": "Supporting billing schedule changes is part of maintaining the billing cycle.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Reviewing and approving invoices before release is human approval, not automated invoice creation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-20",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.98,
+      "rationale": "Processing and sending invoices is the core invoicing workflow.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-21",
+      "label": "assisted",
+      "capability_id": "tre.exceptions",
+      "confidence": 0.89,
+      "rationale": "Monitoring billing exceptions, unapplied cash, and reconciling items through resolution matches exception handling.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Responding to invoice disputes and payment discrepancies involves dispute handling and negotiation-like judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Providing explanations of invoice activity and balances is a human-facing advisory task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with Sales and Client Success on billing requirements is cross-functional collaboration.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-25",
+      "label": "covered",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.98,
+      "rationale": "Reviewing contract terms and commercial provisions that affect invoicing is contract term extraction.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-26",
+      "label": "covered",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.97,
+      "rationale": "Translating contract terms into billing instructions and system setup matches contract-to-billing setup.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-27",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.41,
+      "rationale": "Customer account reconciliations are too vague to map cleanly to a specific supported workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-28",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.39,
+      "rationale": "Investigating variances is too broad without specifying the financial process or data source.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Coordinating corrective actions with internal and customer-facing partners is relationship and project coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-30",
+      "label": "covered",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.93,
+      "rationale": "Reviewing commercial terms to identify billing requirements matches contract terms extraction.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-31",
+      "label": "covered",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.97,
+      "rationale": "Translating signed contract provisions into billing setup is contract-to-billing setup work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-32",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Coordinating implementation handoffs and tracking open items is project coordination across teams.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-33",
+      "label": "assisted",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.66,
+      "rationale": "Validating contract setup and the first billing cycle depends on contract terms and billing setup review.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-34",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.44,
+      "rationale": "Identifying and escalating billing gaps is an exception-management task but the action is too unspecific.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-35",
+      "label": "covered",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.95,
+      "rationale": "Maintaining contract-to-billing documentation is part of preserving contract and pricing handoff data.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-36",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Updating procedures or job aids is process documentation and improvement work done by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-37",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.43,
+      "rationale": "Post-implementation review of billing issues and contract changes is too broad to map cleanly.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-38",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.36,
+      "rationale": "Incorporating lessons learned into process improvements is too vague and not a specific supported operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-40",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.96,
+      "rationale": "Supporting month-end close processes matches running close checklist tasks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-41",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.94,
+      "rationale": "Supporting external auditors and pre-audit preparation matches audit support and PBC work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-43",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.9,
+      "rationale": "Billing-related inputs to monthly and quarterly revenue close align with revenue recognition work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-44",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.4,
+      "rationale": "Supporting reconciliations is too vague without saying which accounts or workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-45",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.9,
+      "rationale": "Supporting accruals matches accrual estimation and recording.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-46",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.93,
+      "rationale": "Supporting journal-entry preparation matches preparing and posting entries.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-47",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.95,
+      "rationale": "Supporting variance analysis matches flux analysis and commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-48",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.77,
+      "rationale": "Reviewing complex billing arrangements for revenue treatment aligns with ASC 606 analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-49",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.91,
+      "rationale": "Maintaining evidence for controls and audit requests matches audit-support documentation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-50",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with technical teams to investigate system issues is cross-functional collaboration.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-51",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.5,
+      "rationale": "Documenting billing requirements, procedures, and playbooks is documentation work but not a specific mapped capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-52",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.45,
+      "rationale": "Testing and validating changes before implementation is a broad QA task without a matching finance-operation capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-53",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.31,
+      "rationale": "Identifying root causes is too vague to classify.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-54",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.32,
+      "rationale": "Reducing manual effort is a goal rather than a specific duty.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-55",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.32,
+      "rationale": "Strengthening data quality is too broad and not a specific mapped workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "34482a131783b21f-56",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.34,
+      "rationale": "Improving visibility into billing status and customer account health is too vague to map precisely.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

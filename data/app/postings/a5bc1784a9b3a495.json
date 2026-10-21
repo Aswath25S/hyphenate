@@ -1,0 +1,1219 @@
+{
+  "posting_id": "a5bc1784a9b3a495",
+  "company": "Perplexity",
+  "slug": "perplexity",
+  "domain": "perplexity.ai",
+  "title": "Billing Operations Lead",
+  "role_family": "AR",
+  "seniority": "manager",
+  "n": 36,
+  "C": 9,
+  "A": 6,
+  "covered_share": 0.25,
+  "overlap": 0.4166666666666667,
+  "weighted_overlap": 0.3333333333333333,
+  "thin": false,
+  "salary_min": 140000,
+  "salary_max": 185000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 17500,
+  "savings_reason": null,
+  "lead_product": "Order-to-cash",
+  "product_split": {
+    "Order-to-cash": {
+      "covered": 9,
+      "assisted": 0,
+      "weighted": 9
+    },
+    "Procure-to-pay": {
+      "covered": 0,
+      "assisted": 1,
+      "weighted": 0.5
+    },
+    "GL accounting": {
+      "covered": 0,
+      "assisted": 3,
+      "weighted": 1.5
+    },
+    "Reporting": {
+      "covered": 0,
+      "assisted": 2,
+      "weighted": 1
+    }
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Salesforce"
+  ],
+  "posted_at": "2026-10-06T23:59:41.778+00:00",
+  "source_url": "https://jobs.ashbyhq.com/perplexity/702c7eb8-9908-407f-bcb5-647a227819d6",
+  "locations": [
+    "San Francisco"
+  ],
+  "remote": "unknown",
+  "excluded": null,
+  "text": "Perplexity is looking for an experienced Billing Operations Manager to join our Finance and Accounting team as we scale our enterprise business. You will own the enterprise billing lifecycle, translating complex commercial agreements into accurate, timely invoices and building the processes and controls that support our growth.\n\nThis is a hands-on role working closely with Deal Desk, Enterprise Sales, Legal, and Customer Success. The ideal candidate combines strong billing and systems expertise with sound judgement, a customer-focused approach, and the ability to bring structure to a fast-moving environment.\n\n\n\n\nRESPONSIBILITIES\n\n - Enterprise and reseller billing: Own enterprise billing operations from customer and subscription setup through recurring invoicing, renewals, amendments, and cancellations, ensuring accurate and timely billing in accordance with executed agreements.\n\n - Contract review: Partner with Enterprise Sales and Deal Desk to review nonstandard billing terms before contracts are signed, assess operational feasibility, and route exceptions for approval.\n\n - Complex billing arrangements: Translate approved pricing and contractual terms into billing configurations and schedules, including seat changes, tiered discounting, prorations, co-terminations, prepaid credits, and usage billed in arrears.\n\n - Billing inquiries and disputes: Serve as the primary point of contact for enterprise billing questions from customers and internal teams. Investigate discrepancies, coordinate approved credits and rebills, and address underlying causes to prevent recurring issues.\n\n - Reconciliations and close support: Reconcile contract, subscription, and usage data to billing output and investigate any billing discrepancies. Support month-end close and audits through billing completeness checks, reconciliations, and supporting documentation.\n\n - Integration management: Identifying and resolving any billing system integration failures.\n\n - Customer Success and renewal support: Partner with Customer Success, Enterprise Sales, and Deal Desk on renewals, expansions, and changes to customer commitments. Prepare seat, usage, and billing analyses; calculate renewal credits and true-ups; and translate approved agreements into accurate subscription, credit, and invoice updates. Coordinate the resolution of billing issues that could delay renewals or disrupt the customer experience.\n\n\nREQUIREMENTS\n\n - Bachelor’s degree or higher in Accounting or Finance.\n\n - 7+ years of experience in billing operations, order management, order-to-cash, revenue operations, or a related finance function, including hands-on ownership of enterprise SaaS or subscription billing.\n\n - Billing expertise: Demonstrated ability to interpret complex customer agreements and translate them into accurate billing schedules, invoices, and adjustments, including subscription and usage-based arrangements.\n\n - Systems proficiency: Hands-on experience with NetSuite, Salesforce, tax engines, and subscription or usage-based billing platforms, with the ability to investigate issues across connected systems.\n\n - Accounting fundamentals: Working knowledge of accounts receivable, deferred revenue, and revenue-recognition concepts, including ASC 606.\n\n - Resourcefulness, detail-oriented and a motivation for solving problems and finding solutions.\n\n - Excellent communication skills, as frequent interaction with both internal and external stakeholders will be required.\n\n - Ability to multi-task and prioritize effectively in a fast-paced environment.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 140000,
+    "max": 185000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Job board pay data: $140K – $185K • Offers Equity"
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": true,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "as we scale our enterprise business",
+    "fast-moving environment",
+    "nonstandard billing terms",
+    "billing discrepancies",
+    "billing system integration failures"
+  ],
+  "fetched_at": "2026-10-21T17:33:56.764Z",
+  "ats": "ashby",
+  "duties": [
+    {
+      "duty_id": "a5bc1784a9b3a495-01",
+      "text": "Own enterprise billing operations from customer and subscription setup through recurring invoicing",
+      "source_span": "Own enterprise billing operations from customer and subscription setup through recurring invoicing",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 674,
+        "end": 772
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.invoicing",
+      "capability": "Create and send invoices, including usage-based billing",
+      "product": "Order-to-cash",
+      "confidence": 0.93,
+      "rationale": "Owning customer setup through recurring invoicing centers on creating and managing invoices in the billing cycle.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-02",
+      "text": "Manage renewals, amendments, and cancellations",
+      "source_span": "renewals, amendments, and cancellations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 774,
+        "end": 813
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.86,
+      "rationale": "Managing renewals, amendments, and cancellations is subscription lifecycle work that is not directly covered by the map.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-03",
+      "text": "Ensure accurate and timely billing in accordance with executed agreements",
+      "source_span": "ensuring accurate and timely billing in accordance with executed agreements",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 815,
+        "end": 890
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.invoicing",
+      "capability": "Create and send invoices, including usage-based billing",
+      "product": "Order-to-cash",
+      "confidence": 0.9,
+      "rationale": "Ensuring accurate and timely billing in line with agreements is the core invoicing workflow.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-04",
+      "text": "Partner with Enterprise Sales and Deal Desk to review nonstandard billing terms before contracts are signed",
+      "source_span": "Partner with Enterprise Sales and Deal Desk to review nonstandard billing terms before contracts are signed",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 913,
+        "end": 1020
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Reviewing nonstandard billing terms with Sales and Deal Desk before signature is cross-functional contract negotiation and judgment.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-05",
+      "text": "Assess operational feasibility",
+      "source_span": "assess operational feasibility",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1022,
+        "end": 1052
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.3,
+      "rationale": "Assess operational feasibility is too vague to map to a specific finance-operation action.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-06",
+      "text": "Route exceptions for approval",
+      "source_span": "route exceptions for approval",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1058,
+        "end": 1087
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "p2p.approvals",
+      "capability": "Route approvals by policy",
+      "product": "Procure-to-pay",
+      "confidence": 0.66,
+      "rationale": "Routing exceptions for approval matches policy-based approval workflow routing, though the domain is billing rather than AP.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-07",
+      "text": "Translate approved pricing and contractual terms into billing configurations and schedules",
+      "source_span": "Translate approved pricing and contractual terms into billing configurations and schedules",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1123,
+        "end": 1213
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.contract_terms",
+      "capability": "Extract contract terms, obligations and pricing",
+      "product": "Order-to-cash",
+      "confidence": 0.95,
+      "rationale": "Translating approved pricing and contract terms into billing configurations is exactly contract-term setup in the billing system.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-08",
+      "text": "Manage seat changes",
+      "source_span": "seat changes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1225,
+        "end": 1237
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Managing seat changes is a repetitive subscription-update task that is not explicitly covered by the map.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-09",
+      "text": "Manage tiered discounting",
+      "source_span": "tiered discounting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1239,
+        "end": 1257
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Managing tiered discounting is billing/pricing maintenance without a direct matching capability.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-10",
+      "text": "Manage prorations",
+      "source_span": "prorations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1259,
+        "end": 1269
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.83,
+      "rationale": "Managing prorations is a billing calculation task that is not specifically listed in the coverage map.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-11",
+      "text": "Manage co-terminations",
+      "source_span": "co-terminations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1271,
+        "end": 1286
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.8,
+      "rationale": "Managing co-terminations is subscription timing maintenance with no direct capability match.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-12",
+      "text": "Manage prepaid credits",
+      "source_span": "prepaid credits",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1288,
+        "end": 1303
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.82,
+      "rationale": "Managing prepaid credits is a billing-balance maintenance task that is not explicitly covered.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-13",
+      "text": "Manage usage billed in arrears",
+      "source_span": "usage billed in arrears",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1309,
+        "end": 1332
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.invoicing",
+      "capability": "Create and send invoices, including usage-based billing",
+      "product": "Order-to-cash",
+      "confidence": 0.91,
+      "rationale": "Managing usage billed in arrears is usage-based invoicing, which is covered.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-14",
+      "text": "Serve as the primary point of contact for enterprise billing questions from customers and internal teams",
+      "source_span": "Serve as the primary point of contact for enterprise billing questions from customers and internal teams",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1370,
+        "end": 1474
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Serving as the primary point of contact for billing questions is relationship management and customer support by nature.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-15",
+      "text": "Investigate discrepancies",
+      "source_span": "Investigate discrepancies",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1476,
+        "end": 1501
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.76,
+      "rationale": "Investigating discrepancies is repetitive exception work but does not map cleanly to a covered capability.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-16",
+      "text": "Coordinate approved credits and rebills",
+      "source_span": "coordinate approved credits and rebills",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1503,
+        "end": 1542
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.invoicing",
+      "capability": "Create and send invoices, including usage-based billing",
+      "product": "Order-to-cash",
+      "confidence": 0.88,
+      "rationale": "Coordinating credits and rebills is invoice adjustment work within invoicing.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-17",
+      "text": "Address underlying causes to prevent recurring issues",
+      "source_span": "address underlying causes to prevent recurring issues",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1548,
+        "end": 1601
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.28,
+      "rationale": "Addressing underlying causes to prevent recurring issues is too broad to classify precisely.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-18",
+      "text": "Reconcile contract data to billing output",
+      "source_span": "Reconcile contract, subscription, and usage data to billing output",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1642,
+        "end": 1708
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.78,
+      "rationale": "Reconciling contract data to billing output is data matching and validation that is not directly covered.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-19",
+      "text": "Reconcile subscription data to billing output",
+      "source_span": "Reconcile contract, subscription, and usage data to billing output",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1642,
+        "end": 1708
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.78,
+      "rationale": "Reconciling subscription data to billing output is repetitive matching work without a specific capability match.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-20",
+      "text": "Reconcile usage data to billing output",
+      "source_span": "Reconcile contract, subscription, and usage data to billing output",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1642,
+        "end": 1708
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.78,
+      "rationale": "Reconciling usage data to billing output is validation work that is not explicitly covered.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-21",
+      "text": "Investigate any billing discrepancies",
+      "source_span": "investigate any billing discrepancies",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1713,
+        "end": 1750
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.8,
+      "rationale": "Investigating billing discrepancies is exception handling, but no billing-specific capability in the map covers it end to end.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-22",
+      "text": "Support month-end close and audits through billing completeness checks",
+      "source_span": "Support month-end close and audits through billing completeness checks",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1752,
+        "end": 1822
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.71,
+      "rationale": "Billing completeness checks supporting close and audits fit audit-support documentation and evidence gathering.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-23",
+      "text": "Support month-end close and audits through reconciliations",
+      "source_span": "reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1824,
+        "end": 1839
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.7,
+      "rationale": "Supporting close and audits through reconciliations matches audit support, though the reconciliations are billing-focused.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-24",
+      "text": "Support month-end close and audits through supporting documentation",
+      "source_span": "supporting documentation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1845,
+        "end": 1869
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.94,
+      "rationale": "Providing supporting documentation for audits is directly covered by audit support.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-25",
+      "text": "Identify billing system integration failures",
+      "source_span": "Identifying and resolving any billing system integration failures",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1899,
+        "end": 1964
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Identifying billing system integration failures is technical monitoring not covered by the map.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-26",
+      "text": "Resolve billing system integration failures",
+      "source_span": "Identifying and resolving any billing system integration failures",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1899,
+        "end": 1964
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.85,
+      "rationale": "Resolving billing system integration failures is technical troubleshooting with no direct capability match.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-27",
+      "text": "Partner with Customer Success, Enterprise Sales, and Deal Desk on renewals, expansions, and changes to customer commitments",
+      "source_span": "Partner with Customer Success, Enterprise Sales, and Deal Desk on renewals, expansions, and changes to customer commitments",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2008,
+        "end": 2131
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Customer Success, Sales, and Deal Desk on renewals and expansions is cross-functional collaboration and relationship work.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-28",
+      "text": "Prepare seat analyses",
+      "source_span": "Prepare seat",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2133,
+        "end": 2145
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.76,
+      "rationale": "Preparing seat analyses is repetitive analysis work but not a named capability in the map.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-29",
+      "text": "Prepare usage analyses",
+      "source_span": "usage",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1309,
+        "end": 1314
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.driver_analysis",
+      "capability": "Explain changes using CRM, contract or bill data",
+      "product": "Reporting",
+      "confidence": 0.69,
+      "rationale": "Preparing usage analyses is source-data-driven analysis of billing drivers.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-30",
+      "text": "Prepare billing analyses",
+      "source_span": "billing analyses",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2158,
+        "end": 2174
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.adhoc_analysis",
+      "capability": "Answer finance questions traced to source entries",
+      "product": "Reporting",
+      "confidence": 0.67,
+      "rationale": "Preparing billing analyses is ad hoc analysis of finance data traced to source records.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-31",
+      "text": "Calculate renewal credits",
+      "source_span": "calculate renewal credits",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2176,
+        "end": 2201
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.invoicing",
+      "capability": "Create and send invoices, including usage-based billing",
+      "product": "Order-to-cash",
+      "confidence": 0.84,
+      "rationale": "Calculating renewal credits is part of issuing invoice credits and adjustments.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-32",
+      "text": "Calculate true-ups",
+      "source_span": "true-ups",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2206,
+        "end": 2214
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.79,
+      "rationale": "Calculating true-ups is a billing adjustment calculation that is not explicitly covered.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-33",
+      "text": "Translate approved agreements into accurate subscription updates",
+      "source_span": "translate approved agreements into accurate subscription",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2220,
+        "end": 2276
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.contract_terms",
+      "capability": "Extract contract terms, obligations and pricing",
+      "product": "Order-to-cash",
+      "confidence": 0.94,
+      "rationale": "Translating approved agreements into subscription updates is contract-to-billing setup work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-34",
+      "text": "Translate approved agreements into accurate credit updates",
+      "source_span": "credit",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1296,
+        "end": 1302
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.invoicing",
+      "capability": "Create and send invoices, including usage-based billing",
+      "product": "Order-to-cash",
+      "confidence": 0.86,
+      "rationale": "Translating approved agreements into credit updates is invoice adjustment work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-35",
+      "text": "Translate approved agreements into accurate invoice updates",
+      "source_span": "invoice updates",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2290,
+        "end": 2305
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.invoicing",
+      "capability": "Create and send invoices, including usage-based billing",
+      "product": "Order-to-cash",
+      "confidence": 0.9,
+      "rationale": "Translating approved agreements into invoice updates is direct invoicing configuration.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-36",
+      "text": "Coordinate the resolution of billing issues that could delay renewals or disrupt the customer experience",
+      "source_span": "Coordinate the resolution of billing issues that could delay renewals or disrupt the customer experience",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2307,
+        "end": 2411
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Coordinating resolution of billing issues that affect renewals and customer experience is cross-functional customer-facing work.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-37",
+      "text": "Bachelor’s degree or higher in Accounting or Finance",
+      "source_span": "Bachelor’s degree or higher in Accounting or Finance.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2432,
+        "end": 2485
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-38",
+      "text": "7+ years of experience in billing operations, order management, order-to-cash, revenue operations, or a related finance function, including hands-on ownership of enterprise SaaS or subscription billing",
+      "source_span": "7+ years of experience in billing operations, order management, order-to-cash, revenue operations, or a related finance function, including hands-on ownership of enterprise SaaS or subscription billing.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2490,
+        "end": 2692
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-39",
+      "text": "Demonstrated ability to interpret complex customer agreements and translate them into accurate billing schedules, invoices, and adjustments, including subscription and usage-based arrangements",
+      "source_span": "Demonstrated ability to interpret complex customer agreements and translate them into accurate billing schedules, invoices, and adjustments, including subscription and usage-based arrangements.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2716,
+        "end": 2909
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-40",
+      "text": "Hands-on experience with NetSuite",
+      "source_span": "Hands-on experience with NetSuite",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2935,
+        "end": 2968
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-41",
+      "text": "Hands-on experience with Salesforce",
+      "source_span": "Salesforce",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2970,
+        "end": 2980
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-42",
+      "text": "Working knowledge of accounts receivable",
+      "source_span": "Working knowledge of accounts receivable",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3140,
+        "end": 3180
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-43",
+      "text": "Working knowledge of deferred revenue",
+      "source_span": "deferred revenue",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3182,
+        "end": 3198
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-44",
+      "text": "Working knowledge of revenue-recognition concepts",
+      "source_span": "revenue-recognition concepts",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3204,
+        "end": 3232
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-45",
+      "text": "Working knowledge of ASC 606",
+      "source_span": "ASC 606",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3244,
+        "end": 3251
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-46",
+      "text": "Resourcefulness",
+      "source_span": "Resourcefulness",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3257,
+        "end": 3272
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-47",
+      "text": "Be detail-oriented",
+      "source_span": "detail-oriented",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3274,
+        "end": 3289
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-48",
+      "text": "Motivation for solving problems and finding solutions",
+      "source_span": "a motivation for solving problems and finding solutions",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3294,
+        "end": 3349
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-49",
+      "text": "Excellent communication skills",
+      "source_span": "Excellent communication skills",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3355,
+        "end": 3385
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-50",
+      "text": "Ability to multi-task and prioritize effectively in a fast-paced environment",
+      "source_span": "Ability to multi-task and prioritize effectively in a fast-paced environment",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3478,
+        "end": 3554
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

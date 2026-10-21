@@ -2,73 +2,96 @@
   "collect": {
     "stage": "collect",
     "in": 102,
-    "out": 295,
+    "out": 292,
     "failed": 0,
     "notes": [
-      "9236 jobs seen across 102 boards"
+      "9217 jobs seen across 102 boards"
     ],
-    "at": "2026-10-21T03:36:30.464Z"
+    "at": "2026-10-21T17:35:03.910Z"
   },
   "filter": {
     "stage": "filter",
-    "in": 295,
-    "out": 152,
+    "in": 292,
+    "out": 169,
     "notes": [
-      "94 companies",
+      "97 companies",
       "dropped 39: not US",
-      "dropped 62: older than 60 days",
-      "dropped 25: unclear title, not checked (no API key)",
-      "dropped 17: duplicate (merged)",
-      "25 unclear titles dropped: no ANTHROPIC_API_KEY for the Claude title check"
+      "dropped 66: older than 60 days",
+      "dropped 1: unclear title, LLM check said drop",
+      "dropped 17: duplicate (merged)"
     ],
-    "at": "2026-10-21T03:36:30.898Z"
+    "at": "2026-10-21T17:35:10.657Z"
   },
   "extract": {
     "stage": "extract",
-    "in": 10,
-    "out": 10,
+    "in": 169,
+    "out": 166,
+    "failed": 0,
     "notes": [
-      "fixture preview: hand labels, no model calls"
+      "3 dropped (non-USD)",
+      "new spend $0.00"
     ],
-    "at": "2026-10-21T04:09:50.823Z"
+    "at": "2026-10-21T17:57:44.868Z"
   },
   "match": {
     "stage": "match",
-    "in": 10,
-    "out": 10,
+    "in": 166,
+    "out": 165,
+    "failed": 1,
     "notes": [
-      "fixture preview: hand labels, no model calls"
+      "new spend $0.00"
     ],
-    "at": "2026-10-21T04:09:50.824Z"
+    "at": "2026-10-21T18:12:16.058Z"
   },
   "score": {
     "stage": "score",
-    "in": 10,
-    "out": 10,
+    "in": 166,
+    "out": 165,
     "notes": [
-      "10 companies",
-      "0 thin postings",
-      "9 with salary"
+      "95 companies",
+      "1 thin postings",
+      "149 with salary",
+      "no match labels for 23597d58012f47d6; skipped"
     ],
-    "at": "2026-10-21T04:09:50.828Z"
+    "at": "2026-10-21T18:12:16.109Z"
   },
   "publish": {
     "stage": "publish",
-    "in": 10,
-    "out": 10,
+    "in": 165,
+    "out": 165,
     "notes": [
-      "10 companies",
-      "139/139 duty spans located in posting text"
+      "95 companies",
+      "7027/7093 duty spans located in posting text"
     ],
-    "at": "2026-10-21T04:09:50.835Z"
+    "at": "2026-10-21T18:27:35.143Z"
   },
   "gaps": {
     "stage": "gaps",
-    "in": 51,
-    "out": 9,
+    "in": 3333,
+    "out": 20,
     "notes": [
-      "fixture preview: hand-assigned themes, no model calls"
+      "2957 canonical tasks",
+      "every uncovered duty sits in exactly one theme"
     ],
-    "at": "2026-10-21T04:09:50.829Z"
+    "at": "2026-10-21T18:26:08.241Z"
+  },
+  "news": {
+    "stage": "news",
+    "in": 322,
+    "out": 86,
+    "notes": [
+      "30 companies searched"
+    ],
+    "at": "2026-10-21T18:15:18.821Z"
+  },
+  "brief": {
+    "stage": "brief",
+    "in": 15,
+    "out": 15,
+    "failed": 0,
+    "notes": [
+      "every kept brief passed the fact check"
+    ],
+    "at": "2026-10-21T18:27:35.004Z"
   }
 }

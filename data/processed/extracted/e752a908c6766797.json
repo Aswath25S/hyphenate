@@ -1,0 +1,216 @@
+{
+  "posting_id": "e752a908c6766797",
+  "company": "Rent the Runway",
+  "domain": "renttherunway.com",
+  "title": "Staff Accountant",
+  "role_family": "GL",
+  "seniority": "mid",
+  "locations": [
+    "Brooklyn, NY (Rent the Runway HQ)",
+    "Brooklyn, NY, United States"
+  ],
+  "remote": "hybrid",
+  "salary": {
+    "min": 64397,
+    "max": 80496,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The anticipated base salary for this position is $64,397 - $80,496."
+  },
+  "erp": [],
+  "tools": [
+    "Excel"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "fast-paced",
+    "growing Accounting team",
+    "ongoing journal entries and accruals",
+    "large data sets",
+    "multiple tasks simultaneously"
+  ],
+  "duties": [
+    {
+      "duty_id": "e752a908c6766797-01",
+      "text": "Support the month end close",
+      "source_span": "Support the month end close",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e752a908c6766797-02",
+      "text": "Prepare ongoing journal entries for expense and balance sheet accounts",
+      "source_span": "preparing ongoing journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e752a908c6766797-03",
+      "text": "Prepare ongoing accruals for expense and balance sheet accounts",
+      "source_span": "and accruals for expense and balance sheet accounts",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e752a908c6766797-04",
+      "text": "Maintain weekly and monthly schedules",
+      "source_span": "Maintain weekly and monthly schedules",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e752a908c6766797-05",
+      "text": "Perform reconciliations of balance sheet accounts",
+      "source_span": "performing reconciliations of balance sheet accounts",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e752a908c6766797-06",
+      "text": "Investigate reporting discrepancies / anomalies",
+      "source_span": "Investigate reporting discrepancies / anomalies",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e752a908c6766797-07",
+      "text": "Communicate issues as they arise in a timely manner",
+      "source_span": "communicate issues as they arise in a timely manner",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e752a908c6766797-08",
+      "text": "Review invoices",
+      "source_span": "Review invoices",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e752a908c6766797-09",
+      "text": "Review expense reports",
+      "source_span": "expense reports",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e752a908c6766797-10",
+      "text": "Review capital expenditures as needed to ensure proper coding and accounting treatment by Accounts Payable",
+      "source_span": "and capital expenditures as needed to ensure proper coding and accounting treatment by Accounts Payable",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e752a908c6766797-11",
+      "text": "Liaise with business partners for proper accounting for accruals",
+      "source_span": "Liaise with business partners for proper accounting for accruals",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e752a908c6766797-12",
+      "text": "Assist in the preparation of support for the year-end financial statement audit",
+      "source_span": "Assist in the preparation of support for the year-end financial statement audit",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e752a908c6766797-13",
+      "text": "Assist in the preparation of support for any statutory audits that may arise",
+      "source_span": "as well as any statutory audits that may arise",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e752a908c6766797-14",
+      "text": "Support the planning and budgeting team during the planning and budgeting processes",
+      "source_span": "Support the planning and budgeting team during the planning and budgeting processes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e752a908c6766797-15",
+      "text": "Compile ad-hoc reports",
+      "source_span": "compiling ad-hoc reports",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e752a908c6766797-16",
+      "text": "Compile schedules",
+      "source_span": "and schedules",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e752a908c6766797-17",
+      "text": "Assist in special projects as assigned",
+      "source_span": "Assist in special projects as assigned",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e752a908c6766797-18",
+      "text": "Bachelor’s degree in accounting",
+      "source_span": "You have a Bachelor’s degree in accounting",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e752a908c6766797-19",
+      "text": "2+ years of relevant accounting experience in either public accounting and/or relevant private industry experience",
+      "source_span": "You have 2+ years of relevant accounting experience in either public accounting and/or relevant private industry experience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e752a908c6766797-20",
+      "text": "Highly organized detail-oriented self-starter with the ability to work independently and within a team environment",
+      "source_span": "You are a highly organized detail-oriented self-starter with the ability to work independently and within a team environment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e752a908c6766797-21",
+      "text": "Exceptional Excel skills and comfort with analyzing and manipulating large data sets",
+      "source_span": "You have exceptional Excel skills and are comfortable with analyzing and manipulating large data sets",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e752a908c6766797-22",
+      "text": "Execute and follow-through on multiple tasks simultaneously",
+      "source_span": "You can execute and follow-through on multiple tasks simultaneously",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e752a908c6766797-23",
+      "text": "Experience with a major ERP system preferred",
+      "source_span": "You have experience with a major ERP system preferred",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e752a908c6766797-24",
+      "text": "Strong work ethic and a can-do positive attitude",
+      "source_span": "You have a strong work ethic and a can-do positive attitude",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-09-08T16:11:53-04:00",
+  "source_url": "https://job-boards.greenhouse.io/renttherunway/jobs/8186905",
+  "fetched_at": "2026-10-21T17:34:18.759Z",
+  "prompt_version": "extract-v1",
+  "text": "About Us:\n\nRent the Runway (RTR) is transforming the way we get dressed by pioneering the world’s first Closet in the Cloud. Founded in 2009, RTR has disrupted the $2.4 trillion fashion industry by inspiring women with a more joyful, sustainable and financially-savvy way to feel their best every day. As the ultimate destination for circular fashion, the brand now offers infinite points of access to its shared closet via a fully customizable subscription to fashion, one-time rental or ownership. RTR offers designer apparel and accessories from hundreds of brand partners and has built in-house proprietary technology and a one-of-a-kind reverse logistics operation. RTR has been named to CNBC’s “Disruptor 50” five times in ten years, and has been placed on Fast Company’s Most Innovative Companies list multiple times.\n\nAbout the Job:\n\nAs the Staff Accountant, you will play a key role in the day-to-day operations of our growing Accounting team, reporting directly to the Accounting Manager. You’ll have an exciting opportunity to support the month end close for a fast-paced, extremely successful and high energy company.\n\nWhat You’ll Do:\n\n• Support the month end close by preparing ongoing journal entries and accruals for expense and balance sheet accounts\n\n• Maintain weekly and monthly schedules performing reconciliations of balance sheet accounts\n\n• Investigate reporting discrepancies / anomalies and communicate issues as they arise in a timely manner\n\n• Review invoices, expense reports, and capital expenditures as needed to ensure proper coding and accounting treatment by Accounts Payable\n\n• Liaise with business partners for proper accounting for accruals\n\n• Assist in the preparation of support for the year-end financial statement audit, as well as any statutory audits that may arise\n\n• Support the planning and budgeting team during the planning and budgeting processes by compiling ad-hoc reports and schedules\n\n• Assist in special projects as assigned\n\nAbout you:\n\n• You have a Bachelor’s degree in accounting\n\n• You have 2+ years of relevant accounting experience in either public accounting and/or relevant private industry experience\n\n• You are a highly organized detail-oriented self-starter with the ability to work independently and within a team environment\n\n• You have exceptional Excel skills and are comfortable with analyzing and manipulating large data sets\n\n• You can execute and follow-through on multiple tasks simultaneously\n\n• You have experience with a major ERP system preferred\n\n• You have a strong work ethic and a can-do positive attitude\n\nBenefits:\n\nAt Rent the Runway, we’re committed to the wellbeing of our employees, and aim to create a workplace that fosters both personal and professional growth. Our inclusive benefits include, but are not limited to:\n\n• Paid Time Off including vacation, paid bereavement, and family sick leave - every employee needs time to take care of themselves and their family.\n\n• Universal Paid Parental Leave for both parents + flexible return to work program - because we know your newest family member(s) deserve your undivided attention.\n\n• Paid Sabbatical after 5 years of continuous service - Unplug, recharge, and have some fun!\n\n• Exclusive employee subscription and rental discounts - to ensure you experience the magic of renting the runway (and give us valued feedback!).\n\n• Comprehensive health, vision, dental, FSA and dependent care from day 1 of employment - Your health comes first and we’ve got you covered.\n\n• 401k match - an investment in your future.\n\n• Company wide events and outings - our team spirit is no joke - we know how to have fun!\n\n• Hybrid Work - our Accounting employees have the option to work remotely 2 days a week, in accordance with Company policies.\n\nRent the Runway is an equal opportunity employer. In accordance with applicable law, we prohibit discrimination against any applicant or employee based on any legally-recognized basis, including, but not limited to: race, color, religion, sex (including pregnancy, lactation, childbirth or related medical conditions), sexual orientation, gender identity, age (40 and over), national origin or ancestry, citizenship status, physical or mental disability, genetic information (including testing and characteristics), veteran status, uniformed service member status or any other status protected by federal, state or local law.\n\n_________\n\nThe anticipated base salary for this position is $64,397 - $80,496. The actual base salary offered will depend on a variety of factors, including without limitation, the qualifications of the individual applicant for the position, years of relevant experience, level of education attained, certifications or other professional licenses held.\n\nBy submitting your application below, you agree that you have read and acknowledge Rent the Runway's Candidate Privacy Policy, found here.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

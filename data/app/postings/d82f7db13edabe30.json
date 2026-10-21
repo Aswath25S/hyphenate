@@ -1,0 +1,701 @@
+{
+  "posting_id": "d82f7db13edabe30",
+  "company": "Avetta",
+  "slug": "avetta",
+  "domain": "avetta.com",
+  "title": "Billing Specialist (B2B)",
+  "role_family": "AR",
+  "seniority": "mid",
+  "n": 19,
+  "C": 6,
+  "A": 0,
+  "covered_share": 0.3157894736842105,
+  "overlap": 0.3157894736842105,
+  "weighted_overlap": 0.3157894736842105,
+  "thin": false,
+  "salary_min": null,
+  "salary_max": null,
+  "salary_varies": false,
+  "salary_source": null,
+  "savings": null,
+  "savings_reason": "no_salary",
+  "lead_product": "Order-to-cash",
+  "product_split": {
+    "Order-to-cash": {
+      "covered": 5,
+      "assisted": 0,
+      "weighted": 5
+    },
+    "GL accounting": {
+      "covered": 1,
+      "assisted": 0,
+      "weighted": 1
+    }
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Onsite",
+    "Zuora",
+    "Salesforce",
+    "Jira",
+    "Excel",
+    "Word",
+    "Outlook",
+    "CoPilot",
+    "Adobe Acrobat"
+  ],
+  "posted_at": "2026-10-20T13:03:20-04:00",
+  "source_url": "https://www.avetta.com/careers/job?gh_jid=8039244003",
+  "locations": [
+    "Lehi, Utah, United States"
+  ],
+  "remote": "hybrid",
+  "excluded": null,
+  "text": "Avetta is building the largest global community of hiring clients and suppliers that are Ready to Work. Its unified platform streamlines compliance, prequalification, safety and performance benchmarking in a single, integrated experience. Trusted by 360,000 businesses across more than 120 countries, Avetta blends AI-driven insights and human expertise to close risk gaps and strengthen supplier reliability so projects start on time, risks are managed proactively and operations scale with certainty.\n\nThis position is hybrid in our Lehi, UT office (3 days in office, 2 days work from home)\n\nSUMMARY\n\nThe Billing Specialist is responsible for executing billing operations supporting our Australian business unit, ensuring accurate, timely invoicing and effective resolution of discrepancies. This role plays a critical part in revenue accuracy by maintaining high-quality billing records and supporting month-end close activities in a fast-paced, high-volume environment with the ability to collaborate effectively across departments.\n\nThis U.S. based role requires occasional collaboration with Australian counterparts, including participation in occasional meetings outside standard U.S. business hours.\n\nESSENTIAL DUTIES AND RESPONSIBILITIES:\n\n• Process, review and issue a high volume of invoices and credit adjustments ensuring accuracy, timeliness and proper documentation.\n\n• Perform data entry, validation, and reconciliation, including cross-system checks to maintain complete and accurate billing records.\n\n• Execute month-end close activities, including reconciliations across billing and financial systems.\n\n• Collaborate cross-functionally (customers, sales, customer service, account managers, and accounting) to ensure accurate subscription billing and proper revenue recognition.\n\n• Manage billing inquiries and escalations via email, phone, Salesforce, and Jira, delivering timely, professional, and solution-oriented resolutions.\n\n• Participate in Australian time zone meetings and contribute to project coordination efforts to proactively improve billing operations and efficiency.\n\n• Utilize financial systems and tools (NetSuite, Onsite, Zuora) to support billing operations and process improvements.\n\nIDEAL EXPERIENCE, EDUCATION & TRAINING:\n\n• Minimum of 3 years of experience in billing, accounting, or related financial operations.\n\n• Exceptional attention to detail and accuracy, with the ability to identify errors, perform reconciliations, validate data, and resolve billing discrepancies.\n\n• Ability to work independently with urgency and efficiency in a fast-paced environment.\n\n• Strong written and verbal communication skills, with the ability to collaborate cross-functionally, explain complex billing scenarios, and resolve disputes.\n\n• Proficiency in business tools, including Excel, Word, Outlook, CoPilot, and Adobe Acrobat.\n\n• Experience collaborating in meetings and on projects in a team-oriented environment.\n\n• Experience with financial systems, such as NetSuite, Zuora, or other subscription-based billing platforms.\n\n• Solid understanding of basic billing and accounting principles.\n\n#LI-Hybrid",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": null,
+    "max": null,
+    "period": null,
+    "currency": null,
+    "raw_text": null
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": true,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "high volume of invoices",
+    "fast-paced, high-volume environment",
+    "cross-system checks",
+    "billing inquiries and escalations"
+  ],
+  "fetched_at": "2026-10-21T17:34:53.006Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "d82f7db13edabe30-01",
+      "text": "Process a high volume of invoices",
+      "source_span": "Process, review and issue a high volume of invoices and credit adjustments ensuring accuracy, timeliness and proper documentation.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1251,
+        "end": 1381
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.invoicing",
+      "capability": "Create and send invoices, including usage-based billing",
+      "product": "Order-to-cash",
+      "confidence": 0.99,
+      "rationale": "Processing a high volume of invoices is the core invoicing workflow of creating and sending customer invoices.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-02",
+      "text": "Review a high volume of invoices",
+      "source_span": "Process, review and issue a high volume of invoices and credit adjustments ensuring accuracy, timeliness and proper documentation.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1251,
+        "end": 1381
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.87,
+      "rationale": "Reviewing invoices is repetitive invoice QA work, but no capability here covers invoice review as the primary action.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d82f7db13edabe30-03",
+      "text": "Issue a high volume of invoices",
+      "source_span": "Process, review and issue a high volume of invoices and credit adjustments ensuring accuracy, timeliness and proper documentation.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1251,
+        "end": 1381
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.invoicing",
+      "capability": "Create and send invoices, including usage-based billing",
+      "product": "Order-to-cash",
+      "confidence": 0.99,
+      "rationale": "Issuing a high volume of invoices directly matches creating and sending invoices.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-04",
+      "text": "Process credit adjustments",
+      "source_span": "Process, review and issue a high volume of invoices and credit adjustments ensuring accuracy, timeliness and proper documentation.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1251,
+        "end": 1381
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.orders_refunds",
+      "capability": "Process orders, refunds and sales triage",
+      "product": "Order-to-cash",
+      "confidence": 0.95,
+      "rationale": "Processing credit adjustments aligns with processing customer credits and invoice adjustments.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-05",
+      "text": "Review credit adjustments",
+      "source_span": "Process, review and issue a high volume of invoices and credit adjustments ensuring accuracy, timeliness and proper documentation.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1251,
+        "end": 1381
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.83,
+      "rationale": "Reviewing credit adjustments is a rules-based review step that is not covered by a specific capability.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d82f7db13edabe30-06",
+      "text": "Issue credit adjustments",
+      "source_span": "Process, review and issue a high volume of invoices and credit adjustments ensuring accuracy, timeliness and proper documentation.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1251,
+        "end": 1381
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.invoicing",
+      "capability": "Create and send invoices, including usage-based billing",
+      "product": "Order-to-cash",
+      "confidence": 0.96,
+      "rationale": "Issuing credit adjustments matches issuing invoice adjustments and credit memos.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-07",
+      "text": "Perform data entry",
+      "source_span": "Perform data entry, validation, and reconciliation, including cross-system checks to maintain complete and accurate billing records.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1385,
+        "end": 1517
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Data entry is repetitive back-office work with no direct matching capability in the map.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d82f7db13edabe30-08",
+      "text": "Perform validation",
+      "source_span": "Perform data entry, validation, and reconciliation, including cross-system checks to maintain complete and accurate billing records.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1385,
+        "end": 1517
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Validation is generic rules-based checking that does not map cleanly to a listed capability.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d82f7db13edabe30-09",
+      "text": "Perform reconciliation",
+      "source_span": "Perform data entry, validation, and reconciliation, including cross-system checks to maintain complete and accurate billing records.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1385,
+        "end": 1517
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.89,
+      "rationale": "Performing reconciliation is repetitive finance work, but the duty is too generic to match a specific reconciliation capability.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d82f7db13edabe30-10",
+      "text": "Perform cross-system checks to maintain complete and accurate billing records",
+      "source_span": "Perform data entry, validation, and reconciliation, including cross-system checks to maintain complete and accurate billing records.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1385,
+        "end": 1517
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Cross-system checks to keep billing records accurate are validation/reconciliation work not covered by a specific capability.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d82f7db13edabe30-11",
+      "text": "Execute month-end close activities",
+      "source_span": "Execute month-end close activities, including reconciliations across billing and financial systems.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1521,
+        "end": 1620
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.close_checklist",
+      "capability": "Run month-end close checklist tasks",
+      "product": "GL accounting",
+      "confidence": 0.98,
+      "rationale": "Executing month-end close activities matches running month-end close checklist tasks.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-12",
+      "text": "Perform reconciliations across billing and financial systems",
+      "source_span": "Execute month-end close activities, including reconciliations across billing and financial systems.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1521,
+        "end": 1620
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Reconciling billing and financial systems is a reconciliation task, but no listed capability covers this specific cross-system billing reconciliation.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "d82f7db13edabe30-13",
+      "text": "Collaborate cross-functionally to ensure accurate subscription billing",
+      "source_span": "Collaborate cross-functionally (customers, sales, customer service, account managers, and accounting) to ensure accurate subscription billing and proper revenue recognition.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1624,
+        "end": 1797
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Collaborating cross-functionally is relationship and coordination work rather than an automated finance-operation task.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "d82f7db13edabe30-14",
+      "text": "Collaborate cross-functionally to ensure proper revenue recognition",
+      "source_span": "Collaborate cross-functionally (customers, sales, customer service, account managers, and accounting) to ensure accurate subscription billing and proper revenue recognition.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1624,
+        "end": 1797
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Cross-functional collaboration on revenue recognition requires human coordination and judgment.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "d82f7db13edabe30-15",
+      "text": "Manage billing inquiries via email, phone, Salesforce, and Jira",
+      "source_span": "Manage billing inquiries and escalations via email, phone, Salesforce, and Jira, delivering timely, professional, and solution-oriented resolutions.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1801,
+        "end": 1949
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.orders_refunds",
+      "capability": "Process orders, refunds and sales triage",
+      "product": "Order-to-cash",
+      "confidence": 0.91,
+      "rationale": "Managing billing inquiries from customers and sales matches resolving billing inquiries and order/billing triage.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-16",
+      "text": "Manage billing escalations via email, phone, Salesforce, and Jira",
+      "source_span": "Manage billing inquiries and escalations via email, phone, Salesforce, and Jira, delivering timely, professional, and solution-oriented resolutions.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1801,
+        "end": 1949
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Managing billing escalations is escalation handling and cross-team coordination, which is human work.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d82f7db13edabe30-17",
+      "text": "Participate in Australian time zone meetings",
+      "source_span": "Participate in Australian time zone meetings and contribute to project coordination efforts to proactively improve billing operations and efficiency.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1953,
+        "end": 2102
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Participating in time-zone meetings is a human coordination activity, not a finance-operations capability.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "d82f7db13edabe30-18",
+      "text": "Contribute to project coordination efforts",
+      "source_span": "Participate in Australian time zone meetings and contribute to project coordination efforts to proactively improve billing operations and efficiency.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1953,
+        "end": 2102
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.76,
+      "rationale": "Contributing to project coordination is too vague to map to a specific finance-operation capability.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "d82f7db13edabe30-19",
+      "text": "Utilize financial systems and tools (NetSuite, Onsite, Zuora) to support billing operations and process improvements",
+      "source_span": "Utilize financial systems and tools (NetSuite, Onsite, Zuora) to support billing operations and process improvements.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2106,
+        "end": 2223
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.74,
+      "rationale": "Using financial systems and tools to support billing operations and process improvements is too broad to classify cleanly.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "d82f7db13edabe30-20",
+      "text": "Minimum of 3 years of experience in billing, accounting, or related financial operations",
+      "source_span": "Minimum of 3 years of experience in billing, accounting, or related financial operations.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2268,
+        "end": 2357
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-21",
+      "text": "Exceptional attention to detail and accuracy",
+      "source_span": "Exceptional attention to detail and accuracy, with the ability to identify errors, perform reconciliations, validate data, and resolve billing discrepancies.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2361,
+        "end": 2518
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-22",
+      "text": "Ability to work independently with urgency and efficiency in a fast-paced environment",
+      "source_span": "Ability to work independently with urgency and efficiency in a fast-paced environment.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2522,
+        "end": 2608
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-23",
+      "text": "Strong written and verbal communication skills",
+      "source_span": "Strong written and verbal communication skills, with the ability to collaborate cross-functionally, explain complex billing scenarios, and resolve disputes.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2612,
+        "end": 2768
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-24",
+      "text": "Proficiency in business tools, including Excel, Word, Outlook, CoPilot, and Adobe Acrobat",
+      "source_span": "Proficiency in business tools, including Excel, Word, Outlook, CoPilot, and Adobe Acrobat.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2772,
+        "end": 2862
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-25",
+      "text": "Experience collaborating in meetings and on projects in a team-oriented environment",
+      "source_span": "Experience collaborating in meetings and on projects in a team-oriented environment.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2866,
+        "end": 2950
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-26",
+      "text": "Experience with financial systems, such as NetSuite, Zuora, or other subscription-based billing platforms",
+      "source_span": "Experience with financial systems, such as NetSuite, Zuora, or other subscription-based billing platforms.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2954,
+        "end": 3060
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-27",
+      "text": "Solid understanding of basic billing and accounting principles",
+      "source_span": "Solid understanding of basic billing and accounting principles.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3064,
+        "end": 3127
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

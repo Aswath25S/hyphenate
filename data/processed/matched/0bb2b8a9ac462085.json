@@ -1,0 +1,366 @@
+{
+  "posting_id": "0bb2b8a9ac462085",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "0bb2b8a9ac462085-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Leading end-to-end accounting for acquired businesses is function leadership and coordination rather than a discrete automatable accounting task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-02",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.95,
+      "rationale": "Managing the monthly and quarterly close matches running the close checklist and calendar end to end.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-03",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.98,
+      "rationale": "Preparing reconciliations is the core work of balance-sheet account reconciliations.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-04",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.97,
+      "rationale": "Preparing journal entries matches journal-entry preparation, which is assisted rather than fully covered.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-05",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.76,
+      "rationale": "Preparing supporting schedules is documentation that supports entries and audits.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Documenting accounting conclusions depends on accounting judgment and memo-level reasoning.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-07",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.96,
+      "rationale": "Preparing control documentation matches maintaining documentation of key controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Managing accounting and finance operations integrations is a cross-functional implementation effort, not a discrete platform task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Designing processes is process design and judgment, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-10",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.61,
+      "rationale": "Mapping systems and data is too vague to match a specific covered capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-11",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.63,
+      "rationale": "Managing subledger flows is broad and does not clearly map to a specific subledger or close capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Managing cross-functional handoffs is coordination with other teams, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-13",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.64,
+      "rationale": "Preparing transition readiness is a vague project activity without a direct capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Leading accounting operations for acquired businesses is leadership and oversight rather than an automatable task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Managing AR/AP accounting is broad function management rather than a single covered workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Designing an accounting structure is policy and framework design, which is human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.69,
+      "rationale": "Design data is too vague to identify a specific finance operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-18",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.88,
+      "rationale": "Preparing subledger journals is a form of journal-entry preparation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-19",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.84,
+      "rationale": "Preparing reporting outputs for the business and FP&A matches building management reports.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Providing accounting leadership is a leadership and advisory duty, not a platform task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Managing revenue accounting is function oversight and policy execution beyond the platform's core workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Managing receivables accounting is broader oversight of AR work rather than a single automatable action.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Managing partner activity is relationship coordination, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Managing related platform accounting processes is broad operational management without a specific capability match.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-25",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.97,
+      "rationale": "Preparing flux analytics matches variance analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-26",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.93,
+      "rationale": "Reviewing variance analytics still centers on variance analysis, which fits flux analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Communicating drivers and risks to leadership and stakeholders is presentation and advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Supporting future M&A accounting is an advisory project activity rather than a defined platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Providing diligence input is advisory work for a transaction process.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-30",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.66,
+      "rationale": "Close-readiness is too vague and project-oriented to map cleanly to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-31",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Aligning policies and controls is policy-setting and coordination, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-32",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Integrating systems and data is an implementation project, not a discrete finance-operation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-33",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.62,
+      "rationale": "Supporting post-close accounting operations is too broad to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-34",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Developing scalable policies is policy design and judgment, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-35",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.91,
+      "rationale": "Developing close calendars matches managing the close checklist and calendar.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-36",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Developing reconciliations is designing the reconciliation approach rather than performing the reconciliation itself.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-37",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Developing controls is control design, which requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-38",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Developing process documentation is documentation and process design work handled by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-39",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with other teams and auditors is relationship management and collaboration.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-40",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Complying with laws and regulations is a broad requirement rather than a specific operational duty.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

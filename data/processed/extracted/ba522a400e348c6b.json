@@ -1,0 +1,630 @@
+{
+  "posting_id": "ba522a400e348c6b",
+  "company": "Shield AI",
+  "domain": "shield.ai",
+  "title": "Senior Manager, Corporate Finance (R5631)",
+  "role_family": "Reporting_FPA",
+  "seniority": "manager",
+  "locations": [
+    "San Mateo, California"
+  ],
+  "remote": "unknown",
+  "salary": {
+    "min": 170000,
+    "max": 250000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "170000–250000 USD per year"
+  },
+  "erp": [],
+  "tools": [
+    "Excel",
+    "Anaplan",
+    "Pigment",
+    "Adaptive"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "reduce manual work",
+    "evolve planning from Excel into modern cloud-based planning tools",
+    "fast-paced, high growth environment",
+    "high complexity, high visibility, high impact"
+  ],
+  "duties": [
+    {
+      "duty_id": "ba522a400e348c6b-01",
+      "text": "Architect and maintain a fully integrated, scalable, three statement model grounded in operational drivers, unit economics, and industry benchmarks.",
+      "source_span": "Architect and maintain a fully integrated, scalable, three statement model grounded in operational drivers, unit economics, and industry benchmarks.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-02",
+      "text": "Own consolidated planning across the P&L, balance sheet, and cash flow.",
+      "source_span": "Own consolidated planning and end-to-end line-item ownership across the P&L, balance sheet, and cash flow—including equity planning (stock-based comp, share count, dilution, and equity roll-forward).",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-03",
+      "text": "Own equity planning (stock-based comp, share count, dilution, and equity roll-forward).",
+      "source_span": "Own consolidated planning and end-to-end line-item ownership across the P&L, balance sheet, and cash flow—including equity planning (stock-based comp, share count, dilution, and equity roll-forward).",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-04",
+      "text": "Lead the Annual Operating Plan (AOP).",
+      "source_span": "Lead the Annual Operating Plan (AOP), including scenario modeling, sensitivities, and driver-based forecasting.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-05",
+      "text": "Perform scenario modeling.",
+      "source_span": "Lead the Annual Operating Plan (AOP), including scenario modeling, sensitivities, and driver-based forecasting.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-06",
+      "text": "Analyze sensitivities.",
+      "source_span": "Lead the Annual Operating Plan (AOP), including scenario modeling, sensitivities, and driver-based forecasting.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-07",
+      "text": "Perform driver-based forecasting.",
+      "source_span": "Lead the Annual Operating Plan (AOP), including scenario modeling, sensitivities, and driver-based forecasting.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-08",
+      "text": "Translate production ramps into financial outcomes.",
+      "source_span": "Translate production ramps, R&D investments, contract timing, government milestones, and GTM strategy directly into financial outcomes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-09",
+      "text": "Translate R&D investments into financial outcomes.",
+      "source_span": "Translate production ramps, R&D investments, contract timing, government milestones, and GTM strategy directly into financial outcomes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-10",
+      "text": "Translate contract timing into financial outcomes.",
+      "source_span": "Translate production ramps, R&D investments, contract timing, government milestones, and GTM strategy directly into financial outcomes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-11",
+      "text": "Translate government milestones into financial outcomes.",
+      "source_span": "Translate production ramps, R&D investments, contract timing, government milestones, and GTM strategy directly into financial outcomes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-12",
+      "text": "Translate GTM strategy into financial outcomes.",
+      "source_span": "Translate production ramps, R&D investments, contract timing, government milestones, and GTM strategy directly into financial outcomes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-13",
+      "text": "Maintain a forward-looking view of risks.",
+      "source_span": "Maintain a forward-looking view of risks, opportunities, capital needs, and strategic inflection points.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-14",
+      "text": "Maintain a forward-looking view of opportunities.",
+      "source_span": "Maintain a forward-looking view of risks, opportunities, capital needs, and strategic inflection points.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-15",
+      "text": "Maintain a forward-looking view of capital needs.",
+      "source_span": "Maintain a forward-looking view of risks, opportunities, capital needs, and strategic inflection points.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-16",
+      "text": "Maintain a forward-looking view of strategic inflection points.",
+      "source_span": "Maintain a forward-looking view of risks, opportunities, capital needs, and strategic inflection points.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-17",
+      "text": "Own the AOP process end to end.",
+      "source_span": "Own the AOP process end to end—calendar, templates, driver frameworks, consolidation, and executive review.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-18",
+      "text": "Own the AOP calendar.",
+      "source_span": "Own the AOP process end to end—calendar, templates, driver frameworks, consolidation, and executive review.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-19",
+      "text": "Own the AOP templates.",
+      "source_span": "Own the AOP process end to end—calendar, templates, driver frameworks, consolidation, and executive review.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-20",
+      "text": "Own the AOP driver frameworks.",
+      "source_span": "Own the AOP process end to end—calendar, templates, driver frameworks, consolidation, and executive review.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-21",
+      "text": "Own the AOP consolidation.",
+      "source_span": "Own the AOP process end to end—calendar, templates, driver frameworks, consolidation, and executive review.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-22",
+      "text": "Own the executive review.",
+      "source_span": "Own the AOP process end to end—calendar, templates, driver frameworks, consolidation, and executive review.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-23",
+      "text": "Partner with functional and business leaders to build bottoms-up budgets that reconcile to top-down targets.",
+      "source_span": "Partner with functional and business leaders to build bottoms-up budgets that reconcile to top-down targets.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-24",
+      "text": "Run the recurring forecast cycle.",
+      "source_span": "Run the recurring forecast cycle, connecting short-term forecasting with the long-range plan.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-25",
+      "text": "Connect short-term forecasting with the long-range plan.",
+      "source_span": "Run the recurring forecast cycle, connecting short-term forecasting with the long-range plan.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-26",
+      "text": "Take full accountability for forecast accuracy.",
+      "source_span": "Take full accountability for forecast accuracy, improving results with each actualized quarter.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-27",
+      "text": "Improve results with each actualized quarter.",
+      "source_span": "Take full accountability for forecast accuracy, improving results with each actualized quarter.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-28",
+      "text": "Build and own rolling cash flow forecasts across working capital, inventory, milestone payments, production cycles, and CapEx.",
+      "source_span": "Build and own rolling cash flow forecasts across working capital, inventory, milestone payments, production cycles, and CapEx.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-29",
+      "text": "Model government contract payment timing.",
+      "source_span": "Model government contract payment timing, production curves, and program cash profiles.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-30",
+      "text": "Model production curves.",
+      "source_span": "Model government contract payment timing, production curves, and program cash profiles.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-31",
+      "text": "Model program cash profiles.",
+      "source_span": "Model government contract payment timing, production curves, and program cash profiles.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-32",
+      "text": "Identify liquidity risks early.",
+      "source_span": "Identify liquidity risks early and support capital allocation and financing strategies.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-33",
+      "text": "Support capital allocation strategies.",
+      "source_span": "Identify liquidity risks early and support capital allocation and financing strategies.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-34",
+      "text": "Support financing strategies.",
+      "source_span": "Identify liquidity risks early and support capital allocation and financing strategies.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-35",
+      "text": "Own the creation of Board of Directors and eStaff QBR materials.",
+      "source_span": "Own the creation of Board of Directors and eStaff QBR materials—narratives, financial packages, and KPI dashboards.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-36",
+      "text": "Translate complex financial and operational results into clear, executive-ready insights.",
+      "source_span": "Translate complex financial and operational results into clear, executive-ready insights.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-37",
+      "text": "Deliver Board-ready plan-vs-actual analysis.",
+      "source_span": "Deliver Board-ready outputs including plan-vs-actual analysis, variance drivers, and strategic context.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-38",
+      "text": "Deliver Board-ready variance drivers.",
+      "source_span": "Deliver Board-ready outputs including plan-vs-actual analysis, variance drivers, and strategic context.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-39",
+      "text": "Deliver Board-ready strategic context.",
+      "source_span": "Deliver Board-ready outputs including plan-vs-actual analysis, variance drivers, and strategic context.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-40",
+      "text": "Partner with data engineering/systems teams to evolve planning from Excel into modern cloud-based planning tools.",
+      "source_span": "Partner with data engineering/systems teams to evolve planning from Excel into modern cloud-based planning tools.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-41",
+      "text": "Design modular, scalable model architectures.",
+      "source_span": "Design modular, scalable model architectures; use Excel only where it provides meaningful analytical leverage.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-42",
+      "text": "Use Excel only where it provides meaningful analytical leverage.",
+      "source_span": "Design modular, scalable model architectures; use Excel only where it provides meaningful analytical leverage.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-43",
+      "text": "Integrate automation to improve clarity.",
+      "source_span": "Integrate automation and analytics to improve clarity, reduce manual work, and increase decision velocity.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-44",
+      "text": "Integrate analytics to improve clarity.",
+      "source_span": "Integrate automation and analytics to improve clarity, reduce manual work, and increase decision velocity.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-45",
+      "text": "Reduce manual work.",
+      "source_span": "Integrate automation and analytics to improve clarity, reduce manual work, and increase decision velocity.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-46",
+      "text": "Increase decision velocity.",
+      "source_span": "Integrate automation and analytics to improve clarity, reduce manual work, and increase decision velocity.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-47",
+      "text": "Work closely with senior leaders on forward-looking financial planning and strategy.",
+      "source_span": "Work closely with senior leaders on forward-looking financial planning and strategy.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-48",
+      "text": "Translate engineering plans into financial impacts.",
+      "source_span": "Translate engineering, program, and operations plans into financial impacts.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-49",
+      "text": "Translate program plans into financial impacts.",
+      "source_span": "Translate engineering, program, and operations plans into financial impacts.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-50",
+      "text": "Translate operations plans into financial impacts.",
+      "source_span": "Translate engineering, program, and operations plans into financial impacts.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-51",
+      "text": "Develop a point of view on unit economics.",
+      "source_span": "Develop a point of view on unit economics, efficiency, scale, profitability, and capital allocation.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-52",
+      "text": "Develop a point of view on efficiency.",
+      "source_span": "Develop a point of view on unit economics, efficiency, scale, profitability, and capital allocation.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-53",
+      "text": "Develop a point of view on scale.",
+      "source_span": "Develop a point of view on unit economics, efficiency, scale, profitability, and capital allocation.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-54",
+      "text": "Develop a point of view on profitability.",
+      "source_span": "Develop a point of view on unit economics, efficiency, scale, profitability, and capital allocation.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-55",
+      "text": "Develop a point of view on capital allocation.",
+      "source_span": "Develop a point of view on unit economics, efficiency, scale, profitability, and capital allocation.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-56",
+      "text": "Present insights that accelerate execution and elevate decision quality.",
+      "source_span": "Present insights that accelerate execution and elevate decision quality.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-57",
+      "text": "We build advanced autonomous systems for defense markets—complex hardware and software products that demand world-class financial modeling, rigorous planning, and the ability to turn complexity into clarity.",
+      "source_span": "We build advanced autonomous systems for defense markets—complex hardware and software products that demand world-class financial modeling, rigorous planning, and the ability to turn complexity into clarity.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-58",
+      "text": "This is Corporate FP&A at its highest level: high complexity, high visibility, high impact—and a direct path to FP&A and finance leadership.",
+      "source_span": "This is Corporate FP&A at its highest level: high complexity, high visibility, high impact—and a direct path to FP&A and finance leadership.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-59",
+      "text": "Full-time regular employee offer package: Pay within range listed + Bonus + Benefits + Equity",
+      "source_span": "Full-time regular employee offer package:\nPay within range listed + Bonus + Benefits + Equity",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ba522a400e348c6b-60",
+      "text": "8–10 years of experience, including significant time in corporate FP&A.",
+      "source_span": "• 8–10 years of experience, including significant time in corporate FP&A.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-61",
+      "text": "Direct FP&A experience in a publicly traded company.",
+      "source_span": "• Direct FP&A experience in a publicly traded company.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-62",
+      "text": "Proven ownership of scalable three statement models, AOP and LRP development, consolidated planning, and line-item ownership (including equity planning).",
+      "source_span": "• Proven ownership of scalable three statement models, AOP and LRP development, consolidated planning, and line-item ownership (including equity planning).",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-63",
+      "text": "Ownership of the company cash model and liquidity forecasting.",
+      "source_span": "• Ownership of the company cash model and liquidity forecasting.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-64",
+      "text": "Exceptional Excel modeling capability.",
+      "source_span": "• Exceptional Excel modeling capability; fluent in multi scenario three statement modeling, beat-and-raise frameworks, and driver-based forecasting.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-65",
+      "text": "Fluent in multi scenario three statement modeling.",
+      "source_span": "• Exceptional Excel modeling capability; fluent in multi scenario three statement modeling, beat-and-raise frameworks, and driver-based forecasting.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-66",
+      "text": "Fluent in beat-and-raise frameworks.",
+      "source_span": "• Exceptional Excel modeling capability; fluent in multi scenario three statement modeling, beat-and-raise frameworks, and driver-based forecasting.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-67",
+      "text": "Fluent in driver-based forecasting.",
+      "source_span": "• Exceptional Excel modeling capability; fluent in multi scenario three statement modeling, beat-and-raise frameworks, and driver-based forecasting.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-68",
+      "text": "Strong GAAP proficiency and command of financial statement mechanics.",
+      "source_span": "• Strong GAAP proficiency and command of financial statement mechanics.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-69",
+      "text": "Demonstrated ability to build Board- and executive-ready materials and distill complex financial and technical information into clear insights for executives and the Board.",
+      "source_span": "• Demonstrated ability to build Board- and executive-ready materials and distill complex financial and technical information into clear insights for executives and the Board.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-70",
+      "text": "Thrives in fast-paced, high-growth environments with high accuracy and strong judgment.",
+      "source_span": "• Thrives in fast-paced, high-growth environments with high accuracy and strong judgment.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-71",
+      "text": "Systems-oriented mindset.",
+      "source_span": "• Systems-oriented mindset; comfortable partnering with data and systems teams.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-72",
+      "text": "Comfortable partnering with data and systems teams.",
+      "source_span": "• Systems-oriented mindset; comfortable partnering with data and systems teams.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-73",
+      "text": "Familiarity with government contract economics, milestone based revenue, and program accounting.",
+      "source_span": "• Familiarity with government contract economics, milestone based revenue, and program accounting.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-74",
+      "text": "Experience with equity / stock-based comp planning and share count and dilution modeling.",
+      "source_span": "• Experience with equity / stock-based comp planning and share count and dilution modeling.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-75",
+      "text": "Exposure to manufacturing scale, supply chain dynamics, and hardware production cycles.",
+      "source_span": "• Exposure to manufacturing scale, supply chain dynamics, and hardware production cycles.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-76",
+      "text": "Experience implementing or scaling cloud-based planning tools (e.g., Anaplan, Pigment, Adaptive).",
+      "source_span": "• Experience implementing or scaling cloud-based planning tools (e.g., Anaplan, Pigment, Adaptive).",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-77",
+      "text": "An analytical athlete with exceptional modeling intuition and attention to detail.",
+      "source_span": "• An analytical athlete with exceptional modeling intuition and attention to detail.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-78",
+      "text": "A structured, clear thinker who simplifies complexity without losing nuance.",
+      "source_span": "• A structured, clear thinker who simplifies complexity without losing nuance.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-79",
+      "text": "Fast, accurate, and calm under pressure.",
+      "source_span": "• Fast, accurate, and calm under pressure.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-80",
+      "text": "Curious, forward-looking, and driven to understand what truly moves the business.",
+      "source_span": "• Curious, forward-looking, and driven to understand what truly moves the business.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-81",
+      "text": "A strong communicator who elevates decision quality across the company.",
+      "source_span": "• A strong communicator who elevates decision quality across the company.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-82",
+      "text": "Mission-driven and energized by solving complex, high impact problems.",
+      "source_span": "• Mission-driven and energized by solving complex, high impact problems.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ba522a400e348c6b-83",
+      "text": "Shield AI is proud to be an equal opportunity workplace and is an affirmative action employer.",
+      "source_span": "Shield AI is proud to be an equal opportunity workplace and is an affirmative action employer.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    }
+  ],
+  "posted_at": "2026-09-09T05:43:05.478Z",
+  "source_url": "https://jobs.lever.co/shieldai/87f42524-d0dc-4969-b98c-82bcfa5fed05",
+  "fetched_at": "2026-10-21T17:34:01.258Z",
+  "prompt_version": "extract-v1",
+  "text": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Europe, the Middle East, and Asia-Pacific, Shield AI’s technology actively supports operations worldwide. For more information, visit www.shield.ai. Follow Shield AI on LinkedIn, X, Instagram, and YouTube. \n\n\nJob Description:\nWe build advanced autonomous systems for defense markets—complex hardware and software products that demand world-class financial modeling, rigorous planning, and the ability to turn complexity into clarity. \nWe seek a Senior Corporate FP&A Lead with deep 3 statement modeling experience, a strong corporate FP&A background in a publicly traded company, and a proven track record architecting and owning financial models and planning processes. You will serve as the analytical engine of Corporate FP&A: designing and owning the company’s fully integrated three statement and consolidated plan, leading the Annual Operating Plan (AOP), owning the company cash model, and producing Board- and Executive-ready outputs that shape decisions at the C-suite and Board level. \nCandidates must bring elite modeling expertise, mastery of complex HW/SW planning and unit economics, end-to-end ownership of the full planning cycle (AOP, forecast, long-range plan), and comfort operating in a fast-paced, high growth environment. This role has a natural path to FP&A and finance leadership as the company scales. \n\n\nWhat you'll do:\nOwn and Build the Financial Model & Consolidated Plan\n\n• Architect and maintain a fully integrated, scalable, three statement model grounded in operational drivers, unit economics, and industry benchmarks.\n\n• Own consolidated planning and end-to-end line-item ownership across the P&L, balance sheet, and cash flow—including equity planning (stock-based comp, share count, dilution, and equity roll-forward).\n\n• Lead the Annual Operating Plan (AOP), including scenario modeling, sensitivities, and driver-based forecasting.\n\n• Translate production ramps, R&D investments, contract timing, government milestones, and GTM strategy directly into financial outcomes.\n\n• Maintain a forward-looking view of risks, opportunities, capital needs, and strategic inflection points.\n\nLead the Annual Operating Plan (AOP) & Forecasting\n\n• Own the AOP process end to end—calendar, templates, driver frameworks, consolidation, and executive review.\n\n• Partner with functional and business leaders to build bottoms-up budgets that reconcile to top-down targets.\n\n• Run the recurring forecast cycle, connecting short-term forecasting with the long-range plan.\n\n• Take full accountability for forecast accuracy, improving results with each actualized quarter.\n\nOwn the Company Cash Model\n\n• Build and own rolling cash flow forecasts across working capital, inventory, milestone payments, production cycles, and CapEx.\n\n• Model government contract payment timing, production curves, and program cash profiles.\n\n• Identify liquidity risks early and support capital allocation and financing strategies.\n\nDrive Board & Executive Reporting\n\n• Own the creation of Board of Directors and eStaff QBR materials—narratives, financial packages, and KPI dashboards.\n\n• Translate complex financial and operational results into clear, executive-ready insights.\n\n• Deliver Board-ready outputs including plan-vs-actual analysis, variance drivers, and strategic context.\n\nDigitize & Scale Planning Infrastructure\n\n• Partner with data engineering/systems teams to evolve planning from Excel into modern cloud-based planning tools.\n\n• Design modular, scalable model architectures; use Excel only where it provides meaningful analytical leverage.\n\n• Integrate automation and analytics to improve clarity, reduce manual work, and increase decision velocity.\n\nPartner Across the Company\n\n• Work closely with senior leaders on forward-looking financial planning and strategy.\n\n• Translate engineering, program, and operations plans into financial impacts.\n\n• Develop a point of view on unit economics, efficiency, scale, profitability, and capital allocation.\n\n• Present insights that accelerate execution and elevate decision quality.\n\nRequired qualifications:\n• 8–10 years of experience, including significant time in corporate FP&A.\n\n• Direct FP&A experience in a publicly traded company.\n\n• Proven ownership of scalable three statement models, AOP and LRP development, consolidated planning, and line-item ownership (including equity planning).\n\n• Ownership of the company cash model and liquidity forecasting.\n\n• Exceptional Excel modeling capability; fluent in multi scenario three statement modeling, beat-and-raise frameworks, and driver-based forecasting.\n\n• Strong GAAP proficiency and command of financial statement mechanics.\n\n• Demonstrated ability to build Board- and executive-ready materials and distill complex financial and technical information into clear insights for executives and the Board.\n\n• Thrives in fast-paced, high-growth environments with high accuracy and strong judgment.\n\n• Systems-oriented mindset; comfortable partnering with data and systems teams.\n\nPreferred qualifications:\n• Familiarity with government contract economics, milestone based revenue, and program accounting.\n\n• Experience with equity / stock-based comp planning and share count and dilution modeling.\n\n• Exposure to manufacturing scale, supply chain dynamics, and hardware production cycles.\n\n• Experience implementing or scaling cloud-based planning tools (e.g., Anaplan, Pigment, Adaptive).\n\nWho you are:\n• An analytical athlete with exceptional modeling intuition and attention to detail.\n\n• A structured, clear thinker who simplifies complexity without losing nuance.\n\n• Fast, accurate, and calm under pressure.\n\n• Curious, forward-looking, and driven to understand what truly moves the business.\n\n• A strong communicator who elevates decision quality across the company.\n\n• Mission-driven and energized by solving complex, high impact problems.\n\nWhy this role matters:\nYou will build and own the financial model and consolidated plan that define how the business is understood—internally, at the eStaff level, and at the Board. Your work will guide the AOP, capital allocation, cash strategy, investments, and long-range ambitions. This is Corporate FP&A at its highest level: high complexity, high visibility, high impact—and a direct path to FP&A and finance leadership.\n\n#LI-TF1\n#LE\n\n\nFull-time regular employee offer package:\nPay within range listed + Bonus + Benefits + Equity\n \nTemporary employee offer package:\nPay within range listed above + temporary benefits package (applicable after 60 days of employment)\n \nSalary compensation is influenced by a wide array of factors including but not limited to skill set, level of experience, licenses and certifications, and specific work location. All offers are contingent on a cleared background and possible reference check. Military fellows and part-time employees are not eligible for benefits. Please speak to your talent acquisition representative for more information.\n \n###\n \nShield AI is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, marital status, disability, gender identity or Veteran status. If you have a disability or special need that requires accommodation, please let us know. \n",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "lever"
+}

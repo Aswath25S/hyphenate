@@ -1,0 +1,204 @@
+{
+  "posting_id": "2696e80a70c64392",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "2696e80a70c64392-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Managing bi-weekly and off-cycle payroll runs is payroll processing, which is repetitive rules-based work not covered in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Reconciling payroll runs is payroll-specific reconciliation work that has no matching capability in the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Owning the Workday time tracking module is system administration work for timekeeping, which is not covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Administering the Workday time tracking module is repetitive payroll-adjacent administration with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Ensuring timecards are submitted and approved on time is timekeeping administration, which is not in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Processing leave of absence amounts is payroll calculation work that is not covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Processing fringe benefits is payroll benefits administration, which has no matching capability here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Processing equity transactions is stock compensation/equity accounting, which is explicitly outside the listed subledger capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Processing 401K and Roth contributions is payroll deductions work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Liaising with the ADP support team is external coordination and relationship management rather than platform-executable work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Liaising with the ADP support team on taxes is external coordination work, which is human relationship management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Liaising with the ADP support team on net pay is external coordination and support interaction, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Collaborating with the People team to improve payroll workflows is cross-functional partnership and process improvement work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Collaborating with the Finance team to improve payroll workflows is cross-functional partnership work rather than a platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Collaborating with external payroll partners to improve workflows is relationship-driven coordination work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Serving as the first point of contact for payroll inquiries is employee support and relationship management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Generating payroll reports in Workday is reporting work, but payroll reporting is not one of the listed finance-reporting capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "Analyzing payroll reports is analytics work, but the map does not include payroll-specific analysis.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Reconciling payroll journal entries is accounting work, but the listed journal-entry capability is about preparing and posting entries rather than payroll reconciliation specifically.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-20",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.94,
+      "rationale": "Preparing month-end payroll journal entries matches journal entry preparation, which is listed as an assisted GL capability.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-21",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.97,
+      "rationale": "Assisting with balance sheet reconciliations matches balance-sheet account reconciliation work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2696e80a70c64392-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Serving as additional support to the Senior Payroll Analyst is too vague to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

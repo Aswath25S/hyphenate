@@ -1,0 +1,429 @@
+{
+  "posting_id": "f9bd532afd598e4e",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "f9bd532afd598e4e-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Executing end-to-end payroll is payroll processing work, but no covered capability includes running payroll itself.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "Managing EOR and contractor arrangements is administrative external-worker administration with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Processing off-cycle and correction payroll runs is payroll processing not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Processing retroactive pay is a payroll run activity with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Processing sign-on bonuses is payroll administration, which is not a covered capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Processing commissions is explicitly outside the listed capabilities and is a repetitive payroll calculation.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Processing garnishments is payroll processing not covered in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Processing short-term disability payments is payroll/benefits administration with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Processing long-term disability payments is payroll/benefits administration with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Processing state disability payments is payroll/benefits administration with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Managing relationships with external payroll, EOR, and benefits platforms is vendor relationship work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Managing SLA performance with external providers is relationship and vendor management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Establishing SOPs is setting process policy, which is a human judgment activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Establishing internal controls is designing control policy rather than executing a covered task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Establishing variance reporting standards is setting reporting policy and standards.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Ensuring precision in period-over-period payroll is quality control over payroll calculations with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Ensuring precision in off-cycle adjustments is payroll processing QA not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Ensuring precision in FX reconciliations is a reconciliation task but not one of the listed treasury or GL capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Supporting annual payroll compliance reporting is payroll tax/compliance work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Preparing W-2s is statutory payroll tax form preparation, which is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-21",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Reviewing W-2s is a payroll compliance review step with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-22",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Auditing W-2s is payroll compliance audit work outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-23",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Managing payroll tax registrations is tax registration administration, which is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-24",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Managing agency notices is tax notice administration with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Managing quarterly amendments is payroll tax amendment work not covered in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-26",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Managing unemployment claims is payroll compliance administration with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-27",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Managing year-end corrections is payroll correction work not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Overseeing governance for retirement programs is policy and governance work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-29",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Overseeing funding for retirement programs is a funding/payment administration task with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-30",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Overseeing retirement program reconciliation is a specialized reconciliation task not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-31",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Resolving complex regulatory or provider challenges requires human judgment and external coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-32",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with People Ops on tax compliance is cross-functional advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-33",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with People Ops on tax compliance for Carta transactions is cross-functional advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-34",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with People Ops on sign-on bonus tax compliance is cross-functional advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-35",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with People Ops on garnishment tax compliance is cross-functional advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-36",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Partnering with People Ops on short-term disability tax compliance is cross-functional advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-37",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Partnering with People Ops on long-term disability tax compliance is cross-functional advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-38",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Partnering with People Ops on state disability tax compliance is cross-functional advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-39",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Managing employee stipends is payroll/benefits administration with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-40",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Managing expense reimbursements is an AP/employee expense process not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-41",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.84,
+      "rationale": "Supporting accruals for commissions fits accrual estimation work, though it is not fully end-to-end.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-42",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.86,
+      "rationale": "Supporting accruals for bonuses fits accrual estimation work, though it requires judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-43",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.82,
+      "rationale": "Supporting accruals for payroll taxes fits accrual estimation work, though it is not a full close process.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-44",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.81,
+      "rationale": "Supporting accruals for benefits fits accrual estimation work, though it needs payroll input.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-45",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.92,
+      "rationale": "Ensuring accuracy of payroll-related balance sheet accounts is balance-sheet account reconciliation work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-46",
+      "label": "assisted",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.74,
+      "rationale": "Supporting monthly reconciliations matches account reconciliation work but is phrased as partial support.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f9bd532afd598e4e-47",
+      "label": "assisted",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.74,
+      "rationale": "Supporting year-end reconciliations matches account reconciliation work but is phrased as partial support.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "posting_id": "138f961b061cee41",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "138f961b061cee41-01",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "The duty only says to manage financial processes, which is too vague to map to a specific covered or assisted capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "138f961b061cee41-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "The duty refers broadly to forecasting without specifying short-term cash forecasting or another defined platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "138f961b061cee41-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Budget planning is an FP&A planning model task that is explicitly outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "138f961b061cee41-04",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.84,
+      "rationale": "Managing performance reporting matches building recurring management reports and KPI reporting for leadership.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "138f961b061cee41-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Long-range planning is annual planning work that is explicitly not covered by the forecast capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "138f961b061cee41-06",
+      "label": "assisted",
+      "capability_id": "tre.forecast",
+      "confidence": 0.74,
+      "rationale": "Managing cash flow aligns most closely with preparing and updating a short-term cash forecast.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "138f961b061cee41-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Balance sheet forecasting is a planning-model task and has no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "138f961b061cee41-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Collaborating with finance, IR, and data teams to drive metrics is cross-functional partnering, which is a human duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "138f961b061cee41-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Acting as a strategic finance partner to department leaders is advisory relationship work, not platform execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "138f961b061cee41-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Helping leaders navigate budget constraints is advisory and judgment-based, which fits human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "138f961b061cee41-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Evaluating ROI on new initiatives is analytical FP&A work that is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "138f961b061cee41-12",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.79,
+      "rationale": "Providing financial reporting to the board, management, and investors matches producing management reports and board deck financials.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "138f961b061cee41-13",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.72,
+      "rationale": "Providing financial analysis to stakeholders matches answering finance questions and ad hoc analysis traced to source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "138f961b061cee41-14",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.68,
+      "rationale": "Providing commentary on financial results fits the narrative commentary that accompanies management reporting outputs.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "138f961b061cee41-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Translating complex financial data into compelling narratives for non-finance stakeholders is communication and presentation work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "138f961b061cee41-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Driving process improvements and automation is too broad and project-oriented to map cleanly to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "138f961b061cee41-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Reducing manual work is too vague to determine a specific covered, assisted, or gap capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

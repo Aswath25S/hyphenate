@@ -1,0 +1,312 @@
+{
+  "posting_id": "6f7f418786d3f690",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "6f7f418786d3f690-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The core action is leading the contract review process, which is process management rather than the system performing contract term extraction.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-02",
+      "label": "assisted",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.72,
+      "rationale": "Evaluating customer contracts centers on extracting and interpreting contract terms, but the non-standard and complex nature requires human judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Determining the appropriate ASC 606 treatment is technical accounting judgment and policy interpretation, which is explicitly outside the system's coverage.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Drafting technical accounting memos on novel issues is judgment-heavy and falls outside routine revenue recognition support.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-05",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Driving automation and enhancements is a broad improvement initiative without a specific operational action to map.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-06",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Scoping and leading revenue systems improvements is a project-management duty rather than a defined finance operations task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-07",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Scoping and leading close activity improvements describes a process-improvement project, not a direct close operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Improving control design involves setting and changing control framework judgment, which is not an operational control execution task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-09",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Eliminating manual effort is too vague and describes a goal rather than a specific finance workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-10",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Improving accuracy and timeliness is a broad outcome statement without a specific automatable duty.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Sales, Legal, and Deal Desk during negotiations is collaborative, advisory work that is explicitly human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Structuring deals is negotiation and commercial judgment, which is not a platform-operated finance task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Optimizing revenue outcomes is strategic judgment rather than a defined operational capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Advising on pre-signature terms that affect revenue timing and presentation is advisory judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-15",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.89,
+      "rationale": "Supporting internal and external audits matches audit support, where the platform can prepare documentation and schedules.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-16",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.95,
+      "rationale": "Maintaining SOX compliance aligns with monitoring controls and executing SOX control tasks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-17",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.88,
+      "rationale": "Owning revenue control narratives maps to maintaining documentation of key controls and control evidence.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-18",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.93,
+      "rationale": "Delivering audit-ready support is audit trail and documentation support for audits.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Resolving requests directly with internal and external auditors is relationship-driven auditor interaction.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Owning complex, ambiguous revenue issues requires accounting judgment beyond routine system execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Evaluating material right options is a technical accounting judgment call.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Evaluating variable consideration requires policy interpretation and judgment, not routine automation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Evaluating contract modifications is a technical accounting judgment task rather than a covered workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Determining methods and procedures where precedent does not exist is setting policy and methodology, which is human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-25",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Building AI-enabled routines is a broad implementation project without a specific finance operation to classify.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-26",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Building contract review triage routines is a development project rather than the contract review operation itself.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-27",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Building memo drafting routines is an implementation task and not a defined finance operations workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-28",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Building reconciliation routines is a project to create automation, not the reconciliation work itself.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-29",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Building anomaly detection routines is a general automation project without a matching finance operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-30",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Building audit-support preparation routines is a system-building task rather than audit support execution.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-31",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Setting guardrails for quality, privacy, and human judgment is policy-setting and governance work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-32",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Hiring an inclusive, engaged, high-performing team is a people-management responsibility.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-33",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Developing an inclusive, engaged, high-performing team is staff development and leadership work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6f7f418786d3f690-34",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Leading an inclusive, engaged, high-performing team is team leadership rather than a finance operations workflow.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

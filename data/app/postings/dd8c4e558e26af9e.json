@@ -1,0 +1,850 @@
+{
+  "posting_id": "dd8c4e558e26af9e",
+  "company": "Snyk",
+  "slug": "snyk",
+  "domain": "snyk.io",
+  "title": "Senior Manager, Revenue Accounting",
+  "role_family": "Revenue",
+  "seniority": "manager",
+  "n": 25,
+  "C": 2,
+  "A": 8,
+  "covered_share": 0.08,
+  "overlap": 0.4,
+  "weighted_overlap": 0.24,
+  "thin": false,
+  "salary_min": 142000,
+  "salary_max": 178000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 5680,
+  "savings_reason": null,
+  "lead_product": "Order-to-cash",
+  "product_split": {
+    "Order-to-cash": {
+      "covered": 2,
+      "assisted": 4,
+      "weighted": 4
+    },
+    "GL accounting": {
+      "covered": 0,
+      "assisted": 4,
+      "weighted": 2
+    }
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Salesforce",
+    "Zone Billing",
+    "Sigma",
+    "Claude Skills",
+    "Claude Cowork"
+  ],
+  "posted_at": "2026-10-05T17:52:47.369+00:00",
+  "source_url": "https://jobs.ashbyhq.com/snyk/5f62de4c-0536-4072-9a16-a995832cee45",
+  "locations": [
+    "United States - Boston Office",
+    "United States - Remote"
+  ],
+  "remote": "remote",
+  "excluded": null,
+  "text": "UNLEASH AI INNOVATORS, SECURELY\n\nSoftware is being rewritten in real time. AI agents are starting to write more code than humans do, at a speed no security team has ever had to match, and that single shift is opening up the biggest opportunity our industry has seen in a decade. We're not bracing for it, we're building the company that owns it.\n\nSnyk is building the next generation security platform where security isn't a set of tools people operate.  It's a team of security agents working alongside your engineers, finding, fixing, and governing risk at the speed software is now built. These agents work alongside both the company build and the agents they adopt. Security stops being a queue of work waiting for people, and becomes a coordinated workforce companies direct and trust.\n\n\n\nJob Summary\n\nSnyk is looking for a Senior Manager, Revenue Accounting to own revenue recognition under ASC 606 and lead the revenue workstream of our month-end and quarter-end close. This is a highly visible role on our Quote-to-Cash finance team, working closely with Deal Desk, Sales, Legal, Billing, and FP&A to ensure the timely and accurate accounting and reporting of revenue. You will review complex customer contracts, own the revenue configuration across our Quote-to-Cash systems, prepare key external revenue disclosures, and manage and develop a team of revenue accountants as Snyk scales.\n\n\n\nAbout the Team\n\nYou'll join Snyk's Quote-to-Cash finance team, which owns the accuracy and scalability of revenue accounting from deal structuring through financial reporting. The team partners closely with Deal Desk, Strategy Ops, FP&A, and Business Applications to keep Snyk's revenue systems and processes running smoothly as the company scales.\n\n\n\nWhat You’ll Do\n\n - Own the end-to-end ASC 606 revenue recognition process across Snyk’s subscription, usage/consumption-based, and marketplace arrangements.\n\n - Lead the revenue workstream of the month-end and quarter-end close for revenue, deferred revenue, unbilled, and contract asset accounts using NetSuite ARM.\n\n - Champion the use of AI across the revenue function, building and deploying tools such as Claude Skills and Sigma to automate processes.\n\n - Advise Deal Desk, Sales, Legal, and Strategy Ops on the accounting impact of proposed deal structures and non-standard terms, driving issues through to resolution.\n\n - Review complex customer contracts, amendments, and modifications to determine the appropriate revenue treatment, confirming they are recorded correctly..\n\n - Prepare and review revenue journal entries and reconciliations of deferred revenue, contract assets, and unbilled accounts receivable, including roll-forward schedules.\n\n - Lead monthly and quarterly revenue flux and variance analysis, explaining key drivers to Accounting and FP&A leadership.\n\n - Serve as the primary point of contact for external auditors on revenue matters, managing PBC requests and audit support schedules.\n\n - Maintain the SSP analysis and own performance obligation allocations and revenue recognition rules, updating them as pricing and packaging evolve.\n\n - Document and maintain revenue accounting policies, procedures, and process narratives.\n\n - Hire, train, and develop revenue accountants, reviewing their work and supporting their growth.\n\n\n\nWhat you’ll bring\n\n - Bachelor's degree in Accounting or Finance. CPA preferred.\n\n - 5+ years of progressive revenue accounting or public accounting experience, including time in a SaaS or software company.\n\n - Strong technical knowledge of ASC 606 and internal controls, with experience researching and concluding on complex contracts.\n\n - Hands-on experience with NetSuite (ARM preferred) and Salesforce.\n\n - Experience with Zone Billing, Sigma, or Claude Cowork a plus.\n\n - Experience leading, reviewing, and developing accountants.\n\n - Proven ability to build relationships and collaborate with cross-functional teams.\n\n - An agile mindset with a focus on continuous improvement, especially around automating key revenue processes.\n\n\nABOUT SNYK\n\nSnyk is committed to creating an inclusive and engaging environment where our employees can thrive as we rally behind our common mission to make the digital world a safer place. From Snyk employee resource groups, to global benefits that help our employees prioritize their health, wellness, financial security, and a work/life blend, we aim to support our employees along their entire journeys here at Snyk.\n\n\n\n\nEQUAL EMPLOYMENT OPPORTUNITY\n\nSnyk is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or status as a protected veteran.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 142000,
+    "max": 178000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Job board pay data: $142K – $178K • Offers Equity • Offers Bonus"
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": true,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "month-end and quarter-end close",
+    "review complex customer contracts",
+    "manage PBC requests",
+    "automating key revenue processes"
+  ],
+  "fetched_at": "2026-10-21T17:34:19.847Z",
+  "ats": "ashby",
+  "duties": [
+    {
+      "duty_id": "dd8c4e558e26af9e-01",
+      "text": "Own the end-to-end ASC 606 revenue recognition process across Snyk’s subscription, usage/consumption-based, and marketplace arrangements.",
+      "source_span": "Own the end-to-end ASC 606 revenue recognition process across Snyk’s subscription, usage/consumption-based, and marketplace arrangements.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1770,
+        "end": 1907
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "o2c.rev_rec",
+      "capability": "Apply ASC 606 policy, build revenue schedules and documentation",
+      "product": "Order-to-cash",
+      "confidence": 0.88,
+      "rationale": "Owning ASC 606 revenue recognition is the core revenue-recognition workflow, which matches applying ASC 606 and building revenue schedules.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-02",
+      "text": "Lead the revenue workstream of the month-end and quarter-end close for revenue, deferred revenue, unbilled, and contract asset accounts using NetSuite ARM.",
+      "source_span": "Lead the revenue workstream of the month-end and quarter-end close for revenue, deferred revenue, unbilled, and contract asset accounts using NetSuite ARM.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1912,
+        "end": 2067
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.86,
+      "rationale": "Leading the revenue close workstream is management of a team/process, not just executing close tasks.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-03",
+      "text": "Champion the use of AI across the revenue function",
+      "source_span": "Champion the use of AI across the revenue function",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2072,
+        "end": 2122
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Championing AI across the function is change leadership and advocacy rather than a finance operations task.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-04",
+      "text": "Build and deploy tools such as Claude Skills and Sigma to automate processes.",
+      "source_span": "building and deploying tools such as Claude Skills and Sigma to automate processes.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2124,
+        "end": 2207
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.64,
+      "rationale": "Building and deploying automation tools is a technology implementation activity that does not map cleanly to the listed finance-operations capabilities.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-05",
+      "text": "Advise Deal Desk, Sales, Legal, and Strategy Ops on the accounting impact of proposed deal structures and non-standard terms, driving issues through to resolution.",
+      "source_span": "Advise Deal Desk, Sales, Legal, and Strategy Ops on the accounting impact of proposed deal structures and non-standard terms, driving issues through to resolution.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2212,
+        "end": 2375
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Advising other teams on deal structure accounting impact is cross-functional consultation and judgment work.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-06",
+      "text": "Review complex customer contracts",
+      "source_span": "Review complex customer contracts",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2380,
+        "end": 2413
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.contract_terms",
+      "capability": "Extract contract terms, obligations and pricing",
+      "product": "Order-to-cash",
+      "confidence": 0.84,
+      "rationale": "Reviewing customer contracts to understand accounting implications matches extracting contract terms, obligations, and pricing.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-07",
+      "text": "Review amendments",
+      "source_span": "amendments",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2415,
+        "end": 2425
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.contract_terms",
+      "capability": "Extract contract terms, obligations and pricing",
+      "product": "Order-to-cash",
+      "confidence": 0.82,
+      "rationale": "Reviewing amendments is contract-term extraction work to identify the updated billing and obligation terms.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-08",
+      "text": "Review modifications to determine the appropriate revenue treatment, confirming they are recorded correctly..",
+      "source_span": "modifications to determine the appropriate revenue treatment, confirming they are recorded correctly..",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2431,
+        "end": 2533
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "o2c.rev_rec",
+      "capability": "Apply ASC 606 policy, build revenue schedules and documentation",
+      "product": "Order-to-cash",
+      "confidence": 0.83,
+      "rationale": "Determining the appropriate revenue treatment for modifications is ASC 606 application and revenue-schedule work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-09",
+      "text": "Prepare revenue journal entries",
+      "source_span": "Prepare and review revenue journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2538,
+        "end": 2580
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.journal_entries",
+      "capability": "Prepare and post journal entries",
+      "product": "GL accounting",
+      "confidence": 0.91,
+      "rationale": "Preparing revenue journal entries is journal-entry preparation and posting.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-10",
+      "text": "Review revenue journal entries",
+      "source_span": "review revenue journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2550,
+        "end": 2580
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.89,
+      "rationale": "Reviewing journal entries is human approval/review rather than automated preparation.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-11",
+      "text": "Prepare reconciliations of deferred revenue, contract assets, and unbilled accounts receivable, including roll-forward schedules.",
+      "source_span": "reconciliations of deferred revenue, contract assets, and unbilled accounts receivable, including roll-forward schedules.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2585,
+        "end": 2706
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "o2c.rev_rec",
+      "capability": "Apply ASC 606 policy, build revenue schedules and documentation",
+      "product": "Order-to-cash",
+      "confidence": 0.86,
+      "rationale": "Preparing deferred revenue, contract asset, and unbilled AR roll-forwards is revenue-recognition schedule work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-12",
+      "text": "Lead monthly and quarterly revenue flux and variance analysis",
+      "source_span": "Lead monthly and quarterly revenue flux and variance analysis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2711,
+        "end": 2772
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.flux",
+      "capability": "Variance (flux) analysis with draft commentary",
+      "product": "GL accounting",
+      "confidence": 0.88,
+      "rationale": "Monthly and quarterly revenue variance analysis matches flux analysis with commentary.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-13",
+      "text": "Explain key drivers to Accounting and FP&A leadership.",
+      "source_span": "explaining key drivers to Accounting and FP&A leadership.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2774,
+        "end": 2831
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Explaining drivers to Accounting and FP&A leadership is presenting results to leadership.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-14",
+      "text": "Serve as the primary point of contact for external auditors on revenue matters",
+      "source_span": "Serve as the primary point of contact for external auditors on revenue matters",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2836,
+        "end": 2914
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Serving as the primary point of contact for external auditors is a human relationship role.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-15",
+      "text": "Manage PBC requests",
+      "source_span": "managing PBC requests",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2916,
+        "end": 2937
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.88,
+      "rationale": "Managing PBC requests is audit support and documentation work for the external audit.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-16",
+      "text": "Manage audit support schedules",
+      "source_span": "audit support schedules.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2942,
+        "end": 2966
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.9,
+      "rationale": "Managing audit support schedules matches preparing and maintaining audit support materials.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-17",
+      "text": "Maintain the SSP analysis",
+      "source_span": "Maintain the SSP analysis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2971,
+        "end": 2996
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.69,
+      "rationale": "Maintaining SSP analysis is a recurring ASC 606 estimation task that is not explicitly covered by the map.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-18",
+      "text": "Own performance obligation allocations",
+      "source_span": "own performance obligation allocations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3001,
+        "end": 3039
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "o2c.rev_rec",
+      "capability": "Apply ASC 606 policy, build revenue schedules and documentation",
+      "product": "Order-to-cash",
+      "confidence": 0.77,
+      "rationale": "Performance obligation allocations are part of ASC 606 revenue-recognition analysis and schedule building.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-19",
+      "text": "Own revenue recognition rules",
+      "source_span": "own revenue recognition rules",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": null,
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Owning revenue recognition rules is setting or interpreting policy, which is human judgment work.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-20",
+      "text": "Document and maintain revenue accounting policies, procedures, and process narratives.",
+      "source_span": "Document and maintain revenue accounting policies, procedures, and process narratives.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3122,
+        "end": 3208
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.72,
+      "rationale": "Documenting and maintaining revenue accounting policies and process narratives is repetitive documentation work not directly covered here.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-21",
+      "text": "Hire revenue accountants",
+      "source_span": "Hire, train, and develop revenue accountants",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3213,
+        "end": 3257
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Hiring revenue accountants is a people-management activity.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-22",
+      "text": "Train revenue accountants",
+      "source_span": "Hire, train, and develop revenue accountants",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3213,
+        "end": 3257
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Training revenue accountants is staff development and management work.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-23",
+      "text": "Develop revenue accountants",
+      "source_span": "Hire, train, and develop revenue accountants",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3213,
+        "end": 3257
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Developing revenue accountants is coaching and people development.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-24",
+      "text": "Review their work",
+      "source_span": "reviewing their work",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3259,
+        "end": 3279
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Reviewing their work is human supervision and review of staff output.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-25",
+      "text": "Support their growth",
+      "source_span": "supporting their growth.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3284,
+        "end": 3308
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Supporting their growth is a people-management and mentoring duty.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-26",
+      "text": "Bachelor's degree in Accounting or Finance.",
+      "source_span": "Bachelor's degree in Accounting or Finance.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3334,
+        "end": 3377
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-27",
+      "text": "CPA preferred.",
+      "source_span": "CPA preferred.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3378,
+        "end": 3392
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-28",
+      "text": "5+ years of progressive revenue accounting or public accounting experience, including time in a SaaS or software company.",
+      "source_span": "5+ years of progressive revenue accounting or public accounting experience, including time in a SaaS or software company.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3397,
+        "end": 3518
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-29",
+      "text": "Strong technical knowledge of ASC 606 and internal controls, with experience researching and concluding on complex contracts.",
+      "source_span": "Strong technical knowledge of ASC 606 and internal controls, with experience researching and concluding on complex contracts.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3523,
+        "end": 3648
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-30",
+      "text": "Hands-on experience with NetSuite (ARM preferred) and Salesforce.",
+      "source_span": "Hands-on experience with NetSuite (ARM preferred) and Salesforce.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3653,
+        "end": 3718
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-31",
+      "text": "Experience with Zone Billing, Sigma, or Claude Cowork a plus.",
+      "source_span": "Experience with Zone Billing, Sigma, or Claude Cowork a plus.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3723,
+        "end": 3784
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-32",
+      "text": "Experience leading, reviewing, and developing accountants.",
+      "source_span": "Experience leading, reviewing, and developing accountants.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3789,
+        "end": 3847
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-33",
+      "text": "Proven ability to build relationships and collaborate with cross-functional teams.",
+      "source_span": "Proven ability to build relationships and collaborate with cross-functional teams.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3852,
+        "end": 3934
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-34",
+      "text": "An agile mindset with a focus on continuous improvement, especially around automating key revenue processes.",
+      "source_span": "An agile mindset with a focus on continuous improvement, especially around automating key revenue processes.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3939,
+        "end": 4047
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

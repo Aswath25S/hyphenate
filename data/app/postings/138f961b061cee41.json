@@ -1,0 +1,582 @@
+{
+  "posting_id": "138f961b061cee41",
+  "company": "Coursera",
+  "slug": "coursera",
+  "domain": "coursera.org",
+  "title": "Corporate FP&A Manager",
+  "role_family": "Reporting_FPA",
+  "seniority": "manager",
+  "n": 17,
+  "C": 0,
+  "A": 5,
+  "covered_share": 0,
+  "overlap": 0.29411764705882354,
+  "weighted_overlap": 0.14705882352941177,
+  "thin": false,
+  "salary_min": 136000,
+  "salary_max": 170000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 0,
+  "savings_reason": null,
+  "lead_product": "Reporting",
+  "product_split": {
+    "Reporting": {
+      "covered": 0,
+      "assisted": 4,
+      "weighted": 2
+    },
+    "Treasury": {
+      "covered": 0,
+      "assisted": 1,
+      "weighted": 0.5
+    }
+  },
+  "erp": [
+    "NetSuite",
+    "Workday"
+  ],
+  "tools": [
+    "Excel",
+    "IBM Analytics",
+    "Adaptive"
+  ],
+  "posted_at": "2026-10-01T17:13:41-04:00",
+  "source_url": "https://job-boards.greenhouse.io/coursera/jobs/6192106004",
+  "locations": [
+    "United States",
+    "Mountain View, California, United States"
+  ],
+  "remote": "unknown",
+  "excluded": null,
+  "text": "About Coursera + Udemy\n\nCoursera and Udemy are now one company, bringing together two mission-driven brands to create the world’s most powerful platform for turning learning into progress. Together, we help more than 300 million learners and 12,000+ enterprise customers build the skills they need for a world being reshaped by AI. Read more about the combined company by visiting our blog.\n\nWhy join us now?\n\nAI is transforming how people learn, work, and grow, and the need for new skills has never been greater. Coursera brings trusted content and credentials from leading university and industry partners, while Udemy brings a dynamic skills marketplace and global network of real-world experts. By combining these strengths, we can connect more people and organizations to the skills they need, when they need them.\n\nShape what comes next\n\nBy joining our team, you’ll have the opportunity to reshape how the world learns and applies skills—and help millions of people participate in the new economy. Bring your ideas, expertise, and perspective to meaningful work that can make a difference at global scale.\n\nAbout this role\n\nCorporate Finance sits at the center of the broader finance team to help leadership gain financial visibility and insights on the business. The Manager, Corporate Finance will support the Director of Corporate Finance and collaborate with our global finance team to manage successful budgeting and forecasting processes, deliver strategic insights, and help scale our organization.\n\nAbout your skills\n\n• Financial Process & Planning Management: Demonstrated history of managing, developing, and improving key corporate financial processes including forecasting, budget planning, long-range planning, cash flow, and 3-statement financial modeling (P&L, cash flow, balance sheet).\n\n• Strategic Business Partnering & Influencing: Ability to act as a trusted strategic finance partner to department leaders, evaluate ROI on new initiatives, influence strategic decision-making, and lead cross-functional workstreams without direct authority.\n\n• Financial Systems & Analytics: Proficiency in Excel, business systems (such as IBM Analytics, Adaptive, NetSuite, or Workday), and driving insights through data analysis to streamline financial reporting and processes.\n\n• Executive Communication & Reporting: Proven ability to translate complex financial data into clear, compelling narratives and present financial reporting, commentary, and metrics to executive leadership, board members, and investor relations.\n\nWhat you’ll be doing\n\n• Manage, develop, and improve key financial processes, including forecasting, budget planning, performance reporting, long-range planning, cash flow, and balance sheet forecasting.\n\n• Collaborate closely with finance, investor relations (IR), and data insights teams to manage and drive key financial and investor metrics.\n\n• Act as a trusted strategic finance partner to key department leaders, helping them navigate budget constraints and evaluate ROI on new initiatives.\n\n• Provide financial reporting, analysis, and commentary to partners including Coursera’s Board, management team, and investors.\n\n• Translate complex financial data into clear, compelling narratives for non-finance stakeholders and executive leadership.\n\n• Drive process improvements and automation initiatives to streamline financial reporting and reduce manual work.\n\nQualifications\n\n• 5+ years of corporate finance experience, including experience in the consumer, enterprise, and/or SaaS industries.\n\n• Experience with Excel & strong business modeling and analytical skills.\n\n• Experience leading complex workstreams and cross-functional efforts such as managing a yearly planning process.\n\n• Demonstrated history of building financial statements (P&L, cash flow, and balance sheet) as well as knowledge of accounting and corporate finance concepts.\n\n• Demonstrated history with financial planning processes and business systems such as IBM Analytics or similar tools.\n\nCompensation\n\nAt Udemy, we strive to be transparent around compensation. Actual compensation for this role is based on several factors, including but not limited to job-related skills, qualifications, and experience. In addition to a base salary, this role is also eligible for equity.\n\nHiring Compensation Range\n\n$136,000 - $170,000\n\nPosting Date: October 19, 2026\n\nApplication Window: October 19, 2026 - October 30, 2026\n\nWe anticipate the application window will be open until October 30, 2026. Based on business needs, this opportunity may remain posted beyond or closed before the anticipated application window.\n\n#LI-JC2\n\nFor more information about how Coursera collects and uses your personal information, please see our Coursera + Udemy Global Applicant Privacy Notice.\n\nTo protect against recruitment fraud, Coursera + Udemy recruiters only communicate via official coursera.org/udemy.com email addresses and never through personal accounts. We do not accept resumes via email or social media; please submit all applications directly through our careers page.\n\nIf you encounter suspicious recruitment activity, please report it via our Fraudulent Activity Submission Form.\n\nCoursera is an Equal Opportunity Employer committed to building a welcoming and inclusive workplace. We consider all qualified applicants without regard to legally protected characteristics and provide reasonable accommodations upon request at recruiting@coursera.org.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 136000,
+    "max": 170000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "$136,000 - $170,000"
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "reduce manual work"
+  ],
+  "fetched_at": "2026-10-21T17:34:24.959Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "138f961b061cee41-01",
+      "text": "Manage key financial processes",
+      "source_span": "Manage, develop, and improve key financial processes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2562,
+        "end": 2614
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.89,
+      "rationale": "The duty only says to manage financial processes, which is too vague to map to a specific covered or assisted capability.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "138f961b061cee41-02",
+      "text": "Manage forecasting",
+      "source_span": "forecasting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1429,
+        "end": 1440
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.77,
+      "rationale": "The duty refers broadly to forecasting without specifying short-term cash forecasting or another defined platform capability.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "138f961b061cee41-03",
+      "text": "Manage budget planning",
+      "source_span": "budget planning",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1693,
+        "end": 1708
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Budget planning is an FP&A planning model task that is explicitly outside the listed capabilities.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "138f961b061cee41-04",
+      "text": "Manage performance reporting",
+      "source_span": "performance reporting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2656,
+        "end": 2677
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.84,
+      "rationale": "Managing performance reporting matches building recurring management reports and KPI reporting for leadership.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "138f961b061cee41-05",
+      "text": "Manage long-range planning",
+      "source_span": "long-range planning",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1710,
+        "end": 1729
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Long-range planning is annual planning work that is explicitly not covered by the forecast capability.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "138f961b061cee41-06",
+      "text": "Manage cash flow",
+      "source_span": "cash flow",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1731,
+        "end": 1740
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "tre.forecast",
+      "capability": "13-week cash forecast",
+      "product": "Treasury",
+      "confidence": 0.74,
+      "rationale": "Managing cash flow aligns most closely with preparing and updating a short-term cash forecast.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "138f961b061cee41-07",
+      "text": "Manage balance sheet forecasting",
+      "source_span": "balance sheet forecasting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2715,
+        "end": 2740
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Balance sheet forecasting is a planning-model task and has no matching capability in the map.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "138f961b061cee41-08",
+      "text": "Collaborate closely with finance, investor relations (IR), and data insights teams to manage and drive key financial and investor metrics",
+      "source_span": "Collaborate closely with finance, investor relations (IR), and data insights teams to manage and drive key financial and investor metrics.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2745,
+        "end": 2883
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Collaborating with finance, IR, and data teams to drive metrics is cross-functional partnering, which is a human duty.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "138f961b061cee41-09",
+      "text": "Act as a trusted strategic finance partner to key department leaders",
+      "source_span": "Act as a trusted strategic finance partner to key department leaders",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2887,
+        "end": 2955
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Acting as a strategic finance partner to department leaders is advisory relationship work, not platform execution.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "138f961b061cee41-10",
+      "text": "Help them navigate budget constraints",
+      "source_span": "help them navigate budget constraints",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": null,
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Helping leaders navigate budget constraints is advisory and judgment-based, which fits human work.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "138f961b061cee41-11",
+      "text": "Evaluate ROI on new initiatives",
+      "source_span": "evaluate ROI on new initiatives",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1935,
+        "end": 1966
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Evaluating ROI on new initiatives is analytical FP&A work that is not covered by the listed capabilities.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "138f961b061cee41-12",
+      "text": "Provide financial reporting to partners including Coursera’s Board, management team, and investors",
+      "source_span": "Provide financial reporting, analysis, and commentary to partners including Coursera’s Board, management team, and investors.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3038,
+        "end": 3163
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.79,
+      "rationale": "Providing financial reporting to the board, management, and investors matches producing management reports and board deck financials.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "138f961b061cee41-13",
+      "text": "Provide financial analysis to partners including Coursera’s Board, management team, and investors",
+      "source_span": "Provide financial reporting, analysis, and commentary to partners including Coursera’s Board, management team, and investors.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3038,
+        "end": 3163
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.adhoc_analysis",
+      "capability": "Answer finance questions traced to source entries",
+      "product": "Reporting",
+      "confidence": 0.72,
+      "rationale": "Providing financial analysis to stakeholders matches answering finance questions and ad hoc analysis traced to source data.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "138f961b061cee41-14",
+      "text": "Provide commentary to partners including Coursera’s Board, management team, and investors",
+      "source_span": "Provide financial reporting, analysis, and commentary to partners including Coursera’s Board, management team, and investors.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3038,
+        "end": 3163
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.68,
+      "rationale": "Providing commentary on financial results fits the narrative commentary that accompanies management reporting outputs.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "138f961b061cee41-15",
+      "text": "Translate complex financial data into clear, compelling narratives for non-finance stakeholders and executive leadership",
+      "source_span": "Translate complex financial data into clear, compelling narratives for non-finance stakeholders and executive leadership.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3167,
+        "end": 3288
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Translating complex financial data into compelling narratives for non-finance stakeholders is communication and presentation work.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "138f961b061cee41-16",
+      "text": "Drive process improvements and automation initiatives to streamline financial reporting",
+      "source_span": "Drive process improvements and automation initiatives to streamline financial reporting and reduce manual work.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3292,
+        "end": 3403
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.86,
+      "rationale": "Driving process improvements and automation is too broad and project-oriented to map cleanly to a specific capability.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "138f961b061cee41-17",
+      "text": "Reduce manual work",
+      "source_span": "reduce manual work",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3384,
+        "end": 3402
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.91,
+      "rationale": "Reducing manual work is too vague to determine a specific covered, assisted, or gap capability.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "138f961b061cee41-18",
+      "text": "5+ years of corporate finance experience, including experience in the consumer, enterprise, and/or SaaS industries",
+      "source_span": "5+ years of corporate finance experience, including experience in the consumer, enterprise, and/or SaaS industries.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3423,
+        "end": 3538
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "138f961b061cee41-19",
+      "text": "Experience with Excel & strong business modeling and analytical skills",
+      "source_span": "Experience with Excel & strong business modeling and analytical skills.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3542,
+        "end": 3613
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "138f961b061cee41-20",
+      "text": "Experience leading complex workstreams and cross-functional efforts such as managing a yearly planning process",
+      "source_span": "Experience leading complex workstreams and cross-functional efforts such as managing a yearly planning process.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3617,
+        "end": 3728
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "138f961b061cee41-21",
+      "text": "Demonstrated history of building financial statements (P&L, cash flow, and balance sheet) as well as knowledge of accounting and corporate finance concepts",
+      "source_span": "Demonstrated history of building financial statements (P&L, cash flow, and balance sheet) as well as knowledge of accounting and corporate finance concepts.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3732,
+        "end": 3888
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "138f961b061cee41-22",
+      "text": "Demonstrated history with financial planning processes and business systems such as IBM Analytics or similar tools",
+      "source_span": "Demonstrated history with financial planning processes and business systems such as IBM Analytics or similar tools.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3892,
+        "end": 4007
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "posting_id": "84997cec2d74dcf5",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "84997cec2d74dcf5-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Embedding as a trusted financial partner is cross-functional advising and relationship work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "84997cec2d74dcf5-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.62,
+      "rationale": "Understanding cost drivers and the product roadmap is too vague and reads like general context-building rather than a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "84997cec2d74dcf5-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Proactively surfacing implications, risks, and opportunities is advisory judgment for business stakeholders.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "84997cec2d74dcf5-04",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.84,
+      "rationale": "Owning weekly and monthly cost reporting matches recurring management reporting, though it still requires human ownership and review.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "84997cec2d74dcf5-05",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.88,
+      "rationale": "Delivering visibility into spend, usage, trends, and anomalies is recurring reporting and KPI production for leaders.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "84997cec2d74dcf5-06",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.77,
+      "rationale": "Providing analyses to support decisions fits ad hoc finance analysis, even though the strategic judgment remains human-led.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "84997cec2d74dcf5-07",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.67,
+      "rationale": "Supporting the monthly close and reporting process is too broad to map to a specific automated finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "84997cec2d74dcf5-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Tracking vendor and PO activity is vague and does not clearly match a single covered procure-to-pay action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "84997cec2d74dcf5-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Budget-versus-actual cost analysis is FP&A planning work that is not covered by the capability map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "84997cec2d74dcf5-10",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.98,
+      "rationale": "Flux reviews directly match variance analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "84997cec2d74dcf5-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with multiple cross-functional teams is relationship and collaboration work, not an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "84997cec2d74dcf5-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Forecasts and budgets are FP&A planning outputs that are outside the listed capabilities except for short-term cash forecasting.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "84997cec2d74dcf5-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "Identifying data gaps to strengthen reporting infrastructure is a process-improvement/data-quality task with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "84997cec2d74dcf5-14",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Improving recurring workflows is too nonspecific to classify against a finance operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "84997cec2d74dcf5-15",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Using AI and automation to improve reporting is a broad transformation effort rather than a specific finance operation in the map.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

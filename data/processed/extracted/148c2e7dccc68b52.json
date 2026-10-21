@@ -1,0 +1,422 @@
+{
+  "posting_id": "148c2e7dccc68b52",
+  "company": "Fivetran",
+  "domain": "fivetran.com",
+  "title": "Senior Strategic Finance Analyst",
+  "role_family": "Reporting_FPA",
+  "seniority": "senior",
+  "locations": [
+    "USA - New York (dbt)",
+    "Oakland, California, United States, AMER",
+    "Denver, Colorado, United States, AMER"
+  ],
+  "remote": "hybrid",
+  "salary": {
+    "min": 126220,
+    "max": 151470,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "New York Pay Range\n\n$126,220—$151,470 USD"
+  },
+  "erp": [],
+  "tools": [
+    "SQL",
+    "Pigment",
+    "Looker",
+    "Tableau",
+    "Sigma",
+    "Python"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": true,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "less manual assembly",
+    "scale toward public company readiness"
+  ],
+  "duties": [
+    {
+      "duty_id": "148c2e7dccc68b52-01",
+      "text": "Serve as the finance business partner to Product and Customer Support leadership",
+      "source_span": "Serve as the finance business partner to Product and Customer Support leadership",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-02",
+      "text": "Own their budgets",
+      "source_span": "own their budgets",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-03",
+      "text": "Partner on spend decisions",
+      "source_span": "partner on spend decisions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-04",
+      "text": "Flag risks early",
+      "source_span": "flag risks",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-05",
+      "text": "Flag trade-offs early",
+      "source_span": "trade-offs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-06",
+      "text": "Flag reallocation opportunities early",
+      "source_span": "reallocation opportunities early",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-07",
+      "text": "Own the annual operating plan for both organizations",
+      "source_span": "Own the annual operating plan for both organizations, including headcount and hiring plans, vendor and program spend, and quarterly reforecasts.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-08",
+      "text": "Manage headcount plans",
+      "source_span": "headcount",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-09",
+      "text": "Manage hiring plans",
+      "source_span": "hiring plans",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-10",
+      "text": "Manage vendor spend",
+      "source_span": "vendor",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-11",
+      "text": "Manage program spend",
+      "source_span": "program spend",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-12",
+      "text": "Prepare quarterly reforecasts",
+      "source_span": "quarterly reforecasts",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-13",
+      "text": "Own monthly close",
+      "source_span": "monthly close",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-14",
+      "text": "Own monthly accruals",
+      "source_span": "accruals",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-15",
+      "text": "Analyze budget vs. actuals with clear driver explanations and forward-looking implications",
+      "source_span": "budget vs. actuals with clear driver explanations and forward-looking implications",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-16",
+      "text": "Build the portfolio view of product investment",
+      "source_span": "Build the portfolio view of product investment",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-17",
+      "text": "Track spend behind each product line",
+      "source_span": "what we spend behind each product line",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-18",
+      "text": "Track what it returns",
+      "source_span": "what it returns",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-19",
+      "text": "Determine roadmap funding",
+      "source_span": "roadmap funding",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-20",
+      "text": "Determine resource allocation",
+      "source_span": "resource allocation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-21",
+      "text": "Bring cost of revenue into that view",
+      "source_span": "cost of revenue",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-22",
+      "text": "Bring product unit economics into that view",
+      "source_span": "product unit economics",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-23",
+      "text": "Work with the teams that own the underlying cost data",
+      "source_span": "working with the teams that own the underlying cost data",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-24",
+      "text": "Build cost-to-serve analytics",
+      "source_span": "Build cost-to-serve analytics",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-25",
+      "text": "Analyze support cost by account",
+      "source_span": "support cost by account",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-26",
+      "text": "Analyze support cost by segment",
+      "source_span": "segment",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-27",
+      "text": "Analyze the economics of deflection",
+      "source_span": "the economics of deflection",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-28",
+      "text": "Analyze AI-assisted support economics",
+      "source_span": "AI-assisted support",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-29",
+      "text": "Build business cases for new product investments",
+      "source_span": "Build business cases for new product investments",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-30",
+      "text": "Build business cases for major roadmap decisions",
+      "source_span": "major roadmap decisions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-31",
+      "text": "Analyze the economics of retiring products",
+      "source_span": "the economics of retiring",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-32",
+      "text": "Analyze the economics of consolidating products",
+      "source_span": "consolidating products",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-33",
+      "text": "Provide Pricing with the unit economics behind packaging changes",
+      "source_span": "unit economics behind packaging",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-34",
+      "text": "Provide Pricing with the unit economics behind monetization changes",
+      "source_span": "monetization changes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-35",
+      "text": "Co-own the Product Monthly Financial Reviews with the product top-line lead",
+      "source_span": "Co-own the Product Monthly and Quarterly Financial Reviews with the product top-line lead, so cost and performance are presented together.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-36",
+      "text": "Co-own the Product Quarterly Financial Reviews with the product top-line lead",
+      "source_span": "Co-own the Product Monthly and Quarterly Financial Reviews with the product top-line lead, so cost and performance are presented together.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-37",
+      "text": "Improve data models",
+      "source_span": "better data models",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-38",
+      "text": "Reduce manual assembly",
+      "source_span": "less manual assembly",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-39",
+      "text": "Apply AI to recurring analysis",
+      "source_span": "AI applied to recurring analysis",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-40",
+      "text": "4+ years in FP&A, strategic finance, product finance, investment banking, or consulting, including ownership of a model or forecast that others relied on",
+      "source_span": "4+ years in FP&A, strategic finance, product finance, investment banking, or consulting, including ownership of a model or forecast that others relied on.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-41",
+      "text": "Experience owning an operating expense budget, or partnering with a non-finance organization on its spend",
+      "source_span": "Experience owning an operating expense budget, or partnering with a non-finance organization on its spend.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-42",
+      "text": "Strong modeling skills across both driver-based revenue forecasts and operating expense and headcount models",
+      "source_span": "Strong modeling skills across both driver-based revenue forecasts and operating expense and headcount models.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-43",
+      "text": "Working knowledge of software and subscription economics — ARR, NRR, ARPA, expansion, gross margin — ideally in a usage-based business",
+      "source_span": "Working knowledge of software and subscription economics — ARR, NRR, ARPA, expansion, gross margin — ideally in a usage-based business.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-44",
+      "text": "Comfort working directly with large and complex datasets",
+      "source_span": "Comfort working directly with large and complex datasets.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-45",
+      "text": "SQL proficiency strongly preferred",
+      "source_span": "SQL proficiency strongly preferred.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-46",
+      "text": "Ability to turn analysis into a clear recommendation and present it to Product, Support, and senior leadership",
+      "source_span": "Ability to turn analysis into a clear recommendation and present it to Product, Support, and senior leadership.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-47",
+      "text": "Interest in how software gets built and what it costs to run",
+      "source_span": "Interest in how software gets built and what it costs to run.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-48",
+      "text": "Product or Engineering finance partnership at a software, data infrastructure, or developer tools company",
+      "source_span": "Product or Engineering finance partnership at a software, data infrastructure, or developer tools company.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-49",
+      "text": "Hands-on product margin, cost of revenue, or cost-to-serve analysis",
+      "source_span": "Hands-on product margin, cost of revenue, or cost-to-serve analysis.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-50",
+      "text": "Experience supporting a Customer Support, Services, or other cost-to-serve organization",
+      "source_span": "Experience supporting a Customer Support, Services, or other cost-to-serve organization.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-51",
+      "text": "Usage-based pricing, packaging, or monetization modeling",
+      "source_span": "Usage-based pricing, packaging, or monetization modeling.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-52",
+      "text": "Planning and BI tools (Pigment, Looker, Tableau, Sigma) and lightweight automation in Python or SQL",
+      "source_span": "Planning and BI tools (Pigment, Looker, Tableau, Sigma) and lightweight automation in Python or SQL.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-53",
+      "text": "Experience through a period of rapid scaling or IPO preparation",
+      "source_span": "Experience through a period of rapid scaling or IPO preparation.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-08-27T01:57:59-04:00",
+  "source_url": "https://www.fivetran.com/careers/job?gh_jid=8036189003",
+  "fetched_at": "2026-10-21T17:33:54.048Z",
+  "prompt_version": "extract-v1",
+  "text": "From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We’re proud that more organizations continue to leverage our technology every day to become truly data-driven.\n\nAbout Us\n\nFivetran and dbt Labs are coming together with a shared mission: helping organizations unlock the full value of their data. Together we're building the data infrastructure layer that moves, transforms, and adds context to data — from the moment it lands to the point where teams and AI systems depend on it.\n\nAs we bring our teams and technology together, we're building on the strengths of both companies while continuing to deliver the products our customers know and trust. It's a good time to join a company with the scale, talent, and technology to help more organizations put their data to work.\n\nAbout the Role\n\nProduct Finance covers two things: how our products perform, and what they cost to build, run, and support. This role owns the cost and investment side, as the finance partner to the Product and Customer Support organizations.\n\nYou'll own the operating expense P&L for both organizations — headcount and hiring plans, vendor and program spend, annual planning, monthly close, and budget-vs-actuals — and work with those leaders on where to spend and what to trade off.\n\nYou'll also build our view of product investment at the portfolio level: what we spend behind each product line, what it returns, and what that means for how the roadmap gets funded. That includes bringing cost of revenue and unit economics into the picture, so we can talk about product margin rather than just product spend. This is how we'll decide where to invest and where to pull back.\n\nYou'll build our cost-to-serve view as well — support cost by account and segment, and the economics of deflection and AI-assisted support.\n\nExpect close work with Product Managers, Support and Engineering leaders, Pricing, Corporate FP&A, and Accounting, and regular exposure to senior leadership as we scale toward public company readiness.\n\nThis is a full-time, hybrid position based in our New York, NY office. Our hybrid work model offers a blend of remote flexibility and in-person collaboration, including two days in the office each week to connect and build as a team.\n\nWhat You'll Do\n\n• Serve as the finance business partner to Product and Customer Support leadership — own their budgets, partner on spend decisions, and flag risks, trade-offs, and reallocation opportunities early.\n\n• Own the annual operating plan for both organizations, including headcount and hiring plans, vendor and program spend, and quarterly reforecasts.\n\n• Own monthly close, accruals, and variance analysis — budget vs. actuals with clear driver explanations and forward-looking implications.\n\n• Build the portfolio view of product investment: what we spend behind each product line, what it returns, and what that implies for roadmap funding and resource allocation.\n\n• Bring cost of revenue and product unit economics into that view, working with the teams that own the underlying cost data.\n\n• Build cost-to-serve analytics — support cost by account and segment, and the economics of deflection and AI-assisted support.\n\n• Build business cases for new product investments and major roadmap decisions, including the economics of retiring or consolidating products, and provide Pricing with the unit economics behind packaging and monetization changes.\n\n• Co-own the Product Monthly and Quarterly Financial Reviews with the product top-line lead, so cost and performance are presented together.\n\n• Improve how this work gets done — better data models, less manual assembly, and AI applied to recurring analysis.\n\nWhat We're Looking For\n\n• 4+ years in FP&A, strategic finance, product finance, investment banking, or consulting, including ownership of a model or forecast that others relied on.\n\n• Experience owning an operating expense budget, or partnering with a non-finance organization on its spend.\n\n• Strong modeling skills across both driver-based revenue forecasts and operating expense and headcount models.\n\n• Working knowledge of software and subscription economics — ARR, NRR, ARPA, expansion, gross margin — ideally in a usage-based business.\n\n• Comfort working directly with large and complex datasets. SQL proficiency strongly preferred.\n\n• Ability to turn analysis into a clear recommendation and present it to Product, Support, and senior leadership.\n\n• Interest in how software gets built and what it costs to run.\n\nNice to Have\n\n• Product or Engineering finance partnership at a software, data infrastructure, or developer tools company.\n\n• Hands-on product margin, cost of revenue, or cost-to-serve analysis.\n\n• Experience supporting a Customer Support, Services, or other cost-to-serve organization.\n\n• Usage-based pricing, packaging, or monetization modeling.\n\n• Planning and BI tools (Pigment, Looker, Tableau, Sigma) and lightweight automation in Python or SQL.\n\n• Experience through a period of rapid scaling or IPO preparation.\n\n#LI-JG1 #LI-Hybrid\n\nThe compensation range displayed on this job posting reflects the minimum and maximum target for new hire compensation for the target position and level, and may include sales incentives or target bonuses depending on the role. Our compensation ranges are determined by role, level, and location. Our job titles may span more than one career level. Within the range, individual compensation is determined by additional factors, including job-related skills, experience, relevant education or training, business need, market demands. The compensation range is subject to change and may be modified in the future. Your recruiter can share more about the specific compensation range for your location during the hiring process.\n\nNew York Pay Range\n\n$126,220—$151,470 USD\n\nPerks and Benefits\n\n• 100% employer-paid medical insurance*\n\n• Generous paid time away from work, including paid vacation or flexible/unlimited vacation depending on role and country, plus paid sick time, inclusive parental leave, paid holidays, including a year-end Global Week of Rest, and volunteer days off.\n\n• RSU stock grants*\n\n• Professional development and training opportunities\n\n• Company virtual happy hours, free food, and fun team-building activities\n\n• Monthly cell phone stipend\n\n• Access to an innovative mental health support platform that offers personalized care and resources in areas such as: therapy, coaching, and self-guided mindfulness exercises for all covered employees and their covered dependents.\n\n*May vary by country and worker type - please reach out to your recruiter for more information\n\nClick here to learn more about Fivetran's Benefits by Region.\n\nWe’re honored to be valued at over $5.6 billion, but more importantly, we’re proud of our core values of Get Stuck In, Do the Right Thing, and One Team, One Dream. Read about us in Forbes.\n\nFivetran brings together high-quality talent across the globe to make data access as easy and reliable as electricity for our customers. We value and recognize that our customers benefit from having innovative teams made of people from many backgrounds, experiences, and identities. Fivetran promotes diversity, equity, inclusion & belonging through attracting, recruiting, developing, and retaining a diverse workforce, not only because it is the right thing to do, but because it helps us build a world-class company to better serve our customers, our people and our communities.\n\nTo learn more about Fivetran’s culture and what it’s like to be part of the team, click here and enjoy our video.\n\nTo learn more about our candidate privacy policy, you can read our statement here.\n\nWe are committed to ensuring that all candidates have an equal opportunity to participate in our interview process. If you require accommodations at any stage of the process due to a disability, medical condition, or any other circumstance, please don't hesitate to submit your request by filling out this form. We will work with you to provide reasonable accommodations to facilitate your participation and ensure a fair and accessible interview experience. Your request and any information provided will be kept confidential and will not impact your candidacy. We look forward to hearing from you and accommodating your needs to the best of our ability.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

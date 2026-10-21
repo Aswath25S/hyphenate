@@ -8,7 +8,7 @@
   "locations": [
     "San Francisco"
   ],
-  "remote": "unknown",
+  "remote": "onsite",
   "salary": {
     "min": 121000,
     "max": 181000,
@@ -17,91 +17,315 @@
     "raw_text": "Based on legislation in California, the following details are for individuals who will work for Amplitude in San Francisco Bay Area of California. Salary range: $121,000 - $181,000 total target cash (inclusive of bonus or commission)"
   },
   "erp": [],
-  "tools": [],
+  "tools": [
+    "Excel"
+  ],
   "complexity": {
     "multi_entity": false,
     "multi_currency": false,
     "usage_based_billing": false,
-    "high_volume": false,
+    "high_volume": true,
     "entity_count": null
   },
-  "pain_phrases": [],
+  "pain_phrases": [
+    "high volume of transactions",
+    "high volumes of financial and billing data",
+    "eliminate manual work",
+    "greater automation and scale"
+  ],
   "duties": [
     {
-      "duty_id": "aa2de5a053310233-h01",
-      "text": "Generate, review and deliver customer invoices",
-      "source_span": "invoice generation, review, delivery",
+      "duty_id": "aa2de5a053310233-01",
+      "text": "Own the end-to-end billing cycle",
+      "source_span": "Own the end-to-end billing cycle",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "aa2de5a053310233-h02",
-      "text": "Resolve billing issues across revenue streams",
-      "source_span": "resolution of billing issues",
+      "duty_id": "aa2de5a053310233-02",
+      "text": "Generate invoices",
+      "source_span": "invoice generation",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "aa2de5a053310233-h03",
-      "text": "Check that invoices match contract terms",
+      "duty_id": "aa2de5a053310233-03",
+      "text": "Review invoices",
+      "source_span": "review",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "aa2de5a053310233-04",
+      "text": "Deliver invoices",
+      "source_span": "delivery",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "aa2de5a053310233-05",
+      "text": "Resolve billing issues across Amplitude’s revenue streams",
+      "source_span": "resolution of billing issues across Amplitude’s revenue streams.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "aa2de5a053310233-06",
+      "text": "Ensure invoices are accurate and aligned with contractual terms",
       "source_span": "Ensure invoices are accurate and aligned with contractual terms",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "aa2de5a053310233-h04",
-      "text": "Identify and resolve invoice discrepancies",
-      "source_span": "proactively identifying and resolving discrepancies",
+      "duty_id": "aa2de5a053310233-07",
+      "text": "Identify and resolve discrepancies before they impact customers or downstream accounting processes",
+      "source_span": "proactively identifying and resolving discrepancies before they impact customers or downstream accounting processes",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "aa2de5a053310233-h05",
-      "text": "Answer customer billing and contract inquiries",
+      "duty_id": "aa2de5a053310233-08",
+      "text": "Serve as a key point of contact for customer billing inquiries",
       "source_span": "Serve as a key point of contact for customer billing and contract inquiries",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "aa2de5a053310233-h06",
-      "text": "Partner with GTM and Finance teams on resolutions",
-      "source_span": "partnering with internal GTM and Finance teams to drive timely, accurate resolution",
+      "duty_id": "aa2de5a053310233-09",
+      "text": "Serve as a key point of contact for customer contract inquiries",
+      "source_span": "Serve as a key point of contact for customer billing and contract inquiries",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "aa2de5a053310233-h07",
-      "text": "Support collections to ensure timely customer payments",
+      "duty_id": "aa2de5a053310233-10",
+      "text": "Partner with internal GTM and Finance teams to drive timely, accurate resolution and a strong customer experience",
+      "source_span": "partnering with internal GTM and Finance teams to drive timely, accurate resolution and a strong customer experience.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "aa2de5a053310233-11",
+      "text": "Support collections activities to help ensure timely customer payments",
       "source_span": "Support collections activities to help ensure timely customer payments",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "aa2de5a053310233-h08",
-      "text": "Investigate issues that delay customer payments",
-      "source_span": "investigating and resolving issues that may create payment delays",
+      "duty_id": "aa2de5a053310233-12",
+      "text": "Investigate and resolve issues that may create payment delays",
+      "source_span": "investigating and resolving issues that may create payment delays.",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "aa2de5a053310233-h09",
-      "text": "Improve and automate order-to-cash workflows",
-      "source_span": "Identify and drive opportunities to improve, automate, and scale order-to-cash workflows",
+      "duty_id": "aa2de5a053310233-13",
+      "text": "Improve order-to-cash workflows",
+      "source_span": "identify and drive opportunities to improve, automate, and scale order-to-cash workflows",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "aa2de5a053310233-h10",
+      "duty_id": "aa2de5a053310233-14",
+      "text": "Automate order-to-cash workflows",
+      "source_span": "identify and drive opportunities to improve, automate, and scale order-to-cash workflows",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "aa2de5a053310233-15",
+      "text": "Scale order-to-cash workflows",
+      "source_span": "identify and drive opportunities to improve, automate, and scale order-to-cash workflows",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "aa2de5a053310233-16",
       "text": "Support SOX controls and external audit requirements",
-      "source_span": "supporting SOX controls and external audit requirements",
+      "source_span": "supporting SOX controls and external audit requirements.",
       "is_boilerplate": false,
       "is_requirement": false
+    },
+    {
+      "duty_id": "aa2de5a053310233-17",
+      "text": "As an organization, we deliver for our customers by living our values.",
+      "source_span": "As an organization, we deliver for our customers by living our values.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "aa2de5a053310233-18",
+      "text": "We care about the well-being of our team: We offer competitive pay and benefits packages that reflect our commitment to the health and well-being of our Ampliteers.",
+      "source_span": "We care about the well-being of our team: We offer competitive pay and benefits packages that reflect our commitment to the health and well-being of our Ampliteers.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "aa2de5a053310233-19",
+      "text": "Have a strong ownership mindset",
+      "source_span": "You have a strong ownership mindset",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-20",
+      "text": "Manage processes from start to finish",
+      "source_span": "take pride in managing processes from start to finish",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-21",
+      "text": "Follow issues through until they are fully resolved",
+      "source_span": "following issues through until they are fully resolved.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-22",
+      "text": "Work with a high volume of transactions",
+      "source_span": "comfortable working with a high volume of transactions while maintaining accuracy and meeting deadlines.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-23",
+      "text": "Maintain accuracy",
+      "source_span": "comfortable working with a high volume of transactions while maintaining accuracy and meeting deadlines.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-24",
+      "text": "Meet deadlines",
+      "source_span": "comfortable working with a high volume of transactions while maintaining accuracy and meeting deadlines.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-25",
+      "text": "Communicate clearly and confidently with customers and cross-functional partners across GTM and Finance",
+      "source_span": "You’re a clear and confident communicator who can work effectively with customers and cross-functional partners across GTM and Finance.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-26",
+      "text": "Identify opportunities to eliminate manual work",
+      "source_span": "identifying opportunities to eliminate manual work, improve efficiency, and build more scalable workflows.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-27",
+      "text": "Improve efficiency",
+      "source_span": "identifying opportunities to eliminate manual work, improve efficiency, and build more scalable workflows.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-28",
+      "text": "Build more scalable workflows",
+      "source_span": "identifying opportunities to eliminate manual work, improve efficiency, and build more scalable workflows.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-29",
+      "text": "Operate in an environment with established controls and processes",
+      "source_span": "You’re comfortable operating in an environment with established controls and processes, while still looking for ways to make them better.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-30",
+      "text": "Make them better",
+      "source_span": "while still looking for ways to make them better.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-31",
+      "text": "Have 3–5+ years of experience in billing, accounts receivable, collections, or a related accounting/finance function",
+      "source_span": "3–5+ years of experience in billing, accounts receivable, collections, or a related accounting/finance function;",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-32",
+      "text": "Experience in a SaaS or subscription business is preferred",
+      "source_span": "experience in a SaaS or subscription business is preferred.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-33",
+      "text": "Strong Excel skills",
+      "source_span": "Strong Excel skills and the ability to work accurately and efficiently with high volumes of financial and billing data.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-34",
+      "text": "Work accurately and efficiently with high volumes of financial and billing data",
+      "source_span": "Strong Excel skills and the ability to work accurately and efficiently with high volumes of financial and billing data.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-35",
+      "text": "Experience working in a SOX-controlled environment",
+      "source_span": "Experience working in a SOX-controlled environment and supporting financial controls.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-36",
+      "text": "Support financial controls",
+      "source_span": "Experience working in a SOX-controlled environment and supporting financial controls.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-37",
+      "text": "Strong analytical and problem-solving skills",
+      "source_span": "Strong analytical and problem-solving skills, with a high level of attention to detail and accountability for accuracy.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-38",
+      "text": "High level of attention to detail",
+      "source_span": "Strong analytical and problem-solving skills, with a high level of attention to detail and accountability for accuracy.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-39",
+      "text": "Accountability for accuracy",
+      "source_span": "Strong analytical and problem-solving skills, with a high level of attention to detail and accountability for accuracy.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-40",
+      "text": "Excellent written and verbal communication skills",
+      "source_span": "Excellent written and verbal communication skills and the ability to collaborate effectively across customers, GTM, Finance, and other business partners.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "aa2de5a053310233-41",
+      "text": "Collaborate effectively across customers, GTM, Finance, and other business partners",
+      "source_span": "Excellent written and verbal communication skills and the ability to collaborate effectively across customers, GTM, Finance, and other business partners.",
+      "is_boilerplate": false,
+      "is_requirement": true
     }
   ],
   "posted_at": "2026-09-09T22:16:20.686+00:00",
   "source_url": "https://jobs.ashbyhq.com/amplitude/34ca5ceb-d713-4e96-b034-6694d3038b2c",
-  "fetched_at": "2026-10-21T03:27:04.847Z",
-  "prompt_version": "hand-labelled",
+  "fetched_at": "2026-10-21T17:34:23.831Z",
+  "prompt_version": "extract-v1",
   "text": "Amplitude is the leading AI analytics platform, helping over 5,200 customers—including Atlassian, Burger King, NBCUniversal, and Square—build better products and digital experiences. With powerful AI Agents embedded across our platform, teams can analyze, test, and optimize user experiences faster than ever. Ranked #1 across multiple categories in G2’s Winter 2026 Report, Amplitude is the best-in-class solution for product, data, and marketing teams. Learn more at amplitude.com http://amplitude.com.\n\n\n\nAs an organization, we deliver for our customers by living our values. We operate from a place of humility, take ownership of problems and successes, approach challenges with a growth mindset, and put our customers at the center of everything we do.\n\n\nABOUT THE ROLE & TEAM\n\nAmplitude’s Revenue Accounting team is looking for a Sr Billing & Collections Analyst to own critical components of our order-to-cash process, ensuring customers are billed accurately, invoices are delivered on time, and billing issues are resolved quickly. In this role, you’ll manage the end-to-end billing cycle across our revenue streams while partnering closely with customers and internal teams across GTM and Finance. You’ll also play an important role in improving our billing and collections processes, with an opportunity to help move our order-to-cash workflows toward greater automation and scale. This is a hands-on role for someone who is highly detail-oriented, comfortable managing volume and deadlines, and enjoys solving complex problems in a cross-functional environment.\n\n As a Sr Billing & Collections Analyst, you will: \n\n - Own the end-to-end billing cycle, including invoice generation, review, delivery, and resolution of billing issues across Amplitude’s revenue streams.\n\n - Ensure invoices are accurate and aligned with contractual terms, proactively identifying and resolving discrepancies before they impact customers or downstream accounting processes.\n\n - Serve as a key point of contact for customer billing and contract inquiries, partnering with internal GTM and Finance teams to drive timely, accurate resolution and a strong customer experience.\n\n - Support collections activities to help ensure timely customer payments, investigating and resolving issues that may create payment delays.\n\n - Identify and drive opportunities to improve, automate, and scale order-to-cash workflows while supporting SOX controls and external audit requirements.\n\nYou'll be a great addition to the team if you have:\n\n - You have a strong ownership mindset and take pride in managing processes from start to finish, following issues through until they are fully resolved.\n\n - You’re highly detail-oriented and comfortable working with a high volume of transactions while maintaining accuracy and meeting deadlines.\n\n - You’re a clear and confident communicator who can work effectively with customers and cross-functional partners across GTM and Finance.\n\n - You’re naturally curious about how processes work and enjoy identifying opportunities to eliminate manual work, improve efficiency, and build more scalable workflows.\n\n - You’re comfortable operating in an environment with established controls and processes, while still looking for ways to make them better.\n\nAt a minimum, you need to have:\n\n - 3–5+ years of experience in billing, accounts receivable, collections, or a related accounting/finance function; experience in a SaaS or subscription business is preferred.\n\n - Strong Excel skills and the ability to work accurately and efficiently with high volumes of financial and billing data.\n\n - Experience working in a SOX-controlled environment and supporting financial controls.\n\n - Strong analytical and problem-solving skills, with a high level of attention to detail and accountability for accuracy.\n\n - Excellent written and verbal communication skills and the ability to collaborate effectively across customers, GTM, Finance, and other business partners.\n\n\nOUR VALUES:\n\nAt Amplitude, our values guide how we show up for one another and for our customers:\n\n - Humility: We operate from a place of empathy and openness, seeking to understand many points of view.\n\n - Ownership: We take the initiative to solve problems that drive our shared company success.\n\n - Growth Mindset: We’re tenacious in the face of challenges and seek feedback in order to grow ourselves and others.\n\n - Customer Centricity: We put the customer at the center of everything we do and are deeply committed to their success.\n\nWe care about the well-being of our team: We offer competitive pay and benefits packages that reflect our commitment to the health and well-being of our Ampliteers.\n\nSome of our benefit programs include:\n\n - Excellent  M edical,  D ental and  V ision insurance coverages, with 100% employer-paid premiums for employee Medical,  Dental,   Vision on select plans\n\n - 401(k) retirement plan with an employer match of up to 1% of your eligible pay each pay period up to $2,000 annually\n\n - Flexible time off,  p aid holidays, and more\n\n - Generous stipends to spend on what matters most to you, whether that’s wellness (monthly), commuter transit/parking (monthly), learning and development (quarterly), new hire home office equipment, and much more\n\n - Excellent Parental benefits including :  12 weeks of Paid Parental Leave, Carrot Fertility Benefits/Adoption/Surrogacy support, Back-up Child Care support\n\n - Mental health and wellness benefits including no cost employee access to Modern Health coaching & therapy sessions\n\n - Employee Stock Purchase Program  (ESPP)\n\nOther fun facts about Amplitude: \n\n - Our customers love us! They've said we're the #1 product analytics solution https://www.g2.com/categories/product-analytics/enterprise for 23 quarters in a row on G2.\n\n - We care a lot about product innovation. We've made significant investments in talent and infrastructure to build the most powerful AI analytics platform on the market. \n\n - We invest in our people. We offer mentorship programs, management training, and wellness initiatives. \n\n - We give back to our communities. We give every Ampliteer a charitable giving grant and paid volunteer time off. \n\n - We were founded in 2012, went public via a direct listing in September 2021, and are now trading under the ticker $AMPL. \n\n - We’re a global and fast-growing team! We have employees around the world and offices in San Francisco (HQ), New York, Vancouver, Amsterdam, London, Paris, Singapore, and Tokyo.\n\n - Our mascot is Data Monster, who loves to chow down on numbers, charts, and graphs. Nom nom.\n\nAmplitude provides equal employment opportunities (EEO). All applicants are considered without regards to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, or sexual orientation.\n\nSF ROLES ONLY: Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\n\nThis role is eligible for equity, benefits and other forms of compensation.\n\nBased on legislation in California, the following details are for individuals who will work for Amplitude in San Francisco Bay Area of California. Salary range: $121,000 - $181,000 total target cash (inclusive of bonus or commission)\n\n\nOUR VALUES:\n\nAt Amplitude, our values guide how we show up for one another and for our customers:\n\n - Humility: We operate from a place of empathy and openness, seeking to understand many points of view.\n\n - Ownership: We take the initiative to solve problems that drive our shared company success.\n\n - Growth Mindset: We’re tenacious in the face of challenges and seek feedback in order to grow ourselves and others.\n\n - Customer Centricity: We put the customer at the center of everything we do and are deeply committed to their success.\n\n\n\nWe care about the well-being of our team: We offer competitive pay and benefits packages that reflect our commitment to the health and well-being of our Ampliteers.\n\nSome of our benefit programs include:\n\n - Excellent  M edical,  D ental and  V ision insurance coverages, with 100% employer-paid premiums for employee Medical,  Dental,   Vision on select plans\n\n - 401(k) retirement plan with an employer match of up to 1% of your eligible pay each pay period up to $2,000 annually\n\n - Flexible time off,  p aid holidays, and more\n\n - Generous stipends to spend on what matters most to you, whether that’s wellness (monthly), commuter transit/parking (monthly), learning and development (quarterly), new hire home office equipment, and much more\n\n - Excellent Parental benefits including :  12 weeks of Paid Parental Leave, Carrot Fertility Benefits/Adoption/Surrogacy support, Back-up Child Care support\n\n - Mental health and wellness benefits including no cost employee access to Modern Health coaching & therapy sessions\n\n - Employee Stock Purchase Program  (ESPP)\n\n\n\nOther fun facts about Amplitude:\n\n - Our customers love us! They've said we're the #1 product analytics solution https://www.g2.com/categories/product-analytics/enterprise for 23 quarters in a row on G2.\n\n - We care a lot about product innovation. We've made significant investments in talent and infrastructure to build the most powerful AI analytics platform on the market.\n\n - We invest in our people. We offer mentorship programs, management training, and wellness initiatives.\n\n - We give back to our communities. We give every Ampliteer a charitable giving grant and paid volunteer time off.\n\n - We were founded in 2012, went public via a direct listing in September 2021, and are now trading under the ticker $AMPL.\n\n - We’re a global and fast-growing team! We have employees around the world and offices in San Francisco (HQ), New York, Vancouver, Amsterdam, London, Paris, Singapore, and Tokyo.\n\n - Our mascot is Data Monster, who loves to chow down on numbers, charts, and graphs. Nom nom.\n\n\n\nBy applying for this job, you acknowledge that Amplitude processes your personal data in accordance with the Amplitude Applicant Privacy Notice https://amplitude.com/job-applicant-privacy-notice.",
   "extra_salary_lines": [],
   "salary_source": "posting_text",

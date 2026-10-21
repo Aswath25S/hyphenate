@@ -1,0 +1,168 @@
+{
+  "posting_id": "f2493d4a99f8685e",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "f2493d4a99f8685e-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The core action is partnering with business functions, which is relationship-based finance support work rather than a platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f2493d4a99f8685e-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Providing a point of view on performance, investments, and tradeoffs is advisory judgment work performed by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f2493d4a99f8685e-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Owning GTM planning and forecasting is driver-based planning/modeling work that is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f2493d4a99f8685e-04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Developing a deep understanding of GTM performance is too vague to map to a specific automated finance action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f2493d4a99f8685e-05",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Proactively identifying risks and opportunities is broad and does not specify a concrete finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f2493d4a99f8685e-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Sales and GTM Operations on capacity, territory, and quota assumptions is cross-functional advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f2493d4a99f8685e-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Marketing leadership to evaluate performance and allocate resources is leadership-facing advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f2493d4a99f8685e-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Supporting leadership on retention, churn, expansion, and capacity planning is business partnering work, not an end-to-end platform task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f2493d4a99f8685e-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Sales compensation plan design, governance, and incentive alignment are judgment-heavy policy and strategy activities.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f2493d4a99f8685e-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Commissions forecasting and administration is repetitive finance operations work that is not covered by the capability map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f2493d4a99f8685e-11",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.82,
+      "rationale": "Building executive-ready narratives that explain results and drivers fits management reporting and executive financial packages.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f2493d4a99f8685e-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Providing financial leadership on GTM initiatives is strategic advisory and decision support work done by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f2493d4a99f8685e-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Building and improving driver-based financial models is FP&A modeling work that is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f2493d4a99f8685e-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Connecting assumptions to bookings, ARR, revenue, and profitability describes driver-based planning models rather than a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f2493d4a99f8685e-15",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Using AI and analytics to improve multiple finance processes is too broad to map to one specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f2493d4a99f8685e-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Identifying opportunities to eliminate manual workflows is process improvement work that is not a specific covered finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f2493d4a99f8685e-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Establishing metrics, operating cadences, and reporting is operating-model design and leadership work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f2493d4a99f8685e-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Leading and developing the GTM Finance team is people management work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

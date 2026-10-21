@@ -1,0 +1,899 @@
+{
+  "posting_id": "0577dcaf1ed31c3a",
+  "company": "Thatch",
+  "slug": "thatch",
+  "domain": "thatch.com",
+  "title": "Operations Specialist, Billing and Collections",
+  "role_family": "AR",
+  "seniority": "mid",
+  "n": 22,
+  "C": 8,
+  "A": 1,
+  "covered_share": 0.36363636363636365,
+  "overlap": 0.4090909090909091,
+  "weighted_overlap": 0.38636363636363635,
+  "thin": false,
+  "salary_min": 74000,
+  "salary_max": 95000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 13454.545454545454,
+  "savings_reason": null,
+  "lead_product": "Order-to-cash",
+  "product_split": {
+    "Order-to-cash": {
+      "covered": 7,
+      "assisted": 1,
+      "weighted": 7.5
+    },
+    "Treasury": {
+      "covered": 1,
+      "assisted": 0,
+      "weighted": 1
+    }
+  },
+  "erp": [],
+  "tools": [
+    "Stripe"
+  ],
+  "posted_at": "2026-09-03T13:29:44-04:00",
+  "source_url": "https://thatch.com/jobs/5414789008?gh_jid=5414789008",
+  "locations": [
+    "Austin, Texas, United States"
+  ],
+  "remote": "onsite",
+  "excluded": null,
+  "text": "About Thatch\n\nFor most people, health insurance is something that happens to them: a plan chosen by someone else, with little room to fit their life. Thatch is changing that. We help companies give every employee a real healthcare budget instead of a one-size-fits-all plan, so people can choose the coverage and care that works for them, and employers get predictable costs they can control.\n\nIt’s a simple idea, but making it real means solving hard problems across healthcare, payments, and technology, and we’re just getting started. We look for people who like solving complex problems, use good judgment, and are comfortable working through ambiguity. People here care deeply about our customers, take real responsibility for what gets built, and are driven by doing work that matters.\n\nAbout the role\n\nWe’re on the lookout for an Operations Specialist, Billing and Collections to join Thatch. This role is vital for our company — you’ll own the day-to-day resolution of Thatch’s billing and collections queue, working directly with employers, carriers, and internal teams to keep premium payments current and enrollments accurate. Thatch bills employers monthly for member premiums and fees, and this role is responsible for chasing down overdue invoices, resolving coverage corrections, and making judgment calls on when to follow up, escalate, or extend flexibility to an employer. We’re looking for someone with direct billing or collections experience who has thrived managing a high-volume queue, can operate independently with minimal oversight, and exercises strong judgment balancing collection outcomes against the member and employer experience. This role entails consistent communication with employers, carriers, and nearly every internal Thatch team, and offers the opportunity to build and refine the SOPs our collections process runs on as we scale.\n\nWhat you'll do\n\n• Own and manage a high-volume queue of billing and collections tasks, resolving overdue invoices and unpaid PEPM charges with employers.\n\n• Investigate and resolve billing discrepancies — coverage corrections, double-billing, and refund scenarios — using our billing and Stripe payment records.\n\n• Make independent, judgment-based decisions on collections strategy: when to follow up, escalate, extend flexibility, or involve leadership, balancing collection outcomes with the employer relationship.\n\n• Reconcile billing and payments as part of employer offboarding and churn, ensuring refunds and outstanding balances are resolved before an employer is churned.\n\n• Build out and maintain Standard Operating Procedures (SOPs) for billing and collections, and partner with Engineering to improve our collections tooling as we scale.\n\n• Collaborate with Support, Compliance, Carrier Operations, and Engineering to resolve distinct employer billing needs and flag systemic issues.\n\nBackground we're looking for\n\n• 2+ years of direct experience in billing, collections, accounts receivable, or a similar operations role, ideally in a high-growth or high-volume environment.\n\n• Demonstrated success managing a high-volume queue independently, with strong prioritization and follow-through.\n\n• Excellent judgment — comfortable making case-by-case decisions on collections and escalation without needing step-by-step direction.\n\n• Strong analytical skills; comfortable reconciling invoices, payments, and ledgers to identify and explain discrepancies.\n\n• Well-developed written and verbal communication skills, including comfort delivering difficult financial conversations to customers.\n\n• Bachelor's degree required\n\n• Ability and willingness to work onsite in our Austin, TX office\n\nExperience we’d be particularly excited about\n\n• Experience in health insurance, benefits, or fintech billing/collections.\n\n• Familiarity with Stripe or similar payment platforms and reconciling payments against invoices.\n\n• Experience working cross-functionally with Engineering to improve internal tooling.\n\n• A track record of success and recognition in a fast-paced, high-growth environment.\n\nWhat to expect\n\nWe interview rigorously based on integrity, talent, and drive; the trust we display in our teammates from day 1 is a reflection of the confidence we have in this process. We aim to evaluate the things you’ll be doing every day as best we can, and we move quickly. Here's what to expect:\n\n• 30 minute video meeting to talk through your background and interest in Thatch\n\n• 30 minute video meeting with the hiring manager to dive deeper into your experience and the role\n\n• 30 minute video meeting to meet 2-3 members of the team\n\n• 30 minute video meeting with the hiring manager to work through a live case study\n\n• 30 minute video meeting with our founders to discuss your approach to culture and our operating principles\n\nEstimated Compensation Range\n\n$74,000—$95,000 USD",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 74000,
+    "max": 95000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Estimated Compensation Range\n\n$74,000—$95,000 USD"
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": true,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "high-volume queue",
+    "chasing down overdue invoices",
+    "build and refine the SOPs",
+    "high-volume environment",
+    "as we scale"
+  ],
+  "fetched_at": "2026-10-21T17:34:22.978Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "0577dcaf1ed31c3a-01",
+      "text": "Own and manage a high-volume queue of billing and collections tasks",
+      "source_span": "Own and manage a high-volume queue of billing and collections tasks",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1891,
+        "end": 1958
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.45,
+      "rationale": "Managing a high-volume queue is a workflow-management description rather than a specific finance operation capability.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-02",
+      "text": "Resolve overdue invoices",
+      "source_span": "resolving overdue invoices",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1960,
+        "end": 1986
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.collections",
+      "capability": "Send payment reminders and chase overdue invoices",
+      "product": "Order-to-cash",
+      "confidence": 0.98,
+      "rationale": "Resolving overdue invoices is core collections work to chase past-due balances.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-03",
+      "text": "Resolve unpaid PEPM charges with employers",
+      "source_span": "unpaid PEPM charges with employers",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1991,
+        "end": 2025
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.collections",
+      "capability": "Send payment reminders and chase overdue invoices",
+      "product": "Order-to-cash",
+      "confidence": 0.84,
+      "rationale": "Resolving unpaid charges with employers is collections work focused on overdue receivables.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-04",
+      "text": "Investigate billing discrepancies",
+      "source_span": "Investigate and resolve billing discrepancies",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2030,
+        "end": 2075
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "o2c.orders_refunds",
+      "capability": "Process orders, refunds and sales triage",
+      "product": "Order-to-cash",
+      "confidence": 0.67,
+      "rationale": "Investigating billing discrepancies fits customer billing inquiry resolution, but it requires human judgment to diagnose the issue.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-05",
+      "text": "Resolve coverage corrections",
+      "source_span": "coverage corrections",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1273,
+        "end": 1293
+      },
+      "label": "unclear",
+      "model_label": "gap_candidate",
+      "adjusted": "confidence 0.58 below 0.6",
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.58,
+      "rationale": "Resolving coverage corrections is a repetitive billing correction task but does not match a listed capability.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-06",
+      "text": "Resolve double-billing",
+      "source_span": "double-billing",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2100,
+        "end": 2114
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.orders_refunds",
+      "capability": "Process orders, refunds and sales triage",
+      "product": "Order-to-cash",
+      "confidence": 0.92,
+      "rationale": "Resolving double-billing is a billing error correction and refund/adjustment workflow.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-07",
+      "text": "Resolve refund scenarios",
+      "source_span": "refund scenarios",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2120,
+        "end": 2136
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.orders_refunds",
+      "capability": "Process orders, refunds and sales triage",
+      "product": "Order-to-cash",
+      "confidence": 0.98,
+      "rationale": "Resolving refund scenarios is directly the refunds workflow.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-08",
+      "text": "Use billing and Stripe payment records",
+      "source_span": "using our billing and Stripe payment records",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2139,
+        "end": 2183
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.52,
+      "rationale": "Using billing and Stripe payment records is too vague to map to a specific end-to-end capability.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-09",
+      "text": "Make independent, judgment-based decisions on collections strategy",
+      "source_span": "Make independent, judgment-based decisions on collections strategy",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2188,
+        "end": 2254
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Making independent, judgment-based decisions on collections strategy is human judgment by nature.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-10",
+      "text": "Follow up with employers",
+      "source_span": "when to follow up",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1324,
+        "end": 1341
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.collections",
+      "capability": "Send payment reminders and chase overdue invoices",
+      "product": "Order-to-cash",
+      "confidence": 0.96,
+      "rationale": "Following up with employers is collections follow-up on overdue balances.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-11",
+      "text": "Escalate collections issues",
+      "source_span": "escalate",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1343,
+        "end": 1351
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.78,
+      "rationale": "Escalating collections issues is cross-functional coordination with people rather than an automated finance operation.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-12",
+      "text": "Extend flexibility to an employer",
+      "source_span": "extend flexibility",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1356,
+        "end": 1374
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Extending flexibility to an employer is a negotiation decision that requires human judgment.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-13",
+      "text": "Involve leadership",
+      "source_span": "involve leadership",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2308,
+        "end": 2326
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Involving leadership is a human escalation and coordination activity.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-14",
+      "text": "Balance collection outcomes against the employer relationship",
+      "source_span": "balancing collection outcomes against the employer relationship",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": null,
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Balancing collection outcomes against the employer relationship is a judgment and negotiation tradeoff handled by people.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-15",
+      "text": "Reconcile billing and payments as part of employer offboarding and churn",
+      "source_span": "Reconcile billing and payments as part of employer offboarding and churn",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2393,
+        "end": 2465
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "tre.cash_application",
+      "capability": "Match bank activity to open invoices and bills",
+      "product": "Treasury",
+      "confidence": 0.82,
+      "rationale": "Reconciling billing and payments is matching payment activity to receivables, which is cash application work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-16",
+      "text": "Ensure refunds are resolved before employer churn",
+      "source_span": "ensuring refunds",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2467,
+        "end": 2483
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.orders_refunds",
+      "capability": "Process orders, refunds and sales triage",
+      "product": "Order-to-cash",
+      "confidence": 0.86,
+      "rationale": "Ensuring refunds are resolved is the refunds-resolution workflow.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-17",
+      "text": "Ensure outstanding balances are resolved before employer churn",
+      "source_span": "outstanding balances are resolved before an employer is churned",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2488,
+        "end": 2551
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.collections",
+      "capability": "Send payment reminders and chase overdue invoices",
+      "product": "Order-to-cash",
+      "confidence": 0.94,
+      "rationale": "Ensuring outstanding balances are resolved before churn is collections work to clear overdue receivables.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-18",
+      "text": "Build out Standard Operating Procedures (SOPs) for billing and collections",
+      "source_span": "Build out and maintain Standard Operating Procedures (SOPs) for billing and collections",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2556,
+        "end": 2643
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Building SOPs is process design and documentation work that depends on human judgment.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-19",
+      "text": "Maintain Standard Operating Procedures (SOPs) for billing and collections",
+      "source_span": "maintain Standard Operating Procedures (SOPs) for billing and collections",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2570,
+        "end": 2643
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.82,
+      "rationale": "Maintaining SOPs is ongoing process documentation and ownership rather than a listed finance automation capability.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-20",
+      "text": "Partner with Engineering to improve collections tooling",
+      "source_span": "partner with Engineering to improve our collections tooling",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2649,
+        "end": 2708
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Engineering to improve tooling is cross-functional collaboration with another team.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-21",
+      "text": "Collaborate cross-functionally to resolve distinct employer billing needs",
+      "source_span": "Collaborate with Support, Compliance, Carrier Operations, and Engineering to resolve distinct employer billing needs",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2725,
+        "end": 2841
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Collaborating cross-functionally to resolve employer billing needs is partnering with other teams.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-22",
+      "text": "Flag systemic issues",
+      "source_span": "flag systemic issues",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2846,
+        "end": 2866
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.72,
+      "rationale": "Flagging systemic issues is a human escalation and advisory action rather than a specific covered finance operation.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-23",
+      "text": "We’re on the lookout for an Operations Specialist, Billing and Collections to join Thatch.",
+      "source_span": "We’re on the lookout for an Operations Specialist, Billing and Collections to join Thatch.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 809,
+        "end": 899
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-24",
+      "text": "We look for people who like solving complex problems, use good judgment, and are comfortable working through ambiguity.",
+      "source_span": "We look for people who like solving complex problems, use good judgment, and are comfortable working through ambiguity.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 538,
+        "end": 657
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-25",
+      "text": "People here care deeply about our customers, take real responsibility for what gets built, and are driven by doing work that matters.",
+      "source_span": "People here care deeply about our customers, take real responsibility for what gets built, and are driven by doing work that matters.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 658,
+        "end": 791
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-26",
+      "text": "2+ years of direct experience in billing, collections, accounts receivable, or a similar operations role, ideally in a high-growth or high-volume environment.",
+      "source_span": "2+ years of direct experience in billing, collections, accounts receivable, or a similar operations role, ideally in a high-growth or high-volume environment.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2901,
+        "end": 3059
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-27",
+      "text": "Demonstrated success managing a high-volume queue independently",
+      "source_span": "Demonstrated success managing a high-volume queue independently, with strong prioritization and follow-through.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3063,
+        "end": 3174
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-28",
+      "text": "Excellent judgment",
+      "source_span": "Excellent judgment — comfortable making case-by-case decisions on collections and escalation without needing step-by-step direction.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3178,
+        "end": 3310
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-29",
+      "text": "Strong analytical skills",
+      "source_span": "Strong analytical skills; comfortable reconciling invoices, payments, and ledgers to identify and explain discrepancies.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3314,
+        "end": 3434
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-30",
+      "text": "Well-developed written and verbal communication skills",
+      "source_span": "Well-developed written and verbal communication skills, including comfort delivering difficult financial conversations to customers.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3438,
+        "end": 3570
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-31",
+      "text": "Bachelor's degree required",
+      "source_span": "Bachelor's degree required",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3574,
+        "end": 3600
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-32",
+      "text": "Ability and willingness to work onsite in our Austin, TX office",
+      "source_span": "Ability and willingness to work onsite in our Austin, TX office",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3604,
+        "end": 3667
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-33",
+      "text": "Experience in health insurance, benefits, or fintech billing/collections",
+      "source_span": "Experience in health insurance, benefits, or fintech billing/collections.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3718,
+        "end": 3791
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-34",
+      "text": "Familiarity with Stripe or similar payment platforms and reconciling payments against invoices",
+      "source_span": "Familiarity with Stripe or similar payment platforms and reconciling payments against invoices.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3795,
+        "end": 3890
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-35",
+      "text": "Experience working cross-functionally with Engineering to improve internal tooling",
+      "source_span": "Experience working cross-functionally with Engineering to improve internal tooling.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3894,
+        "end": 3977
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-36",
+      "text": "A track record of success and recognition in a fast-paced, high-growth environment",
+      "source_span": "A track record of success and recognition in a fast-paced, high-growth environment.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3981,
+        "end": 4064
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0577dcaf1ed31c3a-37",
+      "text": "We interview rigorously based on integrity, talent, and drive",
+      "source_span": "We interview rigorously based on integrity, talent, and drive; the trust we display in our teammates from day 1 is a reflection of the confidence we have in this process.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4082,
+        "end": 4252
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

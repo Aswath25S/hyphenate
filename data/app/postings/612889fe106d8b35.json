@@ -5,39 +5,46 @@
   "domain": "whoop.com",
   "title": "Staff Accountant",
   "role_family": "GL",
-  "seniority": "entry",
-  "n": 15,
-  "C": 4,
-  "A": 5,
-  "covered_share": 0.26666666666666666,
-  "overlap": 0.6,
-  "weighted_overlap": 0.43333333333333335,
+  "seniority": "mid",
+  "n": 33,
+  "C": 10,
+  "A": 10,
+  "covered_share": 0.30303030303030304,
+  "overlap": 0.6060606060606061,
+  "weighted_overlap": 0.45454545454545453,
   "thin": false,
   "salary_min": 60000,
   "salary_max": 90000,
   "salary_varies": false,
   "salary_source": "posting_text",
-  "savings": 8000,
+  "savings": 9090.909090909092,
   "savings_reason": null,
   "lead_product": "GL accounting",
   "product_split": {
     "GL accounting": {
-      "covered": 4,
-      "assisted": 5,
-      "weighted": 6.5
+      "covered": 9,
+      "assisted": 10,
+      "weighted": 14
+    },
+    "Procure-to-pay": {
+      "covered": 1,
+      "assisted": 0,
+      "weighted": 1
     }
   },
   "erp": [
     "NetSuite",
     "Oracle"
   ],
-  "tools": [],
+  "tools": [
+    "Excel"
+  ],
   "posted_at": "2026-08-25T17:49:34.113+00:00",
   "source_url": "https://jobs.ashbyhq.com/whoop/3b6827ad-945c-46be-b920-897de9cc85ba",
   "locations": [
     "Boston, MA"
   ],
-  "remote": "unknown",
+  "remote": "onsite",
   "excluded": null,
   "text": "At WHOOP, we're on a mission to unlock human performance and extend healthspan. Through continuous health and performance monitoring, WHOOP empowers members to better understand their bodies and make informed decisions that improve their daily lives.\n\nAs a Staff Accountant, Corporate Accounting, you will play a key role in supporting the accuracy, integrity, and scalability of WHOOP's financial operations. You will support critical areas of the month-end close process, including fixed assets, accruals, prepaid expenses, expense management, and balance sheet reconciliations. This role offers broad exposure across the organization through partnerships with Marketing, Manufacturing, Legal, Operations, R&D, and Finance teams. This is an excellent opportunity to build a strong technical foundation, gain a deep understanding of WHOOP's business operations, and grow within a high-performing accounting team.\n\nThe ideal candidate is detail-oriented, analytical, and eager to learn, with a passion for problem-solving and leveraging technology to improve efficiency.\n\nThis role is based in Boston, MA. Candidates must be willing to relocate, if necessary, to work from our Boston office.\n\nRESPONSIBILITIES:\n\n - Support the month-end close process through the preparation of journal entries, accruals, account reconciliations, and monthly fluctuation analyses, helping ensure the accuracy and completeness of financial results.\n\n - Support the monthly marketing accrual process by gathering inputs from Marketing stakeholders and preparing accrual calculations related to campaigns, agency relationships, and partnerships with high-profile athletes, influencers, and brand ambassadors.\n\n - Maintain fixed asset accounting, including recording asset additions, placements, transfers, disposals, and monthly depreciation, partnering with Manufacturing, Supply Chain, and R&D teams to support capital expenditure initiatives.\n\n - Prepare prepaid expense schedules and monthly amortization entries, reviewing vendor contracts and invoices to help ensure costs are recorded over the appropriate benefit period.\n\n - Support company-wide expense management processes, helping ensure accurate reporting, policy compliance, and scalable controls.\n\n - Support annual audits and quarterly reviews by preparing schedules and supporting documentation and assisting with responses to auditor inquiries.\n\n - Contribute to process improvement and finance transformation initiatives by supporting system implementations, documenting standard operating procedures, and leveraging automation and AI-driven solutions to enhance efficiency.\n\nQUALIFICATIONS:\n\n - Bachelor's degree in Accounting, Finance, or a related field.\n\n - 1-3 years of accounting experience; public accounting experience is a plus\n\n - Foundational understanding of U.S. GAAP and core accounting principles.\n\n - CPA candidacy or interest in pursuing the CPA is a plus.\n\n - Strong Excel skills, with comfort working with large datasets.\n\n - Experience with NetSuite, Oracle, or a comparable ERP system is a plus.\n\n - Strong analytical and problem-solving skills, with intellectual curiosity and a willingness to ask questions and learn.\n\n - Excellent written and verbal communication skills, with the ability to collaborate effectively across teams.\n\n - Highly organized, detail-oriented, and motivated by continuous improvement and process optimization.\n\nThe WHOOP compensation philosophy is designed to attract, motivate, and retain exceptional talent by offering competitive base salaries, meaningful equity, and consistent pay practices that reflect our mission and core values.\n\nAt WHOOP, we view total compensation as the combination of base salary, equity, and benefits, with equity serving as a key differentiator that aligns our employees with the long-term success of the company and allows every member of our corporate team to own part of WHOOP and share in the company's long-term growth and success.\n\nThe U.S. base salary range for this full-time position is $60,000 -$90,000. Salary ranges are determined by role, level, and location. Within each range, individual pay is based on factors such as job-related skills, experience, performance, and relevant education or training.\n\nIn addition to the base salary, the successful candidate will also receive benefits and a generous equity package.\n\nThese ranges may be modified in the future to reflect evolving market conditions and organizational needs. While most offers will typically fall toward the starting point of the range, total compensation will depend on the candidate's specific qualifications, expertise, and alignment with the role's requirements.",
   "extra_salary_lines": [],
@@ -46,7 +53,7 @@
     "max": 90000,
     "period": "year",
     "currency": "USD",
-    "raw_text": "The U.S. base salary range for this full-time position is $60,000 -$90,000. Salary ranges are determined by role, level, and location. Within each range, individual pay is based on factors such as job-related skills, experience, performance, and relevant education or training."
+    "raw_text": "The U.S. base salary range for this full-time position is $60,000 -$90,000."
   },
   "complexity": {
     "multi_entity": false,
@@ -56,18 +63,18 @@
     "entity_count": null
   },
   "pain_phrases": [],
-  "fetched_at": "2026-10-21T03:26:57.704Z",
+  "fetched_at": "2026-10-21T17:34:16.460Z",
   "ats": "ashby",
   "duties": [
     {
-      "duty_id": "612889fe106d8b35-h01",
-      "text": "Prepare month-end journal entries",
-      "source_span": "preparation of journal entries",
+      "duty_id": "612889fe106d8b35-01",
+      "text": "Prepare journal entries",
+      "source_span": "journal entries",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 1263,
+        "start": 1278,
         "end": 1293
       },
       "label": "assisted",
@@ -76,20 +83,20 @@
       "capability_id": "gl.journal_entries",
       "capability": "Prepare and post journal entries",
       "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Preparing journal entries matches the GL journal entry capability, but it is listed as assisted because it typically still needs accounting judgment.",
       "gap_theme": null
     },
     {
-      "duty_id": "612889fe106d8b35-h02",
-      "text": "Prepare month-end accruals",
-      "source_span": "journal entries, accruals",
+      "duty_id": "612889fe106d8b35-02",
+      "text": "Prepare accruals",
+      "source_span": "accruals",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 1278,
-        "end": 1303
+        "start": 498,
+        "end": 506
       },
       "label": "assisted",
       "model_label": "assisted",
@@ -97,12 +104,12 @@
       "capability_id": "gl.accruals",
       "capability": "Estimate accruals from history, POs and budget",
       "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Preparing accruals is the core accrual estimation and recording work covered by the GL accruals capability.",
       "gap_theme": null
     },
     {
-      "duty_id": "612889fe106d8b35-h03",
+      "duty_id": "612889fe106d8b35-03",
       "text": "Prepare account reconciliations",
       "source_span": "account reconciliations",
       "is_boilerplate": false,
@@ -118,12 +125,12 @@
       "capability_id": "gl.account_recs",
       "capability": "Balance-sheet account reconciliations",
       "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.99,
+      "rationale": "Preparing account reconciliations directly matches balance-sheet account reconciliations.",
       "gap_theme": null
     },
     {
-      "duty_id": "612889fe106d8b35-h04",
+      "duty_id": "612889fe106d8b35-04",
       "text": "Prepare monthly fluctuation analyses",
       "source_span": "monthly fluctuation analyses",
       "is_boilerplate": false,
@@ -139,13 +146,13 @@
       "capability_id": "gl.flux",
       "capability": "Variance (flux) analysis with draft commentary",
       "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Preparing monthly fluctuation analyses matches flux analysis and variance commentary.",
       "gap_theme": null
     },
     {
-      "duty_id": "612889fe106d8b35-h05",
-      "text": "Gather marketing accrual inputs from stakeholders",
+      "duty_id": "612889fe106d8b35-05",
+      "text": "Gather inputs from Marketing stakeholders",
       "source_span": "gathering inputs from Marketing stakeholders",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -160,17 +167,17 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.96,
+      "rationale": "Gathering inputs from Marketing stakeholders is cross-functional partnering with people, which is human work.",
       "gap_theme": {
-        "theme_id": "cross_functional",
-        "name": "Cross-functional partnering",
-        "bucket": "human_work"
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "612889fe106d8b35-h06",
-      "text": "Prepare marketing accrual calculations",
+      "duty_id": "612889fe106d8b35-06",
+      "text": "Prepare accrual calculations related to campaigns",
       "source_span": "preparing accrual calculations related to campaigns",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -185,19 +192,166 @@
       "capability_id": "gl.accruals",
       "capability": "Estimate accruals from history, POs and budget",
       "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.95,
+      "rationale": "Preparing accrual calculations for campaigns is an accrual estimation task based on historical and source inputs.",
       "gap_theme": null
     },
     {
-      "duty_id": "612889fe106d8b35-h07",
-      "text": "Record fixed asset additions, transfers, disposals and depreciation",
-      "source_span": "Maintain fixed asset accounting, including recording asset additions, placements, transfers, disposals, and monthly depreciation",
+      "duty_id": "612889fe106d8b35-07",
+      "text": "Prepare accrual calculations related to agency relationships",
+      "source_span": "agency relationships",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1586,
+        "end": 1606
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.accruals",
+      "capability": "Estimate accruals from history, POs and budget",
+      "product": "GL accounting",
+      "confidence": 0.95,
+      "rationale": "Preparing accrual calculations for agency relationships is still accrual estimation work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-08",
+      "text": "Prepare accrual calculations related to partnerships with high-profile athletes, influencers, and brand ambassadors",
+      "source_span": "partnerships with high-profile athletes, influencers, and brand ambassadors",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1612,
+        "end": 1687
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.accruals",
+      "capability": "Estimate accruals from history, POs and budget",
+      "product": "GL accounting",
+      "confidence": 0.94,
+      "rationale": "Preparing accrual calculations for athlete, influencer, and brand ambassador arrangements is accrual work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-09",
+      "text": "Maintain fixed asset accounting",
+      "source_span": "Maintain fixed asset accounting",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 1693,
+        "end": 1724
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.subledgers",
+      "capability": "Prepaids, fixed assets, ASC 842 leases, R&D capitalisation",
+      "product": "GL accounting",
+      "confidence": 0.98,
+      "rationale": "Maintaining fixed asset accounting matches the fixed asset register and related subledger work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-10",
+      "text": "Record asset additions",
+      "source_span": "recording asset additions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1736,
+        "end": 1761
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.subledgers",
+      "capability": "Prepaids, fixed assets, ASC 842 leases, R&D capitalisation",
+      "product": "GL accounting",
+      "confidence": 0.96,
+      "rationale": "Recording asset additions is part of maintaining the fixed asset register.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-11",
+      "text": "Record asset placements",
+      "source_span": "placements",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1763,
+        "end": 1773
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.subledgers",
+      "capability": "Prepaids, fixed assets, ASC 842 leases, R&D capitalisation",
+      "product": "GL accounting",
+      "confidence": 0.96,
+      "rationale": "Recording asset placements is fixed asset subledger maintenance.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-12",
+      "text": "Record asset transfers",
+      "source_span": "transfers",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1775,
+        "end": 1784
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.subledgers",
+      "capability": "Prepaids, fixed assets, ASC 842 leases, R&D capitalisation",
+      "product": "GL accounting",
+      "confidence": 0.95,
+      "rationale": "Recording asset transfers fits fixed asset accounting and subledger maintenance.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-13",
+      "text": "Record asset disposals",
+      "source_span": "disposals",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1786,
+        "end": 1795
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.subledgers",
+      "capability": "Prepaids, fixed assets, ASC 842 leases, R&D capitalisation",
+      "product": "GL accounting",
+      "confidence": 0.96,
+      "rationale": "Recording asset disposals is part of fixed asset accounting.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-14",
+      "text": "Record monthly depreciation",
+      "source_span": "monthly depreciation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1801,
         "end": 1821
       },
       "label": "covered",
@@ -206,13 +360,13 @@
       "capability_id": "gl.subledgers",
       "capability": "Prepaids, fixed assets, ASC 842 leases, R&D capitalisation",
       "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.99,
+      "rationale": "Recording monthly depreciation directly matches the fixed asset and amortization subledger capability.",
       "gap_theme": null
     },
     {
-      "duty_id": "612889fe106d8b35-h08",
-      "text": "Partner with Manufacturing, Supply Chain and R&D on capex",
+      "duty_id": "612889fe106d8b35-15",
+      "text": "Partner with Manufacturing, Supply Chain, and R&D teams to support capital expenditure initiatives",
       "source_span": "partnering with Manufacturing, Supply Chain, and R&D teams to support capital expenditure initiatives",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -227,23 +381,44 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.95,
+      "rationale": "Partnering with other teams to support capex initiatives is cross-functional collaboration and advisory work.",
       "gap_theme": {
-        "theme_id": "cross_functional",
-        "name": "Cross-functional partnering",
+        "theme_id": "customer_support",
+        "name": "Customer support",
         "bucket": "human_work"
       }
     },
     {
-      "duty_id": "612889fe106d8b35-h09",
-      "text": "Prepare prepaid schedules and monthly amortization entries",
-      "source_span": "Prepare prepaid expense schedules and monthly amortization entries",
+      "duty_id": "612889fe106d8b35-16",
+      "text": "Prepare prepaid expense schedules",
+      "source_span": "Prepare prepaid expense schedules",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 1930,
+        "end": 1963
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.subledgers",
+      "capability": "Prepaids, fixed assets, ASC 842 leases, R&D capitalisation",
+      "product": "GL accounting",
+      "confidence": 0.98,
+      "rationale": "Preparing prepaid expense schedules is explicitly part of the subledger capability.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-17",
+      "text": "Prepare monthly amortization entries",
+      "source_span": "monthly amortization entries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1968,
         "end": 1996
       },
       "label": "covered",
@@ -252,34 +427,59 @@
       "capability_id": "gl.subledgers",
       "capability": "Prepaids, fixed assets, ASC 842 leases, R&D capitalisation",
       "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Preparing monthly amortization entries matches the subledger maintenance and amortization workflow.",
       "gap_theme": null
     },
     {
-      "duty_id": "612889fe106d8b35-h10",
-      "text": "Review vendor contracts and invoices for benefit periods",
-      "source_span": "reviewing vendor contracts and invoices to help ensure costs are recorded over the appropriate benefit period",
+      "duty_id": "612889fe106d8b35-18",
+      "text": "Review vendor contracts",
+      "source_span": "reviewing vendor contracts",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 1998,
-        "end": 2107
+        "end": 2024
+      },
+      "label": "unclear",
+      "model_label": "gap_candidate",
+      "adjusted": "confidence 0.56 below 0.6",
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.56,
+      "rationale": "Reviewing vendor contracts is document review work that could be automated but does not match a listed capability.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "612889fe106d8b35-19",
+      "text": "Review invoices",
+      "source_span": "and invoices",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2025,
+        "end": 2037
       },
       "label": "covered",
       "model_label": "covered",
       "adjusted": null,
-      "capability_id": "gl.subledgers",
-      "capability": "Prepaids, fixed assets, ASC 842 leases, R&D capitalisation",
-      "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "capability_id": "p2p.bill_capture",
+      "capability": "Read and code vendor bills to GL, class and entity",
+      "product": "Procure-to-pay",
+      "confidence": 0.96,
+      "rationale": "Reviewing invoices fits vendor bill coding and invoice processing.",
       "gap_theme": null
     },
     {
-      "duty_id": "612889fe106d8b35-h11",
-      "text": "Support company-wide expense management",
+      "duty_id": "612889fe106d8b35-20",
+      "text": "Support company-wide expense management processes",
       "source_span": "Support company-wide expense management processes",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -288,29 +488,171 @@
         "start": 2113,
         "end": 2162
       },
-      "label": "gap_candidate",
-      "model_label": "gap_candidate",
+      "label": "unclear",
+      "model_label": "unclear",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.62,
+      "rationale": "Supporting company-wide expense management is too broad to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "expense_review",
-        "name": "Expense report review",
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "612889fe106d8b35-21",
+      "text": "Ensure accurate reporting",
+      "source_span": "accurate reporting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2179,
+        "end": 2197
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Ensuring accurate reporting is too vague to determine a specific platform capability.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "612889fe106d8b35-h12",
-      "text": "Prepare audit schedules and supporting documentation",
-      "source_span": "Support annual audits and quarterly reviews by preparing schedules and supporting documentation",
+      "duty_id": "612889fe106d8b35-22",
+      "text": "Ensure policy compliance",
+      "source_span": "policy compliance",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2199,
+        "end": 2216
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.78,
+      "rationale": "Ensuring policy compliance is too general without a specific compliance or control action.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "612889fe106d8b35-23",
+      "text": "Ensure scalable controls",
+      "source_span": "scalable controls",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2222,
+        "end": 2239
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.82,
+      "rationale": "Ensuring scalable controls is too vague to map cleanly to a listed capability.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "612889fe106d8b35-24",
+      "text": "Support annual audits",
+      "source_span": "Support annual audits",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 2245,
+        "end": 2266
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.96,
+      "rationale": "Supporting annual audits matches audit trail and PBC support work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-25",
+      "text": "Support quarterly reviews",
+      "source_span": "quarterly reviews",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2271,
+        "end": 2288
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.9,
+      "rationale": "Supporting quarterly reviews is audit support work that fits the audit trail capability.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-26",
+      "text": "Prepare schedules",
+      "source_span": "preparing schedules",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2292,
+        "end": 2311
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Preparing schedules is too vague without knowing which financial schedule is meant.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "612889fe106d8b35-27",
+      "text": "Prepare supporting documentation",
+      "source_span": "supporting documentation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2316,
         "end": 2340
       },
       "label": "assisted",
@@ -319,13 +661,13 @@
       "capability_id": "gl.audit_support",
       "capability": "Audit trail and support for each entry",
       "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.95,
+      "rationale": "Preparing supporting documentation matches the audit support capability for entry documentation and PBCs.",
       "gap_theme": null
     },
     {
-      "duty_id": "612889fe106d8b35-h13",
-      "text": "Respond to auditor inquiries",
+      "duty_id": "612889fe106d8b35-28",
+      "text": "Assist with responses to auditor inquiries",
       "source_span": "assisting with responses to auditor inquiries",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -334,22 +676,68 @@
         "start": 2345,
         "end": 2390
       },
-      "label": "human",
-      "model_label": "human",
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.93,
+      "rationale": "Assisting with auditor inquiries is audit support, though not the primary external auditor relationship.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-29",
+      "text": "Contribute to process improvement initiatives",
+      "source_span": "Contribute to process improvement and finance transformation initiatives",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2396,
+        "end": 2468
+      },
+      "label": "unclear",
+      "model_label": "unclear",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.8,
+      "rationale": "Contributing to process improvement initiatives is too broad and project-oriented to map precisely.",
       "gap_theme": {
-        "theme_id": "auditor_relationships",
-        "name": "Auditor relationships",
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
         "bucket": "human_work"
       }
     },
     {
-      "duty_id": "612889fe106d8b35-h14",
+      "duty_id": "612889fe106d8b35-30",
+      "text": "Contribute to finance transformation initiatives",
+      "source_span": "finance transformation initiatives",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2434,
+        "end": 2468
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.82,
+      "rationale": "Contributing to finance transformation initiatives is a vague project duty rather than a specific finance operation.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "612889fe106d8b35-31",
       "text": "Support system implementations",
       "source_span": "supporting system implementations",
       "is_boilerplate": false,
@@ -359,22 +747,22 @@
         "start": 2472,
         "end": 2505
       },
-      "label": "human",
-      "model_label": "human",
+      "label": "unclear",
+      "model_label": "unclear",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.88,
+      "rationale": "Supporting system implementations is project implementation work, which is not a listed end-to-end capability.",
       "gap_theme": {
-        "theme_id": "process_improvement",
-        "name": "Process improvement projects",
-        "bucket": "human_work"
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "612889fe106d8b35-h15",
+      "duty_id": "612889fe106d8b35-32",
       "text": "Document standard operating procedures",
       "source_span": "documenting standard operating procedures",
       "is_boilerplate": false,
@@ -384,19 +772,254 @@
         "start": 2507,
         "end": 2548
       },
-      "label": "human",
-      "model_label": "human",
+      "label": "unclear",
+      "model_label": "unclear",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.74,
+      "rationale": "Documenting standard operating procedures is process documentation that does not map to a specific capability.",
       "gap_theme": {
-        "theme_id": "process_improvement",
-        "name": "Process improvement projects",
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "612889fe106d8b35-33",
+      "text": "Leverage automation and AI-driven solutions to enhance efficiency",
+      "source_span": "leveraging automation and AI-driven solutions to enhance efficiency",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2554,
+        "end": 2621
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.65,
+      "rationale": "Leveraging automation and AI-driven solutions describes a method rather than a specific finance duty.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
         "bucket": "human_work"
       }
+    },
+    {
+      "duty_id": "612889fe106d8b35-34",
+      "text": "Bachelor's degree in Accounting, Finance, or a related field.",
+      "source_span": "Bachelor's degree in Accounting, Finance, or a related field.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2644,
+        "end": 2705
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-35",
+      "text": "1-3 years of accounting experience",
+      "source_span": "1-3 years of accounting experience",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2710,
+        "end": 2744
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-36",
+      "text": "Public accounting experience is a plus",
+      "source_span": "public accounting experience is a plus",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2746,
+        "end": 2784
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-37",
+      "text": "Foundational understanding of U.S. GAAP and core accounting principles.",
+      "source_span": "Foundational understanding of U.S. GAAP and core accounting principles.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2789,
+        "end": 2860
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-38",
+      "text": "CPA candidacy or interest in pursuing the CPA is a plus.",
+      "source_span": "CPA candidacy or interest in pursuing the CPA is a plus.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2865,
+        "end": 2921
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-39",
+      "text": "Strong Excel skills, with comfort working with large datasets.",
+      "source_span": "Strong Excel skills, with comfort working with large datasets.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2926,
+        "end": 2988
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-40",
+      "text": "Experience with NetSuite, Oracle, or a comparable ERP system is a plus.",
+      "source_span": "Experience with NetSuite, Oracle, or a comparable ERP system is a plus.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2993,
+        "end": 3064
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-41",
+      "text": "Strong analytical and problem-solving skills, with intellectual curiosity and a willingness to ask questions and learn.",
+      "source_span": "Strong analytical and problem-solving skills, with intellectual curiosity and a willingness to ask questions and learn.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3069,
+        "end": 3188
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-42",
+      "text": "Excellent written and verbal communication skills, with the ability to collaborate effectively across teams.",
+      "source_span": "Excellent written and verbal communication skills, with the ability to collaborate effectively across teams.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3193,
+        "end": 3301
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-43",
+      "text": "Highly organized, detail-oriented, and motivated by continuous improvement and process optimization.",
+      "source_span": "Highly organized, detail-oriented, and motivated by continuous improvement and process optimization.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3306,
+        "end": 3406
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
     }
   ]
 }

@@ -1,0 +1,168 @@
+{
+  "posting_id": "ede3af0ad8079d41",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "ede3af0ad8079d41-05",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.94,
+      "rationale": "Owning assigned close areas is core month-end close checklist work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ede3af0ad8079d41-06",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.98,
+      "rationale": "Preparing journal entries with support is the journal entry workflow, with documentation making it assisted rather than fully automated.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ede3af0ad8079d41-07",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.97,
+      "rationale": "Preparing adjustments is a form of journal entry preparation with supporting evidence.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ede3af0ad8079d41-08",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.98,
+      "rationale": "Completing close work on time matches running close checklist tasks end to end.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ede3af0ad8079d41-09",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.9,
+      "rationale": "Managing assigned close areas is still executing close checklist work rather than leading the team.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ede3af0ad8079d41-10",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.99,
+      "rationale": "Performing balance sheet reconciliations directly matches balance-sheet account reconciliations.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ede3af0ad8079d41-11",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.86,
+      "rationale": "Identifying, resolving, and escalating reconciling items is part of account reconciliation work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ede3af0ad8079d41-12",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.76,
+      "rationale": "Analyzing financial results is ad hoc finance analysis against source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ede3af0ad8079d41-13",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.97,
+      "rationale": "Explaining variance drivers in management reporting matches flux analysis with commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ede3af0ad8079d41-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with FP&A and stakeholders is cross-functional collaboration and advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ede3af0ad8079d41-15",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.67,
+      "rationale": "Using AI tools to streamline analysis is a method statement, not a specific finance operation capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ede3af0ad8079d41-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.67,
+      "rationale": "Using AI tools to streamline reconciliations describes process improvement rather than the reconciliation work itself.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ede3af0ad8079d41-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Using AI tools to streamline recurring workflows is too broad and does not map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ede3af0ad8079d41-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Strengthening controls is a broad process-improvement goal rather than monitored control execution.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ede3af0ad8079d41-19",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.62,
+      "rationale": "Strengthening accounting processes is a vague improvement objective, not a defined platform workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ede3af0ad8079d41-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Supporting accurate financial statements is too generic to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ede3af0ad8079d41-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Driving scalable improvements across Corporate Accounting is process redesign work rather than a covered finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ede3af0ad8079d41-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Collaborating with FP&A, AP, Legal, and other teams is cross-functional partnership work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

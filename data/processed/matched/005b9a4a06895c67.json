@@ -1,0 +1,240 @@
+{
+  "posting_id": "005b9a4a06895c67",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "005b9a4a06895c67-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Leading the comprehensive planning cycle is process and team orchestration rather than a platform-finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Managing annual budgeting is FP&A planning/modeling work with no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Managing quarterly forecasting is a budgeting and forecasting task that is outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Managing long-range strategic planning is an FP&A planning model activity not covered by the platform.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Developing financial models for P&L, balance sheet, and cash flow is budgeting/forecasting model work with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Maintaining those FP&A models is ongoing planning-model maintenance not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Scenario planning is an FP&A modeling activity outside the listed operational finance capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Supporting strategic initiatives is too vague to map to a specific finance-operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-09",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.62,
+      "rationale": "Supporting growth opportunities is too broad to judge against the capability map.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Orchestrating the FP&A process is management and coordination work rather than an automatable finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Coordinating the forecasting calendar is an administrative planning task with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Consolidating diverse financial inputs is aggregation work for FP&A planning, not one of the listed covered workflows.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Collaborating with business unit finance leads is partnering and cross-functional communication work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Collaborating with accounting to understand historical performance is a cross-functional partnership activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Actual-versus-budget/forecast variance analysis is FP&A planning analysis and is explicitly outside the listed reporting capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-16",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.68,
+      "rationale": "Identifying key drivers fits driver analysis because it explains changes using underlying financial trends and source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Presenting actionable insights to management is a human-facing presentation and advisory duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Partnering with department heads is cross-functional relationship and advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Understanding department financial needs is advisory partnering work with business stakeholders.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Providing financial guidance is an advisory human judgment task rather than an automated finance workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Ensuring alignment with company goals is strategic coordination and judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-22",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.86,
+      "rationale": "Preparing financial reports fits management reporting because the capability builds recurring reports and board-deck materials.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Presenting reports to senior management and stakeholders is a human presentation duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-24",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.63,
+      "rationale": "Identifying process improvements and automation opportunities is too broad to map cleanly to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-25",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.56,
+      "rationale": "Implementing FP&A process improvements and automation is a project activity that does not match a specific listed workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "005b9a4a06895c67-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Managing the implementation of Aleph is project leadership and change management, not one of the platform's core finance operations.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

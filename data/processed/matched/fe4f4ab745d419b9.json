@@ -1,0 +1,159 @@
+{
+  "posting_id": "fe4f4ab745d419b9",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "fe4f4ab745d419b9-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "The core action is partnering with Engineering leadership, which is advisory relationship work rather than a platform task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "fe4f4ab745d419b9-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Headcount planning is an FP&A planning model outside the covered capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "fe4f4ab745d419b9-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "COGS forecasting is a planning/forecasting model not covered by the listed finance-ops capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "fe4f4ab745d419b9-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Opex forecasting is forecasting work outside the covered capabilities, which only include short-term cash forecasting.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "fe4f4ab745d419b9-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Cost center management is budgeting/FP&A work with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "fe4f4ab745d419b9-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with Engineering leadership on spend drivers is advisory collaboration, which is human work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "fe4f4ab745d419b9-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Developing product-level P&Ls is a planning and modeling task not covered by the platform.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "fe4f4ab745d419b9-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Defining key operating metrics is setting business measurement policy, which is human judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "fe4f4ab745d419b9-09",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.72,
+      "rationale": "Monitoring key operating metrics aligns with producing recurring KPI management reports for leadership.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "fe4f4ab745d419b9-10",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.88,
+      "rationale": "Connecting operating metrics to financial outcomes matches explaining metric changes using source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "fe4f4ab745d419b9-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Surfacing trends, risks, and opportunities for leadership is advisory communication to decision-makers.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "fe4f4ab745d419b9-12",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.91,
+      "rationale": "Diagnosing root-cause drivers behind margin performance matches driver analysis using source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "fe4f4ab745d419b9-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Flagging risks to leadership is advisory escalation work rather than an automated finance-operation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "fe4f4ab745d419b9-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Supporting the annual budgeting process is FP&A planning work and is not covered by the platform.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "fe4f4ab745d419b9-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Supporting rolling forecasts is budgeting/forecasting work outside the covered capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "fe4f4ab745d419b9-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Supporting the long-range strategic plan across business units is strategic planning work not covered here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "fe4f4ab745d419b9-17",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.7,
+      "rationale": "Preparing materials for the Board, Investor Relations, and stakeholders matches building recurring management reports and board deck financials.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

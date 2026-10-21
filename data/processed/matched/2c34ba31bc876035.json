@@ -1,0 +1,177 @@
+{
+  "posting_id": "2c34ba31bc876035",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "2c34ba31bc876035-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Owning collections performance is team management and accountability, not the platform’s core collections execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2c34ba31bc876035-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Balancing cash outcomes with customer experience requires judgment and tradeoff decisions beyond automated collections work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2c34ba31bc876035-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Providing guidance and supporting development is people management, which is explicitly human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2c34ba31bc876035-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Coaching and managing performance for staff is supervisory work rather than a platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2c34ba31bc876035-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Leading strategic initiatives is project leadership and judgment, not end-to-end collections processing.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2c34ba31bc876035-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Aligning collections strategy with leadership and enterprise goals is cross-functional management work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2c34ba31bc876035-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Managing escalations on complex accounts requires human judgment and negotiation, not routine collections automation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2c34ba31bc876035-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Managing customer communication on complex accounts is relationship handling and judgment-driven work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2c34ba31bc876035-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Navigating sensitive situations with professionalism is inherently human judgment and interpersonal work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2c34ba31bc876035-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Partnering cross-functionally to resolve invoicing, contract, and payment issues is collaborative human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2c34ba31bc876035-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Removing blockers to payment is broad coordination and problem-solving rather than a specific automated collections task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2c34ba31bc876035-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Driving process improvements is managerial process design work, not a listed platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2c34ba31bc876035-13",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Implementing automation is a project activity and the duty is too broad to map cleanly to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2c34ba31bc876035-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Participating in policy and SOX reviews with senior leadership is governance and leadership work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2c34ba31bc876035-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Ensuring team practices stay compliant and current is oversight and policy enforcement, not automated collections execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2c34ba31bc876035-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Representing OTC/Collections in cross-functional initiatives is partnership and coordination work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2c34ba31bc876035-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Hiring an inclusive, engaged, high-performing team is explicitly people management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2c34ba31bc876035-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Developing an inclusive, engaged, high-performing team is coaching and leadership work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2c34ba31bc876035-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Leading an inclusive, engaged, high-performing team is managerial leadership, not a platform operation.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

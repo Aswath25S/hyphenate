@@ -1,0 +1,231 @@
+{
+  "posting_id": "dd8c4e558e26af9e",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "dd8c4e558e26af9e-01",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.88,
+      "rationale": "Owning ASC 606 revenue recognition is the core revenue-recognition workflow, which matches applying ASC 606 and building revenue schedules.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Leading the revenue close workstream is management of a team/process, not just executing close tasks.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Championing AI across the function is change leadership and advocacy rather than a finance operations task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.64,
+      "rationale": "Building and deploying automation tools is a technology implementation activity that does not map cleanly to the listed finance-operations capabilities.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Advising other teams on deal structure accounting impact is cross-functional consultation and judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-06",
+      "label": "covered",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.84,
+      "rationale": "Reviewing customer contracts to understand accounting implications matches extracting contract terms, obligations, and pricing.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-07",
+      "label": "covered",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.82,
+      "rationale": "Reviewing amendments is contract-term extraction work to identify the updated billing and obligation terms.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-08",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.83,
+      "rationale": "Determining the appropriate revenue treatment for modifications is ASC 606 application and revenue-schedule work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-09",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.91,
+      "rationale": "Preparing revenue journal entries is journal-entry preparation and posting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Reviewing journal entries is human approval/review rather than automated preparation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-11",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.86,
+      "rationale": "Preparing deferred revenue, contract asset, and unbilled AR roll-forwards is revenue-recognition schedule work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-12",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.88,
+      "rationale": "Monthly and quarterly revenue variance analysis matches flux analysis with commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Explaining drivers to Accounting and FP&A leadership is presenting results to leadership.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Serving as the primary point of contact for external auditors is a human relationship role.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-15",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.88,
+      "rationale": "Managing PBC requests is audit support and documentation work for the external audit.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-16",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.9,
+      "rationale": "Managing audit support schedules matches preparing and maintaining audit support materials.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.69,
+      "rationale": "Maintaining SSP analysis is a recurring ASC 606 estimation task that is not explicitly covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-18",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.77,
+      "rationale": "Performance obligation allocations are part of ASC 606 revenue-recognition analysis and schedule building.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Owning revenue recognition rules is setting or interpreting policy, which is human judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Documenting and maintaining revenue accounting policies and process narratives is repetitive documentation work not directly covered here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Hiring revenue accountants is a people-management activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Training revenue accountants is staff development and management work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Developing revenue accountants is coaching and people development.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Reviewing their work is human supervision and review of staff output.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "dd8c4e558e26af9e-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Supporting their growth is a people-management and mentoring duty.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

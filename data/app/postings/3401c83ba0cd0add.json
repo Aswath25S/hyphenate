@@ -1,0 +1,810 @@
+{
+  "posting_id": "3401c83ba0cd0add",
+  "company": "Oscar Health",
+  "slug": "oscar-health",
+  "domain": "hioscar.com",
+  "title": "Senior Director, Strategic Finance & Enterprise Planning",
+  "role_family": "Reporting_FPA",
+  "seniority": "director_plus",
+  "n": 19,
+  "C": 0,
+  "A": 1,
+  "covered_share": 0,
+  "overlap": 0.05263157894736842,
+  "weighted_overlap": 0.02631578947368421,
+  "thin": false,
+  "salary_min": 196733,
+  "salary_max": 286902,
+  "salary_varies": true,
+  "salary_source": "posting_text",
+  "savings": 0,
+  "savings_reason": null,
+  "lead_product": "Reporting",
+  "product_split": {
+    "Reporting": {
+      "covered": 0,
+      "assisted": 1,
+      "weighted": 0.5
+    }
+  },
+  "erp": [],
+  "tools": [],
+  "posted_at": "2026-09-25T09:19:46-04:00",
+  "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8232864",
+  "locations": [
+    "Tempe, Arizona, United States",
+    "New York, New York, United States"
+  ],
+  "remote": "hybrid",
+  "excluded": null,
+  "text": "Hi, we're Oscar. We're hiring a Senior Director, Strategic Finance and Enterprise Planning to join our Strategic Finance team.\n\nOscar is the first health insurance company built around a full stack technology platform and a relentless focus on serving our members. We started Oscar in 2012 to create the kind of health insurance company we would want for ourselves—one that behaves like a doctor in the family.\n\nAbout the role:\n\nThe Senior Director of Strategic Finance & Enterprise role will help lead the annual operating plan cycle, partnering with Finance, Strategy, and business leaders to translate company priorities into financial plans, targets, and executive-ready materials. You will also drive the strategic investment process by building business cases, evaluating trade-offs, and supporting resource allocation toward the company's highest-priority initiatives. You bring FP&A or strategic finance experience, excellent financial modeling and the judgment to influence senior stakeholders.\n\nYou will report into the VP, FP&A.\n\nWork Location: This position is based in our Tempe, AZ, requiring a hybrid work schedule with 3 days of in-office work per week. Thursdays are a required in-office day for team meetings and events, while your other two office days are flexible to suit your schedule. #LI-Hybrid\n\nPay Transparency: The base pay for this role is: 196,733 - $258,212 per year. You are also eligible for employee benefits, participation in Oscar's unlimited vacation program, company equity grants and annual performance bonuses.\n\nResponsibilities:\n\n• Lead key components of the annual operating plan cycle, partnering with Finance, Strategy, and business leaders to translate company priorities into financial plans, targets, and investment decisions.\n\n• Partner with business leaders to evaluate strategic investment opportunities, assess trade-offs, and ensure capital and operating resources are allocated against the company's highest-priority initiatives.\n\n• Build financial models, business cases, and decision frameworks to support investment prioritization, ROI assessment, and long-range value creation.\n\n• Develop clear reporting and insights on plan performance, investment progress, risks, and opportunities for senior leadership.\n\n• Support executive discussions by synthesizing complex financial and operational inputs into concise recommendations.\n\n• Identify opportunities to improve planning accuracy, resource allocation, and investment discipline across the organization.\n\n• Compliance with all applicable laws and regulations\n\n• Other duties as assigned\n\nRequirements:\n\n• 12+ years of experience in finance, FP&A, corporate strategy, investment banking, consulting, or a related strategic finance role.\n\n• Experience leading or supporting annual planning, budgeting, forecasting, long-range planning, or capital allocation processes.\n\n• Strong financial modeling, analytical, and business case development skills.\n\n• Influence senior stakeholders and drive alignment across cross-functional teams.\n\n• Excellent communication skills, with the ability to turn analysis into clear executive-level recommendations.\n\n• Strong project management skills and comfort operating in complex, fast-paced environments.\n\n• High degree of ownership, and ability to balance strategic thinking with operational execution.\n\nBonus points:\n\n• Experience in similar roles in strategy consulting, financial services, or insurance industries (ex: private equity, venture capital, investment banking)\n\n• Strong preference for healthcare industry experience and deep market knowledge.\n\n• Advanced degrees or professional designations, such as an MBA or CFA.\n\nThis is an authentic Oscar Health job opportunity.\n\nAt Oscar, being an Equal Opportunity Employer means more than upholding discrimination-free hiring practices. It means that we cultivate an environment where people can be their most authentic selves and find both belonging and support. We're on a mission to change health care -- an experience made whole by our unique backgrounds and perspectives.\n\nPay Transparency: Final offer amounts, within the base pay set forth above, are determined by factors including your relevant skills, education, and experience. Full-time employees are eligible for benefits including: medical, dental, and vision benefits, 11 paid holidays, paid sick time, paid parental leave, 401(k) plan participation, life and disability insurance, and paid wellness time and reimbursements.\n\nArtificial Intelligence (AI): Our AI Guidelines outline the acceptable use of artificial intelligence for candidates and detail how we use AI to support our recruiting efforts.\n\nReasonable Accommodation: Oscar applicants are considered solely based on their qualifications, without regard to applicant’s disability or need for accommodation. Any Oscar applicant who requires reasonable accommodations during the application process should contact the Oscar Benefits Team (accommodations@hioscar.com) to make the need for an accommodation known.\n\nCalifornia Residents: For information about our collection, use, and disclosure of applicants’ personal information as well as applicants’ rights over their personal information, please see our Privacy Policy.",
+  "extra_salary_lines": [
+    {
+      "location": "New York, New York, United States",
+      "line": "Pay Transparency: The base pay for this role is: $218,592 - $286,902 per year. You are also eligible for employee benefits, participation in Oscar's unlimited vacation program, company equity grants and annual performance bonuses."
+    }
+  ],
+  "salary_raw": {
+    "min": 196733,
+    "max": 286902,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Pay Transparency: The base pay for this role is: 196,733 - $258,212 per year.\nNew York, New York, United States: Pay Transparency: The base pay for this role is: $218,592 - $286,902 per year."
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "fetched_at": "2026-10-21T17:33:54.851Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "3401c83ba0cd0add-01",
+      "text": "Oscar is the first health insurance company built around a full stack technology platform and a relentless focus on serving our members.",
+      "source_span": "Oscar is the first health insurance company built around a full stack technology platform and a relentless focus on serving our members.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 128,
+        "end": 264
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-02",
+      "text": "We started Oscar in 2012 to create the kind of health insurance company we would want for ourselves—one that behaves like a doctor in the family.",
+      "source_span": "We started Oscar in 2012 to create the kind of health insurance company we would want for ourselves—one that behaves like a doctor in the family.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 265,
+        "end": 410
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-03",
+      "text": "Lead key components of the annual operating plan cycle",
+      "source_span": "Lead key components of the annual operating plan cycle",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1572,
+        "end": 1626
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Leading the annual operating plan cycle is managing a planning process, which is human work rather than a platform operation.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-04",
+      "text": "Partner with Finance, Strategy, and business leaders",
+      "source_span": "partnering with Finance, Strategy, and business leaders",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 536,
+        "end": 591
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Finance, Strategy, and business leaders is cross-functional coordination and advising, which is human work.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-05",
+      "text": "Translate company priorities into financial plans",
+      "source_span": "translate company priorities into financial plans",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 595,
+        "end": 644
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.89,
+      "rationale": "Translating priorities into financial plans is budgeting/planning model work with no matching capability on the map.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-06",
+      "text": "Translate company priorities into targets",
+      "source_span": "targets",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 646,
+        "end": 653
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Translating company priorities into targets is setting planning targets, which is strategic judgment work.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-07",
+      "text": "Translate company priorities into investment decisions",
+      "source_span": "investment decisions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1751,
+        "end": 1771
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Translating priorities into investment decisions is a strategic decision-making task, not an automated finance operation.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-08",
+      "text": "Partner with business leaders to evaluate strategic investment opportunities",
+      "source_span": "Partner with business leaders to evaluate strategic investment opportunities",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1776,
+        "end": 1852
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Evaluating strategic investment opportunities with business leaders is advisory and cross-functional work.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-09",
+      "text": "Assess trade-offs",
+      "source_span": "assess trade-offs",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1854,
+        "end": 1871
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Assessing trade-offs requires judgment and prioritization, which is human work.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-10",
+      "text": "Ensure capital and operating resources are allocated against the company's highest-priority initiatives",
+      "source_span": "ensure capital and operating resources are allocated against the company's highest-priority initiatives",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1877,
+        "end": 1980
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Allocating capital and operating resources to priorities is a strategic resource-allocation decision, not a covered operation.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-11",
+      "text": "Build financial models",
+      "source_span": "Build financial models",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1985,
+        "end": 2007
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Building financial models is planning-model work that could be automated but has no matching capability here.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-12",
+      "text": "Build business cases",
+      "source_span": "business cases",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 751,
+        "end": 765
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Building business cases is structured analysis and modeling that fits the gap_candidate bucket.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-13",
+      "text": "Build decision frameworks",
+      "source_span": "decision frameworks",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2029,
+        "end": 2048
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.91,
+      "rationale": "Building decision frameworks is framework design and judgment work rather than a finance-ops capability.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-14",
+      "text": "Support investment prioritization",
+      "source_span": "investment prioritization",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2060,
+        "end": 2085
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Supporting investment prioritization is advisory decision support, which is human work.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-15",
+      "text": "Support ROI assessment",
+      "source_span": "ROI assessment",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2087,
+        "end": 2101
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Supporting ROI assessment is investment analysis/modeling with no direct capability match.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-16",
+      "text": "Support long-range value creation",
+      "source_span": "long-range value creation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2107,
+        "end": 2132
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.72,
+      "rationale": "Supporting long-range value creation is too broad and strategic to map to a specific covered action.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-17",
+      "text": "Develop clear reporting and insights on plan performance, investment progress, risks, and opportunities for senior leadership",
+      "source_span": "Develop clear reporting and insights on plan performance, investment progress, risks, and opportunities for senior leadership",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2137,
+        "end": 2262
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.86,
+      "rationale": "Developing reporting and insights for senior leadership matches management reporting and board-style reporting work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-18",
+      "text": "Support executive discussions",
+      "source_span": "Support executive discussions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2267,
+        "end": 2296
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Supporting executive discussions is presenting/advising leadership, which is human work.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-19",
+      "text": "Synthesize complex financial and operational inputs into concise recommendations",
+      "source_span": "synthesizing complex financial and operational inputs into concise recommendations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2300,
+        "end": 2382
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Synthesizing inputs into recommendations is advisory analysis that requires human judgment.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-20",
+      "text": "Identify opportunities to improve planning accuracy, resource allocation, and investment discipline across the organization",
+      "source_span": "Identify opportunities to improve planning accuracy, resource allocation, and investment discipline across the organization",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2387,
+        "end": 2510
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.77,
+      "rationale": "Improving planning accuracy, resource allocation, and investment discipline is too broad and not a specific covered operation.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-21",
+      "text": "Comply with all applicable laws and regulations",
+      "source_span": "Compliance with all applicable laws and regulations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2515,
+        "end": 2566
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.86,
+      "rationale": "Complying with applicable laws and regulations is generic compliance work with no specific finance-ops capability match.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-22",
+      "text": "Other duties as assigned",
+      "source_span": "Other duties as assigned",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 2570,
+        "end": 2594
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-23",
+      "text": "12+ years of experience in finance, FP&A, corporate strategy, investment banking, consulting, or a related strategic finance role.",
+      "source_span": "12+ years of experience in finance, FP&A, corporate strategy, investment banking, consulting, or a related strategic finance role.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2613,
+        "end": 2743
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-24",
+      "text": "Experience leading or supporting annual planning, budgeting, forecasting, long-range planning, or capital allocation processes.",
+      "source_span": "Experience leading or supporting annual planning, budgeting, forecasting, long-range planning, or capital allocation processes.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2747,
+        "end": 2874
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-25",
+      "text": "Strong financial modeling, analytical, and business case development skills.",
+      "source_span": "Strong financial modeling, analytical, and business case development skills.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2878,
+        "end": 2954
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-26",
+      "text": "Influence senior stakeholders and drive alignment across cross-functional teams.",
+      "source_span": "Influence senior stakeholders and drive alignment across cross-functional teams.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2958,
+        "end": 3038
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-27",
+      "text": "Excellent communication skills, with the ability to turn analysis into clear executive-level recommendations.",
+      "source_span": "Excellent communication skills, with the ability to turn analysis into clear executive-level recommendations.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3042,
+        "end": 3151
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-28",
+      "text": "Strong project management skills and comfort operating in complex, fast-paced environments.",
+      "source_span": "Strong project management skills and comfort operating in complex, fast-paced environments.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3155,
+        "end": 3246
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-29",
+      "text": "High degree of ownership, and ability to balance strategic thinking with operational execution.",
+      "source_span": "High degree of ownership, and ability to balance strategic thinking with operational execution.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3250,
+        "end": 3345
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-30",
+      "text": "Experience in similar roles in strategy consulting, financial services, or insurance industries (ex: private equity, venture capital, investment banking)",
+      "source_span": "Experience in similar roles in strategy consulting, financial services, or insurance industries (ex: private equity, venture capital, investment banking)",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3364,
+        "end": 3517
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-31",
+      "text": "Strong preference for healthcare industry experience and deep market knowledge.",
+      "source_span": "Strong preference for healthcare industry experience and deep market knowledge.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3521,
+        "end": 3600
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-32",
+      "text": "Advanced degrees or professional designations, such as an MBA or CFA.",
+      "source_span": "Advanced degrees or professional designations, such as an MBA or CFA.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3604,
+        "end": 3673
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

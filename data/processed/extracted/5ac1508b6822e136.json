@@ -1,0 +1,448 @@
+{
+  "posting_id": "5ac1508b6822e136",
+  "company": "Rover",
+  "domain": "rover.com",
+  "title": "Senior Accountant, Financial Reporting",
+  "role_family": "Reporting_FPA",
+  "seniority": "senior",
+  "locations": [
+    "Seattle"
+  ],
+  "remote": "hybrid",
+  "salary": {
+    "min": 108694,
+    "max": 136046,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "In the greater Seattle area the first-year salary range is $108,694-136,046."
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Excel"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "under tight timelines",
+    "multiple close-cycle responsibilities",
+    "managing deliverables, schedules, and walkthroughs",
+    "scaling accounting processes and infrastructure",
+    "proactively surfacing new projects and improvements"
+  ],
+  "duties": [
+    {
+      "duty_id": "5ac1508b6822e136-01",
+      "text": "Own month-end and year-end close deliverables for assigned areas of the general ledger",
+      "source_span": "Own month-end and year-end close deliverables for assigned areas of the general ledger",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-02",
+      "text": "Prepare journal entries",
+      "source_span": "journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-03",
+      "text": "Perform account reconciliations",
+      "source_span": "account reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-04",
+      "text": "Perform variance analysis",
+      "source_span": "variance analysis",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-05",
+      "text": "Identify improvements to close processes, automation, and documentation",
+      "source_span": "Identify and drive improvements to close processes, automation, and documentation, including under tight timelines",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-06",
+      "text": "Drive improvements to close processes, automation, and documentation",
+      "source_span": "Identify and drive improvements to close processes, automation, and documentation, including under tight timelines",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-07",
+      "text": "Prioritize across multiple close-cycle responsibilities",
+      "source_span": "Prioritize across multiple close-cycle responsibilities",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-08",
+      "text": "Prepare financial statements and supporting schedules, including the statement of cash flows, for monthly, quarterly, and annual deliverables in accordance with U.S. GAAP",
+      "source_span": "Prepare and review financial statements and supporting schedules, including the statement of cash flows, for monthly, quarterly, and annual deliverables in accordance with U.S. GAAP",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-09",
+      "text": "Review financial statements and supporting schedules, including the statement of cash flows, for monthly, quarterly, and annual deliverables in accordance with U.S. GAAP",
+      "source_span": "Prepare and review financial statements and supporting schedules, including the statement of cash flows, for monthly, quarterly, and annual deliverables in accordance with U.S. GAAP",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-10",
+      "text": "Assist with internal reporting deliverables",
+      "source_span": "Assist with internal and external reporting deliverables, including materials for private equity stakeholders",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-11",
+      "text": "Assist with external reporting deliverables",
+      "source_span": "Assist with internal and external reporting deliverables, including materials for private equity stakeholders",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-12",
+      "text": "Prepare materials for private equity stakeholders",
+      "source_span": "Assist with internal and external reporting deliverables, including materials for private equity stakeholders",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-13",
+      "text": "Maintain consistency, accuracy, and audit-readiness across financial statements and reporting deliverables",
+      "source_span": "Maintain consistency, accuracy, and audit-readiness across financial statements and reporting deliverables",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-14",
+      "text": "Serve as a subject-matter expert and go-to technical resource for assigned accounting areas",
+      "source_span": "Serve as a subject-matter expert and go-to technical resource for assigned accounting areas, researching and documenting GAAP positions for complex or non-routine transactions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-15",
+      "text": "Research GAAP positions for complex or non-routine transactions",
+      "source_span": "researching and documenting GAAP positions for complex or non-routine transactions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-16",
+      "text": "Document GAAP positions for complex or non-routine transactions",
+      "source_span": "researching and documenting GAAP positions for complex or non-routine transactions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-17",
+      "text": "Assist with implementation of new accounting standards and policies",
+      "source_span": "Assist with implementation of new accounting standards and policies as directed",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-18",
+      "text": "Serve as a key point of contact for external auditors",
+      "source_span": "Serve as a key point of contact for external auditors, managing deliverables, schedules, and walkthroughs.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-19",
+      "text": "Manage deliverables for external auditors",
+      "source_span": "managing deliverables, schedules, and walkthroughs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-20",
+      "text": "Manage schedules for external auditors",
+      "source_span": "managing deliverables, schedules, and walkthroughs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-21",
+      "text": "Manage walkthroughs for external auditors",
+      "source_span": "managing deliverables, schedules, and walkthroughs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-22",
+      "text": "Own execution of assigned internal controls",
+      "source_span": "Own execution and documentation of assigned internal controls, and help drive enhancements to the control environment",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-23",
+      "text": "Document assigned internal controls",
+      "source_span": "Own execution and documentation of assigned internal controls, and help drive enhancements to the control environment",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-24",
+      "text": "Help drive enhancements to the control environment",
+      "source_span": "Own execution and documentation of assigned internal controls, and help drive enhancements to the control environment",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-25",
+      "text": "Ensure compliance with internal controls and accounting policies across your areas of responsibility",
+      "source_span": "Ensure compliance with internal controls and accounting policies across your areas of responsibility",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-26",
+      "text": "Partner closely with FP&A on accounting matters within scope",
+      "source_span": "Partner closely with FP&A, Tax, and other cross-functional teams on accounting matters within scope.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-27",
+      "text": "Partner closely with Tax on accounting matters within scope",
+      "source_span": "Partner closely with FP&A, Tax, and other cross-functional teams on accounting matters within scope.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-28",
+      "text": "Partner closely with other cross-functional teams on accounting matters within scope",
+      "source_span": "Partner closely with FP&A, Tax, and other cross-functional teams on accounting matters within scope.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-29",
+      "text": "Mentor peers and junior team members on technical and process questions",
+      "source_span": "Mentor and guide peers and junior team members on technical and process questions, including areas outside your direct responsibility.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-30",
+      "text": "Guide peers and junior team members on technical and process questions",
+      "source_span": "Mentor and guide peers and junior team members on technical and process questions, including areas outside your direct responsibility.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-31",
+      "text": "Support in scaling accounting processes and infrastructure",
+      "source_span": "Support in scaling accounting processes and infrastructure, proactively surfacing new projects and improvements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-32",
+      "text": "Proactively surface new projects and improvements",
+      "source_span": "Support in scaling accounting processes and infrastructure, proactively surfacing new projects and improvements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-33",
+      "text": "3-5+ years of progressive accounting experience",
+      "source_span": "3-5+ years of progressive accounting experience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5ac1508b6822e136-34",
+      "text": "BS/BA in Accounting preferred",
+      "source_span": "BS/BA in Accounting preferred",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5ac1508b6822e136-35",
+      "text": "CPA preferred or actively in progress",
+      "source_span": "CPA preferred or actively in progress",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5ac1508b6822e136-36",
+      "text": "Strong knowledge of U.S. GAAP and financial reporting",
+      "source_span": "Strong knowledge of U.S. GAAP and financial reporting",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5ac1508b6822e136-37",
+      "text": "Experience in a private equity-backed or high-growth environment preferred",
+      "source_span": "Experience in a private equity-backed or high-growth environment preferred",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5ac1508b6822e136-38",
+      "text": "Demonstrated experience with financial statement preparation",
+      "source_span": "Demonstrated experience with financial statement preparation, account reconciliations, and month-end close",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5ac1508b6822e136-39",
+      "text": "Demonstrated experience with account reconciliations",
+      "source_span": "Demonstrated experience with financial statement preparation, account reconciliations, and month-end close",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5ac1508b6822e136-40",
+      "text": "Demonstrated experience with month-end close",
+      "source_span": "Demonstrated experience with financial statement preparation, account reconciliations, and month-end close",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5ac1508b6822e136-41",
+      "text": "Experience with ERP systems (e.g., NetSuite)",
+      "source_span": "Experience with ERP systems (e.g., NetSuite) and advanced Excel skills",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5ac1508b6822e136-42",
+      "text": "Advanced Excel skills",
+      "source_span": "Experience with ERP systems (e.g., NetSuite) and advanced Excel skills",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5ac1508b6822e136-43",
+      "text": "Strong analytical and problem-solving skills",
+      "source_span": "Strong analytical and problem-solving skills",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5ac1508b6822e136-44",
+      "text": "High attention to detail and commitment to accuracy",
+      "source_span": "High attention to detail and commitment to accuracy",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5ac1508b6822e136-45",
+      "text": "Ability to manage multiple priorities and meet tight deadlines",
+      "source_span": "Ability to manage multiple priorities and meet tight deadlines",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5ac1508b6822e136-46",
+      "text": "Effective communicator with ability to work cross-functionally",
+      "source_span": "Effective communicator with ability to work cross-functionally",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5ac1508b6822e136-47",
+      "text": "At Rover, pets and their people are at the heart of everything we do.",
+      "source_span": "At Rover, pets and their people are at the heart of everything we do.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-48",
+      "text": "We connect pet parents with trusted pet care across the U.S., Canada, Europe, and Australia.",
+      "source_span": "We connect pet parents with trusted pet care across the U.S., Canada, Europe, and Australia.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-49",
+      "text": "We’re investing in AI as a business accelerator and provide every team member access to AI tools in service of creating better experiences for our community.",
+      "source_span": "We’re investing in AI as a business accelerator and provide every team member access to AI tools in service of creating better experiences for our community.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-50",
+      "text": "We are proud to be recognized as a great place to work, having been named among the 100 Best Companies to Work For in Seattle Business Magazine and Washington’s Best Workplaces in the Puget Sound Business Journal.",
+      "source_span": "We are proud to be recognized as a great place to work, having been named among the 100 Best Companies to Work For in Seattle Business Magazine and Washington’s Best Workplaces in the Puget Sound Business Journal.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-51",
+      "text": "Join our pack and come work (and play!) with us.",
+      "source_span": "Join our pack and come work (and play!) with us.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-52",
+      "text": "Competitive compensation",
+      "source_span": "Competitive compensation",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-53",
+      "text": "Flexible PTO",
+      "source_span": "Flexible PTO",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-54",
+      "text": "Competitive benefits package, including medical, dental, and vision insurance",
+      "source_span": "Competitive benefits package, including medical, dental, and vision insurance",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-55",
+      "text": "Bring your dog to work (and unlimited puppy time)",
+      "source_span": "Bring your dog to work (and unlimited puppy time)",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-56",
+      "text": "Regular team activities performed in-person and virtually",
+      "source_span": "Regular team activities performed in-person and virtually",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5ac1508b6822e136-57",
+      "text": "Additionally, Rover offers benefits to full-time employees.",
+      "source_span": "Additionally, Rover offers benefits to full-time employees.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    }
+  ],
+  "posted_at": "2026-09-18T15:43:26.548Z",
+  "source_url": "https://jobs.lever.co/rover/c8302568-bf57-4298-a45b-9241d9ef3cca",
+  "fetched_at": "2026-10-21T17:35:02.604Z",
+  "prompt_version": "extract-v1",
+  "text": "Who we are: \nAt Rover, pets and their people are at the heart of everything we do. We connect pet parents with trusted pet care across the U.S., Canada, Europe, and Australia.\nHeadquartered in Seattle and Barcelona, we’re a values driven, fast-growing tech company focused on building safe and personalized experiences tailored to the needs of each unique pet. We’re investing in AI as a business accelerator and provide every team member access to AI tools in service of creating better experiences for our community.\nWe are proud to be recognized as a great place to work, having been named among the 100 Best Companies to Work For in Seattle Business Magazine and Washington’s Best Workplaces in the Puget Sound Business Journal. At Rover we’re committed to creating an accessible, inclusive, and welcoming community, which starts with our employees.\nWant to make an impact? Join our pack and come work (and play!) with us.\n\n\nWho We're Looking for: \nWe're looking for a highly motivated, detail-oriented Senior Accountant, Financial Reporting to join Rover's accounting team. This individual-contributor role owns a broad, hands-on scope of our core accounting processes including month-end close, financial reporting, technical accounting, and audit management. You'll operate as a subject-matter expert in your assigned areas, help develop and implement the policies and processes the broader team relies on, and be a technical resource across the department, all while maintaining the accuracy and integrity Rover's financial reporting depends on.\nThis is a hybrid position that has the minimum expectation to work out of our Downtown Seattle Office two days per week on Mondays and Thursdays. For this reason, candidates must be based in the Greater Seattle Area or willing to relocate.\n\n\nYour Responsibilities:\nAccounting Operations & Close\n\n•\n\nOwn month-end and year-end close deliverables for assigned areas of the general ledger, including journal entries, account reconciliations, and variance analysis\n\n•\n\nIdentify and drive improvements to close processes, automation, and documentation, including under tight timelines\n\n•\n\nPrioritize across multiple close-cycle responsibilities\n\nFinancial Reporting\n\n•\n\nPrepare and review financial statements and supporting schedules, including the statement of cash flows, for monthly, quarterly, and annual deliverables in accordance with U.S. GAAP\n\n•\n\nAssist with internal and external reporting deliverables, including materials for private equity stakeholders\n\n•\n\nMaintain consistency, accuracy, and audit-readiness across financial statements and reporting deliverables\n\nTechnical Skills\n\n•\n\nServe as a subject-matter expert and go-to technical resource for assigned accounting areas, researching and documenting GAAP positions for complex or non-routine transactions\n\n•\n\nAssist with implementation of new accounting standards and policies as directed\n\nAudit & Compliance\n\n•\n\nServe as a key point of contact for external auditors, managing deliverables, schedules, and walkthroughs.\n\n•\n\nOwn execution and documentation of assigned internal controls, and help drive enhancements to the control environment\n\n•\n\nEnsure compliance with internal controls and accounting policies across your areas of responsibility\n\nCross-Functional Collaboration\n\n•\n\nPartner closely with FP&A, Tax, and other cross-functional teams on accounting matters within scope.\n\n•\n\nMentor and guide peers and junior team members on technical and process questions, including areas outside your direct responsibility.\n\n•\n\nSupport in scaling accounting processes and infrastructure, proactively surfacing new projects and improvements\n\nYour Qualifications: \n•\n\n3-5+ years of progressive accounting experience\n\n•\n\nBS/BA in Accounting preferred\n\n•\n\nCPA preferred or actively in progress\n\n•\n\nStrong knowledge of U.S. GAAP and financial reporting\n\n•\n\nExperience in a private equity-backed or high-growth environment preferred\n\n•\n\nDemonstrated experience with financial statement preparation, account reconciliations, and month-end close\n\n•\n\nExperience with ERP systems (e.g., NetSuite) and advanced Excel skills\n\n•\n\nStrong analytical and problem-solving skills\n\n•\n\nHigh attention to detail and commitment to accuracy\n\n•\n\nAbility to manage multiple priorities and meet tight deadlines\n\n•\n\nEffective communicator with ability to work cross-functionally\n\nBenefits of Working at Rover.com \n• Competitive compensation\n\n• 401k match\n\n• Long-term incentive plan with a company performance-based cash payout\n\n• Flexible PTO\n\n• Competitive benefits package, including medical, dental, and vision insurance\n\n• Commuter benefits\n\n• Bring your dog to work (and unlimited puppy time)\n\n• Pet benefits, including $1000 toward adopting your first dog or cat\n\n• Stocked fridges, coffee, soda, and lots of treats (for humans and dogs) and free catered lunches monthly\n\n• Regular team activities performed in-person and virtually\n\nCompensation: \n• In the greater Seattle area the first-year salary range is $108,694-136,046. Additionally, Rover offers benefits to full-time employees.\n\n• The cash compensation offered for this role will be dependent on the candidate's experience, qualifications, skills, and abilities as demonstrated in the interview and hiring process.\n\nAt Rover, we’re driven by seeing our people succeed and grow, while doing our jobs better than ever before. We believe the best business outcomes come from a diverse set of perspectives and we’re committed to promoting an inclusive, inventive, and fun environment with amazing employees. We welcome and encourage applicants from all backgrounds to apply. \n \nRover is an equal opportunity employer. We consider all qualified applicants without regard to age, race, color, ancestry, national origin, religion, disability, military or veteran status, sex, pregnancy, gender identity or expression, sexual orientation, marital or partnership status, genetic predisposition, or any other protected status in accordance with applicable federal, state and local laws.\n \nWe are committed to work with you to look for reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request accommodation.\n",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "lever"
+}

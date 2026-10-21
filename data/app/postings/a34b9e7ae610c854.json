@@ -1,0 +1,838 @@
+{
+  "posting_id": "a34b9e7ae610c854",
+  "company": "Flexport",
+  "slug": "flexport",
+  "domain": "flexport.com",
+  "title": "Treasury Manager",
+  "role_family": "Treasury",
+  "seniority": "manager",
+  "n": 25,
+  "C": 1,
+  "A": 4,
+  "covered_share": 0.04,
+  "overlap": 0.2,
+  "weighted_overlap": 0.12,
+  "thin": false,
+  "salary_min": 105600,
+  "salary_max": 132000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 2112,
+  "savings_reason": null,
+  "lead_product": "Treasury",
+  "product_split": {
+    "Treasury": {
+      "covered": 1,
+      "assisted": 1,
+      "weighted": 1.5
+    },
+    "Reporting": {
+      "covered": 0,
+      "assisted": 3,
+      "weighted": 1.5
+    }
+  },
+  "erp": [],
+  "tools": [],
+  "posted_at": "2026-10-15T16:20:32-04:00",
+  "source_url": "https://job-boards.greenhouse.io/flexport/jobs/8282867",
+  "locations": [
+    "Chicago, Illinois, United States"
+  ],
+  "remote": "onsite",
+  "excluded": null,
+  "text": "About Flexport:\n\nAt Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise across 112 countries a year.\n\nThe recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people. Ready to tackle global challenges that impact business, society, and the environment? Come join us.\n\nPower Flexport's global growth by optimizing our financial health and liquidity.\n\nWe are seeking a seasoned Treasury Manager to oversee our global treasury operations. The ideal candidate will have a deep understanding of treasury functions, including cash management, risk management, and financial forecasting. This role will be critical in optimizing our financial resources and ensuring the financial health of the organization.\n\nResponsibilities:\n\n• Cash Management:\n\n• Manage global cash positions and optimize cash flows.\n\n• Oversee bank relationships and implement efficient banking strategies.\n\n• Forecast cash requirements and manage liquidity risks.\n\n• Risk Management:\n\n• Identify, assess, and mitigate financial risks, including foreign exchange, interest rate, and credit risks.\n\n• Implement hedging strategies to protect the company from adverse market movements.\n\n• Monitor and report on key risk indicators.\n\n• Financial Forecasting:\n\n• Develop and maintain accurate financial forecasts and budgets.\n\n• Analyze financial data and provide insights to support strategic decision-making.\n\n• Financial Reporting:\n\n• Prepare accurate and timely financial reports, including cash flow statements and balance sheets.\n\n• Ensure compliance with financial reporting standards and regulations.\n\n• Banking Relationships:\n\n• Build and maintain strong relationships with banks and other financial institutions.\n\n• Negotiate favorable terms on banking services and products.\n\n• Treasury Systems:\n\n• Implement and manage treasury management systems.\n\n• Ensure the accuracy and efficiency of treasury operations.\n\n• Team Management:\n\n• Lead and mentor a team of treasury professionals.\n\n• Foster a positive and collaborative work environment.\n\nQualifications:\n\n• Bachelor's degree in Finance, Accounting, or related field.\n\n• Minimum of 8 years of treasury experience.\n\n• Strong understanding of financial markets and economic trends.\n\n• Proven ability to manage complex financial transactions.\n\n• Excellent analytical and problem-solving skills.\n\n• Strong communication and interpersonal skills.\n\n• Proficiency in treasury management systems and financial software.\n\n• Certification in Treasury Management (CTM) or similar is a plus.\n\n#LI-onsite\n\nThe range displayed on each job posting reflects the minimum and maximum target for new hire base salary for the position in the posting's respective region. Our salary ranges are determined by role, level, and location. Within the range displayed, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education and / or training. Base salary is just one part of our total rewards package at Flexport, which also includes bonus, equity, and comprehensive benefit offerings such as medical, dental, and flexible time off.\n\nThe US base salary range for this position (this does not include bonus, equity and benefits):\n\n$105,600—$132,000 USD\n\nCommitment to Equal Opportunity\n\nAt Flexport, our ability to fulfill our mission of making global commerce easy and accessible relies on having a diverse, dedicated and engaged workforce. All qualified applicants will receive consideration for employment regardless of race, color, religion, sex, national origin, age, physical and mental disability, health status, marital and family status, sexual orientation, gender identity and expression, military and veteran status, and any other characteristic protected by applicable law.\n\nGlobal Data Privacy Notice for Job Candidates and Applicants\n\nDepending on your location, the General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA) may regulate the way we manage the data of job applicants. By submitting your application, you are agreeing to our use and processing of your data as required. Please see our Privacy Notice available at www.flexport.com/privacy for additional information.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 105600,
+    "max": 132000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The US base salary range for this position (this does not include bonus, equity and benefits):\n\n$105,600—$132,000 USD"
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": true,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "fetched_at": "2026-10-21T17:34:15.447Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "a34b9e7ae610c854-01",
+      "text": "Manage global cash positions",
+      "source_span": "Manage global cash positions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1283,
+        "end": 1311
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "tre.cash_position",
+      "capability": "Cash position across accounts, entities and banks",
+      "product": "Treasury",
+      "confidence": 0.99,
+      "rationale": "Managing global cash positions is the same action as monitoring cash balances across accounts, entities, and banks.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-02",
+      "text": "Optimize cash flows",
+      "source_span": "optimize cash flows",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1316,
+        "end": 1335
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.54,
+      "rationale": "Optimizing cash flows is broad treasury strategy and does not cleanly match a specific covered capability.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-03",
+      "text": "Oversee bank relationships",
+      "source_span": "Oversee bank relationships",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1340,
+        "end": 1366
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Overseeing bank relationships is a relationship-management duty that is explicitly human work.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-04",
+      "text": "Implement efficient banking strategies",
+      "source_span": "implement efficient banking strategies",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1371,
+        "end": 1409
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.56,
+      "rationale": "Implementing banking strategies is a strategic execution task with no direct platform capability match.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-05",
+      "text": "Forecast cash requirements",
+      "source_span": "Forecast cash requirements",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1414,
+        "end": 1440
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "tre.forecast",
+      "capability": "13-week cash forecast",
+      "product": "Treasury",
+      "confidence": 0.94,
+      "rationale": "Forecasting cash requirements matches the 13-week cash forecast capability, though it may still need human judgment.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-06",
+      "text": "Manage liquidity risks",
+      "source_span": "manage liquidity risks",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1445,
+        "end": 1467
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.59,
+      "rationale": "Managing liquidity risks is risk oversight rather than a covered treasury operations capability.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-07",
+      "text": "Identify financial risks, including foreign exchange, interest rate, and credit risks",
+      "source_span": "Identify, assess, and mitigate financial risks, including foreign exchange, interest rate, and credit risks.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1492,
+        "end": 1600
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.58,
+      "rationale": "Identifying foreign exchange, interest rate, and credit risks is risk analysis with no direct capability match.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-08",
+      "text": "Assess financial risks, including foreign exchange, interest rate, and credit risks",
+      "source_span": "Identify, assess, and mitigate financial risks, including foreign exchange, interest rate, and credit risks.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1492,
+        "end": 1600
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.58,
+      "rationale": "Assessing financial risks is analytical risk work that is not covered by the listed capabilities.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-09",
+      "text": "Mitigate financial risks, including foreign exchange, interest rate, and credit risks",
+      "source_span": "Identify, assess, and mitigate financial risks, including foreign exchange, interest rate, and credit risks.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1492,
+        "end": 1600
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.57,
+      "rationale": "Mitigating financial risks is a judgment-heavy treasury responsibility without a matching platform capability.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-10",
+      "text": "Implement hedging strategies to protect the company from adverse market movements",
+      "source_span": "Implement hedging strategies to protect the company from adverse market movements.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1604,
+        "end": 1686
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.56,
+      "rationale": "Implementing hedging strategies is strategic risk management, not a covered automation capability.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-11",
+      "text": "Monitor key risk indicators",
+      "source_span": "Monitor and report on key risk indicators.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1690,
+        "end": 1732
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.57,
+      "rationale": "Monitoring key risk indicators is treasury oversight that does not map directly to the coverage list.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-12",
+      "text": "Report on key risk indicators",
+      "source_span": "Monitor and report on key risk indicators.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1690,
+        "end": 1732
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.88,
+      "rationale": "Reporting on key risk indicators fits building recurring management reports and KPI reporting.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-13",
+      "text": "Develop accurate financial forecasts",
+      "source_span": "Develop and maintain accurate financial forecasts and budgets.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1762,
+        "end": 1824
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.73,
+      "rationale": "Developing financial forecasts is planning-model work that is explicitly outside the listed cash-forecast capability.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-14",
+      "text": "Maintain accurate budgets",
+      "source_span": "Develop and maintain accurate financial forecasts and budgets.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1762,
+        "end": 1824
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Maintaining budgets is budgeting-model work, which is a known automation gap in the coverage map.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-15",
+      "text": "Analyze financial data",
+      "source_span": "Analyze financial data and provide insights to support strategic decision-making.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1828,
+        "end": 1909
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.adhoc_analysis",
+      "capability": "Answer finance questions traced to source entries",
+      "product": "Reporting",
+      "confidence": 0.92,
+      "rationale": "Analyzing financial data matches ad hoc financial analysis and answering finance questions traced to source entries.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-16",
+      "text": "Provide insights to support strategic decision-making",
+      "source_span": "Analyze financial data and provide insights to support strategic decision-making.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1828,
+        "end": 1909
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Providing insights to support strategic decision-making is advisory work for other teams and leadership.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-17",
+      "text": "Prepare accurate and timely financial reports, including cash flow statements and balance sheets",
+      "source_span": "Prepare accurate and timely financial reports, including cash flow statements and balance sheets.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1937,
+        "end": 2034
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.91,
+      "rationale": "Preparing cash flow statements and balance sheets matches building recurring management reports and financial statements.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-18",
+      "text": "Ensure compliance with financial reporting standards and regulations",
+      "source_span": "Ensure compliance with financial reporting standards and regulations.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2038,
+        "end": 2107
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.86,
+      "rationale": "Ensuring compliance with financial reporting standards and regulations requires policy and judgment rather than a covered operation.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-19",
+      "text": "Build and maintain strong relationships with banks and other financial institutions",
+      "source_span": "Build and maintain strong relationships with banks and other financial institutions.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2137,
+        "end": 2221
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Building and maintaining bank relationships is external relationship management, which is human work.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-20",
+      "text": "Negotiate favorable terms on banking services and products",
+      "source_span": "Negotiate favorable terms on banking services and products.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2225,
+        "end": 2284
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Negotiating favorable banking terms is negotiation work that is explicitly human.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-21",
+      "text": "Implement treasury management systems",
+      "source_span": "Implement and manage treasury management systems.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2309,
+        "end": 2358
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.62,
+      "rationale": "Implementing treasury management systems is a project implementation task without a matching capability.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-22",
+      "text": "Manage treasury management systems",
+      "source_span": "Implement and manage treasury management systems.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2309,
+        "end": 2358
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.64,
+      "rationale": "Managing treasury management systems is too broad to map to a specific covered or assisted capability.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-23",
+      "text": "Ensure the accuracy and efficiency of treasury operations",
+      "source_span": "Ensure the accuracy and efficiency of treasury operations.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2362,
+        "end": 2420
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.6,
+      "rationale": "Ensuring the accuracy and efficiency of treasury operations is a general oversight duty with no direct match.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-24",
+      "text": "Lead a team of treasury professionals",
+      "source_span": "Lead and mentor a team of treasury professionals.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2444,
+        "end": 2493
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Leading a team of treasury professionals is people management, which is explicitly human work.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-25",
+      "text": "Mentor a team of treasury professionals",
+      "source_span": "Lead and mentor a team of treasury professionals.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2444,
+        "end": 2493
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Mentoring a team of treasury professionals is staff development and coaching, which is human work.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-26",
+      "text": "Bachelor's degree in Finance, Accounting, or related field",
+      "source_span": "Bachelor's degree in Finance, Accounting, or related field.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2571,
+        "end": 2630
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-27",
+      "text": "Minimum of 8 years of treasury experience",
+      "source_span": "Minimum of 8 years of treasury experience.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2634,
+        "end": 2676
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-28",
+      "text": "Strong understanding of financial markets and economic trends",
+      "source_span": "Strong understanding of financial markets and economic trends.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2680,
+        "end": 2742
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-29",
+      "text": "Proven ability to manage complex financial transactions",
+      "source_span": "Proven ability to manage complex financial transactions.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2746,
+        "end": 2802
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-30",
+      "text": "Excellent analytical and problem-solving skills",
+      "source_span": "Excellent analytical and problem-solving skills.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2806,
+        "end": 2854
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-31",
+      "text": "Strong communication and interpersonal skills",
+      "source_span": "Strong communication and interpersonal skills.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2858,
+        "end": 2904
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-32",
+      "text": "Proficiency in treasury management systems and financial software",
+      "source_span": "Proficiency in treasury management systems and financial software.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2908,
+        "end": 2974
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-33",
+      "text": "Certification in Treasury Management (CTM) or similar is a plus",
+      "source_span": "Certification in Treasury Management (CTM) or similar is a plus.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2978,
+        "end": 3042
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

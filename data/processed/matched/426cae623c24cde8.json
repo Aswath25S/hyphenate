@@ -1,0 +1,213 @@
+{
+  "posting_id": "426cae623c24cde8",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "426cae623c24cde8-01",
+      "label": "covered",
+      "capability_id": "rep.consolidation",
+      "confidence": 0.68,
+      "rationale": "Preparing financial statements fits the consolidation capability for rolling entities into one view and preparing consolidated financial statements.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Reviewing financial statements is human review rather than an automated reporting action.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-03",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.91,
+      "rationale": "Preparing supporting work papers matches audit support and documentation for entries and audits.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Reviewing supporting work papers is a human review task, not a platform execution action.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Preparing disclosure checklists is structured reporting work with no matching advertised capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Reviewing disclosure checklists is human review rather than an automated finance-operations action.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Ensuring GAAP-compliant financial reporting is judgment-heavy oversight rather than a specific platform process.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Serving as the key point of contact for external audit is a relationship role with auditors.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Owning quarterly and annual financial reporting controls is managerial oversight, not a defined platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-10",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.81,
+      "rationale": "Ensuring controls operate effectively and evidence is complete matches monitoring and documenting internal controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Reviewing complex, judgment-heavy areas requires accounting judgment and human review.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Reviewing commissions is a recurring finance task with no matching capability and commissions are explicitly out of scope.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Ensuring transactions are properly accounted for and well-supported is broad accounting oversight that needs judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Owning technical accounting research on complex and non-recurring transactions is judgment-based work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Applying GAAP and authoritative literature to reach conclusions is technical accounting judgment by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Drafting well-documented technical accounting memos is judgment-heavy documentation work rather than a platform process.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Evaluating and adopting new accounting standards is policy and judgment work done by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Developing accounting policies is setting policy, which is explicitly human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Maintaining accounting policies is policy oversight and updating rather than an advertised automation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Proactively identifying emerging complexity in the close process is too vague to map cleanly to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Partnering with cross-functional teams is collaboration and coordination work done by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Partnering cross-functionally to understand business transactions is advisory, collaborative human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "426cae623c24cde8-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Communicating accounting and equity issues to stakeholders is stakeholder communication, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

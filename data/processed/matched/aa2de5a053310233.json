@@ -1,94 +1,148 @@
 {
   "posting_id": "aa2de5a053310233",
-  "prompt_version": "hand-labelled",
+  "prompt_version": "match-v1",
   "labels": [
     {
-      "duty_id": "aa2de5a053310233-h01",
+      "duty_id": "aa2de5a053310233-01",
       "label": "covered",
       "capability_id": "o2c.invoicing",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.94,
+      "rationale": "Owning the end-to-end billing cycle centers on managing the billing cycle and invoice issuance, which fits invoicing end to end.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "aa2de5a053310233-h02",
-      "label": "assisted",
-      "capability_id": "o2c.orders_refunds",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "assisted",
-      "adjusted": null
-    },
-    {
-      "duty_id": "aa2de5a053310233-h03",
+      "duty_id": "aa2de5a053310233-02",
       "label": "covered",
-      "capability_id": "o2c.contract_terms",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.99,
+      "rationale": "Generating invoices is the core action of the invoicing capability.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "aa2de5a053310233-h04",
-      "label": "assisted",
-      "capability_id": "tre.exceptions",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "assisted",
+      "duty_id": "aa2de5a053310233-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Reviewing invoices is a billing QC step that is repetitive but not explicitly covered by any listed capability.",
+      "model_label": "gap_candidate",
       "adjusted": null
     },
     {
-      "duty_id": "aa2de5a053310233-h05",
-      "label": "assisted",
+      "duty_id": "aa2de5a053310233-04",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.99,
+      "rationale": "Delivering invoices is part of creating and sending customer invoices.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "aa2de5a053310233-05",
+      "label": "covered",
       "capability_id": "o2c.orders_refunds",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.81,
+      "rationale": "Resolving billing issues is closest to resolving customer billing inquiries and related order-to-cash exceptions.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "aa2de5a053310233-06",
+      "label": "assisted",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.72,
+      "rationale": "Ensuring invoices align with contractual terms depends on extracting and maintaining billing terms from contracts, though it still needs human checking.",
       "model_label": "assisted",
       "adjusted": null
     },
     {
-      "duty_id": "aa2de5a053310233-h06",
+      "duty_id": "aa2de5a053310233-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Identifying and resolving billing discrepancies before downstream impact is exception handling not directly covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "aa2de5a053310233-08",
       "label": "human",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.97,
+      "rationale": "Being the key point of contact for customer billing inquiries is customer relationship work by nature.",
       "model_label": "human",
       "adjusted": null
     },
     {
-      "duty_id": "aa2de5a053310233-h07",
+      "duty_id": "aa2de5a053310233-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Serving as the key point of contact for customer contract inquiries is a relationship/advisory role, not a platform operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "aa2de5a053310233-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with GTM and Finance teams is cross-functional coordination and advising other teams, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "aa2de5a053310233-11",
       "label": "covered",
       "capability_id": "o2c.collections",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.93,
+      "rationale": "Supporting collections activities directly aligns with chasing timely customer payments and collections follow-up.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "aa2de5a053310233-h08",
+      "duty_id": "aa2de5a053310233-12",
       "label": "assisted",
       "capability_id": "tre.exceptions",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.77,
+      "rationale": "Investigating issues that delay payment matches exception handling for unmatched or problematic items, though it requires some judgment.",
       "model_label": "assisted",
       "adjusted": null
     },
     {
-      "duty_id": "aa2de5a053310233-h09",
+      "duty_id": "aa2de5a053310233-13",
       "label": "human",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.91,
+      "rationale": "Improving order-to-cash workflows is process redesign work rather than an operational capability the platform performs end to end.",
       "model_label": "human",
       "adjusted": null
     },
     {
-      "duty_id": "aa2de5a053310233-h10",
+      "duty_id": "aa2de5a053310233-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Automating order-to-cash workflows is an implementation or transformation project, not a routine finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "aa2de5a053310233-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Scaling order-to-cash workflows is process design and operational planning, which is not a listed platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "aa2de5a053310233-16",
       "label": "assisted",
       "capability_id": "gl.audit_support",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.79,
+      "rationale": "Supporting SOX controls and external audit requirements aligns with audit support, but external auditor interaction keeps it from being fully covered.",
       "model_label": "assisted",
       "adjusted": null
     }

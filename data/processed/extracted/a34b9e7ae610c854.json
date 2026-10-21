@@ -1,0 +1,270 @@
+{
+  "posting_id": "a34b9e7ae610c854",
+  "company": "Flexport",
+  "domain": "flexport.com",
+  "title": "Treasury Manager",
+  "role_family": "Treasury",
+  "seniority": "manager",
+  "locations": [
+    "Chicago, Illinois, United States"
+  ],
+  "remote": "onsite",
+  "salary": {
+    "min": 105600,
+    "max": 132000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The US base salary range for this position (this does not include bonus, equity and benefits):\n\n$105,600—$132,000 USD"
+  },
+  "erp": [],
+  "tools": [],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": true,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "duties": [
+    {
+      "duty_id": "a34b9e7ae610c854-01",
+      "text": "Manage global cash positions",
+      "source_span": "Manage global cash positions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-02",
+      "text": "Optimize cash flows",
+      "source_span": "optimize cash flows",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-03",
+      "text": "Oversee bank relationships",
+      "source_span": "Oversee bank relationships",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-04",
+      "text": "Implement efficient banking strategies",
+      "source_span": "implement efficient banking strategies",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-05",
+      "text": "Forecast cash requirements",
+      "source_span": "Forecast cash requirements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-06",
+      "text": "Manage liquidity risks",
+      "source_span": "manage liquidity risks",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-07",
+      "text": "Identify financial risks, including foreign exchange, interest rate, and credit risks",
+      "source_span": "Identify, assess, and mitigate financial risks, including foreign exchange, interest rate, and credit risks.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-08",
+      "text": "Assess financial risks, including foreign exchange, interest rate, and credit risks",
+      "source_span": "Identify, assess, and mitigate financial risks, including foreign exchange, interest rate, and credit risks.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-09",
+      "text": "Mitigate financial risks, including foreign exchange, interest rate, and credit risks",
+      "source_span": "Identify, assess, and mitigate financial risks, including foreign exchange, interest rate, and credit risks.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-10",
+      "text": "Implement hedging strategies to protect the company from adverse market movements",
+      "source_span": "Implement hedging strategies to protect the company from adverse market movements.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-11",
+      "text": "Monitor key risk indicators",
+      "source_span": "Monitor and report on key risk indicators.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-12",
+      "text": "Report on key risk indicators",
+      "source_span": "Monitor and report on key risk indicators.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-13",
+      "text": "Develop accurate financial forecasts",
+      "source_span": "Develop and maintain accurate financial forecasts and budgets.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-14",
+      "text": "Maintain accurate budgets",
+      "source_span": "Develop and maintain accurate financial forecasts and budgets.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-15",
+      "text": "Analyze financial data",
+      "source_span": "Analyze financial data and provide insights to support strategic decision-making.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-16",
+      "text": "Provide insights to support strategic decision-making",
+      "source_span": "Analyze financial data and provide insights to support strategic decision-making.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-17",
+      "text": "Prepare accurate and timely financial reports, including cash flow statements and balance sheets",
+      "source_span": "Prepare accurate and timely financial reports, including cash flow statements and balance sheets.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-18",
+      "text": "Ensure compliance with financial reporting standards and regulations",
+      "source_span": "Ensure compliance with financial reporting standards and regulations.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-19",
+      "text": "Build and maintain strong relationships with banks and other financial institutions",
+      "source_span": "Build and maintain strong relationships with banks and other financial institutions.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-20",
+      "text": "Negotiate favorable terms on banking services and products",
+      "source_span": "Negotiate favorable terms on banking services and products.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-21",
+      "text": "Implement treasury management systems",
+      "source_span": "Implement and manage treasury management systems.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-22",
+      "text": "Manage treasury management systems",
+      "source_span": "Implement and manage treasury management systems.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-23",
+      "text": "Ensure the accuracy and efficiency of treasury operations",
+      "source_span": "Ensure the accuracy and efficiency of treasury operations.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-24",
+      "text": "Lead a team of treasury professionals",
+      "source_span": "Lead and mentor a team of treasury professionals.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-25",
+      "text": "Mentor a team of treasury professionals",
+      "source_span": "Lead and mentor a team of treasury professionals.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-26",
+      "text": "Bachelor's degree in Finance, Accounting, or related field",
+      "source_span": "Bachelor's degree in Finance, Accounting, or related field.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-27",
+      "text": "Minimum of 8 years of treasury experience",
+      "source_span": "Minimum of 8 years of treasury experience.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-28",
+      "text": "Strong understanding of financial markets and economic trends",
+      "source_span": "Strong understanding of financial markets and economic trends.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-29",
+      "text": "Proven ability to manage complex financial transactions",
+      "source_span": "Proven ability to manage complex financial transactions.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-30",
+      "text": "Excellent analytical and problem-solving skills",
+      "source_span": "Excellent analytical and problem-solving skills.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-31",
+      "text": "Strong communication and interpersonal skills",
+      "source_span": "Strong communication and interpersonal skills.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-32",
+      "text": "Proficiency in treasury management systems and financial software",
+      "source_span": "Proficiency in treasury management systems and financial software.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-33",
+      "text": "Certification in Treasury Management (CTM) or similar is a plus",
+      "source_span": "Certification in Treasury Management (CTM) or similar is a plus.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-10-15T16:20:32-04:00",
+  "source_url": "https://job-boards.greenhouse.io/flexport/jobs/8282867",
+  "fetched_at": "2026-10-21T17:34:15.447Z",
+  "prompt_version": "extract-v1",
+  "text": "About Flexport:\n\nAt Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise across 112 countries a year.\n\nThe recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people. Ready to tackle global challenges that impact business, society, and the environment? Come join us.\n\nPower Flexport's global growth by optimizing our financial health and liquidity.\n\nWe are seeking a seasoned Treasury Manager to oversee our global treasury operations. The ideal candidate will have a deep understanding of treasury functions, including cash management, risk management, and financial forecasting. This role will be critical in optimizing our financial resources and ensuring the financial health of the organization.\n\nResponsibilities:\n\n• Cash Management:\n\n• Manage global cash positions and optimize cash flows.\n\n• Oversee bank relationships and implement efficient banking strategies.\n\n• Forecast cash requirements and manage liquidity risks.\n\n• Risk Management:\n\n• Identify, assess, and mitigate financial risks, including foreign exchange, interest rate, and credit risks.\n\n• Implement hedging strategies to protect the company from adverse market movements.\n\n• Monitor and report on key risk indicators.\n\n• Financial Forecasting:\n\n• Develop and maintain accurate financial forecasts and budgets.\n\n• Analyze financial data and provide insights to support strategic decision-making.\n\n• Financial Reporting:\n\n• Prepare accurate and timely financial reports, including cash flow statements and balance sheets.\n\n• Ensure compliance with financial reporting standards and regulations.\n\n• Banking Relationships:\n\n• Build and maintain strong relationships with banks and other financial institutions.\n\n• Negotiate favorable terms on banking services and products.\n\n• Treasury Systems:\n\n• Implement and manage treasury management systems.\n\n• Ensure the accuracy and efficiency of treasury operations.\n\n• Team Management:\n\n• Lead and mentor a team of treasury professionals.\n\n• Foster a positive and collaborative work environment.\n\nQualifications:\n\n• Bachelor's degree in Finance, Accounting, or related field.\n\n• Minimum of 8 years of treasury experience.\n\n• Strong understanding of financial markets and economic trends.\n\n• Proven ability to manage complex financial transactions.\n\n• Excellent analytical and problem-solving skills.\n\n• Strong communication and interpersonal skills.\n\n• Proficiency in treasury management systems and financial software.\n\n• Certification in Treasury Management (CTM) or similar is a plus.\n\n#LI-onsite\n\nThe range displayed on each job posting reflects the minimum and maximum target for new hire base salary for the position in the posting's respective region. Our salary ranges are determined by role, level, and location. Within the range displayed, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education and / or training. Base salary is just one part of our total rewards package at Flexport, which also includes bonus, equity, and comprehensive benefit offerings such as medical, dental, and flexible time off.\n\nThe US base salary range for this position (this does not include bonus, equity and benefits):\n\n$105,600—$132,000 USD\n\nCommitment to Equal Opportunity\n\nAt Flexport, our ability to fulfill our mission of making global commerce easy and accessible relies on having a diverse, dedicated and engaged workforce. All qualified applicants will receive consideration for employment regardless of race, color, religion, sex, national origin, age, physical and mental disability, health status, marital and family status, sexual orientation, gender identity and expression, military and veteran status, and any other characteristic protected by applicable law.\n\nGlobal Data Privacy Notice for Job Candidates and Applicants\n\nDepending on your location, the General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA) may regulate the way we manage the data of job applicants. By submitting your application, you are agreeing to our use and processing of your data as required. Please see our Privacy Notice available at www.flexport.com/privacy for additional information.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

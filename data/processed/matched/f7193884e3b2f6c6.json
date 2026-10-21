@@ -1,0 +1,222 @@
+{
+  "posting_id": "f7193884e3b2f6c6",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "f7193884e3b2f6c6-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "The duty is budgeting work, which is FP&A planning and is not a covered platform capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The duty is forecasting work, which is general FP&A planning rather than a covered cash-forecast capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-03",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.86,
+      "rationale": "The duty is recurring reporting, which matches building management reports and leadership-facing financial reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The duty is partnering with other teams, which is relationship management rather than a platform operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "The duty tracks performance against operating plans, which is planning/analysis work outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-06",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.93,
+      "rationale": "The duty is monthly variance analysis, which matches flux analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-07",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.93,
+      "rationale": "The duty is quarterly variance analysis, which is the same variance-analysis action as flux analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-08",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.93,
+      "rationale": "The duty is year-to-date variance analysis, which matches variance analysis with commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The duty is collaborating with Accounting, which is cross-functional partnership work rather than automated processing.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-10",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.92,
+      "rationale": "The duty is estimating accruals, which matches the accruals capability.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-11",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.66,
+      "rationale": "The duty is detailed cost analysis, which fits ad hoc financial analysis traced to source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-12",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "The duty is too broad, combining financial reporting and decision-making support without a specific core action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-13",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.9,
+      "rationale": "The duty is margin bridge analysis, which is explaining changes in a metric using source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-14",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.84,
+      "rationale": "The duty is margin bridge narrative, which is commentary explaining the drivers behind the bridge.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The duty is presenting to executives, which is a human communication task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-16",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.95,
+      "rationale": "The duty is supporting ad hoc analyses, which matches ad hoc financial analysis requests.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "The duty is collaborating with cross-functional teams, which is partnership work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "The duty is too vague because 'streamline processes' does not specify a finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-19",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "The duty is too vague because 'improve data integrity' does not specify a concrete finance action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-20",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.82,
+      "rationale": "The duty is monitoring cost trends, which is tracking and explaining metric movement from source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-21",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.91,
+      "rationale": "The duty is analyzing cost trends, which matches explaining changes in spend drivers.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-22",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "The duty is identifying cost-saving opportunities, which is analytical FP&A work not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The duty is providing recommendations, which is advisory work to other teams or leaders.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f7193884e3b2f6c6-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "The duty is developing internal processes to meet changing requirements, which is process design and policy work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

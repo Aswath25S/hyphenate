@@ -1,0 +1,168 @@
+{
+  "posting_id": "5161be621c1860bd",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "5161be621c1860bd-01",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "The duty is a broad accounting deliverable statement and does not specify a concrete covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Maintaining accurate financial records is too generic to map to a specific platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Managing the monthly close process is a supervisory/process-management activity rather than running checklist tasks.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-04",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.98,
+      "rationale": "Preparing reconciliations matches balance-sheet account reconciliations end to end.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-05",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.97,
+      "rationale": "Preparing journal entries matches journal entry preparation, which is assisted rather than fully covered.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-06",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Supporting financial reporting and audit activities is too vague and combines multiple capabilities without a specific action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-07",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.97,
+      "rationale": "Executing monthly journal entries matches recurring journal entry preparation and posting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-08",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.99,
+      "rationale": "Reconciling all accounts is exactly the balance-sheet account reconciliation capability.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Reviewing work completed by Accounting Analysts is human review and supervision.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-10",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.95,
+      "rationale": "Executing the monthly close process aligns with running month-end close checklist tasks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-11",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.71,
+      "rationale": "Preparing analytics and related financial statement disclosures is too broad and includes disclosure work not explicitly covered.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-12",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.94,
+      "rationale": "Maintaining internal control procedures matches monitoring and documenting internal controls over financial reporting.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Collaborating with other departments to ensure compliance is cross-functional partnering and advising work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Identifying and implementing process improvements is a judgment-heavy process-improvement activity rather than a listed automation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with another team on automation opportunities is cross-functional collaboration rather than a platform task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.69,
+      "rationale": "Helping strengthen accounting processes is too vague to tie to a specific covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.67,
+      "rationale": "Resolving discrepancies is too unspecific without context on whether they are reconciliation, treasury, or AP items.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.73,
+      "rationale": "Ensuring timely, reliable financial information for decision-making is an outcome statement rather than a concrete automatable duty.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "posting_id": "2a2c263330df1e9d",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "2a2c263330df1e9d-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "The action is assisting with SEC filing preparation, which is outside the listed capabilities and is not the same as consolidation or reporting.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Preparing the financial statements is financial reporting work that is not directly covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Preparing a cash flow statement is a reporting output with no direct matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Preparing footnote disclosures is a financial statement drafting task not covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-05",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.93,
+      "rationale": "Maintaining tie-out documentation under SOX controls matches maintaining documentation of key controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-06",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.89,
+      "rationale": "Preparing stock-based compensation journal entries is journal-entry preparation, which fits the journal-entry capability but requires accounting judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Preparing stock-based compensation reconciliations is specialized accounting work that does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-08",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.96,
+      "rationale": "Maintaining supporting documents for SOX auditors matches providing documentation to support audits.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-09",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Responding to data requests is too generic to map to a specific finance-operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Liaising with external auditors is a relationship-management activity that is explicitly excluded from audit-support automation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Managing coordination with external auditors is human relationship and project coordination work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Recommending process improvements is a judgment and advisory activity rather than an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Implementing process improvements is project and change-management work that is not a listed finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Establishing communication with cross-functional partners is a human collaboration activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Supporting technical accounting research involves judgment and policy interpretation that are human responsibilities.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Supporting ad-hoc requests is too vague to determine a specific capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

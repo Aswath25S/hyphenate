@@ -1,0 +1,294 @@
+{
+  "posting_id": "cc9daeaedc501eb6",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "cc9daeaedc501eb6-01",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.41,
+      "rationale": "The duty only says to proactively surface risks, which is too vague to map to a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.41,
+      "rationale": "The duty only says to proactively surface opportunities, which is too vague to map to a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Proactively recommending operational and strategic actions is advisory work for people, not a covered finance-operations task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-04",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.78,
+      "rationale": "Owning a monthly financial business review matches building recurring management reporting packages and related reporting outputs.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-05",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.74,
+      "rationale": "Delivering insights on sales, margins, and trends is analysis of key metric changes using source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Ecommerce forecasting is FP&A planning work, which is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Ecommerce budgeting is annual planning/modeling work and is explicitly outside the covered capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Variance analysis in a planning partnership is FP&A budget-versus-actual work and does not map cleanly to the covered flux capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Pricing analysis is analytical FP&A work and pricing design is not a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Promotional analysis is FP&A analysis work with no matching covered capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Evaluating ROI is a planning/analysis task that does not match any listed finance-operations capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Optimizing pricing and promotions is strategic FP&A work rather than a covered finance-operations capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Analyzing Co-Op programs is program profitability analysis with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Analyzing DDA programs is specialized FP&A analysis that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Analyzing rebate programs is rules-based finance analysis without a matching listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-16",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.84,
+      "rationale": "Tracking accruals aligns with maintaining accrual schedules and estimating accruals from source information.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-17",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.8,
+      "rationale": "SKU- and department-level reporting from revenue through margin is recurring management reporting output.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Ensuring metric data integrity in partnership with Data and Engineering is cross-functional coordination work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-19",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.79,
+      "rationale": "Building dynamic dashboards is reporting and visualization work that fits management reporting outputs.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-20",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.81,
+      "rationale": "Building KPI reporting matches recurring management reporting and dashboard-style reporting outputs.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-21",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.8,
+      "rationale": "Operational reporting is a recurring management reporting deliverable.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-22",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.84,
+      "rationale": "Building business analyses matches ad hoc financial analysis and response to business questions.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-23",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.77,
+      "rationale": "Providing executive-level explanations of variances matches variance commentary, though it may need human presentation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Establishing new financial processes is process design and governance work that requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-25",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.48,
+      "rationale": "Managing reporting frameworks is too vague to map cleanly to a specific covered capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-26",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.8,
+      "rationale": "Giving business leaders visibility to track against targets is reporting and dashboard support work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Contributing to board presentations is presentation work, which is explicitly human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Contributing to quarterly board presentations is presentation work, which is explicitly human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-29",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Annual planning is FP&A planning work and is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-30",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Long-range planning is FP&A planning work and is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-31",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.56,
+      "rationale": "Identifying AI-enabled improvements is a vague process-improvement activity without a direct capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cc9daeaedc501eb6-32",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.56,
+      "rationale": "Implementing AI-enabled improvements is a project/implementation task that does not map cleanly to a finance-operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

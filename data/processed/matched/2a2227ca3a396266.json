@@ -1,140 +1,302 @@
 {
   "posting_id": "2a2227ca3a396266",
-  "prompt_version": "hand-labelled",
+  "prompt_version": "match-v1",
   "labels": [
     {
-      "duty_id": "2a2227ca3a396266-h01",
+      "duty_id": "2a2227ca3a396266-01",
       "label": "covered",
       "capability_id": "o2c.collections",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.99,
+      "rationale": "The duty is outbound email and phone outreach to collect overdue balances, which is exactly collections follow-up.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "2a2227ca3a396266-h02",
+      "duty_id": "2a2227ca3a396266-02",
       "label": "covered",
       "capability_id": "o2c.collections",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.96,
+      "rationale": "Prioritizing overdue balances is core collections work aligned to monitoring AR aging and pursuing delinquent accounts.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "2a2227ca3a396266-h03",
+      "duty_id": "2a2227ca3a396266-03",
       "label": "covered",
       "capability_id": "o2c.collections",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.95,
+      "rationale": "Following through on commitments to improve cash collection and DSO is collections follow-up work.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "2a2227ca3a396266-h04",
+      "duty_id": "2a2227ca3a396266-04",
       "label": "covered",
       "capability_id": "o2c.collections",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.93,
+      "rationale": "Reviewing account aging daily matches monitoring AR aging in the collections workflow.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "2a2227ca3a396266-h05",
+      "duty_id": "2a2227ca3a396266-05",
+      "label": "covered",
+      "capability_id": "o2c.collections",
+      "confidence": 0.9,
+      "rationale": "Reviewing collection activity daily is part of managing the collections process.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Keeping customer conversation records current is repetitive record maintenance with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Keeping payment promise records current is administrative tracking that is not an advertised capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Keeping dispute records current is routine tracking work without a direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Keeping next-step records current is generic workflow administration not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-10",
       "label": "human",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.97,
+      "rationale": "Building relationships with customers' AP teams is relationship management work done by people.",
       "model_label": "human",
       "adjusted": null
     },
     {
-      "duty_id": "2a2227ca3a396266-h06",
+      "duty_id": "2a2227ca3a396266-11",
       "label": "human",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.96,
+      "rationale": "Being the point of contact for collections and payment questions is customer-facing relationship work.",
       "model_label": "human",
       "adjusted": null
     },
     {
-      "duty_id": "2a2227ca3a396266-h07",
-      "label": "assisted",
-      "capability_id": "tre.exceptions",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "assisted",
-      "adjusted": null
-    },
-    {
-      "duty_id": "2a2227ca3a396266-h08",
-      "label": "assisted",
-      "capability_id": "tre.exceptions",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "assisted",
-      "adjusted": null
-    },
-    {
-      "duty_id": "2a2227ca3a396266-h09",
-      "label": "covered",
-      "capability_id": "gl.account_recs",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "covered",
-      "adjusted": null
-    },
-    {
-      "duty_id": "2a2227ca3a396266-h10",
-      "label": "assisted",
-      "capability_id": "o2c.collections",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "assisted",
-      "adjusted": null
-    },
-    {
-      "duty_id": "2a2227ca3a396266-h11",
-      "label": "human",
-      "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "human",
-      "adjusted": null
-    },
-    {
-      "duty_id": "2a2227ca3a396266-h12",
-      "label": "human",
-      "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "human",
-      "adjusted": null
-    },
-    {
-      "duty_id": "2a2227ca3a396266-h13",
-      "label": "covered",
-      "capability_id": "o2c.collections",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "covered",
-      "adjusted": null
-    },
-    {
-      "duty_id": "2a2227ca3a396266-h14",
-      "label": "human",
-      "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "human",
-      "adjusted": null
-    },
-    {
-      "duty_id": "2a2227ca3a396266-h15",
+      "duty_id": "2a2227ca3a396266-12",
       "label": "unclear",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.67,
+      "rationale": "Coordinating incoming requests is too vague to map to a specific finance-ops capability.",
       "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Handling initial escalations is human triage and judgment work rather than a platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-14",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Resolving issues promptly is too generic to identify a specific covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Bringing in the right team for further review is cross-functional coordination with people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-16",
+      "label": "assisted",
+      "capability_id": "tre.exceptions",
+      "confidence": 0.74,
+      "rationale": "Investigating complex account balances resembles research on payment discrepancies and other treasury exceptions.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Recommending next steps based on facts, history, and risk requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-18",
+      "label": "assisted",
+      "capability_id": "o2c.orders_refunds",
+      "confidence": 0.72,
+      "rationale": "Researching invoice discrepancies fits billing inquiry triage, but it needs human judgment to interpret the discrepancy.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-19",
+      "label": "assisted",
+      "capability_id": "tre.exceptions",
+      "confidence": 0.95,
+      "rationale": "Researching payment discrepancies matches investigating payment discrepancies in treasury exceptions.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-20",
+      "label": "assisted",
+      "capability_id": "tre.exceptions",
+      "confidence": 0.69,
+      "rationale": "Reconciling account information is exception-resolution work around unmatched or discrepant items.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Working with other teams to resolve customers' AR/AP questions is cross-functional partnering work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Arranging approved payment schedules still involves coordinating payment plans with customers, which is human judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-23",
+      "label": "covered",
+      "capability_id": "o2c.collections",
+      "confidence": 0.94,
+      "rationale": "Monitoring approved payment schedules is collections follow-up on overdue accounts.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Leading biweekly reviews with business leaders is presenting and partnering with leadership.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Working with Credit, Sales, Disputes, and Legal to resolve delays is cross-functional relationship work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-26",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Summarizing account histories with AI tools is useful automation but has no matching advertised capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-27",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Analyzing aging data with AI tools is analytical support that is not explicitly covered by the platform map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-28",
+      "label": "covered",
+      "capability_id": "o2c.collections",
+      "confidence": 0.9,
+      "rationale": "Drafting follow-ups is part of collections outreach to chase overdue invoices.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-29",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Verifying amounts and claims before acting is a manual review step with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-30",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Protecting customer information is a policy and compliance responsibility handled by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-31",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Testing and documenting process improvements with the AR manager is a human process-improvement activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-32",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Supporting month-end close activities is too vague to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a2227ca3a396266-33",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Maintaining accurate account records is repetitive record upkeep that is not directly covered by the map.",
+      "model_label": "gap_candidate",
       "adjusted": null
     }
   ]

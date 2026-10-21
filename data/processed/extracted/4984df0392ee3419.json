@@ -1,0 +1,565 @@
+{
+  "posting_id": "4984df0392ee3419",
+  "company": "Included Health",
+  "domain": "includedhealth.com",
+  "title": "Sr. Manager, Accounting",
+  "role_family": "Close_Mgmt",
+  "seniority": "manager",
+  "locations": [
+    "Remote"
+  ],
+  "remote": "remote",
+  "salary": {
+    "min": 147940,
+    "max": 185000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The base salary range for this full-time position is $147,940 - $185,000 per year in the United States, plus bonus eligibility and equity."
+  },
+  "erp": [
+    "Workday"
+  ],
+  "tools": [
+    "Looker",
+    "Microsoft Suite",
+    "GSuite"
+  ],
+  "complexity": {
+    "multi_entity": true,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "fast growing Finance organization",
+    "high-growth environments",
+    "software capitalization processes",
+    "legacy systems and processes",
+    "future M&A activity",
+    "high-intensity work environment",
+    "as the company continues to scale",
+    "drive process efficiencies"
+  ],
+  "duties": [
+    {
+      "duty_id": "4984df0392ee3419-01",
+      "text": "Oversee monthly allocations",
+      "source_span": "Oversee monthly allocations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-02",
+      "text": "Oversee software capitalization processes",
+      "source_span": "software capitalization processes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-03",
+      "text": "Review the trial balance",
+      "source_span": "trial balance",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-04",
+      "text": "Review the financial statements",
+      "source_span": "financial statements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-05",
+      "text": "Book adjusting entries",
+      "source_span": "booking and reviewing adjusting entries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-06",
+      "text": "Review adjusting entries",
+      "source_span": "reviewing adjusting entries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-07",
+      "text": "Coordinate with the accounting team when adjustments need to be made",
+      "source_span": "coordinating with the accounting team when adjustments need to be made",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-08",
+      "text": "Serve as the internal subject matter expert on equity accounting",
+      "source_span": "Serve as the internal subject matter expert on equity accounting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-09",
+      "text": "Partner with external vendors on 409A valuations",
+      "source_span": "409A valuations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-10",
+      "text": "Partner with external vendors on stock-based compensation",
+      "source_span": "stock-based compensation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-11",
+      "text": "Partner with external vendors on deferred fulfillment matters",
+      "source_span": "deferred fulfillment matters",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-12",
+      "text": "Manage technical accounting for intangible assets and goodwill",
+      "source_span": "intangible assets and goodwill",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-13",
+      "text": "Manage technical accounting for leases",
+      "source_span": "leases",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-14",
+      "text": "Manage technical accounting for fixed assets",
+      "source_span": "fixed assets",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-15",
+      "text": "Perform impairment analysis",
+      "source_span": "impairment analysis",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-16",
+      "text": "Ensure standards compliance",
+      "source_span": "standards compliance",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-17",
+      "text": "Track assets",
+      "source_span": "asset tracking",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-18",
+      "text": "Update accounting memos",
+      "source_span": "updating and creating accounting memos",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-19",
+      "text": "Create accounting memos",
+      "source_span": "updating and creating accounting memos",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-20",
+      "text": "Manage intercompany transactions among the parent company and subsidiaries",
+      "source_span": "Manage intercompany transactions and eliminations among the parent company and subsidiaries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-21",
+      "text": "Manage eliminations among the parent company and subsidiaries",
+      "source_span": "Manage intercompany transactions and eliminations among the parent company and subsidiaries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-22",
+      "text": "Lead the transition of legacy systems from newly acquired entities into our accounting systems",
+      "source_span": "Lead the transition and sunsetting of legacy systems and processes from newly acquired entities into our accounting systems",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-23",
+      "text": "Lead the sunsetting of legacy processes from newly acquired entities into our accounting systems",
+      "source_span": "Lead the transition and sunsetting of legacy systems and processes from newly acquired entities into our accounting systems",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-24",
+      "text": "Support due diligence for future M&A activity",
+      "source_span": "supporting due diligence and integration for future M&A activity",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-25",
+      "text": "Support integration for future M&A activity",
+      "source_span": "supporting due diligence and integration for future M&A activity",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-26",
+      "text": "Prepare commentary supporting monthly and quarterly financial statements",
+      "source_span": "prepare and deliver commentary supporting monthly and quarterly financial statements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-27",
+      "text": "Deliver commentary supporting monthly and quarterly financial statements",
+      "source_span": "prepare and deliver commentary supporting monthly and quarterly financial statements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-28",
+      "text": "Prepare materials presented to the Audit Committee",
+      "source_span": "including materials presented to the Audit Committee",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-29",
+      "text": "Deliver materials presented to the Audit Committee",
+      "source_span": "including materials presented to the Audit Committee",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-30",
+      "text": "Address management reporting questions raised by investors and leadership",
+      "source_span": "address management reporting questions raised by investors and leadership",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-31",
+      "text": "Partner with the Sr. Director of Tax on income tax data requests",
+      "source_span": "Partner with the Sr. Director of Tax on income tax data requests",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-32",
+      "text": "Calculate state sales tax",
+      "source_span": "calculate and ensure compliance with state sales tax laws",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-33",
+      "text": "Ensure compliance with state sales tax laws",
+      "source_span": "calculate and ensure compliance with state sales tax laws",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-34",
+      "text": "Manage business tax filings with state and local authorities",
+      "source_span": "manage business tax filings with state and local authorities",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-35",
+      "text": "Serve as the accounting team's system expert for Workday",
+      "source_span": "Serve as the accounting team's system expert for Workday",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-36",
+      "text": "Support configuration",
+      "source_span": "supporting configuration, troubleshooting, and process improvements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-37",
+      "text": "Support troubleshooting",
+      "source_span": "supporting configuration, troubleshooting, and process improvements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-38",
+      "text": "Drive process improvements",
+      "source_span": "supporting configuration, troubleshooting, and process improvements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-39",
+      "text": "Assist with the annual audit",
+      "source_span": "Assist with the annual audit",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-40",
+      "text": "Prepare annual financial statements",
+      "source_span": "preparing annual financial statements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-41",
+      "text": "Update related disclosures",
+      "source_span": "updating related disclosures",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-42",
+      "text": "Build strong relationships with key stakeholders such as FP&A, Tax, Legal, IT Systems, and Engineering",
+      "source_span": "Build strong relationships with key stakeholders such as FP&A, Tax, Legal, IT Systems, and Engineering",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-43",
+      "text": "Serve as the accounting team AI champion",
+      "source_span": "Serve as the accounting team AI champion",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-44",
+      "text": "Drive process efficiencies in own work",
+      "source_span": "Expected to drive process efficiencies in own work",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-45",
+      "text": "Share best practices with the accounting team",
+      "source_span": "share best practices with the accounting team",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-46",
+      "text": "Build a high performing and motivated team",
+      "source_span": "Build a high performing and motivated team",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-47",
+      "text": "Create career development opportunities",
+      "source_span": "help create career development opportunities",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-48",
+      "text": "Provide leadership and structure for the team",
+      "source_span": "providing leadership and structure for the team to excel as the company continues to scale",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-49",
+      "text": "We are looking for a Sr. Manager, Accounting to join our fast growing Finance organization.",
+      "source_span": "We are looking for a Sr. Manager, Accounting to join our fast growing Finance organization.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-50",
+      "text": "This is a hands-on leadership role that requires a balance of strong technical accounting expertise and operational execution, ideal for someone who thrives in dynamic, high-growth environments.",
+      "source_span": "This is a hands-on leadership role that requires a balance of strong technical accounting expertise and operational execution, ideal for someone who thrives in dynamic, high-growth environments.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-51",
+      "text": "Bachelor's Degree in Accounting or Finance required.",
+      "source_span": "Bachelor's Degree in Accounting or Finance required.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "4984df0392ee3419-52",
+      "text": "Big 4 experience",
+      "source_span": "Big 4 experience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "4984df0392ee3419-53",
+      "text": "CPA strongly preferred",
+      "source_span": "CPA strongly preferred",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "4984df0392ee3419-54",
+      "text": "Minimum of 8-10 years of progressive accounting experience, with at least 3 years in a management role.",
+      "source_span": "Minimum of 8-10 years of progressive accounting experience, with at least 3 years in a management role.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "4984df0392ee3419-55",
+      "text": "Experience with Workday/Looker/Microsoft Suite/GSuite or other large ERP",
+      "source_span": "Experience with Workday/Looker/Microsoft Suite/GSuite or other large ERP",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "4984df0392ee3419-56",
+      "text": "Demonstrated experience in a public company environment, including readiness for and participation in an Initial Public Offering (IPO).",
+      "source_span": "Demonstrated experience in a public company environment, including readiness for and participation in an Initial Public Offering (IPO).",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "4984df0392ee3419-57",
+      "text": "Strong technical accounting expertise, particularly related to complex transactions such as mergers and acquisitions",
+      "source_span": "Strong technical accounting expertise, particularly related to complex transactions such as mergers and acquisitions",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "4984df0392ee3419-58",
+      "text": "Strong analytical and problem-solving skills",
+      "source_span": "Strong analytical and problem-solving skills",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "4984df0392ee3419-59",
+      "text": "Highly effective written and verbal communication skills including active listening and the ability to articulate complex issues to a variety of audiences",
+      "source_span": "Highly effective written and verbal communication skills including active listening and the ability to articulate complex issues to a variety of audiences",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "4984df0392ee3419-60",
+      "text": "Strong organizational skills, ability to prioritize competing projects, work under pressure, and adhere to deadlines",
+      "source_span": "Strong organizational skills, ability to prioritize competing projects, work under pressure, and adhere to deadlines",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "4984df0392ee3419-61",
+      "text": "Possesses high emotional intelligence and is able to build and maintain relationships at various levels, both within and outside of the finance department.",
+      "source_span": "Possesses high emotional intelligence and is able to build and maintain relationships at various levels, both within and outside of the finance department.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "4984df0392ee3419-62",
+      "text": "Proven record of mentoring and developing talent.",
+      "source_span": "Proven record of mentoring and developing talent.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "4984df0392ee3419-63",
+      "text": "Self-motivated, proactive, and able to work independently with a high level of integrity and professionalism",
+      "source_span": "Self-motivated, proactive, and able to work independently with a high level of integrity and professionalism",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "4984df0392ee3419-64",
+      "text": "Remote-first culture",
+      "source_span": "Remote-first culture",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-65",
+      "text": "401(k) savings plan through Fidelity",
+      "source_span": "401(k) savings plan through Fidelity",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-66",
+      "text": "Comprehensive medical, vision, and dental coverage through multiple medical plan options (including disability insurance)",
+      "source_span": "Comprehensive medical, vision, and dental coverage through multiple medical plan options (including disability insurance)",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-67",
+      "text": "Paid Time Off (\"PTO\") and Discretionary Time Off (“DTO\")",
+      "source_span": "Paid Time Off (\"PTO\") and Discretionary Time Off (“DTO\")",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-68",
+      "text": "12 weeks of 100% Paid Parental leave",
+      "source_span": "12 weeks of 100% Paid Parental leave",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-69",
+      "text": "Family Building & Compassionate Leave: Fertility coverage, $25,000 for surrogacy/adoption, and paid leave for failed treatments, adoption or pregnancies.",
+      "source_span": "Family Building & Compassionate Leave: Fertility coverage, $25,000 for surrogacy/adoption, and paid leave for failed treatments, adoption or pregnancies.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-70",
+      "text": "Work-From-Home reimbursement to support team collaboration home office work",
+      "source_span": "Work-From-Home reimbursement to support team collaboration home office work",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-71",
+      "text": "About Included Health",
+      "source_span": "About Included Health",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-72",
+      "text": "Included Health is a new kind of healthcare company, delivering integrated virtual care and navigation.",
+      "source_span": "Included Health is a new kind of healthcare company, delivering integrated virtual care and navigation.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "4984df0392ee3419-73",
+      "text": "We’re on a mission to raise the standard of healthcare for everyone.",
+      "source_span": "We’re on a mission to raise the standard of healthcare for everyone.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    }
+  ],
+  "posted_at": "2026-09-30T19:43:25.639Z",
+  "source_url": "https://jobs.lever.co/includedhealth/6efe0600-3f4c-44af-a2e3-0005e89d072b",
+  "fetched_at": "2026-10-21T17:34:17.658Z",
+  "prompt_version": "extract-v1",
+  "text": "We are looking for a Sr. Manager, Accounting to join our fast growing Finance organization. This is a hands-on leadership role that requires a balance of strong technical accounting expertise and operational execution, ideal for someone who thrives in dynamic, high-growth environments. In this role, you will be responsible for managing complex technical accounting areas including equity, intangibles and goodwill, leases, and fixed assets, overseeing key reporting and tax deliverables, and leading and developing a team.\n\n\nDuties and Responsibilities:\n•\n\nOversee monthly allocations and software capitalization processes, ensuring accuracy, proper support, and compliance with policy.\n\n•\n\nServe as the primary reviewer during the monthly close for the trial balance and financial statements, booking and reviewing adjusting entries and coordinating with the accounting team when adjustments need to be made.\n\n•\n\nServe as the internal subject matter expert on equity accounting, partnering with external vendors on 409A valuations, stock-based compensation, and deferred fulfillment matters.\n\n•\n\nManage technical accounting for intangible assets and goodwill, leases, and fixed assets, including impairment analysis, standards compliance, and asset tracking, and serve as a technical accounting resource by updating and creating accounting memos.\n\n•\n\nManage intercompany transactions and eliminations among the parent company and subsidiaries\n\n•\n\nLead the transition and sunsetting of legacy systems and processes from newly acquired entities into our accounting systems, supporting due diligence and integration for future M&A activity as the company continues to grow.\n\n•\n\nPartner with the business and FP&A to prepare and deliver commentary supporting monthly and quarterly financial statements, including materials presented to the Audit Committee, and address management reporting questions raised by investors and leadership.\n\n•\n\nPartner with the Sr. Director of Tax on income tax data requests, calculate and ensure compliance with state sales tax laws, and manage business tax filings with state and local authorities.\n\n•\n\nServe as the accounting team's system expert for Workday, supporting configuration, troubleshooting, and process improvements.\n\n•\n\nAssist with the annual audit, including preparing annual financial statements and updating related disclosures.\n\n•\n\nBuild strong relationships with key stakeholders such as FP&A, Tax, Legal, IT Systems, and Engineering.\n\n•\n\nServe as the accounting team AI champion. Expected to drive process efficiencies in own work and share best practices with the accounting team.\n\n•\n\nBuild a high performing and motivated team and help create career development opportunities, providing leadership and structure for the team to excel as the company continues to scale.\n\nQualifications:\n•\n\nBachelor's Degree in Accounting or Finance required.\n\n•\n\nBig 4 experience and CPA strongly preferred.\n\n•\n\nMinimum of 8-10 years of progressive accounting experience, with at least 3 years in a management role.\n\n•\n\nExperience with Workday/Looker/Microsoft Suite/GSuite or other large ERP\n\n•\n\nDemonstrated experience in a public company environment, including readiness for and participation in an Initial Public Offering (IPO).\n\n•\n\nStrong technical accounting expertise, particularly related to complex transactions such as mergers and acquisitions\n\n•\n\nStrong analytical and problem-solving skills\n\n•\n\nHighly effective written and verbal communication skills including active listening and the ability to articulate complex issues to a variety of audiences\n\n•\n\nStrong organizational skills, ability to prioritize competing projects, work under pressure, and adhere to deadlines\n\n•\n\nPossesses high emotional intelligence and is able to build and maintain relationships at various levels, both within and outside of the finance department.\n\n•\n\nProven record of mentoring and developing talent.\n\n•\n\nSelf-motivated, proactive, and able to work independently with a high level of integrity and professionalism\n\nPhysical/Cognitive Requirements:\n•\n\nPrompt and regular attendance at assigned work location.\n\n•\n\nAbility to thrive in a fast-paced, high-intensity work environment.\n\n•\n\nAbility to remain seated in a stationary position for prolonged periods.\n\n•\n\nRequires eye-hand coordination and manual dexterity sufficient to operate keyboard, computer and other office-related equipment.\n\n•\n\nNo heavy lifting is expected, though occasional exertion of about 20 lbs. of force (e.g., lifting a computer / laptop) may be required.\n\n•\n\nAbility to interact with leadership, employees, and members in an appropriate manner.\n\n•\n\nTravel, as needed.\n\nThe base salary range for this full-time position is $147,940 - $185,000 per year in the United States, plus bonus eligibility and equity. This posted range reflects the portion of our internal salary band that is currently funded for new hires in this role across our standard labor markets (Zones A–C). \nFor context, these markets include Zone A (e.g., Phoenix AZ, San Antonio TX, Columbus OH, Charlotte NC), Zone B (e.g., Chicago IL, Denver CO, San Diego CA, Houston TX), and Zone C (e.g., Los Angeles CA, Seattle WA, Washington, D.C., Boston MA). At this time, we are not budgeting for hires in higher-cost Zone D markets (e.g., San Francisco Bay Area CA, New York City NY, San Jose CA) for this role. Within this range, individual pay is determined by work location, skills, experience, and internal equity. We use structured salary bands and geographic zones based on cost of labor to keep pay fair and consistent.\nIn addition to receiving a great compensation package, the compensation package may include, depending on the role, the following and more:\nRemote-first culture\n401(k) savings plan through Fidelity\nComprehensive medical, vision, and dental coverage through multiple medical plan options (including disability insurance)\nPaid Time Off (\"PTO\") and Discretionary Time Off (“DTO\")\n12 weeks of 100% Paid Parental leave\nFamily Building & Compassionate Leave: Fertility coverage, $25,000 for surrogacy/adoption, and paid leave for failed treatments, adoption or pregnancies.\nWork-From-Home reimbursement to support team collaboration home office work\nYour recruiter will share more about the salary range and benefits package for your role during the hiring process.\n\n\nAbout Included Health\n\nIncluded Health is a new kind of healthcare company, delivering integrated virtual care and navigation. We’re on a mission to raise the standard of healthcare for everyone. We break down barriers to provide high-quality care for every person in every community — no matter where they are in their health journey or what type of care they need, from acute to chronic, behavioral to physical. We offer our members care guidance, advocacy, and access to personalized virtual and in-person care for everyday and urgent care, primary care, behavioral health, and specialty care. It’s all included. Learn more at includedhealth.com. \n\n-----\nIncluded Health is an Equal Opportunity Employer and considers applicants for employment without regard to race, color, religion, sex, orientation, national origin, age, disability, genetics or any other basis forbidden under federal, state, or local law. Included Health considers all qualified applicants with arrest or conviction records in accordance with the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance, and California law.\n",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "lever"
+}

@@ -1,0 +1,294 @@
+{
+  "posting_id": "f25b8409aa444e56",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "f25b8409aa444e56-01",
+      "label": "covered",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.83,
+      "rationale": "The core action is reviewing customer contracts to extract terms and pricing, which matches contract-terms extraction end to end.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Leading a team and evaluating non-standard, complex contracts requires human judgment and management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Determining ASC 606 treatment is setting technical accounting policy, which is human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Drafting technical accounting memos on complex issues is novel-policy work that requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-05",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.68,
+      "rationale": "Driving automation and process-control enhancements is a broad improvement objective that does not map cleanly to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Strategizing and leading revenue-systems improvements is project leadership rather than an operational capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Strategizing and leading close-process improvements is process redesign work that sits with humans.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Control-design improvements are explicitly excluded from control monitoring capabilities and require human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-09",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Eliminating manual effort is too vague to map to a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-10",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Improving accuracy and timeliness is a generic goal, not a specific operational duty.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Sales, Legal, and Deal Desk during contract negotiations is advisory and negotiation work done by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Structuring deals is negotiation and commercial judgment, not an automated finance-operation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-13",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Optimizing revenue outcomes is too high-level and unspecified to classify against a single capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Advising on pre-signature terms that affect revenue timing and presentation is contract negotiation and accounting judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Owning the external audit relationship is explicitly human relationship management, even if it also touches controls.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Designing SOX controls is control-framework design, which is excluded from the controls capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Rationalizing SOX controls is redesigning the control framework, which requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Optimizing SOX controls is control redesign and policy work rather than routine monitoring.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Setting standards for audit-ready evidence is a policy-setting task, not audit support execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Guiding technical conclusions with internal and external auditors is human advisory and auditor-relationship work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Setting precedent on ambiguous revenue issues is novel accounting judgment that cannot be automated end to end.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.75,
+      "rationale": "Evaluating variable factors is too unspecific to map reliably to a covered finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Choosing methods and procedures where no precedent exists is policy and judgment work for humans.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-24",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Building contract review triage routines is implementation work that does not itself match a defined operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-25",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Building memo-drafting routines is a tooling or process-design task without a direct capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-26",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Building reconciliation routines is implementation work rather than performing account reconciliations.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-27",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Building anomaly detection routines is a generic automation task with no direct listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-28",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.69,
+      "rationale": "Building audit-support preparation routines is process design, not the act of preparing audit support itself.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Setting quality guardrails is policy-setting and governance work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-30",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Setting privacy guardrails is governance and policy work that requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-31",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Defining where human accounting judgment must remain explicit is a policy decision about control boundaries.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "f25b8409aa444e56-32",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Hiring, developing, and leading a team is inherently people management.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

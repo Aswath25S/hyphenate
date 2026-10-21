@@ -1,0 +1,330 @@
+{
+  "posting_id": "7be1017892c6fefb",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "7be1017892c6fefb-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Directing and overseeing the month-end close is team management and process leadership rather than a specific automated close task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Directing the AR close is managerial oversight of the team and process, not a platform-close capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Overseeing the allowances close is supervisory work rather than a defined automated accounting task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Overseeing deferred revenue close is management of the accounting process, not the platform's core action.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Overseeing commissions close is leadership of a process area and commissions accounting is not a covered operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Reviewing journal entries is human review and approval, not preparing or posting entries end to end.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Reviewing reconciliations is human review of work product, not performing the reconciliation itself.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Reviewing other analyses is too vague to map to a specific finance-ops capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Owning revenue recognition policy is setting or interpreting policy, which is explicitly human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Owning commissions accounting policy is policy-setting work, not an automated capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Reviewing policy changes with external auditors is relationship management with auditors, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-12",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Ensuring day-to-day compliance is too broad and does not map cleanly to a specific listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Managing the day-to-day activities of teams is people management, which is explicitly human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-14",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.66,
+      "rationale": "Ensuring operations comply with internal controls aligns with monitoring and executing internal controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Working closely with other teams to align process and controls is cross-functional partnering, not platform execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Developing technical revenue recognition policies for new products is policy and technical accounting judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Developing technical revenue recognition policies for strategy changes is interpretive policy work requiring human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Owning internal controls is governance over the control environment, not just running control checks.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Partnering with Internal Audit to maintain the controls environment is a human collaboration and advisory task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with systems teams to identify and implement process changes is cross-functional project work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Identifying automation opportunities is process-improvement work that is too broad for a specific capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Leading the external audit is managing an auditor relationship, which is explicitly human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-23",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Reviewing financial statement footnotes is external-reporting review that does not match a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-24",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Reviewing earnings is too vague to determine whether it is analysis, disclosure review, or leadership review.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-25",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Reviewing ARR, revenue, and AR disclosures is external-reporting review outside the listed automation capabilities.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-26",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Supporting ongoing M&A activity is too broad and project-based to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Overseeing revenue due diligence is a strategic transaction process requiring human judgment and coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Overseeing the opening balance sheet is acquisition oversight work, not an automated finance-ops capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Overseeing post-acquisition integration is cross-functional project leadership and not platform execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-30",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.93,
+      "rationale": "Conducting ad hoc analysis matches the capability for answering finance questions traced to source entries.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-31",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Conducting ad hoc reviews is too vague to map cleanly to a defined reporting or accounting capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-32",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Supporting strategic company projects and initiatives is too generic to identify a specific covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-33",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Applying critical thinking to provide solutions is a broad problem-solving statement rather than a defined finance task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-34",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Coaching a global team is people management and development, which is inherently human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-35",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Mentoring a global team is a human leadership and development responsibility.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "7be1017892c6fefb-36",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Developing a high-performing global team is management and talent development, not a platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

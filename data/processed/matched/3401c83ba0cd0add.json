@@ -1,0 +1,177 @@
+{
+  "posting_id": "3401c83ba0cd0add",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "3401c83ba0cd0add-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Leading the annual operating plan cycle is managing a planning process, which is human work rather than a platform operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Finance, Strategy, and business leaders is cross-functional coordination and advising, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Translating priorities into financial plans is budgeting/planning model work with no matching capability on the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Translating company priorities into targets is setting planning targets, which is strategic judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Translating priorities into investment decisions is a strategic decision-making task, not an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Evaluating strategic investment opportunities with business leaders is advisory and cross-functional work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Assessing trade-offs requires judgment and prioritization, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Allocating capital and operating resources to priorities is a strategic resource-allocation decision, not a covered operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Building financial models is planning-model work that could be automated but has no matching capability here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Building business cases is structured analysis and modeling that fits the gap_candidate bucket.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Building decision frameworks is framework design and judgment work rather than a finance-ops capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Supporting investment prioritization is advisory decision support, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Supporting ROI assessment is investment analysis/modeling with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Supporting long-range value creation is too broad and strategic to map to a specific covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-17",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.86,
+      "rationale": "Developing reporting and insights for senior leadership matches management reporting and board-style reporting work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Supporting executive discussions is presenting/advising leadership, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Synthesizing inputs into recommendations is advisory analysis that requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Improving planning accuracy, resource allocation, and investment discipline is too broad and not a specific covered operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3401c83ba0cd0add-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Complying with applicable laws and regulations is generic compliance work with no specific finance-ops capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

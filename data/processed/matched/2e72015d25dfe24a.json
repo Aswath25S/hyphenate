@@ -1,0 +1,330 @@
+{
+  "posting_id": "2e72015d25dfe24a",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "2e72015d25dfe24a-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Preparing and filing SEC reports is recurring compliance reporting, but no listed capability covers SEC filing work end to end.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Drafting MD&A, disclosures, and earnings press releases is disclosure writing work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Reviewing MD&A, disclosures, and press releases is human judgment over disclosure quality and accuracy.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.48,
+      "rationale": "Continuously improving disclosures is too vague to map cleanly to a specific automated finance action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Managing XBRL tagging is rules-based reporting work with no matching capability listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Maintaining EDGAR submissions is administrative SEC filing work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Staying current on SEC rules and disclosure best practices is professional judgment and expertise work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Updating disclosures for new guidance is disclosure maintenance work without a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Serving as the primary contact for external auditors is a relationship-management duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Acting as the US GAAP subject matter expert is advisory judgment work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Providing authoritative guidance on complex accounting areas requires human technical accounting judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Researching accounting positions on new transactions and strategic deals is novel technical accounting analysis.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Documenting accounting positions on novel transactions is technical memo work that depends on human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Communicating accounting positions to others is advisory work requiring human judgment and alignment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Developing company-wide accounting policies is policy-setting work that belongs to humans.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Maintaining company-wide accounting policies is policy stewardship and governance work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Ensuring consistent application across the organization is cross-functional judgment and enforcement work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Monitoring new accounting standards is technical accounting judgment, not a listed automation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Assessing the impact of new accounting standards requires human technical accounting judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.52,
+      "rationale": "Preparing implementation plans is too broad to classify against a specific finance-ops capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Communicating implications to stakeholders is a human advisory and coordination activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Overseeing the SOX control environment is governance and management work rather than a specific control execution task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Strengthening the SOX control environment is a managerial and judgment-based responsibility.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Designing control activities is explicitly excluded because control framework design requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-25",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.98,
+      "rationale": "Documenting control activities matches maintaining documentation of key controls under the controls capability.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-26",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.98,
+      "rationale": "Testing control activities matches the controls capability's test and monitor manual entries work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Remediating control activities is a judgment-heavy fix-and-verify responsibility not listed as a capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Partnering with internal and external auditors is relationship management with auditors, which is explicitly human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Ensuring disclosure controls and procedures are effective is governance and oversight work requiring human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-30",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Recruiting accounting professionals is a hiring function that is inherently human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-31",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Managing a team of accounting professionals is people management, which is explicitly human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-32",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Mentoring accounting professionals is people development work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-33",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Developing a team of accounting professionals is leadership and training work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-34",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Advising the Controller and CFO on complex transactions is strategic human judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-35",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with FP&A, Legal, Tax, and Accounting is cross-functional coordination and alignment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2e72015d25dfe24a-36",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.54,
+      "rationale": "Driving scalability and efficiency through process improvements and AI is broad project language without a specific mapped capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "posting_id": "e752a908c6766797",
+  "company": "Rent the Runway",
+  "slug": "rent-the-runway",
+  "domain": "renttherunway.com",
+  "title": "Staff Accountant",
+  "role_family": "GL",
+  "seniority": "mid",
+  "n": 16,
+  "C": 4,
+  "A": 6,
+  "covered_share": 0.25,
+  "overlap": 0.625,
+  "weighted_overlap": 0.4375,
+  "thin": false,
+  "salary_min": 64397,
+  "salary_max": 80496,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 8049.625,
+  "savings_reason": null,
+  "lead_product": "GL accounting",
+  "product_split": {
+    "GL accounting": {
+      "covered": 2,
+      "assisted": 5,
+      "weighted": 4.5
+    },
+    "Procure-to-pay": {
+      "covered": 2,
+      "assisted": 0,
+      "weighted": 2
+    },
+    "Reporting": {
+      "covered": 0,
+      "assisted": 1,
+      "weighted": 0.5
+    }
+  },
+  "erp": [],
+  "tools": [
+    "Excel"
+  ],
+  "posted_at": "2026-09-08T16:11:53-04:00",
+  "source_url": "https://job-boards.greenhouse.io/renttherunway/jobs/8186905",
+  "locations": [
+    "Brooklyn, NY (Rent the Runway HQ)",
+    "Brooklyn, NY, United States"
+  ],
+  "remote": "hybrid",
+  "excluded": null,
+  "text": "About Us:\n\nRent the Runway (RTR) is transforming the way we get dressed by pioneering the world’s first Closet in the Cloud. Founded in 2009, RTR has disrupted the $2.4 trillion fashion industry by inspiring women with a more joyful, sustainable and financially-savvy way to feel their best every day. As the ultimate destination for circular fashion, the brand now offers infinite points of access to its shared closet via a fully customizable subscription to fashion, one-time rental or ownership. RTR offers designer apparel and accessories from hundreds of brand partners and has built in-house proprietary technology and a one-of-a-kind reverse logistics operation. RTR has been named to CNBC’s “Disruptor 50” five times in ten years, and has been placed on Fast Company’s Most Innovative Companies list multiple times.\n\nAbout the Job:\n\nAs the Staff Accountant, you will play a key role in the day-to-day operations of our growing Accounting team, reporting directly to the Accounting Manager. You’ll have an exciting opportunity to support the month end close for a fast-paced, extremely successful and high energy company.\n\nWhat You’ll Do:\n\n• Support the month end close by preparing ongoing journal entries and accruals for expense and balance sheet accounts\n\n• Maintain weekly and monthly schedules performing reconciliations of balance sheet accounts\n\n• Investigate reporting discrepancies / anomalies and communicate issues as they arise in a timely manner\n\n• Review invoices, expense reports, and capital expenditures as needed to ensure proper coding and accounting treatment by Accounts Payable\n\n• Liaise with business partners for proper accounting for accruals\n\n• Assist in the preparation of support for the year-end financial statement audit, as well as any statutory audits that may arise\n\n• Support the planning and budgeting team during the planning and budgeting processes by compiling ad-hoc reports and schedules\n\n• Assist in special projects as assigned\n\nAbout you:\n\n• You have a Bachelor’s degree in accounting\n\n• You have 2+ years of relevant accounting experience in either public accounting and/or relevant private industry experience\n\n• You are a highly organized detail-oriented self-starter with the ability to work independently and within a team environment\n\n• You have exceptional Excel skills and are comfortable with analyzing and manipulating large data sets\n\n• You can execute and follow-through on multiple tasks simultaneously\n\n• You have experience with a major ERP system preferred\n\n• You have a strong work ethic and a can-do positive attitude\n\nBenefits:\n\nAt Rent the Runway, we’re committed to the wellbeing of our employees, and aim to create a workplace that fosters both personal and professional growth. Our inclusive benefits include, but are not limited to:\n\n• Paid Time Off including vacation, paid bereavement, and family sick leave - every employee needs time to take care of themselves and their family.\n\n• Universal Paid Parental Leave for both parents + flexible return to work program - because we know your newest family member(s) deserve your undivided attention.\n\n• Paid Sabbatical after 5 years of continuous service - Unplug, recharge, and have some fun!\n\n• Exclusive employee subscription and rental discounts - to ensure you experience the magic of renting the runway (and give us valued feedback!).\n\n• Comprehensive health, vision, dental, FSA and dependent care from day 1 of employment - Your health comes first and we’ve got you covered.\n\n• 401k match - an investment in your future.\n\n• Company wide events and outings - our team spirit is no joke - we know how to have fun!\n\n• Hybrid Work - our Accounting employees have the option to work remotely 2 days a week, in accordance with Company policies.\n\nRent the Runway is an equal opportunity employer. In accordance with applicable law, we prohibit discrimination against any applicant or employee based on any legally-recognized basis, including, but not limited to: race, color, religion, sex (including pregnancy, lactation, childbirth or related medical conditions), sexual orientation, gender identity, age (40 and over), national origin or ancestry, citizenship status, physical or mental disability, genetic information (including testing and characteristics), veteran status, uniformed service member status or any other status protected by federal, state or local law.\n\n_________\n\nThe anticipated base salary for this position is $64,397 - $80,496. The actual base salary offered will depend on a variety of factors, including without limitation, the qualifications of the individual applicant for the position, years of relevant experience, level of education attained, certifications or other professional licenses held.\n\nBy submitting your application below, you agree that you have read and acknowledge Rent the Runway's Candidate Privacy Policy, found here.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 64397,
+    "max": 80496,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The anticipated base salary for this position is $64,397 - $80,496."
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "fast-paced",
+    "growing Accounting team",
+    "ongoing journal entries and accruals",
+    "large data sets",
+    "multiple tasks simultaneously"
+  ],
+  "fetched_at": "2026-10-21T17:34:18.759Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "e752a908c6766797-01",
+      "text": "Support the month end close",
+      "source_span": "Support the month end close",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1150,
+        "end": 1177
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.close_checklist",
+      "capability": "Run month-end close checklist tasks",
+      "product": "GL accounting",
+      "confidence": 0.89,
+      "rationale": "The duty is performing month-end close work, which matches running the close checklist and close procedures.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e752a908c6766797-02",
+      "text": "Prepare ongoing journal entries for expense and balance sheet accounts",
+      "source_span": "preparing ongoing journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1181,
+        "end": 1214
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.journal_entries",
+      "capability": "Prepare and post journal entries",
+      "product": "GL accounting",
+      "confidence": 0.96,
+      "rationale": "The duty is preparing ongoing journal entries, which matches preparing and posting journal entries.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e752a908c6766797-03",
+      "text": "Prepare ongoing accruals for expense and balance sheet accounts",
+      "source_span": "and accruals for expense and balance sheet accounts",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1215,
+        "end": 1266
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.accruals",
+      "capability": "Estimate accruals from history, POs and budget",
+      "product": "GL accounting",
+      "confidence": 0.97,
+      "rationale": "The duty is preparing recurring accruals, which matches estimating and recording expense accruals.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e752a908c6766797-04",
+      "text": "Maintain weekly and monthly schedules",
+      "source_span": "Maintain weekly and monthly schedules",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1270,
+        "end": 1307
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.54,
+      "rationale": "The duty only says maintaining weekly and monthly schedules, which is too vague to map to a specific finance operation.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "e752a908c6766797-05",
+      "text": "Perform reconciliations of balance sheet accounts",
+      "source_span": "performing reconciliations of balance sheet accounts",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1308,
+        "end": 1360
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.account_recs",
+      "capability": "Balance-sheet account reconciliations",
+      "product": "GL accounting",
+      "confidence": 0.98,
+      "rationale": "The duty is performing balance sheet account reconciliations, which directly matches balance-sheet account reconciliations.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e752a908c6766797-06",
+      "text": "Investigate reporting discrepancies / anomalies",
+      "source_span": "Investigate reporting discrepancies / anomalies",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1364,
+        "end": 1411
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.flux",
+      "capability": "Variance (flux) analysis with draft commentary",
+      "product": "GL accounting",
+      "confidence": 0.72,
+      "rationale": "The duty is investigating reporting discrepancies and anomalies, which aligns with variance analysis and explaining fluctuations.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e752a908c6766797-07",
+      "text": "Communicate issues as they arise in a timely manner",
+      "source_span": "communicate issues as they arise in a timely manner",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1416,
+        "end": 1467
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.38,
+      "rationale": "The duty only says communicating issues timely, which is too generic to identify a covered finance-operation action.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "e752a908c6766797-08",
+      "text": "Review invoices",
+      "source_span": "Review invoices",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1471,
+        "end": 1486
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.bill_capture",
+      "capability": "Read and code vendor bills to GL, class and entity",
+      "product": "Procure-to-pay",
+      "confidence": 0.86,
+      "rationale": "The duty is reviewing invoices, which fits reviewing vendor bills for proper GL coding and accounting.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e752a908c6766797-09",
+      "text": "Review expense reports",
+      "source_span": "expense reports",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1488,
+        "end": 1503
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "The duty is reviewing expense reports, which is repetitive finance work but has no matching capability in the map.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "e752a908c6766797-10",
+      "text": "Review capital expenditures as needed to ensure proper coding and accounting treatment by Accounts Payable",
+      "source_span": "and capital expenditures as needed to ensure proper coding and accounting treatment by Accounts Payable",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1505,
+        "end": 1608
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.bill_capture",
+      "capability": "Read and code vendor bills to GL, class and entity",
+      "product": "Procure-to-pay",
+      "confidence": 0.79,
+      "rationale": "The duty is reviewing capital expenditures for proper coding and accounting treatment, which is part of coding vendor bills and invoices.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e752a908c6766797-11",
+      "text": "Liaise with business partners for proper accounting for accruals",
+      "source_span": "Liaise with business partners for proper accounting for accruals",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1612,
+        "end": 1676
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "The duty is liaising with business partners about accrual accounting, which is cross-functional collaboration and judgment.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "e752a908c6766797-12",
+      "text": "Assist in the preparation of support for the year-end financial statement audit",
+      "source_span": "Assist in the preparation of support for the year-end financial statement audit",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1680,
+        "end": 1759
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.95,
+      "rationale": "The duty is preparing support for the year-end financial statement audit, which matches audit schedules and PBC support.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e752a908c6766797-13",
+      "text": "Assist in the preparation of support for any statutory audits that may arise",
+      "source_span": "as well as any statutory audits that may arise",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1761,
+        "end": 1807
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.79,
+      "rationale": "The duty is preparing support for statutory audits, which is audit-trail and documentation support even though the audit type is broader.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e752a908c6766797-14",
+      "text": "Support the planning and budgeting team during the planning and budgeting processes",
+      "source_span": "Support the planning and budgeting team during the planning and budgeting processes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1811,
+        "end": 1894
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "The duty is supporting the planning and budgeting team, which is partnering with another team rather than performing an automated finance operation.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "e752a908c6766797-15",
+      "text": "Compile ad-hoc reports",
+      "source_span": "compiling ad-hoc reports",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1898,
+        "end": 1922
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.adhoc_analysis",
+      "capability": "Answer finance questions traced to source entries",
+      "product": "Reporting",
+      "confidence": 0.9,
+      "rationale": "The duty is compiling ad-hoc reports, which matches answering ad hoc finance questions and building requested analysis.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e752a908c6766797-16",
+      "text": "Compile schedules",
+      "source_span": "and schedules",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1923,
+        "end": 1936
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.56,
+      "rationale": "The duty only says compiling schedules, which is too vague without knowing whether they are close, audit, or reconciliation schedules.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "e752a908c6766797-17",
+      "text": "Assist in special projects as assigned",
+      "source_span": "Assist in special projects as assigned",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 1940,
+        "end": 1978
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e752a908c6766797-18",
+      "text": "Bachelor’s degree in accounting",
+      "source_span": "You have a Bachelor’s degree in accounting",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1994,
+        "end": 2036
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e752a908c6766797-19",
+      "text": "2+ years of relevant accounting experience in either public accounting and/or relevant private industry experience",
+      "source_span": "You have 2+ years of relevant accounting experience in either public accounting and/or relevant private industry experience",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2040,
+        "end": 2163
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e752a908c6766797-20",
+      "text": "Highly organized detail-oriented self-starter with the ability to work independently and within a team environment",
+      "source_span": "You are a highly organized detail-oriented self-starter with the ability to work independently and within a team environment",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2167,
+        "end": 2291
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e752a908c6766797-21",
+      "text": "Exceptional Excel skills and comfort with analyzing and manipulating large data sets",
+      "source_span": "You have exceptional Excel skills and are comfortable with analyzing and manipulating large data sets",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2295,
+        "end": 2396
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e752a908c6766797-22",
+      "text": "Execute and follow-through on multiple tasks simultaneously",
+      "source_span": "You can execute and follow-through on multiple tasks simultaneously",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2400,
+        "end": 2467
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e752a908c6766797-23",
+      "text": "Experience with a major ERP system preferred",
+      "source_span": "You have experience with a major ERP system preferred",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2471,
+        "end": 2524
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "e752a908c6766797-24",
+      "text": "Strong work ethic and a can-do positive attitude",
+      "source_span": "You have a strong work ethic and a can-do positive attitude",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2528,
+        "end": 2587
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

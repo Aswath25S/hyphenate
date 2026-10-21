@@ -8,18 +8,20 @@
   "locations": [
     "NYC"
   ],
-  "remote": "unknown",
+  "remote": "onsite",
   "salary": {
     "min": 95000,
     "max": 112500,
     "period": "year",
     "currency": "USD",
-    "raw_text": "Lemonade's US base salary range for this full-time position is $95,000 - $112,500 plus equity + benefits. Our salary ranges are determined by role, level, and location. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Our competitive total rewards package includes comprehensive health & wellness coverage, equity, a 401(k) plan with employer match, 20 paid vacation days, and parental leave. Speak to your recruiter to hear more about the specific salary range for your preferred location and our total rewards package."
+    "raw_text": "Lemonade's US base salary range for this full-time position is $95,000 - $112,500 plus equity + benefits."
   },
   "erp": [
     "Workday"
   ],
-  "tools": [],
+  "tools": [
+    "Excel"
+  ],
   "complexity": {
     "multi_entity": false,
     "multi_currency": false,
@@ -30,87 +32,220 @@
   "pain_phrases": [],
   "duties": [
     {
-      "duty_id": "e41b5102e70d4f15-h01",
-      "text": "Prepare and post journal entries",
+      "duty_id": "e41b5102e70d4f15-01",
+      "text": "We're looking for a Senior Accountant to help drive automation, transparency, and greater efficiency across Lemonade's financial operations.",
+      "source_span": "We're looking for a Senior Accountant to help drive automation, transparency, and greater efficiency across Lemonade's financial operations.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-02",
+      "text": "You'll sit within our Finance team, playing a key role in the month-end close process and the daily financial operations that keep the business running smoothly.",
+      "source_span": "You'll sit within our Finance team, playing a key role in the month-end close process and the daily financial operations that keep the business running smoothly.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-03",
+      "text": "This isn't a back-office role — you'll be an integral part of projects that help us scale, with real ownership over the processes you touch.",
+      "source_span": "This isn't a back-office role — you'll be an integral part of projects that help us scale, with real ownership over the processes you touch.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-04",
+      "text": "We believe three things matter for every role at Lemonade: drive to push through challenges, efficiency that keeps standards high while moving fast, and adaptability that lets you pivot with data and AI insights.",
+      "source_span": "We believe three things matter for every role at Lemonade: drive to push through challenges, efficiency that keeps standards high while moving fast, and adaptability that lets you pivot with data and AI insights.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-05",
+      "text": "Our AI-first approach isn't just a tagline either.",
+      "source_span": "Our AI-first approach isn't just a tagline either.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-06",
+      "text": "We're building the future of insurance with AI at the center, and we need people who are genuinely excited to learn and grow alongside these tools.",
+      "source_span": "We're building the future of insurance with AI at the center, and we need people who are genuinely excited to learn and grow alongside these tools.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-07",
+      "text": "Prepare journal entries",
       "source_span": "Prepare and post journal entries",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "e41b5102e70d4f15-h02",
-      "text": "Manage accrual schedules",
-      "source_span": "manage accrual schedules",
+      "duty_id": "e41b5102e70d4f15-08",
+      "text": "Post journal entries",
+      "source_span": "and post journal entries",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "e41b5102e70d4f15-h03",
-      "text": "Own monthly close workbooks",
+      "duty_id": "e41b5102e70d4f15-09",
+      "text": "Manage accrual schedules with accuracy and timeliness",
+      "source_span": "manage accrual schedules with accuracy and timeliness",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-10",
+      "text": "Own monthly workbooks",
       "source_span": "Own monthly workbooks",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "e41b5102e70d4f15-h04",
-      "text": "Lead key areas of the month and year-end close",
+      "duty_id": "e41b5102e70d4f15-11",
+      "text": "Take a leading role in key areas of the month-end close process",
       "source_span": "take a leading role in key areas of the month and year-end close process",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "e41b5102e70d4f15-h05",
+      "duty_id": "e41b5102e70d4f15-12",
+      "text": "Take a leading role in key areas of the year-end close process",
+      "source_span": "take a leading role in key areas of the month and year-end close process",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-13",
       "text": "Manage balance sheet reconciliation schedules",
       "source_span": "Manage balance sheet reconciliation schedules",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "e41b5102e70d4f15-h06",
-      "text": "Perform P&L analytics",
+      "duty_id": "e41b5102e70d4f15-14",
+      "text": "Perform P&L analytics that surface meaningful insights",
       "source_span": "perform P&L analytics that surface meaningful insights",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "e41b5102e70d4f15-h07",
+      "duty_id": "e41b5102e70d4f15-15",
       "text": "Review supplier invoices",
       "source_span": "Review supplier invoices",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "e41b5102e70d4f15-h08",
+      "duty_id": "e41b5102e70d4f15-16",
       "text": "Review expense reports",
-      "source_span": "expense reports",
+      "source_span": "and expense reports",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "e41b5102e70d4f15-h09",
-      "text": "Support cash transactions and financial operations",
-      "source_span": "Support cash-related transactions and broader financial operations processes",
+      "duty_id": "e41b5102e70d4f15-17",
+      "text": "Support cash-related transactions",
+      "source_span": "Support cash-related transactions",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "e41b5102e70d4f15-h10",
-      "text": "Drive quarterly and annual external audit requirements",
+      "duty_id": "e41b5102e70d4f15-18",
+      "text": "Support broader financial operations processes",
+      "source_span": "and broader financial operations processes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-19",
+      "text": "Drive quarterly external audit requirements",
       "source_span": "Drive quarterly and annual external audit requirements",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "e41b5102e70d4f15-h11",
-      "text": "Partner with auditors",
+      "duty_id": "e41b5102e70d4f15-20",
+      "text": "Drive annual external audit requirements",
+      "source_span": "Drive quarterly and annual external audit requirements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-21",
+      "text": "Act as a reliable partner to auditors",
       "source_span": "acting as a reliable partner to auditors",
       "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-22",
+      "text": "3-5 years of experience in public or private accounting, with a record of noteworthy accomplishments",
+      "source_span": "3-5 years of experience in public or private accounting, with a record of noteworthy accomplishments",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-23",
+      "text": "Strong understanding of US GAAP and financial statements",
+      "source_span": "Strong understanding of US GAAP and financial statements",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-24",
+      "text": "Solid experience working in a month-end close environment and owning processes start to finish",
+      "source_span": "Solid experience working in a month-end close environment and owning processes start to finish",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-25",
+      "text": "Advanced Excel skills",
+      "source_span": "Advanced Excel skills",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-26",
+      "text": "Experience with Workday ERP is a plus",
+      "source_span": "Experience with Workday ERP is a plus",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-27",
+      "text": "A bachelor's degree in Accounting, Finance, or a related field",
+      "source_span": "A bachelor's degree in Accounting, Finance, or a related field",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-28",
+      "text": "Ready to work in an office environment most days of the week",
+      "source_span": "Ready to work in an office environment most days of the week",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-29",
+      "text": "Please note that we are unable to sponsor applicants for work visas.",
+      "source_span": "Please note that we are unable to sponsor applicants for work visas.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-30",
+      "text": "Unfortunately, we cannot consider applicants from these states: Alaska, California, Colorado, Montana, Hawaii, New Mexico and Puerto Rico.",
+      "source_span": "Unfortunately, we cannot consider applicants from these states: Alaska, California, Colorado, Montana, Hawaii, New Mexico and Puerto Rico.",
+      "is_boilerplate": true,
       "is_requirement": false
     }
   ],
   "posted_at": "2026-09-15T21:06:11.824+00:00",
   "source_url": "https://jobs.ashbyhq.com/lemonade/7bfec8fa-c2fd-4288-90a4-0e8b74061d4f",
-  "fetched_at": "2026-10-21T03:26:56.860Z",
-  "prompt_version": "hand-labelled",
+  "fetched_at": "2026-10-21T17:34:15.612Z",
+  "prompt_version": "extract-v1",
   "text": "We're looking for a Senior Accountant to help drive automation, transparency, and greater efficiency across Lemonade's financial operations. You'll sit within our Finance team, playing a key role in the month-end close process and the daily financial operations that keep the business running smoothly. This isn't a back-office role — you'll be an integral part of projects that help us scale, with real ownership over the processes you touch.\n\nWe believe three things matter for every role at Lemonade: drive to push through challenges, efficiency that keeps standards high while moving fast, and adaptability that lets you pivot with data and AI insights. These aren't buzzwords, they're how we actually work.\n\nOur AI-first approach isn't just a tagline either. We're building the future of insurance with AI at the center, and we need people who are genuinely excited to learn and grow alongside these tools.\n\n\n\n\nIN THIS ROLE YOU'LL\n\n - Prepare and post journal entries and manage accrual schedules with accuracy and timeliness\n\n - Own monthly workbooks and take a leading role in key areas of the month and year-end close process\n\n - Manage balance sheet reconciliation schedules and perform P&L analytics that surface meaningful insights\n\n - Review supplier invoices and expense reports, keeping financial operations clean and compliant\n\n - Support cash-related transactions and broader financial operations processes\n\n - Drive quarterly and annual external audit requirements, acting as a reliable partner to auditors\n\n\nWHAT YOU'LL NEED\n\n - 3-5 years of experience in public or private accounting, with a record of noteworthy accomplishments\n\n - Strong understanding of US GAAP and financial statements\n\n - Solid experience working in a month-end close environment and owning processes start to finish\n\n - Advanced Excel skills\n\n - Experience with Workday ERP is a plus\n\n - A bachelor's degree in Accounting, Finance, or a related field\n\n - Ready to work in an office environment most days of the week\n\nPlease note that we are unable to sponsor applicants for work visas.\n\n\n\nUnfortunately, we cannot consider applicants from these states: Alaska, California, Colorado, Montana, Hawaii, New Mexico and Puerto Rico.\n\nLemonade's US base salary range for this full-time position is $95,000 - $112,500 plus equity + benefits. Our salary ranges are determined by role, level, and location. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Our competitive total rewards package includes comprehensive health & wellness coverage, equity, a 401(k) plan with employer match, 20 paid vacation days, and parental leave. Speak to your recruiter to hear more about the specific salary range for your preferred location and our total rewards package.",
   "extra_salary_lines": [],
   "salary_source": "posting_text",

@@ -1,0 +1,141 @@
+{
+  "posting_id": "726d19d1c5320028",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "726d19d1c5320028-01",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "The duty broadly covers owning revenue accounting and billing operations without a specific operational action that maps cleanly to one capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "The duty centers on validating and approving sales orders and milestone schedules, which is a rules-based review/approval workflow not directly covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-03",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.98,
+      "rationale": "The duty is to prepare and submit customer invoices, which is exactly the invoicing capability.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.71,
+      "rationale": "The duty reviews milestone eligibility, a judgment-heavy contract/billing determination that does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "The duty reconciles CLINs, which is a contract-line-item matching task not explicitly covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-06",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.89,
+      "rationale": "The duty resolves invoice rejections and resubmits invoices, which is part of creating, adjusting, and sending invoices.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "The duty maintains billing and payment status in tracking systems, an administrative tracking task with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The duty drafts ASC 606 technical accounting memos, which requires technical accounting judgment and interpretation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-09",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.99,
+      "rationale": "The duty prepares monthly revenue journal entries, which matches journal entry preparation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-10",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.92,
+      "rationale": "The duty prepares supporting reconciliations, which fits balance-sheet account reconciliation work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-11",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.97,
+      "rationale": "The duty supports external audit requests, which matches audit support and PBC/documentation work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-12",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.94,
+      "rationale": "The duty maintains audit-ready documentation, which is audit support documentation work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-13",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "The duty is a broad process-improvement request for billing and revenue workflows without a specific executable action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-14",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "The duty supports automation and systems initiatives, which is too vague and project-oriented to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "726d19d1c5320028-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "The duty partners with other teams to align contract terms, billing schedules, and revenue treatment, which is cross-functional coordination and advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

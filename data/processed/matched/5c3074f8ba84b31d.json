@@ -1,0 +1,267 @@
+{
+  "posting_id": "5c3074f8ba84b31d",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "5c3074f8ba84b31d-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Assisting with quarterly and annual SEC filings is filing-support work that is not covered by the listed finance-ops capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-03",
+      "label": "covered",
+      "capability_id": "rep.consolidation",
+      "confidence": 0.68,
+      "rationale": "Preparing financial statements aligns most closely with consolidating entity results into reported statements.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Preparing footnotes is SEC-reporting support work with no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Preparing EPS is specialized reporting work and is not covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Preparing equity rollforwards is a specialized reporting schedule with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Managing the reporting calendar is administrative coordination that is not a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Managing disclosure checklists is a process-tracking task with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Managing XBRL tagging is SEC filing production work that is not covered in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Managing tie-out support files is supporting documentation work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Coordinating deliverables across Legal, FP&A, IR and auditors is cross-functional partnership work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Owning ASC 718 equity accounting for RSUs, options and ESPP matches stock-comp accounting, which is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Accounting for modifications is stock-comp accounting work outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Accounting for cancellations is stock-comp accounting work outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Accounting for other non-routine award activity is specialized stock-comp accounting with no capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Preparing statutory and regulatory financial statements and filings is not covered by the reporting capabilities listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Reviewing statutory and regulatory filings is a human review and approval activity rather than automated execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.66,
+      "rationale": "Establishing scalable intercompany accounting processes is process design and implementation work rather than transaction processing.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.64,
+      "rationale": "Establishing scalable intercompany reporting is reporting design and process ownership, which is not a listed automation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.6,
+      "rationale": "Supporting a growing multi-entity structure is broad cross-functional coordination and ownership work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Reviewing journal entries is human review, which is explicitly excluded from the journal-entry capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Reviewing reconciliations is human review rather than the reconciliations capability itself.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Reviewing flux analysis is oversight of variance work, which is treated as human review in the map.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-24",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Documenting SOX-compliant accounting policies is documentation work with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Maintaining SOX-compliant accounting policies is policy upkeep outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-26",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Documenting SOX-compliant processes is process documentation work that is not explicitly covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-27",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Maintaining SOX-compliant processes is process upkeep work with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-28",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.92,
+      "rationale": "Documenting internal controls over financial reporting fits maintaining documentation of key controls under the controls capability.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-29",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.86,
+      "rationale": "Maintaining internal controls over financial reporting aligns with monitoring and maintaining SOX controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5c3074f8ba84b31d-30",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.63,
+      "rationale": "Driving automation of manual procedures is a broad process-improvement initiative that is too open-ended to map cleanly.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

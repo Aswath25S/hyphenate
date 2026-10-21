@@ -1,0 +1,87 @@
+{
+  "posting_id": "4c28d21f1760bb97",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "4c28d21f1760bb97-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Shepherding the planning and goal-setting process is managerial planning work rather than a finance-operations workflow the platform performs end to end.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c28d21f1760bb97-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Forecasting bookings and pipeline is a rules-based FP&A planning task, but the platform map only covers short-term cash forecasting, not GTM revenue/pipeline forecasting.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c28d21f1760bb97-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Driving weekly business reviews with the CRO and CFO is presenting and partnering with leadership, which is human relationship work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c28d21f1760bb97-04",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.84,
+      "rationale": "Generating insights on business segment performance is ad hoc financial analysis tied to business performance data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c28d21f1760bb97-05",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.83,
+      "rationale": "Generating insights on acquisition channel performance is ad hoc analysis of operating results and source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c28d21f1760bb97-06",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.82,
+      "rationale": "Generating insights on GTM program performance is analysis work that fits ad hoc reporting more than a dedicated covered workflow.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c28d21f1760bb97-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Being the accountable owner for a GTM budget is budget ownership and decision accountability, which is human finance leadership work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c28d21f1760bb97-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering on open-ended GTM strategy questions is advisory and strategic work that requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c28d21f1760bb97-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.75,
+      "rationale": "Tackling critical change projects is project and change management work rather than a specific finance-operations capability.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "posting_id": "0ae58f01342abcaf",
+  "company": "Oura",
+  "domain": "ouraring.com",
+  "title": "Technical Revenue Accounting and Policy Manager",
+  "role_family": "Revenue",
+  "seniority": "manager",
+  "locations": [
+    "Remote - United States",
+    "Remote, United States"
+  ],
+  "remote": "remote",
+  "salary": {
+    "min": 117300,
+    "max": 169000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Ōura takes a market-based approach to pay, which may vary depending on your location. US locations are categorized into tiers based on a cost of labor index for that geographic area. While most offers will be closer to the starting range, successful candidates' pay will be determined based on job-related skills, experience, qualifications, work location, internal peer equity, and market conditions. These ranges may be modified in the future.\n\nRegion 1 $143,650 – $169,000\nRegion 2 $130,050 – $153,000\nRegion 3 $117,300 – $138,000"
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "close-related activities",
+    "build a more scalable revenue function",
+    "creating templates, checklists, and playbooks",
+    "identifying automation opportunities across policy, contract review, and SKU governance"
+  ],
+  "duties": [
+    {
+      "duty_id": "0ae58f01342abcaf-01",
+      "text": "Develop a current, defensible ASC 606 policy framework",
+      "source_span": "Develop and maintain a current, defensible ASC 606 policy framework so Oura's global revenue policies, memos, and guidance keep pace with new products, pricing models, and go-to-market strategies and hold up to auditor scrutiny.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-02",
+      "text": "Maintain a current, defensible ASC 606 policy framework",
+      "source_span": "Develop and maintain a current, defensible ASC 606 policy framework so Oura's global revenue policies, memos, and guidance keep pace with new products, pricing models, and go-to-market strategies and hold up to auditor scrutiny.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-03",
+      "text": "Deliver sound, well-documented accounting conclusions on complex deals",
+      "source_span": "Deliver sound, well-documented accounting conclusions on complex deals by reviewing strategic and non-standard arrangements (enterprise, channel, partnership) and capturing the reasoning in clear technical memos.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-04",
+      "text": "Review strategic and non-standard arrangements (enterprise, channel, partnership)",
+      "source_span": "reviewing strategic and non-standard arrangements (enterprise, channel, partnership)",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-05",
+      "text": "Capture the reasoning in clear technical memos",
+      "source_span": "capturing the reasoning in clear technical memos",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-06",
+      "text": "Partner with Sales, Legal, Deal Desk, FP&A, and RevOps",
+      "source_span": "Partner with Sales, Legal, Deal Desk, FP&A, and RevOps to surface revenue considerations before deals are signed, so accounting implications shape contract structure rather than appearing after the fact.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-07",
+      "text": "Surface revenue considerations before deals are signed",
+      "source_span": "surface revenue considerations before deals are signed",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-08",
+      "text": "Support timely, accurate revenue results each close",
+      "source_span": "Support timely, accurate revenue results each close through close-related activities that keep period-end revenue reliable, reconciled, and on schedule.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-09",
+      "text": "Build a more scalable revenue function",
+      "source_span": "Build a more scalable revenue function by creating templates, checklists, and playbooks, and identifying automation opportunities across policy, contract review, and SKU governance.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-10",
+      "text": "Create templates",
+      "source_span": "creating templates",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-11",
+      "text": "Create checklists",
+      "source_span": "checklists",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-12",
+      "text": "Create playbooks",
+      "source_span": "playbooks",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-13",
+      "text": "Identify automation opportunities across policy, contract review, and SKU governance",
+      "source_span": "identifying automation opportunities across policy, contract review, and SKU governance",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-14",
+      "text": "Our mission at Oura is to empower every person to own their inner potential.",
+      "source_span": "Our mission at Oura is to empower every person to own their inner potential.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-15",
+      "text": "Empowering the world starts with living our values and empowering our team.",
+      "source_span": "Empowering the world starts with living our values and empowering our team.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-16",
+      "text": "Competitive salary and equity packages",
+      "source_span": "Competitive salary and equity packages",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-17",
+      "text": "Health, dental, vision insurance, and mental health resources",
+      "source_span": "Health, dental, vision insurance, and mental health resources",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-18",
+      "text": "Oura is proud to be an equal opportunity workplace.",
+      "source_span": "Oura is proud to be an equal opportunity workplace.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-19",
+      "text": "Disclaimer: Beware of fake job offers!",
+      "source_span": "Disclaimer: Beware of fake job offers!",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-20",
+      "text": "7+ years of progressive accounting experience, including direct experience with revenue recognition under ASC 606 (combination of Big 4 or national public accounting experience strongly preferred)",
+      "source_span": "7+ years of progressive accounting experience, including direct experience with revenue recognition under ASC 606 (combination of Big 4 or national public accounting experience strongly preferred)",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-21",
+      "text": "Strong working knowledge of ASC 606, including performance obligations, variable consideration, contract modifications, principal versus agent considerations, and standalone selling price concepts",
+      "source_span": "Strong working knowledge of ASC 606, including performance obligations, variable consideration, contract modifications, principal versus agent considerations, and standalone selling price concepts",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-22",
+      "text": "Experience in technology, consumer products, subscription, and/or recurring revenue environments",
+      "source_span": "Experience in technology, consumer products, subscription, and/or recurring revenue environments",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-23",
+      "text": "Experience reviewing contracts and documenting accounting conclusions for revenue-related matters",
+      "source_span": "Experience reviewing contracts and documenting accounting conclusions for revenue-related matters",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-24",
+      "text": "Strong technical writing skills, including the ability to prepare concise and well-structured accounting memos and policy documentation",
+      "source_span": "Strong technical writing skills, including the ability to prepare concise and well-structured accounting memos and policy documentation",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-25",
+      "text": "Comfort reading and interpreting contracts, including non-standard commercial terms",
+      "source_span": "Comfort reading and interpreting contracts, including non-standard commercial terms",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-26",
+      "text": "Strong collaboration and communication skills, with the ability to explain technical topics in clear, business-oriented language",
+      "source_span": "Strong collaboration and communication skills, with the ability to explain technical topics in clear, business-oriented language",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-27",
+      "text": "High attention to detail, sound judgment, and a process-oriented mindset",
+      "source_span": "High attention to detail, sound judgment, and a process-oriented mindset",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-28",
+      "text": "Ability to work independently and influence cross-functional stakeholders without direct authority",
+      "source_span": "Ability to work independently and influence cross-functional stakeholders without direct authority",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-29",
+      "text": "CPA (or equivalent) preferred",
+      "source_span": "CPA (or equivalent) preferred",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-30",
+      "text": "Experience in high-growth and/or global organizations",
+      "source_span": "Experience in high-growth and/or global organizations",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-31",
+      "text": "Familiarity with NetSuite or similar ERP systems, and experience partnering with RevOps or systems teams on revenue-related configuration",
+      "source_span": "Familiarity with NetSuite or similar ERP systems, and experience partnering with RevOps or systems teams on revenue-related configuration",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-32",
+      "text": "Experience supporting quarterly or annual audits, including preparing support for revenue positions and responding to auditor questions",
+      "source_span": "Experience supporting quarterly or annual audits, including preparing support for revenue positions and responding to auditor questions",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0ae58f01342abcaf-33",
+      "text": "Experience helping build or improve templates, playbooks, and scalable documentation processes",
+      "source_span": "Experience helping build or improve templates, playbooks, and scalable documentation processes",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-10-14T14:50:55-04:00",
+  "source_url": "https://job-boards.greenhouse.io/oura/jobs/4433693009",
+  "fetched_at": "2026-10-21T17:33:59.172Z",
+  "prompt_version": "extract-v1",
+  "text": "Our mission at Oura is to empower every person to own their inner potential. Our award-winning products help our global community gain a deeper knowledge of their readiness, activity, and sleep quality by using their Oura Ring and its connected app. We've helped millions of people understand and improve their health by providing daily insights and practical steps to inspire healthy lifestyles.\n\nEmpowering the world starts with living our values and empowering our team. As a quickly growing company focused on helping people live healthier and happier lives, we ensure that our team members have what they need to do their best work — both in and out of the office.\n\nWe are looking for a Technical Revenue Accounting and Policy Manager to join Oura's revenue and odyssey accounting team and help shape how we recognize Revenue as our business skills globally in this role you will support an advance resp 606 framework by maintaining Revenue policies reviewing strategic and non-standard contracts and documenting accounting inclusions and clear well reason technical memos in addition you will help with clothes related activities supporting the accuracy and timeliness of Revenue results each period.\n\nWhat You Will Do:\n\n• Develop and maintain a current, defensible ASC 606 policy framework so Oura's global revenue policies, memos, and guidance keep pace with new products, pricing models, and go-to-market strategies and hold up to auditor scrutiny.\n\n• Deliver sound, well-documented accounting conclusions on complex deals by reviewing strategic and non-standard arrangements (enterprise, channel, partnership) and capturing the reasoning in clear technical memos.\n\n• Partner with Sales, Legal, Deal Desk, FP&A, and RevOps to surface revenue considerations before deals are signed, so accounting implications shape contract structure rather than appearing after the fact.\n\n• Support timely, accurate revenue results each close through close-related activities that keep period-end revenue reliable, reconciled, and on schedule.\n\n• Build a more scalable revenue function by creating templates, checklists, and playbooks, and identifying automation opportunities across policy, contract review, and SKU governance.\n\nThis is a remote role based in the US.\n\nWhat you'll bring\n\n• 7+ years of progressive accounting experience, including direct experience with revenue recognition under ASC 606 (combination of Big 4 or national public accounting experience strongly preferred)\n\n• Strong working knowledge of ASC 606, including performance obligations, variable consideration, contract modifications, principal versus agent considerations, and standalone selling price concepts\n\n• Experience in technology, consumer products, subscription, and/or recurring revenue environments\n\n• Experience reviewing contracts and documenting accounting conclusions for revenue-related matters\n\n• Strong technical writing skills, including the ability to prepare concise and well-structured accounting memos and policy documentation\n\n• Comfort reading and interpreting contracts, including non-standard commercial terms\n\n• Strong collaboration and communication skills, with the ability to explain technical topics in clear, business-oriented language\n\n• High attention to detail, sound judgment, and a process-oriented mindset\n\n• Ability to work independently and influence cross-functional stakeholders without direct authority\n\nNice to have:\n\n• CPA (or equivalent) preferred\n\n• Experience in high-growth and/or global organizations\n\n• Familiarity with NetSuite or similar ERP systems, and experience partnering with RevOps or systems teams on revenue-related configuration\n\n• Experience supporting quarterly or annual audits, including preparing support for revenue positions and responding to auditor questions\n\n• Experience helping build or improve templates, playbooks, and scalable documentation processes\n\nBenefits\n\nAt Ōura, we care about you and your well-being. Everyone here at Ōura has a ring of their own and we are continually looking to improve employee health.\n\nWhat we offer:\n\n• Competitive salary and equity packages\n\n• Health, dental, vision insurance, and mental health resources\n\n• An Ōura Ring of your own plus employee discounts for friends & family\n\n• 20 days of paid time off plus 13 paid holidays plus 8 days of flexible wellness time off\n\n• Paid sick leave and parental leave\n\nŌura takes a market-based approach to pay, which may vary depending on your location. US locations are categorized into tiers based on a cost of labor index for that geographic area. While most offers will be closer to the starting range, successful candidates' pay will be determined based on job-related skills, experience, qualifications, work location, internal peer equity, and market conditions. These ranges may be modified in the future.\n\nRegion 1 $143,650 – $169,000\nRegion 2 $130,050 – $153,000\nRegion 3 $117,300 – $138,000\n\nA recruiter can determine your Region based on your US location.\n\nWe are not considering candidates residing in the following states: Alaska (AK), Delaware (DE), Iowa (IA), Mississippi (MS), Nebraska (NE), South Dakota (SD), West Virginia (WV), and Wisconsin (WI).\n\nOura is proud to be an equal opportunity workplace. We celebrate diversity and are committed to creating an inclusive environment for all employees. Individuals seeking employment at Oura are considered without regard to age, ancestry, color, gender (including pregnancy, childbirth, or related medical conditions), gender identity or expression, genetic information, marital status, medical condition, mental or physical disability, national origin, protected family care or medical leave status, race, religion (including beliefs and practices or the absence thereof), sexual orientation, military or veteran status, or any other characteristic protected by federal, state, or local laws. We will not tolerate discrimination or harassment based on any of these characteristics.\n\nWe will work to ensure individuals with disabilities are provided reasonable accommodation to participate in the interview process, to perform essential job functions, and to receive other benefits and privileges of employment.\n\nDisclaimer: Beware of fake job offers!\nWe’ve been alerted to scammers posing as ŌURA recruiters, especially for remote roles. Please note:\n\n• Our jobs are listed only on the ŌURA Careers page and trusted job boards.\n\n• We will never ask for personal information like ID or payment for equipment upfront.\n\n• Official offers are sent through Docusign after a verbal offer, not via text or email.\n\nStay cautious and protect your personal details.\n\nTo all recruitment agencies: Oura does not accept agency resumes. Please do not forward resumes to our jobs alias, Oura employees, or any other organization's location. Oura is not responsible for any fees related to unsolicited resumes.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

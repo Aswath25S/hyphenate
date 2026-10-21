@@ -1,0 +1,490 @@
+{
+  "posting_id": "63b79a21366537bb",
+  "company": "Saronic",
+  "domain": "saronic.com",
+  "title": "Senior FP&A Analyst – Corporate Finance",
+  "role_family": "Reporting_FPA",
+  "seniority": "senior",
+  "locations": [
+    "Austin, TX"
+  ],
+  "remote": "unknown",
+  "salary": {
+    "min": null,
+    "max": null,
+    "period": null,
+    "currency": null,
+    "raw_text": null
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Adaptive",
+    "Foundry"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "fast-moving, high-growth environment",
+    "building scalable planning and reporting processes",
+    "fast-paced, ambiguous environments with evolving priorities and multiple work streams",
+    "support a scalable finance function"
+  ],
+  "duties": [
+    {
+      "duty_id": "63b79a21366537bb-01",
+      "text": "Support company-wide financial planning and analysis",
+      "source_span": "Support company-wide financial planning and analysis, including annual budgeting, quarterly forecasting, and long-range planning.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-02",
+      "text": "Support annual budgeting",
+      "source_span": "Support company-wide financial planning and analysis, including annual budgeting, quarterly forecasting, and long-range planning.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-03",
+      "text": "Support quarterly forecasting",
+      "source_span": "Support company-wide financial planning and analysis, including annual budgeting, quarterly forecasting, and long-range planning.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-04",
+      "text": "Support long-range planning",
+      "source_span": "Support company-wide financial planning and analysis, including annual budgeting, quarterly forecasting, and long-range planning.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-05",
+      "text": "Own consolidated financial reporting",
+      "source_span": "Own consolidated financial reporting, including budget vs. actuals, forecast updates, variance analysis, and management reporting.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-06",
+      "text": "Prepare budget vs. actuals analysis",
+      "source_span": "Own consolidated financial reporting, including budget vs. actuals, forecast updates, variance analysis, and management reporting.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-07",
+      "text": "Prepare forecast updates",
+      "source_span": "Own consolidated financial reporting, including budget vs. actuals, forecast updates, variance analysis, and management reporting.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-08",
+      "text": "Perform variance analysis",
+      "source_span": "Own consolidated financial reporting, including budget vs. actuals, forecast updates, variance analysis, and management reporting.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-09",
+      "text": "Prepare management reporting",
+      "source_span": "Own consolidated financial reporting, including budget vs. actuals, forecast updates, variance analysis, and management reporting.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-10",
+      "text": "Partner cross-functionally with business leaders",
+      "source_span": "Partner cross-functionally with business leaders to understand key drivers of performance and translate them into actionable financial insights.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-11",
+      "text": "Understand key drivers of performance",
+      "source_span": "Partner cross-functionally with business leaders to understand key drivers of performance and translate them into actionable financial insights.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-12",
+      "text": "Translate key drivers into actionable financial insights",
+      "source_span": "Partner cross-functionally with business leaders to understand key drivers of performance and translate them into actionable financial insights.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-13",
+      "text": "Build financial models",
+      "source_span": "Build and maintain financial models that support operating forecasts, headcount planning, cash planning, and strategic decision-making.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-14",
+      "text": "Maintain financial models",
+      "source_span": "Build and maintain financial models that support operating forecasts, headcount planning, cash planning, and strategic decision-making.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-15",
+      "text": "Support operating forecasts",
+      "source_span": "Build and maintain financial models that support operating forecasts, headcount planning, cash planning, and strategic decision-making.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-16",
+      "text": "Support headcount planning",
+      "source_span": "Build and maintain financial models that support operating forecasts, headcount planning, cash planning, and strategic decision-making.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-17",
+      "text": "Support cash planning",
+      "source_span": "Build and maintain financial models that support operating forecasts, headcount planning, cash planning, and strategic decision-making.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-18",
+      "text": "Support strategic decision-making",
+      "source_span": "Build and maintain financial models that support operating forecasts, headcount planning, cash planning, and strategic decision-making.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-19",
+      "text": "Prepare executive-level reporting",
+      "source_span": "Prepare executive-level reporting and presentation materials for senior leadership, including monthly business reviews, board materials, and ad hoc analyses.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-20",
+      "text": "Prepare presentation materials for senior leadership",
+      "source_span": "Prepare executive-level reporting and presentation materials for senior leadership, including monthly business reviews, board materials, and ad hoc analyses.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-21",
+      "text": "Prepare monthly business reviews",
+      "source_span": "Prepare executive-level reporting and presentation materials for senior leadership, including monthly business reviews, board materials, and ad hoc analyses.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-22",
+      "text": "Prepare board materials",
+      "source_span": "Prepare executive-level reporting and presentation materials for senior leadership, including monthly business reviews, board materials, and ad hoc analyses.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-23",
+      "text": "Prepare ad hoc analyses",
+      "source_span": "Prepare executive-level reporting and presentation materials for senior leadership, including monthly business reviews, board materials, and ad hoc analyses.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-24",
+      "text": "Analyze company performance across departments and functions",
+      "source_span": "Analyze company performance across departments and functions, identifying trends, risks, and opportunities to improve financial outcomes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-25",
+      "text": "Identify trends",
+      "source_span": "Analyze company performance across departments and functions, identifying trends, risks, and opportunities to improve financial outcomes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-26",
+      "text": "Identify risks",
+      "source_span": "Analyze company performance across departments and functions, identifying trends, risks, and opportunities to improve financial outcomes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-27",
+      "text": "Identify opportunities to improve financial outcomes",
+      "source_span": "Analyze company performance across departments and functions, identifying trends, risks, and opportunities to improve financial outcomes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-28",
+      "text": "Support capital allocation decision-making",
+      "source_span": "Support capital allocation and investment decision-making through scenario analysis, sensitivity modeling, and ROI assessments.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-29",
+      "text": "Support investment decision-making",
+      "source_span": "Support capital allocation and investment decision-making through scenario analysis, sensitivity modeling, and ROI assessments.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-30",
+      "text": "Perform scenario analysis",
+      "source_span": "Support capital allocation and investment decision-making through scenario analysis, sensitivity modeling, and ROI assessments.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-31",
+      "text": "Perform sensitivity modeling",
+      "source_span": "Support capital allocation and investment decision-making through scenario analysis, sensitivity modeling, and ROI assessments.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-32",
+      "text": "Perform ROI assessments",
+      "source_span": "Support capital allocation and investment decision-making through scenario analysis, sensitivity modeling, and ROI assessments.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-33",
+      "text": "Partner with Accounting during month-end close",
+      "source_span": "Partner with Accounting during month-end close to ensure accurate financial reporting and alignment between actuals and forecasts.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-34",
+      "text": "Ensure accurate financial reporting",
+      "source_span": "Partner with Accounting during month-end close to ensure accurate financial reporting and alignment between actuals and forecasts.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-35",
+      "text": "Ensure alignment between actuals and forecasts",
+      "source_span": "Partner with Accounting during month-end close to ensure accurate financial reporting and alignment between actuals and forecasts.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-36",
+      "text": "Drive improvements in financial processes",
+      "source_span": "Help drive improvements in financial processes, reporting tools, and planning frameworks to support a scalable finance function.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-37",
+      "text": "Drive improvements in reporting tools",
+      "source_span": "Help drive improvements in financial processes, reporting tools, and planning frameworks to support a scalable finance function.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-38",
+      "text": "Drive improvements in planning frameworks",
+      "source_span": "Help drive improvements in financial processes, reporting tools, and planning frameworks to support a scalable finance function.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-39",
+      "text": "Support a scalable finance function",
+      "source_span": "Help drive improvements in financial processes, reporting tools, and planning frameworks to support a scalable finance function.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-40",
+      "text": "Contribute to strategic finance initiatives",
+      "source_span": "Contribute to strategic finance initiatives such as KPI development, operating metric tracking, and process standardization across the organization.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-41",
+      "text": "Develop KPIs",
+      "source_span": "Contribute to strategic finance initiatives such as KPI development, operating metric tracking, and process standardization across the organization.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-42",
+      "text": "Track operating metrics",
+      "source_span": "Contribute to strategic finance initiatives such as KPI development, operating metric tracking, and process standardization across the organization.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-43",
+      "text": "Standardize processes across the organization",
+      "source_span": "Contribute to strategic finance initiatives such as KPI development, operating metric tracking, and process standardization across the organization.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "63b79a21366537bb-44",
+      "text": "5+ years of experience in FP&A, corporate finance, investment banking, consulting, or a related analytical role.",
+      "source_span": "5+ years of experience in FP&A, corporate finance, investment banking, consulting, or a related analytical role.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-45",
+      "text": "Strong financial modeling skills",
+      "source_span": "Strong financial modeling and analytical skills, with experience building integrated forecasts and decision-support models.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-46",
+      "text": "Strong analytical skills",
+      "source_span": "Strong financial modeling and analytical skills, with experience building integrated forecasts and decision-support models.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-47",
+      "text": "Build integrated forecasts",
+      "source_span": "Strong financial modeling and analytical skills, with experience building integrated forecasts and decision-support models.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-48",
+      "text": "Build decision-support models",
+      "source_span": "Strong financial modeling and analytical skills, with experience building integrated forecasts and decision-support models.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-49",
+      "text": "Experience with consolidated planning, variance analysis, and management reporting.",
+      "source_span": "Experience with consolidated planning, variance analysis, and management reporting.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-50",
+      "text": "Work cross-functionally",
+      "source_span": "Demonstrated ability to work cross-functionally and communicate financial insights clearly to business and executive stakeholders.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-51",
+      "text": "Communicate financial insights clearly to business and executive stakeholders",
+      "source_span": "Demonstrated ability to work cross-functionally and communicate financial insights clearly to business and executive stakeholders.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-52",
+      "text": "Comfortable operating in fast-paced, ambiguous environments with evolving priorities and multiple work streams.",
+      "source_span": "Comfortable operating in fast-paced, ambiguous environments with evolving priorities and multiple work streams.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-53",
+      "text": "Strong communication skills",
+      "source_span": "Strong communication skills, including experience preparing materials for senior leadership.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-54",
+      "text": "Prepare materials for senior leadership",
+      "source_span": "Strong communication skills, including experience preparing materials for senior leadership.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-55",
+      "text": "Experience improving financial reporting, systems, or tools (e.g., NetSuite, Adaptive, Foundry, or similar).",
+      "source_span": "Experience improving financial reporting, systems, or tools (e.g., NetSuite, Adaptive, Foundry, or similar).",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-56",
+      "text": "Bachelor’s degree in Finance, Accounting, Economics, or related field; advanced degree or certification (MBA, CFA) is a plus.",
+      "source_span": "Bachelor’s degree in Finance, Accounting, Economics, or related field; advanced degree or certification (MBA, CFA) is a plus.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-57",
+      "text": "Experience in high-growth, manufacturing, defense, aerospace, robotics, or deep-tech environments.",
+      "source_span": "Experience in high-growth, manufacturing, defense, aerospace, robotics, or deep-tech environments.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-58",
+      "text": "Familiarity with headcount planning, cash flow forecasting, and corporate performance metrics.",
+      "source_span": "Familiarity with headcount planning, cash flow forecasting, and corporate performance metrics.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-59",
+      "text": "Support board reporting, long-range planning, or strategic finance initiatives.",
+      "source_span": "Experience supporting board reporting, long-range planning, or strategic finance initiatives.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-60",
+      "text": "Exposure to capital planning, investment analysis, or enterprise-level financial planning processes.",
+      "source_span": "Exposure to capital planning, investment analysis, or enterprise-level financial planning processes.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-61",
+      "text": "Interpret accounting data",
+      "source_span": "Comfortable interpreting accounting data and translating financial results into actionable business insights.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-62",
+      "text": "Translate financial results into actionable business insights",
+      "source_span": "Comfortable interpreting accounting data and translating financial results into actionable business insights.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "63b79a21366537bb-63",
+      "text": "Experience partnering with accounting teams as needed",
+      "source_span": "Experience partnering with accounting teams as needed",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-09-29T23:25:05.392+00:00",
+  "source_url": "https://jobs.ashbyhq.com/saronic/d20875db-2478-4591-833f-1e90dd3da431",
+  "fetched_at": "2026-10-21T17:33:58.994Z",
+  "prompt_version": "extract-v1",
+  "text": "Saronic Technologies is a leader in revolutionizing autonomy at sea, dedicated to developing state-of-the-art solutions that enhance maritime operations through autonomous and intelligent platforms.\n\n\n\n\nJOB OVERVIEW\n\nWe are seeking a Senior FP&A Analyst to join our Finance team as a key contributor to our Corporate Finance function. This role will support company-wide financial planning, consolidated reporting, and strategic decision-making across the organization.\n\nYou will play a critical role in connecting business performance with financial outcomes - owning core planning processes, delivering executive-level insights, and helping leadership make informed decisions around growth, investment, and resource allocation.\n\nThis role is ideal for someone who enjoys working across functions, building scalable planning and reporting processes, and bringing financial clarity to a fast-moving, high-growth environment.\n\n\n\n\nKEY RESPONSIBILITIES\n\n - Support company-wide financial planning and analysis, including annual budgeting, quarterly forecasting, and long-range planning.\n\n - Own consolidated financial reporting, including budget vs. actuals, forecast updates, variance analysis, and management reporting.\n\n - Partner cross-functionally with business leaders to understand key drivers of performance and translate them into actionable financial insights.\n\n - Build and maintain financial models that support operating forecasts, headcount planning, cash planning, and strategic decision-making.\n\n - Prepare executive-level reporting and presentation materials for senior leadership, including monthly business reviews, board materials, and ad hoc analyses.\n\n - Analyze company performance across departments and functions, identifying trends, risks, and opportunities to improve financial outcomes.\n\n - Support capital allocation and investment decision-making through scenario analysis, sensitivity modeling, and ROI assessments.\n\n - Partner with Accounting during month-end close to ensure accurate financial reporting and alignment between actuals and forecasts.\n\n - Help drive improvements in financial processes, reporting tools, and planning frameworks to support a scalable finance function.\n\n - Contribute to strategic finance initiatives such as KPI development, operating metric tracking, and process standardization across the organization.\n\n\n\n\nREQUIRED QUALIFICATIONS\n\n - 5+ years of experience in FP&A, corporate finance, investment banking, consulting, or a related analytical role.\n\n - Strong financial modeling and analytical skills, with experience building integrated forecasts and decision-support models.\n\n - Experience with consolidated planning, variance analysis, and management reporting.\n\n - Demonstrated ability to work cross-functionally and communicate financial insights clearly to business and executive stakeholders.\n\n - Comfortable operating in fast-paced, ambiguous environments with evolving priorities and multiple work streams.\n\n - Strong communication skills, including experience preparing materials for senior leadership.\n\n - Experience improving financial reporting, systems, or tools (e.g., NetSuite, Adaptive, Foundry, or similar).\n\n - Bachelor’s degree in Finance, Accounting, Economics, or related field; advanced degree or certification (MBA, CFA) is a plus.\n\n\n\n\nPREFERRED QUALIFICATIONS\n\n - Experience in high-growth, manufacturing, defense, aerospace, robotics, or deep-tech environments.\n\n - Familiarity with headcount planning, cash flow forecasting, and corporate performance metrics.\n   \n   Experience supporting board reporting, long-range planning, or strategic finance initiatives.\n\n - Exposure to capital planning, investment analysis, or enterprise-level financial planning processes.\n\n - Comfortable interpreting accounting data and translating financial results into actionable business insights.\n\n - Experience partnering with accounting teams as needed \n   \n   \n\nSaronic CCPA Notice for Candidates and California Employees https://saronic-assets-public.s3.us-east-2.amazonaws.com/Saronic%20CCPA%20Notice%20for%20Candidates%20and%20California%20Employees.pdf\n\nIf this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status. As defined by U.S. law, individuals who are any one of the following are considered to be a “U.S. Person”: (1) U.S. citizens, (2) legal permanent residents (a.k.a. green card holders), and (3) certain protected classes of asylees and refugees, as defined in 8 U.S.C. 1324b(a)(3) https://www.govinfo.gov/link/uscode/8/1324b.\n\nSaronic does not discriminate on the basis of race, sex, color, religion, age, national origin, marital status, disability, veteran status, genetic information, sexual orientation, gender identity or any other reason prohibited by law in provision of employment opportunities and benefits. We are also committed to providing reasonable accommodations for qualified individuals with disabilities.",
+  "extra_salary_lines": [],
+  "salary_source": null,
+  "ats": "ashby"
+}

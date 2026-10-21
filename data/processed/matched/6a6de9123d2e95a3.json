@@ -1,0 +1,222 @@
+{
+  "posting_id": "6a6de9123d2e95a3",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "6a6de9123d2e95a3-04",
+      "label": "covered",
+      "capability_id": "tre.cash_position",
+      "confidence": 0.98,
+      "rationale": "Owning daily cash positioning matches preparing and maintaining the cash position across accounts and entities.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-05",
+      "label": "assisted",
+      "capability_id": "tre.forecast",
+      "confidence": 0.97,
+      "rationale": "Maintaining rolling cash forecasts matches the short-term cash forecast capability but typically needs human judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Bank account administration across entities and banking partners is relationship and admin work rather than an automated treasury operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Managing account openings is bank relationship/admin work that is not covered by the platform.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Managing account closures is bank relationship/admin work that is not covered by the platform.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Managing signer updates is external banking administration and requires human coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "KYC requests involve coordinating with banks and making administrative responses, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.73,
+      "rationale": "Reviewing portal access reviews is routine control/admin work with no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-12",
+      "label": "assisted",
+      "capability_id": "gl.controls",
+      "confidence": 0.69,
+      "rationale": "Overseeing payment controls matches monitoring internal controls, though the treasury context is broader than the listed capability.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-13",
+      "label": "assisted",
+      "capability_id": "p2p.approvals",
+      "confidence": 0.78,
+      "rationale": "Overseeing approval workflows aligns with routing approvals by policy, but the oversight aspect still needs human judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.65,
+      "rationale": "Overseeing segregation of duties is control governance and policy oversight rather than an automated operations task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-15",
+      "label": "assisted",
+      "capability_id": "tre.exceptions",
+      "confidence": 0.77,
+      "rationale": "Reviewing high-value or unusual wires matches flagging out-of-policy treasury exceptions, though approval judgment remains human.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Managing the investment portfolio and making policy-aligned investment decisions is judgment-based work not covered by the platform.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Overseeing external investment managers is relationship and vendor-management work rather than a platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Designing and building an investment and hedging program is a strategic policy and program-design task, not an operations workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-19",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.85,
+      "rationale": "Developing management reporting for leadership and the board matches building recurring management reports and board-deck financials.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Monitoring FX exposure is repetitive treasury risk analysis that has no direct capability match in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Supporting hedging analysis and execution involves judgment and financial decision-making that is not covered by the platform.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Automating treasury work is an implementation project rather than a finance-operations duty that maps cleanly to a capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Keeping people accountable for approvals and money movement is managerial oversight rather than an automatable ops task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-24",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Preparing FBAR filings is a repetitive regulatory filing that is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Managing letters of credit requires human coordination with banks and counterparties and is not covered by the platform.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Managing bank guarantees requires human coordination with banks and counterparties and is not covered by the platform.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-27",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.84,
+      "rationale": "Supporting audit requests related to cash and investments matches preparing audit support and documentation, though auditor relationship management stays human.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

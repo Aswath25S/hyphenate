@@ -1,0 +1,590 @@
+{
+  "posting_id": "34482a131783b21f",
+  "company": "Included Health",
+  "domain": "includedhealth.com",
+  "title": "Accounts Receivable Staff Accountant",
+  "role_family": "AR",
+  "seniority": "mid",
+  "locations": [
+    "Remote"
+  ],
+  "remote": "remote",
+  "salary": {
+    "min": 61410,
+    "max": 73689,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The base salary range for this full-time position is $61,410 – $73,689 per year in the United States."
+  },
+  "erp": [
+    "Workday"
+  ],
+  "tools": [
+    "Microsoft Excel",
+    "Salesforce",
+    "Looker"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": true,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "build and improve billing and accounts receivable processes",
+    "billing exceptions",
+    "open billing items through go-live",
+    "reduce manual effort",
+    "fast-paced, start-up work environment"
+  ],
+  "duties": [
+    {
+      "duty_id": "34482a131783b21f-01",
+      "text": "Partner with Revenue Accounting team to ensure monthly accuracy of billings and accruals",
+      "source_span": "Business partner with Revenue Accounting team to ensure monthly accuracy of billings and accruals",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-02",
+      "text": "Assess compliance with relevant revenue recognition guidance",
+      "source_span": "including assessment of compliance with relevant revenue recognition guidance",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-03",
+      "text": "Regularly follow up with customers regarding aged accounts receivable balances",
+      "source_span": "Regularly follow-up with customers regarding aged accounts receivable balances",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-04",
+      "text": "Address inquiries from customers",
+      "source_span": "Address inquiries and follow-ups from customers and internal customer success teams",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-05",
+      "text": "Address follow-ups from internal customer success teams",
+      "source_span": "Address inquiries and follow-ups from customers and internal customer success teams",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-06",
+      "text": "Analyze collections",
+      "source_span": "Analyze collections and assist with developing key metrics to track customer A/R collections",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-07",
+      "text": "Assist with developing key metrics to track customer A/R collections",
+      "source_span": "Analyze collections and assist with developing key metrics to track customer A/R collections",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-08",
+      "text": "Review received, reconciled, and deposited customer payments",
+      "source_span": "Review received, reconciled & deposited customer payments",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-09",
+      "text": "Work closely with the CSM’s and obtain the support required for prompt invoicing and true-up’s",
+      "source_span": "Work closely with the CSM’s and obtain the support required for prompt invoicing and true-up’s.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-10",
+      "text": "Issue Credit memos timely",
+      "source_span": "Be diligent in issuing Credit memos timely.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-11",
+      "text": "Coordinate with CSM to understand changes / modifications required in invoicing",
+      "source_span": "Coordinate with CSM to understand changes / modifications required in invoicing.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-12",
+      "text": "Classify refund liability for A/R",
+      "source_span": "Refund liability classification for A/R.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-13",
+      "text": "Support recurring billing",
+      "source_span": "Support recurring and usage-based billing, including true-ups, credits, adjustments, and billing schedule changes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-14",
+      "text": "Support usage-based billing",
+      "source_span": "Support recurring and usage-based billing, including true-ups, credits, adjustments, and billing schedule changes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-15",
+      "text": "Support true-ups",
+      "source_span": "Support recurring and usage-based billing, including true-ups, credits, adjustments, and billing schedule changes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-16",
+      "text": "Support credits",
+      "source_span": "Support recurring and usage-based billing, including true-ups, credits, adjustments, and billing schedule changes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-17",
+      "text": "Support adjustments",
+      "source_span": "Support recurring and usage-based billing, including true-ups, credits, adjustments, and billing schedule changes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-18",
+      "text": "Support billing schedule changes",
+      "source_span": "Support recurring and usage-based billing, including true-ups, credits, adjustments, and billing schedule changes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-19",
+      "text": "Review and approve invoices and supporting data before release to confirm service periods, usage, pricing, credits, and required documentation are accurate",
+      "source_span": "Review and approve invoices and supporting data before release to confirm service periods, usage, pricing, credits, and required documentation are accurate.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-20",
+      "text": "Process and send invoices occasionally",
+      "source_span": "Occasionally processing and sending.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-21",
+      "text": "Monitor billing exceptions, system errors, unapplied cash, open credits, partitions and reconciling items through resolution",
+      "source_span": "Monitor billing exceptions, system errors, unapplied cash, open credits, partitions and reconciling items through resolution.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-22",
+      "text": "Respond to invoice disputes and payment discrepancies",
+      "source_span": "Respond to invoice disputes and payment discrepancies, and provide clear explanations of invoice activity, credits, adjustments, billing schedules, and account balances.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-23",
+      "text": "Provide clear explanations of invoice activity, credits, adjustments, billing schedules, and account balances",
+      "source_span": "Respond to invoice disputes and payment discrepancies, and provide clear explanations of invoice activity, credits, adjustments, billing schedules, and account balances.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-24",
+      "text": "Partner with Sales, Sales Operations, and Client Success on new sales, renewals, amendments, expansions, and terminations to understand and operationalize billing requirements",
+      "source_span": "Partner with Sales, Sales Operations, and Client Success on new sales, renewals, amendments, expansions, and terminations to understand and operationalize billing requirements.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-25",
+      "text": "Review contract terms, pricing, billing cadence, usage measures, implementation fees, and other commercial provisions that affect invoicing",
+      "source_span": "Review contract terms, pricing, billing cadence, usage measures, implementation fees, and other commercial provisions that affect invoicing, and translate them into billing instructions and system setup.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-26",
+      "text": "Translate them into billing instructions and system setup",
+      "source_span": "Review contract terms, pricing, billing cadence, usage measures, implementation fees, and other commercial provisions that affect invoicing, and translate them into billing instructions and system setup.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-27",
+      "text": "Support customer account reconciliations",
+      "source_span": "Support customer account reconciliations, investigate variances, and coordinate corrective actions with internal and customer-facing partners.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-28",
+      "text": "Investigate variances",
+      "source_span": "Support customer account reconciliations, investigate variances, and coordinate corrective actions with internal and customer-facing partners.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-29",
+      "text": "Coordinate corrective actions with internal and customer-facing partners",
+      "source_span": "Support customer account reconciliations, investigate variances, and coordinate corrective actions with internal and customer-facing partners.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-30",
+      "text": "Support building new contracts, renewals, amendments, expansions, and terminations by reviewing commercial terms and identifying billing requirements",
+      "source_span": "Support building new contracts, renewals, amendments, expansions, and terminations by reviewing commercial terms and identifying billing requirements.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-31",
+      "text": "Translate signed contract provisions into customer and contract setup, billing schedules, usage measures, implementation-fee instructions, invoice requirements, and supporting documentation",
+      "source_span": "Translate signed contract provisions into customer and contract setup, billing schedules, usage measures, implementation-fee instructions, invoice requirements, and supporting documentation.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-32",
+      "text": "Coordinate implementation handoffs among Sales, Sales Operations, Client Success, Revenue Operations, and Accounting, and track open billing items through go-live",
+      "source_span": "Coordinate implementation handoffs among Sales, Sales Operations, Client Success, Revenue Operations, and Accounting, and track open billing items through go-live.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-33",
+      "text": "Validate contract setup and the first billing cycle against signed terms, pricing, service periods, and customer-specific requirements",
+      "source_span": "Validate contract setup and the first billing cycle against signed terms, pricing, service periods, and customer-specific requirements; identify and escalate gaps before invoicing.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-34",
+      "text": "Identify and escalate gaps before invoicing",
+      "source_span": "Validate contract setup and the first billing cycle against signed terms, pricing, service periods, and customer-specific requirements; identify and escalate gaps before invoicing.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-35",
+      "text": "Maintain contract-to-billing documentation",
+      "source_span": "Maintain contract-to-billing documentation and update procedures or job aids for non-standard billing arrangements.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-36",
+      "text": "Update procedures or job aids for non-standard billing arrangements",
+      "source_span": "Maintain contract-to-billing documentation and update procedures or job aids for non-standard billing arrangements.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-37",
+      "text": "Support post-implementation review of billing issues, true-ups, credits, and contract changes",
+      "source_span": "Support post-implementation review of billing issues, true-ups, credits, and contract changes, and incorporate lessons learned into process improvements.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-38",
+      "text": "Incorporate lessons learned into process improvements",
+      "source_span": "Support post-implementation review of billing issues, true-ups, credits, and contract changes, and incorporate lessons learned into process improvements.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-39",
+      "text": "Periodic reporting on Cash payments / collections to leadership and investigate delays",
+      "source_span": "Periodic reporting on Cash payments / collections to leadership and investigate delays.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-40",
+      "text": "Support month-end close processes",
+      "source_span": "Support month-end close processes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-41",
+      "text": "Support audits performed by external auditors and help with pre-audit preparation",
+      "source_span": "Support audits performed by external auditors and help with pre-audit preparation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-42",
+      "text": "Perform other duties and projects as assigned when needed to support the business operations",
+      "source_span": "Perform other duties and projects as assigned when needed to support the business operations",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-43",
+      "text": "Support billing-related inputs to monthly and quarterly revenue close",
+      "source_span": "Support billing-related inputs to monthly and quarterly revenue close, including reconciliations, accrual support, journal-entry preparation, and variance analysis.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-44",
+      "text": "Support reconciliations",
+      "source_span": "Support billing-related inputs to monthly and quarterly revenue close, including reconciliations, accrual support, journal-entry preparation, and variance analysis.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-45",
+      "text": "Support accrual support",
+      "source_span": "Support billing-related inputs to monthly and quarterly revenue close, including reconciliations, accrual support, journal-entry preparation, and variance analysis.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-46",
+      "text": "Support journal-entry preparation",
+      "source_span": "Support billing-related inputs to monthly and quarterly revenue close, including reconciliations, accrual support, journal-entry preparation, and variance analysis.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-47",
+      "text": "Support variance analysis",
+      "source_span": "Support billing-related inputs to monthly and quarterly revenue close, including reconciliations, accrual support, journal-entry preparation, and variance analysis.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-48",
+      "text": "Support review of complex or non-standard billing arrangements to promote accurate billing execution and appropriate revenue treatment",
+      "source_span": "Support review of complex or non-standard billing arrangements to promote accurate billing execution and appropriate revenue treatment.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-49",
+      "text": "Maintain organized support and evidence for internal controls, audit requests, and management review",
+      "source_span": "Maintain organized support and evidence for internal controls, audit requests, and management review.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-50",
+      "text": "Partner with Workday, Revenue Operations, Data, Engineering, and other technical teams to investigate system issues and improve billing workflows",
+      "source_span": "Partner with Workday, Revenue Operations, Data, Engineering, and other technical teams to investigate system issues and improve billing workflows.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-51",
+      "text": "Help document billing requirements, process procedures, control steps, and issue-resolution playbooks",
+      "source_span": "Help document billing requirements, process procedures, control steps, and issue-resolution playbooks.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-52",
+      "text": "Test and validate system or process changes to confirm billing, customer-account, reporting, and revenue impacts are understood before implementation",
+      "source_span": "Test and validate system or process changes to confirm billing, customer-account, reporting, and revenue impacts are understood before implementation.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-53",
+      "text": "Identify root causes",
+      "source_span": "Identify root causes, reduce manual effort, strengthen data quality, and improve visibility into billing status and customer account health.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-54",
+      "text": "Reduce manual effort",
+      "source_span": "Identify root causes, reduce manual effort, strengthen data quality, and improve visibility into billing status and customer account health.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-55",
+      "text": "Strengthen data quality",
+      "source_span": "Identify root causes, reduce manual effort, strengthen data quality, and improve visibility into billing status and customer account health.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-56",
+      "text": "Improve visibility into billing status and customer account health",
+      "source_span": "Identify root causes, reduce manual effort, strengthen data quality, and improve visibility into billing status and customer account health.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-57",
+      "text": "Included Health is a new kind of healthcare company, delivering integrated virtual care and navigation.",
+      "source_span": "Included Health is a new kind of healthcare company, delivering integrated virtual care and navigation.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-58",
+      "text": "We’re on a mission to raise the standard of healthcare for everyone.",
+      "source_span": "We’re on a mission to raise the standard of healthcare for everyone.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-59",
+      "text": "Remote-first culture",
+      "source_span": "Remote-first culture",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "34482a131783b21f-60",
+      "text": "2 years minimum of accounting work experience, focused in customer billing and accounts receivable.",
+      "source_span": "2 years minimum of accounting work experience, focused in customer billing and accounts receivable.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "34482a131783b21f-61",
+      "text": "ERP system experience (Workday a plus).",
+      "source_span": "ERP system experience (Workday a plus).",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "34482a131783b21f-62",
+      "text": "Excellent verbal and written communication skills.",
+      "source_span": "Excellent verbal and written communication skills.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "34482a131783b21f-63",
+      "text": "Demonstrates deep analytical thinking.",
+      "source_span": "Demonstrates deep analytical thinking.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "34482a131783b21f-64",
+      "text": "Must have intermediate to advanced proficiency in Microsoft Excel.",
+      "source_span": "Must have intermediate to advanced proficiency in Microsoft Excel.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "34482a131783b21f-65",
+      "text": "Ability to deal sensitively with confidential material.",
+      "source_span": "Ability to deal sensitively with confidential material.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "34482a131783b21f-66",
+      "text": "Highly motivated with the ability to multitask, work independently and meet deadlines while maintaining a high standard of accuracy.",
+      "source_span": "Highly motivated with the ability to multitask, work independently and meet deadlines while maintaining a high standard of accuracy.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "34482a131783b21f-67",
+      "text": "The ability to manage competing priorities in a dynamic changing environment.",
+      "source_span": "The ability to manage competing priorities in a dynamic changing environment.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "34482a131783b21f-68",
+      "text": "Ability to thrive in a fast-paced, start-up work environment.",
+      "source_span": "Ability to thrive in a fast-paced, start-up work environment.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "34482a131783b21f-69",
+      "text": "Strong understanding of end-to-end billing and quote-to-cash processes in a SaaS, subscription, or usage-based environment.",
+      "source_span": "Strong understanding of end-to-end billing and quote-to-cash processes in a SaaS, subscription, or usage-based environment.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "34482a131783b21f-70",
+      "text": "Experience managing complex customer billing requirements, contract changes, invoice disputes, credits, reconciliations, and billing exceptions.",
+      "source_span": "Experience managing complex customer billing requirements, contract changes, invoice disputes, credits, reconciliations, and billing exceptions.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "34482a131783b21f-71",
+      "text": "Experience partnering with Sales, Client Success, Sales Operations, Revenue Operations, FP&A, Accounting, and technical teams.",
+      "source_span": "Experience partnering with Sales, Client Success, Sales Operations, Revenue Operations, FP&A, Accounting, and technical teams.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "34482a131783b21f-72",
+      "text": "Experience with Workday ERP and Salesforce; Looker or another business-intelligence tool is a plus.",
+      "source_span": "Experience with Workday ERP and Salesforce; Looker or another business-intelligence tool is a plus.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "34482a131783b21f-73",
+      "text": "Working knowledge of GAAP, internal controls, and audit support.",
+      "source_span": "Working knowledge of GAAP, internal controls, and audit support.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "34482a131783b21f-74",
+      "text": "High degree of initiative, professional judgment, professional skepticism, and integrity.",
+      "source_span": "High degree of initiative, professional judgment, professional skepticism, and integrity.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "34482a131783b21f-75",
+      "text": "Experience supporting contract setup, implementation, renewals, amendments, expansions, or terminations and translating commercial terms into operational billing requirements.",
+      "source_span": "Experience supporting contract setup, implementation, renewals, amendments, expansions, or terminations and translating commercial terms into operational billing requirements.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "34482a131783b21f-76",
+      "text": "Ability to coordinate cross-functional implementation handoffs, track open items to resolution, and validate billing readiness before go-live.",
+      "source_span": "Ability to coordinate cross-functional implementation handoffs, track open items to resolution, and validate billing readiness before go-live.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "34482a131783b21f-77",
+      "text": "Bachelor’s degree in Accounting, Finance or related field",
+      "source_span": "Bachelor’s degree in Accounting, Finance or related field",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-10-06T18:18:21.168Z",
+  "source_url": "https://jobs.lever.co/includedhealth/81faf685-d09e-4b8a-809c-9d93f9b1eb9c",
+  "fetched_at": "2026-10-21T17:34:17.658Z",
+  "prompt_version": "extract-v1",
+  "text": "Included Health is looking for an A/R, Billing & Collections Revenue Staff Accountant to join our growing team.  This role will have a primary responsibility of operational areas including all tasks related to customer billing, accounts receivable and collections. Included Health is growing fast and the candidate will be expected to build and improve billing and accounts receivable processes to support this growth. This role reports to the Revenue Manager and requires a significant amount of interaction with senior employees across the company and with outside consultants and partners. This role offers a tremendous opportunity to gain experience with a thriving company that is making a significant impact to improve people’s lives. The role also supports the end-to-end quote-to-cash process by translating customer and contract requirements into clear billing instructions, system setup, and repeatable procedures, while helping resolve billing exceptions and improve the customer billing experience.\n\n\nResponsibilities\nBilling & Accounts Receivable\n\n•\n\nBusiness partner with Revenue Accounting team to ensure monthly accuracy of billings and accruals recorded in the general accounting ledger, including assessment of compliance with relevant revenue recognition guidance\n\n•\n\nRegularly follow-up with customers regarding aged accounts receivable balances\n\n•\n\nAddress inquiries and follow-ups from customers and internal customer success teams\n\n•\n\nAnalyze collections and assist with developing key metrics to track customer A/R collections\n\n•\n\nReview received, reconciled & deposited customer payments\n\n•\n\nWork closely with the CSM’s and obtain the support required for prompt invoicing and true-up’s. Be diligent in issuing Credit memos timely.\n\n•\n\nCoordinate with CSM to understand changes / modifications required in invoicing.\n\n•\n\nRefund liability classification for A/R.\n\n•\n\nSupport recurring and usage-based billing, including true-ups, credits, adjustments, and billing schedule changes.\n\n•\n\nReview and approve invoices and supporting data before release to confirm service periods, usage, pricing, credits, and required documentation are accurate. Occasionally processing and sending.\n\n•\n\nMonitor billing exceptions, system errors, unapplied cash, open credits, partitions and reconciling items through resolution.\n\n•\n\nRespond to invoice disputes and payment discrepancies, and provide clear explanations of invoice activity, credits, adjustments, billing schedules, and account balances.\n\n•\n\nPartner with Sales, Sales Operations, and Client Success on new sales, renewals, amendments, expansions, and terminations to understand and operationalize billing requirements.\n\n•\n\nReview contract terms, pricing, billing cadence, usage measures, implementation fees, and other commercial provisions that affect invoicing, and translate them into billing instructions and system setup.\n\n•\n\nSupport customer account reconciliations, investigate variances, and coordinate corrective actions with internal and customer-facing partners.\n\nContract Building & Implementation\n\n•\n\nSupport building new contracts, renewals, amendments, expansions, and terminations by reviewing commercial terms and identifying billing requirements.\n\n•\n\nTranslate signed contract provisions into customer and contract setup, billing schedules, usage measures, implementation-fee instructions, invoice requirements, and supporting documentation.\n\n•\n\nCoordinate implementation handoffs among Sales, Sales Operations, Client Success, Revenue Operations, and Accounting, and track open billing items through go-live.\n\n•\n\nValidate contract setup and the first billing cycle against signed terms, pricing, service periods, and customer-specific requirements; identify and escalate gaps before invoicing.\n\n•\n\nMaintain contract-to-billing documentation and update procedures or job aids for non-standard billing arrangements.\n\n•\n\nSupport post-implementation review of billing issues, true-ups, credits, and contract changes, and incorporate lessons learned into process improvements.\n\nOther Duties\n\n•\n\nPeriodic reporting on Cash payments / collections to leadership and investigate delays.\n\n•\n\nSupport month-end close processes\n\n•\n\nSupport audits performed by external auditors and help with pre-audit preparation\n\n•\n\nPerform other duties and projects as assigned when needed to support the business operations\n\nRevenue Close, Systems, Controls & Process Improvement\n\n•\n\nSupport billing-related inputs to monthly and quarterly revenue close, including reconciliations, accrual support, journal-entry preparation, and variance analysis.\n\n•\n\nSupport review of complex or non-standard billing arrangements to promote accurate billing execution and appropriate revenue treatment.\n\n•\n\nMaintain organized support and evidence for internal controls, audit requests, and management review.\n\n•\n\nPartner with Workday, Revenue Operations, Data, Engineering, and other technical teams to investigate system issues and improve billing workflows.\n\n•\n\nHelp document billing requirements, process procedures, control steps, and issue-resolution playbooks.\n\n•\n\nTest and validate system or process changes to confirm billing, customer-account, reporting, and revenue impacts are understood before implementation.\n\n•\n\nIdentify root causes, reduce manual effort, strengthen data quality, and improve visibility into billing status and customer account health.\n\nRequirements \n•\n\n2 years minimum of accounting work experience, focused in customer billing and accounts receivable.\n\n•\n\nERP system experience (Workday a plus).\n\n•\n\nExcellent verbal and written communication skills.\n\n•\n\nDemonstrates deep analytical thinking.\n\n•\n\nMust have intermediate to advanced proficiency in Microsoft Excel.\n\n•\n\nAbility to deal sensitively with confidential material.\n\n•\n\nHighly motivated with the ability to multitask, work independently and meet deadlines while maintaining a high standard of accuracy.\n\n•\n\nThe ability to manage competing priorities in a dynamic changing environment.\n\n•\n\nAbility to thrive in a fast-paced, start-up work environment.\n\n•\n\nStrong understanding of end-to-end billing and quote-to-cash processes in a SaaS, subscription, or usage-based environment.\n\n•\n\nExperience managing complex customer billing requirements, contract changes, invoice disputes, credits, reconciliations, and billing exceptions.\n\n•\n\nExperience partnering with Sales, Client Success, Sales Operations, Revenue Operations, FP&A, Accounting, and technical teams.\n\n•\n\nExperience with Workday ERP and Salesforce; Looker or another business-intelligence tool is a plus.\n\n•\n\nWorking knowledge of GAAP, internal controls, and audit support.\n\n•\n\nHigh degree of initiative, professional judgment, professional skepticism, and integrity.\n\n•\n\nExperience supporting contract setup, implementation, renewals, amendments, expansions, or terminations and translating commercial terms into operational billing requirements.\n\n•\n\nAbility to coordinate cross-functional implementation handoffs, track open items to resolution, and validate billing readiness before go-live.\n\nPreferred Qualifications\n• Bachelor’s degree in Accounting, Finance or related field\n\nPay:\nThe base salary range for this full-time position is $61,410  – $73,689  per year in the United States. This posted range reflects the portion of our internal salary band that is currently funded for new hires in this role across our standard labor markets (Zones A–B). \n For context, these markets include Zone A (e.g., Phoenix AZ, San Antonio TX, Columbus OH, Charlotte NC), Zone B (e.g., Chicago IL, Denver CO, San Diego CA, Houston TX), Zone C (e.g., Los Angeles CA, Seattle WA, Washington, D.C., Boston MA) and Zone D (e.g., San Francisco Bay Area CA, New York City NY, San Jose CA). Within this range, individual pay is determined by work location, skills, experience, and internal equity. We use structured salary bands and geographic zones based on cost of labor to keep pay fair and consistent.\n \nStarting base salary for you will depend on several job-related factors, unique to each candidate, which may include education; training; skills; years and depth of experience; certifications and licensure; our needs; internal peer equity; organizational considerations; and understanding of geographic and market data. Compensation structures and ranges are tailored to each zone's unique market conditions to ensure that all employees receive fair and great compensation package based on their roles and locations. Your Recruiter can share your geographic zone upon inquiry.\n \nBenefits & Perks:\nIn addition to receiving a great compensation package, the compensation package may include, depending on the role, the following and more:\nRemote-first culture\n401(k) savings plan through Fidelity\nComprehensive medical, vision, and dental coverage through multiple medical plan options (including disability insurance)\nPaid Time Off (\"PTO\") and Discretionary Time Off (“DTO\")\n12 weeks of 100% Paid Parental leave\nFamily Building & Compassionate Leave: Fertility coverage, $25,000 for surrogacy/adoption, and paid leave for failed treatments, adoption or pregnancies.\nWork-From-Home reimbursement to support team collaboration home office work\n \nYour recruiter will share more about the salary range and benefits package for your role during the hiring process.\n\n\nAbout Included Health\n\nIncluded Health is a new kind of healthcare company, delivering integrated virtual care and navigation. We’re on a mission to raise the standard of healthcare for everyone. We break down barriers to provide high-quality care for every person in every community — no matter where they are in their health journey or what type of care they need, from acute to chronic, behavioral to physical. We offer our members care guidance, advocacy, and access to personalized virtual and in-person care for everyday and urgent care, primary care, behavioral health, and specialty care. It’s all included. Learn more at includedhealth.com. \n\n-----\nIncluded Health is an Equal Opportunity Employer and considers applicants for employment without regard to race, color, religion, sex, orientation, national origin, age, disability, genetics or any other basis forbidden under federal, state, or local law. Included Health considers all qualified applicants with arrest or conviction records in accordance with the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance, and California law.\n",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "lever"
+}

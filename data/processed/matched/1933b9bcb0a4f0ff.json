@@ -1,0 +1,159 @@
+{
+  "posting_id": "1933b9bcb0a4f0ff",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "1933b9bcb0a4f0ff-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "This is FP&A forecasting work, which is not one of the listed finance-ops capabilities and is closer to budgeting models.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1933b9bcb0a4f0ff-02",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.78,
+      "rationale": "Owning reporting matches building recurring management reports, though the scope is broader than the capability.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1933b9bcb0a4f0ff-03",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.8,
+      "rationale": "Owning financial analysis aligns with answering finance questions and producing ad hoc analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1933b9bcb0a4f0ff-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Partnering closely with Engineering and infrastructure leaders is cross-functional advising, which is a human responsibility.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1933b9bcb0a4f0ff-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Translating technical consumption into forecasts is a modeling task that fits FP&A planning rather than any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1933b9bcb0a4f0ff-06",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.69,
+      "rationale": "Identifying opportunities to improve unit economics and gross margin is financial analysis that can be supported by ad hoc analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1933b9bcb0a4f0ff-07",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.77,
+      "rationale": "Developing understandable and actionable cost reporting matches management reporting work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1933b9bcb0a4f0ff-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Evaluating commercial decisions and tradeoffs is advisory judgment rather than a listed automated finance-ops capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1933b9bcb0a4f0ff-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Building a scalable expense-management process is process redesign and does not map to a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1933b9bcb0a4f0ff-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Partnering with functional leaders on budgets, forecasts, and business cases is cross-functional advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1933b9bcb0a4f0ff-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Budget-to-actual analysis and forecast updates are FP&A planning tasks that do not fit the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1933b9bcb0a4f0ff-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Company-wide planning and headcount forecasting are FP&A modeling activities outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1933b9bcb0a4f0ff-13",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.73,
+      "rationale": "Developing models and analyses to answer business questions matches ad hoc finance analysis, though the modeling aspect is broader.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1933b9bcb0a4f0ff-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Identifying opportunities to automate reporting is process-improvement work that is not a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1933b9bcb0a4f0ff-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Improving source data is a data-quality/process task with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1933b9bcb0a4f0ff-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Replacing manual or fragmented finance processes with scalable ones is automation/process redesign outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1933b9bcb0a4f0ff-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Working cross-functionally with other teams to drive action is partnering and advising, which is human work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

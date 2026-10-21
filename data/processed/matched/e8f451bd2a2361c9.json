@@ -1,0 +1,141 @@
+{
+  "posting_id": "e8f451bd2a2361c9",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "e8f451bd2a2361c9-01",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "The duty is a broad current-state assessment across people, process, technology, data, governance, and controls, which is too general to map to a specific covered capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8f451bd2a2361c9-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The duty is strategic operating-model improvement work, which is not a specific finance operations task in the coverage map.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8f451bd2a2361c9-03",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The duty is project planning and program management, which does not match any listed finance operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8f451bd2a2361c9-04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The duty identifies improvement opportunities across multiple accounting processes, which is transformation consulting rather than an end-to-end platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8f451bd2a2361c9-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "The duty manages roles, responsibilities, policies, procedures, and performance expectations, which is people and policy management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8f451bd2a2361c9-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "The duty partners with accounting leaders to drive process change and improvement, which is advisory and cross-functional collaboration.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8f451bd2a2361c9-07",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "The duty is identifying automation and analytics opportunities, which is an improvement assessment rather than a specific covered workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8f451bd2a2361c9-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The duty partners with technology and business stakeholders to define requirements and implement solutions, which is stakeholder management and project coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8f451bd2a2361c9-09",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The duty concerns systems and data standardization and reducing manual tools, which is broad transformation work without a specific mapped capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8f451bd2a2361c9-10",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "The duty is project managing SEC reporting readiness and governance activities, which is program coordination rather than a covered finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8f451bd2a2361c9-11",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "The duty is assisting with IPO readiness gaps, which is a broad transformation/support activity not tied to a specific covered process.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8f451bd2a2361c9-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The duty provides reporting to senior leadership, which is presentation and communication to leadership.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8f451bd2a2361c9-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The duty leads change-management efforts, which is organizational leadership and adoption management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8f451bd2a2361c9-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The duty builds relationships and influences stakeholders, which is inherently human relationship management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8f451bd2a2361c9-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The duty promotes organizational culture and operational excellence, which is leadership and team influence work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "posting_id": "1bf27ff915731027",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "1bf27ff915731027-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Leading and improving the team’s processes is management and process redesign work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1bf27ff915731027-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Overseeing monthly close activities is supervisory close management rather than executing a specific close task end to end.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1bf27ff915731027-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Reviewing, verifying, and approving journal entries is human review and approval, not preparing and posting them.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1bf27ff915731027-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Reviewing reconciliations for compliance is human review of work product rather than performing the reconciliation itself.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1bf27ff915731027-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Reviewing account balances and classifications is account analysis review, but the action is verification rather than doing a reconciliation workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1bf27ff915731027-06",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.93,
+      "rationale": "Analyzing balance sheet and income statement changes to explain errors matches variance analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1bf27ff915731027-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Reviewing flux explanations and ensuring presentation to leadership is human review and presentation work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1bf27ff915731027-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Identifying SOX impacts from process and systems changes requires judgment about controls and policy, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1bf27ff915731027-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with Internal Audit and updating flowcharts and the risk-control matrix is cross-functional relationship work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1bf27ff915731027-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Delivering reporting by working cross-functionally is partnership work, not a specific automated reporting capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1bf27ff915731027-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Managing day-to-day task assignments is staff/work management, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1bf27ff915731027-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Maintaining the chart of accounts is routine finance master-data administration that could be automated but matches no listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1bf27ff915731027-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.62,
+      "rationale": "Maintaining financial report content is routine reporting administration, but no listed capability directly covers report maintenance.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1bf27ff915731027-14",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.48,
+      "rationale": "Issue escalation and resolution is too vague to determine the specific finance operation being performed.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1bf27ff915731027-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Assisting with 10-Q/K footnote preparation and review is SEC reporting support, which is outside the platform capabilities.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1bf27ff915731027-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Annual accounting policy review is policy-setting and interpretation work, which requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1bf27ff915731027-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Convention analysis for assigned areas is technical accounting judgment, not a standard automated workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1bf27ff915731027-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Improving the month-end close and other accounting processes is process redesign work, which is human-led.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

@@ -6,19 +6,24 @@
   "role_family": "Revenue",
   "seniority": "manager",
   "locations": [
-    "Denver, Colorado, United States; San Francisco, California, United States",
+    "Denver, Colorado, United States",
     "San Francisco, California, United States"
   ],
-  "remote": "unknown",
+  "remote": "hybrid",
   "salary": {
     "min": 128000,
     "max": 178000,
     "period": "year",
     "currency": "USD",
-    "raw_text": "$151,000—$178,000 USD"
+    "raw_text": "On-target Earnings OR Base Salary range (San Francisco, CA)\n\n$151,000—$178,000 USD\n\nOn-target Earnings OR Base Salary range (Denver, CO)\n\n$128,000—$151,000 USD"
   },
   "erp": [],
-  "tools": [],
+  "tools": [
+    "Claude",
+    "Lovable",
+    "Cursor",
+    "Gemini"
+  ],
   "complexity": {
     "multi_entity": false,
     "multi_currency": false,
@@ -26,76 +31,401 @@
     "high_volume": false,
     "entity_count": null
   },
-  "pain_phrases": [],
+  "pain_phrases": [
+    "manual work across the quote-to-cash lifecycle",
+    "as the business scales"
+  ],
   "duties": [
     {
-      "duty_id": "692ef12fde873670-h01",
-      "text": "Own technical revenue accounting under ASC 606",
+      "duty_id": "692ef12fde873670-01",
+      "text": "Checkr is building the data platform to power safe and fair decisions.",
+      "source_span": "Checkr is building the data platform to power safe and fair decisions.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-02",
+      "text": "We’re a team that thrives on solving complex problems with innovative solutions that advance our mission.",
+      "source_span": "We’re a team that thrives on solving complex problems with innovative solutions that advance our mission.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-03",
+      "text": "Own technical revenue accounting under ASC 606.",
       "source_span": "Own technical revenue accounting under ASC 606",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "692ef12fde873670-h02",
-      "text": "Assess complex contracts and non-standard deal structures",
-      "source_span": "including contract assessments, non-standard deal structures",
+      "duty_id": "692ef12fde873670-04",
+      "text": "Serve as subject matter expert for complex revenue recognition matters.",
+      "source_span": "serving as subject matter expert for complex revenue recognition matters",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "692ef12fde873670-h03",
-      "text": "Lead the month-end and quarter-end revenue close",
-      "source_span": "Lead the revenue accounting close for month-end and quarter-end",
+      "duty_id": "692ef12fde873670-05",
+      "text": "Review contract assessments.",
+      "source_span": "contract assessments",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "692ef12fde873670-h04",
-      "text": "Ensure accurate and timely revenue recognition",
-      "source_span": "ensuring accurate and timely revenue recognition",
+      "duty_id": "692ef12fde873670-06",
+      "text": "Review non-standard deal structures.",
+      "source_span": "non-standard deal structures",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "692ef12fde873670-h05",
-      "text": "Prepare revenue reconciliations",
-      "source_span": "reconciliations, and reporting",
+      "duty_id": "692ef12fde873670-07",
+      "text": "Review evolving pricing and product models.",
+      "source_span": "evolving pricing and product models",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "692ef12fde873670-h06",
-      "text": "Provide strategic accounting guidance to the business",
+      "duty_id": "692ef12fde873670-08",
+      "text": "Lead the revenue accounting close for month-end.",
+      "source_span": "Lead the revenue accounting close for month-end",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-09",
+      "text": "Lead the revenue accounting close for quarter-end.",
+      "source_span": "quarter-end",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-10",
+      "text": "Ensure accurate and timely revenue recognition.",
+      "source_span": "revenue recognition",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-11",
+      "text": "Ensure accurate and timely reconciliations.",
+      "source_span": "reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-12",
+      "text": "Ensure accurate and timely reporting.",
+      "source_span": "reporting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-13",
+      "text": "Provide strategic accounting guidance to the business.",
       "source_span": "Provide strategic accounting guidance to the business",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "692ef12fde873670-h07",
-      "text": "Build AI tools that automate quote-to-cash work",
-      "source_span": "Design, prototype, and ship AI-enabled tools and agents",
+      "duty_id": "692ef12fde873670-14",
+      "text": "Partner with Sales, Deal Desk, Legal, RevOps, and FP&A to influence deal structures.",
+      "source_span": "partnering with Sales, Deal Desk, Legal, RevOps, and FP&A to influence deal structures",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "692ef12fde873670-h08",
-      "text": "Draft technical accounting memos",
+      "duty_id": "692ef12fde873670-15",
+      "text": "Partner with Sales, Deal Desk, Legal, RevOps, and FP&A to influence product launches.",
+      "source_span": "product launches",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-16",
+      "text": "Partner with Sales, Deal Desk, Legal, RevOps, and FP&A to influence go-to-market initiatives before execution.",
+      "source_span": "go-to-market initiatives before execution",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-17",
+      "text": "Design AI-enabled tools and agents.",
+      "source_span": "Design",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-18",
+      "text": "Prototype AI-enabled tools and agents.",
+      "source_span": "prototype",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-19",
+      "text": "Ship AI-enabled tools and agents.",
+      "source_span": "ship AI-enabled tools and agents",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-20",
+      "text": "Automate manual work across the quote-to-cash lifecycle.",
+      "source_span": "automate manual work across the quote-to-cash lifecycle",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-21",
+      "text": "Draft technical accounting memos.",
       "source_span": "Draft technical accounting memos",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "692ef12fde873670-h09",
-      "text": "Maintain SOX documentation and own key controls",
-      "source_span": "maintain SOX-ready documentation, owning key controls",
+      "duty_id": "692ef12fde873670-22",
+      "text": "Maintain SOX-ready documentation.",
+      "source_span": "maintain SOX-ready documentation",
       "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-23",
+      "text": "Own key controls.",
+      "source_span": "owning key controls",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-24",
+      "text": "Support audit readiness across revenue processes as the business scales.",
+      "source_span": "supporting audit readiness across revenue processes as the business scales",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-25",
+      "text": "Lead high-impact revenue initiatives.",
+      "source_span": "Lead high-impact revenue initiatives",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-26",
+      "text": "Apply technical judgment.",
+      "source_span": "applying technical judgment",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-27",
+      "text": "Apply analytical insight.",
+      "source_span": "analytical insight",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-28",
+      "text": "Enable compliant growth.",
+      "source_span": "enable compliant growth",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-29",
+      "text": "Enable data-driven decision-making.",
+      "source_span": "data-driven decision-making",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-30",
+      "text": "Special projects.",
+      "source_span": "special projects",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-31",
+      "text": "Bachelor's degree in Accounting or related field.",
+      "source_span": "Bachelor's degree in Accounting or related field",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-32",
+      "text": "CPA strongly preferred.",
+      "source_span": "CPA strongly preferred",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-33",
+      "text": "6+ years of progressive revenue accounting experience.",
+      "source_span": "6+ years of progressive revenue accounting experience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-34",
+      "text": "Big 4 plus industry preferred.",
+      "source_span": "Big 4 plus industry preferred",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-35",
+      "text": "Deep technical expertise in U.S. GAAP and ASC 606.",
+      "source_span": "Deep technical expertise in U.S. GAAP and ASC 606",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-36",
+      "text": "Evaluate complex customer contracts.",
+      "source_span": "evaluating complex customer contracts",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-37",
+      "text": "Evaluate non-standard deal structures.",
+      "source_span": "non-standard deal structures",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-38",
+      "text": "Evaluate revenue recognition judgments.",
+      "source_span": "revenue recognition judgments",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-39",
+      "text": "Track record owning revenue close activities with increasing scope, speed, and accuracy.",
+      "source_span": "Track record owning revenue close activities with increasing scope, speed, and accuracy",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-40",
+      "text": "Strong project ownership leading ambiguous or cross-functional initiatives.",
+      "source_span": "strong project ownership leading ambiguous or cross-functional initiatives",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-41",
+      "text": "Demonstrated AI fluency.",
+      "source_span": "Demonstrated AI fluency",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-42",
+      "text": "Build and ship tools or agents.",
+      "source_span": "building and shipping tools or agents",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-43",
+      "text": "Hands-on SQL/BI experience.",
+      "source_span": "hands-on SQL/BI experience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-44",
+      "text": "Excellent written and verbal communicator.",
+      "source_span": "Excellent written and verbal communicator",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-45",
+      "text": "Partner effectively with Sales, Deal Desk, Legal, Product, RevOps, FP&A, and Engineering.",
+      "source_span": "partners effectively with Sales, Deal Desk, Legal, Product, RevOps, FP&A, and Engineering",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-46",
+      "text": "Translate technical accounting conclusions for non-technical stakeholders.",
+      "source_span": "translating technical accounting conclusions for non-technical stakeholders",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-47",
+      "text": "An A-player mindset.",
+      "source_span": "An A-player mindset",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-48",
+      "text": "Strong bias for action.",
+      "source_span": "strong bias for action",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-49",
+      "text": "Raise the bar.",
+      "source_span": "you raise the bar",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-50",
+      "text": "Move with urgency.",
+      "source_span": "move with urgency",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-51",
+      "text": "Stay resilient through ambiguity.",
+      "source_span": "stay resilient through ambiguity",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-52",
+      "text": "Take ownership to deliver meaningful outcomes.",
+      "source_span": "take ownership to deliver meaningful outcomes",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "692ef12fde873670-53",
+      "text": "A fast-paced and collaborative environment",
+      "source_span": "A fast-paced and collaborative environment",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-54",
+      "text": "Flexible PTO policy",
+      "source_span": "Flexible PTO policy",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "692ef12fde873670-55",
+      "text": "Monthly wellness stipend",
+      "source_span": "Monthly wellness stipend",
+      "is_boilerplate": true,
       "is_requirement": false
     }
   ],
   "posted_at": "2026-09-29T16:55:31-04:00",
   "source_url": "https://job-boards.greenhouse.io/checkr/jobs/8241317",
-  "fetched_at": "2026-10-21T03:26:47.797Z",
-  "prompt_version": "hand-labelled",
+  "fetched_at": "2026-10-21T17:34:06.780Z",
+  "prompt_version": "extract-v1",
   "text": "About Checkr\nCheckr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a date. Customers include Uber, Pennymac, Airbnb, Doordash, and Anthropic.\n\nWe’re a team that thrives on solving complex problems with innovative solutions that advance our mission. Checkr is recognized on Forbes Cloud 100 2025 List and is a Y Combinator 2024 Breakthrough Company.\n\nAbout the team/role\n\nReporting to the Senior Manager of Revenue Accounting and based in San Francisco, CA or Denver, CO, you'll play a strategic, highly visible role within Checkr's Finance Operations (FinOps) organization — shaping how deals are structured and new revenue models come to market while ensuring alignment with ASC 606 and U.S. GAAP. You'll lead technical revenue accounting analyses, own the revenue close process, and translate accounting guidance into clear, scalable policies that balance compliance, efficiency, and commercial impact. You'll partner closely with Sales, Deal Desk, Legal, and RevOps to influence decisions that directly shape Checkr's continued growth.\n\nWhat you’ll do\n\n• Own technical revenue accounting under ASC 606, serving as subject matter expert for complex revenue recognition matters, including contract assessments, non-standard deal structures, and evolving pricing and product models.\n\n• Lead the revenue accounting close for month-end and quarter-end, ensuring accurate and timely revenue recognition, reconciliations, and reporting.\n\n• Provide strategic accounting guidance to the business, partnering with Sales, Deal Desk, Legal, RevOps, and FP&A to influence deal structures, product launches, and go-to-market initiatives before execution.\n\n• Design, prototype, and ship AI-enabled tools and agents that automate manual work across the quote-to-cash lifecycle, compounding impact within the team and beyond.\n\n• Draft technical accounting memos and maintain SOX-ready documentation, owning key controls and supporting audit readiness across revenue processes as the business scales.\n\n• Lead high-impact revenue initiatives and special projects, applying technical judgment and analytical insight to enable compliant growth and data-driven decision-making.\n\nWhat you bring\n\n• Bachelor's degree in Accounting or related field; CPA strongly preferred; 6+ years of progressive revenue accounting experience (Big 4 plus industry preferred).\n\n• Deep technical expertise in U.S. GAAP and ASC 606, with demonstrated experience evaluating complex customer contracts, non-standard deal structures, and revenue recognition judgments.\n\n• Track record owning revenue close activities with increasing scope, speed, and accuracy, plus strong project ownership leading ambiguous or cross-functional initiatives.\n\n• Demonstrated AI fluency — you've moved past using AI for one-off tasks toward building and shipping tools or agents (e.g., with Claude, Lovable, Cursor, Gemini, or similar) that create leverage for the broader team, with hands-on SQL/BI experience.\n\n• Excellent written and verbal communicator who partners effectively with Sales, Deal Desk, Legal, Product, RevOps, FP&A, and Engineering — translating technical accounting conclusions for non-technical stakeholders.\n\n• An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes.\n\n#LI-CJ2\n\nPay Transparency Disclosure\n\nWe use geographic cost of labor as an input to develop ranges for our roles and as such, each location where we hire may have a different range. If this role is remote, we have listed the top to the bottom of the possible range, but we will specify the target range for an exact location when you are selected for a recruiting discussion. For more information on our compensation philosophy, see our website.\n\nOn-target Earnings OR Base Salary range (San Francisco, CA)\n\n$151,000—$178,000 USD\n\nOn-target Earnings OR Base Salary range (Denver, CO)\n\n$128,000—$151,000 USD\n\nWhat We Offer\n\n• A fast-paced and collaborative environment\n\n• Learning and development allowance\n\n• Competitive cash and equity compensation, and opportunity for advancement\n\n• 100% medical, dental, and vision coverage\n\n• Up to $25K reimbursement for fertility, adoption, and parental planning services\n\n• Flexible PTO policy\n\n• Monthly wellness stipend\n\nAt Checkr, we believe an in office work environment strengthens collaboration, drives innovation, and encourages connection. Our hub locations are Denver, CO; San Francisco, CA; Nashville, TN; and Santiago, Chile. Individuals are expected to work from the office 3+ days a week. In-office perks are provided, such as lunch five times a week, a commuter stipend, and an abundance of snacks and beverages. A relocation stipend may be available for those willing to relocate to a Checkr hub location.\n\nEqual Employment Opportunities at Checkr\nCheckr is committed to building the best product and company, which requires hiring talented and qualified individuals with a diverse set of perspectives and lived experiences. Checkr believes in hiring people of all backgrounds, including those whose histories are impacted by the justice system in accordance with local, state, and/or federal laws, including the San Francisco’s Fair Chance Ordinance.\n\nApplicant Privacy Policy\nIf you are a California resident or are located in Alberta or British Columbia, our Applicant Privacy Policy applies to our collection and processing of your personal information when you apply for a role with us or otherwise participate in our recruitment process.\n\nFor applicants in Massachusetts: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.\n\n*Legitimate Checkr emails will always include our official domain name after the @ symbol (e.g., name@checkr.com or name@ext.checkr.com).",
   "extra_salary_lines": [],
   "salary_source": "posting_text",

@@ -1,0 +1,357 @@
+{
+  "posting_id": "399007f4ec599573",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "399007f4ec599573-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Supporting on-time payroll processing is payroll administration that is not covered by the finance-operations capabilities listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Benefits administration is HR administration and does not match any covered finance-operations capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Preparing semi-monthly payroll is payroll processing, which is outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Reviewing timesheets is payroll input validation and not a listed finance-operations capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Reconciling PTO balances is an HR/payroll admin task with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Reviewing payroll data inputs before a pay run is payroll processing work that is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Processing payroll adjustments for new hires is payroll administration outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Processing payroll adjustments for terminations is payroll administration outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Processing payroll adjustments for pay changes is payroll administration outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Processing garnishment adjustments is payroll processing with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Processing voluntary deductions is payroll administration outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Year-end payroll activities are payroll operations and are not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Distributing W-2s is payroll tax form handling and does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Reconciling W-2s is year-end payroll administration with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Responding to employee pay inquiries is support work that is outside the listed finance-operations capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Responding to employee deduction inquiries is support work that is outside the listed finance-operations capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Responding to paycheck reconciliation inquiries is payroll support work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Administering employee benefits programs is HR administration and not a listed finance-operations capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Preparing open enrollment communications is HR admin work and does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Hosting open enrollment informational sessions is presenting and training, which is human work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Guiding employees through elections is advisory work with human judgment and interaction.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-22",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Processing enrollments with carriers and benefit platforms is administrative processing outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-23",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Processing qualifying life event changes with carriers and benefit platforms is administrative processing outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-24",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Processing terminations with carriers and benefit platforms is administrative processing outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Reconciling monthly benefit invoices is invoice administration, but no listed capability covers benefits invoice reconciliation end to end.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Coordinating with Finance is partnering with another team, which is human work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Being the first point of contact for coverage questions is relationship and advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Being the first point of contact for eligibility questions is advisory support work with employees.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Being the first point of contact for claims questions is employee support and relationship work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-30",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Maintaining employee records in HRIS and payroll systems is data administration not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-31",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Assisting with ACA, COBRA, ERISA, and state/local filings is compliance filing work not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-32",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.69,
+      "rationale": "Supporting audits of payroll and benefits data matches audit support, though it is not specifically a financial statement audit.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-33",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Tracking FMLA and leave documentation in partnership with HR is cross-functional collaboration with HR.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-34",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with HR, Finance, and People Ops on projects is collaboration and process work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-35",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Conducting benefits orientations is training/presenting, and that is human work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-36",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Generating standard payroll reports is reporting work that does not match a listed finance-operations capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-37",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Generating ad hoc payroll reports is reporting work outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-38",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Generating standard benefits reports is reporting work outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "399007f4ec599573-39",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Generating ad hoc benefits reports is reporting work outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    }
+  ]
+}

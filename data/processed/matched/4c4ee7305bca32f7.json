@@ -1,0 +1,78 @@
+{
+  "posting_id": "4c4ee7305bca32f7",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "4c4ee7305bca32f7-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering closely with Product and Clinical Operations is cross-functional collaboration and relationship management, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c4ee7305bca32f7-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Shaping patient retention strategy is setting strategy and making judgment calls, not a finance operations automation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c4ee7305bca32f7-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Evaluating trade-offs is strategic judgment that requires human decision-making.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c4ee7305bca32f7-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Driving strategic trade-offs with modeling and analysis is decision support for strategy, which remains human-led.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c4ee7305bca32f7-12",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.75,
+      "rationale": "Turning complex financial data into actionable insights matches ad hoc financial analysis and answering finance questions.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c4ee7305bca32f7-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Balancing short-term efficiency with long-term impact is strategic judgment rather than a defined automated finance workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c4ee7305bca32f7-14",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Navigate ambiguity is too vague to map to a specific finance operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c4ee7305bca32f7-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Shaping strategic decisions is leadership and advisory work that depends on human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

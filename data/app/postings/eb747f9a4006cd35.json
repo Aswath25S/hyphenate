@@ -1,0 +1,803 @@
+{
+  "posting_id": "eb747f9a4006cd35",
+  "company": "Plaid",
+  "slug": "plaid",
+  "domain": "plaid.com",
+  "title": "Senior Financial Analyst, Corporate Finance & Strategy",
+  "role_family": "Reporting_FPA",
+  "seniority": "senior",
+  "n": 24,
+  "C": 0,
+  "A": 1,
+  "covered_share": 0,
+  "overlap": 0.041666666666666664,
+  "weighted_overlap": 0.020833333333333332,
+  "thin": false,
+  "salary_min": 130000,
+  "salary_max": 171000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 0,
+  "savings_reason": null,
+  "lead_product": "Reporting",
+  "product_split": {
+    "Reporting": {
+      "covered": 0,
+      "assisted": 1,
+      "weighted": 0.5
+    }
+  },
+  "erp": [],
+  "tools": [],
+  "posted_at": "2026-09-23T20:54:15.923+00:00",
+  "source_url": "https://jobs.ashbyhq.com/plaid/e872aa15-c768-40be-8986-2f1fa2a686f3",
+  "locations": [
+    "San Francisco HQ"
+  ],
+  "remote": "unknown",
+  "excluded": null,
+  "text": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortune 500, and many of the largest banks to make it easy for people to connect their financial accounts to the apps and services they want to use. Plaid’s network covers 12,000 financial institutions across the US, Canada, UK and Europe. Founded in 2013, the company is headquartered in San Francisco with offices in New York, Seattle, Washington D.C., Raleigh, London, and Amsterdam.\n\n\n\nWe are looking for a Senior Financial Analyst to join the Corporate Finance team. This is the strategic, externally-oriented arm of the team — covering the board process, long range planning, capital structure, SBC and equity modeling, and enterprise-level financial strategy. You will partner closely with the CFO, Leadership, the Board, Corp Dev, and Accounting on the decisions that shape Plaid’s long-term financial trajectory.\n\n \n\nWhat excites us:\n\n - 5+ years of work experience including financial planning & analysis, corporate finance, investment banking, private equity, strategic finance, or management consulting — ideally with tech, SaaS, or fintech exposure.\n\n - Advanced financial modeling skills, with hands-on experience building long range, scenario/sensitivity, or valuation models.\n\n - Strong command of consolidated financial statements, key SaaS / fintech operating metrics, and external benchmarking.\n\n - Excellent communication and storytelling skills — able to move fluidly between granular model detail and an executive-level narrative for senior leaders and the Board.\n\n - Proven ability to partner cross-functionally and distill complex, ambiguous topics into structured frameworks and clear recommendations.\n\n - Proactive self-starter with intellectual curiosity, a can-do attitude, and the ability to thrive in a high-autonomy, fast-paced environment.\n\n - Passion for leveraging AI, automation, and systems thinking to drive operational excellence, improve financial processes, and build scalable planning and decision report frameworks.\n\n \n\nWhat excites you:\n\n - Own components of Plaid’s 3–5 year long range plan — model design, scenario analysis, and translation of company strategy into financial targets.\n\n - Partner on end-to-end PMO of the quarterly Board process, including framework development, narrative ownership, materials build, and Q&A management.\n\n - Build and operationalize SBC and equity modeling, incorporating HC growth, grant cadence, forfeitures, and refresh cycles — and tie SBC into the path to GAAP profitability, EBITDA, and margin analysis.\n\n - Lead consolidated cash flow forecasting and contingency / management reserve strategy, and run total company forecast reviews against company targets.\n\n - Drive external benchmarking against peer companies on key financial and non-financial metrics, and build the analytical foundations that inform long-term capital and operating decisions.\n\n - Partner with Corp Dev on capital raise activities, including pro-forma reporting, forecasting, and capital structure analysis.\n\n - Perform ad hoc analyses that influence long-term business planning and decision-making.\n\n \n\nOur mission at Plaid is to unlock financial freedom for everyone. To support that mission, we seek to build a diverse team of driven individuals who care deeply about making the financial ecosystem more equitable. We recognize that strong qualifications can come from both prior work experiences and lived experiences. We encourage you to apply to a role even if your experience doesn't fully match the job description. We are always looking for team members that will bring something unique to Plaid!\n\n\n\nPlaid is proud to be an equal opportunity employer and values diversity at our company. We do not discriminate based on race, color, national origin, ethnicity, religion or religious belief, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, military or veteran status, disability, or other applicable legally protected characteristics. We also consider qualified applicants with criminal histories, consistent with applicable federal, state, and local laws. Plaid is committed to providing reasonable accommodations for candidates with disabilities in our recruiting process. If you need any assistance with your application or interviews due to a disability, please let us know at accommodations@plaid.com.\n\n\n\nPlease review our Candidate Privacy Notice here https://plaid.com/legal/#candidate-privacy-notice.\n\n\nAdditional compensation in the form(s) of equity and/or commission are dependent on the position offered. Plaid provides a comprehensive benefit plan, including medical, dental, vision, and 401(k). Pay is based on factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience and skillset, and location. Pay and benefits are subject to change at any time, consistent with the terms of any applicable compensation or benefit plans.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 130000,
+    "max": 171000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Job board pay data: $130K – $171K"
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "fetched_at": "2026-10-21T17:34:06.617Z",
+  "ats": "ashby",
+  "duties": [
+    {
+      "duty_id": "eb747f9a4006cd35-01",
+      "text": "Own Plaid’s 3–5 year long range plan",
+      "source_span": "Own components of Plaid’s 3–5 year long range plan",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2398,
+        "end": 2448
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Owning a 3–5 year long-range plan is FP&A planning work that is outside the listed capabilities.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-02",
+      "text": "Design the model",
+      "source_span": "model design",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2451,
+        "end": 2463
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.91,
+      "rationale": "\"Design the model\" is too vague to tell what financial action is being performed.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-03",
+      "text": "Perform scenario analysis",
+      "source_span": "scenario analysis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2465,
+        "end": 2482
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Scenario analysis is long-range planning/modeling work that is not covered by the map.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-04",
+      "text": "Translate company strategy into financial targets",
+      "source_span": "translation of company strategy into financial targets",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2488,
+        "end": 2542
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.91,
+      "rationale": "Translating company strategy into financial targets is a judgment-heavy planning activity.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-05",
+      "text": "Partner on end-to-end PMO of the quarterly Board process",
+      "source_span": "Partner on end-to-end PMO of the quarterly Board process",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2548,
+        "end": 2604
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Partnering on the quarterly Board process is cross-functional coordination and board support.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-06",
+      "text": "Develop the framework",
+      "source_span": "framework development",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2616,
+        "end": 2637
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "\"Develop the framework\" does not specify a finance operation that can be matched.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-07",
+      "text": "Own the narrative",
+      "source_span": "narrative ownership",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2639,
+        "end": 2658
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Owning the narrative is board/presentation work that depends on human judgment.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-08",
+      "text": "Build materials",
+      "source_span": "materials build",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2660,
+        "end": 2675
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.89,
+      "rationale": "\"Build materials\" is too generic to map to a specific finance capability.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-09",
+      "text": "Manage Q&A",
+      "source_span": "Q&A management",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2681,
+        "end": 2695
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Managing Q&A is a presentation and stakeholder-interaction task requiring human judgment.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-10",
+      "text": "Build SBC and equity modeling",
+      "source_span": "Build and operationalize SBC and equity modeling",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2701,
+        "end": 2749
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Building SBC and equity modeling is stock-based compensation work, which is explicitly outside the covered capabilities.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-11",
+      "text": "Incorporate HC growth, grant cadence, forfeitures, and refresh cycles",
+      "source_span": "incorporating HC growth, grant cadence, forfeitures, and refresh cycles",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2751,
+        "end": 2822
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Incorporating headcount growth, grant cadence, forfeitures, and refresh cycles is equity-comp modeling that is not covered.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-12",
+      "text": "Tie SBC into the path to GAAP profitability",
+      "source_span": "tie SBC into the path to GAAP profitability",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2829,
+        "end": 2872
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Tying SBC into GAAP profitability is compensation-related planning/modeling outside the map.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-13",
+      "text": "Tie SBC into EBITDA",
+      "source_span": "EBITDA",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2874,
+        "end": 2880
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Tying SBC into EBITDA is compensation-related planning/modeling outside the map.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-14",
+      "text": "Tie SBC into margin analysis",
+      "source_span": "margin analysis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2886,
+        "end": 2901
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Tying SBC into margin analysis is compensation-related planning/modeling outside the map.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-15",
+      "text": "Lead consolidated cash flow forecasting",
+      "source_span": "Lead consolidated cash flow forecasting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2907,
+        "end": 2946
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Leading consolidated cash flow forecasting is long-range FP&A forecasting rather than the listed treasury cash forecast capability.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-16",
+      "text": "Lead contingency / management reserve strategy",
+      "source_span": "contingency / management reserve strategy",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2951,
+        "end": 2992
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Contingency or management reserve strategy is policy and judgment work, not an automated finance operation.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-17",
+      "text": "Run total company forecast reviews against company targets",
+      "source_span": "run total company forecast reviews against company targets",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2998,
+        "end": 3056
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Reviewing company forecasts against targets is planning/management review work without a matching capability.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-18",
+      "text": "Drive external benchmarking against peer companies on key financial and non-financial metrics",
+      "source_span": "Drive external benchmarking against peer companies on key financial and non-financial metrics",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3062,
+        "end": 3155
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "External benchmarking against peers is an FP&A analysis task not covered by the map.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-19",
+      "text": "Build the analytical foundations that inform long-term capital and operating decisions",
+      "source_span": "build the analytical foundations that inform long-term capital and operating decisions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3161,
+        "end": 3247
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Building analytical foundations for long-term decisions is too broad to map to a specific finance capability.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-20",
+      "text": "Partner with Corp Dev on capital raise activities",
+      "source_span": "Partner with Corp Dev on capital raise activities",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3253,
+        "end": 3302
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Corp Dev on capital raises is cross-functional transaction support and relationship work.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-21",
+      "text": "Prepare pro-forma reporting",
+      "source_span": "pro-forma reporting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3314,
+        "end": 3333
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.87,
+      "rationale": "Preparing pro-forma reporting is reporting work that does not match a listed capability.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-22",
+      "text": "Build forecasting",
+      "source_span": "forecasting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2935,
+        "end": 2946
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "\"Build forecasting\" is too vague to determine whether it is treasury, FP&A, or another process.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-23",
+      "text": "Perform capital structure analysis",
+      "source_span": "capital structure analysis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3352,
+        "end": 3378
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Capital structure analysis is financial modeling work with no matching capability in the map.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-24",
+      "text": "Perform ad hoc analyses that influence long-term business planning and decision-making",
+      "source_span": "Perform ad hoc analyses that influence long-term business planning and decision-making",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3384,
+        "end": 3470
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.adhoc_analysis",
+      "capability": "Answer finance questions traced to source entries",
+      "product": "Reporting",
+      "confidence": 0.82,
+      "rationale": "Performing ad hoc analyses that inform business planning matches ad hoc financial analysis, though the planning influence adds judgment.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-25",
+      "text": "5+ years of work experience including financial planning & analysis, corporate finance, investment banking, private equity, strategic finance, or management consulting — ideally with tech, SaaS, or fintech exposure.",
+      "source_span": "5+ years of work experience including financial planning & analysis, corporate finance, investment banking, private equity, strategic finance, or management consulting — ideally with tech, SaaS, or fintech exposure.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1261,
+        "end": 1476
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-26",
+      "text": "Advanced financial modeling skills, with hands-on experience building long range, scenario/sensitivity, or valuation models.",
+      "source_span": "Advanced financial modeling skills, with hands-on experience building long range, scenario/sensitivity, or valuation models.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1481,
+        "end": 1605
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-27",
+      "text": "Strong command of consolidated financial statements, key SaaS / fintech operating metrics, and external benchmarking.",
+      "source_span": "Strong command of consolidated financial statements, key SaaS / fintech operating metrics, and external benchmarking.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1610,
+        "end": 1727
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-28",
+      "text": "Excellent communication and storytelling skills — able to move fluidly between granular model detail and an executive-level narrative for senior leaders and the Board.",
+      "source_span": "Excellent communication and storytelling skills — able to move fluidly between granular model detail and an executive-level narrative for senior leaders and the Board.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1732,
+        "end": 1899
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-29",
+      "text": "Proven ability to partner cross-functionally and distill complex, ambiguous topics into structured frameworks and clear recommendations.",
+      "source_span": "Proven ability to partner cross-functionally and distill complex, ambiguous topics into structured frameworks and clear recommendations.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1904,
+        "end": 2040
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-30",
+      "text": "Proactive self-starter with intellectual curiosity, a can-do attitude, and the ability to thrive in a high-autonomy, fast-paced environment.",
+      "source_span": "Proactive self-starter with intellectual curiosity, a can-do attitude, and the ability to thrive in a high-autonomy, fast-paced environment.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2045,
+        "end": 2185
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-31",
+      "text": "Passion for leveraging AI, automation, and systems thinking to drive operational excellence, improve financial processes, and build scalable planning and decision report frameworks.",
+      "source_span": "Passion for leveraging AI, automation, and systems thinking to drive operational excellence, improve financial processes, and build scalable planning and decision report frameworks.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2190,
+        "end": 2371
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

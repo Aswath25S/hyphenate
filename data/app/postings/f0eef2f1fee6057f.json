@@ -1,0 +1,509 @@
+{
+  "posting_id": "f0eef2f1fee6057f",
+  "company": "Watershed",
+  "slug": "watershed",
+  "domain": "watershed.com",
+  "title": "Corporate FP&A manager",
+  "role_family": "Reporting_FPA",
+  "seniority": "manager",
+  "n": 14,
+  "C": 0,
+  "A": 4,
+  "covered_share": 0,
+  "overlap": 0.2857142857142857,
+  "weighted_overlap": 0.14285714285714285,
+  "thin": false,
+  "salary_min": 147600,
+  "salary_max": 195000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 0,
+  "savings_reason": null,
+  "lead_product": "Reporting",
+  "product_split": {
+    "Reporting": {
+      "covered": 0,
+      "assisted": 3,
+      "weighted": 1.5
+    },
+    "Treasury": {
+      "covered": 0,
+      "assisted": 1,
+      "weighted": 0.5
+    }
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Salesforce",
+    "Rippling"
+  ],
+  "posted_at": "2026-09-14T15:07:24.971+00:00",
+  "source_url": "https://jobs.ashbyhq.com/watershed/c5401fe8-648b-41a3-a7c0-60e74efecdb6",
+  "locations": [
+    "San Francisco"
+  ],
+  "remote": "hybrid",
+  "excluded": null,
+  "text": "ABOUT WATERSHED\n\nWatershed https://watershed.com/ is the enterprise sustainability platform. Companies like Airbnb, Carlyle Group, FedEx, Visa, and Dr. Martens use Watershed to manage climate and ESG data, produce audit-ready metrics for voluntary and regulatory reporting including CSRD, and drive real decarbonization. We are looking for team members who love product-building, want to work hard at a mission-oriented startup, and will collaborate with us in shaping the culture of a growing team.\n\n\n\nWe have offices in San Francisco, New York, Denver, London, Paris, Berlin, Sydney, Mexico City, and remote team members across the US and Europe. We hope that you'll be interested in joining us!\n\n\n\n\nTHE ROLE\n\nWe’re looking for a Corporate FP&A Manager to own our corporate financial model and serve as a primary finance partner to our Product, Customer, Business Foundation and Executive team.\n\nReporting to our Head of Finance, you will lead managing budget and forecast processes, variance analysis, and shaping how we measure and communicate company performance. You will work closely with our Founders, executive leadership, and key cross-functional partners to ensure financial rigor and visibility across the organization.\n\nWhat You Will Do\n\nCorporate Planning & Consolidation\n\n - Lead Company-Wide Planning & Forecasting: own the short and long-term corporate financial models as well as planning processes to ensure accuracy and agility in planning across revenue, headcount, expenses, and cash flow including tax forecasting and infrastructure planning\n\n - Lead monthly and quarterly close, board and investor reporting: budget vs. actual analysis at both corporate and departmental levels. Owning core SaaS metrics: Gross Margin %, Magic Number, Cash Burn Multiple, Rule of 40\n\n - Drive the cash model: to guide capital allocation\n\n - Translate complex financial data: into clear insights that drive operational performance and executive decision-making\n\nExpense & Business Partnership\n\n - Finance partner to Product, Engineering, Design & Science on spend and resourcing decisions\n\n - Partner with Business Foundation and the Customer org to align resourcing with demand, watching gross margin\n\n - Own headcount and opex planning with department heads\n\nWhat You Will Bring\n\n - 6-8+ years in FP&A, Strategic Finance, or Investment Banking / Venture Capital / Private Equity, including 2+ years inside a high-growth B2B SaaS company\n\n - Strong financial modeling, P&L management, forecasting, and annual / long-range planning experience\n\n - Deep understanding of SaaS metrics and recurring revenue mechanics\n\n - Proven business partnering: able to translate complex financials for non-finance leaders and push back when it matters\n\n - Nice to have: experience with NetSuite, Salesforce, and/or Rippling (or equivalent CRM/ERP/HRIS platforms)\n\n   \n\n\n\n\n\n   \n\nMust be willing to work from an office 4 days per week (except for remote roles)\n\nWatershed has hub offices in San Francisco, New York, London, and Mexico City and satellite offices in Denver, Sydney, Paris, and Berlin. Where we have offices, employees are expected to be in office for 4 days per week. Certain jobs are open to being remote and will be specifically noted on the jobs page and in the job description if so.\n\n\n\nWhat’s the interview process like?\n\nIt starts the same for every candidate: getting to know the team members through 1 to 2 conversations about Watershed, your experience, and your interests. Next steps can vary by role, but usual next steps are a skill or experience interview (e.g. a coding interview for an engineer, a portfolio review for a designer, deeper experience call for other roles) which leads to a virtual or in person interview panel. We prioritize transparency and lack of surprise throughout the process.\n\n\n\nWhat if I need accommodations for my interview?\n\nAt Watershed, we are dedicated to ensuring an inclusive recruitment process. We provide reasonable accommodations for candidates with disabilities, long-term conditions, mental health needs, religious observances, neurodivergence, or pregnancy-related support requirements. If you need assistance during your process, please contact your recruiter.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 147600,
+    "max": 195000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Job board pay data: $147.6K – $195K • Offers Equity"
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "fetched_at": "2026-10-21T17:34:38.289Z",
+  "ats": "ashby",
+  "duties": [
+    {
+      "duty_id": "f0eef2f1fee6057f-01",
+      "text": "Own the short- and long-term corporate financial models",
+      "source_span": "own the short and long-term corporate financial models",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1332,
+        "end": 1386
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Owning short- and long-term corporate financial models is FP&A planning/modeling work and matches no covered capability.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "f0eef2f1fee6057f-02",
+      "text": "Lead planning processes across revenue, headcount, expenses, and cash flow",
+      "source_span": "planning processes to ensure accuracy and agility in planning across revenue, headcount, expenses, and cash flow",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1398,
+        "end": 1510
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Leading planning processes across functions is a coordination and management duty rather than an automated platform task.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "f0eef2f1fee6057f-03",
+      "text": "Prepare tax forecasting",
+      "source_span": "tax forecasting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1521,
+        "end": 1536
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.86,
+      "rationale": "Preparing tax forecasts is finance modeling work with no matching capability on the map.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "f0eef2f1fee6057f-04",
+      "text": "Plan infrastructure",
+      "source_span": "infrastructure planning",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1541,
+        "end": 1564
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.62,
+      "rationale": "Planning infrastructure is too vague to map to a specific covered finance operation.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "f0eef2f1fee6057f-05",
+      "text": "Lead monthly and quarterly close",
+      "source_span": "Lead monthly and quarterly close",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1569,
+        "end": 1601
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Leading monthly and quarterly close is managing the close process and team, not running close tasks end to end.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "f0eef2f1fee6057f-06",
+      "text": "Prepare board and investor reporting",
+      "source_span": "board and investor reporting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1603,
+        "end": 1631
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.88,
+      "rationale": "Preparing board and investor reporting matches building management reports and board deck financials.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "f0eef2f1fee6057f-07",
+      "text": "Perform budget vs. actual analysis at corporate and departmental levels",
+      "source_span": "budget vs. actual analysis at both corporate and departmental levels",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1633,
+        "end": 1701
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Budget versus actual analysis for planning is explicitly outside the flux-analysis capability and has no direct match.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "f0eef2f1fee6057f-08",
+      "text": "Own core SaaS metrics",
+      "source_span": "Owning core SaaS metrics: Gross Margin %, Magic Number, Cash Burn Multiple, Rule of 40",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1703,
+        "end": 1789
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.66,
+      "rationale": "Owning core SaaS metrics is too vague to determine whether it is reporting, analysis, or metric governance.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "f0eef2f1fee6057f-09",
+      "text": "Drive the cash model",
+      "source_span": "Drive the cash model",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1794,
+        "end": 1814
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "tre.forecast",
+      "capability": "13-week cash forecast",
+      "product": "Treasury",
+      "confidence": 0.9,
+      "rationale": "Driving the cash model aligns with preparing and updating the short-term cash forecast.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "f0eef2f1fee6057f-10",
+      "text": "Translate complex financial data into clear insights",
+      "source_span": "Translate complex financial data: into clear insights",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1848,
+        "end": 1901
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.adhoc_analysis",
+      "capability": "Answer finance questions traced to source entries",
+      "product": "Reporting",
+      "confidence": 0.84,
+      "rationale": "Translating financial data into clear insights matches ad hoc financial analysis and answer-driven reporting.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "f0eef2f1fee6057f-11",
+      "text": "Partner with Product, Engineering, Design & Science on spend and resourcing decisions",
+      "source_span": "Finance partner to Product, Engineering, Design & Science on spend and resourcing decisions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2003,
+        "end": 2094
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with other departments on spend and resourcing decisions is cross-functional advising and decision support.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "f0eef2f1fee6057f-12",
+      "text": "Align resourcing with demand",
+      "source_span": "Partner with Business Foundation and the Customer org to align resourcing with demand, watching gross margin",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2099,
+        "end": 2207
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.89,
+      "rationale": "Aligning resourcing with demand is a planning and coordination decision involving people and teams.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "f0eef2f1fee6057f-13",
+      "text": "Watch gross margin",
+      "source_span": "watching gross margin",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2186,
+        "end": 2207
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.driver_analysis",
+      "capability": "Explain changes using CRM, contract or bill data",
+      "product": "Reporting",
+      "confidence": 0.73,
+      "rationale": "Watching gross margin fits analyzing key metric drivers using source data.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "f0eef2f1fee6057f-14",
+      "text": "Own headcount and opex planning with department heads",
+      "source_span": "Own headcount and opex planning with department heads",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2212,
+        "end": 2265
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Headcount and opex planning with department heads is collaborative planning with other leaders rather than a standalone platform process.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "f0eef2f1fee6057f-15",
+      "text": "6-8+ years in FP&A, Strategic Finance, or Investment Banking / Venture Capital / Private Equity, including 2+ years inside a high-growth B2B SaaS company",
+      "source_span": "6-8+ years in FP&A, Strategic Finance, or Investment Banking / Venture Capital / Private Equity, including 2+ years inside a high-growth B2B SaaS company",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2291,
+        "end": 2444
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "f0eef2f1fee6057f-16",
+      "text": "Strong financial modeling, P&L management, forecasting, and annual / long-range planning experience",
+      "source_span": "Strong financial modeling, P&L management, forecasting, and annual / long-range planning experience",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2449,
+        "end": 2548
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "f0eef2f1fee6057f-17",
+      "text": "Deep understanding of SaaS metrics and recurring revenue mechanics",
+      "source_span": "Deep understanding of SaaS metrics and recurring revenue mechanics",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2553,
+        "end": 2619
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "f0eef2f1fee6057f-18",
+      "text": "Proven business partnering: able to translate complex financials for non-finance leaders and push back when it matters",
+      "source_span": "Proven business partnering: able to translate complex financials for non-finance leaders and push back when it matters",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2624,
+        "end": 2742
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "f0eef2f1fee6057f-19",
+      "text": "Experience with NetSuite, Salesforce, and/or Rippling",
+      "source_span": "experience with NetSuite, Salesforce, and/or Rippling",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2761,
+        "end": 2814
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

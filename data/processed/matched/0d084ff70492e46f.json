@@ -1,0 +1,249 @@
+{
+  "posting_id": "0d084ff70492e46f",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "0d084ff70492e46f-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Owning priority customer escalations end to end is human case ownership and coordination, not a platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Triage of priority customer escalations requires judgment on severity, ownership, and next steps.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Creating action plans for escalations is judgment-based problem solving and not a covered finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Coordinating cross-functional resources is partnering with other teams, which is a human function.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Managing risk on escalations is judgment-heavy and outside the platform's automated finance workflows.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Providing real-time status updates to customers and executives is communication and stakeholder management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Serving as the single-threaded owner is human ownership and accountability, not an automatable process.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Creating accountability across partner teams is cross-functional leadership and coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Delivering post-mortems is a stakeholder communication and analysis task rather than a covered operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Delivering executive summaries is presenting/summarizing to stakeholders, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Tracking resolution progress through closure is repetitive case tracking with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Tracking commitments through closure is administrative follow-up work that could be automated but is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Tracking follow-up actions through closure is task tracking and workflow administration with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-14",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.48,
+      "rationale": "Analyzing escalation themes is an analytical task, but it does not clearly map to any listed finance capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-15",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.47,
+      "rationale": "Quantifying business impact is a general analysis task without a clear fit to a covered capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.44,
+      "rationale": "Identifying opportunities for process, product, and workflow improvement is broad process-improvement judgment rather than a covered operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Prioritizing improvement opportunities requires judgment and decision-making, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Leading cross-functional programs to improve customer experience is program leadership and coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-19",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.5,
+      "rationale": "Standardizing escalation workflows is process design, but it does not map cleanly to a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Standardizing service-level expectations is setting policy and expectations, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.46,
+      "rationale": "Standardizing tooling is a project/process-design activity with no matching platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.45,
+      "rationale": "Standardizing reporting is broad reporting-design work that does not clearly match a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-23",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.45,
+      "rationale": "Standardizing dashboards is report-design work without a direct capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Coaching frontline teams is training and people development, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Coaching frontline teams on de-escalation is training staff, not an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Coaching frontline teams on customer communication is training and advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0d084ff70492e46f-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Coaching frontline teams on escalation processes is staff training and process adoption support.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

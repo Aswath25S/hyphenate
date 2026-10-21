@@ -1,0 +1,177 @@
+{
+  "posting_id": "29a1ba1744eeef27",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "29a1ba1744eeef27-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Leading technical accounting research is advisory judgment work rather than an automated finance-operations capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Providing guidance on complex accounting issues requires technical judgment and policy interpretation, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Researching and concluding on technical accounting matters is judgment-based analysis, not a platform-executable routine.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Drafting formal accounting position papers on technical matters is a judgment-heavy accounting memo task outside the listed capabilities.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Serving as a liaison with external auditors is a relationship-management duty explicitly classified as human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Designing SOX 404 controls is control-framework judgment, even though operating controls is automation-friendly.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Staying current with FASB and SEC initiatives is professional monitoring and interpretation work, not a covered operational workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Tracking proposed accounting standard changes is an interpretive research task rather than a finance-ops automation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Determining the financial impact of new standards requires accounting judgment and analysis, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Being a trusted business partner and advisor to stakeholders is advisory relationship work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Building technical accounting capability across the organization is a training and enablement responsibility, not a platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Training staff and creating scalable judgment frameworks is people-management and enablement work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Leading the close process is management of people and process, not just running close checklist tasks.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Reviewing journal entries is human review, which is explicitly excluded from the journal-entry capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Reviewing reconciliations is human review of work product, not the reconciliation workflow itself.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Reviewing SEC disclosures and support involves judgment and regulatory oversight outside the listed automation capabilities.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Delegating routine items to team members is a people-management duty rather than a finance-operations task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.55,
+      "rationale": "Workflow process improvements is too vague to map to a specific finance-operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "29a1ba1744eeef27-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.51,
+      "rationale": "Implement AI initiatives is a broad project statement that does not specify a matching finance-operations workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

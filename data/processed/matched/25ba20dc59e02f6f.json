@@ -1,0 +1,456 @@
+{
+  "posting_id": "25ba20dc59e02f6f",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "25ba20dc59e02f6f-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Serving as a finance advisor to CTO and R&D leadership is partnering and advising other teams, which is human work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Holding partners accountable for execution against plan is cross-functional management and accountability, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Connecting R&D priorities to company financial targets is strategic advising across teams, not an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Leading annual planning is FP&A budgeting/planning work that is rules-based but not covered by the platform map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Leading rolling forecasts for R&D is planning/forecasting model work outside the covered cash-forecast capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Owning the headcount operating plan is an FP&A planning model, which is a gap rather than a covered capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Owning the compensation operating plan is budgeting/planning work that matches no listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Owning the contractor operating plan is FP&A planning work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Owning the hosting and cloud operating plan is a budgeting model task outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Owning the AI and LLM cost operating plan is planning work with no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Owning the software operating plan is FP&A budgeting/planning rather than a covered finance operations workflow.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Owning the tooling operating plan is a recurring budgeting task that is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.42,
+      "rationale": "Building frameworks that connect R&D investment to roadmap outcomes is strategic analysis, but the action is too broad to map cleanly.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-21",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Evaluating business cases for new initiatives is FP&A decision support that is not a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-22",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Evaluating business cases for AI capabilities is business-case analysis outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-23",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Evaluating build-versus-buy decisions is business-case analysis that is not covered by the platform.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-24",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Evaluating business cases for vendor commitments is planning analysis rather than a covered operational workflow.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Presenting risks and opportunities to leadership is presenting to leadership, which is human work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Defining R&D efficiency metrics is setting measurement policy and KPIs, which is a human judgment task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-27",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.82,
+      "rationale": "Tracking R&D spend as a percentage of revenue is KPI reporting that fits management reports and recurring financial metrics.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-28",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.82,
+      "rationale": "Tracking cost per engineer is a recurring KPI reporting task that fits management reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-29",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.81,
+      "rationale": "Tracking hosting cost per user is KPI reporting that matches management reports.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-30",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.81,
+      "rationale": "Tracking AI inference cost per feature is recurring KPI reporting that fits management reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-31",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.76,
+      "rationale": "Identifying large-scale savings opportunities is ad hoc financial analysis to answer a finance question.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-32",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.76,
+      "rationale": "Identifying reallocation opportunities is ad hoc financial analysis that matches finance-question support.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-33",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Seeing opportunities through to completion is execution management and cross-functional follow-through, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-34",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with People and R&D leaders on hiring plans is collaboration and workforce planning, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-35",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with leaders on location strategy is advisory and strategic work with other teams.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-36",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with leaders on organizational design is human advisory and design work, not an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-37",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Keeping headcount forecasts accurate is forecasting/planning model work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-38",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Reconciling headcount forecasts to actuals is forecast variance analysis outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-39",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.48,
+      "rationale": "Leading the AI transformation of R&D finance is a broad change initiative that is too vague to map precisely.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-40",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.52,
+      "rationale": "Rethinking planning workflows is process redesign work, but the action is too broad to classify against the map.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-41",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.52,
+      "rationale": "Rethinking forecasting workflows is a broad redesign task without a direct capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-42",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.52,
+      "rationale": "Rethinking reporting workflows is a broad process redesign task that does not map cleanly to a single capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-43",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.44,
+      "rationale": "Using AI tools to make workflows faster is a generic optimization statement, not a specific covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-44",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.44,
+      "rationale": "Using AI tools to make workflows more accurate is too broad and does not match a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-45",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.44,
+      "rationale": "Using AI tools to make workflows more insightful is a generic improvement goal rather than a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-46",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.55,
+      "rationale": "Redesigning FP&A processes is process redesign work, but the map does not include FP&A process design.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-47",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Redesigning FP&A policies is setting policy, which is explicitly human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-48",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.53,
+      "rationale": "Redesigning planning and reporting systems for efficiency is a broad systems redesign task without a direct match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-49",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Working with Accounting on capitalized software is cross-functional partnering, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-50",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Working with Accounting on accruals is collaboration with another team, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-51",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Working with Accounting on allocations is partnering with another team rather than performing the allocation work itself.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-52",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Working with Procurement on process improvements is cross-functional collaboration and process work, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-53",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Leading the R&D finance team is team management, which is human work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-54",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Hiring team members is a human management activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-55",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Coaching team members is people management and development, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-56",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Setting goals and priorities is managerial work and not a finance-operations automation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "25ba20dc59e02f6f-57",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Giving expert feedback is coaching and performance management, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "posting_id": "db4ee6f94138a9a1",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "db4ee6f94138a9a1-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "The action is end-to-end financial planning for GTM, which is an FP&A planning process not covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "db4ee6f94138a9a1-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Setting quality standards and accountability mechanisms is policy/management work that requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "db4ee6f94138a9a1-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Defining 6–12 month financial strategy is strategic planning and judgment, not an automated finance-operation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "db4ee6f94138a9a1-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Validating assumptions with business partners is collaborative judgment work with other teams.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "db4ee6f94138a9a1-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Translating strategy into financial outcomes and leading indicators is FP&A planning/modeling work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "db4ee6f94138a9a1-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Building business cases with assumptions and risk quantification is planning/modeling work outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "db4ee6f94138a9a1-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Providing leadership with an analytical foundation is advisory support for decision-makers, not a defined system capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "db4ee6f94138a9a1-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Designing and improving planning processes, tooling, and data definitions is process design and coordination work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "db4ee6f94138a9a1-09",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Reducing rework across teams is too vague to map to a specific finance operation capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "db4ee6f94138a9a1-10",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Raising the quality of financial outputs org-wide is broad and does not specify a concrete matching action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "db4ee6f94138a9a1-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Supporting cross-functional analyses with milestones and owners is project coordination across teams.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "db4ee6f94138a9a1-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Resolving forecast disagreements and tailoring narratives is stakeholder-facing judgment and communication work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "db4ee6f94138a9a1-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with functional budget owners is collaborative advisory work with other teams.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "db4ee6f94138a9a1-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Ensuring data quality, metric consistency, and assumption alignment is planning/data-governance work with no listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "posting_id": "cec9869bf50db5b9",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "cec9869bf50db5b9-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "The duty is budgeting and reforecasting, which is FP&A planning work that is not covered by the platform capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cec9869bf50db5b9-02",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.66,
+      "rationale": "The duty is providing performance insights to leadership, which aligns with ad hoc financial analysis and answering finance questions.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cec9869bf50db5b9-03",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.97,
+      "rationale": "The duty is producing monthly, quarterly, and annual management reports, which matches building management reports and leadership packages.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cec9869bf50db5b9-04",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.9,
+      "rationale": "The duty is analyzing reports and highlighting trends and variances, which matches variance analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cec9869bf50db5b9-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The duty is developing cost allocation frameworks, which is allocation methodology design and not a covered capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cec9869bf50db5b9-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "The duty is providing insight and oversight into internal finance processes and planning systems, which is advisory work across teams rather than an operational task the platform performs end to end.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cec9869bf50db5b9-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The duty is managing FP&A professionals, which is people management by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cec9869bf50db5b9-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The duty is coaching FP&A professionals, which is a human leadership and development activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cec9869bf50db5b9-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The duty is communicating financial results and recommendations to leadership and stakeholders, which is presenting and advising other teams.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

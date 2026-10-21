@@ -1,0 +1,644 @@
+{
+  "posting_id": "379d3ed6c300be8a",
+  "company": "Relativity Space",
+  "domain": "relativityspace.com",
+  "title": "Senior Accountant II",
+  "role_family": "GL",
+  "seniority": "senior",
+  "locations": [
+    "Long Beach, California, United States"
+  ],
+  "remote": "onsite",
+  "salary": {
+    "min": 96000,
+    "max": 144000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Hiring Range:\n\n$96,000—$144,000 USD"
+  },
+  "erp": [
+    "Infor LN",
+    "SAP",
+    "Oracle"
+  ],
+  "tools": [
+    "Excel",
+    "Power BI",
+    "Tableau",
+    "SQL"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "complex manufacturing site",
+    "day-to-day accounting",
+    "transaction issues",
+    "process, master-data, and ERP improvements",
+    "juggle competing priorities",
+    "support cycle counts and physical inventories",
+    "trace a transaction across source documents, operating systems, subledgers, and the general ledger"
+  ],
+  "duties": [
+    {
+      "duty_id": "379d3ed6c300be8a-01",
+      "text": "At Relativity Space, we’re building rockets to serve today’s needs and tomorrow’s breakthroughs.",
+      "source_span": "At Relativity Space, we’re building rockets to serve today’s needs and tomorrow’s breakthroughs.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-02",
+      "text": "Joining Relativity means becoming part of something where autonomy, ownership, and impact exist at every level.",
+      "source_span": "Joining Relativity means becoming part of something where autonomy, ownership, and impact exist at every level.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-03",
+      "text": "Here, you're not just executing tasks; you're solving problems that haven’t been solved before, helping develop a rocket, a factory, and a business from the ground up.",
+      "source_span": "Here, you're not just executing tasks; you're solving problems that haven’t been solved before, helping develop a rocket, a factory, and a business from the ground up.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-04",
+      "text": "Compensation is only one part of our total rewards package.",
+      "source_span": "Compensation is only one part of our total rewards package.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-05",
+      "text": "Relativity Space offers competitive salary and equity, a generous PTO and sick leave policy, parental leave, an annual learning and development stipend, and more!",
+      "source_span": "Relativity Space offers competitive salary and equity, a generous PTO and sick leave policy, parental leave, an annual learning and development stipend, and more!",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-06",
+      "text": "We are an equal opportunity employer and value diversity at our company.",
+      "source_span": "We are an equal opportunity employer and value diversity at our company.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-07",
+      "text": "Own day-to-day accounting for inventory at a complex manufacturing site",
+      "source_span": "Own the day-to-day accounting for a complex manufacturing site — inventory",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-08",
+      "text": "Own day-to-day accounting for manufacturing costs at a complex manufacturing site",
+      "source_span": "manufacturing costs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-09",
+      "text": "Own day-to-day accounting for labor at a complex manufacturing site",
+      "source_span": "labor",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-10",
+      "text": "Own day-to-day accounting for fixed assets at a complex manufacturing site",
+      "source_span": "fixed assets",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-11",
+      "text": "Own day-to-day accounting for capital projects at a complex manufacturing site",
+      "source_span": "capital projects",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-12",
+      "text": "Own day-to-day accounting for accruals at a complex manufacturing site",
+      "source_span": "accruals",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-13",
+      "text": "Own day-to-day accounting for reconciliations at a complex manufacturing site",
+      "source_span": "reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-14",
+      "text": "Prepare journal entries",
+      "source_span": "Prepare journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-15",
+      "text": "Prepare balance-sheet reconciliations",
+      "source_span": "balance-sheet reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-16",
+      "text": "Prepare variance explanations",
+      "source_span": "variance explanations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-17",
+      "text": "Deliver assigned close activities on the monthly, quarterly, and annual calendar",
+      "source_span": "deliver assigned close activities on the monthly, quarterly, and annual calendar",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-18",
+      "text": "Support standard costs",
+      "source_span": "standard costs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-19",
+      "text": "Support labor and machine rates",
+      "source_span": "labor and machine rates",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-20",
+      "text": "Support overhead absorption",
+      "source_span": "overhead absorption",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-21",
+      "text": "Support bills of material",
+      "source_span": "bills of material",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-22",
+      "text": "Support work centers",
+      "source_span": "work centers",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-23",
+      "text": "Support routings",
+      "source_span": "routings",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-24",
+      "text": "Support work-order review",
+      "source_span": "work-order review",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-25",
+      "text": "Analyze purchase price variances",
+      "source_span": "purchase price",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-26",
+      "text": "Analyze usage variances",
+      "source_span": "usage",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-27",
+      "text": "Analyze efficiency variances",
+      "source_span": "efficiency",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-28",
+      "text": "Analyze volume variances",
+      "source_span": "volume",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-29",
+      "text": "Analyze scrap variances",
+      "source_span": "scrap",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-30",
+      "text": "Analyze rework variances",
+      "source_span": "rework",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-31",
+      "text": "Reconcile inventory subledgers to the general ledger",
+      "source_span": "Reconcile inventory subledgers to the general ledger",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-32",
+      "text": "Support cycle counts",
+      "source_span": "cycle counts",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-33",
+      "text": "Support physical inventories",
+      "source_span": "physical inventories",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-34",
+      "text": "Support variance analysis",
+      "source_span": "variance analysis",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-35",
+      "text": "Support adjustments",
+      "source_span": "adjustments",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-36",
+      "text": "Evaluate excess or obsolete material",
+      "source_span": "evaluation of excess or obsolete material",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-37",
+      "text": "Handle fixed assets",
+      "source_span": "fixed assets",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-38",
+      "text": "Handle capital projects",
+      "source_span": "capital projects",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-39",
+      "text": "Handle capital versus expense determinations",
+      "source_span": "capital versus expense determinations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-40",
+      "text": "Handle additions",
+      "source_span": "additions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-41",
+      "text": "Handle transfers",
+      "source_span": "transfers",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-42",
+      "text": "Handle disposals",
+      "source_span": "disposals",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-43",
+      "text": "Handle depreciation",
+      "source_span": "depreciation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-44",
+      "text": "Handle timely release of completed projects from construction in progress",
+      "source_span": "timely release of completed projects from construction in progress",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-45",
+      "text": "Partner daily with Operations",
+      "source_span": "Partner daily with Operations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-46",
+      "text": "Partner daily with Supply Chain",
+      "source_span": "Supply Chain",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-47",
+      "text": "Partner daily with Engineering",
+      "source_span": "Engineering",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-48",
+      "text": "Partner daily with Quality",
+      "source_span": "Quality",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-49",
+      "text": "Partner daily with Corporate Accounting",
+      "source_span": "Corporate Accounting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-50",
+      "text": "Investigate transaction issues",
+      "source_span": "investigate transaction issues",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-51",
+      "text": "Execute controls",
+      "source_span": "execute controls",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-52",
+      "text": "Support audits",
+      "source_span": "support audits",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-53",
+      "text": "Drive process improvements",
+      "source_span": "drive process",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-54",
+      "text": "Drive master-data improvements",
+      "source_span": "master-data",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-55",
+      "text": "Drive ERP improvements",
+      "source_span": "ERP improvements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-56",
+      "text": "Bachelor's degree in accounting, finance, or a related discipline",
+      "source_span": "Bachelor's degree in accounting, finance, or a related discipline",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-57",
+      "text": "5+ years of accounting experience",
+      "source_span": "5+ years of accounting experience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-58",
+      "text": "Manufacturing preferred",
+      "source_span": "manufacturing preferred",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-59",
+      "text": "Working knowledge of U.S. GAAP",
+      "source_span": "Working knowledge of U.S. GAAP",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-60",
+      "text": "Hands-on experience preparing journal entries, reconciliations, accruals, and financial analyses",
+      "source_span": "hands-on experience preparing journal entries, reconciliations, accruals, and financial analyses",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-61",
+      "text": "Strong analytical and problem-solving skills",
+      "source_span": "Strong analytical and problem-solving skills",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-62",
+      "text": "Attention to detail to trace a transaction across source documents, operating systems, subledgers, and the general ledger",
+      "source_span": "the attention to detail to trace a transaction across source documents, operating systems, subledgers, and the general ledger",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-63",
+      "text": "Proficient in Excel",
+      "source_span": "Excel",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-64",
+      "text": "Comfortable working in an ERP or financial-reporting system",
+      "source_span": "comfortable working in an ERP or financial-reporting system",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-65",
+      "text": "Clear written and verbal communicator who can explain accounting requirements in practical terms to non-finance partners",
+      "source_span": "Clear written and verbal communicator who can explain accounting requirements in practical terms to non-finance partners",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-66",
+      "text": "Able to juggle competing priorities and meet deadlines in a fast-paced environment",
+      "source_span": "Able to juggle competing priorities and meet deadlines in a fast-paced environment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-67",
+      "text": "Working primarily on-site and engaging directly with the shop floor",
+      "source_span": "working primarily on-site and engaging directly with the shop floor",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-68",
+      "text": "CPA or CMA certification",
+      "source_span": "CPA or CMA certification",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-69",
+      "text": "Meaningful progress toward one",
+      "source_span": "meaningful progress toward one",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-70",
+      "text": "Experience in aerospace, defense, automotive, industrial equipment, or another engineered-manufacturing environment",
+      "source_span": "Experience in aerospace, defense, automotive, industrial equipment, or another engineered-manufacturing environment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-71",
+      "text": "Standard costing",
+      "source_span": "standard costing",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-72",
+      "text": "Manufacturing variances",
+      "source_span": "manufacturing variances",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-73",
+      "text": "Project accounting",
+      "source_span": "project accounting",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-74",
+      "text": "Hands-on experience with Infor LN, SAP, Oracle, or a comparable manufacturing ERP",
+      "source_span": "Hands-on experience with Infor LN, SAP, Oracle, or a comparable manufacturing ERP",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-75",
+      "text": "Cycle counts",
+      "source_span": "cycle counts",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-76",
+      "text": "Physical inventories",
+      "source_span": "physical inventories",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-77",
+      "text": "BOMs",
+      "source_span": "BOMs",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-78",
+      "text": "Work orders",
+      "source_span": "work orders",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-79",
+      "text": "Routings",
+      "source_span": "routings",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-80",
+      "text": "Exposure to a SOX-controlled or public-company environment",
+      "source_span": "Exposure to a SOX-controlled or public-company environment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-81",
+      "text": "Familiarity with Power BI",
+      "source_span": "Power BI",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-82",
+      "text": "Familiarity with Tableau",
+      "source_span": "Tableau",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-83",
+      "text": "Familiarity with SQL",
+      "source_span": "SQL",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "379d3ed6c300be8a-84",
+      "text": "Using automation and AI to strengthen accounting processes",
+      "source_span": "using automation and AI to strengthen accounting processes",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-10-01T11:42:44-04:00",
+  "source_url": "https://boards.greenhouse.io/relativity/jobs/8857230002?gh_jid=8857230002",
+  "fetched_at": "2026-10-21T17:34:00.006Z",
+  "prompt_version": "extract-v1",
+  "text": "At Relativity Space, we’re building rockets to serve today’s needs and tomorrow’s breakthroughs. Our Terran R vehicle will deliver customer payloads to orbit, meeting the growing demand for launch capacity. But that’s just the start. Achieving commercial success with Terran R will unlock new opportunities to advance science, exploration, and innovation, pioneering progress that reaches beyond the known.\n\nJoining Relativity means becoming part of something where autonomy, ownership, and impact exist at every level. Here, you're not just executing tasks; you're solving problems that haven’t been solved before, helping develop a rocket, a factory, and a business from the ground up. Whether you’re in propulsion, manufacturing, software, avionics, or a corporate function, you’ll collaborate across teams, shape decisions, and see your work come to life in record time. Relativity is a place where creativity and technical rigor go hand in hand, and your voice will help define the stories we’re writing together. Now is a unique moment in time where it’s early enough to leave your mark on the product, the process, and the culture, but far enough along that Terran R is tangible and picking up momentum. The most meaningful work of your career is waiting. Join us.\n\nAbout the Team\n\nThe Accounting team at Relativity spans tax and compliance, financial operations, general ledger, and business data strategy. While each group brings unique insights, they are united by a shared goal of protecting the financial integrity of Relativity, while also enabling smarter, faster decisions to help the company scale. You’ll collaborate deeply with teams across the business, ask the right questions, and become a trusted partner, not just a processor. With a focus on enabling growth, you’ll bring both structure and creativity to a highly dynamic environment.\n\nAbout the Role\n\n• Own the day-to-day accounting for a complex manufacturing site — inventory, manufacturing costs, labor, fixed assets, capital projects, accruals, and reconciliations.\n\n• Prepare journal entries, balance-sheet reconciliations, and variance explanations, and deliver assigned close activities on the monthly, quarterly, and annual calendar.\n\n• Support manufacturing cost accounting: standard costs, labor and machine rates, overhead absorption, bills of material, work centers, routings, and work-order review, while analyzing purchase price, usage, efficiency, volume, scrap, and rework variances.\n\n• Reconcile inventory subledgers to the general ledger and support cycle counts and physical inventories, including variance analysis, adjustments, and evaluation of excess or obsolete material.\n\n• Handle fixed assets and capital projects end to end — capital versus expense determinations, additions, transfers, disposals, depreciation, and timely release of completed projects from construction in progress.\n\n• Partner daily with Operations, Supply Chain, Engineering, Quality, and Corporate Accounting to investigate transaction issues, execute controls, support audits, and drive process, master-data, and ERP improvements.\n\nAbout You\n\n• Bachelor's degree in accounting, finance, or a related discipline, with 5+ years of accounting experience — manufacturing preferred.\n\n• Working knowledge of U.S. GAAP with hands-on experience preparing journal entries, reconciliations, accruals, and financial analyses.\n\n• Strong analytical and problem-solving skills, with the attention to detail to trace a transaction across source documents, operating systems, subledgers, and the general ledger.\n\n• Proficient in Excel and comfortable working in an ERP or financial-reporting system.\n\n• Clear written and verbal communicator who can explain accounting requirements in practical terms to non-finance partners.\n\n• Able to juggle competing priorities and meet deadlines in a fast-paced environment, working primarily on-site and engaging directly with the shop floor.\n\nNice to Have\n\n• CPA or CMA certification, or meaningful progress toward one.\n\n• Experience in aerospace, defense, automotive, industrial equipment, or another engineered-manufacturing environment, including standard costing, manufacturing variances, and project accounting.\n\n• Hands-on experience with Infor LN, SAP, Oracle, or a comparable manufacturing ERP, along with cycle counts, physical inventories, BOMs, work orders, or routings.\n\n• Exposure to a SOX-controlled or public-company environment, and familiarity with Power BI, Tableau, SQL, or using automation and AI to strengthen accounting processes.\n\nAt Relativity Space, we are committed to transparency and fairness in our compensation practices. Actual compensation will be determined based on experience, qualifications, and other job-related factors.\n\nCompensation is only one part of our total rewards package. Relativity Space offers competitive salary and equity, a generous PTO and sick leave policy, parental leave, an annual learning and development stipend, and more! To see some of the benefits & perks we offer, please visit here.\n\nHiring Range:\n\n$96,000—$144,000 USD\n\nWe are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.\n\nIf you need a reasonable accommodation, please contact us at accommodations@relativityspace.com.\n\nPlease note: Relativity Space does not accept unsolicited resumes, candidate profiles, or referrals from recruitment agencies or search firms. Any unsolicited submission - via email, our website, social media, or directly to an employee - will be deemed the property of Relativity Space, and no fee will be owed absent a current, fully executed agreement with Talent Acquisition that specifically authorizes submissions for the applicable role.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

@@ -1,0 +1,366 @@
+{
+  "posting_id": "07fb48f155c17720",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "07fb48f155c17720-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Managing the overall indirect tax function is leadership work rather than a specific automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Managing US sales and use tax compliance is repetitive tax work with no matching platform capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Managing VAT/GST compliance is repetitive tax work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Managing digital services taxes is routine tax compliance work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Managing other transactional taxes is tax compliance work not covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Overseeing indirect tax registrations across jurisdictions is compliance administration without a direct match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Overseeing return compliance is tax filing work that matches no listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Overseeing tax payments across jurisdictions is routine compliance work not covered here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Overseeing exemption documentation is tax administration that does not map to a capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Overseeing taxability determinations is rules-based tax work with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Overseeing related controls is control-management work but does not cleanly match a specific finance-ops capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-12",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.71,
+      "rationale": "Owning and improving processes and systems is too broad to map cleanly to one platform action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Managing product and taxability mapping is a rules-based mapping task with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Managing exemptions is routine tax compliance work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Performing transaction testing is a repeatable control/testing task without a matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Managing system integrations is implementation work not represented in the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Performing data validation is repetitive, rules-based work with no listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Resolving issues is too vague to determine the underlying finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Serving as a cross-functional partner is partnering and advising other teams, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Serving as a cross-functional partner on commercial arrangements is advisory partner work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Serving as a cross-functional partner on billing changes is cross-team coordination and advising.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Serving as a cross-functional partner on geographic expansion is advisory and coordination work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-23",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Monitoring and implementing e-invoicing and reporting requirements is compliance implementation with no direct match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-24",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.96,
+      "rationale": "Performing indirect tax account reconciliations matches balance-sheet account reconciliation work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-25",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.94,
+      "rationale": "Performing indirect tax accruals matches accrual estimation and recording work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-26",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.97,
+      "rationale": "Performing indirect tax journal entries matches preparing and posting journal entries.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-27",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.96,
+      "rationale": "Performing close activities matches month-end close checklist tasks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-28",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.94,
+      "rationale": "Performing internal controls matches monitoring and executing finance controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Advising on tax provisions in agreements is advisory work on contract terms rather than operational processing.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-30",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Advising on invoicing requirements is advisory work, not creating or sending invoices.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-31",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Advising on available exemptions is judgment-based tax advice rather than automated processing.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-32",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Managing indirect tax audits is relationship and audit-management work with external auditors or authorities.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-33",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Managing indirect tax notices is routine compliance administration with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-34",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Managing indirect tax disclosures is reporting/compliance work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-35",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Monitoring legislative and regulatory developments is a broad research activity that does not map cleanly to a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-36",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Assessing the impact on Reddit is too broad without a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-37",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Developing scalable processes, automation, metrics, and documentation is a broad improvement project rather than a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-38",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Improving data quality is too general to map to one covered finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-39",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Reducing manual work is a broad process-improvement objective without a specific capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "07fb48f155c17720-40",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Strengthening operational controls is too broad to classify as a specific covered or assisted duty.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

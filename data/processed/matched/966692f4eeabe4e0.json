@@ -1,0 +1,87 @@
+{
+  "posting_id": "966692f4eeabe4e0",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "966692f4eeabe4e0-02",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.88,
+      "rationale": "The duty is to monitor, analyze, and report recurring business performance, which fits building recurring management reports and KPIs.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "966692f4eeabe4e0-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "The duty centers on cross-functional collaboration and providing recommendations to other teams, which is advisory human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "966692f4eeabe4e0-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "The duty is strategic analysis and modeling for new revenue streams and procurement decisions, which is FP&A-style modeling with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "966692f4eeabe4e0-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "The duty involves presenting and partnering with senior leadership, which is human advisory and presentation work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "966692f4eeabe4e0-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The duty is owning the FP&A budgeting process and tracking budget vs actuals, which is budgeting work outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "966692f4eeabe4e0-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "The duty is building scenario-based driver models, which is planning-model work not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "966692f4eeabe4e0-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "The duty describes general work style and time management rather than a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "966692f4eeabe4e0-09",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "The duty is broad external market and competitor analysis, which does not map cleanly to a listed finance operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "966692f4eeabe4e0-10",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.9,
+      "rationale": "The duty is preparing materials for earnings and board meetings, which matches building management and board reporting materials.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

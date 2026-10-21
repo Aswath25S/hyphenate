@@ -1,0 +1,742 @@
+{
+  "posting_id": "1d14799f51946eaf",
+  "company": "Redwood Materials",
+  "slug": "redwood-materials",
+  "domain": "redwoodmaterials.com",
+  "title": "Accounts Payable Specialist",
+  "role_family": "AP",
+  "seniority": "mid",
+  "n": 16,
+  "C": 10,
+  "A": 1,
+  "covered_share": 0.625,
+  "overlap": 0.6875,
+  "weighted_overlap": 0.65625,
+  "thin": false,
+  "salary_min": null,
+  "salary_max": null,
+  "salary_varies": false,
+  "salary_source": null,
+  "savings": null,
+  "savings_reason": "no_salary",
+  "lead_product": "Procure-to-pay",
+  "product_split": {
+    "Procure-to-pay": {
+      "covered": 9,
+      "assisted": 1,
+      "weighted": 9.5
+    },
+    "GL accounting": {
+      "covered": 1,
+      "assisted": 0,
+      "weighted": 1
+    }
+  },
+  "erp": [],
+  "tools": [
+    "Microsoft Office",
+    "Excel"
+  ],
+  "posted_at": "2026-10-19T15:01:05-04:00",
+  "source_url": "https://boards.greenhouse.io/redwoodmaterials/jobs/6228455004?gh_jid=6228455004",
+  "locations": [
+    "Carson City, NV"
+  ],
+  "remote": "hybrid",
+  "excluded": null,
+  "text": "About Redwood Materials\n\nRedwood Materials was founded in 2017 by JB Straubel, co-founder and former CTO of Tesla, on a simple but radical idea: the critical minerals powering the energy transition already exist. They just need to come back. Today Redwood is the largest lithium-ion battery recycler in North America — recovering, refining, and redeploying critical minerals from end-of-life batteries back into the supply chain. On the energy side, Redwood has deployed the largest second-life battery project in the world, delivering power to AI data centers in months rather than years using proprietary energy architecture engineered entirely in-house. The company is profitable, the market it operates in is projected to grow 20 to 50 times over the next decade, and Redwood is the only company with the supply chain, the technology, and the operational scale to lead it.\n\nPosition Summary:\n\nThe Accounts Payable Specialist III is responsible for processing vendor invoices, check requests, and expense reports accurately and in accordance with company policy. This role performs monthly account reconciliations, researches and resolves discrepancies, and maintains multiple vendor accounts while ensuring compliance with established procedures. Based on-site at the Carson City office Monday through Thursday and remote on Fridays, the position requires strong attention to detail and organizational skills to manage competing priorities in a fast-paced, growing environment, working independently to resolve routine to moderately complex issues. Success in this role depends on clear, professional communication with vendors and internal teams to ensure timely, accurate payments.\n\nResponsibilities:\n\n• Process check requests and expense reports on a regular basis\n\n• Review, code, and accurately process vendor invoices\n\n• Perform monthly account reconciliations and resolve discrepancies\n\n• Maintain multiple vendor accounts while ensuring compliance with company policies\n\n• Enter and maintain accurate accounts payable data and records\n\n• Research, address, and respond to vendor inquiries in a timely and professional manner\n\n• Collaborate with internal teams to ensure timely payments and issue resolution\n\nSkills, Knowledge, and Abilities:\n\n• High school diploma required; Associate degree in Accounting or related field preferred\n\n• 2-3 years of experience in accounts payable or general accounting\n\n• Proficiency in Microsoft Office, particularly Excel\n\n• Strong understanding of basic accounting principles\n\n• Excellent time management and organizational skills with high attention to detail and accuracy\n\n• Ability to work independently, manage priorities, and meet deadlines; strong analytical and problem-solving skills\n\n• Excellent written and verbal communication skills; dependable and punctual with a strong sense of accountability\n\nThe position is full-time. Compensation will be commensurate with experience.\n\nWe collect personal information (PI) from you in connection with your application for employment with Redwood Materials, including the following categories of PI: identifiers, personal records, professional or employment information, and inferences drawn from your PI. We collect your PI for our purposes, including performing services and operations related to your potential employment. If you have additional privacy-related questions, please contact us at privacy@redwoodmaterials.com.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": null,
+    "max": null,
+    "period": null,
+    "currency": null,
+    "raw_text": null
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "competing priorities",
+    "fast-paced, growing environment"
+  ],
+  "fetched_at": "2026-10-21T17:34:21.852Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "1d14799f51946eaf-01",
+      "text": "Process check requests on a regular basis",
+      "source_span": "Process check requests and expense reports on a regular basis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1710,
+        "end": 1771
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "p2p.payments",
+      "capability": "Prepare payment runs for approval",
+      "product": "Procure-to-pay",
+      "confidence": 0.84,
+      "rationale": "Processing check requests is preparing vendor payments for issuance, which matches payment runs but still needs approval.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-02",
+      "text": "Process expense reports on a regular basis",
+      "source_span": "Process check requests and expense reports on a regular basis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1710,
+        "end": 1771
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Processing employee expense reports is a rules-based AP task that is explicitly outside the listed capabilities.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d14799f51946eaf-03",
+      "text": "Review vendor invoices",
+      "source_span": "Review, code, and accurately process vendor invoices",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1775,
+        "end": 1827
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.bill_capture",
+      "capability": "Read and code vendor bills to GL, class and entity",
+      "product": "Procure-to-pay",
+      "confidence": 0.97,
+      "rationale": "Reviewing vendor invoices is the core bill capture action of reading and coding vendor bills.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-04",
+      "text": "Code vendor invoices",
+      "source_span": "Review, code, and accurately process vendor invoices",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1775,
+        "end": 1827
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.bill_capture",
+      "capability": "Read and code vendor bills to GL, class and entity",
+      "product": "Procure-to-pay",
+      "confidence": 0.99,
+      "rationale": "Coding vendor invoices directly matches reading and coding vendor bills to the GL, class and entity.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-05",
+      "text": "Process vendor invoices accurately",
+      "source_span": "Review, code, and accurately process vendor invoices",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1775,
+        "end": 1827
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.bill_capture",
+      "capability": "Read and code vendor bills to GL, class and entity",
+      "product": "Procure-to-pay",
+      "confidence": 0.95,
+      "rationale": "Processing vendor invoices accurately is the end-to-end bill capture workflow.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-06",
+      "text": "Perform monthly account reconciliations",
+      "source_span": "Perform monthly account reconciliations and resolve discrepancies",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1831,
+        "end": 1896
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.account_recs",
+      "capability": "Balance-sheet account reconciliations",
+      "product": "GL accounting",
+      "confidence": 0.96,
+      "rationale": "Monthly account reconciliations are balance-sheet account reconciliations.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-07",
+      "text": "Resolve discrepancies",
+      "source_span": "Perform monthly account reconciliations and resolve discrepancies",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1831,
+        "end": 1896
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.55,
+      "rationale": "Resolving discrepancies is too vague to tell whether it is invoice, payment, or reconciliation work.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d14799f51946eaf-08",
+      "text": "Maintain multiple vendor accounts",
+      "source_span": "Maintain multiple vendor accounts while ensuring compliance with company policies",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1900,
+        "end": 1981
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.vendor_followup",
+      "capability": "Chase vendors for missing invoices or details",
+      "product": "Procure-to-pay",
+      "confidence": 0.79,
+      "rationale": "Maintaining multiple vendor accounts aligns with maintaining vendor master data and related vendor follow-up records.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-09",
+      "text": "Ensure compliance with company policies",
+      "source_span": "Maintain multiple vendor accounts while ensuring compliance with company policies",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1900,
+        "end": 1981
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.87,
+      "rationale": "Ensuring compliance with company policies is a broad judgment and governance responsibility rather than a specific platform workflow.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d14799f51946eaf-10",
+      "text": "Enter accurate accounts payable data",
+      "source_span": "Enter and maintain accurate accounts payable data and records",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1985,
+        "end": 2046
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.bill_capture",
+      "capability": "Read and code vendor bills to GL, class and entity",
+      "product": "Procure-to-pay",
+      "confidence": 0.95,
+      "rationale": "Entering accurate accounts payable data is part of processing and coding vendor bills in the ERP.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-11",
+      "text": "Maintain accurate accounts payable records",
+      "source_span": "Enter and maintain accurate accounts payable data and records",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1985,
+        "end": 2046
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.aging",
+      "capability": "Track open payables until resolved",
+      "product": "Procure-to-pay",
+      "confidence": 0.72,
+      "rationale": "Maintaining accurate AP records maps to tracking open payables and keeping the AP subledger current.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-12",
+      "text": "Research vendor inquiries",
+      "source_span": "Research, address, and respond to vendor inquiries in a timely and professional manner",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2050,
+        "end": 2136
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.vendor_followup",
+      "capability": "Chase vendors for missing invoices or details",
+      "product": "Procure-to-pay",
+      "confidence": 0.96,
+      "rationale": "Researching vendor inquiries is vendor follow-up work handled by communicating about missing details and statements.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-13",
+      "text": "Address vendor inquiries",
+      "source_span": "Research, address, and respond to vendor inquiries in a timely and professional manner",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2050,
+        "end": 2136
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.vendor_followup",
+      "capability": "Chase vendors for missing invoices or details",
+      "product": "Procure-to-pay",
+      "confidence": 0.96,
+      "rationale": "Addressing vendor inquiries is the same vendor follow-up workflow of responding to vendor questions and missing information.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-14",
+      "text": "Respond to vendor inquiries in a timely and professional manner",
+      "source_span": "Research, address, and respond to vendor inquiries in a timely and professional manner",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2050,
+        "end": 2136
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.vendor_followup",
+      "capability": "Chase vendors for missing invoices or details",
+      "product": "Procure-to-pay",
+      "confidence": 0.95,
+      "rationale": "Responding to vendor inquiries is explicitly within vendor follow-up.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-15",
+      "text": "Collaborate with internal teams on timely payments",
+      "source_span": "Collaborate with internal teams to ensure timely payments and issue resolution",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2140,
+        "end": 2218
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Collaborating with internal teams is relationship and coordination work rather than a finance-operations automation task.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "1d14799f51946eaf-16",
+      "text": "Collaborate with internal teams on issue resolution",
+      "source_span": "Collaborate with internal teams to ensure timely payments and issue resolution",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2140,
+        "end": 2218
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Collaborating with internal teams on issue resolution is human coordination and problem-solving across functions.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d14799f51946eaf-17",
+      "text": "The company is profitable, the market it operates in is projected to grow 20 to 50 times over the next decade, and Redwood is the only company with the supply chain, the technology, and the operational scale to lead it.",
+      "source_span": "The company is profitable, the market it operates in is projected to grow 20 to 50 times over the next decade, and Redwood is the only company with the supply chain, the technology, and the operational scale to lead it.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 657,
+        "end": 876
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-18",
+      "text": "High school diploma required",
+      "source_span": "High school diploma required; Associate degree in Accounting or related field preferred",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2257,
+        "end": 2344
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-19",
+      "text": "Associate degree in Accounting or related field preferred",
+      "source_span": "High school diploma required; Associate degree in Accounting or related field preferred",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2257,
+        "end": 2344
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-20",
+      "text": "2-3 years of experience in accounts payable or general accounting",
+      "source_span": "2-3 years of experience in accounts payable or general accounting",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2348,
+        "end": 2413
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-21",
+      "text": "Proficiency in Microsoft Office",
+      "source_span": "Proficiency in Microsoft Office, particularly Excel",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2417,
+        "end": 2468
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-22",
+      "text": "Proficiency in Excel",
+      "source_span": "Proficiency in Microsoft Office, particularly Excel",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2417,
+        "end": 2468
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-23",
+      "text": "Strong understanding of basic accounting principles",
+      "source_span": "Strong understanding of basic accounting principles",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2472,
+        "end": 2523
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-24",
+      "text": "Work independently",
+      "source_span": "Ability to work independently, manage priorities, and meet deadlines; strong analytical and problem-solving skills",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2625,
+        "end": 2739
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-25",
+      "text": "Manage priorities",
+      "source_span": "Ability to work independently, manage priorities, and meet deadlines; strong analytical and problem-solving skills",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2625,
+        "end": 2739
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-26",
+      "text": "Meet deadlines",
+      "source_span": "Ability to work independently, manage priorities, and meet deadlines; strong analytical and problem-solving skills",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2625,
+        "end": 2739
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-27",
+      "text": "Use strong analytical skills",
+      "source_span": "Ability to work independently, manage priorities, and meet deadlines; strong analytical and problem-solving skills",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2625,
+        "end": 2739
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-28",
+      "text": "Use problem-solving skills",
+      "source_span": "Ability to work independently, manage priorities, and meet deadlines; strong analytical and problem-solving skills",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2625,
+        "end": 2739
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-29",
+      "text": "Excellent written communication skills",
+      "source_span": "Excellent written and verbal communication skills; dependable and punctual with a strong sense of accountability",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2743,
+        "end": 2855
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-30",
+      "text": "Excellent verbal communication skills",
+      "source_span": "Excellent written and verbal communication skills; dependable and punctual with a strong sense of accountability",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2743,
+        "end": 2855
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d14799f51946eaf-31",
+      "text": "Be dependable and punctual with a strong sense of accountability",
+      "source_span": "Excellent written and verbal communication skills; dependable and punctual with a strong sense of accountability",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2743,
+        "end": 2855
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

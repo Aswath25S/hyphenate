@@ -1,0 +1,492 @@
+{
+  "posting_id": "15246f2ca318bac0",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "15246f2ca318bac0-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Owning the order-to-cash process is process leadership and coordination, not the platform executing a specific O2C task end to end.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Leading finance automation across the team is management and transformation work rather than a finance operation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Owning the collections strategy is setting policy and approach, which is human judgment rather than collections execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.57,
+      "rationale": "Owning the AR balance is too vague to tell whether it means operational management, analysis, or reconciliation work.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Running a weekly cash review with leadership is a meeting and presentation activity, not cash reporting execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-06",
+      "label": "covered",
+      "capability_id": "o2c.orders_refunds",
+      "confidence": 0.9,
+      "rationale": "Resolving billing questions with Sales and partners matches customer billing inquiry handling and resolution.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Resolving disputes with internal partners is relationship and judgment work rather than a defined platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-08",
+      "label": "covered",
+      "capability_id": "o2c.collections",
+      "confidence": 0.97,
+      "rationale": "Resolving past-due balances is the core action of collections and dunning follow-up.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Serving as the escalation point for key accounts is human relationship management and negotiation support.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-10",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.72,
+      "rationale": "Finding the root causes of late cash is driver analysis using source data, but it still requires interpretation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Driving fixes with Sales, Ops, and Product is cross-functional partnering and coordination work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-12",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.61,
+      "rationale": "Owning invoicing setup QA is too vague to map cleanly to invoice creation or another specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-13",
+      "label": "covered",
+      "capability_id": "tre.cash_application",
+      "confidence": 0.99,
+      "rationale": "Owning cash application is exactly matching incoming payments to open invoices.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-14",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.92,
+      "rationale": "Supporting month-end close with AR reconciliations is a balance-sheet account reconciliation task.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.66,
+      "rationale": "Supporting month-end close with reserves is a rules-based accounting estimate that is not covered by a specific capability here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Overseeing and coaching analysts is team management and people development work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Setting priorities and performance expectations is managerial leadership, not platform execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Shifting team work toward exception handling is managing work allocation and process change.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Establishing and owning the credit approval process is policy design and governance.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Running credit checks is repetitive operational work, but no credit-check capability appears in the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Working with Sales on creative credit options is negotiating or advising on credit terms, which is human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Building AI agents and workflows is a technical implementation task that is not a listed finance-operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-23",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Building AI agents for remittance matching is development work rather than the matching operation itself.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-24",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Building AI agents for dispute triage is a technical build task, not a covered finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-25",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Building AI agents for VMS portal tracking is implementation work outside the listed operational capabilities.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-26",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Building AI agents for pre-send invoice checks is tooling development, not invoice creation or review execution.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with Accounting and FP&A to map workflows is cross-functional coordination and process discovery.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Ranking automation opportunities is prioritization and judgment, not a finance operation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Managing a prioritized backlog is project management work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-30",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.68,
+      "rationale": "Building and deploying AI/LLM workflows is product/engineering implementation rather than a specific finance-operations workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-31",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.88,
+      "rationale": "Automating bank and balance sheet reconciliations matches the reconciliation work the platform performs, with balance-sheet recs as the clearest fit.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-32",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.97,
+      "rationale": "Automating journal entry preparation matches journal entry work, but preparation still needs accounting judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-33",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.96,
+      "rationale": "Automating accruals matches estimated accrual preparation, which still depends on assumptions and review.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-34",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.99,
+      "rationale": "Automating close task tracking is exactly the close checklist workflow.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-35",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.95,
+      "rationale": "Automating variance analysis matches flux analysis, but explanatory commentary still involves judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-36",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.71,
+      "rationale": "Automating procure-to-pay workflows falls within AP invoice processing and related P2P workflow automation.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-37",
+      "label": "covered",
+      "capability_id": "p2p.approvals",
+      "confidence": 0.8,
+      "rationale": "Automating spend workflows most directly aligns to policy-based approval routing.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-38",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.99,
+      "rationale": "Automating invoice intake and coding is the core bill capture workflow.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-39",
+      "label": "covered",
+      "capability_id": "p2p.approvals",
+      "confidence": 0.99,
+      "rationale": "Automating approvals is exactly the policy-based AP approval workflow.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-40",
+      "label": "covered",
+      "capability_id": "p2p.vendor_followup",
+      "confidence": 0.86,
+      "rationale": "Automating vendor onboarding aligns with vendor master data and W-9 follow-up work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-41",
+      "label": "assisted",
+      "capability_id": "p2p.payments",
+      "confidence": 0.96,
+      "rationale": "Automating payment runs matches payment preparation, but final release typically needs approval.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-42",
+      "label": "covered",
+      "capability_id": "tre.cash_position",
+      "confidence": 0.98,
+      "rationale": "Automating cash reporting is the same as producing the cash position report.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-43",
+      "label": "covered",
+      "capability_id": "tre.cash_position",
+      "confidence": 0.99,
+      "rationale": "Automating daily cash positions directly matches cash position reporting across accounts.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-44",
+      "label": "covered",
+      "capability_id": "tre.bank_rec",
+      "confidence": 0.95,
+      "rationale": "Automating bank and payout reconciliations is daily bank reconciliation work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-45",
+      "label": "assisted",
+      "capability_id": "tre.forecast",
+      "confidence": 0.92,
+      "rationale": "Automating cash forecast inputs supports the 13-week cash forecast, which still requires judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-46",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Automating lender compliance reporting is repetitive finance reporting work with no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-47",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Building integrations and data flows is systems engineering work, not a defined finance-operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-48",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.89,
+      "rationale": "Replacing spreadsheets with automated dashboards and reports matches management reporting and recurring leadership reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-49",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Designing human-in-the-loop controls is control framework design, which requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-50",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Designing audit trails is framework and governance design rather than an execution workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-51",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Designing documentation is documentation planning work, not a specific operational capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-52",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Training the Finance team is people enablement and change management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-53",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.64,
+      "rationale": "Writing runbooks is operational documentation work, but it is too generic to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15246f2ca318bac0-54",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.62,
+      "rationale": "Owning what you ship in production is too vague and sounds like broad product accountability rather than a finance operation task.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

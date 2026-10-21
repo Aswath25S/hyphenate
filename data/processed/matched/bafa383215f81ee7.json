@@ -1,0 +1,177 @@
+{
+  "posting_id": "bafa383215f81ee7",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "bafa383215f81ee7-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Owning the end-to-end financial planning process is FP&A planning work, which is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bafa383215f81ee7-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Setting quality standards and accountability mechanisms is policy-setting and management work, which is human-led by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bafa383215f81ee7-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Defining the 6–12 month financial strategy is strategic planning and judgment, not an automated finance-operations task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bafa383215f81ee7-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Validating assumptions with business partners is cross-functional collaboration and judgment, which falls under human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bafa383215f81ee7-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Translating strategy into financial outcomes and leading indicators is FP&A planning/modeling work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bafa383215f81ee7-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Building investment business cases with assumptions and risk analysis is a planning-model task not covered in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bafa383215f81ee7-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Giving leadership the analytical foundation for decisions is advising other teams, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bafa383215f81ee7-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Designing and improving planning processes is process redesign work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bafa383215f81ee7-09",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Improving tooling is too vague to map to a specific covered capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bafa383215f81ee7-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Improving data definitions is data governance work that is not covered by the listed finance-ops capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bafa383215f81ee7-11",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Reducing rework across teams is too broad and does not specify a core finance-operation action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bafa383215f81ee7-12",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Raising the quality of financial outputs org-wide is too general to match a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bafa383215f81ee7-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Leading cross-functional analyses with milestones and owners is project leadership and coordination work, which is human-led.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bafa383215f81ee7-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Resolving forecast disagreements requires judgment and stakeholder alignment, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bafa383215f81ee7-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Creating tailored financial narratives is audience-facing communication and advisory work, which is human-led.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bafa383215f81ee7-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with functional budget owners is cross-functional collaboration, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bafa383215f81ee7-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Ensuring data quality is a governance and control task that does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bafa383215f81ee7-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Ensuring metric consistency is data standardization work with no direct match in the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bafa383215f81ee7-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Ensuring alignment on assumptions requires stakeholder coordination and judgment, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

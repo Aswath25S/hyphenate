@@ -1,0 +1,249 @@
+{
+  "posting_id": "15fb278a9ee5fff5",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "15fb278a9ee5fff5-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Researching technical accounting issues requires professional judgment on accounting treatment rather than an automated platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Analyzing technical accounting issues is judgment-heavy accounting interpretation, not a defined platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Documenting technical accounting memos on novel issues is accounting judgment and memo drafting, which is not covered.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Preparing calculations to support accounting conclusions is tied to technical accounting judgment and not a listed automation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Facilitating external audit reviews is relationship and coordination work with auditors, which is explicitly human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Developing accounting policies and procedures is setting policy, which is explicitly human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Maintaining accounting policies and procedures is ongoing policy ownership and governance rather than a platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Leading implementation of significant changes is project leadership and change management, not an end-to-end platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Working with external valuation specialists is coordination and relationship management with outside experts.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Ensuring complex transaction valuations are completed accurately and on time is oversight of specialized judgment work, not a platform function.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Managing inputs for 409A valuations is repetitive data collection and preparation work with no matching capability listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Managing inputs for intangible asset valuations is repetitive support work that could be automated but matches no listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Managing inputs for equity award valuations is structured support work without a corresponding capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Reviewing deliverables for 409A valuations is human review of specialized work product, not platform automation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Reviewing deliverables for intangible asset valuations is expert judgment and review work done by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Reviewing deliverables for equity award valuations is human review of specialist valuation outputs.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Collaborating across departments is cross-functional partnership and coordination, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Ensuring technical guidance is operationalized is implementation oversight and judgment, not a listed platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Ensuring technical guidance is understood is advisory and training-oriented work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.56,
+      "rationale": "Supporting initiatives to enhance external reporting readiness is too vague to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Designing accounting processes and internal controls is process/control framework design, which is explicitly human judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Implementing accounting processes and internal controls is a project and change-management task rather than a direct platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with external auditors is a human relationship and coordination duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with consultants is external coordination and advisory work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Ensuring timely and accurate conclusions on accounting matters requires professional judgment and sign-off, not automation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Providing training to team members is people management and instruction, which is explicitly human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "15fb278a9ee5fff5-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Providing mentorship to team members is people leadership and coaching work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

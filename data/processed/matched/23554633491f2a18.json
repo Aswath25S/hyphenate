@@ -1,0 +1,204 @@
+{
+  "posting_id": "23554633491f2a18",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "23554633491f2a18-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Researching technical accounting issues and drafting memos is novel technical accounting work not covered by the listed automation capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Analyzing technical accounting issues and memos is technical accounting judgment work with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Documenting technical accounting issues and memos is specialized accounting documentation not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Preparing calculations to support accounting conclusions is calculation work for novel accounting issues, which has no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Facilitating external audit reviews is working with external auditors as a relationship, which is explicitly human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Developing accounting policies and procedures is setting policy, which is human judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Maintaining accounting policies and procedures is policy ownership and governance rather than an automation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Leading implementation of significant changes is project leadership and coordination, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Working with external valuation specialists is partnering with outside experts, which is human relationship work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Ensuring complex transaction valuations are completed accurately and on time is valuation oversight with no matching platform capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Managing inputs for 409A, intangible asset, and equity award valuations is specialized valuation support not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Reviewing valuation deliverables is human review and approval of specialist work rather than automated processing.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Collaborating across Accounting Operations, Engineering, Finance, Legal, and HR is cross-functional partnering, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Ensuring technical guidance is operationalized and understood is a human enablement and coordination task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-15",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.55,
+      "rationale": "Supporting initiatives to enhance external reporting readiness is too vague to map to a specific covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Designing efficient, SOX-compliant accounting processes is process design and judgment, not a covered execution capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Implementing efficient, SOX-compliant accounting processes is project implementation work rather than a listed end-to-end capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Designing internal controls is explicitly judgmental framework design, which is not covered.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Implementing internal controls is control setup and project work, not the covered monitoring or testing activities.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with external auditors and consultants is relationship management and advisory coordination, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Providing training to team members is people management and education, which is human work by definition.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23554633491f2a18-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Providing mentorship on emerging standards is coaching and people development, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

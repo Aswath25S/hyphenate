@@ -1,0 +1,177 @@
+{
+  "posting_id": "5811c3ad14858d69",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "5811c3ad14858d69-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Owning the FP&A close process is process management and coordination rather than a specific automated accounting task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5811c3ad14858d69-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Managing FP&A forecasting is a planning activity, and long-range or budget-style forecasting is not a covered capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5811c3ad14858d69-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Variance analysis in FP&A is budget-versus-actual planning work, which the map explicitly excludes.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5811c3ad14858d69-04",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.7,
+      "rationale": "Writing the narrative for actuals fits management reporting commentary, which is supported by the reporting capability.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5811c3ad14858d69-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Running the annual budgeting cycle is FP&A planning work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5811c3ad14858d69-06",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.98,
+      "rationale": "Building management reporting matches the capability for recurring management reports and KPI packages.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5811c3ad14858d69-07",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.88,
+      "rationale": "Building board-level reporting is part of management reports and board deck preparation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5811c3ad14858d69-08",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.84,
+      "rationale": "Preparing board decks is report-building work, while only presenting to the board would be human.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5811c3ad14858d69-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Quarterly outlooks are FP&A forecast/planning outputs, which are not covered capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5811c3ad14858d69-10",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.67,
+      "rationale": "Preparing analysis to support investor conversations is ad hoc financial analysis, even though the external conversation itself is human.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5811c3ad14858d69-11",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Applying AI and workflow automation is a vague transformation initiative rather than a specific finance-operations task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5811c3ad14858d69-12",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Replacing manual reporting and reconciliation work is a broad automation project, not a concrete finance duty on the map.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5811c3ad14858d69-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Collaborating across teams to keep one consistent view of the numbers is cross-functional partnering, which is a human duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5811c3ad14858d69-14",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.96,
+      "rationale": "Leading ad hoc analyses matches the capability for responding to ad hoc finance questions with source-backed analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5811c3ad14858d69-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Scenario modeling is FP&A planning work and is not covered by the listed reporting or accounting capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5811c3ad14858d69-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering closely with Revenue Forecasting is a relationship and collaboration duty rather than an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5811c3ad14858d69-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Serving as backup on the revenue and funnel forecast is forecasting/planning work that is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5811c3ad14858d69-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Preparing the weekly outlook is a short-term forecast/planning task with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5811c3ad14858d69-19",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.71,
+      "rationale": "Preparing the revenue flash is recurring reporting work that fits management reporting outputs.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

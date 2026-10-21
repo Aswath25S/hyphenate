@@ -1,0 +1,1030 @@
+{
+  "posting_id": "6a6de9123d2e95a3",
+  "company": "Perplexity",
+  "slug": "perplexity",
+  "domain": "perplexity.ai",
+  "title": "Global Treasury Manager, Investments & Risk",
+  "role_family": "Treasury",
+  "seniority": "manager",
+  "n": 24,
+  "C": 1,
+  "A": 6,
+  "covered_share": 0.041666666666666664,
+  "overlap": 0.2916666666666667,
+  "weighted_overlap": 0.16666666666666666,
+  "thin": false,
+  "salary_min": 180000,
+  "salary_max": 210000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 3750,
+  "savings_reason": null,
+  "lead_product": "Treasury",
+  "product_split": {
+    "Treasury": {
+      "covered": 1,
+      "assisted": 2,
+      "weighted": 2
+    },
+    "GL accounting": {
+      "covered": 0,
+      "assisted": 2,
+      "weighted": 1
+    },
+    "Procure-to-pay": {
+      "covered": 0,
+      "assisted": 1,
+      "weighted": 0.5
+    },
+    "Reporting": {
+      "covered": 0,
+      "assisted": 1,
+      "weighted": 0.5
+    }
+  },
+  "erp": [],
+  "tools": [],
+  "posted_at": "2026-10-19T18:27:06.294+00:00",
+  "source_url": "https://jobs.ashbyhq.com/perplexity/da212c9c-3c11-4e8e-8f97-e176b4876bea",
+  "locations": [
+    "San Francisco"
+  ],
+  "remote": "unknown",
+  "excluded": null,
+  "text": "About the Role\n\nThis is a foundational treasury role within the Finance team. As we continue with rapid growth, you will own the day-to-day mechanics of cash, optimal capital allocation, banking, and liquidity at a company that commits significant capital to compute and infrastructure. The role sits between Accounting and Strategic Finance with direct exposure to the VP of Strategic Finance. You should want to build the function, not inherit one.\n\n\nResponsibilities\n\nCash and Liquidity Management\n\n - Own daily cash positioning across operating accounts and entities across various banking and treasury partners, and maintain the rolling cash forecasts\n\n - Own bank account administration across all entities and banking partners, including account openings and closures, signer updates, KYC requests, and portal access reviews.\n\n - Oversee payment controls, including approval workflows, segregation of duties, and review of high-value or unusual wires.\n\n - Manage the company’s investment portfolio, including money market funds, bank deposits, and separately managed accounts, in line with the investment policy, and oversee the external managers who run it.\n\n - Design and build an in-house investment and hedging program, including direct fixed income, compute price hedging, and yield rates\n\n - Develop management reporting covering portfolio performance, market conditions, and policy compliance for leadership and board\n\n - Monitor FX exposure from international entities and vendors, and support hedging analysis and execution.\n\n - Automate repeatable treasury work such as cash positioning, bank reconciliations, and reporting using AI and workflow tools, while keeping people accountable for every approval and movement of money.\n\n - Prepare FBAR filings, manage letters of credit and bank guarantees, and support audit requests related to cash and investments.\n\n\n\nQualifications\n\n - 4-7 years in corporate treasury, cash management, banking, audit, or strategic finance; high-growth technology or startup experience preferred\n\n - Experience with developing and managing an in-house investment program and market hedging\n\n - Working knowledge of cash forecasting, bank operations, payment rails, and short-duration fixed income.\n\n - Strong controls mindset and attention to detail: this role touches money movement, and accuracy is non-negotiable.\n\n - Clear written communication, sound escalation judgment, and comfort building process from scratch.\n\n - Nice to have: FX hedging, treasury management systems, debt or credit facilities, IPO and SOX readiness, or CTP, CFA, or CPA progress.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 180000,
+    "max": 210000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Job board pay data: $180K – $210K • Offers Equity"
+  },
+  "complexity": {
+    "multi_entity": true,
+    "multi_currency": true,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "rapid growth",
+    "build the function, not inherit one",
+    "day-to-day mechanics of cash",
+    "across all entities",
+    "high-value or unusual wires",
+    "Automate repeatable treasury work",
+    "build process from scratch"
+  ],
+  "fetched_at": "2026-10-21T17:33:56.764Z",
+  "ats": "ashby",
+  "duties": [
+    {
+      "duty_id": "6a6de9123d2e95a3-01",
+      "text": "This is a foundational treasury role within the Finance team.",
+      "source_span": "This is a foundational treasury role within the Finance team.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 16,
+        "end": 77
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-02",
+      "text": "As we continue with rapid growth, you will own the day-to-day mechanics of cash, optimal capital allocation, banking, and liquidity at a company that commits significant capital to compute and infrastructure.",
+      "source_span": "As we continue with rapid growth, you will own the day-to-day mechanics of cash, optimal capital allocation, banking, and liquidity at a company that commits significant capital to compute and infrastructure.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 78,
+        "end": 286
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-03",
+      "text": "You should want to build the function, not inherit one.",
+      "source_span": "You should want to build the function, not inherit one.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 395,
+        "end": 450
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-04",
+      "text": "Own daily cash positioning across operating accounts and entities across various banking and treasury partners",
+      "source_span": "Own daily cash positioning across operating accounts and entities across various banking and treasury partners",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 505,
+        "end": 615
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "tre.cash_position",
+      "capability": "Cash position across accounts, entities and banks",
+      "product": "Treasury",
+      "confidence": 0.98,
+      "rationale": "Owning daily cash positioning matches preparing and maintaining the cash position across accounts and entities.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-05",
+      "text": "Maintain the rolling cash forecasts",
+      "source_span": "maintain the rolling cash forecasts",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 621,
+        "end": 656
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "tre.forecast",
+      "capability": "13-week cash forecast",
+      "product": "Treasury",
+      "confidence": 0.97,
+      "rationale": "Maintaining rolling cash forecasts matches the short-term cash forecast capability but typically needs human judgment.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-06",
+      "text": "Own bank account administration across all entities and banking partners",
+      "source_span": "Own bank account administration across all entities and banking partners",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 661,
+        "end": 733
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Bank account administration across entities and banking partners is relationship and admin work rather than an automated treasury operation.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-07",
+      "text": "Manage account openings",
+      "source_span": "account openings",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 745,
+        "end": 761
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Managing account openings is bank relationship/admin work that is not covered by the platform.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-08",
+      "text": "Manage account closures",
+      "source_span": "closures",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 766,
+        "end": 774
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Managing account closures is bank relationship/admin work that is not covered by the platform.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-09",
+      "text": "Manage signer updates",
+      "source_span": "signer updates",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 776,
+        "end": 790
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Managing signer updates is external banking administration and requires human coordination.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-10",
+      "text": "Manage KYC requests",
+      "source_span": "KYC requests",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 792,
+        "end": 804
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.91,
+      "rationale": "KYC requests involve coordinating with banks and making administrative responses, which is human work.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-11",
+      "text": "Review portal access reviews",
+      "source_span": "portal access reviews",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 810,
+        "end": 831
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.73,
+      "rationale": "Reviewing portal access reviews is routine control/admin work with no matching capability in the map.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-12",
+      "text": "Oversee payment controls",
+      "source_span": "Oversee payment controls",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 837,
+        "end": 861
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.controls",
+      "capability": "Monitor manual entries and close controls",
+      "product": "GL accounting",
+      "confidence": 0.69,
+      "rationale": "Overseeing payment controls matches monitoring internal controls, though the treasury context is broader than the listed capability.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-13",
+      "text": "Oversee approval workflows",
+      "source_span": "approval workflows",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 873,
+        "end": 891
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "p2p.approvals",
+      "capability": "Route approvals by policy",
+      "product": "Procure-to-pay",
+      "confidence": 0.78,
+      "rationale": "Overseeing approval workflows aligns with routing approvals by policy, but the oversight aspect still needs human judgment.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-14",
+      "text": "Oversee segregation of duties",
+      "source_span": "segregation of duties",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 893,
+        "end": 914
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.65,
+      "rationale": "Overseeing segregation of duties is control governance and policy oversight rather than an automated operations task.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-15",
+      "text": "Review high-value or unusual wires",
+      "source_span": "review of high-value or unusual wires",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 920,
+        "end": 957
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "tre.exceptions",
+      "capability": "Flag short-paid, unmatched or over-policy items",
+      "product": "Treasury",
+      "confidence": 0.77,
+      "rationale": "Reviewing high-value or unusual wires matches flagging out-of-policy treasury exceptions, though approval judgment remains human.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-16",
+      "text": "Manage the company’s investment portfolio, including money market funds, bank deposits, and separately managed accounts, in line with the investment policy",
+      "source_span": "Manage the company’s investment portfolio, including money market funds, bank deposits, and separately managed accounts, in line with the investment policy",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 963,
+        "end": 1118
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Managing the investment portfolio and making policy-aligned investment decisions is judgment-based work not covered by the platform.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-17",
+      "text": "Oversee the external managers who run it",
+      "source_span": "oversee the external managers who run it",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1124,
+        "end": 1164
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Overseeing external investment managers is relationship and vendor-management work rather than a platform capability.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-18",
+      "text": "Design and build an in-house investment and hedging program",
+      "source_span": "Design and build an in-house investment and hedging program",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1170,
+        "end": 1229
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.89,
+      "rationale": "Designing and building an investment and hedging program is a strategic policy and program-design task, not an operations workflow.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-19",
+      "text": "Develop management reporting covering portfolio performance, market conditions, and policy compliance for leadership and board",
+      "source_span": "Develop management reporting covering portfolio performance, market conditions, and policy compliance for leadership and board",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1305,
+        "end": 1431
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.85,
+      "rationale": "Developing management reporting for leadership and the board matches building recurring management reports and board-deck financials.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-20",
+      "text": "Monitor FX exposure from international entities and vendors",
+      "source_span": "Monitor FX exposure from international entities and vendors",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1436,
+        "end": 1495
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.74,
+      "rationale": "Monitoring FX exposure is repetitive treasury risk analysis that has no direct capability match in the map.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-21",
+      "text": "Support hedging analysis and execution",
+      "source_span": "support hedging analysis and execution",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1501,
+        "end": 1539
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.82,
+      "rationale": "Supporting hedging analysis and execution involves judgment and financial decision-making that is not covered by the platform.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-22",
+      "text": "Automate repeatable treasury work such as cash positioning, bank reconciliations, and reporting using AI and workflow tools",
+      "source_span": "Automate repeatable treasury work such as cash positioning, bank reconciliations, and reporting using AI and workflow tools",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1545,
+        "end": 1668
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.76,
+      "rationale": "Automating treasury work is an implementation project rather than a finance-operations duty that maps cleanly to a capability.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-23",
+      "text": "Keep people accountable for every approval and movement of money",
+      "source_span": "while keeping people accountable for every approval and movement of money",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1670,
+        "end": 1743
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Keeping people accountable for approvals and money movement is managerial oversight rather than an automatable ops task.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-24",
+      "text": "Prepare FBAR filings",
+      "source_span": "Prepare FBAR filings",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1749,
+        "end": 1769
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Preparing FBAR filings is a repetitive regulatory filing that is not covered by the listed capabilities.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-25",
+      "text": "Manage letters of credit",
+      "source_span": "manage letters of credit",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1771,
+        "end": 1795
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.78,
+      "rationale": "Managing letters of credit requires human coordination with banks and counterparties and is not covered by the platform.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-26",
+      "text": "Manage bank guarantees",
+      "source_span": "bank guarantees",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1800,
+        "end": 1815
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.78,
+      "rationale": "Managing bank guarantees requires human coordination with banks and counterparties and is not covered by the platform.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-27",
+      "text": "Support audit requests related to cash and investments",
+      "source_span": "support audit requests related to cash and investments",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1821,
+        "end": 1875
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.84,
+      "rationale": "Supporting audit requests related to cash and investments matches preparing audit support and documentation, though auditor relationship management stays human.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-28",
+      "text": "4-7 years in corporate treasury, cash management, banking, audit, or strategic finance",
+      "source_span": "4-7 years in corporate treasury, cash management, banking, audit, or strategic finance",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1899,
+        "end": 1985
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-29",
+      "text": "high-growth technology or startup experience preferred",
+      "source_span": "high-growth technology or startup experience preferred",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1987,
+        "end": 2041
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-30",
+      "text": "Experience with developing and managing an in-house investment program and market hedging",
+      "source_span": "Experience with developing and managing an in-house investment program and market hedging",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2046,
+        "end": 2135
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-31",
+      "text": "Working knowledge of cash forecasting, bank operations, payment rails, and short-duration fixed income.",
+      "source_span": "Working knowledge of cash forecasting, bank operations, payment rails, and short-duration fixed income.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2140,
+        "end": 2243
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-32",
+      "text": "Strong controls mindset and attention to detail: this role touches money movement, and accuracy is non-negotiable.",
+      "source_span": "Strong controls mindset and attention to detail: this role touches money movement, and accuracy is non-negotiable.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2248,
+        "end": 2362
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-33",
+      "text": "Clear written communication",
+      "source_span": "Clear written communication",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2367,
+        "end": 2394
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-34",
+      "text": "sound escalation judgment",
+      "source_span": "sound escalation judgment",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2396,
+        "end": 2421
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-35",
+      "text": "comfort building process from scratch.",
+      "source_span": "comfort building process from scratch.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2427,
+        "end": 2465
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-36",
+      "text": "FX hedging",
+      "source_span": "FX hedging",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2484,
+        "end": 2494
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-37",
+      "text": "treasury management systems",
+      "source_span": "treasury management systems",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2496,
+        "end": 2523
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-38",
+      "text": "debt or credit facilities",
+      "source_span": "debt or credit facilities",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2525,
+        "end": 2550
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-39",
+      "text": "IPO and SOX readiness",
+      "source_span": "IPO and SOX readiness",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2552,
+        "end": 2573
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-40",
+      "text": "CTP",
+      "source_span": "CTP",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2578,
+        "end": 2581
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-41",
+      "text": "CFA progress",
+      "source_span": "CFA progress",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": null,
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6a6de9123d2e95a3-42",
+      "text": "CPA progress.",
+      "source_span": "CPA progress.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2591,
+        "end": 2604
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

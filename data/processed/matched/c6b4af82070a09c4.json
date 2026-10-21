@@ -1,0 +1,222 @@
+{
+  "posting_id": "c6b4af82070a09c4",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "c6b4af82070a09c4-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Developing unit economic frameworks is FP&A-style modeling work that is rules-based but not covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Evaluating ROI for products, features, and strategies is planning analysis rather than any covered reporting or accounting workflow.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Guiding decision-making is advisory leadership work, which is explicitly human rather than platform-executed.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Evaluating economic viability is strategic analysis work that does not match a specific listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Driving strategy for new and emerging products is a strategic business function that requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Building strong working relationships with cross-functional teams is relationship management, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Strategically advising on financial impact is advisory judgment work, not an operational finance automation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.67,
+      "rationale": "Improving business performance is too broad to map to a specific covered capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Managing and owning financial forecasts is FP&A forecasting work that is outside the listed cash-forecast capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Advising executive leadership on performance is leadership-facing advisory work that requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-11",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.78,
+      "rationale": "Contributing to board and investor materials matches building management reports and board decks, though it still needs human input.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "Contributing to public-facing materials and disclosures is external reporting work not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Other external reporting is a broad reporting duty that does not match a specific capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Advising investors on company financial health is investor relations and advisory work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Advising investors on product positioning and performance is strategic communication, not platform-executed finance ops.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering closely with the Analytics team is cross-functional collaboration, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-17",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.69,
+      "rationale": "Creating dashboards is recurring reporting work that aligns most closely with building management reports and leadership views.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-18",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.74,
+      "rationale": "Creating KPIs is part of building management reporting outputs and recurring performance reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-19",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.6,
+      "rationale": "Tracking product health is too vague to determine whether it is reporting, analysis, or operational monitoring.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Evaluating experimental results is ambiguous and could be many types of analysis, so it is not a clear capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Championing adoption of AI and automation across a process is change-management and influence work, which is human-led.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.64,
+      "rationale": "Compressing close-to-forecast turnaround is a vague process-improvement goal without a specific mapped capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-23",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Standardizing recurring reporting is repetitive reporting process work that could be automated but is not explicitly covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c6b4af82070a09c4-24",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Reducing manual effort in Pigment and Sheets is process automation and spreadsheet cleanup work outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    }
+  ]
+}

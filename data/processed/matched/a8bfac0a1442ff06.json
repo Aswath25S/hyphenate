@@ -1,0 +1,132 @@
+{
+  "posting_id": "a8bfac0a1442ff06",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "a8bfac0a1442ff06-01",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.73,
+      "rationale": "The duty is broad expense-management ownership without a specific workflow that matches a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a8bfac0a1442ff06-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Serving as a trusted finance partner to senior leaders is advisory and cross-functional by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a8bfac0a1442ff06-03",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Being a point of coordination is too vague to map to a specific platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a8bfac0a1442ff06-04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "Driving AI and automation transformation is a change initiative rather than a defined finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a8bfac0a1442ff06-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Owning the cost of revenue forecast is FP&A forecasting work, which is not covered in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a8bfac0a1442ff06-06",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.83,
+      "rationale": "Owning the monthly close cycle aligns with managing month-end close checklist tasks and calendar.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a8bfac0a1442ff06-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering across FP&A and accounting is cross-functional collaboration that requires people coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a8bfac0a1442ff06-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Identifying material risks is broad judgment-based analysis without a specific covered workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a8bfac0a1442ff06-09",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Identifying material opportunities is broad judgment-based analysis without a specific covered workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a8bfac0a1442ff06-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Identifying drivers behind performance versus plan is FP&A variance analysis outside the advertised capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a8bfac0a1442ff06-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Building financial models is planning/modeling work outside the map's covered workflows.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a8bfac0a1442ff06-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Driver-based scenario analysis for investment and planning is FP&A modeling outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a8bfac0a1442ff06-13",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.91,
+      "rationale": "Developing executive and board-level reports and presentations matches building management reports and board decks.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a8bfac0a1442ff06-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Managing vendor spend and relationships involves vendor relationship work and judgment.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

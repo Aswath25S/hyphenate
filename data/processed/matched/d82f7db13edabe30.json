@@ -1,0 +1,177 @@
+{
+  "posting_id": "d82f7db13edabe30",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "d82f7db13edabe30-01",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.99,
+      "rationale": "Processing a high volume of invoices is the core invoicing workflow of creating and sending customer invoices.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Reviewing invoices is repetitive invoice QA work, but no capability here covers invoice review as the primary action.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-03",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.99,
+      "rationale": "Issuing a high volume of invoices directly matches creating and sending invoices.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-04",
+      "label": "covered",
+      "capability_id": "o2c.orders_refunds",
+      "confidence": 0.95,
+      "rationale": "Processing credit adjustments aligns with processing customer credits and invoice adjustments.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Reviewing credit adjustments is a rules-based review step that is not covered by a specific capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-06",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.96,
+      "rationale": "Issuing credit adjustments matches issuing invoice adjustments and credit memos.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Data entry is repetitive back-office work with no direct matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Validation is generic rules-based checking that does not map cleanly to a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Performing reconciliation is repetitive finance work, but the duty is too generic to match a specific reconciliation capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Cross-system checks to keep billing records accurate are validation/reconciliation work not covered by a specific capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-11",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.98,
+      "rationale": "Executing month-end close activities matches running month-end close checklist tasks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Reconciling billing and financial systems is a reconciliation task, but no listed capability covers this specific cross-system billing reconciliation.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Collaborating cross-functionally is relationship and coordination work rather than an automated finance-operation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Cross-functional collaboration on revenue recognition requires human coordination and judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-15",
+      "label": "covered",
+      "capability_id": "o2c.orders_refunds",
+      "confidence": 0.91,
+      "rationale": "Managing billing inquiries from customers and sales matches resolving billing inquiries and order/billing triage.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Managing billing escalations is escalation handling and cross-team coordination, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Participating in time-zone meetings is a human coordination activity, not a finance-operations capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Contributing to project coordination is too vague to map to a specific finance-operation capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d82f7db13edabe30-19",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Using financial systems and tools to support billing operations and process improvements is too broad to classify cleanly.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

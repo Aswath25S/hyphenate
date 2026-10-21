@@ -1,0 +1,938 @@
+{
+  "posting_id": "8ddb414440333fcc",
+  "company": "ClickHouse",
+  "slug": "clickhouse",
+  "domain": "clickhouse.com",
+  "title": "Senior Revenue Accountant",
+  "role_family": "Revenue",
+  "seniority": "senior",
+  "n": 22,
+  "C": 4,
+  "A": 8,
+  "covered_share": 0.18181818181818182,
+  "overlap": 0.5454545454545454,
+  "weighted_overlap": 0.36363636363636365,
+  "thin": false,
+  "salary_min": 140000,
+  "salary_max": 200000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 12727.272727272728,
+  "savings_reason": null,
+  "lead_product": "GL accounting",
+  "product_split": {
+    "GL accounting": {
+      "covered": 2,
+      "assisted": 4,
+      "weighted": 4
+    },
+    "Order-to-cash": {
+      "covered": 2,
+      "assisted": 3,
+      "weighted": 3.5
+    },
+    "Reporting": {
+      "covered": 0,
+      "assisted": 1,
+      "weighted": 0.5
+    }
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Stripe",
+    "Salesforce"
+  ],
+  "posted_at": "2026-09-18T02:02:17.767+00:00",
+  "source_url": "https://jobs.ashbyhq.com/clickhouse/8ea8a116-f05f-4f5a-98f5-2c6ffde7c2ad",
+  "locations": [
+    "United States"
+  ],
+  "remote": "remote",
+  "excluded": null,
+  "text": "Recognized on the 2025 Forbes Cloud 100 list https://www.forbes.com/companies/clickhouse/?list=cloud100, ClickHouse is one of the most innovative and fast-growing private cloud companies. With more than 4,000 customers and $250M ARR https://clickhouse.com/blog/clickhouse-tops-250m-arr-and-4000-customers, ClickHouse leads the market in real-time analytics, data warehousing, observability, and AI workloads.\n\n \n\nThe company's sustained, accelerating momentum was recently validated by a $400M Series D financing round https://clickhouse.com/blog/clickhouse-raises-400-million-series-d-acquires-langfuse-launches-postgres. Over the past three months, customers including Capital One, Lovable, Decagon, Polymarket, and Airwallex have adopted the platform or expanded existing deployments. These customers join an established base of AI innovators and global brands such as Meta, Cursor, Sony, and Tesla.\n\n \n\nWe're on a mission to transform how companies use data. Come be a part of our journey!\n\n\n\nWe're looking for a Senior Revenue Accountant to join our revenue accounting team. You will report to the Director of Order to Cash and Revenue Accounting and be responsible for executing the month-end close cycle for revenue recognition, including reconciliations for revenue and deferred revenue, reviewing customer contracts, and preparing financial reporting metrics such as RPO. You'll work cross-functionally with AR & Billing, Legal, Sales Operations, FP&A, and Data teams to build scalable, automated revenue processes.\n\n\n\n\nYOU WILL\n\n - Own the end-to-end monthly revenue close, preparing journal entries, reconciliations, and flux analyses for revenue, deferred revenue, and contract asset balances.\n\n - Prepare the deferred revenue waterfall and financial reporting metrics.\n\n - Reconcile consumption data to billing and revenue; use SQL/data queries and AI tools to assist and automate the work.\n\n - Review customer contracts and order forms under ASC 606, and prepare accounting checklist for complex or non-standard deals.\n\n - Prepare estimate calculations, including the standalone selling price (SSP) analyses.\n\n - Support new product introductions (NPI), new pricing models, SKU launches, and system upgrades or implementations.\n\n - Support external audits and manage PBC requests related to revenue.\n\n - Collaborate cross-functionally with AR & Billing, Legal, Sales Operations, FP&A, and Data teams to improve the quote-to-revenue workflow.\n\n\n\n\nYOU BRING\n\n - 3+ years of progressive accounting experience with a focus on revenue accounting, ideally at a SaaS or consumption-based technology company.\n\n - Strong working knowledge of ASC 606, including contract review, SSP, and revenue disclosures (deferred revenue, RPO).\n\n - Experience with NetSuite, Stripe, and Salesforce, and familiarity with the integrations and data flows among these systems; experience with cloud marketplace billing (AWS, GCP, Azure) is a plus.\n\n - Comfort working with large data sets; SQL or similar query skills, and an interest in using AI and automation to streamline processes.\n\n - Strong analytical and problem-solving skills, with the ability to interpret complex contracts and data sets.\n\n - A quick learner with excellent attention to detail, organization, and communication skills; able to collaborate cross-functionally and explain revenue matters clearly.\n\n - CPA (or equivalent) and/or Big Four public accounting experience preferred.\n\n - Experience supporting audits, internal controls, and SOX readiness preferred.\n\n\nPERKS\n\n - Flexible work environment - ClickHouse is a globally distributed company and remote-friendly. We currently operate in over 25 countries.\n\n - Healthcare - Employer contributions towards your healthcare.\n\n - Equity in the company - Every new team member who joins our company receives stock options.\n\n - Time off - Flexible time off in the US, generous entitlement in other countries.\n\n - A USD$500 Home office setup if you’re a remote employee.\n\n - Global Gatherings – We believe in the power of in-person connection and offer opportunities to engage with colleagues at company-wide offsites.\n\n\nCULTURE - WE ALL SHAPE IT\n\nAs part of a rapidly scaling start-up, you will be instrumental in shaping our culture.\n\nAre you interested in finding out more about our culture? Learn more about our values here https://clickhouse.com/company/careers. Check out our blog posts https://clickhouse.com/blog or follow us on LinkedIn https://www.linkedin.com/company/clickhouseinc/life/0c1ee7f4-2129-488d-b413-e7f6270659fd/?viewAsMember=true to find out more about what’s happening at ClickHouse.\n\n\nEQUAL OPPORTUNITY & PRIVACY\n\nClickHouse provides equal employment opportunities to all employees and applicants and prohibits discrimination and harassment of any type based on factors such as race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.\n\nPlease see here https://clickhouse.com/legal/applicant-privacy-notice for our Privacy Statement.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 140000,
+    "max": 200000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Job board pay data: $140K – $200K • Multiple Ranges"
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": true,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "consumption data to billing and revenue",
+    "reconciliations for revenue and deferred revenue",
+    "complex or non-standard deals",
+    "large data sets",
+    "system upgrades or implementations",
+    "quote-to-revenue workflow"
+  ],
+  "fetched_at": "2026-10-21T17:34:40.543Z",
+  "ats": "ashby",
+  "duties": [
+    {
+      "duty_id": "8ddb414440333fcc-01",
+      "text": "Own the end-to-end monthly revenue close",
+      "source_span": "Own the end-to-end monthly revenue close",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1542,
+        "end": 1582
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.close_checklist",
+      "capability": "Run month-end close checklist tasks",
+      "product": "GL accounting",
+      "confidence": 0.83,
+      "rationale": "Owning the monthly revenue close is the close-checklist workflow of completing and tracking month-end close tasks.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-02",
+      "text": "Prepare journal entries",
+      "source_span": "preparing journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1584,
+        "end": 1609
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.journal_entries",
+      "capability": "Prepare and post journal entries",
+      "product": "GL accounting",
+      "confidence": 0.98,
+      "rationale": "Preparing journal entries is the core journal-entry preparation workflow.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-03",
+      "text": "Prepare reconciliations for revenue, deferred revenue, and contract asset balances",
+      "source_span": "reconciliations for revenue, deferred revenue, and contract asset balances",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": null,
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.account_recs",
+      "capability": "Balance-sheet account reconciliations",
+      "product": "GL accounting",
+      "confidence": 0.97,
+      "rationale": "Preparing reconciliations for revenue, deferred revenue, and contract asset balances is balance-sheet account reconciliation work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-04",
+      "text": "Prepare flux analyses for revenue, deferred revenue, and contract asset balances",
+      "source_span": "flux analyses for revenue, deferred revenue, and contract asset balances",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1632,
+        "end": 1704
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.flux",
+      "capability": "Variance (flux) analysis with draft commentary",
+      "product": "GL accounting",
+      "confidence": 0.95,
+      "rationale": "Preparing flux analyses is variance analysis with draft commentary.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-05",
+      "text": "Prepare the deferred revenue waterfall",
+      "source_span": "Prepare the deferred revenue waterfall",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1710,
+        "end": 1748
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "o2c.rev_rec",
+      "capability": "Apply ASC 606 policy, build revenue schedules and documentation",
+      "product": "Order-to-cash",
+      "confidence": 0.96,
+      "rationale": "Preparing the deferred revenue waterfall is revenue-recognition schedule work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-06",
+      "text": "Prepare financial reporting metrics",
+      "source_span": "financial reporting metrics",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1340,
+        "end": 1367
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.86,
+      "rationale": "Preparing financial reporting metrics aligns with building recurring management reports and KPIs.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-07",
+      "text": "Reconcile consumption data to billing and revenue",
+      "source_span": "Reconcile consumption data to billing and revenue",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1786,
+        "end": 1835
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.7,
+      "rationale": "Reconciling consumption data to billing and revenue is a rules-based data reconciliation task with no direct capability match.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "8ddb414440333fcc-08",
+      "text": "Use SQL/data queries",
+      "source_span": "use SQL/data queries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1837,
+        "end": 1857
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Using SQL/data queries is a tool skill rather than a finance-operation duty, so the core action is too vague to map.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "8ddb414440333fcc-09",
+      "text": "Use AI tools to assist and automate the work",
+      "source_span": "AI tools to assist and automate the work",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1862,
+        "end": 1902
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Using AI tools to assist and automate the work is too vague and describes a method, not a finance operation.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "8ddb414440333fcc-10",
+      "text": "Review customer contracts under ASC 606",
+      "source_span": "Review customer contracts",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1908,
+        "end": 1933
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.contract_terms",
+      "capability": "Extract contract terms, obligations and pricing",
+      "product": "Order-to-cash",
+      "confidence": 0.96,
+      "rationale": "Reviewing customer contracts under ASC 606 is extracting contract terms, obligations, and pricing.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-11",
+      "text": "Review order forms under ASC 606",
+      "source_span": "order forms under ASC 606",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1938,
+        "end": 1963
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.contract_terms",
+      "capability": "Extract contract terms, obligations and pricing",
+      "product": "Order-to-cash",
+      "confidence": 0.9,
+      "rationale": "Reviewing order forms under ASC 606 is contract-term extraction for billing and revenue setup.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-12",
+      "text": "Prepare accounting checklist for complex or non-standard deals",
+      "source_span": "prepare accounting checklist for complex or non-standard deals",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1969,
+        "end": 2031
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "o2c.rev_rec",
+      "capability": "Apply ASC 606 policy, build revenue schedules and documentation",
+      "product": "Order-to-cash",
+      "confidence": 0.73,
+      "rationale": "Preparing an accounting checklist for complex deals supports revenue-recognition documentation, though complex judgments still need human input.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-13",
+      "text": "Prepare estimate calculations",
+      "source_span": "Prepare estimate calculations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2037,
+        "end": 2066
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Preparing estimate calculations is too vague because the specific estimate type is not defined.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "8ddb414440333fcc-14",
+      "text": "Prepare standalone selling price (SSP) analyses",
+      "source_span": "the standalone selling price (SSP) analyses",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2078,
+        "end": 2121
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "o2c.rev_rec",
+      "capability": "Apply ASC 606 policy, build revenue schedules and documentation",
+      "product": "Order-to-cash",
+      "confidence": 0.78,
+      "rationale": "Preparing SSP analyses is part of ASC 606 revenue-recognition analysis and documentation.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-15",
+      "text": "Support new product introductions (NPI)",
+      "source_span": "Support new product introductions (NPI)",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2127,
+        "end": 2166
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.72,
+      "rationale": "Supporting new product introductions is cross-functional partner work rather than a defined finance automation capability.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "8ddb414440333fcc-16",
+      "text": "Support new pricing models",
+      "source_span": "new pricing models",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2168,
+        "end": 2186
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.75,
+      "rationale": "Supporting new pricing models is cross-functional pricing work that depends on human judgment.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "8ddb414440333fcc-17",
+      "text": "Support SKU launches",
+      "source_span": "SKU launches",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2188,
+        "end": 2200
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.7,
+      "rationale": "Supporting SKU launches is cross-functional project support rather than a covered finance operation.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "8ddb414440333fcc-18",
+      "text": "Support system upgrades or implementations",
+      "source_span": "system upgrades or implementations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2206,
+        "end": 2240
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Supporting system upgrades or implementations is a vague project-support duty with no specific covered capability.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "8ddb414440333fcc-19",
+      "text": "Support external audits",
+      "source_span": "Support external audits",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2246,
+        "end": 2269
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.96,
+      "rationale": "Supporting external audits matches preparing audit schedules, PBCs, and supporting documentation.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-20",
+      "text": "Manage PBC requests related to revenue",
+      "source_span": "manage PBC requests related to revenue",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2274,
+        "end": 2312
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.95,
+      "rationale": "Managing PBC requests related to revenue is audit-support work for providing requested documentation.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-21",
+      "text": "Collaborate cross-functionally with AR & Billing, Legal, Sales Operations, FP&A, and Data teams",
+      "source_span": "Collaborate cross-functionally with AR & Billing, Legal, Sales Operations, FP&A, and Data teams",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2318,
+        "end": 2413
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Collaborating cross-functionally with other teams is relationship and coordination work by nature.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "8ddb414440333fcc-22",
+      "text": "Improve the quote-to-revenue workflow",
+      "source_span": "improve the quote-to-revenue workflow",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2417,
+        "end": 2454
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.89,
+      "rationale": "Improving the quote-to-revenue workflow is too broad and reads like process redesign rather than a specific mapped operation.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "8ddb414440333fcc-23",
+      "text": "3+ years of progressive accounting experience with a focus on revenue accounting, ideally at a SaaS or consumption-based technology company",
+      "source_span": "3+ years of progressive accounting experience with a focus on revenue accounting, ideally at a SaaS or consumption-based technology company",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2474,
+        "end": 2613
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-24",
+      "text": "Strong working knowledge of ASC 606, including contract review, SSP, and revenue disclosures (deferred revenue, RPO)",
+      "source_span": "Strong working knowledge of ASC 606, including contract review, SSP, and revenue disclosures (deferred revenue, RPO)",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2619,
+        "end": 2735
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-25",
+      "text": "Experience with NetSuite, Stripe, and Salesforce",
+      "source_span": "Experience with NetSuite, Stripe, and Salesforce",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2741,
+        "end": 2789
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-26",
+      "text": "Familiarity with the integrations and data flows among these systems",
+      "source_span": "familiarity with the integrations and data flows among these systems",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2795,
+        "end": 2863
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-27",
+      "text": "Experience with cloud marketplace billing (AWS, GCP, Azure) is a plus",
+      "source_span": "experience with cloud marketplace billing (AWS, GCP, Azure) is a plus",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2865,
+        "end": 2934
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-28",
+      "text": "Comfort working with large data sets",
+      "source_span": "Comfort working with large data sets",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2940,
+        "end": 2976
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-29",
+      "text": "SQL or similar query skills",
+      "source_span": "SQL or similar query skills",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2978,
+        "end": 3005
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-30",
+      "text": "An interest in using AI and automation to streamline processes",
+      "source_span": "an interest in using AI and automation to streamline processes",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3011,
+        "end": 3073
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-31",
+      "text": "Strong analytical and problem-solving skills",
+      "source_span": "Strong analytical and problem-solving skills",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3079,
+        "end": 3123
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-32",
+      "text": "The ability to interpret complex contracts and data sets",
+      "source_span": "with the ability to interpret complex contracts and data sets",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3125,
+        "end": 3186
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-33",
+      "text": "A quick learner",
+      "source_span": "A quick learner",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3192,
+        "end": 3207
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-34",
+      "text": "Excellent attention to detail",
+      "source_span": "excellent attention to detail",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3213,
+        "end": 3242
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-35",
+      "text": "Organization",
+      "source_span": "organization",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3244,
+        "end": 3256
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-36",
+      "text": "Communication skills",
+      "source_span": "communication skills",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3262,
+        "end": 3282
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-37",
+      "text": "Able to collaborate cross-functionally and explain revenue matters clearly",
+      "source_span": "able to collaborate cross-functionally and explain revenue matters clearly",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3284,
+        "end": 3358
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-38",
+      "text": "CPA (or equivalent) and/or Big Four public accounting experience preferred",
+      "source_span": "CPA (or equivalent) and/or Big Four public accounting experience preferred",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3364,
+        "end": 3438
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-39",
+      "text": "Experience supporting audits, internal controls, and SOX readiness preferred",
+      "source_span": "Experience supporting audits, internal controls, and SOX readiness preferred",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3444,
+        "end": 3520
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

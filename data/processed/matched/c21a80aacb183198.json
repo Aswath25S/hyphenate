@@ -1,0 +1,177 @@
+{
+  "posting_id": "c21a80aacb183198",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "c21a80aacb183198-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The action is owning company-wide forecasting and variance communication, which is a strategic FP&A coordination role rather than an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c21a80aacb183198-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "The phrase is too vague to tell whether it means reporting, analysis, or stakeholder communication.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c21a80aacb183198-03",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.9,
+      "rationale": "The action is supporting board reporting, which matches building management/board reporting packages.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c21a80aacb183198-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "The action is preparing investor materials, which is external stakeholder communication and not a covered finance-operations workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c21a80aacb183198-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "The action is providing financial analysis for major strategic decisions, which is advisory work for executives rather than a platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c21a80aacb183198-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "The action is partnering with technical teams to model program costs, which is cross-functional advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c21a80aacb183198-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The action is partnering with technical teams to model NRE, which is collaborative FP&A work rather than a covered automation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c21a80aacb183198-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The action is partnering with technical teams to model capital expenditures, which is strategic planning work outside the coverage map.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c21a80aacb183198-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The action is serving as a strategic finance partner to functional teams, which is inherently advisory and relationship-based.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c21a80aacb183198-10",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The phrase is too broad to map to a specific finance workflow or automation capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c21a80aacb183198-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The action is collaborating with management to gather inputs, which is a human coordination task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c21a80aacb183198-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "The action is maintaining dynamic business-model scenarios, which is a planning-model task not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c21a80aacb183198-13",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "The phrase is too vague and could mean many different FP&A process improvements.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c21a80aacb183198-14",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "The phrase is too vague and does not identify a specific automatable finance workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c21a80aacb183198-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The action is supporting multi-year planning, which aligns with long-range FP&A modeling that is not in the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c21a80aacb183198-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "The phrase is too vague to determine whether it means workflow automation, reporting, or systems work.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c21a80aacb183198-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "The action is tracking program profitability, which is a planning/analysis task not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c21a80aacb183198-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "The action is too generic to identify a specific finance operation or automation capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "c21a80aacb183198-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "The action is aligning resourcing to a long-term strategic plan, which is strategic workforce planning and advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

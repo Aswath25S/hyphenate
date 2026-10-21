@@ -1,0 +1,294 @@
+{
+  "posting_id": "3e2064e4fb44e713",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "3e2064e4fb44e713-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Processing semi-monthly and biweekly payroll is payroll processing, which is repetitive operational work not covered by the finance-operations map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Executing complex pay calculations is payroll computation work with no matching capability listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Processing payroll adjustments is a payroll admin task that does not match any covered capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Processing payroll deductions is payroll administration and is outside the covered capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Updating compensation is a payroll/HR data maintenance task with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Processing employee status changes is routine payroll master-data maintenance that is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Processing address and work location changes is payroll record maintenance, which has no capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Processing wage garnishments is a payroll compliance/admin task not listed in the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Executing time and attendance processing is payroll input processing and not a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-12",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Ensuring seamless integration with payroll systems is too vague and describes an implementation effort rather than a specific covered finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Reviewing payroll outputs for accuracy is a human review/approval action rather than an automated platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Resolving payroll discrepancies is a rules-based payroll exception task with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Responding to employee inquiries is people-facing support work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Collaborating with cross-functional teams to troubleshoot issues is partnership and coordination work by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Responding to tax notices involves working with external authorities and judgment, which is not a platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Maintaining unemployment tax rates is payroll tax administration and has no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Coordinating new state tax registrations is compliance filing work that is outside the map's capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Assisting with timely filings and remittances is payroll tax filing/remittance work, which is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Staying current on U.S. payroll regulations is too general and reads as knowledge maintenance rather than a specific automatable duty.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-22",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Auditing 401(k) deferrals each pay cycle is payroll/benefits deduction checking with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-23",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Preparing control totals is a payroll control-support task that does not match any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Assisting with payroll audits is external-audit support work involving people and auditors rather than a covered capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Preparing payroll reporting is payroll-specific reporting that is not covered by the finance reporting capabilities listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-26",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Performing employment verifications is administrative HR support work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-27",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Handling administrative tasks is too vague to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-29",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Improving payroll processes is a broad process-improvement duty and is too vague to classify cleanly.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-30",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Documenting payroll procedures is process documentation work but too broad and not tied to a specific covered capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-31",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Updating payroll procedures is effectively setting or changing policy/process, which is human judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-32",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Supporting year-end payroll activities is payroll year-end processing work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-33",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Supporting payroll reconciliations is reconciliation work in payroll, which is not covered by the listed GL or treasury capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-34",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Supporting the implementation of best practices is too vague and sounds like a process-improvement project.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "3e2064e4fb44e713-35",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Collaborating on recommendations to senior management is advising and partnering with leadership, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

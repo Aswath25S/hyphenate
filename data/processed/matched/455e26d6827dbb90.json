@@ -1,0 +1,528 @@
+{
+  "posting_id": "455e26d6827dbb90",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "455e26d6827dbb90-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Owning corporate accounting operations is a broad management/accountability duty rather than a specific automated accounting workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Owning the general ledger is oversight of an accounting function, not the act of preparing a specific GL task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Owning month-end and quarter-end close is close management, not the close tasks themselves.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Owning reconciliations is management of reconciliations rather than performing account reconciliations end to end.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Owning accruals is oversight of the accrual process, not the accrual preparation work itself.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Owning prepaids is functional ownership, not maintaining prepaid schedules directly.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Owning fixed assets is accounting function ownership, not maintaining the fixed asset register.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Owning intercompany activities is oversight of intercompany accounting rather than executing eliminations and recs.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Leading the monthly close is team/process leadership, which is a management duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Leading the quarterly close is management of the close process rather than a discrete close task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Leading the annual close is a leadership responsibility, not an automated accounting action.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Ensuring financial results are accurate is a broad accountability/oversight duty rather than a specific platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Ensuring financial results are well-supported is audit/management oversight, not a discrete operational task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Ensuring financial results are controlled is oversight of controls, not execution of a defined control workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Ensuring financial results are delivered on time is a management/accountability duty rather than a specific finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Maintaining a strong internal control environment is control oversight and governance, not just running controls.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.66,
+      "rationale": "Building scalable processes is process leadership and redesign work, which is broader than a specific automated accounting capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with Technical Accounting is cross-functional collaboration, which fits the human label.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with Revenue is collaboration/advising across functions, not an operational finance workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with FP&A is cross-functional collaboration rather than an automated finance task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with Tax is advisory cross-functional work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with Treasury is collaboration with another team, not a platform-performed accounting action.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with Payroll is cross-functional coordination, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with Legal is advisory and cross-functional, not a finance-operations workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with IT is cross-functional coordination rather than an accounting automation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Supporting external audits is a relationship-driven audit support duty handled by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-27",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.46,
+      "rationale": "Supporting financial reporting requirements is too broad to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Serving as a transformation leader is leadership and change management, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Developing and executing a transformation roadmap is strategic leadership rather than an operational finance workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-30",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.56,
+      "rationale": "Identifying opportunities to eliminate manual work is a broad improvement activity without a specific operational action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-31",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.54,
+      "rationale": "Identifying opportunities to accelerate the close is too broad and does not name a specific task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-32",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.53,
+      "rationale": "Identifying opportunities to improve data quality is a general improvement objective rather than a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-33",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.55,
+      "rationale": "Identifying opportunities to strengthen controls is a broad control-improvement activity without a defined workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-34",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.54,
+      "rationale": "Identifying opportunities to standardize processes is vague process-improvement work, not a specific finance capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-35",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Leading cross-functional initiatives is project leadership across teams, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-36",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Championing responsible AI adoption is leadership and governance, not an automated accounting operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-37",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Building AI capabilities through training is explicitly staff development, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-38",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Building AI capabilities through experimentation is team enablement and leadership rather than a finance workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-39",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Building AI capabilities through best-practice sharing is coaching and knowledge-sharing work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-40",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Establishing governance and human oversight is policy/oversight work, which is human in nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-41",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Establishing metrics is too vague without specifying what is being measured or how.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-42",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.59,
+      "rationale": "Measuring improvements in close performance is a broad KPI activity rather than a defined operational task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-43",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.59,
+      "rationale": "Measuring improvements in automation is a generic measurement objective without a specific workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-44",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Measuring productivity improvements is too broad to map to a specific finance-operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-45",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Measuring quality improvements is a general performance metric activity rather than a specific task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-46",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Leading the accounting team is management work, which is human by definition.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-47",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Coaching the accounting team is people leadership and development, not an automated task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-48",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Developing the accounting team is staff development and management work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-49",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.51,
+      "rationale": "Increasing ownership is too vague to map to a specific finance action or capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-50",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Building stronger accounting capabilities is team development and capability-building work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-51",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Building stronger technology capabilities is people development and enablement, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-52",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Building stronger business capabilities across the team is training and development, not an operational accounting workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-53",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Fostering a culture of continuous improvement is leadership and culture-building work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-54",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Challenging existing processes is change leadership and process design, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-55",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Embracing technology is a leadership mindset and adoption effort rather than a specific finance workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-56",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Embracing automation is change leadership and adoption, not a discrete platform task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-57",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Embracing new ways of working is organizational change leadership, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "455e26d6827dbb90-58",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Balancing operational excellence with transformation is strategic management rather than a specific finance-operations capability.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "posting_id": "8c13608339b477c9",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "8c13608339b477c9-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "The core action is company-wide forecasting and long-range planning, which is FP&A budgeting/modeling work not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8c13608339b477c9-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "The core action is running forecast and budget-to-actual planning cadence, which is planning-model work rather than a listed reporting or close capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8c13608339b477c9-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The duty centers on partnering closely with Accounting during close, which is relationship and coordination work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8c13608339b477c9-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "The core action is headcount planning and compensation forecasting, which is a budgeting/planning model task not covered in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8c13608339b477c9-05",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.88,
+      "rationale": "The duty is producing board and executive reporting materials that explain company performance and drivers, matching management reports and board decks.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8c13608339b477c9-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The duty is serving as a finance partner advising leaders on tradeoffs and resource allocation, which is partnering and advising other teams.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8c13608339b477c9-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "The duty is overseeing another manager's cost-management work, which is managerial oversight rather than a specific platform-executed finance process.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8c13608339b477c9-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.73,
+      "rationale": "The duty is a broad improvement project for FP&A systems, models, and data infrastructure rather than a specific finance operation capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8c13608339b477c9-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The duty is building working relationships across functions so planning is integrated, which is cross-functional partnering work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8c13608339b477c9-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "The duty is setting standards for what should be standardized, automated, or redesigned, which is process policy and judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

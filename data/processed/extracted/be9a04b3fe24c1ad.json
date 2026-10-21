@@ -1,0 +1,173 @@
+{
+  "posting_id": "be9a04b3fe24c1ad",
+  "company": "Checkr",
+  "domain": "checkr.com",
+  "title": "Strategic Finance Senior Analyst",
+  "role_family": "Reporting_FPA",
+  "seniority": "senior",
+  "locations": [
+    "Denver, Colorado, United States",
+    "San Francisco, California, United States"
+  ],
+  "remote": "hybrid",
+  "salary": {
+    "min": 108000,
+    "max": 173000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "On-target Earnings OR Base Salary range (San Francisco, CA)\n\n$128,000—$173,000 USD\n\nOn-target Earnings OR Base Salary range (Denver, CO)\n\n$108,000—$146,000 USD"
+  },
+  "erp": [],
+  "tools": [
+    "Adaptive",
+    "Claude",
+    "Lovable",
+    "Salesforce",
+    "Omni",
+    "SQL"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": true,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "duties": [
+    {
+      "duty_id": "be9a04b3fe24c1ad-01",
+      "text": "Own revenue and opex models that set goals and measure business performance.",
+      "source_span": "Own revenue and opex models that set goals and measure business performance.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-02",
+      "text": "Develop AI-powered workflows",
+      "source_span": "Develop AI-powered workflows",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-03",
+      "text": "Develop automated analyses",
+      "source_span": "automated analyses",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-04",
+      "text": "Develop intelligence systems that redefine what a strategic finance team can do.",
+      "source_span": "intelligence systems that redefine what a strategic finance team can do.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-05",
+      "text": "Assess and define our existing and potential future strategic priorities.",
+      "source_span": "Assess and define our existing and potential future strategic priorities.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-06",
+      "text": "Quantitatively validate and drive influence toward the highest revenue impact and ROI initiatives.",
+      "source_span": "Quantitatively validate and drive influence toward the highest revenue impact and ROI initiatives.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-07",
+      "text": "Proactively deliver data-driven insights and recommendations that inform go-to-market tactics, product features and experiments, budget allocations, Board of Directors / investor materials, and other cross-functional roadmaps.",
+      "source_span": "Proactively deliver data-driven insights and recommendations that inform go-to-market tactics, product features and experiments, budget allocations, Board of Directors / investor materials, and other cross-functional roadmaps.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-08",
+      "text": "Collaborate with cross-functional partners across Sales, Product, Finance, Corporate Development, and more.",
+      "source_span": "Collaborate with cross-functional partners across Sales, Product, Finance, Corporate Development, and more.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-09",
+      "text": "Contribute to our long-range, annual, and quarterly planning processes, including the strategic plan that positions us to accomplish our goals.",
+      "source_span": "Contribute to our long-range, annual, and quarterly planning processes, including the strategic plan that positions us to accomplish our goals.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-10",
+      "text": "4+ years of experience",
+      "source_span": "4+ years of experience.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-11",
+      "text": "Foundational experience in investment banking, private equity, or strategic finance/business operations is preferred",
+      "source_span": "Foundational experience in investment banking, private equity, or strategic finance/business operations is preferred.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-12",
+      "text": "Experience with consumption-based business models is a meaningful plus",
+      "source_span": "Experience with consumption-based business models is a meaningful plus.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-13",
+      "text": "Proven track record of driving business outcomes through data analytics and financial insights",
+      "source_span": "Proven track record of driving business outcomes through data analytics and financial insights.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-14",
+      "text": "You've built something with AI- a model, a workflow, an automated analysis.",
+      "source_span": "You've built something with AI- a model, a workflow, an automated analysis.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-15",
+      "text": "Expert-level modeling ability, translating complex business drivers into clear frameworks.",
+      "source_span": "Expert-level modeling ability, translating complex business drivers into clear frameworks.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-16",
+      "text": "Experience with Adaptive, Claude, Lovable, Salesforce, BI tools (ie. Omni), SQL.",
+      "source_span": "Experience with Adaptive, Claude, Lovable, Salesforce, BI tools (ie. Omni), SQL.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-17",
+      "text": "You identify problems before they're handed to you, and you thrive when the answer isn't obvious.",
+      "source_span": "You identify problems before they're handed to you, and you thrive when the answer isn't obvious.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "be9a04b3fe24c1ad-18",
+      "text": "An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes",
+      "source_span": "An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-08-24T15:45:06-04:00",
+  "source_url": "https://job-boards.greenhouse.io/checkr/jobs/8145302",
+  "fetched_at": "2026-10-21T17:34:06.780Z",
+  "prompt_version": "extract-v1",
+  "text": "About Checkr\nCheckr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a date. Customers include Uber, Pennymac, Airbnb, Doordash, and Anthropic.\n\nWe’re a team that thrives on solving complex problems with innovative solutions that advance our mission. Checkr is recognized on Forbes Cloud 100 2025 List and is a Y Combinator 2024 Breakthrough Company.\n\nAbout the team and role\nThe Strategic Finance team at Checkr sits at the intersection of finance, strategy, and execution. We don't just report on the business, we shape it. We drive strategic decision-making through deep cross-functional partnership, financial and strategic analyses, and domain expertise. We proactively identify opportunities to fuel growth toward Checkr’s goals and deliver the highest impact outcomes.\n\nWe are looking for several Strategic Finance Senior Analysts to join our growing team. We focus on delivering actionable insights into business performance and optimizing resource allocation to accelerate growth. This person will play a pivotal role in how we scale our growth businesses.\n\nWhat you’ll do\n\n• Model Ownership: Own revenue and opex models that set goals and measure business performance.\n\n• Build the next-generation StratFin team: Develop AI-powered workflows, automated analyses, and intelligence systems that redefine what a strategic finance team can do.\n\n• Strategy: Assess and define our existing and potential future strategic priorities. Quantitatively validate and drive influence toward the highest revenue impact and ROI initiatives.\n\n• Insights: Proactively deliver data-driven insights and recommendations that inform go-to-market tactics, product features and experiments, budget allocations, Board of Directors / investor materials, and other cross-functional roadmaps.\n\n• Business Partnership: Collaborate with cross-functional partners across Sales, Product, Finance, Corporate Development, and more.\n\n• Strategic Planning: Contribute to our long-range, annual, and quarterly planning processes, including the strategic plan that positions us to accomplish our goals.\n\nWhat you bring\n\n• 4+ years of experience. Foundational experience in investment banking, private equity, or strategic finance/business operations is preferred. Experience with consumption-based business models is a meaningful plus.\n\n• Proven track record of driving business outcomes through data analytics and financial insights.\n\n• You've built something with AI- a model, a workflow, an automated analysis. You're eager to do more of it. You see AI as a core part of how great finance teams will operate, not a novelty.\n\n• Expert-level modeling ability, translating complex business drivers into clear frameworks.\n\n• Experience with Adaptive, Claude, Lovable, Salesforce, BI tools (ie. Omni), SQL.\n\n• You identify problems before they're handed to you, and you thrive when the answer isn't obvious.\n\n• An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes\n\nPay Transparency Disclosure\n\nWe use geographic cost of labor as an input to develop ranges for our roles and as such, each location where we hire may have a different range. If this role is remote, we have listed the top to the bottom of the possible range, but we will specify the target range for an exact location when you are selected for a recruiting discussion. For more information on our compensation philosophy, see our website.\n\nOn-target Earnings OR Base Salary range (San Francisco, CA)\n\n$128,000—$173,000 USD\n\nOn-target Earnings OR Base Salary range (Denver, CO)\n\n$108,000—$146,000 USD\n\nWhat We Offer\n\n• A fast-paced and collaborative environment\n\n• Learning and development allowance\n\n• Competitive cash and equity compensation, and opportunity for advancement\n\n• 100% medical, dental, and vision coverage\n\n• Up to $25K reimbursement for fertility, adoption, and parental planning services\n\n• Flexible PTO policy\n\n• Monthly wellness stipend\n\nAt Checkr, we believe an in office work environment strengthens collaboration, drives innovation, and encourages connection. Our hub locations are Denver, CO; San Francisco, CA; Nashville, TN; and Santiago, Chile. Individuals are expected to work from the office 3+ days a week. In-office perks are provided, such as lunch five times a week, a commuter stipend, and an abundance of snacks and beverages. A relocation stipend may be available for those willing to relocate to a Checkr hub location.\n\nEqual Employment Opportunities at Checkr\nCheckr is committed to building the best product and company, which requires hiring talented and qualified individuals with a diverse set of perspectives and lived experiences. Checkr believes in hiring people of all backgrounds, including those whose histories are impacted by the justice system in accordance with local, state, and/or federal laws, including the San Francisco’s Fair Chance Ordinance.\n\nApplicant Privacy Policy\nIf you are a California resident or are located in Alberta or British Columbia, our Applicant Privacy Policy applies to our collection and processing of your personal information when you apply for a role with us or otherwise participate in our recruitment process.\n\nFor applicants in Massachusetts: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.\n\n*Legitimate Checkr emails will always include our official domain name after the @ symbol (e.g., name@checkr.com or name@ext.checkr.com).",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

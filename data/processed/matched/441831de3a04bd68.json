@@ -1,0 +1,105 @@
+{
+  "posting_id": "441831de3a04bd68",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "441831de3a04bd68-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Managing relationships with banking and investment partners is relationship management, which is explicitly outside the platform's operational capabilities.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "441831de3a04bd68-02",
+      "label": "assisted",
+      "capability_id": "tre.forecast",
+      "confidence": 0.83,
+      "rationale": "Overseeing global cash position and cash flow forecasting matches treasury cash monitoring and 13-week forecasting, with forecasting kept as assisted.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "441831de3a04bd68-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with Finance and Accounting to run projects end-to-end is cross-functional project leadership, not a specific automated treasury task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "441831de3a04bd68-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Monitoring and managing an investment portfolio is treasury asset management, which is not covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "441831de3a04bd68-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Quantifying and analyzing foreign currency exposures is analytical treasury work with no matching capability in the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "441831de3a04bd68-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Making hedging recommendations requires judgment and policy decisions, which are not automated capabilities here.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "441831de3a04bd68-07",
+      "label": "covered",
+      "capability_id": "gl.intercompany",
+      "confidence": 0.83,
+      "rationale": "Managing intercompany relationships and arrangements aligns with intercompany balances, settlements, and allocations.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "441831de3a04bd68-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Maintaining appropriate capital levels is a capital structure/policy decision rather than a covered finance-ops workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "441831de3a04bd68-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Managing FX translation exposure is treasury risk management that does not map to a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "441831de3a04bd68-10",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.92,
+      "rationale": "Ensuring compliance with treasury controls documentation matches monitoring controls and maintaining control documentation.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "441831de3a04bd68-11",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.84,
+      "rationale": "Supporting quarterly reviews and annual audit requests matches providing audit support and documentation, but the audit relationship remains human.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

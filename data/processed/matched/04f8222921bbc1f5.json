@@ -1,0 +1,105 @@
+{
+  "posting_id": "04f8222921bbc1f5",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "04f8222921bbc1f5-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Building cross-functional relationships with business leaders is relationship management and advisory work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "04f8222921bbc1f5-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Serving as a liaison between business leaders and executive management is a human coordination and communication function.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "04f8222921bbc1f5-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Detailed custom financial modeling is FP&A planning work that is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "04f8222921bbc1f5-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Scenario analysis for planning is a budgeting/forecasting modeling task that matches no covered capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "04f8222921bbc1f5-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Providing market insights to product and commercial teams is advisory support to other teams, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "04f8222921bbc1f5-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Analyzing actual results versus budget/forecast is budget-vs-actual FP&A analysis, which is not in the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "04f8222921bbc1f5-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with business leaders to drive decision support is advisory collaboration with other teams, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "04f8222921bbc1f5-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Supporting investor relations, benchmarking, and evaluating partnerships or acquisitions involves strategic advisory and external-facing judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "04f8222921bbc1f5-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Forecasting, budgeting, resource allocation, and long-range planning are FP&A planning tasks that are not covered here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "04f8222921bbc1f5-10",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Supporting month-end and quarter-end close is too vague to determine which close task is actually being performed.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "04f8222921bbc1f5-11",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.99,
+      "rationale": "Providing audit support matches audit trail and documentation support for the financial statement audit.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

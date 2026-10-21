@@ -1,0 +1,213 @@
+{
+  "posting_id": "2a89115447f59b96",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "2a89115447f59b96-01",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.55,
+      "rationale": "Owning and managing a P&L is a broad responsibility rather than a specific finance-ops task in the coverage map.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.5,
+      "rationale": "Ensuring accuracy and accountability for the P&L is an ownership statement, not a specific automatable workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Developing annual budgets and forecasts is FP&A planning work that is explicitly outside the forecast capability listed here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.56,
+      "rationale": "Aligning budgets and forecasts to corporate strategy is strategic judgment without a matching platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Tracking actual expenses against projections is budget-versus-actual monitoring, which is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-06",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.78,
+      "rationale": "Providing financial analysis and insights across business units matches ad hoc finance analysis traced to source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-07",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.81,
+      "rationale": "Preparing detailed trend reports fits recurring management reporting and KPI-style reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-08",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.79,
+      "rationale": "Preparing detailed cost-control reports is management reporting rather than a transactional finance workflow.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-09",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.78,
+      "rationale": "Preparing detailed operational-efficiency reports fits recurring management reports and KPI output.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-10",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.7,
+      "rationale": "Conducting variance analysis matches flux analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Comparing actual results to forecasts and budgets is FP&A budget-versus-actual analysis, which is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Providing recommendations to senior management is advisory judgment, which is classified as human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Assisting in long-term strategic planning is strategic advisory work, not an automation workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Developing financial models is FP&A modeling work with no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Conducting scenario analysis is planning-model work that is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Forecasting the impact of new initiatives or business changes is a planning model task outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Identifying opportunities for cost reductions is analytical FP&A work with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Identifying opportunities for efficiency improvements is strategic analysis rather than a covered finance-ops process.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Working cross-functionally to implement cost-saving initiatives is partnering and change management, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Partnering with business leaders to provide financial support is cross-functional advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Ensuring alignment of financial performance with business goals is strategic leadership and advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-22",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.76,
+      "rationale": "Developing and maintaining KPIs matches building recurring management reports and KPI reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2a89115447f59b96-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Presenting findings and recommendations to senior leadership is presentation work, which is classified as human.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

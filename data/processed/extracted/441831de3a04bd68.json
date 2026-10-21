@@ -1,0 +1,183 @@
+{
+  "posting_id": "441831de3a04bd68",
+  "company": "Lemonade",
+  "domain": "lemonade.com",
+  "title": "Senior Manager, Treasury",
+  "role_family": "Treasury",
+  "seniority": "manager",
+  "locations": [
+    "NYC"
+  ],
+  "remote": "hybrid",
+  "salary": {
+    "min": 160000,
+    "max": 180000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Lemonade's US base salary range for this full-time position is $160,000 - $180,000 plus equity + benefits."
+  },
+  "erp": [],
+  "tools": [
+    "Trovata",
+    "Clearwater",
+    "Excel",
+    "Google Workspace"
+  ],
+  "complexity": {
+    "multi_entity": true,
+    "multi_currency": true,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "financing and regulatory complexity",
+    "global cash position and cash flow forecasting",
+    "company-wide foreign currency exposures",
+    "intercompany relationships and arrangements",
+    "treasury controls documentation"
+  ],
+  "duties": [
+    {
+      "duty_id": "441831de3a04bd68-01",
+      "text": "Manage relationships with banking and investment management partners",
+      "source_span": "Manage relationships with banking and investment management partners, serving as the primary point of contact across Lemonade's global entities",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "441831de3a04bd68-02",
+      "text": "Oversee the company's global cash position and cash flow forecasting",
+      "source_span": "Oversee the company's global cash position and cash flow forecasting, ensuring liquidity strategy supports ongoing operating needs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "441831de3a04bd68-03",
+      "text": "Partner with Finance and Accounting to execute treasury operations projects end-to-end",
+      "source_span": "Partner with Finance and Accounting to execute treasury operations projects end-to-end",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "441831de3a04bd68-04",
+      "text": "Monitor and manage the corporate investment portfolio",
+      "source_span": "Monitor and manage the corporate investment portfolio, recommending strategic changes to investment policy that improve returns",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "441831de3a04bd68-05",
+      "text": "Quantify and analyze company-wide foreign currency exposures",
+      "source_span": "Quantify and analyze company-wide foreign currency exposures — transactional, economic, and translational —",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "441831de3a04bd68-06",
+      "text": "Make hedging recommendations",
+      "source_span": "make hedging recommendations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "441831de3a04bd68-07",
+      "text": "Manage intercompany relationships and arrangements",
+      "source_span": "Manage intercompany relationships and arrangements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "441831de3a04bd68-08",
+      "text": "Maintain appropriate capital levels",
+      "source_span": "maintaining appropriate capital levels",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "441831de3a04bd68-09",
+      "text": "Manage FX translation exposure",
+      "source_span": "managing FX translation exposure",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "441831de3a04bd68-10",
+      "text": "Ensure compliance with treasury controls documentation",
+      "source_span": "Ensure compliance with treasury controls documentation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "441831de3a04bd68-11",
+      "text": "Support quarterly reviews and annual audit requests",
+      "source_span": "support quarterly reviews and annual audit requests",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "441831de3a04bd68-12",
+      "text": "5+ years of treasury or corporate finance experience",
+      "source_span": "5+ years of treasury or corporate finance experience, with hands-on exposure across multiple disciplines — Cash Management, Treasury Operations, FX, and Investment Management",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "441831de3a04bd68-13",
+      "text": "Hands-on exposure across Cash Management, Treasury Operations, FX, and Investment Management",
+      "source_span": "with hands-on exposure across multiple disciplines — Cash Management, Treasury Operations, FX, and Investment Management",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "441831de3a04bd68-14",
+      "text": "Extensive treasury operations background including banking and cash operations, cash management, and forecasting",
+      "source_span": "Extensive treasury operations background including banking and cash operations, cash management, and forecasting",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "441831de3a04bd68-15",
+      "text": "Proficiency with TMS solutions, including Trovata and Clearwater",
+      "source_span": "Proficiency with TMS solutions, including Trovata and Clearwater",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "441831de3a04bd68-16",
+      "text": "High proficiency in Excel and Google Workspace",
+      "source_span": "High proficiency in Excel and Google Workspace",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "441831de3a04bd68-17",
+      "text": "Solid command of U.S. GAAP, including ASC 820 Fair Value Measurement and ASU 326 Financial Instruments - Credit Losses (CECL)",
+      "source_span": "Solid command of U.S. GAAP, including ASC 820 Fair Value Measurement and ASU 326 Financial Instruments - Credit Losses (CECL)",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "441831de3a04bd68-18",
+      "text": "A bachelor's degree in Finance, Accounting, Economics, or a related field",
+      "source_span": "A bachelor's degree in Finance, Accounting, Economics, or a related field",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "441831de3a04bd68-19",
+      "text": "Work in our Soho office 3 days per week",
+      "source_span": "Ready to work in our Soho office 3 days per week",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-08-25T15:19:17.279+00:00",
+  "source_url": "https://jobs.ashbyhq.com/lemonade/0916a76a-b2ba-4d48-aa5e-e1c18336d69e",
+  "fetched_at": "2026-10-21T17:34:15.612Z",
+  "prompt_version": "extract-v1",
+  "text": "We're looking for a Senior Manager, Treasury to develop and manage Lemonade's corporate treasury operations. You'll be part of the Finance team, building and maintaining relationships with our banking and investment management partners while supporting key stakeholders across all of our global entities. As Lemonade grows into new markets and launches new products, your insights will directly shape how we navigate the financing and regulatory complexity that comes with scaling a modern insurance company.\n\nWe believe three things matter for every role at Lemonade: drive to push through challenges, efficiency that keeps standards high while moving fast, and adaptability that lets you pivot with data and AI insights. These aren't buzzwords, they're how we actually work.\n\nOur AI-first approach isn't just a tagline either. We're building the future of insurance with AI at the center, and we need people who are genuinely excited to learn and grow alongside these tools.\n\n\n\nIN THIS ROLE YOU'LL\n\n - Manage relationships with banking and investment management partners, serving as the primary point of contact across Lemonade's global entities\n\n - Oversee the company's global cash position and cash flow forecasting, ensuring liquidity strategy supports ongoing operating needs\n\n - Partner with Finance and Accounting to execute treasury operations projects end-to-end\n\n - Monitor and manage the corporate investment portfolio, recommending strategic changes to investment policy that improve returns\n\n - Quantify and analyze company-wide foreign currency exposures — transactional, economic, and translational — and make hedging recommendations\n\n - Manage intercompany relationships and arrangements, maintaining appropriate capital levels and managing FX translation exposure\n\n - Ensure compliance with treasury controls documentation and support quarterly reviews and annual audit requests\n\n\nWHAT YOU'LL NEED\n\n - 5+ years of treasury or corporate finance experience, with hands-on exposure across multiple disciplines — Cash Management, Treasury Operations, FX, and Investment Management\n\n - Extensive treasury operations background including banking and cash operations, cash management, and forecasting\n\n - Proficiency with TMS solutions, including Trovata and Clearwater\n\n - High proficiency in Excel and Google Workspace\n\n - Solid command of U.S. GAAP, including ASC 820 Fair Value Measurement and ASU 326 Financial Instruments - Credit Losses (CECL)\n\n - A bachelor's degree in Finance, Accounting, Economics, or a related field\n\n - Ready to work in our Soho office 3 days per week\n\nPlease note that we are unable to sponsor applicants for work visas.\n\nUnfortunately, we cannot consider applicants from these states: Alaska, California, Colorado, Montana, Hawaii, New Mexico and Puerto Rico.\n\nLemonade's US base salary range for this full-time position is $160,000 - $180,000 plus equity + benefits. Our salary ranges are determined by role, level, and location. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Our competitive total rewards package includes comprehensive health & wellness coverage, equity, a 401(k) plan with employer match, 20 paid vacation days, and parental leave. Speak to your recruiter to hear more about the specific salary range for your preferred location and our total rewards package.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "ashby"
+}

@@ -1,0 +1,447 @@
+{
+  "posting_id": "a244699191518a52",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "a244699191518a52-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Managing multi-country payroll delivery is payroll processing/operations work that is repetitive and not covered by the listed finance-ops capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Auditing payroll delivery is a payroll control/checking activity with no matching capability on the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Executing payroll delivery is payroll processing work, which is explicitly outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Managing payroll inputs is a repetitive payroll-processing task with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Managing validation in payroll is operational checking work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Managing approvals here refers to payroll workflow approvals, which are not one of the listed approval capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Managing funding coordination is payroll funding operations, which has no matching capability listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Managing reconciliations in payroll is a rules-based reconciliation task without a payroll-specific capability on the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Managing statutory filings is tax/payroll compliance filing work and is not covered by the advertised capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Post-payroll activities are payroll operations with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-11",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Ensuring high accuracy is a broad performance goal rather than a specific operational action to map.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Ensuring adherence to regional pay schedules is payroll cadence management with no listed capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Leading the payroll calendar is a coordination/leadership activity rather than an automatable finance-operation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Leading the operating cadence across countries is a cross-functional leadership task, not a platform-executed workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-15",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Managing dependencies is too vague to map to a specific finance-operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Managing cutoffs is a process-control task in payroll operations with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Managing exceptions in payroll is operational exception handling without a corresponding listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Managing risks is too broad and unspecific to classify against the capability map.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Ensuring employees are paid accurately and on time is payroll processing and delivery work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with local payroll providers is a relationship and coordination task that requires human interaction.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-21",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Maintaining adherence to regional pay schedules is payroll operations timing work with no listed capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-22",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Maintaining statutory processing windows is compliance-timing work in payroll that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-23",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Overseeing international equity compensation payroll processing is specialized payroll processing with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-24",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Ensuring tax-jurisdiction compliance is a payroll compliance task not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Ensuring compliance with localized statutory benefits is payroll compliance administration with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-26",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Ensuring compliance with reporting requirements is compliance administration outside the advertised capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Acting as functional lead for payroll technology projects is project leadership, which is a human task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-28",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Leveraging Workday to automate workflows is a systems automation implementation task with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-29",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Optimizing system configurations is a technical implementation task that is too unspecific to map cleanly.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-30",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Building custom reporting is report creation work, but payroll-specific reporting is not one of the listed reporting capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-31",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Partnering to implement enterprise payroll solutions is cross-functional project work requiring human coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-32",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with Benefits is a cross-functional advisory/coordination activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-33",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with People Operations is a cross-functional advisory/coordination activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-34",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with Legal is a human coordination task, not an automatable finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-35",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with Finance is a cross-functional coordination task that requires human interaction.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-36",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Managing external vendor relationships is relationship management, which is explicitly human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-37",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Managing third-party tax fulfillment partners is vendor relationship management and coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-38",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Ensuring funds reconciliation is a reconciliation task, but payroll funds reconciliation is not a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-39",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Ensuring local tax compliance is compliance administration and filing work outside the capability map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-40",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Establishing global payroll policies is policy-setting, which is human judgment work by definition.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-41",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Documenting global payroll policies supports policy-setting work and is not an end-to-end finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-42",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Enforcing global payroll policies is policy enforcement and governance work that requires human oversight.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-43",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Establishing SOX controls is designing the control framework, which the map explicitly excludes.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-44",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.82,
+      "rationale": "Documenting SOX controls matches maintaining documentation of key controls under the controls capability.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-45",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.84,
+      "rationale": "Enforcing SOX controls is operational control execution and monitoring, which fits the controls capability.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-46",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Establishing standard operating procedures is process design and policy-setting work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-47",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.69,
+      "rationale": "Documenting standard operating procedures is administrative documentation that is too generic to map precisely.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-48",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Enforcing standard operating procedures is governance and oversight work requiring human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a244699191518a52-49",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Streamlining audit readiness is a vague process-improvement activity without a specific capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

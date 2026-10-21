@@ -1,103 +1,139 @@
 {
   "posting_id": "e41b5102e70d4f15",
-  "prompt_version": "hand-labelled",
+  "prompt_version": "match-v1",
   "labels": [
     {
-      "duty_id": "e41b5102e70d4f15-h01",
+      "duty_id": "e41b5102e70d4f15-07",
       "label": "assisted",
       "capability_id": "gl.journal_entries",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Preparing journal entries matches the journal entry preparation capability, which is assisted because it still requires accounting judgment.",
       "model_label": "assisted",
       "adjusted": null
     },
     {
-      "duty_id": "e41b5102e70d4f15-h02",
+      "duty_id": "e41b5102e70d4f15-08",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.98,
+      "rationale": "Posting journal entries is the core journal entry workflow and fits the assisted journal-entry capability.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-09",
       "label": "assisted",
       "capability_id": "gl.accruals",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.97,
+      "rationale": "Managing accrual schedules is accrual estimation and recording, which matches the assisted accruals capability.",
       "model_label": "assisted",
       "adjusted": null
     },
     {
-      "duty_id": "e41b5102e70d4f15-h03",
-      "label": "covered",
-      "capability_id": "gl.close_checklist",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "covered",
-      "adjusted": null
-    },
-    {
-      "duty_id": "e41b5102e70d4f15-h04",
-      "label": "assisted",
-      "capability_id": "gl.close_checklist",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "assisted",
-      "adjusted": null
-    },
-    {
-      "duty_id": "e41b5102e70d4f15-h05",
-      "label": "covered",
-      "capability_id": "gl.account_recs",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "covered",
-      "adjusted": null
-    },
-    {
-      "duty_id": "e41b5102e70d4f15-h06",
-      "label": "assisted",
-      "capability_id": "gl.flux",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "assisted",
-      "adjusted": null
-    },
-    {
-      "duty_id": "e41b5102e70d4f15-h07",
-      "label": "covered",
-      "capability_id": "p2p.bill_capture",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "covered",
-      "adjusted": null
-    },
-    {
-      "duty_id": "e41b5102e70d4f15-h08",
-      "label": "gap_candidate",
-      "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "gap_candidate",
-      "adjusted": null
-    },
-    {
-      "duty_id": "e41b5102e70d4f15-h09",
+      "duty_id": "e41b5102e70d4f15-10",
       "label": "unclear",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.69,
+      "rationale": "Own monthly workbooks is too vague to map to a specific finance-operations capability.",
       "model_label": "unclear",
       "adjusted": null
     },
     {
-      "duty_id": "e41b5102e70d4f15-h10",
+      "duty_id": "e41b5102e70d4f15-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Taking a leading role in month-end close is managing the close process, which is a human leadership duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Taking a leading role in year-end close is process leadership rather than an automatable system task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-13",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.95,
+      "rationale": "Managing balance sheet reconciliation schedules is part of balance-sheet account reconciliation work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-14",
       "label": "assisted",
-      "capability_id": "gl.audit_support",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.74,
+      "rationale": "Performing P&L analytics is financial analysis that fits the assisted ad hoc analysis capability.",
       "model_label": "assisted",
       "adjusted": null
     },
     {
-      "duty_id": "e41b5102e70d4f15-h11",
+      "duty_id": "e41b5102e70d4f15-15",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.95,
+      "rationale": "Reviewing supplier invoices matches vendor bill review and coding in procure-to-pay.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Reviewing expense reports is a repetitive AP-style review task that is explicitly outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Support cash-related transactions is too broad to determine whether it means cash application, payments, or something else.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Support broader financial operations processes is too vague to map to one specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-19",
       "label": "human",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.93,
+      "rationale": "Driving external audit requirements implies managing the auditor relationship, which is a human duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Driving annual external audit requirements is external auditor management, which is a human relationship task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e41b5102e70d4f15-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Acting as a reliable partner to auditors is a relationship-management duty with external auditors.",
       "model_label": "human",
       "adjusted": null
     }

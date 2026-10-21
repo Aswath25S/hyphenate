@@ -1,0 +1,284 @@
+{
+  "posting_id": "89efae63e1948fdf",
+  "company": "Huntress",
+  "domain": "huntress.com",
+  "title": "Vice President, FP&A",
+  "role_family": "Reporting_FPA",
+  "seniority": "director_plus",
+  "locations": [
+    "United States of America"
+  ],
+  "remote": "remote",
+  "salary": {
+    "min": 280000,
+    "max": 340000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Compensation Range: $280,000 to $340,000 base plus bonus and equity"
+  },
+  "erp": [],
+  "tools": [],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "duties": [
+    {
+      "duty_id": "89efae63e1948fdf-01",
+      "text": "Own strategic financial planning both near and long term.",
+      "source_span": "Own strategic financial planning both near and long term.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-02",
+      "text": "Identify the drivers of growth, efficiency, and cash.",
+      "source_span": "Identify the drivers of growth, efficiency, and cash",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-03",
+      "text": "Turn them into recommendations the Executive Team can act upon.",
+      "source_span": "turn them into recommendations the Executive Team can act upon.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-04",
+      "text": "Serve as a key voice to the Executive Team.",
+      "source_span": "Serve as a key voice to the Executive Team.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-05",
+      "text": "Shape the company's financial narrative across reporting, investor relations, and fundraising.",
+      "source_span": "Shape the company's financial narrative across reporting, investor relations, and fundraising",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-06",
+      "text": "Act as a close partner to the CFO.",
+      "source_span": "act as a close partner to the CFO.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-07",
+      "text": "Partner with GTM, Product, and functional leaders to turn data into insights non-finance leaders understand and act on.",
+      "source_span": "Partner with GTM, Product, and functional leaders to turn data into insights non-finance leaders understand and act on",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-08",
+      "text": "Challenge them with evidence when needed.",
+      "source_span": "challenge them with evidence when needed.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-09",
+      "text": "Lead scenario modeling for major decisions.",
+      "source_span": "scenario modeling",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-10",
+      "text": "Lead sensitivity analysis for major decisions.",
+      "source_span": "sensitivity analysis",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-11",
+      "text": "Lead investment cases for major decisions.",
+      "source_span": "investment cases for major decisions.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-12",
+      "text": "Build and scale the FP&A team and operating model.",
+      "source_span": "Build and scale the FP&A team and operating model",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-13",
+      "text": "Develop talent.",
+      "source_span": "talent development",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-14",
+      "text": "Maintain succession readiness.",
+      "source_span": "succession readiness",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-15",
+      "text": "Establish governance.",
+      "source_span": "governance",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-16",
+      "text": "Maintain controls.",
+      "source_span": "controls",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-17",
+      "text": "Keep what works.",
+      "source_span": "Keep what works and redesign what doesn't.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-18",
+      "text": "Redesign what doesn't work.",
+      "source_span": "Keep what works and redesign what doesn't.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-19",
+      "text": "Redesign forecasting workflows with AI.",
+      "source_span": "Redesign forecasting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-20",
+      "text": "Redesign planning workflows with AI.",
+      "source_span": "planning",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-21",
+      "text": "Redesign variance workflows with AI.",
+      "source_span": "variance",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-22",
+      "text": "Redesign reporting workflows with AI.",
+      "source_span": "reporting workflows with AI,",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-23",
+      "text": "Validate outputs.",
+      "source_span": "validate outputs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-24",
+      "text": "Protect confidential data.",
+      "source_span": "protect confidential data.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-25",
+      "text": "Oversee sales compensation administration.",
+      "source_span": "Oversee sales compensation administration",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-26",
+      "text": "Align incentive plans with company goals.",
+      "source_span": "incentive plans align with company goals",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-27",
+      "text": "Execute incentive plans accurately.",
+      "source_span": "are executed accurately.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-28",
+      "text": "Founded in 2015 by former NSA cyber operators, Huntress is a remote-first team working to make enterprise-grade cybersecurity accessible to businesses of all sizes.",
+      "source_span": "Founded in 2015 by former NSA cyber operators, Huntress is a remote-first team working to make enterprise-grade cybersecurity accessible to businesses of all sizes.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-29",
+      "text": "Huntress is committed to creating a culture of inclusivity where every single member of our team is valued, has a voice, and is empowered to come to work every day just as they are.",
+      "source_span": "Huntress is committed to creating a culture of inclusivity where every single member of our team is valued, has a voice, and is empowered to come to work every day just as they are.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "89efae63e1948fdf-30",
+      "text": "15+ years of progressive FP&A or Strategic Finance leadership in high-growth SaaS, including building and scaling multi-level teams.",
+      "source_span": "15+ years of progressive FP&A or Strategic Finance leadership in high-growth SaaS, including building and scaling multi-level teams.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "89efae63e1948fdf-31",
+      "text": "Analytical storyteller: a track record of turning complex financials into a clear narrative for executives, boards, and non-finance stakeholders.",
+      "source_span": "Analytical storyteller: a track record of turning complex financials into a clear narrative for executives, boards, and non-finance stakeholders.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "89efae63e1948fdf-32",
+      "text": "Trusted influencer: you build relationships across the organization, give candid input, and challenge senior leaders with evidence and care.",
+      "source_span": "Trusted influencer: you build relationships across the organization, give candid input, and challenge senior leaders with evidence and care.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "89efae63e1948fdf-33",
+      "text": "Talent builder: you develop leaders, not just analysts, and have built engaged, high-performing teams.",
+      "source_span": "Talent builder: you develop leaders, not just analysts, and have built engaged, high-performing teams.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "89efae63e1948fdf-34",
+      "text": "Sound judgment in ambiguous, fast-changing environments, with a bias for finding and implementing improvements.",
+      "source_span": "Sound judgment in ambiguous, fast-changing environments, with a bias for finding and implementing improvements.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "89efae63e1948fdf-35",
+      "text": "Strong command of enterprise planning systems, BI/visualization tools, and AI-enabled workflows, applied with verification, confidentiality, and control.",
+      "source_span": "Strong command of enterprise planning systems, BI/visualization tools, and AI-enabled workflows, applied with verification, confidentiality, and control.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-10-02T11:26:01-04:00",
+  "source_url": "https://job-boards.greenhouse.io/huntress/jobs/8011620003",
+  "fetched_at": "2026-10-21T17:34:42.372Z",
+  "prompt_version": "extract-v1",
+  "text": "What We Do:\n\nCybercrime is growing, and more businesses are getting hit by threats that used to target only the biggest organizations. That pushes defenders like us to operate at the highest level, and it deepens our need for good people who want to make a meaningful impact.\n\nFounded in 2015 by former NSA cyber operators, Huntress is a remote-first team working to make enterprise-grade cybersecurity accessible to businesses of all sizes. We work closely with security teams and service providers protecting complex environments, often without the time or headcount to handle it all. That’s why we build our technology in-house and back it with a 24/7 human-led Security Operations Center (SOC). As a result, our platform is never disconnected from the experts who manage it, ensuring our customers' protection.\n\nHuntress now secures more than 5M endpoints and 16M identities worldwide. Those numbers keep growing because more businesses rely on us to help carry the load and operate with more confidence. Every day, you can see that commitment in how we stand with our customers and how we show up for each other.\n\nReports to: Chief Financial Officer\n\nLocation: Remote US\n\nCompensation Range: $280,000 to $340,000 base plus bonus and equity\n\nWhat You’ll Do:\n\nYou will lead the financial perspective behind the decisions that shape a high-growth business. As a key partner to the CFO and the Executive Team, you will own near- and long-term strategic planning, turn the drivers of growth, efficiency, and cash into clear recommendations, and help shape the company's financial narrative. You bring the rigor of a strong analyst, the clarity of a storyteller, and the judgment to know when a sharper answer will change the outcome and when it will only slow the team down. Perfect imperfection shows up in how you improve the planning model without overengineering it. Give a $h*t means you take ownership of the FP&A operating layer, including sales compensation, and make it stronger.\n\nYou will build trusted partnerships with GTM, Product, and functional leaders, turning data into insight that non-finance teams understand and act on. Give More Than We Take means your analysis makes other teams better. Candor means you surface hard truths early and challenge respected leaders with evidence and care. You will build and develop a high-performing team and modernize how we plan and forecast with AI, with the controls that keep our numbers trustworthy. You bring Warrior Spirit when forecasts miss or conditions change, and you stay Outcome-Obsessed by measuring success through better decisions, stronger planning discipline, and a finance function that scales.\n\nResponsibilities:\n\n• Own strategic financial planning both near and long term. Identify the drivers of growth, efficiency, and cash, and turn them into recommendations the Executive Team can act upon.\n\n• Serve as a key voice to the Executive Team. Shape the company's financial narrative across reporting, investor relations, and fundraising, and act as a close partner to the CFO.\n\n• Partner with GTM, Product, and functional leaders to turn data into insights non-finance leaders understand and act on, and to challenge them with evidence when needed.\n\n• Lead scenario modeling, sensitivity analysis, and investment cases for major decisions. Apply the right depth to each: go deep when precision changes the answer and move fast when it doesn't.\n\n• Build and scale the FP&A team and operating model, including talent development, succession readiness, governance, and controls. Keep what works and redesign what doesn't.\n\n• Redesign forecasting, planning, variance, and reporting workflows with AI, with controls that validate outputs and protect confidential data.\n\n• Oversee sales compensation administration so incentive plans align with company goals and are executed accurately.\n\nWhat You Bring To The Team:\n\n• 15+ years of progressive FP&A or Strategic Finance leadership in high-growth SaaS, including building and scaling multi-level teams.\n\n• Analytical storyteller: a track record of turning complex financials into a clear narrative for executives, boards, and non-finance stakeholders.\n\n• Trusted influencer: you build relationships across the organization, give candid input, and challenge senior leaders with evidence and care.\n\n• Talent builder: you develop leaders, not just analysts, and have built engaged, high-performing teams.\n\n• Sound judgment in ambiguous, fast-changing environments, with a bias for finding and implementing improvements.\n\n• Strong command of enterprise planning systems, BI/visualization tools, and AI-enabled workflows, applied with verification, confidentiality, and control.\n\nHuntress is committed to creating a culture of inclusivity where every single member of our team is valued, has a voice, and is empowered to come to work every day just as they are.\n\nWe do not discriminate based on race, ethnicity, color, ancestry, national origin, religion, sex, sexual orientation, gender identity, disability, veteran status, genetic information, marital status, or any other legally protected status.\n\nWe do discriminate against hackers who try to exploit businesses of all sizes.\n\nAccommodations:\n\nIf you require reasonable accommodation to complete this application, interview, or pre-employment testing or participate in the employee selection process, please direct your inquiries to accommodations@huntresslabs.com. Please note that non-accommodation requests to this inbox will not receive a response.\n\nHuntress uses artificial intelligence tools to assist in reviewing and evaluating job applications, including resume screening, skills assessment, and candidate matching and comparisons. These AI tools support our human recruiters in the initial review process, but do not make final hiring decisions without human involvement. By submitting your application, you acknowledge this use of AI in our recruitment process. Please review our Candidate Privacy Notice for more details on our practices and your data privacy rights.\n\n#BI-Remote",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

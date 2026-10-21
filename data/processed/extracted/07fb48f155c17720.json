@@ -1,0 +1,481 @@
+{
+  "posting_id": "07fb48f155c17720",
+  "company": "Reddit",
+  "domain": "reddit.com",
+  "title": "Global Indirect Tax Manager",
+  "role_family": "Tax",
+  "seniority": "manager",
+  "locations": [
+    "Remote - United Kingdom",
+    "Remote - United States",
+    "Remote - Ireland"
+  ],
+  "remote": "remote",
+  "salary": {
+    "min": null,
+    "max": null,
+    "period": null,
+    "currency": null,
+    "raw_text": null
+  },
+  "erp": [],
+  "tools": [
+    "Vertex",
+    "Alteryx",
+    "SQL"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": true,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "build and scale Reddit’s global indirect tax function",
+    "across multiple jurisdictions",
+    "reduce manual work",
+    "high-volume transactional businesses",
+    "system integrations",
+    "issue resolution",
+    "real-time reporting requirements",
+    "ad hoc projects"
+  ],
+  "duties": [
+    {
+      "duty_id": "07fb48f155c17720-01",
+      "text": "Manage key elements of Reddit’s global indirect tax function across B2B and B2C revenue streams",
+      "source_span": "Manage key elements of Reddit’s global indirect tax function across B2B and B2C revenue streams",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-02",
+      "text": "Manage US S&U tax",
+      "source_span": "US S&U tax",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-03",
+      "text": "Manage VAT/GST",
+      "source_span": "VAT/GST",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-04",
+      "text": "Manage DSTs",
+      "source_span": "DSTs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-05",
+      "text": "Manage other transactional taxes",
+      "source_span": "other transactional taxes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-06",
+      "text": "Oversee indirect tax registrations across multiple jurisdictions",
+      "source_span": "indirect tax registrations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-07",
+      "text": "Oversee return compliance across multiple jurisdictions",
+      "source_span": "return compliance",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-08",
+      "text": "Oversee payments across multiple jurisdictions",
+      "source_span": "payments",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-09",
+      "text": "Oversee exemption documentation across multiple jurisdictions",
+      "source_span": "exemption documentation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-10",
+      "text": "Oversee taxability determinations across multiple jurisdictions",
+      "source_span": "taxability determinations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-11",
+      "text": "Oversee related controls across multiple jurisdictions",
+      "source_span": "related controls across multiple jurisdictions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-12",
+      "text": "Own and improve indirect tax processes and systems",
+      "source_span": "Own and improve indirect tax processes and systems",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-13",
+      "text": "Manage product and taxability mapping",
+      "source_span": "product and taxability mapping",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-14",
+      "text": "Manage exemptions",
+      "source_span": "exemptions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-15",
+      "text": "Perform transaction testing",
+      "source_span": "transaction testing",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-16",
+      "text": "Manage system integrations",
+      "source_span": "system integrations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-17",
+      "text": "Perform data validation",
+      "source_span": "data validation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-18",
+      "text": "Resolve issues",
+      "source_span": "issue resolution",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-19",
+      "text": "Serve as the indirect tax cross-functional partner for new products and initiatives",
+      "source_span": "new products and initiatives",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-20",
+      "text": "Serve as the indirect tax cross-functional partner for commercial arrangements",
+      "source_span": "commercial arrangements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-21",
+      "text": "Serve as the indirect tax cross-functional partner for billing changes",
+      "source_span": "billing changes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-22",
+      "text": "Serve as the indirect tax cross-functional partner for geographic expansion",
+      "source_span": "geographic expansion",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-23",
+      "text": "Monitor and implement evolving e-invoicing, digital reporting, and real-time reporting requirements",
+      "source_span": "Monitor and implement evolving e-invoicing, digital reporting, and real-time reporting requirements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-24",
+      "text": "Perform indirect tax account reconciliations",
+      "source_span": "indirect tax account reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-25",
+      "text": "Perform indirect tax accruals",
+      "source_span": "accruals",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-26",
+      "text": "Perform indirect tax journal entries",
+      "source_span": "journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-27",
+      "text": "Perform close activities",
+      "source_span": "close activities",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-28",
+      "text": "Perform internal controls",
+      "source_span": "internal controls",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-29",
+      "text": "Advise on the indirect tax provisions of customer and vendor agreements",
+      "source_span": "customer and vendor agreements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-30",
+      "text": "Advise on invoicing requirements",
+      "source_span": "invoicing requirements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-31",
+      "text": "Advise on available exemptions",
+      "source_span": "available exemptions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-32",
+      "text": "Manage indirect tax audits",
+      "source_span": "indirect tax audits",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-33",
+      "text": "Manage indirect tax notices",
+      "source_span": "notices",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-34",
+      "text": "Manage indirect tax disclosures",
+      "source_span": "disclosures",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-35",
+      "text": "Monitor legislative and regulatory developments",
+      "source_span": "Monitor legislative and regulatory developments",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-36",
+      "text": "Assess their impact on Reddit",
+      "source_span": "assess their impact on Reddit",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-37",
+      "text": "Develop scalable processes, automation, metrics, and documentation",
+      "source_span": "Develop scalable processes, automation, metrics, and documentation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-38",
+      "text": "Improve data quality",
+      "source_span": "improve data quality",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-39",
+      "text": "Reduce manual work",
+      "source_span": "reduce manual work",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-40",
+      "text": "Strengthen operational controls",
+      "source_span": "strengthen operational controls",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-41",
+      "text": "Reddit is a community of communities.",
+      "source_span": "Reddit is a community of communities.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-42",
+      "text": "In keeping with Reddit values, the successful candidate will operate with an open mindset, exercise sound judgment, and “value the human” in every interaction.",
+      "source_span": "In keeping with Reddit values, the successful candidate will operate with an open mindset, exercise sound judgment, and “value the human” in every interaction.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-43",
+      "text": "Contribute to broader Global Tax Team priorities and ad hoc projects, flexing beyond the role’s core indirect tax responsibilities as business needs evolve.",
+      "source_span": "Contribute to broader Global Tax Team priorities and ad hoc projects, flexing beyond the role’s core indirect tax responsibilities as business needs evolve.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "07fb48f155c17720-44",
+      "text": "Bachelor’s degree in Tax, Accounting, or a related field.",
+      "source_span": "Bachelor’s degree in Tax, Accounting, or a related field.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "07fb48f155c17720-45",
+      "text": "6+ years of indirect tax experience in public accounting and/or a multinational corporate tax function, including meaningful hands-on operational experience.",
+      "source_span": "6+ years of indirect tax experience in public accounting and/or a multinational corporate tax function, including meaningful hands-on operational experience.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "07fb48f155c17720-46",
+      "text": "Technical and operational experience with both US and international indirect taxes, including B2B and B2C transactions.",
+      "source_span": "Technical and operational experience with both US and international indirect taxes, including B2B and B2C transactions.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "07fb48f155c17720-47",
+      "text": "Experience researching product and service taxability, registration and nexus obligations, place-of-supply rules, invoicing requirements, and exemptions.",
+      "source_span": "Experience researching product and service taxability, registration and nexus obligations, place-of-supply rules, invoicing requirements, and exemptions.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "07fb48f155c17720-48",
+      "text": "Experience supporting indirect tax compliance, accounting, audits, and controls across multiple jurisdictions.",
+      "source_span": "Experience supporting indirect tax compliance, accounting, audits, and controls across multiple jurisdictions.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "07fb48f155c17720-49",
+      "text": "Ability to understand end-to-end transaction flows and convert tax requirements into workable processes, data requirements, and system configurations.",
+      "source_span": "Ability to understand end-to-end transaction flows and convert tax requirements into workable processes, data requirements, and system configurations.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "07fb48f155c17720-50",
+      "text": "Strong project-management skills and experience supporting system changes or other cross-functional initiatives.",
+      "source_span": "Strong project-management skills and experience supporting system changes or other cross-functional initiatives.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "07fb48f155c17720-51",
+      "text": "Excellent written and verbal communication skills, including the ability to clearly explain complex tax matters to non-tax stakeholders.",
+      "source_span": "Excellent written and verbal communication skills, including the ability to clearly explain complex tax matters to non-tax stakeholders.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "07fb48f155c17720-52",
+      "text": "Ability to work independently, manage competing priorities, and exercise sound judgment in a fast-moving and evolving environment.",
+      "source_span": "Ability to work independently, manage competing priorities, and exercise sound judgment in a fast-moving and evolving environment.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "07fb48f155c17720-53",
+      "text": "Strong attention to detail, ownership, curiosity, and commitment to developing durable solutions rather than temporary workarounds.",
+      "source_span": "Strong attention to detail, ownership, curiosity, and commitment to developing durable solutions rather than temporary workarounds.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "07fb48f155c17720-54",
+      "text": "Vertex experience is highly preferred, particularly with rule or product mapping, transaction testing, system integrations, configuration changes, data validation, reconciliations, and production troubleshooting.",
+      "source_span": "Vertex experience is highly preferred, particularly with rule or product mapping, transaction testing, system integrations, configuration changes, data validation, reconciliations, and production troubleshooting.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "07fb48f155c17720-55",
+      "text": "Experience with another enterprise indirect tax engine will also be considered.",
+      "source_span": "Experience with another enterprise indirect tax engine will also be considered.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "07fb48f155c17720-56",
+      "text": "Experience with indirect tax issues affecting technology, digital media, advertising, subscriptions, SaaS, or other high-volume transactional businesses.",
+      "source_span": "Experience with indirect tax issues affecting technology, digital media, advertising, subscriptions, SaaS, or other high-volume transactional businesses.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "07fb48f155c17720-57",
+      "text": "Experience implementing e-invoicing, digital reporting, or real-time reporting requirements.",
+      "source_span": "Experience implementing e-invoicing, digital reporting, or real-time reporting requirements.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "07fb48f155c17720-58",
+      "text": "Experience working with ERP, billing, procurement, and financial-reporting systems and analyzing large transactional datasets.",
+      "source_span": "Experience working with ERP, billing, procurement, and financial-reporting systems and analyzing large transactional datasets.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "07fb48f155c17720-59",
+      "text": "Experience with automation or data tools such as Alteryx or SQL.",
+      "source_span": "Experience with automation or data tools such as Alteryx or SQL.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "07fb48f155c17720-60",
+      "text": "A CPA, CMI, MST, JD, LLM, or comparable professional qualification.",
+      "source_span": "A CPA, CMI, MST, JD, LLM, or comparable professional qualification.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "07fb48f155c17720-61",
+      "text": "A combination of public accounting and in-house experience.",
+      "source_span": "A combination of public accounting and in-house experience.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-09-09T18:42:58-04:00",
+  "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8189894",
+  "fetched_at": "2026-10-21T17:33:55.793Z",
+  "prompt_version": "extract-v1",
+  "text": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com.\n\nThe Global Tax Team is seeking a hands-on indirect tax professional to help build and scale Reddit’s global indirect tax function. As Reddit continues to grow as a public company and expand its products and commercial offerings, this person will own critical elements of our US and international indirect tax operations, including US S&U tax and VAT/GST.\n\nYou will partner closely with the business to translate complex tax requirements into practical decisions, reliable systems, and scalable processes. In keeping with Reddit values, the successful candidate will operate with an open mindset, exercise sound judgment, and “value the human” in every interaction.\n\nThis position will report to the International Tax Senior Manager.\n\nResponsibilities:\n\n• Manage key elements of Reddit’s global indirect tax function across B2B and B2C revenue streams, including US S&U tax, VAT/GST, DSTs, and other transactional taxes.\n\n• Oversee indirect tax registrations, return compliance, payments, exemption documentation, taxability determinations, and related controls across multiple jurisdictions.\n\n• Own and improve indirect tax processes and systems, including product and taxability mapping, exemptions, transaction testing, system integrations, data validation, and issue resolution.\n\n• Serve as the indirect tax cross-functional partner for new products and initiatives, commercial arrangements, billing changes, and geographic expansion.\n\n• Monitor and implement evolving e-invoicing, digital reporting, and real-time reporting requirements.\n\n• Perform indirect tax account reconciliations, accruals, journal entries, close activities, and internal controls.\n\n• Advise on the indirect tax provisions of customer and vendor agreements, invoicing requirements, and available exemptions.\n\n• Manage indirect tax audits, notices, and disclosures.\n\n• Monitor legislative and regulatory developments and assess their impact on Reddit.\n\n• Develop scalable processes, automation, metrics, and documentation that improve data quality, reduce manual work, and strengthen operational controls.\n\n• Contribute to broader Global Tax Team priorities and ad hoc projects, flexing beyond the role’s core indirect tax responsibilities as business needs evolve.\n\nQualifications:\n\n• Bachelor’s degree in Tax, Accounting, or a related field.\n\n• 6+ years of indirect tax experience in public accounting and/or a multinational corporate tax function, including meaningful hands-on operational experience.\n\n• Technical and operational experience with both US and international indirect taxes, including B2B and B2C transactions.\n\n• Experience researching product and service taxability, registration and nexus obligations, place-of-supply rules, invoicing requirements, and exemptions.\n\n• Experience supporting indirect tax compliance, accounting, audits, and controls across multiple jurisdictions.\n\n• Ability to understand end-to-end transaction flows and convert tax requirements into workable processes, data requirements, and system configurations.\n\n• Strong project-management skills and experience supporting system changes or other cross-functional initiatives.\n\n• Excellent written and verbal communication skills, including the ability to clearly explain complex tax matters to non-tax stakeholders.\n\n• Ability to work independently, manage competing priorities, and exercise sound judgment in a fast-moving and evolving environment.\n\n• Strong attention to detail, ownership, curiosity, and commitment to developing durable solutions rather than temporary workarounds.\n\nPreferred Qualifications:\n\n• Vertex experience is highly preferred, particularly with rule or product mapping, transaction testing, system integrations, configuration changes, data validation, reconciliations, and production troubleshooting. Experience with another enterprise indirect tax engine will also be considered.\n\n• Experience with indirect tax issues affecting technology, digital media, advertising, subscriptions, SaaS, or other high-volume transactional businesses.\n\n• Experience implementing e-invoicing, digital reporting, or real-time reporting requirements.\n\n• Experience working with ERP, billing, procurement, and financial-reporting systems and analyzing large transactional datasets.\n\n• Experience with automation or data tools such as Alteryx or SQL.\n\n• A CPA, CMI, MST, JD, LLM, or comparable professional qualification.\n\n• A combination of public accounting and in-house experience.\n\nIn select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews.\n\nDuring the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable. We will not sell your personal information or disclose it to any third party for their marketing purposes. We will delete any recording of your interview promptly after making a hiring decision. For more information about how we will handle your personal information, including our retention of it, please refer to our Candidate Privacy Policy for Potential Employees and Contractors.\n\nReddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.",
+  "extra_salary_lines": [],
+  "salary_source": null,
+  "ats": "greenhouse"
+}

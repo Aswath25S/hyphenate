@@ -1,0 +1,231 @@
+{
+  "posting_id": "a34b9e7ae610c854",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "a34b9e7ae610c854-01",
+      "label": "covered",
+      "capability_id": "tre.cash_position",
+      "confidence": 0.99,
+      "rationale": "Managing global cash positions is the same action as monitoring cash balances across accounts, entities, and banks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.54,
+      "rationale": "Optimizing cash flows is broad treasury strategy and does not cleanly match a specific covered capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Overseeing bank relationships is a relationship-management duty that is explicitly human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.56,
+      "rationale": "Implementing banking strategies is a strategic execution task with no direct platform capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-05",
+      "label": "assisted",
+      "capability_id": "tre.forecast",
+      "confidence": 0.94,
+      "rationale": "Forecasting cash requirements matches the 13-week cash forecast capability, though it may still need human judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-06",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.59,
+      "rationale": "Managing liquidity risks is risk oversight rather than a covered treasury operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-07",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Identifying foreign exchange, interest rate, and credit risks is risk analysis with no direct capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Assessing financial risks is analytical risk work that is not covered by the listed capabilities.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-09",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.57,
+      "rationale": "Mitigating financial risks is a judgment-heavy treasury responsibility without a matching platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-10",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.56,
+      "rationale": "Implementing hedging strategies is strategic risk management, not a covered automation capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-11",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.57,
+      "rationale": "Monitoring key risk indicators is treasury oversight that does not map directly to the coverage list.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-12",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.88,
+      "rationale": "Reporting on key risk indicators fits building recurring management reports and KPI reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.73,
+      "rationale": "Developing financial forecasts is planning-model work that is explicitly outside the listed cash-forecast capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Maintaining budgets is budgeting-model work, which is a known automation gap in the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-15",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.92,
+      "rationale": "Analyzing financial data matches ad hoc financial analysis and answering finance questions traced to source entries.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Providing insights to support strategic decision-making is advisory work for other teams and leadership.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-17",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.91,
+      "rationale": "Preparing cash flow statements and balance sheets matches building recurring management reports and financial statements.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Ensuring compliance with financial reporting standards and regulations requires policy and judgment rather than a covered operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Building and maintaining bank relationships is external relationship management, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Negotiating favorable banking terms is negotiation work that is explicitly human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.62,
+      "rationale": "Implementing treasury management systems is a project implementation task without a matching capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.64,
+      "rationale": "Managing treasury management systems is too broad to map to a specific covered or assisted capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-23",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.6,
+      "rationale": "Ensuring the accuracy and efficiency of treasury operations is a general oversight duty with no direct match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Leading a team of treasury professionals is people management, which is explicitly human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a34b9e7ae610c854-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Mentoring a team of treasury professionals is staff development and coaching, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

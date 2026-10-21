@@ -1,0 +1,399 @@
+{
+  "posting_id": "a5bc1784a9b3a495",
+  "company": "Perplexity",
+  "domain": "perplexity.ai",
+  "title": "Billing Operations Lead",
+  "role_family": "AR",
+  "seniority": "manager",
+  "locations": [
+    "San Francisco"
+  ],
+  "remote": "unknown",
+  "salary": {
+    "min": 140000,
+    "max": 185000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Job board pay data: $140K – $185K • Offers Equity"
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Salesforce"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": true,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "as we scale our enterprise business",
+    "fast-moving environment",
+    "nonstandard billing terms",
+    "billing discrepancies",
+    "billing system integration failures"
+  ],
+  "duties": [
+    {
+      "duty_id": "a5bc1784a9b3a495-01",
+      "text": "Own enterprise billing operations from customer and subscription setup through recurring invoicing",
+      "source_span": "Own enterprise billing operations from customer and subscription setup through recurring invoicing",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-02",
+      "text": "Manage renewals, amendments, and cancellations",
+      "source_span": "renewals, amendments, and cancellations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-03",
+      "text": "Ensure accurate and timely billing in accordance with executed agreements",
+      "source_span": "ensuring accurate and timely billing in accordance with executed agreements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-04",
+      "text": "Partner with Enterprise Sales and Deal Desk to review nonstandard billing terms before contracts are signed",
+      "source_span": "Partner with Enterprise Sales and Deal Desk to review nonstandard billing terms before contracts are signed",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-05",
+      "text": "Assess operational feasibility",
+      "source_span": "assess operational feasibility",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-06",
+      "text": "Route exceptions for approval",
+      "source_span": "route exceptions for approval",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-07",
+      "text": "Translate approved pricing and contractual terms into billing configurations and schedules",
+      "source_span": "Translate approved pricing and contractual terms into billing configurations and schedules",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-08",
+      "text": "Manage seat changes",
+      "source_span": "seat changes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-09",
+      "text": "Manage tiered discounting",
+      "source_span": "tiered discounting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-10",
+      "text": "Manage prorations",
+      "source_span": "prorations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-11",
+      "text": "Manage co-terminations",
+      "source_span": "co-terminations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-12",
+      "text": "Manage prepaid credits",
+      "source_span": "prepaid credits",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-13",
+      "text": "Manage usage billed in arrears",
+      "source_span": "usage billed in arrears",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-14",
+      "text": "Serve as the primary point of contact for enterprise billing questions from customers and internal teams",
+      "source_span": "Serve as the primary point of contact for enterprise billing questions from customers and internal teams",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-15",
+      "text": "Investigate discrepancies",
+      "source_span": "Investigate discrepancies",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-16",
+      "text": "Coordinate approved credits and rebills",
+      "source_span": "coordinate approved credits and rebills",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-17",
+      "text": "Address underlying causes to prevent recurring issues",
+      "source_span": "address underlying causes to prevent recurring issues",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-18",
+      "text": "Reconcile contract data to billing output",
+      "source_span": "Reconcile contract, subscription, and usage data to billing output",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-19",
+      "text": "Reconcile subscription data to billing output",
+      "source_span": "Reconcile contract, subscription, and usage data to billing output",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-20",
+      "text": "Reconcile usage data to billing output",
+      "source_span": "Reconcile contract, subscription, and usage data to billing output",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-21",
+      "text": "Investigate any billing discrepancies",
+      "source_span": "investigate any billing discrepancies",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-22",
+      "text": "Support month-end close and audits through billing completeness checks",
+      "source_span": "Support month-end close and audits through billing completeness checks",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-23",
+      "text": "Support month-end close and audits through reconciliations",
+      "source_span": "reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-24",
+      "text": "Support month-end close and audits through supporting documentation",
+      "source_span": "supporting documentation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-25",
+      "text": "Identify billing system integration failures",
+      "source_span": "Identifying and resolving any billing system integration failures",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-26",
+      "text": "Resolve billing system integration failures",
+      "source_span": "Identifying and resolving any billing system integration failures",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-27",
+      "text": "Partner with Customer Success, Enterprise Sales, and Deal Desk on renewals, expansions, and changes to customer commitments",
+      "source_span": "Partner with Customer Success, Enterprise Sales, and Deal Desk on renewals, expansions, and changes to customer commitments",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-28",
+      "text": "Prepare seat analyses",
+      "source_span": "Prepare seat",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-29",
+      "text": "Prepare usage analyses",
+      "source_span": "usage",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-30",
+      "text": "Prepare billing analyses",
+      "source_span": "billing analyses",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-31",
+      "text": "Calculate renewal credits",
+      "source_span": "calculate renewal credits",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-32",
+      "text": "Calculate true-ups",
+      "source_span": "true-ups",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-33",
+      "text": "Translate approved agreements into accurate subscription updates",
+      "source_span": "translate approved agreements into accurate subscription",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-34",
+      "text": "Translate approved agreements into accurate credit updates",
+      "source_span": "credit",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-35",
+      "text": "Translate approved agreements into accurate invoice updates",
+      "source_span": "invoice updates",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-36",
+      "text": "Coordinate the resolution of billing issues that could delay renewals or disrupt the customer experience",
+      "source_span": "Coordinate the resolution of billing issues that could delay renewals or disrupt the customer experience",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-37",
+      "text": "Bachelor’s degree or higher in Accounting or Finance",
+      "source_span": "Bachelor’s degree or higher in Accounting or Finance.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-38",
+      "text": "7+ years of experience in billing operations, order management, order-to-cash, revenue operations, or a related finance function, including hands-on ownership of enterprise SaaS or subscription billing",
+      "source_span": "7+ years of experience in billing operations, order management, order-to-cash, revenue operations, or a related finance function, including hands-on ownership of enterprise SaaS or subscription billing.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-39",
+      "text": "Demonstrated ability to interpret complex customer agreements and translate them into accurate billing schedules, invoices, and adjustments, including subscription and usage-based arrangements",
+      "source_span": "Demonstrated ability to interpret complex customer agreements and translate them into accurate billing schedules, invoices, and adjustments, including subscription and usage-based arrangements.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-40",
+      "text": "Hands-on experience with NetSuite",
+      "source_span": "Hands-on experience with NetSuite",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-41",
+      "text": "Hands-on experience with Salesforce",
+      "source_span": "Salesforce",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-42",
+      "text": "Working knowledge of accounts receivable",
+      "source_span": "Working knowledge of accounts receivable",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-43",
+      "text": "Working knowledge of deferred revenue",
+      "source_span": "deferred revenue",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-44",
+      "text": "Working knowledge of revenue-recognition concepts",
+      "source_span": "revenue-recognition concepts",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-45",
+      "text": "Working knowledge of ASC 606",
+      "source_span": "ASC 606",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-46",
+      "text": "Resourcefulness",
+      "source_span": "Resourcefulness",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-47",
+      "text": "Be detail-oriented",
+      "source_span": "detail-oriented",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-48",
+      "text": "Motivation for solving problems and finding solutions",
+      "source_span": "a motivation for solving problems and finding solutions",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-49",
+      "text": "Excellent communication skills",
+      "source_span": "Excellent communication skills",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-50",
+      "text": "Ability to multi-task and prioritize effectively in a fast-paced environment",
+      "source_span": "Ability to multi-task and prioritize effectively in a fast-paced environment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-10-06T23:59:41.778+00:00",
+  "source_url": "https://jobs.ashbyhq.com/perplexity/702c7eb8-9908-407f-bcb5-647a227819d6",
+  "fetched_at": "2026-10-21T17:33:56.764Z",
+  "prompt_version": "extract-v1",
+  "text": "Perplexity is looking for an experienced Billing Operations Manager to join our Finance and Accounting team as we scale our enterprise business. You will own the enterprise billing lifecycle, translating complex commercial agreements into accurate, timely invoices and building the processes and controls that support our growth.\n\nThis is a hands-on role working closely with Deal Desk, Enterprise Sales, Legal, and Customer Success. The ideal candidate combines strong billing and systems expertise with sound judgement, a customer-focused approach, and the ability to bring structure to a fast-moving environment.\n\n\n\n\nRESPONSIBILITIES\n\n - Enterprise and reseller billing: Own enterprise billing operations from customer and subscription setup through recurring invoicing, renewals, amendments, and cancellations, ensuring accurate and timely billing in accordance with executed agreements.\n\n - Contract review: Partner with Enterprise Sales and Deal Desk to review nonstandard billing terms before contracts are signed, assess operational feasibility, and route exceptions for approval.\n\n - Complex billing arrangements: Translate approved pricing and contractual terms into billing configurations and schedules, including seat changes, tiered discounting, prorations, co-terminations, prepaid credits, and usage billed in arrears.\n\n - Billing inquiries and disputes: Serve as the primary point of contact for enterprise billing questions from customers and internal teams. Investigate discrepancies, coordinate approved credits and rebills, and address underlying causes to prevent recurring issues.\n\n - Reconciliations and close support: Reconcile contract, subscription, and usage data to billing output and investigate any billing discrepancies. Support month-end close and audits through billing completeness checks, reconciliations, and supporting documentation.\n\n - Integration management: Identifying and resolving any billing system integration failures.\n\n - Customer Success and renewal support: Partner with Customer Success, Enterprise Sales, and Deal Desk on renewals, expansions, and changes to customer commitments. Prepare seat, usage, and billing analyses; calculate renewal credits and true-ups; and translate approved agreements into accurate subscription, credit, and invoice updates. Coordinate the resolution of billing issues that could delay renewals or disrupt the customer experience.\n\n\nREQUIREMENTS\n\n - Bachelor’s degree or higher in Accounting or Finance.\n\n - 7+ years of experience in billing operations, order management, order-to-cash, revenue operations, or a related finance function, including hands-on ownership of enterprise SaaS or subscription billing.\n\n - Billing expertise: Demonstrated ability to interpret complex customer agreements and translate them into accurate billing schedules, invoices, and adjustments, including subscription and usage-based arrangements.\n\n - Systems proficiency: Hands-on experience with NetSuite, Salesforce, tax engines, and subscription or usage-based billing platforms, with the ability to investigate issues across connected systems.\n\n - Accounting fundamentals: Working knowledge of accounts receivable, deferred revenue, and revenue-recognition concepts, including ASC 606.\n\n - Resourcefulness, detail-oriented and a motivation for solving problems and finding solutions.\n\n - Excellent communication skills, as frequent interaction with both internal and external stakeholders will be required.\n\n - Ability to multi-task and prioritize effectively in a fast-paced environment.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "ashby"
+}

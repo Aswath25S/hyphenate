@@ -1,0 +1,150 @@
+{
+  "posting_id": "bc13efa190281015",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "bc13efa190281015-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Developing customer economics and investment recommendations is strategic analysis and advising other teams, which is people work rather than a covered operational workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bc13efa190281015-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Evaluating CAC, LTV, and payback is a repeatable growth-investment model that is not covered by the listed finance-operations capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bc13efa190281015-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with Marketing and Growth leaders is cross-functional collaboration and advisory work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bc13efa190281015-04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Identify constraints is too vague to map to a specific finance-operations capability or human-only duty.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bc13efa190281015-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Determining the resources and changes needed to produce more business is strategic planning and advising, not a covered transactional process.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bc13efa190281015-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Building models and analyses to guide growth investments is FP&A-style modeling that is not covered by the platform capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bc13efa190281015-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Translating plans into resource requirements and spending forecasts is a planning/forecasting model task outside the covered capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bc13efa190281015-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Track commitments as plans evolve is too vague to determine the underlying finance action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bc13efa190281015-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Strengthening measurement and attribution with business partners is collaborative analysis and process improvement, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bc13efa190281015-10",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.82,
+      "rationale": "Connecting marketing activity to business outcomes is driver analysis using source data to explain changes and outcomes.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bc13efa190281015-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Helping teams make investment decisions with incomplete information is advisory judgment work, not an automated finance-operations task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bc13efa190281015-12",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Make assumptions explicit is too vague without a specific finance process or output.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bc13efa190281015-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Using results to refine where to invest is strategic decision support and recommendation work for other teams.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bc13efa190281015-14",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Take ownership of emerging strategic questions across GTM is too broad and unspecified to map cleanly.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bc13efa190281015-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Bringing clear recommendations is advisory work, which is human judgment rather than a covered operational capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "bc13efa190281015-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Adapt as priorities change is too general to identify a specific finance operation or analysis task.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

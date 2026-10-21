@@ -1,0 +1,312 @@
+{
+  "posting_id": "0d084ff70492e46f",
+  "company": "Samsara",
+  "domain": "samsara.com",
+  "title": "Sr Billing/AR Consultant",
+  "role_family": "AR",
+  "seniority": "senior",
+  "locations": [
+    "Remote - US",
+    "Remote - CA"
+  ],
+  "remote": "remote",
+  "salary": {
+    "min": 102042,
+    "max": 154350,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Annual Base Salary\n\n$102,042—$154,350 USD"
+  },
+  "erp": [],
+  "tools": [],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "complex customer escalations",
+    "high-severity customer issues",
+    "scale customer-facing processes",
+    "multiple workstreams, dependencies, and stakeholders",
+    "audit-ready escalation documentation"
+  ],
+  "duties": [
+    {
+      "duty_id": "0d084ff70492e46f-01",
+      "text": "Own priority customer escalations end to end",
+      "source_span": "Own priority customer escalations end to end",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-02",
+      "text": "Triage priority customer escalations",
+      "source_span": "triage",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-03",
+      "text": "Create action plans for priority customer escalations",
+      "source_span": "action planning",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-04",
+      "text": "Coordinate cross-functional resources",
+      "source_span": "cross-functional coordination",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-05",
+      "text": "Manage risk on priority customer escalations",
+      "source_span": "risk management",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-06",
+      "text": "Provide real-time status updates to customers and executive stakeholders",
+      "source_span": "real-time status updates to customers and executive stakeholders",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-07",
+      "text": "Serve as the single-threaded owner for complex escalations",
+      "source_span": "Serve as the single-threaded owner for complex escalations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-08",
+      "text": "Create structure and accountability across Sales, Finance, Support, Customer Success, Product, Engineering, and other partner teams",
+      "source_span": "creating structure and accountability across Sales, Finance, Support, Customer Success, Product, Engineering, and other partner teams",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-09",
+      "text": "Deliver clear post-mortems",
+      "source_span": "Deliver clear post-mortems",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-10",
+      "text": "Deliver executive summaries",
+      "source_span": "executive summaries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-11",
+      "text": "Track resolution progress through closure",
+      "source_span": "track resolution progress",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-12",
+      "text": "Track commitments through closure",
+      "source_span": "commitments",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-13",
+      "text": "Track follow-up actions through closure",
+      "source_span": "follow-up actions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-14",
+      "text": "Analyze escalation themes",
+      "source_span": "Analyze escalation themes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-15",
+      "text": "Quantify business impact",
+      "source_span": "quantify business impact",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-16",
+      "text": "Identify opportunities for process, product, and workflow improvement",
+      "source_span": "identify opportunities for process, product, and workflow improvement",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-17",
+      "text": "Prioritize opportunities for process, product, and workflow improvement",
+      "source_span": "prioritize opportunities for process, product, and workflow improvement",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-18",
+      "text": "Lead cross-functional programs to improve the customer experience",
+      "source_span": "Lead cross-functional programs to improve the customer experience",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-19",
+      "text": "Standardize escalation workflows",
+      "source_span": "standardize escalation workflows",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-20",
+      "text": "Standardize service-level expectations",
+      "source_span": "service-level expectations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-21",
+      "text": "Standardize tooling",
+      "source_span": "tooling",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-22",
+      "text": "Standardize reporting",
+      "source_span": "reporting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-23",
+      "text": "Standardize dashboards",
+      "source_span": "dashboards",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-24",
+      "text": "Coach frontline teams on escalation prevention",
+      "source_span": "escalation prevention",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-25",
+      "text": "Coach frontline teams on de-escalation",
+      "source_span": "de-escalation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-26",
+      "text": "Coach frontline teams on customer communication",
+      "source_span": "customer communication",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-27",
+      "text": "Coach frontline teams on effective use of escalation processes",
+      "source_span": "effective use of escalation processes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-28",
+      "text": "Champion, role model, and embed Samsara’s cultural principles",
+      "source_span": "Champion, role model, and embed Samsara’s cultural principles—Focus on Customer Success, Build for the Long Term, Adopt a Growth Mindset, Be Inclusive, and Win as a Team—as we scale globally and across new offices.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0d084ff70492e46f-29",
+      "text": "4+ years of experience in Customer Success, Support Operations, Trust & Safety, incident management, or a related function, including direct ownership of high-severity escalations.",
+      "source_span": "4+ years of experience in Customer Success, Support Operations, Trust & Safety, incident management, or a related function, including direct ownership of high-severity escalations.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0d084ff70492e46f-30",
+      "text": "Demonstrated success leading cross-functional process-improvement programs from problem definition through implementation and adoption.",
+      "source_span": "Demonstrated success leading cross-functional process-improvement programs from problem definition through implementation and adoption.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0d084ff70492e46f-31",
+      "text": "Structured problem-solving skills and the ability to use data to make decisions, quantify impact, and prioritize work.",
+      "source_span": "Structured problem-solving skills and the ability to use data to make decisions, quantify impact, and prioritize work.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0d084ff70492e46f-32",
+      "text": "Strong program and project management skills, including the ability to manage multiple workstreams, dependencies, and stakeholders in time-sensitive situations.",
+      "source_span": "Strong program and project management skills, including the ability to manage multiple workstreams, dependencies, and stakeholders in time-sensitive situations.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0d084ff70492e46f-33",
+      "text": "Excellent written and verbal communication skills, with the ability to synthesize complex situations into clear executive-level updates and recommendations.",
+      "source_span": "Excellent written and verbal communication skills, with the ability to synthesize complex situations into clear executive-level updates and recommendations.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0d084ff70492e46f-34",
+      "text": "Bachelor’s degree in Business, Operations, Engineering, or a related field, or equivalent practical experience.",
+      "source_span": "Bachelor’s degree in Business, Operations, Engineering, or a related field, or equivalent practical experience.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0d084ff70492e46f-35",
+      "text": "PMP, ITIL, Six Sigma, or a comparable program, incident, or process-management certification.",
+      "source_span": "PMP, ITIL, Six Sigma, or a comparable program, incident, or process-management certification.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0d084ff70492e46f-36",
+      "text": "Experience working in a SaaS, technology, or other complex customer-operations environment.",
+      "source_span": "Experience working in a SaaS, technology, or other complex customer-operations environment.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0d084ff70492e46f-37",
+      "text": "Experience building or improving escalation playbooks, SLAs, operating rhythms, dashboards, or audit-ready documentation.",
+      "source_span": "Experience building or improving escalation playbooks, SLAs, operating rhythms, dashboards, or audit-ready documentation.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0d084ff70492e46f-38",
+      "text": "Experience coaching customer-facing teams on conflict resolution, de-escalation, and prevention.",
+      "source_span": "Experience coaching customer-facing teams on conflict resolution, de-escalation, and prevention.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-10-01T13:59:31-04:00",
+  "source_url": "https://www.samsara.com/company/careers/roles/8247290?gh_jid=8247290",
+  "fetched_at": "2026-10-21T17:33:53.624Z",
+  "prompt_version": "extract-v1",
+  "text": "Who we are\n\nSamsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.\n\nWorking at Samsara means you’ll help define the future of physical operations and be on a team that’s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and Driver Workflows, and Equipment Monitoring. As part of a recently public company, you’ll have the autonomy and support to make an impact as we build for the long term.\n\nAbout the role\n\nSamsara is looking for a Senior Escalations Program Manager to own our most complex customer escalations and turn those experiences into durable improvements. Approximately 70% of your time will be spent managing complex customer finance requests, you will coordinate cross-functional resources, lead executive-level communications, and drive rapid, high-quality resolution for high-severity customer issues. The remaining 30% of your time will focus on programs that eliminate root causes, streamline workflows, proactively resolve potential customer billing issues and scale customer-facing processes.\n\nThis role is ideal for a structured, customer-centered operator who can bring clarity to complex situations, build alignment across teams, and translate individual escalations into systemic improvements.\n\nThis is a remote position open to candidates residing in the US except the San Francisco Bay Metro Area, NYC Metro Area, and Washington, D.C. Metro Area.\n\nYou should apply if:\n\n• You want to impact the industries that run our world: Your work will help customers operate more safely, efficiently, and sustainably.\n\n• You are the architect of your own career: If you put in the work, this role won’t be your last at Samsara. We create opportunities to learn, grow, and master your craft in a high-growth environment.\n\n• You’re energized by our opportunity: Digitizing large sectors of the global economy requires creative problem-solving, sound judgment, and a strong commitment to customer success.\n\n• You want to be with the best: At Samsara, we win together, support each other, and hold ourselves accountable to high standards.\n\nIn this role, you will:\n\n• Own priority customer escalations end to end, including triage, action planning, cross-functional coordination, risk management, and real-time status updates to customers and executive stakeholders.\n\n• Serve as the single-threaded owner for complex escalations, creating structure and accountability across Sales, Finance, Support, Customer Success, Product, Engineering, and other partner teams.\n\n• Deliver clear post-mortems and executive summaries; track resolution progress, commitments, and follow-up actions through closure.\n\n• Analyze escalation themes and quantify business impact to identify and prioritize opportunities for process, product, and workflow improvement.\n\n• Lead cross-functional programs to improve the customer experience – standardize escalation workflows, service-level expectations, tooling, reporting, and dashboards.\n\n• Coach frontline teams on escalation prevention, de-escalation, customer communication, and effective use of escalation processes.\n\n• Champion, role model, and embed Samsara’s cultural principles—Focus on Customer Success, Build for the Long Term, Adopt a Growth Mindset, Be Inclusive, and Win as a Team—as we scale globally and across new offices.\n\nSuccess in this role will be measured by:\n\n• Reduced mean time to resolution (MTTR) for high-severity escalations.\n\n• Improved post-escalation CSAT and NPS.\n\n• Increased percentage of systemic issues permanently fixed within 90 days.\n\n• Consistent SLA adherence and audit-ready escalation documentation.\n\n• Clear stakeholder accountability and completion of commitments arising from escalations.\n\nMinimun requirements for the role:\n\n• 4+ years of experience in Customer Success, Support Operations, Trust & Safety, incident management, or a related function, including direct ownership of high-severity escalations.\n\n• Demonstrated success leading cross-functional process-improvement programs from problem definition through implementation and adoption.\n\n• Structured problem-solving skills and the ability to use data to make decisions, quantify impact, and prioritize work.\n\n• Strong program and project management skills, including the ability to manage multiple workstreams, dependencies, and stakeholders in time-sensitive situations.\n\n• Excellent written and verbal communication skills, with the ability to synthesize complex situations into clear executive-level updates and recommendations.\n\n• Bachelor’s degree in Business, Operations, Engineering, or a related field, or equivalent practical experience.\n\nAn ideal candidate also has:\n\n• PMP, ITIL, Six Sigma, or a comparable program, incident, or process-management certification.\n\n• Experience working in a SaaS, technology, or other complex customer-operations environment.\n\n• Experience building or improving escalation playbooks, SLAs, operating rhythms, dashboards, or audit-ready documentation.\n\n• Experience coaching customer-facing teams on conflict resolution, de-escalation, and prevention.\n\nThe compensation range shown spans approved pay zones for this role. Your primary work location determines the range applicable to you, which may be narrower than the full range displayed.\n\nThe range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. This role is also eligible for an initial RSU grant with no vesting cliff, and ongoing refresh opportunities tied to performance, subject to plan terms and conditions. Learn more about our total rewards and benefits below.\n\nAnnual Base Salary\n\n$102,042—$154,350 USD\n\nTotal Rewards\n\nAt Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.\n\nBeyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here.\n\nFlexible Working\n\nAt Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable.\n\nBelonging at Samsara\n\nAt Samsara, we welcome everyone regardless of their background. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, gender, gender identity, sexual orientation, protected veteran status, disability, age, and other characteristics protected by law. We depend on the unique approaches of our team members to help us solve complex problems and want to ensure that Samsara is a place where people from all backgrounds can make an impact.\n\nAccommodations\n\nSamsara is an inclusive work environment, and we are committed to ensuring equal opportunity in employment for qualified persons with disabilities. Please email accessibleinterviewing@samsara.com or click here if you require any reasonable accommodations throughout the recruiting process.\n\nOur Commitment to Authenticity\n\nWe use Tofu, a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s Candidate Privacy Notice for more information.\n\nFraudulent Employment Offers\n\nSamsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our blog post here.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

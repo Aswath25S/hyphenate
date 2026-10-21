@@ -1,0 +1,393 @@
+{
+  "posting_id": "63b79a21366537bb",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "63b79a21366537bb-01",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.66,
+      "rationale": "The duty is a broad FP&A support statement without a specific action that maps to a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Annual budgeting is FP&A planning work that is repetitive and rules-based but has no matching capability here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Quarterly forecasting is planning work that fits the gap pattern rather than a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Long-range planning is budgeting/modeling work with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-05",
+      "label": "covered",
+      "capability_id": "rep.consolidation",
+      "confidence": 0.91,
+      "rationale": "Owning consolidated financial reporting centers on consolidating entities and reporting one view.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Budget versus actual analysis is FP&A planning analysis and not a listed reporting capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Preparing forecast updates is forecasting work that falls outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-08",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.95,
+      "rationale": "Variance analysis matches flux analysis, which the platform supports with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-09",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.95,
+      "rationale": "Preparing management reporting matches building recurring management reports and KPI packages.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering cross-functionally with business leaders is advisory relationship work that people perform.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-11",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.84,
+      "rationale": "Understanding key drivers of performance matches driver analysis on business metrics and trends.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-12",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.82,
+      "rationale": "Translating drivers into financial insights is an analytical reporting task aligned to driver analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Building financial models is FP&A modeling work with no listed capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Maintaining financial models is ongoing FP&A modeling work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Supporting operating forecasts is forecasting/planning work without a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Supporting headcount planning is an FP&A planning activity not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-17",
+      "label": "assisted",
+      "capability_id": "tre.forecast",
+      "confidence": 0.74,
+      "rationale": "Supporting cash planning most closely matches short-term cash forecasting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Supporting strategic decision-making is advisory judgment work that belongs to people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-19",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.92,
+      "rationale": "Preparing executive-level reporting matches recurring leadership reporting and KPI packages.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-20",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.79,
+      "rationale": "Preparing presentation materials for senior leadership matches building management report decks, not presenting them.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-21",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.9,
+      "rationale": "Monthly business reviews are recurring management reporting materials.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-22",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.88,
+      "rationale": "Preparing board materials matches board-deck style management reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-23",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.96,
+      "rationale": "Ad hoc analyses directly match the ad hoc analysis capability.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-24",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.73,
+      "rationale": "Analyzing performance across departments and functions is an ad hoc analytical request traced to source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-25",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.76,
+      "rationale": "Identifying trends is a source-data driven analysis task aligned with driver analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-26",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Identifying risks is too vague and does not map cleanly to a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-27",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Identifying opportunities to improve financial outcomes is broad strategic analysis without a direct match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Supporting capital allocation decision-making is strategic judgment work that people perform.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Supporting investment decision-making is strategic judgment work that belongs to people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-30",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Scenario analysis is planning-model work that is not directly covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-31",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Sensitivity modeling is FP&A modeling work with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-32",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "ROI assessments are planning/analysis work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-33",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Partnering with Accounting during month-end close is cross-functional coordination work people do.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-34",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Ensuring accurate financial reporting is too broad to map to one specific automated capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-35",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Ensuring alignment between actuals and forecasts is FP&A planning reconciliation work without a listed match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-36",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Driving improvements in financial processes is vague process-improvement work rather than a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-37",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Driving improvements in reporting tools is a vague systems-improvement statement, not a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-38",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Driving improvements in planning frameworks is too vague and does not map cleanly to a capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-39",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Supporting a scalable finance function is a broad organizational objective rather than a discrete task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-40",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Contributing to strategic finance initiatives is too broad to classify against a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-41",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Developing KPIs is metric-design work not directly covered by the reporting capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-42",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.8,
+      "rationale": "Tracking operating metrics matches recurring management reporting and KPI tracking.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "63b79a21366537bb-43",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Standardizing processes across the organization is too broad to map to a single covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

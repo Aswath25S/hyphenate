@@ -1,0 +1,357 @@
+{
+  "posting_id": "cbb765df78854fb8",
+  "company": "AngelList",
+  "domain": "angellist.com",
+  "title": "Staff Accountant, AP & Procurement",
+  "role_family": "AP",
+  "seniority": "mid",
+  "locations": [
+    "San Francisco, CA",
+    "New York City, NY"
+  ],
+  "remote": "unknown",
+  "salary": {
+    "min": 100000,
+    "max": null,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The base salary for this role is $100,000+ annually but actual will vary based on a number of factors including a candidate’s professional background, experience, and location."
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Ramp"
+  ],
+  "complexity": {
+    "multi_entity": true,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": true,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "dozens of legal entities",
+    "every invoice, PO, and payment run has to land in the right entity, coded correctly, the first time",
+    "As volume grows",
+    "manual coding, matching, and reconciliation"
+  ],
+  "duties": [
+    {
+      "duty_id": "cbb765df78854fb8-01",
+      "text": "Own AP",
+      "source_span": "Own AP",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-02",
+      "text": "Code invoices with judgment",
+      "source_span": "code invoices with judgment",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-03",
+      "text": "Classify expenses correctly",
+      "source_span": "Classify expenses correctly",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-04",
+      "text": "Capitalize fixed assets",
+      "source_span": "capitalize fixed assets",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-05",
+      "text": "Amortize prepaids",
+      "source_span": "amortize prepaids",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-06",
+      "text": "Apply accrual thresholds across every entity",
+      "source_span": "apply accrual thresholds across every entity",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-07",
+      "text": "Drive the annual 1099 process",
+      "source_span": "Drive the annual 1099 process.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-08",
+      "text": "Run procurement end to end",
+      "source_span": "Run procurement end to end.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-09",
+      "text": "Manage purchase orders",
+      "source_span": "Manage purchase orders",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-10",
+      "text": "Manage vendor onboarding",
+      "source_span": "vendor onboarding",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-11",
+      "text": "Manage ongoing process improvements",
+      "source_span": "ongoing process improvements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-12",
+      "text": "Improve how Ramp and NetSuite work together",
+      "source_span": "Improve how Ramp and NetSuite work together",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-13",
+      "text": "Use automation to reduce manual coding",
+      "source_span": "use automation to reduce manual coding",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-14",
+      "text": "Use automation to reduce matching",
+      "source_span": "matching",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-15",
+      "text": "Use automation to reduce reconciliation without weakening controls",
+      "source_span": "reconciliation without weakening controls",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-16",
+      "text": "Support month-end close",
+      "source_span": "Support month-end close.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-17",
+      "text": "Own AP-related intercompany activity",
+      "source_span": "Own AP-related intercompany activity",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-18",
+      "text": "Own consolidation-related AP tasks",
+      "source_span": "consolidation-related AP tasks",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-19",
+      "text": "Prepare audit-ready schedules",
+      "source_span": "audit-ready schedules",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-20",
+      "text": "Prepare audit-ready documentation",
+      "source_span": "documentation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-21",
+      "text": "3+ years of accounting experience",
+      "source_span": "3+ years of accounting experience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "cbb765df78854fb8-22",
+      "text": "Meaningful ownership of accounts payable at volume",
+      "source_span": "meaningful ownership of accounts payable at volume",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "cbb765df78854fb8-23",
+      "text": "Make and defend accounting decisions without a manager in the room",
+      "source_span": "you’ve made and defended the accounting decisions behind them without a manager in the room",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "cbb765df78854fb8-24",
+      "text": "Treat debits and credits as instinct",
+      "source_span": "Debits and credits are instinct, not a lookup",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "cbb765df78854fb8-25",
+      "text": "Make calls involving expense classification",
+      "source_span": "expense classification",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "cbb765df78854fb8-26",
+      "text": "Make calls involving prepaids",
+      "source_span": "prepaids",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "cbb765df78854fb8-27",
+      "text": "Make calls involving accruals",
+      "source_span": "accruals",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "cbb765df78854fb8-28",
+      "text": "Make calls involving fixed assets",
+      "source_span": "fixed assets",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "cbb765df78854fb8-29",
+      "text": "Hands-on NetSuite and Ramp experience",
+      "source_span": "Hands-on NetSuite and Ramp (or a comparable platform) experience, ideally in a multi-subsidiary environment.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "cbb765df78854fb8-30",
+      "text": "Experience in a multi-subsidiary environment",
+      "source_span": "multi-subsidiary environment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "cbb765df78854fb8-31",
+      "text": "Improve the process you inherit",
+      "source_span": "A track record of improving the process you inherit.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "cbb765df78854fb8-32",
+      "text": "Use automation to eliminate manual work",
+      "source_span": "You’ve used automation to eliminate manual work",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "cbb765df78854fb8-33",
+      "text": "Explain what you changed and what improved",
+      "source_span": "can explain what you changed and what improved",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "cbb765df78854fb8-34",
+      "text": "Walk a controller through a coding call",
+      "source_span": "You can walk a controller through a coding call",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "cbb765df78854fb8-35",
+      "text": "Walk a non-finance teammate through a rejected expense in the same day",
+      "source_span": "and a non-finance teammate through a rejected expense in the same day",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "cbb765df78854fb8-36",
+      "text": "High attention to detail",
+      "source_span": "High attention to detail",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "cbb765df78854fb8-37",
+      "text": "Low tolerance for unintentional risk",
+      "source_span": "low tolerance for unintentional risk",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "cbb765df78854fb8-38",
+      "text": "Private markets are the new public markets.",
+      "source_span": "Private markets are the new public markets.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-39",
+      "text": "Working here means an unusual amount of agency on a problem that matters.",
+      "source_span": "Working here means an unusual amount of agency on a problem that matters.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-40",
+      "text": "Titles are closer to suggestions, and there are about 200 of us building what private markets never had.",
+      "source_span": "Titles are closer to suggestions, and there are about 200 of us building what private markets never had.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-41",
+      "text": "If you don’t meet every requirement above, we still encourage you to apply.",
+      "source_span": "If you don’t meet every requirement above, we still encourage you to apply.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-42",
+      "text": "We support your life both in and outside of work.",
+      "source_span": "We support your life both in and outside of work.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-43",
+      "text": "AngelList is an equal opportunity employer and we value diversity at our company.",
+      "source_span": "AngelList is an equal opportunity employer and we value diversity at our company.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "cbb765df78854fb8-44",
+      "text": "We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.",
+      "source_span": "We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    }
+  ],
+  "posted_at": "2026-09-14T17:36:50.069Z",
+  "source_url": "https://jobs.lever.co/angellist/ff3f8844-102e-4f88-936c-267454d97409",
+  "fetched_at": "2026-10-21T17:34:52.590Z",
+  "prompt_version": "extract-v1",
+  "text": "About AngelList\nPrivate markets are the new public markets. The most important companies of this era are private, and almost no one can own them. What's missing is the financial system public markets spent a century building: exchanges, custodians, brokers, and ways for ordinary people to buy in. Private markets, now $28T, never had the equivalent. AngelList is building it.\nThe last decade of structural innovation in venture happened here: syndicates, SPVs at scale, Rolling Funds, scout programs. Today we have $200B+ in assets and 30,000+ startups funded on our platform. The rest of private markets is next. Funds is the software and services behind private funds, Nova is the banking network, Meridian is the wealth platform for accredited investors, and USVC is the brand behind a registered fund that lets anyone invest in venture.\nWorking here means an unusual amount of agency on a problem that matters. Titles are closer to suggestions, and there are about 200 of us building what private markets never had. Come build it with us.\n \n\n\nAbout the Role:\nAngelList runs on dozens of legal entities, and every one of them needs its own clean books — which means every invoice, PO, and payment run has to land in the right entity, coded correctly, the first time.\nAs our Staff Accountant for AP & Procurement, you'll own the procure-to-pay process end to end across this environment: applying accounting judgment to invoices, managing vendors and POs, running payment cycles across subsidiaries, and supporting month-end close.\nThis isn’t a role for someone who wants to simply process invoices. You’ll be expected to understand the accounting behind the transactions, make decisions independently, and improve the systems you inherit. As volume grows, you’ll use automation to build a procure-to-pay process that scales without sacrificing accuracy or control.\n\n\nResponsibilities:\n• Own AP, code invoices with judgment. Classify expenses correctly, capitalize fixed assets, amortize prepaids, and apply accrual thresholds across every entity. Drive the annual 1099 process.\n\n• Run procurement end to end. Manage purchase orders, vendor onboarding, and ongoing process improvements.\n\n• Automate for scale. Improve how Ramp and NetSuite work together and use automation to reduce manual coding, matching, and reconciliation without weakening controls.\n\n• Support month-end close. Own AP-related intercompany activity, consolidation-related AP tasks, and audit-ready schedules and documentation.\n\nWhat we're looking for:\n• 3+ years of accounting experience with meaningful ownership of accounts payable at volume. You’ve done more than just route invoices - you’ve made and defended the accounting decisions behind them without a manager in the room.\n\n• Debits and credits are instinct, not a lookup, and you’re comfortable making calls involving expense classification, prepaids, accruals, and fixed assets.\n\n• Hands-on NetSuite and Ramp (or a comparable platform) experience, ideally in a multi-subsidiary environment.\n\n• A track record of improving the process you inherit. You’ve used automation to eliminate manual work and can explain what you changed and what improved.\n\n• You can walk a controller through a coding call and a non-finance teammate through a rejected expense in the same day.\n\n• High attention to detail and low tolerance for unintentional risk. You catch what’s off before it becomes a close problem.\n\nWorking Here\nIf you don’t meet every requirement above, we still encourage you to apply. We value complementary strengths and operators who learn by doing.\nCompensation:The compensation for this role consists of a competitive base salary, benefits, and equity package. The base salary for this role is $100,000+ annually but actual will vary based on a number of factors including a candidate’s professional background, experience, and location. Full details about our Total Rewards package will be provided during the recruitment process.\nBenefits:We support your life both in and outside of work.\nExplore our benefits\nLearn about Funders & Founders\nWhat Guides Us:At AngelList, we are united in our purpose to accelerate innovation and build the future of private markets. Our beliefs and values shape what we work on and how we create impact. If the below resonate, we'd love to have you with us.\nOur beliefs\nOur values & leadership expectations\nAngelList is an equal opportunity employer and we value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.\n",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "lever"
+}

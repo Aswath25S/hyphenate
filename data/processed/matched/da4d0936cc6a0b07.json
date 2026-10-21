@@ -1,0 +1,204 @@
+{
+  "posting_id": "da4d0936cc6a0b07",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "da4d0936cc6a0b07-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "The core action is cross-functional collaboration to identify opportunities, which is stakeholder-facing partnership work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Establishing strong partnerships with stakeholders is relationship management, not an automatable finance-operation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Driving initiatives from ideation to completion is broad project leadership and execution, which is human-led.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Influencing decisions through clear recommendations is advisory judgment and persuasion, which fits human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Constructive challenge and stakeholder alignment are change-management and collaboration activities that require people judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Building planning, investment, and resource-allocation models is FP&A planning work that is rules-based but not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Building forecasts for planning and resource allocation is FP&A forecasting, which is outside the covered treasury forecast capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Building business cases for investment decisions is planning analysis and does not match any listed finance-ops capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-13",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Conducting market research is an analytical task, but the duty is too generic to map to a specific covered capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-14",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Analyzing industry trends is broad research/analysis without a specific matching finance-operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-15",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Analyzing the competitive landscape is general strategic analysis and does not fit any listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Analyzing user and advertiser needs is market analysis, but the duty is too general to map confidently.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Developing strategic growth initiatives is strategy design, which is outside the finance-operations coverage map.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Presenting strategic growth initiatives is presentation work to stakeholders, which is explicitly human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Working with Investor Relations partners is cross-team partnering and advisory collaboration, not platform automation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.73,
+      "rationale": "Continuously monitoring strategic initiatives is vague oversight work that does not map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Evaluating the effectiveness of strategic initiatives is general analysis and not tied to a listed finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "Adjusting strategic initiatives as needed is strategic judgment and does not fit a specific covered workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-23",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Improving processes is too vague to determine whether it refers to an automatable finance task or general process work.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-24",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Improving reporting is a broad process-improvement statement rather than a specific reporting-build capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Driving adoption across teams is change management and stakeholder coordination, which is human-led.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Sharing expertise across teams is advisory and cross-functional knowledge transfer, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

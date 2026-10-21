@@ -6,25 +6,25 @@
   "title": "Accounting Manager",
   "role_family": "Close_Mgmt",
   "seniority": "manager",
-  "n": 18,
-  "C": 8,
-  "A": 3,
-  "covered_share": 0.4444444444444444,
-  "overlap": 0.6111111111111112,
-  "weighted_overlap": 0.5277777777777778,
+  "n": 33,
+  "C": 7,
+  "A": 5,
+  "covered_share": 0.21212121212121213,
+  "overlap": 0.36363636363636365,
+  "weighted_overlap": 0.2878787878787879,
   "thin": false,
   "salary_min": 120000,
   "salary_max": 145000,
   "salary_varies": false,
   "salary_source": "posting_text",
-  "savings": 26666.666666666664,
+  "savings": 12727.272727272728,
   "savings_reason": null,
   "lead_product": "Procure-to-pay",
   "product_split": {
     "Procure-to-pay": {
-      "covered": 5,
+      "covered": 3,
       "assisted": 0,
-      "weighted": 5
+      "weighted": 3
     },
     "GL accounting": {
       "covered": 2,
@@ -37,21 +37,25 @@
       "weighted": 1
     },
     "Reporting": {
-      "covered": 0,
-      "assisted": 1,
-      "weighted": 0.5
+      "covered": 1,
+      "assisted": 3,
+      "weighted": 2.5
     }
   },
   "erp": [
     "NetSuite"
   ],
-  "tools": [],
+  "tools": [
+    "Excel",
+    "Zip",
+    "Ramp"
+  ],
   "posted_at": "2026-09-18T14:47:01-04:00",
   "source_url": "https://job-boards.greenhouse.io/roofstock/jobs/8821792002",
   "locations": [
     "Oakland, California, United States"
   ],
-  "remote": "unknown",
+  "remote": "hybrid",
   "excluded": null,
   "text": "What we do and why we do it\n\nAs the leading end-to-end investment platform for single-family rental homes (SFR), our mission is to reinvent the rental housing ecosystem for the benefit of all. We successfully merge our passion for helping investors build wealth through real estate with cutting edge technology that transforms the way they do it.\n\nHow it's going (and growing)\n\nWith a talented team of 750+ Roofsters, our collaborative, can-do culture is what fuels our growth. In 2022, we closed on our Series E, raising $240 million, and have offices in the Bay Area and New York City. Our growth includes recent acquisitions of Stessa (financial and asset management software), RentPrep (tenant screening and placement service for landlords), and Mynd (property management platform for both Retail and Institutional investors).\n\nAbout the Role\n\nWe are seeking an experienced and detail-oriented Manager, Accounting to lead our accounts payable, procurement, and corporate accounting functions. This is a hybrid role that pairs ownership of AP and procurement operations with hands-on general accounting: booking and reviewing journal entries, researching GL issues, preparing and reviewing reconciliations, owning payroll and benefits accounting, and producing cash reporting and the monthly close package. The ideal candidate is a hands-on leader who can both manage a team and dig into the details of the close.\n\nResponsibilities\n\n• Own AP & Procurement: Manage and oversee the full cycle of accounts payable and procurement operations, including invoice processing and approval routing, purchase order workflow, contract approvals, vendor onboarding/KYC, and vendor escalations\n\n• Payroll & Benefits: Own payroll and benefits accounting, including related journal entries and account reconciliations\n\n• Journal Entries & Account Reconciliations: Prepare and review journal entries. Reconcile 100% of balance sheet accounts monthly\n\n• Month-end close: Support the monthly close process, ensuring deadlines are met and results are accurate and compliant with US GAAP, and speed up the close to a 4 to 5 day timeline\n\n• Reporting: Produce recurring cash reporting (monthly at minimum, ideally weekly) and the monthly close package, including GAAP financials, reconciliation to non-GAAP measures (including EBITDA), and cash analysis\n\n• Team management: Manage a team of two initially (may increase next year), including day-to-day supervision, workload assignment, and review\n\n• Cross-functional: Partner cross-functionally with FP&A, external consultants, and other departments on special projects\n\n• Process improvement: Identify opportunities for automation and process optimization to increase efficiency and accuracy\n\n• AI & automation: Identify and implement AI-driven automation for journal entries and accounting workflows to improve accuracy and accelerate the close process\n\nQualifications\n\n• Bachelor's degree in Accounting or Finance required\n\n• 4+ years of progressive accounting experience\n\n• 1-2 years in a supervisory or team-lead role\n\n• Experience managing month-end and year-end close in a fast-paced environment\n\n• Hands-on experience with accounts payable and procurement operations\n\n• Solid working knowledge of US GAAP\n\n• Advanced Excel skills and proficiency in financial reporting tools\n\nNice to Have\n\n• Hands-on experience with major ERP systems (NetSuite)\n\n• Experience with AP or procurement platforms (Zip, Ramp)\n\n• Payroll and benefits accounting experience\n\n• Big 4 or large regional public accounting experience\n\n• CPA preferred\n\nTravel Required\n\nN/A\n\nLocation\n\nThis position is classified as a HYBRID work environment in Oakland, CA.\n\nThis is a 2 day hybrid role in the Bay Area office, effective October 2026.\n\nCompensation:\n\n$120,000 - $145,000 annually\n\nCompensation may be adjusted based on experience, skills, and interview performance.\n\nPay Transparency\n\nOur compensation reflects several US geographic markets. The base pay for this position represents the expected salary for this position. Ultimately, in determining your pay it will be based on several factors including location, job-related knowledge, skills, experience and other job-related factors. Roofstock is a total compensation company; the base salary is only a part of our total compensation package.\n\nCompetitive & Unique Benefits Package\n\n• Generous PTO Policy\n\n• 12 Paid Holidays\n\n• Volunteer Time Off\n\n• Paid Parental Leave\n\n• 401k Program\n\n• Wellness and home office/cell phone subsidies\n\n• Robust health, dental, vision insurance, and more\n\nMust be authorized to work in the U.S. is a precondition of employment and we are unable to sponsor H1-B Visas at this time.\n\nAny offer of employment is conditioned upon the successful completion of a background investigation.\n\nCommitment to Equal Employment Opportunity\n\nRoofstock is an equal opportunity employer. In keeping with the values of Roofstock, we make all employment decisions including hiring, evaluation, termination, promotional and training opportunities, without regard to race, religion, color, sex, age, national origin, ancestry, sexual orientation, physical handicap, mental disability, medical condition, disability, gender or identity or expression, pregnancy or pregnancy-related condition, marital status, height and/or weight.",
   "extra_salary_lines": [],
@@ -60,7 +64,7 @@
     "max": 145000,
     "period": "year",
     "currency": "USD",
-    "raw_text": "$120,000 - $145,000 annually"
+    "raw_text": "Compensation: $120,000 - $145,000 annually"
   },
   "complexity": {
     "multi_entity": false,
@@ -69,13 +73,66 @@
     "high_volume": false,
     "entity_count": null
   },
-  "pain_phrases": [],
-  "fetched_at": "2026-10-21T03:26:49.969Z",
+  "pain_phrases": [
+    "hands-on general accounting",
+    "reconcile 100% of balance sheet accounts monthly",
+    "speed up the close to a 4 to 5 day timeline",
+    "Identify opportunities for automation",
+    "process optimization",
+    "AI-driven automation",
+    "day-to-day supervision",
+    "workload assignment"
+  ],
+  "fetched_at": "2026-10-21T17:34:08.864Z",
   "ats": "greenhouse",
   "duties": [
     {
-      "duty_id": "62638b661de9e066-h01",
-      "text": "Process AP invoices",
+      "duty_id": "62638b661de9e066-01",
+      "text": "Manage accounts payable operations",
+      "source_span": "Manage and oversee the full cycle of accounts payable operations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": null,
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Managing accounts payable operations is team/process management rather than an individual AP automation task.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "62638b661de9e066-02",
+      "text": "Manage procurement operations",
+      "source_span": "Manage and oversee the full cycle of procurement operations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": null,
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Managing procurement operations is a people-and-process leadership duty, not a specific automated transaction action.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "62638b661de9e066-03",
+      "text": "Process invoices",
       "source_span": "invoice processing",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -90,13 +147,13 @@
       "capability_id": "p2p.bill_capture",
       "capability": "Read and code vendor bills to GL, class and entity",
       "product": "Procure-to-pay",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Processing invoices directly matches vendor bill capture and coding to the ERP.",
       "gap_theme": null
     },
     {
-      "duty_id": "62638b661de9e066-h02",
-      "text": "Route invoice approvals",
+      "duty_id": "62638b661de9e066-04",
+      "text": "Route approvals",
       "source_span": "approval routing",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -111,13 +168,13 @@
       "capability_id": "p2p.approvals",
       "capability": "Route approvals by policy",
       "product": "Procure-to-pay",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Routing approvals is the AP approval workflow described by the platform.",
       "gap_theme": null
     },
     {
-      "duty_id": "62638b661de9e066-h03",
-      "text": "Manage the purchase order workflow",
+      "duty_id": "62638b661de9e066-05",
+      "text": "Manage purchase order workflow",
       "source_span": "purchase order workflow",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -126,19 +183,23 @@
         "start": 1593,
         "end": 1616
       },
-      "label": "covered",
-      "model_label": "covered",
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
       "adjusted": null,
-      "capability_id": "p2p.po_matching",
-      "capability": "Match bills to purchase orders",
-      "product": "Procure-to-pay",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "gap_theme": null
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.86,
+      "rationale": "Managing purchase order workflow is operational work but does not match a listed capability for issuing or matching POs.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
     },
     {
-      "duty_id": "62638b661de9e066-h04",
-      "text": "Route contract approvals",
+      "duty_id": "62638b661de9e066-06",
+      "text": "Approve contracts",
       "source_span": "contract approvals",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -147,19 +208,23 @@
         "start": 1618,
         "end": 1636
       },
-      "label": "covered",
-      "model_label": "covered",
+      "label": "human",
+      "model_label": "human",
       "adjusted": null,
-      "capability_id": "p2p.approvals",
-      "capability": "Route approvals by policy",
-      "product": "Procure-to-pay",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "gap_theme": null
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Approving contracts is a judgment and authorization task, which is a human responsibility.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
     },
     {
-      "duty_id": "62638b661de9e066-h05",
-      "text": "Onboard vendors and complete KYC",
+      "duty_id": "62638b661de9e066-07",
+      "text": "Manage vendor onboarding/KYC",
       "source_span": "vendor onboarding/KYC",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -174,13 +239,13 @@
       "capability_id": "p2p.vendor_followup",
       "capability": "Chase vendors for missing invoices or details",
       "product": "Procure-to-pay",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.78,
+      "rationale": "Managing vendor onboarding and KYC aligns with maintaining vendor master data and W-9 information.",
       "gap_theme": null
     },
     {
-      "duty_id": "62638b661de9e066-h06",
-      "text": "Handle vendor escalations",
+      "duty_id": "62638b661de9e066-08",
+      "text": "Manage vendor escalations",
       "source_span": "vendor escalations",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -195,24 +260,24 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.93,
+      "rationale": "Managing vendor escalations involves relationship handling and judgment, not a listed automation capability.",
       "gap_theme": {
-        "theme_id": "cross_functional",
-        "name": "Cross-functional partnering",
-        "bucket": "human_work"
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "62638b661de9e066-h07",
-      "text": "Own payroll and benefits accounting",
-      "source_span": "Own payroll and benefits accounting",
+      "duty_id": "62638b661de9e066-09",
+      "text": "Own payroll accounting",
+      "source_span": "payroll and benefits accounting",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 1707,
-        "end": 1742
+        "start": 1217,
+        "end": 1248
       },
       "label": "gap_candidate",
       "model_label": "gap_candidate",
@@ -220,24 +285,49 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.9,
+      "rationale": "Payroll accounting is repetitive finance work but has no matching capability in the map.",
       "gap_theme": {
-        "theme_id": "payroll_accounting",
-        "name": "Payroll and benefits accounting",
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "62638b661de9e066-h08",
-      "text": "Prepare payroll journal entries and reconciliations",
-      "source_span": "including related journal entries and account reconciliations",
+      "duty_id": "62638b661de9e066-10",
+      "text": "Own benefits accounting",
+      "source_span": "payroll and benefits accounting",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 1744,
-        "end": 1805
+        "start": 1217,
+        "end": 1248
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Benefits accounting is repetitive accounting work but is not covered by a listed capability.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "62638b661de9e066-11",
+      "text": "Prepare related journal entries",
+      "source_span": "related journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1754,
+        "end": 1777
       },
       "label": "assisted",
       "model_label": "assisted",
@@ -245,13 +335,34 @@
       "capability_id": "gl.journal_entries",
       "capability": "Prepare and post journal entries",
       "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.97,
+      "rationale": "Preparing related journal entries matches journal entry preparation, which needs some accounting judgment.",
       "gap_theme": null
     },
     {
-      "duty_id": "62638b661de9e066-h09",
-      "text": "Prepare and review journal entries",
+      "duty_id": "62638b661de9e066-12",
+      "text": "Reconcile related accounts",
+      "source_span": "account reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1782,
+        "end": 1805
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.account_recs",
+      "capability": "Balance-sheet account reconciliations",
+      "product": "GL accounting",
+      "confidence": 0.97,
+      "rationale": "Reconciling related accounts is a balance-sheet account reconciliation task.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-13",
+      "text": "Prepare journal entries",
       "source_span": "Prepare and review journal entries",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -266,13 +377,38 @@
       "capability_id": "gl.journal_entries",
       "capability": "Prepare and post journal entries",
       "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.97,
+      "rationale": "Preparing journal entries directly matches journal entry preparation with some human oversight.",
       "gap_theme": null
     },
     {
-      "duty_id": "62638b661de9e066-h10",
-      "text": "Reconcile all balance sheet accounts monthly",
+      "duty_id": "62638b661de9e066-14",
+      "text": "Review journal entries",
+      "source_span": "Prepare and review journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1852,
+        "end": 1886
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Reviewing journal entries is human review and approval, which the capability explicitly excludes.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "62638b661de9e066-15",
+      "text": "Reconcile 100% of balance sheet accounts monthly",
       "source_span": "Reconcile 100% of balance sheet accounts monthly",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -287,12 +423,12 @@
       "capability_id": "gl.account_recs",
       "capability": "Balance-sheet account reconciliations",
       "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.99,
+      "rationale": "Reconciling all balance sheet accounts monthly is exactly the balance-sheet reconciliation capability.",
       "gap_theme": null
     },
     {
-      "duty_id": "62638b661de9e066-h11",
+      "duty_id": "62638b661de9e066-16",
       "text": "Support the monthly close process",
       "source_span": "Support the monthly close process",
       "is_boilerplate": false,
@@ -302,19 +438,73 @@
         "start": 1957,
         "end": 1990
       },
-      "label": "covered",
-      "model_label": "covered",
+      "label": "unclear",
+      "model_label": "unclear",
       "adjusted": null,
-      "capability_id": "gl.close_checklist",
-      "capability": "Run month-end close checklist tasks",
-      "product": "GL accounting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "gap_theme": null
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.77,
+      "rationale": "Supporting the monthly close process is too vague to map to a specific covered duty.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
     },
     {
-      "duty_id": "62638b661de9e066-h12",
-      "text": "Speed up the close to 4 to 5 days",
+      "duty_id": "62638b661de9e066-17",
+      "text": "Ensure deadlines are met",
+      "source_span": "ensuring deadlines are met",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1992,
+        "end": 2018
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.74,
+      "rationale": "Ensuring deadlines are met is a broad coordination goal rather than a specific finance-operations action.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "62638b661de9e066-18",
+      "text": "Ensure results are accurate and compliant with US GAAP",
+      "source_span": "results are accurate and compliant with US GAAP",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2023,
+        "end": 2070
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Ensuring results are accurate and US GAAP compliant requires judgment and accounting oversight.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "62638b661de9e066-19",
+      "text": "Speed up the close to a 4 to 5 day timeline",
       "source_span": "speed up the close to a 4 to 5 day timeline",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -323,30 +513,30 @@
         "start": 2076,
         "end": 2119
       },
-      "label": "human",
-      "model_label": "human",
+      "label": "unclear",
+      "model_label": "unclear",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.88,
+      "rationale": "Speeding up the close is a performance goal, not a discrete automatable duty.",
       "gap_theme": {
-        "theme_id": "process_improvement",
-        "name": "Process improvement projects",
-        "bucket": "human_work"
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "62638b661de9e066-h13",
-      "text": "Produce recurring cash reporting",
-      "source_span": "Produce recurring cash reporting",
+      "duty_id": "62638b661de9e066-20",
+      "text": "Produce recurring cash reporting (monthly at minimum, ideally weekly)",
+      "source_span": "Produce recurring cash reporting (monthly at minimum, ideally weekly)",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 2134,
-        "end": 2166
+        "end": 2203
       },
       "label": "covered",
       "model_label": "covered",
@@ -354,20 +544,20 @@
       "capability_id": "tre.cash_position",
       "capability": "Cash position across accounts, entities and banks",
       "product": "Treasury",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.92,
+      "rationale": "Producing recurring cash reporting matches preparing a cash position report across accounts.",
       "gap_theme": null
     },
     {
-      "duty_id": "62638b661de9e066-h14",
-      "text": "Produce the monthly close package with GAAP and non-GAAP reconciliations",
-      "source_span": "the monthly close package, including GAAP financials, reconciliation to non-GAAP measures",
+      "duty_id": "62638b661de9e066-21",
+      "text": "Produce the monthly close package",
+      "source_span": "the monthly close package",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 2208,
-        "end": 2297
+        "start": 1283,
+        "end": 1308
       },
       "label": "assisted",
       "model_label": "assisted",
@@ -375,20 +565,83 @@
       "capability_id": "rep.management_reports",
       "capability": "Build management reports and board decks",
       "product": "Reporting",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.9,
+      "rationale": "Producing the monthly close package aligns with recurring management reporting and financial statement packages.",
       "gap_theme": null
     },
     {
-      "duty_id": "62638b661de9e066-h15",
-      "text": "Manage a team of two",
-      "source_span": "Manage a team of two initially",
+      "duty_id": "62638b661de9e066-22",
+      "text": "Prepare GAAP financials",
+      "source_span": "GAAP financials",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2245,
+        "end": 2260
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "rep.consolidation",
+      "capability": "Roll entities and ERPs into one view, map charts of accounts",
+      "product": "Reporting",
+      "confidence": 0.78,
+      "rationale": "Preparing GAAP financials fits consolidated financial statement preparation and chart-of-accounts mapping.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-23",
+      "text": "Reconcile to non-GAAP measures (including EBITDA)",
+      "source_span": "reconciliation to non-GAAP measures (including EBITDA)",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2262,
+        "end": 2316
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.69,
+      "rationale": "Reconciling to non-GAAP measures like EBITDA is recurring reporting work for management reporting.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-24",
+      "text": "Prepare cash analysis",
+      "source_span": "cash analysis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2322,
+        "end": 2335
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.adhoc_analysis",
+      "capability": "Answer finance questions traced to source entries",
+      "product": "Reporting",
+      "confidence": 0.76,
+      "rationale": "Preparing cash analysis is finance analysis traced to source data rather than a strictly operational workflow.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-25",
+      "text": "Manage a team of two initially (may increase next year)",
+      "source_span": "Manage a team of two initially (may increase next year)",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 2356,
-        "end": 2386
+        "end": 2411
       },
       "label": "human",
       "model_label": "human",
@@ -396,24 +649,99 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.99,
+      "rationale": "Managing a team is a people-leadership responsibility.",
       "gap_theme": {
-        "theme_id": "team_leadership",
-        "name": "Team leadership",
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "62638b661de9e066-26",
+      "text": "Provide day-to-day supervision",
+      "source_span": "day-to-day supervision",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2423,
+        "end": 2445
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Providing day-to-day supervision is direct people management.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
         "bucket": "human_work"
       }
     },
     {
-      "duty_id": "62638b661de9e066-h16",
-      "text": "Partner cross-functionally on special projects",
-      "source_span": "Partner cross-functionally with FP&A, external consultants, and other departments on special projects",
+      "duty_id": "62638b661de9e066-27",
+      "text": "Assign workload",
+      "source_span": "workload assignment",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2447,
+        "end": 2466
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Assigning workload is a supervisory task that involves managing staff.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "62638b661de9e066-28",
+      "text": "Review work",
+      "source_span": "review",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1119,
+        "end": 1125
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Reviewing work is human oversight and quality control of others' output.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "62638b661de9e066-29",
+      "text": "Partner cross-functionally with FP&A",
+      "source_span": "Partner cross-functionally with FP&A",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 2500,
-        "end": 2601
+        "end": 2536
       },
       "label": "human",
       "model_label": "human",
@@ -421,63 +749,449 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Partnering cross-functionally with FP&A is collaboration with another team, which is a human duty.",
       "gap_theme": {
-        "theme_id": "cross_functional",
-        "name": "Cross-functional partnering",
-        "bucket": "human_work"
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "62638b661de9e066-h17",
-      "text": "Identify automation and process optimization opportunities",
-      "source_span": "Identify opportunities for automation and process optimization",
+      "duty_id": "62638b661de9e066-30",
+      "text": "Partner with external consultants",
+      "source_span": "external consultants",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2538,
+        "end": 2558
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with external consultants is relationship management and coordination with outside people.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "62638b661de9e066-31",
+      "text": "Special projects",
+      "source_span": "special projects",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 2585,
+        "end": 2601
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-32",
+      "text": "Identify opportunities for automation",
+      "source_span": "Identify opportunities for automation",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 2626,
-        "end": 2688
+        "end": 2663
       },
-      "label": "human",
-      "model_label": "human",
+      "label": "unclear",
+      "model_label": "unclear",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.82,
+      "rationale": "Identifying opportunities for automation is a broad improvement activity without a specific mapped capability.",
       "gap_theme": {
-        "theme_id": "process_improvement",
-        "name": "Process improvement projects",
-        "bucket": "human_work"
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "62638b661de9e066-h18",
-      "text": "Implement AI automation for journal entries",
-      "source_span": "Identify and implement AI-driven automation for journal entries and accounting workflows",
+      "duty_id": "62638b661de9e066-33",
+      "text": "Identify opportunities for process optimization",
+      "source_span": "process optimization",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2668,
+        "end": 2688
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.82,
+      "rationale": "Identifying opportunities for process optimization is too broad and project-oriented to map cleanly.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "62638b661de9e066-34",
+      "text": "Identify and implement AI-driven automation for journal entries and accounting workflows to improve accuracy and accelerate the close process",
+      "source_span": "Identify and implement AI-driven automation for journal entries and accounting workflows to improve accuracy and accelerate the close process",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
         "start": 2745,
-        "end": 2833
+        "end": 2886
       },
-      "label": "human",
-      "model_label": "human",
+      "label": "unclear",
+      "model_label": "unclear",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.76,
+      "rationale": "Implementing AI automation for journal entries and workflows is a project initiative rather than the platform's end-state workflow.",
       "gap_theme": {
-        "theme_id": "process_improvement",
-        "name": "Process improvement projects",
-        "bucket": "human_work"
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
       }
+    },
+    {
+      "duty_id": "62638b661de9e066-35",
+      "text": "As the leading end-to-end investment platform for single-family rental homes (SFR), our mission is to reinvent the rental housing ecosystem for the benefit of all.",
+      "source_span": "As the leading end-to-end investment platform for single-family rental homes (SFR), our mission is to reinvent the rental housing ecosystem for the benefit of all.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 29,
+        "end": 192
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-36",
+      "text": "We successfully merge our passion for helping investors build wealth through real estate with cutting edge technology that transforms the way they do it.",
+      "source_span": "We successfully merge our passion for helping investors build wealth through real estate with cutting edge technology that transforms the way they do it.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 193,
+        "end": 346
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-37",
+      "text": "Must be authorized to work in the U.S. is a precondition of employment and we are unable to sponsor H1-B Visas at this time.",
+      "source_span": "Must be authorized to work in the U.S. is a precondition of employment and we are unable to sponsor H1-B Visas at this time.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4555,
+        "end": 4679
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-38",
+      "text": "Bachelor's degree in Accounting or Finance required",
+      "source_span": "Bachelor's degree in Accounting or Finance required",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2906,
+        "end": 2957
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-39",
+      "text": "4+ years of progressive accounting experience",
+      "source_span": "4+ years of progressive accounting experience",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2961,
+        "end": 3006
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-40",
+      "text": "1-2 years in a supervisory or team-lead role",
+      "source_span": "1-2 years in a supervisory or team-lead role",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3010,
+        "end": 3054
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-41",
+      "text": "Experience managing month-end and year-end close in a fast-paced environment",
+      "source_span": "Experience managing month-end and year-end close in a fast-paced environment",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3058,
+        "end": 3134
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-42",
+      "text": "Hands-on experience with accounts payable and procurement operations",
+      "source_span": "Hands-on experience with accounts payable and procurement operations",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3138,
+        "end": 3206
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-43",
+      "text": "Solid working knowledge of US GAAP",
+      "source_span": "Solid working knowledge of US GAAP",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3210,
+        "end": 3244
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-44",
+      "text": "Advanced Excel skills and proficiency in financial reporting tools",
+      "source_span": "Advanced Excel skills and proficiency in financial reporting tools",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3248,
+        "end": 3314
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-45",
+      "text": "Hands-on experience with major ERP systems (NetSuite)",
+      "source_span": "Hands-on experience with major ERP systems (NetSuite)",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3332,
+        "end": 3385
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-46",
+      "text": "Experience with AP or procurement platforms (Zip, Ramp)",
+      "source_span": "Experience with AP or procurement platforms (Zip, Ramp)",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3389,
+        "end": 3444
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-47",
+      "text": "Payroll and benefits accounting experience",
+      "source_span": "Payroll and benefits accounting experience",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3448,
+        "end": 3490
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-48",
+      "text": "Big 4 or large regional public accounting experience",
+      "source_span": "Big 4 or large regional public accounting experience",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3494,
+        "end": 3546
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "62638b661de9e066-49",
+      "text": "CPA preferred",
+      "source_span": "CPA preferred",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3550,
+        "end": 3563
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
     }
   ]
 }

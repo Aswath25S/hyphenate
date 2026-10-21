@@ -1,0 +1,177 @@
+{
+  "posting_id": "b0bc3ca642325d88",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "b0bc3ca642325d88-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Overseeing accounting and tax operations and strategy is management and policy work, not an automatable finance-ops task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Building and scaling financial systems is a project/implementation duty that does not map cleanly to a listed finance-ops capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-03",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Building and scaling financial processes is process design work, which is not one of the listed end-to-end capabilities.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Building and scaling financial policies is setting policy, which is explicitly human judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Overseeing the monthly close is management of the close process rather than performing close checklist tasks directly.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Overseeing annual audits is a relationship and coordination role with auditors, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Overseeing financial reporting is leadership and review of reporting work, not the reporting production task itself.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Overseeing control processes is management of internal controls, not the control execution capability itself.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Overseeing the accounting team is people management by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Overseeing external consultants is coordination and vendor management, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Managing the GL is an oversight role rather than hands-on journal entry or reconciliation work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Managing AP is overseeing the payables function, not the bill processing workflow itself.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Managing technical or revenue accounting is oversight of a specialized accounting function, not just revenue schedule preparation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Managing payroll is function oversight, which is people management rather than a specific covered finance-ops task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Managing equity is oversight of a finance function and not one of the platform's listed accounting workflows.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Managing tax is oversight and coordination of tax operations, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Managing treasury is overseeing the treasury function rather than performing a specific treasury operation end to end.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Partnering with stakeholders across the organization is cross-functional collaboration, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b0bc3ca642325d88-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Supporting M&A, fundraising, secondary transactions, and IPO work is strategic, cross-functional advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

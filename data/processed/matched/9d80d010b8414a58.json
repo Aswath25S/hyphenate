@@ -1,0 +1,177 @@
+{
+  "posting_id": "9d80d010b8414a58",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "9d80d010b8414a58-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Serving as an embedded finance business partner is cross-functional advising and partnering with other teams, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9d80d010b8414a58-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Translating business plans into financial plans is FP&A budgeting and planning, which is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9d80d010b8414a58-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Translating financial constraints into business tradeoffs is advisory decision support, not an automated finance-ops task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9d80d010b8414a58-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Building and pressure-testing investment business cases is FP&A modeling and judgment work outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9d80d010b8414a58-05",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.69,
+      "rationale": "Tracking outcomes is too vague to map to a specific finance operation capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9d80d010b8414a58-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Tracking unit economics is a planning and analysis activity not covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9d80d010b8414a58-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Closing the loop with leadership on what worked is presenting and advising stakeholders, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9d80d010b8414a58-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Running the financial planning and monthly forecasting process end-to-end is FP&A planning, which is not covered here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9d80d010b8414a58-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Managing the operating budget with partner teams is collaborative budget ownership and coordination, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9d80d010b8414a58-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Conducting monthly reviews implies leading review meetings and stakeholder discussion rather than a covered finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9d80d010b8414a58-11",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.98,
+      "rationale": "Performing variance analysis matches flux analysis and variance commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9d80d010b8414a58-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Providing guidance is advisory work that depends on human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9d80d010b8414a58-13",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.76,
+      "rationale": "Owning and improving understanding of business drivers aligns with analyzing drivers using source data, though it is broader than the capability.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9d80d010b8414a58-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Helping the business define KPIs is metric-setting and cross-functional design, which is human judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9d80d010b8414a58-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Working with Data to make metrics visible and trusted is cross-functional collaboration and data stewardship, not a listed finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9d80d010b8414a58-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Applying AI tools to drive faster insight is too generic to map to a specific covered finance task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9d80d010b8414a58-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Applying AI tools to drive greater efficiency is too generic to map to a specific covered finance task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9d80d010b8414a58-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Applying AI tools to drive smarter decision-making is too generic to map to a specific covered finance task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9d80d010b8414a58-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Helping shape how the Finance team works as tools evolve is process and change management, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

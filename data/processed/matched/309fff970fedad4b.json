@@ -1,0 +1,204 @@
+{
+  "posting_id": "309fff970fedad4b",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "309fff970fedad4b-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "The core action is owning daily operations, which is management rather than an automated billing or accounting task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-02",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.98,
+      "rationale": "The action is preparing journal entries, which matches journal entry preparation but still needs accounting judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-03",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.91,
+      "rationale": "The action is preparing deferrals, which maps to deferred revenue calculations and schedules under revenue recognition.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-04",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.98,
+      "rationale": "The action is maintaining recognition schedules, which is direct revenue recognition schedule work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-05",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "The action only says perform reconciliations without specifying bank, account, or intercompany reconciliations.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-06",
+      "label": "covered",
+      "capability_id": "o2c.collections",
+      "confidence": 0.99,
+      "rationale": "The action is managing collections, which is the collections workflow for chasing overdue invoices.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-07",
+      "label": "covered",
+      "capability_id": "o2c.orders_refunds",
+      "confidence": 0.86,
+      "rationale": "The action is answering billing questions, which matches resolving billing inquiries from customers and sales.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-08",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.83,
+      "rationale": "The action is executing the revenue side of month-end close, which is part of running close checklist tasks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-09",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.81,
+      "rationale": "The action is executing the revenue side of year-end close, which fits close checklist work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-10",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.84,
+      "rationale": "The action is co-owning the checklist, which maps to managing close checklist tasks and completion.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-11",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "The action is tracking what is outstanding, but the type of outstanding item is not specified.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-12",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.84,
+      "rationale": "The action is reporting accurate financials on time, which matches producing recurring financial reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "The action is managing accounts receivable, which is repetitive finance operations but has no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-14",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "The action is keeping cash flowing smoothly, which is too vague to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-15",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.97,
+      "rationale": "The action is supporting the annual financial audit, which matches audit support and documentation work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-16",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.89,
+      "rationale": "The action is organizing revenue-related documentation, which matches maintaining supporting documentation for audit and entries.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-17",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.78,
+      "rationale": "The action is implementing controls, which fits executing and maintaining close and internal control procedures.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-18",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.95,
+      "rationale": "The action is getting audit workpapers ready, which is preparing audit schedules and PBC support.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The action is owning the finance side of a billing/accounting integration, which is a cross-functional project management activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The action is integrating the system with an ERP, which is an implementation project rather than a finance operations workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "The action is automating the boring stuff, which is too vague to map to a specific finance capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "309fff970fedad4b-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "The action is finding opportunities to improve efficiency, which is a vague process-improvement duty rather than a defined operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

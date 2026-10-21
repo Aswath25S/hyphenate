@@ -1,0 +1,214 @@
+{
+  "posting_id": "ea10b52c192efe2d",
+  "company": "Acorns",
+  "domain": "acorns.com",
+  "title": "Finance Analyst",
+  "role_family": "Reporting_FPA",
+  "seniority": "mid",
+  "locations": [
+    "Remote"
+  ],
+  "remote": "remote",
+  "salary": {
+    "min": 94000,
+    "max": 108000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The pay range for this position at commencement of employment is expected to be between $94,000-$108,000; however, base pay offered may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience."
+  },
+  "erp": [],
+  "tools": [],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "duties": [
+    {
+      "duty_id": "ea10b52c192efe2d-01",
+      "text": "Introduce yourself to the organization",
+      "source_span": "Introduce yourself to the organization",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-02",
+      "text": "Develop a deep understanding of the product, business model, and financial outlook.",
+      "source_span": "develop a deep understanding of the product, business model, and financial outlook.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-03",
+      "text": "Equip product managers and department leaders with monthly insights on business trends.",
+      "source_span": "Equip product managers and department leaders with monthly insights on business trends.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-04",
+      "text": "Support short- and long-term financial plans",
+      "source_span": "Support short- and long-term financial plans",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-05",
+      "text": "Assist in financial reporting and KPI variance analysis",
+      "source_span": "assist in financial reporting and KPI variance analysis",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-06",
+      "text": "Help drive key strategic initiatives.",
+      "source_span": "help drive key strategic initiatives.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-07",
+      "text": "Develop, maintain, and enhance corporate financial models, including annual budgets, forecasts, and consolidated cash flows.",
+      "source_span": "Develop, maintain, and enhance corporate financial models, including annual budgets, forecasts, and consolidated cash flows.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-08",
+      "text": "Build KPI frameworks",
+      "source_span": "Build KPI frameworks",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-09",
+      "text": "Analyze product line performance",
+      "source_span": "analyze product line performance",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-10",
+      "text": "Support high-impact decisions including go-to-market strategy, partnership negotiations, and potential M&A.",
+      "source_span": "support high-impact decisions including go-to-market strategy, partnership negotiations, and potential M&A.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-11",
+      "text": "Create clear presentations to articulate findings to key stakeholders.",
+      "source_span": "Create clear presentations to articulate findings to key stakeholders.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-12",
+      "text": "Bachelor’s Degree in Accounting, Economics, Finance, Business, or another quantitative field.",
+      "source_span": "Bachelor’s Degree in Accounting, Economics, Finance, Business, or another quantitative field.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-13",
+      "text": "1+ years of relevant industry experience with financial modeling (e.g., investment banking, private equity, corporate finance)",
+      "source_span": "1+ years of relevant industry experience with financial modeling (e.g., investment banking, private equity, corporate finance)",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-14",
+      "text": "Highly analytical mindset with the ability to execute complex financial modeling, analyze raw data, and draw clear conclusions.",
+      "source_span": "Highly analytical mindset with the ability to execute complex financial modeling, analyze raw data, and draw clear conclusions.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-15",
+      "text": "High degree of organization, efficiency, and exceptional attention to detail.",
+      "source_span": "High degree of organization, efficiency, and exceptional attention to detail.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-16",
+      "text": "Strong written and verbal communication skills with the ability to collaborate effectively across cross-functional teams.",
+      "source_span": "Strong written and verbal communication skills with the ability to collaborate effectively across cross-functional teams.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-17",
+      "text": "A team-player mindset with a desire to roll up your sleeves and be hands-on in an entrepreneurial, fast-paced environment.",
+      "source_span": "A team-player mindset with a desire to roll up your sleeves and be hands-on in an entrepreneurial, fast-paced environment.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-18",
+      "text": "Strong sense of ownership, pride in work, and the ability to self-start.",
+      "source_span": "Strong sense of ownership, pride in work, and the ability to self-start.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-19",
+      "text": "Highest ethical standards, integrity, authenticity, credibility, and character.",
+      "source_span": "Highest ethical standards, integrity, authenticity, credibility, and character.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-20",
+      "text": "Hunger to deliver game-changing products.",
+      "source_span": "Hunger to deliver game-changing products.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-21",
+      "text": "Exceptional drive and precision in delivery.",
+      "source_span": "Exceptional drive and precision in delivery.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-22",
+      "text": "A belief that your work is tied to your life's mission.",
+      "source_span": "A belief that your work is tied to your life's mission.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-23",
+      "text": "Optimistic about the potential of societal change.",
+      "source_span": "Optimistic about the potential of societal change.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-24",
+      "text": "A strong passion for the Acorns’ mission.",
+      "source_span": "A strong passion for the Acorns’ mission.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-25",
+      "text": "You are not expected to have experience with all listed requirements. If you feel passionate about Acorns' mission, vision, and values, please apply.",
+      "source_span": "You are not expected to have experience with all listed requirements. If you feel passionate about Acorns' mission, vision, and values, please apply.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    }
+  ],
+  "posted_at": "2026-09-16T16:35:44.824+00:00",
+  "source_url": "https://jobs.ashbyhq.com/acorns/91e69836-7a14-421a-a8ec-d3bb85336be4",
+  "fetched_at": "2026-10-21T17:34:43.441Z",
+  "prompt_version": "extract-v1",
+  "text": "Acorns is seeking an ambitious Finance Analyst to enable, inform, and improve strategic and financial decision-making across the company. This role will work directly with senior leadership across Finance, as well as teams throughout the organization, including product, engineering, marketing, legal, and operations.\n\n\n\nAcorns is a remote-first organization, offering the flexibility to work remotely while providing optional access to office space in Irvine, CA.\n\n\n\n\nWHAT YOU WILL DO AT ACORNS:\n\n - Introduce yourself to the organization and develop a deep understanding of the product, business model, and financial outlook.\n\n - Equip product managers and department leaders with monthly insights on business trends.\n\n - Support short- and long-term financial plans, assist in financial reporting and KPI variance analysis, and help drive key strategic initiatives.\n\n - Develop, maintain, and enhance corporate financial models, including annual budgets, forecasts, and consolidated cash flows.\n\n - Build KPI frameworks, analyze product line performance, and support high-impact decisions including go-to-market strategy, partnership negotiations, and potential M&A.\n\n - Create clear presentations to articulate findings to key stakeholders.\n\n\n\n\nWHAT YOU WILL BRING TO ACORNS:\n\n - Bachelor’s Degree in Accounting, Economics, Finance, Business, or another quantitative field.\n\n - 1+ years of relevant industry experience with financial modeling (e.g., investment banking, private equity, corporate finance)\n\n - Highly analytical mindset with the ability to execute complex financial modeling, analyze raw data, and draw clear conclusions.\n\n - High degree of organization, efficiency, and exceptional attention to detail.\n\n - Strong written and verbal communication skills with the ability to collaborate effectively across cross-functional teams.\n\n - A team-player mindset with a desire to roll up your sleeves and be hands-on in an entrepreneurial, fast-paced environment.\n\n - Strong sense of ownership, pride in work, and the ability to self-start.\n\n - Highest ethical standards, integrity, authenticity, credibility, and character.\n\n - Hunger to deliver game-changing products.\n\n - Exceptional drive and precision in delivery.\n\n - A belief that your work is tied to your life's mission.\n\n - Optimistic about the potential of societal change.\n\n - A strong passion for the Acorns’ mission.\n\nYou are not expected to have experience with all listed requirements. If you feel passionate about Acorns' mission, vision, and values, please apply.\n\n\n\n\nWHAT WE OFFER:\n\n - Competitive salary and stock options.\n\n - A comprehensive benefits package for you and your family.\n\n - Flexible work location, hours, and paid time off.\n\n - 401(k) matching.\n\n - Monthly Acorns account contribution & GoHenry account for your family.\n\n - Mindfulness and Financial Wellness resources, including Headspace and Addition Wealth.\n\n - Acorns Career Development Program (ongoing training sessions, development plans, development check-ins, and Cornerstone’s online training platform).\n\n - Roots Leadership Program for Emerging Leaders.\n\n - Community week onsite gatherings and various virtual events.\n\n - Talented and motivated team members who care deeply about one another, our mission, and our customers.\n\n - The rare opportunity to create a new world. We inspire one another every day to do meaningful work that solves big societal challenges.\n\n\n\n\nABOUT ACORNS:\n\nAcorns is the financial wellness company helping everyday Americans grow their money for the long term. Since 2014, Acorns has grown into a global company with multiple life stage products serving the needs of kids, teens, adults, and parents. Named one of America's Best Financial Services of 2026 by TIME, Acorns has served over 16 million people and helped customers save & invest over $33 billion dollars, much of it from spare change and small amounts.\n\n\n\n\nCOMPENSATION INFORMATION:\n\nThe pay range for this position at commencement of employment is expected to be between $94,000-$108,000; however, base pay offered may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience. The total compensation package for this position may also include other elements, including equity grants and discretionary cash bonus awards in addition to a full range of medical, financial, and/or other benefits (including 401(k) eligibility and various paid time off benefits, such as vacation, sick time, and parental leave), dependent on the position offered. Details of participation in these benefit plans will be provided if an employee receives an offer of employment.\n\n\n\nIf hired, the employee will be in an “at-will position” and the Company reserves the right to modify base salary (as well as any other discretionary payment or compensation program) at any time, including for reasons related to individual performance, Company or individual department/team performance, and market factors.\n\n\n\n\nWORK AUTHORIZATION:\n\nAcorns participates in E-Verify to confirm the employment eligibility of all newly hired employees. For more information about E-Verify, please visit www.e-verify.gov http://www.e-verify.gov",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "ashby"
+}

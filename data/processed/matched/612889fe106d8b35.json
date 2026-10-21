@@ -1,140 +1,302 @@
 {
   "posting_id": "612889fe106d8b35",
-  "prompt_version": "hand-labelled",
+  "prompt_version": "match-v1",
   "labels": [
     {
-      "duty_id": "612889fe106d8b35-h01",
+      "duty_id": "612889fe106d8b35-01",
       "label": "assisted",
       "capability_id": "gl.journal_entries",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Preparing journal entries matches the GL journal entry capability, but it is listed as assisted because it typically still needs accounting judgment.",
       "model_label": "assisted",
       "adjusted": null
     },
     {
-      "duty_id": "612889fe106d8b35-h02",
+      "duty_id": "612889fe106d8b35-02",
       "label": "assisted",
       "capability_id": "gl.accruals",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Preparing accruals is the core accrual estimation and recording work covered by the GL accruals capability.",
       "model_label": "assisted",
       "adjusted": null
     },
     {
-      "duty_id": "612889fe106d8b35-h03",
+      "duty_id": "612889fe106d8b35-03",
       "label": "covered",
       "capability_id": "gl.account_recs",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.99,
+      "rationale": "Preparing account reconciliations directly matches balance-sheet account reconciliations.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "612889fe106d8b35-h04",
+      "duty_id": "612889fe106d8b35-04",
       "label": "assisted",
       "capability_id": "gl.flux",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Preparing monthly fluctuation analyses matches flux analysis and variance commentary.",
       "model_label": "assisted",
       "adjusted": null
     },
     {
-      "duty_id": "612889fe106d8b35-h05",
+      "duty_id": "612889fe106d8b35-05",
       "label": "human",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.96,
+      "rationale": "Gathering inputs from Marketing stakeholders is cross-functional partnering with people, which is human work.",
       "model_label": "human",
       "adjusted": null
     },
     {
-      "duty_id": "612889fe106d8b35-h06",
+      "duty_id": "612889fe106d8b35-06",
       "label": "assisted",
       "capability_id": "gl.accruals",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.95,
+      "rationale": "Preparing accrual calculations for campaigns is an accrual estimation task based on historical and source inputs.",
       "model_label": "assisted",
       "adjusted": null
     },
     {
-      "duty_id": "612889fe106d8b35-h07",
+      "duty_id": "612889fe106d8b35-07",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.95,
+      "rationale": "Preparing accrual calculations for agency relationships is still accrual estimation work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-08",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.94,
+      "rationale": "Preparing accrual calculations for athlete, influencer, and brand ambassador arrangements is accrual work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-09",
       "label": "covered",
       "capability_id": "gl.subledgers",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Maintaining fixed asset accounting matches the fixed asset register and related subledger work.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "612889fe106d8b35-h08",
+      "duty_id": "612889fe106d8b35-10",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.96,
+      "rationale": "Recording asset additions is part of maintaining the fixed asset register.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-11",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.96,
+      "rationale": "Recording asset placements is fixed asset subledger maintenance.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-12",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.95,
+      "rationale": "Recording asset transfers fits fixed asset accounting and subledger maintenance.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-13",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.96,
+      "rationale": "Recording asset disposals is part of fixed asset accounting.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-14",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.99,
+      "rationale": "Recording monthly depreciation directly matches the fixed asset and amortization subledger capability.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-15",
       "label": "human",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.95,
+      "rationale": "Partnering with other teams to support capex initiatives is cross-functional collaboration and advisory work.",
       "model_label": "human",
       "adjusted": null
     },
     {
-      "duty_id": "612889fe106d8b35-h09",
+      "duty_id": "612889fe106d8b35-16",
       "label": "covered",
       "capability_id": "gl.subledgers",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Preparing prepaid expense schedules is explicitly part of the subledger capability.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "612889fe106d8b35-h10",
+      "duty_id": "612889fe106d8b35-17",
       "label": "covered",
       "capability_id": "gl.subledgers",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Preparing monthly amortization entries matches the subledger maintenance and amortization workflow.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "612889fe106d8b35-h11",
-      "label": "gap_candidate",
+      "duty_id": "612889fe106d8b35-18",
+      "label": "unclear",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.56,
+      "rationale": "Reviewing vendor contracts is document review work that could be automated but does not match a listed capability.",
       "model_label": "gap_candidate",
+      "adjusted": "confidence 0.56 below 0.6"
+    },
+    {
+      "duty_id": "612889fe106d8b35-19",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.96,
+      "rationale": "Reviewing invoices fits vendor bill coding and invoice processing.",
+      "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "612889fe106d8b35-h12",
+      "duty_id": "612889fe106d8b35-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.62,
+      "rationale": "Supporting company-wide expense management is too broad to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Ensuring accurate reporting is too vague to determine a specific platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Ensuring policy compliance is too general without a specific compliance or control action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-23",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Ensuring scalable controls is too vague to map cleanly to a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-24",
       "label": "assisted",
       "capability_id": "gl.audit_support",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.96,
+      "rationale": "Supporting annual audits matches audit trail and PBC support work.",
       "model_label": "assisted",
       "adjusted": null
     },
     {
-      "duty_id": "612889fe106d8b35-h13",
-      "label": "human",
-      "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "human",
+      "duty_id": "612889fe106d8b35-25",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.9,
+      "rationale": "Supporting quarterly reviews is audit support work that fits the audit trail capability.",
+      "model_label": "assisted",
       "adjusted": null
     },
     {
-      "duty_id": "612889fe106d8b35-h14",
-      "label": "human",
+      "duty_id": "612889fe106d8b35-26",
+      "label": "unclear",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "human",
+      "confidence": 0.94,
+      "rationale": "Preparing schedules is too vague without knowing which financial schedule is meant.",
+      "model_label": "unclear",
       "adjusted": null
     },
     {
-      "duty_id": "612889fe106d8b35-h15",
-      "label": "human",
+      "duty_id": "612889fe106d8b35-27",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.95,
+      "rationale": "Preparing supporting documentation matches the audit support capability for entry documentation and PBCs.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-28",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.93,
+      "rationale": "Assisting with auditor inquiries is audit support, though not the primary external auditor relationship.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-29",
+      "label": "unclear",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "human",
+      "confidence": 0.8,
+      "rationale": "Contributing to process improvement initiatives is too broad and project-oriented to map precisely.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-30",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Contributing to finance transformation initiatives is a vague project duty rather than a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-31",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Supporting system implementations is project implementation work, which is not a listed end-to-end capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-32",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Documenting standard operating procedures is process documentation that does not map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "612889fe106d8b35-33",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.65,
+      "rationale": "Leveraging automation and AI-driven solutions describes a method rather than a specific finance duty.",
+      "model_label": "unclear",
       "adjusted": null
     }
   ]

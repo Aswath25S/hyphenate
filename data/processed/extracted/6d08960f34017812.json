@@ -1,0 +1,290 @@
+{
+  "posting_id": "6d08960f34017812",
+  "company": "Vercel",
+  "domain": "vercel.com",
+  "title": "Senior Accountant",
+  "role_family": "GL",
+  "seniority": "senior",
+  "locations": [
+    "Hybrid - San Francisco",
+    "San Francisco, California, United States"
+  ],
+  "remote": "hybrid",
+  "salary": {
+    "min": 120000,
+    "max": 140000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The San Francisco, CA base pay range for this role is $120,000 - $140,000."
+  },
+  "erp": [],
+  "tools": [],
+  "complexity": {
+    "multi_entity": true,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "supporting and scaling Vercel’s accounting operations",
+    "to operate at standards expected for a public company",
+    "process improvements, automation, and consistency across the accounting function",
+    "fast-paced, high-growth environment"
+  ],
+  "duties": [
+    {
+      "duty_id": "6d08960f34017812-01",
+      "text": "Support the monthly and quarterly close process",
+      "source_span": "Support the monthly and quarterly close process, ensuring accuracy, completeness and timeliness of assigned areas.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-02",
+      "text": "Prepare financial reporting packages",
+      "source_span": "financial reporting packages",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-03",
+      "text": "Prepare presentations for senior leadership",
+      "source_span": "presentations for senior leadership",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-04",
+      "text": "Prepare detailed fluctuation and trend analyses",
+      "source_span": "detailed fluctuation and trend analyses",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-05",
+      "text": "Prepare account reconciliations",
+      "source_span": "account reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-06",
+      "text": "Prepare supporting schedules",
+      "source_span": "supporting schedules",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-07",
+      "text": "Proactively identify and resolve discrepancies",
+      "source_span": "proactively identifying and resolving discrepancies",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-08",
+      "text": "Partner with FP&A to align accounting results",
+      "source_span": "Partner with FP&A to align accounting results, ensuring consistency between actuals, forecasts, and business drivers.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-09",
+      "text": "Lead or support process improvement initiatives to streamline month-end and quarter-end close activities",
+      "source_span": "Lead or support process improvement and automation initiatives to streamline month-end and quarter-end close activities",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-10",
+      "text": "Lead or support automation initiatives to streamline month-end and quarter-end close activities",
+      "source_span": "automation initiatives to streamline month-end and quarter-end close activities",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-11",
+      "text": "Improve internal controls",
+      "source_span": "improve internal controls",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-12",
+      "text": "Enhance end-to-end operational effectiveness",
+      "source_span": "enhance end-to-end operational effectiveness",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-13",
+      "text": "Build and use AI agents to automate daily activities",
+      "source_span": "Build and use AI agents to automate daily activities.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-14",
+      "text": "Support M&A activities as they arise",
+      "source_span": "Support M&A activities as they arise",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-15",
+      "text": "Onboard new entities",
+      "source_span": "onboarding new entities",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-16",
+      "text": "Prepare documentation",
+      "source_span": "preparing documentation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-17",
+      "text": "Respond to auditor inquiries",
+      "source_span": "responding to auditor inquiries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-18",
+      "text": "Support testing efforts",
+      "source_span": "supporting testing efforts",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-19",
+      "text": "Support other special projects as they arise",
+      "source_span": "Support other special projects as they arise.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6d08960f34017812-20",
+      "text": "Bachelor’s degree in Accounting or Finance",
+      "source_span": "Bachelor’s degree in Accounting or Finance",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6d08960f34017812-21",
+      "text": "CPA preferred",
+      "source_span": "CPA preferred",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6d08960f34017812-22",
+      "text": "3+ years of progressive accounting experience",
+      "source_span": "3+ years of progressive accounting experience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6d08960f34017812-23",
+      "text": "Mix of Big 4 public accounting and/or high-growth private company experience",
+      "source_span": "including a mix of Big 4 public accounting and/or high-growth private company experience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6d08960f34017812-24",
+      "text": "Strong understanding of US GAAP",
+      "source_span": "Strong understanding of US GAAP",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6d08960f34017812-25",
+      "text": "Familiarity with FASB ASC standards",
+      "source_span": "familiarity with FASB ASC standards",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6d08960f34017812-26",
+      "text": "Comfortable doing some research independently",
+      "source_span": "comfortable doing some research independently",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6d08960f34017812-27",
+      "text": "Solid foundations in the key accounting areas mentioned above",
+      "source_span": "Solid foundations in the key accounting areas mentioned above",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6d08960f34017812-28",
+      "text": "Hands-on, detail-oriented accountant with a strong sense of ownership and the ability to manage multiple priorities",
+      "source_span": "Hands-on, detail-oriented accountant with a strong sense of ownership and the ability to manage multiple priorities",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6d08960f34017812-29",
+      "text": "Process-oriented and curious",
+      "source_span": "Process-oriented and curious",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6d08960f34017812-30",
+      "text": "Interest in leveraging AI, automation, and systems to improve efficiency and accuracy",
+      "source_span": "with an interest in leveraging AI, automation, and systems to improve efficiency and accuracy",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6d08960f34017812-31",
+      "text": "Experience working cross-functionally to align accounting processes with business operations and reporting needs",
+      "source_span": "Experience working cross-functionally to align accounting processes with business operations and reporting needs",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6d08960f34017812-32",
+      "text": "Strong communicator",
+      "source_span": "Strong communicator",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6d08960f34017812-33",
+      "text": "Collaborate effectively with cross-functional partners",
+      "source_span": "collaborate effectively with cross-functional partners",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6d08960f34017812-34",
+      "text": "Explain accounting concepts clearly",
+      "source_span": "explain accounting concepts clearly",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6d08960f34017812-35",
+      "text": "Comfortable operating in a fast-paced and evolving environment",
+      "source_span": "Comfortable operating in a fast-paced and evolving environment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-10-09T12:20:18-04:00",
+  "source_url": "https://job-boards.greenhouse.io/vercel/jobs/6196563004",
+  "fetched_at": "2026-10-21T17:34:12.371Z",
+  "prompt_version": "extract-v1",
+  "text": "About Vercel:\n\nVercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience.\n\nNow we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide.\n\nAbout the role\n\nThe Senior Accountant will play a key role in supporting and scaling Vercel’s accounting operations as the company continues to grow and mature, to operate at standards expected for a public company. Reporting to the Sr. Accounting Manager, this role will own assigned operational accounting areas and be a key contributor to the monthly and quarterly close, ensuring accurate and timely financial information to support FP&A and business decision-making.\n\nThis position will have hands-on responsibility for key accounting areas, including but not limited to accruals, lease accounting, capitalized commissions, and payroll accounting. This position will also have involvement in the accounting for subsidiaries related to M&A activity. The Senior Accountant will collaborate closely with internal teams and external providers to support process improvements, automation, and consistency across the accounting function in a fast-paced, high-growth environment.\n\nIf you’re based within a pre-determined commuting distance of one of our offices (SF, NY, London, or Berlin), the role includes in-office anchor days on Monday, Tuesday, and Friday. If you're located beyond that distance, the role is fully remote. For location-specific details, please connect with our recruiting team.\n\nWhat you'll do\n\n• Support the monthly and quarterly close process, ensuring accuracy, completeness and timeliness of assigned areas.\n\n• Prepare financial reporting packages and presentations for senior leadership, including detailed fluctuation and trend analyses.\n\n• Prepare account reconciliations and supporting schedules, proactively identifying and resolving discrepancies.\n\n• Partner with FP&A to align accounting results, ensuring consistency between actuals, forecasts, and business drivers.\n\n• Lead or support process improvement and automation initiatives to streamline month-end and quarter-end close activities, improve internal controls, and enhance end-to-end operational effectiveness.\n\n• Build and use AI agents to automate daily activities.\n\n• Support M&A activities as they arise, including onboarding new entities.\n\n• Assist with audit and review processes by preparing documentation, responding to auditor inquiries, and supporting testing efforts.\n\n• Support other special projects as they arise.\n\nWhat you need\n\n• Bachelor’s degree in Accounting or Finance; CPA preferred.\n\n• 3+ years of progressive accounting experience, including a mix of Big 4 public accounting and/or high-growth private company experience.\n\n• Strong understanding of US GAAP - familiarity with FASB ASC standards, and comfortable doing some research independently. Solid foundations in the key accounting areas mentioned above.\n\n• Hands-on, detail-oriented accountant with a strong sense of ownership and the ability to manage multiple priorities.\n\n• Process-oriented and curious, with an interest in leveraging AI, automation, and systems to improve efficiency and accuracy.\n\n• Experience working cross-functionally to align accounting processes with business operations and reporting needs.\n\n• Strong communicator, able to collaborate effectively with cross-functional partners and explain accounting concepts clearly.\n\n• Comfortable operating in a fast-paced and evolving environment.\n\nCompensation & Benefits:\n\n• Competitive compensation package, including equity.\n\n• Inclusive Healthcare Package.\n\n• Learn and Grow - we provide mentorship and send you to events that help you build your network and skills.\n\n• Flexible Time Off.\n\n• We will provide you the gear you need to do your role, and a WFH budget for you to outfit your space as needed.\n\nThe San Francisco, CA base pay range for this role is $120,000 - $140,000. Actual salary will be based on job-related skills, experience, and location. Compensation outside of San Francisco may be adjusted based on employee location. The total compensation package may include benefits, equity-based compensation, and eligibility for a company bonus or variable pay program depending on the role. Your recruiter can share more details during the hiring process.\n\nDisclosures:\n\n• Privacy: Please review our Job Applicant Privacy Policy for more information on how we handle your data.\n\n• Equal Opportunity: Vercel is committed to fostering and empowering an inclusive community within our organization. We do not discriminate on the basis of race, religion, color, gender expression or identity, sexual orientation, national origin, citizenship, age, marital status, veteran status, disability status, or any other characteristic protected by law. Vercel encourages everyone to apply for our available positions, even if they don't necessarily check every box on the job description.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

@@ -1,0 +1,1043 @@
+{
+  "posting_id": "cbb765df78854fb8",
+  "company": "AngelList",
+  "slug": "angellist",
+  "domain": "angellist.com",
+  "title": "Staff Accountant, AP & Procurement",
+  "role_family": "AP",
+  "seniority": "mid",
+  "n": 20,
+  "C": 5,
+  "A": 4,
+  "covered_share": 0.25,
+  "overlap": 0.45,
+  "weighted_overlap": 0.35,
+  "thin": false,
+  "salary_min": 100000,
+  "salary_max": null,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 12500,
+  "savings_reason": null,
+  "lead_product": "GL accounting",
+  "product_split": {
+    "Procure-to-pay": {
+      "covered": 2,
+      "assisted": 1,
+      "weighted": 2.5
+    },
+    "GL accounting": {
+      "covered": 3,
+      "assisted": 3,
+      "weighted": 4.5
+    }
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Ramp"
+  ],
+  "posted_at": "2026-09-14T17:36:50.069Z",
+  "source_url": "https://jobs.lever.co/angellist/ff3f8844-102e-4f88-936c-267454d97409",
+  "locations": [
+    "San Francisco, CA",
+    "New York City, NY"
+  ],
+  "remote": "unknown",
+  "excluded": null,
+  "text": "About AngelList\nPrivate markets are the new public markets. The most important companies of this era are private, and almost no one can own them. What's missing is the financial system public markets spent a century building: exchanges, custodians, brokers, and ways for ordinary people to buy in. Private markets, now $28T, never had the equivalent. AngelList is building it.\nThe last decade of structural innovation in venture happened here: syndicates, SPVs at scale, Rolling Funds, scout programs. Today we have $200B+ in assets and 30,000+ startups funded on our platform. The rest of private markets is next. Funds is the software and services behind private funds, Nova is the banking network, Meridian is the wealth platform for accredited investors, and USVC is the brand behind a registered fund that lets anyone invest in venture.\nWorking here means an unusual amount of agency on a problem that matters. Titles are closer to suggestions, and there are about 200 of us building what private markets never had. Come build it with us.\n \n\n\nAbout the Role:\nAngelList runs on dozens of legal entities, and every one of them needs its own clean books — which means every invoice, PO, and payment run has to land in the right entity, coded correctly, the first time.\nAs our Staff Accountant for AP & Procurement, you'll own the procure-to-pay process end to end across this environment: applying accounting judgment to invoices, managing vendors and POs, running payment cycles across subsidiaries, and supporting month-end close.\nThis isn’t a role for someone who wants to simply process invoices. You’ll be expected to understand the accounting behind the transactions, make decisions independently, and improve the systems you inherit. As volume grows, you’ll use automation to build a procure-to-pay process that scales without sacrificing accuracy or control.\n\n\nResponsibilities:\n• Own AP, code invoices with judgment. Classify expenses correctly, capitalize fixed assets, amortize prepaids, and apply accrual thresholds across every entity. Drive the annual 1099 process.\n\n• Run procurement end to end. Manage purchase orders, vendor onboarding, and ongoing process improvements.\n\n• Automate for scale. Improve how Ramp and NetSuite work together and use automation to reduce manual coding, matching, and reconciliation without weakening controls.\n\n• Support month-end close. Own AP-related intercompany activity, consolidation-related AP tasks, and audit-ready schedules and documentation.\n\nWhat we're looking for:\n• 3+ years of accounting experience with meaningful ownership of accounts payable at volume. You’ve done more than just route invoices - you’ve made and defended the accounting decisions behind them without a manager in the room.\n\n• Debits and credits are instinct, not a lookup, and you’re comfortable making calls involving expense classification, prepaids, accruals, and fixed assets.\n\n• Hands-on NetSuite and Ramp (or a comparable platform) experience, ideally in a multi-subsidiary environment.\n\n• A track record of improving the process you inherit. You’ve used automation to eliminate manual work and can explain what you changed and what improved.\n\n• You can walk a controller through a coding call and a non-finance teammate through a rejected expense in the same day.\n\n• High attention to detail and low tolerance for unintentional risk. You catch what’s off before it becomes a close problem.\n\nWorking Here\nIf you don’t meet every requirement above, we still encourage you to apply. We value complementary strengths and operators who learn by doing.\nCompensation:The compensation for this role consists of a competitive base salary, benefits, and equity package. The base salary for this role is $100,000+ annually but actual will vary based on a number of factors including a candidate’s professional background, experience, and location. Full details about our Total Rewards package will be provided during the recruitment process.\nBenefits:We support your life both in and outside of work.\nExplore our benefits\nLearn about Funders & Founders\nWhat Guides Us:At AngelList, we are united in our purpose to accelerate innovation and build the future of private markets. Our beliefs and values shape what we work on and how we create impact. If the below resonate, we'd love to have you with us.\nOur beliefs\nOur values & leadership expectations\nAngelList is an equal opportunity employer and we value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.\n",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 100000,
+    "max": null,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The base salary for this role is $100,000+ annually but actual will vary based on a number of factors including a candidate’s professional background, experience, and location."
+  },
+  "complexity": {
+    "multi_entity": true,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": true,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "dozens of legal entities",
+    "every invoice, PO, and payment run has to land in the right entity, coded correctly, the first time",
+    "As volume grows",
+    "manual coding, matching, and reconciliation"
+  ],
+  "fetched_at": "2026-10-21T17:34:52.590Z",
+  "ats": "lever",
+  "duties": [
+    {
+      "duty_id": "cbb765df78854fb8-01",
+      "text": "Own AP",
+      "source_span": "Own AP",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1891,
+        "end": 1897
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.83,
+      "rationale": "Owning AP is function management rather than a single automatable transaction, so it falls on people.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "cbb765df78854fb8-02",
+      "text": "Code invoices with judgment",
+      "source_span": "code invoices with judgment",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1899,
+        "end": 1926
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "p2p.bill_capture",
+      "capability": "Read and code vendor bills to GL, class and entity",
+      "product": "Procure-to-pay",
+      "confidence": 0.89,
+      "rationale": "Coding vendor invoices is bill capture, but the added judgment means human review is still needed.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-03",
+      "text": "Classify expenses correctly",
+      "source_span": "Classify expenses correctly",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1928,
+        "end": 1955
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.allocations",
+      "capability": "Split bills across departments or classes",
+      "product": "Procure-to-pay",
+      "confidence": 0.86,
+      "rationale": "Classifying expenses to the right department or class matches bill allocation and coding.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-04",
+      "text": "Capitalize fixed assets",
+      "source_span": "capitalize fixed assets",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1957,
+        "end": 1980
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.subledgers",
+      "capability": "Prepaids, fixed assets, ASC 842 leases, R&D capitalisation",
+      "product": "GL accounting",
+      "confidence": 0.98,
+      "rationale": "Capitalizing fixed assets is part of fixed-asset subledger accounting.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-05",
+      "text": "Amortize prepaids",
+      "source_span": "amortize prepaids",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1982,
+        "end": 1999
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.subledgers",
+      "capability": "Prepaids, fixed assets, ASC 842 leases, R&D capitalisation",
+      "product": "GL accounting",
+      "confidence": 0.98,
+      "rationale": "Amortizing prepaids is a prepaid expense subledger task.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-06",
+      "text": "Apply accrual thresholds across every entity",
+      "source_span": "apply accrual thresholds across every entity",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2005,
+        "end": 2049
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.accruals",
+      "capability": "Estimate accruals from history, POs and budget",
+      "product": "GL accounting",
+      "confidence": 0.89,
+      "rationale": "Applying accrual thresholds uses the accrual estimation workflow, but entity-level judgment is still involved.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-07",
+      "text": "Drive the annual 1099 process",
+      "source_span": "Drive the annual 1099 process.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2051,
+        "end": 2081
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "The annual 1099 process is a rules-based AP/tax workflow that is not covered by the map.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "cbb765df78854fb8-08",
+      "text": "Run procurement end to end",
+      "source_span": "Run procurement end to end.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2085,
+        "end": 2112
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.77,
+      "rationale": "Running procurement end to end includes broader ownership and judgment beyond the listed automations.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "cbb765df78854fb8-09",
+      "text": "Manage purchase orders",
+      "source_span": "Manage purchase orders",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2113,
+        "end": 2135
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.82,
+      "rationale": "Managing purchase orders is an operational procurement task that has no direct capability match here.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "cbb765df78854fb8-10",
+      "text": "Manage vendor onboarding",
+      "source_span": "vendor onboarding",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2137,
+        "end": 2154
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.vendor_followup",
+      "capability": "Chase vendors for missing invoices or details",
+      "product": "Procure-to-pay",
+      "confidence": 0.81,
+      "rationale": "Vendor onboarding aligns with maintaining vendor master data and collecting W-9s and setup details.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-11",
+      "text": "Manage ongoing process improvements",
+      "source_span": "ongoing process improvements",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2160,
+        "end": 2188
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Managing ongoing process improvements is too vague to map to a specific finance operation.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "cbb765df78854fb8-12",
+      "text": "Improve how Ramp and NetSuite work together",
+      "source_span": "Improve how Ramp and NetSuite work together",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2213,
+        "end": 2256
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Improving how Ramp and NetSuite work together is a systems project rather than a listed finance workflow.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "cbb765df78854fb8-13",
+      "text": "Use automation to reduce manual coding",
+      "source_span": "use automation to reduce manual coding",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2261,
+        "end": 2299
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.91,
+      "rationale": "Using automation to reduce manual coding is a process-improvement goal, not a specific finance operation.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "cbb765df78854fb8-14",
+      "text": "Use automation to reduce matching",
+      "source_span": "matching",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2301,
+        "end": 2309
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Using automation to reduce matching describes an improvement effort rather than the matching workflow itself.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "cbb765df78854fb8-15",
+      "text": "Use automation to reduce reconciliation without weakening controls",
+      "source_span": "reconciliation without weakening controls",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2315,
+        "end": 2356
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.89,
+      "rationale": "Reducing reconciliation through automation is a project goal, not the reconciliation task itself.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "cbb765df78854fb8-16",
+      "text": "Support month-end close",
+      "source_span": "Support month-end close.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2361,
+        "end": 2385
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Supporting month-end close is too broad to map to one specific close workflow.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "cbb765df78854fb8-17",
+      "text": "Own AP-related intercompany activity",
+      "source_span": "Own AP-related intercompany activity",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2386,
+        "end": 2422
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.intercompany",
+      "capability": "Intercompany recs, eliminations and allocations",
+      "product": "GL accounting",
+      "confidence": 0.84,
+      "rationale": "AP-related intercompany activity fits intercompany transactions, settlements, and eliminations.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-18",
+      "text": "Own consolidation-related AP tasks",
+      "source_span": "consolidation-related AP tasks",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2424,
+        "end": 2454
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.82,
+      "rationale": "Consolidation-related AP tasks are too vague to tie to one reporting capability.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "cbb765df78854fb8-19",
+      "text": "Prepare audit-ready schedules",
+      "source_span": "audit-ready schedules",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2460,
+        "end": 2481
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.96,
+      "rationale": "Preparing audit-ready schedules matches audit support and PBC-style documentation.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-20",
+      "text": "Prepare audit-ready documentation",
+      "source_span": "documentation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2486,
+        "end": 2499
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.96,
+      "rationale": "Preparing audit-ready documentation is audit support work, but it still feeds auditor review.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-21",
+      "text": "3+ years of accounting experience",
+      "source_span": "3+ years of accounting experience",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2528,
+        "end": 2561
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-22",
+      "text": "Meaningful ownership of accounts payable at volume",
+      "source_span": "meaningful ownership of accounts payable at volume",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2567,
+        "end": 2617
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-23",
+      "text": "Make and defend accounting decisions without a manager in the room",
+      "source_span": "you’ve made and defended the accounting decisions behind them without a manager in the room",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2663,
+        "end": 2754
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-24",
+      "text": "Treat debits and credits as instinct",
+      "source_span": "Debits and credits are instinct, not a lookup",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2759,
+        "end": 2804
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-25",
+      "text": "Make calls involving expense classification",
+      "source_span": "expense classification",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2852,
+        "end": 2874
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-26",
+      "text": "Make calls involving prepaids",
+      "source_span": "prepaids",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1991,
+        "end": 1999
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-27",
+      "text": "Make calls involving accruals",
+      "source_span": "accruals",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2886,
+        "end": 2894
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-28",
+      "text": "Make calls involving fixed assets",
+      "source_span": "fixed assets",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1968,
+        "end": 1980
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-29",
+      "text": "Hands-on NetSuite and Ramp experience",
+      "source_span": "Hands-on NetSuite and Ramp (or a comparable platform) experience, ideally in a multi-subsidiary environment.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2917,
+        "end": 3025
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-30",
+      "text": "Experience in a multi-subsidiary environment",
+      "source_span": "multi-subsidiary environment",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2996,
+        "end": 3024
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-31",
+      "text": "Improve the process you inherit",
+      "source_span": "A track record of improving the process you inherit.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3029,
+        "end": 3081
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-32",
+      "text": "Use automation to eliminate manual work",
+      "source_span": "You’ve used automation to eliminate manual work",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3082,
+        "end": 3129
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-33",
+      "text": "Explain what you changed and what improved",
+      "source_span": "can explain what you changed and what improved",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3134,
+        "end": 3180
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-34",
+      "text": "Walk a controller through a coding call",
+      "source_span": "You can walk a controller through a coding call",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3185,
+        "end": 3232
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-35",
+      "text": "Walk a non-finance teammate through a rejected expense in the same day",
+      "source_span": "and a non-finance teammate through a rejected expense in the same day",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3233,
+        "end": 3302
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-36",
+      "text": "High attention to detail",
+      "source_span": "High attention to detail",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3307,
+        "end": 3331
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-37",
+      "text": "Low tolerance for unintentional risk",
+      "source_span": "low tolerance for unintentional risk",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3336,
+        "end": 3372
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-38",
+      "text": "Private markets are the new public markets.",
+      "source_span": "Private markets are the new public markets.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 16,
+        "end": 59
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-39",
+      "text": "Working here means an unusual amount of agency on a problem that matters.",
+      "source_span": "Working here means an unusual amount of agency on a problem that matters.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 842,
+        "end": 915
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-40",
+      "text": "Titles are closer to suggestions, and there are about 200 of us building what private markets never had.",
+      "source_span": "Titles are closer to suggestions, and there are about 200 of us building what private markets never had.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 916,
+        "end": 1020
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-41",
+      "text": "If you don’t meet every requirement above, we still encourage you to apply.",
+      "source_span": "If you don’t meet every requirement above, we still encourage you to apply.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3444,
+        "end": 3519
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-42",
+      "text": "We support your life both in and outside of work.",
+      "source_span": "We support your life both in and outside of work.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3980,
+        "end": 4029
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-43",
+      "text": "AngelList is an equal opportunity employer and we value diversity at our company.",
+      "source_span": "AngelList is an equal opportunity employer and we value diversity at our company.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4380,
+        "end": 4461
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-44",
+      "text": "We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.",
+      "source_span": "We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4462,
+        "end": 4627
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

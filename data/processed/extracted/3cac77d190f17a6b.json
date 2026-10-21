@@ -1,0 +1,487 @@
+{
+  "posting_id": "3cac77d190f17a6b",
+  "company": "Snorkel AI",
+  "domain": "snorkel.ai",
+  "title": "Corporate FP&A Manager",
+  "role_family": "Reporting_FPA",
+  "seniority": "manager",
+  "locations": [
+    "San Francisco, CA (Hybrid)",
+    "San Francisco"
+  ],
+  "remote": "hybrid",
+  "salary": {
+    "min": 125000,
+    "max": 180000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Salary range(s) for this role\n\n$125,000—$180,000 USD"
+  },
+  "erp": [],
+  "tools": [
+    "Ramp",
+    "Pigment",
+    "Anaplan",
+    "Excel",
+    "Google Sheets"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "duties": [
+    {
+      "duty_id": "3cac77d190f17a6b-01",
+      "text": "Lead annual department budgets",
+      "source_span": "Lead annual department budgets",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-02",
+      "text": "Lead rolling forecasts for headcount and non-headcount expenses",
+      "source_span": "rolling forecasts for headcount and non-headcount expenses",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-03",
+      "text": "Align spending with company growth and profitability targets",
+      "source_span": "aligning spending with company growth and profitability targets",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-04",
+      "text": "Own the headcount model with People and Recruiting",
+      "source_span": "Own the headcount",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-05",
+      "text": "Own the personnel cost model with People and Recruiting",
+      "source_span": "personnel cost model with People and Recruiting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-06",
+      "text": "Reflect hiring plans",
+      "source_span": "reflecting hiring plans",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-07",
+      "text": "Reflect attrition",
+      "source_span": "attrition",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-08",
+      "text": "Reflect compensation and benefits",
+      "source_span": "compensation and benefits",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-09",
+      "text": "Partner with department leaders on hiring decisions",
+      "source_span": "Partner with department leaders on hiring decisions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-10",
+      "text": "Partner with department leaders on investment decisions",
+      "source_span": "Partner with department leaders on investment decisions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-11",
+      "text": "Identify cost savings",
+      "source_span": "identifying cost savings",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-12",
+      "text": "Evaluate tradeoffs in growth, capacity and profitability",
+      "source_span": "evaluating tradeoffs in growth, capacity and profitability",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-13",
+      "text": "Partner with Accounting on month-end close, including expense accruals",
+      "source_span": "Partner with Accounting on month-end close, including expense accruals",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-14",
+      "text": "Lead headcount and OpEx variance analysis against budget and forecast",
+      "source_span": "lead headcount and OpEx variance analysis against budget and forecast",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-15",
+      "text": "Own SaaS spend tracking",
+      "source_span": "Own SaaS",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-16",
+      "text": "Own vendor spend tracking",
+      "source_span": "vendor spend tracking",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-17",
+      "text": "Own the purchase order system",
+      "source_span": "the purchase order system",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-18",
+      "text": "Own procurement approvals",
+      "source_span": "procurement approvals",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-19",
+      "text": "Work with Legal, IT and Accounting on purchases",
+      "source_span": "working with Legal, IT and Accounting on purchases",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-20",
+      "text": "Work with Legal, IT and Accounting on renewals",
+      "source_span": "renewals",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-21",
+      "text": "Manage Ramp",
+      "source_span": "Own and manage Ramp",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-22",
+      "text": "Manage spend programs",
+      "source_span": "spend programs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-23",
+      "text": "Manage company cards",
+      "source_span": "company cards",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-24",
+      "text": "Manage approval workflows",
+      "source_span": "approval workflows",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-25",
+      "text": "Manage expense policies",
+      "source_span": "expense policies",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-26",
+      "text": "Implement planning tools such as Pigment or Anaplan",
+      "source_span": "Implement and administer planning tools such as Pigment or Anaplan",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-27",
+      "text": "Administer planning tools such as Pigment or Anaplan",
+      "source_span": "Implement and administer planning tools such as Pigment or Anaplan",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-28",
+      "text": "Improve data integrations",
+      "source_span": "improve data integrations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-29",
+      "text": "Improve reporting processes",
+      "source_span": "reporting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-30",
+      "text": "Improve planning processes",
+      "source_span": "planning processes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-31",
+      "text": "Partner with the Senior FP&A Manager to prepare consolidated financial reporting",
+      "source_span": "Partner with the Senior FP&A Manager to prepare consolidated financial reporting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-32",
+      "text": "Provide clear commentary on spending trends and outlook for executive reviews and board materials",
+      "source_span": "with clear commentary on spending trends and outlook for executive reviews and board materials",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-33",
+      "text": "5+ years of FP&A or business finance experience",
+      "source_span": "5+ years of FP&A or business finance experience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-34",
+      "text": "Direct ownership of headcount planning in a growing technology company",
+      "source_span": "direct ownership of headcount and operating expense planning in a growing technology company",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-35",
+      "text": "Direct ownership of operating expense planning in a growing technology company",
+      "source_span": "direct ownership of headcount and operating expense planning in a growing technology company",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-36",
+      "text": "Advanced Excel skills",
+      "source_span": "Advanced Excel",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-37",
+      "text": "Advanced Google Sheets skills",
+      "source_span": "Google Sheets",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-38",
+      "text": "Experience building models that connect hiring, vendor commitments and operating drivers to financial forecasts",
+      "source_span": "experience building models that connect hiring, vendor commitments and operating drivers to financial forecasts",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-39",
+      "text": "Hands-on experience managing Ramp",
+      "source_span": "Hands-on experience managing Ramp",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-40",
+      "text": "Experience implementing and administering planning systems such as Pigment, Anaplan or similar platforms",
+      "source_span": "Experience implementing and administering planning systems such as Pigment, Anaplan or similar platforms",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-41",
+      "text": "Experience with financial model design",
+      "source_span": "including financial model design",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-42",
+      "text": "Experience with data integrations",
+      "source_span": "data integrations",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-43",
+      "text": "Strong understanding of expense accruals",
+      "source_span": "Strong understanding of expense accruals",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-44",
+      "text": "Strong understanding of cost allocation",
+      "source_span": "cost allocation",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-45",
+      "text": "Strong understanding of financial statements",
+      "source_span": "financial statements",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-46",
+      "text": "Record of partnering effectively with Accounting",
+      "source_span": "with a record of partnering effectively with Accounting",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-47",
+      "text": "Ability to build relationships with department leaders",
+      "source_span": "Ability to build relationships with department leaders",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-48",
+      "text": "Ability to explain financial tradeoffs clearly",
+      "source_span": "explain financial tradeoffs clearly",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-49",
+      "text": "Ability to turn analysis into recommendations",
+      "source_span": "turn analysis into recommendations",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-50",
+      "text": "Strong attention to detail",
+      "source_span": "Strong attention to detail",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-51",
+      "text": "Ability to establish practical processes",
+      "source_span": "the ability to establish practical processes",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-52",
+      "text": "Improve data quality",
+      "source_span": "improve data quality",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-53",
+      "text": "Follow through across multiple workstreams",
+      "source_span": "follow through across multiple workstreams",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-54",
+      "text": "Experience with SaaS or AI businesses is a plus",
+      "source_span": "Experience with SaaS or AI businesses",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-55",
+      "text": "Experience with IT, cloud or inference costs is a plus",
+      "source_span": "IT, cloud or inference costs",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-56",
+      "text": "Experience with contractor or services delivery economics is a plus",
+      "source_span": "contractor or services delivery economics",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-57",
+      "text": "Apply to be the newest Snorkeler!",
+      "source_span": "Apply to be the newest Snorkeler!",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-58",
+      "text": "About Snorkel",
+      "source_span": "About Snorkel",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-59",
+      "text": "Excited to help us redefine how AI is built?",
+      "source_span": "Excited to help us redefine how AI is built?",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-60",
+      "text": "Actual compensation will be determined based on factors including skills, qualifications, experience, and geographic location.",
+      "source_span": "Actual compensation will be determined based on factors including skills, qualifications, experience, and geographic location.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-61",
+      "text": "Be Your Best at Snorkel",
+      "source_span": "Be Your Best at Snorkel",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-62",
+      "text": "Snorkel AI is proud to be an Equal Employment Opportunity employer and is committed to building a team that represents a variety of backgrounds, perspectives, and skills.",
+      "source_span": "Snorkel AI is proud to be an Equal Employment Opportunity employer and is committed to building a team that represents a variety of backgrounds, perspectives, and skills.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-63",
+      "text": "We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment.",
+      "source_span": "We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    }
+  ],
+  "posted_at": "2026-10-07T17:04:01-04:00",
+  "source_url": "https://job-boards.greenhouse.io/snorkelai/jobs/6219987004",
+  "fetched_at": "2026-10-21T17:34:17.495Z",
+  "prompt_version": "extract-v1",
+  "text": "About Snorkel\n\nSnorkel AI is the frontier AI data lab, helping teams build the data and environments behind high-performing frontier and agentic AI. We combine technology with research-driven AI data development to create datasets, benchmarks, evals, and custom solutions for real-world AI systems. Founded out of the Stanford AI Lab in 2019, Snorkel works with leading AI labs and enterprises to move from better data to better outcomes.\n\nExcited to help us redefine how AI is built? Apply to be the newest Snorkeler!\n\nThe Role\n\nThe Corporate FP&A Manager will own headcount and operating expense planning across Snorkel and serve as the finance partner to department leaders. You will turn hiring and spending plans into reliable forecasts, help teams make investment decisions and build better cost visibility. You will also manage Ramp and procurement workflows and implement planning tools as the business grows.\n\nKey Responsibilities\n\n• Lead annual department budgets and rolling forecasts for headcount and non-headcount expenses, aligning spending with company growth and profitability targets.\n\n• Own the headcount and personnel cost model with People and Recruiting, reflecting hiring plans, attrition, compensation and benefits.\n\n• Partner with department leaders on hiring and investment decisions, identifying cost savings and evaluating tradeoffs in growth, capacity and profitability.\n\n• Partner with Accounting on month-end close, including expense accruals, and lead headcount and OpEx variance analysis against budget and forecast.\n\n• Own SaaS and vendor spend tracking, the purchase order system and procurement approvals, working with Legal, IT and Accounting on purchases and renewals.\n\n• Own and manage Ramp, including spend programs, company cards, approval workflows and expense policies, in partnership with Accounting.\n\n• Implement and administer planning tools such as Pigment or Anaplan and improve data integrations, reporting and planning processes.\n\n• Partner with the Senior FP&A Manager to prepare consolidated financial reporting, with clear commentary on spending trends and outlook for executive reviews and board materials.\n\nAbout You\n\n• 5+ years of FP&A or business finance experience, including direct ownership of headcount and operating expense planning in a growing technology company.\n\n• Advanced Excel and Google Sheets skills and experience building models that connect hiring, vendor commitments and operating drivers to financial forecasts.\n\n• Hands-on experience managing Ramp, including spend approvals, expense controls and reporting.\n\n• Experience implementing and administering planning systems such as Pigment, Anaplan or similar platforms, including financial model design and data integrations.\n\n• Strong understanding of expense accruals, cost allocation and financial statements, with a record of partnering effectively with Accounting.\n\n• Ability to build relationships with department leaders, explain financial tradeoffs clearly and turn analysis into recommendations.\n\n• Strong attention to detail and the ability to establish practical processes, improve data quality and follow through across multiple workstreams.\n\nExperience with SaaS or AI businesses, IT, cloud or inference costs, and contractor or services delivery economics is a plus.\n\nWhy This Role\n\nThis role is an opportunity to build the cost planning and spend management foundation of a growing AI company. You will help leaders make better hiring and investment decisions and translate operational improvements into stronger financial performance.\n\nActual compensation will be determined based on factors including skills, qualifications, experience, and geographic location.\n\nSalary range(s) for this role\n\n$125,000—$180,000 USD\n\nBe Your Best at Snorkel\n\nJoining Snorkel AI means becoming part of a company that has market proven solutions, robust funding, and is scaling rapidly—offering a unique combination of stability and the excitement of high growth. As a member of our team, you’ll have meaningful opportunities to shape priorities and initiatives, influence key strategic decisions, and directly impact our ongoing success. Whether you’re looking to deepen your technical expertise, explore leadership opportunities, or learn new skills across multiple functions, you’re fully supported in building your career in an environment designed for growth, learning, and shared success.\n\nSnorkel AI is proud to be an Equal Employment Opportunity employer and is committed to building a team that represents a variety of backgrounds, perspectives, and skills. Snorkel AI embraces diversity and provides equal employment opportunities to all employees and applicants for employment. Snorkel AI prohibits discrimination and harassment of any type on the basis of race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local law. All employment is decided on the basis of qualifications, performance, merit, and business need.\n\nWe will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request accommodation.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

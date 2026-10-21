@@ -1,0 +1,621 @@
+{
+  "posting_id": "ea10b52c192efe2d",
+  "company": "Acorns",
+  "slug": "acorns",
+  "domain": "acorns.com",
+  "title": "Finance Analyst",
+  "role_family": "Reporting_FPA",
+  "seniority": "mid",
+  "n": 11,
+  "C": 0,
+  "A": 2,
+  "covered_share": 0,
+  "overlap": 0.18181818181818182,
+  "weighted_overlap": 0.09090909090909091,
+  "thin": false,
+  "salary_min": 94000,
+  "salary_max": 108000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 0,
+  "savings_reason": null,
+  "lead_product": "Reporting",
+  "product_split": {
+    "Reporting": {
+      "covered": 0,
+      "assisted": 2,
+      "weighted": 1
+    }
+  },
+  "erp": [],
+  "tools": [],
+  "posted_at": "2026-09-16T16:35:44.824+00:00",
+  "source_url": "https://jobs.ashbyhq.com/acorns/91e69836-7a14-421a-a8ec-d3bb85336be4",
+  "locations": [
+    "Remote"
+  ],
+  "remote": "remote",
+  "excluded": null,
+  "text": "Acorns is seeking an ambitious Finance Analyst to enable, inform, and improve strategic and financial decision-making across the company. This role will work directly with senior leadership across Finance, as well as teams throughout the organization, including product, engineering, marketing, legal, and operations.\n\n\n\nAcorns is a remote-first organization, offering the flexibility to work remotely while providing optional access to office space in Irvine, CA.\n\n\n\n\nWHAT YOU WILL DO AT ACORNS:\n\n - Introduce yourself to the organization and develop a deep understanding of the product, business model, and financial outlook.\n\n - Equip product managers and department leaders with monthly insights on business trends.\n\n - Support short- and long-term financial plans, assist in financial reporting and KPI variance analysis, and help drive key strategic initiatives.\n\n - Develop, maintain, and enhance corporate financial models, including annual budgets, forecasts, and consolidated cash flows.\n\n - Build KPI frameworks, analyze product line performance, and support high-impact decisions including go-to-market strategy, partnership negotiations, and potential M&A.\n\n - Create clear presentations to articulate findings to key stakeholders.\n\n\n\n\nWHAT YOU WILL BRING TO ACORNS:\n\n - Bachelor’s Degree in Accounting, Economics, Finance, Business, or another quantitative field.\n\n - 1+ years of relevant industry experience with financial modeling (e.g., investment banking, private equity, corporate finance)\n\n - Highly analytical mindset with the ability to execute complex financial modeling, analyze raw data, and draw clear conclusions.\n\n - High degree of organization, efficiency, and exceptional attention to detail.\n\n - Strong written and verbal communication skills with the ability to collaborate effectively across cross-functional teams.\n\n - A team-player mindset with a desire to roll up your sleeves and be hands-on in an entrepreneurial, fast-paced environment.\n\n - Strong sense of ownership, pride in work, and the ability to self-start.\n\n - Highest ethical standards, integrity, authenticity, credibility, and character.\n\n - Hunger to deliver game-changing products.\n\n - Exceptional drive and precision in delivery.\n\n - A belief that your work is tied to your life's mission.\n\n - Optimistic about the potential of societal change.\n\n - A strong passion for the Acorns’ mission.\n\nYou are not expected to have experience with all listed requirements. If you feel passionate about Acorns' mission, vision, and values, please apply.\n\n\n\n\nWHAT WE OFFER:\n\n - Competitive salary and stock options.\n\n - A comprehensive benefits package for you and your family.\n\n - Flexible work location, hours, and paid time off.\n\n - 401(k) matching.\n\n - Monthly Acorns account contribution & GoHenry account for your family.\n\n - Mindfulness and Financial Wellness resources, including Headspace and Addition Wealth.\n\n - Acorns Career Development Program (ongoing training sessions, development plans, development check-ins, and Cornerstone’s online training platform).\n\n - Roots Leadership Program for Emerging Leaders.\n\n - Community week onsite gatherings and various virtual events.\n\n - Talented and motivated team members who care deeply about one another, our mission, and our customers.\n\n - The rare opportunity to create a new world. We inspire one another every day to do meaningful work that solves big societal challenges.\n\n\n\n\nABOUT ACORNS:\n\nAcorns is the financial wellness company helping everyday Americans grow their money for the long term. Since 2014, Acorns has grown into a global company with multiple life stage products serving the needs of kids, teens, adults, and parents. Named one of America's Best Financial Services of 2026 by TIME, Acorns has served over 16 million people and helped customers save & invest over $33 billion dollars, much of it from spare change and small amounts.\n\n\n\n\nCOMPENSATION INFORMATION:\n\nThe pay range for this position at commencement of employment is expected to be between $94,000-$108,000; however, base pay offered may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience. The total compensation package for this position may also include other elements, including equity grants and discretionary cash bonus awards in addition to a full range of medical, financial, and/or other benefits (including 401(k) eligibility and various paid time off benefits, such as vacation, sick time, and parental leave), dependent on the position offered. Details of participation in these benefit plans will be provided if an employee receives an offer of employment.\n\n\n\nIf hired, the employee will be in an “at-will position” and the Company reserves the right to modify base salary (as well as any other discretionary payment or compensation program) at any time, including for reasons related to individual performance, Company or individual department/team performance, and market factors.\n\n\n\n\nWORK AUTHORIZATION:\n\nAcorns participates in E-Verify to confirm the employment eligibility of all newly hired employees. For more information about E-Verify, please visit www.e-verify.gov http://www.e-verify.gov",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 94000,
+    "max": 108000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The pay range for this position at commencement of employment is expected to be between $94,000-$108,000; however, base pay offered may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience."
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "fetched_at": "2026-10-21T17:34:43.441Z",
+  "ats": "ashby",
+  "duties": [
+    {
+      "duty_id": "ea10b52c192efe2d-01",
+      "text": "Introduce yourself to the organization",
+      "source_span": "Introduce yourself to the organization",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 501,
+        "end": 539
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "The duty is a general introduction task and does not describe a finance-operations action that maps to any capability.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-02",
+      "text": "Develop a deep understanding of the product, business model, and financial outlook.",
+      "source_span": "develop a deep understanding of the product, business model, and financial outlook.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 544,
+        "end": 627
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.86,
+      "rationale": "The duty is about learning the business and outlook, which is too broad and not a specific automatable finance action.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-03",
+      "text": "Equip product managers and department leaders with monthly insights on business trends.",
+      "source_span": "Equip product managers and department leaders with monthly insights on business trends.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 632,
+        "end": 719
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "The action is equipping product managers and leaders with insights, which is stakeholder partnering/advising work.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-04",
+      "text": "Support short- and long-term financial plans",
+      "source_span": "Support short- and long-term financial plans",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 724,
+        "end": 768
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "The duty is financial planning work, including short- and long-term plans, which is FP&A modeling not covered by the map.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-05",
+      "text": "Assist in financial reporting and KPI variance analysis",
+      "source_span": "assist in financial reporting and KPI variance analysis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 770,
+        "end": 825
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.84,
+      "rationale": "The duty is financial reporting and KPI variance analysis, which fits management reporting and variance work with some human interpretation.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-06",
+      "text": "Help drive key strategic initiatives.",
+      "source_span": "help drive key strategic initiatives.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 831,
+        "end": 868
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.83,
+      "rationale": "The duty is a vague strategic-support statement and does not specify a concrete finance operation.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-07",
+      "text": "Develop, maintain, and enhance corporate financial models, including annual budgets, forecasts, and consolidated cash flows.",
+      "source_span": "Develop, maintain, and enhance corporate financial models, including annual budgets, forecasts, and consolidated cash flows.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 873,
+        "end": 997
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "The duty is building budgets, forecasts, and cash flow models, which is FP&A modeling that has no direct coverage here.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-08",
+      "text": "Build KPI frameworks",
+      "source_span": "Build KPI frameworks",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1002,
+        "end": 1022
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.8,
+      "rationale": "The duty is designing KPI frameworks, which is planning/analytics framework work not covered by any listed capability.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-09",
+      "text": "Analyze product line performance",
+      "source_span": "analyze product line performance",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1024,
+        "end": 1056
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.driver_analysis",
+      "capability": "Explain changes using CRM, contract or bill data",
+      "product": "Reporting",
+      "confidence": 0.78,
+      "rationale": "The duty is analyzing product line performance, which matches source-data-driven performance analysis.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-10",
+      "text": "Support high-impact decisions including go-to-market strategy, partnership negotiations, and potential M&A.",
+      "source_span": "support high-impact decisions including go-to-market strategy, partnership negotiations, and potential M&A.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1062,
+        "end": 1169
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "The duty involves strategic decisions, partnership negotiations, and M&A, which are inherently human judgment and negotiation work.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-11",
+      "text": "Create clear presentations to articulate findings to key stakeholders.",
+      "source_span": "Create clear presentations to articulate findings to key stakeholders.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1174,
+        "end": 1244
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "The duty is creating presentations to articulate findings to stakeholders, which is presenting results to others and therefore human work.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-12",
+      "text": "Bachelor’s Degree in Accounting, Economics, Finance, Business, or another quantitative field.",
+      "source_span": "Bachelor’s Degree in Accounting, Economics, Finance, Business, or another quantitative field.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1284,
+        "end": 1377
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-13",
+      "text": "1+ years of relevant industry experience with financial modeling (e.g., investment banking, private equity, corporate finance)",
+      "source_span": "1+ years of relevant industry experience with financial modeling (e.g., investment banking, private equity, corporate finance)",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1382,
+        "end": 1508
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-14",
+      "text": "Highly analytical mindset with the ability to execute complex financial modeling, analyze raw data, and draw clear conclusions.",
+      "source_span": "Highly analytical mindset with the ability to execute complex financial modeling, analyze raw data, and draw clear conclusions.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1513,
+        "end": 1640
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-15",
+      "text": "High degree of organization, efficiency, and exceptional attention to detail.",
+      "source_span": "High degree of organization, efficiency, and exceptional attention to detail.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1645,
+        "end": 1722
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-16",
+      "text": "Strong written and verbal communication skills with the ability to collaborate effectively across cross-functional teams.",
+      "source_span": "Strong written and verbal communication skills with the ability to collaborate effectively across cross-functional teams.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1727,
+        "end": 1848
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-17",
+      "text": "A team-player mindset with a desire to roll up your sleeves and be hands-on in an entrepreneurial, fast-paced environment.",
+      "source_span": "A team-player mindset with a desire to roll up your sleeves and be hands-on in an entrepreneurial, fast-paced environment.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1853,
+        "end": 1975
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-18",
+      "text": "Strong sense of ownership, pride in work, and the ability to self-start.",
+      "source_span": "Strong sense of ownership, pride in work, and the ability to self-start.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1980,
+        "end": 2052
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-19",
+      "text": "Highest ethical standards, integrity, authenticity, credibility, and character.",
+      "source_span": "Highest ethical standards, integrity, authenticity, credibility, and character.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2057,
+        "end": 2136
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-20",
+      "text": "Hunger to deliver game-changing products.",
+      "source_span": "Hunger to deliver game-changing products.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2141,
+        "end": 2182
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-21",
+      "text": "Exceptional drive and precision in delivery.",
+      "source_span": "Exceptional drive and precision in delivery.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2187,
+        "end": 2231
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-22",
+      "text": "A belief that your work is tied to your life's mission.",
+      "source_span": "A belief that your work is tied to your life's mission.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2236,
+        "end": 2291
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-23",
+      "text": "Optimistic about the potential of societal change.",
+      "source_span": "Optimistic about the potential of societal change.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2296,
+        "end": 2346
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-24",
+      "text": "A strong passion for the Acorns’ mission.",
+      "source_span": "A strong passion for the Acorns’ mission.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2351,
+        "end": 2392
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-25",
+      "text": "You are not expected to have experience with all listed requirements. If you feel passionate about Acorns' mission, vision, and values, please apply.",
+      "source_span": "You are not expected to have experience with all listed requirements. If you feel passionate about Acorns' mission, vision, and values, please apply.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 2394,
+        "end": 2543
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

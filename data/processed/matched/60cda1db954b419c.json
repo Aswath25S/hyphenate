@@ -1,0 +1,240 @@
+{
+  "posting_id": "60cda1db954b419c",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "60cda1db954b419c-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Building forecasting and budgeting models is FP&A planning work, which is not a covered capability here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Maintaining long-term planning and budgeting models is budgeting-model work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Scaling forecasting and planning models is model-development work outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-04",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.75,
+      "rationale": "Analyzing data trends to develop business insights fits driver analysis using source data, though it is broader than the core capability.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Delivering actionable recommendations to leadership is advisory work to decision-makers, which is a human responsibility.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-06",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Providing financial support on program health is too vague to map to a specific automated finance action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-07",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.71,
+      "rationale": "Providing financial support on spend trends matches analyzing and explaining spend drivers from source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Headcount planning is a workforce planning model task, which is not covered by the platform.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-09",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.73,
+      "rationale": "Developing recurring KPI reporting cadences aligns with building management reports, though cadence design adds some judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-10",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.8,
+      "rationale": "Developing dashboards to track KPIs fits building management reports and recurring performance reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-11",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.95,
+      "rationale": "Participating in month-end and quarter-end close is executing close checklist tasks end to end.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-12",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.97,
+      "rationale": "Performing variance analysis matches flux analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-13",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.96,
+      "rationale": "Preparing executive reporting matches building management reports and board-deck style financial packages.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Assisting with financial operational planning cycles is planning-model work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Assisting with business reviews is partnering with and presenting to other teams, which is human-facing work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Investment decision-making is a management judgment activity rather than an automated finance-operations task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Supporting data transformation initiatives is a vague project activity without a direct capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Supporting basic modeling efforts is model-building work, but budgeting and planning models are not covered capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-19",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Driving process improvement by identifying automation opportunities is too project-oriented and broad to map cleanly.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Monitoring material movement is operational tracking with no matching finance-operations capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Monitoring usage is too vague because it could refer to multiple different finance processes.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-22",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.7,
+      "rationale": "Monitoring cost trends matches analyzing and explaining spend or cost drivers from source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-23",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Monitoring actuals versus plan is budget-versus-actual planning analysis, which is explicitly outside the covered capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-24",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Flagging risks and opportunities is too generic to identify a specific automated finance action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Supporting EAC updates is project forecasting work with no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "60cda1db954b419c-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Ensuring financial alignment through operational reviews and ad hoc analysis is advisory work with other teams and leadership.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

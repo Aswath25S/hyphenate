@@ -1,238 +1,652 @@
 {
   "posting_id": "02a51009dde2c9ac",
-  "prompt_version": "hand-labelled",
+  "prompt_version": "match-v1",
   "labels": [
     {
-      "duty_id": "02a51009dde2c9ac-h01",
+      "duty_id": "02a51009dde2c9ac-07",
       "label": "covered",
       "capability_id": "p2p.vendor_followup",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.96,
+      "rationale": "Maintaining vendor records matches maintaining vendor master data and W-9s.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "02a51009dde2c9ac-h02",
+      "duty_id": "02a51009dde2c9ac-08",
+      "label": "covered",
+      "capability_id": "p2p.vendor_followup",
+      "confidence": 0.95,
+      "rationale": "New vendor setup is part of maintaining vendor master data and onboarding details.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-09",
+      "label": "covered",
+      "capability_id": "p2p.vendor_followup",
+      "confidence": 0.89,
+      "rationale": "Maintaining approved vendor changes is vendor master data upkeep.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-10",
+      "label": "covered",
+      "capability_id": "p2p.vendor_followup",
+      "confidence": 0.8,
+      "rationale": "Maintaining tax forms fits vendor master data and W-9 maintenance.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-11",
       "label": "gap_candidate",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.9,
+      "rationale": "Supporting 1099 reporting is repetitive AP tax work with no matching capability.",
       "model_label": "gap_candidate",
       "adjusted": null
     },
     {
-      "duty_id": "02a51009dde2c9ac-h03",
+      "duty_id": "02a51009dde2c9ac-12",
       "label": "covered",
       "capability_id": "p2p.bill_capture",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Processing vendor invoices in Tipalti is vendor bill capture and coding.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "02a51009dde2c9ac-h04",
+      "duty_id": "02a51009dde2c9ac-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Processing vendor credits is AP transaction processing not explicitly covered by a capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Checking that documentation is complete is an invoice validation task with no exact match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-15",
       "label": "covered",
       "capability_id": "p2p.bill_capture",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.93,
+      "rationale": "Checking appropriate coding matches coding vendor bills to the GL, class and entity.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "02a51009dde2c9ac-h05",
+      "duty_id": "02a51009dde2c9ac-16",
       "label": "covered",
       "capability_id": "p2p.approvals",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.94,
+      "rationale": "Checking required approvals is routing and verifying approvals by policy.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "02a51009dde2c9ac-h06",
+      "duty_id": "02a51009dde2c9ac-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Checking duplicate submissions is a rules-based invoice screening task with no explicit match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with other teams to obtain invoice reviews is cross-functional coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Obtaining timely approvals requires chasing people and coordinating with approvers.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Obtaining supporting information is partner-facing coordination work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-21",
       "label": "assisted",
       "capability_id": "p2p.payments",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Preparing payment batches matches preparing payment runs for approval.",
       "model_label": "assisted",
       "adjusted": null
     },
     {
-      "duty_id": "02a51009dde2c9ac-h07",
+      "duty_id": "02a51009dde2c9ac-22",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Preparing supporting documentation for review and approval is a generic AP support task with no direct capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-23",
       "label": "covered",
       "capability_id": "p2p.vendor_followup",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.96,
+      "rationale": "Responding to vendor inquiries matches vendor follow-up and communication.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "02a51009dde2c9ac-h08",
-      "label": "assisted",
-      "capability_id": "tre.exceptions",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "assisted",
+      "duty_id": "02a51009dde2c9ac-24",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Researching invoice discrepancies is exception handling not explicitly covered.",
+      "model_label": "gap_candidate",
       "adjusted": null
     },
     {
-      "duty_id": "02a51009dde2c9ac-h09",
+      "duty_id": "02a51009dde2c9ac-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Researching payment discrepancies is exception handling not explicitly covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-26",
       "label": "covered",
       "capability_id": "p2p.aging",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.82,
+      "rationale": "Following through on outstanding credits is open-item tracking until resolved.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "02a51009dde2c9ac-h10",
+      "duty_id": "02a51009dde2c9ac-27",
       "label": "covered",
       "capability_id": "p2p.aging",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.87,
+      "rationale": "Following through on outstanding balances matches tracking open payables until resolved.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "02a51009dde2c9ac-h11",
+      "duty_id": "02a51009dde2c9ac-28",
+      "label": "covered",
+      "capability_id": "p2p.aging",
+      "confidence": 0.98,
+      "rationale": "Preparing AP aging reports directly matches AP aging and open payable tracking.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-29",
+      "label": "covered",
+      "capability_id": "p2p.aging",
+      "confidence": 0.93,
+      "rationale": "Flagging overdue items is part of monitoring AP aging and open payables.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-30",
+      "label": "covered",
+      "capability_id": "p2p.approvals",
+      "confidence": 0.88,
+      "rationale": "Flagging missing approvals is part of the AP approval workflow.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-31",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Flagging other issues requiring follow-up is a generic exception task with no exact match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-32",
       "label": "covered",
       "capability_id": "p2p.vendor_followup",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.94,
+      "rationale": "Reconciling vendor statements is explicitly part of vendor follow-up.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "02a51009dde2c9ac-h12",
-      "label": "covered",
-      "capability_id": "p2p.aging",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "covered",
-      "adjusted": null
-    },
-    {
-      "duty_id": "02a51009dde2c9ac-h13",
-      "label": "covered",
-      "capability_id": "gl.close_checklist",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "covered",
-      "adjusted": null
-    },
-    {
-      "duty_id": "02a51009dde2c9ac-h14",
-      "label": "covered",
-      "capability_id": "gl.subledgers",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "covered",
-      "adjusted": null
-    },
-    {
-      "duty_id": "02a51009dde2c9ac-h15",
-      "label": "assisted",
-      "capability_id": "gl.accruals",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "assisted",
-      "adjusted": null
-    },
-    {
-      "duty_id": "02a51009dde2c9ac-h16",
-      "label": "assisted",
-      "capability_id": "gl.journal_entries",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "assisted",
-      "adjusted": null
-    },
-    {
-      "duty_id": "02a51009dde2c9ac-h17",
-      "label": "covered",
-      "capability_id": "p2p.bill_capture",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "covered",
-      "adjusted": null
-    },
-    {
-      "duty_id": "02a51009dde2c9ac-h18",
+      "duty_id": "02a51009dde2c9ac-33",
       "label": "covered",
       "capability_id": "gl.account_recs",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.94,
+      "rationale": "AP subledger-to-GL reconciliation is a balance-sheet account reconciliation.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "02a51009dde2c9ac-h19",
-      "label": "assisted",
-      "capability_id": "gl.audit_support",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "assisted",
-      "adjusted": null
-    },
-    {
-      "duty_id": "02a51009dde2c9ac-h20",
-      "label": "covered",
-      "capability_id": "gl.controls",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "covered",
-      "adjusted": null
-    },
-    {
-      "duty_id": "02a51009dde2c9ac-h21",
-      "label": "assisted",
-      "capability_id": "gl.audit_support",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "assisted",
-      "adjusted": null
-    },
-    {
-      "duty_id": "02a51009dde2c9ac-h22",
-      "label": "assisted",
-      "capability_id": "tre.exceptions",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "assisted",
-      "adjusted": null
-    },
-    {
-      "duty_id": "02a51009dde2c9ac-h23",
+      "duty_id": "02a51009dde2c9ac-34",
       "label": "human",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.75,
+      "rationale": "Escalating unresolved differences requires human judgment and handoff.",
       "model_label": "human",
       "adjusted": null
     },
     {
-      "duty_id": "02a51009dde2c9ac-h24",
-      "label": "human",
-      "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "human",
-      "adjusted": null
-    },
-    {
-      "duty_id": "02a51009dde2c9ac-h25",
+      "duty_id": "02a51009dde2c9ac-35",
       "label": "unclear",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.72,
+      "rationale": "Completing assigned transaction processing within deadlines is too generic to map cleanly.",
       "model_label": "unclear",
       "adjusted": null
     },
     {
-      "duty_id": "02a51009dde2c9ac-h26",
+      "duty_id": "02a51009dde2c9ac-36",
       "label": "unclear",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.72,
+      "rationale": "Completing close-support tasks within deadlines is too vague to judge.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-37",
+      "label": "covered",
+      "capability_id": "p2p.aging",
+      "confidence": 0.87,
+      "rationale": "Maintaining payables supporting schedules fits open payable tracking and aging support.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-38",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.96,
+      "rationale": "Maintaining prepaid expense schedules is part of subledger maintenance for prepaids.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-39",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.64,
+      "rationale": "Maintaining supporting schedules for other activities is too broad to classify.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-40",
+      "label": "covered",
+      "capability_id": "p2p.aging",
+      "confidence": 0.9,
+      "rationale": "Identifying unpaid invoices is open payable tracking and aging work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-41",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.88,
+      "rationale": "Gathering information for month-end accruals supports accrual estimation from history and source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-42",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.97,
+      "rationale": "Preparing routine journal entries using templates matches journal entry preparation with human review.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-43",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.89,
+      "rationale": "Verifying account coding against guidelines is part of coding vendor bills to the GL.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-44",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Verifying transaction dates against guidelines is a rules-based validation task with no explicit match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-45",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Escalating unusual items depends on human judgment about exceptions.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-46",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Escalating unclear items requires human judgment to determine next steps.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-47",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.95,
+      "rationale": "Researching reconciling differences is core account reconciliation work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-48",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Helping resolve missing transaction records is data cleanup work without a direct capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-49",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Helping resolve incomplete transaction records is data cleanup work without a direct capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-50",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Helping resolve inaccurate transaction records is data cleanup work without a direct capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-51",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Keeping invoices complete and accessible is document maintenance not covered by a capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-52",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Keeping approvals complete and accessible is document maintenance not covered by a capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-53",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Keeping payment records complete and accessible is document maintenance not covered by a capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-54",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Keeping reconciliations complete and accessible is document maintenance not covered by a capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-55",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Keeping other supporting documents complete and accessible is document maintenance not covered by a capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-56",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Reviewing transaction reports for missing information is a repetitive validation task with no exact match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-57",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Reviewing transaction reports for duplicate entries is a repetitive validation task with no exact match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-58",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Reviewing transaction reports for other potential errors is a generic exception review task.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-59",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.67,
+      "rationale": "Retrieving records is generic administrative work with no specific capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-60",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.96,
+      "rationale": "Preparing documentation for audit requests matches audit support and PBC preparation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-61",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Preparing documentation for tax requests is support work with no matching capability and tax audits are excluded.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-62",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Preparing documentation for other accounting requests is too generic to map to a covered capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-63",
+      "label": "covered",
+      "capability_id": "p2p.approvals",
+      "confidence": 0.9,
+      "rationale": "Following established approval procedures matches the AP approval workflow by policy.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-64",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.84,
+      "rationale": "Following financial controls aligns with monitoring and executing accounting controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-65",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Flagging exceptions is a generic rules-based exception task with no direct AP capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-66",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Flagging discrepancies is a generic rules-based exception task with no direct AP capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-67",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Handling confidential vendor information is a general professional duty rather than a platform action.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-68",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Handling confidential payment information is a general professional duty rather than a platform action.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-69",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Handling confidential business information is a general professional duty rather than a platform action.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-70",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Identifying ways to improve data accuracy is too open-ended to classify confidently.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-71",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Simplifying routine reconciliations is a process-improvement objective rather than a specific automation task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-72",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Reducing manual work is a broad improvement goal with no specific capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-73",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Assisting with testing accounting system updates is project support rather than a covered finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-74",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Assisting with testing workflow changes is project support rather than a covered finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-75",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Supporting responsible use of approved automation and AI tools is too broad to map to a capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-76",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Verifying outputs before use is a generic review step with no specific capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-77",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Maintaining clear process documentation is routine documentation work with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "02a51009dde2c9ac-78",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Providing backup support for related accounting tasks is too vague to classify.",
       "model_label": "unclear",
       "adjusted": null
     }

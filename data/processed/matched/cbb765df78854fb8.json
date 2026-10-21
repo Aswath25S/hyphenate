@@ -1,0 +1,186 @@
+{
+  "posting_id": "cbb765df78854fb8",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "cbb765df78854fb8-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Owning AP is function management rather than a single automatable transaction, so it falls on people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-02",
+      "label": "assisted",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.89,
+      "rationale": "Coding vendor invoices is bill capture, but the added judgment means human review is still needed.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-03",
+      "label": "covered",
+      "capability_id": "p2p.allocations",
+      "confidence": 0.86,
+      "rationale": "Classifying expenses to the right department or class matches bill allocation and coding.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-04",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.98,
+      "rationale": "Capitalizing fixed assets is part of fixed-asset subledger accounting.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-05",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.98,
+      "rationale": "Amortizing prepaids is a prepaid expense subledger task.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-06",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.89,
+      "rationale": "Applying accrual thresholds uses the accrual estimation workflow, but entity-level judgment is still involved.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "The annual 1099 process is a rules-based AP/tax workflow that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Running procurement end to end includes broader ownership and judgment beyond the listed automations.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Managing purchase orders is an operational procurement task that has no direct capability match here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-10",
+      "label": "covered",
+      "capability_id": "p2p.vendor_followup",
+      "confidence": 0.81,
+      "rationale": "Vendor onboarding aligns with maintaining vendor master data and collecting W-9s and setup details.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-11",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Managing ongoing process improvements is too vague to map to a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-12",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Improving how Ramp and NetSuite work together is a systems project rather than a listed finance workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-13",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Using automation to reduce manual coding is a process-improvement goal, not a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-14",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Using automation to reduce matching describes an improvement effort rather than the matching workflow itself.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-15",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Reducing reconciliation through automation is a project goal, not the reconciliation task itself.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Supporting month-end close is too broad to map to one specific close workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-17",
+      "label": "covered",
+      "capability_id": "gl.intercompany",
+      "confidence": 0.84,
+      "rationale": "AP-related intercompany activity fits intercompany transactions, settlements, and eliminations.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Consolidation-related AP tasks are too vague to tie to one reporting capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-19",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.96,
+      "rationale": "Preparing audit-ready schedules matches audit support and PBC-style documentation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cbb765df78854fb8-20",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.96,
+      "rationale": "Preparing audit-ready documentation is audit support work, but it still feeds auditor review.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

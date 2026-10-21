@@ -1,0 +1,303 @@
+{
+  "posting_id": "3965e7a55df26bfa",
+  "company": "Oura",
+  "domain": "ouraring.com",
+  "title": "Senior SEC Reporting Accountant",
+  "role_family": "Reporting_FPA",
+  "seniority": "senior",
+  "locations": [
+    "Remote - United States",
+    "Remote, United States"
+  ],
+  "remote": "remote",
+  "salary": {
+    "min": 99450,
+    "max": 140000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "• Region 1 $119,000 – $140,000\n• Region 2 $106,250 – $125,000\n• Region 3 $99,450 – $117,000"
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Workiva"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "first-time public filer",
+    "build and maintain the request list",
+    "chase down supporting documentation",
+    "keep status visible to the team and our auditors",
+    "juggle competing close and filing deadlines",
+    "communicating out PBC requests"
+  ],
+  "duties": [
+    {
+      "duty_id": "3965e7a55df26bfa-01",
+      "text": "Prepare Form 10-Q financial statements",
+      "source_span": "Form 10-Q",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-02",
+      "text": "Prepare Form 10-K financial statements",
+      "source_span": "Form 10-K",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-03",
+      "text": "Prepare Form 8-K financial statements",
+      "source_span": "Form 8-K",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-04",
+      "text": "Prepare footnotes",
+      "source_span": "footnotes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-05",
+      "text": "Prepare supporting schedules",
+      "source_span": "supporting schedules",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-06",
+      "text": "Prepare tie-out",
+      "source_span": "tie-out",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-07",
+      "text": "Prepare support binder",
+      "source_span": "support binder",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-08",
+      "text": "Prepare information for external reporting purposes",
+      "source_span": "external reporting purposes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-09",
+      "text": "Provide information for internal reporting purposes",
+      "source_span": "internal reporting purposes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-10",
+      "text": "Help build out the external reporting calendar",
+      "source_span": "the external reporting calendar",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-11",
+      "text": "Help build out templates",
+      "source_span": "templates",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-12",
+      "text": "Help build out supporting documentation",
+      "source_span": "supporting documentation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-13",
+      "text": "Support our SOX initiative",
+      "source_span": "Support our SOX initiative",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-14",
+      "text": "Design internal controls over financial reporting",
+      "source_span": "design",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-15",
+      "text": "Document internal controls over financial reporting",
+      "source_span": "documentation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-16",
+      "text": "Implement internal controls over financial reporting",
+      "source_span": "implementation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-17",
+      "text": "Own the PBC rollforward",
+      "source_span": "Own the PBC rollforward",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-18",
+      "text": "Own end-to-end PBC management",
+      "source_span": "end-to-end PBC management",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-19",
+      "text": "Build and maintain the request list",
+      "source_span": "build and maintain the request list",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-20",
+      "text": "Chase down supporting documentation",
+      "source_span": "chase down supporting documentation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-21",
+      "text": "Keep status visible to the team and our auditors",
+      "source_span": "keep status visible to the team and our auditors",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-22",
+      "text": "Partner cross-functionally to source disclosure inputs",
+      "source_span": "Partner cross-functionally to source disclosure inputs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-23",
+      "text": "Improve reporting processes",
+      "source_span": "improve reporting processes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-24",
+      "text": "Improve reporting systems",
+      "source_span": "systems",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-25",
+      "text": "Improve reporting documentation",
+      "source_span": "documentation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-26",
+      "text": "Participate in ad hoc analyses",
+      "source_span": "Participate in ad hoc analyses",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-27",
+      "text": "Special projects",
+      "source_span": "special projects",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-28",
+      "text": "Other duties as assigned",
+      "source_span": "other duties as assigned",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-29",
+      "text": "An active CPA license",
+      "source_span": "An active CPA license",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-30",
+      "text": "4+ years of progressive accounting experience that must include public accounting (Big 4 or national firm audit) and preferably also in-house SEC reporting at a publicly traded company",
+      "source_span": "4+ years of progressive accounting experience that must include public accounting (Big 4 or national firm audit) and preferably also in-house SEC reporting at a publicly traded company",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-31",
+      "text": "Strong knowledge of U.S. GAAP and financial reporting principles.",
+      "source_span": "Strong knowledge of U.S. GAAP and financial reporting principles.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-32",
+      "text": "Hands-on experience preparing SEC filings (10-Q, 10-K, 8-K), including footnote drafting, tie-out, and XBRL tagging in Workiva; working knowledge of NetSuite or a comparable ERP",
+      "source_span": "Hands-on experience preparing SEC filings (10-Q, 10-K, 8-K), including footnote drafting, tie-out, and XBRL tagging in Workiva; working knowledge of NetSuite or a comparable ERP",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-33",
+      "text": "Familiarity with SOX and internal controls over financial reporting",
+      "source_span": "Familiarity with SOX and internal controls over financial reporting",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-34",
+      "text": "Extremely organized, with the discipline to juggle competing close and filing deadlines without letting quality slip",
+      "source_span": "Extremely organized, with the discipline to juggle competing close and filing deadlines without letting quality slip",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-35",
+      "text": "A skillful communicator who works independently and is not afraid to work cross-functionally",
+      "source_span": "A skillful communicator who works independently and is not afraid to work cross-functionally",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3965e7a55df26bfa-36",
+      "text": "communicating out PBC requests and holding team members accountable for delivering the support requested",
+      "source_span": "communicating out PBC requests and holding team members accountable for delivering the support requested",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-09-02T14:09:32-04:00",
+  "source_url": "https://job-boards.greenhouse.io/oura/jobs/4386015009",
+  "fetched_at": "2026-10-21T17:33:59.172Z",
+  "prompt_version": "extract-v1",
+  "text": "Our mission at Oura is to empower every person to own their inner potential. Our award-winning products help our global community gain a deeper knowledge of their readiness, activity, and sleep quality by using their Oura Ring and its connected app. We've helped millions of people understand and improve their health by providing daily insights and practical steps to inspire healthy lifestyles.\n\nEmpowering the world starts with living our values and empowering our team. As a quickly growing company focused on helping people live healthier and happier lives, we ensure that our team members have what they need to do their best work — both in and out of the office.\n\nWe are looking for a seasoned Senior SEC Reporting Accountant to join our Financial Reporting team. This is a senior individual contributor role for someone who brings both public accounting rigor and preferably hands-on industry SEC reporting experience. As we build toward public company readiness, this role will assist in the preparation of our financial statements and disclosures and in putting the processes and controls in place that a first-time public filer needs. You will report to the Financial Reporting Manager and partner closely with Corporate Finance, FP&A, Legal, Tax, Equity Administration, and our external auditors. This is an individual contributor role with no direct reports.\n\nThis is a remote US role. We have offices in San Francisco, San Diego and Los Angeles for those who prefer hybrid or office settings. Employees in other major cities (such as Boston and New York) occasionally gather informally at local co-working locations.\n\nWhat you will do:\n\n• Prepare Form 10-Q, 10-K, and 8-K financial statements, footnotes, and supporting schedules, including tie-out and support binder\n\n• Prepare and provide information for both external and internal reporting purposes.\n\n• Help build out the external reporting calendar, templates, and supporting documentation as we establish the function\n\n• Support our SOX initiative, particularly the design, documentation, and implementation of internal controls over financial reporting\n\n• Own the PBC (provided by client) rollforward and end-to-end PBC management — build and maintain the request list, chase down supporting documentation, and keep status visible to the team and our auditors\n\n• Partner cross-functionally to source disclosure inputs and improve reporting processes, systems, and documentation as the company scales\n\n• Participate in ad hoc analyses, special projects, and other duties as assigned.\n\nRequirements\n\nWe would love to consider you for this role if you have:\n\n• An active CPA license — this is a requirement for the role\n\n• 4+ years of progressive accounting experience that must include public accounting (Big 4 or national firm audit) and preferably also in-house SEC reporting at a publicly traded company — we are looking for someone who has sat on both sides\n\n• Strong knowledge of U.S. GAAP and financial reporting principles.\n\n• Hands-on experience preparing SEC filings (10-Q, 10-K, 8-K), including footnote drafting, tie-out, and XBRL tagging in Workiva; working knowledge of NetSuite or a comparable ERP\n\n• Familiarity with SOX and internal controls over financial reporting\n\n• Extremely organized, with the discipline to juggle competing close and filing deadlines without letting quality slip\n\n• A skillful communicator who works independently and is not afraid to work cross-functionally — communicating out PBC requests and holding team members accountable for delivering the support requested\n\nBenefits\n\nAt ŌURA, we care about you and your well-being. Everyone here at Oura has a ring of their own and we are continually looking to improve employee health.\n\nWhat we offer:\n\n• Competitive salary and equity packages\n\n• Health, dental, vision insurance, and mental health resources\n\n• An Oura Ring of your own plus employee discounts for friends & family\n\n• 20 days of paid time off plus 13 paid holidays plus 8 days of flexible wellness time off\n\n• Paid sick leave and parental leave\n\nOura takes a market-based approach to pay, which may vary depending on your location. US locations are categorized into tiers based on a cost of labor index for that geographic area. While most offers will be closer to the starting range, successful candidates’ pay will be determined based on job-related skills, experience, qualifications, work location, internal peer equity, and market conditions. These ranges may be modified in the future.\n\n• Region 1 $119,000 – $140,000\n\n• Region 2 $106,250 – $125,000\n\n• Region 3 $99,450 – $117,000\n\nA recruiter can determine your Region based on your US location.\n\nWe are not considering candidates residing in the following states: Alaska (AK), Delaware (DE), Iowa (IA), Mississippi (MS), Nebraska (NE), South Dakota (SD), West Virginia (WV), and Wisconsin (WI).\n\nOura is proud to be an equal opportunity workplace. We celebrate diversity and are committed to creating an inclusive environment for all employees. Individuals seeking employment at Oura are considered without regard to age, ancestry, color, gender (including pregnancy, childbirth, or related medical conditions), gender identity or expression, genetic information, marital status, medical condition, mental or physical disability, national origin, protected family care or medical leave status, race, religion (including beliefs and practices or the absence thereof), sexual orientation, military or veteran status, or any other characteristic protected by federal, state, or local laws. We will not tolerate discrimination or harassment based on any of these characteristics.\n\nWe will work to ensure individuals with disabilities are provided reasonable accommodation to participate in the interview process, to perform essential job functions, and to receive other benefits and privileges of employment.\n\nDisclaimer: Beware of fake job offers!\nWe’ve been alerted to scammers posing as ŌURA recruiters, especially for remote roles. Please note:\n\n• Our jobs are listed only on the ŌURA Careers page and trusted job boards.\n\n• We will never ask for personal information like ID or payment for equipment upfront.\n\n• Official offers are sent through Docusign after a verbal offer, not via text or email.\n\nStay cautious and protect your personal details.\n\nTo all recruitment agencies: Oura does not accept agency resumes. Please do not forward resumes to our jobs alias, Oura employees, or any other organization's location. Oura is not responsible for any fees related to unsolicited resumes.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

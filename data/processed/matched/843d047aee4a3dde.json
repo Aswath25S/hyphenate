@@ -1,0 +1,357 @@
+{
+  "posting_id": "843d047aee4a3dde",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "843d047aee4a3dde-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Owning routine payroll processing support is repetitive payroll administration with no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Assisting international payroll cycles is payroll processing work that is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-03",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Working primarily in Rippling describes a system rather than a specific finance action, so it is too vague to map.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Running contractor payroll is payroll processing, which is repetitive but not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Tracking timecard submissions is administrative payroll input tracking with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Following up on manager approvals is workflow chasing rather than a covered finance-operations capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Making contractor payments is payroll payment processing, which is not covered here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Reconciling benefit deductions against payroll journals is a payroll-specific reconciliation with no direct match in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Reconciling 401(k) deferrals is a payroll benefits reconciliation that is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Reconciling employer match is a payroll benefits reconciliation outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Flagging payroll discrepancies is exception handling in payroll processing, but no capability directly matches it.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Resolving payroll discrepancies before checks post is operational payroll work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Supporting state employer tax account registration is administrative tax setup work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Maintaining state employer tax accounts is ongoing payroll tax administration not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-15",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Migrating legacy accounts from prior PEO arrangements is a vague implementation task rather than a specific covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Assisting with 401(k) and benefits administration is benefits administration work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Monitoring contributions is payroll/benefits administration and does not match a covered capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "HCE and nondiscrimination testing is a specialized benefits compliance calculation not covered here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Sending COBRA offboarding notices is HR benefits administration rather than a listed finance-operations capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Equity and stock-exercise payroll reporting is stock compensation/payroll work, which is explicitly outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-21",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Tracking Carta exercise data is administrative data tracking for equity payroll and has no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Applying correct NSO/ISO tax treatment requires tax judgment and interpretation rather than a mapped operational workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-23",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.86,
+      "rationale": "Preparing payroll-side entries at quarter-end is journal entry preparation, which matches GL journal entry work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-24",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Managing a reimbursement approval chain is a workflow-routing task for reimbursements, which is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Ensuring reimbursements route correctly across systems is workflow administration with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-26",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Ensuring reimbursements post correctly across systems is operational processing outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Serving as the first point of contact for employee payroll inquiries is a support/liaison role that involves human interaction.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Resolving routine questions is employee-facing support work rather than an automated finance-operations capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Escalating complex cases with context is human judgment and coordination with others.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-30",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.81,
+      "rationale": "Maintaining audit-ready documentation matches audit support and supporting documentation for entries.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-31",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Supporting quarter-end and year-end close activities is too broad to map to a single capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-32",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Preparing W-2s is payroll tax form preparation, which is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-33",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Supporting ACA reporting is compliance reporting work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-34",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Performing 401(k) true-ups is a payroll benefits reconciliation task outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-35",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Year-end reconciliations are payroll reconciliation work, but no specific capability covers this duty.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-36",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Identifying process improvements is too vague and does not describe a specific finance action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-37",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Helping implement process improvements is a project/activity description rather than a specific operational task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-38",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Reducing manual work is an outcome goal rather than a specific duty that maps to a capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "843d047aee4a3dde-39",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Strengthening controls is too vague to map without a specific control-testing or control-monitoring action.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

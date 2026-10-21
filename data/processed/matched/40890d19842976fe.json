@@ -1,0 +1,150 @@
+{
+  "posting_id": "40890d19842976fe",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "40890d19842976fe-01",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.99,
+      "rationale": "Performing monthly financial closing activities is month-end close checklist work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "40890d19842976fe-02",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.93,
+      "rationale": "Performing monthly procedures most closely matches executing close checklist tasks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "40890d19842976fe-03",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.98,
+      "rationale": "Preparing monthly journal entries is journal-entry preparation and posting with some accounting judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "40890d19842976fe-04",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.99,
+      "rationale": "Performing account reconciliations is exactly balance-sheet account reconciliation work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "40890d19842976fe-05",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.97,
+      "rationale": "Supporting month-end close activities is part of running the close checklist.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "40890d19842976fe-06",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.94,
+      "rationale": "Supporting year-end close activities is close checklist execution at period end.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "40890d19842976fe-07",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.61,
+      "rationale": "Monitoring financial activity is too vague to map to a specific finance-ops capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "40890d19842976fe-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.6,
+      "rationale": "Reviewing financial activity is too broad to determine the core automated action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "40890d19842976fe-09",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.95,
+      "rationale": "Assisting with flux analysis matches variance analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "40890d19842976fe-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with internal teams is cross-functional collaboration rather than platform work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "40890d19842976fe-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with external business contacts is relationship work rather than automated finance operations.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "40890d19842976fe-12",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.96,
+      "rationale": "Assisting with the annual financial audit matches providing audit support and documentation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "40890d19842976fe-13",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.82,
+      "rationale": "Handling related documentation requests fits audit support and PBC documentation handling.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "40890d19842976fe-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Processing financial transactions using accounting systems and tools is too generic to identify a specific covered workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "40890d19842976fe-17",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.86,
+      "rationale": "Recording financial transactions in accounting systems most closely matches preparing and posting journal entries.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "40890d19842976fe-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.62,
+      "rationale": "Maintaining financial transactions using accounting systems and tools is too vague to map reliably to a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

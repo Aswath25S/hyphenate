@@ -1,0 +1,150 @@
+{
+  "posting_id": "4c3fcb5cfed5eb2e",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "4c3fcb5cfed5eb2e-02",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.83,
+      "rationale": "Preparing board and leadership decks is management reporting, though the narrative and audience tailoring add human judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c3fcb5cfed5eb2e-03",
+      "label": "covered",
+      "capability_id": "rep.consolidation",
+      "confidence": 0.97,
+      "rationale": "Owning corporate consolidation and P&L roll-up is exactly the consolidation capability.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c3fcb5cfed5eb2e-04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.64,
+      "rationale": "Administering a forecasting system is system maintenance rather than a defined finance-operations capability in the map.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c3fcb5cfed5eb2e-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Co-leading the month-end review is a management/review meeting activity rather than an automated finance task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c3fcb5cfed5eb2e-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Co-leading the quarterly forecasting process is a planning leadership activity, which is human work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c3fcb5cfed5eb2e-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Co-leading the annual planning cycle is FP&A planning leadership, not an operations capability in the map.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c3fcb5cfed5eb2e-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Supporting monthly and quarterly close is too vague to map to a specific close or accounting task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c3fcb5cfed5eb2e-09",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.68,
+      "rationale": "Understanding changes that impact forecasting is too nonspecific to determine a concrete covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c3fcb5cfed5eb2e-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Translating assumptions, policy updates, and accounting treatment requires judgment and interpretation of policy/accounting changes.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c3fcb5cfed5eb2e-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Establishing corporate finance processes and timelines is process design and coordination work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c3fcb5cfed5eb2e-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Collaborating with stakeholders to ensure alignment is cross-functional partnering work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c3fcb5cfed5eb2e-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Seeking opportunities to improve tools and workflows is a process-improvement/project activity rather than a defined platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c3fcb5cfed5eb2e-14",
+      "label": "assisted",
+      "capability_id": "tre.forecast",
+      "confidence": 0.91,
+      "rationale": "Owning the cash forecasting process matches treasury cash forecasting, though ownership and judgment keep it assisted.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c3fcb5cfed5eb2e-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering closely with other teams is relationship management and cross-functional coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c3fcb5cfed5eb2e-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Leading and coordinating ad hoc projects and leadership requests is project leadership work, not a specific automated finance task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "4c3fcb5cfed5eb2e-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Translating complex data into actions and strategy is advisory and decision-support work for leadership.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

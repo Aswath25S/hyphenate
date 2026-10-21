@@ -1,0 +1,249 @@
+{
+  "posting_id": "e8039e5e382a675f",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "e8039e5e382a675f-01",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.95,
+      "rationale": "The duty is end-to-end PP&E accounting, which matches fixed asset subledger maintenance and depreciation accounting.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "The duty is intangible asset accounting, which is repetitive accounting work but has no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The duty is Construction-in-Progress accounting, which is a capital accounting task with no direct capability listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-04",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.93,
+      "rationale": "The duty is leasehold improvements accounting, which fits fixed asset subledger and amortization maintenance.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "The duty is tracking facility build-outs, a capital project tracking task with no direct platform capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "The duty is ensuring capitalization timing, which is accounting judgment not covered by a specific capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "The duty is evaluating tenant improvement allowances, which is specialized lease accounting work not directly covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-08",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.9,
+      "rationale": "The duty is aligning amortization schedules with lease terms, which matches lease accounting schedule maintenance.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "The duty is owning the accounting framework for software capitalization, which is policy and judgment ownership.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "The duty is establishing cross-functional processes with other teams, which is partnership and process design work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "The duty is tracking development costs by stage, a rules-based capitalization task with no exact capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "The duty is enforcing capitalization and amortization discipline, which is policy enforcement and judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-13",
+      "label": "assisted",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.86,
+      "rationale": "The duty is lease accounting and ROU schedule reconciliation, but verifying classifications and discount rates requires accounting judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "The duty is ensuring financial statement presentation of fixed asset and lease items, which is reporting work outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-15",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "The duty only says focus on the Statement of Cash Flows, which is too vague to map to a specific action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The duty is partnering with Technical Accounting to establish impairment frameworks, which is cross-functional judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "The duty is conducting valuation reviews, a technical accounting process with no direct platform capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-18",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.83,
+      "rationale": "The duty is executing write-offs or reserve adjustments, which is effectively preparing and posting journal entries.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "The duty is designing and refining capital accounting processes, which is process design and strategic improvement work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The duty is creating cross-functional discovery procedures across departments, which is coordination and process ownership.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The duty is authoring and enforcing global accounting policies, which is policy-setting work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The duty is serving as the primary finance contact for business partners, which is advisory and relationship work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The duty is providing guidance on CAPEX versus OPEX distinctions, which is advisory judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "The duty is owning and evaluating systems with IT to automate workflows, which is implementation and partnership work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-26",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.9,
+      "rationale": "The duty is executing SOX internal controls over fixed assets, leases, and software, which matches controls monitoring and execution.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "The duty is designing and leading physical inventory counts and verification programs, which is operational oversight work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e8039e5e382a675f-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The duty is acting as the primary contact for external auditors, which is a human relationship and audit liaison role.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

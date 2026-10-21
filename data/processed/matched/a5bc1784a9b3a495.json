@@ -1,0 +1,330 @@
+{
+  "posting_id": "a5bc1784a9b3a495",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "a5bc1784a9b3a495-01",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.93,
+      "rationale": "Owning customer setup through recurring invoicing centers on creating and managing invoices in the billing cycle.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Managing renewals, amendments, and cancellations is subscription lifecycle work that is not directly covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-03",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.9,
+      "rationale": "Ensuring accurate and timely billing in line with agreements is the core invoicing workflow.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Reviewing nonstandard billing terms with Sales and Deal Desk before signature is cross-functional contract negotiation and judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-05",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.3,
+      "rationale": "Assess operational feasibility is too vague to map to a specific finance-operation action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-06",
+      "label": "assisted",
+      "capability_id": "p2p.approvals",
+      "confidence": 0.66,
+      "rationale": "Routing exceptions for approval matches policy-based approval workflow routing, though the domain is billing rather than AP.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-07",
+      "label": "covered",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.95,
+      "rationale": "Translating approved pricing and contract terms into billing configurations is exactly contract-term setup in the billing system.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Managing seat changes is a repetitive subscription-update task that is not explicitly covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Managing tiered discounting is billing/pricing maintenance without a direct matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Managing prorations is a billing calculation task that is not specifically listed in the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Managing co-terminations is subscription timing maintenance with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Managing prepaid credits is a billing-balance maintenance task that is not explicitly covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-13",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.91,
+      "rationale": "Managing usage billed in arrears is usage-based invoicing, which is covered.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Serving as the primary point of contact for billing questions is relationship management and customer support by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Investigating discrepancies is repetitive exception work but does not map cleanly to a covered capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-16",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.88,
+      "rationale": "Coordinating credits and rebills is invoice adjustment work within invoicing.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.28,
+      "rationale": "Addressing underlying causes to prevent recurring issues is too broad to classify precisely.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Reconciling contract data to billing output is data matching and validation that is not directly covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Reconciling subscription data to billing output is repetitive matching work without a specific capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Reconciling usage data to billing output is validation work that is not explicitly covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-21",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Investigating billing discrepancies is exception handling, but no billing-specific capability in the map covers it end to end.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-22",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.71,
+      "rationale": "Billing completeness checks supporting close and audits fit audit-support documentation and evidence gathering.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-23",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.7,
+      "rationale": "Supporting close and audits through reconciliations matches audit support, though the reconciliations are billing-focused.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-24",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.94,
+      "rationale": "Providing supporting documentation for audits is directly covered by audit support.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Identifying billing system integration failures is technical monitoring not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-26",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Resolving billing system integration failures is technical troubleshooting with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Customer Success, Sales, and Deal Desk on renewals and expansions is cross-functional collaboration and relationship work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-28",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Preparing seat analyses is repetitive analysis work but not a named capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-29",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.69,
+      "rationale": "Preparing usage analyses is source-data-driven analysis of billing drivers.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-30",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.67,
+      "rationale": "Preparing billing analyses is ad hoc analysis of finance data traced to source records.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-31",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.84,
+      "rationale": "Calculating renewal credits is part of issuing invoice credits and adjustments.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-32",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Calculating true-ups is a billing adjustment calculation that is not explicitly covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-33",
+      "label": "covered",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.94,
+      "rationale": "Translating approved agreements into subscription updates is contract-to-billing setup work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-34",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.86,
+      "rationale": "Translating approved agreements into credit updates is invoice adjustment work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-35",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.9,
+      "rationale": "Translating approved agreements into invoice updates is direct invoicing configuration.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "a5bc1784a9b3a495-36",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Coordinating resolution of billing issues that affect renewals and customer experience is cross-functional customer-facing work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

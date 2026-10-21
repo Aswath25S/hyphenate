@@ -3,8 +3,8 @@
   "domain": "gitlab.com",
   "ats": "greenhouse",
   "board_token": "gitlab",
-  "fetched_at": "2026-10-21T03:35:50.536Z",
-  "total_jobs": 232,
+  "fetched_at": "2026-10-21T17:34:26.159Z",
+  "total_jobs": 229,
   "postings": [
     {
       "company": "GitLab",
@@ -12,7 +12,7 @@
       "ats": "greenhouse",
       "board_token": "gitlab",
       "api_url": "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs?content=true",
-      "fetched_at": "2026-10-21T03:35:49.409Z",
+      "fetched_at": "2026-10-21T17:34:25.045Z",
       "raw_id": "greenhouse:gitlab:8827981002",
       "source_job_id": "8827981002",
       "title": "Director, FP&A",

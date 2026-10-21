@@ -1,0 +1,204 @@
+{
+  "posting_id": "8ddb414440333fcc",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "8ddb414440333fcc-01",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.83,
+      "rationale": "Owning the monthly revenue close is the close-checklist workflow of completing and tracking month-end close tasks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-02",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.98,
+      "rationale": "Preparing journal entries is the core journal-entry preparation workflow.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-03",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.97,
+      "rationale": "Preparing reconciliations for revenue, deferred revenue, and contract asset balances is balance-sheet account reconciliation work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-04",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.95,
+      "rationale": "Preparing flux analyses is variance analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-05",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.96,
+      "rationale": "Preparing the deferred revenue waterfall is revenue-recognition schedule work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-06",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.86,
+      "rationale": "Preparing financial reporting metrics aligns with building recurring management reports and KPIs.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Reconciling consumption data to billing and revenue is a rules-based data reconciliation task with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Using SQL/data queries is a tool skill rather than a finance-operation duty, so the core action is too vague to map.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-09",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Using AI tools to assist and automate the work is too vague and describes a method, not a finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-10",
+      "label": "covered",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.96,
+      "rationale": "Reviewing customer contracts under ASC 606 is extracting contract terms, obligations, and pricing.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-11",
+      "label": "covered",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.9,
+      "rationale": "Reviewing order forms under ASC 606 is contract-term extraction for billing and revenue setup.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-12",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.73,
+      "rationale": "Preparing an accounting checklist for complex deals supports revenue-recognition documentation, though complex judgments still need human input.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-13",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Preparing estimate calculations is too vague because the specific estimate type is not defined.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-14",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.78,
+      "rationale": "Preparing SSP analyses is part of ASC 606 revenue-recognition analysis and documentation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Supporting new product introductions is cross-functional partner work rather than a defined finance automation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.75,
+      "rationale": "Supporting new pricing models is cross-functional pricing work that depends on human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Supporting SKU launches is cross-functional project support rather than a covered finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Supporting system upgrades or implementations is a vague project-support duty with no specific covered capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-19",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.96,
+      "rationale": "Supporting external audits matches preparing audit schedules, PBCs, and supporting documentation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-20",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.95,
+      "rationale": "Managing PBC requests related to revenue is audit-support work for providing requested documentation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Collaborating cross-functionally with other teams is relationship and coordination work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "8ddb414440333fcc-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Improving the quote-to-revenue workflow is too broad and reads like process redesign rather than a specific mapped operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

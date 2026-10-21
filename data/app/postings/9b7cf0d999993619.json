@@ -1,0 +1,1035 @@
+{
+  "posting_id": "9b7cf0d999993619",
+  "company": "Mighty Networks",
+  "slug": "mighty-networks",
+  "domain": "mightynetworks.com",
+  "title": "FP&A Manager",
+  "role_family": "Reporting_FPA",
+  "seniority": "manager",
+  "n": 20,
+  "C": 0,
+  "A": 4,
+  "covered_share": 0,
+  "overlap": 0.2,
+  "weighted_overlap": 0.1,
+  "thin": false,
+  "salary_min": null,
+  "salary_max": null,
+  "salary_varies": false,
+  "salary_source": null,
+  "savings": null,
+  "savings_reason": "no_salary",
+  "lead_product": "Reporting",
+  "product_split": {
+    "Reporting": {
+      "covered": 0,
+      "assisted": 4,
+      "weighted": 2
+    }
+  },
+  "erp": [],
+  "tools": [
+    "Excel",
+    "Google Sheets",
+    "Stripe"
+  ],
+  "posted_at": "2026-10-01T15:17:09-04:00",
+  "source_url": "https://job-boards.greenhouse.io/mightynetworks/jobs/8861164002?gh_jid=8861164002",
+  "locations": [
+    "Remote"
+  ],
+  "remote": "remote",
+  "excluded": null,
+  "text": "About Us\n\nMighty Networks helps people and brands build communities, online courses, memberships, challenges, and events. Through its advanced technology, called people magic, Mighty helps the members of those networks build relationships with each other by surfacing the most relevant and interesting connections.\n\nBecause of this novel approach and member-centered experience, Mighty has produced the most $1M communities and helped its Hosts earn over $500M.\n\nThe Role\n\nYou own FP&A at Mighty. That means the operating model, the forecast, the budget, the monthly reporting, and the analysis leadership uses to make decisions. You take a business question, find the data, build the model, and come back with an answer and a point of view, without needing someone to lay out the steps for you.\n\nOur SaaS community platform is the core of the business, and the launch of people magic ai will complement it. You will help leadership understand how the business is performing and where to invest.\n\nYou report to our Head of Finance and work closely with our accounting team and with leaders across product, engineering, sales, success, and marketing. This is an individual contributor role for someone who has done this work before and wants to own it.\n\nWhat You'll Own\n\n• You will own the company operating model and rolling forecast, covering revenue, headcount, operating expenses, and cash, and keep it current as the business changes\n\n• You will run the annual budget and the regular reforecast process, working with department leaders to build their plans and hold them to them\n\n• You will produce monthly budget versus actuals reporting and variance analysis, explaining what moved and why in terms leadership can act on\n\n• You will build and maintain the SaaS metrics that describe the business, including ARR, MRR, churn, retention, customer acquisition cost, lifetime value, and gross margin\n\n• You will model pricing, packaging, and new product scenarios and show what each one does to revenue, margin, and cash\n\n• You will track and forecast our cost structure, including hosting, infrastructure, and third party software spend\n\n• You will prepare the financial materials for board meetings and investor updates alongside our Head of Finance\n\n• You will partner with accounting on the close so the numbers in the model tie to the books, and improve the systems and processes that get data from source to report\n\n• You will take on ad hoc analysis for leadership, from hiring plans to vendor decisions to new product bets, and turn it around quickly\n\nWhat We're Looking For\n\n• You have five or more years in FP&A, with meaningful time at a subscription software or SaaS company, and you have owned a forecast rather than contributed to one\n\n• You can build a three-statement operating model from scratch and are fluent enough in Excel and Google Sheets that your models are clean, flexible, and easy for someone else to follow\n\n• You know SaaS metrics well and can explain how they connect to each other and to cash\n\n• You understand accounting well enough to work closely with a controller and staff accountants, including revenue recognition, accruals, and how the close works\n\n• You work independently, you know what good looks like without being told, and you bring a recommendation along with the analysis\n\n• You communicate clearly with people who are not in finance, and you can walk a department leader through their numbers in a way that changes what they do\n\n• You are comfortable pulling data from systems such as Stripe, our general ledger, a CRM, and our product database\n\n• You use AI tools as part of how you work, beyond prompting, whether that is building reusable skills or agents, wiring tools together to automate reporting, or knowing which parts of the workflow should stay manual\n\n• You are accurate and careful with detail, because leadership will make real decisions on your numbers\n\nBonus, none required. Any one of these moves a candidate up the list.\n\n• You have modeled a pricing change or a new product launch at a subscription business\n\n• You have worked at a creator, community, or marketplace business where revenue flows through the platform to customers\n\n• You have been the first or only FP&A hire and built the function's models and reporting yourself\n\n• You are comfortable with SQL or willing to get there quickly",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": null,
+    "max": null,
+    "period": null,
+    "currency": null,
+    "raw_text": null
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "improve the systems and processes that get data from source to report",
+    "turn it around quickly",
+    "which parts of the workflow should stay manual"
+  ],
+  "fetched_at": "2026-10-21T17:34:57.620Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "9b7cf0d999993619-01",
+      "text": "Own the company operating model and rolling forecast",
+      "source_span": "You will own the company operating model and rolling forecast, covering revenue, headcount, operating expenses, and cash, and keep it current as the business changes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1272,
+        "end": 1437
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Owning the operating model and rolling forecast is FP&A planning work that matches no covered capability and is explicitly outside the cash-forecast capability.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "9b7cf0d999993619-02",
+      "text": "Keep it current as the business changes",
+      "source_span": "and keep it current as the business changes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1394,
+        "end": 1437
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Keeping the forecasting model current as the business changes is ongoing planning-model maintenance, which is not covered by the listed finance-ops capabilities.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "9b7cf0d999993619-03",
+      "text": "Run the annual budget",
+      "source_span": "You will run the annual budget",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1441,
+        "end": 1471
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Running the annual budget is budgeting model work and is explicitly outside the forecast capability.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "9b7cf0d999993619-04",
+      "text": "Run the regular reforecast process",
+      "source_span": "and the regular reforecast process",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1472,
+        "end": 1506
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Running the regular reforecast process is FP&A forecasting work that is not covered by the listed capabilities.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "9b7cf0d999993619-05",
+      "text": "Work with department leaders to build their plans",
+      "source_span": "working with department leaders to build their plans",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1508,
+        "end": 1560
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Working with department leaders to build their plans is cross-functional partnering and planning with other teams, which is human by nature.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "9b7cf0d999993619-06",
+      "text": "Hold them to them",
+      "source_span": "and hold them to them",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1561,
+        "end": 1582
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Holding department leaders accountable to their plans is a management/leadership action rather than an automated finance-ops task.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "9b7cf0d999993619-07",
+      "text": "Produce monthly budget versus actuals reporting",
+      "source_span": "You will produce monthly budget versus actuals reporting and variance analysis, explaining what moved and why in terms leadership can act on",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1586,
+        "end": 1726
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Producing budget-versus-actual reporting is FP&A planning analysis and is not covered by the management-reporting or flux-analysis capabilities.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "9b7cf0d999993619-08",
+      "text": "Produce variance analysis",
+      "source_span": "and variance analysis, explaining what moved and why in terms leadership can act on",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1643,
+        "end": 1726
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Variance analysis here is budget-versus-actual FP&A analysis, which is explicitly outside the flux-analysis capability.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "9b7cf0d999993619-09",
+      "text": "Explain what moved and why in terms leadership can act on",
+      "source_span": "and variance analysis, explaining what moved and why in terms leadership can act on",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1643,
+        "end": 1726
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Explaining what moved and why in a way leadership can act on is presenting/communicating analysis to leadership, which is human.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "9b7cf0d999993619-10",
+      "text": "Build and maintain the SaaS metrics",
+      "source_span": "You will build and maintain the SaaS metrics that describe the business, including ARR, MRR, churn, retention, customer acquisition cost, lifetime value, and gross margin",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1730,
+        "end": 1900
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.74,
+      "rationale": "Building and maintaining SaaS metrics fits recurring KPI/report building for management reporting.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-11",
+      "text": "Model pricing, packaging, and new product scenarios",
+      "source_span": "You will model pricing, packaging, and new product scenarios",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1904,
+        "end": 1964
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Modeling pricing, packaging, and new product scenarios is FP&A planning and pricing/scenario modeling, which is not covered.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "9b7cf0d999993619-12",
+      "text": "Show what each one does to revenue, margin, and cash",
+      "source_span": "and show what each one does to revenue, margin, and cash",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1965,
+        "end": 2021
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Showing revenue, margin, and cash impacts from scenarios is planning-model analysis that does not match a covered reporting or treasury capability.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "9b7cf0d999993619-13",
+      "text": "Track our cost structure",
+      "source_span": "You will track and forecast our cost structure, including hosting, infrastructure, and third party software spend",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2025,
+        "end": 2138
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Tracking the cost structure is cost analysis/planning work and does not match any covered automation capability.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "9b7cf0d999993619-14",
+      "text": "Forecast our cost structure",
+      "source_span": "and forecast our cost structure, including hosting, infrastructure, and third party software spend",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2040,
+        "end": 2138
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Forecasting the cost structure is FP&A forecasting work, which is outside the listed capabilities.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "9b7cf0d999993619-15",
+      "text": "Prepare the financial materials for board meetings",
+      "source_span": "You will prepare the financial materials for board meetings and investor updates alongside our Head of Finance",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2142,
+        "end": 2252
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.89,
+      "rationale": "Preparing financial materials for board meetings matches building board-deck financials and management reporting support.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-16",
+      "text": "Prepare the financial materials for investor updates",
+      "source_span": "and investor updates alongside our Head of Finance",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2202,
+        "end": 2252
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.78,
+      "rationale": "Preparing financial materials for investor updates is recurring reporting and deck support, similar to management-reporting preparation.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-17",
+      "text": "Partner with accounting on the close",
+      "source_span": "You will partner with accounting on the close so the numbers in the model tie to the books, and improve the systems and processes that get data from source to report",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2256,
+        "end": 2421
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with accounting on the close is cross-functional collaboration, which is human rather than an automated close task.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "9b7cf0d999993619-18",
+      "text": "Improve the systems and processes that get data from source to report",
+      "source_span": "and improve the systems and processes that get data from source to report",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2348,
+        "end": 2421
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.58,
+      "rationale": "Improving systems and processes from source to report is a broad process-improvement project that does not map cleanly to a listed capability.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "9b7cf0d999993619-19",
+      "text": "Take on ad hoc analysis for leadership",
+      "source_span": "You will take on ad hoc analysis for leadership, from hiring plans to vendor decisions to new product bets, and turn it around quickly",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2425,
+        "end": 2559
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.adhoc_analysis",
+      "capability": "Answer finance questions traced to source entries",
+      "product": "Reporting",
+      "confidence": 0.96,
+      "rationale": "Taking on ad hoc analysis for leadership matches ad hoc finance analysis and answering finance questions.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-20",
+      "text": "Turn it around quickly",
+      "source_span": "and turn it around quickly",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2533,
+        "end": 2559
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Turning it around quickly describes speed rather than a specific finance action, so it is too vague to classify precisely.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "9b7cf0d999993619-21",
+      "text": "Have five or more years in FP&A",
+      "source_span": "You have five or more years in FP&A, with meaningful time at a subscription software or SaaS company, and you have owned a forecast rather than contributed to one",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2587,
+        "end": 2749
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-22",
+      "text": "Have meaningful time at a subscription software or SaaS company",
+      "source_span": "with meaningful time at a subscription software or SaaS company",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2624,
+        "end": 2687
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-23",
+      "text": "Have owned a forecast rather than contributed to one",
+      "source_span": "and you have owned a forecast rather than contributed to one",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2689,
+        "end": 2749
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-24",
+      "text": "Build a three-statement operating model from scratch",
+      "source_span": "You can build a three-statement operating model from scratch and are fluent enough in Excel and Google Sheets that your models are clean, flexible, and easy for someone else to follow",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2753,
+        "end": 2936
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-25",
+      "text": "Be fluent enough in Excel and Google Sheets",
+      "source_span": "and are fluent enough in Excel and Google Sheets that your models are clean, flexible, and easy for someone else to follow",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2814,
+        "end": 2936
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-26",
+      "text": "Know SaaS metrics well and explain how they connect to each other and to cash",
+      "source_span": "You know SaaS metrics well and can explain how they connect to each other and to cash",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2940,
+        "end": 3025
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-27",
+      "text": "Understand accounting well enough to work closely with a controller and staff accountants",
+      "source_span": "You understand accounting well enough to work closely with a controller and staff accountants, including revenue recognition, accruals, and how the close works",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3029,
+        "end": 3188
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-28",
+      "text": "Understand revenue recognition, accruals, and how the close works",
+      "source_span": "including revenue recognition, accruals, and how the close works",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3124,
+        "end": 3188
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-29",
+      "text": "Work independently",
+      "source_span": "You work independently, you know what good looks like without being told, and you bring a recommendation along with the analysis",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3192,
+        "end": 3320
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-30",
+      "text": "Know what good looks like without being told",
+      "source_span": "you know what good looks like without being told",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3216,
+        "end": 3264
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-31",
+      "text": "Bring a recommendation along with the analysis",
+      "source_span": "and you bring a recommendation along with the analysis",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3266,
+        "end": 3320
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-32",
+      "text": "Communicate clearly with people who are not in finance",
+      "source_span": "You communicate clearly with people who are not in finance, and you can walk a department leader through their numbers in a way that changes what they do",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3324,
+        "end": 3477
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-33",
+      "text": "Walk a department leader through their numbers in a way that changes what they do",
+      "source_span": "and you can walk a department leader through their numbers in a way that changes what they do",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3384,
+        "end": 3477
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-34",
+      "text": "Be comfortable pulling data from systems such as Stripe, our general ledger, a CRM, and our product database",
+      "source_span": "You are comfortable pulling data from systems such as Stripe, our general ledger, a CRM, and our product database",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3481,
+        "end": 3594
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-35",
+      "text": "Use AI tools as part of how you work, beyond prompting",
+      "source_span": "You use AI tools as part of how you work, beyond prompting, whether that is building reusable skills or agents, wiring tools together to automate reporting, or knowing which parts of the workflow should stay manual",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3598,
+        "end": 3812
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-36",
+      "text": "Build reusable skills or agents",
+      "source_span": "whether that is building reusable skills or agents",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3658,
+        "end": 3708
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-37",
+      "text": "Wire tools together to automate reporting",
+      "source_span": "wiring tools together to automate reporting",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3710,
+        "end": 3753
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-38",
+      "text": "Know which parts of the workflow should stay manual",
+      "source_span": "or knowing which parts of the workflow should stay manual",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3755,
+        "end": 3812
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-39",
+      "text": "Be accurate and careful with detail",
+      "source_span": "You are accurate and careful with detail, because leadership will make real decisions on your numbers",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3816,
+        "end": 3917
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-40",
+      "text": "Have modeled a pricing change or a new product launch at a subscription business",
+      "source_span": "You have modeled a pricing change or a new product launch at a subscription business",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3992,
+        "end": 4076
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-41",
+      "text": "Have worked at a creator, community, or marketplace business where revenue flows through the platform to customers",
+      "source_span": "You have worked at a creator, community, or marketplace business where revenue flows through the platform to customers",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4080,
+        "end": 4198
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-42",
+      "text": "Have been the first or only FP&A hire and built the function's models and reporting yourself",
+      "source_span": "You have been the first or only FP&A hire and built the function's models and reporting yourself",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4202,
+        "end": 4298
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-43",
+      "text": "Be comfortable with SQL or willing to get there quickly",
+      "source_span": "You are comfortable with SQL or willing to get there quickly",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4302,
+        "end": 4362
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

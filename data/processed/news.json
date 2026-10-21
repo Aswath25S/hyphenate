@@ -1,0 +1,1029 @@
+{
+  "as_of": "2026-10-21",
+  "companies": [
+    "appliedintuition.com",
+    "saronic.com",
+    "angellist.com",
+    "latitude.io",
+    "perplexity.ai",
+    "poshmark.com",
+    "forter.com",
+    "elevenlabs.io",
+    "klaviyo.com",
+    "clickhouse.com",
+    "thrivemarket.com",
+    "avetta.com",
+    "snyk.io",
+    "includedhealth.com",
+    "lemonade.com",
+    "flexport.com",
+    "roofstock.com",
+    "benchling.com",
+    "liquiddeath.com",
+    "notion.so",
+    "instawork.com",
+    "ouraring.com",
+    "fivetran.com",
+    "shield.ai",
+    "relativityspace.com",
+    "reddit.com",
+    "whoop.com",
+    "verkada.com",
+    "onepeloton.com",
+    "sentry.io"
+  ],
+  "triggers": {
+    "appliedintuition.com": [
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-10-13",
+        "summary": "Applied Intuition is reported to be fielding offers at a $30 billion valuation.",
+        "confidence": 0.95,
+        "headline": "Applied Intuition Fields Offers at $30 Billion Valuation - The Information",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSUtHSmxqYzdOcDQtZl90Ml9YLWVlYXdERklVWENIZDlGWEJXa2IyU3lpU01hYTJfU2d4STVmS0FFYWRkMWFmejRmTkV4eFJuNmtlc0lBUE5aSFdISHJpMFZMY2VEVHJpUGw3QUhtTkd3bjlDYWdEbzRJcnF1b3dkNGpnV0EzR2NYUVJMcDYxVkFCdWZQb1RkbGMwQ0pYaF9OaVFlUGdocWo1SEk?oc=5",
+        "source": "The Information",
+        "published": "2026-10-13",
+        "fetched_at": "2026-10-21T18:12:16.110Z"
+      },
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-10-14",
+        "summary": "A Tracxn page indicates Applied Intuition had funding rounds and investors in 2026.",
+        "confidence": 0.72,
+        "headline": "Applied Intuition - 2026 Funding Rounds & List of Investors - Tracxn",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTGhQcVh3WDFWN3d0MXhQX2I3M3djdHZUV18zNzQ4MGQzZVYyMlFNaDVleW9BQW8tWGN0d0tHRTF0MFVTWjNiUHpCV0F0TmF5ZnBULUdkR1MzMVZtSkNNVW0wQmI4dklwcGZBMHI2WjlJQ2duZkpGU2ZRUGk3eEZ5ZEllTVZrS2s3SkREanpUMm1kTjFydTBVX3ZxampBdUlOTTdhWFFmSVBrSmxNckRsZXNmTWp3X0U?oc=5",
+        "source": "Tracxn",
+        "published": "2026-10-14",
+        "fetched_at": "2026-10-21T18:12:16.110Z"
+      },
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-10-13",
+        "summary": "Applied Intuition is reported to be fielding offers at a $30 billion valuation.",
+        "confidence": 0.95,
+        "headline": "Applied Intuition fielding offers at $30B valuation - The Information - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQajJYZHFscjg4LXJLeVgtQVpkYVprcmNDUVZQZVJZcUVOeTBOT294aWw4RzFIRkt3bmhDMlRKM2RvZXVXU3Q4OHBCakFTU1NKNi1NT0x6NVQwRDgwUGZ4NlRUUUZ3VHhCNGVfdDRzRy1wNzBvbTYwQUFadHo2alZxTTFNRUNacHpDcXhGb09CZ0lGV1NQT05tSUM3Q0hQWWx6bnR0RmVqUQ?oc=5",
+        "source": "Seeking Alpha",
+        "published": "2026-10-13",
+        "fetched_at": "2026-10-21T18:12:16.110Z"
+      },
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-10-13",
+        "summary": "Applied Intuition is said to be eyeing a $30 billion valuation amid a new funding round.",
+        "confidence": 0.93,
+        "headline": "Applied Intuition Eyes $30 Billion Valuation Amid New Funding Ro - GuruFocus",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZkhZTURlRDI3cDZWWW5DaTc2TDdLNWhkR0lURm1LRlZuLXVERWxEUklPWkVfQ0ZfQkRJN0l1VEJ1UU05SHJHd2doalU5Z2w4Qm9SLTJJd053al9SamZNTi1wTGxRazc0aVp1TmdoYi1HZFdNVXgtdDN4RGZKWnAzcnFJZU1Xck4tUi02ZVlwTFhBVUQ5bnhiWjFwMjZXRnlfYXFzNzg2MmY?oc=5",
+        "source": "GuruFocus",
+        "published": "2026-10-13",
+        "fetched_at": "2026-10-21T18:12:16.110Z"
+      },
+      {
+        "trigger_type": "international_expansion",
+        "event_date": "2026-06-16",
+        "summary": "Applied Intuition says it is extending its autonomy system into Japan.",
+        "confidence": 0.89,
+        "headline": "Extending SDS: Bringing autonomy to Japan - Applied Intuition",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAtOFVENWlNREdEWnNMb3JoTFZvYlpuSG9RS2Zzb0xxRTlxZ3YzSHI0RkIycDdMbmtkOGhNTUhXQkhQUmZGcXc2b2xENTIwYWRSTXotbXNEakpSWEt2ZHZDenotMWZ1eTAxSlZnZUtOc21uZzJ3ZTNsYmF2NEJPdw?oc=5",
+        "source": "Applied Intuition",
+        "published": "2026-06-16",
+        "fetched_at": "2026-10-21T18:12:16.110Z"
+      },
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-10-13",
+        "summary": "Applied Intuition is reported to have received investment offers valuing it at $30 billion or more.",
+        "confidence": 0.94,
+        "headline": "Market Chatter: Applied Intuition Receives Investment Offers Valuing it at $30 Billion Minimum - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMUdYN2dYUHZKWmRIOUVhTmtFU3A5dTRKREVzTm1scFY1ZnRKS2JLVDY5Q0tzY3hrOFpFdlh6MDVBLWJRZjZ5YTJTZTdheFd1WUZvUncyaDFMRWJhZjFiNnRYcUtXbHVaYllkZkczZnJOT2lyazBOb0E0OTNNbTc2cEd6UTlDSS1MNjFtakRTdDlYSVl0aWdTaGstVjlud1lrT3JMTnZIM21aUQ?oc=5",
+        "source": "Yahoo Finance",
+        "published": "2026-10-13",
+        "fetched_at": "2026-10-21T18:12:16.110Z"
+      },
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-10-13",
+        "summary": "Applied Intuition is reported to be fielding offers at a $30 billion valuation.",
+        "confidence": 0.95,
+        "headline": "Applied Intuition fielding offers at $30B valuation - The Information - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPc2FheDNxQlZjMW5aakFzX3d2U1VwVHduY3NFM3dPOEdlSFl5MjlzRmxSeWhmZ0g2VUlCczhDMnFrNmR2ei10QzFxRlI3bVREWUtnWWx6azF4QzFMTDQzbEg1Qk1kd2xPbHFrdnlvOGczeEFEMDd6T0hlWkk3aDNQWHJjN3B5dm83bFdVeHpoR0k0Y2k1V2JGTnVPaHlkclRxMFc5bVVMbG5LempmMEtnQjcxT0FTUTBMRklGSTZONFF0WnpwSTJwMQ?oc=5",
+        "source": "TradingView",
+        "published": "2026-10-13",
+        "fetched_at": "2026-10-21T18:12:16.110Z"
+      },
+      {
+        "trigger_type": "international_expansion",
+        "event_date": "2026-06-16",
+        "summary": "Applied Intuition says it is expanding its self-driving system into Japan.",
+        "confidence": 0.96,
+        "headline": "Applied Intuition Expands Its Self-Driving System Into Japan, One of the World’s Most Demanding Automotive Markets - Applied Intuition",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRk5oZHY5dUhzRXRtczd3TDRzS3NOSmpETHEzNTZoVDFhMG5mT1A1b1gtVmViUjZ6V2Nqd2phOTVRN2xCNjhNNThQY2hiNG1aMzQ0TTJLNHd1c0xzLW1zV2QtaFBiS3F4S000cHM2eUFXejlYVXFrUW82ak5qdlBqN0Y0YlF3cmtpSkVZd2s4T2Nxd3pvbjR2YkpVWXp0TEFk?oc=5",
+        "source": "Applied Intuition",
+        "published": "2026-06-16",
+        "fetched_at": "2026-10-21T18:12:16.110Z"
+      }
+    ],
+    "saronic.com": [],
+    "angellist.com": [
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-07-16",
+        "summary": "AngelList acquired Ark to combine fund administration software, banking, and AI in one platform.",
+        "confidence": 0.99,
+        "headline": "AngelList Acquires Ark, Combining Fund Administration Software, Banking, and AI in One Platform - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQa2dqckRtdHFuX0M1dWpEaGw3MEhsSDk0SWhvb3VhdWdselkwYXhnOU1Xc3NTSlhWR0gzbVJ4N1FsQkVKd016MVNnWkZ5Vk1MYTQtaXJvdEVrLVptU1pDSUFqT0trOU9tV2w4Wk5EZ3BxTXQtVVg3UUVURENEYWJPSDNIX0dpZkU5ZEVCUktQUnNhVFVMOFIzVVAzbGVfWHZBVnNSNGVlb2d4N2U3cVZmMS1leHNDU1VqQjRSY3BGVWlMWENnSzNROUNHS0I4N1o3VmRQbHo4Sk9IYXh0d1JESHFpRQ?oc=5",
+        "source": "Business Wire",
+        "published": "2026-07-16",
+        "fetched_at": "2026-10-21T18:12:32.542Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-07-22",
+        "summary": "AngelList acquired Ark, a fund management software platform.",
+        "confidence": 0.99,
+        "headline": "AngelList acquires fund management software platform Ark - FinTech Futures",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xVGFyOURIc05fdUNyY0M4QUtRM2Rfckk1RkRpUThKZjFmOVdEWnpkWHR1MDJDaXlWb21OcTdZYlRPaXo0SHJXVjRYOTlxTmdQVDRob21IQS1QTElnVUJCVGZmZldUR2x6?oc=5",
+        "source": "FinTech Futures",
+        "published": "2026-07-22",
+        "fetched_at": "2026-10-21T18:12:32.542Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-07-16",
+        "summary": "AngelList acquired Ark to combine fund administration software, banking, and AI in one platform.",
+        "confidence": 0.99,
+        "headline": "AngelList Acquires Ark, Combining Fund Administration Software, Banking, and AI in One Platform - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVWlvUWd4MDJNdl9Mak9WTkYyUFVpdWxSa2N2WENreUxUbi1oSjIxSmJELXFnMzRXT1I3UjlMUkM1UVQ1SXR1eGJVLVFmcXhEcTdoYXl4NmVUcmNUSmktcXNRaUM1aUVhV3g5Z3FVSDhJZnZlM0ZEelEwMmdtWEc0VEJFY0hKODZHTUtjVXRrb2VLOVl5NlJXTFhKMVVvQ3EtNmxN?oc=5",
+        "source": "Yahoo Finance",
+        "published": "2026-07-16",
+        "fetched_at": "2026-10-21T18:12:32.542Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-07-16",
+        "summary": "AngelList acquired Ark to create an integrated fund administration, banking, and AI platform for private markets.",
+        "confidence": 0.99,
+        "headline": "AngelList Acquires Ark To Create Integrated Fund Administration, Banking, And AI Platform For Private Markets - Pulse 2.0",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLW9lRlp0X3FXVG1DaVlFSGR0a1QyTnFEZ2Q5Qk8tNUFELWNhbVluUHBPWHp6djhpQVNScUZjS1prdzRib0VIQW1aOTFvSElnYUpqTzNVUERGaEhTMk9YTVk3ODQ1RjJHdnUtblY2eXBzUUwzMDlKVnZoMkJxODB0UzlZUldDVW5SVjF2TU44U0hvUFB2TGJVdWQzQ0tsV0YtLUlNb3FGWWx2V1pVVGZadzB6MElkemlhV0lONGRkTFVVUDMxd0HSAcsBQVVfeXFMT3VqSW1WTzZCNkdFT0ZQQUVXVFJnMS1ySU5pV1dSbk1LRTRIXzl6Y3BoSER2dEZEQmw1cjNZUWZBTzlqMFFaRmo4TW1zWjZXN2VnSGVURGJZZ1NoV0ZFdF9lLXgzYTBqRi1pRHJ1N0xrakZDVXA4YV9HRjJZNUViQjhXZnczRHhKN2JLV0p5cTF1T2pjeHZZRWFDLW80RGlldF9CM0xCM29UZThFWWxwOTRCeGhyTDNDYnRuV250U2k4eUJpOHpMNlF1bzQ?oc=5",
+        "source": "Pulse 2.0",
+        "published": "2026-07-16",
+        "fetched_at": "2026-10-21T18:12:32.542Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-07-16",
+        "summary": "AngelList acquired Ark to expand its private markets software platform.",
+        "confidence": 0.99,
+        "headline": "AngelList Acquires Ark to Expand Private Markets Software Platform - citybiz",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU21QbHlpdERkdnVFT1ZWakNtcEpCNjNDRkplVlV1WW50dFRBWHlvUlVPUVBDNXc1SnVLX29ZUEgzcGlyT0pXbFhXcnBLRERfOXB2b1oxU2N4S2hMelVGYXI5Zm1oZWhWQnRzYW9MX240NmZpZFB3T3dhUlkzaGZyQ3dKcjktNExzcGF6cFYzd1JfYXdERVRuMXB5d0xnVVpsNzdpb3M4eDU?oc=5",
+        "source": "citybiz",
+        "published": "2026-07-16",
+        "fetched_at": "2026-10-21T18:12:32.542Z"
+      }
+    ],
+    "latitude.io": [
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-09-11",
+        "summary": "Latitude raised a $35 million Series A round to expand its stablecoin payments platform.",
+        "confidence": 0.99,
+        "headline": "Latitude Raises $35M Series A to Connect Stablecoin Payments to Local Rails Worldwide - Financial IT",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYUNWclRVMDVJOVdLTThoRHM0TDNENExPb21WdE1DMTJtS2RMUzhiNEstYTduNjV5R3oyaVpsX1JMcUNQVzE3MkMzbEVJOGR1VmxaTnhZTm92TWpoYzhEQWFTZU9RWDdRV21ybGY2WnRna0l2NWQ4RVlWLWxLeGFYM294dlhmUTkzV1Z5YVg1THFDdlQtRUFDVmVWczNDNEVMQS1rMFNvekgxbi1pbzFPSnBTOTUzMXlxcjNhUmJ2aw?oc=5",
+        "source": "Financial IT",
+        "published": "2026-09-11",
+        "fetched_at": "2026-10-21T18:12:37.078Z"
+      },
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-09-11",
+        "summary": "Latitude raised $35 million in a Series A round to connect stablecoins with local payment rails worldwide.",
+        "confidence": 0.99,
+        "headline": "Latitude Raises $35 Million Series A To Connect Stablecoins With Local Payment Rails Worldwide - Pulse 2.0",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdlVoQ3FSYzZvSEt5WVhYLVdlaU4tUHVQWWt3ZEVVZzBjUDVXTHpkM3MyQUYtQVROMDdMM1RsRmZvdWFIa2xLc2NBRTRBMUN6Q3lIYlFzS0pOZlVtWjd2MkVzbktRbDBHMVU5VHJGWjZOVTl6QlFSRGhqd0l4dEdrbVoxV01Eazlsa1M3bm1DbHJ0RUU4amNraGVkREVocDlTS19BQzRMdVdiUkxHMG94VlgxSdIBuAFBVV95cUxOdlFtcVJwdktwTjBJSDJOVFd0SHI0SXJ4YW45MW1RdGpwcGM5NGV6ZjhTTWhTVFpwbnphMkgtYUNIcm85cnN1TzZGTk1uVDVBVHZ2Ri1LZEd1SlZBd2RmWXBGek9VcHo0c040ZFNGcFBLSmJBbHNsdVRjV2MzQlVoVlkwdTdpV3lfUVNCV0lVLXN6WkRYcEVFcjVVdXY3RGpUYnFxZXFlTkFFTzczNVc4bkxpNDloNXRZ?oc=5",
+        "source": "Pulse 2.0",
+        "published": "2026-09-11",
+        "fetched_at": "2026-10-21T18:12:37.078Z"
+      },
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-09-09",
+        "summary": "Latitude raised $35 million in a Series A round to scale its stablecoin payments infrastructure.",
+        "confidence": 0.99,
+        "headline": "Latitude Raises $35 Million Series A to Scale Stablecoin Payments Infrastructure - citybiz",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNT0xvU2o1SDhscnF3QUpfRmxqamR0dnlPdzZaekdIUGltU2d6SjRYbXQweEJvTUlmNVg3Ym8xdmZwSG0wT1BiRXo3NmRwaXZjLU9nSlZqVWlEc0s3REltRHR3QTdPQ0dCRmdrdU9maUFlSWdQVkhaRHluMjRZUF9Pd3ZHQlU5Q19GcW5QMzdqT09EX0FzXzdweXN5SXp6U21fUGNRT18yRDRSc0ZvSXJXdXlSai1EUGlkZmc?oc=5",
+        "source": "citybiz",
+        "published": "2026-09-09",
+        "fetched_at": "2026-10-21T18:12:37.078Z"
+      },
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-09-10",
+        "summary": "Latitude raised $35 million to build local stablecoin off-ramps.",
+        "confidence": 0.98,
+        "headline": "Latitude Raises $35 Million For Local Stablecoin Off-Ramps - The Defiant",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa19aYmR6dFFpQ3VtWHkyc3hUVFhCbjJwWUtrVGR4V1FEMVM1aWc4ZVZpUlkzVmsyYWtiSktCQnRQeUR2Z1UxSy12ckhicm5peVlaY0Z1OVBxZVRnc3dEV0hRN0RUVVJaNUJIRmt4VmJQbnVHZUg0VU5JOWxQdS1UY2kwYzlzZGlSd1dkRU1DdUI?oc=5",
+        "source": "The Defiant",
+        "published": "2026-09-10",
+        "fetched_at": "2026-10-21T18:12:37.078Z"
+      },
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-09-09",
+        "summary": "Latitude raised $35 million in a Series A round for stablecoin payments.",
+        "confidence": 0.99,
+        "headline": "Latitude raises $35M Series A for stablecoin payments - Dealroom",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNmktdFVTNzZuc3NWZmFaZ0lWc2hTNE5RMEY1OTBNR1ZRYldvS2R6cDZab2hKZ2JKeUxJX21MbFNXNUFmT1E1VFRCQW1GMVptSDV0X2ozeU8wZVU1LWRnZEpvcXU2dVpjZjFsYUpLZ0pEV29HVkpFUlhQWUlmaEo1XzliS1ByOTNtVHIzcE02WQ?oc=5",
+        "source": "Dealroom",
+        "published": "2026-09-09",
+        "fetched_at": "2026-10-21T18:12:37.078Z"
+      },
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-09-11",
+        "summary": "Latitude secured $35 million in a Series A round to scale global stablecoin infrastructure.",
+        "confidence": 0.99,
+        "headline": "Latitude Secures $35M Series A to Scale Global Stablecoin Infrastructure - FF News",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSHFDSjJRU0FSazh4YkhuVVNNZGtmd3RhakxXMGtycGNWN3Z4M1k4dXFlZFFkLTJSX19JcWZ5VEJCMkhPM1lUTm9LcnJ3WjZxTEtvVlUzNkhtSzRlbzcycEFST0pQckVxbVpPRFgzUG5JdlB1MmFWb1l2Q1c1MW1kYk9PcmFGaXBTOGEwV2ZPRVp1LVZYWFEtbkNyS2tPVEc3aUNvTDFJREFEd2w1WUIzSlFNMA?oc=5",
+        "source": "FF News",
+        "published": "2026-09-11",
+        "fetched_at": "2026-10-21T18:12:37.078Z"
+      }
+    ],
+    "perplexity.ai": [],
+    "poshmark.com": [],
+    "forter.com": [],
+    "elevenlabs.io": [
+      {
+        "trigger_type": "new_finance_leader",
+        "event_date": "2026-09-08",
+        "summary": "ElevenLabs hired a CFO and is reportedly eyeing a 2028 IPO.",
+        "confidence": 0.98,
+        "headline": "ElevenLabs Hires CFO, Eyes 2028 IPO - The Information",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTnBsV1VZb3d4SVhGMXNmQW5oYTFiTG8tSERFcnVUcU9Jai1VTXlFbjJEYXI5dGpmSTFrT0h6V2Q3TzBReGl3Y3ROSmtrN2FsbzVOVVJhc3o3cmxvRjVGZEptSlRmM2gwcUkzcjJ6d2ZldUkyY1FpN1dLRUUwMW1vWUF5d3EwTlBnQXhxalZQbjA?oc=5",
+        "source": "The Information",
+        "published": "2026-09-08",
+        "fetched_at": "2026-10-21T18:12:58.217Z"
+      },
+      {
+        "trigger_type": "international_expansion",
+        "event_date": "2026-06-02",
+        "summary": "ElevenLabs is targeting expansion of its Warsaw hub, indicating a new-country operations expansion in Poland.",
+        "confidence": 0.92,
+        "headline": "AI Voice Startup ElevenLabs Targets Warsaw Hub Expansion in Push for CEE Clients - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWjRBeUxoU3VlaGx3dW42RUFucU1OcXhpYUtLM2xXeDEwVHdMZmg0Rlg5QWdXeGtHQ015OVgxcmFraG8tMmgydnVGWlhKSm5OTVNRaDBDejlSeGJFNGMzeXNQVjgwQmM2ejNXNHo5aklIRzZhSjg2dXZldG96MlJBZmFaSFczVGtBMFdwV01kM1ZNbGtfTlp1d2ItLXZVOXN6OXk4RG9XdWdaTkxjazRWSzFaQzJkTmYtbTV0RUhpTlhYQ19ld0RyVUxXdw?oc=5",
+        "source": "Bloomberg.com",
+        "published": "2026-06-02",
+        "fetched_at": "2026-10-21T18:12:58.217Z"
+      }
+    ],
+    "klaviyo.com": [
+      {
+        "trigger_type": "restructuring",
+        "event_date": "2026-10-01",
+        "summary": "Klaviyo announced layoffs.",
+        "confidence": 0.98,
+        "headline": "Boston-based tech company Klaviyo announces layoffs - NBC Boston",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSGMzQnYtdnhSOThjU2RzWlhsWFBMeFI3VEFURlRMc2JBbWFocTlmWUtYWEZJR2RiR21SSk9QOW5oTUp5R0p2ZDhhUmk3SkU0SlBOYTFOdTF5YjlrMWZRbGxqcFpKNHFPZlUxYmdSNUNnRkFMR1g0OUV2UjlsTHk3eVVHMWNUMl9FNFJ2RWZZM1JWblNVbTVaQjBweldMQjE5bDFDVEZxSTFuMkFnRTlv0gG3AUFVX3lxTE1uS0tMbThudllMZ212YUdjLV9BdWtMQ2xnWmFQUWdnWl9BU1NIX01KNmRGTmdobVdjbk11QndnbV85YUtTVlE5c1dGMDJJMDFfcllCWEd3Ry1mUTE4czFDQmxvZ1p1bzBMdW1xRzNVbkhWaXBYckZnS0Vkc0ZfUGl1UE5rRGdaaW11VzRRNDNqT2dxNkN4U1Z3WWU3azd3eUZXZnVkZHZ0MkREX3JhZXRpNGg1RHRyZw?oc=5",
+        "source": "NBC Boston",
+        "published": "2026-10-01",
+        "fetched_at": "2026-10-21T18:13:08.269Z"
+      },
+      {
+        "trigger_type": "restructuring",
+        "event_date": "2026-10-01",
+        "summary": "Klaviyo cut roles in design and product.",
+        "confidence": 0.97,
+        "headline": "Klaviyo cuts roles in design, product - The Business Journals",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2ZHYXVqYzZEbGNWdXFMSUlyMkplYVNUbFMydzl4WEVsNmxZTTVuY1lsMFBkbUo5NWt5LU9yRHJyS3NIcmVWMFg4MW45RmZ6R1gtM1lXS1RhS25uWkd6RWFIZDVmSTJsTXZka3FxV1lURnlxeGh6T2J3M2hFLVBNZTBla1pLUlhJM0lpOHZnU2RGQUgwMkIw?oc=5",
+        "source": "The Business Journals",
+        "published": "2026-10-01",
+        "fetched_at": "2026-10-21T18:13:08.269Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-08-05",
+        "summary": "Klaviyo acquired Elias Torres’ Agency.",
+        "confidence": 0.99,
+        "headline": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders - TechCrunch",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa3FKSms3akw1WUlGRFFlSTYtX053UUtiUzBUUnJkUHQ0WkEwOVBwSHBFTWk0bFUycFZxVkJrNGhCUThtb1Z5d29ndUJXUnIxYlE0akcyYlZLZ05FTmVTLWQ5c2FWM3ZRRFRUVmVVSVBtUFJLdEo4NURJTlNoMDV6bThVUlI3YW80WWw0YmRvWjI1SUFzcEdEcnhOcWVYdEJ4MXdhUGIxb3pLejRCd3dtVEdR?oc=5",
+        "source": "TechCrunch",
+        "published": "2026-08-05",
+        "fetched_at": "2026-10-21T18:13:08.269Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-08-05",
+        "summary": "Klaviyo completed a strategic acquisition of Agency and its team and technology.",
+        "confidence": 0.98,
+        "headline": "Klaviyo strengthens AI capabilities with strategic acquisition of Agency team and technology - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOUN6SUhNakFNMWY2d0U4MFk5RlAxeldsclpvYTZMZ2o1OVU2bHl4ZGVEcUpuVkllaWtLUzBjODlSUVZLSDZYZDQ5ZFYyRFczUHFBeHhVX2lScUNFQnlQSlc5Qmg3cXZEdDFLZjJBUjB5RFNMRll1YktXbHZVWnVTSllQbmdINEZueDlLUXU2MkdoNFlEenVEYzdiWi0yQjA2bXJnNXVaR2p0OUxxbVE?oc=5",
+        "source": "Yahoo Finance",
+        "published": "2026-08-05",
+        "fetched_at": "2026-10-21T18:13:08.269Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-08-10",
+        "summary": "The article discusses Klaviyo’s acquisition of Agency.",
+        "confidence": 0.97,
+        "headline": "Klaviyo’s Strategic Acquisition of Agency: A Major shift for AI-Driven CRM? - The Futurum Group",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX0xjSEljdV9XSGhqRkMxaUY3Y0djeDBYM2J0cnV1R0kyX2U3LVF1ZEJTM192MGRDcjBlY0JNT1FVeVdaWjE0ZjRRUnY1QWp2SnFxOGczVENkVEdjV3BVeWZYcWFqMHFYRkh0T0M0YnJ3T2N0bzZOcm53YjN2ejVFWlhDdnFpd2F1dVowMG1WX1VZeFRSazZXNEk0M29uZG9iYTBacEtObWl2TG8?oc=5",
+        "source": "The Futurum Group",
+        "published": "2026-08-10",
+        "fetched_at": "2026-10-21T18:13:08.269Z"
+      },
+      {
+        "trigger_type": "new_finance_leader",
+        "event_date": "2026-07-13",
+        "summary": "Klaviyo appointed Erica Smith as chief financial officer.",
+        "confidence": 0.99,
+        "headline": "Klaviyo Appoints Erica Smith as Chief Financial Officer - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdHc1NTlCMjhrY3plSXJuY0VzTXNRS3JhMnR2dkVWU0NuaklqNlpPRXFaM0gzSHBfZTU5N2pOVUtMZXY1My1IR3dfSUhIOHBIUXRFZkx5T09GMW9pZGIzR2RkbTN1WTkzWkxocE9IQ0lZbGJIS2s5NndSc0Y1bXBmYTlUMEFyeE5WSTBjWXFjOXB4TFd6STVuYzJjWnhXN2UxTlhWbFVwTGZVaU0ydHJBaVZB?oc=5",
+        "source": "Business Wire",
+        "published": "2026-07-13",
+        "fetched_at": "2026-10-21T18:13:08.269Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-08-05",
+        "summary": "Klaviyo bought AI startup Agency.",
+        "confidence": 0.98,
+        "headline": "Klaviyo acquires AI startup Agency, expands AI agents - SaasRise",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTVpCSmVpQVJVTllVMzVqLV9BWExYUFBwOUwxejlGelozZmFNUDNSdHBMVUU2R0NiUTBCQXdIc0p4d1ViN1V5M0hhQ1JOS1lOdElTLTNrRlB3Tl9iS21UOWtGdWxldnVkV2psU1NwTjZUY0Q2bTVxUVB4SkxfUFJzTHdOeVpjU2NzM3N5TV9QNlloUDIwc2RkSC1RdU9NcTVSQXNEVlUzVldwUV9ZdlRfRnZvMGdXdEdPRVFBRC10cXJ0LU84dXBtd1VFMllOQnU1eE5odUtsLTNIS1ZYemc?oc=5",
+        "source": "SaasRise",
+        "published": "2026-08-05",
+        "fetched_at": "2026-10-21T18:13:08.269Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-08-05",
+        "summary": "Klaviyo acquired Agency in a deal involving Elias Torres.",
+        "confidence": 0.98,
+        "headline": "Klaviyo acquires Elias Torres' Agency, uniting former mentor and protégé - Dealroom",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRUxYYU8zOEFGMjVmMVZleFVzV2hvMmF6aDNPYWhlRFdSTGw0eUtSeDRvN0ExRmNBUnoyeDhWT3VXeVZ3U1VyMHU5TmFtQUhWZTUtRExPUy11Qmo4d2pLb1M0a1ZXUUFycW9wU3BDZ0pwenFCdTY2WjY5NmJMTDM5U0NZU1kwZHlNWk5kQ1d2Y3kxWVBTb0JNN01yeEpKTkNfY2taLWYzQQ?oc=5",
+        "source": "Dealroom",
+        "published": "2026-08-05",
+        "fetched_at": "2026-10-21T18:13:08.269Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-08-26",
+        "summary": "Klaviyo is buying Agency to add new capabilities to its marketing tools.",
+        "confidence": 0.95,
+        "headline": "Klaviyo is buying Agency to add returns, order tracking and AI support to its marketing tools - MarketScale",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaUN0TjFvTDlVOVloQXhJcjNONURwU2NoRlhvQWlCVXRBSEpDb3J4U2VSUWJ4TnI2SGJURTJYWjhMV3RSSkRxV2ptYktlS0JCZ2ZmU3UyTE5UcTdRN1EyWDl6N3JqRFVzR29ZMnRIZGQ4MWJUSGZRbGZ4MW9Rai1VeGRHX0NFOWZZTjVzWkp1SUtyN3pxOGlqaGJZbmRINzFhX0NLSW92TXdZb2Z2b2I2RnEtUUdIZ01neFhwTXoxOFZYMHM0Z1V5Q0FkRklDcUQ3azZULVVRRVpPWFpIUWtZ?oc=5",
+        "source": "MarketScale",
+        "published": "2026-08-26",
+        "fetched_at": "2026-10-21T18:13:08.269Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-08-07",
+        "summary": "Klaviyo acquired the AI agent team Agency and named its founder Elias Torres CPO.",
+        "confidence": 0.96,
+        "headline": "Klaviyo Acquires AI Agent Team ‘Agency,’ Names Founder Elias Torres CPO - Wowtale",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01STBPUE5Sa0dDOFk1Y1FCVm1HOXI1VmVzemR5R0J2UVExX1oxRW5ndU50bU45Z3FHblEzbjlBZXRpay1KS0RJdWYtd3ZzYjFFcWlN?oc=5",
+        "source": "Wowtale",
+        "published": "2026-08-07",
+        "fetched_at": "2026-10-21T18:13:08.269Z"
+      }
+    ],
+    "clickhouse.com": [
+      {
+        "trigger_type": "ipo_sox",
+        "event_date": "2026-05-27",
+        "summary": "ClickHouse's revenue growth was reported alongside its path toward a potential IPO.",
+        "confidence": 0.91,
+        "headline": "ClickHouse triples annualized revenue to $250M, charting a path toward an IPO - TechCrunch",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNd1RGcWcwdkxZZ2FSSlpVcjBkeGJsUlFQbVVXWXJPRDNHM2tJUHhmQV9ROFlTblJ0WnRZeE5ZcUdGSnRZalI0VFJTRTh2TDFudTByY09HcTcwNFBwUFBwYl9VbmIzWUU4NHUwSkZzRUV3LWlsSEc1ZU9fNDBobXYySFFES2FnSDJKcVhpUnN2SGxDWjE1alp2N2xnekcyUzFHSzNoVlNQbkdXUEFyOFFF?oc=5",
+        "source": "TechCrunch",
+        "published": "2026-05-27",
+        "fetched_at": "2026-10-21T18:13:15.599Z"
+      },
+      {
+        "trigger_type": "ipo_sox",
+        "event_date": "2026-05-27",
+        "summary": "ClickHouse reportedly tripled ARR, hired an ex-Snowflake CFO, and was eyeing an IPO.",
+        "confidence": 0.97,
+        "headline": "ClickHouse Triples ARR to $250M, Hires Ex-Snowflake CFO as It Eyes IPO - MLQ.ai",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSFNXZ0NVZDBiblptTnhLWjRLQTRyQUNjcVNsZUVfMENINTdoWnhOYmpvR3IxbkFLYjJJcnJ1OV9heVJhSkF3b2E2ZldHWHZGc0Jsa05QbGh3czVCdERSMXZqN241N3FCa2lwTVpvbUVvM0VkYmc1cTM0MDN6eDg4Z0tSOTBrOFU2MVlOdjFiaVM1Uk0?oc=5",
+        "source": "MLQ.ai",
+        "published": "2026-05-27",
+        "fetched_at": "2026-10-21T18:13:15.599Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-09-02",
+        "summary": "ClickHouse acquired RunReveal to deepen its security analytics push.",
+        "confidence": 0.99,
+        "headline": "ClickHouse acquires RunReveal to deepen its push into security analytics - Dealroom",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORXBwMk5xdEk3cjcyM1NLY3BTcTg3WUZJWFp4WC1HOW5QMlEycVRWZ2ZQSTZtdVcxaUg0ZGpzek41enNZR0k0Y0FBS3RDWG5GNFZYOWx1NlQ0WVJReUVkZkVackpieEdQWUNwelBYUWREdXJzUGdaeGJBWnVtRVZlSUphX1R6REtKcXRrMExGUE9LQWlLak9FUHpGUlJKQ2EtMm41ODZQUUhuUQ?oc=5",
+        "source": "Dealroom",
+        "published": "2026-09-02",
+        "fetched_at": "2026-10-21T18:13:15.599Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-09-02",
+        "summary": "ClickHouse bought RunReveal to boost its security analytics capabilities.",
+        "confidence": 0.99,
+        "headline": "ClickHouse buys RunReveal to boost security analytics - ChannelLife Australia",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdGwzRzdyRW15MWI2Y3NOU1ozLTJzUVpHWWowTXNDQzdPMHN0QnhydndOYUVwQWpjb0JEeDNPN0lSWGhqc2NJTTUxMFNsbml3b0x1SXBuWEpsZ2xvUkFLZG96VG8yV2ZsRm5xRk5TTUhUYmZlV2d5Tk5SRldjMEdSdXgwVGk2RlNEbjkwSF91NA?oc=5",
+        "source": "ChannelLife Australia",
+        "published": "2026-09-02",
+        "fetched_at": "2026-10-21T18:13:15.599Z"
+      }
+    ],
+    "thrivemarket.com": [],
+    "avetta.com": [
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-09-19",
+        "summary": "EQT acquires Avetta from WCAS.",
+        "confidence": 0.99,
+        "headline": "EQT acquires Avetta from WCAS (supply-chain risk SaaS, Apr 2024) - Dealroom",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWXJlYnJlNTNDNDNIakwtRlhEZVZKSWFwTVVDLXNmdU44dzM2OGE1RjQyMTlJSXJ2VVZ5SThLcERxZ2NjX3lZRHN0b25qRnFfNHV1RFRwRHJ1Y1RsakkyYmJJQlVYMjNReUNBMXBWdVkwVUQ5Q2duTjVSNXFRUGlPOXpHemg3V3AxYTJ1eDNqdHNjUi1xck5ULU1HVQ?oc=5",
+        "source": "Dealroom",
+        "published": "2026-09-19",
+        "fetched_at": "2026-10-21T18:13:26.484Z"
+      }
+    ],
+    "snyk.io": [
+      {
+        "trigger_type": "restructuring",
+        "event_date": "2026-06-26",
+        "summary": "Snyk was reported to be cutting jobs.",
+        "confidence": 0.91,
+        "headline": "In Other News: Chinese Mythos-Like AI, Tata Electronics Breach, Snyk Layoffs - SecurityWeek",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOTNIVmZ4QVN4TWxBQlU4akstcURGSVp2SDRUT0Y3WVpJQ2JtNkRlaUZUQ3VxT3pjeG5fX3gzUjdwZ0JzNjc2Sm0xckhfMF9FdTlXUlZaSWdveTlGSUN5OG4zQU1RQXd1RzBBUTVxQlJ0dlNWeVpjUENhMzd4TjloQll0ZmRudlcwc0tNYkVsR0tiRnFzRk9qZnNTZVp2ajFaaFg3c0x30gGrAUFVX3lxTE84ME5fZTQ0YVAzb0tUZFZxeTAzSlhGQU93NHNuWU92cFdmUWxXV2xiN0J5NmRESC1pYmZZWEJKWEpWTVJlQTBLam16c1poMmdPUjRiWE5yQzlIZEUxQXRzX1VUekF4TFBpRmxaTzdtVjgwSzhNZF9mMGpXaGxtYzJIRjRWVHJ4YlVJVUZtSm5NWUFPN25KRXlRdG54ajd2TkF3QlZhZVNNeDRUaw?oc=5",
+        "source": "SecurityWeek",
+        "published": "2026-06-26",
+        "fetched_at": "2026-10-21T18:13:30.293Z"
+      },
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-09-25",
+        "summary": "A funding-round listing indicates Snyk raised new capital in 2026.",
+        "confidence": 0.77,
+        "headline": "Snyk - 2026 Funding Rounds & List of Investors - Tracxn",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNEdRY00wV0ZTWW4zbGNZTUNsd2tvY2dRWFJxTVoycFZTNGxldHYtZS1ZT2QtTUhNU3BlOXRtaGRaVW1hWHEzSFlrbWJqMnZLaVl1SVVrSjlWcnBjcE9SSXFidnR3LU9jOHBGZUxuRTZQYVIyQl9vYVNKTzBMczNJTUJ4dmFJX20ySFJBak0xX0RqLWdNVWNWdE92RjkyZHNkRTdFUDZ3?oc=5",
+        "source": "Tracxn",
+        "published": "2026-09-25",
+        "fetched_at": "2026-10-21T18:13:30.293Z"
+      },
+      {
+        "trigger_type": "restructuring",
+        "event_date": "2026-06-25",
+        "summary": "Snyk cut jobs while increasing its focus on AI.",
+        "confidence": 0.97,
+        "headline": "Cybersecurity unicorn Snyk cuts jobs, doubles down on AI, as LLMs bite its lunch - Cybernews",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iU3dwc0VUNFdCeDI4YU1NLUU5dElsYTlPU0YzQUNycnhlTzUzUU43OTVyODdqOFFjaWNvMlNVVFFzTmxaY1pmbUp0WUtwUWJwb0tSOEhibVBLVDBNMTdYMVRSZndWS0Jja2M0Mm5TS2hNYXpuQ1E?oc=5",
+        "source": "Cybernews",
+        "published": "2026-06-25",
+        "fetched_at": "2026-10-21T18:13:30.293Z"
+      },
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-09-10",
+        "summary": "Snyk reportedly raised $200 million in a new funding round led by Addition.",
+        "confidence": 0.99,
+        "headline": "Snyk bags $200m in new funding round led by Addition - FinTech Global",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNzZ1bEx1RGxWWnl0Zy0zd0RGQlFDc0dOYl9jUEl0OGdMUm9oNnRIdFlfcE4waUtET1RuLWo3Slk1VDJ5SDUxMVRDTnJWM0Zza0tLdVJzRkNuYzdpUjE1ekdaTnQ3YVhXc090MUw1MHlBaHd3Q2w5UHRiVVVhcDYyMEllZGlHMUsyb0s3QTNzWWQybkJ1?oc=5",
+        "source": "FinTech Global",
+        "published": "2026-09-10",
+        "fetched_at": "2026-10-21T18:13:30.293Z"
+      },
+      {
+        "trigger_type": "restructuring",
+        "event_date": "2026-10-01",
+        "summary": "Snyk laid off 20% of its workforce after writing off technology from prior acquisitions.",
+        "confidence": 0.98,
+        "headline": "Snyk laid off 20% of its workforce after writing off technology from Israeli acquisitions Helios and Enso - CTech",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5abmdGMWdTNDVxWFZCa1lnU0FEVGwtNTcyNUJ0YXlycHdhQzFyNkZKUXZzdm5BSm1VREh2cmkzbXRKS0ZyaWtmT3d3dGdqUXhXdGR6My1kNjF4Qk9yOGh6d0tGZ1RqblU?oc=5",
+        "source": "CTech",
+        "published": "2026-10-01",
+        "fetched_at": "2026-10-21T18:13:30.293Z"
+      },
+      {
+        "trigger_type": "restructuring",
+        "event_date": "2026-06-24",
+        "summary": "Snyk said it would lay off 90 employees.",
+        "confidence": 0.98,
+        "headline": "Snyk to lay off 90 employees - Globes - Israel Business News",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zZ0tTcHcxY0tSU2xTbkUyMVE5dU04UTJLZi1QajBNcGVhSkZhT0VESmF6MFlfZXZnMnZZdE1pNzV4MVVtUXAyUVNrVGkwWVlWdXJGWmFfcXlfdWZXNFlGMjFoWXVIVjM0LWc2LTlmT3dSU3FTM053ZVRFUzVEZlk?oc=5",
+        "source": "Globes - Israel Business News",
+        "published": "2026-06-24",
+        "fetched_at": "2026-10-21T18:13:30.293Z"
+      }
+    ],
+    "includedhealth.com": [
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-07-28",
+        "summary": "Included Health agreed to acquire Firefly Health to expand alternative health plans for employers.",
+        "confidence": 0.99,
+        "headline": "Included Health inks agreement to acquire Firefly Health to scale alternative health plans for employers - Fierce Healthcare",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZnFnOVE5ZTNNMy1vUEJmMldyTWY2Zm1ubERTWGlSOERtODhJcjVVUW0tbENlZnRKMTlVNEt0Tm9DYnRpX2I0SlBJbk9QLUwtc3RFSlNFNGliWkJTNkVnRkcyQVh2dDlOcXVuWnk2QkkxeEtZYVpzdFFKYnRKSlc3RWlncjhUSFZFakU0Zk9CUVE2eUtqTE5vaE04eTRoRl9NVXpNMV9CSVFINktzV3hwdnluOTdwMzBZRjNnaUR5ajI?oc=5",
+        "source": "Fierce Healthcare",
+        "published": "2026-07-28",
+        "fetched_at": "2026-10-21T18:13:37.546Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-07-28",
+        "summary": "Included Health announced it will acquire Firefly Health.",
+        "confidence": 0.99,
+        "headline": "Included Health to acquire Firefly Health - Healthcare Dive",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOME5BV3otRlB3TVJ0Y0JVUjlkU09DM2RIWjQ5WTRfMVE0bFVqc3pEbkoyQlV0a3hjc3hIbHRiLVpfUk85MDg4azVzWFRLY3REZldDZnhFX1BxZnI2MGd0QzBTbERucFM4dEpYVzJLa29ickJOWEFreU80dTdDTUR3Q1I0WTBzdw?oc=5",
+        "source": "Healthcare Dive",
+        "published": "2026-07-28",
+        "fetched_at": "2026-10-21T18:13:37.546Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-10-01",
+        "summary": "Included Health launched Included Health Plans following its acquisition of Firefly Health.",
+        "confidence": 0.94,
+        "headline": "Included Health Launches Included Health Plans Following Firefly Health Acquisition - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRVd3WWRDYVdXLUZ5NXJveDZFaTI1MWhnbnJJanF4RzRLSXZuNVFENFI4b1V2LUJpWi1adG43cEVBdVVlc2R0QmhsVmh0T205SGhCX0NmeHROUlNsQjZ1cW10dUlMVG56ODlWMU5EWFoyZmxud1pJNVJ2ekV6R242Z2RjQ0Vjdk8xNGltcTBYNldQSUI0QlV3SGtYeXR4WkhXdVoxQ1JVeTUxam02c0xqYTJYeU9sM2Z6aFFNZzJHeVhMcXNlSjFKcDBRbFFwWHk1bzdTMjR1QQ?oc=5",
+        "source": "Business Wire",
+        "published": "2026-10-01",
+        "fetched_at": "2026-10-21T18:13:37.546Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-07-29",
+        "summary": "Included Health said it is buying Firefly as part of an expansion into virtual primary care coordination.",
+        "confidence": 0.98,
+        "headline": "Included Health buys Firefly as part of expansion into virtual primary care coordination - HealthExec",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQ1V5aDNpdDEtR0w3RU1jbEwtaFdQb0Jma25UWmM0dnJLd3ZMN3RtYTZYekFCb2Z2b3pzbDcwM2RpSFNJTGxuU2Vjc0xaRE8yVTVxT0dCeGs4RFpMYURKbWFsSkpiLUFOdEg3amNhUC11NXEtc09Mc2F0UEw2cXo0bmthal8yWDhkM2tfeldBVjlHdm94cmlFWW1zNGNQaG5PbnktRGlpSXdINDVtSlBzTUlJZVNvdHdjMUFVZ3lZV2N1NTU5NDRpYnl4ejlyejJDMTlYTWducS0tdF9VRmt4eUlUVjZkbVFNREE?oc=5",
+        "source": "HealthExec",
+        "published": "2026-07-29",
+        "fetched_at": "2026-10-21T18:13:37.546Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-07-28",
+        "summary": "Included Health said it will acquire Firefly Health to expand its alternative health plan offering for employers.",
+        "confidence": 0.99,
+        "headline": "Included Health to Acquire Firefly Health to Expand Alternative Health Plan Offering for Employers - MedCity News",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5lbkRidW5ZLXYwX1c2ZEM1TVFhd3BNbm9BT2hLM3RNVzFYblJyLXQ3VFFCMlVTQ29YM2s2RUN1bzlBYmthNmxmZzc3Z1RjOHFkY3pPQllZN291ZE1uQjhQWFRiVE1hdmViY2ZzQVVFNmNndnFXUkZv?oc=5",
+        "source": "MedCity News",
+        "published": "2026-07-28",
+        "fetched_at": "2026-10-21T18:13:37.546Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-08-13",
+        "summary": "Included Health signed an agreement to acquire Firefly Health.",
+        "confidence": 0.99,
+        "headline": "Dassault Systèmes to Acquire ArisGlobal | Included Health Signs Agreement to Acquire Firefly Health - Healthcare IT Today",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQ0JxTzNiWDNEX01IR1FxNnJDUGpBRzJ1aW5YNjFfY1RFa24tR3dmTGVLVHA5LXFZWHI2SEwwenR5NUdKNi1IeHVES2RZckMzQlBVX0Rna3plWVNzWXhXc19uWFowX29WU09nZ1ZLcGdSaVVvZFBDY1pWZzlWUG9mMmFZZFFSRmtqX3h4Wi1zWVdLWXJUWmtJMlJRTXBaeHZmcG0wVE5JOG5vdFVJMWZPeHY0VXBUVHpIbzFRRTVueENCeXZiQ0xEQ1kwM0Q4dnUyUkN0LUlBSzFTUWM?oc=5",
+        "source": "Healthcare IT Today",
+        "published": "2026-08-13",
+        "fetched_at": "2026-10-21T18:13:37.546Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-07-29",
+        "summary": "Included Health announced plans to acquire Firefly Health.",
+        "confidence": 0.99,
+        "headline": "M&A: Included Health to Acquire Clinically-Integrated Health Plan Firefly Health - HIT Consultant",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZVk2XzJCTVBjZTVhNVJ4aG9SeE9nUzFIeFBCTEVhNjZCeWlDamtKZEo4emN1YjBwV0FyTVRtSEh1TGZ1eWxySzNMRWRoVEZyamdOX2UyOFVZTEM5Z1NyWXFHNHRsZTB1TE5QZUVldy1NOEtXdEhVTVNVaGZCa1JVT013?oc=5",
+        "source": "HIT Consultant",
+        "published": "2026-07-29",
+        "fetched_at": "2026-10-21T18:13:37.546Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-07-28",
+        "summary": "Included Health said it will acquire Firefly Health to expand its employer health plan platform.",
+        "confidence": 0.99,
+        "headline": "Included Health to Acquire Firefly Health to Expand Employer Health Plan Platform - citybiz",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRG9FcmJhaVBKd1VJMWpLWUhwS2tmekszOXE4WGtGWF9lWnNnMHhWYnRNYi00V1VKbHRRRGlYZUl1Y243WGtxRjVFSXMzWmNzZVNiOFRZVDZXV0xZZmd2VDB1ZFRtVVRVNy1DS2F3VXNKQ1lYYVNRdG5uTE5uYlROamtodllqUW9LTGMwUU5vdmdSaXgtbks5VHZkYkhPdWtoblQ5RjRJUEpEcUdEd2VtZkFZRWhFS2YtcTZqYg?oc=5",
+        "source": "citybiz",
+        "published": "2026-07-28",
+        "fetched_at": "2026-10-21T18:13:37.546Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-07-28",
+        "summary": "Included Health signed an agreement to acquire Firefly Health and combine the businesses.",
+        "confidence": 0.99,
+        "headline": "Included Health Signs Agreement to Acquire Firefly Health; Companies to Combine to Deliver Clinically-Integrated Health Plan Alternative at Scale - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPd2ZBV2hMRmEyQ0U1N2EyTTAxWEZaaV96RG5QczNhRVNsamFVMkFNUUJtRWFKNlR3cmVRdC13U0h3Q3VGUDQ4b2U1bHdpOXB6QnJzUXdsQTNDNnJyNzBIYlFvdHVyY0taUHU1aklMYVlrM2hJNkp3Qko4bHpMYzlhOUZVZk15ZjRGYThVV2RuLVRYblgtSm5Mb3NEQnAxNTFGLUZSY1lwSG5QVDRUZ0F1aV9mMnZJbmQyMVJjVVM3RmN4UndxNXJ5M25FaEE0RnBPQThxV3c3SkZJYkNtcXJLR0JDRy05ckw3aENFNWdHYjRZbjRDUUFFT3gyYUdjOXViSkNIWlNTSm5MMWs5U2xIWWEyUkpUeGVIcHl5TEhITHczVXNudTd0TQ?oc=5",
+        "source": "Business Wire",
+        "published": "2026-07-28",
+        "fetched_at": "2026-10-21T18:13:37.546Z"
+      }
+    ],
+    "lemonade.com": [],
+    "flexport.com": [
+      {
+        "trigger_type": "international_expansion",
+        "event_date": "2026-09-02",
+        "summary": "Flexport expanded its fulfillment network into Canada and the UK.",
+        "confidence": 0.98,
+        "headline": "Flexport takes fulfillment network international with Canada, UK expansion - FreightWaves",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRnlEN1MyTVZiR1N3aXFDbVF5UmtXck80WHRPMGc0MXkzRjVpdzFMT3ZsOXRFSVVHdjlCSEgwUnRadUxGRnQ3M1B4R3ZuNDdGaUJENnFhT284NG1Vbm53Rms0R1pmbUkxb2hfQm1WeEFlZ2xlQk1IQXVkb3JqLVk2OGFxVlNpT1huejVqMDRsc0RsYVFRUGFIbkE1ZmZkZnV5eUxDQmdaRURpclU?oc=5",
+        "source": "FreightWaves",
+        "published": "2026-09-02",
+        "fetched_at": "2026-10-21T18:13:49.212Z"
+      }
+    ],
+    "roofstock.com": [],
+    "benchling.com": [],
+    "liquiddeath.com": [],
+    "notion.so": [
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-07-25",
+        "summary": "Notion is reported to have acquired AI search startup ZeroEntropy.",
+        "confidence": 0.99,
+        "headline": "Notion acquires ZeroEntropy, the AI search startup co-founded by Moroccan CEO Ghita Houir Alami - FWDStart",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRnEwOEZKSkFhOG5ycjVjZDRjOVRhdm9jRFhreEVrOVdlTGlqNVBDZ2hzRk92dmZ5TzA3ajB0eV90X29GWFBBV2pQYWdyYkhaN1FPTno0amp3M2FLUU9QdGpCby1Bcm5SN3pRc0kzeVFwZGlIUS1abWRETUVXS1NVZjVpUndvWjdZR2lINzRUN3M4U19RZ0w1TnJUT2tRTlIyWkpNbHU1ZmJ1YzBtZEw5SVc2UHI?oc=5",
+        "source": "FWDStart",
+        "published": "2026-07-25",
+        "fetched_at": "2026-10-21T18:14:05.004Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-08-01",
+        "summary": "Notion is reported to have acquired AI-retrieval startup ZeroEntropy.",
+        "confidence": 0.99,
+        "headline": "Notion acquires AI-retrieval startup ZeroEntropy - Dealroom",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUnRrakg2UURFczEzZTNKRC1iZ0JYcW5RWU5HZFdQRFJ0eFUxT1RiYXo5V09nUUZKalNMWngtUzB1M3E1VFJObWdxWk5rbS12LUxlNXY2MENicUEyMktuWmtaOVBsbFRjMUY1VXdQYjJ3cnMzWk42THRJbzRQbUxBa0hlcEc1QTFWUXc?oc=5",
+        "source": "Dealroom",
+        "published": "2026-08-01",
+        "fetched_at": "2026-10-21T18:14:05.004Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-08-08",
+        "summary": "Notion is reported to have acquired ZeroEntropy.",
+        "confidence": 0.99,
+        "headline": "Notion Acquires ZeroEntropy, Co-Founded by Moroccan Engineer - Morocco World News",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNR2xZQXRuak1aOWpaMUM4bWJ1Y3hQbUVjLS1JaHNvTGptczQ2eGZtVHdkMzNodjhLMWc3TUFLVkVJVHgxaHZVam9qWTNlQXdTZjdLT0RVOXZEbHBMRDhoVHVlN0lrR0NiSm03dWJtTUVyWVFzQlgzNVhuUE9iMTMyRVp3SXFoU3hMQVZvYXBKQlI3czVxWDdOZnhuUklYblVrLUVjQnpuYUs0T0lN?oc=5",
+        "source": "Morocco World News",
+        "published": "2026-08-08",
+        "fetched_at": "2026-10-21T18:14:05.004Z"
+      }
+    ],
+    "instawork.com": [],
+    "ouraring.com": [
+      {
+        "trigger_type": "ipo_sox",
+        "event_date": "2026-09-28",
+        "summary": "Oura delayed its IPO because of market uncertainty.",
+        "confidence": 0.99,
+        "headline": "Smart-ring maker Oura delays its IPO citing market uncertainty - NPR",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Pa3pYUi1ZWFBxRV9aRVFXRnRsVDRBdUxIMDF4cnF0TVkxS0FXWFpaVmhVeG0tTUtaYXhLbzhvRHFXUldRWWtGdXdQUHY4WnJISjhSTDg1a1N3ZVJPTEVJOUgyT3owbWJCWkNPV1RYTnR0dw?oc=5",
+        "source": "NPR",
+        "published": "2026-09-28",
+        "fetched_at": "2026-10-21T18:14:16.512Z"
+      },
+      {
+        "trigger_type": "ipo_sox",
+        "event_date": "2026-09-29",
+        "summary": "Oura delayed its planned listing as market jitters deepened.",
+        "confidence": 0.99,
+        "headline": "Oura becomes latest US IPO hopeful to delay listing as market jitters deepen - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZUt5V19wbkExakV3MUdDaXdyZkdoMkFENzk2ZXBabTdCVVUwa2pFOHUyT252SWYxSWRyMnVWZkJrTjF3OVdHck4xWWlJRTJ2UmVBVUQyaEVWeFZmalVFS3ZaSjg2WmNxcjRsUFdWUWR2NXl1TXE1WDl3M0pXdjY4dXRSWk10VVFuaGNYTnlpd0F5Nk5zWThubWpEZHN4NDBibTk0?oc=5",
+        "source": "Reuters",
+        "published": "2026-09-29",
+        "fetched_at": "2026-10-21T18:14:16.512Z"
+      },
+      {
+        "trigger_type": "ipo_sox",
+        "event_date": "2026-09-25",
+        "summary": "Oura's IPO was reported as being about four times oversubscribed.",
+        "confidence": 0.8,
+        "headline": "Smart Ring Maker Oura’s IPO Is About Four Times Oversubscribed - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZGtTMWJZSlQ2TE5QR3VKMkNYWVVvell1b1RiSmRtejZSWmo0X19wakhvMFZUMGdPLTZacnozblVsS3R1Zm9TN09Kc2syVXBQdktyaE9SSDlaZ0F6Vlc4UHZaRk9DcThPZnVfMGNlanoxSGVzSFcwYVB0bFpRMTJmS2RFUzJ2ZUREM0g1aVV4QXFUZmQw?oc=5",
+        "source": "Yahoo Finance",
+        "published": "2026-09-25",
+        "fetched_at": "2026-10-21T18:14:16.512Z"
+      },
+      {
+        "trigger_type": "ipo_sox",
+        "event_date": "2026-09-29",
+        "summary": "Oura postponed its IPO over market uncertainty.",
+        "confidence": 0.99,
+        "headline": "Oura Postpones IPO Over Market Uncertainty - WSJ",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUk8zQ1FvR1FvdEVoVkxCeTJ3MG9JcWV6UmFMbG9DRXVyVTkzYzV3V0ZrU21xejFNYmczU0tJd05RZWY4Y3RtUHlBTFVYeEJjYnp5MUFrMU5vLUw0MmE4T0E1N3ZkVXM4SXNyYnRscWQyR2FFYzNHYW9qa0lKZGRFX3V3?oc=5",
+        "source": "WSJ",
+        "published": "2026-09-29",
+        "fetched_at": "2026-10-21T18:14:16.512Z"
+      },
+      {
+        "trigger_type": "ipo_sox",
+        "event_date": "2026-10-01",
+        "summary": "Oura postponed its IPO amid market uncertainty.",
+        "confidence": 0.99,
+        "headline": "Oura postpones IPO amid market uncertainty - MobiHealthNews",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbHpXQnAzcHN6MUYtNHFWeWhheHR0Q0wzVFh5emVBaTRHQk84a0phQUdwRmxUdHhqaDctSkFMbTlHUmxZZGpkS3dyc21KME9jUld5UUctZ05MMV9Sd3kxc29jclJDUVIyZE41VllqSUdzOVZ2eUpPWlJtSXFhbkhVUGlLUzQ?oc=5",
+        "source": "MobiHealthNews",
+        "published": "2026-10-01",
+        "fetched_at": "2026-10-21T18:14:16.512Z"
+      },
+      {
+        "trigger_type": "ipo_sox",
+        "event_date": "2026-09-29",
+        "summary": "Oura delayed its planned $2 billion IPO.",
+        "confidence": 0.99,
+        "headline": "Smart-ring maker Oura delays $2 billion IPO - Axios",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1WUFBFM2hkUkhtaEhhVklZVzhId0Z4aU5kN1FwdTZXMG1tSExpNjNZVVhtdU1wUHQzanBUSmxFWDMxWWRZakNwRTJPazlEUEpQdEFoZW9QR3lTdGRSUWY3bWZRMU5SVVc4UHhQcA?oc=5",
+        "source": "Axios",
+        "published": "2026-09-29",
+        "fetched_at": "2026-10-21T18:14:16.512Z"
+      },
+      {
+        "trigger_type": "ipo_sox",
+        "event_date": "2026-09-30",
+        "summary": "Oura's IPO went from oversubscribed to delayed in about a week.",
+        "confidence": 0.95,
+        "headline": "Oura’s IPO Went From Oversubscribed To Delayed In Just A Week - Forbes",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLVQ3cmNRTEZlVmt4Y3V6WGdudGdOcHFBNFVfUTE5bDItVGh3d2kxbHdidzRKaHEwMTFpSXBYRm9Hczd5UWVnZTNUUGJFWW8zaDcxV2lPUmRoazd1MG5weXhTRzVSZnNqZXZQUUwtM1NVemNUNE8zTm4wemJ6MTRUQXI3MGRETUlwNC1TcUVCQjVqb2dMU0VncmFlZF9XTm9JWlNlcWRNTllNeGJhTUo1cnlZUEE?oc=5",
+        "source": "Forbes",
+        "published": "2026-09-30",
+        "fetched_at": "2026-10-21T18:14:16.512Z"
+      },
+      {
+        "trigger_type": "ipo_sox",
+        "event_date": "2026-09-29",
+        "summary": "Oura's stalled IPO delayed a potential payout for investors.",
+        "confidence": 0.96,
+        "headline": "Oura’s Stalled IPO Delays Potential Payout for Sports Stars, Owners - Sportico.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWWpvWjkxUWR6bUpjZUJWVTYxMzlfWlgxamd2OHRySlVhWk1kT2VrYmo3WkVXN3RNLUlkWkt2NFllYktHYTVIMTc4dTFlb2duUElCX1JFYThNNzhzd29iQ3NwYWgxaG4wWDNWSHdxNmNCbHM1U0QwbEVxeXJHWm90WVdESDlrMl9yd21Qd3UzbVZkT0FUYTM5UUp4Sl9YWUh3MlI1c2tpV09uNkpLbEdlcHNzNV8?oc=5",
+        "source": "Sportico.com",
+        "published": "2026-09-29",
+        "fetched_at": "2026-10-21T18:14:16.512Z"
+      },
+      {
+        "trigger_type": "ipo_sox",
+        "event_date": "2026-08-25",
+        "summary": "Oura's IPO was reported as potentially raising $3 billion at a $16 billion valuation.",
+        "confidence": 0.9,
+        "headline": "Oura smart ring IPO could raise $3 billion at $16 billion valuation - Quartz",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9Bek10bHlTVW5Sd3RScjU3X0ViREswQW1YQlZPaHVJZS1xem5PMHVUZlJ0VWdTYk16RFFyVTZqM2hYUldqUkxsOUJud3RmenVuUzJvRHpYSENXaFBhNGhseTd4SVpDcFNJeU85ZHh1Sld3VW5HdzIxUHZVUkc?oc=5",
+        "source": "Quartz",
+        "published": "2026-08-25",
+        "fetched_at": "2026-10-21T18:14:16.512Z"
+      },
+      {
+        "trigger_type": "ipo_sox",
+        "event_date": "2026-09-29",
+        "summary": "Oura postponed its IPO due to market uncertainty.",
+        "confidence": 0.99,
+        "headline": "Smart ring maker Oura postpones IPO due to market 'uncertainty' - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRjhPczhRWEkxcTJFWlExRXFHU3htOGVnUlRaWnh5NjVwTkdjSEJTNnlDVjF3ek55S3NVbWxnRm1qMWYyY2E4S3FhYldpOEpDVThMNmxsdU15NDdsRkxleHVyZERMM0l0ckhQSUJyTkc1VmtBRjBWUExVNURic0Z6THl2aXBvejFySldhM2pPXzljYTRudGJOMElSRUozTjjSAaQBQVVfeXFMTnd3UnBHa2RRSUhYVVdwQjN2VFA2aEQ5M2dYU01NUHdrTTkzMHEzc2g5czE4U1F4TEtrUWlGYkttdVdCb3NQTmxIdGJaOUVNQ25ESDNsZy1FZzNCQmY0Y1p5cXlsMHAyZmYySVlNSDdBSFN1WElfT1lNVjBWVnJBMUpLZlBoRXpBVHNibXNIZWhTZE1DSXpYcHBNTmlCaTdSdmJtUVE?oc=5",
+        "source": "CNBC",
+        "published": "2026-09-29",
+        "fetched_at": "2026-10-21T18:14:16.512Z"
+      }
+    ],
+    "fivetran.com": [],
+    "shield.ai": [
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-09-14",
+        "summary": "Shield AI was reported to be in talks for a new financing round at a valuation of at least $20 billion.",
+        "confidence": 0.95,
+        "headline": "Defense Startup Shield AI in Talks for Valuation of at Least $20 Billion - The Information",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeWZ6a1k3SkRSWlJDSFFRRWJRdHVaY2JyWkdFS2dDY1psdVh3RDBkQjUxazZ4RWZlZ0owS3FvS3A1Z1Y4N2RDNWdDdEw2RFo1dGRZbXdCNWVtOWVncXR0VndhZ25kU0hac1ZFaFVEajNuYlQ0bXRBZFltaXhEU1V0cFU3Wk1YNDVwTUU0TUw5dHJxcUY5T1hwQkNKTmVaY1E?oc=5",
+        "source": "The Information",
+        "published": "2026-09-14",
+        "fetched_at": "2026-10-21T18:14:26.294Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-06-23",
+        "summary": "Shield AI completed its acquisition of Aechelon Technology.",
+        "confidence": 0.99,
+        "headline": "Shield AI Closes Deal to Acquire Aechelon Technology - GovCon Wire",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZjRPWHNzd1dzN2d1djZVSTlZTXN6RUdBNVpfX0JCNU9lcXZISUhUSGNkRjdVbnNzcHRQa0NqaGdvZXMxbFRQUHhvSFJGTEx2dFhwdlc5VXVlX3c1ZHRLMnNTSUJTeHZ1U1JRa3UzNThBVkxmV0JmcVZmQ0Y1Y3l2ZHRYT0w?oc=5",
+        "source": "GovCon Wire",
+        "published": "2026-06-23",
+        "fetched_at": "2026-10-21T18:14:26.294Z"
+      },
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-09-15",
+        "summary": "Shield AI was reported to be in talks for new funding at a valuation of at least $20 billion.",
+        "confidence": 0.95,
+        "headline": "Market Chatter: JPMorgan-Backed Shield AI in Talks for New Funding at Valuation of At Least $20 Billion - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX3pveHk5U2F3S1JqcWNTdmFnVGJxNFFrUmhTV2ktMnRZNFJHaENPUXVhRGF5dHNzbng0c2ZacHE3SndPbHhKR0RiOG56OG45QXo5QTVWM2stVFV5VUtFMm16TVZUR3ZjNkdKSkdRTmZwQmFRNTRDbUhzV01JOGxDSVNaR0k2S3g0ZGsxb0syeUV0TUt1b2RhNWJvQ2xpN1pnQW54SA?oc=5",
+        "source": "Yahoo Finance",
+        "published": "2026-09-15",
+        "fetched_at": "2026-10-21T18:14:26.294Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-06-22",
+        "summary": "Shield AI completed its acquisition of Aechelon Technology.",
+        "confidence": 0.99,
+        "headline": "Shield AI completes acquisition of Aechelon Technology - Shield AI",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE05eElqR1diTGNZb2Fxcnh6eW8xUE93QkFpZVNaMHAxM0lUNko3d2pKTHhyVkhUNXF5bzZ6SU1Qald1dVJ2VjBSNkM3MndtczZXOXo5d1NKRlgzdktaX3o3aXlGTGwxcEp6YW1Dc1VZbEJpVlZDeEJXQXVPbkpaQQ?oc=5",
+        "source": "Shield AI",
+        "published": "2026-06-22",
+        "fetched_at": "2026-10-21T18:14:26.294Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-06-24",
+        "summary": "A report said Shield AI completed its acquisition of Aechelon Technology.",
+        "confidence": 0.98,
+        "headline": "Shield AI Completes Acquisition Of Aechelon Technology - Pulse 2.0",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkdUdaRWJ0UkliSEJHeFh5bVJpam92YTdsYW55UTVKLWFVTm41amlXemRZQzB0WDU3czI2emdzU0U4NE90SDY5QXZtV2pyZmRJR0N1ejV6WXQycWpLRkRZckQ2MDZhSm5pazhyNWNadlVZYTV5QTMwQTJvWlZSSlXSAYQBQVVfeXFMT0hhVjhqc1F3d3BrUFhkRzNuN1YwRTBGZ3pYcWVIblRxTFJhQ1hZdDVXNDJUWDZyZF9BcXZqT0lINUxmaEFqYl9zOVRIczFfX0EyTExZeUFaZV9pNnFoLU1qTmJBcmNXMVBtVzgwLWtlcHRRSi1jRHp1eTZFZmhobm5RckdH?oc=5",
+        "source": "Pulse 2.0",
+        "published": "2026-06-24",
+        "fetched_at": "2026-10-21T18:14:26.294Z"
+      }
+    ],
+    "relativityspace.com": [],
+    "reddit.com": [],
+    "whoop.com": [
+      {
+        "trigger_type": "international_expansion",
+        "event_date": "2026-10-21",
+        "summary": "WHOOP's CEO discussed the company's expansion into the UAE.",
+        "confidence": 0.93,
+        "headline": "Whoop CEO on UAE expansion, $10bn valuation and IPO ambitions - The National",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcHdLVGtxYWdSR2t0dDJvZnllbHM0Mm03TkR5R0xWMnNwcjRtQ2l3aW1ReHN5bVJEZXJ1dVkwLUpzZklkYjNqcldnU1pyb1BEN1RZaDBTbnBBT3ZjT18zRTZTMGNfUXpqazYzOGpRZXo1MmRhYW8xTmd3VEpqOWo0Qi1yeVBMdnp6dGZIbXRaUWllekt0ZUVlNHZfZjgxYXN0WC1reGJxdjJzbW8?oc=5",
+        "source": "The National",
+        "published": "2026-10-21",
+        "fetched_at": "2026-10-21T18:14:49.119Z"
+      },
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-09-12",
+        "summary": "A funding roundup indicates WHOOP raised capital in 2026.",
+        "confidence": 0.72,
+        "headline": "Whoop - 2026 Funding Rounds & List of Investors - Tracxn",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOGRFQkZhX0pUX3J4cTRSXy1MQnlGVDNKWTJtUkZjUUl0Q1UtUnY4WGxzel9MQUFwZGowUXdiN0xVN1kwS0EzWV9hRXVDYjlJN1dadnRVWnp3V1AxZnFmb1V1ZGVMTTZBSXhVUUNJRVpaUGNVYUUwXy1VdEdRTlVVQ0U4QXpNMWhIWUJySlloMTBBbGxMQXZ2aFFQSVdVdklZanJhNzRGTQ?oc=5",
+        "source": "Tracxn",
+        "published": "2026-09-12",
+        "fetched_at": "2026-10-21T18:14:49.119Z"
+      },
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-06-05",
+        "summary": "WHOOP raised $575 million to support expansion into Europe, Asia, and Latin America.",
+        "confidence": 0.98,
+        "headline": "WHOOP Raises $575 Million in Bid to Expand in Europe, Asia, Latin America - Medical Product Outsourcing",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNFJmekhLQ0R5V1BXVnZfck5XRXAxSWthajBZNWhadnE4NGdhSW1CWE5Ud2dMbUVpSFVnUGVuaDdiUVRPN1NtVVp0ZS1nTkJWVk1WTWNPSEZUQTFjS0VMNGdidkNJVlg1Mi16WXV3ZUFyR0tMcFoyeHN3ME9IS1NIRDEtbjdoNk8wcFJLMlBjVkExSGJpaklzUjJQLTlsR1hQRHA4STFTcUpfWnV3c3c?oc=5",
+        "source": "Medical Product Outsourcing",
+        "published": "2026-06-05",
+        "fetched_at": "2026-10-21T18:14:49.119Z"
+      }
+    ],
+    "verkada.com": [
+      {
+        "trigger_type": "funding",
+        "event_date": "2026-07-01",
+        "summary": "Verkada took an investment from Nvidia to support expansion of its physical AI platform.",
+        "confidence": 0.95,
+        "headline": "Verkada takes Nvidia investment to expand its physical AI platform - SiliconANGLE",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNa01NRHAyNUVVQ3ZWaHFCcU8xb3Q1dWJCczhXdnhadE5NSEFIU3hLWHNHQm9tUjA1LWFWTkJEVU9ocXRvSGNnZDFkNi10b1NDSlMzMEY2NG42ejFUdUxfRWx5Z2xoekhDenRUNXZqZzRSNFRGTzdPbUpkUG9wTkJ6NlNVc2RzbWdhYlY1Zm5pdTU4X1ZvVFRCUm81SDU?oc=5",
+        "source": "SiliconANGLE",
+        "published": "2026-07-01",
+        "fetched_at": "2026-10-21T18:14:58.092Z"
+      },
+      {
+        "trigger_type": "international_expansion",
+        "event_date": "2026-06-03",
+        "summary": "Verkada appointed Carlos Rocha to lead its Latin American expansion.",
+        "confidence": 0.92,
+        "headline": "Verkada Appoints Carlos Rocha to Lead Latin American Expansion - Security Sales & Integration",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcTZORUtnMEozWWlQOW02MjY5MzFobVlqdThBTVgyTzI1c1lGWjVDRHRYSUxycDVtTFFFLWxmblFmT0ctUjNPSTctX1RFcmF5aUl6VzVLdmJmQ0YtbWZJekhqUDByelFtM0lYY25Ed19fWWo0enMxYWVwUHhhb2pGRWhRWHYtREdVSU9wWU5qbTRnUQ?oc=5",
+        "source": "Security Sales & Integration",
+        "published": "2026-06-03",
+        "fetched_at": "2026-10-21T18:14:58.092Z"
+      }
+    ],
+    "onepeloton.com": [
+      {
+        "trigger_type": "new_finance_leader",
+        "event_date": "2026-05-26",
+        "summary": "Peloton appointed Sid Thacker as Chief Financial Officer.",
+        "confidence": 0.99,
+        "headline": "Peloton Interactive, Inc. Appoints Sid Thacker as Chief Financial Officer - Peloton",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeXN4bzFjSFVNRWtBZ3ZKa0ZBQWpTal9HR1dzb2pLNHozUk9sajJ6bnlMeEpFUGpLTFdWM2JLTF9SbVR4MDhPanA4WXFoeWh3SmdsQzlaQU0wVjl0UW5NODJQN0d2S3BVQ3RCcGY3WGJEQUNxWmhKZFRkR3BjVmRCbG5TQWtoWDB0UG5UeVhoc3Q0c0tBdHlZOS15eXE3WWpvWGFZdkJDYXBVOFhMbEFvcldjRTRQR0paRndRelpBdDBQTFlhQWM0?oc=5",
+        "source": "Peloton",
+        "published": "2026-05-26",
+        "fetched_at": "2026-10-21T18:15:04.131Z"
+      },
+      {
+        "trigger_type": "new_finance_leader",
+        "event_date": "2026-05-26",
+        "summary": "Peloton named Sid Thacker as its new Chief Financial Officer.",
+        "confidence": 0.99,
+        "headline": "Peloton Names Sid Thacker as New Chief Financial Officer - Peloton Buddy",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sUmFMMFVPRVB6cnJpQWJDS2c5Q2pTZWc3U1FGSV90cENqaFBtMUFyOFNkVElTYkg2RFhFajJ3d3BDMlFrTWhOUVFiVDhzR1VWdWhsNUFXWTBraTlBWkJj?oc=5",
+        "source": "Peloton Buddy",
+        "published": "2026-05-26",
+        "fetched_at": "2026-10-21T18:15:04.131Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-06-05",
+        "summary": "Peloton acquired connected Pilates startup Skōp.",
+        "confidence": 0.98,
+        "headline": "Peloton Acquires Connected Pilates Startup Skōp - Fitt Insider",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB1UXhjVnlidUd5elRYSGlCbDVCNkNlZFlYWGlYamZWS3RBX0ZLS3FrSHpZb0YzVTAyel9LWWRwQmVWY3ZLOTUxbkJTdkxobHB6VFNobFl0TW9WNnJFSC1RV3pEeTFzdlY3RFFBUzFhbw?oc=5",
+        "source": "Fitt Insider",
+        "published": "2026-06-05",
+        "fetched_at": "2026-10-21T18:15:04.131Z"
+      },
+      {
+        "trigger_type": "restructuring",
+        "event_date": "2026-06-02",
+        "summary": "Peloton laid off 15 percent of its staff.",
+        "confidence": 0.97,
+        "headline": "Peloton Laid Off 15 Percent of Its Staff but Proved the Real Damage Happens Long Before People Are Let Go - Inc.com",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUUNxaEJPUi1NUjREZWdrcTVhMXhvSnFpS2xqUWc2S3NMbGhEYW1zTWRHa0hRQjRSSkI3WWgtN0lFSi1SZ3VIcXNLTFkwNnVlNDhJc2t5MjBXb0JYRGVsT01Bcl96NmtVdzdxMW9DOTdwSUZrU2gxUGhLaGUxSmhEOVBnb01xa2ZhVjhrMk91eE8wRTBDenhBeVJRRHJaUEE2eFZMbjJVMnVaOVU?oc=5",
+        "source": "Inc.com",
+        "published": "2026-06-02",
+        "fetched_at": "2026-10-21T18:15:04.131Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-06-06",
+        "summary": "Peloton acquired Pilates startup Skōp.",
+        "confidence": 0.98,
+        "headline": "Peloton Acquires Pilates Startup Skōp - SGB Media",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzbGYwY1EzRzd2c1JMMEtBU2xyQWxGQ3ZqSDlvNWZVaDJ3RWJaUGZBTFZzSm1qcFVPN0RoalQ0S1ctREpMQ2FFYk1sM2pnTFBBRzdKX2hQM0MzVDlFSHFmVWZrVi05YW41dXdsbg?oc=5",
+        "source": "SGB Media",
+        "published": "2026-06-06",
+        "fetched_at": "2026-10-21T18:15:04.131Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-06-05",
+        "summary": "The item reports that Peloton acquired Pilates startup Skōp.",
+        "confidence": 0.96,
+        "headline": "Must Read: G-III CEO Talks Marc Jacobs Acquisition, Peloton Acquires Pilates Startup Skōp - Fashionista",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBZQ2kyWldfM1lNWERmNWxlMy14a1JNeWZuMU01YllyN1FKd0dYSXJGWEV3UHdJZzBfX3JaaTJSWjlOa01henAySkprbTZKbXR2bWRzcXliNzg0cFVadVo3MnVSY1VlUE9SNGtFV0J4aWFYOEY0bHJCc182Yw?oc=5",
+        "source": "Fashionista",
+        "published": "2026-06-05",
+        "fetched_at": "2026-10-21T18:15:04.131Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-06-05",
+        "summary": "Peloton acquired Skōp, maker of a connected Pilates reformer.",
+        "confidence": 0.98,
+        "headline": "Peloton Acquires Skōp, Maker of a $7,995 Connected Pilates Reformer - Peloton Buddy",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBjMzhHSmNIZ3plUXBiR3ZjVzdUaGJzN3BSbFhUMlhnMmN2Mk1DUlJVTjJRRG9Ib1U4U0tkLWpiWmxqSmZfWFhkT0xPSnFycTBxVDZyV013WHZQdUln?oc=5",
+        "source": "Peloton Buddy",
+        "published": "2026-06-05",
+        "fetched_at": "2026-10-21T18:15:04.131Z"
+      },
+      {
+        "trigger_type": "new_finance_leader",
+        "event_date": "2026-05-26",
+        "summary": "Peloton brought in an ex-CFO from Rent the Runway to lead its finance function.",
+        "confidence": 0.91,
+        "headline": "Rent the Runway ex-CFO takes Peloton’s finance reins - CFO Dive",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQkNFZU42VUtlR1A4N0ZVMmVTX0w3LXBMa0pyV29EZzB4RFhaODdTb2xLalp5aDdYblljYk9uWkwwYXpNczJvUTBkRm5YWVo4Z2ZQbURjajdBWUpBSmNkRVJOcUJ2eGV1RGZqYVRmQ1FsUWo5WjZlMm5VSlhpWmhEYXktRVlEdkduOWRZVTNSQWU?oc=5",
+        "source": "CFO Dive",
+        "published": "2026-05-26",
+        "fetched_at": "2026-10-21T18:15:04.131Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-06-19",
+        "summary": "Peloton acquired connected Pilates innovator Skōp.",
+        "confidence": 0.97,
+        "headline": "Peloton (PTON) Acquires Connected Pilates Innovator Skōp to Expand Fitness Port - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTDduaWtkSWx3QktuamFXZ0FXWUE3aFRRdEFJTlJrc2JSOVZ1ZldHRVVfRERoX0l0aER1bzZRdWxiQ1J6Z2s5VGxmQlZlLUxOcjJXcG1VckZzYWhqR0tjYnRnT1V1b1E5bmhHODd1YlNDdVZVT1RiM1JSM0paZXJZeDhWSU9pZTg1dGNJSktPWHVDQllMT2NWOTJoMDlXZ3pib2owbXRIaw?oc=5",
+        "source": "Yahoo Finance",
+        "published": "2026-06-19",
+        "fetched_at": "2026-10-21T18:15:04.131Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-06-04",
+        "summary": "Peloton acquired Pilates startup Skōp as part of its wellness push.",
+        "confidence": 0.98,
+        "headline": "Peloton Acquires Pilates Startup Skōp in Growing Wellness Push - Athletech News",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMVJ5RC1HU1dkRzZ2empKMzFhc3JnclEwa0F0UXRvYnNWV0p3eFF3emFqLWhSVjJvcVljZ3ZmbWszMXJRQ2J2dV82VDdlU3NpcVJiQ2Ita1VjbmxfZ3F6N0xldG5hd2IxMzZremJWSlMxUXNkOWpKYXpaZkI1Sjl6RjRvZWVlYmtyYjRyakQtaEJjYjg?oc=5",
+        "source": "Athletech News",
+        "published": "2026-06-04",
+        "fetched_at": "2026-10-21T18:15:04.131Z"
+      },
+      {
+        "trigger_type": "acquisition",
+        "event_date": "2026-06-04",
+        "summary": "Peloton acquired Pilates startup Skōp.",
+        "confidence": 0.98,
+        "headline": "Peloton Acquires Pilates Startup Skōp In Growing Wellness Push - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYW80UkZ0aVFSekVOM1hsSTNFaEJjTHdKOFd4UG1rdjliR2dEVVlyOEl0SmtUclRMUXMteVNqZXdVRkdKOGtZZ3J5SlJXb19raUtublg0ZkRPWnJOVnpCNVp3YkhWektrXzdObUE5Nk9LUmVNOWVsaFVnQ0dtNW1hVFJmNElyWUlBRTBCVUE0UWpITFZJWTJuSHdpd204WHdLei0ta0NhaGI2bzltWU91X05BWQ?oc=5",
+        "source": "Bloomberg.com",
+        "published": "2026-06-04",
+        "fetched_at": "2026-10-21T18:15:04.131Z"
+      }
+    ],
+    "sentry.io": []
+  }
+}

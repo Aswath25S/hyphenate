@@ -1,0 +1,186 @@
+{
+  "posting_id": "af027ded70f75946",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "af027ded70f75946-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Serving as the primary Finance partner is cross-functional partnering and advising, which is people work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Developing a deep understanding of the portfolio and strategy is too broad and does not specify an automatable finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Building business cases is FP&A planning and modeling work that is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-04",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.73,
+      "rationale": "Evaluating acquisition, revenue, margin, retention, and value is driver-based financial analysis using business data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Partnering with leadership to establish targets is advisory and involves setting goals with people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-06",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Evaluating performance is too vague to map to a specific finance operation capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-07",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Identifying risks and opportunities is high-level analysis without a specific covered finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Incorporating outlook into the broader financial forecast is FP&A forecasting work that is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Owning and improving Anaplan models and planning processes is budgeting/planning model work outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Ensuring models are scalable and aligned to operations is model design and maintenance work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Building complex models for strategic initiatives is FP&A planning/modeling work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Turning analysis into recommendations for leadership is advisory work that depends on human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Connecting operational assumptions to the long-term plan is planning-model work outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-14",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.92,
+      "rationale": "Tracing how business drivers flow through to the P&L matches driver-based analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-15",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Identifying structural risks and opportunities before results change is too broad to map cleanly to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Challenging assumptions is judgment-based analytical work that requires human interpretation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Helping business leaders understand the financial implications of decisions is advisory and collaborative work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Aligning financial strategy across multiple teams is cross-functional partnering and coordination work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Raising the analytical standard of the FP&A team is team development and leadership work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "af027ded70f75946-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Improving modeling practices, planning processes, and Anaplan usage is FP&A process and model work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    }
+  ]
+}

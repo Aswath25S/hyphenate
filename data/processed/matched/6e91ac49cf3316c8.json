@@ -1,0 +1,267 @@
+{
+  "posting_id": "6e91ac49cf3316c8",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "6e91ac49cf3316c8-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering in strategic discussions is advisory cross-functional work rather than a finance-operations task the platform performs end to end.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Providing insights to influence decision-making is advisory work to other teams, which is human judgment rather than a specific automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Building trust with cross-functional stakeholders is relationship management by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.63,
+      "rationale": "Owning monthly FP&A processes is too broad to map to a specific platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-05",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.63,
+      "rationale": "Owning quarterly FP&A processes is too vague and not a specific covered capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-06",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.63,
+      "rationale": "Owning annual FP&A processes is too broad and does not match a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Budgeting and forecasting processes are FP&A planning models, which are explicitly outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-08",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.78,
+      "rationale": "Board reporting fits building recurring reports and board deck financials, though it does not include presenting to the board.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Budget versus actual analysis for planning is explicitly excluded from the flux-analysis capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-10",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Pigment administration is system administration work that does not map cleanly to a listed finance-operation capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Leading the continued evolution of Pigment is a management/project leadership activity rather than a specific finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Designing the data model is system design work that requires human judgment and architecture decisions.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-13",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.71,
+      "rationale": "Building system integrations is a technical implementation task that does not match a listed finance-operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Building new forecast models is FP&A planning-model work, which is outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Streamlining existing forecast models is FP&A model work that is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Collaborating with Finance peers to track performance metrics is cross-functional coordination work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Collaborating with Finance peers to track KPIs is cross-functional coordination rather than a specific automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.68,
+      "rationale": "Monitoring business results is too vague to map confidently to a specific reporting or analysis capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Driving stakeholder engagement is relationship and coordination work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Driving accountability is a management and influence activity rather than an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.69,
+      "rationale": "Simplifying FP&A processes is a vague process-improvement statement with no specific capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.69,
+      "rationale": "Streamlining FP&A processes is too broad to map to a specific covered or assisted capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-23",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Automating FP&A processes is a finance-planning automation effort that matches no listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-24",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Using forecasting capabilities is too generic to determine whether it refers to the covered cash forecast or an FP&A planning model.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-25",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.73,
+      "rationale": "Using financial system capabilities is too broad and does not identify a specific finance-operation action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-26",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.67,
+      "rationale": "Scaling rapidly and globally is a broad business-growth objective rather than a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Highlighting opportunities to improve operations is advisory analysis intended to influence other teams.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Highlighting opportunities to increase revenue is strategic advisory work rather than a defined automated finance workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6e91ac49cf3316c8-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Highlighting opportunities to decrease costs is advisory analysis and recommendation work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

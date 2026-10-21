@@ -1,0 +1,168 @@
+{
+  "posting_id": "e791861b49dee539",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "e791861b49dee539-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Analyzing new and complex transactions requires accounting judgment on novel arrangements rather than a defined platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e791861b49dee539-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Preparing technical accounting memos and whitepapers under U.S. GAAP is judgment-heavy policy and interpretation work, not a mapped automation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e791861b49dee539-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Preparing GAAP financial statements is a structured reporting task, but no capability explicitly covers generic GAAP statement preparation.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e791861b49dee539-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Preparing footnotes is a rules-based financial reporting output with no direct capability match in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e791861b49dee539-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Preparing supporting schedules is repetitive financial reporting support that is not explicitly covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e791861b49dee539-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Maintaining roll forwards is a schedule-maintenance reporting task that does not directly match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e791861b49dee539-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Maintaining tie-outs is a reconciliation-style reporting task but no capability specifically covers it.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e791861b49dee539-13",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.62,
+      "rationale": "Maintaining internal consistency checks to ensure outputs are complete and audit ready fits monitoring financial reporting controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e791861b49dee539-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Coordinating external-audit requests involves managing the auditor relationship, which is explicitly human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e791861b49dee539-15",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.9,
+      "rationale": "Maintaining supporting documentation matches audit support for entries and audit schedules.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e791861b49dee539-16",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.97,
+      "rationale": "Executing controls supporting financial reporting, SOX, and IPO readiness is directly covered by financial reporting controls monitoring.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e791861b49dee539-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Monitoring new accounting guidance requires interpreting policy and judgment rather than a defined operational workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e791861b49dee539-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Updating assigned policies is setting or changing accounting policy, which is explicitly human judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e791861b49dee539-19",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.71,
+      "rationale": "Improving reporting templates is a vague process-improvement duty without a specific mapped finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e791861b49dee539-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Improving workflows is too broad to map cleanly to a specific capability or operational action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e791861b49dee539-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Improving systems through standardization and automation is a generic transformation effort rather than a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e791861b49dee539-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Working with other departments to evaluate transactions is cross-functional advising and partnering, which is human work by definition.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "e791861b49dee539-23",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.67,
+      "rationale": "Implementing approved accounting conclusions is too broad to determine whether it is a covered operational task or a project activity.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,1907 @@
+{
+  "posting_id": "7bac63e1c285fefc",
+  "company": "Saronic",
+  "slug": "saronic",
+  "domain": "saronic.com",
+  "title": "Contract Payroll Manager (Workday)",
+  "role_family": "Payroll",
+  "seniority": "manager",
+  "n": 54,
+  "C": 4,
+  "A": 5,
+  "covered_share": 0.07407407407407407,
+  "overlap": 0.16666666666666666,
+  "weighted_overlap": 0.12037037037037036,
+  "thin": false,
+  "salary_min": null,
+  "salary_max": null,
+  "salary_varies": false,
+  "salary_source": null,
+  "savings": null,
+  "savings_reason": "no_salary",
+  "lead_product": "GL accounting",
+  "product_split": {
+    "GL accounting": {
+      "covered": 4,
+      "assisted": 5,
+      "weighted": 6.5
+    }
+  },
+  "erp": [
+    "Workday"
+  ],
+  "tools": [
+    "Excel"
+  ],
+  "posted_at": "2026-09-28T14:54:19.452+00:00",
+  "source_url": "https://jobs.ashbyhq.com/saronic/e0c9d4a1-a07b-40ed-8e91-15f852b41e57",
+  "locations": [
+    "Austin, TX"
+  ],
+  "remote": "unknown",
+  "excluded": null,
+  "text": "Saronic Technologies is a leader in revolutionizing autonomy at sea, dedicated to developing state-of-the-art solutions that enhance maritime operations through autonomous and intelligent platforms.\n\n\n\n\nPOSITION SUMMARY\n\nSaronic Technologies is seeking an experienced Contract Payroll Manager to lead payroll operations during a period of rapid company growth. This role owns end-to-end payroll processing in Workday, ensures compliance with multi-state and federal payroll regulations, and partners closely with People, Finance, and Legal to keep payroll accurate, timely, and audit-ready. This is a fixed-term contract engagement suited to a hands-on payroll leader who can step in immediately and run payroll independently.\n\nKey Responsibilities\n\n - Own and manage end-to-end multi-state payroll processing in Workday for all employee types, including biweekly or semi-monthly cycles, off-cycle payments, and final pay\n\n - Configure, maintain, and troubleshoot Workday payroll modules, including earnings/deduction codes, tax setups, retro pay, and integrations with time tracking and benefits systems\n\n - Ensure accurate calculation and timely remittance of federal, state, and local payroll taxes, and manage tax filings across all applicable jurisdictions\n\n - Lead payroll compliance efforts, including wage and hour law, FLSA classification, garnishments, and multi-state registration requirements\n\n - Partner with People, Finance, Total Rewards, and Legal teams on payroll-related matters, including new hires, terminations, leaves of absence, equity/bonus payouts, and benefits deductions\n\n - Manage and reconcile payroll general ledger entries, working closely with Accounting to support month-end close and payroll accruals\n\n - Prepare and review payroll reports, audits, and analytics for internal stakeholders and external auditors\n\n - Serve as the primary point of escalation for payroll discrepancies, employee inquiries, and system issues\n\n - Drive process improvements and Workday payroll optimizations to increase efficiency and reduce manual work\n\n - Maintain SOX-compliant payroll controls and documentation, supporting internal and external audit requests\n\n - Stay current on federal, state, and local payroll law changes and ensure timely implementation of required updates\n\nRequired Qualifications\n\n - 7+ years of progressive payroll experience, including at least 3 years in a payroll management or lead role\n\n - Deep, hands-on experience running payroll in Workday, including configuration, troubleshooting, and reporting\n\n - Proven track record owning multi-state payroll for a company of 500+ employees\n\n - Strong working knowledge of federal, state, and local payroll tax law, wage and hour regulations, and FLSA requirements\n\n - Experience partnering cross-functionally with People, Finance, and Legal teams on payroll matters\n\n - Experience supporting SOX controls, internal audits, or external payroll audits\n\n - Demonstrated ability to manage payroll independently with minimal onboarding ramp time\n\n - Advanced Excel/spreadsheet skills and strong attention to detail with high-volume, time-sensitive data\n\n - Excellent communication skills, with the ability to explain payroll matters clearly to employees and leadership\n\n - Ability to maintain strict confidentiality when handling sensitive compensation and personal data\n\nPreferred Qualifications\n\n - Prior experience in a fast-growing, venture-backed, manufacturing, defense, or hardware technology company\n\n - Experience with Workday reporting tools (e.g., custom reports, calculated fields) beyond standard configuration\n\n - Experience with equity compensation payroll treatment (RSUs, stock options) and multi-entity or multi-country payroll\n\n - Experience implementing or migrating payroll systems onto Workday\n\nContract Details & Location\n\n - Engagement type: Fixed-term contract (duration to be confirmed based on business need)\n\n - Location: Open to on-site, hybrid, or remote depending on candidate location and business needs\n\n - Reports to: Director of Accounting Operations\n\n - Start: As soon as possible\n\n\n\nSaronic CCPA Notice for Candidates and California Employees https://saronic-assets-public.s3.us-east-2.amazonaws.com/Saronic%20CCPA%20Notice%20for%20Candidates%20and%20California%20Employees.pdf\n\n\n\nIf this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status. As defined by U.S. law, individuals who are any one of the following are considered to be a “U.S. Person”: (1) U.S. citizens, (2) legal permanent residents (a.k.a. green card holders), and (3) certain protected classes of asylees and refugees, as defined in 8 U.S.C. 1324b(a)(3) https://www.govinfo.gov/link/uscode/8/1324b.\n\nSaronic does not discriminate on the basis of race, sex, color, religion, age, national origin, marital status, disability, veteran status, genetic information, sexual orientation, gender identity or any other reason prohibited by law in provision of employment opportunities and benefits. We are also committed to providing reasonable accommodations for qualified individuals with disabilities.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": null,
+    "max": null,
+    "period": null,
+    "currency": null,
+    "raw_text": null
+  },
+  "complexity": {
+    "multi_entity": true,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": true,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "rapid company growth",
+    "reduce manual work",
+    "high-volume, time-sensitive data"
+  ],
+  "fetched_at": "2026-10-21T17:33:58.994Z",
+  "ats": "ashby",
+  "duties": [
+    {
+      "duty_id": "7bac63e1c285fefc-01",
+      "text": "Own and manage end-to-end multi-state payroll processing in Workday for all employee types",
+      "source_span": "Own and manage end-to-end multi-state payroll processing in Workday for all employee types,",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 753,
+        "end": 844
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Running end-to-end payroll processing is routine payroll operations with no matching capability on the map.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-02",
+      "text": "Process biweekly cycles",
+      "source_span": "biweekly or semi-monthly cycles",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 855,
+        "end": 886
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Processing biweekly payroll cycles is payroll processing, which is not covered by any listed capability.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-03",
+      "text": "Process semi-monthly cycles",
+      "source_span": "biweekly or semi-monthly cycles",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 855,
+        "end": 886
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Processing semi-monthly payroll cycles is standard payroll operations and has no direct capability match.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-04",
+      "text": "Process off-cycle payments",
+      "source_span": "off-cycle payments",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 888,
+        "end": 906
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Processing off-cycle payments is payroll processing work outside the coverage map.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-05",
+      "text": "Process final pay",
+      "source_span": "final pay",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 912,
+        "end": 921
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Processing final pay is a payroll administration task with no matching capability.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-06",
+      "text": "Configure Workday payroll modules",
+      "source_span": "Configure, maintain, and troubleshoot Workday payroll modules,",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 926,
+        "end": 988
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Configuring Workday payroll modules is system administration outside the listed finance-ops capabilities.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-07",
+      "text": "Maintain Workday payroll modules",
+      "source_span": "Configure, maintain, and troubleshoot Workday payroll modules,",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 926,
+        "end": 988
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Maintaining Workday payroll modules is payroll system administration with no capability match.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-08",
+      "text": "Troubleshoot Workday payroll modules",
+      "source_span": "Configure, maintain, and troubleshoot Workday payroll modules,",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 926,
+        "end": 988
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.91,
+      "rationale": "Troubleshooting Workday payroll modules is technical payroll support outside the map.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-09",
+      "text": "Configure earnings and deduction codes",
+      "source_span": "earnings/deduction codes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 999,
+        "end": 1023
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Configuring earnings and deduction codes is payroll setup work that is not covered.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-10",
+      "text": "Configure tax setups",
+      "source_span": "tax setups",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1025,
+        "end": 1035
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Configuring tax setups is payroll tax administration with no listed capability.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-11",
+      "text": "Configure retro pay",
+      "source_span": "retro pay",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1037,
+        "end": 1046
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.91,
+      "rationale": "Configuring retro pay is payroll setup work outside the coverage map.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-12",
+      "text": "Configure integrations with time tracking systems",
+      "source_span": "integrations with time tracking and benefits systems",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1052,
+        "end": 1104
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Configuring time-tracking integrations is system implementation, not a listed finance operation.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-13",
+      "text": "Configure integrations with benefits systems",
+      "source_span": "integrations with time tracking and benefits systems",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1052,
+        "end": 1104
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Configuring benefits integrations is system implementation outside the listed capabilities.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-14",
+      "text": "Ensure accurate calculation of federal, state, and local payroll taxes",
+      "source_span": "Ensure accurate calculation and timely remittance of federal, state, and local payroll taxes,",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1109,
+        "end": 1202
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Ensuring payroll tax calculations is a payroll compliance/calculation task with no matching capability.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-15",
+      "text": "Ensure timely remittance of federal, state, and local payroll taxes",
+      "source_span": "Ensure accurate calculation and timely remittance of federal, state, and local payroll taxes,",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1109,
+        "end": 1202
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Ensuring payroll tax remittance is payroll tax administration not covered by the map.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-16",
+      "text": "Manage tax filings across all applicable jurisdictions",
+      "source_span": "manage tax filings across all applicable jurisdictions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1207,
+        "end": 1261
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Managing payroll tax filings across jurisdictions is a filing task with no matching capability.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-17",
+      "text": "Lead payroll compliance efforts",
+      "source_span": "Lead payroll compliance efforts,",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1266,
+        "end": 1298
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Leading payroll compliance efforts is management and policy-oriented work, which is human by nature.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-18",
+      "text": "Ensure wage and hour law compliance",
+      "source_span": "wage and hour law",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1309,
+        "end": 1326
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Ensuring wage and hour law compliance requires policy interpretation and human judgment.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-19",
+      "text": "Ensure FLSA classification compliance",
+      "source_span": "FLSA classification",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1328,
+        "end": 1347
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Ensuring FLSA classification compliance is a legal classification judgment, not an automated finance task.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-20",
+      "text": "Manage garnishments",
+      "source_span": "garnishments",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1349,
+        "end": 1361
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Managing garnishments is a rules-based payroll administration task with no direct capability match.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-21",
+      "text": "Manage multi-state registration requirements",
+      "source_span": "multi-state registration requirements",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1367,
+        "end": 1404
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Managing multi-state registration requirements is payroll compliance administration outside the map.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-22",
+      "text": "Partner with People teams on payroll-related matters",
+      "source_span": "Partner with People, Finance, Total Rewards, and Legal teams on payroll-related matters,",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1409,
+        "end": 1497
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Partnering with People teams is cross-functional collaboration, which is human work by nature.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-23",
+      "text": "Partner with Finance teams on payroll-related matters",
+      "source_span": "Partner with People, Finance, Total Rewards, and Legal teams on payroll-related matters,",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1409,
+        "end": 1497
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Partnering with Finance teams is advisory and collaborative work that the platform does not do end to end.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-24",
+      "text": "Partner with Total Rewards teams on payroll-related matters",
+      "source_span": "Partner with People, Finance, Total Rewards, and Legal teams on payroll-related matters,",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1409,
+        "end": 1497
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Partnering with Total Rewards teams is cross-functional coordination and advisory work.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-25",
+      "text": "Partner with Legal teams on payroll-related matters",
+      "source_span": "Partner with People, Finance, Total Rewards, and Legal teams on payroll-related matters,",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1409,
+        "end": 1497
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Partnering with Legal teams is relationship and policy coordination work, which is human by nature.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-26",
+      "text": "Support new hires",
+      "source_span": "new hires",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1508,
+        "end": 1517
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Supporting new hires is payroll onboarding administration with no listed capability match.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-27",
+      "text": "Support terminations",
+      "source_span": "terminations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1519,
+        "end": 1531
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Supporting terminations is payroll administration outside the coverage map.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-28",
+      "text": "Support leaves of absence",
+      "source_span": "leaves of absence",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1533,
+        "end": 1550
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Supporting leaves of absence is HR/payroll administration not covered by the map.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-29",
+      "text": "Support equity payouts",
+      "source_span": "equity/bonus payouts",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1552,
+        "end": 1572
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Supporting equity payouts is a payroll execution task with no direct capability match.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-30",
+      "text": "Support bonus payouts",
+      "source_span": "equity/bonus payouts",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1552,
+        "end": 1572
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Supporting bonus payouts is payroll processing work outside the listed capabilities.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-31",
+      "text": "Support benefits deductions",
+      "source_span": "benefits deductions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1578,
+        "end": 1597
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Supporting benefits deductions is payroll administration with no matching capability.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-32",
+      "text": "Manage payroll general ledger entries",
+      "source_span": "Manage and reconcile payroll general ledger entries,",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1602,
+        "end": 1654
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.journal_entries",
+      "capability": "Prepare and post journal entries",
+      "product": "GL accounting",
+      "confidence": 0.84,
+      "rationale": "Managing payroll general ledger entries is preparing and posting journal entries, which matches GL journal entry work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-33",
+      "text": "Reconcile payroll general ledger entries",
+      "source_span": "Manage and reconcile payroll general ledger entries,",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1602,
+        "end": 1654
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.account_recs",
+      "capability": "Balance-sheet account reconciliations",
+      "product": "GL accounting",
+      "confidence": 0.96,
+      "rationale": "Reconciling payroll general ledger entries is a balance-sheet account reconciliation task.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-34",
+      "text": "Support month-end close",
+      "source_span": "support month-end close and payroll accruals",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1690,
+        "end": 1734
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.close_checklist",
+      "capability": "Run month-end close checklist tasks",
+      "product": "GL accounting",
+      "confidence": 0.95,
+      "rationale": "Supporting month-end close is running month-end close checklist tasks.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-35",
+      "text": "Support payroll accruals",
+      "source_span": "support month-end close and payroll accruals",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1690,
+        "end": 1734
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.accruals",
+      "capability": "Estimate accruals from history, POs and budget",
+      "product": "GL accounting",
+      "confidence": 0.89,
+      "rationale": "Supporting payroll accruals matches estimating and recording accruals, though payroll inputs add some judgment.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-36",
+      "text": "Prepare payroll reports",
+      "source_span": "Prepare and review payroll reports, audits, and analytics",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1739,
+        "end": 1796
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Preparing payroll reports is routine reporting work with no dedicated payroll reporting capability listed.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-37",
+      "text": "Review payroll reports",
+      "source_span": "Prepare and review payroll reports, audits, and analytics",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1739,
+        "end": 1796
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Reviewing payroll reports is human review work rather than an automated platform capability.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-38",
+      "text": "Prepare payroll audits",
+      "source_span": "Prepare and review payroll reports, audits, and analytics",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1739,
+        "end": 1796
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.87,
+      "rationale": "Preparing payroll audits matches audit trail and support work, though external audit relationship management remains human.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-39",
+      "text": "Review payroll audits",
+      "source_span": "Prepare and review payroll reports, audits, and analytics",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1739,
+        "end": 1796
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Reviewing payroll audits is human review and judgment work.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-40",
+      "text": "Prepare payroll analytics",
+      "source_span": "Prepare and review payroll reports, audits, and analytics",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1739,
+        "end": 1796
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Preparing payroll analytics is analysis/reporting work without a specific matching capability.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-41",
+      "text": "Review payroll analytics",
+      "source_span": "Prepare and review payroll reports, audits, and analytics",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1739,
+        "end": 1796
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Reviewing payroll analytics is human review and interpretation work.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-42",
+      "text": "Serve as the primary point of escalation for payroll discrepancies",
+      "source_span": "Serve as the primary point of escalation for payroll discrepancies,",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1849,
+        "end": 1916
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Serving as the primary escalation point for payroll discrepancies is relationship and judgment work.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-43",
+      "text": "Serve as the primary point of escalation for employee inquiries",
+      "source_span": "employee inquiries,",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1917,
+        "end": 1936
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Serving as the primary escalation point for employee inquiries is support and coordination work by nature.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-44",
+      "text": "Serve as the primary point of escalation for system issues",
+      "source_span": "and system issues",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1937,
+        "end": 1954
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Serving as the primary escalation point for system issues is coordination/support work that requires human intervention.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-45",
+      "text": "Drive process improvements",
+      "source_span": "Drive process improvements and Workday payroll optimizations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1959,
+        "end": 2019
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.78,
+      "rationale": "Driving process improvements is too vague to map to a specific capability.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-46",
+      "text": "Drive Workday payroll optimizations",
+      "source_span": "Drive process improvements and Workday payroll optimizations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1959,
+        "end": 2019
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.75,
+      "rationale": "Driving Workday payroll optimizations is too vague and sounds like a broad project rather than a specific covered action.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-47",
+      "text": "Maintain SOX-compliant payroll controls",
+      "source_span": "Maintain SOX-compliant payroll controls and documentation,",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2070,
+        "end": 2128
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.controls",
+      "capability": "Monitor manual entries and close controls",
+      "product": "GL accounting",
+      "confidence": 0.96,
+      "rationale": "Maintaining SOX-compliant payroll controls matches monitoring and executing internal controls.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-48",
+      "text": "Maintain SOX-compliant payroll documentation",
+      "source_span": "Maintain SOX-compliant payroll controls and documentation,",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2070,
+        "end": 2128
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.controls",
+      "capability": "Monitor manual entries and close controls",
+      "product": "GL accounting",
+      "confidence": 0.93,
+      "rationale": "Maintaining SOX-compliant payroll documentation fits maintaining documentation of key controls.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-49",
+      "text": "Support internal audit requests",
+      "source_span": "supporting internal and external audit requests",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2129,
+        "end": 2176
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.95,
+      "rationale": "Supporting internal audit requests matches providing audit support and documentation.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-50",
+      "text": "Support external audit requests",
+      "source_span": "supporting internal and external audit requests",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2129,
+        "end": 2176
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.95,
+      "rationale": "Supporting external audit requests matches audit support, though serving as the primary auditor contact would be human.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-51",
+      "text": "Stay current on federal payroll law changes",
+      "source_span": "Stay current on federal, state, and local payroll law changes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2181,
+        "end": 2242
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Staying current on federal payroll law changes is policy/legal interpretation work that requires human judgment.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-52",
+      "text": "Stay current on state payroll law changes",
+      "source_span": "Stay current on federal, state, and local payroll law changes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2181,
+        "end": 2242
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Staying current on state payroll law changes is legal interpretation and policy work.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-53",
+      "text": "Stay current on local payroll law changes",
+      "source_span": "Stay current on federal, state, and local payroll law changes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2181,
+        "end": 2242
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Staying current on local payroll law changes is regulatory interpretation work that is human by nature.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-54",
+      "text": "Ensure timely implementation of required updates",
+      "source_span": "ensure timely implementation of required updates",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2247,
+        "end": 2295
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Ensuring timely implementation of required updates is operational work with no direct capability match.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-55",
+      "text": "Have 7+ years of progressive payroll experience, including at least 3 years in a payroll management or lead role",
+      "source_span": "7+ years of progressive payroll experience, including at least 3 years in a payroll management or lead role",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2325,
+        "end": 2432
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-56",
+      "text": "Have deep, hands-on experience running payroll in Workday, including configuration, troubleshooting, and reporting",
+      "source_span": "Deep, hands-on experience running payroll in Workday, including configuration, troubleshooting, and reporting",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2437,
+        "end": 2546
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-57",
+      "text": "Have proven track record owning multi-state payroll for a company of 500+ employees",
+      "source_span": "Proven track record owning multi-state payroll for a company of 500+ employees",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2551,
+        "end": 2629
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-58",
+      "text": "Have strong working knowledge of federal, state, and local payroll tax law, wage and hour regulations, and FLSA requirements",
+      "source_span": "Strong working knowledge of federal, state, and local payroll tax law, wage and hour regulations, and FLSA requirements",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2634,
+        "end": 2753
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-59",
+      "text": "Have experience partnering cross-functionally with People, Finance, and Legal teams on payroll matters",
+      "source_span": "Experience partnering cross-functionally with People, Finance, and Legal teams on payroll matters",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2758,
+        "end": 2855
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-60",
+      "text": "Have experience supporting SOX controls, internal audits, or external payroll audits",
+      "source_span": "Experience supporting SOX controls, internal audits, or external payroll audits",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2860,
+        "end": 2939
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-61",
+      "text": "Manage payroll independently with minimal onboarding ramp time",
+      "source_span": "Demonstrated ability to manage payroll independently with minimal onboarding ramp time",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2944,
+        "end": 3030
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-62",
+      "text": "Have advanced Excel/spreadsheet skills",
+      "source_span": "Advanced Excel/spreadsheet skills",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3035,
+        "end": 3068
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-63",
+      "text": "Have strong attention to detail with high-volume, time-sensitive data",
+      "source_span": "strong attention to detail with high-volume, time-sensitive data",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3073,
+        "end": 3137
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-64",
+      "text": "Have excellent communication skills, with the ability to explain payroll matters clearly to employees and leadership",
+      "source_span": "Excellent communication skills, with the ability to explain payroll matters clearly to employees and leadership",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3142,
+        "end": 3253
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-65",
+      "text": "Maintain strict confidentiality when handling sensitive compensation and personal data",
+      "source_span": "Ability to maintain strict confidentiality when handling sensitive compensation and personal data",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3258,
+        "end": 3355
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-66",
+      "text": "Have prior experience in a fast-growing, venture-backed, manufacturing, defense, or hardware technology company",
+      "source_span": "Prior experience in a fast-growing, venture-backed, manufacturing, defense, or hardware technology company",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3386,
+        "end": 3492
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-67",
+      "text": "Have experience with Workday reporting tools beyond standard configuration",
+      "source_span": "Experience with Workday reporting tools (e.g., custom reports, calculated fields) beyond standard configuration",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3497,
+        "end": 3608
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-68",
+      "text": "Have experience with equity compensation payroll treatment and multi-entity or multi-country payroll",
+      "source_span": "Experience with equity compensation payroll treatment (RSUs, stock options) and multi-entity or multi-country payroll",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3613,
+        "end": 3730
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-69",
+      "text": "Have experience implementing or migrating payroll systems onto Workday",
+      "source_span": "Experience implementing or migrating payroll systems onto Workday",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3735,
+        "end": 3800
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-70",
+      "text": "Saronic Technologies is a leader in revolutionizing autonomy at sea, dedicated to developing state-of-the-art solutions that enhance maritime operations through autonomous and intelligent platforms.",
+      "source_span": "Saronic Technologies is a leader in revolutionizing autonomy at sea, dedicated to developing state-of-the-art solutions that enhance maritime operations through autonomous and intelligent platforms.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 0,
+        "end": 198
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-71",
+      "text": "This is a fixed-term contract engagement suited to a hands-on payroll leader who can step in immediately and run payroll independently.",
+      "source_span": "This is a fixed-term contract engagement suited to a hands-on payroll leader who can step in immediately and run payroll independently.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 591,
+        "end": 726
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-72",
+      "text": "Engagement type: Fixed-term contract (duration to be confirmed based on business need)",
+      "source_span": "- Engagement type: Fixed-term contract (duration to be confirmed based on business need)",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3832,
+        "end": 3920
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-73",
+      "text": "Location: Open to on-site, hybrid, or remote depending on candidate location and business needs",
+      "source_span": "- Location: Open to on-site, hybrid, or remote depending on candidate location and business needs",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3923,
+        "end": 4020
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-74",
+      "text": "Reports to: Director of Accounting Operations",
+      "source_span": "- Reports to: Director of Accounting Operations",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4023,
+        "end": 4070
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-75",
+      "text": "Start: As soon as possible",
+      "source_span": "- Start: As soon as possible",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4073,
+        "end": 4101
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-76",
+      "text": "Saronic CCPA Notice for Candidates and California Employees",
+      "source_span": "Saronic CCPA Notice for Candidates and California Employees https://saronic-assets-public.s3.us-east-2.amazonaws.com/Saronic%20CCPA%20Notice%20for%20Candidates%20and%20California%20Employees.pdf",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4105,
+        "end": 4299
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-77",
+      "text": "If this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status.",
+      "source_span": "If this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4303,
+        "end": 4442
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-78",
+      "text": "Saronic does not discriminate on the basis of race, sex, color, religion, age, national origin, marital status, disability, veteran status, genetic information, sexual orientation, gender identity or any other reason prohibited by law in provision of employment opportunities and benefits.",
+      "source_span": "Saronic does not discriminate on the basis of race, sex, color, religion, age, national origin, marital status, disability, veteran status, genetic information, sexual orientation, gender identity or any other reason prohibited by law in provision of employment opportunities and benefits.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4768,
+        "end": 5057
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "7bac63e1c285fefc-79",
+      "text": "We are also committed to providing reasonable accommodations for qualified individuals with disabilities.",
+      "source_span": "We are also committed to providing reasonable accommodations for qualified individuals with disabilities.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5058,
+        "end": 5163
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

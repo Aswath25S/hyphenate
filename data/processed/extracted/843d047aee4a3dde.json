@@ -1,0 +1,506 @@
+{
+  "posting_id": "843d047aee4a3dde",
+  "company": "Perplexity",
+  "domain": "perplexity.ai",
+  "title": "Payroll Analyst",
+  "role_family": "Payroll",
+  "seniority": "mid",
+  "locations": [
+    "San Francisco",
+    "Remote (United States)"
+  ],
+  "remote": "remote",
+  "salary": {
+    "min": 90000,
+    "max": 125000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Job board pay data: $90K – $125K • Offers Equity"
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Rippling",
+    "Carta",
+    "Excel",
+    "Google Sheets",
+    "Workday",
+    "ADP",
+    "Gusto"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "rapid hiring",
+    "global expansion",
+    "increasing complexity",
+    "as the company scales",
+    "migration of legacy accounts inherited from prior PEO arrangements",
+    "reduce manual work",
+    "jurisdictional complexity increase"
+  ],
+  "duties": [
+    {
+      "duty_id": "843d047aee4a3dde-01",
+      "text": "Own day-to-day processing support for US multi-state semi-monthly payroll",
+      "source_span": "Own day-to-day processing support for US multi-state semi-monthly payroll",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-02",
+      "text": "Assist with international payroll cycles across approximately 16 countries",
+      "source_span": "assist with international payroll cycles across approximately 16 countries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-03",
+      "text": "Work primarily in Rippling",
+      "source_span": "working primarily in Rippling.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-04",
+      "text": "Run the monthly global contractor payroll cycle",
+      "source_span": "Run the monthly global contractor payroll cycle",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-05",
+      "text": "Track timecard submissions",
+      "source_span": "timecard submission tracking",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-06",
+      "text": "Follow up on manager approvals",
+      "source_span": "manager approval follow-up",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-07",
+      "text": "Make contractor payments on schedule",
+      "source_span": "on-schedule contractor payments",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-08",
+      "text": "Reconcile benefit deductions against payroll journals and deductions exports",
+      "source_span": "Reconcile benefit deductions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-09",
+      "text": "Reconcile 401(k) deferrals against payroll journals and deductions exports",
+      "source_span": "401(k) deferrals",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-10",
+      "text": "Reconcile employer match against payroll journals and deductions exports",
+      "source_span": "employer match against payroll journals and deductions exports",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-11",
+      "text": "Flag discrepancies before paychecks post",
+      "source_span": "flag and resolve discrepancies before paychecks post",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-12",
+      "text": "Resolve discrepancies before paychecks post",
+      "source_span": "resolve discrepancies before paychecks post",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-13",
+      "text": "Support state-level employer tax account registration",
+      "source_span": "Support state-level employer tax account registration",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-14",
+      "text": "Support state-level employer tax account maintenance",
+      "source_span": "maintenance (SUI and withholding) as the company grows into new states, including migration of legacy accounts inherited from prior PEO arrangements.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-15",
+      "text": "Migrate legacy accounts inherited from prior PEO arrangements",
+      "source_span": "migration of legacy accounts inherited from prior PEO arrangements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-16",
+      "text": "Assist with 401(k) and benefits administration",
+      "source_span": "Assist with 401(k) and benefits administration",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-17",
+      "text": "Monitor contributions",
+      "source_span": "contribution monitoring",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-18",
+      "text": "Support HCE and nondiscrimination testing",
+      "source_span": "HCE and nondiscrimination testing support",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-19",
+      "text": "Send COBRA offboarding notices",
+      "source_span": "COBRA offboarding notices",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-20",
+      "text": "Support equity and stock-exercise payroll reporting",
+      "source_span": "Support equity and stock-exercise payroll reporting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-21",
+      "text": "Track Carta exercise data",
+      "source_span": "tracking Carta exercise data",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-22",
+      "text": "Apply correct NSO/ISO tax treatment",
+      "source_span": "applying correct NSO/ISO tax treatment",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-23",
+      "text": "Prepare payroll-side entries at quarter-end cutoffs",
+      "source_span": "preparing payroll-side entries at quarter-end cutoffs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-24",
+      "text": "Manage the Rippling-to-NetSuite reimbursement approval chain",
+      "source_span": "Manage the Rippling-to-NetSuite reimbursement approval chain",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-25",
+      "text": "Ensure expense reimbursements route correctly across systems",
+      "source_span": "ensuring expense reimbursements route and post correctly across systems",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-26",
+      "text": "Ensure expense reimbursements post correctly across systems",
+      "source_span": "ensuring expense reimbursements route and post correctly across systems",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-27",
+      "text": "Serve as a first point of contact for employee payroll inquiries",
+      "source_span": "Serve as a first point of contact for employee payroll inquiries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-28",
+      "text": "Resolve routine questions",
+      "source_span": "resolving routine questions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-29",
+      "text": "Escalate complex cases with context",
+      "source_span": "escalating complex cases with context",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-30",
+      "text": "Maintain clean, audit-ready documentation",
+      "source_span": "Maintain clean, audit-ready documentation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-31",
+      "text": "Support quarter-end and year-end close activities",
+      "source_span": "support quarter-end and year-end close activities",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-32",
+      "text": "Prepare W-2s",
+      "source_span": "W-2s",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-33",
+      "text": "Support ACA reporting",
+      "source_span": "ACA reporting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-34",
+      "text": "Perform 401(k) true-ups",
+      "source_span": "401(k) true-ups",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-35",
+      "text": "Perform year-end reconciliations",
+      "source_span": "year-end reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-36",
+      "text": "Identify process improvements",
+      "source_span": "Identify and help implement process improvements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-37",
+      "text": "Help implement process improvements",
+      "source_span": "help implement process improvements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-38",
+      "text": "Reduce manual work",
+      "source_span": "reduce manual work",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-39",
+      "text": "Strengthen controls",
+      "source_span": "strengthen controls",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "843d047aee4a3dde-40",
+      "text": "4+ years of hands-on payroll experience",
+      "source_span": "4+ years of hands-on payroll experience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-41",
+      "text": "multi-state US payroll",
+      "source_span": "multi-state US payroll",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-42",
+      "text": "international or contractor payroll exposure is a plus.",
+      "source_span": "international or contractor payroll exposure is a plus.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-43",
+      "text": "Experience establishing and managing US state agency accounts",
+      "source_span": "Experience establishing and managing US state agency accounts",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-44",
+      "text": "troubleshooting agency mailings",
+      "source_span": "troubleshooting agency mailings",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-45",
+      "text": "invoices for payment",
+      "source_span": "invoices for payment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-46",
+      "text": "related account maintenance",
+      "source_span": "related account maintenance",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-47",
+      "text": "Strong working knowledge of California wage statement requirements",
+      "source_span": "Strong working knowledge of California wage statement requirements",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-48",
+      "text": "meal and rest break premiums",
+      "source_span": "meal and rest break premiums",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-49",
+      "text": "final pay timing rules",
+      "source_span": "final pay timing rules",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-50",
+      "text": "other state-specific compliance considerations",
+      "source_span": "other state-specific compliance considerations",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-51",
+      "text": "Hands-on experience with a modern payroll/HRIS platform",
+      "source_span": "Hands-on experience with a modern payroll/HRIS platform",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-52",
+      "text": "Rippling experience preferred.",
+      "source_span": "Rippling experience preferred.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-53",
+      "text": "Comfort with detailed reconciliation work across benefits deductions, 401(k) match calculations, and payroll-to-GL tie-outs",
+      "source_span": "Comfort with detailed reconciliation work across benefits deductions, 401(k) match calculations, and payroll-to-GL tie-outs",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-54",
+      "text": "strong Excel and Google Sheets skills",
+      "source_span": "strong Excel and Google Sheets skills",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-55",
+      "text": "ability to work accurately with large datasets",
+      "source_span": "the ability to work accurately with large datasets",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-56",
+      "text": "Working knowledge of US payroll tax compliance",
+      "source_span": "Working knowledge of US payroll tax compliance",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-57",
+      "text": "interest in learning cross-border payroll mechanics.",
+      "source_span": "interest in learning cross-border payroll mechanics.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-58",
+      "text": "Familiarity with equity compensation payroll",
+      "source_span": "Familiarity with equity compensation payroll",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-59",
+      "text": "RSU, NSO, and ISO taxation",
+      "source_span": "RSU, NSO, and ISO taxation",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-60",
+      "text": "Excellent attention to detail and follow-through",
+      "source_span": "Excellent attention to detail and follow-through",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-61",
+      "text": "catch errors before they reach employees",
+      "source_span": "catch errors before they reach employees",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-62",
+      "text": "Clear communicator",
+      "source_span": "Clear communicator",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-63",
+      "text": "explain payroll and benefits topics to employees and cross-functional stakeholders",
+      "source_span": "explain payroll and benefits topics to employees and cross-functional stakeholders",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "843d047aee4a3dde-64",
+      "text": "Ability to multi-task and prioritize effectively in a fast-paced environment.",
+      "source_span": "Ability to multi-task and prioritize effectively in a fast-paced environment.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-09-21T22:29:03.627+00:00",
+  "source_url": "https://jobs.ashbyhq.com/perplexity/5080dab5-7eb7-4cb2-9e2c-c61531fd3ad1",
+  "fetched_at": "2026-10-21T17:33:56.764Z",
+  "prompt_version": "extract-v1",
+  "text": "Perplexity is looking for a detail-oriented Payroll Analyst to join our growing Finance and Accounting team. You will partner closely with the Payroll Manager to keep US and international payroll accurate, compliant, and timely as the company scales through rapid hiring, global expansion, and increasing complexity in equity and benefits administration.\n\n \n\nThis is a hands-on role with real ownership from day one, working closely with People Operations, Accounting, Tax, and Equity. The ideal candidate combines strong payroll and systems expertise with sharp attention to detail, a service-oriented approach, and the ability to bring structure to a fast-moving environment.\n\n \n\nResponsibilities\n\n \n\n - US and international payroll processing: Own day-to-day processing support for US multi-state semi-monthly payroll and assist with international payroll cycles across approximately 16 countries, working primarily in Rippling.\n\n - Global contractor payroll: Run the monthly global contractor payroll cycle, including timecard submission tracking, manager approval follow-up, and on-schedule contractor payments.\n\n - Pre- and post-payroll audits: Reconcile benefit deductions, 401(k) deferrals, and employer match against payroll journals and deductions exports; flag and resolve discrepancies before paychecks post.\n\n - State tax account administration: Support state-level employer tax account registration and maintenance (SUI and withholding) as the company grows into new states, including migration of legacy accounts inherited from prior PEO arrangements.\n\n - Benefits and 401(k) support: Assist with 401(k) and benefits administration, including contribution monitoring, HCE and nondiscrimination testing support, and COBRA offboarding notices.\n\n - Equity payroll reporting: Support equity and stock-exercise payroll reporting by tracking Carta exercise data, applying correct NSO/ISO tax treatment, and preparing payroll-side entries at quarter-end cutoffs.\n\n - Reimbursements and systems integration: Manage the Rippling-to-NetSuite reimbursement approval chain, ensuring expense reimbursements route and post correctly across systems.\n\n - Employee support: Serve as a first point of contact for employee payroll inquiries, resolving routine questions and escalating complex cases with context.\n\n - Close and compliance support: Maintain clean, audit-ready documentation and support quarter-end and year-end close activities, including W-2s, ACA reporting, 401(k) true-ups, and year-end reconciliations.\n\n - Process improvement: Identify and help implement process improvements that reduce manual work and strengthen controls as payroll volume and jurisdictional complexity increase.\n\n \n\nRequirements\n\n \n\n - 4+ years of hands-on payroll experience, ideally including multi-state US payroll; international or contractor payroll exposure is a plus.\n\n - Experience establishing and managing US state agency accounts, including troubleshooting agency mailings and invoices for payment, and related account maintenance.\n\n - Strong working knowledge of California wage statement requirements, meal and rest break premiums, final pay timing rules, and other state-specific compliance considerations.\n\n - Hands-on experience with a modern payroll/HRIS platform (Rippling, Workday, ADP, Gusto, or similar); Rippling experience preferred.\n\n - Comfort with detailed reconciliation work across benefits deductions, 401(k) match calculations, and payroll-to-GL tie-outs, including strong Excel and Google Sheets skills and the ability to work accurately with large datasets.\n\n - Working knowledge of US payroll tax compliance (SUI, SIT, federal and state withholding) and interest in learning cross-border payroll mechanics.\n\n - Familiarity with equity compensation payroll (RSU, NSO, and ISO taxation) is a plus.\n\n - Excellent attention to detail and follow-through — this role exists to catch errors before they reach employees, not just process transactions.\n\n - Clear communicator who can explain payroll and benefits topics to employees and cross-functional stakeholders.\n\n - Ability to multi-task and prioritize effectively in a fast-paced environment.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "ashby"
+}

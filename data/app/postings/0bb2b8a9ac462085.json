@@ -1,0 +1,1262 @@
+{
+  "posting_id": "0bb2b8a9ac462085",
+  "company": "Oscar Health",
+  "slug": "oscar-health",
+  "domain": "hioscar.com",
+  "title": "Director, Accounting",
+  "role_family": "Close_Mgmt",
+  "seniority": "director_plus",
+  "n": 40,
+  "C": 4,
+  "A": 6,
+  "covered_share": 0.1,
+  "overlap": 0.25,
+  "weighted_overlap": 0.175,
+  "thin": false,
+  "salary_min": 180504,
+  "salary_max": 236912,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 9025.2,
+  "savings_reason": null,
+  "lead_product": "GL accounting",
+  "product_split": {
+    "GL accounting": {
+      "covered": 4,
+      "assisted": 5,
+      "weighted": 6.5
+    },
+    "Reporting": {
+      "covered": 0,
+      "assisted": 1,
+      "weighted": 0.5
+    }
+  },
+  "erp": [],
+  "tools": [],
+  "posted_at": "2026-09-16T13:35:39-04:00",
+  "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8192058",
+  "locations": [
+    "New York, New York, United States"
+  ],
+  "remote": "hybrid",
+  "excluded": null,
+  "text": "Hi, we're Oscar. We're hiring a Director of Accounting to join our Accounting team.\n\nOscar is the first health insurance company built around a full stack technology platform and a relentless focus on serving our members. We started Oscar in 2012 to create the kind of health insurance company we would want for ourselves—one that behaves like a doctor in the family.\n\nAbout the role:\n\nThe Director, Accounting will be the accounting lead for Oscar's recently acquired businesses and related platform operations, guiding their integration into Oscar's accounting and financial operations environment. You will oversee close processes, accounting and FinOps integrations, subledger activity, AR/AP commission accounting, and variance analytics in partnership with the business and FP&A. You will also help lead accounting integration for future M&A activity, including systems, data, controls, and reporting design.\n\nThis role will report to the Deputy Controller.\n\nWork Location: This position is based in our New York City office, requiring a hybrid work schedule with 3 days of in-office work per week. Thursdays are a required in-office day for team meetings and events, while your other two office days are flexible to suit your schedule. #LI-Hybrid\n\nPay Transparency: The base pay for this role is: $180,504 - $236,912 per year. You are also eligible for employee benefits, participation in Oscar's unlimited vacation program, company equity grants and annual performance bonuses.\n\nResponsibilities:\n\n• Direct end-to-end accounting for recently acquired businesses and related platform operations, including monthly and quarterly close, reconciliations, journal entries, supporting schedules, accounting conclusions, and control documentation.\n\n• Manage accounting and financial operations integrations for acquired businesses, including process design, systems and data mapping, subledger flows, cross-functional handoffs, and transition readiness.\n\n• Lead accounting operations for insurance-adjacent acquired businesses, including AR/AP accounting, insurance AMS accounting structure, data design, subledger journals, and reporting outputs needed by the business and FP&A.\n\n• Provide accounting leadership for SaaS and technology-enabled insurance platforms, including revenue, receivables, partner activity, and related platform accounting processes.\n\n• Prepare and review flux and variance analytics for acquired businesses, platform operations, and related integration activity; communicate key drivers and risks to Finance leadership and business stakeholders.\n\n• Support accounting for future M&A activity, including diligence input, close-readiness, policy and control alignment, systems and data integration, and post-close accounting operations.\n\n• Develop scalable policies, close calendars, reconciliations, controls, and process documentation; partner with Finance Operations, FP&A, Product/Engineering, Legal, Tax, and external auditors as needed.\n\n• Compliance with all applicable laws and regulations\n\n• Other duties as assigned\n\nRequirements:\n\n• 10+ years of relevant accounting experience.\n\n• Bachelor's degree in Accounting, Finance, or related field\n\n• 2+ years of experience leading accounting close processes, reconciliations, journal entries, or financial reporting for a business line, subsidiary, platform, or acquired business.\n\n• 2+ years of experience with accounting systems, subledgers, AR/AP accounting, revenue or receivables accounting, financial operations integrations, or data/process design.\n\n• 2+ years of experience preparing or reviewing flux and variance analysis.\n\nBonus points:\n\n• Experience in a similar accounting leadership role at a health insurance, Insurtech, SaaS, or platform business.\n\n• Experience with M&A accounting, purchase accounting support, acquired-company integration, or post-close finance operations integration.\n\n• Experience designing or managing insurance AMS, ERP, billing, receivables, payables, or subledger accounting processes.\n\n• 4+ years of experience with US-based insurance companies or insurance-adjacent businesses.\n\n• Experience leading people and working collaboratively across accounting, finance, technology, and business teams.\n\nThis is an authentic Oscar Health job opportunity.\n\nAt Oscar, being an Equal Opportunity Employer means more than upholding discrimination-free hiring practices. It means that we cultivate an environment where people can be their most authentic selves and find both belonging and support. We're on a mission to change health care -- an experience made whole by our unique backgrounds and perspectives.\n\nPay Transparency: Final offer amounts, within the base pay set forth above, are determined by factors including your relevant skills, education, and experience. Full-time employees are eligible for benefits including: medical, dental, and vision benefits, 11 paid holidays, paid sick time, paid parental leave, 401(k) plan participation, life and disability insurance, and paid wellness time and reimbursements.\n\nArtificial Intelligence (AI): Our AI Guidelines outline the acceptable use of artificial intelligence for candidates and detail how we use AI to support our recruiting efforts.\n\nReasonable Accommodation: Oscar applicants are considered solely based on their qualifications, without regard to applicant’s disability or need for accommodation. Any Oscar applicant who requires reasonable accommodations during the application process should contact the Oscar Benefits Team (accommodations@hioscar.com) to make the need for an accommodation known.\n\nCalifornia Residents: For information about our collection, use, and disclosure of applicants’ personal information as well as applicants’ rights over their personal information, please see our Privacy Policy.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 180504,
+    "max": 236912,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The base pay for this role is: $180,504 - $236,912 per year."
+  },
+  "complexity": {
+    "multi_entity": true,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "recently acquired businesses",
+    "accounting and financial operations integrations",
+    "subledger activity",
+    "future M&A activity",
+    "post-close accounting operations"
+  ],
+  "fetched_at": "2026-10-21T17:33:54.851Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "0bb2b8a9ac462085-01",
+      "text": "Direct end-to-end accounting for recently acquired businesses and related platform operations",
+      "source_span": "Direct end-to-end accounting for recently acquired businesses and related platform operations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1508,
+        "end": 1601
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.89,
+      "rationale": "Leading end-to-end accounting for acquired businesses is function leadership and coordination rather than a discrete automatable accounting task.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-02",
+      "text": "Manage monthly and quarterly close",
+      "source_span": "monthly and quarterly close",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1613,
+        "end": 1640
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.close_checklist",
+      "capability": "Run month-end close checklist tasks",
+      "product": "GL accounting",
+      "confidence": 0.95,
+      "rationale": "Managing the monthly and quarterly close matches running the close checklist and calendar end to end.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-03",
+      "text": "Prepare reconciliations",
+      "source_span": "reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1642,
+        "end": 1657
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.account_recs",
+      "capability": "Balance-sheet account reconciliations",
+      "product": "GL accounting",
+      "confidence": 0.98,
+      "rationale": "Preparing reconciliations is the core work of balance-sheet account reconciliations.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-04",
+      "text": "Prepare journal entries",
+      "source_span": "journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1659,
+        "end": 1674
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.journal_entries",
+      "capability": "Prepare and post journal entries",
+      "product": "GL accounting",
+      "confidence": 0.97,
+      "rationale": "Preparing journal entries matches journal-entry preparation, which is assisted rather than fully covered.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-05",
+      "text": "Prepare supporting schedules",
+      "source_span": "supporting schedules",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1676,
+        "end": 1696
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.76,
+      "rationale": "Preparing supporting schedules is documentation that supports entries and audits.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-06",
+      "text": "Document accounting conclusions",
+      "source_span": "accounting conclusions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1698,
+        "end": 1720
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Documenting accounting conclusions depends on accounting judgment and memo-level reasoning.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-07",
+      "text": "Prepare control documentation",
+      "source_span": "control documentation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1726,
+        "end": 1747
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.controls",
+      "capability": "Monitor manual entries and close controls",
+      "product": "GL accounting",
+      "confidence": 0.96,
+      "rationale": "Preparing control documentation matches maintaining documentation of key controls.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-08",
+      "text": "Manage accounting and financial operations integrations for acquired businesses",
+      "source_span": "Manage accounting and financial operations integrations for acquired businesses",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1752,
+        "end": 1831
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Managing accounting and finance operations integrations is a cross-functional implementation effort, not a discrete platform task.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-09",
+      "text": "Design processes",
+      "source_span": "process design",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1843,
+        "end": 1857
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Designing processes is process design and judgment, which is human work.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-10",
+      "text": "Map systems and data",
+      "source_span": "systems and data mapping",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1859,
+        "end": 1883
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.61,
+      "rationale": "Mapping systems and data is too vague to match a specific covered capability.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-11",
+      "text": "Manage subledger flows",
+      "source_span": "subledger flows",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1885,
+        "end": 1900
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.63,
+      "rationale": "Managing subledger flows is broad and does not clearly map to a specific subledger or close capability.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-12",
+      "text": "Manage cross-functional handoffs",
+      "source_span": "cross-functional handoffs",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1902,
+        "end": 1927
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Managing cross-functional handoffs is coordination with other teams, which is human work.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-13",
+      "text": "Prepare transition readiness",
+      "source_span": "transition readiness",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1933,
+        "end": 1953
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.64,
+      "rationale": "Preparing transition readiness is a vague project activity without a direct capability match.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-14",
+      "text": "Lead accounting operations for insurance-adjacent acquired businesses",
+      "source_span": "Lead accounting operations for insurance-adjacent acquired businesses",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1958,
+        "end": 2027
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Leading accounting operations for acquired businesses is leadership and oversight rather than an automatable task.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-15",
+      "text": "Manage AR/AP accounting",
+      "source_span": "AR/AP accounting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2039,
+        "end": 2055
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Managing AR/AP accounting is broad function management rather than a single covered workflow.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-16",
+      "text": "Design insurance AMS accounting structure",
+      "source_span": "insurance AMS accounting structure",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2057,
+        "end": 2091
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Designing an accounting structure is policy and framework design, which is human judgment.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-17",
+      "text": "Design data",
+      "source_span": "data design",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2093,
+        "end": 2104
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.69,
+      "rationale": "Design data is too vague to identify a specific finance operations capability.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-18",
+      "text": "Prepare subledger journals",
+      "source_span": "subledger journals",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2106,
+        "end": 2124
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.journal_entries",
+      "capability": "Prepare and post journal entries",
+      "product": "GL accounting",
+      "confidence": 0.88,
+      "rationale": "Preparing subledger journals is a form of journal-entry preparation.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-19",
+      "text": "Prepare reporting outputs needed by the business and FP&A",
+      "source_span": "reporting outputs needed by the business and FP&A",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2130,
+        "end": 2179
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.84,
+      "rationale": "Preparing reporting outputs for the business and FP&A matches building management reports.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-20",
+      "text": "Provide accounting leadership for SaaS and technology-enabled insurance platforms",
+      "source_span": "Provide accounting leadership for SaaS and technology-enabled insurance platforms",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2184,
+        "end": 2265
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.91,
+      "rationale": "Providing accounting leadership is a leadership and advisory duty, not a platform task.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-21",
+      "text": "Manage revenue accounting",
+      "source_span": "revenue",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2277,
+        "end": 2284
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Managing revenue accounting is function oversight and policy execution beyond the platform's core workflow.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-22",
+      "text": "Manage receivables accounting",
+      "source_span": "receivables",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2286,
+        "end": 2297
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.86,
+      "rationale": "Managing receivables accounting is broader oversight of AR work rather than a single automatable action.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-23",
+      "text": "Manage partner activity",
+      "source_span": "partner activity",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2299,
+        "end": 2315
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Managing partner activity is relationship coordination, which is human work.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-24",
+      "text": "Manage related platform accounting processes",
+      "source_span": "related platform accounting processes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2321,
+        "end": 2358
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.87,
+      "rationale": "Managing related platform accounting processes is broad operational management without a specific capability match.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-25",
+      "text": "Prepare flux analytics for acquired businesses, platform operations, and related integration activity",
+      "source_span": "Prepare and review flux and variance analytics for acquired businesses, platform operations, and related integration activity",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2363,
+        "end": 2488
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.flux",
+      "capability": "Variance (flux) analysis with draft commentary",
+      "product": "GL accounting",
+      "confidence": 0.97,
+      "rationale": "Preparing flux analytics matches variance analysis with draft commentary.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-26",
+      "text": "Review variance analytics for acquired businesses, platform operations, and related integration activity",
+      "source_span": "Prepare and review flux and variance analytics for acquired businesses, platform operations, and related integration activity",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2363,
+        "end": 2488
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.flux",
+      "capability": "Variance (flux) analysis with draft commentary",
+      "product": "GL accounting",
+      "confidence": 0.93,
+      "rationale": "Reviewing variance analytics still centers on variance analysis, which fits flux analysis.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-27",
+      "text": "Communicate key drivers and risks to Finance leadership and business stakeholders",
+      "source_span": "communicate key drivers and risks to Finance leadership and business stakeholders",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2490,
+        "end": 2571
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Communicating drivers and risks to leadership and stakeholders is presentation and advisory work.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-28",
+      "text": "Support accounting for future M&A activity",
+      "source_span": "Support accounting for future M&A activity",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2576,
+        "end": 2618
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.85,
+      "rationale": "Supporting future M&A accounting is an advisory project activity rather than a defined platform workflow.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-29",
+      "text": "Provide diligence input",
+      "source_span": "diligence input",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2630,
+        "end": 2645
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Providing diligence input is advisory work for a transaction process.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-30",
+      "text": "Prepare close-readiness",
+      "source_span": "close-readiness",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2647,
+        "end": 2662
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.66,
+      "rationale": "Close-readiness is too vague and project-oriented to map cleanly to a specific capability.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-31",
+      "text": "Align policies and controls",
+      "source_span": "policy and control alignment",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2664,
+        "end": 2692
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Aligning policies and controls is policy-setting and coordination, which is human work.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-32",
+      "text": "Integrate systems and data",
+      "source_span": "systems and data integration",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2694,
+        "end": 2722
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Integrating systems and data is an implementation project, not a discrete finance-operation task.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-33",
+      "text": "Support post-close accounting operations",
+      "source_span": "post-close accounting operations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2728,
+        "end": 2760
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.62,
+      "rationale": "Supporting post-close accounting operations is too broad to map to a specific capability.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-34",
+      "text": "Develop scalable policies",
+      "source_span": "Develop scalable policies",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2765,
+        "end": 2790
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Developing scalable policies is policy design and judgment, which is human work.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-35",
+      "text": "Develop close calendars",
+      "source_span": "close calendars",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2792,
+        "end": 2807
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.close_checklist",
+      "capability": "Run month-end close checklist tasks",
+      "product": "GL accounting",
+      "confidence": 0.91,
+      "rationale": "Developing close calendars matches managing the close checklist and calendar.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-36",
+      "text": "Develop reconciliations",
+      "source_span": "reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1642,
+        "end": 1657
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.89,
+      "rationale": "Developing reconciliations is designing the reconciliation approach rather than performing the reconciliation itself.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-37",
+      "text": "Develop controls",
+      "source_span": "controls",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 883,
+        "end": 891
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Developing controls is control design, which requires human judgment.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-38",
+      "text": "Develop process documentation",
+      "source_span": "process documentation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2840,
+        "end": 2861
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Developing process documentation is documentation and process design work handled by people.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-39",
+      "text": "Partner with Finance Operations, FP&A, Product/Engineering, Legal, Tax, and external auditors as needed",
+      "source_span": "partner with Finance Operations, FP&A, Product/Engineering, Legal, Tax, and external auditors as needed",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2863,
+        "end": 2966
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with other teams and auditors is relationship management and collaboration.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-40",
+      "text": "Comply with all applicable laws and regulations",
+      "source_span": "Compliance with all applicable laws and regulations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2971,
+        "end": 3022
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.58,
+      "rationale": "Complying with laws and regulations is a broad requirement rather than a specific operational duty.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-41",
+      "text": "Other duties as assigned",
+      "source_span": "Other duties as assigned",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3026,
+        "end": 3050
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-42",
+      "text": "10+ years of relevant accounting experience",
+      "source_span": "10+ years of relevant accounting experience.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3069,
+        "end": 3113
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-43",
+      "text": "Bachelor's degree in Accounting, Finance, or related field",
+      "source_span": "Bachelor's degree in Accounting, Finance, or related field",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3117,
+        "end": 3175
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-44",
+      "text": "2+ years of experience leading accounting close processes, reconciliations, journal entries, or financial reporting for a business line, subsidiary, platform, or acquired business",
+      "source_span": "2+ years of experience leading accounting close processes, reconciliations, journal entries, or financial reporting for a business line, subsidiary, platform, or acquired business.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3179,
+        "end": 3359
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-45",
+      "text": "2+ years of experience with accounting systems, subledgers, AR/AP accounting, revenue or receivables accounting, financial operations integrations, or data/process design",
+      "source_span": "2+ years of experience with accounting systems, subledgers, AR/AP accounting, revenue or receivables accounting, financial operations integrations, or data/process design.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3363,
+        "end": 3534
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-46",
+      "text": "2+ years of experience preparing or reviewing flux and variance analysis",
+      "source_span": "2+ years of experience preparing or reviewing flux and variance analysis.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3538,
+        "end": 3611
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-47",
+      "text": "Experience in a similar accounting leadership role at a health insurance, Insurtech, SaaS, or platform business",
+      "source_span": "Experience in a similar accounting leadership role at a health insurance, Insurtech, SaaS, or platform business.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3630,
+        "end": 3742
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-48",
+      "text": "Experience with M&A accounting, purchase accounting support, acquired-company integration, or post-close finance operations integration",
+      "source_span": "Experience with M&A accounting, purchase accounting support, acquired-company integration, or post-close finance operations integration.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3746,
+        "end": 3882
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-49",
+      "text": "Experience designing or managing insurance AMS, ERP, billing, receivables, payables, or subledger accounting processes",
+      "source_span": "Experience designing or managing insurance AMS, ERP, billing, receivables, payables, or subledger accounting processes.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3886,
+        "end": 4005
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-50",
+      "text": "4+ years of experience with US-based insurance companies or insurance-adjacent businesses",
+      "source_span": "4+ years of experience with US-based insurance companies or insurance-adjacent businesses.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4009,
+        "end": 4099
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-51",
+      "text": "Experience leading people and working collaboratively across accounting, finance, technology, and business teams",
+      "source_span": "Experience leading people and working collaboratively across accounting, finance, technology, and business teams.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4103,
+        "end": 4216
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "posting_id": "96cb95b911be868a",
+  "company": "Honeycomb",
+  "domain": "honeycomb.io",
+  "title": "Payroll Manager",
+  "role_family": "Payroll",
+  "seniority": "manager",
+  "locations": [
+    "Remote - United States",
+    "United States - Remote"
+  ],
+  "remote": "remote",
+  "salary": {
+    "min": 125000,
+    "max": 150000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Base Salary based on level of experience\n\n$125,000—$150,000 USD"
+  },
+  "erp": [],
+  "tools": [
+    "Rippling",
+    "Vistra",
+    "Remote",
+    "Navan",
+    "Airbase",
+    "Google Sheets",
+    "Microsoft Excel"
+  ],
+  "complexity": {
+    "multi_entity": true,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "global expansion",
+    "additional Employer of Record payrolls",
+    "Create and maintain process documentation and internal controls",
+    "Conduct account reconciliation",
+    "implement system upgrades and enhancements",
+    "Monthly flux analysis for payroll-related expense accounts"
+  ],
+  "duties": [
+    {
+      "duty_id": "96cb95b911be868a-01",
+      "text": "Maintain payroll data for US payroll, Canada Payroll, UK Payroll, and additional Employer of Record payrolls",
+      "source_span": "Maintain, review and validate data for US payroll, Canada Payroll, UK Payroll, and additional Employer of Record payrolls",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-02",
+      "text": "Review payroll data for US payroll, Canada Payroll, UK Payroll, and additional Employer of Record payrolls",
+      "source_span": "Maintain, review and validate data for US payroll, Canada Payroll, UK Payroll, and additional Employer of Record payrolls",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-03",
+      "text": "Validate payroll data for US payroll, Canada Payroll, UK Payroll, and additional Employer of Record payrolls",
+      "source_span": "Maintain, review and validate data for US payroll, Canada Payroll, UK Payroll, and additional Employer of Record payrolls",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-04",
+      "text": "Process payments for final paychecks",
+      "source_span": "Process payments for final paychecks, adjustments and special pay",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-05",
+      "text": "Process payments for adjustments",
+      "source_span": "Process payments for final paychecks, adjustments and special pay",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-06",
+      "text": "Process payments for special pay",
+      "source_span": "Process payments for final paychecks, adjustments and special pay",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-07",
+      "text": "Process employee expense reports in alignment with the Company Purchase & Expense Policy",
+      "source_span": "Process and approve employee expense reports in alignment with the Company Purchase & Expense Policy",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-08",
+      "text": "Approve employee expense reports in alignment with the Company Purchase & Expense Policy",
+      "source_span": "Process and approve employee expense reports in alignment with the Company Purchase & Expense Policy",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-09",
+      "text": "Manage Navan, formerly Tripactions, travel platform for employees and guests of the Company",
+      "source_span": "Manage Navan, formerly Tripactions, travel platform for employees and guests of the Company",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-10",
+      "text": "Maintain compliance with federal, state, and local payroll laws in addition to Global payroll compliance and company policies",
+      "source_span": "Maintain compliance with federal, state, and local payroll laws in addition to Global payroll compliance and company policies",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-11",
+      "text": "Maintain accrued PTO schedules for applicable subsidiaries in accordance with local laws",
+      "source_span": "Maintain accrued PTO schedules for applicable subsidiaries in accordance with local laws",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-12",
+      "text": "Audit payroll tax records",
+      "source_span": "Audit payroll tax records",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-13",
+      "text": "Lead annual audit for 401k",
+      "source_span": "Lead annual audit for 401k, Workers Compensation, and assist with the general financial statement audit",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-14",
+      "text": "Lead annual audit for Workers Compensation",
+      "source_span": "Lead annual audit for 401k, Workers Compensation, and assist with the general financial statement audit",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-15",
+      "text": "Assist with the general financial statement audit",
+      "source_span": "Lead annual audit for 401k, Workers Compensation, and assist with the general financial statement audit",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-16",
+      "text": "Create and maintain process documentation and internal controls",
+      "source_span": "Create and maintain process documentation and internal controls",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-17",
+      "text": "Conduct account reconciliation to verify payroll data against financial records.",
+      "source_span": "Conduct account reconciliation to verify payroll data against financial records.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-18",
+      "text": "Prepare payroll-related journal entries",
+      "source_span": "Prepare payroll-related journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-19",
+      "text": "Promptly address employee inquiries related to payroll",
+      "source_span": "Promptly address employee inquiries and concerns related to payroll, providing exceptional customer service and support.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-20",
+      "text": "Promptly address employee concerns related to payroll",
+      "source_span": "Promptly address employee inquiries and concerns related to payroll, providing exceptional customer service and support.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-21",
+      "text": "Provide exceptional customer service and support",
+      "source_span": "Promptly address employee inquiries and concerns related to payroll, providing exceptional customer service and support.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-22",
+      "text": "Stay updated on Global tax regulations and compliance requirements affecting payroll processes",
+      "source_span": "Stay updated on Global tax regulations and compliance requirements affecting payroll processes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-23",
+      "text": "Provide standard and ad-hoc payroll reports to Finance and People Teams",
+      "source_span": "Provide standard and ad-hoc payroll reports to various internal departments such as Finance and People Teams, as well as provide commentary on flux and trends",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-24",
+      "text": "Provide commentary on flux and trends",
+      "source_span": "Provide standard and ad-hoc payroll reports to various internal departments such as Finance and People Teams, as well as provide commentary on flux and trends",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-25",
+      "text": "Administer payroll systems",
+      "source_span": "Administer and maintain payroll systems, ensure data integrity and implement system upgrades and enhancements.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-26",
+      "text": "Maintain payroll systems",
+      "source_span": "Administer and maintain payroll systems, ensure data integrity and implement system upgrades and enhancements.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-27",
+      "text": "Ensure data integrity",
+      "source_span": "Administer and maintain payroll systems, ensure data integrity and implement system upgrades and enhancements.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-28",
+      "text": "Implement system upgrades and enhancements",
+      "source_span": "Administer and maintain payroll systems, ensure data integrity and implement system upgrades and enhancements.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-29",
+      "text": "Collaborate with HR, finance and other departments to gather payroll information, such as new hires, terminations, promotions and salary changes.",
+      "source_span": "Collaborate with HR, finance and other departments to gather and validate payroll information, such as new hires, terminations, promotions and salary changes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-30",
+      "text": "Validate payroll information, such as new hires, terminations, promotions and salary changes.",
+      "source_span": "Collaborate with HR, finance and other departments to gather and validate payroll information, such as new hires, terminations, promotions and salary changes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-31",
+      "text": "Maintain employee data changes across Spend Platform, Airbase",
+      "source_span": "Maintain employee data changes, including manager and department updates across Spend Platform, Airbase",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-32",
+      "text": "Maintain manager and department updates across Spend Platform, Airbase",
+      "source_span": "Maintain employee data changes, including manager and department updates across Spend Platform, Airbase",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-33",
+      "text": "Maintain employee-related benefit allocations, including healthcare",
+      "source_span": "Maintain employee-related benefit allocations and employee program trackers, including healthcare, professional development stipend, and work-from-home stipend programs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-34",
+      "text": "Maintain employee program trackers, including professional development stipend and work-from-home stipend programs",
+      "source_span": "Maintain employee-related benefit allocations and employee program trackers, including healthcare, professional development stipend, and work-from-home stipend programs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-35",
+      "text": "Perform monthly flux analysis for payroll-related expense accounts",
+      "source_span": "Monthly flux analysis for payroll-related expense accounts",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "96cb95b911be868a-36",
+      "text": "BS in Finance or Accounting or related field",
+      "source_span": "BS in Finance or Accounting or related field",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "96cb95b911be868a-37",
+      "text": "6+ years of relevant experience in SaaS or Start Up environment",
+      "source_span": "6+ years of relevant experience in SaaS or Start Up environment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "96cb95b911be868a-38",
+      "text": "Proficiency in Rippling required",
+      "source_span": "Proficiency in Rippling required",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "96cb95b911be868a-39",
+      "text": "Experience with multi-subsidiaries and global payroll",
+      "source_span": "Experience with multi-subsidiaries and global payroll",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "96cb95b911be868a-40",
+      "text": "Experience using HRIS systems and payroll processors such as Rippling, Vistra and Remote",
+      "source_span": "Experience using HRIS systems and payroll processors such as Rippling, Vistra and Remote",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "96cb95b911be868a-41",
+      "text": "Extremely detail oriented with strong interpersonal and communication skills",
+      "source_span": "Extremely detail oriented with strong interpersonal and communication skills",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "96cb95b911be868a-42",
+      "text": "Proven experience as a Payroll Manager or similar role, with a strong understanding of payroll procedures and global tax regulations.",
+      "source_span": "Proven experience as a Payroll Manager or similar role, with a strong understanding of payroll procedures and global tax regulations.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "96cb95b911be868a-43",
+      "text": "Excellent organizational skills and the ability to manage multiple tasks and deadlines effectively.",
+      "source_span": "Excellent organizational skills and the ability to manage multiple tasks and deadlines effectively.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "96cb95b911be868a-44",
+      "text": "Familiarity with account reconciliation processes and general ledger maintenance.",
+      "source_span": "Familiarity with account reconciliation processes and general ledger maintenance.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "96cb95b911be868a-45",
+      "text": "Proficiency in Google Sheets and Microsoft Excel preferred",
+      "source_span": "Proficiency in Google Sheets and Microsoft Excel preferred",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-08-24T12:47:54-04:00",
+  "source_url": "https://job-boards.greenhouse.io/honeycomb/jobs/5397518008",
+  "fetched_at": "2026-10-21T17:34:19.160Z",
+  "prompt_version": "extract-v1",
+  "text": "What We’re Building\n\nHoneycomb is a service for the near and present future, defining observability and raising expectations of what developer tools can do! We’re working with well known companies like HelloFresh, Slack, LaunchDarkly, and Vanguard and more across a range of industries. This is an exciting time in our trajectory, we’ve closed Series D funding, scaled past the 200-person mark, and were named to Forbes’ America’s Best Startups of 2022 and 2023!\n\nIf you want to see what we’ve been up to, please check out these blog posts and Honeycomb.io press releases.\n\nWho We Are\n\nWe come for the impact, and stay for the culture! We’re a talented, opinionated, passionate, fiercely inclusive, and responsible group of bees. We have conviction and we strive to live our values every day. We want our people to do what they truly love amongst a team of highly talented (but humble) peers.\n\nHow We Work\n\nWe are a fully distributed company, which means we believe it is not where you sit, but how you deliver that matters most. We invest in our people and care about how you orient to our culture and processes. At the same time we imbue a lot of trust, autonomy, and accountability from Day 1. #LI-Remote\n\nLittle more about the team:\n\nJoin Honeycomb as a Payroll Manager and be a key player in our exciting global expansion! Reporting directly to the Controller, you’ll have a pivotal role in shaping our payroll operations. We’re looking for a proactive, detail-oriented problem solver who thrives in the dynamic environment of a startup. If you’re ready to make an impact and grow with us, we’d love to hear from you! #LI-Remote\n\nWhat you’ll do in the role:\n\n• Maintain, review and validate data for US payroll, Canada Payroll, UK Payroll, and additional Employer of Record payrolls\n\n• Process payments for final paychecks, adjustments and special pay\n\n• Process and approve employee expense reports in alignment with the Company Purchase & Expense Policy\n\n• Manage Navan, formerly Tripactions, travel platform for employees and guests of the Company\n\n• Maintain compliance with federal, state, and local payroll laws in addition to Global payroll compliance and company policies\n\n• Maintain accrued PTO schedules for applicable subsidiaries in accordance with local laws\n\n• Audit payroll tax records\n\n• Lead annual audit for 401k, Workers Compensation, and assist with the general financial statement audit\n\n• Create and maintain process documentation and internal controls\n\n• Conduct account reconciliation to verify payroll data against financial records.\n\n• Prepare payroll-related journal entries\n\n• Promptly address employee inquiries and concerns related to payroll, providing exceptional customer service and support.\n\n• Stay updated on Global tax regulations and compliance requirements affecting payroll processes\n\n• Provide standard and ad-hoc payroll reports to various internal departments such as Finance and People Teams, as well as provide commentary on flux and trends\n\n• Administer and maintain payroll systems, ensure data integrity and implement system upgrades and enhancements.\n\n• Collaborate with HR, finance and other departments to gather and validate payroll information, such as new hires, terminations, promotions and salary changes.\n\n• Maintain employee data changes, including manager and department updates across Spend Platform, Airbase\n\n• Maintain employee-related benefit allocations and employee program trackers, including healthcare, professional development stipend, and work-from-home stipend programs\n\n• Monthly flux analysis for payroll-related expense accounts\n\nWhat you’ll bring to the role:\n\n• BS in Finance or Accounting or related field\n\n• 6+ years of relevant experience in SaaS or Start Up environment\n\n• Proficiency in Rippling required\n\n• Experience with multi-subsidiaries and global payroll\n\n• Experience using HRIS systems and payroll processors such as Rippling, Vistra and Remote\n\n• Extremely detail oriented with strong interpersonal and communication skills\n\n• Proven experience as a Payroll Manager or similar role, with a strong understanding of payroll procedures and global tax regulations.\n\n• Excellent organizational skills and the ability to manage multiple tasks and deadlines effectively.\n\n• Familiarity with account reconciliation processes and general ledger maintenance.\n\n• Proficiency in Google Sheets and Microsoft Excel preferred\n\nBase Salary based on level of experience\n\n$125,000—$150,000 USD\n\nWhat you'll get when you join the Hive:\n\n• A stake in our success - generous equity with employee-friendly stock program\n\n• It’s not about how strong of a negotiator you are - our pay is based on transparent levels relative to experience\n\n• Time to recharge with unlimited PTO\n\n• A distributed-first mindset and culture (really!)\n\n• Home office, co-working, and internet stipend\n\n• Full benefits coverage for employees, with additional coverage available for dependents\n\n• Up to 16 weeks of paid parental leave, regardless of path to parenthood\n\n• Annual development allowance\n\n• And much more...\n\nPlease note we cannot currently sponsor or support visa transfers at this time. Additionally, in compliance with applicable law, all persons hired will be required to verify identity and eligibility to work.\n\nPhishing and Recruitment Scam Warning:\n\nWe take your security seriously. Please be aware that recruitment scams are increasingly common and scammers may create email addresses or websites to impersonate Honeycomb employees. To help protect you:\n\n• All communications will come from an @honeycomb.io email address\n\n• We occasionally work with external recruiting agencies. These partners will use legitimate business email addresses—never personal accounts like Gmail or Yahoo.\n\n• Our recruiting process will never ask you to provide financial or sensitive personal information, including but not limited to:\n\n• Social security or tax identification numbers\n\n• Credit card numbers\n\n• Bank account information\n\nDiversity & Accommodations:\n\nWe're committed to building a diverse, inclusive, and equitable workplace—where people of all backgrounds, identities, experiences, and abilities are welcomed, valued, and supported. We recognize that there is no single path to success and embrace nontraditional career journeys and diverse perspectives as key to building stronger, more innovative teams.\n\nWe strive to ensure an inclusive experience throughout every stage of our hiring process and are happy to provide reasonable accommodations as needed. If you require accommodations or accessible formats at any point during our hiring process, please let your recruiter know.\n\nAs an equal opportunity employer our hiring process is designed to put you at ease and help you show your best work. If there’s anything we can do to improve your experience, we’re always open to feedback.\n\nPrivacy Notice:\n\nIf you apply for a job at Honeycomb and your application is unsuccessful (or you withdraw from the process or decline our offer), Honeycomb will retain your information after your application for a period of time in accordance with local laws. We retain this information for various reasons, including in case we face a legal challenge in respect of a recruitment decision, to consider you for other current or future jobs at Honeycomb, and to help us better understand, analyze and improve our recruitment processes.\n\nFor more information regarding our privacy practices please see the Honeycomb Privacy Notice.\n\nIf you do not want us to retain your information, or want us to update it, please contact privacy@honeycomb.io. Please note, however, that we may retain some information if required by law or as necessary to protect ourselves from legal claims.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

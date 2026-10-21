@@ -1,0 +1,60 @@
+{
+  "posting_id": "1a410633cc7d1b51",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "1a410633cc7d1b51-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Serving as a primary business partner to senior leaders is advisory cross-functional work rather than a finance-ops capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1a410633cc7d1b51-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Driving financial planning and budgeting is FP&A planning work, which is explicitly outside the covered capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1a410633cc7d1b51-03",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.78,
+      "rationale": "Defining the management dashboard and operating metrics aligns with building recurring management reports and KPI views.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1a410633cc7d1b51-04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.62,
+      "rationale": "Identifying opportunities to improve resource allocation and efficiency is strategic analysis, but the duty is too broad to map cleanly to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1a410633cc7d1b51-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Working cross-functionally on critical change projects is project leadership and collaboration work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1a410633cc7d1b51-06",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.66,
+      "rationale": "Improving tooling, self-serve automation, and internal processes is too vague and reads as a general process-improvement project.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

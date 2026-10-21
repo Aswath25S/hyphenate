@@ -1,0 +1,78 @@
+{
+  "posting_id": "5b64604701b310ca",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "5b64604701b310ca-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Supporting budgeting and forecasting is an FP&A planning collaboration with stakeholders, which is people-led work rather than a listed platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5b64604701b310ca-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Maintaining a forward-looking financial model is long-range FP&A planning, which is repetitive analytical work but not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5b64604701b310ca-03",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.72,
+      "rationale": "Tracking financial and operational performance metrics aligns with building recurring management reports and KPI reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5b64604701b310ca-04",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.8,
+      "rationale": "Providing monthly, quarterly, and annual reporting and insights matches recurring management reporting and board-deck financial outputs.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5b64604701b310ca-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Collaborating on key growth initiatives is cross-functional partnering and project work, which is human-led by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5b64604701b310ca-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Assisting marketing leads to scale acquisition is partnering with another team, which falls under human collaboration rather than an automation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5b64604701b310ca-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Tracking customer acquisition cost is a repetitive metric-monitoring task that could be automated but does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5b64604701b310ca-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Being a trusted partner to supply-side and international growth teams is advisory and relationship-based work, which is human-led.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

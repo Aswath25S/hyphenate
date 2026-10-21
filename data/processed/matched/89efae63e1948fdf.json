@@ -1,0 +1,249 @@
+{
+  "posting_id": "89efae63e1948fdf",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "89efae63e1948fdf-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Strategic financial planning is leadership and judgment work rather than a specific automated finance operation in the coverage map.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-02",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.9,
+      "rationale": "Identifying growth, efficiency, and cash drivers matches driver analysis using source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Turning analysis into executive recommendations is advisory work to leadership.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Serving as a key voice to the Executive Team is a presenting and advisory role.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Shaping the financial narrative for reporting, investor relations, and fundraising is executive communication and relationship work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Acting as a close partner to the CFO is partnering and advising, not a covered automation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with business leaders to turn data into insights is cross-functional advising work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Challenging other leaders with evidence is advisory and persuasive human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Scenario modeling for major decisions is FP&A modeling work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Sensitivity analysis for major decisions is FP&A modeling work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-11",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Leading investment cases is strategic FP&A analysis that is not a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": "confidence 0.58 below 0.6"
+    },
+    {
+      "duty_id": "89efae63e1948fdf-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Building and scaling the FP&A team and operating model is management and organizational design work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Developing talent is people management work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Maintaining succession readiness is leadership and workforce planning work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Establishing governance is policy-setting and oversight work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-16",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.86,
+      "rationale": "Maintaining controls matches monitoring and documenting internal controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.52,
+      "rationale": "Keeping what works is too vague to map to a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.54,
+      "rationale": "Redesigning what does not work is a vague process-improvement duty with no specific mapped capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-19",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.59,
+      "rationale": "Redesigning forecasting workflows with AI is a transformation project, not a specific finance-ops capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.59,
+      "rationale": "Redesigning planning workflows with AI is a workflow project rather than a mapped finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.59,
+      "rationale": "Redesigning variance workflows with AI is a workflow redesign project, not an operational finance task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.59,
+      "rationale": "Redesigning reporting workflows with AI is a transformation project and not a specific covered capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-23",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.66,
+      "rationale": "Validating outputs is too vague to determine whether it is review, QA, or another finance task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-24",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.61,
+      "rationale": "Protecting confidential data is a broad governance duty that does not map cleanly to a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Overseeing sales compensation administration is commissions administration work, which is explicitly outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Aligning incentive plans with company goals is policy and design work requiring judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "89efae63e1948fdf-27",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Executing incentive plans accurately is commissions administration work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    }
+  ]
+}

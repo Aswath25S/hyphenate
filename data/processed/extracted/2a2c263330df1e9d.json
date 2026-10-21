@@ -1,0 +1,225 @@
+{
+  "posting_id": "2a2c263330df1e9d",
+  "company": "Navan",
+  "domain": "navan.com",
+  "title": "Sr. Accountant, Financial Reporting",
+  "role_family": "Reporting_FPA",
+  "seniority": "senior",
+  "locations": [
+    "Palo Alto, CA or San Francisco, CA",
+    "Palo Alto, California, United States"
+  ],
+  "remote": "unknown",
+  "salary": {
+    "min": 73800,
+    "max": 164000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Pay Range\n\n$73,800—$164,000 USD"
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Workiva",
+    "Wdesk"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "streamline and scale the end-to-end equity administration process",
+    "fast-paced environment",
+    "managing competing priorities and requests",
+    "ad-hoc requests"
+  ],
+  "duties": [
+    {
+      "duty_id": "2a2c263330df1e9d-01",
+      "text": "Assist in planning and execution of SEC filings",
+      "source_span": "Assist in planning and execution of SEC filings, including Forms 10-Q, 10-K, 8-K, and related XBRL tagging.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-02",
+      "text": "Prepare the financial statements",
+      "source_span": "Prepare the financial statements, including cash flow statement, and footnote disclosures while maintaining complete tie-out documentation under the Company’s SOX controls.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-03",
+      "text": "Prepare cash flow statement",
+      "source_span": "Prepare the financial statements, including cash flow statement, and footnote disclosures while maintaining complete tie-out documentation under the Company’s SOX controls.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-04",
+      "text": "Prepare footnote disclosures",
+      "source_span": "Prepare the financial statements, including cash flow statement, and footnote disclosures while maintaining complete tie-out documentation under the Company’s SOX controls.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-05",
+      "text": "Maintain complete tie-out documentation under the Company’s SOX controls",
+      "source_span": "Prepare the financial statements, including cash flow statement, and footnote disclosures while maintaining complete tie-out documentation under the Company’s SOX controls.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-06",
+      "text": "Prepare stock-based compensation journal entries",
+      "source_span": "Prepare stock-based compensation journal entries and reconciliations for month-end/quarter-end in compliance with US GAAP (ASC 718).",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-07",
+      "text": "Prepare stock-based compensation reconciliations for month-end/quarter-end in compliance with US GAAP (ASC 718)",
+      "source_span": "Prepare stock-based compensation journal entries and reconciliations for month-end/quarter-end in compliance with US GAAP (ASC 718).",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-08",
+      "text": "Maintain supporting documents for internal/external SOX auditors",
+      "source_span": "Maintain supporting documents for internal/external SOX auditors and respond accurately, thoroughly and timely to requests for data.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-09",
+      "text": "Respond accurately, thoroughly and timely to requests for data",
+      "source_span": "Maintain supporting documents for internal/external SOX auditors and respond accurately, thoroughly and timely to requests for data.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-10",
+      "text": "Liaise with external auditors during quarterly and annual financial reviews and audits",
+      "source_span": "Liaise and manage the coordination with external auditors during quarterly and annual financial reviews and audits.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-11",
+      "text": "Manage the coordination with external auditors during quarterly and annual financial reviews and audits",
+      "source_span": "Liaise and manage the coordination with external auditors during quarterly and annual financial reviews and audits.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-12",
+      "text": "Recommend process improvements to streamline processes",
+      "source_span": "Recommend and assist in the implementation of process improvements to streamline processes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-13",
+      "text": "Assist in the implementation of process improvements to streamline processes",
+      "source_span": "Recommend and assist in the implementation of process improvements to streamline processes.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-14",
+      "text": "Establish active and effective communication with cross functional partners",
+      "source_span": "Establish active and effective communication with cross functional partners.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-15",
+      "text": "Support technical accounting research",
+      "source_span": "Support technical accounting research, special projects, and ad-hoc requests.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-16",
+      "text": "Special projects",
+      "source_span": "special projects",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-17",
+      "text": "Support ad-hoc requests",
+      "source_span": "Support technical accounting research, special projects, and ad-hoc requests.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-18",
+      "text": "Bachelor's degree in Accounting/Finance or a related discipline preferred.",
+      "source_span": "Bachelor's degree in Accounting/Finance or a related discipline preferred.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-19",
+      "text": "3+ years of overall experience in accounting.",
+      "source_span": "3+ years of overall experience in accounting.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-20",
+      "text": "Strong verbal and written communication skills.",
+      "source_span": "Strong verbal and written communication skills.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-21",
+      "text": "Highly motivated and proactive with strong project management, organizational, oral and written communication skills.",
+      "source_span": "Highly motivated and proactive with strong project management, organizational, oral and written communication skills.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-22",
+      "text": "Must demonstrate attention to detail, analytical abilities, and consistent follow-through, including project management skills.",
+      "source_span": "Must demonstrate attention to detail, analytical abilities, and consistent follow-through, including project management skills.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-23",
+      "text": "Comfortable working in a fast-paced environment and managing competing priorities and requests.",
+      "source_span": "Comfortable working in a fast-paced environment and managing competing priorities and requests.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-24",
+      "text": "Positive attitude and ability to work autonomously and in a team environment.",
+      "source_span": "Positive attitude and ability to work autonomously and in a team environment.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2c263330df1e9d-25",
+      "text": "Experience working with Workiva, Wdesk, and Netsuite is preferred.",
+      "source_span": "Experience working with Workiva, Wdesk, and Netsuite is preferred.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-09-16T08:48:59-04:00",
+  "source_url": "https://navan.com/careers/openings?gh_jid=8194359",
+  "fetched_at": "2026-10-21T17:34:55.609Z",
+  "prompt_version": "extract-v1",
+  "text": "As a Senior Accountant in Financial Reporting, supporting both financial reporting and equity administration, you will be integral to our accounting operations, ensuring accurate and compliant financial records under US GAAP. This role will involve owning the preparation of equity accounting, assisting in our financial statement reviews and audits, and helping streamline and scale the end-to-end equity administration process, working closely with cross-functional teams to implement best practices as we continue our rapid global expansion.\n\nWhat You'll Do\n\n• Assist in planning and execution of SEC filings, including Forms 10-Q, 10-K, 8-K, and related XBRL tagging.\n\n• Prepare the financial statements, including cash flow statement, and footnote disclosures while maintaining complete tie-out documentation under the Company’s SOX controls.\n\n• Prepare stock-based compensation journal entries and reconciliations for month-end/quarter-end in compliance with US GAAP (ASC 718).\n\n• Maintain supporting documents for internal/external SOX auditors and respond accurately, thoroughly and timely to requests for data.\n\n• Liaise and manage the coordination with external auditors during quarterly and annual financial reviews and audits.\n\n• Recommend and assist in the implementation of process improvements to streamline processes.\n\n• Establish active and effective communication with cross functional partners.\n\n• Support technical accounting research, special projects, and ad-hoc requests.\n\nWhat We're Looking For\n\n• Bachelor's degree in Accounting/Finance or a related discipline preferred.\n\n• 3+ years of overall experience in accounting.\n\n• Strong verbal and written communication skills.\n\n• Highly motivated and proactive with strong project management, organizational, oral and written communication skills.\n\n• Must demonstrate attention to detail, analytical abilities, and consistent follow-through, including project management skills.\n\n• Comfortable working in a fast-paced environment and managing competing priorities and requests.\n\n• Positive attitude and ability to work autonomously and in a team environment.\n\n• Experience working with Workiva, Wdesk, and Netsuite is preferred.\n\nThe posted pay range represents the anticipated low and high end of the compensation for this position and is subject to change based on business need. To determine a successful candidate’s starting pay, we carefully consider a variety of factors, including primary work location, an evaluation of the candidate’s skills and experience, market demands, and internal parity.\n\nFor roles with on-target-earnings (OTE), the pay range includes both base salary and target incentive compensation. Target incentive compensation for some roles may include a ramping draw period. Compensation is higher for those who exceed targets. Candidates may receive more information from the recruiter.\n\nPay Range\n\n$73,800—$164,000 USD\n\nNavan uses AI-assisted Automated Employment Decision Tool (Metaview) to assist with evaluating resumes against job qualifications for this role. All final decisions are made by human recruiters and hiring managers.\n\nHuman oversight: Metaview does not automatically reject candidates or make final hiring decisions. Our recruiters and hiring managers review all outputs and make the final hiring decision regarding every application.\n\n•\n\nYour rights: If you prefer to have your application reviewed without AI assistance, you may request a human evaluation by entering your email here. Your decision to do so will not affect how your candidacy is evaluated.\n\nPlease refer to our Candidate Privacy Notice for more information about our processing of personal data, and your rights.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

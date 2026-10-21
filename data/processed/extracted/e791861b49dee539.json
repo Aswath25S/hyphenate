@@ -1,0 +1,406 @@
+{
+  "posting_id": "e791861b49dee539",
+  "company": "Shield AI",
+  "domain": "shield.ai",
+  "title": "Senior Accountant, Technical Accounting & Reporting (R6349)",
+  "role_family": "Reporting_FPA",
+  "seniority": "senior",
+  "locations": [
+    "San Diego, California",
+    "San Mateo, California"
+  ],
+  "remote": "unknown",
+  "salary": {
+    "min": 89000,
+    "max": 160000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Job board pay data: 89000–160000 USD per year"
+  },
+  "erp": [],
+  "tools": [
+    "Excel",
+    "Workiva"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "growing Accounting team",
+    "complex transactions",
+    "audit ready",
+    "scalable accounting policies, controls, and reporting processes",
+    "multiple priorities and deadlines"
+  ],
+  "duties": [
+    {
+      "duty_id": "e791861b49dee539-01",
+      "text": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems.",
+      "source_span": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-02",
+      "text": "Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies.",
+      "source_span": "Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-03",
+      "text": "With offices and facilities across the U.S., Europe, the Middle East, and Asia-Pacific, Shield AI’s technology actively supports operations worldwide.",
+      "source_span": "With offices and facilities across the U.S., Europe, the Middle East, and Asia-Pacific, Shield AI’s technology actively supports operations worldwide.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-04",
+      "text": "For more information, visit www.shield.ai.",
+      "source_span": "For more information, visit www.shield.ai.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-05",
+      "text": "Follow Shield AI on LinkedIn, X, Instagram, and YouTube.",
+      "source_span": "Follow Shield AI on LinkedIn, X, Instagram, and YouTube.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-06",
+      "text": "Analyze new, unusual, and complex transactions matters (such as leases, financial instruments, or business combinations)",
+      "source_span": "Analyze new, unusual, and complex transactions matters (such as leases, financial instruments, or business combinations)",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-07",
+      "text": "Prepare clear, audit-ready technical accounting memos and whitepapers under U.S. GAAP.",
+      "source_span": "prepare clear, audit-ready technical accounting memos and whitepapers under U.S. GAAP.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-08",
+      "text": "Prepare GAAP financial statements",
+      "source_span": "Prepare GAAP financial statements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-09",
+      "text": "Prepare footnotes",
+      "source_span": "footnotes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-10",
+      "text": "Prepare supporting schedules",
+      "source_span": "supporting schedules",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-11",
+      "text": "Maintain roll forwards",
+      "source_span": "maintain roll forwards",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-12",
+      "text": "Maintain tie-outs",
+      "source_span": "tie-outs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-13",
+      "text": "Maintain internal consistency checks to ensure outputs are complete and audit ready.",
+      "source_span": "internal consistency checks to ensure outputs are complete and audit ready.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-14",
+      "text": "Coordinate assigned external-audit requests",
+      "source_span": "Coordinate assigned external-audit requests",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-15",
+      "text": "Maintain supporting documentation",
+      "source_span": "maintain supporting documentation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-16",
+      "text": "Execute controls supporting financial reporting, SOX, and IPO readiness.",
+      "source_span": "execute controls supporting financial reporting, SOX, and IPO readiness.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-17",
+      "text": "Monitor new accounting guidance",
+      "source_span": "Monitor new accounting guidance",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-18",
+      "text": "Update assigned policies",
+      "source_span": "update assigned policies",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-19",
+      "text": "Improve reporting templates",
+      "source_span": "reporting templates",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-20",
+      "text": "Improve workflows",
+      "source_span": "workflows",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-21",
+      "text": "Improve systems through standardization and automation",
+      "source_span": "systems through standardization and automation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-22",
+      "text": "Work with Corporate Accounting, Legal, Corporate Development, Treasury, Tax, FP&A, and Program Finance to evaluate transactions",
+      "source_span": "Work with Corporate Accounting, Legal, Corporate Development, Treasury, Tax, FP&A, and Program Finance to evaluate transactions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-23",
+      "text": "Implement approved accounting conclusions",
+      "source_span": "implement approved accounting conclusions.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-24",
+      "text": "Bachelor’s degree in Accounting, Finance, or a related field.",
+      "source_span": "Bachelor’s degree in Accounting, Finance, or a related field.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e791861b49dee539-25",
+      "text": "Active CPA license",
+      "source_span": "Active CPA license",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e791861b49dee539-26",
+      "text": "3+ years of progressive experience in public accounting, technical accounting, financial reporting, and/or a high-growth operating environment.",
+      "source_span": "3+ years of progressive experience in public accounting, technical accounting, financial reporting, and/or a high-growth operating environment.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e791861b49dee539-27",
+      "text": "Strong working knowledge of U.S. GAAP",
+      "source_span": "Strong working knowledge of U.S. GAAP",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e791861b49dee539-28",
+      "text": "Demonstrated experience researching accounting guidance",
+      "source_span": "researching accounting guidance",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e791861b49dee539-29",
+      "text": "Demonstrated experience documenting technical conclusions",
+      "source_span": "documenting technical conclusions.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e791861b49dee539-30",
+      "text": "Experience preparing financial statements",
+      "source_span": "Experience preparing or auditing financial statements, footnote disclosures, and supporting schedules.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e791861b49dee539-31",
+      "text": "Experience auditing financial statements",
+      "source_span": "Experience preparing or auditing financial statements, footnote disclosures, and supporting schedules.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e791861b49dee539-32",
+      "text": "Experience preparing footnote disclosures",
+      "source_span": "footnote disclosures",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e791861b49dee539-33",
+      "text": "Experience preparing supporting schedules",
+      "source_span": "supporting schedules.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e791861b49dee539-34",
+      "text": "Proficiency with Excel",
+      "source_span": "Proficiency with Excel",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e791861b49dee539-35",
+      "text": "Experience with ERP and financial reporting systems",
+      "source_span": "experience with ERP and financial reporting systems",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e791861b49dee539-36",
+      "text": "Workiva experience is preferred",
+      "source_span": "Workiva experience is preferred.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e791861b49dee539-37",
+      "text": "Clear communication skills",
+      "source_span": "Clear communication skills",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e791861b49dee539-38",
+      "text": "Strong ownership",
+      "source_span": "strong ownership",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e791861b49dee539-39",
+      "text": "Judgment",
+      "source_span": "judgment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e791861b49dee539-40",
+      "text": "Attention to detail",
+      "source_span": "attention to detail",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e791861b49dee539-41",
+      "text": "Ability to manage multiple priorities and deadlines",
+      "source_span": "the ability to manage multiple priorities and deadlines.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "e791861b49dee539-42",
+      "text": "Full-time regular employee offer package:",
+      "source_span": "Full-time regular employee offer package:",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-43",
+      "text": "Pay within range listed + Bonus + Benefits + Equity",
+      "source_span": "Pay within range listed + Bonus + Benefits + Equity",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-44",
+      "text": "Temporary employee offer package:",
+      "source_span": "Temporary employee offer package:",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-45",
+      "text": "Pay within range listed above + temporary benefits package (applicable after 60 days of employment)",
+      "source_span": "Pay within range listed above + temporary benefits package (applicable after 60 days of employment)",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-46",
+      "text": "Salary compensation is influenced by a wide array of factors including but not limited to skill set, level of experience, licenses and certifications, and specific work location.",
+      "source_span": "Salary compensation is influenced by a wide array of factors including but not limited to skill set, level of experience, licenses and certifications, and specific work location.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-47",
+      "text": "All offers are contingent on a cleared background and possible reference check.",
+      "source_span": "All offers are contingent on a cleared background and possible reference check.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-48",
+      "text": "Military fellows and part-time employees are not eligible for benefits.",
+      "source_span": "Military fellows and part-time employees are not eligible for benefits.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-49",
+      "text": "Shield AI is proud to be an equal opportunity workplace and is an affirmative action employer.",
+      "source_span": "Shield AI is proud to be an equal opportunity workplace and is an affirmative action employer.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-50",
+      "text": "We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, marital status, disability, gender identity or Veteran status.",
+      "source_span": "We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, marital status, disability, gender identity or Veteran status.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "e791861b49dee539-51",
+      "text": "If you have a disability or special need that requires accommodation, please let us know.",
+      "source_span": "If you have a disability or special need that requires accommodation, please let us know.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    }
+  ],
+  "posted_at": "2026-10-20T17:20:11.860Z",
+  "source_url": "https://jobs.lever.co/shieldai/f0b84b9e-66dc-45f3-9898-e325755954ef",
+  "fetched_at": "2026-10-21T17:34:01.258Z",
+  "prompt_version": "extract-v1",
+  "text": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Europe, the Middle East, and Asia-Pacific, Shield AI’s technology actively supports operations worldwide. For more information, visit www.shield.ai. Follow Shield AI on LinkedIn, X, Instagram, and YouTube. \n\n\nJob Descrpition:\nWe are seeking an experienced and highly motivated Senior of Technical Accounting to join our growing Accounting team. As Shield AI scales its global aerospace, defense, software, and AI operations, this role will help ensure that complex transactions are accounted for accurately and reflected clearly in our consolidated financial statements. This role sits at the intersection of technical accounting, financial reporting, audit readiness, and cross-functional business partnership. You will research and draft accounting conclusions for complex and significant transactions, support the preparation of audited financial statements and other monthly and quarterly reporting, and help develop scalable accounting policies, controls, and reporting processes. \n\n\nWhat you'll do:\n• Research complex accounting - Analyze new, unusual, and complex transactions matters (such as leases, financial instruments, or business combinations) and prepare clear, audit-ready technical accounting memos and whitepapers under U.S. GAAP.\n\n• Own end-to-end financial statements and disclosures - Prepare GAAP financial statements, footnotes, and supporting schedules; maintain roll forwards, tie-outs, and internal consistency checks to ensure outputs are complete and audit ready.\n\n• Strengthen audit and control readiness - Coordinate assigned external-audit requests, maintain supporting documentation, and execute controls supporting financial reporting, SOX, and IPO readiness.\n\n• Improve policies, processes, and tools - Monitor new accounting guidance, update assigned policies, and improve reporting templates, workflows, and systems through standardization and automation.\n\n• Partner cross functionally - Work with Corporate Accounting, Legal, Corporate Development, Treasury, Tax, FP&A, and Program Finance to evaluate transactions and implement approved accounting conclusions.\n\nRequired qualifications:\n• Bachelor’s degree in Accounting, Finance, or a related field.\n\n• Active CPA license\n\n• 3+ years of progressive experience in public accounting, technical accounting, financial reporting, and/or a high-growth operating environment.\n\n• Strong working knowledge of U.S. GAAP and demonstrated experience researching accounting guidance and documenting technical conclusions.\n\n• Experience preparing or auditing financial statements, footnote disclosures, and supporting schedules.\n\n• Proficiency with Excel and experience with ERP and financial reporting systems; Workiva experience is preferred.\n\n• Clear communication skills with strong ownership, judgment, attention to detail, and the ability to manage multiple priorities and deadlines.\n\n#LI-RS3\n#LC\n\n\nFull-time regular employee offer package:\nPay within range listed + Bonus + Benefits + Equity\n \nTemporary employee offer package:\nPay within range listed above + temporary benefits package (applicable after 60 days of employment)\n \nSalary compensation is influenced by a wide array of factors including but not limited to skill set, level of experience, licenses and certifications, and specific work location. All offers are contingent on a cleared background and possible reference check. Military fellows and part-time employees are not eligible for benefits. Please speak to your talent acquisition representative for more information.\n \n###\n \nShield AI is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, marital status, disability, gender identity or Veteran status. If you have a disability or special need that requires accommodation, please let us know. \n",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "lever"
+}

@@ -1,0 +1,186 @@
+{
+  "posting_id": "9b7cf0d999993619",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "9b7cf0d999993619-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Owning the operating model and rolling forecast is FP&A planning work that matches no covered capability and is explicitly outside the cash-forecast capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Keeping the forecasting model current as the business changes is ongoing planning-model maintenance, which is not covered by the listed finance-ops capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Running the annual budget is budgeting model work and is explicitly outside the forecast capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Running the regular reforecast process is FP&A forecasting work that is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Working with department leaders to build their plans is cross-functional partnering and planning with other teams, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Holding department leaders accountable to their plans is a management/leadership action rather than an automated finance-ops task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Producing budget-versus-actual reporting is FP&A planning analysis and is not covered by the management-reporting or flux-analysis capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Variance analysis here is budget-versus-actual FP&A analysis, which is explicitly outside the flux-analysis capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Explaining what moved and why in a way leadership can act on is presenting/communicating analysis to leadership, which is human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-10",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.74,
+      "rationale": "Building and maintaining SaaS metrics fits recurring KPI/report building for management reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Modeling pricing, packaging, and new product scenarios is FP&A planning and pricing/scenario modeling, which is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Showing revenue, margin, and cash impacts from scenarios is planning-model analysis that does not match a covered reporting or treasury capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Tracking the cost structure is cost analysis/planning work and does not match any covered automation capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Forecasting the cost structure is FP&A forecasting work, which is outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-15",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.89,
+      "rationale": "Preparing financial materials for board meetings matches building board-deck financials and management reporting support.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-16",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.78,
+      "rationale": "Preparing financial materials for investor updates is recurring reporting and deck support, similar to management-reporting preparation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with accounting on the close is cross-functional collaboration, which is human rather than an automated close task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Improving systems and processes from source to report is a broad process-improvement project that does not map cleanly to a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-19",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.96,
+      "rationale": "Taking on ad hoc analysis for leadership matches ad hoc finance analysis and answering finance questions.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9b7cf0d999993619-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Turning it around quickly describes speed rather than a specific finance action, so it is too vague to classify precisely.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

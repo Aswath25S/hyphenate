@@ -1,0 +1,324 @@
+{
+  "posting_id": "5531b17bef01754b",
+  "company": "Perplexity",
+  "domain": "perplexity.ai",
+  "title": "Strategic Finance Lead - Compute",
+  "role_family": "Reporting_FPA",
+  "seniority": "manager",
+  "locations": [
+    "San Francisco"
+  ],
+  "remote": "hybrid",
+  "salary": {
+    "min": 190000,
+    "max": 240000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Job board pay data: $190K – $240K • Offers Equity"
+  },
+  "erp": [],
+  "tools": [],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "building frameworks from scratch",
+    "fast-moving environment",
+    "source of truth on complex and interconnected contract and usage data",
+    "tight timelines"
+  ],
+  "duties": [
+    {
+      "duty_id": "5531b17bef01754b-01",
+      "text": "Lead finance for GPU compute spend",
+      "source_span": "Finance lead for GPU compute spend",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-02",
+      "text": "Budget GPU compute spend",
+      "source_span": "budgeting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-03",
+      "text": "Forecast GPU compute spend monthly",
+      "source_span": "monthly forecasting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-04",
+      "text": "Perform variance analysis",
+      "source_span": "variance analysis",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-05",
+      "text": "Maintain the financial plan",
+      "source_span": "financial plan maintenance",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-06",
+      "text": "Build and maintain detailed bottoms-up financial models for the GPU fleet",
+      "source_span": "Build and maintain detailed bottoms-up financial models for the GPU fleet",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-07",
+      "text": "Forecast GPU fleet capacity",
+      "source_span": "capacity forecasts",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-08",
+      "text": "Analyze cost drivers",
+      "source_span": "cost driver analyses",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-09",
+      "text": "Model investment scenarios",
+      "source_span": "investment scenario modeling",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-10",
+      "text": "Develop deep expertise in GPU vendor contracts",
+      "source_span": "Develop deep expertise in GPU vendor contracts",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-11",
+      "text": "Develop deep expertise in pricing structures",
+      "source_span": "pricing structures",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-12",
+      "text": "Develop deep expertise in cost drivers",
+      "source_span": "cost drivers",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-13",
+      "text": "Surface optimization opportunities across the fleet",
+      "source_span": "surface optimization opportunities across the fleet",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-14",
+      "text": "Serve as subject matter expert for Perplexity's compute capacity plan",
+      "source_span": "Serve as subject matter expert for Perplexity's compute capacity plan",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-15",
+      "text": "Own source of truth on utilization",
+      "source_span": "owning source of truth on utilization",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-16",
+      "text": "Own source of truth on committed-versus-consumed spend",
+      "source_span": "committed-versus-consumed spend",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-17",
+      "text": "Own source of truth on capacity by vendor and cluster",
+      "source_span": "capacity by vendor and cluster",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-18",
+      "text": "Build internal token-cost curves distinguishing marginal from fully loaded serving cost",
+      "source_span": "Build internal token-cost curves distinguishing marginal from fully loaded serving cost",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-19",
+      "text": "Translate them into internal token pricing",
+      "source_span": "translate them into internal and external token pricing",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-20",
+      "text": "Translate them into external token pricing",
+      "source_span": "translate them into internal and external token pricing",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-21",
+      "text": "Analyze the ROI of in-house inference and training",
+      "source_span": "Analyze the ROI of in-house inference and training",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-22",
+      "text": "Analyze opportunity cost across chip types, cluster configurations, and workloads",
+      "source_span": "opportunity cost across chip types, cluster configurations, and workloads",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-23",
+      "text": "Distill results into a framework for capacity deployment",
+      "source_span": "distilled into a framework for capacity deployment",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-24",
+      "text": "Partner closely with inference and infrastructure engineering",
+      "source_span": "Partner closely with inference and infrastructure engineering",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-25",
+      "text": "Understand how serving and training workloads scale",
+      "source_span": "understand how serving and training workloads scale",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-26",
+      "text": "Translate those technical dynamics into financial frameworks",
+      "source_span": "translate those technical dynamics into financial frameworks",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-27",
+      "text": "This is a high-impact role for someone who thrives at the intersection of finance and infrastructure, and who is energized by building frameworks from scratch in a fast-moving environment.",
+      "source_span": "This is a high-impact role for someone who thrives at the intersection of finance and infrastructure, and who is energized by building frameworks from scratch in a fast-moving environment.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "5531b17bef01754b-28",
+      "text": "Exceptional analytical skills with an ability to synthesize data into compelling insights and develop complex financial operating models",
+      "source_span": "Exceptional analytical skills with an ability to synthesize data into compelling insights and develop complex financial operating models",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5531b17bef01754b-29",
+      "text": "Extraordinary problem-solving and critical thinking abilities to develop new frameworks for assessing utilization and capital efficiency in a rapidly evolving industry",
+      "source_span": "Extraordinary problem-solving and critical thinking abilities to develop new frameworks for assessing utilization and capital efficiency in a rapidly evolving industry",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5531b17bef01754b-30",
+      "text": "Attention to detail and patience for getting to the source of truth on complex and interconnected contract and usage data",
+      "source_span": "Attention to detail and patience for getting to the source of truth on complex and interconnected contract and usage data",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5531b17bef01754b-31",
+      "text": "Comfort being the finance person in the room with engineering leads and vendor counterparts, and adept at communicating complex financial information to non-finance audiences",
+      "source_span": "Comfort being the finance person in the room with engineering leads and vendor counterparts, and adept at communicating complex financial information to non-finance audiences",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5531b17bef01754b-32",
+      "text": "A proven track record of partnering with technical teams to drive financial optimization initiatives, building enough trust to become indispensable to their roadmap and resourcing decisions",
+      "source_span": "A proven track record of partnering with technical teams to drive financial optimization initiatives, building enough trust to become indispensable to their roadmap and resourcing decisions",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5531b17bef01754b-33",
+      "text": "A bias toward action, strong work ethic, and experience driving operational outcomes under tight timelines",
+      "source_span": "A bias toward action, strong work ethic, and experience driving operational outcomes under tight timelines",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5531b17bef01754b-34",
+      "text": "Background in AI, ML, or high-performance, large-scale computing infrastructure, including data centers and cloud service providers",
+      "source_span": "Background in AI, ML, or high-performance, large-scale computing infrastructure, including data centers and cloud service providers",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5531b17bef01754b-35",
+      "text": "4+ years of experience in strategic finance, infrastructure investment, private equity, growth equity, consulting, or investment banking, preferably with infrastructure or datacenter experience",
+      "source_span": "4+ years of experience in strategic finance, infrastructure investment, private equity, growth equity, consulting, or investment banking, preferably with infrastructure or datacenter experience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5531b17bef01754b-36",
+      "text": "Experience in cloud or GPU infrastructure financial management, including direct work with major cloud service providers or neoclouds",
+      "source_span": "Experience in cloud or GPU infrastructure financial management, including direct work with major cloud service providers or neoclouds",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5531b17bef01754b-37",
+      "text": "Direct experience with committed-use economics — reserved capacity, savings plans, committed-use discounts — and GPU procurement",
+      "source_span": "Direct experience with committed-use economics — reserved capacity, savings plans, committed-use discounts — and GPU procurement",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5531b17bef01754b-38",
+      "text": "Deep expertise in GPU vendor economics, contract structures, and pricing models",
+      "source_span": "Deep expertise in GPU vendor economics, contract structures, and pricing models",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5531b17bef01754b-39",
+      "text": "Experience with chip architecture economics and optimization strategies",
+      "source_span": "Experience with chip architecture economics and optimization strategies",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "5531b17bef01754b-40",
+      "text": "Proficiency with financial modeling tools",
+      "source_span": "Proficiency with financial modeling tools",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-09-01T19:06:08.601+00:00",
+  "source_url": "https://jobs.ashbyhq.com/perplexity/39250c5d-1670-4a63-8a66-bfd495c85e6f",
+  "fetched_at": "2026-10-21T17:33:56.764Z",
+  "prompt_version": "extract-v1",
+  "text": "ABOUT THE ROLE\n\nWe are seeking a Strategic Finance Lead for our GPU compute fleet. In this role, you will be a key partner to our inference and infrastructure teams, providing financial expertise to optimize our compute investments and drive capacity decisions.\n\n\n\nIn this role, you'll develop deep expertise in the economics of AI compute, from token-level serving cost to the long-range financial planning of our GPU fleet. You'll build the models that inform Perplexity's capacity and make-versus-buy decisions, own the internal-cost analysis that underpins internal and external token pricing, and translate complex infrastructure dynamics into clear financial narratives for leadership.\n\n\n\nThis is a high-impact role for someone who thrives at the intersection of finance and infrastructure, and who is energized by building frameworks from scratch in a fast-moving environment.\n\n\n\nThis position is based in San Francisco and requires in-person attendance 2-3 days per week.\n\n\n\n\nKEY RESPONSIBILITIES\n\n - Finance lead for GPU compute spend, including budgeting, monthly forecasting, variance analysis, and financial plan maintenance\n\n - Build and maintain detailed bottoms-up financial models for the GPU fleet, including capacity forecasts, cost driver analyses, and investment scenario modeling\n\n - Develop deep expertise in GPU vendor contracts, pricing structures, and cost drivers, and surface optimization opportunities across the fleet\n\n - Serve as subject matter expert for Perplexity's compute capacity plan, owning source of truth on utilization, committed-versus-consumed spend, and capacity by vendor and cluster\n\n - Build internal token-cost curves distinguishing marginal from fully loaded serving cost, and translate them into internal and external token pricing\n\n - Analyze the ROI of in-house inference and training, including opportunity cost across chip types, cluster configurations, and workloads, distilled into a framework for capacity deployment\n\n - Partner closely with inference and infrastructure engineering to understand how serving and training workloads scale, and translate those technical dynamics into financial frameworks\n\n\nYOU MAY BE A GOOD FIT IF YOU HAVE\n\n - Exceptional analytical skills with an ability to synthesize data into compelling insights and develop complex financial operating models\n\n - Extraordinary problem-solving and critical thinking abilities to develop new frameworks for assessing utilization and capital efficiency in a rapidly evolving industry\n\n - Attention to detail and patience for getting to the source of truth on complex and interconnected contract and usage data\n\n - Comfort being the finance person in the room with engineering leads and vendor counterparts, and adept at communicating complex financial information to non-finance audiences\n\n - A proven track record of partnering with technical teams to drive financial optimization initiatives, building enough trust to become indispensable to their roadmap and resourcing decisions\n\n - A bias toward action, strong work ethic, and experience driving operational outcomes under tight timelines\n\n - Background in AI, ML, or high-performance, large-scale computing infrastructure, including data centers and cloud service providers\n\n\nPREFERRED QUALIFICATIONS\n\n - 4+ years of experience in strategic finance, infrastructure investment, private equity, growth equity, consulting, or investment banking, preferably with infrastructure or datacenter experience\n\n - Experience in cloud or GPU infrastructure financial management, including direct work with major cloud service providers or neoclouds\n\n - Direct experience with committed-use economics — reserved capacity, savings plans, committed-use discounts — and GPU procurement\n\n - Deep expertise in GPU vendor economics, contract structures, and pricing models\n\n - Experience with chip architecture economics and optimization strategies\n\n - Proficiency with financial modeling tools",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "ashby"
+}

@@ -1,0 +1,69 @@
+{
+  "posting_id": "6598d208498030d3",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "6598d208498030d3-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The duty is about guiding company growth strategy, which is advisory judgment rather than an operational finance workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6598d208498030d3-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering closely with Sales, Marketing, and Revenue Operations is cross-functional collaboration with other teams.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6598d208498030d3-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Shaping growth strategy is strategic decision-making and business advising, not a finance-operations process.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6598d208498030d3-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Evaluating trade-offs is a judgment-heavy advisory action rather than a mapped automated finance workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6598d208498030d3-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Developing strategic forecasting is an FP&A planning model task that is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6598d208498030d3-06",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.78,
+      "rationale": "Turning complex financial data into actionable insights matches ad hoc financial analysis and reporting support.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6598d208498030d3-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Balancing short-term efficiency with long-term impact is strategic judgment and trade-off evaluation.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

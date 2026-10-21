@@ -1,0 +1,168 @@
+{
+  "posting_id": "6d08960f34017812",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "6d08960f34017812-01",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.95,
+      "rationale": "Supporting the monthly and quarterly close process is close checklist work done during period-end close.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d08960f34017812-02",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.94,
+      "rationale": "Preparing financial reporting packages matches building recurring management reports and financial statement packages.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d08960f34017812-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Preparing presentations for senior leadership is a presentation and communication task done by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d08960f34017812-04",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.97,
+      "rationale": "Preparing fluctuation and trend analyses is variance analysis with commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d08960f34017812-05",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.98,
+      "rationale": "Preparing account reconciliations is the core balance-sheet account reconciliation workflow.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d08960f34017812-06",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.72,
+      "rationale": "Preparing supporting schedules is documentation and support work used for audit and close evidence.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d08960f34017812-07",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.9,
+      "rationale": "Identifying and resolving discrepancies is part of reconciling accounts and clearing reconciling items.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d08960f34017812-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with FP&A to align accounting results is cross-functional collaboration done by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d08960f34017812-09",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Leading or supporting process improvement initiatives is too broad and project-oriented to map cleanly to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d08960f34017812-10",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Leading or supporting automation initiatives is a project activity rather than a specific finance-operation workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d08960f34017812-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Improving internal controls requires control design and judgment beyond monitoring or execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d08960f34017812-12",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Enhancing end-to-end operational effectiveness is too vague to map to a specific automated finance duty.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d08960f34017812-13",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Building and using AI agents is a technology initiative rather than a listed finance operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d08960f34017812-14",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Supporting M&A activities is too broad and context-dependent to match a specific covered workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d08960f34017812-15",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Onboarding new entities is a setup/project activity that does not match a specific covered finance workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d08960f34017812-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Preparing documentation is too vague without a specific accounting or operations action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d08960f34017812-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Responding to auditor inquiries involves working with external auditors as a relationship task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "6d08960f34017812-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Supporting testing efforts is too vague to determine whether it is controls testing, audit support, or another activity.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,770 @@
+{
+  "posting_id": "5161be621c1860bd",
+  "company": "Oscar Health",
+  "slug": "oscar-health",
+  "domain": "hioscar.com",
+  "title": "Senior Accountant",
+  "role_family": "GL",
+  "seniority": "senior",
+  "n": 18,
+  "C": 4,
+  "A": 2,
+  "covered_share": 0.2222222222222222,
+  "overlap": 0.3333333333333333,
+  "weighted_overlap": 0.2777777777777778,
+  "thin": false,
+  "salary_min": 91908,
+  "salary_max": 120629,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 10212,
+  "savings_reason": null,
+  "lead_product": "GL accounting",
+  "product_split": {
+    "GL accounting": {
+      "covered": 4,
+      "assisted": 2,
+      "weighted": 5
+    }
+  },
+  "erp": [
+    "Workday"
+  ],
+  "tools": [
+    "OpenAI Codex"
+  ],
+  "posted_at": "2026-10-09T11:21:11-04:00",
+  "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8267254",
+  "locations": [
+    "New York, New York, United States"
+  ],
+  "remote": "hybrid",
+  "excluded": null,
+  "text": "Hi, we're Oscar. We're hiring a Senior Accountant to join our Accounting team.\n\nOscar is the first health insurance company built around a full stack technology platform and a relentless focus on serving our members. We started Oscar in 2012 to create the kind of health insurance company we would want for ourselves—one that behaves like a doctor in the family.\n\nAbout the role:\n\nWe are seeking a detail-oriented Senior Accountant to support our growing finance function. The Senior Accountant is responsible for execution of monthly, quarterly and ad-hoc accounting deliverables and will play a key role in maintaining accurate financial records, managing the monthly close process, preparing reconciliations and journal entries, and supporting financial reporting and audit activities.The ideal candidate has a strong understanding of GAAP, excellent analytical skills, and the ability to work independently while collaborating closely with cross-functional teams. They will help strengthen accounting processes, resolve discrepancies, and ensure the organization has timely, reliable financial information for decision-making. This role is ideal for an experienced accountant who enjoys owning core accounting responsibilities and contributing to a high-performing, scalable finance team.\n\nYou will report into the Manager, Accounting.\n\nWork Location: This position is based in our New York, NY office, requiring a hybrid work schedule with 3 days of in-office work per week. Thursdays are a required in-office day for team meetings and events, while your other two office days are flexible to suit your schedule. #LI-Hybrid\n\nPay Transparency: The base pay for this role is: $91,908 - $120,629 per year. You are also eligible for employee benefits, participation in Oscar's unlimited vacation program and annual performance bonuses.\n\nResponsibilities:\n\n• Monthly, Quarterly and Year-end Close\n\n• Execution of monthly journal entries and reconciliation of all accounts.\n\n• Initial review of work completed by Accounting Analysts.\n\n• Execution of the monthly close process, including analytics and related financial statement disclosures.\n\n• Maintain internal control procedures.\n\n• Other\n\n• Collaborating with other departments to ensure compliance on all accounting matters.\n\n• Identify and implement process improvement opportunities.\n\n• Partnering with our Financial Systems team to create and execute on automation opportunities and efficiencies.\n\nRequirements:\n\n• Bachelor’s degree in Accounting, Finance, or related field, or 4 years of relevant experience.\n\n• 3+ years of related experience.\n\nBonus points:\n\n• Experience in a similar position at a health insurance company.\n\n• Experience using Workday as an ERP system.\n\n• Experience using OpenAI Codex or other similar AI tools.\n\n• Certified Public Accountant licensure (CPA).\n\nTravel required up to 20%\n\nThis is an authentic Oscar Health job opportunity.\n\nAt Oscar, being an Equal Opportunity Employer means more than upholding discrimination-free hiring practices. It means that we cultivate an environment where people can be their most authentic selves and find both belonging and support. We're on a mission to change health care -- an experience made whole by our unique backgrounds and perspectives.\n\nPay Transparency: Final offer amounts, within the base pay set forth above, are determined by factors including your relevant skills, education, and experience. Full-time employees are eligible for benefits including: medical, dental, and vision benefits, 11 paid holidays, paid sick time, paid parental leave, 401(k) plan participation, life and disability insurance, and paid wellness time and reimbursements.\n\nArtificial Intelligence (AI): Our AI Guidelines outline the acceptable use of artificial intelligence for candidates and detail how we use AI to support our recruiting efforts.\n\nReasonable Accommodation: Oscar applicants are considered solely based on their qualifications, without regard to applicant’s disability or need for accommodation. Any Oscar applicant who requires reasonable accommodations during the application process should contact the Oscar Benefits Team (accommodations@hioscar.com) to make the need for an accommodation known.\n\nCalifornia Residents: For information about our collection, use, and disclosure of applicants’ personal information as well as applicants’ rights over their personal information, please see our Privacy Policy.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 91908,
+    "max": 120629,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The base pay for this role is: $91,908 - $120,629 per year."
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "support our growing finance function",
+    "ad-hoc accounting deliverables",
+    "monthly close process",
+    "high-performing, scalable finance team",
+    "automation opportunities and efficiencies",
+    "resolve discrepancies"
+  ],
+  "fetched_at": "2026-10-21T17:33:54.851Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "5161be621c1860bd-01",
+      "text": "Execute monthly, quarterly, and ad-hoc accounting deliverables.",
+      "source_span": "execution of monthly, quarterly and ad-hoc accounting deliverables",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 514,
+        "end": 580
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.82,
+      "rationale": "The duty is a broad accounting deliverable statement and does not specify a concrete covered action.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5161be621c1860bd-02",
+      "text": "Maintain accurate financial records.",
+      "source_span": "maintaining accurate financial records",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 609,
+        "end": 647
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.78,
+      "rationale": "Maintaining accurate financial records is too generic to map to a specific platform capability.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5161be621c1860bd-03",
+      "text": "Manage the monthly close process.",
+      "source_span": "managing the monthly close process",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 649,
+        "end": 683
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Managing the monthly close process is a supervisory/process-management activity rather than running checklist tasks.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5161be621c1860bd-04",
+      "text": "Prepare reconciliations.",
+      "source_span": "preparing reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 685,
+        "end": 710
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.account_recs",
+      "capability": "Balance-sheet account reconciliations",
+      "product": "GL accounting",
+      "confidence": 0.98,
+      "rationale": "Preparing reconciliations matches balance-sheet account reconciliations end to end.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-05",
+      "text": "Prepare journal entries.",
+      "source_span": "journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 715,
+        "end": 730
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.journal_entries",
+      "capability": "Prepare and post journal entries",
+      "product": "GL accounting",
+      "confidence": 0.97,
+      "rationale": "Preparing journal entries matches journal entry preparation, which is assisted rather than fully covered.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-06",
+      "text": "Support financial reporting and audit activities.",
+      "source_span": "supporting financial reporting and audit activities",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 736,
+        "end": 787
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.76,
+      "rationale": "Supporting financial reporting and audit activities is too vague and combines multiple capabilities without a specific action.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "5161be621c1860bd-07",
+      "text": "Execute monthly journal entries.",
+      "source_span": "Execution of monthly journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1900,
+        "end": 1936
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.journal_entries",
+      "capability": "Prepare and post journal entries",
+      "product": "GL accounting",
+      "confidence": 0.97,
+      "rationale": "Executing monthly journal entries matches recurring journal entry preparation and posting.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-08",
+      "text": "Reconcile all accounts.",
+      "source_span": "reconciliation of all accounts",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1941,
+        "end": 1971
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.account_recs",
+      "capability": "Balance-sheet account reconciliations",
+      "product": "GL accounting",
+      "confidence": 0.99,
+      "rationale": "Reconciling all accounts is exactly the balance-sheet account reconciliation capability.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-09",
+      "text": "Review work completed by Accounting Analysts.",
+      "source_span": "Initial review of work completed by Accounting Analysts.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1976,
+        "end": 2032
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Reviewing work completed by Accounting Analysts is human review and supervision.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5161be621c1860bd-10",
+      "text": "Execute the monthly close process.",
+      "source_span": "Execution of the monthly close process",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2036,
+        "end": 2074
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.close_checklist",
+      "capability": "Run month-end close checklist tasks",
+      "product": "GL accounting",
+      "confidence": 0.95,
+      "rationale": "Executing the monthly close process aligns with running month-end close checklist tasks.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-11",
+      "text": "Prepare analytics and related financial statement disclosures.",
+      "source_span": "including analytics and related financial statement disclosures.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2076,
+        "end": 2140
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.71,
+      "rationale": "Preparing analytics and related financial statement disclosures is too broad and includes disclosure work not explicitly covered.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5161be621c1860bd-12",
+      "text": "Maintain internal control procedures.",
+      "source_span": "Maintain internal control procedures.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2144,
+        "end": 2181
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.controls",
+      "capability": "Monitor manual entries and close controls",
+      "product": "GL accounting",
+      "confidence": 0.94,
+      "rationale": "Maintaining internal control procedures matches monitoring and documenting internal controls over financial reporting.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-13",
+      "text": "Collaborate with other departments to ensure compliance on all accounting matters.",
+      "source_span": "Collaborating with other departments to ensure compliance on all accounting matters.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2194,
+        "end": 2278
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Collaborating with other departments to ensure compliance is cross-functional partnering and advising work.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5161be621c1860bd-14",
+      "text": "Identify and implement process improvement opportunities.",
+      "source_span": "Identify and implement process improvement opportunities.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2282,
+        "end": 2339
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.74,
+      "rationale": "Identifying and implementing process improvements is a judgment-heavy process-improvement activity rather than a listed automation capability.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5161be621c1860bd-15",
+      "text": "Partner with our Financial Systems team to create and execute on automation opportunities and efficiencies.",
+      "source_span": "Partnering with our Financial Systems team to create and execute on automation opportunities and efficiencies.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2343,
+        "end": 2453
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with another team on automation opportunities is cross-functional collaboration rather than a platform task.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5161be621c1860bd-16",
+      "text": "Help strengthen accounting processes.",
+      "source_span": "help strengthen accounting processes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 978,
+        "end": 1014
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.69,
+      "rationale": "Helping strengthen accounting processes is too vague to tie to a specific covered action.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5161be621c1860bd-17",
+      "text": "Resolve discrepancies.",
+      "source_span": "resolve discrepancies",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1016,
+        "end": 1037
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.67,
+      "rationale": "Resolving discrepancies is too unspecific without context on whether they are reconciliation, treasury, or AP items.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5161be621c1860bd-18",
+      "text": "Ensure the organization has timely, reliable financial information for decision-making.",
+      "source_span": "ensure the organization has timely, reliable financial information for decision-making",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1043,
+        "end": 1129
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.73,
+      "rationale": "Ensuring timely, reliable financial information for decision-making is an outcome statement rather than a concrete automatable duty.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5161be621c1860bd-19",
+      "text": "Strong understanding of GAAP.",
+      "source_span": "a strong understanding of GAAP",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 812,
+        "end": 842
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-20",
+      "text": "Excellent analytical skills.",
+      "source_span": "excellent analytical skills",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 844,
+        "end": 871
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-21",
+      "text": "Ability to work independently.",
+      "source_span": "the ability to work independently",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 877,
+        "end": 910
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-22",
+      "text": "Collaborate closely with cross-functional teams.",
+      "source_span": "collaborating closely with cross-functional teams",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 917,
+        "end": 966
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-23",
+      "text": "Bachelor’s degree in Accounting, Finance, or related field, or 4 years of relevant experience.",
+      "source_span": "Bachelor’s degree in Accounting, Finance, or related field, or 4 years of relevant experience.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2472,
+        "end": 2566
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-24",
+      "text": "3+ years of related experience.",
+      "source_span": "3+ years of related experience.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2570,
+        "end": 2601
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-25",
+      "text": "Experience in a similar position at a health insurance company.",
+      "source_span": "Experience in a similar position at a health insurance company.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2620,
+        "end": 2683
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-26",
+      "text": "Experience using Workday as an ERP system.",
+      "source_span": "Experience using Workday as an ERP system.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2687,
+        "end": 2729
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-27",
+      "text": "Experience using OpenAI Codex or other similar AI tools.",
+      "source_span": "Experience using OpenAI Codex or other similar AI tools.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2733,
+        "end": 2789
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-28",
+      "text": "Certified Public Accountant licensure (CPA).",
+      "source_span": "Certified Public Accountant licensure (CPA).",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2793,
+        "end": 2837
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-29",
+      "text": "Travel required up to 20%.",
+      "source_span": "Travel required up to 20%",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2839,
+        "end": 2864
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-30",
+      "text": "Monthly, Quarterly and Year-end Close",
+      "source_span": "Monthly, Quarterly and Year-end Close",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 1859,
+        "end": 1896
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5161be621c1860bd-31",
+      "text": "Other",
+      "source_span": "Other",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 2185,
+        "end": 2190
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

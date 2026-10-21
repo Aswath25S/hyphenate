@@ -1,167 +1,302 @@
 {
   "posting_id": "62638b661de9e066",
-  "prompt_version": "hand-labelled",
+  "prompt_version": "match-v1",
   "labels": [
     {
-      "duty_id": "62638b661de9e066-h01",
-      "label": "covered",
-      "capability_id": "p2p.bill_capture",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "covered",
-      "adjusted": null
-    },
-    {
-      "duty_id": "62638b661de9e066-h02",
-      "label": "covered",
-      "capability_id": "p2p.approvals",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "covered",
-      "adjusted": null
-    },
-    {
-      "duty_id": "62638b661de9e066-h03",
-      "label": "covered",
-      "capability_id": "p2p.po_matching",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "covered",
-      "adjusted": null
-    },
-    {
-      "duty_id": "62638b661de9e066-h04",
-      "label": "covered",
-      "capability_id": "p2p.approvals",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "covered",
-      "adjusted": null
-    },
-    {
-      "duty_id": "62638b661de9e066-h05",
-      "label": "covered",
-      "capability_id": "p2p.vendor_followup",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "covered",
-      "adjusted": null
-    },
-    {
-      "duty_id": "62638b661de9e066-h06",
+      "duty_id": "62638b661de9e066-01",
       "label": "human",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.97,
+      "rationale": "Managing accounts payable operations is team/process management rather than an individual AP automation task.",
       "model_label": "human",
       "adjusted": null
     },
     {
-      "duty_id": "62638b661de9e066-h07",
+      "duty_id": "62638b661de9e066-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Managing procurement operations is a people-and-process leadership duty, not a specific automated transaction action.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-03",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.98,
+      "rationale": "Processing invoices directly matches vendor bill capture and coding to the ERP.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-04",
+      "label": "covered",
+      "capability_id": "p2p.approvals",
+      "confidence": 0.98,
+      "rationale": "Routing approvals is the AP approval workflow described by the platform.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-05",
       "label": "gap_candidate",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.86,
+      "rationale": "Managing purchase order workflow is operational work but does not match a listed capability for issuing or matching POs.",
       "model_label": "gap_candidate",
       "adjusted": null
     },
     {
-      "duty_id": "62638b661de9e066-h08",
+      "duty_id": "62638b661de9e066-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Approving contracts is a judgment and authorization task, which is a human responsibility.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-07",
+      "label": "covered",
+      "capability_id": "p2p.vendor_followup",
+      "confidence": 0.78,
+      "rationale": "Managing vendor onboarding and KYC aligns with maintaining vendor master data and W-9 information.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Managing vendor escalations involves relationship handling and judgment, not a listed automation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Payroll accounting is repetitive finance work but has no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Benefits accounting is repetitive accounting work but is not covered by a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-11",
       "label": "assisted",
       "capability_id": "gl.journal_entries",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.97,
+      "rationale": "Preparing related journal entries matches journal entry preparation, which needs some accounting judgment.",
       "model_label": "assisted",
       "adjusted": null
     },
     {
-      "duty_id": "62638b661de9e066-h09",
-      "label": "assisted",
-      "capability_id": "gl.journal_entries",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "assisted",
-      "adjusted": null
-    },
-    {
-      "duty_id": "62638b661de9e066-h10",
+      "duty_id": "62638b661de9e066-12",
       "label": "covered",
       "capability_id": "gl.account_recs",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.97,
+      "rationale": "Reconciling related accounts is a balance-sheet account reconciliation task.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "62638b661de9e066-h11",
-      "label": "covered",
-      "capability_id": "gl.close_checklist",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "covered",
-      "adjusted": null
-    },
-    {
-      "duty_id": "62638b661de9e066-h12",
-      "label": "human",
-      "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "human",
-      "adjusted": null
-    },
-    {
-      "duty_id": "62638b661de9e066-h13",
-      "label": "covered",
-      "capability_id": "tre.cash_position",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "covered",
-      "adjusted": null
-    },
-    {
-      "duty_id": "62638b661de9e066-h14",
+      "duty_id": "62638b661de9e066-13",
       "label": "assisted",
-      "capability_id": "rep.management_reports",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.97,
+      "rationale": "Preparing journal entries directly matches journal entry preparation with some human oversight.",
       "model_label": "assisted",
       "adjusted": null
     },
     {
-      "duty_id": "62638b661de9e066-h15",
+      "duty_id": "62638b661de9e066-14",
       "label": "human",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Reviewing journal entries is human review and approval, which the capability explicitly excludes.",
       "model_label": "human",
       "adjusted": null
     },
     {
-      "duty_id": "62638b661de9e066-h16",
+      "duty_id": "62638b661de9e066-15",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.99,
+      "rationale": "Reconciling all balance sheet accounts monthly is exactly the balance-sheet reconciliation capability.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Supporting the monthly close process is too vague to map to a specific covered duty.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Ensuring deadlines are met is a broad coordination goal rather than a specific finance-operations action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-18",
       "label": "human",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.84,
+      "rationale": "Ensuring results are accurate and US GAAP compliant requires judgment and accounting oversight.",
       "model_label": "human",
       "adjusted": null
     },
     {
-      "duty_id": "62638b661de9e066-h17",
+      "duty_id": "62638b661de9e066-19",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Speeding up the close is a performance goal, not a discrete automatable duty.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-20",
+      "label": "covered",
+      "capability_id": "tre.cash_position",
+      "confidence": 0.92,
+      "rationale": "Producing recurring cash reporting matches preparing a cash position report across accounts.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-21",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.9,
+      "rationale": "Producing the monthly close package aligns with recurring management reporting and financial statement packages.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-22",
+      "label": "covered",
+      "capability_id": "rep.consolidation",
+      "confidence": 0.78,
+      "rationale": "Preparing GAAP financials fits consolidated financial statement preparation and chart-of-accounts mapping.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-23",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.69,
+      "rationale": "Reconciling to non-GAAP measures like EBITDA is recurring reporting work for management reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-24",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.76,
+      "rationale": "Preparing cash analysis is finance analysis traced to source data rather than a strictly operational workflow.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-25",
       "label": "human",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.99,
+      "rationale": "Managing a team is a people-leadership responsibility.",
       "model_label": "human",
       "adjusted": null
     },
     {
-      "duty_id": "62638b661de9e066-h18",
+      "duty_id": "62638b661de9e066-26",
       "label": "human",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.99,
+      "rationale": "Providing day-to-day supervision is direct people management.",
       "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Assigning workload is a supervisory task that involves managing staff.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Reviewing work is human oversight and quality control of others' output.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering cross-functionally with FP&A is collaboration with another team, which is a human duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-30",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with external consultants is relationship management and coordination with outside people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-32",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Identifying opportunities for automation is a broad improvement activity without a specific mapped capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-33",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Identifying opportunities for process optimization is too broad and project-oriented to map cleanly.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "62638b661de9e066-34",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Implementing AI automation for journal entries and workflows is a project initiative rather than the platform's end-state workflow.",
+      "model_label": "unclear",
       "adjusted": null
     }
   ]

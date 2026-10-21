@@ -1,0 +1,186 @@
+{
+  "posting_id": "d4e9e8d6da6add4b",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "d4e9e8d6da6add4b-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Leading a team of analysts is people management, which is a human duty rather than an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Mentoring analysts is coaching and development work, which is inherently human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Overseeing workstreams is management and coordination of people and projects, not a platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Supporting career development is staff development and leadership, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Balancing workload is team management and prioritization, not a finance-ops automation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Driving annual budgeting is FP&A planning work that is explicitly outside the covered capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Driving long-range financial planning is an FP&A planning model activity that is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Serving as a strategic partner to operational teams is advising and cross-functional collaboration, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Helping unlock performance through financial insight is advisory and partner-facing work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Building scenario models is FP&A modeling work and matches no covered capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Building business cases is rules-based FP&A analysis and modeling that is not in the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-12",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.36,
+      "rationale": "Supporting new initiatives is too vague to map to a specific finance operation capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-13",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.72,
+      "rationale": "Monitoring key performance metrics aligns with recurring KPI reporting and management reports.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-14",
+      "label": "unclear",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.58,
+      "rationale": "Identifying areas for optimization is ad hoc analysis of financial data, though it requires judgment to turn into recommendations.",
+      "model_label": "assisted",
+      "adjusted": "confidence 0.58 below 0.6"
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-15",
+      "label": "unclear",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.56,
+      "rationale": "Identifying areas for growth is ad hoc analytical work on business performance, but not a covered end-to-end capability.",
+      "model_label": "assisted",
+      "adjusted": "confidence 0.56 below 0.6"
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Delivering recommendations to senior stakeholders is presenting and advising other teams, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Influencing priorities across departments through storytelling is cross-functional persuasion and partnership, which is human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Championing best practices in financial analysis is setting standards and coaching others, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Championing best practices in modeling is methodology leadership and training, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d4e9e8d6da6add4b-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Championing best practices in operational rigor is leadership and process advocacy, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

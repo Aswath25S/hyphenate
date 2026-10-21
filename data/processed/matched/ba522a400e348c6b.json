@@ -1,0 +1,510 @@
+{
+  "posting_id": "ba522a400e348c6b",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "ba522a400e348c6b-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Architecting a three-statement planning model is FP&A modeling work that is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Owning consolidated planning across the statements is a budgeting/forecasting model task with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Equity planning and dilution roll-forward are planning-model activities, not covered accounting operations here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Leading the Annual Operating Plan is process leadership and management work rather than a platform task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Scenario modeling is a finance planning model task with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Sensitivity analysis is FP&A modeling work and is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Driver-based forecasting is a budgeting and forecasting model task outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Translating production ramps into financial outcomes is a custom forecasting/modeling task with no match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Translating R&D investments into financial outcomes is planning-model work, not a listed operation.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Translating contract timing into financial outcomes is a planning/forecasting model task, not contract extraction or revenue accounting.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Translating government milestones into financial outcomes is specialized forecast modeling with no capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Translating GTM strategy into financial outcomes is a strategic planning model task outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Maintaining a forward-looking view of risks is strategic planning work with no explicit capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Maintaining a forward-looking view of opportunities is strategic planning work without a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Maintaining a forward-looking view of capital needs is forecasting/planning work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.68,
+      "rationale": "Maintaining a view of strategic inflection points is broad strategic planning, not a specific covered capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Owning the AOP end to end is process leadership and accountability, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Owning the AOP calendar is administrative process management with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Owning AOP templates is a planning-process artifact task, not a covered finance operation.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Owning AOP driver frameworks is model design work that is not in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-21",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Owning AOP consolidation is planning consolidation work, not entity/report consolidation under the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Owning the executive review is leadership and presentation work, which is human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with functional and business leaders to build budgets is cross-functional advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-24",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Running the recurring forecast cycle is FP&A forecasting workflow not covered beyond short-term cash forecasting.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Connecting short-term forecasting with the long-range plan is planning-model integration work with no match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-26",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.55,
+      "rationale": "Full accountability for forecast accuracy is too broad and describes ownership rather than a specific automatable action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-27",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.5,
+      "rationale": "Improving results with each actualized quarter is vague and does not specify a finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-28",
+      "label": "assisted",
+      "capability_id": "tre.forecast",
+      "confidence": 0.88,
+      "rationale": "Building rolling cash flow forecasts matches short-term cash forecasting, though the broader scope requires human judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-29",
+      "label": "assisted",
+      "capability_id": "tre.forecast",
+      "confidence": 0.81,
+      "rationale": "Modeling government contract payment timing is a cash forecasting task that fits treasury forecast capabilities.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-30",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Modeling production curves is a custom forecast model and is not covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-31",
+      "label": "assisted",
+      "capability_id": "tre.forecast",
+      "confidence": 0.84,
+      "rationale": "Modeling program cash profiles is short-term cash forecasting work covered by the treasury forecast capability.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-32",
+      "label": "assisted",
+      "capability_id": "tre.forecast",
+      "confidence": 0.75,
+      "rationale": "Identifying liquidity risks early is a forecast-driven treasury task tied to cash needs and short-term liquidity.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-33",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Supporting capital allocation strategies is strategic advisory work rather than a platform operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-34",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Supporting financing strategies is strategic advisory work that belongs with people, not the platform.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-35",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.87,
+      "rationale": "Creating Board and eStaff QBR materials matches building recurring management and board reporting decks.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-36",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.82,
+      "rationale": "Translating results into executive-ready insights aligns with building management reports and leadership packages.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-37",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.78,
+      "rationale": "Board-ready plan-versus-actual analysis fits management reporting, though it includes judgment in presentation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-38",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.9,
+      "rationale": "Delivering variance drivers matches explaining changes using source data and driver analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-39",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Delivering strategic context to the Board is advisory and presentation work, which is human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-40",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with systems teams to evolve tools is cross-functional collaboration, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-41",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Designing modular, scalable model architectures is planning model design with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-42",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.45,
+      "rationale": "Using Excel only where it adds leverage is too vague to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-43",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.48,
+      "rationale": "Integrating automation to improve clarity is vague process-improvement language without a clear finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-44",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.48,
+      "rationale": "Integrating analytics to improve clarity is too broad to classify against the coverage map.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-45",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.52,
+      "rationale": "Reducing manual work is a generic improvement goal rather than a specific duty.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-46",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.5,
+      "rationale": "Increasing decision velocity is an outcome statement, not a specific automatable action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-47",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Working closely with senior leaders on planning and strategy is advisory cross-functional work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-48",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Translating engineering plans into financial impacts is FP&A modeling work with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-49",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Translating program plans into financial impacts is a planning-model task not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-50",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Translating operations plans into financial impacts is forecast/model work without a matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-51",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Developing a point of view on unit economics is analytical judgment that does not map cleanly to a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-52",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Developing a point of view on efficiency is strategic analysis not explicitly covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-53",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Developing a point of view on scale is strategic analysis with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-54",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Developing a point of view on profitability is analytical judgment that is not a listed operation.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-55",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Developing a point of view on capital allocation is strategic advisory work and capital allocation decisions are explicitly human.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ba522a400e348c6b-56",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Presenting insights to improve execution and decision quality is presentation and advisory work, which is human.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

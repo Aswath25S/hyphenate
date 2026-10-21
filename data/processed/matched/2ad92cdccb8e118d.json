@@ -1,0 +1,285 @@
+{
+  "posting_id": "2ad92cdccb8e118d",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "2ad92cdccb8e118d-05",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.82,
+      "rationale": "Synthesizing cash, forecast, and FX data into management reporting matches building recurring reports for leadership.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Presenting findings and recommendations to senior management is a leadership communication task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Monitoring FX exposure is a rules-based treasury monitoring task with no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.63,
+      "rationale": "Flagging emerging risks is too vague to map to a specific finance-operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Developing FX hedging strategy in partnership with the director requires human judgment and collaboration.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Executing FX hedging trades is a treasury market-action task with no matching capability listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Tracking settlement activity is operational monitoring that does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-12",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.86,
+      "rationale": "Preparing treasury reporting for senior leadership matches management reporting deliverables.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-13",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.84,
+      "rationale": "Preparing treasury KPIs for senior leadership is part of building management reports and KPIs.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-14",
+      "label": "covered",
+      "capability_id": "tre.cash_position",
+      "confidence": 0.99,
+      "rationale": "Owning daily global cash positioning across entities, currencies, and banks matches cash position reporting.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-15",
+      "label": "covered",
+      "capability_id": "tre.cash_position",
+      "confidence": 0.97,
+      "rationale": "Ensuring visibility into consolidated cash balances is the core cash position capability.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-16",
+      "label": "assisted",
+      "capability_id": "tre.forecast",
+      "confidence": 0.88,
+      "rationale": "Building and maintaining cash flow forecasts matches short-term cash forecasting, though the long-term modeling goes beyond it.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-17",
+      "label": "assisted",
+      "capability_id": "p2p.payments",
+      "confidence": 0.7,
+      "rationale": "Initiating and reviewing wire transfers is a payment-run style funds movement task.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-18",
+      "label": "assisted",
+      "capability_id": "p2p.payments",
+      "confidence": 0.66,
+      "rationale": "Initiating and reviewing funds transfers is analogous to preparing and processing payments.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-19",
+      "label": "covered",
+      "capability_id": "gl.intercompany",
+      "confidence": 0.98,
+      "rationale": "Initiating and reviewing intercompany settlements matches intercompany settlements across entities.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Ensuring controls and approvals are followed is compliance workflow work without a direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-21",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Managing bank account administration is bank-operations work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-22",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Opening and closing bank accounts is explicitly outside the bank reconciliation capability and has no match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-23",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Updating signatory information is bank administration with no listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-24",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Preparing KYC documentation is compliance/admin work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-25",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.64,
+      "rationale": "Analyzing banking fees is an ad hoc finance analysis task tied to source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-26",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Monitoring investment balances for policy compliance is treasury oversight that does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-27",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Evaluating short-term investment options is an investment decision, which the map excludes.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Partnering with Accounting on reconciliations is collaboration with another team rather than an automated core action.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Partnering with Accounting on journal entries is cross-functional collaboration, not just journal-entry preparation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-30",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with Accounting on month-end close activities is team collaboration work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-31",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Identifying and implementing process improvements and automation opportunities is too broad to map precisely.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-32",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.86,
+      "rationale": "Supporting the external audit matches preparing audit support and documentation, though not serving as the primary auditor contact.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-33",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.69,
+      "rationale": "Supporting bank requests as needed is too vague to assign to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-34",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Collaborating closely and continuously with other functions is relationship-based team work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "2ad92cdccb8e118d-35",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Contributing ideas and perspective in a collaborative team environment is inherently human teamwork.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

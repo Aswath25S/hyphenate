@@ -1,0 +1,294 @@
+{
+  "posting_id": "faaf62fae58cc9fe",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "faaf62fae58cc9fe-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Opening corporate bank accounts is bank administration that is not covered by any listed treasury capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Closing corporate bank accounts is administrative bank maintenance and does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Auditing corporate bank accounts is a review task, but it is not the same as daily bank reconciliation or another listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Maintaining relationships with banking partners is relationship management, which is a human duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Executing global fund transfers is treasury operations work but does not match any specific capability on the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Evaluating treasury and cash-management systems is software selection work that is not a listed platform capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Implementing treasury and cash-management systems is a project implementation task, not an end-to-end finance operation capability here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Maintaining treasury and cash-management systems is system administration outside the listed finance-operation capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-09",
+      "label": "covered",
+      "capability_id": "tre.cash_position",
+      "confidence": 0.99,
+      "rationale": "Managing global cash positioning directly matches preparing and monitoring cash position across accounts, entities and banks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-10",
+      "label": "covered",
+      "capability_id": "tre.cash_position",
+      "confidence": 0.97,
+      "rationale": "Managing entity-level liquidity is the same core action as tracking cash balances across entities and banks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-11",
+      "label": "assisted",
+      "capability_id": "tre.forecast",
+      "confidence": 0.91,
+      "rationale": "Developing cash flow forecasts matches the short-term cash forecasting capability, though the long-term aspect adds human planning judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Scenario analysis is a planning and modeling task with no direct capability match in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Sensitivity analysis is a planning/modeling exercise that is not covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Stress testing and operational planning are FP&A-style planning activities with no matching capability listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Providing analytical insights to the CFO is advisory work to leadership, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Providing strategic recommendations to the CFO is executive advising, which is a human duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Supporting financing activities requires cross-functional and strategic coordination, not an automated finance-operation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Supporting capital planning initiatives is planning-model work that is not covered by the treasury capabilities listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Overseeing investment strategies is an investment decision role, which is human judgment by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Optimizing investment strategies aligned with company objectives requires strategic judgment and decision-making.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-21",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Monitoring foreign exchange exposure is treasury analysis but has no explicit matching capability on the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Recommending mitigation strategies is advisory and judgment-based work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-23",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Ensuring FAR/DFARS treasury compliance is a rules-based compliance task but does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-24",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.88,
+      "rationale": "Supporting internal audits matches providing audit schedules, documentation and evidence support, though auditors remain human.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-25",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.9,
+      "rationale": "Supporting external audits matches audit support and documentation, as long as the role is not serving as the auditor relationship owner.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Maintaining policies is policy-setting work, which is a human responsibility.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-27",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.9,
+      "rationale": "Maintaining documentation supporting governance and SOX readiness aligns with maintaining documentation of key controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-28",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.98,
+      "rationale": "Maintaining controls supporting governance and SOX readiness directly matches monitoring and maintaining controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Collaborating with Accounting, FP&A, Legal and global teams is cross-functional partnership work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-30",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.71,
+      "rationale": "Supporting global treasury projects is too vague to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-31",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Supporting entity expansion is cross-functional business support rather than a finance-operation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "faaf62fae58cc9fe-32",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Supporting banking initiatives implies coordination and partnership work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

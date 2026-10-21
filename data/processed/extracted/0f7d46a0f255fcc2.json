@@ -1,0 +1,377 @@
+{
+  "posting_id": "0f7d46a0f255fcc2",
+  "company": "Applied Intuition",
+  "domain": "appliedintuition.com",
+  "title": "Technical Revenue Accounting Manager",
+  "role_family": "Revenue",
+  "seniority": "manager",
+  "locations": [
+    "Sunnyvale"
+  ],
+  "remote": "onsite",
+  "salary": {
+    "min": 155000,
+    "max": 190000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Job board pay data: $155K – $190K • Offers Equity"
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Salesforce"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "building and optimizing the revenue infrastructure",
+    "support complex, multi-year software platform deals",
+    "building and scaling processes in a high-growth environment",
+    "process gaps"
+  ],
+  "duties": [
+    {
+      "duty_id": "0f7d46a0f255fcc2-01",
+      "text": "Review complex bundled deals with sales, finance, legal, engineering, and product teams",
+      "source_span": "Partner with sales, finance, legal, engineering, and product teams to review, structure, and approve complex bundled deals, ensuring alignment with company strategy, pricing, and compliance.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-02",
+      "text": "Structure complex bundled deals with sales, finance, legal, engineering, and product teams",
+      "source_span": "Partner with sales, finance, legal, engineering, and product teams to review, structure, and approve complex bundled deals, ensuring alignment with company strategy, pricing, and compliance.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-03",
+      "text": "Approve complex bundled deals with sales, finance, legal, engineering, and product teams",
+      "source_span": "Partner with sales, finance, legal, engineering, and product teams to review, structure, and approve complex bundled deals, ensuring alignment with company strategy, pricing, and compliance.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-04",
+      "text": "Prepare technical accounting memos for complex revenue transactions",
+      "source_span": "Prepare technical accounting memos for complex revenue transactions to ensure compliance with ASC 606 revenue recognition guidance, including contract review, identification and allocation of performance obligations, and documentation for bundled software and services offerings.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-05",
+      "text": "Review contracts for ASC 606 revenue recognition guidance",
+      "source_span": "Prepare technical accounting memos for complex revenue transactions to ensure compliance with ASC 606 revenue recognition guidance, including contract review, identification and allocation of performance obligations, and documentation for bundled software and services offerings.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-06",
+      "text": "Identify and allocate performance obligations",
+      "source_span": "Prepare technical accounting memos for complex revenue transactions to ensure compliance with ASC 606 revenue recognition guidance, including contract review, identification and allocation of performance obligations, and documentation for bundled software and services offerings.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-07",
+      "text": "Document bundled software and services offerings",
+      "source_span": "Prepare technical accounting memos for complex revenue transactions to ensure compliance with ASC 606 revenue recognition guidance, including contract review, identification and allocation of performance obligations, and documentation for bundled software and services offerings.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-08",
+      "text": "Own the company's revenue recognition policies",
+      "source_span": "Own the company's revenue recognition policies, researching new and complex transactions, documenting technical accounting positions, and updating guidance to maintain ASC 606 compliance.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-09",
+      "text": "Research new and complex transactions",
+      "source_span": "Own the company's revenue recognition policies, researching new and complex transactions, documenting technical accounting positions, and updating guidance to maintain ASC 606 compliance.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-10",
+      "text": "Document technical accounting positions",
+      "source_span": "Own the company's revenue recognition policies, researching new and complex transactions, documenting technical accounting positions, and updating guidance to maintain ASC 606 compliance.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-11",
+      "text": "Update guidance to maintain ASC 606 compliance",
+      "source_span": "Own the company's revenue recognition policies, researching new and complex transactions, documenting technical accounting positions, and updating guidance to maintain ASC 606 compliance.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-12",
+      "text": "Process customer orders in Salesforce and NetSuite",
+      "source_span": "Process and review customer orders in Salesforce and NetSuite, ensuring accurate contract, billing, and revenue data flows between systems and resolving discrepancies across the order-to-cash cycle.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-13",
+      "text": "Review customer orders in Salesforce and NetSuite",
+      "source_span": "Process and review customer orders in Salesforce and NetSuite, ensuring accurate contract, billing, and revenue data flows between systems and resolving discrepancies across the order-to-cash cycle.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-14",
+      "text": "Ensure accurate contract, billing, and revenue data flows between systems",
+      "source_span": "Process and review customer orders in Salesforce and NetSuite, ensuring accurate contract, billing, and revenue data flows between systems and resolving discrepancies across the order-to-cash cycle.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-15",
+      "text": "Resolve discrepancies across the order-to-cash cycle",
+      "source_span": "Process and review customer orders in Salesforce and NetSuite, ensuring accurate contract, billing, and revenue data flows between systems and resolving discrepancies across the order-to-cash cycle.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-16",
+      "text": "Establish a process and cadence for determining SSP for existing and new products",
+      "source_span": "Establish a process and cadence for determining SSP for existing and new products.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-17",
+      "text": "Support monthly close",
+      "source_span": "Support monthly close, revenue forecasting, and audit readiness activities within the Accounting organization, including preparing revenue schedules, booking revenue journal entries, and reconciling revenue-related GL accounts.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-18",
+      "text": "Support revenue forecasting",
+      "source_span": "Support monthly close, revenue forecasting, and audit readiness activities within the Accounting organization, including preparing revenue schedules, booking revenue journal entries, and reconciling revenue-related GL accounts.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-19",
+      "text": "Support audit readiness activities within the Accounting organization",
+      "source_span": "Support monthly close, revenue forecasting, and audit readiness activities within the Accounting organization, including preparing revenue schedules, booking revenue journal entries, and reconciling revenue-related GL accounts.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-20",
+      "text": "Prepare revenue schedules",
+      "source_span": "Support monthly close, revenue forecasting, and audit readiness activities within the Accounting organization, including preparing revenue schedules, booking revenue journal entries, and reconciling revenue-related GL accounts.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-21",
+      "text": "Book revenue journal entries",
+      "source_span": "Support monthly close, revenue forecasting, and audit readiness activities within the Accounting organization, including preparing revenue schedules, booking revenue journal entries, and reconciling revenue-related GL accounts.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-22",
+      "text": "Reconcile revenue-related GL accounts",
+      "source_span": "Support monthly close, revenue forecasting, and audit readiness activities within the Accounting organization, including preparing revenue schedules, booking revenue journal entries, and reconciling revenue-related GL accounts.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-23",
+      "text": "Prepare required revenue disclosures for annual and quarterly financial statements",
+      "source_span": "Prepare required revenue disclosures for annual and quarterly financial statements.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-24",
+      "text": "Play a key role in reporting readiness",
+      "source_span": "Play a key role in reporting readiness, including supporting SOX controls, process documentation, and public company reporting standards.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-25",
+      "text": "Support SOX controls",
+      "source_span": "Play a key role in reporting readiness, including supporting SOX controls, process documentation, and public company reporting standards.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-26",
+      "text": "Prepare process documentation",
+      "source_span": "Play a key role in reporting readiness, including supporting SOX controls, process documentation, and public company reporting standards.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-27",
+      "text": "Support public company reporting standards",
+      "source_span": "Play a key role in reporting readiness, including supporting SOX controls, process documentation, and public company reporting standards.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-28",
+      "text": "Oversee interdepartmental collaboration",
+      "source_span": "Oversee interdepartmental collaboration to address process gaps, improve customer experience, and drive revenue predictability.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-29",
+      "text": "Address process gaps",
+      "source_span": "Oversee interdepartmental collaboration to address process gaps, improve customer experience, and drive revenue predictability.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-30",
+      "text": "Improve customer experience",
+      "source_span": "Oversee interdepartmental collaboration to address process gaps, improve customer experience, and drive revenue predictability.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-31",
+      "text": "Drive revenue predictability",
+      "source_span": "Oversee interdepartmental collaboration to address process gaps, improve customer experience, and drive revenue predictability.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-32",
+      "text": "Bachelor's degree in Business, Finance, Accounting, or related field",
+      "source_span": "Bachelor's degree in Business, Finance, Accounting, or related field; advanced degree a plus. CPA preferred.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-33",
+      "text": "Advanced degree a plus",
+      "source_span": "Bachelor's degree in Business, Finance, Accounting, or related field; advanced degree a plus. CPA preferred.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-34",
+      "text": "CPA preferred",
+      "source_span": "Bachelor's degree in Business, Finance, Accounting, or related field; advanced degree a plus. CPA preferred.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-35",
+      "text": "6+ years of progressive experience in revenue operations, sales operations, or related roles, with a focus on software businesses",
+      "source_span": "6+ years of progressive experience in revenue operations, sales operations, or related roles, with a focus on software businesses.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-36",
+      "text": "Deep understanding of ASC 606",
+      "source_span": "Deep understanding of ASC 606 and experience with complex, multi-year software platform contracts and revenue recognition.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-37",
+      "text": "Experience with complex, multi-year software platform contracts and revenue recognition",
+      "source_span": "Deep understanding of ASC 606 and experience with complex, multi-year software platform contracts and revenue recognition.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-38",
+      "text": "Demonstrated experience preparing technical accounting memos for revenue recognition and other complex transactions",
+      "source_span": "Demonstrated experience preparing technical accounting memos for revenue recognition and other complex transactions.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-39",
+      "text": "Experience building and scaling processes in a high-growth environment",
+      "source_span": "Experience building and scaling processes in a high-growth environment.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-40",
+      "text": "Experience leading or working closely with a deal desk",
+      "source_span": "Experience leading or working closely with a deal desk, including deal review, approval workflows, and cross-functional collaboration.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-41",
+      "text": "Experience with deal review, approval workflows, and cross-functional collaboration",
+      "source_span": "Experience leading or working closely with a deal desk, including deal review, approval workflows, and cross-functional collaboration.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-42",
+      "text": "Demonstrated ability to align cross-functional teams and drive operational excellence",
+      "source_span": "Demonstrated ability to align cross-functional teams and drive operational excellence.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-43",
+      "text": "Excellent analytical, process improvement, and project management skills",
+      "source_span": "Excellent analytical, process improvement, and project management skills.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-44",
+      "text": "Attention to detail and a high level of accuracy in handling financial data",
+      "source_span": "Attention to detail and a high level of accuracy in handling financial data.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-45",
+      "text": "Proficiency with CRM and revenue systems",
+      "source_span": "Proficiency with CRM and revenue systems (EX: Salesforce, NetSuite, billing platforms).",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-46",
+      "text": "Salesforce",
+      "source_span": "Proficiency with CRM and revenue systems (EX: Salesforce, NetSuite, billing platforms).",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-47",
+      "text": "NetSuite",
+      "source_span": "Proficiency with CRM and revenue systems (EX: Salesforce, NetSuite, billing platforms).",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-09-28T05:33:28.930+00:00",
+  "source_url": "https://jobs.ashbyhq.com/applied/2872ab93-db4c-4a8a-a1f2-e76550743b6c",
+  "fetched_at": "2026-10-21T17:34:08.703Z",
+  "prompt_version": "extract-v1",
+  "text": "Applied Intuition, Inc. is powering the future of physical AI. Founded in 2017 and now valued at $15 billion, the Silicon Valley company is creating the digital infrastructure needed to bring intelligence to every moving machine on the planet. Applied Intuition services the automotive, defense, trucking, construction, mining and agriculture industries in three core areas: tools and infrastructure, operating systems, and autonomy. Eighteen of the top 20 global automakers, as well as the United States military and its allies, trust the company’s solutions to deliver physical intelligence. Applied Intuition is headquartered in Sunnyvale, California, with offices in Washington, D.C.; San Diego; Ft. Walton Beach, Florida; Ann Arbor, Michigan; London; Stuttgart; Munich; Stockholm; Bangalore; Seoul; and Tokyo. Learn more at applied.co http://applied.co.\n\nWe are an in-office company, and our expectation is that full-time employees primarily work from their Applied Intuition office 5 days a week. However, we also recognize the importance of flexibility and trust our employees to manage their schedules responsibly. This may include occasional remote work, starting the day with morning meetings from home before heading to the office, or leaving earlier when needed to accommodate family commitments. This in-office expectation does not apply to contractor positions\n\n\nABOUT THE ROLE\n\nAs a Technical Revenue Accounting Manager within the Accounting team, you'll play a pivotal role in building and optimizing the revenue infrastructure to support complex, multi-year software platform deals. This is a strategic, hands-on position requiring expertise in revenue operations for sophisticated software licensing, ASC 606 revenue recognition, technical accounting memos, and deal desk leadership. You will collaborate across sales, finance, engineering, and customer success to ensure scalable processes, accurate reporting, and public company readiness.\n\n\n\n\nAT APPLIED INTUITION, YOU WILL:\n\n - Partner with sales, finance, legal, engineering, and product teams to review, structure, and approve complex bundled deals, ensuring alignment with company strategy, pricing, and compliance.\n\n - Prepare technical accounting memos for complex revenue transactions to ensure compliance with ASC 606 revenue recognition guidance, including contract review, identification and allocation of performance obligations, and documentation for bundled software and services offerings.\n\n - Own the company's revenue recognition policies, researching new and complex transactions, documenting technical accounting positions, and updating guidance to maintain ASC 606 compliance.\n\n - Process and review customer orders in Salesforce and NetSuite, ensuring accurate contract, billing, and revenue data flows between systems and resolving discrepancies across the order-to-cash cycle.\n\n - Establish a process and cadence for determining SSP for existing and new products.\n\n - Support monthly close, revenue forecasting, and audit readiness activities within the Accounting organization, including preparing revenue schedules, booking revenue journal entries, and reconciling revenue-related GL accounts.\n\n - Prepare required revenue disclosures for annual and quarterly financial statements.\n\n - Play a key role in reporting readiness, including supporting SOX controls, process documentation, and public company reporting standards.\n\n - Oversee interdepartmental collaboration to address process gaps, improve customer experience, and drive revenue predictability.\n\n\nWE'RE LOOKING FOR SOMEONE WHO HAS:\n\n - Bachelor's degree in Business, Finance, Accounting, or related field; advanced degree a plus. CPA preferred.\n\n - 6+ years of progressive experience in revenue operations, sales operations, or related roles, with a focus on software businesses.\n\n - Deep understanding of ASC 606 and experience with complex, multi-year software platform contracts and revenue recognition.\n\n - Demonstrated experience preparing technical accounting memos for revenue recognition and other complex transactions.\n\n - Experience building and scaling processes in a high-growth environment.\n\n - Experience leading or working closely with a deal desk, including deal review, approval workflows, and cross-functional collaboration.\n\n - Demonstrated ability to align cross-functional teams and drive operational excellence.\n\n - Excellent analytical, process improvement, and project management skills.\n\n - Attention to detail and a high level of accuracy in handling financial data\n\n\nNICE TO HAVE:\n\n - Proficiency with CRM and revenue systems (EX: Salesforce, NetSuite, billing platforms).\n\nCompensation at Applied Intuition for eligible roles includes base salary, equity, and benefits. Base salary is a single component of the total compensation package, which may also include equity in the form of options and/or restricted stock units, comprehensive health, dental, vision, life and disability insurance coverage, 401k retirement benefits with employer match, learning and wellness stipends, and paid time off. Note that benefits are subject to change and may vary based on jurisdiction of employment.\n\nApplied Intuition pay ranges reflect the minimum and maximum intended target base salary for new hire salaries for the position. The actual base salary offered to a successful candidate will additionally be influenced by a variety of factors including experience, credentials & certifications, educational attainment, skill level requirements, interview performance, and the level and scope of the position.\n\nDon’t meet every single requirement? If you’re excited about this role but your past experience doesn’t align perfectly with every qualification in the job description, we encourage you to apply anyway. You may be just the right candidate for this or other roles.\n\nApplied Intuition is an equal opportunity employer and federal contractor or subcontractor. Consequently, the parties agree that, as applicable, they will abide by the requirements of 41 CFR 60-1.4(a), 41 CFR 60-300.5(a) and 41 CFR 60-741.5(a) and that these laws are incorporated herein by reference. These regulations prohibit discrimination against qualified individuals based on their status as protected veterans or individuals with disabilities, and prohibit discrimination against all individuals based on their race, color, religion, sex, sexual orientation, gender identity or national origin. These regulations require that covered prime contractors and subcontractors take affirmative action to employ and advance in employment individuals without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status or disability. The parties also agree that, as applicable, they will abide by the requirements of Executive Order 13496 (29 CFR Part 471, Appendix A to Subpart A), relating to the notice of employee rights under federal labor laws.\n\nFOR US-BASED ROLES: Applied Intuition is committed to providing an accessible and inclusive application and interview experience to applicants who are disabled veterans and other applicants with disabilities or medical conditions. Reasonable accommodations are available, requesting an accommodation will not affect your candidacy in any way, and you are not required to disclose the nature of your disability or medical condition in order to make a request. If you require an accommodation please contact careers@applied.co. We will work with you!",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "ashby"
+}

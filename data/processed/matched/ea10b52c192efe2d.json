@@ -1,0 +1,105 @@
+{
+  "posting_id": "ea10b52c192efe2d",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "ea10b52c192efe2d-01",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "The duty is a general introduction task and does not describe a finance-operations action that maps to any capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "The duty is about learning the business and outlook, which is too broad and not a specific automatable finance action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "The action is equipping product managers and leaders with insights, which is stakeholder partnering/advising work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "The duty is financial planning work, including short- and long-term plans, which is FP&A modeling not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-05",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.84,
+      "rationale": "The duty is financial reporting and KPI variance analysis, which fits management reporting and variance work with some human interpretation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-06",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "The duty is a vague strategic-support statement and does not specify a concrete finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "The duty is building budgets, forecasts, and cash flow models, which is FP&A modeling that has no direct coverage here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "The duty is designing KPI frameworks, which is planning/analytics framework work not covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-09",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.78,
+      "rationale": "The duty is analyzing product line performance, which matches source-data-driven performance analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "The duty involves strategic decisions, partnership negotiations, and M&A, which are inherently human judgment and negotiation work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "ea10b52c192efe2d-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "The duty is creating presentations to articulate findings to stakeholders, which is presenting results to others and therefore human work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

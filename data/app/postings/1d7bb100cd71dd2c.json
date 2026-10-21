@@ -1,0 +1,1323 @@
+{
+  "posting_id": "1d7bb100cd71dd2c",
+  "company": "Qualia",
+  "slug": "qualia",
+  "domain": "qualia.com",
+  "title": "Technical Accounting and Special Projects Manager",
+  "role_family": "Reporting_FPA",
+  "seniority": "manager",
+  "n": 38,
+  "C": 1,
+  "A": 4,
+  "covered_share": 0.02631578947368421,
+  "overlap": 0.13157894736842105,
+  "weighted_overlap": 0.07894736842105263,
+  "thin": false,
+  "salary_min": 130000,
+  "salary_max": 185000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 1710.5263157894735,
+  "savings_reason": null,
+  "lead_product": "Order-to-cash",
+  "product_split": {
+    "GL accounting": {
+      "covered": 0,
+      "assisted": 3,
+      "weighted": 1.5
+    },
+    "Order-to-cash": {
+      "covered": 1,
+      "assisted": 1,
+      "weighted": 1.5
+    }
+  },
+  "erp": [],
+  "tools": [
+    "Claude",
+    "Gemini"
+  ],
+  "posted_at": "2026-10-13T15:45:29-04:00",
+  "source_url": "https://job-boards.greenhouse.io/qualia/jobs/8256867",
+  "locations": [
+    "Austin, TX or San Francisco, CA",
+    "Austin, Texas, United States",
+    "San Francisco, California, United States"
+  ],
+  "remote": "hybrid",
+  "excluded": null,
+  "text": "At Qualia, we've built the leading B2B real estate technology that transforms the home buying and selling experience into a simple, secure, and enjoyable process. Our SMB and Enterprise products bring together users from across the real estate ecosystem—homebuyers and sellers, lenders, title and escrow agents, and real estate agents—onto a single shared digital closing platform, providing greater clarity and transparency to real estate transactions. Today, through our business customers across the country, millions of consumers use Qualia to close on homes every year.\n\nWHAT YOU'LL WORK ON\n\nQualia's accounting function sits at the center of a fast-growing SaaS business navigating complex revenue arrangements, evolving GAAP guidance, and M&A activity. This role owns the technical accounting, financial reporting, and provides deal support from due diligence through post-close integration. The role is also instrumental in supporting operational accounting.\n\nYou'll work closely with Business Development, Legal, Tax, FP&A, and the Controller to make sure technical conclusions are sound, documented, and reflected correctly in the financials.\n\nThis role reports to the Controller.\n\nRESPONSIBILITIES\n\nTechnical Accounting and Reporting\n\n• Research and document complex accounting matters under U.S. GAAP\n\n• Draft and maintain technical accounting memos and accounting policy documentation\n\n• Own financial statements including footnote disclosures\n\n• Serve as key contributor in annual financial statement audits\n\n• Advise on complex accounting topics, including revenue recognition, equity transactions, debt modifications, business combinations, consolidation, and impairment analyses\n\n• Monitor emerging accounting standards and assess applicability to the company\n\n• Lead the resolution of complex technical corporate accounting matters across the monthly and quarterly close\n\n• Assist the Accounting Team in implementing processes needed to support technical conclusions, e.g. proper journal entries, reconciliations, clear ownership, and effective controls\n\n• Anticipate emerging accounting standards, shape accounting policy and change-management efforts, and translate new guidance into practical implementation strategies, financial statement disclosures, reporting calendars, and scalable reporting processes\n\nSpecial Projects\n\n• Lead purchase accounting activities under ASC 805, including valuation coordination, opening balance sheet review, and transaction accounting. Prepare related technical accounting memoranda supporting transaction-related conclusions\n\n• Explore/support accounting policy changes that may benefit the company\n\n• Participate in process improvements across accounting operations\n\n• Lead ad hoc projects as needed\n\nOperational Accounting Support\n\n• Support the monthly closes, eg financial reviews, variance analysis\n\n• Assist with complex account reconciliations\n\n• Assist revenue team in ensuring compliance with ASC 606\n\n• Assist in reviewing non-standard, complex customer contracts and associated outcomes in automated systems\n\nYOUR BACKGROUND THAT LIKELY MAKES YOU A MATCH\n\n• 5+ years of relevant accounting experience and CPA are required\n\n• Big 4 public accounting or equivalent national firm experience is required\n\n• Previous consulting, audit, or industry experience with SaaS, fintech, or payments companies is required\n\n• Technical knowledge and hands-on experience with ASC 606 is required\n\n• Working knowledge of ASC 805 (purchase accounting) is required\n\n• Proven track record of researching complex accounting matters, drafting technical accounting documentation, and advising leadership on accounting implications\n\n• Comfort with ambiguity, adaptability to dynamic priorities, and ability to lead ad-hoc special projects outside standard accounting responsibilities\n\n• AI-forward: Actively uses AI tools (e.g., Claude, Gemini) to accelerate documentation, testing, and evidence workflows; both experimenting, and ultimately operationalizing\n\nBased in San Francisco, CA or Austin, TX, with the ability to work in the office a minimum of two days per week is required.\n\nThis role has a base annual salary of $130,000–$185,000 plus a competitive equity and benefits package. (Salary to be determined by relevant experience, location, knowledge, and skills of the applicant, internal equity, and alignment with market data).\n\nWHY QUALIA\n\nQualia is made up of incredibly bright, mission-driven coworkers who are passionate about using technology to solve real-world problems—and we're growing quickly. In order to continue building an engaging and dynamic organization, we're committed to giving everyone the support they need to do great work.\n\nOur benefits package is designed to allow our team members to be their best selves, both in and out of the workplace. In addition to comprehensive health plans, a 401k program, and commuter benefits, we prioritize family and personal well-being through professional development, parental leave, and a flexible time off policy. Qualia offers a robust online onboarding program to train new hires, biweekly all hands meetings, and a variety of internal virtual events to keep employees connected.\n\nWe believe diverse perspectives and backgrounds are critical to building great technology, and our goal is to cultivate an environment where people feel equally valued and respected. Qualia is proud to be an equal-opportunity workplace, and we welcome applicants from all backgrounds regardless of race, color, ancestry, religion, gender identity or expression, sexual orientation, marital status, age, citizenship, socioeconomic status, disability, or veteran status.\n\nBy submitting your application, you acknowledge and agree to the collection, processing, and use of your personal information as described in our Employee Data Privacy Notice.\n\n#LI-Hybrid",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 130000,
+    "max": 185000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "This role has a base annual salary of $130,000–$185,000 plus a competitive equity and benefits package. (Salary to be determined by relevant experience, location, knowledge, and skills of the applicant, internal equity, and alignment with market data)."
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "fast-growing SaaS business",
+    "complex revenue arrangements",
+    "evolving GAAP guidance",
+    "M&A activity",
+    "monthly and quarterly close",
+    "ad hoc projects",
+    "non-standard, complex customer contracts"
+  ],
+  "fetched_at": "2026-10-21T17:34:34.268Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "1d7bb100cd71dd2c-01",
+      "text": "Research complex accounting matters under U.S. GAAP",
+      "source_span": "Research and document complex accounting matters under U.S. GAAP",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1248,
+        "end": 1312
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Researching complex U.S. GAAP matters requires accounting judgment and interpretation rather than a defined platform workflow.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-02",
+      "text": "Document complex accounting matters under U.S. GAAP",
+      "source_span": "Research and document complex accounting matters under U.S. GAAP",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1248,
+        "end": 1312
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Documenting complex accounting matters is technical accounting judgment work, not a mapped automated accounting operation.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-03",
+      "text": "Draft technical accounting memos",
+      "source_span": "Draft and maintain technical accounting memos and accounting policy documentation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1316,
+        "end": 1397
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Drafting technical accounting memos on novel issues is explicitly outside the revenue-recognition memo capability and depends on professional judgment.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-04",
+      "text": "Maintain accounting policy documentation",
+      "source_span": "Draft and maintain technical accounting memos and accounting policy documentation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1316,
+        "end": 1397
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Maintaining accounting policy documentation is policy work tied to human judgment rather than a covered operational capability.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-05",
+      "text": "Own financial statements",
+      "source_span": "Own financial statements including footnote disclosures",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1401,
+        "end": 1456
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Owning financial statements is an accountability/ownership role, not the specific action of producing consolidated statements.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-06",
+      "text": "Own footnote disclosures",
+      "source_span": "Own financial statements including footnote disclosures",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1401,
+        "end": 1456
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Owning footnote disclosures is a disclosure ownership responsibility that requires judgment beyond mapped reporting automation.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-07",
+      "text": "Serve as key contributor in annual financial statement audits",
+      "source_span": "Serve as key contributor in annual financial statement audits",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1460,
+        "end": 1521
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.7,
+      "rationale": "Serving as a key contributor in the annual audit aligns with preparing support and documentation for audits, though the role is still human-involved.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-08",
+      "text": "Advise on revenue recognition",
+      "source_span": "Advise on complex accounting topics, including revenue recognition, equity transactions, debt modifications, business combinations, consolidation, and impairment analyses",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1525,
+        "end": 1695
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Advising on revenue recognition is policy interpretation and judgment, which is explicitly not the automated revenue-recognition capability.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-09",
+      "text": "Advise on equity transactions",
+      "source_span": "Advise on complex accounting topics, including revenue recognition, equity transactions, debt modifications, business combinations, consolidation, and impairment analyses",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1525,
+        "end": 1695
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Advising on equity transactions is specialized accounting judgment that is not covered by the platform map.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-10",
+      "text": "Advise on debt modifications",
+      "source_span": "Advise on complex accounting topics, including revenue recognition, equity transactions, debt modifications, business combinations, consolidation, and impairment analyses",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1525,
+        "end": 1695
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Advising on debt modifications is technical accounting judgment rather than a covered end-to-end workflow.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-11",
+      "text": "Advise on business combinations",
+      "source_span": "Advise on complex accounting topics, including revenue recognition, equity transactions, debt modifications, business combinations, consolidation, and impairment analyses",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1525,
+        "end": 1695
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Advising on business combinations is acquisition accounting judgment and not a mapped automated capability.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-12",
+      "text": "Advise on consolidation",
+      "source_span": "Advise on complex accounting topics, including revenue recognition, equity transactions, debt modifications, business combinations, consolidation, and impairment analyses",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1525,
+        "end": 1695
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Advising on consolidation is accounting judgment work, not the operational consolidation process itself.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-13",
+      "text": "Advise on impairment analyses",
+      "source_span": "Advise on complex accounting topics, including revenue recognition, equity transactions, debt modifications, business combinations, consolidation, and impairment analyses",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1525,
+        "end": 1695
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Advising on impairment analyses requires valuation and accounting judgment outside the platform capabilities.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-14",
+      "text": "Monitor emerging accounting standards",
+      "source_span": "Monitor emerging accounting standards and assess applicability to the company",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1699,
+        "end": 1776
+      },
+      "label": "unclear",
+      "model_label": "gap_candidate",
+      "adjusted": "confidence 0.55 below 0.6",
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.55,
+      "rationale": "Monitoring emerging accounting standards is a repetitive research/alerting task with no matching capability on the map.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-15",
+      "text": "Assess applicability to the company",
+      "source_span": "Monitor emerging accounting standards and assess applicability to the company",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1699,
+        "end": 1776
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Assessing applicability to the company is a judgment-heavy technical accounting decision.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-16",
+      "text": "Lead the resolution of complex technical corporate accounting matters across the monthly and quarterly close",
+      "source_span": "Lead the resolution of complex technical corporate accounting matters across the monthly and quarterly close",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1780,
+        "end": 1888
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Leading the resolution of complex technical accounting matters across close is management and judgment work.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-17",
+      "text": "Implement processes needed to support technical conclusions",
+      "source_span": "Assist the Accounting Team in implementing processes needed to support technical conclusions, e.g. proper journal entries, reconciliations, clear ownership, and effective controls",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1892,
+        "end": 2071
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.86,
+      "rationale": "Implementing processes to support technical conclusions is a project/change effort rather than a mapped finance-operations workflow.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-18",
+      "text": "Anticipate emerging accounting standards",
+      "source_span": "Anticipate emerging accounting standards, shape accounting policy and change-management efforts, and translate new guidance into practical implementation strategies, financial statement disclosures, reporting calendars, and scalable reporting processes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2075,
+        "end": 2327
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Anticipating emerging accounting standards is strategic professional judgment, not automated operations.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-19",
+      "text": "Shape accounting policy efforts",
+      "source_span": "Anticipate emerging accounting standards, shape accounting policy and change-management efforts, and translate new guidance into practical implementation strategies, financial statement disclosures, reporting calendars, and scalable reporting processes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2075,
+        "end": 2327
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Shaping accounting policy efforts is policy-setting and governance work that belongs to humans.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-20",
+      "text": "Shape change-management efforts",
+      "source_span": "Anticipate emerging accounting standards, shape accounting policy and change-management efforts, and translate new guidance into practical implementation strategies, financial statement disclosures, reporting calendars, and scalable reporting processes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2075,
+        "end": 2327
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Shaping change-management efforts is a people/project leadership task rather than a finance-operations workflow.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-21",
+      "text": "Translate new guidance into practical implementation strategies",
+      "source_span": "Anticipate emerging accounting standards, shape accounting policy and change-management efforts, and translate new guidance into practical implementation strategies, financial statement disclosures, reporting calendars, and scalable reporting processes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2075,
+        "end": 2327
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Translating new guidance into implementation strategies requires judgment and design, not a covered automated task.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-22",
+      "text": "Translate new guidance into financial statement disclosures",
+      "source_span": "Anticipate emerging accounting standards, shape accounting policy and change-management efforts, and translate new guidance into practical implementation strategies, financial statement disclosures, reporting calendars, and scalable reporting processes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2075,
+        "end": 2327
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Translating new guidance into disclosures is judgmental disclosure drafting, not a mapped reporting workflow.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-23",
+      "text": "Translate new guidance into reporting calendars",
+      "source_span": "Anticipate emerging accounting standards, shape accounting policy and change-management efforts, and translate new guidance into practical implementation strategies, financial statement disclosures, reporting calendars, and scalable reporting processes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2075,
+        "end": 2327
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.87,
+      "rationale": "Translating new guidance into reporting calendars is a process-planning task without a direct platform capability.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-24",
+      "text": "Translate new guidance into scalable reporting processes",
+      "source_span": "Anticipate emerging accounting standards, shape accounting policy and change-management efforts, and translate new guidance into practical implementation strategies, financial statement disclosures, reporting calendars, and scalable reporting processes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2075,
+        "end": 2327
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Translating new guidance into scalable reporting processes is process design and implementation work.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-25",
+      "text": "Lead purchase accounting activities under ASC 805",
+      "source_span": "Lead purchase accounting activities under ASC 805, including valuation coordination, opening balance sheet review, and transaction accounting. Prepare related technical accounting memoranda supporting transaction-related conclusions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2349,
+        "end": 2581
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Leading purchase accounting activities under ASC 805 is acquisition accounting judgment and coordination, not a mapped automation workflow.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-26",
+      "text": "Coordinate valuation",
+      "source_span": "Lead purchase accounting activities under ASC 805, including valuation coordination, opening balance sheet review, and transaction accounting. Prepare related technical accounting memoranda supporting transaction-related conclusions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2349,
+        "end": 2581
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Coordinating valuation is a judgment-based transaction support activity outside the platform map.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-27",
+      "text": "Review opening balance sheet",
+      "source_span": "Lead purchase accounting activities under ASC 805, including valuation coordination, opening balance sheet review, and transaction accounting. Prepare related technical accounting memoranda supporting transaction-related conclusions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2349,
+        "end": 2581
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.83,
+      "rationale": "Reviewing an opening balance sheet is transaction accounting review work rather than a direct reconciliation or close task.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-28",
+      "text": "Perform transaction accounting",
+      "source_span": "Lead purchase accounting activities under ASC 805, including valuation coordination, opening balance sheet review, and transaction accounting. Prepare related technical accounting memoranda supporting transaction-related conclusions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2349,
+        "end": 2581
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Performing transaction accounting is specialized accounting judgment not matched to a specific platform capability.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-29",
+      "text": "Prepare related technical accounting memoranda supporting transaction-related conclusions",
+      "source_span": "Lead purchase accounting activities under ASC 805, including valuation coordination, opening balance sheet review, and transaction accounting. Prepare related technical accounting memoranda supporting transaction-related conclusions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2349,
+        "end": 2581
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Preparing technical accounting memoranda for transaction conclusions is novel accounting analysis outside the automated capabilities.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-30",
+      "text": "Explore accounting policy changes that may benefit the company",
+      "source_span": "Explore/support accounting policy changes that may benefit the company",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2585,
+        "end": 2655
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.89,
+      "rationale": "Exploring accounting policy changes is policy analysis and judgment, not an operational workflow.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-31",
+      "text": "Participate in process improvements across accounting operations",
+      "source_span": "Participate in process improvements across accounting operations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2659,
+        "end": 2723
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.58,
+      "rationale": "Participating in process improvements across accounting operations is too broad to map to a specific covered action.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-32",
+      "text": "Lead ad hoc projects as needed",
+      "source_span": "Lead ad hoc projects as needed",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 2727,
+        "end": 2757
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-33",
+      "text": "Support the monthly closes",
+      "source_span": "Support the monthly closes, eg financial reviews, variance analysis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2793,
+        "end": 2860
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.52,
+      "rationale": "Supporting the monthly closes is too vague to distinguish between close checklist execution and general help.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-34",
+      "text": "Perform financial reviews",
+      "source_span": "Support the monthly closes, eg financial reviews, variance analysis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2793,
+        "end": 2860
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.46,
+      "rationale": "Performing financial reviews is too vague to identify a specific covered capability.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-35",
+      "text": "Perform variance analysis",
+      "source_span": "Support the monthly closes, eg financial reviews, variance analysis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2793,
+        "end": 2860
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.flux",
+      "capability": "Variance (flux) analysis with draft commentary",
+      "product": "GL accounting",
+      "confidence": 0.95,
+      "rationale": "Performing variance analysis matches the flux-analysis capability, which is assisted because it includes commentary and interpretation.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-36",
+      "text": "Assist with complex account reconciliations",
+      "source_span": "Assist with complex account reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2864,
+        "end": 2907
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.account_recs",
+      "capability": "Balance-sheet account reconciliations",
+      "product": "GL accounting",
+      "confidence": 0.9,
+      "rationale": "Assisting with complex account reconciliations matches balance-sheet account reconciliation work.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-37",
+      "text": "Assist revenue team in ensuring compliance with ASC 606",
+      "source_span": "Assist revenue team in ensuring compliance with ASC 606",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2911,
+        "end": 2966
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "o2c.rev_rec",
+      "capability": "Apply ASC 606 policy, build revenue schedules and documentation",
+      "product": "Order-to-cash",
+      "confidence": 0.88,
+      "rationale": "Assisting the revenue team with ASC 606 compliance aligns with revenue-recognition support, but it requires human judgment.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-38",
+      "text": "Review non-standard, complex customer contracts",
+      "source_span": "Assist in reviewing non-standard, complex customer contracts and associated outcomes in automated systems",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2970,
+        "end": 3075
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "o2c.contract_terms",
+      "capability": "Extract contract terms, obligations and pricing",
+      "product": "Order-to-cash",
+      "confidence": 0.8,
+      "rationale": "Reviewing non-standard customer contracts is the contract-terms extraction workflow for billing and obligations.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-39",
+      "text": "Review associated outcomes in automated systems",
+      "source_span": "Assist in reviewing non-standard, complex customer contracts and associated outcomes in automated systems",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2970,
+        "end": 3075
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.44,
+      "rationale": "Reviewing associated outcomes in automated systems is too vague to map to a specific finance workflow.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-40",
+      "text": "5+ years of relevant accounting experience",
+      "source_span": "5+ years of relevant accounting experience and CPA are required",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3126,
+        "end": 3189
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-41",
+      "text": "CPA required",
+      "source_span": "5+ years of relevant accounting experience and CPA are required",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3126,
+        "end": 3189
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-42",
+      "text": "Big 4 public accounting or equivalent national firm experience is required",
+      "source_span": "Big 4 public accounting or equivalent national firm experience is required",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3193,
+        "end": 3267
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-43",
+      "text": "Previous consulting, audit, or industry experience with SaaS, fintech, or payments companies is required",
+      "source_span": "Previous consulting, audit, or industry experience with SaaS, fintech, or payments companies is required",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3271,
+        "end": 3375
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-44",
+      "text": "Technical knowledge and hands-on experience with ASC 606 is required",
+      "source_span": "Technical knowledge and hands-on experience with ASC 606 is required",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3379,
+        "end": 3447
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-45",
+      "text": "Working knowledge of ASC 805 (purchase accounting) is required",
+      "source_span": "Working knowledge of ASC 805 (purchase accounting) is required",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3451,
+        "end": 3513
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-46",
+      "text": "Proven track record of researching complex accounting matters",
+      "source_span": "Proven track record of researching complex accounting matters, drafting technical accounting documentation, and advising leadership on accounting implications",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3517,
+        "end": 3675
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-47",
+      "text": "Proven track record of drafting technical accounting documentation",
+      "source_span": "Proven track record of researching complex accounting matters, drafting technical accounting documentation, and advising leadership on accounting implications",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3517,
+        "end": 3675
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-48",
+      "text": "Proven track record of advising leadership on accounting implications",
+      "source_span": "Proven track record of researching complex accounting matters, drafting technical accounting documentation, and advising leadership on accounting implications",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3517,
+        "end": 3675
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-49",
+      "text": "Comfort with ambiguity",
+      "source_span": "Comfort with ambiguity, adaptability to dynamic priorities, and ability to lead ad-hoc special projects outside standard accounting responsibilities",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3679,
+        "end": 3827
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-50",
+      "text": "Adaptability to dynamic priorities",
+      "source_span": "Comfort with ambiguity, adaptability to dynamic priorities, and ability to lead ad-hoc special projects outside standard accounting responsibilities",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3679,
+        "end": 3827
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-51",
+      "text": "Ability to lead ad-hoc special projects outside standard accounting responsibilities",
+      "source_span": "Comfort with ambiguity, adaptability to dynamic priorities, and ability to lead ad-hoc special projects outside standard accounting responsibilities",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3679,
+        "end": 3827
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-52",
+      "text": "Actively uses AI tools (e.g., Claude, Gemini) to accelerate documentation, testing, and evidence workflows",
+      "source_span": "AI-forward: Actively uses AI tools (e.g., Claude, Gemini) to accelerate documentation, testing, and evidence workflows; both experimenting, and ultimately operationalizing",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3831,
+        "end": 4002
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-53",
+      "text": "Work in the office a minimum of two days per week",
+      "source_span": "Based in San Francisco, CA or Austin, TX, with the ability to work in the office a minimum of two days per week is required",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4004,
+        "end": 4127
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

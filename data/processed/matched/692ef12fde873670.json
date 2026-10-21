@@ -1,86 +1,248 @@
 {
   "posting_id": "692ef12fde873670",
-  "prompt_version": "hand-labelled",
+  "prompt_version": "match-v1",
   "labels": [
     {
-      "duty_id": "692ef12fde873670-h01",
+      "duty_id": "692ef12fde873670-03",
       "label": "assisted",
       "capability_id": "o2c.rev_rec",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.91,
+      "rationale": "Applying ASC 606 to revenue accounting matches revenue recognition work, though technical judgment is still involved.",
       "model_label": "assisted",
       "adjusted": null
     },
     {
-      "duty_id": "692ef12fde873670-h02",
+      "duty_id": "692ef12fde873670-04",
       "label": "human",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Serving as a subject matter expert for complex revenue recognition matters is advisory judgment work done by people.",
       "model_label": "human",
       "adjusted": null
     },
     {
-      "duty_id": "692ef12fde873670-h03",
+      "duty_id": "692ef12fde873670-05",
       "label": "human",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.94,
+      "rationale": "Reviewing contract assessments is human review work and not the same as extracting contract terms end to end.",
       "model_label": "human",
       "adjusted": null
     },
     {
-      "duty_id": "692ef12fde873670-h04",
+      "duty_id": "692ef12fde873670-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Reviewing non-standard deal structures requires human judgment on novel arrangements.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Reviewing evolving pricing and product models is strategic review and not a defined platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Leading the month-end revenue close is managing the close process and team, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Leading the quarter-end revenue close is management of the close cycle rather than an automatable task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-10",
       "label": "assisted",
       "capability_id": "o2c.rev_rec",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.87,
+      "rationale": "Ensuring timely revenue recognition aligns with applying ASC 606 and recording revenue entries, but oversight remains human-involved.",
       "model_label": "assisted",
       "adjusted": null
     },
     {
-      "duty_id": "692ef12fde873670-h05",
+      "duty_id": "692ef12fde873670-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Ensuring reconciliations are accurate and timely is supervisory oversight rather than performing the reconciliation itself.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Ensuring reporting is accurate and timely is a management oversight duty, not a specific reporting production task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Providing strategic accounting guidance is advisory judgment work by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with other functions to influence deal structures is cross-functional relationship and negotiation work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering to influence product launches is collaboration and advisory work done by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering to influence go-to-market initiatives before execution is human collaboration and advising.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Designing AI-enabled tools and agents is a project/engineering activity that does not match any finance-operations capability here.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Prototyping AI-enabled tools and agents is outside the listed finance-operations capabilities.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-19",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Shipping AI-enabled tools and agents is product/engineering delivery rather than a finance operations task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-20",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Automating manual work across quote-to-cash is a broad implementation goal, not one of the specific process capabilities listed.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Drafting technical accounting memos relies on human judgment, especially for novel arrangements.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-22",
       "label": "covered",
-      "capability_id": "gl.account_recs",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "capability_id": "gl.controls",
+      "confidence": 0.86,
+      "rationale": "Maintaining SOX-ready documentation matches maintaining documentation of key controls.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "692ef12fde873670-h06",
+      "duty_id": "692ef12fde873670-23",
       "label": "human",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.97,
+      "rationale": "Owning key controls is accountability and oversight work rather than a specific automated control task.",
       "model_label": "human",
       "adjusted": null
     },
     {
-      "duty_id": "692ef12fde873670-h07",
-      "label": "human",
-      "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "human",
-      "adjusted": null
-    },
-    {
-      "duty_id": "692ef12fde873670-h08",
-      "label": "assisted",
-      "capability_id": "o2c.rev_rec",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "assisted",
-      "adjusted": null
-    },
-    {
-      "duty_id": "692ef12fde873670-h09",
+      "duty_id": "692ef12fde873670-24",
       "label": "assisted",
       "capability_id": "gl.audit_support",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.84,
+      "rationale": "Supporting audit readiness across revenue processes matches preparing audit support and documentation, though it remains audit-assist work.",
       "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Leading high-impact revenue initiatives is project leadership and coordination work done by people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Applying technical judgment is inherently human decision-making work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-27",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Applying analytical insight is too vague to map to a specific covered capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-28",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Enabling compliant growth is broad and vague, so it cannot be tied to a specific platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "692ef12fde873670-29",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Enabling data-driven decision-making is too vague to determine a specific matching capability.",
+      "model_label": "unclear",
       "adjusted": null
     }
   ]

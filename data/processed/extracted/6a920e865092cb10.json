@@ -1,0 +1,253 @@
+{
+  "posting_id": "6a920e865092cb10",
+  "company": "Thatch",
+  "domain": "thatch.com",
+  "title": "Operations Specialist, Payroll Reconciliation",
+  "role_family": "Payroll",
+  "seniority": "mid",
+  "locations": [
+    "Austin, Texas, United States"
+  ],
+  "remote": "onsite",
+  "salary": {
+    "min": 91000,
+    "max": 120000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Estimated Compensation Range\n\n$91,000—$120,000 USD"
+  },
+  "erp": [],
+  "tools": [],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "manual review every cycle",
+    "reduce the volume of manual review over time",
+    "scale reconciliation without scaling headcount linearly"
+  ],
+  "duties": [
+    {
+      "duty_id": "6a920e865092cb10-01",
+      "text": "Own the payroll deduction reconciliation queue",
+      "source_span": "Own the payroll deduction reconciliation queue",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6a920e865092cb10-02",
+      "text": "Review new and updated deductions before each payroll run",
+      "source_span": "reviewing new and updated deductions before each payroll run",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6a920e865092cb10-03",
+      "text": "Approve flagged discrepancies with clear reasoning",
+      "source_span": "approving flagged discrepancies with clear reasoning",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6a920e865092cb10-04",
+      "text": "Escalate flagged discrepancies with clear reasoning",
+      "source_span": "or escalating flagged discrepancies with clear reasoning",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6a920e865092cb10-05",
+      "text": "Trace reconciliation errors back to root cause across enrollment, premium, and payroll connection data",
+      "source_span": "Trace reconciliation errors back to root cause across enrollment, premium, and payroll connection data",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6a920e865092cb10-06",
+      "text": "Drive fixes upstream rather than patching individual cases",
+      "source_span": "drive fixes upstream rather than patching individual cases",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6a920e865092cb10-07",
+      "text": "Partner with Engineering to scope and prioritize automation opportunities, such as auto-approval rules, tooling, and monitoring that reduce the volume of manual review over time",
+      "source_span": "Partner with Engineering to scope and prioritize automation opportunities, such as auto-approval rules, tooling, and monitoring that reduce the volume of manual review over time",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6a920e865092cb10-08",
+      "text": "Manage escalations from payroll connection failures",
+      "source_span": "Manage escalations from payroll connection failures",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6a920e865092cb10-09",
+      "text": "Manage escalations from invoice review queues",
+      "source_span": "and invoice review queues",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6a920e865092cb10-10",
+      "text": "Route issues to the right stakeholder",
+      "source_span": "routing issues to the right stakeholder",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6a920e865092cb10-11",
+      "text": "Build SOPs",
+      "source_span": "Build",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6a920e865092cb10-12",
+      "text": "Maintain audit trails",
+      "source_span": "maintain audit trails",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6a920e865092cb10-13",
+      "text": "Report on reconciliation accuracy",
+      "source_span": "Report on reconciliation accuracy",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6a920e865092cb10-14",
+      "text": "Report on queue health",
+      "source_span": "queue health",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6a920e865092cb10-15",
+      "text": "Surface trends and risk areas to Operations and Finance leadership",
+      "source_span": "surfacing trends and risk areas to Operations and Finance leadership",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6a920e865092cb10-16",
+      "text": "4-7 years of experience in operations, financial/payroll reconciliation, or management consulting, with a track record of solving complex, ambiguous problems independently",
+      "source_span": "4-7 years of experience in operations, financial/payroll reconciliation, or management consulting, with a track record of solving complex, ambiguous problems independently",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6a920e865092cb10-17",
+      "text": "Strong analytical skills",
+      "source_span": "Strong analytical skills",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6a920e865092cb10-18",
+      "text": "Comfort working directly with financial and payroll data to identify discrepancies and root causes",
+      "source_span": "comfort working directly with financial and payroll data to identify discrepancies and root causes",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6a920e865092cb10-19",
+      "text": "Demonstrated success designing or improving reconciliation, audit, or financial control processes",
+      "source_span": "Demonstrated success designing or improving reconciliation, audit, or financial control processes",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6a920e865092cb10-20",
+      "text": "Strong judgment — able to make sound decisions on ambiguous or high-stakes cases without heavy oversight",
+      "source_span": "Strong judgment — able to make sound decisions on ambiguous or high-stakes cases without heavy oversight",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6a920e865092cb10-21",
+      "text": "Experience partnering with Engineering to translate operational pain points into tooling or automation requirements",
+      "source_span": "Experience partnering with Engineering to translate operational pain points into tooling or automation requirements",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6a920e865092cb10-22",
+      "text": "Bachelor’s degree required",
+      "source_span": "Bachelor’s degree required",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6a920e865092cb10-23",
+      "text": "Ability and willingness to work onsite in our Austin, TX office",
+      "source_span": "Ability and willingness to work onsite in our Austin, TX office",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6a920e865092cb10-24",
+      "text": "MBA or other advanced degree",
+      "source_span": "MBA or other advanced degree",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6a920e865092cb10-25",
+      "text": "Background in management consulting (e.g. strategy or operations consulting) prior to moving into an Operations role",
+      "source_span": "Background in management consulting (e.g. strategy or operations consulting) prior to moving into an Operations role",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6a920e865092cb10-26",
+      "text": "Experience with payroll, benefits, or fintech reconciliation systems",
+      "source_span": "Experience with payroll, benefits, or fintech reconciliation systems",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6a920e865092cb10-27",
+      "text": "Comfort writing SQL queries or working directly with engineers to scope automation requirements",
+      "source_span": "Comfort writing SQL queries or working directly with engineers to scope automation requirements",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6a920e865092cb10-28",
+      "text": "Prior experience in a high-growth startup environment",
+      "source_span": "Prior experience in a high-growth startup environment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "6a920e865092cb10-29",
+      "text": "We look for people who like solving complex problems, use good judgment, and are comfortable working through ambiguity.",
+      "source_span": "We look for people who like solving complex problems, use good judgment, and are comfortable working through ambiguity.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "6a920e865092cb10-30",
+      "text": "People here care deeply about our customers, take real responsibility for what gets built, and are driven by doing work that matters.",
+      "source_span": "People here care deeply about our customers, take real responsibility for what gets built, and are driven by doing work that matters.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    }
+  ],
+  "posted_at": "2026-09-03T13:30:13-04:00",
+  "source_url": "https://thatch.com/jobs/5414786008?gh_jid=5414786008",
+  "fetched_at": "2026-10-21T17:34:22.978Z",
+  "prompt_version": "extract-v1",
+  "text": "About Thatch\n\nFor most people, health insurance is something that happens to them: a plan chosen by someone else, with little room to fit their life. Thatch is changing that. We help companies give every employee a real healthcare budget instead of a one-size-fits-all plan, so people can choose the coverage and care that works for them, and employers get predictable costs they can control.\n\nIt’s a simple idea, but making it real means solving hard problems across healthcare, payments, and technology, and we’re just getting started. We look for people who like solving complex problems, use good judgment, and are comfortable working through ambiguity. People here care deeply about our customers, take real responsibility for what gets built, and are driven by doing work that matters.\n\nAbout the role\n\nThatch is building a healthcare system people love, and getting people’s money right — every deduction, every invoice, every payroll cycle — is foundational to earning that trust. This role will focus on execution within a key operations function, supporting operational OKRs and day-to-day queue management. We’re seeking a candidate with a proven track record of executing at a high level in fast-growing startups, leveraging data and process for impactful results. This individual must possess the ability to dive deep into the details of daily execution and maintain consistency in a continuously evolving environment.\n\nA critical focus area for the team is the ongoing reconciliation of our payment infrastructure. This complex function is vital for financial accuracy and stability. Its efficient management directly and positively impacts our members, driving trust and satisfaction through seamless and accurate financial experiences.\n\nYou’ll sit at the intersection of Operations, Engineering, and Finance: reviewing payroll deductions before they reach employers, tracing discrepancies back to root cause, and partnering with Engineering to automate away the reconciliation work that shouldn’t require manual review every cycle. This role is based onsite in our Austin, TX office and is well suited to someone who exercises strong independent judgment on complex financial data and is energized by building the process and tooling that let Thatch scale reconciliation without scaling headcount linearly.\n\nWhat you'll do\n\n• Own the payroll deduction reconciliation queue, reviewing new and updated deductions before each payroll run and approving or escalating flagged discrepancies with clear reasoning\n\n• Trace reconciliation errors back to root cause across enrollment, premium, and payroll connection data, and drive fixes upstream rather than patching individual cases\n\n• Partner with Engineering to scope and prioritize automation opportunities, such as auto-approval rules, tooling, and monitoring that reduce the volume of manual review over time\n\n• Manage escalations from payroll connection failures and invoice review queues, routing issues to the right stakeholder\n\n• Build and maintain SOPs and audit trails so reconciliation logic and decisions are transparent and repeatable across the team\n\n• Report on reconciliation accuracy and queue health, surfacing trends and risk areas to Operations and Finance leadership\n\nBackground we're looking for\n\n• 4-7 years of experience in operations, financial/payroll reconciliation, or management consulting, with a track record of solving complex, ambiguous problems independently\n\n• Strong analytical skills and comfort working directly with financial and payroll data to identify discrepancies and root causes\n\n• Demonstrated success designing or improving reconciliation, audit, or financial control processes\n\n• Strong judgment — able to make sound decisions on ambiguous or high-stakes cases without heavy oversight\n\n• Experience partnering with Engineering to translate operational pain points into tooling or automation requirements\n\n• Bachelor’s degree required\n\n• Ability and willingness to work onsite in our Austin, TX office\n\nExperience we’d be particularly excited about\n\n• MBA or other advanced degree\n\n• Background in management consulting (e.g. strategy or operations consulting) prior to moving into an Operations role\n\n• Experience with payroll, benefits, or fintech reconciliation systems\n\n• Comfort writing SQL queries or working directly with engineers to scope automation requirements\n\n• Prior experience in a high-growth startup environment\n\nWhat to expect\n\nWe interview rigorously based on integrity, talent, and drive; the trust we display in our teammates from day 1 is a reflection of the confidence we have in this process. We aim to evaluate the things you’ll be doing every day as best we can, and we move quickly. Here's what to expect:\n\n• 30 minute video meeting to talk through your background and interest in Thatch\n\n• 30 minute video meeting with the hiring manager to dive deeper into your experience and the role\n\n• 30 minute video meeting to meet 2-3 members of the team\n\n• 30 minute video meeting with the hiring manager to work through a live case study\n\n• 30 minute video meeting with our founders to discuss your approach to culture and our operating principles\n\nEstimated Compensation Range\n\n$91,000—$120,000 USD",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

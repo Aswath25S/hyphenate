@@ -1,52 +1,1136 @@
 [
   {
+    "posting_id": "005b9a4a06895c67",
+    "company": "Upgrade",
+    "slug": "upgrade",
+    "domain": "upgrade.com",
+    "title": "Corporate FP&A Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 26,
+    "C": 0,
+    "A": 2,
+    "covered_share": 0,
+    "overlap": 0.07692307692307693,
+    "weighted_overlap": 0.038461538461538464,
+    "thin": false,
+    "salary_min": 120000,
+    "salary_max": 140000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Excel",
+      "Aleph",
+      "Tableau"
+    ],
+    "posted_at": "2026-09-25T17:27:10-04:00",
+    "source_url": "https://job-boards.greenhouse.io/upgrade/jobs/4738190005",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
     "posting_id": "02a51009dde2c9ac",
     "company": "Liquid Death",
     "slug": "liquid-death",
     "domain": "liquiddeath.com",
     "title": "Senior Accounting Clerk (Contract)",
     "role_family": "AP",
-    "seniority": "mid",
-    "n": 26,
-    "C": 14,
-    "A": 7,
-    "covered_share": 0.5384615384615384,
-    "overlap": 0.8076923076923077,
-    "weighted_overlap": 0.6730769230769231,
+    "seniority": "senior",
+    "n": 72,
+    "C": 22,
+    "A": 4,
+    "covered_share": 0.3055555555555556,
+    "overlap": 0.3611111111111111,
+    "weighted_overlap": 0.3333333333333333,
     "thin": false,
     "salary_min": 62400,
     "salary_max": 72800,
     "salary_varies": false,
     "salary_source": "posting_text",
-    "savings": 16800,
+    "savings": 9533.333333333334,
     "savings_reason": null,
     "lead_product": "Procure-to-pay",
     "product_split": {
       "Procure-to-pay": {
-        "covered": 10,
+        "covered": 18,
         "assisted": 1,
-        "weighted": 10.5
-      },
-      "Treasury": {
-        "covered": 0,
-        "assisted": 2,
-        "weighted": 1
+        "weighted": 18.5
       },
       "GL accounting": {
         "covered": 4,
-        "assisted": 4,
-        "weighted": 6
+        "assisted": 3,
+        "weighted": 5.5
       }
     },
     "erp": [
       "NetSuite"
     ],
-    "tools": [],
+    "tools": [
+      "Tipalti",
+      "Excel",
+      "Google Sheets",
+      "Claude",
+      "ChatGPT",
+      "Gemini"
+    ],
     "posted_at": "2026-10-20T09:11:58-04:00",
     "source_url": "https://job-boards.greenhouse.io/liquiddeath/jobs/4457806009",
     "locations": [
       "Remote",
       "Remote - United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "04f8222921bbc1f5",
+    "company": "Greenlight",
+    "slug": "greenlight",
+    "domain": "greenlight.com",
+    "title": "Strategic Finance Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 11,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.09090909090909091,
+    "weighted_overlap": 0.045454545454545456,
+    "thin": false,
+    "salary_min": 125000,
+    "salary_max": 165000,
+    "salary_varies": true,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Excel",
+      "Google Sheets"
+    ],
+    "posted_at": "2026-10-15T17:08:05.416Z",
+    "source_url": "https://jobs.lever.co/greenlight/a492748e-1381-4237-82c1-62caecd0d24e",
+    "locations": [
+      "Atlanta"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "0577dcaf1ed31c3a",
+    "company": "Thatch",
+    "slug": "thatch",
+    "domain": "thatch.com",
+    "title": "Operations Specialist, Billing and Collections",
+    "role_family": "AR",
+    "seniority": "mid",
+    "n": 22,
+    "C": 8,
+    "A": 1,
+    "covered_share": 0.36363636363636365,
+    "overlap": 0.4090909090909091,
+    "weighted_overlap": 0.38636363636363635,
+    "thin": false,
+    "salary_min": 74000,
+    "salary_max": 95000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 13454.545454545454,
+    "savings_reason": null,
+    "lead_product": "Order-to-cash",
+    "product_split": {
+      "Order-to-cash": {
+        "covered": 7,
+        "assisted": 1,
+        "weighted": 7.5
+      },
+      "Treasury": {
+        "covered": 1,
+        "assisted": 0,
+        "weighted": 1
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Stripe"
+    ],
+    "posted_at": "2026-09-03T13:29:44-04:00",
+    "source_url": "https://thatch.com/jobs/5414789008?gh_jid=5414789008",
+    "locations": [
+      "Austin, Texas, United States"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "07fb48f155c17720",
+    "company": "Reddit",
+    "slug": "reddit",
+    "domain": "reddit.com",
+    "title": "Global Indirect Tax Manager",
+    "role_family": "Tax",
+    "seniority": "manager",
+    "n": 40,
+    "C": 3,
+    "A": 2,
+    "covered_share": 0.075,
+    "overlap": 0.125,
+    "weighted_overlap": 0.1,
+    "thin": false,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_varies": false,
+    "salary_source": null,
+    "savings": null,
+    "savings_reason": "no_salary",
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 3,
+        "assisted": 2,
+        "weighted": 4
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Vertex",
+      "Alteryx",
+      "SQL"
+    ],
+    "posted_at": "2026-09-09T18:42:58-04:00",
+    "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8189894",
+    "locations": [
+      "Remote - United Kingdom",
+      "Remote - United States",
+      "Remote - Ireland"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "0ae58f01342abcaf",
+    "company": "Oura",
+    "slug": "oura",
+    "domain": "ouraring.com",
+    "title": "Technical Revenue Accounting and Policy Manager",
+    "role_family": "Revenue",
+    "seniority": "manager",
+    "n": 13,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 117300,
+    "salary_max": 169000,
+    "salary_varies": true,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [],
+    "posted_at": "2026-10-14T14:50:55-04:00",
+    "source_url": "https://job-boards.greenhouse.io/oura/jobs/4433693009",
+    "locations": [
+      "Remote - United States",
+      "Remote, United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "0bb2b8a9ac462085",
+    "company": "Oscar Health",
+    "slug": "oscar-health",
+    "domain": "hioscar.com",
+    "title": "Director, Accounting",
+    "role_family": "Close_Mgmt",
+    "seniority": "director_plus",
+    "n": 40,
+    "C": 4,
+    "A": 6,
+    "covered_share": 0.1,
+    "overlap": 0.25,
+    "weighted_overlap": 0.175,
+    "thin": false,
+    "salary_min": 180504,
+    "salary_max": 236912,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 9025.2,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 4,
+        "assisted": 5,
+        "weighted": 6.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-16T13:35:39-04:00",
+    "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8192058",
+    "locations": [
+      "New York, New York, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "0d084ff70492e46f",
+    "company": "Samsara",
+    "slug": "samsara",
+    "domain": "samsara.com",
+    "title": "Sr Billing/AR Consultant",
+    "role_family": "AR",
+    "seniority": "senior",
+    "n": 27,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 102042,
+    "salary_max": 154350,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-10-01T13:59:31-04:00",
+    "source_url": "https://www.samsara.com/company/careers/roles/8247290?gh_jid=8247290",
+    "locations": [
+      "Remote - US",
+      "Remote - CA"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "0f7d46a0f255fcc2",
+    "company": "Applied Intuition",
+    "slug": "applied-intuition",
+    "domain": "appliedintuition.com",
+    "title": "Technical Revenue Accounting Manager",
+    "role_family": "Revenue",
+    "seniority": "manager",
+    "n": 31,
+    "C": 7,
+    "A": 4,
+    "covered_share": 0.22580645161290322,
+    "overlap": 0.3548387096774194,
+    "weighted_overlap": 0.2903225806451613,
+    "thin": false,
+    "salary_min": 155000,
+    "salary_max": 190000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 17500,
+    "savings_reason": null,
+    "lead_product": "Order-to-cash",
+    "product_split": {
+      "Order-to-cash": {
+        "covered": 4,
+        "assisted": 3,
+        "weighted": 5.5
+      },
+      "GL accounting": {
+        "covered": 3,
+        "assisted": 1,
+        "weighted": 3.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Salesforce"
+    ],
+    "posted_at": "2026-09-28T05:33:28.930+00:00",
+    "source_url": "https://jobs.ashbyhq.com/applied/2872ab93-db4c-4a8a-a1f2-e76550743b6c",
+    "locations": [
+      "Sunnyvale"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "111a151edc73ac8f",
+    "company": "Relativity Space",
+    "slug": "relativity-space",
+    "domain": "relativityspace.com",
+    "title": "Plant Controller, Cape",
+    "role_family": "Controller",
+    "seniority": "director_plus",
+    "n": 36,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 158000,
+    "salary_max": 238000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [
+      "Infor LN",
+      "SAP",
+      "Oracle"
+    ],
+    "tools": [],
+    "posted_at": "2026-10-01T11:34:33-04:00",
+    "source_url": "https://boards.greenhouse.io/relativity/jobs/8843174002?gh_jid=8843174002",
+    "locations": [
+      "Cape Canaveral, Florida, United States"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "138f961b061cee41",
+    "company": "Coursera",
+    "slug": "coursera",
+    "domain": "coursera.org",
+    "title": "Corporate FP&A Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 17,
+    "C": 0,
+    "A": 5,
+    "covered_share": 0,
+    "overlap": 0.29411764705882354,
+    "weighted_overlap": 0.14705882352941177,
+    "thin": false,
+    "salary_min": 136000,
+    "salary_max": 170000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 4,
+        "weighted": 2
+      },
+      "Treasury": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "NetSuite",
+      "Workday"
+    ],
+    "tools": [
+      "Excel",
+      "IBM Analytics",
+      "Adaptive"
+    ],
+    "posted_at": "2026-10-01T17:13:41-04:00",
+    "source_url": "https://job-boards.greenhouse.io/coursera/jobs/6192106004",
+    "locations": [
+      "United States",
+      "Mountain View, California, United States"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "148c2e7dccc68b52",
+    "company": "Fivetran",
+    "slug": "fivetran",
+    "domain": "fivetran.com",
+    "title": "Senior Strategic Finance Analyst",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 39,
+    "C": 1,
+    "A": 1,
+    "covered_share": 0.02564102564102564,
+    "overlap": 0.05128205128205128,
+    "weighted_overlap": 0.038461538461538464,
+    "thin": false,
+    "salary_min": 126220,
+    "salary_max": 151470,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 1618.2051282051282,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 1,
+        "weighted": 1.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "SQL",
+      "Pigment",
+      "Looker",
+      "Tableau",
+      "Sigma",
+      "Python"
+    ],
+    "posted_at": "2026-08-27T01:57:59-04:00",
+    "source_url": "https://www.fivetran.com/careers/job?gh_jid=8036189003",
+    "locations": [
+      "USA - New York (dbt)",
+      "Oakland, California, United States, AMER",
+      "Denver, Colorado, United States, AMER"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "15246f2ca318bac0",
+    "company": "Instawork",
+    "slug": "instawork",
+    "domain": "instawork.com",
+    "title": "Finance Automation Lead",
+    "role_family": "AR",
+    "seniority": "manager",
+    "n": 54,
+    "C": 14,
+    "A": 7,
+    "covered_share": 0.25925925925925924,
+    "overlap": 0.3888888888888889,
+    "weighted_overlap": 0.32407407407407407,
+    "thin": false,
+    "salary_min": 110000,
+    "salary_max": 140000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 14259.25925925926,
+    "savings_reason": null,
+    "lead_product": "Procure-to-pay",
+    "product_split": {
+      "Order-to-cash": {
+        "covered": 2,
+        "assisted": 0,
+        "weighted": 2
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      },
+      "Treasury": {
+        "covered": 4,
+        "assisted": 1,
+        "weighted": 4.5
+      },
+      "GL accounting": {
+        "covered": 3,
+        "assisted": 3,
+        "weighted": 4.5
+      },
+      "Procure-to-pay": {
+        "covered": 5,
+        "assisted": 1,
+        "weighted": 5.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Upflow",
+      "Salesforce",
+      "Workato",
+      "Zapier",
+      "n8n",
+      "Make",
+      "Excel",
+      "Google Sheets",
+      "Fieldglass",
+      "Beeline",
+      "Coupa",
+      "Ariba"
+    ],
+    "posted_at": "2026-10-09T12:10:54-04:00",
+    "source_url": "https://job-boards.greenhouse.io/instawork/jobs/4720633006",
+    "locations": [
+      "San Francisco, California, United States"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "15fb278a9ee5fff5",
+    "company": "Fivetran",
+    "slug": "fivetran",
+    "domain": "fivetran.com",
+    "title": "Technical Accounting Senior Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 27,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 154377,
+    "salary_max": 205836,
+    "salary_varies": true,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Workiva"
+    ],
+    "posted_at": "2026-09-23T14:45:20-04:00",
+    "source_url": "https://www.fivetran.com/careers/job?gh_jid=8003707003",
+    "locations": [
+      "Denver, Colorado, United States, AMER",
+      "Oakland, California, United States, AMER"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "1933b9bcb0a4f0ff",
+    "company": "Sentry",
+    "slug": "sentry",
+    "domain": "sentry.io",
+    "title": "FP&A Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 17,
+    "C": 0,
+    "A": 5,
+    "covered_share": 0,
+    "overlap": 0.29411764705882354,
+    "weighted_overlap": 0.14705882352941177,
+    "thin": false,
+    "salary_min": 140000,
+    "salary_max": 170000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 5,
+        "weighted": 2.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Looker",
+      "Tableau"
+    ],
+    "posted_at": "2026-09-03T21:20:45.382+00:00",
+    "source_url": "https://jobs.ashbyhq.com/sentry/8ecd25a9-3f0d-4225-8452-60a3b855c771",
+    "locations": [
+      "San Francisco, California"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "1a410633cc7d1b51",
+    "company": "Verkada",
+    "slug": "verkada",
+    "domain": "verkada.com",
+    "title": "(Sr) Associate / Manager, Strategic Finance & Business Operations",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 6,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.16666666666666666,
+    "weighted_overlap": 0.08333333333333333,
+    "thin": false,
+    "salary_min": 140000,
+    "salary_max": 220000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "SQL"
+    ],
+    "posted_at": "2026-09-08T16:50:47-04:00",
+    "source_url": "https://job-boards.greenhouse.io/verkada/jobs/5231662007",
+    "locations": [
+      "San Mateo, CA United States",
+      "San Mateo, California, United States"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "1bf27ff915731027",
+    "company": "Fastly",
+    "slug": "fastly",
+    "domain": "fastly.com",
+    "title": "Manager, Accounting",
+    "role_family": "Close_Mgmt",
+    "seniority": "manager",
+    "n": 18,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.05555555555555555,
+    "weighted_overlap": 0.027777777777777776,
+    "thin": false,
+    "salary_min": 133200,
+    "salary_max": 159840,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "FloQast",
+      "Coupa",
+      "AuditBoard",
+      "G-Suite"
+    ],
+    "posted_at": "2026-09-29T12:25:19-04:00",
+    "source_url": "https://www.fastly.com/about/jobs/apply?gh_jid=8189757",
+    "locations": [
+      "San Francisco, CA",
+      "San Francisco, CA, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "1d14799f51946eaf",
+    "company": "Redwood Materials",
+    "slug": "redwood-materials",
+    "domain": "redwoodmaterials.com",
+    "title": "Accounts Payable Specialist",
+    "role_family": "AP",
+    "seniority": "mid",
+    "n": 16,
+    "C": 10,
+    "A": 1,
+    "covered_share": 0.625,
+    "overlap": 0.6875,
+    "weighted_overlap": 0.65625,
+    "thin": false,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_varies": false,
+    "salary_source": null,
+    "savings": null,
+    "savings_reason": "no_salary",
+    "lead_product": "Procure-to-pay",
+    "product_split": {
+      "Procure-to-pay": {
+        "covered": 9,
+        "assisted": 1,
+        "weighted": 9.5
+      },
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 0,
+        "weighted": 1
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Microsoft Office",
+      "Excel"
+    ],
+    "posted_at": "2026-10-19T15:01:05-04:00",
+    "source_url": "https://boards.greenhouse.io/redwoodmaterials/jobs/6228455004?gh_jid=6228455004",
+    "locations": [
+      "Carson City, NV"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "1d2f40e016c4b1c6",
+    "company": "Squarespace",
+    "slug": "squarespace",
+    "domain": "squarespace.com",
+    "title": "Finance Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 23,
+    "C": 0,
+    "A": 4,
+    "covered_share": 0,
+    "overlap": 0.17391304347826086,
+    "weighted_overlap": 0.08695652173913043,
+    "thin": false,
+    "salary_min": 148500,
+    "salary_max": 208000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      },
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Workday",
+      "Excel"
+    ],
+    "posted_at": "2026-08-27T16:40:07-04:00",
+    "source_url": "http://www.squarespace.com/about/careers?gh_jid=8159515",
+    "locations": [
+      "New York City"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "1d7bb100cd71dd2c",
+    "company": "Qualia",
+    "slug": "qualia",
+    "domain": "qualia.com",
+    "title": "Technical Accounting and Special Projects Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 38,
+    "C": 1,
+    "A": 4,
+    "covered_share": 0.02631578947368421,
+    "overlap": 0.13157894736842105,
+    "weighted_overlap": 0.07894736842105263,
+    "thin": false,
+    "salary_min": 130000,
+    "salary_max": 185000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 1710.5263157894735,
+    "savings_reason": null,
+    "lead_product": "Order-to-cash",
+    "product_split": {
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      },
+      "Order-to-cash": {
+        "covered": 1,
+        "assisted": 1,
+        "weighted": 1.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Claude",
+      "Gemini"
+    ],
+    "posted_at": "2026-10-13T15:45:29-04:00",
+    "source_url": "https://job-boards.greenhouse.io/qualia/jobs/8256867",
+    "locations": [
+      "Austin, TX or San Francisco, CA",
+      "Austin, Texas, United States",
+      "San Francisco, California, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "23554633491f2a18",
+    "company": "Fivetran",
+    "slug": "fivetran",
+    "domain": "fivetran.com",
+    "title": "Technical Accounting & Reporting Senior Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 22,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 154377,
+    "salary_max": 205836,
+    "salary_varies": true,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Workiva"
+    ],
+    "posted_at": "2026-08-25T17:41:44-04:00",
+    "source_url": "https://www.fivetran.com/careers/job?gh_jid=7875704003",
+    "locations": [
+      "Oakland, California, United States, AMER",
+      "Denver, Colorado, United States, AMER"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "25ba20dc59e02f6f",
+    "company": "GitLab",
+    "slug": "gitlab",
+    "domain": "gitlab.com",
+    "title": "Director, FP&A",
+    "role_family": "Reporting_FPA",
+    "seniority": "director_plus",
+    "n": 50,
+    "C": 0,
+    "A": 6,
+    "covered_share": 0,
+    "overlap": 0.12,
+    "weighted_overlap": 0.06,
+    "thin": false,
+    "salary_min": 168000,
+    "salary_max": 285600,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 6,
+        "weighted": 3
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "GitLab",
+      "Google Sheets",
+      "Sisense",
+      "Adaptive Planning"
+    ],
+    "posted_at": "2026-10-13T09:46:46-04:00",
+    "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8827981002",
+    "locations": [
+      "Remote, United States",
+      "United States of America"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "2696e80a70c64392",
+    "company": "Notion",
+    "slug": "notion",
+    "domain": "notion.so",
+    "title": "Payroll Analyst",
+    "role_family": "Payroll",
+    "seniority": "mid",
+    "n": 22,
+    "C": 1,
+    "A": 1,
+    "covered_share": 0.045454545454545456,
+    "overlap": 0.09090909090909091,
+    "weighted_overlap": 0.06818181818181818,
+    "thin": false,
+    "salary_min": 120000,
+    "salary_max": 140000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 2727.2727272727275,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 1,
+        "weighted": 1.5
+      }
+    },
+    "erp": [
+      "Workday",
+      "NetSuite"
+    ],
+    "tools": [
+      "ADP",
+      "Fidelity",
+      "MS Excel"
+    ],
+    "posted_at": "2026-10-02T19:56:09.176+00:00",
+    "source_url": "https://jobs.ashbyhq.com/notion/92de7ece-b7d9-4b2a-b9cb-b978cc690a46",
+    "locations": [
+      "San Francisco, California",
+      "New York City"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "286e23d95e0724a0",
+    "company": "Relativity Space",
+    "slug": "relativity-space",
+    "domain": "relativityspace.com",
+    "title": "Plant Controller, Stennis",
+    "role_family": "Controller",
+    "seniority": "director_plus",
+    "n": 28,
+    "C": 2,
+    "A": 4,
+    "covered_share": 0.07142857142857142,
+    "overlap": 0.21428571428571427,
+    "weighted_overlap": 0.14285714285714285,
+    "thin": false,
+    "salary_min": 158000,
+    "salary_max": 238000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 5642.857142857142,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 1,
+        "weighted": 2.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      }
+    },
+    "erp": [
+      "Infor LN",
+      "SAP",
+      "Oracle"
+    ],
+    "tools": [],
+    "posted_at": "2026-10-01T11:37:22-04:00",
+    "source_url": "https://boards.greenhouse.io/relativity/jobs/8843210002?gh_jid=8843210002",
+    "locations": [
+      "Stennis Space Center, Mississippi, United States"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "29a1ba1744eeef27",
+    "company": "Blend",
+    "slug": "blend",
+    "domain": "blend.com",
+    "title": "Senior Manager, Technical Accounting",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 19,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 117000,
+    "salary_max": 137000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [],
+    "posted_at": "2026-10-08T10:34:00-04:00",
+    "source_url": "https://job-boards.greenhouse.io/blend/jobs/6219753004",
+    "locations": [
+      "United States"
     ],
     "remote": "unknown",
     "excluded": null
@@ -58,13 +1142,13 @@
     "domain": "flexport.com",
     "title": "Accounts Receivable Collections Analyst",
     "role_family": "AR",
-    "seniority": "entry",
-    "n": 15,
-    "C": 6,
-    "A": 3,
-    "covered_share": 0.4,
-    "overlap": 0.6,
-    "weighted_overlap": 0.5,
+    "seniority": "mid",
+    "n": 33,
+    "C": 7,
+    "A": 4,
+    "covered_share": 0.21212121212121213,
+    "overlap": 0.3333333333333333,
+    "weighted_overlap": 0.2727272727272727,
     "thin": false,
     "salary_min": null,
     "salary_max": null,
@@ -75,31 +1159,1625 @@
     "lead_product": "Order-to-cash",
     "product_split": {
       "Order-to-cash": {
-        "covered": 5,
+        "covered": 7,
         "assisted": 1,
-        "weighted": 5.5
+        "weighted": 7.5
       },
       "Treasury": {
         "covered": 0,
-        "assisted": 2,
-        "weighted": 1
-      },
-      "GL accounting": {
-        "covered": 1,
-        "assisted": 0,
-        "weighted": 1
+        "assisted": 3,
+        "weighted": 1.5
       }
     },
     "erp": [
       "NetSuite"
     ],
-    "tools": [],
+    "tools": [
+      "Tesorio",
+      "Stripe",
+      "Excel",
+      "Google Sheets"
+    ],
     "posted_at": "2026-10-12T13:07:47-04:00",
     "source_url": "https://job-boards.greenhouse.io/flexport/jobs/8273282",
     "locations": [
       "Atlanta, Georgia, United States"
     ],
     "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "2a2c263330df1e9d",
+    "company": "Navan",
+    "slug": "navan",
+    "domain": "navan.com",
+    "title": "Sr. Accountant, Financial Reporting",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 16,
+    "C": 1,
+    "A": 2,
+    "covered_share": 0.0625,
+    "overlap": 0.1875,
+    "weighted_overlap": 0.125,
+    "thin": false,
+    "salary_min": 73800,
+    "salary_max": 164000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 2306.25,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 2,
+        "weighted": 2
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Workiva",
+      "Wdesk"
+    ],
+    "posted_at": "2026-09-16T08:48:59-04:00",
+    "source_url": "https://navan.com/careers/openings?gh_jid=8194359",
+    "locations": [
+      "Palo Alto, CA or San Francisco, CA",
+      "Palo Alto, California, United States"
+    ],
+    "remote": "unknown",
+    "excluded": "finance_software_vendor"
+  },
+  {
+    "posting_id": "2a89115447f59b96",
+    "company": "Angi",
+    "slug": "angi",
+    "domain": "angi.com",
+    "title": "Finance Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 23,
+    "C": 0,
+    "A": 6,
+    "covered_share": 0,
+    "overlap": 0.2608695652173913,
+    "weighted_overlap": 0.13043478260869565,
+    "thin": false,
+    "salary_min": 110000,
+    "salary_max": 165000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 5,
+        "weighted": 2.5
+      },
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "PBCS",
+      "Essbase",
+      "SQL",
+      "Looker"
+    ],
+    "posted_at": "2026-09-04T19:11:08.221+00:00",
+    "source_url": "https://jobs.ashbyhq.com/angi/3494df9f-0ec4-43a9-8bee-560bfd37f392",
+    "locations": [
+      "Onsite - United States - New York - NYC"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "2ad92cdccb8e118d",
+    "company": "Klaviyo",
+    "slug": "klaviyo",
+    "domain": "klaviyo.com",
+    "title": "Lead Treasury Analyst",
+    "role_family": "Treasury",
+    "seniority": "senior",
+    "n": 31,
+    "C": 3,
+    "A": 8,
+    "covered_share": 0.0967741935483871,
+    "overlap": 0.3548387096774194,
+    "weighted_overlap": 0.22580645161290322,
+    "thin": false,
+    "salary_min": 128000,
+    "salary_max": 192000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 6193.548387096774,
+    "savings_reason": null,
+    "lead_product": "Treasury",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 4,
+        "weighted": 2
+      },
+      "Treasury": {
+        "covered": 2,
+        "assisted": 1,
+        "weighted": 2.5
+      },
+      "Procure-to-pay": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      },
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 1,
+        "weighted": 1.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Microsoft Excel",
+      "Google Sheets",
+      "CitiDirect",
+      "FXAll",
+      "Trovata"
+    ],
+    "posted_at": "2026-09-04T13:57:55-04:00",
+    "source_url": "https://www.klaviyo.com/careers/jobs/7986742003?gh_jid=7986742003",
+    "locations": [
+      "Boston, MA",
+      "Boston, Massachusetts, United States",
+      "San Francisco, CA"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "2c34ba31bc876035",
+    "company": "Samsara",
+    "slug": "samsara",
+    "domain": "samsara.com",
+    "title": "Manager II, Accounting",
+    "role_family": "AR",
+    "seniority": "manager",
+    "n": 19,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 97282,
+    "salary_max": 130800,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [
+      "NetSuite",
+      "SAP",
+      "Oracle"
+    ],
+    "tools": [
+      "Salesforce",
+      "HighRadius",
+      "Growfin",
+      "Tesorio"
+    ],
+    "posted_at": "2026-10-01T14:17:33-04:00",
+    "source_url": "https://www.samsara.com/company/careers/roles/8223751?gh_jid=8223751",
+    "locations": [
+      "Remote - AL",
+      "Atlanta, Georgia, United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "2cee4a46f4f94435",
+    "company": "Benchling",
+    "slug": "benchling",
+    "domain": "benchling.com",
+    "title": "Revenue Accountant Manager",
+    "role_family": "Revenue",
+    "seniority": "manager",
+    "n": 28,
+    "C": 2,
+    "A": 15,
+    "covered_share": 0.07142857142857142,
+    "overlap": 0.6071428571428571,
+    "weighted_overlap": 0.3392857142857143,
+    "thin": false,
+    "salary_min": 133280,
+    "salary_max": 180320,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 4760,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "Order-to-cash": {
+        "covered": 0,
+        "assisted": 7,
+        "weighted": 3.5
+      },
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 6,
+        "weighted": 5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Excel",
+      "Salesforce CPQ"
+    ],
+    "posted_at": "2026-09-14T17:09:37.431+00:00",
+    "source_url": "https://jobs.ashbyhq.com/benchling/3309acf5-0fc2-43ee-a3da-242faa81f7e4",
+    "locations": [
+      "San Francisco, CA"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "2e72015d25dfe24a",
+    "company": "Angi",
+    "slug": "angi",
+    "domain": "angi.com",
+    "title": "Senior Manager, Financial Reporting & Technical Accounting",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 36,
+    "C": 2,
+    "A": 0,
+    "covered_share": 0.05555555555555555,
+    "overlap": 0.05555555555555555,
+    "weighted_overlap": 0.05555555555555555,
+    "thin": false,
+    "salary_min": 120000,
+    "salary_max": 195000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 3333.333333333333,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 0,
+        "weighted": 2
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Workiva",
+      "EDGAR"
+    ],
+    "posted_at": "2026-09-23T23:22:12.937+00:00",
+    "source_url": "https://jobs.ashbyhq.com/angi/df087409-4486-447e-ba4a-c4d09b4984ed",
+    "locations": [
+      "Remote - United States",
+      "Remote - United States - New York"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "309fff970fedad4b",
+    "company": "PostHog",
+    "slug": "posthog",
+    "domain": "posthog.com",
+    "title": "Finance Manager, Revenue Accounting",
+    "role_family": "Revenue",
+    "seniority": "manager",
+    "n": 22,
+    "C": 6,
+    "A": 7,
+    "covered_share": 0.2727272727272727,
+    "overlap": 0.5909090909090909,
+    "weighted_overlap": 0.4318181818181818,
+    "thin": false,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_varies": false,
+    "salary_source": null,
+    "savings": null,
+    "savings_reason": "no_salary",
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 4,
+        "assisted": 4,
+        "weighted": 6
+      },
+      "Order-to-cash": {
+        "covered": 2,
+        "assisted": 2,
+        "weighted": 3
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "Campfire"
+    ],
+    "tools": [],
+    "posted_at": "2026-09-14T22:39:48.748+00:00",
+    "source_url": "https://jobs.ashbyhq.com/posthog/2a78f2f8-4fd3-413b-9c7d-55db568e68c1",
+    "locations": [
+      "Remote (US)"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "3401c83ba0cd0add",
+    "company": "Oscar Health",
+    "slug": "oscar-health",
+    "domain": "hioscar.com",
+    "title": "Senior Director, Strategic Finance & Enterprise Planning",
+    "role_family": "Reporting_FPA",
+    "seniority": "director_plus",
+    "n": 19,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.05263157894736842,
+    "weighted_overlap": 0.02631578947368421,
+    "thin": false,
+    "salary_min": 196733,
+    "salary_max": 286902,
+    "salary_varies": true,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-25T09:19:46-04:00",
+    "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8232864",
+    "locations": [
+      "Tempe, Arizona, United States",
+      "New York, New York, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "34482a131783b21f",
+    "company": "Included Health",
+    "slug": "included-health",
+    "domain": "includedhealth.com",
+    "title": "Accounts Receivable Staff Accountant",
+    "role_family": "AR",
+    "seniority": "mid",
+    "n": 54,
+    "C": 16,
+    "A": 10,
+    "covered_share": 0.2962962962962963,
+    "overlap": 0.48148148148148145,
+    "weighted_overlap": 0.3888888888888889,
+    "thin": false,
+    "salary_min": 61410,
+    "salary_max": 73689,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 9097.777777777777,
+    "savings_reason": null,
+    "lead_product": "Order-to-cash",
+    "product_split": {
+      "Order-to-cash": {
+        "covered": 15,
+        "assisted": 3,
+        "weighted": 16.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      },
+      "Treasury": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      },
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 5,
+        "weighted": 3.5
+      }
+    },
+    "erp": [
+      "Workday"
+    ],
+    "tools": [
+      "Microsoft Excel",
+      "Salesforce",
+      "Looker"
+    ],
+    "posted_at": "2026-10-06T18:18:21.168Z",
+    "source_url": "https://jobs.lever.co/includedhealth/81faf685-d09e-4b8a-809c-9d93f9b1eb9c",
+    "locations": [
+      "Remote"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "379d3ed6c300be8a",
+    "company": "Relativity Space",
+    "slug": "relativity-space",
+    "domain": "relativityspace.com",
+    "title": "Senior Accountant II",
+    "role_family": "GL",
+    "seniority": "senior",
+    "n": 49,
+    "C": 10,
+    "A": 11,
+    "covered_share": 0.20408163265306123,
+    "overlap": 0.42857142857142855,
+    "weighted_overlap": 0.3163265306122449,
+    "thin": false,
+    "salary_min": 96000,
+    "salary_max": 144000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 9795.91836734694,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 10,
+        "assisted": 11,
+        "weighted": 15.5
+      }
+    },
+    "erp": [
+      "Infor LN",
+      "SAP",
+      "Oracle"
+    ],
+    "tools": [
+      "Excel",
+      "Power BI",
+      "Tableau",
+      "SQL"
+    ],
+    "posted_at": "2026-10-01T11:42:44-04:00",
+    "source_url": "https://boards.greenhouse.io/relativity/jobs/8857230002?gh_jid=8857230002",
+    "locations": [
+      "Long Beach, California, United States"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "3965e7a55df26bfa",
+    "company": "Oura",
+    "slug": "oura",
+    "domain": "ouraring.com",
+    "title": "Senior SEC Reporting Accountant",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 26,
+    "C": 1,
+    "A": 6,
+    "covered_share": 0.038461538461538464,
+    "overlap": 0.2692307692307692,
+    "weighted_overlap": 0.15384615384615385,
+    "thin": false,
+    "salary_min": 99450,
+    "salary_max": 140000,
+    "salary_varies": true,
+    "salary_source": "posting_text",
+    "savings": 1912.5,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 5,
+        "weighted": 3.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Workiva"
+    ],
+    "posted_at": "2026-09-02T14:09:32-04:00",
+    "source_url": "https://job-boards.greenhouse.io/oura/jobs/4386015009",
+    "locations": [
+      "Remote - United States",
+      "Remote, United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "399007f4ec599573",
+    "company": "Betterment",
+    "slug": "betterment",
+    "domain": "betterment.com",
+    "title": "Payroll & Benefits Coordinator",
+    "role_family": "Payroll",
+    "seniority": "entry",
+    "n": 39,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.02564102564102564,
+    "weighted_overlap": 0.01282051282051282,
+    "thin": false,
+    "salary_min": 70000,
+    "salary_max": 83000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "ADP",
+      "Excel",
+      "Google Sheets"
+    ],
+    "posted_at": "2026-08-26T15:55:40-04:00",
+    "source_url": "https://www.betterment.com/careers/current-openings/job?gh_jid=8154486&gh_jid=8154486",
+    "locations": [
+      "Betterment HQ - New York City; 61 West 23rd Street, Fifth Floor, New York, New York"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "39bd475facfb3ca7",
+    "company": "Airbyte",
+    "slug": "airbyte",
+    "domain": "airbyte.com",
+    "title": "Accounting Manager",
+    "role_family": "Close_Mgmt",
+    "seniority": "manager",
+    "n": 31,
+    "C": 4,
+    "A": 7,
+    "covered_share": 0.12903225806451613,
+    "overlap": 0.3548387096774194,
+    "weighted_overlap": 0.24193548387096775,
+    "thin": false,
+    "salary_min": 133000,
+    "salary_max": 160000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 8580.645161290322,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 4,
+        "assisted": 6,
+        "weighted": 7
+      },
+      "Order-to-cash": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Rillet",
+      "Campfire",
+      "Ramp",
+      "Carta",
+      "Orb",
+      "Claude Code"
+    ],
+    "posted_at": "2026-10-16T20:55:22.484+00:00",
+    "source_url": "https://jobs.ashbyhq.com/airbyte/af867d0a-bd70-4a8e-80f9-13567bd0f3a8",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "3a3050e7c7b028b8",
+    "company": "Plaid",
+    "slug": "plaid",
+    "domain": "plaid.com",
+    "title": "Financial Analyst, Corporate FP&A",
+    "role_family": "Reporting_FPA",
+    "seniority": "mid",
+    "n": 0,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": true,
+    "salary_min": 130000,
+    "salary_max": 147000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": null,
+    "savings_reason": "zero_duties",
+    "lead_product": null,
+    "product_split": {},
+    "erp": [],
+    "tools": [
+      "Pigment",
+      "Adaptive",
+      "Anaplan"
+    ],
+    "posted_at": "2026-09-24T21:27:32.879+00:00",
+    "source_url": "https://jobs.ashbyhq.com/plaid/4d2f0d16-863d-46c5-bc86-2780a34eff44",
+    "locations": [
+      "San Francisco HQ"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "3cac77d190f17a6b",
+    "company": "Snorkel AI",
+    "slug": "snorkel-ai",
+    "domain": "snorkel.ai",
+    "title": "Corporate FP&A Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 32,
+    "C": 2,
+    "A": 1,
+    "covered_share": 0.0625,
+    "overlap": 0.09375,
+    "weighted_overlap": 0.078125,
+    "thin": false,
+    "salary_min": 125000,
+    "salary_max": 180000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 3906.25,
+    "savings_reason": null,
+    "lead_product": "Procure-to-pay",
+    "product_split": {
+      "Procure-to-pay": {
+        "covered": 2,
+        "assisted": 0,
+        "weighted": 2
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Ramp",
+      "Pigment",
+      "Anaplan",
+      "Excel",
+      "Google Sheets"
+    ],
+    "posted_at": "2026-10-07T17:04:01-04:00",
+    "source_url": "https://job-boards.greenhouse.io/snorkelai/jobs/6219987004",
+    "locations": [
+      "San Francisco, CA (Hybrid)",
+      "San Francisco"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "3e2064e4fb44e713",
+    "company": "Ro",
+    "slug": "ro",
+    "domain": "ro.co",
+    "title": "Senior Payroll Analyst",
+    "role_family": "Payroll",
+    "seniority": "senior",
+    "n": 32,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 80000,
+    "salary_max": 99000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [],
+    "tools": [
+      "Microsoft Excel",
+      "UKG"
+    ],
+    "posted_at": "2026-10-02T13:37:40.167Z",
+    "source_url": "https://jobs.lever.co/ro/63177e4f-e58d-4698-8bd0-7688f6baf28d",
+    "locations": [
+      "New York, NY"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "3e29790f2f7f1526",
+    "company": "Braze",
+    "slug": "braze",
+    "domain": "braze.com",
+    "title": "Financial Analyst II, FP&A",
+    "role_family": "Reporting_FPA",
+    "seniority": "mid",
+    "n": 9,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.1111111111111111,
+    "weighted_overlap": 0.05555555555555555,
+    "thin": false,
+    "salary_min": 61000,
+    "salary_max": 121000,
+    "salary_varies": true,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Microsoft Excel",
+      "Pigment"
+    ],
+    "posted_at": "2026-09-18T15:28:32-04:00",
+    "source_url": "https://job-boards.greenhouse.io/braze/jobs/8196046",
+    "locations": [
+      "New York City",
+      "Austin",
+      "San Francisco",
+      "Chicago"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "3e4022fc21b9a4c6",
+    "company": "ElevenLabs",
+    "slug": "elevenlabs",
+    "domain": "elevenlabs.io",
+    "title": "Revenue Accountant",
+    "role_family": "Revenue",
+    "seniority": "senior",
+    "n": 21,
+    "C": 6,
+    "A": 8,
+    "covered_share": 0.2857142857142857,
+    "overlap": 0.6666666666666666,
+    "weighted_overlap": 0.47619047619047616,
+    "thin": false,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_varies": false,
+    "salary_source": null,
+    "savings": null,
+    "savings_reason": "no_salary",
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 5,
+        "assisted": 5,
+        "weighted": 7.5
+      },
+      "Order-to-cash": {
+        "covered": 1,
+        "assisted": 3,
+        "weighted": 2.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Stripe",
+      "Metronome",
+      "HubiFi"
+    ],
+    "posted_at": "2026-10-15T08:29:02.194+00:00",
+    "source_url": "https://jobs.ashbyhq.com/elevenlabs/9d731858-01bf-4d42-89e5-5912ae94cf55",
+    "locations": [
+      "New York",
+      "Dublin",
+      "London"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "40890d19842976fe",
+    "company": "Thrive Market",
+    "slug": "thrive-market",
+    "domain": "thrivemarket.com",
+    "title": "Senior Accountant",
+    "role_family": "GL",
+    "seniority": "senior",
+    "n": 16,
+    "C": 5,
+    "A": 5,
+    "covered_share": 0.3125,
+    "overlap": 0.625,
+    "weighted_overlap": 0.46875,
+    "thin": false,
+    "salary_min": 65000,
+    "salary_max": 100000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 10156.25,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 5,
+        "assisted": 5,
+        "weighted": 7.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Excel",
+      "Microsoft Office Suite",
+      "Adaptive",
+      "Domo",
+      "Tableau",
+      "Claude"
+    ],
+    "posted_at": "2026-10-12T17:12:46-04:00",
+    "source_url": "https://thrivemarketjobs.com/job_posting.html?id=4444725009&gh_jid=4444725009",
+    "locations": [
+      "Remote",
+      "Playa Vista, California, United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "4146130fca3775c6",
+    "company": "Notion",
+    "slug": "notion",
+    "domain": "notion.so",
+    "title": "Strategic Finance, Corporate",
+    "role_family": "Reporting_FPA",
+    "seniority": "mid",
+    "n": 20,
+    "C": 1,
+    "A": 2,
+    "covered_share": 0.05,
+    "overlap": 0.15,
+    "weighted_overlap": 0.1,
+    "thin": false,
+    "salary_min": 120000,
+    "salary_max": 150000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 3000,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 1,
+        "assisted": 2,
+        "weighted": 2
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Pigment",
+      "Anaplan",
+      "Adaptive",
+      "Vena"
+    ],
+    "posted_at": "2026-09-21T20:46:45.179+00:00",
+    "source_url": "https://jobs.ashbyhq.com/notion/72e0f2c1-d599-4301-8096-491835757b9e",
+    "locations": [
+      "San Francisco, California"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "426cae623c24cde8",
+    "company": "Grafana Labs",
+    "slug": "grafana-labs",
+    "domain": "grafana.com",
+    "title": "Technical Accounting & Financial Reporting Manager | United States | Remote",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 23,
+    "C": 2,
+    "A": 1,
+    "covered_share": 0.08695652173913043,
+    "overlap": 0.13043478260869565,
+    "weighted_overlap": 0.10869565217391304,
+    "thin": false,
+    "salary_min": 130000,
+    "salary_max": 154000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 5652.173913043478,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "Reporting": {
+        "covered": 1,
+        "assisted": 0,
+        "weighted": 1
+      },
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 1,
+        "weighted": 1.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Workiva",
+      "Xactly"
+    ],
+    "posted_at": "2026-09-14T17:10:36-04:00",
+    "source_url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6192062004",
+    "locations": [
+      "United States (Remote)",
+      "USA (Remote)"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "441831de3a04bd68",
+    "company": "Lemonade",
+    "slug": "lemonade",
+    "domain": "lemonade.com",
+    "title": "Senior Manager, Treasury",
+    "role_family": "Treasury",
+    "seniority": "manager",
+    "n": 11,
+    "C": 2,
+    "A": 2,
+    "covered_share": 0.18181818181818182,
+    "overlap": 0.36363636363636365,
+    "weighted_overlap": 0.2727272727272727,
+    "thin": false,
+    "salary_min": 160000,
+    "salary_max": 180000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 14545.454545454546,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "Treasury": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      },
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 1,
+        "weighted": 2.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Trovata",
+      "Clearwater",
+      "Excel",
+      "Google Workspace"
+    ],
+    "posted_at": "2026-08-25T15:19:17.279+00:00",
+    "source_url": "https://jobs.ashbyhq.com/lemonade/0916a76a-b2ba-4d48-aa5e-e1c18336d69e",
+    "locations": [
+      "NYC"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "44e057ea7d07d017",
+    "company": "Relativity Space",
+    "slug": "relativity-space",
+    "domain": "relativityspace.com",
+    "title": "Plant Controller, Long Beach",
+    "role_family": "Controller",
+    "seniority": "director_plus",
+    "n": 34,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.029411764705882353,
+    "weighted_overlap": 0.014705882352941176,
+    "thin": false,
+    "salary_min": 158000,
+    "salary_max": 238000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "Infor LN",
+      "SAP",
+      "Oracle"
+    ],
+    "tools": [],
+    "posted_at": "2026-10-01T11:35:28-04:00",
+    "source_url": "https://boards.greenhouse.io/relativity/jobs/8843178002?gh_jid=8843178002",
+    "locations": [
+      "Long Beach, California, United States"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "455e26d6827dbb90",
+    "company": "Fivetran",
+    "slug": "fivetran",
+    "domain": "fivetran.com",
+    "title": "Senior Manager Accounting",
+    "role_family": "Close_Mgmt",
+    "seniority": "manager",
+    "n": 58,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 165416,
+    "salary_max": 215075,
+    "salary_varies": true,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-08-25T18:19:15-04:00",
+    "source_url": "https://www.fivetran.com/careers/job?gh_jid=7977690003",
+    "locations": [
+      "Oakland, California, United States",
+      "Denver, Colorado, United States, AMER"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "4984df0392ee3419",
+    "company": "Included Health",
+    "slug": "included-health",
+    "domain": "includedhealth.com",
+    "title": "Sr. Manager, Accounting",
+    "role_family": "Close_Mgmt",
+    "seniority": "manager",
+    "n": 48,
+    "C": 4,
+    "A": 9,
+    "covered_share": 0.08333333333333333,
+    "overlap": 0.2708333333333333,
+    "weighted_overlap": 0.17708333333333334,
+    "thin": false,
+    "salary_min": 147940,
+    "salary_max": 185000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 6164.166666666666,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "Procure-to-pay": {
+        "covered": 1,
+        "assisted": 0,
+        "weighted": 1
+      },
+      "GL accounting": {
+        "covered": 3,
+        "assisted": 6,
+        "weighted": 6
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      }
+    },
+    "erp": [
+      "Workday"
+    ],
+    "tools": [
+      "Looker",
+      "Microsoft Suite",
+      "GSuite"
+    ],
+    "posted_at": "2026-09-30T19:43:25.639Z",
+    "source_url": "https://jobs.lever.co/includedhealth/6efe0600-3f4c-44af-a2e3-0005e89d072b",
+    "locations": [
+      "Remote"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "4afa5a6e9ef02409",
+    "company": "Headway",
+    "slug": "headway",
+    "domain": "headway.co",
+    "title": "Senior Strategic Finance Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 21,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.047619047619047616,
+    "weighted_overlap": 0.023809523809523808,
+    "thin": false,
+    "salary_min": 180000,
+    "salary_max": 225000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-17T14:25:53.627+00:00",
+    "source_url": "https://jobs.ashbyhq.com/headway/a6071a97-4a7d-4094-93ea-7b2f86a6a067",
+    "locations": [
+      "Remote"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "4c28d21f1760bb97",
+    "company": "Verkada",
+    "slug": "verkada",
+    "domain": "verkada.com",
+    "title": "(Sr) Manager, Strategic Finance & Business Operations - GTM",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 9,
+    "C": 0,
+    "A": 3,
+    "covered_share": 0,
+    "overlap": 0.3333333333333333,
+    "weighted_overlap": 0.16666666666666666,
+    "thin": false,
+    "salary_min": 190000,
+    "salary_max": 245000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-04T12:58:38-04:00",
+    "source_url": "https://job-boards.greenhouse.io/verkada/jobs/5231248007",
+    "locations": [
+      "San Mateo, CA United States",
+      "San Mateo, California, United States"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "4c3fcb5cfed5eb2e",
+    "company": "Fastly",
+    "slug": "fastly",
+    "domain": "fastly.com",
+    "title": "Strategic Finance Senior Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 16,
+    "C": 1,
+    "A": 2,
+    "covered_share": 0.0625,
+    "overlap": 0.1875,
+    "weighted_overlap": 0.125,
+    "thin": false,
+    "salary_min": 181220,
+    "salary_max": 217464,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 5663.125,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 1,
+        "assisted": 1,
+        "weighted": 1.5
+      },
+      "Treasury": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Adaptive Planning",
+      "Tableau",
+      "Looker"
+    ],
+    "posted_at": "2026-09-28T19:08:16-04:00",
+    "source_url": "https://www.fastly.com/about/jobs/apply?gh_jid=8238135",
+    "locations": [
+      "San Francisco, CA",
+      "San Francisco, CA, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "4c4ee7305bca32f7",
+    "company": "Rula",
+    "slug": "rula",
+    "domain": "rula.com",
+    "title": "Sr. Strategic Finance Manager (Remote)",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 8,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.125,
+    "weighted_overlap": 0.0625,
+    "thin": false,
+    "salary_min": 166000,
+    "salary_max": 215000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Excel",
+      "Google Sheets",
+      "SQL"
+    ],
+    "posted_at": "2026-09-10T22:31:11.765+00:00",
+    "source_url": "https://jobs.ashbyhq.com/rula/0f7bbc19-be80-4263-858a-2a6a7ed1f904",
+    "locations": [
+      "Remote - United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "50bee79b2ad80491",
+    "company": "Everlaw",
+    "slug": "everlaw",
+    "domain": "everlaw.com",
+    "title": "Senior Financial Analyst",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 13,
+    "C": 0,
+    "A": 2,
+    "covered_share": 0,
+    "overlap": 0.15384615384615385,
+    "weighted_overlap": 0.07692307692307693,
+    "thin": false,
+    "salary_min": 120000,
+    "salary_max": 152000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Adaptive Planning",
+      "Excel",
+      "Google Sheets",
+      "Salesforce",
+      "Looker",
+      "Tableau",
+      "Snowflake"
+    ],
+    "posted_at": "2026-10-02T12:12:59-04:00",
+    "source_url": "https://job-boards.greenhouse.io/everlaw/jobs/4718689006",
+    "locations": [
+      "Oakland, California, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "5161be621c1860bd",
+    "company": "Oscar Health",
+    "slug": "oscar-health",
+    "domain": "hioscar.com",
+    "title": "Senior Accountant",
+    "role_family": "GL",
+    "seniority": "senior",
+    "n": 18,
+    "C": 4,
+    "A": 2,
+    "covered_share": 0.2222222222222222,
+    "overlap": 0.3333333333333333,
+    "weighted_overlap": 0.2777777777777778,
+    "thin": false,
+    "salary_min": 91908,
+    "salary_max": 120629,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 10212,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 4,
+        "assisted": 2,
+        "weighted": 5
+      }
+    },
+    "erp": [
+      "Workday"
+    ],
+    "tools": [
+      "OpenAI Codex"
+    ],
+    "posted_at": "2026-10-09T11:21:11-04:00",
+    "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8267254",
+    "locations": [
+      "New York, New York, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "5531b17bef01754b",
+    "company": "Perplexity",
+    "slug": "perplexity",
+    "domain": "perplexity.ai",
+    "title": "Strategic Finance Lead - Compute",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 26,
+    "C": 0,
+    "A": 2,
+    "covered_share": 0,
+    "overlap": 0.07692307692307693,
+    "weighted_overlap": 0.038461538461538464,
+    "thin": false,
+    "salary_min": 190000,
+    "salary_max": 240000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-01T19:06:08.601+00:00",
+    "source_url": "https://jobs.ashbyhq.com/perplexity/39250c5d-1670-4a63-8a66-bfd495c85e6f",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "5811c3ad14858d69",
+    "company": "Thumbtack",
+    "slug": "thumbtack",
+    "domain": "thumbtack.com",
+    "title": "Corporate FP&A Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 19,
+    "C": 0,
+    "A": 7,
+    "covered_share": 0,
+    "overlap": 0.3684210526315789,
+    "weighted_overlap": 0.18421052631578946,
+    "thin": false,
+    "salary_min": 137700,
+    "salary_max": 209000,
+    "salary_varies": true,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 7,
+        "weighted": 3.5
+      }
+    },
+    "erp": [
+      "NetSuite",
+      "SAP"
+    ],
+    "tools": [
+      "Excel",
+      "Google Sheets",
+      "Adaptive Insights",
+      "Anaplan",
+      "Pigment",
+      "Aleph",
+      "Oracle Planning & Business Systems"
+    ],
+    "posted_at": "2026-09-17T15:25:35.160+00:00",
+    "source_url": "https://jobs.ashbyhq.com/thumbtack/e278631a-55e1-4f82-b33f-7bf47f122169",
+    "locations": [
+      "Remote, United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "5823b9c70331f1ac",
+    "company": "Applied Intuition",
+    "slug": "applied-intuition",
+    "domain": "appliedintuition.com",
+    "title": "Senior Cost Accountant - Government Contracting (Accounts Payable, Job Costing)",
+    "role_family": "AP",
+    "seniority": "senior",
+    "n": 38,
+    "C": 8,
+    "A": 9,
+    "covered_share": 0.21052631578947367,
+    "overlap": 0.4473684210526316,
+    "weighted_overlap": 0.32894736842105265,
+    "thin": false,
+    "salary_min": 110000,
+    "salary_max": 155000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 11578.947368421052,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "Procure-to-pay": {
+        "covered": 5,
+        "assisted": 2,
+        "weighted": 6
+      },
+      "GL accounting": {
+        "covered": 3,
+        "assisted": 7,
+        "weighted": 6.5
+      }
+    },
+    "erp": [
+      "PROCAS",
+      "Deltek Costpoint",
+      "Unanet"
+    ],
+    "tools": [
+      "Microsoft Excel"
+    ],
+    "posted_at": "2026-10-06T13:18:38.917+00:00",
+    "source_url": "https://jobs.ashbyhq.com/applied/842b5fcb-6652-4097-970b-542022f150a7",
+    "locations": [
+      "Washington, D.C."
+    ],
+    "remote": "onsite",
     "excluded": null
   },
   {
@@ -110,18 +2788,18 @@
     "title": "Accounts Payable Manager",
     "role_family": "AP",
     "seniority": "manager",
-    "n": 17,
-    "C": 7,
-    "A": 4,
-    "covered_share": 0.4117647058823529,
-    "overlap": 0.6470588235294118,
-    "weighted_overlap": 0.5294117647058824,
+    "n": 35,
+    "C": 8,
+    "A": 7,
+    "covered_share": 0.22857142857142856,
+    "overlap": 0.42857142857142855,
+    "weighted_overlap": 0.32857142857142857,
     "thin": false,
     "salary_min": 110400,
     "salary_max": 172500,
     "salary_varies": false,
     "salary_source": "posting_text",
-    "savings": 22729.41176470588,
+    "savings": 12617.142857142857,
     "savings_reason": null,
     "lead_product": "GL accounting",
     "product_split": {
@@ -131,9 +2809,9 @@
         "weighted": 3.5
       },
       "GL accounting": {
-        "covered": 4,
-        "assisted": 2,
-        "weighted": 5
+        "covered": 5,
+        "assisted": 5,
+        "weighted": 7.5
       },
       "Treasury": {
         "covered": 0,
@@ -144,11 +2822,350 @@
     "erp": [
       "NetSuite"
     ],
-    "tools": [],
+    "tools": [
+      "Ramp"
+    ],
     "posted_at": "2026-09-25T17:53:14.587+00:00",
     "source_url": "https://jobs.ashbyhq.com/headway/e58bd5b3-72cf-40f0-adab-8fbe7dfcef37",
     "locations": [
       "Remote"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "59ba14769ebbbaa2",
+    "company": "Reddit",
+    "slug": "reddit",
+    "domain": "reddit.com",
+    "title": "International Payroll Analyst",
+    "role_family": "Payroll",
+    "seniority": "senior",
+    "n": 28,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.03571428571428571,
+    "weighted_overlap": 0.017857142857142856,
+    "thin": false,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_varies": false,
+    "salary_source": null,
+    "savings": null,
+    "savings_reason": "no_salary",
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Workday Payroll",
+      "Excel",
+      "Google Sheets"
+    ],
+    "posted_at": "2026-09-25T16:27:39-04:00",
+    "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8234154",
+    "locations": [
+      "Remote - United Kingdom",
+      "Remote - United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "5a8bc39f61e891c2",
+    "company": "Klaviyo",
+    "slug": "klaviyo",
+    "domain": "klaviyo.com",
+    "title": "Manager, IT SOX",
+    "role_family": "Other",
+    "seniority": "manager",
+    "n": 28,
+    "C": 1,
+    "A": 0,
+    "covered_share": 0.03571428571428571,
+    "overlap": 0.03571428571428571,
+    "weighted_overlap": 0.03571428571428571,
+    "thin": false,
+    "salary_min": 124000,
+    "salary_max": 186000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 2214.285714285714,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 0,
+        "weighted": 1
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Optro",
+      "AuditBoard",
+      "Tableau"
+    ],
+    "posted_at": "2026-10-19T12:38:12-04:00",
+    "source_url": "https://www.klaviyo.com/careers/jobs/8037155003?gh_jid=8037155003",
+    "locations": [
+      "San Francisco, CA",
+      "Boston, Massachusetts, United States",
+      "Boston, MA"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "5ac1508b6822e136",
+    "company": "Rover",
+    "slug": "rover",
+    "domain": "rover.com",
+    "title": "Senior Accountant, Financial Reporting",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 32,
+    "C": 4,
+    "A": 7,
+    "covered_share": 0.125,
+    "overlap": 0.34375,
+    "weighted_overlap": 0.234375,
+    "thin": false,
+    "salary_min": 108694,
+    "salary_max": 136046,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 6793.375,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 4,
+        "assisted": 4,
+        "weighted": 6
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Excel"
+    ],
+    "posted_at": "2026-09-18T15:43:26.548Z",
+    "source_url": "https://jobs.lever.co/rover/c8302568-bf57-4298-a45b-9241d9ef3cca",
+    "locations": [
+      "Seattle"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "5b5ddc17fb9502df",
+    "company": "Outreach",
+    "slug": "outreach",
+    "domain": "outreach.io",
+    "title": "Senior Financial Analyst",
+    "role_family": "Reporting_FPA",
+    "seniority": "mid",
+    "n": 15,
+    "C": 0,
+    "A": 7,
+    "covered_share": 0,
+    "overlap": 0.4666666666666667,
+    "weighted_overlap": 0.23333333333333334,
+    "thin": false,
+    "salary_min": 110000,
+    "salary_max": 125000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Treasury": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      },
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 5,
+        "weighted": 2.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Excel",
+      "PowerPoint",
+      "Word",
+      "Anaplan"
+    ],
+    "posted_at": "2026-09-04T19:54:13.269Z",
+    "source_url": "https://jobs.lever.co/outreach/f7020abe-4ddd-4878-a33f-5c410924b04d",
+    "locations": [
+      "Seattle, WA; United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "5b64604701b310ca",
+    "company": "Outschool",
+    "slug": "outschool",
+    "domain": "outschool.com",
+    "title": "Financial Planning & Analysis Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 8,
+    "C": 0,
+    "A": 2,
+    "covered_share": 0,
+    "overlap": 0.25,
+    "weighted_overlap": 0.125,
+    "thin": false,
+    "salary_min": 165375,
+    "salary_max": 245000,
+    "salary_varies": true,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-29T22:49:05.519+00:00",
+    "source_url": "https://jobs.ashbyhq.com/outschool/2a203f36-30d3-4c6c-ad1b-f0921f7c3467",
+    "locations": [
+      "Remote (U.S.)"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "5c3074f8ba84b31d",
+    "company": "Chime",
+    "slug": "chime",
+    "domain": "chime.com",
+    "title": "Senior Manager, Financial Reporting",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 29,
+    "C": 3,
+    "A": 0,
+    "covered_share": 0.10344827586206896,
+    "overlap": 0.10344827586206896,
+    "weighted_overlap": 0.10344827586206896,
+    "thin": false,
+    "salary_min": 160000,
+    "salary_max": 221000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 8275.862068965516,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "Reporting": {
+        "covered": 1,
+        "assisted": 0,
+        "weighted": 1
+      },
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 0,
+        "weighted": 2
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Workiva",
+      "Shareworks",
+      "Microsoft Excel",
+      "Google Sheets"
+    ],
+    "posted_at": "2026-09-17T15:14:43-04:00",
+    "source_url": "https://boards.greenhouse.io/chime/jobs/8720968002?gh_jid=8720968002",
+    "locations": [
+      "San Francisco, CA, USA",
+      "San Francisco, California, United States"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "60cda1db954b419c",
+    "company": "Shield AI",
+    "slug": "shield-ai",
+    "domain": "shield.ai",
+    "title": "Senior Program Finance Analyst (R5882)",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 26,
+    "C": 1,
+    "A": 7,
+    "covered_share": 0.038461538461538464,
+    "overlap": 0.3076923076923077,
+    "weighted_overlap": 0.17307692307692307,
+    "thin": false,
+    "salary_min": 89000,
+    "salary_max": 130000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 1711.5384615384617,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 6,
+        "weighted": 3
+      },
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 1,
+        "weighted": 1.5
+      }
+    },
+    "erp": [
+      "Costpoint"
+    ],
+    "tools": [
+      "Power BI",
+      "Excel",
+      "Microsoft Fabric",
+      "Power Query",
+      "DAX",
+      "Vena"
+    ],
+    "posted_at": "2026-09-09T06:02:29.799Z",
+    "source_url": "https://jobs.lever.co/shieldai/c0aee07f-9773-4606-b715-3a2a92121e12",
+    "locations": [
+      "Dallas, Texas"
     ],
     "remote": "unknown",
     "excluded": null
@@ -160,39 +3177,46 @@
     "domain": "whoop.com",
     "title": "Staff Accountant",
     "role_family": "GL",
-    "seniority": "entry",
-    "n": 15,
-    "C": 4,
-    "A": 5,
-    "covered_share": 0.26666666666666666,
-    "overlap": 0.6,
-    "weighted_overlap": 0.43333333333333335,
+    "seniority": "mid",
+    "n": 33,
+    "C": 10,
+    "A": 10,
+    "covered_share": 0.30303030303030304,
+    "overlap": 0.6060606060606061,
+    "weighted_overlap": 0.45454545454545453,
     "thin": false,
     "salary_min": 60000,
     "salary_max": 90000,
     "salary_varies": false,
     "salary_source": "posting_text",
-    "savings": 8000,
+    "savings": 9090.909090909092,
     "savings_reason": null,
     "lead_product": "GL accounting",
     "product_split": {
       "GL accounting": {
-        "covered": 4,
-        "assisted": 5,
-        "weighted": 6.5
+        "covered": 9,
+        "assisted": 10,
+        "weighted": 14
+      },
+      "Procure-to-pay": {
+        "covered": 1,
+        "assisted": 0,
+        "weighted": 1
       }
     },
     "erp": [
       "NetSuite",
       "Oracle"
     ],
-    "tools": [],
+    "tools": [
+      "Excel"
+    ],
     "posted_at": "2026-08-25T17:49:34.113+00:00",
     "source_url": "https://jobs.ashbyhq.com/whoop/3b6827ad-945c-46be-b920-897de9cc85ba",
     "locations": [
       "Boston, MA"
     ],
-    "remote": "unknown",
+    "remote": "onsite",
     "excluded": null
   },
   {
@@ -203,25 +3227,25 @@
     "title": "Accounting Manager",
     "role_family": "Close_Mgmt",
     "seniority": "manager",
-    "n": 18,
-    "C": 8,
-    "A": 3,
-    "covered_share": 0.4444444444444444,
-    "overlap": 0.6111111111111112,
-    "weighted_overlap": 0.5277777777777778,
+    "n": 33,
+    "C": 7,
+    "A": 5,
+    "covered_share": 0.21212121212121213,
+    "overlap": 0.36363636363636365,
+    "weighted_overlap": 0.2878787878787879,
     "thin": false,
     "salary_min": 120000,
     "salary_max": 145000,
     "salary_varies": false,
     "salary_source": "posting_text",
-    "savings": 26666.666666666664,
+    "savings": 12727.272727272728,
     "savings_reason": null,
     "lead_product": "Procure-to-pay",
     "product_split": {
       "Procure-to-pay": {
-        "covered": 5,
+        "covered": 3,
         "assisted": 0,
-        "weighted": 5
+        "weighted": 3
       },
       "GL accounting": {
         "covered": 2,
@@ -229,6 +3253,1029 @@
         "weighted": 3
       },
       "Treasury": {
+        "covered": 1,
+        "assisted": 0,
+        "weighted": 1
+      },
+      "Reporting": {
+        "covered": 1,
+        "assisted": 3,
+        "weighted": 2.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Excel",
+      "Zip",
+      "Ramp"
+    ],
+    "posted_at": "2026-09-18T14:47:01-04:00",
+    "source_url": "https://job-boards.greenhouse.io/roofstock/jobs/8821792002",
+    "locations": [
+      "Oakland, California, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "63b79a21366537bb",
+    "company": "Saronic",
+    "slug": "saronic",
+    "domain": "saronic.com",
+    "title": "Senior FP&A Analyst – Corporate Finance",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 43,
+    "C": 1,
+    "A": 13,
+    "covered_share": 0.023255813953488372,
+    "overlap": 0.32558139534883723,
+    "weighted_overlap": 0.1744186046511628,
+    "thin": false,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_varies": false,
+    "salary_source": null,
+    "savings": null,
+    "savings_reason": "no_salary",
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 1,
+        "assisted": 11,
+        "weighted": 6.5
+      },
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      },
+      "Treasury": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Adaptive",
+      "Foundry"
+    ],
+    "posted_at": "2026-09-29T23:25:05.392+00:00",
+    "source_url": "https://jobs.ashbyhq.com/saronic/d20875db-2478-4591-833f-1e90dd3da431",
+    "locations": [
+      "Austin, TX"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "646668f0a875e17a",
+    "company": "Verkada",
+    "slug": "verkada",
+    "domain": "verkada.com",
+    "title": "Senior Accountant",
+    "role_family": "GL",
+    "seniority": "senior",
+    "n": 22,
+    "C": 2,
+    "A": 6,
+    "covered_share": 0.09090909090909091,
+    "overlap": 0.36363636363636365,
+    "weighted_overlap": 0.22727272727272727,
+    "thin": false,
+    "salary_min": 100000,
+    "salary_max": 120000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 4545.454545454546,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 3,
+        "weighted": 3.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Microsoft Excel",
+      "Google Sheets"
+    ],
+    "posted_at": "2026-10-14T18:11:56-04:00",
+    "source_url": "https://job-boards.greenhouse.io/verkada/jobs/5265026007",
+    "locations": [
+      "San Mateo, CA United States",
+      "San Mateo, California, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "6598d208498030d3",
+    "company": "Rula",
+    "slug": "rula",
+    "domain": "rula.com",
+    "title": "Sr. Finance Manager - Deal Desk (Remote)",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 7,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.14285714285714285,
+    "weighted_overlap": 0.07142857142857142,
+    "thin": false,
+    "salary_min": 166000,
+    "salary_max": 215000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-08-25T11:24:06.685+00:00",
+    "source_url": "https://jobs.ashbyhq.com/rula/a2a4a220-714b-4460-82f1-3ae926b14ac9",
+    "locations": [
+      "Remote - United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "667a02a394ada5a9",
+    "company": "Perplexity",
+    "slug": "perplexity",
+    "domain": "perplexity.ai",
+    "title": "Strategic Finance Lead - AI",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 27,
+    "C": 0,
+    "A": 8,
+    "covered_share": 0,
+    "overlap": 0.2962962962962963,
+    "weighted_overlap": 0.14814814814814814,
+    "thin": false,
+    "salary_min": 190000,
+    "salary_max": 240000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      },
+      "Order-to-cash": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 6,
+        "weighted": 3
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-01T19:09:29.116+00:00",
+    "source_url": "https://jobs.ashbyhq.com/perplexity/f4d81f6b-958c-4bc0-a9aa-9850c3508ca9",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "6695ead5f07cf0e5",
+    "company": "Checkr",
+    "slug": "checkr",
+    "domain": "checkr.com",
+    "title": "Senior Strategic Finance Manager - Go-To-Market",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 13,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.07692307692307693,
+    "weighted_overlap": 0.038461538461538464,
+    "thin": false,
+    "salary_min": 162000,
+    "salary_max": 260000,
+    "salary_varies": true,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Salesforce",
+      "Omni",
+      "SQL"
+    ],
+    "posted_at": "2026-09-16T17:33:44-04:00",
+    "source_url": "https://job-boards.greenhouse.io/checkr/jobs/8209759",
+    "locations": [
+      "Denver, Colorado, United States",
+      "San Francisco, California, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "67da9c5b3e879bee",
+    "company": "Oura",
+    "slug": "oura",
+    "domain": "ouraring.com",
+    "title": "Senior Manager, Corporate Accounting",
+    "role_family": "Close_Mgmt",
+    "seniority": "manager",
+    "n": 23,
+    "C": 2,
+    "A": 4,
+    "covered_share": 0.08695652173913043,
+    "overlap": 0.2608695652173913,
+    "weighted_overlap": 0.17391304347826086,
+    "thin": false,
+    "salary_min": 139400,
+    "salary_max": 200000,
+    "salary_varies": true,
+    "salary_source": "posting_text",
+    "savings": 6060.869565217391,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 4,
+        "weighted": 4
+      }
+    },
+    "erp": [
+      "NetSuite",
+      "Oracle"
+    ],
+    "tools": [
+      "FloQast"
+    ],
+    "posted_at": "2026-09-02T14:05:56-04:00",
+    "source_url": "https://job-boards.greenhouse.io/oura/jobs/4260364009",
+    "locations": [
+      "Remote - United States",
+      "Remote, United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "692ef12fde873670",
+    "company": "Checkr",
+    "slug": "checkr",
+    "domain": "checkr.com",
+    "title": "Technical Revenue Accounting Manager",
+    "role_family": "Revenue",
+    "seniority": "manager",
+    "n": 27,
+    "C": 1,
+    "A": 3,
+    "covered_share": 0.037037037037037035,
+    "overlap": 0.14814814814814814,
+    "weighted_overlap": 0.09259259259259259,
+    "thin": false,
+    "salary_min": 128000,
+    "salary_max": 178000,
+    "salary_varies": true,
+    "salary_source": "posting_text",
+    "savings": 2370.3703703703704,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "Order-to-cash": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      },
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 1,
+        "weighted": 1.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Claude",
+      "Lovable",
+      "Cursor",
+      "Gemini"
+    ],
+    "posted_at": "2026-09-29T16:55:31-04:00",
+    "source_url": "https://job-boards.greenhouse.io/checkr/jobs/8241317",
+    "locations": [
+      "Denver, Colorado, United States",
+      "San Francisco, California, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "6a6de9123d2e95a3",
+    "company": "Perplexity",
+    "slug": "perplexity",
+    "domain": "perplexity.ai",
+    "title": "Global Treasury Manager, Investments & Risk",
+    "role_family": "Treasury",
+    "seniority": "manager",
+    "n": 24,
+    "C": 1,
+    "A": 6,
+    "covered_share": 0.041666666666666664,
+    "overlap": 0.2916666666666667,
+    "weighted_overlap": 0.16666666666666666,
+    "thin": false,
+    "salary_min": 180000,
+    "salary_max": 210000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 3750,
+    "savings_reason": null,
+    "lead_product": "Treasury",
+    "product_split": {
+      "Treasury": {
+        "covered": 1,
+        "assisted": 2,
+        "weighted": 2
+      },
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      },
+      "Procure-to-pay": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-10-19T18:27:06.294+00:00",
+    "source_url": "https://jobs.ashbyhq.com/perplexity/da212c9c-3c11-4e8e-8f97-e176b4876bea",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "6a920e865092cb10",
+    "company": "Thatch",
+    "slug": "thatch",
+    "domain": "thatch.com",
+    "title": "Operations Specialist, Payroll Reconciliation",
+    "role_family": "Payroll",
+    "seniority": "mid",
+    "n": 15,
+    "C": 0,
+    "A": 3,
+    "covered_share": 0,
+    "overlap": 0.2,
+    "weighted_overlap": 0.1,
+    "thin": false,
+    "salary_min": 91000,
+    "salary_max": 120000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-03T13:30:13-04:00",
+    "source_url": "https://thatch.com/jobs/5414786008?gh_jid=5414786008",
+    "locations": [
+      "Austin, Texas, United States"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "6c2b9ae862e34712",
+    "company": "Gusto",
+    "slug": "gusto",
+    "domain": "gusto.com",
+    "title": "Payroll and Taxes Manager",
+    "role_family": "Payroll",
+    "seniority": "manager",
+    "n": 20,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 69000,
+    "salary_max": 91000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-21T17:59:09-04:00",
+    "source_url": "https://job-boards.greenhouse.io/gusto/jobs/8208066",
+    "locations": [
+      "Denver, CO",
+      "Scottsdale, AZ"
+    ],
+    "remote": "hybrid",
+    "excluded": "finance_software_vendor"
+  },
+  {
+    "posting_id": "6d08960f34017812",
+    "company": "Vercel",
+    "slug": "vercel",
+    "domain": "vercel.com",
+    "title": "Senior Accountant",
+    "role_family": "GL",
+    "seniority": "senior",
+    "n": 18,
+    "C": 3,
+    "A": 3,
+    "covered_share": 0.16666666666666666,
+    "overlap": 0.3333333333333333,
+    "weighted_overlap": 0.25,
+    "thin": false,
+    "salary_min": 120000,
+    "salary_max": 140000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 10000,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 3,
+        "assisted": 2,
+        "weighted": 4
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-10-09T12:20:18-04:00",
+    "source_url": "https://job-boards.greenhouse.io/vercel/jobs/6196563004",
+    "locations": [
+      "Hybrid - San Francisco",
+      "San Francisco, California, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "6d1488a82d8850c5",
+    "company": "Snyk",
+    "slug": "snyk",
+    "domain": "snyk.io",
+    "title": "Senior Revenue Accountant",
+    "role_family": "Revenue",
+    "seniority": "senior",
+    "n": 20,
+    "C": 1,
+    "A": 8,
+    "covered_share": 0.05,
+    "overlap": 0.45,
+    "weighted_overlap": 0.25,
+    "thin": false,
+    "salary_min": 87000,
+    "salary_max": 109000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 2175,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 4,
+        "weighted": 2
+      },
+      "Treasury": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      },
+      "Order-to-cash": {
+        "covered": 1,
+        "assisted": 1,
+        "weighted": 1.5
+      },
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Salesforce",
+      "Sigma",
+      "Claude",
+      "Zone Billing"
+    ],
+    "posted_at": "2026-09-30T18:29:07.756+00:00",
+    "source_url": "https://jobs.ashbyhq.com/snyk/a0af3fa5-c951-4764-bc6e-bdaaf465a1f0",
+    "locations": [
+      "United States - Remote"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "6e91ac49cf3316c8",
+    "company": "Aurora Solar",
+    "slug": "aurora-solar",
+    "domain": "aurorasolar.com",
+    "title": "FP&A Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 29,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.034482758620689655,
+    "weighted_overlap": 0.017241379310344827,
+    "thin": false,
+    "salary_min": 112600,
+    "salary_max": 182900,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Pigment",
+      "Excel",
+      "Google Sheets"
+    ],
+    "posted_at": "2026-09-14T13:24:34.494+00:00",
+    "source_url": "https://jobs.ashbyhq.com/aurorasolar/a763d892-e910-4c11-8954-fc178d388548",
+    "locations": [
+      "United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "6f7f418786d3f690",
+    "company": "Samsara",
+    "slug": "samsara",
+    "domain": "samsara.com",
+    "title": "Revenue Accounting Manager",
+    "role_family": "Revenue",
+    "seniority": "manager",
+    "n": 34,
+    "C": 2,
+    "A": 3,
+    "covered_share": 0.058823529411764705,
+    "overlap": 0.14705882352941177,
+    "weighted_overlap": 0.10294117647058823,
+    "thin": false,
+    "salary_min": 82705,
+    "salary_max": 139000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 2432.5,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "Order-to-cash": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      },
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 2,
+        "weighted": 3
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Zuora",
+      "RevPro"
+    ],
+    "posted_at": "2026-09-23T14:50:05-04:00",
+    "source_url": "https://www.samsara.com/company/careers/roles/8204947?gh_jid=8204947",
+    "locations": [
+      "Remote - US",
+      "Remote - SF Bay Area"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "706c77c425582d9c",
+    "company": "Notion",
+    "slug": "notion",
+    "domain": "notion.so",
+    "title": "Senior Tax Accountant",
+    "role_family": "Tax",
+    "seniority": "senior",
+    "n": 35,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 135000,
+    "salary_max": 155000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-22T21:34:58.002+00:00",
+    "source_url": "https://jobs.ashbyhq.com/notion/3ba04d35-9f56-4968-bce6-df26a3dc8523",
+    "locations": [
+      "San Francisco, California"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "72223317f1414cf1",
+    "company": "PagerDuty",
+    "slug": "pagerduty",
+    "domain": "pagerduty.com",
+    "title": "Tax Manager",
+    "role_family": "Tax",
+    "seniority": "manager",
+    "n": 13,
+    "C": 1,
+    "A": 0,
+    "covered_share": 0.07692307692307693,
+    "overlap": 0.07692307692307693,
+    "weighted_overlap": 0.07692307692307693,
+    "thin": false,
+    "salary_min": 114000,
+    "salary_max": 191400,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 4384.615384615385,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 0,
+        "weighted": 1
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Excel"
+    ],
+    "posted_at": "2026-09-29T12:31:16-04:00",
+    "source_url": "https://job-boards.greenhouse.io/pagerduty/jobs/6191844004",
+    "locations": [
+      "San Francisco",
+      "San Francisco, California, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "726d19d1c5320028",
+    "company": "Saronic",
+    "slug": "saronic",
+    "domain": "saronic.com",
+    "title": "Senior Revenue Accountant",
+    "role_family": "Revenue",
+    "seniority": "senior",
+    "n": 15,
+    "C": 3,
+    "A": 3,
+    "covered_share": 0.2,
+    "overlap": 0.4,
+    "weighted_overlap": 0.3,
+    "thin": false,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_varies": false,
+    "salary_source": null,
+    "savings": null,
+    "savings_reason": "no_salary",
+    "lead_product": "GL accounting",
+    "product_split": {
+      "Order-to-cash": {
+        "covered": 2,
+        "assisted": 0,
+        "weighted": 2
+      },
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 3,
+        "weighted": 2.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Salesforce",
+      "WAWF",
+      "Overwatch",
+      "Finance Receipts Tracker"
+    ],
+    "posted_at": "2026-09-28T14:55:17.372+00:00",
+    "source_url": "https://jobs.ashbyhq.com/saronic/0bad9646-6fdd-488a-99da-8043207ea1d8",
+    "locations": [
+      "San Diego, CA"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "760fa60e37ac3a4e",
+    "company": "Forter",
+    "slug": "forter",
+    "domain": "forter.com",
+    "title": "Senior Accountant",
+    "role_family": "GL",
+    "seniority": "senior",
+    "n": 6,
+    "C": 2,
+    "A": 1,
+    "covered_share": 0.3333333333333333,
+    "overlap": 0.5,
+    "weighted_overlap": 0.4166666666666667,
+    "thin": false,
+    "salary_min": 125000,
+    "salary_max": 150000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 20833.333333333332,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 1,
+        "weighted": 2.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "CIQ",
+      "ADP",
+      "Microsoft Excel"
+    ],
+    "posted_at": "2026-09-28T23:27:00-04:00",
+    "source_url": "https://job-boards.greenhouse.io/forter/jobs/8838020002",
+    "locations": [
+      "United States - New York"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "78effc8ac86e9f3b",
+    "company": "ZoomInfo",
+    "slug": "zoominfo",
+    "domain": "zoominfo.com",
+    "title": "Senior Manager, FP&A",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 34,
+    "C": 0,
+    "A": 5,
+    "covered_share": 0,
+    "overlap": 0.14705882352941177,
+    "weighted_overlap": 0.07352941176470588,
+    "thin": false,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_varies": false,
+    "salary_source": null,
+    "savings": null,
+    "savings_reason": "no_salary",
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Excel"
+    ],
+    "posted_at": "2026-10-05T12:39:17-04:00",
+    "source_url": "https://www.zoominfo.com/careers?gh_jid=8868474002",
+    "locations": [
+      "Toronto, Ontario, Canada",
+      "Waltham, Massachusetts, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "79cd4e265cde0e01",
+    "company": "Two Chairs",
+    "slug": "two-chairs",
+    "domain": "twochairs.com",
+    "title": "Corporate FP&A Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 27,
+    "C": 0,
+    "A": 2,
+    "covered_share": 0,
+    "overlap": 0.07407407407407407,
+    "weighted_overlap": 0.037037037037037035,
+    "thin": false,
+    "salary_min": 145000,
+    "salary_max": 161000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Pigment",
+      "Adaptive"
+    ],
+    "posted_at": "2026-10-06T20:19:40-04:00",
+    "source_url": "https://www.twochairs.com/careers?gh_jid=8868148002",
+    "locations": [
+      "Remote, United States",
+      "Remote"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "7bac63e1c285fefc",
+    "company": "Saronic",
+    "slug": "saronic",
+    "domain": "saronic.com",
+    "title": "Contract Payroll Manager (Workday)",
+    "role_family": "Payroll",
+    "seniority": "manager",
+    "n": 54,
+    "C": 4,
+    "A": 5,
+    "covered_share": 0.07407407407407407,
+    "overlap": 0.16666666666666666,
+    "weighted_overlap": 0.12037037037037036,
+    "thin": false,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_varies": false,
+    "salary_source": null,
+    "savings": null,
+    "savings_reason": "no_salary",
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 4,
+        "assisted": 5,
+        "weighted": 6.5
+      }
+    },
+    "erp": [
+      "Workday"
+    ],
+    "tools": [
+      "Excel"
+    ],
+    "posted_at": "2026-09-28T14:54:19.452+00:00",
+    "source_url": "https://jobs.ashbyhq.com/saronic/e0c9d4a1-a07b-40ed-8e91-15f852b41e57",
+    "locations": [
+      "Austin, TX"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "7be1017892c6fefb",
+    "company": "Yext",
+    "slug": "yext",
+    "domain": "yext.com",
+    "title": "Director, Revenue Accounting",
+    "role_family": "Revenue",
+    "seniority": "director_plus",
+    "n": 36,
+    "C": 1,
+    "A": 1,
+    "covered_share": 0.027777777777777776,
+    "overlap": 0.05555555555555555,
+    "weighted_overlap": 0.041666666666666664,
+    "thin": false,
+    "salary_min": 142650,
+    "salary_max": 263000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 1981.25,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
         "covered": 1,
         "assisted": 0,
         "weighted": 1
@@ -242,77 +4289,91 @@
     "erp": [
       "NetSuite"
     ],
-    "tools": [],
-    "posted_at": "2026-09-18T14:47:01-04:00",
-    "source_url": "https://job-boards.greenhouse.io/roofstock/jobs/8821792002",
-    "locations": [
-      "Oakland, California, United States"
+    "tools": [
+      "SFDC",
+      "Zuora"
     ],
-    "remote": "unknown",
+    "posted_at": "2026-10-01T09:09:47-04:00",
+    "source_url": "https://job-boards.greenhouse.io/yext/jobs/8237972",
+    "locations": [
+      "Remote - US",
+      "New York, NY, United States"
+    ],
+    "remote": "remote",
     "excluded": null
   },
   {
-    "posting_id": "692ef12fde873670",
-    "company": "Checkr",
-    "slug": "checkr",
-    "domain": "checkr.com",
-    "title": "Technical Revenue Accounting Manager",
-    "role_family": "Revenue",
-    "seniority": "manager",
-    "n": 9,
-    "C": 1,
-    "A": 4,
-    "covered_share": 0.1111111111111111,
-    "overlap": 0.5555555555555556,
-    "weighted_overlap": 0.3333333333333333,
+    "posting_id": "7c95ec2817a423f4",
+    "company": "Shield AI",
+    "slug": "shield-ai",
+    "domain": "shield.ai",
+    "title": "Lead Program Finance (R5875)",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 30,
+    "C": 0,
+    "A": 6,
+    "covered_share": 0,
+    "overlap": 0.2,
+    "weighted_overlap": 0.1,
     "thin": false,
-    "salary_min": 128000,
-    "salary_max": 178000,
+    "salary_min": 110000,
+    "salary_max": 170000,
     "salary_varies": false,
     "salary_source": "posting_text",
-    "savings": 7111.11111111111,
+    "savings": 0,
     "savings_reason": null,
-    "lead_product": "GL accounting",
+    "lead_product": "Reporting",
     "product_split": {
-      "Order-to-cash": {
+      "Reporting": {
         "covered": 0,
-        "assisted": 3,
-        "weighted": 1.5
+        "assisted": 5,
+        "weighted": 2.5
       },
       "GL accounting": {
-        "covered": 1,
+        "covered": 0,
         "assisted": 1,
-        "weighted": 1.5
+        "weighted": 0.5
       }
     },
-    "erp": [],
-    "tools": [],
-    "posted_at": "2026-09-29T16:55:31-04:00",
-    "source_url": "https://job-boards.greenhouse.io/checkr/jobs/8241317",
+    "erp": [
+      "Costpoint",
+      "Oracle"
+    ],
+    "tools": [
+      "Power BI",
+      "Excel",
+      "Microsoft Fabric",
+      "Power Query",
+      "DAX",
+      "Vena",
+      "Anaplan"
+    ],
+    "posted_at": "2026-09-09T05:58:28.890Z",
+    "source_url": "https://jobs.lever.co/shieldai/81e6b6aa-b8b8-4360-b33e-88afadfea9af",
     "locations": [
-      "Denver, Colorado, United States; San Francisco, California, United States",
-      "San Francisco, California, United States"
+      "Dallas, Texas"
     ],
     "remote": "unknown",
     "excluded": null
   },
   {
-    "posting_id": "706c77c425582d9c",
-    "company": "Notion",
-    "slug": "notion",
-    "domain": "notion.so",
-    "title": "Senior Tax Accountant",
-    "role_family": "Tax",
-    "seniority": "senior",
-    "n": 8,
+    "posting_id": "843d047aee4a3dde",
+    "company": "Perplexity",
+    "slug": "perplexity",
+    "domain": "perplexity.ai",
+    "title": "Payroll Analyst",
+    "role_family": "Payroll",
+    "seniority": "mid",
+    "n": 39,
     "C": 0,
     "A": 2,
     "covered_share": 0,
-    "overlap": 0.25,
-    "weighted_overlap": 0.125,
+    "overlap": 0.05128205128205128,
+    "weighted_overlap": 0.02564102564102564,
     "thin": false,
-    "salary_min": 135000,
-    "salary_max": 155000,
+    "salary_min": 90000,
+    "salary_max": 125000,
     "salary_varies": false,
     "salary_source": "posting_text",
     "savings": 0,
@@ -325,14 +4386,544 @@
         "weighted": 1
       }
     },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Rippling",
+      "Carta",
+      "Excel",
+      "Google Sheets",
+      "Workday",
+      "ADP",
+      "Gusto"
+    ],
+    "posted_at": "2026-09-21T22:29:03.627+00:00",
+    "source_url": "https://jobs.ashbyhq.com/perplexity/5080dab5-7eb7-4cb2-9e2c-c61531fd3ad1",
+    "locations": [
+      "San Francisco",
+      "Remote (United States)"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "84997cec2d74dcf5",
+    "company": "Notion",
+    "slug": "notion",
+    "domain": "notion.so",
+    "title": "Strategic Finance, AI & Business Partnership",
+    "role_family": "Reporting_FPA",
+    "seniority": "mid",
+    "n": 15,
+    "C": 0,
+    "A": 4,
+    "covered_share": 0,
+    "overlap": 0.26666666666666666,
+    "weighted_overlap": 0.13333333333333333,
+    "thin": false,
+    "salary_min": 120000,
+    "salary_max": 140000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      },
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "NetSuite",
+      "Workday"
+    ],
+    "tools": [
+      "Zip",
+      "Pigment",
+      "Adaptive",
+      "Anaplan"
+    ],
+    "posted_at": "2026-09-30T21:24:37.822+00:00",
+    "source_url": "https://jobs.ashbyhq.com/notion/4e7b3471-20b7-4a37-8455-8b2735bfaf26",
+    "locations": [
+      "San Francisco, California"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "84ec03d44ae6fe8c",
+    "company": "Oscar Health",
+    "slug": "oscar-health",
+    "domain": "hioscar.com",
+    "title": "Senior Director, Strategic Finance & Enterprise Planning",
+    "role_family": "Reporting_FPA",
+    "seniority": "director_plus",
+    "n": 23,
+    "C": 0,
+    "A": 5,
+    "covered_share": 0,
+    "overlap": 0.21739130434782608,
+    "weighted_overlap": 0.10869565217391304,
+    "thin": false,
+    "salary_min": 196733,
+    "salary_max": 258212,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 5,
+        "weighted": 2.5
+      }
+    },
     "erp": [],
     "tools": [],
-    "posted_at": "2026-09-22T21:34:58.002+00:00",
-    "source_url": "https://jobs.ashbyhq.com/notion/3ba04d35-9f56-4968-bce6-df26a3dc8523",
+    "posted_at": "2026-09-25T09:25:39-04:00",
+    "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8232870",
+    "locations": [
+      "Atlanta, Georgia, United States",
+      "New York, New York, United States",
+      "Dallas, Texas, United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "89efae63e1948fdf",
+    "company": "Huntress",
+    "slug": "huntress",
+    "domain": "huntress.com",
+    "title": "Vice President, FP&A",
+    "role_family": "Reporting_FPA",
+    "seniority": "director_plus",
+    "n": 27,
+    "C": 1,
+    "A": 1,
+    "covered_share": 0.037037037037037035,
+    "overlap": 0.07407407407407407,
+    "weighted_overlap": 0.05555555555555555,
+    "thin": false,
+    "salary_min": 280000,
+    "salary_max": 340000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 5185.185185185185,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      },
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 0,
+        "weighted": 1
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-10-02T11:26:01-04:00",
+    "source_url": "https://job-boards.greenhouse.io/huntress/jobs/8011620003",
+    "locations": [
+      "United States of America"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "8b36b63020ac86ec",
+    "company": "Latitude",
+    "slug": "latitude",
+    "domain": "latitude.io",
+    "title": "Accounts Payable Analyst (Contract)",
+    "role_family": "AP",
+    "seniority": "mid",
+    "n": 18,
+    "C": 9,
+    "A": 5,
+    "covered_share": 0.5,
+    "overlap": 0.7777777777777778,
+    "weighted_overlap": 0.6388888888888888,
+    "thin": false,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_varies": false,
+    "salary_source": null,
+    "savings": null,
+    "savings_reason": "no_salary",
+    "lead_product": "Procure-to-pay",
+    "product_split": {
+      "Procure-to-pay": {
+        "covered": 9,
+        "assisted": 2,
+        "weighted": 10
+      },
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [],
+    "posted_at": "2026-10-11T22:44:32-04:00",
+    "source_url": "https://job-boards.greenhouse.io/latitude/jobs/8268216",
+    "locations": [
+      "Pittsburgh, PA",
+      "Pittsburgh, PA, United States"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "8c13608339b477c9",
+    "company": "Sentry",
+    "slug": "sentry",
+    "domain": "sentry.io",
+    "title": "Director, FP&A",
+    "role_family": "Reporting_FPA",
+    "seniority": "director_plus",
+    "n": 10,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.1,
+    "weighted_overlap": 0.05,
+    "thin": false,
+    "salary_min": 240000,
+    "salary_max": 280000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Looker",
+      "Adaptive Planning",
+      "Planful",
+      "Pigment",
+      "Vareto",
+      "Excel",
+      "Google Sheets"
+    ],
+    "posted_at": "2026-09-08T21:38:31.298+00:00",
+    "source_url": "https://jobs.ashbyhq.com/sentry/4067f08e-5229-4af4-9028-a7c69d3791d0",
     "locations": [
       "San Francisco, California"
     ],
     "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "8ddb414440333fcc",
+    "company": "ClickHouse",
+    "slug": "clickhouse",
+    "domain": "clickhouse.com",
+    "title": "Senior Revenue Accountant",
+    "role_family": "Revenue",
+    "seniority": "senior",
+    "n": 22,
+    "C": 4,
+    "A": 8,
+    "covered_share": 0.18181818181818182,
+    "overlap": 0.5454545454545454,
+    "weighted_overlap": 0.36363636363636365,
+    "thin": false,
+    "salary_min": 140000,
+    "salary_max": 200000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 12727.272727272728,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 4,
+        "weighted": 4
+      },
+      "Order-to-cash": {
+        "covered": 2,
+        "assisted": 3,
+        "weighted": 3.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Stripe",
+      "Salesforce"
+    ],
+    "posted_at": "2026-09-18T02:02:17.767+00:00",
+    "source_url": "https://jobs.ashbyhq.com/clickhouse/8ea8a116-f05f-4f5a-98f5-2c6ffde7c2ad",
+    "locations": [
+      "United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "9062a898c821d6ca",
+    "company": "Samsara",
+    "slug": "samsara",
+    "domain": "samsara.com",
+    "title": "Sr Customer Experience Specialist - Finance",
+    "role_family": "Other",
+    "seniority": "senior",
+    "n": 31,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 102042,
+    "salary_max": 154350,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-10-01T13:59:33-04:00",
+    "source_url": "https://www.samsara.com/company/careers/roles/8247289?gh_jid=8247289",
+    "locations": [
+      "Remote - US",
+      "Remote - CA"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "966692f4eeabe4e0",
+    "company": "Rent the Runway",
+    "slug": "rent-the-runway",
+    "domain": "renttherunway.com",
+    "title": "Manager, FP&A",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 9,
+    "C": 0,
+    "A": 2,
+    "covered_share": 0,
+    "overlap": 0.2222222222222222,
+    "weighted_overlap": 0.1111111111111111,
+    "thin": false,
+    "salary_min": 98800,
+    "salary_max": 130000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Excel"
+    ],
+    "posted_at": "2026-08-27T10:47:23-04:00",
+    "source_url": "https://job-boards.greenhouse.io/renttherunway/jobs/8161760",
+    "locations": [
+      "Brooklyn, NY (Rent the Runway HQ)",
+      "Brooklyn, NY, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "96cb95b911be868a",
+    "company": "Honeycomb",
+    "slug": "honeycomb",
+    "domain": "honeycomb.io",
+    "title": "Payroll Manager",
+    "role_family": "Payroll",
+    "seniority": "manager",
+    "n": 35,
+    "C": 2,
+    "A": 6,
+    "covered_share": 0.05714285714285714,
+    "overlap": 0.22857142857142856,
+    "weighted_overlap": 0.14285714285714285,
+    "thin": false,
+    "salary_min": 125000,
+    "salary_max": 150000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 3571.428571428571,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 5,
+        "weighted": 4.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Rippling",
+      "Vistra",
+      "Remote",
+      "Navan",
+      "Airbase",
+      "Google Sheets",
+      "Microsoft Excel"
+    ],
+    "posted_at": "2026-08-24T12:47:54-04:00",
+    "source_url": "https://job-boards.greenhouse.io/honeycomb/jobs/5397518008",
+    "locations": [
+      "Remote - United States",
+      "United States - Remote"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "982ae657ee7d20c4",
+    "company": "Pathward",
+    "slug": "pathward",
+    "domain": "pathward.com",
+    "title": "Payroll Administrator I",
+    "role_family": "Payroll",
+    "seniority": "entry",
+    "n": 43,
+    "C": 4,
+    "A": 6,
+    "covered_share": 0.09302325581395349,
+    "overlap": 0.23255813953488372,
+    "weighted_overlap": 0.16279069767441862,
+    "thin": false,
+    "salary_min": 29120,
+    "salary_max": 47840,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 1354.4186046511627,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 3,
+        "weighted": 3.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      },
+      "Treasury": {
+        "covered": 1,
+        "assisted": 0,
+        "weighted": 1
+      },
+      "Procure-to-pay": {
+        "covered": 1,
+        "assisted": 0,
+        "weighted": 1
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-23T13:04:38-04:00",
+    "source_url": "https://job-boards.greenhouse.io/pathward/jobs/6206396004",
+    "locations": [
+      "USA"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "99451e525fc1f073",
+    "company": "Eight Sleep",
+    "slug": "eight-sleep",
+    "domain": "eightsleep.com",
+    "title": "Accounting Manager",
+    "role_family": "Close_Mgmt",
+    "seniority": "manager",
+    "n": 28,
+    "C": 0,
+    "A": 7,
+    "covered_share": 0,
+    "overlap": 0.25,
+    "weighted_overlap": 0.125,
+    "thin": false,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_varies": false,
+    "salary_source": null,
+    "savings": null,
+    "savings_reason": "no_salary",
+    "lead_product": "GL accounting",
+    "product_split": {
+      "Order-to-cash": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      },
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-25T13:46:08.080+00:00",
+    "source_url": "https://jobs.ashbyhq.com/eightsleep/822ce4d5-fe72-4925-9337-9773a105de3b",
+    "locations": [
+      "Remote - US"
+    ],
+    "remote": "remote",
     "excluded": null
   },
   {
@@ -342,30 +4933,32 @@
     "domain": "pagaya.com",
     "title": "Analyst, Treasury",
     "role_family": "Treasury",
-    "seniority": "entry",
-    "n": 10,
-    "C": 2,
+    "seniority": "mid",
+    "n": 26,
+    "C": 4,
     "A": 2,
-    "covered_share": 0.2,
-    "overlap": 0.4,
-    "weighted_overlap": 0.3,
+    "covered_share": 0.15384615384615385,
+    "overlap": 0.23076923076923078,
+    "weighted_overlap": 0.19230769230769232,
     "thin": false,
     "salary_min": 85000,
     "salary_max": 100000,
     "salary_varies": false,
     "salary_source": "posting_text",
-    "savings": 8500,
+    "savings": 6538.461538461539,
     "savings_reason": null,
     "lead_product": "Treasury",
     "product_split": {
       "Treasury": {
-        "covered": 2,
+        "covered": 4,
         "assisted": 2,
-        "weighted": 3
+        "weighted": 5
       }
     },
     "erp": [],
-    "tools": [],
+    "tools": [
+      "Excel"
+    ],
     "posted_at": "2026-10-06T09:54:40-04:00",
     "source_url": "https://job-boards.greenhouse.io/pagaya/jobs/8014453003",
     "locations": [
@@ -376,6 +4969,553 @@
     "excluded": null
   },
   {
+    "posting_id": "9a6909cf173432c4",
+    "company": "Lyra Health",
+    "slug": "lyra-health",
+    "domain": "lyrahealth.com",
+    "title": "Vice President, Global Accounting",
+    "role_family": "Controller",
+    "seniority": "director_plus",
+    "n": 23,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 213030,
+    "salary_max": 286670,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-10-12T02:46:22.067Z",
+    "source_url": "https://jobs.lever.co/lyrahealth/fa62dc18-6e38-4a6e-aed9-9f6cfddc0220",
+    "locations": [
+      "United States"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "9b0fc30e14c78074",
+    "company": "Vercel",
+    "slug": "vercel",
+    "domain": "vercel.com",
+    "title": "FP&A Manager, Product",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 33,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.030303030303030304,
+    "weighted_overlap": 0.015151515151515152,
+    "thin": false,
+    "salary_min": 180000,
+    "salary_max": 220000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-08T01:29:30-04:00",
+    "source_url": "https://job-boards.greenhouse.io/vercel/jobs/6183272004",
+    "locations": [
+      "San Francisco, California, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "9b7cf0d999993619",
+    "company": "Mighty Networks",
+    "slug": "mighty-networks",
+    "domain": "mightynetworks.com",
+    "title": "FP&A Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 20,
+    "C": 0,
+    "A": 4,
+    "covered_share": 0,
+    "overlap": 0.2,
+    "weighted_overlap": 0.1,
+    "thin": false,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_varies": false,
+    "salary_source": null,
+    "savings": null,
+    "savings_reason": "no_salary",
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 4,
+        "weighted": 2
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Excel",
+      "Google Sheets",
+      "Stripe"
+    ],
+    "posted_at": "2026-10-01T15:17:09-04:00",
+    "source_url": "https://job-boards.greenhouse.io/mightynetworks/jobs/8861164002?gh_jid=8861164002",
+    "locations": [
+      "Remote"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "9d80d010b8414a58",
+    "company": "Headway",
+    "slug": "headway",
+    "domain": "headway.co",
+    "title": "Strategic Finance Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 19,
+    "C": 0,
+    "A": 2,
+    "covered_share": 0,
+    "overlap": 0.10526315789473684,
+    "weighted_overlap": 0.05263157894736842,
+    "thin": false,
+    "salary_min": 152000,
+    "salary_max": 200000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-14T21:52:42.602+00:00",
+    "source_url": "https://jobs.ashbyhq.com/headway/80b9e9d6-bcc7-499d-bc91-d5ca5ec3fdcd",
+    "locations": [
+      "Remote",
+      "San Francisco, CA",
+      "Seattle, WA",
+      "New York City"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "9dab558bef433de4",
+    "company": "Roofstock",
+    "slug": "roofstock",
+    "domain": "roofstock.com",
+    "title": "Property Accountant, Institutional",
+    "role_family": "GL",
+    "seniority": "mid",
+    "n": 31,
+    "C": 7,
+    "A": 6,
+    "covered_share": 0.22580645161290322,
+    "overlap": 0.41935483870967744,
+    "weighted_overlap": 0.3225806451612903,
+    "thin": false,
+    "salary_min": 60000,
+    "salary_max": 80000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 6774.193548387097,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      },
+      "GL accounting": {
+        "covered": 4,
+        "assisted": 3,
+        "weighted": 5.5
+      },
+      "Treasury": {
+        "covered": 2,
+        "assisted": 0,
+        "weighted": 2
+      },
+      "Procure-to-pay": {
+        "covered": 1,
+        "assisted": 1,
+        "weighted": 1.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Excel",
+      "Google Suite"
+    ],
+    "posted_at": "2026-10-13T15:20:45-04:00",
+    "source_url": "https://job-boards.greenhouse.io/roofstock/jobs/8886002002",
+    "locations": [
+      "Dallas, Texas, United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "a174d299db28a16a",
+    "company": "Peloton",
+    "slug": "peloton",
+    "domain": "onepeloton.com",
+    "title": "Sr. Accountant",
+    "role_family": "Revenue",
+    "seniority": "senior",
+    "n": 17,
+    "C": 3,
+    "A": 1,
+    "covered_share": 0.17647058823529413,
+    "overlap": 0.23529411764705882,
+    "weighted_overlap": 0.20588235294117646,
+    "thin": false,
+    "salary_min": 91250,
+    "salary_max": 107950,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 8051.470588235295,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 3,
+        "assisted": 0,
+        "weighted": 3
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Excel",
+      "Oracle EPM",
+      "Oracle ARCS"
+    ],
+    "posted_at": "2026-09-09T08:46:13-04:00",
+    "source_url": "https://careers.onepeloton.com/en/all-jobs/?gh_jid=8111903",
+    "locations": [
+      "New York, New York",
+      "New York, New York, United States"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "a21e3ec6bbbc6930",
+    "company": "Redwood Materials",
+    "slug": "redwood-materials",
+    "domain": "redwoodmaterials.com",
+    "title": "Senior Finance Associate",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 11,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.09090909090909091,
+    "weighted_overlap": 0.045454545454545456,
+    "thin": false,
+    "salary_min": 115000,
+    "salary_max": 152500,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Excel"
+    ],
+    "posted_at": "2026-10-16T12:17:09-04:00",
+    "source_url": "https://boards.greenhouse.io/redwoodmaterials/jobs/6224694004?gh_jid=6224694004",
+    "locations": [
+      "San Francisco, California, United States"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "a244699191518a52",
+    "company": "Reddit",
+    "slug": "reddit",
+    "domain": "reddit.com",
+    "title": "International Payroll Analyst",
+    "role_family": "Payroll",
+    "seniority": "senior",
+    "n": 49,
+    "C": 2,
+    "A": 0,
+    "covered_share": 0.04081632653061224,
+    "overlap": 0.04081632653061224,
+    "weighted_overlap": 0.04081632653061224,
+    "thin": false,
+    "salary_min": 105400,
+    "salary_max": 147500,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 2151.020408163265,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 0,
+        "weighted": 2
+      }
+    },
+    "erp": [
+      "Workday"
+    ],
+    "tools": [
+      "Excel",
+      "Google Sheets"
+    ],
+    "posted_at": "2026-09-14T08:05:09-04:00",
+    "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8192369",
+    "locations": [
+      "Remote - United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "a34b9e7ae610c854",
+    "company": "Flexport",
+    "slug": "flexport",
+    "domain": "flexport.com",
+    "title": "Treasury Manager",
+    "role_family": "Treasury",
+    "seniority": "manager",
+    "n": 25,
+    "C": 1,
+    "A": 4,
+    "covered_share": 0.04,
+    "overlap": 0.2,
+    "weighted_overlap": 0.12,
+    "thin": false,
+    "salary_min": 105600,
+    "salary_max": 132000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 2112,
+    "savings_reason": null,
+    "lead_product": "Treasury",
+    "product_split": {
+      "Treasury": {
+        "covered": 1,
+        "assisted": 1,
+        "weighted": 1.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-10-15T16:20:32-04:00",
+    "source_url": "https://job-boards.greenhouse.io/flexport/jobs/8282867",
+    "locations": [
+      "Chicago, Illinois, United States"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "a3d8e0f261d05ea3",
+    "company": "Squarespace",
+    "slug": "squarespace",
+    "domain": "squarespace.com",
+    "title": "Senior Director, FP&A",
+    "role_family": "Reporting_FPA",
+    "seniority": "director_plus",
+    "n": 69,
+    "C": 0,
+    "A": 5,
+    "covered_share": 0,
+    "overlap": 0.07246376811594203,
+    "weighted_overlap": 0.036231884057971016,
+    "thin": false,
+    "salary_min": 272000,
+    "salary_max": 320000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 5,
+        "weighted": 2.5
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-25T09:26:43-04:00",
+    "source_url": "http://www.squarespace.com/about/careers?gh_jid=8232865",
+    "locations": [
+      "New York City"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "a5bc1784a9b3a495",
+    "company": "Perplexity",
+    "slug": "perplexity",
+    "domain": "perplexity.ai",
+    "title": "Billing Operations Lead",
+    "role_family": "AR",
+    "seniority": "manager",
+    "n": 36,
+    "C": 9,
+    "A": 6,
+    "covered_share": 0.25,
+    "overlap": 0.4166666666666667,
+    "weighted_overlap": 0.3333333333333333,
+    "thin": false,
+    "salary_min": 140000,
+    "salary_max": 185000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 17500,
+    "savings_reason": null,
+    "lead_product": "Order-to-cash",
+    "product_split": {
+      "Order-to-cash": {
+        "covered": 9,
+        "assisted": 0,
+        "weighted": 9
+      },
+      "Procure-to-pay": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      },
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Salesforce"
+    ],
+    "posted_at": "2026-10-06T23:59:41.778+00:00",
+    "source_url": "https://jobs.ashbyhq.com/perplexity/702c7eb8-9908-407f-bcb5-647a227819d6",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "a8bfac0a1442ff06",
+    "company": "PagerDuty",
+    "slug": "pagerduty",
+    "domain": "pagerduty.com",
+    "title": "Senior FP&A Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 14,
+    "C": 1,
+    "A": 1,
+    "covered_share": 0.07142857142857142,
+    "overlap": 0.14285714285714285,
+    "weighted_overlap": 0.10714285714285714,
+    "thin": false,
+    "salary_min": 131000,
+    "salary_max": 220000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 4678.571428571428,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 0,
+        "weighted": 1
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Coupa",
+      "Zuora",
+      "Anaplan"
+    ],
+    "posted_at": "2026-09-25T11:05:26-04:00",
+    "source_url": "https://job-boards.greenhouse.io/pagerduty/jobs/6199424004",
+    "locations": [
+      "Atlanta",
+      "Atlanta, Georgia, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
     "posting_id": "aa2de5a053310233",
     "company": "Amplitude",
     "slug": "amplitude",
@@ -383,27 +5523,839 @@
     "title": "Sr Billing and Collections Analyst",
     "role_family": "AR",
     "seniority": "senior",
-    "n": 10,
-    "C": 3,
-    "A": 5,
-    "covered_share": 0.3,
-    "overlap": 0.8,
-    "weighted_overlap": 0.55,
+    "n": 16,
+    "C": 5,
+    "A": 3,
+    "covered_share": 0.3125,
+    "overlap": 0.5,
+    "weighted_overlap": 0.40625,
     "thin": false,
     "salary_min": 121000,
     "salary_max": 181000,
     "salary_varies": false,
     "salary_source": "posting_text",
-    "savings": 18150,
+    "savings": 18906.25,
     "savings_reason": null,
     "lead_product": "Order-to-cash",
     "product_split": {
       "Order-to-cash": {
-        "covered": 3,
-        "assisted": 2,
-        "weighted": 4
+        "covered": 5,
+        "assisted": 1,
+        "weighted": 5.5
       },
       "Treasury": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      },
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Excel"
+    ],
+    "posted_at": "2026-09-09T22:16:20.686+00:00",
+    "source_url": "https://jobs.ashbyhq.com/amplitude/34ca5ceb-d713-4e96-b034-6694d3038b2c",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "aaf29c14a0dc0969",
+    "company": "Formlabs",
+    "slug": "formlabs",
+    "domain": "formlabs.com",
+    "title": "Accounting & Operations Staff",
+    "role_family": "AP",
+    "seniority": "mid",
+    "n": 17,
+    "C": 4,
+    "A": 1,
+    "covered_share": 0.23529411764705882,
+    "overlap": 0.29411764705882354,
+    "weighted_overlap": 0.2647058823529412,
+    "thin": false,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_varies": false,
+    "salary_source": null,
+    "savings": null,
+    "savings_reason": "no_salary",
+    "lead_product": "Procure-to-pay",
+    "product_split": {
+      "Procure-to-pay": {
+        "covered": 4,
+        "assisted": 0,
+        "weighted": 4
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "NetSuite",
+      "SAP",
+      "Hyperion HFM",
+      "QAD"
+    ],
+    "tools": [
+      "Coupa",
+      "Concur",
+      "Excel",
+      "Google Sheets"
+    ],
+    "posted_at": "2026-09-25T15:41:26-04:00",
+    "source_url": "https://careers.formlabs.com/job/8234040/apply/?gh_jid=8234040",
+    "locations": [
+      "Millbury, Ohio",
+      "Millbury, Ohio, United States"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "addfd03e8c270d71",
+    "company": "Cockroach Labs",
+    "slug": "cockroach-labs",
+    "domain": "cockroachlabs.com",
+    "title": "Director, FP&A",
+    "role_family": "Reporting_FPA",
+    "seniority": "director_plus",
+    "n": 44,
+    "C": 0,
+    "A": 3,
+    "covered_share": 0,
+    "overlap": 0.06818181818181818,
+    "weighted_overlap": 0.03409090909090909,
+    "thin": false,
+    "salary_min": 205000,
+    "salary_max": 250000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-17T17:01:55-04:00",
+    "source_url": "https://www.cockroachlabs.com/careers/job/?gh_jid=8209735",
+    "locations": [
+      "New York, NY",
+      "San Mateo, CA",
+      "New York, NY, United States",
+      "San Mateo, California, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "af027ded70f75946",
+    "company": "Melio",
+    "slug": "melio",
+    "domain": "meliopayments.com",
+    "title": "FP&A Lead",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 20,
+    "C": 0,
+    "A": 2,
+    "covered_share": 0,
+    "overlap": 0.1,
+    "weighted_overlap": 0.05,
+    "thin": false,
+    "salary_min": 164000,
+    "salary_max": 190000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Anaplan",
+      "Snowflake"
+    ],
+    "posted_at": "2026-10-08T14:45:34-04:00",
+    "source_url": "https://job-boards.greenhouse.io/melio/jobs/8014240003",
+    "locations": [
+      "New York City",
+      "New York, New York, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": "finance_software_vendor"
+  },
+  {
+    "posting_id": "b0bc3ca642325d88",
+    "company": "ClassDojo",
+    "slug": "classdojo",
+    "domain": "classdojo.com",
+    "title": "Head of Accounting (Controller)",
+    "role_family": "Controller",
+    "seniority": "director_plus",
+    "n": 19,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 187000,
+    "salary_max": 300000,
+    "salary_varies": true,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [],
+    "tools": [
+      "Rillet"
+    ],
+    "posted_at": "2026-10-08T20:36:24.690+00:00",
+    "source_url": "https://jobs.ashbyhq.com/classdojo/44ab6771-27b9-4065-b441-8666a3df40be",
+    "locations": [
+      "Remote"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "b48aae0e94484996",
+    "company": "Stitch Fix",
+    "slug": "stitch-fix",
+    "domain": "stitchfix.com",
+    "title": "Senior Accountant, Financial Reporting",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 18,
+    "C": 1,
+    "A": 2,
+    "covered_share": 0.05555555555555555,
+    "overlap": 0.16666666666666666,
+    "weighted_overlap": 0.1111111111111111,
+    "thin": false,
+    "salary_min": 78000,
+    "salary_max": 130000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 2166.6666666666665,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 2,
+        "weighted": 2
+      }
+    },
+    "erp": [
+      "Oracle"
+    ],
+    "tools": [
+      "Excel",
+      "Workiva",
+      "Google Workspace"
+    ],
+    "posted_at": "2026-09-25T09:23:49-04:00",
+    "source_url": "https://www.stitchfix.com/careers/jobs?gh_jid=8174060&gh_jid=8174060",
+    "locations": [
+      "Remote, USA",
+      "San Francisco, CA, United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "b6f3bdc427d56105",
+    "company": "Reddit",
+    "slug": "reddit",
+    "domain": "reddit.com",
+    "title": "Global Indirect Tax Manager",
+    "role_family": "Tax",
+    "seniority": "manager",
+    "n": 42,
+    "C": 4,
+    "A": 2,
+    "covered_share": 0.09523809523809523,
+    "overlap": 0.14285714285714285,
+    "weighted_overlap": 0.11904761904761904,
+    "thin": false,
+    "salary_min": 154700,
+    "salary_max": 216600,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 7366.666666666666,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 4,
+        "assisted": 2,
+        "weighted": 5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Vertex",
+      "Alteryx",
+      "SQL"
+    ],
+    "posted_at": "2026-09-09T11:13:02-04:00",
+    "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8186566",
+    "locations": [
+      "Remote - United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "ba522a400e348c6b",
+    "company": "Shield AI",
+    "slug": "shield-ai",
+    "domain": "shield.ai",
+    "title": "Senior Manager, Corporate Finance (R5631)",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 56,
+    "C": 0,
+    "A": 8,
+    "covered_share": 0,
+    "overlap": 0.14285714285714285,
+    "weighted_overlap": 0.07142857142857142,
+    "thin": false,
+    "salary_min": 170000,
+    "salary_max": 250000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Treasury": {
+        "covered": 0,
+        "assisted": 4,
+        "weighted": 2
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 4,
+        "weighted": 2
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Excel",
+      "Anaplan",
+      "Pigment",
+      "Adaptive"
+    ],
+    "posted_at": "2026-09-09T05:43:05.478Z",
+    "source_url": "https://jobs.lever.co/shieldai/87f42524-d0dc-4969-b98c-82bcfa5fed05",
+    "locations": [
+      "San Mateo, California"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "bafa383215f81ee7",
+    "company": "Mixpanel",
+    "slug": "mixpanel",
+    "domain": "mixpanel.com",
+    "title": "Senior Strategic Finance Associate, G&A",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 19,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 160500,
+    "salary_max": 217500,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [],
+    "tools": [
+      "Pigment",
+      "Anaplan"
+    ],
+    "posted_at": "2026-09-28T18:20:26-04:00",
+    "source_url": "https://job-boards.greenhouse.io/mixpanel/jobs/8238551",
+    "locations": [
+      "New York City, US (Hybrid)",
+      "New York City, NY, United States",
+      "San Francisco, CA, United States",
+      "San Francisco, US (Hybrid)"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "bc13efa190281015",
+    "company": "Perplexity",
+    "slug": "perplexity",
+    "domain": "perplexity.ai",
+    "title": "Strategic Finance Lead - GTM",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 16,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.0625,
+    "weighted_overlap": 0.03125,
+    "thin": false,
+    "salary_min": 190000,
+    "salary_max": 240000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "AI tools"
+    ],
+    "posted_at": "2026-10-12T20:15:11.699+00:00",
+    "source_url": "https://jobs.ashbyhq.com/perplexity/f3c7ce0d-026e-4b5d-b22d-8b6041746c3d",
+    "locations": [
+      "San Francisco",
+      "New York City"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "be9a04b3fe24c1ad",
+    "company": "Checkr",
+    "slug": "checkr",
+    "domain": "checkr.com",
+    "title": "Strategic Finance Senior Analyst",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 9,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 108000,
+    "salary_max": 173000,
+    "salary_varies": true,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [],
+    "tools": [
+      "Adaptive",
+      "Claude",
+      "Lovable",
+      "Salesforce",
+      "Omni",
+      "SQL"
+    ],
+    "posted_at": "2026-08-24T15:45:06-04:00",
+    "source_url": "https://job-boards.greenhouse.io/checkr/jobs/8145302",
+    "locations": [
+      "Denver, Colorado, United States",
+      "San Francisco, California, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "beec960040f74010",
+    "company": "WHOOP",
+    "slug": "whoop",
+    "domain": "whoop.com",
+    "title": "FP&A Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 21,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 150000,
+    "salary_max": 190000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [],
+    "tools": [
+      "Microsoft Excel",
+      "Google Sheets",
+      "SQL",
+      "Python"
+    ],
+    "posted_at": "2026-09-11T15:33:42.732+00:00",
+    "source_url": "https://jobs.ashbyhq.com/whoop/0a27d2e6-8782-4a5c-999a-b9426ed6eb07",
+    "locations": [
+      "Boston, MA"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "c21a80aacb183198",
+    "company": "Hermeus",
+    "slug": "hermeus",
+    "domain": "hermeus.com",
+    "title": "Senior Finance Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 19,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.05263157894736842,
+    "weighted_overlap": 0.02631578947368421,
+    "thin": false,
+    "salary_min": 165000,
+    "salary_max": 210000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Excel",
+      "Adaptive Insights"
+    ],
+    "posted_at": "2026-10-06T19:11:02.598Z",
+    "source_url": "https://jobs.lever.co/hermeus/53bedf66-9412-4158-8146-8ad3a2f0c9ee",
+    "locations": [
+      "Los Angeles, CA"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "c6b4af82070a09c4",
+    "company": "Chime",
+    "slug": "chime",
+    "domain": "chime.com",
+    "title": "Senior Associate, Strategic Finance",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 24,
+    "C": 0,
+    "A": 3,
+    "covered_share": 0,
+    "overlap": 0.125,
+    "weighted_overlap": 0.0625,
+    "thin": false,
+    "salary_min": 119000,
+    "salary_max": 165000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Pigment",
+      "Excel",
+      "Google Sheets",
+      "Looker",
+      "Snowflake"
+    ],
+    "posted_at": "2026-09-29T13:04:58-04:00",
+    "source_url": "https://boards.greenhouse.io/chime/jobs/8801438002?gh_jid=8801438002",
+    "locations": [
+      "San Francisco, CA, USA",
+      "San Francisco, California, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "c803374f5a42edfc",
+    "company": "ClickUp",
+    "slug": "clickup",
+    "domain": "clickup.com",
+    "title": "Strategic Finance Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 29,
+    "C": 3,
+    "A": 7,
+    "covered_share": 0.10344827586206896,
+    "overlap": 0.3448275862068966,
+    "weighted_overlap": 0.22413793103448276,
+    "thin": false,
+    "salary_min": 123000,
+    "salary_max": 160000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 6362.068965517241,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 3,
+        "assisted": 3,
+        "weighted": 4.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 4,
+        "weighted": 2
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Pigment",
+      "Adaptive",
+      "Anaplan",
+      "Coupa",
+      "AWS",
+      "Workday",
+      "Ashby",
+      "Greenhouse"
+    ],
+    "posted_at": "2026-09-16T22:54:24.033+00:00",
+    "source_url": "https://jobs.ashbyhq.com/clickup/abf2b712-b509-4ee4-89b0-770cf2dd5902",
+    "locations": [
+      "United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "ca53a22eb94987ba",
+    "company": "Benchling",
+    "slug": "benchling",
+    "domain": "benchling.com",
+    "title": "Strategic Financial Analyst, GTM",
+    "role_family": "Reporting_FPA",
+    "seniority": "mid",
+    "n": 17,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.058823529411764705,
+    "weighted_overlap": 0.029411764705882353,
+    "thin": false,
+    "salary_min": 119000,
+    "salary_max": 150000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Excel/Sheets",
+      "Adaptive",
+      "Anaplan",
+      "Salesforce",
+      "Certinia"
+    ],
+    "posted_at": "2026-09-22T15:30:07.364+00:00",
+    "source_url": "https://jobs.ashbyhq.com/benchling/49454722-ea62-41da-80f8-864ff06e9265",
+    "locations": [
+      "San Francisco, CA"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "cbb765df78854fb8",
+    "company": "AngelList",
+    "slug": "angellist",
+    "domain": "angellist.com",
+    "title": "Staff Accountant, AP & Procurement",
+    "role_family": "AP",
+    "seniority": "mid",
+    "n": 20,
+    "C": 5,
+    "A": 4,
+    "covered_share": 0.25,
+    "overlap": 0.45,
+    "weighted_overlap": 0.35,
+    "thin": false,
+    "salary_min": 100000,
+    "salary_max": null,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 12500,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "Procure-to-pay": {
+        "covered": 2,
+        "assisted": 1,
+        "weighted": 2.5
+      },
+      "GL accounting": {
+        "covered": 3,
+        "assisted": 3,
+        "weighted": 4.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Ramp"
+    ],
+    "posted_at": "2026-09-14T17:36:50.069Z",
+    "source_url": "https://jobs.lever.co/angellist/ff3f8844-102e-4f88-936c-267454d97409",
+    "locations": [
+      "San Francisco, CA",
+      "New York City, NY"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "cc9daeaedc501eb6",
+    "company": "Babylist",
+    "slug": "babylist",
+    "domain": "babylist.com",
+    "title": "Finance Manager, E-Commerce",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 32,
+    "C": 0,
+    "A": 10,
+    "covered_share": 0,
+    "overlap": 0.3125,
+    "weighted_overlap": 0.15625,
+    "thin": false,
+    "salary_min": 128413,
+    "salary_max": 171229,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 8,
+        "weighted": 4
+      },
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Excel",
+      "Google Sheets",
+      "NetSuite Planning & Budgeting",
+      "Oracle Hyperion",
+      "Claude",
+      "ChatGPT",
+      "Copilot"
+    ],
+    "posted_at": "2026-08-24T12:34:10-04:00",
+    "source_url": "https://job-boards.greenhouse.io/babylist/jobs/6149672004",
+    "locations": [
+      "United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "cec9869bf50db5b9",
+    "company": "Oscar Health",
+    "slug": "oscar-health",
+    "domain": "hioscar.com",
+    "title": "Associate Director, FP&A",
+    "role_family": "Reporting_FPA",
+    "seniority": "director_plus",
+    "n": 9,
+    "C": 0,
+    "A": 3,
+    "covered_share": 0,
+    "overlap": 0.3333333333333333,
+    "weighted_overlap": 0.16666666666666666,
+    "thin": false,
+    "salary_min": 163944,
+    "salary_max": 215177,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
         "covered": 0,
         "assisted": 2,
         "weighted": 1
@@ -414,14 +6366,478 @@
         "weighted": 0.5
       }
     },
+    "erp": [
+      "Workday"
+    ],
+    "tools": [
+      "Adaptive",
+      "BigQuery"
+    ],
+    "posted_at": "2026-09-30T16:10:02-04:00",
+    "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8241543",
+    "locations": [
+      "New York, New York, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "cefc0c294557f348",
+    "company": "AG1",
+    "slug": "ag1",
+    "domain": "drinkag1.com",
+    "title": "Manager, Retail Finance",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 30,
+    "C": 2,
+    "A": 6,
+    "covered_share": 0.06666666666666667,
+    "overlap": 0.26666666666666666,
+    "weighted_overlap": 0.16666666666666666,
+    "thin": false,
+    "salary_min": 90000,
+    "salary_max": 115000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 3000,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 5,
+        "weighted": 2.5
+      },
+      "Order-to-cash": {
+        "covered": 2,
+        "assisted": 0,
+        "weighted": 2
+      },
+      "Treasury": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
     "erp": [],
     "tools": [],
-    "posted_at": "2026-09-09T22:16:20.686+00:00",
-    "source_url": "https://jobs.ashbyhq.com/amplitude/34ca5ceb-d713-4e96-b034-6694d3038b2c",
+    "posted_at": "2026-09-15T11:01:00-04:00",
+    "source_url": "https://job-boards.greenhouse.io/ag1/jobs/5409709008",
     "locations": [
-      "San Francisco"
+      "Remote - US"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "d23d17e643423475",
+    "company": "Via",
+    "slug": "via",
+    "domain": "ridewithvia.com",
+    "title": "Global Head of Payroll",
+    "role_family": "Payroll",
+    "seniority": "director_plus",
+    "n": 55,
+    "C": 0,
+    "A": 5,
+    "covered_share": 0,
+    "overlap": 0.09090909090909091,
+    "weighted_overlap": 0.045454545454545456,
+    "thin": false,
+    "salary_min": 175000,
+    "salary_max": 190000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 4,
+        "weighted": 2
+      },
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Workday",
+      "iiPay",
+      "P&I Loga",
+      "Malam"
+    ],
+    "posted_at": "2026-09-23T11:52:53-04:00",
+    "source_url": "https://job-boards.greenhouse.io/via/jobs/8838047002",
+    "locations": [
+      "New York, New York",
+      "London",
+      "New York, New York, United States"
     ],
     "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "d4e9e8d6da6add4b",
+    "company": "ClassPass",
+    "slug": "classpass",
+    "domain": "classpass.com",
+    "title": "Manager of FP&A, ClassPass",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 20,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.05,
+    "weighted_overlap": 0.025,
+    "thin": false,
+    "salary_min": 125000,
+    "salary_max": 165000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Excel",
+      "SQL"
+    ],
+    "posted_at": "2026-10-16T15:05:22-04:00",
+    "source_url": "https://www.playlist.com/careers/opportunities/4722326006?gh_jid=4722326006",
+    "locations": [
+      "United States"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "d69f295aafa6a57c",
+    "company": "Snorkel AI",
+    "slug": "snorkel-ai",
+    "domain": "snorkel.ai",
+    "title": "Finance Manager, DaaS",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 27,
+    "C": 0,
+    "A": 5,
+    "covered_share": 0,
+    "overlap": 0.18518518518518517,
+    "weighted_overlap": 0.09259259259259259,
+    "thin": false,
+    "salary_min": 130000,
+    "salary_max": 180000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 5,
+        "weighted": 2.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Google Sheets",
+      "Excel",
+      "Python",
+      "Looker",
+      "Tableau",
+      "Adaptive",
+      "Pigment"
+    ],
+    "posted_at": "2026-10-15T15:18:57-04:00",
+    "source_url": "https://job-boards.greenhouse.io/snorkelai/jobs/6225731004",
+    "locations": [
+      "San Francisco, CA",
+      "New York, New York, United States",
+      "San Francisco"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "d82710b3aa83a05b",
+    "company": "Plaid",
+    "slug": "plaid",
+    "domain": "plaid.com",
+    "title": "Strategic Finance, GTM & Revenue",
+    "role_family": "Reporting_FPA",
+    "seniority": "mid",
+    "n": 12,
+    "C": 0,
+    "A": 5,
+    "covered_share": 0,
+    "overlap": 0.4166666666666667,
+    "weighted_overlap": 0.20833333333333334,
+    "thin": false,
+    "salary_min": 130000,
+    "salary_max": 172000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 5,
+        "weighted": 2.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Pigment",
+      "Tableau"
+    ],
+    "posted_at": "2026-10-08T23:45:26.973+00:00",
+    "source_url": "https://jobs.ashbyhq.com/plaid/a342fecf-4607-42bb-9dce-2952cfa6ad33",
+    "locations": [
+      "San Francisco HQ",
+      "New York City Office"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "d82f7db13edabe30",
+    "company": "Avetta",
+    "slug": "avetta",
+    "domain": "avetta.com",
+    "title": "Billing Specialist (B2B)",
+    "role_family": "AR",
+    "seniority": "mid",
+    "n": 19,
+    "C": 6,
+    "A": 0,
+    "covered_share": 0.3157894736842105,
+    "overlap": 0.3157894736842105,
+    "weighted_overlap": 0.3157894736842105,
+    "thin": false,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_varies": false,
+    "salary_source": null,
+    "savings": null,
+    "savings_reason": "no_salary",
+    "lead_product": "Order-to-cash",
+    "product_split": {
+      "Order-to-cash": {
+        "covered": 5,
+        "assisted": 0,
+        "weighted": 5
+      },
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 0,
+        "weighted": 1
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Onsite",
+      "Zuora",
+      "Salesforce",
+      "Jira",
+      "Excel",
+      "Word",
+      "Outlook",
+      "CoPilot",
+      "Adobe Acrobat"
+    ],
+    "posted_at": "2026-10-20T13:03:20-04:00",
+    "source_url": "https://www.avetta.com/careers/job?gh_jid=8039244003",
+    "locations": [
+      "Lehi, Utah, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "d9ca9dbfe5635d22",
+    "company": "Garner Health",
+    "slug": "garner-health",
+    "domain": "getgarner.com",
+    "title": "FP&A Manager, GTM",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 27,
+    "C": 0,
+    "A": 5,
+    "covered_share": 0,
+    "overlap": 0.18518518518518517,
+    "weighted_overlap": 0.09259259259259259,
+    "thin": false,
+    "salary_min": 150000,
+    "salary_max": 175000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 5,
+        "weighted": 2.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Excel",
+      "Salesforce"
+    ],
+    "posted_at": "2026-09-22T15:50:48-04:00",
+    "source_url": "https://job-boards.greenhouse.io/garnerhealth/jobs/6195974004",
+    "locations": [
+      "Remote"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "da4d0936cc6a0b07",
+    "company": "Reddit",
+    "slug": "reddit",
+    "domain": "reddit.com",
+    "title": "Strategic Finance Senior Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 22,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 180200,
+    "salary_max": 252300,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [],
+    "tools": [
+      "Excel",
+      "Google Sheets",
+      "SQL"
+    ],
+    "posted_at": "2026-10-02T09:48:03-04:00",
+    "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8244067",
+    "locations": [
+      "Remote - United States",
+      "Los Angeles, CA, United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "db4ee6f94138a9a1",
+    "company": "Mixpanel",
+    "slug": "mixpanel",
+    "domain": "mixpanel.com",
+    "title": "Strategic Finance Associate, GTM",
+    "role_family": "Reporting_FPA",
+    "seniority": "mid",
+    "n": 14,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 138000,
+    "salary_max": 187000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-30T12:13:12-04:00",
+    "source_url": "https://job-boards.greenhouse.io/mixpanel/jobs/8075972",
+    "locations": [
+      "New York City, US (Hybrid)",
+      "New York City, NY, United States",
+      "San Francisco, CA, United States",
+      "San Francisco, US (Hybrid)"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "dd8c4e558e26af9e",
+    "company": "Snyk",
+    "slug": "snyk",
+    "domain": "snyk.io",
+    "title": "Senior Manager, Revenue Accounting",
+    "role_family": "Revenue",
+    "seniority": "manager",
+    "n": 25,
+    "C": 2,
+    "A": 8,
+    "covered_share": 0.08,
+    "overlap": 0.4,
+    "weighted_overlap": 0.24,
+    "thin": false,
+    "salary_min": 142000,
+    "salary_max": 178000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 5680,
+    "savings_reason": null,
+    "lead_product": "Order-to-cash",
+    "product_split": {
+      "Order-to-cash": {
+        "covered": 2,
+        "assisted": 4,
+        "weighted": 4
+      },
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 4,
+        "weighted": 2
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Salesforce",
+      "Zone Billing",
+      "Sigma",
+      "Claude Skills",
+      "Claude Cowork"
+    ],
+    "posted_at": "2026-10-05T17:52:47.369+00:00",
+    "source_url": "https://jobs.ashbyhq.com/snyk/5f62de4c-0536-4072-9a16-a995832cee45",
+    "locations": [
+      "United States - Boston Office",
+      "United States - Remote"
+    ],
+    "remote": "remote",
     "excluded": null
   },
   {
@@ -432,25 +6848,30 @@
     "title": "Senior Accountant",
     "role_family": "GL",
     "seniority": "senior",
-    "n": 11,
-    "C": 3,
-    "A": 5,
-    "covered_share": 0.2727272727272727,
-    "overlap": 0.7272727272727273,
-    "weighted_overlap": 0.5,
+    "n": 15,
+    "C": 2,
+    "A": 4,
+    "covered_share": 0.13333333333333333,
+    "overlap": 0.4,
+    "weighted_overlap": 0.26666666666666666,
     "thin": false,
     "salary_min": 95000,
     "salary_max": 112500,
     "salary_varies": false,
     "salary_source": "posting_text",
-    "savings": 12954.545454545454,
+    "savings": 6333.333333333333,
     "savings_reason": null,
     "lead_product": "GL accounting",
     "product_split": {
       "GL accounting": {
-        "covered": 2,
-        "assisted": 5,
-        "weighted": 4.5
+        "covered": 1,
+        "assisted": 3,
+        "weighted": 2.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
       },
       "Procure-to-pay": {
         "covered": 1,
@@ -461,13 +6882,788 @@
     "erp": [
       "Workday"
     ],
-    "tools": [],
+    "tools": [
+      "Excel"
+    ],
     "posted_at": "2026-09-15T21:06:11.824+00:00",
     "source_url": "https://jobs.ashbyhq.com/lemonade/7bfec8fa-c2fd-4288-90a4-0e8b74061d4f",
     "locations": [
       "NYC"
     ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "e752a908c6766797",
+    "company": "Rent the Runway",
+    "slug": "rent-the-runway",
+    "domain": "renttherunway.com",
+    "title": "Staff Accountant",
+    "role_family": "GL",
+    "seniority": "mid",
+    "n": 16,
+    "C": 4,
+    "A": 6,
+    "covered_share": 0.25,
+    "overlap": 0.625,
+    "weighted_overlap": 0.4375,
+    "thin": false,
+    "salary_min": 64397,
+    "salary_max": 80496,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 8049.625,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 5,
+        "weighted": 4.5
+      },
+      "Procure-to-pay": {
+        "covered": 2,
+        "assisted": 0,
+        "weighted": 2
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Excel"
+    ],
+    "posted_at": "2026-09-08T16:11:53-04:00",
+    "source_url": "https://job-boards.greenhouse.io/renttherunway/jobs/8186905",
+    "locations": [
+      "Brooklyn, NY (Rent the Runway HQ)",
+      "Brooklyn, NY, United States"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "e76f087cc671b09c",
+    "company": "Poshmark",
+    "slug": "poshmark",
+    "domain": "poshmark.com",
+    "title": "Senior Revenue Accountant",
+    "role_family": "Revenue",
+    "seniority": "senior",
+    "n": 20,
+    "C": 6,
+    "A": 5,
+    "covered_share": 0.3,
+    "overlap": 0.55,
+    "weighted_overlap": 0.425,
+    "thin": false,
+    "salary_min": 98113,
+    "salary_max": 133985,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 14716.949999999999,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 6,
+        "assisted": 2,
+        "weighted": 7
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      },
+      "Order-to-cash": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Leapfin",
+      "Looker",
+      "Excel",
+      "MS Office"
+    ],
+    "posted_at": "2026-09-11T23:19:30.508+00:00",
+    "source_url": "https://jobs.ashbyhq.com/poshmark/121f59b9-a44b-4173-8c59-db3e65428ede",
+    "locations": [
+      "US California (Redwood City) - Office"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "e791861b49dee539",
+    "company": "Shield AI",
+    "slug": "shield-ai",
+    "domain": "shield.ai",
+    "title": "Senior Accountant, Technical Accounting & Reporting (R6349)",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 18,
+    "C": 2,
+    "A": 1,
+    "covered_share": 0.1111111111111111,
+    "overlap": 0.16666666666666666,
+    "weighted_overlap": 0.1388888888888889,
+    "thin": false,
+    "salary_min": 89000,
+    "salary_max": 160000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 4944.444444444444,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 1,
+        "weighted": 2.5
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Excel",
+      "Workiva"
+    ],
+    "posted_at": "2026-10-20T17:20:11.860Z",
+    "source_url": "https://jobs.lever.co/shieldai/f0b84b9e-66dc-45f3-9898-e325755954ef",
+    "locations": [
+      "San Diego, California",
+      "San Mateo, California"
+    ],
     "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "e8039e5e382a675f",
+    "company": "Oura",
+    "slug": "oura",
+    "domain": "ouraring.com",
+    "title": "Accounting Manager, Fixed Assets & Capital Accounting",
+    "role_family": "Close_Mgmt",
+    "seniority": "manager",
+    "n": 27,
+    "C": 4,
+    "A": 2,
+    "covered_share": 0.14814814814814814,
+    "overlap": 0.2222222222222222,
+    "weighted_overlap": 0.18518518518518517,
+    "thin": false,
+    "salary_min": 117300,
+    "salary_max": 169000,
+    "salary_varies": true,
+    "salary_source": "posting_text",
+    "savings": 8688.888888888889,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 4,
+        "assisted": 2,
+        "weighted": 5
+      }
+    },
+    "erp": [
+      "NetSuite",
+      "Oracle",
+      "SAP"
+    ],
+    "tools": [
+      "LeaseQuery",
+      "Lucernex"
+    ],
+    "posted_at": "2026-09-02T14:01:48-04:00",
+    "source_url": "https://job-boards.greenhouse.io/oura/jobs/4385825009",
+    "locations": [
+      "Remote - United States",
+      "Remote, United States"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "e8f451bd2a2361c9",
+    "company": "Lyra Health",
+    "slug": "lyra-health",
+    "domain": "lyrahealth.com",
+    "title": "Sr. Accounting Transformation Lead",
+    "role_family": "Close_Mgmt",
+    "seniority": "director_plus",
+    "n": 15,
+    "C": 0,
+    "A": 0,
+    "covered_share": 0,
+    "overlap": 0,
+    "weighted_overlap": 0,
+    "thin": false,
+    "salary_min": 150000,
+    "salary_max": 206000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": null,
+    "product_split": {},
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-10-05T21:47:46.412Z",
+    "source_url": "https://jobs.lever.co/lyrahealth/3e0aa413-e01d-4a84-81c9-047bf0247ccf",
+    "locations": [
+      "United States"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "ea10b52c192efe2d",
+    "company": "Acorns",
+    "slug": "acorns",
+    "domain": "acorns.com",
+    "title": "Finance Analyst",
+    "role_family": "Reporting_FPA",
+    "seniority": "mid",
+    "n": 11,
+    "C": 0,
+    "A": 2,
+    "covered_share": 0,
+    "overlap": 0.18181818181818182,
+    "weighted_overlap": 0.09090909090909091,
+    "thin": false,
+    "salary_min": 94000,
+    "salary_max": 108000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-16T16:35:44.824+00:00",
+    "source_url": "https://jobs.ashbyhq.com/acorns/91e69836-7a14-421a-a8ec-d3bb85336be4",
+    "locations": [
+      "Remote"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "eb747f9a4006cd35",
+    "company": "Plaid",
+    "slug": "plaid",
+    "domain": "plaid.com",
+    "title": "Senior Financial Analyst, Corporate Finance & Strategy",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 24,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.041666666666666664,
+    "weighted_overlap": 0.020833333333333332,
+    "thin": false,
+    "salary_min": 130000,
+    "salary_max": 171000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-09-23T20:54:15.923+00:00",
+    "source_url": "https://jobs.ashbyhq.com/plaid/e872aa15-c768-40be-8986-2f1fa2a686f3",
+    "locations": [
+      "San Francisco HQ"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "edb8565fb7a19b8d",
+    "company": "Honeycomb",
+    "slug": "honeycomb",
+    "domain": "honeycomb.io",
+    "title": "Senior Financial Analyst",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 19,
+    "C": 2,
+    "A": 6,
+    "covered_share": 0.10526315789473684,
+    "overlap": 0.42105263157894735,
+    "weighted_overlap": 0.2631578947368421,
+    "thin": false,
+    "salary_min": 125000,
+    "salary_max": 170000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 6578.9473684210525,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 6,
+        "weighted": 3
+      },
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 0,
+        "weighted": 2
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Excel",
+      "Google Sheets",
+      "Pigment",
+      "Mosaic"
+    ],
+    "posted_at": "2026-09-18T12:27:57-04:00",
+    "source_url": "https://job-boards.greenhouse.io/honeycomb/jobs/5424906008",
+    "locations": [
+      "Remote - United States",
+      "United States - Remote"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "ede3af0ad8079d41",
+    "company": "Notion",
+    "slug": "notion",
+    "domain": "notion.so",
+    "title": "Senior Accountant - Corporate Accounting",
+    "role_family": "GL",
+    "seniority": "senior",
+    "n": 18,
+    "C": 5,
+    "A": 4,
+    "covered_share": 0.2777777777777778,
+    "overlap": 0.5,
+    "weighted_overlap": 0.3888888888888889,
+    "thin": false,
+    "salary_min": 130000,
+    "salary_max": 150000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 18055.555555555555,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 5,
+        "assisted": 3,
+        "weighted": 6.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [],
+    "posted_at": "2026-10-02T16:52:26.788+00:00",
+    "source_url": "https://jobs.ashbyhq.com/notion/b49d4c15-d716-4a52-8858-1a89319f3191",
+    "locations": [
+      "San Francisco, California"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "f0eef2f1fee6057f",
+    "company": "Watershed",
+    "slug": "watershed",
+    "domain": "watershed.com",
+    "title": "Corporate FP&A manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 14,
+    "C": 0,
+    "A": 4,
+    "covered_share": 0,
+    "overlap": 0.2857142857142857,
+    "weighted_overlap": 0.14285714285714285,
+    "thin": false,
+    "salary_min": 147600,
+    "salary_max": 195000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 3,
+        "weighted": 1.5
+      },
+      "Treasury": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Salesforce",
+      "Rippling"
+    ],
+    "posted_at": "2026-09-14T15:07:24.971+00:00",
+    "source_url": "https://jobs.ashbyhq.com/watershed/c5401fe8-648b-41a3-a7c0-60e74efecdb6",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "f2493d4a99f8685e",
+    "company": "Abnormal Security",
+    "slug": "abnormal-security",
+    "domain": "abnormalsecurity.com",
+    "title": "Senior Director, GTM Finance",
+    "role_family": "Reporting_FPA",
+    "seniority": "director_plus",
+    "n": 18,
+    "C": 0,
+    "A": 1,
+    "covered_share": 0,
+    "overlap": 0.05555555555555555,
+    "weighted_overlap": 0.027777777777777776,
+    "thin": false,
+    "salary_min": 229500,
+    "salary_max": 330000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "erp": [],
+    "tools": [],
+    "posted_at": "2026-10-12T08:51:11-04:00",
+    "source_url": "https://abnormal.ai/careers/jobs/8020418003?gh_jid=8020418003",
+    "locations": [
+      "Remote - USA"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "f25b8409aa444e56",
+    "company": "Samsara",
+    "slug": "samsara",
+    "domain": "samsara.com",
+    "title": "Senior Manager, Revenue Accounting",
+    "role_family": "Revenue",
+    "seniority": "manager",
+    "n": 32,
+    "C": 1,
+    "A": 0,
+    "covered_share": 0.03125,
+    "overlap": 0.03125,
+    "weighted_overlap": 0.03125,
+    "thin": false,
+    "salary_min": 107240,
+    "salary_max": 153200,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 1675.625,
+    "savings_reason": null,
+    "lead_product": "Order-to-cash",
+    "product_split": {
+      "Order-to-cash": {
+        "covered": 1,
+        "assisted": 0,
+        "weighted": 1
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Zuora",
+      "RevPro"
+    ],
+    "posted_at": "2026-09-24T15:08:23-04:00",
+    "source_url": "https://www.samsara.com/company/careers/roles/7266397?gh_jid=7266397",
+    "locations": [
+      "Remote - US",
+      "Remote - GA"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "f7193884e3b2f6c6",
+    "company": "Peloton",
+    "slug": "peloton",
+    "domain": "onepeloton.com",
+    "title": "Sr. Financial Analyst, Financial Planning and Analysis",
+    "role_family": "Reporting_FPA",
+    "seniority": "senior",
+    "n": 24,
+    "C": 0,
+    "A": 11,
+    "covered_share": 0,
+    "overlap": 0.4583333333333333,
+    "weighted_overlap": 0.22916666666666666,
+    "thin": false,
+    "salary_min": 106300,
+    "salary_max": 125750,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 7,
+        "weighted": 3.5
+      },
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 4,
+        "weighted": 2
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Microsoft Excel",
+      "Google Sheets",
+      "Google Slides",
+      "Oracle Hyperion Essbase"
+    ],
+    "posted_at": "2026-09-09T14:38:05-04:00",
+    "source_url": "https://careers.onepeloton.com/en/all-jobs/?gh_jid=8177500",
+    "locations": [
+      "New York, New York",
+      "New York, New York, United States"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "f9bd532afd598e4e",
+    "company": "Sardine",
+    "slug": "sardine",
+    "domain": "sardine.ai",
+    "title": "Payroll Specialist - US/Canada",
+    "role_family": "Payroll",
+    "seniority": "senior",
+    "n": 47,
+    "C": 1,
+    "A": 6,
+    "covered_share": 0.02127659574468085,
+    "overlap": 0.14893617021276595,
+    "weighted_overlap": 0.0851063829787234,
+    "thin": false,
+    "salary_min": 80000,
+    "salary_max": 100000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 851.063829787234,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 6,
+        "weighted": 4
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Rippling",
+      "Deel",
+      "Fidelity",
+      "Wealthsimple",
+      "Carta"
+    ],
+    "posted_at": "2026-10-15T16:04:20.588+00:00",
+    "source_url": "https://jobs.ashbyhq.com/sardine/e3014dea-286f-488b-b662-14454301c489",
+    "locations": [
+      "Remote - US or Canada"
+    ],
+    "remote": "remote",
+    "excluded": null
+  },
+  {
+    "posting_id": "faaf62fae58cc9fe",
+    "company": "Applied Intuition",
+    "slug": "applied-intuition",
+    "domain": "appliedintuition.com",
+    "title": "Treasury Manager",
+    "role_family": "Treasury",
+    "seniority": "manager",
+    "n": 32,
+    "C": 4,
+    "A": 3,
+    "covered_share": 0.125,
+    "overlap": 0.21875,
+    "weighted_overlap": 0.171875,
+    "thin": false,
+    "salary_min": 155000,
+    "salary_max": 215000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 9687.5,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "Treasury": {
+        "covered": 2,
+        "assisted": 1,
+        "weighted": 2.5
+      },
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 2,
+        "weighted": 3
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Kyriba"
+    ],
+    "posted_at": "2026-10-07T02:24:51.160+00:00",
+    "source_url": "https://jobs.ashbyhq.com/applied/c74901ba-588e-4c15-b6bb-afe8ba48f4de",
+    "locations": [
+      "Sunnyvale"
+    ],
+    "remote": "onsite",
+    "excluded": null
+  },
+  {
+    "posting_id": "fe4f4ab745d419b9",
+    "company": "Demandbase",
+    "slug": "demandbase",
+    "domain": "demandbase.com",
+    "title": "Senior FP&A Manager",
+    "role_family": "Reporting_FPA",
+    "seniority": "manager",
+    "n": 17,
+    "C": 0,
+    "A": 4,
+    "covered_share": 0,
+    "overlap": 0.23529411764705882,
+    "weighted_overlap": 0.11764705882352941,
+    "thin": false,
+    "salary_min": 142000,
+    "salary_max": 214000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "Reporting",
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 4,
+        "weighted": 2
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [
+      "Workday Adaptive Planning",
+      "Google Sheets"
+    ],
+    "posted_at": "2026-09-28T20:33:18.777+00:00",
+    "source_url": "https://jobs.ashbyhq.com/demandbase/b9be6e83-fd7c-4559-8a43-640036fa2dc3",
+    "locations": [
+      "San Francisco, California"
+    ],
+    "remote": "unknown",
+    "excluded": null
+  },
+  {
+    "posting_id": "ff278d1f28b6e2a5",
+    "company": "Saronic",
+    "slug": "saronic",
+    "domain": "saronic.com",
+    "title": "Accounts Payable Manager",
+    "role_family": "AP",
+    "seniority": "manager",
+    "n": 33,
+    "C": 4,
+    "A": 5,
+    "covered_share": 0.12121212121212122,
+    "overlap": 0.2727272727272727,
+    "weighted_overlap": 0.19696969696969696,
+    "thin": false,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_varies": false,
+    "salary_source": null,
+    "savings": null,
+    "savings_reason": "no_salary",
+    "lead_product": "Procure-to-pay",
+    "product_split": {
+      "Procure-to-pay": {
+        "covered": 2,
+        "assisted": 3,
+        "weighted": 3.5
+      },
+      "GL accounting": {
+        "covered": 2,
+        "assisted": 2,
+        "weighted": 3
+      }
+    },
+    "erp": [
+      "NetSuite"
+    ],
+    "tools": [],
+    "posted_at": "2026-09-28T14:53:00.231+00:00",
+    "source_url": "https://jobs.ashbyhq.com/saronic/6578d35e-b922-4977-a7d1-d48816efbd74",
+    "locations": [
+      "Austin, TX"
+    ],
+    "remote": "onsite",
     "excluded": null
   }
 ]

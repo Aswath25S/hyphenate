@@ -1,0 +1,348 @@
+{
+  "posting_id": "1d7bb100cd71dd2c",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "1d7bb100cd71dd2c-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Researching complex U.S. GAAP matters requires accounting judgment and interpretation rather than a defined platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Documenting complex accounting matters is technical accounting judgment work, not a mapped automated accounting operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Drafting technical accounting memos on novel issues is explicitly outside the revenue-recognition memo capability and depends on professional judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Maintaining accounting policy documentation is policy work tied to human judgment rather than a covered operational capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Owning financial statements is an accountability/ownership role, not the specific action of producing consolidated statements.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Owning footnote disclosures is a disclosure ownership responsibility that requires judgment beyond mapped reporting automation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-07",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.7,
+      "rationale": "Serving as a key contributor in the annual audit aligns with preparing support and documentation for audits, though the role is still human-involved.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Advising on revenue recognition is policy interpretation and judgment, which is explicitly not the automated revenue-recognition capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Advising on equity transactions is specialized accounting judgment that is not covered by the platform map.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Advising on debt modifications is technical accounting judgment rather than a covered end-to-end workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Advising on business combinations is acquisition accounting judgment and not a mapped automated capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Advising on consolidation is accounting judgment work, not the operational consolidation process itself.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Advising on impairment analyses requires valuation and accounting judgment outside the platform capabilities.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-14",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.55,
+      "rationale": "Monitoring emerging accounting standards is a repetitive research/alerting task with no matching capability on the map.",
+      "model_label": "gap_candidate",
+      "adjusted": "confidence 0.55 below 0.6"
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Assessing applicability to the company is a judgment-heavy technical accounting decision.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Leading the resolution of complex technical accounting matters across close is management and judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Implementing processes to support technical conclusions is a project/change effort rather than a mapped finance-operations workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Anticipating emerging accounting standards is strategic professional judgment, not automated operations.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Shaping accounting policy efforts is policy-setting and governance work that belongs to humans.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Shaping change-management efforts is a people/project leadership task rather than a finance-operations workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Translating new guidance into implementation strategies requires judgment and design, not a covered automated task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Translating new guidance into disclosures is judgmental disclosure drafting, not a mapped reporting workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Translating new guidance into reporting calendars is a process-planning task without a direct platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Translating new guidance into scalable reporting processes is process design and implementation work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Leading purchase accounting activities under ASC 805 is acquisition accounting judgment and coordination, not a mapped automation workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Coordinating valuation is a judgment-based transaction support activity outside the platform map.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Reviewing an opening balance sheet is transaction accounting review work rather than a direct reconciliation or close task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Performing transaction accounting is specialized accounting judgment not matched to a specific platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Preparing technical accounting memoranda for transaction conclusions is novel accounting analysis outside the automated capabilities.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-30",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Exploring accounting policy changes is policy analysis and judgment, not an operational workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-31",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Participating in process improvements across accounting operations is too broad to map to a specific covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-33",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.52,
+      "rationale": "Supporting the monthly closes is too vague to distinguish between close checklist execution and general help.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-34",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.46,
+      "rationale": "Performing financial reviews is too vague to identify a specific covered capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-35",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.95,
+      "rationale": "Performing variance analysis matches the flux-analysis capability, which is assisted because it includes commentary and interpretation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-36",
+      "label": "assisted",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.9,
+      "rationale": "Assisting with complex account reconciliations matches balance-sheet account reconciliation work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-37",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.88,
+      "rationale": "Assisting the revenue team with ASC 606 compliance aligns with revenue-recognition support, but it requires human judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-38",
+      "label": "covered",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.8,
+      "rationale": "Reviewing non-standard customer contracts is the contract-terms extraction workflow for billing and obligations.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "1d7bb100cd71dd2c-39",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.44,
+      "rationale": "Reviewing associated outcomes in automated systems is too vague to map to a specific finance workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

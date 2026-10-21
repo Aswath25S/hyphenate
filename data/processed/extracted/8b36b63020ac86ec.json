@@ -1,0 +1,319 @@
+{
+  "posting_id": "8b36b63020ac86ec",
+  "company": "Latitude",
+  "domain": "latitude.io",
+  "title": "Accounts Payable Analyst (Contract)",
+  "role_family": "AP",
+  "seniority": "mid",
+  "locations": [
+    "Pittsburgh, PA",
+    "Pittsburgh, PA, United States"
+  ],
+  "remote": "unknown",
+  "salary": {
+    "min": null,
+    "max": null,
+    "period": null,
+    "currency": null,
+    "raw_text": null
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "invoice anomalies",
+    "missing invoices or credits",
+    "multiple deadlines"
+  ],
+  "duties": [
+    {
+      "duty_id": "8b36b63020ac86ec-01",
+      "text": "Review invoices for required details",
+      "source_span": "Review invoices for required details",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-02",
+      "text": "Code invoices to the correct GL accounts, departments, locations and categories in NetSuite",
+      "source_span": "code them to the correct GL accounts, departments, locations and categories in NetSuite",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-03",
+      "text": "Match invoices to Purchase Orders during the receiving process in NetSuite",
+      "source_span": "Matches invoices to Purchase Orders during the receiving process in NetSuite to allow for accurate & timely recording",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-04",
+      "text": "Investigate PO & invoice anomalies",
+      "source_span": "Investigate PO & invoice anomalies",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-05",
+      "text": "Coordinate with purchasers & Procurement team to resolve discrepancies timely",
+      "source_span": "coordinate with purchasers & Procurement team to appropriately resolve discrepancies timely",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-06",
+      "text": "Respond to invoice and payment-status questions",
+      "source_span": "Respond to invoice and payment-status questions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-07",
+      "text": "Follow up on missing invoices or credits",
+      "source_span": "follow up on missing invoices or credits",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-08",
+      "text": "Reconcile vendor statements",
+      "source_span": "reconcile vendor statements",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-09",
+      "text": "Prepare payment batches",
+      "source_span": "Prepare payment batches",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-10",
+      "text": "Verify accuracy of payments",
+      "source_span": "verify accuracy of payments",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-11",
+      "text": "Ensure timely payment of invoices",
+      "source_span": "ensure timely payment of invoices",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-12",
+      "text": "Follow approval limits & segregation of duties",
+      "source_span": "Follow approval limits & segregation of duties",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-13",
+      "text": "Maintain professional skepticism for duplicate and/or suspicious invoices",
+      "source_span": "maintain professional skepticism for duplicate and/or suspicious invoices",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-14",
+      "text": "Retain clear documentation",
+      "source_span": "retain clear documentation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-15",
+      "text": "Help reconcile AP aging or related accounts",
+      "source_span": "Help reconcile AP aging or related accounts",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-16",
+      "text": "Identify invoices received but not yet recorded",
+      "source_span": "identify invoices received but not yet recorded",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-17",
+      "text": "Provide information for accruals",
+      "source_span": "provide information for accruals",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-18",
+      "text": "Provide information for month-end close",
+      "source_span": "month-end close",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-19",
+      "text": "Latitude AI (lat.ai) is building the future of Ford’s autonomy roadmap to make travel safer, less stressful, and more enjoyable for everyone.",
+      "source_span": "Latitude AI (lat.ai) is building the future of Ford’s autonomy roadmap to make travel safer, less stressful, and more enjoyable for everyone.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-20",
+      "text": "We are an Equal Opportunity Employer committed to a culturally diverse workforce.",
+      "source_span": "We are an Equal Opportunity Employer committed to a culturally diverse workforce.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-21",
+      "text": "At least 2 years of experience in accounts payable, invoice processing, or a related accounting role",
+      "source_span": "At least 2 years of experience in accounts payable, invoice processing, or a related accounting role",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-22",
+      "text": "Review invoices",
+      "source_span": "reviewing invoices",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-23",
+      "text": "Assign general ledger accounts and cost categories",
+      "source_span": "assigning general ledger accounts and cost categories",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-24",
+      "text": "Check invoices against purchase orders",
+      "source_span": "checking invoices against purchase orders",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-25",
+      "text": "Investigate invoice discrepancies",
+      "source_span": "investigate invoice discrepancies",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-26",
+      "text": "Coordinate timely resolutions with vendors, purchasing teams, and internal stakeholders",
+      "source_span": "coordinate timely resolutions with vendors, purchasing teams, and internal stakeholders",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-27",
+      "text": "Respond to vendor questions",
+      "source_span": "responding to vendor questions",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-28",
+      "text": "Review vendor statements",
+      "source_span": "reviewing vendor statements",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-29",
+      "text": "Support invoice payments",
+      "source_span": "supporting invoice payments",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-30",
+      "text": "Follow invoice approval procedures",
+      "source_span": "invoice approval procedures",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-31",
+      "text": "Follow payment controls",
+      "source_span": "payment controls",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-32",
+      "text": "Maintain confidential financial record keeping",
+      "source_span": "confidential financial record keeping",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-33",
+      "text": "Support account reconciliations",
+      "source_span": "supporting account reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-34",
+      "text": "Identify unrecorded invoices",
+      "source_span": "identifying unrecorded invoices",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-35",
+      "text": "Prepare information for month-end close",
+      "source_span": "preparing information for month-end close",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-36",
+      "text": "Demonstrate strong attention to detail, organization, communication, and follow-through while managing multiple deadlines",
+      "source_span": "Strong attention to detail, organization, communication, and follow-through while managing multiple deadlines",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-37",
+      "text": "Experience using NetSuite or another accounting or enterprise resource planning system",
+      "source_span": "Experience using NetSuite or another accounting or enterprise resource planning system",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-38",
+      "text": "Experience preparing payment batches or supporting electronic invoice and payment processes",
+      "source_span": "Experience preparing payment batches or supporting electronic invoice and payment processes",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "8b36b63020ac86ec-39",
+      "text": "Experience working with procurement teams or supporting accounts payable in a technology, automotive, or other fast-paced organization",
+      "source_span": "Experience working with procurement teams or supporting accounts payable in a technology, automotive, or other fast-paced organization",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-10-11T22:44:32-04:00",
+  "source_url": "https://job-boards.greenhouse.io/latitude/jobs/8268216",
+  "fetched_at": "2026-10-21T17:34:51.809Z",
+  "prompt_version": "extract-v1",
+  "text": "Latitude AI (lat.ai) is building the future of Ford’s autonomy roadmap to make travel safer, less stressful, and more enjoyable for everyone. Bringing this vision to scale, our fully in-house developed hands-free ADAS platform will debut on the all-new Ford Fathom in 2027.\n\nWhen you join the Latitude team, you’ll work alongside leading experts across machine learning and robotics, cloud platforms, mapping, sensors and compute systems, test operations, systems and safety engineering – all dedicated to redefining the relationship between people and their vehicles for millions of customers.\n\nAs a Ford Motor Company subsidiary, we operate independently to develop automated driving technology at the speed of a technology startup. Latitude is headquartered in Pittsburgh with engineering centers in Dearborn, Mich., and Palo Alto, Calif.\n\nMeet the team:\n\nLatitude’s Finance & Accounting team is responsible for the end-to-end planning & recording of all financial activity in the business. The AP Analyst will own invoice resolution & payment, help to maintain accurate vendor records, and support reconciliations during month end close. Accounts Payable at Latitude has a broad cross-functional scope supporting procurement during purchasing, stakeholders buying goods, and employees across Latitude requesting T&E spend.\n\nThis contract will be 4-5 months in length.\n\nWhat you’ll do:\n\n• Invoice Processing: Review invoices for required details, code them to the correct GL accounts, departments, locations and categories in NetSuite\n\n• PO & Approval Matching: Matches invoices to Purchase Orders during the receiving process in NetSuite to allow for accurate & timely recording\n\n• Exception Resolution: Investigate PO & invoice anomalies, and coordinate with purchasers & Procurement team to appropriately resolve discrepancies timely\n\n• Vendor Support: Respond to invoice and payment-status questions, follow up on missing invoices or credits, and reconcile vendor statements\n\n• Payment Support: Prepare payment batches, verify accuracy of payments and ensure timely payment of invoices\n\n• Controls & Records: Follow approval limits & segregation of duties, maintain professional skepticism for duplicate and/or suspicious invoices and retain clear documentation\n\n• Month-End Close: Help reconcile AP aging or related accounts, identify invoices received but not yet recorded and provide information for accruals and month-end close\n\nWhat you'll need to succeed:\n\n• At least 2 years of experience in accounts payable, invoice processing, or a related accounting role\n\n• Experience reviewing invoices, assigning general ledger accounts and cost categories, and checking invoices against purchase orders\n\n• Ability to investigate invoice discrepancies and coordinate timely resolutions with vendors, purchasing teams, and internal stakeholders\n\n• Experience responding to vendor questions, reviewing vendor statements, and supporting invoice payments\n\n• Knowledge of invoice approval procedures, payment controls, and confidential financial record keeping\n\n• Experience supporting account reconciliations, identifying unrecorded invoices, or preparing information for month-end close\n\n• Strong attention to detail, organization, communication, and follow-through while managing multiple deadlines\n\nNice to have:\n\n• Experience using NetSuite or another accounting or enterprise resource planning system\n\n• Experience preparing payment batches or supporting electronic invoice and payment processes\n\n• Experience working with procurement teams or supporting accounts payable in a technology, automotive, or other fast-paced organization\n\nLearn more about Latitude’s team, mission and career opportunities at lat.ai!\n\n#LI-NC1\n\nWe are an Equal Opportunity Employer committed to a culturally diverse workforce. All qualified applicants will receive consideration for employment without regard to race, religion, color, age, sex, national origin, sexual orientation, gender identity, disability status or protected veteran status.",
+  "extra_salary_lines": [],
+  "salary_source": null,
+  "ats": "greenhouse"
+}

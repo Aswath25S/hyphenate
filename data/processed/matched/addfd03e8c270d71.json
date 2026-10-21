@@ -1,0 +1,402 @@
+{
+  "posting_id": "addfd03e8c270d71",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "addfd03e8c270d71-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Reimagining the FP&A operating model is a strategic redesign decision, not an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Leading a function-wide transformation is change management and leadership work rather than a platform task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with another internal team is cross-functional relationship work that requires people coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Long-range strategic planning is a planning-model activity that is not covered by the platform map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Building a long-range financial model is a budgeting and planning model task outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Planning and resource allocation is FP&A budgeting work that is not covered by the platform.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Shaping pricing and packaging is a strategic product/pricing decision, not a finance-operations automation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Shaping the go-to-market motion is a cross-functional business strategy activity that needs human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Sales compensation design is policy and incentive design, not a covered finance workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Owning the company-wide planning and forecasting process is broader FP&A planning work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Rolling, continuously updated forecasting is a forecasting-model activity beyond the specific cash forecast capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Incorporating revenue pipeline signals is driver-based planning work that is not a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Incorporating product usage signals into forecasts is planning-model work outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Incorporating churn indicators into planning is a forecasting-model task not covered by the platform.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Incorporating headcount inputs is workforce-planning model work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Refreshing forecasts dynamically is FP&A forecasting work that is not the covered treasury cash forecast.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Serving as a strategic finance partner is advisory leadership work with the CFO and executives.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-18",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.88,
+      "rationale": "Translating signals into board-ready insights matches building board materials and management reports, though judgment is still involved.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Turning signals into business recommendations is advisory work that requires human judgment and prioritization.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-20",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.91,
+      "rationale": "Designing and delivering board materials matches the reporting capability for board decks and management reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Investor-facing package work is external stakeholder communication and not a covered reporting workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-22",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.84,
+      "rationale": "Narrative generation is part of producing management reports and board materials, though AI is only an accelerator.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-23",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Scenario modeling is FP&A planning work with no matching capability in the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Ensuring precision and credibility is a quality standard and judgment call rather than a specific platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Interactive real-time scenario modeling is planning analysis that is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-26",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Moving to AI-powered what-if analysis is scenario modeling work outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-27",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Modeling pricing changes is a financial planning and sensitivity analysis task not covered here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-28",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Modeling investment shifts is FP&A scenario analysis, which is not a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-29",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Modeling revenue tailwinds is planning-model work outside the platform's coverage.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-30",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Modeling revenue headwinds is forecasting and scenario analysis that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-31",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Deploying self-serve financial intelligence is an enablement and rollout activity, not a defined finance workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-32",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Enabling leaders to answer their own questions is cross-functional enablement and partnership work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-33",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Enabling GTM leaders to self-serve financial questions is business partnering and enablement work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-34",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Enabling G&A leaders to self-serve financial questions is cross-functional partnering work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-35",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering cross-functionally with R&D leadership is a relationship and advisory duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-36",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering cross-functionally with GTM leadership is advisory collaboration work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-37",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering cross-functionally with G&A leadership is human collaboration and advising work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-38",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Building a business partnering model is a management and operating-model design activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-39",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Leading an FP&A team is people management work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-40",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Managing a small team is a direct people-management responsibility.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-41",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Making AI fluency a core competency is a training and competency-setting decision.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-42",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Making analytical judgment a core competency is a people and capability standard-setting task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-43",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Making strategic communication a core competency is a team-development and policy decision.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "addfd03e8c270d71-44",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Favoring hands-on contribution over headcount is a staffing philosophy and management judgment.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "posting_id": "5ac1508b6822e136",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "5ac1508b6822e136-01",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.84,
+      "rationale": "Owning month-end and year-end close deliverables is executing close checklist tasks end to end.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-02",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.98,
+      "rationale": "Preparing journal entries directly matches preparing and posting journal entries.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-03",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.99,
+      "rationale": "Performing account reconciliations is the core balance-sheet reconciliation workflow.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-04",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.98,
+      "rationale": "Variance analysis matches flux analysis and variance commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-05",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Identifying process, automation, and documentation improvements is a broad improvement activity not tied to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Driving improvements to close processes and documentation is process redesign and project judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Prioritizing multiple close-cycle responsibilities is workload judgment rather than a platform task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-08",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.77,
+      "rationale": "Preparing financial statements and supporting schedules aligns most closely with building recurring reporting deliverables.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Reviewing financial statements is human review and approval rather than automated preparation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-10",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.93,
+      "rationale": "Assisting with internal reporting deliverables matches building management reports.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-11",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.62,
+      "rationale": "External reporting deliverables could mean statutory or SEC reporting, which is not a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-12",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.86,
+      "rationale": "Preparing materials for private equity stakeholders fits management reporting and board deck work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-13",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.79,
+      "rationale": "Maintaining audit-readiness across reporting deliverables aligns with audit support and documentation upkeep.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Serving as a subject-matter expert and technical resource is advising and supporting other people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Researching GAAP positions for complex or non-routine transactions requires human accounting judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Documenting GAAP positions for complex or non-routine transactions is technical accounting judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Implementing new accounting standards and policies involves policy interpretation and judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Being the key point of contact for external auditors is a human relationship role.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Managing deliverables for external auditors is coordinating a human audit relationship.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Managing external auditor schedules is coordination work with people, not a platform capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Managing auditor walkthroughs is a relationship and coordination task with external auditors.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-22",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.97,
+      "rationale": "Owning execution of assigned internal controls matches executing SOX and other control tasks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-23",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.98,
+      "rationale": "Documenting assigned internal controls is part of maintaining control documentation.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Driving enhancements to the control environment is control design and process improvement judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-25",
+      "label": "assisted",
+      "capability_id": "gl.controls",
+      "confidence": 0.77,
+      "rationale": "Ensuring compliance with internal controls and accounting policies is closest to monitoring controls, but requires human oversight.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering closely with FP&A on accounting matters is cross-functional collaboration.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering closely with Tax on accounting matters is cross-functional collaboration.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering closely with other cross-functional teams on accounting matters is collaboration work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Mentoring peers and junior team members is people development work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-30",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Guiding peers and junior team members is advising and training people.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-31",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.7,
+      "rationale": "Supporting the scaling of accounting processes and infrastructure is broad and not specific enough to map cleanly.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5ac1508b6822e136-32",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Proactively surfacing new projects and improvements is too broad to map to a specific platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "domain": "flexport.com",
   "title": "Accounts Receivable Collections Analyst",
   "role_family": "AR",
-  "seniority": "entry",
+  "seniority": "mid",
   "locations": [
     "Atlanta, Georgia, United States"
   ],
@@ -19,7 +19,12 @@
   "erp": [
     "NetSuite"
   ],
-  "tools": [],
+  "tools": [
+    "Tesorio",
+    "Stripe",
+    "Excel",
+    "Google Sheets"
+  ],
   "complexity": {
     "multi_entity": false,
     "multi_currency": false,
@@ -27,118 +32,348 @@
     "high_volume": false,
     "entity_count": null
   },
-  "pain_phrases": [],
+  "pain_phrases": [
+    "use AI and automation to improve daily collections work",
+    "reduce manual work",
+    "manage competing priorities",
+    "initial escalations",
+    "overdue balances"
+  ],
   "duties": [
     {
-      "duty_id": "2a2227ca3a396266-h01",
-      "text": "Manage collections for assigned accounts by email and phone",
+      "duty_id": "2a2227ca3a396266-01",
+      "text": "Manage collections for assigned accounts through email and phone outreach",
       "source_span": "Manage collections for assigned accounts through email and phone outreach",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "2a2227ca3a396266-h02",
-      "text": "Prioritize overdue balances to meet DSO targets",
-      "source_span": "Prioritize overdue balances and follow through on commitments",
+      "duty_id": "2a2227ca3a396266-02",
+      "text": "Prioritize overdue balances",
+      "source_span": "Prioritize overdue balances",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "2a2227ca3a396266-h03",
-      "text": "Review account aging and collection activity daily",
+      "duty_id": "2a2227ca3a396266-03",
+      "text": "Follow through on commitments to help meet cash collection and days sales outstanding (DSO) targets",
+      "source_span": "Follow through on commitments to help meet cash collection and days sales outstanding (DSO) targets",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-04",
+      "text": "Review account aging daily",
       "source_span": "Review account aging and collection activity daily",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "2a2227ca3a396266-h04",
-      "text": "Keep records of customer conversations and payment promises",
+      "duty_id": "2a2227ca3a396266-05",
+      "text": "Review collection activity daily",
+      "source_span": "Review account aging and collection activity daily",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-06",
+      "text": "Keep records of customer conversations accurate and up to date",
       "source_span": "Keep records of customer conversations, payment promises, disputes, and next steps accurate and up to date",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "2a2227ca3a396266-h05",
-      "text": "Build relationships with customers' AP teams",
-      "source_span": "Build relationships with customers",
+      "duty_id": "2a2227ca3a396266-07",
+      "text": "Keep records of payment promises accurate and up to date",
+      "source_span": "Keep records of customer conversations, payment promises, disputes, and next steps accurate and up to date",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "2a2227ca3a396266-h06",
-      "text": "Coordinate incoming requests and handle initial escalations",
+      "duty_id": "2a2227ca3a396266-08",
+      "text": "Keep records of disputes accurate and up to date",
+      "source_span": "Keep records of customer conversations, payment promises, disputes, and next steps accurate and up to date",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-09",
+      "text": "Keep records of next steps accurate and up to date",
+      "source_span": "Keep records of customer conversations, payment promises, disputes, and next steps accurate and up to date",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-10",
+      "text": "Build relationships with customers’ Accounts Payable teams",
+      "source_span": "Build relationships with customers’ Accounts Payable teams and act as their point of contact for collections and payment questions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-11",
+      "text": "Act as their point of contact for collections and payment questions",
+      "source_span": "Build relationships with customers’ Accounts Payable teams and act as their point of contact for collections and payment questions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-12",
+      "text": "Coordinate incoming requests",
       "source_span": "Coordinate incoming requests and handle initial escalations",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "2a2227ca3a396266-h07",
-      "text": "Investigate complex account balances and recommend next steps",
-      "source_span": "Investigate complex account balances and recommend next steps",
+      "duty_id": "2a2227ca3a396266-13",
+      "text": "Handle initial escalations",
+      "source_span": "Coordinate incoming requests and handle initial escalations",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "2a2227ca3a396266-h08",
-      "text": "Research invoice and payment discrepancies",
-      "source_span": "Research invoice and payment discrepancies",
+      "duty_id": "2a2227ca3a396266-14",
+      "text": "Resolve issues promptly",
+      "source_span": "Resolve issues promptly and bring in the right team when a problem needs further review",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "2a2227ca3a396266-h09",
-      "text": "Reconcile customer account information",
-      "source_span": "reconcile account information",
+      "duty_id": "2a2227ca3a396266-15",
+      "text": "Bring in the right team when a problem needs further review",
+      "source_span": "Resolve issues promptly and bring in the right team when a problem needs further review",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "2a2227ca3a396266-h10",
-      "text": "Arrange and monitor approved payment schedules",
+      "duty_id": "2a2227ca3a396266-16",
+      "text": "Investigate complex account balances",
+      "source_span": "Investigate complex account balances and recommend next steps based on the facts, customer history, and payment risk",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-17",
+      "text": "Recommend next steps based on the facts, customer history, and payment risk",
+      "source_span": "Investigate complex account balances and recommend next steps based on the facts, customer history, and payment risk",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-18",
+      "text": "Research invoice discrepancies",
+      "source_span": "Research invoice and payment discrepancies, reconcile account information, and work with the appropriate teams to resolve customers’ AR/AP questions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-19",
+      "text": "Research payment discrepancies",
+      "source_span": "Research invoice and payment discrepancies, reconcile account information, and work with the appropriate teams to resolve customers’ AR/AP questions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-20",
+      "text": "Reconcile account information",
+      "source_span": "Research invoice and payment discrepancies, reconcile account information, and work with the appropriate teams to resolve customers’ AR/AP questions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-21",
+      "text": "Work with the appropriate teams to resolve customers’ AR/AP questions",
+      "source_span": "Research invoice and payment discrepancies, reconcile account information, and work with the appropriate teams to resolve customers’ AR/AP questions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-22",
+      "text": "Arrange approved payment schedules for overdue accounts",
       "source_span": "Work with Credit to arrange and monitor approved payment schedules for overdue accounts",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "2a2227ca3a396266-h11",
-      "text": "Lead biweekly receivables reviews with business leaders",
-      "source_span": "Lead biweekly reviews with business leaders on open receivables",
+      "duty_id": "2a2227ca3a396266-23",
+      "text": "Monitor approved payment schedules for overdue accounts",
+      "source_span": "Work with Credit to arrange and monitor approved payment schedules for overdue accounts",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "2a2227ca3a396266-h12",
-      "text": "Resolve payment delays with Credit, Sales, Disputes and Legal",
-      "source_span": "Work with Credit, Account Management, Sales, Disputes, and Legal to resolve issues that delay payment",
+      "duty_id": "2a2227ca3a396266-24",
+      "text": "Lead biweekly reviews with business leaders on open receivables, collection risks, and the actions needed to resolve them",
+      "source_span": "Lead biweekly reviews with business leaders on open receivables, collection risks, and the actions needed to resolve them",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "2a2227ca3a396266-h13",
-      "text": "Use AI tools to summarize account histories and draft follow-ups",
-      "source_span": "Use approved AI tools to summarize account histories, analyze aging data, and draft follow-ups",
+      "duty_id": "2a2227ca3a396266-25",
+      "text": "Work with Credit, Account Management, Sales, Disputes, and Legal to resolve issues that delay payment while maintaining professional customer relationships",
+      "source_span": "Work with Credit, Account Management, Sales, Disputes, and Legal to resolve issues that delay payment while maintaining professional customer relationships",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "2a2227ca3a396266-h14",
-      "text": "Test and document process improvements",
+      "duty_id": "2a2227ca3a396266-26",
+      "text": "Use approved AI tools to summarize account histories",
+      "source_span": "Use approved AI tools to summarize account histories",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-27",
+      "text": "Use approved AI tools to analyze aging data",
+      "source_span": "Use approved AI tools to analyze aging data",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-28",
+      "text": "Use approved AI tools to draft follow-ups",
+      "source_span": "Use approved AI tools to draft follow-ups",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-29",
+      "text": "Verify amounts and claims before acting",
+      "source_span": "Verify amounts and claims before acting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-30",
+      "text": "Protect customer information",
+      "source_span": "protect customer information",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-31",
+      "text": "Work with the AR manager to test and document process improvements",
       "source_span": "work with the AR manager to test and document process improvements",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "2a2227ca3a396266-h15",
-      "text": "Support month-end close activities",
+      "duty_id": "2a2227ca3a396266-32",
+      "text": "Support Finance and Accounting with month-end close activities",
       "source_span": "Support Finance and Accounting with month-end close activities",
       "is_boilerplate": false,
       "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-33",
+      "text": "Maintain accurate account records",
+      "source_span": "accurate account records",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-34",
+      "text": "Other projects as needed",
+      "source_span": "other projects as needed",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "2a2227ca3a396266-35",
+      "text": "Strong performance and ownership of results in work, school, or projects you’ve pursued",
+      "source_span": "Strong performance and ownership of results in work, school, or projects you’ve pursued",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2227ca3a396266-36",
+      "text": "The ability to learn unfamiliar processes and systems quickly, ask thoughtful questions, and apply feedback",
+      "source_span": "The ability to learn unfamiliar processes and systems quickly, ask thoughtful questions, and apply feedback",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2227ca3a396266-37",
+      "text": "Clear written and verbal communication, attention to detail, and the judgment to handle sensitive conversations professionally",
+      "source_span": "Clear written and verbal communication, attention to detail, and the judgment to handle sensitive conversations professionally",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2227ca3a396266-38",
+      "text": "Persistence and initiative: you follow up, find practical ways to resolve issues, and take responsibility for results",
+      "source_span": "Persistence and initiative: you follow up, find practical ways to resolve issues, and take responsibility for results",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2227ca3a396266-39",
+      "text": "The ability to work independently and with others, manage competing priorities, and stay organized as workloads change",
+      "source_span": "The ability to work independently and with others, manage competing priorities, and stay organized as workloads change",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2227ca3a396266-40",
+      "text": "Hands-on experience using generative AI to research, analyze, or improve a recurring task",
+      "source_span": "Hands-on experience using generative AI to research, analyze, or improve a recurring task",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2227ca3a396266-41",
+      "text": "You can explain how you used it and checked the results",
+      "source_span": "You can explain how you used it and checked the results",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2227ca3a396266-42",
+      "text": "Strong problem-solving skills: you can investigate a discrepancy, identify what is missing, and follow the issue through resolution",
+      "source_span": "Strong problem-solving skills: you can investigate a discrepancy, identify what is missing, and follow the issue through resolution",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2227ca3a396266-43",
+      "text": "Sound judgment about AI output and confidential data",
+      "source_span": "Sound judgment about AI output and confidential data",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2227ca3a396266-44",
+      "text": "You verify facts and figures, recognize when an answer is unreliable, and know when to seek human review",
+      "source_span": "You verify facts and figures, recognize when an answer is unreliable, and know when to seek human review",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2227ca3a396266-45",
+      "text": "Comfort working with numbers and spreadsheets",
+      "source_span": "Comfort working with numbers and spreadsheets",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2227ca3a396266-46",
+      "text": "You can organize information, spot inconsistencies, and learn the Excel or Google Sheets tools needed to investigate account balances",
+      "source_span": "You can organize information, spot inconsistencies, and learn the Excel or Google Sheets tools needed to investigate account balances",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "2a2227ca3a396266-47",
+      "text": "Collections, finance, customer service, and experience with NetSuite, Tesorio, or Stripe are helpful but optional",
+      "source_span": "Collections, finance, customer service, and experience with NetSuite, Tesorio, or Stripe are helpful but optional",
+      "is_boilerplate": false,
+      "is_requirement": true
     }
   ],
   "posted_at": "2026-10-12T13:07:47-04:00",
   "source_url": "https://job-boards.greenhouse.io/flexport/jobs/8273282",
-  "fetched_at": "2026-10-21T03:26:56.710Z",
-  "prompt_version": "hand-labelled",
+  "fetched_at": "2026-10-21T17:34:15.447Z",
+  "prompt_version": "extract-v1",
   "text": "About Flexport:\n\nAt Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise across 112 countries a year.\n\nThe recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people. Ready to tackle global challenges that impact business, society, and the environment? Come join us.\n\nThe Opportunity\n\nWe’re looking for an Accounts Receivable Collections Analyst to manage a portfolio of customer accounts and help collect payments on time. You’ll investigate overdue balances, resolve payment issues, and build relationships with customers’ Accounts Payable teams.\n\nThis role calls for persistence, careful analysis, and good judgment in sensitive conversations. You’ll work with teams across Flexport and use AI and automation to improve daily collections work. The role reports to the Head of North American Collections.\n\nYou Will\n\n• Manage collections for assigned accounts through email and phone outreach. Prioritize overdue balances and follow through on commitments to help meet cash collection and days sales outstanding (DSO) targets.\n\n• Review account aging and collection activity daily. Keep records of customer conversations, payment promises, disputes, and next steps accurate and up to date.\n\n• Build relationships with customers’ Accounts Payable teams and act as their point of contact for collections and payment questions.\n\n• Coordinate incoming requests and handle initial escalations. Resolve issues promptly and bring in the right team when a problem needs further review.\n\n• Investigate complex account balances and recommend next steps based on the facts, customer history, and payment risk.\n\n• Research invoice and payment discrepancies, reconcile account information, and work with the appropriate teams to resolve customers’ AR/AP questions.\n\n• Work with Credit to arrange and monitor approved payment schedules for overdue accounts.\n\n• Lead biweekly reviews with business leaders on open receivables, collection risks, and the actions needed to resolve them.\n\n• Work with Credit, Account Management, Sales, Disputes, and Legal to resolve issues that delay payment while maintaining professional customer relationships.\n\n• Use approved AI tools to summarize account histories, analyze aging data, and draft follow-ups. Verify amounts and claims before acting, protect customer information, and work with the AR manager to test and document process improvements.\n\n• Support Finance and Accounting with month-end close activities, accurate account records, and other projects as needed.\n\nSuccess in Your First Year\n\n• Your assigned accounts have clear action plans, reliable records, and consistent follow-up.\n\n• Collection performance improves against agreed targets, with overdue balances and disputes addressed promptly.\n\n• Customers and internal partners receive clear answers and dependable service.\n\n• You use AI and process improvements to reduce manual work while maintaining accuracy and financial controls.\n\nYou Should Have\n\n• Strong performance and ownership of results in work, school, or projects you’ve pursued.\n\n• The ability to learn unfamiliar processes and systems quickly, ask thoughtful questions, and apply feedback.\n\n• Clear written and verbal communication, attention to detail, and the judgment to handle sensitive conversations professionally.\n\n• Persistence and initiative: you follow up, find practical ways to resolve issues, and take responsibility for results.\n\n• The ability to work independently and with others, manage competing priorities, and stay organized as workloads change.\n\n• Hands-on experience using generative AI to research, analyze, or improve a recurring task. You can explain how you used it and checked the results.\n\n• Strong problem-solving skills: you can investigate a discrepancy, identify what is missing, and follow the issue through resolution.\n\n• Sound judgment about AI output and confidential data. You verify facts and figures, recognize when an answer is unreliable, and know when to seek human review.\n\n• Comfort working with numbers and spreadsheets. You can organize information, spot inconsistencies, and learn the Excel or Google Sheets tools needed to investigate account balances.\n\n• Collections, finance, customer service, and experience with NetSuite, Tesorio, or Stripe are helpful but optional.\n\nCommitment to Equal Opportunity\n\nAt Flexport, our ability to fulfill our mission of making global commerce easy and accessible relies on having a diverse, dedicated and engaged workforce. All qualified applicants will receive consideration for employment regardless of race, color, religion, sex, national origin, age, physical and mental disability, health status, marital and family status, sexual orientation, gender identity and expression, military and veteran status, and any other characteristic protected by applicable law.\n\nGlobal Data Privacy Notice for Job Candidates and Applicants\n\nDepending on your location, the General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA) may regulate the way we manage the data of job applicants. By submitting your application, you are agreeing to our use and processing of your data as required. Please see our Privacy Notice available at www.flexport.com/privacy for additional information.",
   "extra_salary_lines": [],
   "salary_source": null,

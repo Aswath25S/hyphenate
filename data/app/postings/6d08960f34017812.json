@@ -1,0 +1,854 @@
+{
+  "posting_id": "6d08960f34017812",
+  "company": "Vercel",
+  "slug": "vercel",
+  "domain": "vercel.com",
+  "title": "Senior Accountant",
+  "role_family": "GL",
+  "seniority": "senior",
+  "n": 18,
+  "C": 3,
+  "A": 3,
+  "covered_share": 0.16666666666666666,
+  "overlap": 0.3333333333333333,
+  "weighted_overlap": 0.25,
+  "thin": false,
+  "salary_min": 120000,
+  "salary_max": 140000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 10000,
+  "savings_reason": null,
+  "lead_product": "GL accounting",
+  "product_split": {
+    "GL accounting": {
+      "covered": 3,
+      "assisted": 2,
+      "weighted": 4
+    },
+    "Reporting": {
+      "covered": 0,
+      "assisted": 1,
+      "weighted": 0.5
+    }
+  },
+  "erp": [],
+  "tools": [],
+  "posted_at": "2026-10-09T12:20:18-04:00",
+  "source_url": "https://job-boards.greenhouse.io/vercel/jobs/6196563004",
+  "locations": [
+    "Hybrid - San Francisco",
+    "San Francisco, California, United States"
+  ],
+  "remote": "hybrid",
+  "excluded": null,
+  "text": "About Vercel:\n\nVercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience.\n\nNow we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide.\n\nAbout the role\n\nThe Senior Accountant will play a key role in supporting and scaling Vercel’s accounting operations as the company continues to grow and mature, to operate at standards expected for a public company. Reporting to the Sr. Accounting Manager, this role will own assigned operational accounting areas and be a key contributor to the monthly and quarterly close, ensuring accurate and timely financial information to support FP&A and business decision-making.\n\nThis position will have hands-on responsibility for key accounting areas, including but not limited to accruals, lease accounting, capitalized commissions, and payroll accounting. This position will also have involvement in the accounting for subsidiaries related to M&A activity. The Senior Accountant will collaborate closely with internal teams and external providers to support process improvements, automation, and consistency across the accounting function in a fast-paced, high-growth environment.\n\nIf you’re based within a pre-determined commuting distance of one of our offices (SF, NY, London, or Berlin), the role includes in-office anchor days on Monday, Tuesday, and Friday. If you're located beyond that distance, the role is fully remote. For location-specific details, please connect with our recruiting team.\n\nWhat you'll do\n\n• Support the monthly and quarterly close process, ensuring accuracy, completeness and timeliness of assigned areas.\n\n• Prepare financial reporting packages and presentations for senior leadership, including detailed fluctuation and trend analyses.\n\n• Prepare account reconciliations and supporting schedules, proactively identifying and resolving discrepancies.\n\n• Partner with FP&A to align accounting results, ensuring consistency between actuals, forecasts, and business drivers.\n\n• Lead or support process improvement and automation initiatives to streamline month-end and quarter-end close activities, improve internal controls, and enhance end-to-end operational effectiveness.\n\n• Build and use AI agents to automate daily activities.\n\n• Support M&A activities as they arise, including onboarding new entities.\n\n• Assist with audit and review processes by preparing documentation, responding to auditor inquiries, and supporting testing efforts.\n\n• Support other special projects as they arise.\n\nWhat you need\n\n• Bachelor’s degree in Accounting or Finance; CPA preferred.\n\n• 3+ years of progressive accounting experience, including a mix of Big 4 public accounting and/or high-growth private company experience.\n\n• Strong understanding of US GAAP - familiarity with FASB ASC standards, and comfortable doing some research independently. Solid foundations in the key accounting areas mentioned above.\n\n• Hands-on, detail-oriented accountant with a strong sense of ownership and the ability to manage multiple priorities.\n\n• Process-oriented and curious, with an interest in leveraging AI, automation, and systems to improve efficiency and accuracy.\n\n• Experience working cross-functionally to align accounting processes with business operations and reporting needs.\n\n• Strong communicator, able to collaborate effectively with cross-functional partners and explain accounting concepts clearly.\n\n• Comfortable operating in a fast-paced and evolving environment.\n\nCompensation & Benefits:\n\n• Competitive compensation package, including equity.\n\n• Inclusive Healthcare Package.\n\n• Learn and Grow - we provide mentorship and send you to events that help you build your network and skills.\n\n• Flexible Time Off.\n\n• We will provide you the gear you need to do your role, and a WFH budget for you to outfit your space as needed.\n\nThe San Francisco, CA base pay range for this role is $120,000 - $140,000. Actual salary will be based on job-related skills, experience, and location. Compensation outside of San Francisco may be adjusted based on employee location. The total compensation package may include benefits, equity-based compensation, and eligibility for a company bonus or variable pay program depending on the role. Your recruiter can share more details during the hiring process.\n\nDisclosures:\n\n• Privacy: Please review our Job Applicant Privacy Policy for more information on how we handle your data.\n\n• Equal Opportunity: Vercel is committed to fostering and empowering an inclusive community within our organization. We do not discriminate on the basis of race, religion, color, gender expression or identity, sexual orientation, national origin, citizenship, age, marital status, veteran status, disability status, or any other characteristic protected by law. Vercel encourages everyone to apply for our available positions, even if they don't necessarily check every box on the job description.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 120000,
+    "max": 140000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The San Francisco, CA base pay range for this role is $120,000 - $140,000."
+  },
+  "complexity": {
+    "multi_entity": true,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "supporting and scaling Vercel’s accounting operations",
+    "to operate at standards expected for a public company",
+    "process improvements, automation, and consistency across the accounting function",
+    "fast-paced, high-growth environment"
+  ],
+  "fetched_at": "2026-10-21T17:34:12.371Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "6d08960f34017812-01",
+      "text": "Support the monthly and quarterly close process",
+      "source_span": "Support the monthly and quarterly close process, ensuring accuracy, completeness and timeliness of assigned areas.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1748,
+        "end": 1862
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.close_checklist",
+      "capability": "Run month-end close checklist tasks",
+      "product": "GL accounting",
+      "confidence": 0.95,
+      "rationale": "Supporting the monthly and quarterly close process is close checklist work done during period-end close.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-02",
+      "text": "Prepare financial reporting packages",
+      "source_span": "financial reporting packages",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1874,
+        "end": 1902
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.94,
+      "rationale": "Preparing financial reporting packages matches building recurring management reports and financial statement packages.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-03",
+      "text": "Prepare presentations for senior leadership",
+      "source_span": "presentations for senior leadership",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1907,
+        "end": 1942
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Preparing presentations for senior leadership is a presentation and communication task done by people.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6d08960f34017812-04",
+      "text": "Prepare detailed fluctuation and trend analyses",
+      "source_span": "detailed fluctuation and trend analyses",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1954,
+        "end": 1993
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.flux",
+      "capability": "Variance (flux) analysis with draft commentary",
+      "product": "GL accounting",
+      "confidence": 0.97,
+      "rationale": "Preparing fluctuation and trend analyses is variance analysis with commentary.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-05",
+      "text": "Prepare account reconciliations",
+      "source_span": "account reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2006,
+        "end": 2029
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.account_recs",
+      "capability": "Balance-sheet account reconciliations",
+      "product": "GL accounting",
+      "confidence": 0.98,
+      "rationale": "Preparing account reconciliations is the core balance-sheet account reconciliation workflow.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-06",
+      "text": "Prepare supporting schedules",
+      "source_span": "supporting schedules",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2034,
+        "end": 2054
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.audit_support",
+      "capability": "Audit trail and support for each entry",
+      "product": "GL accounting",
+      "confidence": 0.72,
+      "rationale": "Preparing supporting schedules is documentation and support work used for audit and close evidence.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-07",
+      "text": "Proactively identify and resolve discrepancies",
+      "source_span": "proactively identifying and resolving discrepancies",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2056,
+        "end": 2107
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.account_recs",
+      "capability": "Balance-sheet account reconciliations",
+      "product": "GL accounting",
+      "confidence": 0.9,
+      "rationale": "Identifying and resolving discrepancies is part of reconciling accounts and clearing reconciling items.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-08",
+      "text": "Partner with FP&A to align accounting results",
+      "source_span": "Partner with FP&A to align accounting results, ensuring consistency between actuals, forecasts, and business drivers.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2112,
+        "end": 2229
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with FP&A to align accounting results is cross-functional collaboration done by people.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6d08960f34017812-09",
+      "text": "Lead or support process improvement initiatives to streamline month-end and quarter-end close activities",
+      "source_span": "Lead or support process improvement and automation initiatives to streamline month-end and quarter-end close activities",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2233,
+        "end": 2352
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.72,
+      "rationale": "Leading or supporting process improvement initiatives is too broad and project-oriented to map cleanly to a specific capability.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "6d08960f34017812-10",
+      "text": "Lead or support automation initiatives to streamline month-end and quarter-end close activities",
+      "source_span": "automation initiatives to streamline month-end and quarter-end close activities",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2273,
+        "end": 2352
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.72,
+      "rationale": "Leading or supporting automation initiatives is a project activity rather than a specific finance-operation workflow.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6d08960f34017812-11",
+      "text": "Improve internal controls",
+      "source_span": "improve internal controls",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2354,
+        "end": 2379
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Improving internal controls requires control design and judgment beyond monitoring or execution.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6d08960f34017812-12",
+      "text": "Enhance end-to-end operational effectiveness",
+      "source_span": "enhance end-to-end operational effectiveness",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2385,
+        "end": 2429
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Enhancing end-to-end operational effectiveness is too vague to map to a specific automated finance duty.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6d08960f34017812-13",
+      "text": "Build and use AI agents to automate daily activities",
+      "source_span": "Build and use AI agents to automate daily activities.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2434,
+        "end": 2487
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Building and using AI agents is a technology initiative rather than a listed finance operations capability.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6d08960f34017812-14",
+      "text": "Support M&A activities as they arise",
+      "source_span": "Support M&A activities as they arise",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2491,
+        "end": 2527
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Supporting M&A activities is too broad and context-dependent to match a specific covered workflow.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "6d08960f34017812-15",
+      "text": "Onboard new entities",
+      "source_span": "onboarding new entities",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2539,
+        "end": 2562
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.79,
+      "rationale": "Onboarding new entities is a setup/project activity that does not match a specific covered finance workflow.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6d08960f34017812-16",
+      "text": "Prepare documentation",
+      "source_span": "preparing documentation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2609,
+        "end": 2632
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Preparing documentation is too vague without a specific accounting or operations action.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6d08960f34017812-17",
+      "text": "Respond to auditor inquiries",
+      "source_span": "responding to auditor inquiries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2634,
+        "end": 2665
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Responding to auditor inquiries involves working with external auditors as a relationship task.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "6d08960f34017812-18",
+      "text": "Support testing efforts",
+      "source_span": "supporting testing efforts",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2671,
+        "end": 2697
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.8,
+      "rationale": "Supporting testing efforts is too vague to determine whether it is controls testing, audit support, or another activity.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "6d08960f34017812-19",
+      "text": "Support other special projects as they arise",
+      "source_span": "Support other special projects as they arise.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 2702,
+        "end": 2747
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-20",
+      "text": "Bachelor’s degree in Accounting or Finance",
+      "source_span": "Bachelor’s degree in Accounting or Finance",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2766,
+        "end": 2808
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-21",
+      "text": "CPA preferred",
+      "source_span": "CPA preferred",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2810,
+        "end": 2823
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-22",
+      "text": "3+ years of progressive accounting experience",
+      "source_span": "3+ years of progressive accounting experience",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2828,
+        "end": 2873
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-23",
+      "text": "Mix of Big 4 public accounting and/or high-growth private company experience",
+      "source_span": "including a mix of Big 4 public accounting and/or high-growth private company experience",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2875,
+        "end": 2963
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-24",
+      "text": "Strong understanding of US GAAP",
+      "source_span": "Strong understanding of US GAAP",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2968,
+        "end": 2999
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-25",
+      "text": "Familiarity with FASB ASC standards",
+      "source_span": "familiarity with FASB ASC standards",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3002,
+        "end": 3037
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-26",
+      "text": "Comfortable doing some research independently",
+      "source_span": "comfortable doing some research independently",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3043,
+        "end": 3088
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-27",
+      "text": "Solid foundations in the key accounting areas mentioned above",
+      "source_span": "Solid foundations in the key accounting areas mentioned above",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3090,
+        "end": 3151
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-28",
+      "text": "Hands-on, detail-oriented accountant with a strong sense of ownership and the ability to manage multiple priorities",
+      "source_span": "Hands-on, detail-oriented accountant with a strong sense of ownership and the ability to manage multiple priorities",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3156,
+        "end": 3271
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-29",
+      "text": "Process-oriented and curious",
+      "source_span": "Process-oriented and curious",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3276,
+        "end": 3304
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-30",
+      "text": "Interest in leveraging AI, automation, and systems to improve efficiency and accuracy",
+      "source_span": "with an interest in leveraging AI, automation, and systems to improve efficiency and accuracy",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3306,
+        "end": 3399
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-31",
+      "text": "Experience working cross-functionally to align accounting processes with business operations and reporting needs",
+      "source_span": "Experience working cross-functionally to align accounting processes with business operations and reporting needs",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3404,
+        "end": 3516
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-32",
+      "text": "Strong communicator",
+      "source_span": "Strong communicator",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3521,
+        "end": 3540
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-33",
+      "text": "Collaborate effectively with cross-functional partners",
+      "source_span": "collaborate effectively with cross-functional partners",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3550,
+        "end": 3604
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-34",
+      "text": "Explain accounting concepts clearly",
+      "source_span": "explain accounting concepts clearly",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3609,
+        "end": 3644
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "6d08960f34017812-35",
+      "text": "Comfortable operating in a fast-paced and evolving environment",
+      "source_span": "Comfortable operating in a fast-paced and evolving environment",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3649,
+        "end": 3711
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

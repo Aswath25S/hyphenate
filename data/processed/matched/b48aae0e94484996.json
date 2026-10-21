@@ -1,0 +1,168 @@
+{
+  "posting_id": "b48aae0e94484996",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "b48aae0e94484996-01",
+      "label": "unclear",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.54,
+      "rationale": "The action is preparing and supporting internal reporting, which fits management reporting even though external filings are not directly covered.",
+      "model_label": "assisted",
+      "adjusted": "confidence 0.54 below 0.6"
+    },
+    {
+      "duty_id": "b48aae0e94484996-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Drafting financial statements, footnotes, and schedules is reporting work that is not explicitly covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b48aae0e94484996-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Detailed tie-outs across reporting materials are reconciliation work, but no matching reporting or reconciliation capability is listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b48aae0e94484996-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Equity accounting under ASC 718 is explicitly excluded from the fixed-asset/prepaids/lease accounting capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b48aae0e94484996-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Preparing stock-based compensation journal entries is equity compensation accounting, which is specifically not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b48aae0e94484996-06",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Preparing reconciliations is too vague to determine whether it is a bank, GL, or another type of reconciliation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b48aae0e94484996-07",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Perform activity analysis is too nonspecific to map confidently to any listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b48aae0e94484996-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Prepare related reporting is too vague to identify the specific reporting action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b48aae0e94484996-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Researching and analyzing GAAP and SEC guidance is technical accounting judgment rather than a platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b48aae0e94484996-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Technical accounting memorandums require professional accounting judgment and interpretation of novel guidance.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b48aae0e94484996-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Implementing new or evolving accounting requirements is policy and judgment work rather than a standard automated workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b48aae0e94484996-12",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.9,
+      "rationale": "Supporting external audits aligns with audit support, while SOX compliance is also in the controls area.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b48aae0e94484996-13",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.95,
+      "rationale": "Preparing documentation and audit schedules matches audit support and PBC-style audit assistance.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b48aae0e94484996-14",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Respond to inquiries is too vague without knowing whether the inquiries are customer, auditor, or internal requests.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b48aae0e94484996-15",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.98,
+      "rationale": "Maintaining internal control documentation is explicitly part of monitoring manual entries and close controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b48aae0e94484996-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering across teams to ensure reporting accuracy is collaborative advisory work rather than an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b48aae0e94484996-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Improving and automating workflows is a broad process-improvement duty that does not map cleanly to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "b48aae0e94484996-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Using software tools is not a finance-operating duty with a specific covered action in the map.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

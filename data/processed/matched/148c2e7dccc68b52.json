@@ -1,0 +1,357 @@
+{
+  "posting_id": "148c2e7dccc68b52",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "148c2e7dccc68b52-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Serving as a finance business partner to leadership is advising and partnering with other teams, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Owning budgets is FP&A planning work, which is outside the listed capabilities and fits budgeting-model automation potential.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering on spend decisions is advisory decision support for another team, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Flagging risks early is advisory partnering rather than a specific finance operations workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Flagging trade-offs early is business advising and judgment, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Flagging reallocation opportunities early is advisory planning support for leadership, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Owning the annual operating plan is FP&A budgeting and planning, which has no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Managing headcount plans is budgeting/planning work rather than a covered finance operations capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Managing hiring plans is planning work and not the same as hiring staff or another covered capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Managing vendor spend is spend-planning and budget control work outside the capability map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Managing program spend is FP&A planning/control work with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Preparing quarterly reforecasts is forecasting/modeling work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-13",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.9,
+      "rationale": "Owning monthly close is running the month-end close checklist and completion process.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-14",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.91,
+      "rationale": "Owning monthly accruals involves estimating and recording accruals from history and other inputs.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Budget-versus-actual analysis with forward-looking commentary is FP&A analysis, which has no listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Building a portfolio view of product investment is a planning and modeling task outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Tracking spend by product line is reporting/planning analysis with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Tracking what product investment returns is ROI analysis and business-case work outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Determining roadmap funding is a resource-allocation decision, which is human judgment and planning.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Determining resource allocation is a planning decision rather than a listed finance operations capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-21",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Bringing cost of revenue into the view is model-building and analysis work outside the capability map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-22",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Bringing product unit economics into the view is FP&A modeling and analysis with no direct match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Working with the teams that own the underlying cost data is cross-functional partnering and coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-24",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Building cost-to-serve analytics is analytical modeling work but not a listed covered or assisted capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Analyzing support cost by account is a custom analytical exercise outside the capability map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-26",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Analyzing support cost by segment is custom reporting and analysis without a matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-27",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Analyzing the economics of deflection is business-case analysis rather than a listed workflow.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-28",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Analyzing AI-assisted support economics is analytical planning work outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-29",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Building business cases for new product investments is FP&A decision support with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-30",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Building business cases for major roadmap decisions is strategic planning work outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-31",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Analyzing the economics of retiring products is a strategic business-case exercise, not a covered workflow.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-32",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Analyzing the economics of consolidating products is strategic planning analysis outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-33",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Providing Pricing with unit economics is advising another team, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-34",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Providing Pricing with unit economics for monetization changes is cross-functional advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-35",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Co-owning monthly financial reviews with a product lead is partnering and presenting to another team.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-36",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Co-owning quarterly financial reviews with a product lead is collaborative review and presentation work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-37",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Improving data models is too vague to map to a specific covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-38",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Reducing manual assembly is repetitive finance work that could be automated but has no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "148c2e7dccc68b52-39",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Applying AI to recurring analysis is an implementation initiative and is too vague to judge precisely.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "posting_id": "96cb95b911be868a",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "96cb95b911be868a-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Maintaining payroll data is repetitive payroll administration with no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Reviewing payroll data is payroll validation work that is not covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Validating payroll data is routine payroll operations that do not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Processing final paycheck payments is payroll processing, which is outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Processing payroll adjustments is routine payroll payment work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Processing special pay is payroll processing that is not covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Processing employee expense reports is a rules-based AP/expense task that is not in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Approving expense reports is a budget-owner approval decision, which is explicitly human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Managing the travel platform is system administration work that does not match a listed finance-operations capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Maintaining payroll compliance requires interpreting laws and policies, which is human judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-11",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.83,
+      "rationale": "Maintaining accrued PTO schedules is an accruals task similar to estimating and maintaining expense accrual schedules.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Auditing payroll tax records is compliance review work that is not covered by the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Leading the annual 401k audit is managing an audit relationship, which is human work by definition.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Leading the annual workers compensation audit is managing an audit relationship, which is human work by definition.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-15",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.95,
+      "rationale": "Assisting with the financial statement audit matches providing audit support and documentation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-16",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.84,
+      "rationale": "Creating and maintaining process documentation and internal controls fits monitoring and documenting key controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-17",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.97,
+      "rationale": "Reconciling payroll data to financial records is a balance-sheet account reconciliation task.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-18",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.96,
+      "rationale": "Preparing payroll-related journal entries matches preparing and posting journal entries.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Addressing employee payroll inquiries is support work that does not map to a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Addressing employee payroll concerns is support work that does not map to a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Providing exceptional customer service and support is too vague to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Staying updated on tax regulations is too vague and descriptive to map to a specific automation capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-23",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.68,
+      "rationale": "Providing standard and ad-hoc payroll reports matches building recurring internal reports and reporting packages.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-24",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.95,
+      "rationale": "Providing commentary on flux and trends matches variance analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Administering payroll systems is system administration work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-26",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Maintaining payroll systems is system administration work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-27",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Ensuring data integrity is too vague to determine a specific finance-operation capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-28",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Implementing system upgrades and enhancements is a project activity that is too vague to map precisely.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Collaborating with HR, finance, and other departments is cross-functional partnering, which is human work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-30",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Validating payroll information is routine data checking that does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-31",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Maintaining employee data changes in spend platforms is administrative data upkeep with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-32",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Maintaining manager and department updates in spend platforms is administrative data upkeep with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-33",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Maintaining employee benefit allocations is an allocation/administration task that does not match the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-34",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Maintaining employee program trackers is administrative tracking work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "96cb95b911be868a-35",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.96,
+      "rationale": "Performing monthly flux analysis for payroll expense accounts matches variance analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

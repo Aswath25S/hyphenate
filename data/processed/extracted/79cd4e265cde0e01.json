@@ -1,0 +1,316 @@
+{
+  "posting_id": "79cd4e265cde0e01",
+  "company": "Two Chairs",
+  "domain": "twochairs.com",
+  "title": "Corporate FP&A Manager",
+  "role_family": "Reporting_FPA",
+  "seniority": "manager",
+  "locations": [
+    "Remote, United States",
+    "Remote"
+  ],
+  "remote": "remote",
+  "salary": {
+    "min": 145000,
+    "max": 161000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "New hires can reasonably expect an offer between $145,000 and $161,000."
+  },
+  "erp": [],
+  "tools": [
+    "Pigment",
+    "Adaptive"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "rapid growth",
+    "scale rapidly",
+    "high ambiguity and limited structure",
+    "from the ground up",
+    "wearing many hats",
+    "ad hoc projects"
+  ],
+  "duties": [
+    {
+      "duty_id": "79cd4e265cde0e01-01",
+      "text": "Lead planning, budgeting & reporting",
+      "source_span": "Lead planning, budgeting & reporting (50%)",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-02",
+      "text": "Develop accurate forecasts and financial models for all headcount & vendor investments",
+      "source_span": "develop accurate forecasts and financial models for all headcount & vendor investments",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-03",
+      "text": "Establish core reporting packages for holistic functional and departmental budgets",
+      "source_span": "establish core reporting packages for holistic functional and departmental budgets",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-04",
+      "text": "Lead the bi-annual corporate budgeting process, ensuring visibility and accuracy into assumptions for costs across all departments.",
+      "source_span": "Lead the bi-annual corporate budgeting process, ensuring visibility and accuracy into assumptions for costs across all departments.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-05",
+      "text": "Support Leadership & Finance Team visibility into resource allocation, ensuring spend is aligned with financial targets and short- and long-term strategic priorities.",
+      "source_span": "Support Leadership & Finance Team visibility into resource allocation, ensuring spend is aligned with financial targets and short- and long-term strategic priorities.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-06",
+      "text": "Provide timely analysis & insights into period-over-period and actual vs. forecast performance.",
+      "source_span": "Partner with Accounting to provide timely analysis & insights into period-over-period and actual vs. forecast performance.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-07",
+      "text": "Design and build financial processes that are scalable and sustainable",
+      "source_span": "Design and build financial processes that are scalable and sustainable (30%)",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-08",
+      "text": "Continuously evaluate our financial processes and systems",
+      "source_span": "Continuously evaluate our financial processes and systems",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-09",
+      "text": "Identify areas for improvement",
+      "source_span": "identifying areas for improvement",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-10",
+      "text": "Implement best practices",
+      "source_span": "implementing best practices",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-11",
+      "text": "Recommend enhancements to streamline financial operations.",
+      "source_span": "recommending enhancements to streamline financial operations.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-12",
+      "text": "Scope, roadmap, and implement financial planning software (Pigment, Adaptive) that improves efficiency and visibility for plan setting & ongoing variance reporting.",
+      "source_span": "Scope, roadmap, and implement financial planning software (Pigment, Adaptive) that improves efficiency and visibility for plan setting & ongoing variance reporting.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-13",
+      "text": "Establish and rollout policies & processes to enable seamless headcount and vendor management.",
+      "source_span": "Establish and rollout policies & processes to enable seamless headcount and vendor management.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-14",
+      "text": "Partner with the key cross-functional stakeholders, such as People, Operations, and technical teams, to build effective, efficient systems for the company’s long-term growth",
+      "source_span": "Partner with the key cross-functional stakeholders, such as People, Operations, and technical teams, to build effective, efficient systems for the company’s long-term growth",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-15",
+      "text": "Serve as the primary point of contact for budgeting across the organization.",
+      "source_span": "Serve as the primary point of contact for budgeting across the organization.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-16",
+      "text": "Build ROI-based business cases",
+      "source_span": "build ROI-based business cases",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-17",
+      "text": "Evaluate tradeoffs for new investments, aligning team needs and company priorities.",
+      "source_span": "evaluate tradeoffs for new investments, aligning team needs and company priorities.",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-18",
+      "text": "Serve as the primary budget lead for Two Chairs to various external stakeholders and vendors",
+      "source_span": "Serve as the primary budget lead for Two Chairs to various external stakeholders and vendors; manage and organize contracts, renewals, and responses in a timely and accurate manner",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-19",
+      "text": "Manage and organize contracts, renewals, and responses in a timely and accurate manner",
+      "source_span": "manage and organize contracts, renewals, and responses in a timely and accurate manner",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-20",
+      "text": "Conduct due diligence and analysis on new systems and processes as appropriate",
+      "source_span": "conduct due diligence and analysis on new systems and processes as appropriate",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-21",
+      "text": "Partner with Accounting to deliver cash management and bank reviews",
+      "source_span": "Partner with Accounting to deliver cash management and bank reviews",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-22",
+      "text": "Support the finance team and broader organization with ad hoc projects",
+      "source_span": "Support the finance team and broader organization with ad hoc projects",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-23",
+      "text": "Lead a regular cadence of end-to-end budget reporting and analysis to provide better visibility for key stakeholders",
+      "source_span": "Lead a regular cadence of end-to-end budget reporting and analysis to provide better visibility for key stakeholders",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-24",
+      "text": "Improve company margin by identifying areas of opportunity to build in efficiencies",
+      "source_span": "Embed with the finance team to improve company margin by identifying areas of opportunity to build in efficiencies, aligning spend by department to revenue and growth outcomes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-25",
+      "text": "Align spend by department to revenue and growth outcomes",
+      "source_span": "aligning spend by department to revenue and growth outcomes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-26",
+      "text": "Identify, plan, and implement a robust planning system that can scale rapidly with our business",
+      "source_span": "Identify, plan, and implement a robust planning system that can scale rapidly with our business",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-27",
+      "text": "Manage and develop our Senior Financial Analyst, as a key contributor to a high performing FP&A team",
+      "source_span": "Manage and develop our Senior Financial Analyst, as a key contributor to a high performing FP&A team",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-28",
+      "text": "Build a long-term plan for Planning & Budgeting at Two Chairs, including team growth and tech enablement, to support our 3+ year growth plans",
+      "source_span": "Build a long-term plan for Planning & Budgeting at Two Chairs, including team growth and tech enablement, to support our 3+ year growth plans",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-29",
+      "text": "4+ years of experience in a FP&A, financial operations, or other highly analytical role at a high-growth startup/tech company",
+      "source_span": "4+ years of experience in a FP&A, financial operations, or other highly analytical role at a high-growth startup/tech company",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-30",
+      "text": "2+ years of people management",
+      "source_span": "including 2+ years of people management",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-31",
+      "text": "Knowledge of financial systems and processes, and an eye toward continuous improvement",
+      "source_span": "Knowledge of financial systems and processes, and an eye toward continuous improvement",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-32",
+      "text": "Exceptional attention to detail and a sense of pride in driving operational excellence",
+      "source_span": "exceptional attention to detail and a sense of pride in driving operational excellence",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-33",
+      "text": "Experience with budgeting, vendor management, expense forecast vs. actuals reporting, and/or data tools",
+      "source_span": "Experience with budgeting, vendor management, expense forecast vs. actuals reporting, and/or data tools",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-34",
+      "text": "Highly organized with the ability to manage multiple projects at once and build thoughtful, structured processes from the ground up",
+      "source_span": "Highly organized with the ability to manage multiple projects at once and build thoughtful, structured processes from the ground up",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-35",
+      "text": "Adaptable and comfortable operating in fast-paced environments with high ambiguity and limited structure; bias toward action to create and build processes in a scalable way",
+      "source_span": "Adaptable and comfortable operating in fast-paced environments with high ambiguity and limited structure; bias toward action to create and build processes in a scalable way",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-36",
+      "text": "Excellent written and verbal communication skills, with the ability to articulate actionable conclusions to various stakeholders",
+      "source_span": "Excellent written and verbal communication skills, with the ability to articulate actionable conclusions to various stakeholders",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-37",
+      "text": "Highly collaborative with a team-first mentality, willing to roll up sleeves and dive in where needed; comfortable wearing many hats and managing competing priorities",
+      "source_span": "Highly collaborative with a team-first mentality, willing to roll up sleeves and dive in where needed; comfortable wearing many hats and managing competing priorities",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-38",
+      "text": "Desire to work in a high-growth, mission-driven startup environment",
+      "source_span": "Desire to work in a high-growth, mission-driven startup environment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-10-06T20:19:40-04:00",
+  "source_url": "https://www.twochairs.com/careers?gh_jid=8868148002",
+  "fetched_at": "2026-10-21T17:34:53.664Z",
+  "prompt_version": "extract-v1",
+  "text": "Two Chairs is building a new kind of mental health system based on the idea that the status quo isn’t good enough. Industry-best clinician experiences, better client outcomes, groundbreaking innovation, and access to the highest quality care are how we’ll raise the bar for the entire industry. With that, we're excited and honored to have been recognized as a 2025 Great Place to Work and 2025 Fortune’s Best Workplaces in Healthcare.\n\nOne of our company values is \"Embrace Differences\" and diversity, equity, inclusion, and belonging are the principles guiding how we build our business and teams. We encourage interested candidates from all backgrounds to apply even if they don't think they meet some expectations of the role.\n\nAbout the role\nAs Two Chairs enters its next phase of rapid growth, we’re looking to add a FP&A Manager to our dynamic Finance team. You’ll work closely with the Head of FP&A, CFO, Controller, company leadership, and partners across our marketplace operations, talent acquisition, demand generation, and clinical teams to drive meaningful business impact and power our company-wide forecasting & planning. In helping the company scale rapidly and efficiently, you’ll build and improve systems and processes, setting the company up to support its rapid growth plans for years to come. If you have great attention to detail, love building process & systems, and are highly analytical, structured, and collaborative, this is your role!\n\nYou'll be responsible for leading headcount planning & budgeting, managing holistic expense & cash forecasting, supporting strategic initiatives (including the path to profitability), and developing highly scalable financial foundations.\n\nCore Areas of Responsibility\n\n• Lead planning, budgeting & reporting (50%)\n\n• Collaborate with key stakeholders to develop accurate forecasts and financial models for all headcount & vendor investments, and establish core reporting packages for holistic functional and departmental budgets.\n\n• Lead the bi-annual corporate budgeting process, ensuring visibility and accuracy into assumptions for costs across all departments.\n\n• Support Leadership & Finance Team visibility into resource allocation, ensuring spend is aligned with financial targets and short- and long-term strategic priorities.\n\n• Partner with Accounting to provide timely analysis & insights into period-over-period and actual vs. forecast performance.\n\n• Design and build financial processes that are scalable and sustainable (30%)\n\n• Continuously evaluate our financial processes and systems: identifying areas for improvement, implementing best practices and recommending enhancements to streamline financial operations.\n\n• Scope, roadmap, and implement financial planning software (Pigment, Adaptive) that improves efficiency and visibility for plan setting & ongoing variance reporting.\n\n• Establish and rollout policies & processes to enable seamless headcount and vendor management.\n\n• Partner with People, Engineering, Product, Business Development, Operations, and other cross-functional partners to enable better business decisions (20%)\n\n• Serve as the primary point of contact for budgeting across the organization.\n\n• Work closely with other teams to build ROI-based business cases, and evaluate tradeoffs for new investments, aligning team needs and company priorities.\n\nImpact and Success Indicators\n\nWhere you’ll make an impact in the first 90 days:\n\n• Serve as the primary budget lead for Two Chairs to various external stakeholders and vendors; manage and organize contracts, renewals, and responses in a timely and accurate manner\n\n• Partner with the key cross-functional stakeholders, such as People, Operations, and technical teams, to build effective, efficient systems for the company’s long-term growth; conduct due diligence and analysis on new systems and processes as appropriate\n\n• Partner with Accounting to deliver cash management and bank reviews\n\n• Support the finance team and broader organization with ad hoc projects\n\nWhere you’ll make an impact in the first year:\n\n• Lead a regular cadence of end-to-end budget reporting and analysis to provide better visibility for key stakeholders\n\n• Embed with the finance team to improve company margin by identifying areas of opportunity to build in efficiencies, aligning spend by department to revenue and growth outcomes\n\n• Identify, plan, and implement a robust planning system that can scale rapidly with our business\n\n• Manage and develop our Senior Financial Analyst, as a key contributor to a high performing FP&A team\n\n• Build a long-term plan for Planning & Budgeting at Two Chairs, including team growth and tech enablement, to support our 3+ year growth plans\n\nYou’ll be successful if you have:\n\n• 4+ years of experience in a FP&A, financial operations, or other highly analytical role at a high-growth startup/tech company, including 2+ years of people management\n\n• Knowledge of financial systems and processes, and an eye toward continuous improvement; exceptional attention to detail and a sense of pride in driving operational excellence\n\n• Experience with budgeting, vendor management, expense forecast vs. actuals reporting, and/or data tools\n\n• Highly organized with the ability to manage multiple projects at once and build thoughtful, structured processes from the ground up\n\n• Adaptable and comfortable operating in fast-paced environments with high ambiguity and limited structure; bias toward action to create and build processes in a scalable way\n\n• Excellent written and verbal communication skills, with the ability to articulate actionable conclusions to various stakeholders\n\n• Highly collaborative with a team-first mentality, willing to roll up sleeves and dive in where needed; comfortable wearing many hats and managing competing priorities\n\n• Desire to work in a high-growth, mission-driven startup environment\n\nCompensation & Benefits\n\nThe offer range is dependent on qualifications and experience. New hires can reasonably expect an offer between $145,000 and $161,000.\n\nAdditional perks and benefits:\n\n• Equity in a high-growth start-up\n\n• Paid time off, including nine paid holidays and an additional Winter Office Closure from Christmas Day (Observed) through New Year's Day\n\n• Comprehensive medical, dental, and vision coverage\n\n• 401(k) Retirement savings options\n\n• One-time $200 Work from Home reimbursement\n\n• Annual $1,000 Productivity & Wellness Stipend to support your personal and professional goals\n\n• Annual $500 subsidized company contribution to your healthcare FSA or HSA\n\n• Paid parental leave\n\nOutreach Notice to Applicants\n\nWe are thrilled that you’re interested in joining our team! To ensure a consistent and equitable hiring process for all candidates, we kindly ask that you refrain from reaching out to current employees regarding the role, your application, or the interview process. Our talent acquisition team is committed to carefully reviewing all applications and will reach out directly if they decide to move forward.\n\nIf you need a reasonable accommodation, please let your recruiter know so our People Team can assist you.\n\nAll applicants must be authorized to work for ANY employer in the U.S. We are unable to sponsor or take over sponsorship of an employment Visa at this time.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

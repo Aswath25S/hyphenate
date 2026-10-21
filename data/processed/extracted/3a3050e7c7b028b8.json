@@ -1,0 +1,351 @@
+{
+  "posting_id": "3a3050e7c7b028b8",
+  "company": "Plaid",
+  "domain": "plaid.com",
+  "title": "Financial Analyst, Corporate FP&A",
+  "role_family": "Reporting_FPA",
+  "seniority": "mid",
+  "locations": [
+    "San Francisco HQ"
+  ],
+  "remote": "unknown",
+  "salary": {
+    "min": 130000,
+    "max": 147000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Job board pay data: $130K – $147K • Offers Equity"
+  },
+  "erp": [],
+  "tools": [
+    "Pigment",
+    "Adaptive",
+    "Anaplan"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "duties": [
+    {
+      "duty_id": "3a3050e7c7b028b8-01",
+      "text": "3+ years of relevant FP&A experience, ideally in Corporate Finance, G&A support, or a broader FP&A role.",
+      "source_span": "3+ years of relevant FP&A experience, ideally in Corporate Finance, G&A support, or a broader FP&A role.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-02",
+      "text": "Take initiative.",
+      "source_span": "you take initiative",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-03",
+      "text": "Follow through on commitments.",
+      "source_span": "follow through on commitments",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-04",
+      "text": "Ask for guidance when needed.",
+      "source_span": "ask for guidance when needed",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-05",
+      "text": "Have a solid foundation in month-end close.",
+      "source_span": "month-end close",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-06",
+      "text": "Have a solid foundation in reporting.",
+      "source_span": "reporting",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-07",
+      "text": "Have a solid foundation in variance analysis.",
+      "source_span": "variance analysis",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-08",
+      "text": "Have a solid foundation in forecasting.",
+      "source_span": "forecasting",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-09",
+      "text": "Have exposure to annual planning.",
+      "source_span": "exposure to annual planning",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-10",
+      "text": "Have a working knowledge of accounting principles.",
+      "source_span": "a working knowledge of accounting principles",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-11",
+      "text": "Build or maintain financial models.",
+      "source_span": "building or maintaining financial models",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-12",
+      "text": "Communicate clearly.",
+      "source_span": "Clear communication",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-13",
+      "text": "Collaborate effectively.",
+      "source_span": "a collaborative approach",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-14",
+      "text": "Explain findings.",
+      "source_span": "explain findings",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-15",
+      "text": "Ask thoughtful questions.",
+      "source_span": "ask thoughtful questions",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-16",
+      "text": "Build relationships with business partners.",
+      "source_span": "build relationships with business partners",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-17",
+      "text": "Be curious about AI.",
+      "source_span": "Curiosity about AI",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-18",
+      "text": "Be curious about automation.",
+      "source_span": "automation",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-19",
+      "text": "Be curious about process improvements.",
+      "source_span": "process improvements",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-20",
+      "text": "Develop systems skills.",
+      "source_span": "developing systems skills",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-21",
+      "text": "Use Pigment, Adaptive, Anaplan, or similar FP&A tools.",
+      "source_span": "Familiarity with Pigment, Adaptive, Anaplan, or similar FP&A tools is a plus.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-22",
+      "text": "Enjoy a fast-paced, high-growth environment.",
+      "source_span": "a fast-paced, high-growth environment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-23",
+      "text": "Learn quickly.",
+      "source_span": "learn quickly",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-24",
+      "text": "Gain experience across multiple areas.",
+      "source_span": "gain experience across multiple areas",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-25",
+      "text": "Stretch beyond your day-to-day responsibilities.",
+      "source_span": "stretching beyond your day-to-day responsibilities",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-26",
+      "text": "Be scrappy.",
+      "source_span": "being scrappy",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-27",
+      "text": "Take on new challenges.",
+      "source_span": "taking on new challenges",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-28",
+      "text": "Improve how work gets done.",
+      "source_span": "improving how work gets done",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-29",
+      "text": "Simplify a process.",
+      "source_span": "simplifying a process",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-30",
+      "text": "Automate a recurring task.",
+      "source_span": "automating a recurring task",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-31",
+      "text": "Make an analysis more useful.",
+      "source_span": "making an analysis more useful",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-32",
+      "text": "Dig into the numbers.",
+      "source_span": "digging into the numbers",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-33",
+      "text": "Understand business drivers.",
+      "source_span": "understanding business drivers",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-34",
+      "text": "Turn findings into clear insights.",
+      "source_span": "turning your findings into clear insights",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-35",
+      "text": "Work closely with Finance, Accounting, and business teams.",
+      "source_span": "working closely with Finance, Accounting, and business teams",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-36",
+      "text": "Build relationships.",
+      "source_span": "building relationships",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-37",
+      "text": "Learn from their perspectives.",
+      "source_span": "learning from their perspectives",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-38",
+      "text": "Develop your systems skills in Pigment.",
+      "source_span": "You’re excited to develop your systems skills in Pigment, our FP&A platform",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-39",
+      "text": "Partner with our systems lead to build models, dashboards, and workflows.",
+      "source_span": "partner with our systems lead to build models, dashboards, and workflows",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-40",
+      "text": "Plaid’s Corporate Finance team leads company-wide financial planning, forecasting, and reporting, delivering strategic insights to internal and external stakeholders.",
+      "source_span": "Plaid’s Corporate Finance team leads company-wide financial planning, forecasting, and reporting, delivering strategic insights to internal and external stakeholders.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-41",
+      "text": "Plaid powers the tools millions of people rely on to live a healthier financial life.",
+      "source_span": "Plaid powers the tools millions of people rely on to live a healthier financial life.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-42",
+      "text": "Our mission at Plaid is to unlock financial freedom for everyone.",
+      "source_span": "Our mission at Plaid is to unlock financial freedom for everyone.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-43",
+      "text": "Plaid is proud to be an equal opportunity employer and values diversity at our company.",
+      "source_span": "Plaid is proud to be an equal opportunity employer and values diversity at our company.",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "3a3050e7c7b028b8-44",
+      "text": "Plaid provides a comprehensive benefit plan, including medical, dental, vision, and 401(k).",
+      "source_span": "Plaid provides a comprehensive benefit plan, including medical, dental, vision, and 401(k).",
+      "is_boilerplate": true,
+      "is_requirement": false
+    }
+  ],
+  "posted_at": "2026-09-24T21:27:32.879+00:00",
+  "source_url": "https://jobs.ashbyhq.com/plaid/4d2f0d16-863d-46c5-bc86-2780a34eff44",
+  "fetched_at": "2026-10-21T17:34:06.617Z",
+  "prompt_version": "extract-v1",
+  "text": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortune 500, and many of the largest banks to make it easy for people to connect their financial accounts to the apps and services they want to use. Plaid’s network covers 12,000 financial institutions across the US, Canada, UK and Europe. Founded in 2013, the company is headquartered in San Francisco with offices in New York, Seattle, Washington D.C., Raleigh, London, and Amsterdam.\n\n\n\nPlaid’s Corporate Finance team leads company-wide financial planning, forecasting, and reporting, delivering strategic insights to internal and external stakeholders. We align financial goals with business objectives to support informed decision-making at the senior leadership and executive levels.\n\n\n\nWhat excites us:\n\n - 3+ years of relevant FP&A experience, ideally in Corporate Finance, G&A support, or a broader FP&A role.\n\n - An “act like an owner” mindset: you take initiative, follow through on commitments, and ask for guidance when needed. You’re eager to learn and take on more responsibility.\n\n - A solid foundation in core FP&A activities, including month-end close, reporting, variance analysis, and forecasting, with exposure to annual planning and a working knowledge of accounting principles.\n\n - Strong analytical skills and experience building or maintaining financial models. You care about accuracy and enjoy understanding the business drivers behind the numbers.\n\n - Clear communication and a collaborative approach, with the ability to explain findings, ask thoughtful questions, and build relationships with business partners.\n\n - Curiosity about AI, automation, and process improvements, with an interest in developing systems skills. Familiarity with Pigment, Adaptive, Anaplan, or similar FP&A tools is a plus.\n\n\n\nWhat excites you:\n\n - You enjoy a fast-paced, high-growth environment where you can learn quickly and gain experience across multiple areas.\n\n - You’re energized by stretching beyond your day-to-day responsibilities, being scrappy, and taking on new challenges that help you learn and grow.\n\n - You like improving how work gets done, whether that means simplifying a process, automating a recurring task, or making an analysis more useful.\n\n - You enjoy digging into the numbers, understanding business drivers, and turning your findings into clear insights that help inform decisions.\n\n - You value working closely with Finance, Accounting, and business teams, building relationships and learning from their perspectives.\n\n - You’re excited to develop your systems skills in Pigment, our FP&A platform, and partner with our systems lead to build models, dashboards, and workflows.\n   \n   \n\nOur mission at Plaid is to unlock financial freedom for everyone. To support that mission, we seek to build a diverse team of driven individuals who care deeply about making the financial ecosystem more equitable. We recognize that strong qualifications can come from both prior work experiences and lived experiences. We encourage you to apply to a role even if your experience doesn't fully match the job description. We are always looking for team members that will bring something unique to Plaid!\n\n\n\nPlaid is proud to be an equal opportunity employer and values diversity at our company. We do not discriminate based on race, color, national origin, ethnicity, religion or religious belief, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, military or veteran status, disability, or other applicable legally protected characteristics. We also consider qualified applicants with criminal histories, consistent with applicable federal, state, and local laws. Plaid is committed to providing reasonable accommodations for candidates with disabilities in our recruiting process. If you need any assistance with your application or interviews due to a disability, please let us know at accommodations@plaid.com.\n\n\n\nPlease review our Candidate Privacy Notice here https://plaid.com/legal/#candidate-privacy-notice.\n\n\nAdditional compensation in the form(s) of equity and/or commission are dependent on the position offered. Plaid provides a comprehensive benefit plan, including medical, dental, vision, and 401(k). Pay is based on factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience and skillset, and location. Pay and benefits are subject to change at any time, consistent with the terms of any applicable compensation or benefit plans.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "ashby"
+}

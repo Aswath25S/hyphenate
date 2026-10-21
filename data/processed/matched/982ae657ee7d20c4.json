@@ -1,0 +1,393 @@
+{
+  "posting_id": "982ae657ee7d20c4",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "982ae657ee7d20c4-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Processing bi-weekly payroll is payroll processing work that is repetitive and rules-based but not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Reconciling payroll before transmission is payroll-specific validation work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Validating confirmed reports is generic payroll review work that is not mapped to a specific capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Monitoring approved time sheet submissions is a timekeeping workflow task with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-05",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Ensuring payroll data transfers is systems-interface administration work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Maintaining a status-change database is payroll master-data administration that does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Maintaining tax withholding data is payroll tax administration and no payroll-tax capability is listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Maintaining benefits deduction data is payroll administration work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Maintaining time-off accrual data is payroll setup work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Researching employee pay and deduction inquiries is repetitive payroll support work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Resolving employee payroll inquiries is support work that does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Providing figures for severance calculations is payroll calculation support that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Providing figures for vacation payout calculations is payroll calculation support with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Assisting with tax notice research is tax support work that is not a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Assisting with agency correspondence is relationship/support work around authorities and has no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-16",
+      "label": "assisted",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.73,
+      "rationale": "Assisting with account reconciliations matches balance-sheet reconciliation work, but the duty is only partial support.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Assisting with payroll tax reporting support is payroll tax filing/reporting support not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-18",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.84,
+      "rationale": "Developing ad hoc payroll reporting is ad hoc reporting work that fits finance analysis support.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-19",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.86,
+      "rationale": "Developing ad hoc financial reporting is ad hoc analysis/reporting work traced to source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-20",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.8,
+      "rationale": "Developing ad hoc operational reporting is ad hoc reporting work that matches finance analysis support.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-21",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Analyzing general ledger journal entries is accounting review work with no direct capability match.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-22",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.98,
+      "rationale": "Preparing general ledger journal entries directly matches journal entry preparation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-23",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Analyzing general ledger reconciliations is reconciliation review work, not a listed core capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-24",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.99,
+      "rationale": "Preparing general ledger reconciliations directly matches balance-sheet account reconciliations.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-25",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.93,
+      "rationale": "Completing general ledger reconciliations by deadlines is reconciliation execution work within account recs.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-26",
+      "label": "covered",
+      "capability_id": "tre.bank_rec",
+      "confidence": 0.99,
+      "rationale": "Completing checking reconciliations is bank reconciliation work.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-27",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Administering general ledger system interfaces is systems administration work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-28",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Administering payroll system interfaces is systems administration work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-29",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Administering benefits system interfaces is systems administration work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-30",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Administering timekeeping system interfaces is systems administration work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-31",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Processing garnishment calculations is payroll deduction calculation work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-32",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Processing special payroll deduction calculations is payroll compliance calculation work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-33",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Reviewing changes for authorization and regulatory compliance is control checking work but not a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-34",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Assisting with leave of absence payroll processing is payroll administration work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-35",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Validating benefit deductions is payroll deduction verification work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-36",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Validating arrears balances is payroll balance validation work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-37",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Validating payroll impacts is payroll calculation review work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-38",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.85,
+      "rationale": "Recording payroll invoices into AP is invoice capture and coding work in accounts payable.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-39",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.94,
+      "rationale": "Preparing payroll documentation for audit requests matches audit support and evidence gathering.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-40",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.62,
+      "rationale": "Responding to information requests is too vague to match a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-41",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Maintaining procedures is too vague to determine the core action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-42",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Maintaining desk guides is documentation upkeep but too vague to map confidently.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "982ae657ee7d20c4-43",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.57,
+      "rationale": "Maintaining documentation for assigned responsibilities is too general to match a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

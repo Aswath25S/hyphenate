@@ -1,0 +1,402 @@
+{
+  "posting_id": "0bb2b8a9ac462085",
+  "company": "Oscar Health",
+  "domain": "hioscar.com",
+  "title": "Director, Accounting",
+  "role_family": "Close_Mgmt",
+  "seniority": "director_plus",
+  "locations": [
+    "New York, New York, United States"
+  ],
+  "remote": "hybrid",
+  "salary": {
+    "min": 180504,
+    "max": 236912,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The base pay for this role is: $180,504 - $236,912 per year."
+  },
+  "erp": [],
+  "tools": [],
+  "complexity": {
+    "multi_entity": true,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "recently acquired businesses",
+    "accounting and financial operations integrations",
+    "subledger activity",
+    "future M&A activity",
+    "post-close accounting operations"
+  ],
+  "duties": [
+    {
+      "duty_id": "0bb2b8a9ac462085-01",
+      "text": "Direct end-to-end accounting for recently acquired businesses and related platform operations",
+      "source_span": "Direct end-to-end accounting for recently acquired businesses and related platform operations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-02",
+      "text": "Manage monthly and quarterly close",
+      "source_span": "monthly and quarterly close",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-03",
+      "text": "Prepare reconciliations",
+      "source_span": "reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-04",
+      "text": "Prepare journal entries",
+      "source_span": "journal entries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-05",
+      "text": "Prepare supporting schedules",
+      "source_span": "supporting schedules",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-06",
+      "text": "Document accounting conclusions",
+      "source_span": "accounting conclusions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-07",
+      "text": "Prepare control documentation",
+      "source_span": "control documentation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-08",
+      "text": "Manage accounting and financial operations integrations for acquired businesses",
+      "source_span": "Manage accounting and financial operations integrations for acquired businesses",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-09",
+      "text": "Design processes",
+      "source_span": "process design",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-10",
+      "text": "Map systems and data",
+      "source_span": "systems and data mapping",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-11",
+      "text": "Manage subledger flows",
+      "source_span": "subledger flows",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-12",
+      "text": "Manage cross-functional handoffs",
+      "source_span": "cross-functional handoffs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-13",
+      "text": "Prepare transition readiness",
+      "source_span": "transition readiness",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-14",
+      "text": "Lead accounting operations for insurance-adjacent acquired businesses",
+      "source_span": "Lead accounting operations for insurance-adjacent acquired businesses",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-15",
+      "text": "Manage AR/AP accounting",
+      "source_span": "AR/AP accounting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-16",
+      "text": "Design insurance AMS accounting structure",
+      "source_span": "insurance AMS accounting structure",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-17",
+      "text": "Design data",
+      "source_span": "data design",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-18",
+      "text": "Prepare subledger journals",
+      "source_span": "subledger journals",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-19",
+      "text": "Prepare reporting outputs needed by the business and FP&A",
+      "source_span": "reporting outputs needed by the business and FP&A",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-20",
+      "text": "Provide accounting leadership for SaaS and technology-enabled insurance platforms",
+      "source_span": "Provide accounting leadership for SaaS and technology-enabled insurance platforms",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-21",
+      "text": "Manage revenue accounting",
+      "source_span": "revenue",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-22",
+      "text": "Manage receivables accounting",
+      "source_span": "receivables",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-23",
+      "text": "Manage partner activity",
+      "source_span": "partner activity",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-24",
+      "text": "Manage related platform accounting processes",
+      "source_span": "related platform accounting processes",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-25",
+      "text": "Prepare flux analytics for acquired businesses, platform operations, and related integration activity",
+      "source_span": "Prepare and review flux and variance analytics for acquired businesses, platform operations, and related integration activity",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-26",
+      "text": "Review variance analytics for acquired businesses, platform operations, and related integration activity",
+      "source_span": "Prepare and review flux and variance analytics for acquired businesses, platform operations, and related integration activity",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-27",
+      "text": "Communicate key drivers and risks to Finance leadership and business stakeholders",
+      "source_span": "communicate key drivers and risks to Finance leadership and business stakeholders",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-28",
+      "text": "Support accounting for future M&A activity",
+      "source_span": "Support accounting for future M&A activity",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-29",
+      "text": "Provide diligence input",
+      "source_span": "diligence input",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-30",
+      "text": "Prepare close-readiness",
+      "source_span": "close-readiness",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-31",
+      "text": "Align policies and controls",
+      "source_span": "policy and control alignment",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-32",
+      "text": "Integrate systems and data",
+      "source_span": "systems and data integration",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-33",
+      "text": "Support post-close accounting operations",
+      "source_span": "post-close accounting operations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-34",
+      "text": "Develop scalable policies",
+      "source_span": "Develop scalable policies",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-35",
+      "text": "Develop close calendars",
+      "source_span": "close calendars",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-36",
+      "text": "Develop reconciliations",
+      "source_span": "reconciliations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-37",
+      "text": "Develop controls",
+      "source_span": "controls",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-38",
+      "text": "Develop process documentation",
+      "source_span": "process documentation",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-39",
+      "text": "Partner with Finance Operations, FP&A, Product/Engineering, Legal, Tax, and external auditors as needed",
+      "source_span": "partner with Finance Operations, FP&A, Product/Engineering, Legal, Tax, and external auditors as needed",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-40",
+      "text": "Comply with all applicable laws and regulations",
+      "source_span": "Compliance with all applicable laws and regulations",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-41",
+      "text": "Other duties as assigned",
+      "source_span": "Other duties as assigned",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-42",
+      "text": "10+ years of relevant accounting experience",
+      "source_span": "10+ years of relevant accounting experience.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-43",
+      "text": "Bachelor's degree in Accounting, Finance, or related field",
+      "source_span": "Bachelor's degree in Accounting, Finance, or related field",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-44",
+      "text": "2+ years of experience leading accounting close processes, reconciliations, journal entries, or financial reporting for a business line, subsidiary, platform, or acquired business",
+      "source_span": "2+ years of experience leading accounting close processes, reconciliations, journal entries, or financial reporting for a business line, subsidiary, platform, or acquired business.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-45",
+      "text": "2+ years of experience with accounting systems, subledgers, AR/AP accounting, revenue or receivables accounting, financial operations integrations, or data/process design",
+      "source_span": "2+ years of experience with accounting systems, subledgers, AR/AP accounting, revenue or receivables accounting, financial operations integrations, or data/process design.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-46",
+      "text": "2+ years of experience preparing or reviewing flux and variance analysis",
+      "source_span": "2+ years of experience preparing or reviewing flux and variance analysis.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-47",
+      "text": "Experience in a similar accounting leadership role at a health insurance, Insurtech, SaaS, or platform business",
+      "source_span": "Experience in a similar accounting leadership role at a health insurance, Insurtech, SaaS, or platform business.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-48",
+      "text": "Experience with M&A accounting, purchase accounting support, acquired-company integration, or post-close finance operations integration",
+      "source_span": "Experience with M&A accounting, purchase accounting support, acquired-company integration, or post-close finance operations integration.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-49",
+      "text": "Experience designing or managing insurance AMS, ERP, billing, receivables, payables, or subledger accounting processes",
+      "source_span": "Experience designing or managing insurance AMS, ERP, billing, receivables, payables, or subledger accounting processes.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-50",
+      "text": "4+ years of experience with US-based insurance companies or insurance-adjacent businesses",
+      "source_span": "4+ years of experience with US-based insurance companies or insurance-adjacent businesses.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "0bb2b8a9ac462085-51",
+      "text": "Experience leading people and working collaboratively across accounting, finance, technology, and business teams",
+      "source_span": "Experience leading people and working collaboratively across accounting, finance, technology, and business teams.",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-09-16T13:35:39-04:00",
+  "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8192058",
+  "fetched_at": "2026-10-21T17:33:54.851Z",
+  "prompt_version": "extract-v1",
+  "text": "Hi, we're Oscar. We're hiring a Director of Accounting to join our Accounting team.\n\nOscar is the first health insurance company built around a full stack technology platform and a relentless focus on serving our members. We started Oscar in 2012 to create the kind of health insurance company we would want for ourselves—one that behaves like a doctor in the family.\n\nAbout the role:\n\nThe Director, Accounting will be the accounting lead for Oscar's recently acquired businesses and related platform operations, guiding their integration into Oscar's accounting and financial operations environment. You will oversee close processes, accounting and FinOps integrations, subledger activity, AR/AP commission accounting, and variance analytics in partnership with the business and FP&A. You will also help lead accounting integration for future M&A activity, including systems, data, controls, and reporting design.\n\nThis role will report to the Deputy Controller.\n\nWork Location: This position is based in our New York City office, requiring a hybrid work schedule with 3 days of in-office work per week. Thursdays are a required in-office day for team meetings and events, while your other two office days are flexible to suit your schedule. #LI-Hybrid\n\nPay Transparency: The base pay for this role is: $180,504 - $236,912 per year. You are also eligible for employee benefits, participation in Oscar's unlimited vacation program, company equity grants and annual performance bonuses.\n\nResponsibilities:\n\n• Direct end-to-end accounting for recently acquired businesses and related platform operations, including monthly and quarterly close, reconciliations, journal entries, supporting schedules, accounting conclusions, and control documentation.\n\n• Manage accounting and financial operations integrations for acquired businesses, including process design, systems and data mapping, subledger flows, cross-functional handoffs, and transition readiness.\n\n• Lead accounting operations for insurance-adjacent acquired businesses, including AR/AP accounting, insurance AMS accounting structure, data design, subledger journals, and reporting outputs needed by the business and FP&A.\n\n• Provide accounting leadership for SaaS and technology-enabled insurance platforms, including revenue, receivables, partner activity, and related platform accounting processes.\n\n• Prepare and review flux and variance analytics for acquired businesses, platform operations, and related integration activity; communicate key drivers and risks to Finance leadership and business stakeholders.\n\n• Support accounting for future M&A activity, including diligence input, close-readiness, policy and control alignment, systems and data integration, and post-close accounting operations.\n\n• Develop scalable policies, close calendars, reconciliations, controls, and process documentation; partner with Finance Operations, FP&A, Product/Engineering, Legal, Tax, and external auditors as needed.\n\n• Compliance with all applicable laws and regulations\n\n• Other duties as assigned\n\nRequirements:\n\n• 10+ years of relevant accounting experience.\n\n• Bachelor's degree in Accounting, Finance, or related field\n\n• 2+ years of experience leading accounting close processes, reconciliations, journal entries, or financial reporting for a business line, subsidiary, platform, or acquired business.\n\n• 2+ years of experience with accounting systems, subledgers, AR/AP accounting, revenue or receivables accounting, financial operations integrations, or data/process design.\n\n• 2+ years of experience preparing or reviewing flux and variance analysis.\n\nBonus points:\n\n• Experience in a similar accounting leadership role at a health insurance, Insurtech, SaaS, or platform business.\n\n• Experience with M&A accounting, purchase accounting support, acquired-company integration, or post-close finance operations integration.\n\n• Experience designing or managing insurance AMS, ERP, billing, receivables, payables, or subledger accounting processes.\n\n• 4+ years of experience with US-based insurance companies or insurance-adjacent businesses.\n\n• Experience leading people and working collaboratively across accounting, finance, technology, and business teams.\n\nThis is an authentic Oscar Health job opportunity.\n\nAt Oscar, being an Equal Opportunity Employer means more than upholding discrimination-free hiring practices. It means that we cultivate an environment where people can be their most authentic selves and find both belonging and support. We're on a mission to change health care -- an experience made whole by our unique backgrounds and perspectives.\n\nPay Transparency: Final offer amounts, within the base pay set forth above, are determined by factors including your relevant skills, education, and experience. Full-time employees are eligible for benefits including: medical, dental, and vision benefits, 11 paid holidays, paid sick time, paid parental leave, 401(k) plan participation, life and disability insurance, and paid wellness time and reimbursements.\n\nArtificial Intelligence (AI): Our AI Guidelines outline the acceptable use of artificial intelligence for candidates and detail how we use AI to support our recruiting efforts.\n\nReasonable Accommodation: Oscar applicants are considered solely based on their qualifications, without regard to applicant’s disability or need for accommodation. Any Oscar applicant who requires reasonable accommodations during the application process should contact the Oscar Benefits Team (accommodations@hioscar.com) to make the need for an accommodation known.\n\nCalifornia Residents: For information about our collection, use, and disclosure of applicants’ personal information as well as applicants’ rights over their personal information, please see our Privacy Policy.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

@@ -1,0 +1,249 @@
+{
+  "posting_id": "79cd4e265cde0e01",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "79cd4e265cde0e01-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Leading planning and budgeting is managerial planning work, not an ops task the platform executes.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Developing headcount and vendor investment models is budgeting/modeling work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Creating budget reporting packages is reporting/model-building for planning, which is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Leading the corporate budgeting process is project leadership and coordination.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Supporting leadership on resource allocation is advisory work for other teams.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-06",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.93,
+      "rationale": "Period-over-period and actual vs forecast analysis matches flux analysis with commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "Designing scalable financial processes is process design and judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.51,
+      "rationale": "Continuously evaluating processes and systems is too broad to map to a specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-09",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.48,
+      "rationale": "Identifying areas for improvement is too vague to classify.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-10",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.46,
+      "rationale": "Implementing best practices is nonspecific and not tied to a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Recommending enhancements is advisory work rather than an operational finance process.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Scoping and implementing planning software is a strategic project implementation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Establishing and rolling out policies is policy-setting and process leadership.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Partnering with other functions to build systems is cross-functional collaboration.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Serving as the organization-wide budgeting contact is a liaison role.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Building ROI-based business cases is financial modeling not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Evaluating investment tradeoffs is decision support and judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Acting as the primary budget lead to external stakeholders and vendors is relationship management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Managing contracts and renewals is administrative contract tracking with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.73,
+      "rationale": "Conducting due diligence on new systems and processes is evaluative project work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Partnering with Accounting on cash management and bank reviews is cross-team collaboration.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-23",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.76,
+      "rationale": "End-to-end budget reporting and analysis fits recurring management reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-24",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.57,
+      "rationale": "Improving margin by finding efficiency opportunities is too general to map cleanly.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Aligning departmental spend to revenue outcomes is planning/modeling work outside the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.79,
+      "rationale": "Planning and implementing a scalable planning system is a strategic implementation project.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Managing and developing a senior analyst is people management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "79cd4e265cde0e01-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Building a long-term planning and budgeting plan with team growth is strategic leadership work.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

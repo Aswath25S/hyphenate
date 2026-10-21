@@ -1,0 +1,1189 @@
+{
+  "posting_id": "5a8bc39f61e891c2",
+  "company": "Klaviyo",
+  "slug": "klaviyo",
+  "domain": "klaviyo.com",
+  "title": "Manager, IT SOX",
+  "role_family": "Other",
+  "seniority": "manager",
+  "n": 28,
+  "C": 1,
+  "A": 0,
+  "covered_share": 0.03571428571428571,
+  "overlap": 0.03571428571428571,
+  "weighted_overlap": 0.03571428571428571,
+  "thin": false,
+  "salary_min": 124000,
+  "salary_max": 186000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 2214.285714285714,
+  "savings_reason": null,
+  "lead_product": "GL accounting",
+  "product_split": {
+    "GL accounting": {
+      "covered": 1,
+      "assisted": 0,
+      "weighted": 1
+    }
+  },
+  "erp": [
+    "NetSuite"
+  ],
+  "tools": [
+    "Optro",
+    "AuditBoard",
+    "Tableau"
+  ],
+  "posted_at": "2026-10-19T12:38:12-04:00",
+  "source_url": "https://www.klaviyo.com/careers/jobs/8037155003?gh_jid=8037155003",
+  "locations": [
+    "San Francisco, CA",
+    "Boston, Massachusetts, United States",
+    "Boston, MA"
+  ],
+  "remote": "unknown",
+  "excluded": null,
+  "text": "At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the traditional job requirements. If you’re a close but not exact match with the description, we hope you’ll still consider applying. Want to learn more about life at Klaviyo? Visit klaviyo.com/careers to see how we empower creators to own their own destiny.\n\nAbout the team and role:\n\nKlaviyo’s Internal Audit (IA) function leverages industry best practices and adds value by developing consultative partnerships with operational leaders throughout the organization to monitor and improve internal controls, processes, and drive operating efficiencies. We’re building an AI-first audit function, using AI and automation across the audit lifecycle. Klaviyo is looking for an experienced Manager, IT SOX who will lead our IT SOX program and technology audits. This person will report to the VP of Internal Audit & Compliance, manage and coach the Sr. IT Internal Auditor day to day, and work directly with key stakeholders across IT, Security, Business Intelligence, Finance, Accounting, Legal, People Operations, Engineering & Global Technology Solutions within the company. The primary focus of the role is IT SOX controls (including IT General Controls, IT application controls, and key reports) across our homegrown and third-party systems, along with leading risk-based technology audits. The ideal candidate is a hands-on leader who develops others, uses AI in their day-to-day work, thrives on building companies and enjoys working in an exciting, fast paced and evolving environment.\n\nSupervisory Responsibilities:\n\n• Day-to-day management and coaching of the Sr. IT Internal Auditor, including setting priorities, reviewing workpapers, and providing feedback and development\n\n• Oversight of co-sourced IT testing, including review of workpapers for quality and consistency\n\nHow you'll make a difference:\n\nIT SOX program\n\n• Own the annual IT SOX plan, including risk assessment, scoping of in-scope systems, and alignment with our external auditor on reliance and timing\n\n• Scale and rationalize IT SOX scope as Klaviyo’s systems and business evolve\n\n• Lead end-to-end execution of the IT SOX program across ITGCs (logical access, change management including CI/CD, IT operations), IT application controls, system interfaces and integrations, key reports/IPE, and segregation of duties (SOD), across homegrown applications and third-party SaaS\n\n• Maintain the ITGC risk and control matrix within Optro, our SOX project management system\n\n• Review SOC 1 reports, complementary user entity controls, and bridge letters for in-scope vendors\n\n• Evaluate IT deficiencies, including root cause and severity, and drive remediation with control owners through closure\n\n• Coordinate with co-sourced third party providers, external auditors, and internal business partners to ensure alignment and timely execution of IT SOX work\n\n• Provide ongoing SOX readiness advisory to business partners on new system implementations and significant changes, including SDLC controls, while maintaining IA’s independence from implementing or operating controls\n\n• Train and enable control owners on IT SOX expectations\n\n• Provide regular status reporting on IT SOX progress, risks, and remediation to IA leadership and key stakeholders\n\n• Performs other related duties as assigned\n\nTechnology audits\n\n• Lead risk-based technology audits (e.g., cloud security, cybersecurity, data governance, AI governance), with accountability for planning, scoping, execution, and reporting\n\n• Contribute to the IT audit plan, with the opportunity to own it over time\n\nAI-enabled audit\n\n• Set standards for how the team uses AI across the audit lifecycle, including how AI-assisted work is reviewed, validated, and documented so our external auditor can rely on it\n\n• Build reusable prompts, workflows, and automations, and coach the Sr. IT Internal Auditor on building and using them\n\n• Support automated control testing and continuous monitoring, using SQL or Python for full-population analysis where it adds value\n\n• Assess the risks of AI tools and agents in the financial reporting environment, including access, data handling, and change management\n\n• Advise on control design for AI-driven processes, including AI agents and automated workflows that affect financial reporting\n\n• Monitor and stay current on technical literature, emerging trends and best practices in IT audit and AI\n\nWho you are:\n\n• A hands-on leader who coaches and develops others: sets clear priorities, gives direct and timely feedback, and reviews work for quality\n\n• An AI-fluent auditor who can share concrete examples of using AI to do audit work faster or better, and who understands its limits (accuracy, confidentiality, over-reliance)\n\n• Curious about how AI is reshaping both the risks we audit and how we audit them\n\n• Strong understanding of SOX 404, PCAOB Auditing Standards, COSO 2013, COBIT, US GAAP, and Internal Audit Standards\n\n• Deep understanding of ITGCs, IT application controls, interfaces, key reports, segregation of duties, and SOC 1 reviews for homegrown and off the shelf applications and cloud environments (e.g., AWS)\n\n• Experience auditing modern engineering environments, including CI/CD pipelines, access defined in code, and automated data pipelines\n\n• Experience leading planning, scoping, testing and reporting for a full year IT SOX program\n\n• Experience leading technology audits (e.g., cloud, cybersecurity, data governance)\n\n• Excellent written and verbal communication skills, including the ability to drive influence and to discuss technical concepts to other stakeholders in a simple but informative manner\n\n• Exceptional analytical and problem-solving skills with great attention to details, and an investigative mindset to get to the root cause\n\n• Excellent project management skills with cross functional teams\n\n• Data analytics skills with experience in SQL, Python, Tableau, or any other data analytics or visualization tools\n\n• Experience in using SOX GRC tools such as Optro (formerly AuditBoard) and ERP systems e.g. NetSuite is strongly preferred\n\n• Working knowledge of AI governance frameworks (e.g., NIST AI RMF, ISO/IEC 42001) or AI audit credentials (e.g., ISACA AAIA) is a plus\n\n• Comfortable working in a fast-paced, high growth environment\n\nEducation and Experience:\n\n• Bachelor's degree in Information Systems, Computer Science, Accounting, Business, or other relevant field\n\n• 8+ years of IT audit experience in public accounting (i.e. Big 4 Accounting firms) and/or industry, including IT SOX controls testing, ideally in a Tech/SaaS environment\n\n• Experience managing or coaching auditors and/or co-sourced resources\n\n• Professional audit relevant certification - CISA preferred; CPA, CIA, or CISSP a plus\n\nPhysical Requirements:\n\n• Prolonged periods of sitting at a desk and working on a computer.\n\n• Occasional travel\n\nMassachusetts Applicants:\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.\n\nOur salary range reflects the cost of labor across various U.S. geographic markets. The range displayed below reflects the minimum and maximum target salaries for the position across all our US locations. The base salary offered for this position is determined by several factors, including the applicant’s job-related skills, relevant experience, education or training, and work location.\n\nIn addition to base salary, our total compensation package may include participation in the company’s annual cash bonus plan, variable compensation (OTE) for sales and customer success roles, equity, sign-on payments, and a comprehensive range of health, welfare, and wellbeing benefits based on eligibility.\n\nYour recruiter can provide more details about the specific salary/OTE range for your preferred location during the hiring process.\n\nBase Pay Range For US Locations:\n\n$124,000—$186,000 USD\n\nThis role may require up to 10% travel for purposes such as new hire onboarding, client or partner work if applicable, team meetings, and industry events. Travel is coordinated in advance.\n\nGet to Know Klaviyo\n\nWe’re Klaviyo (pronounced clay-vee-oh). We empower creators to own their destiny by making first-party data accessible and actionable like never before. We see limitless potential for the technology we’re developing to nurture personalized experiences in ecommerce and beyond. To reach our goals, we need our own crew of remarkable creators—ambitious and collaborative teammates who stay focused on our north star: delighting our customers. If you’re ready to do the best work of your career, where you’ll be welcomed as your whole self from day one and supported with generous benefits, we hope you’ll join us.\n\nAI fluency at Klaviyo includes responsible use of AI (including privacy, security, bias awareness, and human-in-the-loop). We provide accommodations as needed.\n\nBy participating in Klaviyo’s interview process, you acknowledge that you have read, understood, and will adhere to our Guidelines for using AI in the Klaviyo interview Process. For more information about how we process your personal data, see our Job Applicant Privacy Notice.\n\nKlaviyo is committed to a policy of equal opportunity and non-discrimination. We do not discriminate on the basis of race, ethnicity, citizenship, national origin, color, religion or religious creed, age, sex (including pregnancy), gender identity, sexual orientation, physical or mental disability, veteran or active military status, marital status, criminal record, genetics, retaliation, sexual harassment or any other characteristic protected by applicable law.\n\nIMPORTANT NOTICE: Our company takes the security and privacy of job applicants very seriously. We will never ask for payment, bank details, or personal financial information as part of the application process. All our legitimate job postings can be found on our official career site. Please be cautious of job offers that come from non-company email addresses (@klaviyo.com), instant messaging platforms, or unsolicited calls.\n\nBy clicking \"Submit Application\" you consent to Klaviyo processing your Personal Data in accordance with our Job Applicant Privacy Notice. If you do not wish for Klaviyo to process your Personal Data, please do not submit an application. You can find our Job Applicant Privacy Notice here and here (FR).",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 124000,
+    "max": 186000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Base Pay Range For US Locations:\n\n$124,000—$186,000 USD"
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "Scale and rationalize IT SOX scope",
+    "fast paced and evolving environment",
+    "high growth environment",
+    "full year IT SOX program"
+  ],
+  "fetched_at": "2026-10-21T17:34:06.298Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "5a8bc39f61e891c2-01",
+      "text": "Manage and coach the Sr. IT Internal Auditor day to day",
+      "source_span": "Day-to-day management and coaching of the Sr. IT Internal Auditor, including setting priorities, reviewing workpapers, and providing feedback and development",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1794,
+        "end": 1951
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Managing and coaching the auditor is people management, not platform work.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-02",
+      "text": "Set priorities for the Sr. IT Internal Auditor",
+      "source_span": "setting priorities",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1871,
+        "end": 1889
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Setting an employee's priorities is managerial judgment.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-03",
+      "text": "Review workpapers",
+      "source_span": "reviewing workpapers",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1891,
+        "end": 1911
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Reviewing workpapers is human audit review, not an automated finance workflow.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-04",
+      "text": "Provide feedback and development",
+      "source_span": "providing feedback and development",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1917,
+        "end": 1951
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Providing feedback and development is a managerial duty.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-05",
+      "text": "Oversee co-sourced IT testing",
+      "source_span": "Oversight of co-sourced IT testing, including review of workpapers for quality and consistency",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1955,
+        "end": 2049
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Overseeing co-sourced testing is vendor and team management.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-06",
+      "text": "Review workpapers for quality and consistency",
+      "source_span": "review of workpapers for quality and consistency",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2001,
+        "end": 2049
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Reviewing workpapers for quality and consistency is human review and judgment.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-07",
+      "text": "Own the annual IT SOX plan",
+      "source_span": "Own the annual IT SOX plan, including risk assessment, scoping of in-scope systems, and alignment with our external auditor on reliance and timing",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2100,
+        "end": 2246
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Owning the annual IT SOX plan is setting policy and strategy.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-08",
+      "text": "Perform risk assessment",
+      "source_span": "risk assessment",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2138,
+        "end": 2153
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.86,
+      "rationale": "Performing a risk assessment requires professional judgment and is not a defined platform workflow.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-09",
+      "text": "Scope in-scope systems",
+      "source_span": "scoping of in-scope systems",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2155,
+        "end": 2182
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Scoping in-scope systems is judgment-heavy audit planning.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-10",
+      "text": "Align with our external auditor on reliance and timing",
+      "source_span": "alignment with our external auditor on reliance and timing",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2188,
+        "end": 2246
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Aligning with the external auditor is a human relationship and coordination task.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-11",
+      "text": "Scale and rationalize IT SOX scope",
+      "source_span": "Scale and rationalize IT SOX scope as Klaviyo’s systems and business evolve",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2250,
+        "end": 2325
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Rationalizing IT SOX scope is strategic judgment, not automated processing.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-12",
+      "text": "Lead end-to-end execution of the IT SOX program across ITGCs (logical access, change management including CI/CD, IT operations), IT application controls, system interfaces and integrations, key reports/IPE, and segregation of duties (SOD), across homegrown applications and third-party SaaS",
+      "source_span": "Lead end-to-end execution of the IT SOX program across ITGCs (logical access, change management including CI/CD, IT operations), IT application controls, system interfaces and integrations, key reports/IPE, and segregation of duties (SOD), across homegrown applications and third-party SaaS",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2329,
+        "end": 2619
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Leading the end-to-end IT SOX program is broad human ownership and execution.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-13",
+      "text": "Maintain the ITGC risk and control matrix within Optro",
+      "source_span": "Maintain the ITGC risk and control matrix within Optro, our SOX project management system",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2623,
+        "end": 2712
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "gl.controls",
+      "capability": "Monitor manual entries and close controls",
+      "product": "GL accounting",
+      "confidence": 0.62,
+      "rationale": "Maintaining the ITGC risk and control matrix is maintaining documentation of key controls.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-14",
+      "text": "Review SOC 1 reports, complementary user entity controls, and bridge letters for in-scope vendors",
+      "source_span": "Review SOC 1 reports, complementary user entity controls, and bridge letters for in-scope vendors",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2716,
+        "end": 2813
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Reviewing SOC 1 reports and bridge letters requires judgment on vendor assurance documents.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-15",
+      "text": "Evaluate IT deficiencies, including root cause and severity",
+      "source_span": "Evaluate IT deficiencies, including root cause and severity, and drive remediation with control owners through closure",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2817,
+        "end": 2935
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Evaluating deficiencies and determining root cause and severity is judgment-based analysis.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-16",
+      "text": "Drive remediation with control owners through closure",
+      "source_span": "and drive remediation with control owners through closure",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2878,
+        "end": 2935
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Driving remediation with control owners is cross-functional coordination and follow-up.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-17",
+      "text": "Coordinate with co-sourced third party providers, external auditors, and internal business partners to ensure alignment and timely execution of IT SOX work",
+      "source_span": "Coordinate with co-sourced third party providers, external auditors, and internal business partners to ensure alignment and timely execution of IT SOX work",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2939,
+        "end": 3094
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Coordinating with providers, auditors, and business partners is relationship management.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-18",
+      "text": "Provide ongoing SOX readiness advisory to business partners on new system implementations and significant changes, including SDLC controls, while maintaining IA’s independence from implementing or operating controls",
+      "source_span": "Provide ongoing SOX readiness advisory to business partners on new system implementations and significant changes, including SDLC controls, while maintaining IA’s independence from implementing or operating controls",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3098,
+        "end": 3313
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Providing readiness advisory to business partners is advisory work and not control operation.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-19",
+      "text": "Train and enable control owners on IT SOX expectations",
+      "source_span": "Train and enable control owners on IT SOX expectations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3317,
+        "end": 3371
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Training and enabling control owners is people development.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-20",
+      "text": "Provide regular status reporting on IT SOX progress, risks, and remediation to IA leadership and key stakeholders",
+      "source_span": "Provide regular status reporting on IT SOX progress, risks, and remediation to IA leadership and key stakeholders",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3375,
+        "end": 3488
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Status reporting to leadership and stakeholders is human communication and presentation.",
+      "gap_theme": {
+        "theme_id": "systems_integration",
+        "name": "Systems integration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-21",
+      "text": "Lead risk-based technology audits (e.g., cloud security, cybersecurity, data governance, AI governance), with accountability for planning, scoping, execution, and reporting",
+      "source_span": "Lead risk-based technology audits (e.g., cloud security, cybersecurity, data governance, AI governance), with accountability for planning, scoping, execution, and reporting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3556,
+        "end": 3728
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Leading technology audits is an audit-management role, not a covered finance-ops workflow.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-22",
+      "text": "Set standards for how the team uses AI across the audit lifecycle, including how AI-assisted work is reviewed, validated, and documented so our external auditor can rely on it",
+      "source_span": "Set standards for how the team uses AI across the audit lifecycle, including how AI-assisted work is reviewed, validated, and documented so our external auditor can rely on it",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 3827,
+        "end": 4002
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Setting standards for AI use is policy-setting and governance judgment.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-23",
+      "text": "Build reusable prompts, workflows, and automations",
+      "source_span": "Build reusable prompts, workflows, and automations, and coach the Sr. IT Internal Auditor on building and using them",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 4006,
+        "end": 4122
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.66,
+      "rationale": "Building reusable prompts, workflows, and automations is technical enablement that does not map cleanly to a listed capability.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-24",
+      "text": "Coach the Sr. IT Internal Auditor on building and using them",
+      "source_span": "and coach the Sr. IT Internal Auditor on building and using them",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 4058,
+        "end": 4122
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Coaching the auditor on building and using automations is training and mentorship.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-25",
+      "text": "Support automated control testing and continuous monitoring, using SQL or Python for full-population analysis where it adds value",
+      "source_span": "Support automated control testing and continuous monitoring, using SQL or Python for full-population analysis where it adds value",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 4126,
+        "end": 4255
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.74,
+      "rationale": "Automated control testing and full-population analysis is rules-based analytical work with no matching capability.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-26",
+      "text": "Assess the risks of AI tools and agents in the financial reporting environment, including access, data handling, and change management",
+      "source_span": "Assess the risks of AI tools and agents in the financial reporting environment, including access, data handling, and change management",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 4259,
+        "end": 4393
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Assessing AI tool risk in the reporting environment requires control judgment and governance.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-27",
+      "text": "Advise on control design for AI-driven processes, including AI agents and automated workflows that affect financial reporting",
+      "source_span": "Advise on control design for AI-driven processes, including AI agents and automated workflows that affect financial reporting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 4397,
+        "end": 4522
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Advising on control design for AI-driven processes is human control-design judgment.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-28",
+      "text": "Monitor and stay current on technical literature, emerging trends and best practices in IT audit and AI",
+      "source_span": "Monitor and stay current on technical literature, emerging trends and best practices in IT audit and AI",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 4526,
+        "end": 4629
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.78,
+      "rationale": "Staying current on literature and trends is professional development rather than a specific operational workflow.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-29",
+      "text": "Performs other related duties as assigned",
+      "source_span": "Performs other related duties as assigned",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3492,
+        "end": 3533
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-30",
+      "text": "At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day.",
+      "source_span": "At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 0,
+        "end": 159
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-31",
+      "text": "We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the traditional job requirements.",
+      "source_span": "We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the traditional job requirements.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 160,
+        "end": 302
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-32",
+      "text": "In addition to base salary, our total compensation package may include participation in the company’s annual cash bonus plan, variable compensation (OTE) for sales and customer success roles, equity, sign-on payments, and a comprehensive range of health, welfare, and wellbeing benefits based on eligibility.",
+      "source_span": "In addition to base salary, our total compensation package may include participation in the company’s annual cash bonus plan, variable compensation (OTE) for sales and customer success roles, equity, sign-on payments, and a comprehensive range of health, welfare, and wellbeing benefits based on eligibility.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 7745,
+        "end": 8053
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-33",
+      "text": "Strong understanding of SOX 404, PCAOB Auditing Standards, COSO 2013, COBIT, US GAAP, and Internal Audit Standards",
+      "source_span": "Strong understanding of SOX 404, PCAOB Auditing Standards, COSO 2013, COBIT, US GAAP, and Internal Audit Standards",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 5047,
+        "end": 5161
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-34",
+      "text": "Deep understanding of ITGCs, IT application controls, interfaces, key reports, segregation of duties, and SOC 1 reviews for homegrown and off the shelf applications and cloud environments (e.g., AWS)",
+      "source_span": "Deep understanding of ITGCs, IT application controls, interfaces, key reports, segregation of duties, and SOC 1 reviews for homegrown and off the shelf applications and cloud environments (e.g., AWS)",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 5165,
+        "end": 5364
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-35",
+      "text": "Experience auditing modern engineering environments, including CI/CD pipelines, access defined in code, and automated data pipelines",
+      "source_span": "Experience auditing modern engineering environments, including CI/CD pipelines, access defined in code, and automated data pipelines",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 5368,
+        "end": 5500
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-36",
+      "text": "Experience leading planning, scoping, testing and reporting for a full year IT SOX program",
+      "source_span": "Experience leading planning, scoping, testing and reporting for a full year IT SOX program",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 5504,
+        "end": 5594
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-37",
+      "text": "Experience leading technology audits (e.g., cloud, cybersecurity, data governance)",
+      "source_span": "Experience leading technology audits (e.g., cloud, cybersecurity, data governance)",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 5598,
+        "end": 5680
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-38",
+      "text": "Excellent written and verbal communication skills, including the ability to drive influence and to discuss technical concepts to other stakeholders in a simple but informative manner",
+      "source_span": "Excellent written and verbal communication skills, including the ability to drive influence and to discuss technical concepts to other stakeholders in a simple but informative manner",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 5684,
+        "end": 5866
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-39",
+      "text": "Exceptional analytical and problem-solving skills with great attention to details, and an investigative mindset to get to the root cause",
+      "source_span": "Exceptional analytical and problem-solving skills with great attention to details, and an investigative mindset to get to the root cause",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 5870,
+        "end": 6006
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-40",
+      "text": "Excellent project management skills with cross functional teams",
+      "source_span": "Excellent project management skills with cross functional teams",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 6010,
+        "end": 6073
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-41",
+      "text": "Data analytics skills with experience in SQL, Python, Tableau, or any other data analytics or visualization tools",
+      "source_span": "Data analytics skills with experience in SQL, Python, Tableau, or any other data analytics or visualization tools",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 6077,
+        "end": 6190
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-42",
+      "text": "Experience in using SOX GRC tools such as Optro (formerly AuditBoard) and ERP systems e.g. NetSuite is strongly preferred",
+      "source_span": "Experience in using SOX GRC tools such as Optro (formerly AuditBoard) and ERP systems e.g. NetSuite is strongly preferred",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 6194,
+        "end": 6315
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-43",
+      "text": "Working knowledge of AI governance frameworks (e.g., NIST AI RMF, ISO/IEC 42001) or AI audit credentials (e.g., ISACA AAIA) is a plus",
+      "source_span": "Working knowledge of AI governance frameworks (e.g., NIST AI RMF, ISO/IEC 42001) or AI audit credentials (e.g., ISACA AAIA) is a plus",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 6319,
+        "end": 6452
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-44",
+      "text": "Bachelor's degree in Information Systems, Computer Science, Accounting, Business, or other relevant field",
+      "source_span": "Bachelor's degree in Information Systems, Computer Science, Accounting, Business, or other relevant field",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 6547,
+        "end": 6652
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-45",
+      "text": "8+ years of IT audit experience in public accounting (i.e. Big 4 Accounting firms) and/or industry, including IT SOX controls testing, ideally in a Tech/SaaS environment",
+      "source_span": "8+ years of IT audit experience in public accounting (i.e. Big 4 Accounting firms) and/or industry, including IT SOX controls testing, ideally in a Tech/SaaS environment",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 6656,
+        "end": 6825
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-46",
+      "text": "Experience managing or coaching auditors and/or co-sourced resources",
+      "source_span": "Experience managing or coaching auditors and/or co-sourced resources",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 6829,
+        "end": 6897
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-47",
+      "text": "Professional audit relevant certification - CISA preferred; CPA, CIA, or CISSP a plus",
+      "source_span": "Professional audit relevant certification - CISA preferred; CPA, CIA, or CISSP a plus",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 6901,
+        "end": 6986
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-48",
+      "text": "Occasional travel",
+      "source_span": "Occasional travel",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 7083,
+        "end": 7100
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

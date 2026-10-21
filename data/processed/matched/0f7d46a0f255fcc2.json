@@ -1,0 +1,285 @@
+{
+  "posting_id": "0f7d46a0f255fcc2",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "0f7d46a0f255fcc2-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Reviewing complex bundled deals with cross-functional teams is collaborative judgment work, not an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Structuring complex bundled deals requires human judgment and cross-functional negotiation, which is outside the platform scope.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Approving complex bundled deals is a human approval responsibility, not an automated workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Preparing technical accounting memos for complex revenue transactions is judgment-heavy technical accounting work excluded from the revenue automation capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-05",
+      "label": "covered",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.76,
+      "rationale": "Reviewing contracts for ASC 606 guidance centers on extracting contract terms and obligations from the agreement.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-06",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.84,
+      "rationale": "Identifying and allocating performance obligations is core ASC 606 analysis but still requires accounting judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-07",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.43,
+      "rationale": "Documenting bundled software and services offerings is too vague to map cleanly to a specific covered finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Owning revenue recognition policies is setting and interpreting policy, which is explicitly human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Researching new and complex transactions is novel technical accounting work rather than a standardized automated process.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Documenting technical accounting positions on complex matters is judgment-based accounting work outside the platform's automated scope.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Updating guidance to maintain ASC 606 compliance is policy interpretation and maintenance, which is human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-12",
+      "label": "covered",
+      "capability_id": "o2c.orders_refunds",
+      "confidence": 0.91,
+      "rationale": "Processing customer orders in Salesforce and NetSuite matches order entry and order processing.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-13",
+      "label": "covered",
+      "capability_id": "o2c.orders_refunds",
+      "confidence": 0.79,
+      "rationale": "Reviewing customer orders is part of order processing and triage within the order-to-cash flow.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-14",
+      "label": "covered",
+      "capability_id": "o2c.contract_terms",
+      "confidence": 0.74,
+      "rationale": "Ensuring contract, billing, and revenue data flows between systems matches maintaining the CRM-to-billing handoff and contract data.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-15",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.51,
+      "rationale": "Resolving discrepancies across the order-to-cash cycle is too broad to map to a single specific capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.47,
+      "rationale": "Establishing a process and cadence for SSP determination is a process-design task with no direct capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-17",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Supporting monthly close is too vague to tell whether it means checklist execution, accounting entries, or review work.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-18",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.56,
+      "rationale": "Supporting revenue forecasting is vague and could mean many different planning activities not covered by the map.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-19",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.71,
+      "rationale": "Supporting audit readiness activities aligns with preparing audit support materials and documentation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-20",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.9,
+      "rationale": "Preparing revenue schedules is a core ASC 606 revenue recognition task.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-21",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.87,
+      "rationale": "Booking revenue journal entries matches recording monthly revenue entries under the revenue recognition workflow.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-22",
+      "label": "covered",
+      "capability_id": "gl.account_recs",
+      "confidence": 0.9,
+      "rationale": "Reconciling revenue-related GL accounts is a balance-sheet account reconciliation task.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Preparing annual and quarterly revenue disclosures is technical reporting judgment not covered by the platform.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-24",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.52,
+      "rationale": "Playing a key role in reporting readiness is too vague to map to a specific covered workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-25",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.89,
+      "rationale": "Supporting SOX controls matches monitoring and documenting key internal controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-26",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.63,
+      "rationale": "Preparing process documentation aligns with maintaining documentation for controls and close procedures.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-27",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.54,
+      "rationale": "Supporting public company reporting standards is too broad to identify a specific automated finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Overseeing interdepartmental collaboration is a coordination and relationship-management responsibility.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-29",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.53,
+      "rationale": "Addressing process gaps is too vague to determine whether it is a specific finance workflow or general improvement work.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-30",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.62,
+      "rationale": "Improving customer experience is not a defined finance-operations task and has no clear capability match.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "0f7d46a0f255fcc2-31",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.57,
+      "rationale": "Driving revenue predictability is a strategic outcome rather than a specific covered finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

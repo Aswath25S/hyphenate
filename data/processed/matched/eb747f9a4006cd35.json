@@ -1,0 +1,222 @@
+{
+  "posting_id": "eb747f9a4006cd35",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "eb747f9a4006cd35-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Owning a 3–5 year long-range plan is FP&A planning work that is outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "\"Design the model\" is too vague to tell what financial action is being performed.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Scenario analysis is long-range planning/modeling work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Translating company strategy into financial targets is a judgment-heavy planning activity.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering on the quarterly Board process is cross-functional coordination and board support.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-06",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "\"Develop the framework\" does not specify a finance operation that can be matched.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Owning the narrative is board/presentation work that depends on human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "\"Build materials\" is too generic to map to a specific finance capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Managing Q&A is a presentation and stakeholder-interaction task requiring human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Building SBC and equity modeling is stock-based compensation work, which is explicitly outside the covered capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Incorporating headcount growth, grant cadence, forfeitures, and refresh cycles is equity-comp modeling that is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Tying SBC into GAAP profitability is compensation-related planning/modeling outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Tying SBC into EBITDA is compensation-related planning/modeling outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Tying SBC into margin analysis is compensation-related planning/modeling outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Leading consolidated cash flow forecasting is long-range FP&A forecasting rather than the listed treasury cash forecast capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Contingency or management reserve strategy is policy and judgment work, not an automated finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Reviewing company forecasts against targets is planning/management review work without a matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "External benchmarking against peers is an FP&A analysis task not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-19",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Building analytical foundations for long-term decisions is too broad to map to a specific finance capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with Corp Dev on capital raises is cross-functional transaction support and relationship work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-21",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Preparing pro-forma reporting is reporting work that does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "\"Build forecasting\" is too vague to determine whether it is treasury, FP&A, or another process.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-23",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Capital structure analysis is financial modeling work with no matching capability in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "eb747f9a4006cd35-24",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.82,
+      "rationale": "Performing ad hoc analyses that inform business planning matches ad hoc financial analysis, though the planning influence adds judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,1505 @@
+{
+  "posting_id": "3cac77d190f17a6b",
+  "company": "Snorkel AI",
+  "slug": "snorkel-ai",
+  "domain": "snorkel.ai",
+  "title": "Corporate FP&A Manager",
+  "role_family": "Reporting_FPA",
+  "seniority": "manager",
+  "n": 32,
+  "C": 2,
+  "A": 1,
+  "covered_share": 0.0625,
+  "overlap": 0.09375,
+  "weighted_overlap": 0.078125,
+  "thin": false,
+  "salary_min": 125000,
+  "salary_max": 180000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 3906.25,
+  "savings_reason": null,
+  "lead_product": "Procure-to-pay",
+  "product_split": {
+    "Procure-to-pay": {
+      "covered": 2,
+      "assisted": 0,
+      "weighted": 2
+    },
+    "Reporting": {
+      "covered": 0,
+      "assisted": 1,
+      "weighted": 0.5
+    }
+  },
+  "erp": [],
+  "tools": [
+    "Ramp",
+    "Pigment",
+    "Anaplan",
+    "Excel",
+    "Google Sheets"
+  ],
+  "posted_at": "2026-10-07T17:04:01-04:00",
+  "source_url": "https://job-boards.greenhouse.io/snorkelai/jobs/6219987004",
+  "locations": [
+    "San Francisco, CA (Hybrid)",
+    "San Francisco"
+  ],
+  "remote": "hybrid",
+  "excluded": null,
+  "text": "About Snorkel\n\nSnorkel AI is the frontier AI data lab, helping teams build the data and environments behind high-performing frontier and agentic AI. We combine technology with research-driven AI data development to create datasets, benchmarks, evals, and custom solutions for real-world AI systems. Founded out of the Stanford AI Lab in 2019, Snorkel works with leading AI labs and enterprises to move from better data to better outcomes.\n\nExcited to help us redefine how AI is built? Apply to be the newest Snorkeler!\n\nThe Role\n\nThe Corporate FP&A Manager will own headcount and operating expense planning across Snorkel and serve as the finance partner to department leaders. You will turn hiring and spending plans into reliable forecasts, help teams make investment decisions and build better cost visibility. You will also manage Ramp and procurement workflows and implement planning tools as the business grows.\n\nKey Responsibilities\n\n• Lead annual department budgets and rolling forecasts for headcount and non-headcount expenses, aligning spending with company growth and profitability targets.\n\n• Own the headcount and personnel cost model with People and Recruiting, reflecting hiring plans, attrition, compensation and benefits.\n\n• Partner with department leaders on hiring and investment decisions, identifying cost savings and evaluating tradeoffs in growth, capacity and profitability.\n\n• Partner with Accounting on month-end close, including expense accruals, and lead headcount and OpEx variance analysis against budget and forecast.\n\n• Own SaaS and vendor spend tracking, the purchase order system and procurement approvals, working with Legal, IT and Accounting on purchases and renewals.\n\n• Own and manage Ramp, including spend programs, company cards, approval workflows and expense policies, in partnership with Accounting.\n\n• Implement and administer planning tools such as Pigment or Anaplan and improve data integrations, reporting and planning processes.\n\n• Partner with the Senior FP&A Manager to prepare consolidated financial reporting, with clear commentary on spending trends and outlook for executive reviews and board materials.\n\nAbout You\n\n• 5+ years of FP&A or business finance experience, including direct ownership of headcount and operating expense planning in a growing technology company.\n\n• Advanced Excel and Google Sheets skills and experience building models that connect hiring, vendor commitments and operating drivers to financial forecasts.\n\n• Hands-on experience managing Ramp, including spend approvals, expense controls and reporting.\n\n• Experience implementing and administering planning systems such as Pigment, Anaplan or similar platforms, including financial model design and data integrations.\n\n• Strong understanding of expense accruals, cost allocation and financial statements, with a record of partnering effectively with Accounting.\n\n• Ability to build relationships with department leaders, explain financial tradeoffs clearly and turn analysis into recommendations.\n\n• Strong attention to detail and the ability to establish practical processes, improve data quality and follow through across multiple workstreams.\n\nExperience with SaaS or AI businesses, IT, cloud or inference costs, and contractor or services delivery economics is a plus.\n\nWhy This Role\n\nThis role is an opportunity to build the cost planning and spend management foundation of a growing AI company. You will help leaders make better hiring and investment decisions and translate operational improvements into stronger financial performance.\n\nActual compensation will be determined based on factors including skills, qualifications, experience, and geographic location.\n\nSalary range(s) for this role\n\n$125,000—$180,000 USD\n\nBe Your Best at Snorkel\n\nJoining Snorkel AI means becoming part of a company that has market proven solutions, robust funding, and is scaling rapidly—offering a unique combination of stability and the excitement of high growth. As a member of our team, you’ll have meaningful opportunities to shape priorities and initiatives, influence key strategic decisions, and directly impact our ongoing success. Whether you’re looking to deepen your technical expertise, explore leadership opportunities, or learn new skills across multiple functions, you’re fully supported in building your career in an environment designed for growth, learning, and shared success.\n\nSnorkel AI is proud to be an Equal Employment Opportunity employer and is committed to building a team that represents a variety of backgrounds, perspectives, and skills. Snorkel AI embraces diversity and provides equal employment opportunities to all employees and applicants for employment. Snorkel AI prohibits discrimination and harassment of any type on the basis of race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local law. All employment is decided on the basis of qualifications, performance, merit, and business need.\n\nWe will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request accommodation.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 125000,
+    "max": 180000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Salary range(s) for this role\n\n$125,000—$180,000 USD"
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [],
+  "fetched_at": "2026-10-21T17:34:17.495Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "3cac77d190f17a6b-01",
+      "text": "Lead annual department budgets",
+      "source_span": "Lead annual department budgets",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 943,
+        "end": 973
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Leading annual department budgets is FP&A planning work and no listed capability covers budgeting models end to end.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-02",
+      "text": "Lead rolling forecasts for headcount and non-headcount expenses",
+      "source_span": "rolling forecasts for headcount and non-headcount expenses",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 978,
+        "end": 1036
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Rolling forecasts for headcount and expenses are planning-model work that falls outside the listed capabilities.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-03",
+      "text": "Align spending with company growth and profitability targets",
+      "source_span": "aligning spending with company growth and profitability targets",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1038,
+        "end": 1101
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.61,
+      "rationale": "Aligning spending to growth and profitability targets is too broad to map to a specific automated finance action.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-04",
+      "text": "Own the headcount model with People and Recruiting",
+      "source_span": "Own the headcount",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1106,
+        "end": 1123
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Owning the headcount model is a budgeting and workforce-planning model not covered by the map.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-05",
+      "text": "Own the personnel cost model with People and Recruiting",
+      "source_span": "personnel cost model with People and Recruiting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1128,
+        "end": 1175
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Owning the personnel cost model is FP&A planning work with no matching capability.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-06",
+      "text": "Reflect hiring plans",
+      "source_span": "reflecting hiring plans",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1177,
+        "end": 1200
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Reflecting hiring plans is part of a headcount forecast model, which is not listed as covered.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-07",
+      "text": "Reflect attrition",
+      "source_span": "attrition",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1202,
+        "end": 1211
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.92,
+      "rationale": "Reflecting attrition is a workforce-planning forecast task with no direct capability match.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-08",
+      "text": "Reflect compensation and benefits",
+      "source_span": "compensation and benefits",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1213,
+        "end": 1238
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Reflecting compensation and benefits is a personnel cost planning task outside the coverage map.",
+      "gap_theme": {
+        "theme_id": "corporate_development",
+        "name": "Corporate development",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-09",
+      "text": "Partner with department leaders on hiring decisions",
+      "source_span": "Partner with department leaders on hiring decisions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": null,
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Partnering with department leaders on hiring decisions is advisory work with people managers.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-10",
+      "text": "Partner with department leaders on investment decisions",
+      "source_span": "Partner with department leaders on investment decisions",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": null,
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Partnering with department leaders on investment decisions is collaborative judgment work, not platform automation.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-11",
+      "text": "Identify cost savings",
+      "source_span": "identifying cost savings",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1311,
+        "end": 1335
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.56,
+      "rationale": "Identifying cost savings is too open-ended to map cleanly to a specific finance-ops capability.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-12",
+      "text": "Evaluate tradeoffs in growth, capacity and profitability",
+      "source_span": "evaluating tradeoffs in growth, capacity and profitability",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1340,
+        "end": 1398
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.58,
+      "rationale": "Evaluating tradeoffs in growth, capacity and profitability is strategic judgment rather than a defined operational workflow.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-13",
+      "text": "Partner with Accounting on month-end close, including expense accruals",
+      "source_span": "Partner with Accounting on month-end close, including expense accruals",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1403,
+        "end": 1473
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Partnering with Accounting on close work is a cross-functional collaboration, even though accruals themselves are automatable.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-14",
+      "text": "Lead headcount and OpEx variance analysis against budget and forecast",
+      "source_span": "lead headcount and OpEx variance analysis against budget and forecast",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1479,
+        "end": 1548
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Variance analysis against budget and forecast is an FP&A planning analysis not covered by the reporting capabilities.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-15",
+      "text": "Own SaaS spend tracking",
+      "source_span": "Own SaaS",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1553,
+        "end": 1561
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Tracking SaaS spend is a spend-monitoring task with no matching capability in the map.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-16",
+      "text": "Own vendor spend tracking",
+      "source_span": "vendor spend tracking",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1566,
+        "end": 1587
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Tracking vendor spend is monitoring and reporting work outside the listed capabilities.",
+      "gap_theme": {
+        "theme_id": "misc_support",
+        "name": "Misc support",
+        "bucket": "unclear"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-17",
+      "text": "Own the purchase order system",
+      "source_span": "the purchase order system",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1589,
+        "end": 1614
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.68,
+      "rationale": "Owning the purchase order system is a vague systems-ownership duty that does not map to a specific capability.",
+      "gap_theme": {
+        "theme_id": "revenue_commissions",
+        "name": "Revenue commissions",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-18",
+      "text": "Own procurement approvals",
+      "source_span": "procurement approvals",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1619,
+        "end": 1640
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.approvals",
+      "capability": "Route approvals by policy",
+      "product": "Procure-to-pay",
+      "confidence": 0.82,
+      "rationale": "Owning procurement approvals is the same core action as routing approvals by policy.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-19",
+      "text": "Work with Legal, IT and Accounting on purchases",
+      "source_span": "working with Legal, IT and Accounting on purchases",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1642,
+        "end": 1692
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Working with Legal, IT and Accounting on purchases is cross-functional partnering and not an automated finance workflow.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-20",
+      "text": "Work with Legal, IT and Accounting on renewals",
+      "source_span": "renewals",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1697,
+        "end": 1705
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Working with Legal, IT and Accounting on renewals is relationship and coordination work with other teams.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-21",
+      "text": "Manage Ramp",
+      "source_span": "Own and manage Ramp",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1710,
+        "end": 1729
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.64,
+      "rationale": "Managing Ramp is too vague because it could mean several different spend-management activities.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-22",
+      "text": "Manage spend programs",
+      "source_span": "spend programs",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1741,
+        "end": 1755
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.88,
+      "rationale": "Managing spend programs is a generic spend-control task with no direct listed capability.",
+      "gap_theme": {
+        "theme_id": "ap_ar_billing",
+        "name": "AP AR billing",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-23",
+      "text": "Manage company cards",
+      "source_span": "company cards",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1757,
+        "end": 1770
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Managing company cards is spend administration work that is not covered by the map.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-24",
+      "text": "Manage approval workflows",
+      "source_span": "approval workflows",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1772,
+        "end": 1790
+      },
+      "label": "covered",
+      "model_label": "covered",
+      "adjusted": null,
+      "capability_id": "p2p.approvals",
+      "capability": "Route approvals by policy",
+      "product": "Procure-to-pay",
+      "confidence": 0.78,
+      "rationale": "Managing approval workflows matches routing approvals by policy end to end.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-25",
+      "text": "Manage expense policies",
+      "source_span": "expense policies",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1795,
+        "end": 1811
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Managing expense policies is policy setting and governance, which the map classifies as human judgment.",
+      "gap_theme": {
+        "theme_id": "treasury_banking",
+        "name": "Treasury banking",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-26",
+      "text": "Implement planning tools such as Pigment or Anaplan",
+      "source_span": "Implement and administer planning tools such as Pigment or Anaplan",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1848,
+        "end": 1914
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.73,
+      "rationale": "Implementing planning tools is a project activity and not a finance-ops workflow capability.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-27",
+      "text": "Administer planning tools such as Pigment or Anaplan",
+      "source_span": "Implement and administer planning tools such as Pigment or Anaplan",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1848,
+        "end": 1914
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.72,
+      "rationale": "Administering planning tools is system administration work that does not match a listed capability.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-28",
+      "text": "Improve data integrations",
+      "source_span": "improve data integrations",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1919,
+        "end": 1944
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.81,
+      "rationale": "Improving data integrations is too broad and project-oriented to map to a specific covered action.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-29",
+      "text": "Improve reporting processes",
+      "source_span": "reporting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1946,
+        "end": 1955
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.8,
+      "rationale": "Improving reporting processes is a vague process-improvement duty without a specific matching capability.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-30",
+      "text": "Improve planning processes",
+      "source_span": "planning processes",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1960,
+        "end": 1978
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.78,
+      "rationale": "Improving planning processes is broad process work and not a defined capability in the map.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-31",
+      "text": "Partner with the Senior FP&A Manager to prepare consolidated financial reporting",
+      "source_span": "Partner with the Senior FP&A Manager to prepare consolidated financial reporting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1983,
+        "end": 2063
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.93,
+      "rationale": "Partnering with the Senior FP&A Manager is collaboration with another manager rather than an automated reporting task.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-32",
+      "text": "Provide clear commentary on spending trends and outlook for executive reviews and board materials",
+      "source_span": "with clear commentary on spending trends and outlook for executive reviews and board materials",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2065,
+        "end": 2159
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.83,
+      "rationale": "Providing commentary on spending trends for executive reviews and board materials matches building management-report commentary, though it is not presenting.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-33",
+      "text": "5+ years of FP&A or business finance experience",
+      "source_span": "5+ years of FP&A or business finance experience",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2175,
+        "end": 2222
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-34",
+      "text": "Direct ownership of headcount planning in a growing technology company",
+      "source_span": "direct ownership of headcount and operating expense planning in a growing technology company",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2234,
+        "end": 2326
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-35",
+      "text": "Direct ownership of operating expense planning in a growing technology company",
+      "source_span": "direct ownership of headcount and operating expense planning in a growing technology company",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2234,
+        "end": 2326
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-36",
+      "text": "Advanced Excel skills",
+      "source_span": "Advanced Excel",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2331,
+        "end": 2345
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-37",
+      "text": "Advanced Google Sheets skills",
+      "source_span": "Google Sheets",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2350,
+        "end": 2363
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-38",
+      "text": "Experience building models that connect hiring, vendor commitments and operating drivers to financial forecasts",
+      "source_span": "experience building models that connect hiring, vendor commitments and operating drivers to financial forecasts",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2375,
+        "end": 2486
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-39",
+      "text": "Hands-on experience managing Ramp",
+      "source_span": "Hands-on experience managing Ramp",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2491,
+        "end": 2524
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-40",
+      "text": "Experience implementing and administering planning systems such as Pigment, Anaplan or similar platforms",
+      "source_span": "Experience implementing and administering planning systems such as Pigment, Anaplan or similar platforms",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2588,
+        "end": 2692
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-41",
+      "text": "Experience with financial model design",
+      "source_span": "including financial model design",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2694,
+        "end": 2726
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-42",
+      "text": "Experience with data integrations",
+      "source_span": "data integrations",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 1927,
+        "end": 1944
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-43",
+      "text": "Strong understanding of expense accruals",
+      "source_span": "Strong understanding of expense accruals",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2753,
+        "end": 2793
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-44",
+      "text": "Strong understanding of cost allocation",
+      "source_span": "cost allocation",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2795,
+        "end": 2810
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-45",
+      "text": "Strong understanding of financial statements",
+      "source_span": "financial statements",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2815,
+        "end": 2835
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-46",
+      "text": "Record of partnering effectively with Accounting",
+      "source_span": "with a record of partnering effectively with Accounting",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2837,
+        "end": 2892
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-47",
+      "text": "Ability to build relationships with department leaders",
+      "source_span": "Ability to build relationships with department leaders",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2897,
+        "end": 2951
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-48",
+      "text": "Ability to explain financial tradeoffs clearly",
+      "source_span": "explain financial tradeoffs clearly",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2953,
+        "end": 2988
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-49",
+      "text": "Ability to turn analysis into recommendations",
+      "source_span": "turn analysis into recommendations",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2993,
+        "end": 3027
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-50",
+      "text": "Strong attention to detail",
+      "source_span": "Strong attention to detail",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3032,
+        "end": 3058
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-51",
+      "text": "Ability to establish practical processes",
+      "source_span": "the ability to establish practical processes",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3063,
+        "end": 3107
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-52",
+      "text": "Improve data quality",
+      "source_span": "improve data quality",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3109,
+        "end": 3129
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-53",
+      "text": "Follow through across multiple workstreams",
+      "source_span": "follow through across multiple workstreams",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3134,
+        "end": 3176
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-54",
+      "text": "Experience with SaaS or AI businesses is a plus",
+      "source_span": "Experience with SaaS or AI businesses",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3179,
+        "end": 3216
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-55",
+      "text": "Experience with IT, cloud or inference costs is a plus",
+      "source_span": "IT, cloud or inference costs",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3218,
+        "end": 3246
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-56",
+      "text": "Experience with contractor or services delivery economics is a plus",
+      "source_span": "contractor or services delivery economics",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3252,
+        "end": 3293
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-57",
+      "text": "Apply to be the newest Snorkeler!",
+      "source_span": "Apply to be the newest Snorkeler!",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 485,
+        "end": 518
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-58",
+      "text": "About Snorkel",
+      "source_span": "About Snorkel",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 0,
+        "end": 13
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-59",
+      "text": "Excited to help us redefine how AI is built?",
+      "source_span": "Excited to help us redefine how AI is built?",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 440,
+        "end": 484
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-60",
+      "text": "Actual compensation will be determined based on factors including skills, qualifications, experience, and geographic location.",
+      "source_span": "Actual compensation will be determined based on factors including skills, qualifications, experience, and geographic location.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3576,
+        "end": 3702
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-61",
+      "text": "Be Your Best at Snorkel",
+      "source_span": "Be Your Best at Snorkel",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3758,
+        "end": 3781
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-62",
+      "text": "Snorkel AI is proud to be an Equal Employment Opportunity employer and is committed to building a team that represents a variety of backgrounds, perspectives, and skills.",
+      "source_span": "Snorkel AI is proud to be an Equal Employment Opportunity employer and is committed to building a team that represents a variety of backgrounds, perspectives, and skills.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4418,
+        "end": 4588
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "3cac77d190f17a6b-63",
+      "text": "We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment.",
+      "source_span": "We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5115,
+        "end": 5358
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

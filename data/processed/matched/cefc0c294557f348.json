@@ -1,0 +1,276 @@
+{
+  "posting_id": "cefc0c294557f348",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "cefc0c294557f348-01",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "The duty says to support execution of a sales plan and budget, which is too vague to map to a specific covered finance-operations action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Expanding retail partner footprint is sales/business development work that requires human relationship management and strategy.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-03",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.8,
+      "rationale": "Creating dashboards is building recurring management reporting from data, which aligns with management reports and leadership metrics.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-04",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.92,
+      "rationale": "Performing financial analysis on new business opportunities is ad hoc analysis for finance questions and business cases.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-05",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Assessing competitive dynamics is market analysis that does not clearly match any listed finance-operations capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-06",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Proactively addressing challenges to drive growth is too generic and strategic to map to a specific platform capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-07",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.86,
+      "rationale": "Post-event analysis of retail marketing programs is a one-off financial performance analysis using source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Ensuring brand consistency and alignment with retailer objectives is cross-functional partnership and judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Enabling Sales to execute product launches is a collaborative support role rather than an automated finance-ops workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Enabling Sales to execute seasonal promotions is sales support and coordination work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Enabling Sales to execute merchandising strategies is partner-facing strategy support, not a finance-ops capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-12",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.82,
+      "rationale": "Understanding the innovation pipeline is too vague to identify a specific automatable finance task.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering with NPD on retail fit is cross-functional collaboration and judgment work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-14",
+      "label": "covered",
+      "capability_id": "o2c.invoicing",
+      "confidence": 0.99,
+      "rationale": "Ensuring timely invoicing is creating and sending invoices end to end.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-15",
+      "label": "covered",
+      "capability_id": "o2c.collections",
+      "confidence": 0.99,
+      "rationale": "Ensuring collection of cash is chasing overdue invoices and collecting payment.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Acting as the AR liaison is relationship management between teams and customers rather than an automated workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Working with Accounting and Corporate Finance on cashflow assumptions is collaborative planning work requiring human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-18",
+      "label": "assisted",
+      "capability_id": "tre.exceptions",
+      "confidence": 0.84,
+      "rationale": "Monitoring customer fines, fees, deductions, and allowances is flagging and researching short-paid or over-policy items.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-19",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Understanding contracts is too vague to tell whether the task is contract abstraction, review, or general familiarity.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Creating strategies to minimize financial impact is strategic judgment work, not a defined automation workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-21",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.77,
+      "rationale": "Monitoring customer POs against agreed commercial terms is rules-based compliance checking but does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Assisting in customer product assortment is a cross-functional commercial decision requiring human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-23",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.84,
+      "rationale": "Performing NPD financial analysis is ad hoc finance analysis of a new business or product opportunity.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Collaborating in the S&OP process is cross-functional planning and coordination work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Improving forecasting and demand visibility is planning-model work that is not covered by the listed finance-ops capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-26",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.68,
+      "rationale": "Leveraging sales data, market trends, and consumer insights is driver analysis using source data to explain performance.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Influencing the retail strategy is advisory and strategic leadership work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-28",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Optimizing financial performance is too broad to map to a specific covered workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-29",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Providing regular performance updates to senior leadership is presenting results to management, which is human work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "cefc0c294557f348-30",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Offering actionable recommendations for continuous improvement is advisory work requiring human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    }
+  ]
+}

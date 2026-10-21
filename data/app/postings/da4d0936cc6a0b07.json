@@ -1,0 +1,1139 @@
+{
+  "posting_id": "da4d0936cc6a0b07",
+  "company": "Reddit",
+  "slug": "reddit",
+  "domain": "reddit.com",
+  "title": "Strategic Finance Senior Manager",
+  "role_family": "Reporting_FPA",
+  "seniority": "manager",
+  "n": 22,
+  "C": 0,
+  "A": 0,
+  "covered_share": 0,
+  "overlap": 0,
+  "weighted_overlap": 0,
+  "thin": false,
+  "salary_min": 180200,
+  "salary_max": 252300,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 0,
+  "savings_reason": null,
+  "lead_product": null,
+  "product_split": {},
+  "erp": [],
+  "tools": [
+    "Excel",
+    "Google Sheets",
+    "SQL"
+  ],
+  "posted_at": "2026-10-02T09:48:03-04:00",
+  "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8244067",
+  "locations": [
+    "Remote - United States",
+    "Los Angeles, CA, United States"
+  ],
+  "remote": "remote",
+  "excluded": null,
+  "text": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com.\n\nReddit’s Finance team is seeking a Growth Strategic Finance Senior Manager with a track record of delivering strategic projects from ideation to completion. We are looking for a motivated individual to act as a key player in our growth and strategic planning. The successful candidate will be responsible for driving and executing high-impact initiatives that align with our organizational goals.\n\nThis role offers a unique opportunity to shape the future of our company and contribute to its long-term success. If you are someone who is passionate about growing with a rising business, values efficiency and creative problem-solving using financial/quantitative metrics, and thrives in a fast-paced, open and fast-growing environment, then this is a great role for you.\n\nLocation: Remote - USA\n\nResponsibilities:\n\n• Collaborate with cross-functional teams to identify and assess opportunities to drive users and revenue – emphasis on consumer and ads products, sales, and marketing\n\n• Establish strong partnerships with key stakeholders to ensure seamless execution and drive initiatives from ideation to completion.\n\n• Influence decisions and drive change through clear recommendations, constructive challenge, and stakeholder alignment.\n\n• Build models, forecasts, and business cases to guide planning, investment, and resource allocation.\n\n• Conduct thorough market research to analyze industry trends, competitive landscape, and user and advertiser needs. Develop and present strategic growth initiatives, leveraging insights from research.\n\n• Work with Investor Relations partners to strategically target growth in areas of investor interest\n\n• Continuously monitor and evaluate effectiveness of strategic initiatives, adjusting as needed.\n\n• Improve processes and reporting; drive adoption and share expertise across teams.\n\nQualifications:\n\n• 5-7 years of combined experience in consulting or investment banking and in-house corporate finance or strategy roles. Consumer internet or growth experience is a plus.\n\n• Strong financial modeling and analytical skills; advanced Excel or Google Sheets. SQL is a plus.\n\n• Demonstrated ability to use AI tools for analysis, research, and workflow automation, with sound judgment in validating outputs.\n\n• Sound judgment in ambiguous situations and adaptability as priorities evolve.\n\n• Track record of owning complex workstreams and influencing change through business partnerships.\n\n• Clear communication, strong stakeholder relationships, and the ability to mentor peers.\n\nBenefits:\n\n• Comprehensive Healthcare Benefits and Income Replacement Programs\n\n• 401k with Employer Match\n\n• Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support\n\n• Family Planning Support\n\n• Gender-Affirming Care\n\n• Mental Health & Coaching Benefits\n\n• Flexible Vacation & Paid Volunteer Time Off\n\n• Generous Paid Parental Leave\n\nPay Transparency:\n\nThis job posting may span more than one career level.\n\nIn addition to base salary, this job is eligible to receive equity in the form of restricted stock units, and depending on the position offered, it may also be eligible to receive a commission. Additionally, Reddit offers a wide range of benefits to U.S.-based employees, including medical, dental, and vision insurance, 401(k) program with employer match, generous time off for vacation, and parental leave. To learn more, please visit https://www.redditinc.com/careers/.\n\nTo provide greater transparency to candidates, we share base salary ranges for all US-based job postings regardless of state. We set standard base pay ranges for all roles based on function, level, and country location, benchmarked against similar stage growth companies. Final offer amounts are determined by multiple factors including, skills, depth of work experience and relevant licenses/credentials, and may vary from the amounts listed below.\n\nThe base salary range for this position is:\n\n$180,200—$252,300 USD\n\nIn select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews.\n\nDuring the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable. We will not sell your personal information or disclose it to any third party for their marketing purposes. We will delete any recording of your interview promptly after making a hiring decision. For more information about how we will handle your personal information, including our retention of it, please refer to our Candidate Privacy Policy for Potential Employees and Contractors.\n\nReddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 180200,
+    "max": 252300,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "The base salary range for this position is:\n\n$180,200—$252,300 USD"
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "ideation to completion",
+    "fast-paced, open and fast-growing environment",
+    "grow with a rising business",
+    "owning complex workstreams"
+  ],
+  "fetched_at": "2026-10-21T17:33:55.793Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "da4d0936cc6a0b07-01",
+      "text": "Reddit is a community of communities.",
+      "source_span": "Reddit is a community of communities.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 0,
+        "end": 37
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-02",
+      "text": "It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet.",
+      "source_span": "It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 38,
+        "end": 163
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-03",
+      "text": "This role offers a unique opportunity to shape the future of our company and contribute to its long-term success.",
+      "source_span": "This role offers a unique opportunity to shape the future of our company and contribute to its long-term success.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 853,
+        "end": 966
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-04",
+      "text": "If you are someone who is passionate about growing with a rising business, values efficiency and creative problem-solving using financial/quantitative metrics, and thrives in a fast-paced, open and fast-growing environment, then this is a great role for you.",
+      "source_span": "If you are someone who is passionate about growing with a rising business, values efficiency and creative problem-solving using financial/quantitative metrics, and thrives in a fast-paced, open and fast-growing environment, then this is a great role for you.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 967,
+        "end": 1225
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-05",
+      "text": "Collaborate with cross-functional teams to identify and assess opportunities to drive users and revenue – emphasis on consumer and ads products, sales, and marketing",
+      "source_span": "Collaborate with cross-functional teams to identify and assess opportunities to drive users and revenue – emphasis on consumer and ads products, sales, and marketing",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1272,
+        "end": 1437
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "The core action is cross-functional collaboration to identify opportunities, which is stakeholder-facing partnership work by nature.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-06",
+      "text": "Establish strong partnerships with key stakeholders to ensure seamless execution",
+      "source_span": "Establish strong partnerships with key stakeholders to ensure seamless execution and drive initiatives from ideation to completion.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1441,
+        "end": 1572
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Establishing strong partnerships with stakeholders is relationship management, not an automatable finance-operation task.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-07",
+      "text": "Drive initiatives from ideation to completion.",
+      "source_span": "drive initiatives from ideation to completion.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1526,
+        "end": 1572
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Driving initiatives from ideation to completion is broad project leadership and execution, which is human-led.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-08",
+      "text": "Influence decisions through clear recommendations",
+      "source_span": "Influence decisions and drive change through clear recommendations, constructive challenge, and stakeholder alignment.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1576,
+        "end": 1694
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Influencing decisions through clear recommendations is advisory judgment and persuasion, which fits human work.",
+      "gap_theme": {
+        "theme_id": "audit_assurance",
+        "name": "Audit assurance",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-09",
+      "text": "Drive change through constructive challenge and stakeholder alignment.",
+      "source_span": "drive change through clear recommendations, constructive challenge, and stakeholder alignment.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1600,
+        "end": 1694
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Constructive challenge and stakeholder alignment are change-management and collaboration activities that require people judgment.",
+      "gap_theme": {
+        "theme_id": "accounting_policy",
+        "name": "Accounting policy",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-10",
+      "text": "Build models to guide planning, investment, and resource allocation.",
+      "source_span": "Build models",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1698,
+        "end": 1710
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.91,
+      "rationale": "Building planning, investment, and resource-allocation models is FP&A planning work that is rules-based but not covered by the map.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-11",
+      "text": "Build forecasts to guide planning, investment, and resource allocation.",
+      "source_span": "forecasts",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1712,
+        "end": 1721
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Building forecasts for planning and resource allocation is FP&A forecasting, which is outside the covered treasury forecast capability.",
+      "gap_theme": {
+        "theme_id": "analysis_insights",
+        "name": "Analysis insights",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-12",
+      "text": "Build business cases to guide planning, investment, and resource allocation.",
+      "source_span": "and business cases",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1723,
+        "end": 1741
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.91,
+      "rationale": "Building business cases for investment decisions is planning analysis and does not match any listed finance-ops capability.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-13",
+      "text": "Conduct thorough market research",
+      "source_span": "Conduct thorough market research",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1801,
+        "end": 1833
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.74,
+      "rationale": "Conducting market research is an analytical task, but the duty is too generic to map to a specific covered capability.",
+      "gap_theme": {
+        "theme_id": "cross_functional_partnerships",
+        "name": "Cross functional partnerships",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-14",
+      "text": "Analyze industry trends",
+      "source_span": "analyze industry trends",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1837,
+        "end": 1860
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.79,
+      "rationale": "Analyzing industry trends is broad research/analysis without a specific matching finance-operations capability.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-15",
+      "text": "Analyze competitive landscape",
+      "source_span": "competitive landscape",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1862,
+        "end": 1883
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.77,
+      "rationale": "Analyzing the competitive landscape is general strategic analysis and does not fit any listed capability.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-16",
+      "text": "Analyze user and advertiser needs.",
+      "source_span": "and user and advertiser needs.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1885,
+        "end": 1915
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.76,
+      "rationale": "Analyzing user and advertiser needs is market analysis, but the duty is too general to map confidently.",
+      "gap_theme": {
+        "theme_id": "reporting_close",
+        "name": "Reporting close",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-17",
+      "text": "Develop strategic growth initiatives",
+      "source_span": "Develop and present strategic growth initiatives, leveraging insights from research.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1916,
+        "end": 2000
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.82,
+      "rationale": "Developing strategic growth initiatives is strategy design, which is outside the finance-operations coverage map.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-18",
+      "text": "Present strategic growth initiatives",
+      "source_span": "present strategic growth initiatives, leveraging insights from research.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1928,
+        "end": 2000
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Presenting strategic growth initiatives is presentation work to stakeholders, which is explicitly human.",
+      "gap_theme": {
+        "theme_id": "vendor_contracts",
+        "name": "Vendor contracts",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-19",
+      "text": "Work with Investor Relations partners to strategically target growth in areas of investor interest",
+      "source_span": "Work with Investor Relations partners to strategically target growth in areas of investor interest",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2004,
+        "end": 2102
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Working with Investor Relations partners is cross-team partnering and advisory collaboration, not platform automation.",
+      "gap_theme": {
+        "theme_id": "governance_risk",
+        "name": "Governance risk",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-20",
+      "text": "Continuously monitor strategic initiatives",
+      "source_span": "Continuously monitor and evaluate effectiveness of strategic initiatives, adjusting as needed.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2106,
+        "end": 2200
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.73,
+      "rationale": "Continuously monitoring strategic initiatives is vague oversight work that does not map to a specific capability.",
+      "gap_theme": {
+        "theme_id": "inventory_cost",
+        "name": "Inventory cost",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-21",
+      "text": "Evaluate effectiveness of strategic initiatives",
+      "source_span": "and evaluate effectiveness of strategic initiatives, adjusting as needed.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2127,
+        "end": 2200
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.78,
+      "rationale": "Evaluating the effectiveness of strategic initiatives is general analysis and not tied to a listed finance operation.",
+      "gap_theme": {
+        "theme_id": "payroll_benefits",
+        "name": "Payroll and benefits",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-22",
+      "text": "Adjust strategic initiatives as needed.",
+      "source_span": "adjusting as needed.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2180,
+        "end": 2200
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.81,
+      "rationale": "Adjusting strategic initiatives as needed is strategic judgment and does not fit a specific covered workflow.",
+      "gap_theme": {
+        "theme_id": "process_automation",
+        "name": "Process automation",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-23",
+      "text": "Improve processes",
+      "source_span": "Improve processes and reporting; drive adoption and share expertise across teams.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2204,
+        "end": 2285
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.7,
+      "rationale": "Improving processes is too vague to determine whether it refers to an automatable finance task or general process work.",
+      "gap_theme": {
+        "theme_id": "strategic_planning_models",
+        "name": "Strategic planning models",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-24",
+      "text": "Improve reporting",
+      "source_span": "and reporting; drive adoption and share expertise across teams.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2222,
+        "end": 2285
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.72,
+      "rationale": "Improving reporting is a broad process-improvement statement rather than a specific reporting-build capability.",
+      "gap_theme": {
+        "theme_id": "tax_compliance",
+        "name": "Tax compliance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-25",
+      "text": "Drive adoption across teams",
+      "source_span": "drive adoption and share expertise across teams.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2237,
+        "end": 2285
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Driving adoption across teams is change management and stakeholder coordination, which is human-led.",
+      "gap_theme": {
+        "theme_id": "leadership_people",
+        "name": "Leadership people",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-26",
+      "text": "Share expertise across teams",
+      "source_span": "share expertise across teams.",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2256,
+        "end": 2285
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.94,
+      "rationale": "Sharing expertise across teams is advisory and cross-functional knowledge transfer, which is human work.",
+      "gap_theme": {
+        "theme_id": "customer_support",
+        "name": "Customer support",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-27",
+      "text": "5-7 years of combined experience in consulting or investment banking and in-house corporate finance or strategy roles. Consumer internet or growth experience is a plus.",
+      "source_span": "5-7 years of combined experience in consulting or investment banking and in-house corporate finance or strategy roles. Consumer internet or growth experience is a plus.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2306,
+        "end": 2474
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-28",
+      "text": "Strong financial modeling and analytical skills",
+      "source_span": "Strong financial modeling and analytical skills; advanced Excel or Google Sheets.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2478,
+        "end": 2559
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-29",
+      "text": "Advanced Excel or Google Sheets",
+      "source_span": "advanced Excel or Google Sheets.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2527,
+        "end": 2559
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-30",
+      "text": "SQL is a plus.",
+      "source_span": "SQL is a plus.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2560,
+        "end": 2574
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-31",
+      "text": "Demonstrated ability to use AI tools for analysis, research, and workflow automation, with sound judgment in validating outputs.",
+      "source_span": "Demonstrated ability to use AI tools for analysis, research, and workflow automation, with sound judgment in validating outputs.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2578,
+        "end": 2706
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-32",
+      "text": "Sound judgment in ambiguous situations",
+      "source_span": "Sound judgment in ambiguous situations and adaptability as priorities evolve.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2710,
+        "end": 2787
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-33",
+      "text": "Adaptability as priorities evolve.",
+      "source_span": "and adaptability as priorities evolve.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2749,
+        "end": 2787
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-34",
+      "text": "Own complex workstreams",
+      "source_span": "Track record of owning complex workstreams and influencing change through business partnerships.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2791,
+        "end": 2887
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-35",
+      "text": "Influence change through business partnerships.",
+      "source_span": "and influencing change through business partnerships.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2834,
+        "end": 2887
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-36",
+      "text": "Clear communication",
+      "source_span": "Clear communication, strong stakeholder relationships, and the ability to mentor peers.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2891,
+        "end": 2978
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-37",
+      "text": "Strong stakeholder relationships",
+      "source_span": "strong stakeholder relationships, and the ability to mentor peers.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2912,
+        "end": 2978
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-38",
+      "text": "Mentor peers.",
+      "source_span": "and the ability to mentor peers.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2946,
+        "end": 2978
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-39",
+      "text": "Comprehensive Healthcare Benefits and Income Replacement Programs",
+      "source_span": "Comprehensive Healthcare Benefits and Income Replacement Programs",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 2993,
+        "end": 3058
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-40",
+      "text": "401k with Employer Match",
+      "source_span": "401k with Employer Match",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3062,
+        "end": 3086
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-41",
+      "text": "Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support",
+      "source_span": "Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3090,
+        "end": 3203
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-42",
+      "text": "Family Planning Support",
+      "source_span": "Family Planning Support",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3207,
+        "end": 3230
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-43",
+      "text": "Gender-Affirming Care",
+      "source_span": "Gender-Affirming Care",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3234,
+        "end": 3255
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-44",
+      "text": "Mental Health & Coaching Benefits",
+      "source_span": "Mental Health & Coaching Benefits",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3259,
+        "end": 3292
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-45",
+      "text": "Flexible Vacation & Paid Volunteer Time Off",
+      "source_span": "Flexible Vacation & Paid Volunteer Time Off",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3296,
+        "end": 3339
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-46",
+      "text": "Generous Paid Parental Leave",
+      "source_span": "Generous Paid Parental Leave",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3343,
+        "end": 3371
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "da4d0936cc6a0b07-47",
+      "text": "In addition to base salary, this job is eligible to receive equity in the form of restricted stock units, and depending on the position offered, it may also be eligible to receive a commission.",
+      "source_span": "In addition to base salary, this job is eligible to receive equity in the form of restricted stock units, and depending on the position offered, it may also be eligible to receive a commission.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3447,
+        "end": 3640
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

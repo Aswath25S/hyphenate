@@ -1,0 +1,258 @@
+{
+  "posting_id": "5a8bc39f61e891c2",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "5a8bc39f61e891c2-01",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Managing and coaching the auditor is people management, not platform work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-02",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Setting an employee's priorities is managerial judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Reviewing workpapers is human audit review, not an automated finance workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-04",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Providing feedback and development is a managerial duty.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Overseeing co-sourced testing is vendor and team management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Reviewing workpapers for quality and consistency is human review and judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-07",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Owning the annual IT SOX plan is setting policy and strategy.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-08",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Performing a risk assessment requires professional judgment and is not a defined platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Scoping in-scope systems is judgment-heavy audit planning.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Aligning with the external auditor is a human relationship and coordination task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Rationalizing IT SOX scope is strategic judgment, not automated processing.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Leading the end-to-end IT SOX program is broad human ownership and execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-13",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.62,
+      "rationale": "Maintaining the ITGC risk and control matrix is maintaining documentation of key controls.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Reviewing SOC 1 reports and bridge letters requires judgment on vendor assurance documents.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Evaluating deficiencies and determining root cause and severity is judgment-based analysis.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Driving remediation with control owners is cross-functional coordination and follow-up.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Coordinating with providers, auditors, and business partners is relationship management.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Providing readiness advisory to business partners is advisory work and not control operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-19",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Training and enabling control owners is people development.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Status reporting to leadership and stakeholders is human communication and presentation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-21",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Leading technology audits is an audit-management role, not a covered finance-ops workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Setting standards for AI use is policy-setting and governance judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-23",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.66,
+      "rationale": "Building reusable prompts, workflows, and automations is technical enablement that does not map cleanly to a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Coaching the auditor on building and using automations is training and mentorship.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Automated control testing and full-population analysis is rules-based analytical work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Assessing AI tool risk in the reporting environment requires control judgment and governance.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Advising on control design for AI-driven processes is human control-design judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5a8bc39f61e891c2-28",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Staying current on literature and trends is professional development rather than a specific operational workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "posting_id": "39bd475facfb3ca7",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "39bd475facfb3ca7-04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.39,
+      "rationale": "The duty says to own accounting operations and reporting, which is too broad to map to one specific platform action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-05",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.44,
+      "rationale": "Owning the GL is a broad responsibility rather than a specific automatable accounting action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-06",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.42,
+      "rationale": "Owning AP/AR spans multiple processes and is too vague to tie to one capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-07",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.74,
+      "rationale": "Owning the general ledger close aligns with running month-end close checklist tasks end to end.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-08",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.96,
+      "rationale": "Running the month-end close matches the close checklist capability directly.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-09",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.46,
+      "rationale": "Shortening and automating the close is a process-improvement project, not a specific listed finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Managing a Senior Accountant is people management work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Managing an outsourced accounting team is staff/vendor management rather than platform work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Leading the transition of work in-house is a change-management and coordination responsibility.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-13",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.86,
+      "rationale": "Preparing for external audits matches building audit support materials and PBC requests.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-14",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.98,
+      "rationale": "Supporting external audits matches providing audit support and documentation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-15",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.98,
+      "rationale": "Preparing audit documentation matches maintaining supporting documentation and audit schedules.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-16",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Preparing technical accounting memos requires accounting judgment on novel issues, which is not a covered workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-17",
+      "label": "covered",
+      "capability_id": "gl.controls",
+      "confidence": 0.9,
+      "rationale": "Supporting internal controls aligns with monitoring and executing control activities.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Applying technical accounting policies requires human judgment and interpretation of policy.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-19",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.97,
+      "rationale": "Applying revenue recognition under ASC 606 matches revenue schedule and documentation work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-20",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.98,
+      "rationale": "Applying lease accounting under ASC 842 matches the leases capability directly.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-21",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.38,
+      "rationale": "Evaluating accounting systems and workflows is too broad and not a specific listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-22",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.42,
+      "rationale": "Implementing accounting systems and workflows is a project task rather than a mapped finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-23",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.41,
+      "rationale": "Optimizing accounting systems and workflows is process improvement that does not map cleanly to a capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Partnering with Sales is cross-functional relationship work rather than platform execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Partnering with Marketing is cross-functional relationship work rather than platform execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Partnering with Engineering is cross-functional collaboration work rather than an accounting workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Partnering with Support is cross-functional relationship work rather than platform execution.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-28",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Being a thought partner to the Director of Finance is advisory leadership work, not an automatable task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-29",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.43,
+      "rationale": "Automating close and operations is a broad improvement initiative without a specific listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-30",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.52,
+      "rationale": "Using AI where it drives impact is too vague to map to a concrete finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-31",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.35,
+      "rationale": "Growing into broader ownership is a career-development statement rather than an operational duty.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-32",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.96,
+      "rationale": "Performing detailed flux analysis matches variance analysis with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-33",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.94,
+      "rationale": "Reviewing detailed variance analysis matches flux analysis work, though it may involve human judgment.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "39bd475facfb3ca7-34",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.89,
+      "rationale": "Identifying unexpected trends or anomalies in financials aligns with variance and flux analysis.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

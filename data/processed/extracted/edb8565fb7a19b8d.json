@@ -1,0 +1,316 @@
+{
+  "posting_id": "edb8565fb7a19b8d",
+  "company": "Honeycomb",
+  "domain": "honeycomb.io",
+  "title": "Senior Financial Analyst",
+  "role_family": "Reporting_FPA",
+  "seniority": "senior",
+  "locations": [
+    "Remote - United States",
+    "United States - Remote"
+  ],
+  "remote": "remote",
+  "salary": {
+    "min": 125000,
+    "max": 170000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "Base Salary based on level of experience\n\n$125,000—$170,000 USD"
+  },
+  "erp": [],
+  "tools": [
+    "Excel",
+    "Google Sheets",
+    "Pigment",
+    "Mosaic"
+  ],
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "fast-paced environment",
+    "building and maintaining reports",
+    "ad-hoc analysis",
+    "scalability as we grow"
+  ],
+  "duties": [
+    {
+      "duty_id": "edb8565fb7a19b8d-01",
+      "text": "Own and improve cloud-hosting-cost (COGS) analysis",
+      "source_span": "Own and improve our cloud-hosting-cost (COGS) analysis",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-02",
+      "text": "Break hosting spend down by area",
+      "source_span": "breaking hosting spend (e.g., compute, storage, and AI/LLM usage) down by area",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-03",
+      "text": "Break hosting spend down by customer",
+      "source_span": "and by customer",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-04",
+      "text": "Understand customer-level usage and margin",
+      "source_span": "to understand customer-level usage and margin",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-05",
+      "text": "Take ownership of Pigment, our BI and planning tool",
+      "source_span": "Take ownership of Pigment, our BI and planning tool",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-06",
+      "text": "Build and maintain reports",
+      "source_span": "building and maintaining reports",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-07",
+      "text": "Support forecasting",
+      "source_span": "supporting forecasting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-08",
+      "text": "Support monthly and quarterly close",
+      "source_span": "monthly and quarterly close",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-09",
+      "text": "Partner with engineering on R&D capitalization",
+      "source_span": "Partner with engineering on R&D capitalization",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-10",
+      "text": "Capitalize engineering time for the products they help build",
+      "source_span": "capitalizing engineering time for the products they help build",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-11",
+      "text": "Run forecasting for the R&D organization",
+      "source_span": "Run forecasting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-12",
+      "text": "Run planning for the R&D organization",
+      "source_span": "planning for the R&D organization",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-13",
+      "text": "Run headcount planning for the R&D organization",
+      "source_span": "headcount planning",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-14",
+      "text": "Run software planning for the R&D organization",
+      "source_span": "software planning",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-15",
+      "text": "Track our AI/LLM tooling costs",
+      "source_span": "Track our AI/LLM tooling costs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-16",
+      "text": "Help manage our AI/LLM tooling costs",
+      "source_span": "help manage our AI/LLM tooling costs",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-17",
+      "text": "Monitor usage against budget",
+      "source_span": "monitoring usage against budget",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-18",
+      "text": "Collaborate cross-functionally with engineering, product, data, and IT to improve our financial processes and reporting",
+      "source_span": "Collaborate cross-functionally with engineering, product, data, and IT to improve our financial processes and reporting",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-19",
+      "text": "Support ad-hoc analysis",
+      "source_span": "ad-hoc analysis",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-20",
+      "text": "Special projects",
+      "source_span": "special projects",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-21",
+      "text": "Bachelor's Degree in Accounting, Finance, Economics, or a comparable field",
+      "source_span": "Bachelor's Degree in Accounting, Finance, Economics, or a comparable field",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-22",
+      "text": "Equivalent practical experience",
+      "source_span": "equivalent practical experience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-23",
+      "text": "5+ years of FP&A, strategic planning, or P&L management experience at a SaaS company",
+      "source_span": "5+ years of FP&A, strategic planning, or P&L management experience at a SaaS company",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-24",
+      "text": "A technical orientation, with the ability to partner directly with engineering and product teams",
+      "source_span": "A technical orientation, with the ability to partner directly with engineering and product teams",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-25",
+      "text": "Expert in Excel and Google Sheets",
+      "source_span": "Expert in Excel and Google Sheets",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-26",
+      "text": "Comfortable with a range of modeling techniques",
+      "source_span": "comfortable with a range of modeling techniques",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-27",
+      "text": "Able to build analysis and models that influence decisions",
+      "source_span": "able to build analysis and models that influence decisions",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-28",
+      "text": "Experience with ERP and financial planning/BI tools",
+      "source_span": "Experience with ERP and financial planning/BI tools",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-29",
+      "text": "Pigment (or a comparable tool such as Mosaic) a strong plus",
+      "source_span": "Pigment (or a comparable tool such as Mosaic) a strong plus",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-30",
+      "text": "Comfortable in an ambiguous, fast-paced environment",
+      "source_span": "Comfortable in an ambiguous, fast-paced environment",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-31",
+      "text": "Driving results",
+      "source_span": "driving results",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-32",
+      "text": "Solving complex problems",
+      "source_span": "solving complex problems",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-33",
+      "text": "Exercising judgment across multiple sources of information",
+      "source_span": "exercising judgment across multiple sources of information",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-34",
+      "text": "Strong quantitative skills",
+      "source_span": "Strong quantitative skills",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-35",
+      "text": "The ability to connect the dots across data sources to inform decisions",
+      "source_span": "the ability to connect the dots across data sources to inform decisions",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-36",
+      "text": "Familiarity with cloud/hosting cost structures",
+      "source_span": "Familiarity with cloud/hosting cost structures",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-37",
+      "text": "R&D capitalization",
+      "source_span": "R&D capitalization",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "edb8565fb7a19b8d-38",
+      "text": "SQL a plus",
+      "source_span": "SQL a plus",
+      "is_boilerplate": false,
+      "is_requirement": true
+    }
+  ],
+  "posted_at": "2026-09-18T12:27:57-04:00",
+  "source_url": "https://job-boards.greenhouse.io/honeycomb/jobs/5424906008",
+  "fetched_at": "2026-10-21T17:34:19.160Z",
+  "prompt_version": "extract-v1",
+  "text": "What We’re Building\n\nHoneycomb is a service for the near and present future, defining observability and raising expectations of what developer tools can do! We’re working with well known companies like HelloFresh, Slack, LaunchDarkly, and Vanguard and more across a range of industries. This is an exciting time in our trajectory, we’ve closed Series D funding, scaled past the 200-person mark, and were named to Forbes’ America’s Best Startups of 2022 and 2023!\n\nIf you want to see what we’ve been up to, please check out these blog posts and Honeycomb.io press releases.\n\nWho We Are\n\nWe come for the impact, and stay for the culture! We’re a talented, opinionated, passionate, fiercely inclusive, and responsible group of bees. We have conviction and we strive to live our values every day. We want our people to do what they truly love amongst a team of highly talented (but humble) peers.\n\nHow We Work\n\nWe are a fully distributed company, which means we believe it is not where you sit, but how you deliver that matters most. We invest in our people and care about how you orient to our culture and processes. At the same time we imbue a lot of trust, autonomy, and accountability from Day 1. #LI-Remote\n\nLittle more about the team:\n\nJoin Honeycomb as a Senior Financial Analyst and be a key player in our growing FP&A team! Reporting to the Director of FP&A, you'll partner primarily with our R&D organization — product and engineering — as the finance lead for how we understand and manage the cost of running Honeycomb. You'll take ownership of our BI and planning tool (Pigment), continue and improve our cloud-hosting-cost (COGS) analysis, and support R&D capitalization, forecasting, and planning. This role suits someone who takes initiative, solves problems analytically, and actively drives process improvements in a fast-paced environment, and who's comfortable collaborating cross-functionally with engineering, product, data, and IT. If you're ready to make an impact and grow with us, we'd love to hear from you!\n\nWhat you’ll do in the role:\n\n• Own and improve our cloud-hosting-cost (COGS) analysis — breaking hosting spend (e.g., compute, storage, and AI/LLM usage) down by area and by customer to understand customer-level usage and margin\n\n• Take ownership of Pigment, our BI and planning tool — building and maintaining reports and supporting forecasting and monthly and quarterly close\n\n• Partner with engineering on R&D capitalization, capitalizing engineering time for the products they help build\n\n• Run forecasting and planning for the R&D organization, including headcount and software planning\n\n• Track and help manage our AI/LLM tooling costs, monitoring usage against budget\n\n• Collaborate cross-functionally with engineering, product, data, and IT to improve our financial processes and reporting\n\n• Support the finance team on special projects and ad-hoc analysis, with a focus on improving processes and scalability as we grow\n\nWhat you’ll bring to the role:\n\n• Bachelor's Degree in Accounting, Finance, Economics, or a comparable field — or equivalent practical experience\n\n• 5+ years of FP&A, strategic planning, or P&L management experience at a SaaS company\n\n• A technical orientation, with the ability to partner directly with engineering and product teams\n\n• Expert in Excel and Google Sheets, comfortable with a range of modeling techniques, and able to build analysis and models that influence decisions\n\n• Experience with ERP and financial planning/BI tools — Pigment (or a comparable tool such as Mosaic) a strong plus\n\n• Comfortable in an ambiguous, fast-paced environment: driving results, solving complex problems, and exercising judgment across multiple sources of information\n\n• Strong quantitative skills and the ability to connect the dots across data sources to inform decisions\n\n• Familiarity with cloud/hosting cost structures, R&D capitalization, or SQL a plus\n\nBase Salary based on level of experience\n\n$125,000—$170,000 USD\n\nWhat you'll get when you join the Hive:\n\n• A stake in our success - generous equity with employee-friendly stock program\n\n• It’s not about how strong of a negotiator you are - our pay is based on transparent levels relative to experience\n\n• Time to recharge with unlimited PTO\n\n• A distributed-first mindset and culture (really!)\n\n• Home office, co-working, and internet stipend\n\n• Full benefits coverage for employees, with additional coverage available for dependents\n\n• Up to 16 weeks of paid parental leave, regardless of path to parenthood\n\n• Annual development allowance\n\n• And much more...\n\nPlease note we cannot currently sponsor or support visa transfers at this time. Additionally, in compliance with applicable law, all persons hired will be required to verify identity and eligibility to work.\n\nPhishing and Recruitment Scam Warning:\n\nWe take your security seriously. Please be aware that recruitment scams are increasingly common and scammers may create email addresses or websites to impersonate Honeycomb employees. To help protect you:\n\n• All communications will come from an @honeycomb.io email address\n\n• We occasionally work with external recruiting agencies. These partners will use legitimate business email addresses—never personal accounts like Gmail or Yahoo.\n\n• Our recruiting process will never ask you to provide financial or sensitive personal information, including but not limited to:\n\n• Social security or tax identification numbers\n\n• Credit card numbers\n\n• Bank account information\n\nDiversity & Accommodations:\n\nWe're committed to building a diverse, inclusive, and equitable workplace—where people of all backgrounds, identities, experiences, and abilities are welcomed, valued, and supported. We recognize that there is no single path to success and embrace nontraditional career journeys and diverse perspectives as key to building stronger, more innovative teams.\n\nWe strive to ensure an inclusive experience throughout every stage of our hiring process and are happy to provide reasonable accommodations as needed. If you require accommodations or accessible formats at any point during our hiring process, please let your recruiter know.\n\nAs an equal opportunity employer our hiring process is designed to put you at ease and help you show your best work. If there’s anything we can do to improve your experience, we’re always open to feedback.\n\nPrivacy Notice:\n\nIf you apply for a job at Honeycomb and your application is unsuccessful (or you withdraw from the process or decline our offer), Honeycomb will retain your information after your application for a period of time in accordance with local laws. We retain this information for various reasons, including in case we face a legal challenge in respect of a recruitment decision, to consider you for other current or future jobs at Honeycomb, and to help us better understand, analyze and improve our recruitment processes.\n\nFor more information regarding our privacy practices please see the Honeycomb Privacy Notice.\n\nIf you do not want us to retain your information, or want us to update it, please contact privacy@honeycomb.io. Please note, however, that we may retain some information if required by law or as necessary to protect ourselves from legal claims.",
+  "extra_salary_lines": [],
+  "salary_source": "posting_text",
+  "ats": "greenhouse"
+}

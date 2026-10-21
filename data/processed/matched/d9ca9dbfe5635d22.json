@@ -1,0 +1,249 @@
+{
+  "posting_id": "d9ca9dbfe5635d22",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "d9ca9dbfe5635d22-01",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.9,
+      "rationale": "Leading a recurring GTM reporting package matches building recurring management reports.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-02",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.78,
+      "rationale": "Tracking pipeline generation is recurring KPI reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-03",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.78,
+      "rationale": "Tracking conversion is recurring KPI reporting.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "CAC tracking is a planning and marketing efficiency metric with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-05",
+      "label": "assisted",
+      "capability_id": "rep.driver_analysis",
+      "confidence": 0.77,
+      "rationale": "Tracking pipe-to-spend by channel uses source data to analyze a channel-level driver.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-06",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Variance analysis for leadership in FP&A is budget-versus-actual analysis outside the listed flux capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Owning the GTM budget is budgeting model work with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Running the reforecast cycle is FP&A forecasting and planning work not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Managing the demand-gen envelope is budget allocation work outside coverage.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Reallocating spend across channels is FP&A budget reallocation with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Building a pipeline coverage model is a planning model not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Determining required pipeline by segment and channel is a capacity planning calculation not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Owning GTM unit economics is a planning and metrics model with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Tracking payback is a GTM economics metric not covered by any capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "Tracking LTV is a unit economics metric with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Tracking net revenue retention by segment is recurring KPI reporting without a matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Defining measurement standards is policy-setting work that requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-18",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Serving as a thought partner on sales capacity is advisory work to another team.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Determining quota coverage is sales capacity planning with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Determining rep ramp is workforce planning not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-21",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Determining territory productivity is sales planning analysis with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-22",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Determining headcount required for the plan is FP&A workforce planning not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering directly with the CRO and CMO in pipeline reviews is cross-functional advisory work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-24",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering on channel bets is strategic advising and decision support, not a platform workflow.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-25",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Partnering on budget reallocation is human cross-functional decision-making.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-26",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.92,
+      "rationale": "Conducting in-depth ad hoc financial analysis matches responding to defined finance questions.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "d9ca9dbfe5635d22-27",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Evaluating new business opportunities is too broad to map cleanly to a listed capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

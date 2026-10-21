@@ -1,0 +1,258 @@
+{
+  "posting_id": "99451e525fc1f073",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "99451e525fc1f073-01",
+      "label": "assisted",
+      "capability_id": "o2c.rev_rec",
+      "confidence": 0.86,
+      "rationale": "Managing revenue recognition aligns with preparing and maintaining ASC 606 revenue schedules and documentation, which the platform assists with.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-02",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.52,
+      "rationale": "Managing accounts payable is too broad and could span bill capture, approvals, aging, and payments rather than one specific covered action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-03",
+      "label": "assisted",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.74,
+      "rationale": "Managing fixed assets fits maintaining the fixed asset register and depreciation schedules, though the capex management part is broader.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-04",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Managing payroll is repetitive operational work but no payroll-processing capability is listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-05",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.58,
+      "rationale": "Cash management is too broad because it could include cash position, forecasting, payments, and treasury decisions.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-06",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "Building AI workflows and agents is a systems/project task, not a finance-operations capability in the map.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-07",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.8,
+      "rationale": "Leveraging ERP automation to improve efficiency is implementation work rather than a specific finance-ops process capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-08",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.76,
+      "rationale": "Driving process improvement is a broad optimization project and does not match a specific automated finance action.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-09",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Developing internal controls is designing policy and control framework work, which is a human judgment task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Designing a SOX-ready control framework is policy/control design work, not an operational capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-11",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.8,
+      "rationale": "Managing financial reporting aligns with building and maintaining recurring management reports and financial statements.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-12",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.7,
+      "rationale": "Analyzing financial data matches ad hoc finance analysis traced to source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Presenting accounting insights to leadership is a human communication and presentation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-14",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Working closely with the finance team is collaboration and partnership work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-15",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Working with the finance team on budget preparation is collaborative planning work rather than an automated finance-ops task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Budget-versus-actual analysis is a planning-style analysis that is not covered by the listed reporting capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-17",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Suggesting process improvements is advisory and judgment-based rather than a specific finance-ops processing task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-18",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.94,
+      "rationale": "Supporting the annual audit matches preparing audit support and PBC documentation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Supporting tax compliance is a compliance workstream not covered by the finance-operations capabilities listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-20",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Serving as the primary liaison to external auditors is a relationship-management role explicitly excluded from automation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-21",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.9,
+      "rationale": "Managing PBC requests fits preparing audit schedules and providing audit support documentation.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-22",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Managing audit timelines is project coordination with external auditors, which is human relationship work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-23",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Resolving technical accounting matters requires judgment on novel accounting issues and is not a listed capability.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-24",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.68,
+      "rationale": "Developing and tracking accounting KPIs aligns with recurring management reporting and KPI dashboards.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-25",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.74,
+      "rationale": "Staying current on accounting pronouncements is professional research and learning, not a specific automatable finance workflow.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-26",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Informing management of new requirements is communication and advisory work rather than an automated process.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "Informing management of changes to financial reporting is a human communication task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "99451e525fc1f073-28",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The duty text is incomplete and does not describe a specific action.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}

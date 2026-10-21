@@ -1,95 +1,239 @@
 {
   "posting_id": "9a161438308499f8",
-  "prompt_version": "hand-labelled",
+  "prompt_version": "match-v1",
   "labels": [
     {
-      "duty_id": "9a161438308499f8-h01",
+      "duty_id": "9a161438308499f8-01",
       "label": "gap_candidate",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.82,
+      "rationale": "Coordinating concurrent loan purchases is an operational transaction workflow that does not match any treasury capability on the map.",
       "model_label": "gap_candidate",
       "adjusted": null
     },
     {
-      "duty_id": "9a161438308499f8-h02",
+      "duty_id": "9a161438308499f8-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "Managing loan purchases across origination and servicer networks is counterparties-and-process work with no matching capability listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9a161438308499f8-03",
       "label": "covered",
       "capability_id": "tre.cash_position",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.97,
+      "rationale": "Monitoring real-time cash balances is the core cash position capability across accounts and entities.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "9a161438308499f8-h03",
+      "duty_id": "9a161438308499f8-04",
       "label": "gap_candidate",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.76,
+      "rationale": "Monitoring facility draw capacities is a liquidity-monitoring task but not one of the listed treasury capabilities.",
       "model_label": "gap_candidate",
       "adjusted": null
     },
     {
-      "duty_id": "9a161438308499f8-h04",
+      "duty_id": "9a161438308499f8-05",
+      "label": "covered",
+      "capability_id": "tre.cash_position",
+      "confidence": 0.93,
+      "rationale": "Monitoring liquidity positioning across entities and facilities matches cash position reporting across accounts, entities and banks.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9a161438308499f8-06",
       "label": "gap_candidate",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.86,
+      "rationale": "Tracking portfolio concentration limits is a compliance monitoring task with no matching capability on the map.",
       "model_label": "gap_candidate",
       "adjusted": null
     },
     {
-      "duty_id": "9a161438308499f8-h05",
+      "duty_id": "9a161438308499f8-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Tracking borrowing base parameters is rules-based monitoring that is not covered by any listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9a161438308499f8-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Tracking eligibility criteria for asset allocation is compliance checking against deal terms, which is not a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9a161438308499f8-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "Operational setup of bank accounts is specifically excluded from the bank reconciliation capability and is not otherwise covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9a161438308499f8-10",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.91,
+      "rationale": "Operational setup of trust accounts is account-opening work that is not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9a161438308499f8-11",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Managing entitlements is access administration rather than a listed finance-operations capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9a161438308499f8-12",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Managing portal configurations is system administration and does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9a161438308499f8-13",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "Managing onboarding checklists is workflow administration that is not covered by the capability map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9a161438308499f8-14",
       "label": "human",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.96,
+      "rationale": "Being the main operational point of contact for external parties is relationship management, which is labeled human.",
       "model_label": "human",
       "adjusted": null
     },
     {
-      "duty_id": "9a161438308499f8-h06",
-      "label": "assisted",
-      "capability_id": "tre.exceptions",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "assisted",
-      "adjusted": null
-    },
-    {
-      "duty_id": "9a161438308499f8-h07",
+      "duty_id": "9a161438308499f8-15",
       "label": "gap_candidate",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.8,
+      "rationale": "Coordinating daily cash flows is treasury operations work but not a listed automated capability.",
       "model_label": "gap_candidate",
       "adjusted": null
     },
     {
-      "duty_id": "9a161438308499f8-h08",
+      "duty_id": "9a161438308499f8-16",
+      "label": "assisted",
+      "capability_id": "tre.exceptions",
+      "confidence": 0.86,
+      "rationale": "Resolving operational exceptions matches the treasury exceptions capability for researching and resolving unmatched or short items.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9a161438308499f8-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.89,
+      "rationale": "Owning KYC/AML documentation packages is compliance documentation work with no matching capability listed.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9a161438308499f8-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Owning periodic account reviews is a recurring compliance/account-maintenance task not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9a161438308499f8-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Managing legal entity updates across relationships is entity administration that does not match a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9a161438308499f8-20",
       "label": "covered",
       "capability_id": "tre.bank_rec",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.98,
+      "rationale": "Performing daily account reconciliations matches the daily bank reconciliation capability.",
       "model_label": "covered",
       "adjusted": null
     },
     {
-      "duty_id": "9a161438308499f8-h09",
+      "duty_id": "9a161438308499f8-21",
+      "label": "covered",
+      "capability_id": "tre.bank_rec",
+      "confidence": 0.74,
+      "rationale": "Performing transaction-level reconciliations is a reconciliation task that fits the bank reconciliation capability at the transaction level.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9a161438308499f8-22",
       "label": "assisted",
       "capability_id": "tre.exceptions",
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
+      "confidence": 0.83,
+      "rationale": "Analyzing loan tapes and servicer data to find and resolve discrepancies matches treasury exception research and resolution.",
       "model_label": "assisted",
       "adjusted": null
     },
     {
-      "duty_id": "9a161438308499f8-h10",
-      "label": "human",
+      "duty_id": "9a161438308499f8-23",
+      "label": "gap_candidate",
       "capability_id": null,
-      "confidence": 1,
-      "rationale": "Hand label (fixture).",
-      "model_label": "human",
+      "confidence": 0.78,
+      "rationale": "Identifying friction points in treasury workflows is process-improvement analysis with no matching capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9a161438308499f8-24",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "Implementing updated procedures is process-change work rather than a listed finance-operations capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9a161438308499f8-25",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Implementing controls is control-design work, which is not covered by the monitoring-controls capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "9a161438308499f8-26",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.87,
+      "rationale": "Implementing reporting templates is template design and rollout, not a listed reporting capability.",
+      "model_label": "gap_candidate",
       "adjusted": null
     }
   ]

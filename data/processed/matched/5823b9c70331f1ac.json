@@ -1,0 +1,348 @@
+{
+  "posting_id": "5823b9c70331f1ac",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "5823b9c70331f1ac-03",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.92,
+      "rationale": "The action is overseeing AP operations, which is management work rather than end-to-end transaction processing.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-04",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.99,
+      "rationale": "The action is coding AP vendor bills to the ledger, which matches bill capture and coding.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-05",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The action is approving AP, which is spend approval by a person rather than workflow routing.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-06",
+      "label": "assisted",
+      "capability_id": "p2p.payments",
+      "confidence": 0.9,
+      "rationale": "The action is processing disbursements, which matches payment runs but includes policy/compliance handling.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-07",
+      "label": "covered",
+      "capability_id": "p2p.allocations",
+      "confidence": 0.94,
+      "rationale": "The action is coding job costs, which is the same as splitting costs across the right cost objects.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-08",
+      "label": "covered",
+      "capability_id": "p2p.allocations",
+      "confidence": 0.97,
+      "rationale": "The action is allocating costs to the appropriate cost objectives, which is direct expense allocation.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-09",
+      "label": "assisted",
+      "capability_id": "p2p.allocations",
+      "confidence": 0.76,
+      "rationale": "The action is ensuring charge accuracy, which is related to allocations but requires review and judgment beyond pure coding.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The action is making allowability determinations under FAR and contract terms, which is policy judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-11",
+      "label": "covered",
+      "capability_id": "p2p.bill_capture",
+      "confidence": 0.8,
+      "rationale": "The action is reviewing subcontractor invoices as part of AP invoice processing and coding.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-12",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.94,
+      "rationale": "The duty says only reconciliations without specifying bank, AP, or GL account reconciliations.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The action is ensuring alignment with contract terms, funding, and allowability, which is compliance judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-14",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The action is processing employee travel expense reports, which is a rules-based expense workflow not covered here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-15",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The action is auditing employee travel expense reports, which is expense report review not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-16",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "The action is verifying travel policy and JFTR/FTR compliance, which is a rules-based expense compliance task not covered here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-17",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "The action is maintaining per diem rates, which is a travel-reimbursement rules maintenance task outside the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-18",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "The action is applying per diem rates from GSA schedules and contract rules, which is travel expense calculation not covered here.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-19",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The action is calculating sales and use tax accruals, which is a tax accrual task not in the coverage map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-20",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "The action is recording sales and use tax accruals, which is tax accounting outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-21",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The action is ensuring tax reporting, which is tax compliance work not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-22",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The action is ensuring tax remittance, which is tax payment compliance outside the listed capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-23",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.99,
+      "rationale": "The action is maintaining fixed assets, which matches fixed asset subledger maintenance.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-24",
+      "label": "covered",
+      "capability_id": "gl.subledgers",
+      "confidence": 0.99,
+      "rationale": "The action is maintaining depreciation schedules by asset class, which is fixed asset accounting.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-25",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.98,
+      "rationale": "The action is preparing adjusting entries, which matches journal entry preparation but still benefits from human review.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-26",
+      "label": "assisted",
+      "capability_id": "gl.journal_entries",
+      "confidence": 0.98,
+      "rationale": "The action is booking adjusting entries, which is journal entry posting with human oversight.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-27",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The action is collaborating with other teams, which is cross-functional partnership work by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-28",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.93,
+      "rationale": "The duty only says validate costs, which is too vague to map to a specific automated finance capability.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-29",
+      "label": "covered",
+      "capability_id": "p2p.approvals",
+      "confidence": 0.97,
+      "rationale": "The action is ensuring invoices are approved on time, which matches AP approval workflow routing.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-30",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.9,
+      "rationale": "The action is ensuring accruals are in place, which aligns with accrual estimation and recording.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-31",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.95,
+      "rationale": "The action is maintaining audit-ready documentation, which is audit support for transactions and entries.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-32",
+      "label": "covered",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.97,
+      "rationale": "The action is supporting month-end close activities, which matches close checklist execution.",
+      "model_label": "covered",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-33",
+      "label": "assisted",
+      "capability_id": "gl.accruals",
+      "confidence": 0.88,
+      "rationale": "The action is supporting AP accruals, which fits accrual preparation and recording.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-34",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.85,
+      "rationale": "The action is supporting job cost reconciliations, which is cost accounting work not explicitly covered in the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-35",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.95,
+      "rationale": "The action is supporting variance analysis, which matches flux/variance analysis with commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-36",
+      "label": "assisted",
+      "capability_id": "gl.audit_support",
+      "confidence": 0.9,
+      "rationale": "The action is preparing audit schedules for DCAA, DCMA, and other audits, which is audit support work.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-37",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "The action is preparing and filing 1099s and 1098s, which is tax form filing not covered by the map.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-38",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.88,
+      "rationale": "The action is drafting responses to IRS inquiries, which is external tax correspondence requiring human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-39",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "The duty is a vague process-improvement support activity without a specific finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "5823b9c70331f1ac-40",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.83,
+      "rationale": "The duty is broad efficiency and internal-control identification, which is too vague to map precisely.",
+      "model_label": "unclear",
+      "adjusted": null
+    }
+  ]
+}
