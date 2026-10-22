@@ -80,9 +80,9 @@
       "confidence": 0.98,
       "rationale": "Serving as a finance business partner is advisory work with another organization, which is human partnering rather than platform automation.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -105,8 +105,8 @@
       "confidence": 0.93,
       "rationale": "Providing actionable financial and strategic insights is advisory analysis for business partners, which is human judgment work.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -130,8 +130,8 @@
       "confidence": 0.95,
       "rationale": "Owning financial planning across revenue, units, margin, and drivers is FP&A planning/modeling, which is not covered by the platform.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -155,8 +155,8 @@
       "confidence": 0.95,
       "rationale": "Owning budgeting for Wholesale is budgeting model work, which matches no listed capability.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -180,8 +180,8 @@
       "confidence": 0.96,
       "rationale": "Owning forecasting for revenue, units, margin, and drivers is financial forecasting/planning, not a covered capability.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -205,8 +205,8 @@
       "confidence": 0.96,
       "rationale": "Re-forecasting Wholesale is another planning-model task that the platform does not cover.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -230,9 +230,9 @@
       "confidence": 0.81,
       "rationale": "Driving forecast accuracy is forecast-planning work and accountability management that falls outside the platform's capabilities.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -255,8 +255,8 @@
       "confidence": 0.56,
       "rationale": "Identifying key variances and drivers is close to driver analysis and variance explanation using source data.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -280,9 +280,9 @@
       "confidence": 0.94,
       "rationale": "Translating performance into an updated financial outlook is forecast/planning work rather than a covered operational finance task.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -305,8 +305,8 @@
       "confidence": 0.9,
       "rationale": "Owning wholesale margin management is strategic performance management, not a covered automation capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -330,8 +330,8 @@
       "confidence": 0.91,
       "rationale": "Optimizing channel economics is strategic FP&A analysis that is not covered by the platform.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -355,8 +355,8 @@
       "confidence": 0.59,
       "rationale": "Maintaining visibility into retailer profitability is recurring management reporting and KPI analysis.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -380,8 +380,8 @@
       "confidence": 0.72,
       "rationale": "Identifying opportunities to improve financial performance is too vague to map cleanly to a specific platform capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -405,8 +405,8 @@
       "confidence": 0.97,
       "rationale": "Using models to inform new retailer partnerships supports strategic partnership decisions, which are human judgment work.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -430,8 +430,8 @@
       "confidence": 0.97,
       "rationale": "Using models to inform geographic expansion is a strategic decision-support activity that requires human judgment.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -455,8 +455,8 @@
       "confidence": 0.98,
       "rationale": "Using analytical frameworks to inform pricing and promotions is strategic pricing advice, not a finance-ops automation task.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -480,8 +480,8 @@
       "confidence": 0.98,
       "rationale": "Using analytical frameworks to inform assortment strategy is business strategy work that is human-led.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -505,8 +505,8 @@
       "confidence": 0.84,
       "rationale": "Supporting the transition to an EPM system is a project/implementation duty that is too vague to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -530,9 +530,9 @@
       "confidence": 0.87,
       "rationale": "Supporting the maturation of core finance infrastructure is broad project support and not a specific automatable finance operation.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -555,8 +555,8 @@
       "confidence": 0.9,
       "rationale": "Implementing process improvements is a general process-change project rather than a defined platform capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -580,8 +580,8 @@
       "confidence": 0.89,
       "rationale": "Implementing reporting improvements is a vague project duty and does not map cleanly to a specific covered action.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },

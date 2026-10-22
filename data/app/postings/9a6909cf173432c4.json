@@ -75,8 +75,8 @@
       "confidence": 0.98,
       "rationale": "The core action is providing leadership and oversight over accounting, which is management work rather than an operable finance task.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -100,8 +100,8 @@
       "confidence": 0.97,
       "rationale": "The duty is oversight of general ledger operations, which is managing the function rather than performing GL close work.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -125,8 +125,8 @@
       "confidence": 0.98,
       "rationale": "Oversight of accounts payable is leadership of a team, not invoice processing or payment runs.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -150,8 +150,8 @@
       "confidence": 0.97,
       "rationale": "The action is overseeing accounts receivable, which is managerial rather than invoicing, collections, or cash application.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -175,8 +175,8 @@
       "confidence": 0.99,
       "rationale": "Payroll oversight is management of payroll, and payroll processing is outside the platform coverage map.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -200,8 +200,8 @@
       "confidence": 0.95,
       "rationale": "Oversight of lease accounting is leadership over the function, not the subledger maintenance itself.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -225,8 +225,8 @@
       "confidence": 0.96,
       "rationale": "The duty is oversight of consolidations, which is a management responsibility rather than performing consolidation work.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -250,9 +250,9 @@
       "confidence": 0.95,
       "rationale": "Leading consolidated financial reporting is a leadership and reporting role, not the mechanics of consolidation.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -275,8 +275,8 @@
       "confidence": 0.99,
       "rationale": "Establishing accounting policies is setting policy, which is explicitly a human judgment activity.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -300,9 +300,9 @@
       "confidence": 0.93,
       "rationale": "Establishing governance is policy and oversight work rather than an automatable finance operations task.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -325,8 +325,8 @@
       "confidence": 0.62,
       "rationale": "Maintaining processes is too broad to map to a specific platform capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -350,8 +350,8 @@
       "confidence": 0.95,
       "rationale": "Evaluating and implementing new accounting standards requires technical accounting judgment and policy decisions.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -375,9 +375,9 @@
       "confidence": 0.88,
       "rationale": "Delivering insights to executives is advisory/leadership work rather than a specific reporting workflow.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -400,9 +400,9 @@
       "confidence": 0.95,
       "rationale": "Designing a SOX compliance framework is control framework design, which is explicitly human judgment work.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -425,9 +425,9 @@
       "confidence": 0.97,
       "rationale": "Standardizing and optimizing accounting processes globally is process leadership and redesign, not a listed automation capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -450,9 +450,9 @@
       "confidence": 0.68,
       "rationale": "Championing continuous improvement is too generic to map to a specific finance-operations action.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -475,9 +475,9 @@
       "confidence": 0.67,
       "rationale": "Identifying opportunities to reduce manual effort is vague and does not specify a covered operational task.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -500,8 +500,8 @@
       "confidence": 0.74,
       "rationale": "A technology-forward mindset is an attitude or strategy statement, not a specific finance operation.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -525,8 +525,8 @@
       "confidence": 0.66,
       "rationale": "Strengthening processes around cash visibility and liquidity is process improvement rather than preparing the cash position itself.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -550,8 +550,8 @@
       "confidence": 0.94,
       "rationale": "Developing recommendations on capital deployment and financial risk management is advisory decision support, not a platform workflow.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -575,9 +575,9 @@
       "confidence": 0.99,
       "rationale": "Leading and developing an accounting organization is people management, which is explicitly human work.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -600,8 +600,8 @@
       "confidence": 0.99,
       "rationale": "Attracting, developing, engaging, and retaining talent is hiring and talent management, which is human work.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -625,8 +625,8 @@
       "confidence": 0.98,
       "rationale": "Building partnerships and driving cross-functional alignment is collaboration and relationship management, not a finance operations task.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },

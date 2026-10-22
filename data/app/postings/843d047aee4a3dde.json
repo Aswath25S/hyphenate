@@ -95,8 +95,8 @@
       "confidence": 0.97,
       "rationale": "Owning routine payroll processing support is repetitive payroll administration with no matching capability in the map.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -120,8 +120,8 @@
       "confidence": 0.96,
       "rationale": "Assisting international payroll cycles is payroll processing work that is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -145,9 +145,9 @@
       "confidence": 0.86,
       "rationale": "Working primarily in Rippling describes a system rather than a specific finance action, so it is too vague to map.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -170,9 +170,9 @@
       "confidence": 0.97,
       "rationale": "Running contractor payroll is payroll processing, which is repetitive but not covered by the map.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -195,9 +195,9 @@
       "confidence": 0.95,
       "rationale": "Tracking timecard submissions is administrative payroll input tracking with no matching capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -220,8 +220,8 @@
       "confidence": 0.94,
       "rationale": "Following up on manager approvals is workflow chasing rather than a covered finance-operations capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -245,9 +245,9 @@
       "confidence": 0.96,
       "rationale": "Making contractor payments is payroll payment processing, which is not covered here.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -270,8 +270,8 @@
       "confidence": 0.9,
       "rationale": "Reconciling benefit deductions against payroll journals is a payroll-specific reconciliation with no direct match in the map.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -295,8 +295,8 @@
       "confidence": 0.9,
       "rationale": "Reconciling 401(k) deferrals is a payroll benefits reconciliation that is not covered.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -320,8 +320,8 @@
       "confidence": 0.9,
       "rationale": "Reconciling employer match is a payroll benefits reconciliation outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -345,8 +345,8 @@
       "confidence": 0.88,
       "rationale": "Flagging payroll discrepancies is exception handling in payroll processing, but no capability directly matches it.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -370,9 +370,9 @@
       "confidence": 0.9,
       "rationale": "Resolving payroll discrepancies before checks post is operational payroll work not covered by the map.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -395,8 +395,8 @@
       "confidence": 0.83,
       "rationale": "Supporting state employer tax account registration is administrative tax setup work with no matching capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -420,9 +420,9 @@
       "confidence": 0.83,
       "rationale": "Maintaining state employer tax accounts is ongoing payroll tax administration not covered by the map.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -445,8 +445,8 @@
       "confidence": 0.78,
       "rationale": "Migrating legacy accounts from prior PEO arrangements is a vague implementation task rather than a specific covered action.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -470,9 +470,9 @@
       "confidence": 0.94,
       "rationale": "Assisting with 401(k) and benefits administration is benefits administration work with no matching capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -495,8 +495,8 @@
       "confidence": 0.92,
       "rationale": "Monitoring contributions is payroll/benefits administration and does not match a covered capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -520,8 +520,8 @@
       "confidence": 0.91,
       "rationale": "HCE and nondiscrimination testing is a specialized benefits compliance calculation not covered here.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -545,9 +545,9 @@
       "confidence": 0.87,
       "rationale": "Sending COBRA offboarding notices is HR benefits administration rather than a listed finance-operations capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -570,9 +570,9 @@
       "confidence": 0.95,
       "rationale": "Equity and stock-exercise payroll reporting is stock compensation/payroll work, which is explicitly outside the map.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -595,9 +595,9 @@
       "confidence": 0.91,
       "rationale": "Tracking Carta exercise data is administrative data tracking for equity payroll and has no matching capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -620,8 +620,8 @@
       "confidence": 0.88,
       "rationale": "Applying correct NSO/ISO tax treatment requires tax judgment and interpretation rather than a mapped operational workflow.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -666,8 +666,8 @@
       "confidence": 0.84,
       "rationale": "Managing a reimbursement approval chain is a workflow-routing task for reimbursements, which is not covered by the map.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -691,9 +691,9 @@
       "confidence": 0.92,
       "rationale": "Ensuring reimbursements route correctly across systems is workflow administration with no direct capability match.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -716,8 +716,8 @@
       "confidence": 0.92,
       "rationale": "Ensuring reimbursements post correctly across systems is operational processing outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -741,9 +741,9 @@
       "confidence": 0.85,
       "rationale": "Serving as the first point of contact for employee payroll inquiries is a support/liaison role that involves human interaction.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -766,8 +766,8 @@
       "confidence": 0.84,
       "rationale": "Resolving routine questions is employee-facing support work rather than an automated finance-operations capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -791,8 +791,8 @@
       "confidence": 0.87,
       "rationale": "Escalating complex cases with context is human judgment and coordination with others.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -837,8 +837,8 @@
       "confidence": 0.79,
       "rationale": "Supporting quarter-end and year-end close activities is too broad to map to a single capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -862,8 +862,8 @@
       "confidence": 0.98,
       "rationale": "Preparing W-2s is payroll tax form preparation, which is not covered by the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -887,8 +887,8 @@
       "confidence": 0.94,
       "rationale": "Supporting ACA reporting is compliance reporting work with no matching capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -912,8 +912,8 @@
       "confidence": 0.95,
       "rationale": "Performing 401(k) true-ups is a payroll benefits reconciliation task outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -937,8 +937,8 @@
       "confidence": 0.89,
       "rationale": "Year-end reconciliations are payroll reconciliation work, but no specific capability covers this duty.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -962,9 +962,9 @@
       "confidence": 0.93,
       "rationale": "Identifying process improvements is too vague and does not describe a specific finance action.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -987,9 +987,9 @@
       "confidence": 0.91,
       "rationale": "Helping implement process improvements is a project/activity description rather than a specific operational task.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1012,9 +1012,9 @@
       "confidence": 0.94,
       "rationale": "Reducing manual work is an outcome goal rather than a specific duty that maps to a capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1037,9 +1037,9 @@
       "confidence": 0.95,
       "rationale": "Strengthening controls is too vague to map without a specific control-testing or control-monitoring action.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {

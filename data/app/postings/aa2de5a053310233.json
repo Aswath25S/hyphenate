@@ -135,9 +135,9 @@
       "confidence": 0.88,
       "rationale": "Reviewing invoices is a billing QC step that is repetitive but not explicitly covered by any listed capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -223,9 +223,9 @@
       "confidence": 0.84,
       "rationale": "Identifying and resolving billing discrepancies before downstream impact is exception handling not directly covered by the map.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -248,9 +248,9 @@
       "confidence": 0.97,
       "rationale": "Being the key point of contact for customer billing inquiries is customer relationship work by nature.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
       }
     },
     {
@@ -273,9 +273,9 @@
       "confidence": 0.97,
       "rationale": "Serving as the key point of contact for customer contract inquiries is a relationship/advisory role, not a platform operation.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
-        "bucket": "possible_gap"
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
       }
     },
     {
@@ -298,9 +298,9 @@
       "confidence": 0.96,
       "rationale": "Partnering with GTM and Finance teams is cross-functional coordination and advising other teams, which is human work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -365,8 +365,8 @@
       "confidence": 0.91,
       "rationale": "Improving order-to-cash workflows is process redesign work rather than an operational capability the platform performs end to end.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -390,8 +390,8 @@
       "confidence": 0.9,
       "rationale": "Automating order-to-cash workflows is an implementation or transformation project, not a routine finance operation.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -415,9 +415,9 @@
       "confidence": 0.84,
       "rationale": "Scaling order-to-cash workflows is process design and operational planning, which is not a listed platform capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {

@@ -88,8 +88,8 @@
       "confidence": 0.98,
       "rationale": "Serving as a finance business partner to leadership is advising and partnering with other teams, which is human work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -113,8 +113,8 @@
       "confidence": 0.95,
       "rationale": "Owning budgets is FP&A planning work, which is outside the listed capabilities and fits budgeting-model automation potential.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -138,8 +138,8 @@
       "confidence": 0.97,
       "rationale": "Partnering on spend decisions is advisory decision support for another team, which is human work.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
         "bucket": "human_work"
       }
     },
@@ -163,8 +163,8 @@
       "confidence": 0.93,
       "rationale": "Flagging risks early is advisory partnering rather than a specific finance operations workflow.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -188,8 +188,8 @@
       "confidence": 0.93,
       "rationale": "Flagging trade-offs early is business advising and judgment, which is human work.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -213,8 +213,8 @@
       "confidence": 0.92,
       "rationale": "Flagging reallocation opportunities early is advisory planning support for leadership, which is human work.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -238,8 +238,8 @@
       "confidence": 0.96,
       "rationale": "Owning the annual operating plan is FP&A budgeting and planning, which has no matching capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -263,8 +263,8 @@
       "confidence": 0.95,
       "rationale": "Managing headcount plans is budgeting/planning work rather than a covered finance operations capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -288,8 +288,8 @@
       "confidence": 0.91,
       "rationale": "Managing hiring plans is planning work and not the same as hiring staff or another covered capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -313,9 +313,9 @@
       "confidence": 0.94,
       "rationale": "Managing vendor spend is spend-planning and budget control work outside the capability map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -338,8 +338,8 @@
       "confidence": 0.94,
       "rationale": "Managing program spend is FP&A planning/control work with no direct capability match.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -363,8 +363,8 @@
       "confidence": 0.97,
       "rationale": "Preparing quarterly reforecasts is forecasting/modeling work that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -430,8 +430,8 @@
       "confidence": 0.96,
       "rationale": "Budget-versus-actual analysis with forward-looking commentary is FP&A analysis, which has no listed capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -455,8 +455,8 @@
       "confidence": 0.95,
       "rationale": "Building a portfolio view of product investment is a planning and modeling task outside the map.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -480,9 +480,9 @@
       "confidence": 0.93,
       "rationale": "Tracking spend by product line is reporting/planning analysis with no direct capability match.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -505,9 +505,9 @@
       "confidence": 0.94,
       "rationale": "Tracking what product investment returns is ROI analysis and business-case work outside the map.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -530,9 +530,9 @@
       "confidence": 0.98,
       "rationale": "Determining roadmap funding is a resource-allocation decision, which is human judgment and planning.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -555,9 +555,9 @@
       "confidence": 0.97,
       "rationale": "Determining resource allocation is a planning decision rather than a listed finance operations capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -580,8 +580,8 @@
       "confidence": 0.95,
       "rationale": "Bringing cost of revenue into the view is model-building and analysis work outside the capability map.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -605,8 +605,8 @@
       "confidence": 0.95,
       "rationale": "Bringing product unit economics into the view is FP&A modeling and analysis with no direct match.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -630,9 +630,9 @@
       "confidence": 0.96,
       "rationale": "Working with the teams that own the underlying cost data is cross-functional partnering and coordination.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -655,8 +655,8 @@
       "confidence": 0.96,
       "rationale": "Building cost-to-serve analytics is analytical modeling work but not a listed covered or assisted capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -680,9 +680,9 @@
       "confidence": 0.95,
       "rationale": "Analyzing support cost by account is a custom analytical exercise outside the capability map.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -705,9 +705,9 @@
       "confidence": 0.95,
       "rationale": "Analyzing support cost by segment is custom reporting and analysis without a matching capability.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -730,8 +730,8 @@
       "confidence": 0.95,
       "rationale": "Analyzing the economics of deflection is business-case analysis rather than a listed workflow.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -755,8 +755,8 @@
       "confidence": 0.95,
       "rationale": "Analyzing AI-assisted support economics is analytical planning work outside the map.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -780,8 +780,8 @@
       "confidence": 0.97,
       "rationale": "Building business cases for new product investments is FP&A decision support with no matching capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -805,8 +805,8 @@
       "confidence": 0.97,
       "rationale": "Building business cases for major roadmap decisions is strategic planning work outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -830,8 +830,8 @@
       "confidence": 0.96,
       "rationale": "Analyzing the economics of retiring products is a strategic business-case exercise, not a covered workflow.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -855,8 +855,8 @@
       "confidence": 0.96,
       "rationale": "Analyzing the economics of consolidating products is strategic planning analysis outside the map.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -880,8 +880,8 @@
       "confidence": 0.95,
       "rationale": "Providing Pricing with unit economics is advising another team, which is human work.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -905,8 +905,8 @@
       "confidence": 0.95,
       "rationale": "Providing Pricing with unit economics for monetization changes is cross-functional advisory work.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -930,9 +930,9 @@
       "confidence": 0.94,
       "rationale": "Co-owning monthly financial reviews with a product lead is partnering and presenting to another team.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -955,9 +955,9 @@
       "confidence": 0.94,
       "rationale": "Co-owning quarterly financial reviews with a product lead is collaborative review and presentation work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -980,8 +980,8 @@
       "confidence": 0.78,
       "rationale": "Improving data models is too vague to map to a specific covered action.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -1005,9 +1005,9 @@
       "confidence": 0.93,
       "rationale": "Reducing manual assembly is repetitive finance work that could be automated but has no direct capability match.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1030,8 +1030,8 @@
       "confidence": 0.8,
       "rationale": "Applying AI to recurring analysis is an implementation initiative and is too vague to judge precisely.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },

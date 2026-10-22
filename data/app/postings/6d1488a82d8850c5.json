@@ -126,8 +126,8 @@
       "confidence": 0.84,
       "rationale": "Implementing automation skills is a project to enable reporting and controls rather than an advertised end-to-end finance operation.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -172,8 +172,8 @@
       "confidence": 0.9,
       "rationale": "Evaluating the accounting impact of contract restructures and modifications requires technical accounting judgment.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -197,9 +197,9 @@
       "confidence": 0.87,
       "rationale": "Confirming appropriate treatment in NetSuite is a judgment and review step rather than a straight-through platform action.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -222,8 +222,8 @@
       "confidence": 0.56,
       "rationale": "Reviewing subscription data in NetSuite aligns with maintaining contract and pricing data in the billing handoff.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -268,9 +268,9 @@
       "confidence": 0.78,
       "rationale": "Designing reconciliations across system integrations is a process-design task, not a matched operational capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -335,8 +335,8 @@
       "confidence": 0.95,
       "rationale": "Partnering with another team to define and drive process improvements is cross-functional human work.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -360,9 +360,9 @@
       "confidence": 0.96,
       "rationale": "Advising other teams on accounting matters and deal structures is advisory human work.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -427,9 +427,9 @@
       "confidence": 0.94,
       "rationale": "Updating revenue recognition rules and allocations is setting accounting policy, which is human judgment work.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -473,8 +473,8 @@
       "confidence": 0.93,
       "rationale": "Reviewing audit support schedules is a human review step rather than the support-preparation capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -498,8 +498,8 @@
       "confidence": 0.98,
       "rationale": "Serving as the primary point of contact for audit inquiries is a human relationship role.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -544,8 +544,8 @@
       "confidence": 0.95,
       "rationale": "Reviewing key revenue reports and financial metrics is a human review step.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },

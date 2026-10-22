@@ -86,8 +86,8 @@
       "confidence": 0.92,
       "rationale": "Owning short- and long-term corporate financial models is FP&A planning/modeling work and matches no covered capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -111,9 +111,9 @@
       "confidence": 0.93,
       "rationale": "Leading planning processes across functions is a coordination and management duty rather than an automated platform task.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -136,8 +136,8 @@
       "confidence": 0.86,
       "rationale": "Preparing tax forecasts is finance modeling work with no matching capability on the map.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -161,8 +161,8 @@
       "confidence": 0.62,
       "rationale": "Planning infrastructure is too vague to map to a specific covered finance operation.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -186,8 +186,8 @@
       "confidence": 0.97,
       "rationale": "Leading monthly and quarterly close is managing the close process and team, not running close tasks end to end.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },
@@ -232,9 +232,9 @@
       "confidence": 0.95,
       "rationale": "Budget versus actual analysis for planning is explicitly outside the flux-analysis capability and has no direct match.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -257,8 +257,8 @@
       "confidence": 0.66,
       "rationale": "Owning core SaaS metrics is too vague to determine whether it is reporting, analysis, or metric governance.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -324,9 +324,9 @@
       "confidence": 0.98,
       "rationale": "Partnering with other departments on spend and resourcing decisions is cross-functional advising and decision support.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -349,9 +349,9 @@
       "confidence": 0.89,
       "rationale": "Aligning resourcing with demand is a planning and coordination decision involving people and teams.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -395,8 +395,8 @@
       "confidence": 0.96,
       "rationale": "Headcount and opex planning with department heads is collaborative planning with other leaders rather than a standalone platform process.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },

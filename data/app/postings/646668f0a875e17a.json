@@ -153,9 +153,9 @@
       "confidence": 0.49,
       "rationale": "The duty broadly requires ensuring US GAAP and policy compliance across accounting areas, which is too general to map cleanly to a single platform capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -178,9 +178,9 @@
       "confidence": 0.96,
       "rationale": "The duty is leading inventory accounting initiatives, which is inventory and cost accounting work not covered by the map.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -203,8 +203,8 @@
       "confidence": 0.95,
       "rationale": "The duty is perpetual-to-general-ledger reconciliation, which is inventory subledger reconciliation not listed in the coverage map.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -228,8 +228,8 @@
       "confidence": 0.99,
       "rationale": "The duty is calculating COGS, which is cost accounting work outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -253,8 +253,8 @@
       "confidence": 0.98,
       "rationale": "The duty is calculating landed costs, which is inventory costing rather than a covered capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -278,8 +278,8 @@
       "confidence": 0.98,
       "rationale": "The duty is resolving standard cost variances, which is cost accounting work not covered by the map.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -303,9 +303,9 @@
       "confidence": 0.95,
       "rationale": "The duty is partnering closely with Operations and Supply Chain, which is cross-functional collaboration rather than a platform task.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -328,9 +328,9 @@
       "confidence": 0.94,
       "rationale": "The duty is coordinating physical inventory counts, which is an operational coordination activity done by people.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -353,9 +353,9 @@
       "confidence": 0.94,
       "rationale": "The duty is coordinating cycle count programs, which is an operational management activity rather than an automatable finance operation.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -462,8 +462,8 @@
       "confidence": 0.95,
       "rationale": "The duty is analyzing reserves such as E&O, which is reserve accounting and inventory-related analysis not covered by the map.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -508,8 +508,8 @@
       "confidence": 0.9,
       "rationale": "The duty is supporting cross-functional initiatives, which is collaborative project work rather than a defined finance-operation capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -533,8 +533,8 @@
       "confidence": 0.88,
       "rationale": "The duty is providing accounting insights, which is advisory work to other teams and not a specific automated capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -558,9 +558,9 @@
       "confidence": 0.55,
       "rationale": "The duty is troubleshooting operational issues, which is too vague to map to a specific finance-operations capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -583,8 +583,8 @@
       "confidence": 0.56,
       "rationale": "The duty is contributing to process improvements for month-end close efficiency, which is too broad and judgment-based to classify precisely.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },

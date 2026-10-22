@@ -94,9 +94,9 @@
       "confidence": 0.95,
       "rationale": "The core action is company-wide budgeting and long-range planning, which is FP&A planning work not covered by the platform.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -140,9 +140,9 @@
       "confidence": 0.9,
       "rationale": "The core action is partnering with Accounting across close cycles, which is cross-functional collaboration and judgment work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
-        "bucket": "possible_gap"
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
       }
     },
     {
@@ -165,8 +165,8 @@
       "confidence": 0.52,
       "rationale": "The duty only says identify forecast risks and opportunities, which is too vague to map to a specific covered capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -211,8 +211,8 @@
       "confidence": 0.67,
       "rationale": "The duty is about recommending forecasting and planning process improvements, which is strategic process redesign rather than a mapped finance operation.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -257,9 +257,9 @@
       "confidence": 0.93,
       "rationale": "The core action is budget-to-actual analysis, a common FP&A task that is not covered by the reporting capabilities here.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -366,8 +366,8 @@
       "confidence": 0.97,
       "rationale": "The core action is building and enhancing FP&A models, including stock-based compensation and long-range planning models, which are not covered capabilities.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -391,8 +391,8 @@
       "confidence": 0.7,
       "rationale": "The duty describes broadly improving finance processes and automation, which is too general to map cleanly to a specific capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },
@@ -416,9 +416,9 @@
       "confidence": 0.95,
       "rationale": "The core action is working closely with other business leaders on planning, resource allocation, and strategic initiatives, which is cross-functional human partnership work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {

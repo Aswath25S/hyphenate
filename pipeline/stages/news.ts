@@ -9,11 +9,14 @@ import { callLlm, hasCredentials } from '../lib/llm';
 import { NEWS_SYSTEM, NEWS_TOOL, newsSchema, newsUser } from '../prompts/news';
 import { recordStage } from '../lib/stats';
 import { daysBetween } from '../../lib/scoring';
+import { dedupeTriggers } from '../lib/triggers';
 import type { CompanyBase } from './score';
 
 export type StoredTrigger = {
   trigger_type: string; event_date: string | null; summary: string; confidence: number;
   headline: string; url: string; source: string; published: string | null; fetched_at: string;
+  /** Other outlets covering the same event (after dedupe). */
+  also_reported?: { source: string; url: string; headline: string; published: string | null }[];
 };
 
 export function googleNewsUrl(company: string): string {
@@ -69,6 +72,8 @@ export async function news(asOf = new Date()) {
       kept++;
     }
   }
+  for (const d of Object.keys(out)) out[d] = dedupeTriggers(out[d], asOfStr);
+  kept = Object.values(out).reduce((a, t) => a + t.length, 0);
   writeJson(path.join(P.rawNews, 'items.json'), raw);
   writeJson(path.join(P.processed, 'news.json'), { as_of: asOfStr, companies: targets.map((t) => t.domain), triggers: out });
   recordStage({ stage: 'news', in: seen, out: kept, notes: [`${targets.length} companies searched`, ...[...new Set(notes)].slice(0, 10)] });

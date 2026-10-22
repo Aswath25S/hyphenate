@@ -133,8 +133,8 @@
       "confidence": 0.91,
       "rationale": "The duty requires assessing judgment areas and presenting recommendations to a controller, which is managerial judgment work.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -158,8 +158,8 @@
       "confidence": 0.62,
       "rationale": "The duty is a systems data-sync and tie-out coordination task that is operational but does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -225,9 +225,9 @@
       "confidence": 0.9,
       "rationale": "The duty is a review function over material and non-routine entries and schedules, which is human approval work rather than preparation.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -250,8 +250,8 @@
       "confidence": 0.98,
       "rationale": "The duty is first-pass and secondary review of manual journal entries, which is human review by definition.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -275,8 +275,8 @@
       "confidence": 0.94,
       "rationale": "The duty emphasizes overseeing preparation and rigorous review of reconciliations, which is supervisory review work.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -300,8 +300,8 @@
       "confidence": 0.94,
       "rationale": "The duty is review and approval of fixed asset workpapers prepared by others, which is managerial review rather than direct subledger maintenance.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -346,8 +346,8 @@
       "confidence": 0.96,
       "rationale": "The duty is partnering to translate findings into executive narratives, which is advisory and communication work.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -371,8 +371,8 @@
       "confidence": 0.88,
       "rationale": "The duty involves collaborating with platform administrators to improve workflows, which is cross-functional coordination and process improvement.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -396,8 +396,8 @@
       "confidence": 0.92,
       "rationale": "The duty is partnering on operationalizing new tools and workflows, which is a transformation/project coordination task.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -421,8 +421,8 @@
       "confidence": 0.91,
       "rationale": "The duty is implementing policy and designing SOPs, which is policy/process design work requiring human judgment.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -446,9 +446,9 @@
       "confidence": 0.93,
       "rationale": "The duty is partnering to embed accounting standard changes into workflows, which is cross-functional technical coordination.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -471,9 +471,9 @@
       "confidence": 0.94,
       "rationale": "The duty is collaborating across teams to improve data integrity and documentation standards, which is partnership work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -496,8 +496,8 @@
       "confidence": 0.97,
       "rationale": "The duty makes the person the primary auditor interface, which is a human relationship and audit coordination role.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -542,9 +542,9 @@
       "confidence": 0.9,
       "rationale": "The duty requires identifying control issues and partnering on remediation plans, which is judgment and cross-functional management work.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -567,8 +567,8 @@
       "confidence": 0.99,
       "rationale": "The duty is directly managing, mentoring, and upskilling staff, which is people management.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -592,9 +592,9 @@
       "confidence": 0.98,
       "rationale": "The duty is setting performance metrics and development plans for a team, which is management and talent development.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -617,8 +617,8 @@
       "confidence": 0.98,
       "rationale": "The duty is building a leadership bench, which is succession planning and organizational management.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },

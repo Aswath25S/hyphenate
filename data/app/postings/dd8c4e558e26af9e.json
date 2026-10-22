@@ -116,9 +116,9 @@
       "confidence": 0.86,
       "rationale": "Leading the revenue close workstream is management of a team/process, not just executing close tasks.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -141,9 +141,9 @@
       "confidence": 0.95,
       "rationale": "Championing AI across the function is change leadership and advocacy rather than a finance operations task.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -166,9 +166,9 @@
       "confidence": 0.64,
       "rationale": "Building and deploying automation tools is a technology implementation activity that does not map cleanly to the listed finance-operations capabilities.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -191,9 +191,9 @@
       "confidence": 0.93,
       "rationale": "Advising other teams on deal structure accounting impact is cross-functional consultation and judgment work.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -300,8 +300,8 @@
       "confidence": 0.89,
       "rationale": "Reviewing journal entries is human approval/review rather than automated preparation.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -367,8 +367,8 @@
       "confidence": 0.9,
       "rationale": "Explaining drivers to Accounting and FP&A leadership is presenting results to leadership.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -392,8 +392,8 @@
       "confidence": 0.98,
       "rationale": "Serving as the primary point of contact for external auditors is a human relationship role.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
         "bucket": "possible_gap"
       }
     },
@@ -459,8 +459,8 @@
       "confidence": 0.69,
       "rationale": "Maintaining SSP analysis is a recurring ASC 606 estimation task that is not explicitly covered by the map.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -502,8 +502,8 @@
       "confidence": 0.92,
       "rationale": "Owning revenue recognition rules is setting or interpreting policy, which is human judgment work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -527,8 +527,8 @@
       "confidence": 0.72,
       "rationale": "Documenting and maintaining revenue accounting policies and process narratives is repetitive documentation work not directly covered here.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -552,8 +552,8 @@
       "confidence": 0.99,
       "rationale": "Hiring revenue accountants is a people-management activity.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -577,9 +577,9 @@
       "confidence": 0.98,
       "rationale": "Training revenue accountants is staff development and management work.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -602,8 +602,8 @@
       "confidence": 0.97,
       "rationale": "Developing revenue accountants is coaching and people development.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -627,8 +627,8 @@
       "confidence": 0.95,
       "rationale": "Reviewing their work is human supervision and review of staff output.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -652,8 +652,8 @@
       "confidence": 0.97,
       "rationale": "Supporting their growth is a people-management and mentoring duty.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },

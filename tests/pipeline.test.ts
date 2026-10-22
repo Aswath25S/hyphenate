@@ -157,3 +157,29 @@ describe('RSS parsing', () => {
     expect(it).toMatchObject({ title: 'Acme acquires Beta - Reuters', link: 'https://news.example/1', published: '2026-09-01', source: 'Reuters', snippet: 'Acme acquires Beta' });
   });
 });
+
+describe('role and trigger dedupe', () => {
+  it('treats same-title copies and near-verbatim retitles as one role, but not separate sites', async () => {
+    const { isSameRole } = await import('../pipeline/stages/filter');
+    const { isSiteVariant } = await import('../pipeline/lib/text');
+    const base = Array.from({ length: 300 }, (_, i) => `w${i}`).join(' ');
+    const tweaked = base.replace(/w(1\d\d) /g, 'x$1 '); // ~33% of shingles changed
+    expect(isSameRole({ title: 'Payroll Analyst', text: base }, { title: 'Payroll Analyst (Remote - US)', text: base + ' extra words here' })).toBe(true);
+    expect(isSameRole({ title: 'Payroll Analyst', text: base }, { title: 'Payroll Analyst', text: tweaked })).toBe(false);
+    expect(isSameRole({ title: 'Sr Billing/AR Consultant', text: base }, { title: 'Customer Experience Specialist - Finance', text: base })).toBe(true);
+    expect(isSiteVariant('Plant Controller, Cape', 'Plant Controller, Stennis')).toBe(true);
+    expect(isSameRole({ title: 'Plant Controller, Cape', text: base }, { title: 'Plant Controller, Stennis', text: base })).toBe(false);
+  });
+
+  it('collapses one story covered by several outlets into one trigger, keeping the scoring item', async () => {
+    const { dedupeTriggers } = await import('../pipeline/lib/triggers');
+    const t = (source: string, date: string, type = 'acquisition', confidence = 0.9) => ({ trigger_type: type, event_date: date, summary: 's', confidence, headline: `${source} headline`, url: `https://${source}.com/x`, source, published: date, fetched_at: '' });
+    const out = dedupeTriggers([t('a', '2026-09-02'), t('b', '2026-09-02', 'acquisition', 0.99), t('c', '2026-05-27', 'ipo_sox'), t('d', '2026-05-28', 'ipo_sox'), t('e', '2026-03-01')], '2026-10-21');
+    expect(out).toHaveLength(3);
+    const acq = out.find((x) => x.event_date === '2026-09-02')!;
+    expect(acq.source).toBe('b');
+    expect(acq.also_reported?.map((x) => x.source)).toEqual(['a']);
+    // A different acquisition months earlier stays separate.
+    expect(out.filter((x) => x.trigger_type === 'acquisition')).toHaveLength(2);
+  });
+});

@@ -78,9 +78,9 @@
       "confidence": 0.91,
       "rationale": "The action is end-to-end financial planning for GTM, which is an FP&A planning process not covered by any listed capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -103,9 +103,9 @@
       "confidence": 0.97,
       "rationale": "Setting quality standards and accountability mechanisms is policy/management work that requires human judgment.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -128,9 +128,9 @@
       "confidence": 0.98,
       "rationale": "Defining 6–12 month financial strategy is strategic planning and judgment, not an automated finance-operation task.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -153,9 +153,9 @@
       "confidence": 0.93,
       "rationale": "Validating assumptions with business partners is collaborative judgment work with other teams.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -178,9 +178,9 @@
       "confidence": 0.88,
       "rationale": "Translating strategy into financial outcomes and leading indicators is FP&A planning/modeling work with no matching capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -203,8 +203,8 @@
       "confidence": 0.95,
       "rationale": "Building business cases with assumptions and risk quantification is planning/modeling work outside the coverage map.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -228,8 +228,8 @@
       "confidence": 0.9,
       "rationale": "Providing leadership with an analytical foundation is advisory support for decision-makers, not a defined system capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -253,9 +253,9 @@
       "confidence": 0.9,
       "rationale": "Designing and improving planning processes, tooling, and data definitions is process design and coordination work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -278,9 +278,9 @@
       "confidence": 0.79,
       "rationale": "Reducing rework across teams is too vague to map to a specific finance operation capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -303,8 +303,8 @@
       "confidence": 0.78,
       "rationale": "Raising the quality of financial outputs org-wide is broad and does not specify a concrete matching action.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -328,8 +328,8 @@
       "confidence": 0.88,
       "rationale": "Supporting cross-functional analyses with milestones and owners is project coordination across teams.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -353,9 +353,9 @@
       "confidence": 0.96,
       "rationale": "Resolving forecast disagreements and tailoring narratives is stakeholder-facing judgment and communication work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -378,9 +378,9 @@
       "confidence": 0.95,
       "rationale": "Partnering with functional budget owners is collaborative advisory work with other teams.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -403,9 +403,9 @@
       "confidence": 0.87,
       "rationale": "Ensuring data quality, metric consistency, and assumption alignment is planning/data-governance work with no listed capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {

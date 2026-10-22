@@ -84,8 +84,8 @@
       "confidence": 0.96,
       "rationale": "Owning the operating model and rolling forecast is FP&A planning work that matches no covered capability and is explicitly outside the cash-forecast capability.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -109,9 +109,9 @@
       "confidence": 0.9,
       "rationale": "Keeping the forecasting model current as the business changes is ongoing planning-model maintenance, which is not covered by the listed finance-ops capabilities.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -134,9 +134,9 @@
       "confidence": 0.99,
       "rationale": "Running the annual budget is budgeting model work and is explicitly outside the forecast capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -159,9 +159,9 @@
       "confidence": 0.97,
       "rationale": "Running the regular reforecast process is FP&A forecasting work that is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -184,8 +184,8 @@
       "confidence": 0.94,
       "rationale": "Working with department leaders to build their plans is cross-functional partnering and planning with other teams, which is human by nature.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -209,8 +209,8 @@
       "confidence": 0.9,
       "rationale": "Holding department leaders accountable to their plans is a management/leadership action rather than an automated finance-ops task.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -234,8 +234,8 @@
       "confidence": 0.94,
       "rationale": "Producing budget-versus-actual reporting is FP&A planning analysis and is not covered by the management-reporting or flux-analysis capabilities.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -259,8 +259,8 @@
       "confidence": 0.88,
       "rationale": "Variance analysis here is budget-versus-actual FP&A analysis, which is explicitly outside the flux-analysis capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -284,8 +284,8 @@
       "confidence": 0.92,
       "rationale": "Explaining what moved and why in a way leadership can act on is presenting/communicating analysis to leadership, which is human.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -330,8 +330,8 @@
       "confidence": 0.98,
       "rationale": "Modeling pricing, packaging, and new product scenarios is FP&A planning and pricing/scenario modeling, which is not covered.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -355,8 +355,8 @@
       "confidence": 0.96,
       "rationale": "Showing revenue, margin, and cash impacts from scenarios is planning-model analysis that does not match a covered reporting or treasury capability.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -380,9 +380,9 @@
       "confidence": 0.92,
       "rationale": "Tracking the cost structure is cost analysis/planning work and does not match any covered automation capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -405,8 +405,8 @@
       "confidence": 0.97,
       "rationale": "Forecasting the cost structure is FP&A forecasting work, which is outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -472,8 +472,8 @@
       "confidence": 0.96,
       "rationale": "Partnering with accounting on the close is cross-functional collaboration, which is human rather than an automated close task.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -497,9 +497,9 @@
       "confidence": 0.58,
       "rationale": "Improving systems and processes from source to report is a broad process-improvement project that does not map cleanly to a listed capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -543,9 +543,9 @@
       "confidence": 0.96,
       "rationale": "Turning it around quickly describes speed rather than a specific finance action, so it is too vague to classify precisely.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {

@@ -1,17 +1,17 @@
 {
   "as_of": "2026-10-21",
-  "generated_at": "2026-10-21T18:27:35.143Z",
+  "generated_at": "2026-10-22T03:44:07.865Z",
   "mode": "pipeline",
   "model": "gpt-5.4-mini",
   "headlines": {
-    "postings": 165,
-    "companies": 95,
-    "lead_companies": 92,
-    "median_overlap": 0.18518518518518517,
+    "postings": 161,
+    "companies": 96,
+    "lead_companies": 93,
+    "median_overlap": 0.1875,
     "companies_with_covered_work": 58,
-    "savings_total": 510500.92732043617,
-    "savings_postings": 148,
-    "salary_postings": 149,
+    "savings_total": 508060.1684370956,
+    "savings_postings": 146,
+    "salary_postings": 147,
     "thin_postings": 1,
     "strong_postings": 7
   },
@@ -29,68 +29,67 @@
     "filter": {
       "stage": "filter",
       "in": 292,
-      "out": 169,
+      "out": 164,
       "notes": [
         "97 companies",
         "dropped 39: not US",
         "dropped 66: older than 60 days",
         "dropped 1: unclear title, LLM check said drop",
-        "dropped 17: duplicate (merged)"
+        "dropped 22: duplicate (merged)"
       ],
-      "at": "2026-10-21T17:35:10.657Z"
+      "at": "2026-10-22T03:31:28.297Z"
     },
     "extract": {
       "stage": "extract",
-      "in": 169,
-      "out": 166,
+      "in": 164,
+      "out": 161,
       "failed": 0,
       "notes": [
         "3 dropped (non-USD)",
         "new spend $0.00"
       ],
-      "at": "2026-10-21T17:57:44.868Z"
+      "at": "2026-10-22T03:32:45.436Z"
     },
     "match": {
       "stage": "match",
-      "in": 166,
-      "out": 165,
-      "failed": 1,
+      "in": 161,
+      "out": 161,
+      "failed": 0,
       "notes": [
         "new spend $0.00"
       ],
-      "at": "2026-10-21T18:12:16.058Z"
+      "at": "2026-10-22T03:33:14.336Z"
     },
     "score": {
       "stage": "score",
-      "in": 166,
-      "out": 165,
+      "in": 161,
+      "out": 161,
       "notes": [
-        "95 companies",
+        "96 companies",
         "1 thin postings",
-        "149 with salary",
-        "no match labels for 23597d58012f47d6; skipped"
+        "147 with salary"
       ],
-      "at": "2026-10-21T18:12:16.109Z"
+      "at": "2026-10-22T03:33:14.756Z"
     },
     "publish": {
       "stage": "publish",
-      "in": 10,
-      "out": 10,
+      "in": 165,
+      "out": 165,
       "notes": [
-        "10 companies",
-        "139/139 duty spans located in posting text"
+        "95 companies",
+        "7027/7093 duty spans located in posting text"
       ],
-      "at": "2026-10-21T04:09:50.835Z"
+      "at": "2026-10-21T18:27:35.143Z"
     },
     "gaps": {
       "stage": "gaps",
-      "in": 3333,
-      "out": 20,
+      "in": 3211,
+      "out": 19,
       "notes": [
-        "2957 canonical tasks",
+        "2900 canonical tasks",
         "every uncovered duty sits in exactly one theme"
       ],
-      "at": "2026-10-21T18:26:08.241Z"
+      "at": "2026-10-22T03:43:02.454Z"
     },
     "news": {
       "stage": "news",
@@ -109,29 +108,29 @@
       "notes": [
         "every kept brief passed the fact check"
       ],
-      "at": "2026-10-21T18:27:35.004Z"
+      "at": "2026-10-22T03:44:07.509Z"
     }
   },
   "cost_report": {
     "extract": {
-      "calls": 169,
-      "cached": 20,
-      "input_tokens": 525988,
-      "output_tokens": 1419884,
+      "calls": 172,
+      "cached": 181,
+      "input_tokens": 535334,
+      "output_tokens": 1448016,
       "cost_usd": 0,
-      "unpriced_calls": 169
+      "unpriced_calls": 172
     },
     "match": {
-      "calls": 180,
-      "cached": 9,
-      "input_tokens": 582689,
-      "output_tokens": 562254,
+      "calls": 184,
+      "cached": 165,
+      "input_tokens": 595852,
+      "output_tokens": 575984,
       "cost_usd": 0,
-      "unpriced_calls": 180
+      "unpriced_calls": 184
     },
     "filter": {
       "calls": 1,
-      "cached": 0,
+      "cached": 1,
       "input_tokens": 4603,
       "output_tokens": 1200,
       "cost_usd": 0,
@@ -146,33 +145,33 @@
       "unpriced_calls": 30
     },
     "gaps-normalise": {
-      "calls": 36,
+      "calls": 73,
       "cached": 0,
-      "input_tokens": 84273,
-      "output_tokens": 94740,
+      "input_tokens": 170717,
+      "output_tokens": 192604,
       "cost_usd": 0,
-      "unpriced_calls": 36
+      "unpriced_calls": 73
     },
     "gaps-cluster": {
-      "calls": 1,
+      "calls": 2,
       "cached": 0,
-      "input_tokens": 27622,
-      "output_tokens": 19518,
+      "input_tokens": 54770,
+      "output_tokens": 37792,
       "cost_usd": 0,
-      "unpriced_calls": 1
+      "unpriced_calls": 2
     },
     "brief": {
-      "calls": 16,
+      "calls": 31,
       "cached": 0,
-      "input_tokens": 11512,
-      "output_tokens": 12471,
+      "input_tokens": 22373,
+      "output_tokens": 22253,
       "cost_usd": 0,
-      "unpriced_calls": 16
+      "unpriced_calls": 31
     }
   },
   "spans": {
-    "found": 7027,
-    "total": 7093
+    "found": 6829,
+    "total": 6897
   },
   "news": {
     "as_of": "2026-10-21",
@@ -777,7 +776,8 @@
     },
     "FILTER": {
       "maxAgeDays": 60,
-      "dedupeSimilarity": 0.9
+      "dedupeSimilarity": 0.75,
+      "dedupeNearIdentical": 0.95
     }
   },
   "collection": {

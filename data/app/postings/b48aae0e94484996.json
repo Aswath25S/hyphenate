@@ -87,8 +87,8 @@
       "confidence": 0.54,
       "rationale": "The action is preparing and supporting internal reporting, which fits management reporting even though external filings are not directly covered.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -112,8 +112,8 @@
       "confidence": 0.82,
       "rationale": "Drafting financial statements, footnotes, and schedules is reporting work that is not explicitly covered by the map.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -137,8 +137,8 @@
       "confidence": 0.76,
       "rationale": "Detailed tie-outs across reporting materials are reconciliation work, but no matching reporting or reconciliation capability is listed.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -162,9 +162,9 @@
       "confidence": 0.97,
       "rationale": "Equity accounting under ASC 718 is explicitly excluded from the fixed-asset/prepaids/lease accounting capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -187,8 +187,8 @@
       "confidence": 0.96,
       "rationale": "Preparing stock-based compensation journal entries is equity compensation accounting, which is specifically not covered.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -212,8 +212,8 @@
       "confidence": 0.91,
       "rationale": "Preparing reconciliations is too vague to determine whether it is a bank, GL, or another type of reconciliation.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -237,8 +237,8 @@
       "confidence": 0.88,
       "rationale": "Perform activity analysis is too nonspecific to map confidently to any listed capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -262,8 +262,8 @@
       "confidence": 0.94,
       "rationale": "Prepare related reporting is too vague to identify the specific reporting action.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -287,8 +287,8 @@
       "confidence": 0.78,
       "rationale": "Researching and analyzing GAAP and SEC guidance is technical accounting judgment rather than a platform workflow.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -312,8 +312,8 @@
       "confidence": 0.86,
       "rationale": "Technical accounting memorandums require professional accounting judgment and interpretation of novel guidance.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -337,9 +337,9 @@
       "confidence": 0.77,
       "rationale": "Implementing new or evolving accounting requirements is policy and judgment work rather than a standard automated workflow.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
-        "bucket": "possible_gap"
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
       }
     },
     {
@@ -404,8 +404,8 @@
       "confidence": 0.9,
       "rationale": "Respond to inquiries is too vague without knowing whether the inquiries are customer, auditor, or internal requests.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -450,8 +450,8 @@
       "confidence": 0.96,
       "rationale": "Partnering across teams to ensure reporting accuracy is collaborative advisory work rather than an automated finance operation.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -475,9 +475,9 @@
       "confidence": 0.89,
       "rationale": "Improving and automating workflows is a broad process-improvement duty that does not map cleanly to a specific capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -500,9 +500,9 @@
       "confidence": 0.99,
       "rationale": "Using software tools is not a finance-operating duty with a specific covered action in the map.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {

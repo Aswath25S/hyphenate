@@ -246,8 +246,8 @@
       "confidence": 0.91,
       "rationale": "Owning the allowance for credit losses from methodology through deliverable requires judgment on methodology and policy, which is human work.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -271,8 +271,8 @@
       "confidence": 0.98,
       "rationale": "Partnering with Collections and Sales is cross-functional collaboration, which is human work by nature.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -359,9 +359,9 @@
       "confidence": 0.95,
       "rationale": "Leading SSP analyses involves methodological judgment and leadership, which falls outside automated revenue operations.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -384,8 +384,8 @@
       "confidence": 0.97,
       "rationale": "Preparing complex revenue arrangement memos is technical accounting judgment, which is not covered by the platform.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -409,9 +409,9 @@
       "confidence": 0.94,
       "rationale": "Leading AI and usage-based product initiatives is a cross-functional project leadership duty rather than finance operations work.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -434,8 +434,8 @@
       "confidence": 0.98,
       "rationale": "Establishing revenue recognition positions requires policy interpretation and judgment, which is human work.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -459,8 +459,8 @@
       "confidence": 0.74,
       "rationale": "Building a tracking/reporting process is a project task that does not clearly match any listed recurring finance operation capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -484,8 +484,8 @@
       "confidence": 0.88,
       "rationale": "Owning professional services revenue end to end is broad operational ownership and not a specific automatable action.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -509,8 +509,8 @@
       "confidence": 0.92,
       "rationale": "Driving process optimization with Services Operations is cross-functional process improvement work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -555,9 +555,9 @@
       "confidence": 0.99,
       "rationale": "Presenting financial results is a presentation and communication duty, which is human work.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -727,9 +727,9 @@
       "confidence": 0.86,
       "rationale": "Driving issues to closure is too vague to map to a specific finance operations capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {

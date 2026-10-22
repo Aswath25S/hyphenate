@@ -93,9 +93,9 @@
       "confidence": 0.86,
       "rationale": "The duty says to support execution of a sales plan and budget, which is too vague to map to a specific covered finance-operations action.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -118,8 +118,8 @@
       "confidence": 0.98,
       "rationale": "Expanding retail partner footprint is sales/business development work that requires human relationship management and strategy.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -185,8 +185,8 @@
       "confidence": 0.9,
       "rationale": "Assessing competitive dynamics is market analysis that does not clearly match any listed finance-operations capability.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -210,9 +210,9 @@
       "confidence": 0.84,
       "rationale": "Proactively addressing challenges to drive growth is too generic and strategic to map to a specific platform capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -256,8 +256,8 @@
       "confidence": 0.99,
       "rationale": "Ensuring brand consistency and alignment with retailer objectives is cross-functional partnership and judgment work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -281,9 +281,9 @@
       "confidence": 0.95,
       "rationale": "Enabling Sales to execute product launches is a collaborative support role rather than an automated finance-ops workflow.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -306,9 +306,9 @@
       "confidence": 0.95,
       "rationale": "Enabling Sales to execute seasonal promotions is sales support and coordination work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -331,9 +331,9 @@
       "confidence": 0.95,
       "rationale": "Enabling Sales to execute merchandising strategies is partner-facing strategy support, not a finance-ops capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -356,9 +356,9 @@
       "confidence": 0.82,
       "rationale": "Understanding the innovation pipeline is too vague to identify a specific automatable finance task.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -378,8 +378,8 @@
       "confidence": 0.98,
       "rationale": "Partnering with NPD on retail fit is cross-functional collaboration and judgment work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -445,9 +445,9 @@
       "confidence": 0.94,
       "rationale": "Acting as the AR liaison is relationship management between teams and customers rather than an automated workflow.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -470,9 +470,9 @@
       "confidence": 0.93,
       "rationale": "Working with Accounting and Corporate Finance on cashflow assumptions is collaborative planning work requiring human judgment.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -516,8 +516,8 @@
       "confidence": 0.9,
       "rationale": "Understanding contracts is too vague to tell whether the task is contract abstraction, review, or general familiarity.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -541,9 +541,9 @@
       "confidence": 0.88,
       "rationale": "Creating strategies to minimize financial impact is strategic judgment work, not a defined automation workflow.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -566,8 +566,8 @@
       "confidence": 0.77,
       "rationale": "Monitoring customer POs against agreed commercial terms is rules-based compliance checking but does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -591,8 +591,8 @@
       "confidence": 0.96,
       "rationale": "Assisting in customer product assortment is a cross-functional commercial decision requiring human judgment.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -634,9 +634,9 @@
       "confidence": 0.97,
       "rationale": "Collaborating in the S&OP process is cross-functional planning and coordination work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -656,8 +656,8 @@
       "confidence": 0.78,
       "rationale": "Improving forecasting and demand visibility is planning-model work that is not covered by the listed finance-ops capabilities.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -702,9 +702,9 @@
       "confidence": 0.98,
       "rationale": "Influencing the retail strategy is advisory and strategic leadership work.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -727,8 +727,8 @@
       "confidence": 0.86,
       "rationale": "Optimizing financial performance is too broad to map to a specific covered workflow.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -752,9 +752,9 @@
       "confidence": 0.97,
       "rationale": "Providing regular performance updates to senior leadership is presenting results to management, which is human work by nature.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -777,8 +777,8 @@
       "confidence": 0.95,
       "rationale": "Offering actionable recommendations for continuous improvement is advisory work requiring human judgment.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },

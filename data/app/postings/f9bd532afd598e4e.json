@@ -91,8 +91,8 @@
       "confidence": 0.97,
       "rationale": "Executing end-to-end payroll is payroll processing work, but no covered capability includes running payroll itself.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -116,8 +116,8 @@
       "confidence": 0.81,
       "rationale": "Managing EOR and contractor arrangements is administrative external-worker administration with no matching capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -141,8 +141,8 @@
       "confidence": 0.98,
       "rationale": "Processing off-cycle and correction payroll runs is payroll processing not covered by the map.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
         "bucket": "human_work"
       }
     },
@@ -166,8 +166,8 @@
       "confidence": 0.98,
       "rationale": "Processing retroactive pay is a payroll run activity with no matching capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -191,8 +191,8 @@
       "confidence": 0.96,
       "rationale": "Processing sign-on bonuses is payroll administration, which is not a covered capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -216,8 +216,8 @@
       "confidence": 0.99,
       "rationale": "Processing commissions is explicitly outside the listed capabilities and is a repetitive payroll calculation.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -241,9 +241,9 @@
       "confidence": 0.97,
       "rationale": "Processing garnishments is payroll processing not covered in the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -266,8 +266,8 @@
       "confidence": 0.97,
       "rationale": "Processing short-term disability payments is payroll/benefits administration with no matching capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -291,8 +291,8 @@
       "confidence": 0.97,
       "rationale": "Processing long-term disability payments is payroll/benefits administration with no matching capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -316,8 +316,8 @@
       "confidence": 0.97,
       "rationale": "Processing state disability payments is payroll/benefits administration with no matching capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -341,8 +341,8 @@
       "confidence": 0.96,
       "rationale": "Managing relationships with external payroll, EOR, and benefits platforms is vendor relationship work.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -366,8 +366,8 @@
       "confidence": 0.93,
       "rationale": "Managing SLA performance with external providers is relationship and vendor management.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -391,9 +391,9 @@
       "confidence": 0.91,
       "rationale": "Establishing SOPs is setting process policy, which is a human judgment activity.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -416,8 +416,8 @@
       "confidence": 0.93,
       "rationale": "Establishing internal controls is designing control policy rather than executing a covered task.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -441,8 +441,8 @@
       "confidence": 0.89,
       "rationale": "Establishing variance reporting standards is setting reporting policy and standards.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -466,8 +466,8 @@
       "confidence": 0.88,
       "rationale": "Ensuring precision in period-over-period payroll is quality control over payroll calculations with no matching capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -491,8 +491,8 @@
       "confidence": 0.89,
       "rationale": "Ensuring precision in off-cycle adjustments is payroll processing QA not covered by the map.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -516,8 +516,8 @@
       "confidence": 0.82,
       "rationale": "Ensuring precision in FX reconciliations is a reconciliation task but not one of the listed treasury or GL capabilities.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -541,8 +541,8 @@
       "confidence": 0.95,
       "rationale": "Supporting annual payroll compliance reporting is payroll tax/compliance work with no matching capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -566,8 +566,8 @@
       "confidence": 0.98,
       "rationale": "Preparing W-2s is statutory payroll tax form preparation, which is not covered.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -591,8 +591,8 @@
       "confidence": 0.91,
       "rationale": "Reviewing W-2s is a payroll compliance review step with no matching capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -616,8 +616,8 @@
       "confidence": 0.92,
       "rationale": "Auditing W-2s is payroll compliance audit work outside the coverage map.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -641,8 +641,8 @@
       "confidence": 0.97,
       "rationale": "Managing payroll tax registrations is tax registration administration, which is not covered.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -666,8 +666,8 @@
       "confidence": 0.96,
       "rationale": "Managing agency notices is tax notice administration with no matching capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -691,8 +691,8 @@
       "confidence": 0.95,
       "rationale": "Managing quarterly amendments is payroll tax amendment work not covered in the map.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -716,8 +716,8 @@
       "confidence": 0.94,
       "rationale": "Managing unemployment claims is payroll compliance administration with no matching capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -741,8 +741,8 @@
       "confidence": 0.95,
       "rationale": "Managing year-end corrections is payroll correction work not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -766,8 +766,8 @@
       "confidence": 0.91,
       "rationale": "Overseeing governance for retirement programs is policy and governance work.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -791,8 +791,8 @@
       "confidence": 0.9,
       "rationale": "Overseeing funding for retirement programs is a funding/payment administration task with no matching capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -816,8 +816,8 @@
       "confidence": 0.88,
       "rationale": "Overseeing retirement program reconciliation is a specialized reconciliation task not covered by the map.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -841,8 +841,8 @@
       "confidence": 0.92,
       "rationale": "Resolving complex regulatory or provider challenges requires human judgment and external coordination.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -866,8 +866,8 @@
       "confidence": 0.96,
       "rationale": "Partnering with People Ops on tax compliance is cross-functional advisory work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -891,8 +891,8 @@
       "confidence": 0.96,
       "rationale": "Partnering with People Ops on tax compliance for Carta transactions is cross-functional advisory work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -916,8 +916,8 @@
       "confidence": 0.95,
       "rationale": "Partnering with People Ops on sign-on bonus tax compliance is cross-functional advisory work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -941,8 +941,8 @@
       "confidence": 0.95,
       "rationale": "Partnering with People Ops on garnishment tax compliance is cross-functional advisory work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -966,9 +966,9 @@
       "confidence": 0.94,
       "rationale": "Partnering with People Ops on short-term disability tax compliance is cross-functional advisory work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -991,9 +991,9 @@
       "confidence": 0.94,
       "rationale": "Partnering with People Ops on long-term disability tax compliance is cross-functional advisory work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1016,9 +1016,9 @@
       "confidence": 0.94,
       "rationale": "Partnering with People Ops on state disability tax compliance is cross-functional advisory work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1041,8 +1041,8 @@
       "confidence": 0.9,
       "rationale": "Managing employee stipends is payroll/benefits administration with no matching capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -1066,8 +1066,8 @@
       "confidence": 0.97,
       "rationale": "Managing expense reimbursements is an AP/employee expense process not covered by the map.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },

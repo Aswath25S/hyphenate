@@ -1,6 +1,7 @@
 import { leadScore, timingScore } from '../../lib/scoring';
 import type { CompanyBase } from '../stages/score';
 import type { StoredTrigger } from '../stages/news';
+import { dedupeTriggers } from './triggers';
 
 export type CompanyLead = CompanyBase & {
   triggers: StoredTrigger[];
@@ -14,7 +15,7 @@ export type CompanyLead = CompanyBase & {
 
 export function computeLeads(companies: CompanyBase[], news: { companies: string[]; triggers: Record<string, StoredTrigger[]> } | null, asOf: string): CompanyLead[] {
   const rows = companies.map((c) => {
-    const triggers = news?.triggers[c.domain] ?? [];
+    const triggers = dedupeTriggers(news?.triggers[c.domain] ?? [], asOf);
     const t = timingScore(triggers, asOf);
     const ls = leadScore(c.pain, c.fit, t.timing);
     return {

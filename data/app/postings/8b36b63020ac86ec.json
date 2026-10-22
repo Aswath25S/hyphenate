@@ -172,8 +172,8 @@
       "confidence": 0.96,
       "rationale": "Coordinating with purchasers and Procurement is cross-functional partnering with other teams.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -281,9 +281,9 @@
       "confidence": 0.8,
       "rationale": "Verifying the accuracy of payments is AP control work but not a listed capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -348,8 +348,8 @@
       "confidence": 0.84,
       "rationale": "Applying skepticism to duplicate or suspicious invoices is fraud-minded review not mapped to a listed capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -457,8 +457,8 @@
       "confidence": 0.58,
       "rationale": "Providing information for month-end close is too vague to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },

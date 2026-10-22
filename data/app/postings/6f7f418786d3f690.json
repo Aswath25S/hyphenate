@@ -96,9 +96,9 @@
       "confidence": 0.95,
       "rationale": "The core action is leading the contract review process, which is process management rather than the system performing contract term extraction.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -142,9 +142,9 @@
       "confidence": 0.98,
       "rationale": "Determining the appropriate ASC 606 treatment is technical accounting judgment and policy interpretation, which is explicitly outside the system's coverage.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -167,9 +167,9 @@
       "confidence": 0.97,
       "rationale": "Drafting technical accounting memos on novel issues is judgment-heavy and falls outside routine revenue recognition support.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -192,8 +192,8 @@
       "confidence": 0.83,
       "rationale": "Driving automation and enhancements is a broad improvement initiative without a specific operational action to map.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -217,9 +217,9 @@
       "confidence": 0.86,
       "rationale": "Scoping and leading revenue systems improvements is a project-management duty rather than a defined finance operations task.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -239,9 +239,9 @@
       "confidence": 0.86,
       "rationale": "Scoping and leading close activity improvements describes a process-improvement project, not a direct close operation.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -261,9 +261,9 @@
       "confidence": 0.9,
       "rationale": "Improving control design involves setting and changing control framework judgment, which is not an operational control execution task.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -286,9 +286,9 @@
       "confidence": 0.9,
       "rationale": "Eliminating manual effort is too vague and describes a goal rather than a specific finance workflow.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -311,9 +311,9 @@
       "confidence": 0.92,
       "rationale": "Improving accuracy and timeliness is a broad outcome statement without a specific automatable duty.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -336,8 +336,8 @@
       "confidence": 0.98,
       "rationale": "Partnering with Sales, Legal, and Deal Desk during negotiations is collaborative, advisory work that is explicitly human.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -361,8 +361,8 @@
       "confidence": 0.99,
       "rationale": "Structuring deals is negotiation and commercial judgment, which is not a platform-operated finance task.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
         "bucket": "human_work"
       }
     },
@@ -386,9 +386,9 @@
       "confidence": 0.97,
       "rationale": "Optimizing revenue outcomes is strategic judgment rather than a defined operational capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -411,9 +411,9 @@
       "confidence": 0.98,
       "rationale": "Advising on pre-signature terms that affect revenue timing and presentation is advisory judgment work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -520,8 +520,8 @@
       "confidence": 0.99,
       "rationale": "Resolving requests directly with internal and external auditors is relationship-driven auditor interaction.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -545,8 +545,8 @@
       "confidence": 0.94,
       "rationale": "Owning complex, ambiguous revenue issues requires accounting judgment beyond routine system execution.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -570,8 +570,8 @@
       "confidence": 0.98,
       "rationale": "Evaluating material right options is a technical accounting judgment call.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -595,8 +595,8 @@
       "confidence": 0.98,
       "rationale": "Evaluating variable consideration requires policy interpretation and judgment, not routine automation.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -620,8 +620,8 @@
       "confidence": 0.98,
       "rationale": "Evaluating contract modifications is a technical accounting judgment task rather than a covered workflow.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -645,9 +645,9 @@
       "confidence": 0.97,
       "rationale": "Determining methods and procedures where precedent does not exist is setting policy and methodology, which is human judgment.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -670,8 +670,8 @@
       "confidence": 0.78,
       "rationale": "Building AI-enabled routines is a broad implementation project without a specific finance operation to classify.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -695,9 +695,9 @@
       "confidence": 0.8,
       "rationale": "Building contract review triage routines is a development project rather than the contract review operation itself.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -720,9 +720,9 @@
       "confidence": 0.79,
       "rationale": "Building memo drafting routines is an implementation task and not a defined finance operations workflow.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -745,9 +745,9 @@
       "confidence": 0.8,
       "rationale": "Building reconciliation routines is a project to create automation, not the reconciliation work itself.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -770,9 +770,9 @@
       "confidence": 0.8,
       "rationale": "Building anomaly detection routines is a general automation project without a matching finance operations capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -795,9 +795,9 @@
       "confidence": 0.78,
       "rationale": "Building audit-support preparation routines is a system-building task rather than audit support execution.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -820,9 +820,9 @@
       "confidence": 0.96,
       "rationale": "Setting guardrails for quality, privacy, and human judgment is policy-setting and governance work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -845,9 +845,9 @@
       "confidence": 0.99,
       "rationale": "Hiring an inclusive, engaged, high-performing team is a people-management responsibility.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -870,8 +870,8 @@
       "confidence": 0.99,
       "rationale": "Developing an inclusive, engaged, high-performing team is staff development and leadership work.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },
@@ -895,8 +895,8 @@
       "confidence": 0.99,
       "rationale": "Leading an inclusive, engaged, high-performing team is team leadership rather than a finance operations workflow.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },

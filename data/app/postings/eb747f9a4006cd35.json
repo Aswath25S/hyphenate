@@ -76,8 +76,8 @@
       "confidence": 0.93,
       "rationale": "Owning a 3–5 year long-range plan is FP&A planning work that is outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -101,9 +101,9 @@
       "confidence": 0.91,
       "rationale": "\"Design the model\" is too vague to tell what financial action is being performed.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -126,9 +126,9 @@
       "confidence": 0.95,
       "rationale": "Scenario analysis is long-range planning/modeling work that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -151,9 +151,9 @@
       "confidence": 0.91,
       "rationale": "Translating company strategy into financial targets is a judgment-heavy planning activity.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -176,8 +176,8 @@
       "confidence": 0.98,
       "rationale": "Partnering on the quarterly Board process is cross-functional coordination and board support.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -201,8 +201,8 @@
       "confidence": 0.93,
       "rationale": "\"Develop the framework\" does not specify a finance operation that can be matched.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -226,8 +226,8 @@
       "confidence": 0.94,
       "rationale": "Owning the narrative is board/presentation work that depends on human judgment.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -251,8 +251,8 @@
       "confidence": 0.89,
       "rationale": "\"Build materials\" is too generic to map to a specific finance capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -276,8 +276,8 @@
       "confidence": 0.97,
       "rationale": "Managing Q&A is a presentation and stakeholder-interaction task requiring human judgment.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -301,8 +301,8 @@
       "confidence": 0.98,
       "rationale": "Building SBC and equity modeling is stock-based compensation work, which is explicitly outside the covered capabilities.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -326,8 +326,8 @@
       "confidence": 0.97,
       "rationale": "Incorporating headcount growth, grant cadence, forfeitures, and refresh cycles is equity-comp modeling that is not covered.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -351,9 +351,9 @@
       "confidence": 0.96,
       "rationale": "Tying SBC into GAAP profitability is compensation-related planning/modeling outside the map.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -376,9 +376,9 @@
       "confidence": 0.96,
       "rationale": "Tying SBC into EBITDA is compensation-related planning/modeling outside the map.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -401,9 +401,9 @@
       "confidence": 0.96,
       "rationale": "Tying SBC into margin analysis is compensation-related planning/modeling outside the map.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -426,9 +426,9 @@
       "confidence": 0.9,
       "rationale": "Leading consolidated cash flow forecasting is long-range FP&A forecasting rather than the listed treasury cash forecast capability.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -451,9 +451,9 @@
       "confidence": 0.92,
       "rationale": "Contingency or management reserve strategy is policy and judgment work, not an automated finance operation.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -476,8 +476,8 @@
       "confidence": 0.88,
       "rationale": "Reviewing company forecasts against targets is planning/management review work without a matching capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -501,8 +501,8 @@
       "confidence": 0.9,
       "rationale": "External benchmarking against peers is an FP&A analysis task not covered by the map.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -526,8 +526,8 @@
       "confidence": 0.88,
       "rationale": "Building analytical foundations for long-term decisions is too broad to map to a specific finance capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -551,8 +551,8 @@
       "confidence": 0.98,
       "rationale": "Partnering with Corp Dev on capital raises is cross-functional transaction support and relationship work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -576,8 +576,8 @@
       "confidence": 0.87,
       "rationale": "Preparing pro-forma reporting is reporting work that does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -601,8 +601,8 @@
       "confidence": 0.92,
       "rationale": "\"Build forecasting\" is too vague to determine whether it is treasury, FP&A, or another process.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -626,8 +626,8 @@
       "confidence": 0.96,
       "rationale": "Capital structure analysis is financial modeling work with no matching capability in the map.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },

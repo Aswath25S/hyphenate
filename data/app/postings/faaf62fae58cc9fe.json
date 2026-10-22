@@ -94,8 +94,8 @@
       "confidence": 0.88,
       "rationale": "Opening corporate bank accounts is bank administration that is not covered by any listed treasury capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -119,8 +119,8 @@
       "confidence": 0.88,
       "rationale": "Closing corporate bank accounts is administrative bank maintenance and does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -144,8 +144,8 @@
       "confidence": 0.72,
       "rationale": "Auditing corporate bank accounts is a review task, but it is not the same as daily bank reconciliation or another listed capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -169,9 +169,9 @@
       "confidence": 0.98,
       "rationale": "Maintaining relationships with banking partners is relationship management, which is a human duty.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -194,8 +194,8 @@
       "confidence": 0.8,
       "rationale": "Executing global fund transfers is treasury operations work but does not match any specific capability on the map.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -219,8 +219,8 @@
       "confidence": 0.78,
       "rationale": "Evaluating treasury and cash-management systems is software selection work that is not a listed platform capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -244,9 +244,9 @@
       "confidence": 0.76,
       "rationale": "Implementing treasury and cash-management systems is a project implementation task, not an end-to-end finance operation capability here.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -269,8 +269,8 @@
       "confidence": 0.74,
       "rationale": "Maintaining treasury and cash-management systems is system administration outside the listed finance-operation capabilities.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -357,9 +357,9 @@
       "confidence": 0.9,
       "rationale": "Scenario analysis is a planning and modeling task with no direct capability match in the map.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -382,9 +382,9 @@
       "confidence": 0.9,
       "rationale": "Sensitivity analysis is a planning/modeling exercise that is not covered by any listed capability.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -407,9 +407,9 @@
       "confidence": 0.86,
       "rationale": "Stress testing and operational planning are FP&A-style planning activities with no matching capability listed.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -432,8 +432,8 @@
       "confidence": 0.96,
       "rationale": "Providing analytical insights to the CFO is advisory work to leadership, which is human by nature.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -457,8 +457,8 @@
       "confidence": 0.97,
       "rationale": "Providing strategic recommendations to the CFO is executive advising, which is a human duty.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -482,8 +482,8 @@
       "confidence": 0.95,
       "rationale": "Supporting financing activities requires cross-functional and strategic coordination, not an automated finance-operation task.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -507,8 +507,8 @@
       "confidence": 0.87,
       "rationale": "Supporting capital planning initiatives is planning-model work that is not covered by the treasury capabilities listed.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -532,8 +532,8 @@
       "confidence": 0.98,
       "rationale": "Overseeing investment strategies is an investment decision role, which is human judgment by nature.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -557,8 +557,8 @@
       "confidence": 0.98,
       "rationale": "Optimizing investment strategies aligned with company objectives requires strategic judgment and decision-making.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -582,9 +582,9 @@
       "confidence": 0.82,
       "rationale": "Monitoring foreign exchange exposure is treasury analysis but has no explicit matching capability on the map.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -607,8 +607,8 @@
       "confidence": 0.94,
       "rationale": "Recommending mitigation strategies is advisory and judgment-based work.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -632,8 +632,8 @@
       "confidence": 0.8,
       "rationale": "Ensuring FAR/DFARS treasury compliance is a rules-based compliance task but does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -699,8 +699,8 @@
       "confidence": 0.92,
       "rationale": "Maintaining policies is policy-setting work, which is a human responsibility.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -766,9 +766,9 @@
       "confidence": 0.97,
       "rationale": "Collaborating with Accounting, FP&A, Legal and global teams is cross-functional partnership work.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -791,9 +791,9 @@
       "confidence": 0.71,
       "rationale": "Supporting global treasury projects is too vague to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -816,8 +816,8 @@
       "confidence": 0.9,
       "rationale": "Supporting entity expansion is cross-functional business support rather than a finance-operation capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -841,8 +841,8 @@
       "confidence": 0.88,
       "rationale": "Supporting banking initiatives implies coordination and partnership work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },

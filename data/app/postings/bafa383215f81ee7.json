@@ -81,8 +81,8 @@
       "confidence": 0.97,
       "rationale": "Owning the end-to-end financial planning process is FP&A planning work, which is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -106,9 +106,9 @@
       "confidence": 0.98,
       "rationale": "Setting quality standards and accountability mechanisms is policy-setting and management work, which is human-led by nature.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -131,9 +131,9 @@
       "confidence": 0.98,
       "rationale": "Defining the 6–12 month financial strategy is strategic planning and judgment, not an automated finance-operations task.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -156,9 +156,9 @@
       "confidence": 0.95,
       "rationale": "Validating assumptions with business partners is cross-functional collaboration and judgment, which falls under human work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -181,9 +181,9 @@
       "confidence": 0.88,
       "rationale": "Translating strategy into financial outcomes and leading indicators is FP&A planning/modeling work with no matching capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -206,9 +206,9 @@
       "confidence": 0.95,
       "rationale": "Building investment business cases with assumptions and risk analysis is a planning-model task not covered in the map.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -231,8 +231,8 @@
       "confidence": 0.92,
       "rationale": "Giving leadership the analytical foundation for decisions is advising other teams, which is human work.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -256,9 +256,9 @@
       "confidence": 0.93,
       "rationale": "Designing and improving planning processes is process redesign work with no matching capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -281,8 +281,8 @@
       "confidence": 0.78,
       "rationale": "Improving tooling is too vague to map to a specific covered capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -306,8 +306,8 @@
       "confidence": 0.9,
       "rationale": "Improving data definitions is data governance work that is not covered by the listed finance-ops capabilities.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -331,9 +331,9 @@
       "confidence": 0.82,
       "rationale": "Reducing rework across teams is too broad and does not specify a core finance-operation action.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -356,8 +356,8 @@
       "confidence": 0.77,
       "rationale": "Raising the quality of financial outputs org-wide is too general to match a specific capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -381,9 +381,9 @@
       "confidence": 0.97,
       "rationale": "Leading cross-functional analyses with milestones and owners is project leadership and coordination work, which is human-led.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -406,9 +406,9 @@
       "confidence": 0.96,
       "rationale": "Resolving forecast disagreements requires judgment and stakeholder alignment, which is human work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -431,9 +431,9 @@
       "confidence": 0.9,
       "rationale": "Creating tailored financial narratives is audience-facing communication and advisory work, which is human-led.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -456,9 +456,9 @@
       "confidence": 0.97,
       "rationale": "Partnering with functional budget owners is cross-functional collaboration, which is human work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -481,9 +481,9 @@
       "confidence": 0.88,
       "rationale": "Ensuring data quality is a governance and control task that does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -506,8 +506,8 @@
       "confidence": 0.88,
       "rationale": "Ensuring metric consistency is data standardization work with no direct match in the coverage map.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -531,8 +531,8 @@
       "confidence": 0.95,
       "rationale": "Ensuring alignment on assumptions requires stakeholder coordination and judgment, which is human work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },

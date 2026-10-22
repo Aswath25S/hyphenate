@@ -93,8 +93,8 @@
       "confidence": 0.96,
       "rationale": "Preparing Form 10-Q financial statements is SEC reporting work that is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -115,8 +115,8 @@
       "confidence": 0.96,
       "rationale": "Preparing Form 10-K financial statements is SEC reporting work that does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -137,8 +137,8 @@
       "confidence": 0.95,
       "rationale": "Preparing Form 8-K financial statements is an SEC filing task outside the coverage map.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -162,8 +162,8 @@
       "confidence": 0.9,
       "rationale": "Preparing footnotes for external filings is reporting support that is not explicitly covered.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -208,8 +208,8 @@
       "confidence": 0.9,
       "rationale": "Preparing tie-outs is repetitive reporting support work with no direct capability match.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -251,8 +251,8 @@
       "confidence": 0.89,
       "rationale": "Preparing information for external reporting is general reporting work that is not directly covered.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -276,8 +276,8 @@
       "confidence": 0.72,
       "rationale": "Providing information for internal reporting purposes is too vague to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -301,8 +301,8 @@
       "confidence": 0.81,
       "rationale": "Helping build the external reporting calendar is a vague planning task without a clear capability match.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -326,8 +326,8 @@
       "confidence": 0.8,
       "rationale": "Helping build templates is too vague and project-oriented to map to a covered action.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -351,8 +351,8 @@
       "confidence": 0.76,
       "rationale": "Helping build supporting documentation is too vague to tie to a specific listed capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -376,9 +376,9 @@
       "confidence": 0.74,
       "rationale": "Supporting a SOX initiative is broad and does not specify a covered control task.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -401,8 +401,8 @@
       "confidence": 0.98,
       "rationale": "Designing internal controls over financial reporting is control-framework judgment, which is explicitly excluded.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
         "bucket": "possible_gap"
       }
     },
@@ -447,8 +447,8 @@
       "confidence": 0.67,
       "rationale": "Implementing internal controls over financial reporting is a broad setup task that is not specific enough to map cleanly.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -490,8 +490,8 @@
       "confidence": 0.91,
       "rationale": "Owning end-to-end PBC management is managing the audit-support process and auditor relationship, which is human work.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -557,9 +557,9 @@
       "confidence": 0.89,
       "rationale": "Keeping status visible to the team and auditors is communication and coordination with auditors, which is human work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -582,9 +582,9 @@
       "confidence": 0.93,
       "rationale": "Partnering cross-functionally to source disclosure inputs is collaborative human work rather than an automated finance operation.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -607,9 +607,9 @@
       "confidence": 0.85,
       "rationale": "Improving reporting processes is too vague to judge against a specific capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -632,9 +632,9 @@
       "confidence": 0.84,
       "rationale": "Improving reporting systems is a broad project task without a specific mapped action.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -657,8 +657,8 @@
       "confidence": 0.8,
       "rationale": "Improving reporting documentation is too vague to map cleanly to a listed capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },

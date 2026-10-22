@@ -153,9 +153,9 @@
       "confidence": 0.98,
       "rationale": "Serving as a subject matter expert for complex revenue recognition matters is advisory judgment work done by people.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -178,8 +178,8 @@
       "confidence": 0.94,
       "rationale": "Reviewing contract assessments is human review work and not the same as extracting contract terms end to end.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -203,8 +203,8 @@
       "confidence": 0.96,
       "rationale": "Reviewing non-standard deal structures requires human judgment on novel arrangements.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -228,8 +228,8 @@
       "confidence": 0.93,
       "rationale": "Reviewing evolving pricing and product models is strategic review and not a defined platform capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -253,8 +253,8 @@
       "confidence": 0.97,
       "rationale": "Leading the month-end revenue close is managing the close process and team, which is human work.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },
@@ -278,9 +278,9 @@
       "confidence": 0.97,
       "rationale": "Leading the quarter-end revenue close is management of the close cycle rather than an automatable task.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -324,9 +324,9 @@
       "confidence": 0.89,
       "rationale": "Ensuring reconciliations are accurate and timely is supervisory oversight rather than performing the reconciliation itself.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -349,8 +349,8 @@
       "confidence": 0.88,
       "rationale": "Ensuring reporting is accurate and timely is a management oversight duty, not a specific reporting production task.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -374,9 +374,9 @@
       "confidence": 0.98,
       "rationale": "Providing strategic accounting guidance is advisory judgment work by people.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -399,8 +399,8 @@
       "confidence": 0.98,
       "rationale": "Partnering with other functions to influence deal structures is cross-functional relationship and negotiation work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -424,8 +424,8 @@
       "confidence": 0.98,
       "rationale": "Partnering to influence product launches is collaboration and advisory work done by people.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -449,9 +449,9 @@
       "confidence": 0.98,
       "rationale": "Partnering to influence go-to-market initiatives before execution is human collaboration and advising.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -474,9 +474,9 @@
       "confidence": 0.86,
       "rationale": "Designing AI-enabled tools and agents is a project/engineering activity that does not match any finance-operations capability here.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -499,8 +499,8 @@
       "confidence": 0.86,
       "rationale": "Prototyping AI-enabled tools and agents is outside the listed finance-operations capabilities.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -524,9 +524,9 @@
       "confidence": 0.86,
       "rationale": "Shipping AI-enabled tools and agents is product/engineering delivery rather than a finance operations task.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -549,8 +549,8 @@
       "confidence": 0.84,
       "rationale": "Automating manual work across quote-to-cash is a broad implementation goal, not one of the specific process capabilities listed.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -574,9 +574,9 @@
       "confidence": 0.95,
       "rationale": "Drafting technical accounting memos relies on human judgment, especially for novel arrangements.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -620,8 +620,8 @@
       "confidence": 0.97,
       "rationale": "Owning key controls is accountability and oversight work rather than a specific automated control task.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -666,9 +666,9 @@
       "confidence": 0.95,
       "rationale": "Leading high-impact revenue initiatives is project leadership and coordination work done by people.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -691,8 +691,8 @@
       "confidence": 0.98,
       "rationale": "Applying technical judgment is inherently human decision-making work.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -716,8 +716,8 @@
       "confidence": 0.92,
       "rationale": "Applying analytical insight is too vague to map to a specific covered capability.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -741,9 +741,9 @@
       "confidence": 0.94,
       "rationale": "Enabling compliant growth is broad and vague, so it cannot be tied to a specific platform capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -766,9 +766,9 @@
       "confidence": 0.94,
       "rationale": "Enabling data-driven decision-making is too vague to determine a specific matching capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {

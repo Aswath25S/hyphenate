@@ -55,6 +55,9 @@ export const TRIGGER_AGE = [
   { maxDays: 180, multiplier: 0.5 },
 ];
 
+/** News items of the same trigger type this close together describe one event. */
+export const TRIGGER_DEDUPE_DAYS = 14;
+
 export const NEWS = {
   topCompanies: 30, // run news only for the top N by pain + fit
   minConfidence: 0.7,
@@ -97,7 +100,12 @@ export const GAPS = {
 
 export const FILTER = {
   maxAgeDays: 60,
-  dedupeSimilarity: 0.9,
+  // Same company + same normalised title: one role when descriptions are this similar
+  // (spec said 0.9; lowered so UK/US or multi-location copies of one role merge).
+  dedupeSimilarity: 0.75,
+  // Different titles: one role only when descriptions are near-verbatim, and the titles
+  // do not differ only by a site suffix ("Plant Controller, Cape" vs "…, Stennis").
+  dedupeNearIdentical: 0.95,
 };
 
 export const LIVE_DEMO = {

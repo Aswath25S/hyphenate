@@ -92,8 +92,8 @@
       "confidence": 0.97,
       "rationale": "Directing and overseeing the month-end close is team management and process leadership rather than a specific automated close task.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -117,8 +117,8 @@
       "confidence": 0.97,
       "rationale": "Directing the AR close is managerial oversight of the team and process, not a platform-close capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -142,8 +142,8 @@
       "confidence": 0.96,
       "rationale": "Overseeing the allowances close is supervisory work rather than a defined automated accounting task.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -167,8 +167,8 @@
       "confidence": 0.96,
       "rationale": "Overseeing deferred revenue close is management of the accounting process, not the platform's core action.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -192,8 +192,8 @@
       "confidence": 0.96,
       "rationale": "Overseeing commissions close is leadership of a process area and commissions accounting is not a covered operation.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -217,9 +217,9 @@
       "confidence": 0.98,
       "rationale": "Reviewing journal entries is human review and approval, not preparing or posting entries end to end.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -242,9 +242,9 @@
       "confidence": 0.98,
       "rationale": "Reviewing reconciliations is human review of work product, not performing the reconciliation itself.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -267,8 +267,8 @@
       "confidence": 0.83,
       "rationale": "Reviewing other analyses is too vague to map to a specific finance-ops capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -292,8 +292,8 @@
       "confidence": 0.99,
       "rationale": "Owning revenue recognition policy is setting or interpreting policy, which is explicitly human judgment.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -317,8 +317,8 @@
       "confidence": 0.99,
       "rationale": "Owning commissions accounting policy is policy-setting work, not an automated capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -342,8 +342,8 @@
       "confidence": 0.99,
       "rationale": "Reviewing policy changes with external auditors is relationship management with auditors, which is human work.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -367,8 +367,8 @@
       "confidence": 0.79,
       "rationale": "Ensuring day-to-day compliance is too broad and does not map cleanly to a specific listed capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -392,8 +392,8 @@
       "confidence": 0.99,
       "rationale": "Managing the day-to-day activities of teams is people management, which is explicitly human work.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -438,9 +438,9 @@
       "confidence": 0.98,
       "rationale": "Working closely with other teams to align process and controls is cross-functional partnering, not platform execution.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -463,9 +463,9 @@
       "confidence": 0.98,
       "rationale": "Developing technical revenue recognition policies for new products is policy and technical accounting judgment.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -488,9 +488,9 @@
       "confidence": 0.98,
       "rationale": "Developing technical revenue recognition policies for strategy changes is interpretive policy work requiring human judgment.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -513,9 +513,9 @@
       "confidence": 0.95,
       "rationale": "Owning internal controls is governance over the control environment, not just running control checks.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -538,9 +538,9 @@
       "confidence": 0.99,
       "rationale": "Partnering with Internal Audit to maintain the controls environment is a human collaboration and advisory task.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -563,8 +563,8 @@
       "confidence": 0.97,
       "rationale": "Partnering with systems teams to identify and implement process changes is cross-functional project work.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -588,9 +588,9 @@
       "confidence": 0.85,
       "rationale": "Identifying automation opportunities is process-improvement work that is too broad for a specific capability match.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -613,9 +613,9 @@
       "confidence": 0.99,
       "rationale": "Leading the external audit is managing an auditor relationship, which is explicitly human work.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -638,8 +638,8 @@
       "confidence": 0.84,
       "rationale": "Reviewing financial statement footnotes is external-reporting review that does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -663,8 +663,8 @@
       "confidence": 0.82,
       "rationale": "Reviewing earnings is too vague to determine whether it is analysis, disclosure review, or leadership review.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -688,8 +688,8 @@
       "confidence": 0.86,
       "rationale": "Reviewing ARR, revenue, and AR disclosures is external-reporting review outside the listed automation capabilities.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -713,9 +713,9 @@
       "confidence": 0.78,
       "rationale": "Supporting ongoing M&A activity is too broad and project-based to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -738,8 +738,8 @@
       "confidence": 0.95,
       "rationale": "Overseeing revenue due diligence is a strategic transaction process requiring human judgment and coordination.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -763,8 +763,8 @@
       "confidence": 0.94,
       "rationale": "Overseeing the opening balance sheet is acquisition oversight work, not an automated finance-ops capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -788,8 +788,8 @@
       "confidence": 0.95,
       "rationale": "Overseeing post-acquisition integration is cross-functional project leadership and not platform execution.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -834,9 +834,9 @@
       "confidence": 0.8,
       "rationale": "Conducting ad hoc reviews is too vague to map cleanly to a defined reporting or accounting capability.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -859,8 +859,8 @@
       "confidence": 0.89,
       "rationale": "Supporting strategic company projects and initiatives is too generic to identify a specific covered action.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },
@@ -884,8 +884,8 @@
       "confidence": 0.87,
       "rationale": "Applying critical thinking to provide solutions is a broad problem-solving statement rather than a defined finance task.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -909,9 +909,9 @@
       "confidence": 0.99,
       "rationale": "Coaching a global team is people management and development, which is inherently human work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -934,8 +934,8 @@
       "confidence": 0.99,
       "rationale": "Mentoring a global team is a human leadership and development responsibility.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -959,8 +959,8 @@
       "confidence": 0.99,
       "rationale": "Developing a high-performing global team is management and talent development, not a platform capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },

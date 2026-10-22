@@ -279,8 +279,8 @@
       "confidence": 0.69,
       "rationale": "Own monthly workbooks is too vague to map to a specific finance-operations capability.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -304,9 +304,9 @@
       "confidence": 0.97,
       "rationale": "Taking a leading role in month-end close is managing the close process, which is a human leadership duty.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -329,9 +329,9 @@
       "confidence": 0.97,
       "rationale": "Taking a leading role in year-end close is process leadership rather than an automatable system task.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -417,9 +417,9 @@
       "confidence": 0.98,
       "rationale": "Reviewing expense reports is a repetitive AP-style review task that is explicitly outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -442,8 +442,8 @@
       "confidence": 0.8,
       "rationale": "Support cash-related transactions is too broad to determine whether it means cash application, payments, or something else.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -467,8 +467,8 @@
       "confidence": 0.94,
       "rationale": "Support broader financial operations processes is too vague to map to one specific capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -492,9 +492,9 @@
       "confidence": 0.93,
       "rationale": "Driving external audit requirements implies managing the auditor relationship, which is a human duty.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -517,8 +517,8 @@
       "confidence": 0.93,
       "rationale": "Driving annual external audit requirements is external auditor management, which is a human relationship task.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -542,8 +542,8 @@
       "confidence": 0.98,
       "rationale": "Acting as a reliable partner to auditors is a relationship-management duty with external auditors.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },

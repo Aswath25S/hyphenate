@@ -84,9 +84,9 @@
       "confidence": 0.97,
       "rationale": "Serving as an embedded finance business partner is cross-functional advising and partnering with other teams, which is human work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -109,9 +109,9 @@
       "confidence": 0.94,
       "rationale": "Translating business plans into financial plans is FP&A budgeting and planning, which is not covered by the map.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -134,8 +134,8 @@
       "confidence": 0.95,
       "rationale": "Translating financial constraints into business tradeoffs is advisory decision support, not an automated finance-ops task.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -159,9 +159,9 @@
       "confidence": 0.95,
       "rationale": "Building and pressure-testing investment business cases is FP&A modeling and judgment work outside the coverage map.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -184,9 +184,9 @@
       "confidence": 0.69,
       "rationale": "Tracking outcomes is too vague to map to a specific finance operation capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -209,9 +209,9 @@
       "confidence": 0.93,
       "rationale": "Tracking unit economics is a planning and analysis activity not covered by any listed capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -234,9 +234,9 @@
       "confidence": 0.96,
       "rationale": "Closing the loop with leadership on what worked is presenting and advising stakeholders, which is human work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -259,9 +259,9 @@
       "confidence": 0.98,
       "rationale": "Running the financial planning and monthly forecasting process end-to-end is FP&A planning, which is not covered here.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -284,9 +284,9 @@
       "confidence": 0.91,
       "rationale": "Managing the operating budget with partner teams is collaborative budget ownership and coordination, which is human work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -309,8 +309,8 @@
       "confidence": 0.84,
       "rationale": "Conducting monthly reviews implies leading review meetings and stakeholder discussion rather than a covered finance operation.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },
@@ -355,9 +355,9 @@
       "confidence": 0.96,
       "rationale": "Providing guidance is advisory work that depends on human judgment.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -401,9 +401,9 @@
       "confidence": 0.95,
       "rationale": "Helping the business define KPIs is metric-setting and cross-functional design, which is human judgment work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -426,8 +426,8 @@
       "confidence": 0.92,
       "rationale": "Working with Data to make metrics visible and trusted is cross-functional collaboration and data stewardship, not a listed finance operation.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -451,8 +451,8 @@
       "confidence": 0.78,
       "rationale": "Applying AI tools to drive faster insight is too generic to map to a specific covered finance task.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -476,8 +476,8 @@
       "confidence": 0.78,
       "rationale": "Applying AI tools to drive greater efficiency is too generic to map to a specific covered finance task.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -501,8 +501,8 @@
       "confidence": 0.78,
       "rationale": "Applying AI tools to drive smarter decision-making is too generic to map to a specific covered finance task.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -526,9 +526,9 @@
       "confidence": 0.94,
       "rationale": "Helping shape how the Finance team works as tools evolve is process and change management, which is human work.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {

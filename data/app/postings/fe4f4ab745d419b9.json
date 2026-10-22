@@ -81,8 +81,8 @@
       "confidence": 0.96,
       "rationale": "The core action is partnering with Engineering leadership, which is advisory relationship work rather than a platform task.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -106,8 +106,8 @@
       "confidence": 0.95,
       "rationale": "Headcount planning is an FP&A planning model outside the covered capabilities.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -131,8 +131,8 @@
       "confidence": 0.98,
       "rationale": "COGS forecasting is a planning/forecasting model not covered by the listed finance-ops capabilities.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -156,8 +156,8 @@
       "confidence": 0.98,
       "rationale": "Opex forecasting is forecasting work outside the covered capabilities, which only include short-term cash forecasting.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -181,8 +181,8 @@
       "confidence": 0.9,
       "rationale": "Cost center management is budgeting/FP&A work with no direct capability match.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -206,8 +206,8 @@
       "confidence": 0.97,
       "rationale": "Partnering with Engineering leadership on spend drivers is advisory collaboration, which is human work by nature.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -231,8 +231,8 @@
       "confidence": 0.93,
       "rationale": "Developing product-level P&Ls is a planning and modeling task not covered by the platform.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -256,9 +256,9 @@
       "confidence": 0.84,
       "rationale": "Defining key operating metrics is setting business measurement policy, which is human judgment work.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -323,9 +323,9 @@
       "confidence": 0.9,
       "rationale": "Surfacing trends, risks, and opportunities for leadership is advisory communication to decision-makers.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -369,8 +369,8 @@
       "confidence": 0.88,
       "rationale": "Flagging risks to leadership is advisory escalation work rather than an automated finance-operation task.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -394,9 +394,9 @@
       "confidence": 0.99,
       "rationale": "Supporting the annual budgeting process is FP&A planning work and is not covered by the platform.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -419,9 +419,9 @@
       "confidence": 0.98,
       "rationale": "Supporting rolling forecasts is budgeting/forecasting work outside the covered capabilities.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -444,9 +444,9 @@
       "confidence": 0.97,
       "rationale": "Supporting the long-range strategic plan across business units is strategic planning work not covered here.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {

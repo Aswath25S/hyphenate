@@ -102,8 +102,8 @@
       "confidence": 0.54,
       "rationale": "Optimizing cash flows is broad treasury strategy and does not cleanly match a specific covered capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -127,8 +127,8 @@
       "confidence": 0.98,
       "rationale": "Overseeing bank relationships is a relationship-management duty that is explicitly human work.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -152,8 +152,8 @@
       "confidence": 0.56,
       "rationale": "Implementing banking strategies is a strategic execution task with no direct platform capability match.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -198,8 +198,8 @@
       "confidence": 0.59,
       "rationale": "Managing liquidity risks is risk oversight rather than a covered treasury operations capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -223,8 +223,8 @@
       "confidence": 0.58,
       "rationale": "Identifying foreign exchange, interest rate, and credit risks is risk analysis with no direct capability match.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -248,8 +248,8 @@
       "confidence": 0.58,
       "rationale": "Assessing financial risks is analytical risk work that is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -273,8 +273,8 @@
       "confidence": 0.57,
       "rationale": "Mitigating financial risks is a judgment-heavy treasury responsibility without a matching platform capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -298,8 +298,8 @@
       "confidence": 0.56,
       "rationale": "Implementing hedging strategies is strategic risk management, not a covered automation capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -323,8 +323,8 @@
       "confidence": 0.57,
       "rationale": "Monitoring key risk indicators is treasury oversight that does not map directly to the coverage list.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -369,8 +369,8 @@
       "confidence": 0.73,
       "rationale": "Developing financial forecasts is planning-model work that is explicitly outside the listed cash-forecast capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -394,9 +394,9 @@
       "confidence": 0.93,
       "rationale": "Maintaining budgets is budgeting-model work, which is a known automation gap in the coverage map.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -440,8 +440,8 @@
       "confidence": 0.96,
       "rationale": "Providing insights to support strategic decision-making is advisory work for other teams and leadership.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -486,9 +486,9 @@
       "confidence": 0.86,
       "rationale": "Ensuring compliance with financial reporting standards and regulations requires policy and judgment rather than a covered operation.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -511,8 +511,8 @@
       "confidence": 0.99,
       "rationale": "Building and maintaining bank relationships is external relationship management, which is human work.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -536,8 +536,8 @@
       "confidence": 0.99,
       "rationale": "Negotiating favorable banking terms is negotiation work that is explicitly human.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -561,9 +561,9 @@
       "confidence": 0.62,
       "rationale": "Implementing treasury management systems is a project implementation task without a matching capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -586,8 +586,8 @@
       "confidence": 0.64,
       "rationale": "Managing treasury management systems is too broad to map to a specific covered or assisted capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -611,8 +611,8 @@
       "confidence": 0.6,
       "rationale": "Ensuring the accuracy and efficiency of treasury operations is a general oversight duty with no direct match.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -636,9 +636,9 @@
       "confidence": 0.99,
       "rationale": "Leading a team of treasury professionals is people management, which is explicitly human work.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -661,8 +661,8 @@
       "confidence": 0.98,
       "rationale": "Mentoring a team of treasury professionals is staff development and coaching, which is human work.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },

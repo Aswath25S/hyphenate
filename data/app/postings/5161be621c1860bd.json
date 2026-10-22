@@ -87,8 +87,8 @@
       "confidence": 0.82,
       "rationale": "The duty is a broad accounting deliverable statement and does not specify a concrete covered action.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -112,8 +112,8 @@
       "confidence": 0.78,
       "rationale": "Maintaining accurate financial records is too generic to map to a specific platform capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -137,8 +137,8 @@
       "confidence": 0.9,
       "rationale": "Managing the monthly close process is a supervisory/process-management activity rather than running checklist tasks.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -204,8 +204,8 @@
       "confidence": 0.76,
       "rationale": "Supporting financial reporting and audit activities is too vague and combines multiple capabilities without a specific action.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -271,8 +271,8 @@
       "confidence": 0.99,
       "rationale": "Reviewing work completed by Accounting Analysts is human review and supervision.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -317,9 +317,9 @@
       "confidence": 0.71,
       "rationale": "Preparing analytics and related financial statement disclosures is too broad and includes disclosure work not explicitly covered.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -363,8 +363,8 @@
       "confidence": 0.96,
       "rationale": "Collaborating with other departments to ensure compliance is cross-functional partnering and advising work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -388,9 +388,9 @@
       "confidence": 0.74,
       "rationale": "Identifying and implementing process improvements is a judgment-heavy process-improvement activity rather than a listed automation capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -413,9 +413,9 @@
       "confidence": 0.95,
       "rationale": "Partnering with another team on automation opportunities is cross-functional collaboration rather than a platform task.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -438,9 +438,9 @@
       "confidence": 0.69,
       "rationale": "Helping strengthen accounting processes is too vague to tie to a specific covered action.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -463,8 +463,8 @@
       "confidence": 0.67,
       "rationale": "Resolving discrepancies is too unspecific without context on whether they are reconciliation, treasury, or AP items.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -488,9 +488,9 @@
       "confidence": 0.73,
       "rationale": "Ensuring timely, reliable financial information for decision-making is an outcome statement rather than a concrete automatable duty.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {

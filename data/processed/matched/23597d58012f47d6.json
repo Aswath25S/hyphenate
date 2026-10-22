@@ -1,0 +1,168 @@
+{
+  "posting_id": "23597d58012f47d6",
+  "prompt_version": "match-v1",
+  "labels": [
+    {
+      "duty_id": "23597d58012f47d6-01",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Owning program budgeting is FP&A planning work, which is explicitly outside the platform’s covered capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-02",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.84,
+      "rationale": "Owning spend tracking is ongoing budget-to-actual monitoring, which is not a listed capability.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-03",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Owning financial planning maps to budgeting and long-range planning, which the map says is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-04",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.67,
+      "rationale": "Owning reporting is too vague to determine whether it means management reporting, ad hoc analysis, or something else.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-05",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.78,
+      "rationale": "Owning analysis is too vague without a defined type of analysis or source data.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-06",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.98,
+      "rationale": "Serving as a key financial partner is cross-functional advising and relationship work, which is human by nature.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-07",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.9,
+      "rationale": "Tracking budgets for program managers is budget management work, which is outside the platform’s capabilities.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-08",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.81,
+      "rationale": "Tracking actuals for program managers is routine FP&A monitoring, but no capability directly covers actuals tracking.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-09",
+      "label": "gap_candidate",
+      "capability_id": null,
+      "confidence": 0.86,
+      "rationale": "Tracking forecasts against milestones is forecast monitoring and planning work, which is not covered.",
+      "model_label": "gap_candidate",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-10",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.99,
+      "rationale": "Balancing cross-functional partnership and clear communication is advisory and relationship-driven work.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-11",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with leaders on headcount planning is collaborative advisory work, and planning itself is not a covered automation task.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-12",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.96,
+      "rationale": "Partnering on resource allocation is cross-functional advisory work rather than a platform-executed finance operation.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-13",
+      "label": "human",
+      "capability_id": null,
+      "confidence": 0.95,
+      "rationale": "Partnering on spend management is advisory and decision-support work that requires human judgment.",
+      "model_label": "human",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-14",
+      "label": "assisted",
+      "capability_id": "gl.flux",
+      "confidence": 0.91,
+      "rationale": "Delivering variance analysis matches the platform’s flux analysis capability with draft commentary.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-15",
+      "label": "assisted",
+      "capability_id": "rep.adhoc_analysis",
+      "confidence": 0.78,
+      "rationale": "Delivering actionable insights is ad hoc analysis and reporting work that can be traced to source data.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-16",
+      "label": "unclear",
+      "capability_id": null,
+      "confidence": 0.72,
+      "rationale": "Building scalable reporting tools is too broad and sounds more like BI/process development than a specific covered finance operation.",
+      "model_label": "unclear",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-17",
+      "label": "assisted",
+      "capability_id": "rep.management_reports",
+      "confidence": 0.89,
+      "rationale": "Building dashboards for leadership visibility aligns with management reporting and recurring leadership reports.",
+      "model_label": "assisted",
+      "adjusted": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-18",
+      "label": "assisted",
+      "capability_id": "gl.close_checklist",
+      "confidence": 0.82,
+      "rationale": "Supporting the monthly and quarterly close process matches month-end close checklist work, though coordination adds some human involvement.",
+      "model_label": "assisted",
+      "adjusted": null
+    }
+  ]
+}

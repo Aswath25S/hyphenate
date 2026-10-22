@@ -92,8 +92,8 @@
       "confidence": 0.91,
       "rationale": "Owning the FP&A close process is process management and coordination rather than a specific automated accounting task.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -117,9 +117,9 @@
       "confidence": 0.95,
       "rationale": "Managing FP&A forecasting is a planning activity, and long-range or budget-style forecasting is not a covered capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -142,9 +142,9 @@
       "confidence": 0.92,
       "rationale": "Variance analysis in FP&A is budget-versus-actual planning work, which the map explicitly excludes.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -188,9 +188,9 @@
       "confidence": 0.97,
       "rationale": "Running the annual budgeting cycle is FP&A planning work that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -276,8 +276,8 @@
       "confidence": 0.95,
       "rationale": "Quarterly outlooks are FP&A forecast/planning outputs, which are not covered capabilities.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -322,8 +322,8 @@
       "confidence": 0.84,
       "rationale": "Applying AI and workflow automation is a vague transformation initiative rather than a specific finance-operations task.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -347,8 +347,8 @@
       "confidence": 0.89,
       "rationale": "Replacing manual reporting and reconciliation work is a broad automation project, not a concrete finance duty on the map.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -372,8 +372,8 @@
       "confidence": 0.96,
       "rationale": "Collaborating across teams to keep one consistent view of the numbers is cross-functional partnering, which is a human duty.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
         "bucket": "human_work"
       }
     },
@@ -418,9 +418,9 @@
       "confidence": 0.94,
       "rationale": "Scenario modeling is FP&A planning work and is not covered by the listed reporting or accounting capabilities.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -443,8 +443,8 @@
       "confidence": 0.95,
       "rationale": "Partnering closely with Revenue Forecasting is a relationship and collaboration duty rather than an automated finance operation.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -468,9 +468,9 @@
       "confidence": 0.9,
       "rationale": "Serving as backup on the revenue and funnel forecast is forecasting/planning work that is not covered.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -493,8 +493,8 @@
       "confidence": 0.93,
       "rationale": "Preparing the weekly outlook is a short-term forecast/planning task with no matching capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },

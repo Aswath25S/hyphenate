@@ -80,8 +80,8 @@
       "confidence": 0.93,
       "rationale": "Supporting budgeting and forecasting is an FP&A planning collaboration with stakeholders, which is people-led work rather than a listed platform capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -105,8 +105,8 @@
       "confidence": 0.91,
       "rationale": "Maintaining a forward-looking financial model is long-range FP&A planning, which is repetitive analytical work but not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -172,8 +172,8 @@
       "confidence": 0.96,
       "rationale": "Collaborating on key growth initiatives is cross-functional partnering and project work, which is human-led by nature.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -197,8 +197,8 @@
       "confidence": 0.95,
       "rationale": "Assisting marketing leads to scale acquisition is partnering with another team, which falls under human collaboration rather than an automation capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -222,9 +222,9 @@
       "confidence": 0.88,
       "rationale": "Tracking customer acquisition cost is a repetitive metric-monitoring task that could be automated but does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -247,8 +247,8 @@
       "confidence": 0.97,
       "rationale": "Being a trusted partner to supply-side and international growth teams is advisory and relationship-based work, which is human-led.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },

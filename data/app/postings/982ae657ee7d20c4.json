@@ -99,8 +99,8 @@
       "confidence": 0.98,
       "rationale": "Processing bi-weekly payroll is payroll processing work that is repetitive and rules-based but not covered by the map.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
         "bucket": "human_work"
       }
     },
@@ -124,8 +124,8 @@
       "confidence": 0.95,
       "rationale": "Reconciling payroll before transmission is payroll-specific validation work with no matching capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -149,9 +149,9 @@
       "confidence": 0.74,
       "rationale": "Validating confirmed reports is generic payroll review work that is not mapped to a specific capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -174,8 +174,8 @@
       "confidence": 0.95,
       "rationale": "Monitoring approved time sheet submissions is a timekeeping workflow task with no matching capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -199,8 +199,8 @@
       "confidence": 0.95,
       "rationale": "Ensuring payroll data transfers is systems-interface administration work not covered by the map.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -224,8 +224,8 @@
       "confidence": 0.94,
       "rationale": "Maintaining a status-change database is payroll master-data administration that does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -249,8 +249,8 @@
       "confidence": 0.97,
       "rationale": "Maintaining tax withholding data is payroll tax administration and no payroll-tax capability is listed.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -274,9 +274,9 @@
       "confidence": 0.97,
       "rationale": "Maintaining benefits deduction data is payroll administration work with no matching capability.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -299,8 +299,8 @@
       "confidence": 0.97,
       "rationale": "Maintaining time-off accrual data is payroll setup work not covered by the map.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -324,8 +324,8 @@
       "confidence": 0.92,
       "rationale": "Researching employee pay and deduction inquiries is repetitive payroll support work with no matching capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -349,8 +349,8 @@
       "confidence": 0.92,
       "rationale": "Resolving employee payroll inquiries is support work that does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -374,8 +374,8 @@
       "confidence": 0.89,
       "rationale": "Providing figures for severance calculations is payroll calculation support that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -399,8 +399,8 @@
       "confidence": 0.89,
       "rationale": "Providing figures for vacation payout calculations is payroll calculation support with no matching capability.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -424,8 +424,8 @@
       "confidence": 0.9,
       "rationale": "Assisting with tax notice research is tax support work that is not a listed capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -449,8 +449,8 @@
       "confidence": 0.84,
       "rationale": "Assisting with agency correspondence is relationship/support work around authorities and has no direct capability match.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -495,9 +495,9 @@
       "confidence": 0.93,
       "rationale": "Assisting with payroll tax reporting support is payroll tax filing/reporting support not covered by the map.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -583,8 +583,8 @@
       "confidence": 0.8,
       "rationale": "Analyzing general ledger journal entries is accounting review work with no direct capability match.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -629,8 +629,8 @@
       "confidence": 0.77,
       "rationale": "Analyzing general ledger reconciliations is reconciliation review work, not a listed core capability.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -717,9 +717,9 @@
       "confidence": 0.96,
       "rationale": "Administering general ledger system interfaces is systems administration work with no matching capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -742,9 +742,9 @@
       "confidence": 0.97,
       "rationale": "Administering payroll system interfaces is systems administration work not covered by the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -767,9 +767,9 @@
       "confidence": 0.97,
       "rationale": "Administering benefits system interfaces is systems administration work with no matching capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -792,9 +792,9 @@
       "confidence": 0.97,
       "rationale": "Administering timekeeping system interfaces is systems administration work not covered by the map.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -817,8 +817,8 @@
       "confidence": 0.98,
       "rationale": "Processing garnishment calculations is payroll deduction calculation work with no matching capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -842,9 +842,9 @@
       "confidence": 0.98,
       "rationale": "Processing special payroll deduction calculations is payroll compliance calculation work not covered by the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -867,8 +867,8 @@
       "confidence": 0.83,
       "rationale": "Reviewing changes for authorization and regulatory compliance is control checking work but not a listed capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -892,9 +892,9 @@
       "confidence": 0.96,
       "rationale": "Assisting with leave of absence payroll processing is payroll administration work with no matching capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -917,9 +917,9 @@
       "confidence": 0.96,
       "rationale": "Validating benefit deductions is payroll deduction verification work not covered by the map.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -942,9 +942,9 @@
       "confidence": 0.95,
       "rationale": "Validating arrears balances is payroll balance validation work with no matching capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -967,9 +967,9 @@
       "confidence": 0.94,
       "rationale": "Validating payroll impacts is payroll calculation review work not covered by the map.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1034,8 +1034,8 @@
       "confidence": 0.62,
       "rationale": "Responding to information requests is too vague to match a specific capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -1059,8 +1059,8 @@
       "confidence": 0.58,
       "rationale": "Maintaining procedures is too vague to determine the core action.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -1084,9 +1084,9 @@
       "confidence": 0.58,
       "rationale": "Maintaining desk guides is documentation upkeep but too vague to map confidently.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1109,8 +1109,8 @@
       "confidence": 0.57,
       "rationale": "Maintaining documentation for assigned responsibilities is too general to match a specific capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },

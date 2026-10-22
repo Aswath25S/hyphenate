@@ -1429,64 +1429,6 @@
     "newsroom_rss": null
   },
   {
-    "slug": "fivetran",
-    "company": "Fivetran",
-    "domain": "fivetran.com",
-    "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
-    "hq_state": "CA",
-    "excluded": null,
-    "posting_ids": [
-      "148c2e7dccc68b52",
-      "15fb278a9ee5fff5",
-      "23554633491f2a18",
-      "455e26d6827dbb90"
-    ],
-    "open_roles": 4,
-    "avg_weighted_overlap": 0.009615384615384616,
-    "avg_overlap": 0.01282051282051282,
-    "pain": 0.2076923076923077,
-    "erp": [
-      "NetSuite"
-    ],
-    "erp_class": "enterprise",
-    "erp_score": 1,
-    "size_class": "in_band",
-    "size_score": 1,
-    "complexity_flags": {
-      "multi_entity": false,
-      "multi_currency": false,
-      "usage_based_billing": true,
-      "high_volume": false
-    },
-    "complexity_count": 1,
-    "complexity_score": 0.5,
-    "fit": 0.85,
-    "product_split": {
-      "GL accounting": {
-        "covered": 1,
-        "assisted": 1,
-        "weighted": 1.5
-      }
-    },
-    "lead_product": "GL accounting",
-    "tools": [
-      "Looker",
-      "Pigment",
-      "Python",
-      "SQL",
-      "Sigma",
-      "Tableau",
-      "Workiva"
-    ],
-    "savings_total": 1618.2051282051282,
-    "savings_roles": 4,
-    "salary_roles": 4,
-    "newsroom_rss": null
-  },
-  {
     "slug": "shield-ai",
     "company": "Shield AI",
     "domain": "shield.ai",
@@ -1618,69 +1560,6 @@
     "savings_total": 15438.775510204083,
     "savings_roles": 4,
     "salary_roles": 4,
-    "newsroom_rss": null
-  },
-  {
-    "slug": "reddit",
-    "company": "Reddit",
-    "domain": "reddit.com",
-    "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
-    "hq_state": "CA",
-    "excluded": null,
-    "posting_ids": [
-      "07fb48f155c17720",
-      "59ba14769ebbbaa2",
-      "a244699191518a52",
-      "b6f3bdc427d56105",
-      "da4d0936cc6a0b07"
-    ],
-    "open_roles": 5,
-    "avg_weighted_overlap": 0.05554421768707483,
-    "avg_overlap": 0.06887755102040816,
-    "pain": 0.24443537414965988,
-    "erp": [
-      "Workday"
-    ],
-    "erp_class": "other",
-    "erp_score": 0.5,
-    "size_class": "in_band",
-    "size_score": 1,
-    "complexity_flags": {
-      "multi_entity": false,
-      "multi_currency": true,
-      "usage_based_billing": false,
-      "high_volume": true
-    },
-    "complexity_count": 2,
-    "complexity_score": 1,
-    "fit": 0.8,
-    "product_split": {
-      "GL accounting": {
-        "covered": 9,
-        "assisted": 4,
-        "weighted": 11
-      },
-      "Reporting": {
-        "covered": 0,
-        "assisted": 1,
-        "weighted": 0.5
-      }
-    },
-    "lead_product": "GL accounting",
-    "tools": [
-      "Alteryx",
-      "Excel",
-      "Google Sheets",
-      "SQL",
-      "Vertex",
-      "Workday Payroll"
-    ],
-    "savings_total": 9517.687074829932,
-    "savings_roles": 3,
-    "salary_roles": 3,
     "newsroom_rss": null
   },
   {
@@ -2223,6 +2102,63 @@
     "newsroom_rss": null
   },
   {
+    "slug": "fivetran",
+    "company": "Fivetran",
+    "domain": "fivetran.com",
+    "ats": "greenhouse",
+    "employee_band": "1001-5000",
+    "size_source_url": null,
+    "size_note": "unverified estimate; replace with a public source",
+    "hq_state": "CA",
+    "excluded": null,
+    "posting_ids": [
+      "148c2e7dccc68b52",
+      "23554633491f2a18",
+      "455e26d6827dbb90"
+    ],
+    "open_roles": 3,
+    "avg_weighted_overlap": 0.012820512820512822,
+    "avg_overlap": 0.017094017094017092,
+    "pain": 0.16025641025641027,
+    "erp": [
+      "NetSuite"
+    ],
+    "erp_class": "enterprise",
+    "erp_score": 1,
+    "size_class": "in_band",
+    "size_score": 1,
+    "complexity_flags": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": true,
+      "high_volume": false
+    },
+    "complexity_count": 1,
+    "complexity_score": 0.5,
+    "fit": 0.85,
+    "product_split": {
+      "GL accounting": {
+        "covered": 1,
+        "assisted": 1,
+        "weighted": 1.5
+      }
+    },
+    "lead_product": "GL accounting",
+    "tools": [
+      "Looker",
+      "Pigment",
+      "Python",
+      "SQL",
+      "Sigma",
+      "Tableau",
+      "Workiva"
+    ],
+    "savings_total": 1618.2051282051282,
+    "savings_roles": 3,
+    "salary_roles": 3,
+    "newsroom_rss": null
+  },
+  {
     "slug": "rover",
     "company": "Rover",
     "domain": "rover.com",
@@ -2351,13 +2287,12 @@
       "0d084ff70492e46f",
       "2c34ba31bc876035",
       "6f7f418786d3f690",
-      "9062a898c821d6ca",
       "f25b8409aa444e56"
     ],
-    "open_roles": 5,
-    "avg_weighted_overlap": 0.026838235294117645,
-    "avg_overlap": 0.03566176470588235,
-    "pain": 0.22147058823529414,
+    "open_roles": 4,
+    "avg_weighted_overlap": 0.03354779411764706,
+    "avg_overlap": 0.04457720588235294,
+    "pain": 0.22683823529411767,
     "erp": [
       "NetSuite",
       "SAP",
@@ -2398,8 +2333,62 @@
       "Zuora"
     ],
     "savings_total": 4108.125,
-    "savings_roles": 5,
-    "salary_roles": 5,
+    "savings_roles": 4,
+    "salary_roles": 4,
+    "newsroom_rss": null
+  },
+  {
+    "slug": "reddit",
+    "company": "Reddit",
+    "domain": "reddit.com",
+    "ats": "greenhouse",
+    "employee_band": "1001-5000",
+    "size_source_url": null,
+    "size_note": "unverified estimate; replace with a public source",
+    "hq_state": "CA",
+    "excluded": null,
+    "posting_ids": [
+      "07fb48f155c17720",
+      "a244699191518a52",
+      "da4d0936cc6a0b07"
+    ],
+    "open_roles": 3,
+    "avg_weighted_overlap": 0.04196217494089834,
+    "avg_overlap": 0.04890661938534279,
+    "pain": 0.1835697399527187,
+    "erp": [],
+    "erp_class": "not_stated",
+    "erp_score": 0.5,
+    "size_class": "in_band",
+    "size_score": 1,
+    "complexity_flags": {
+      "multi_entity": false,
+      "multi_currency": true,
+      "usage_based_billing": false,
+      "high_volume": true
+    },
+    "complexity_count": 2,
+    "complexity_score": 1,
+    "fit": 0.8,
+    "product_split": {
+      "GL accounting": {
+        "covered": 5,
+        "assisted": 2,
+        "weighted": 6
+      }
+    },
+    "lead_product": "GL accounting",
+    "tools": [
+      "Alteryx",
+      "Excel",
+      "Google Sheets",
+      "SQL",
+      "Vertex",
+      "Workday Payroll"
+    ],
+    "savings_total": 7076.928191489362,
+    "savings_roles": 3,
+    "salary_roles": 3,
     "newsroom_rss": null
   },
   {
@@ -2414,15 +2403,14 @@
     "excluded": null,
     "posting_ids": [
       "0bb2b8a9ac462085",
-      "3401c83ba0cd0add",
       "5161be621c1860bd",
       "84ec03d44ae6fe8c",
       "cec9869bf50db5b9"
     ],
-    "open_roles": 5,
-    "avg_weighted_overlap": 0.15089117721840833,
-    "avg_overlap": 0.2373379099923722,
-    "pain": 0.3207129417747267,
+    "open_roles": 4,
+    "avg_weighted_overlap": 0.16267361111111112,
+    "avg_overlap": 0.24479166666666663,
+    "pain": 0.33013888888888887,
     "erp": [
       "Workday"
     ],
@@ -2447,8 +2435,8 @@
       },
       "Reporting": {
         "covered": 0,
-        "assisted": 9,
-        "weighted": 4.5
+        "assisted": 4,
+        "weighted": 2
       }
     },
     "lead_product": "GL accounting",
@@ -2458,8 +2446,8 @@
       "OpenAI Codex"
     ],
     "savings_total": 19237.2,
-    "savings_roles": 5,
-    "salary_roles": 5,
+    "savings_roles": 4,
+    "salary_roles": 4,
     "newsroom_rss": null
   },
   {
@@ -4482,6 +4470,58 @@
     "tools": [
       "Microsoft Excel",
       "UKG"
+    ],
+    "savings_total": 0,
+    "savings_roles": 1,
+    "salary_roles": 1,
+    "newsroom_rss": null
+  },
+  {
+    "slug": "astranis",
+    "company": "Astranis",
+    "domain": "astranis.com",
+    "ats": "greenhouse",
+    "employee_band": "501-1000",
+    "size_source_url": null,
+    "size_note": "unverified estimate; replace with a public source",
+    "hq_state": "CA",
+    "excluded": null,
+    "posting_ids": [
+      "23597d58012f47d6"
+    ],
+    "open_roles": 1,
+    "avg_weighted_overlap": 0.1111111111111111,
+    "avg_overlap": 0.2222222222222222,
+    "pain": 0.1388888888888889,
+    "erp": [],
+    "erp_class": "not_stated",
+    "erp_score": 0.5,
+    "size_class": "in_band",
+    "size_score": 1,
+    "complexity_flags": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false
+    },
+    "complexity_count": 0,
+    "complexity_score": 0.2,
+    "fit": 0.56,
+    "product_split": {
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "lead_product": "GL accounting",
+    "tools": [
+      "Excel"
     ],
     "savings_total": 0,
     "savings_roles": 1,

@@ -94,8 +94,8 @@
       "confidence": 0.97,
       "rationale": "Researching complex U.S. GAAP matters requires accounting judgment and interpretation rather than a defined platform workflow.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -119,8 +119,8 @@
       "confidence": 0.9,
       "rationale": "Documenting complex accounting matters is technical accounting judgment work, not a mapped automated accounting operation.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -144,9 +144,9 @@
       "confidence": 0.98,
       "rationale": "Drafting technical accounting memos on novel issues is explicitly outside the revenue-recognition memo capability and depends on professional judgment.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -169,9 +169,9 @@
       "confidence": 0.88,
       "rationale": "Maintaining accounting policy documentation is policy work tied to human judgment rather than a covered operational capability.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -194,8 +194,8 @@
       "confidence": 0.95,
       "rationale": "Owning financial statements is an accountability/ownership role, not the specific action of producing consolidated statements.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -219,8 +219,8 @@
       "confidence": 0.94,
       "rationale": "Owning footnote disclosures is a disclosure ownership responsibility that requires judgment beyond mapped reporting automation.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -265,9 +265,9 @@
       "confidence": 0.98,
       "rationale": "Advising on revenue recognition is policy interpretation and judgment, which is explicitly not the automated revenue-recognition capability.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -290,9 +290,9 @@
       "confidence": 0.96,
       "rationale": "Advising on equity transactions is specialized accounting judgment that is not covered by the platform map.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -315,9 +315,9 @@
       "confidence": 0.96,
       "rationale": "Advising on debt modifications is technical accounting judgment rather than a covered end-to-end workflow.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -340,9 +340,9 @@
       "confidence": 0.96,
       "rationale": "Advising on business combinations is acquisition accounting judgment and not a mapped automated capability.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -365,9 +365,9 @@
       "confidence": 0.94,
       "rationale": "Advising on consolidation is accounting judgment work, not the operational consolidation process itself.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -390,9 +390,9 @@
       "confidence": 0.95,
       "rationale": "Advising on impairment analyses requires valuation and accounting judgment outside the platform capabilities.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -415,8 +415,8 @@
       "confidence": 0.55,
       "rationale": "Monitoring emerging accounting standards is a repetitive research/alerting task with no matching capability on the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -440,8 +440,8 @@
       "confidence": 0.96,
       "rationale": "Assessing applicability to the company is a judgment-heavy technical accounting decision.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -465,9 +465,9 @@
       "confidence": 0.97,
       "rationale": "Leading the resolution of complex technical accounting matters across close is management and judgment work.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -490,8 +490,8 @@
       "confidence": 0.86,
       "rationale": "Implementing processes to support technical conclusions is a project/change effort rather than a mapped finance-operations workflow.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -515,8 +515,8 @@
       "confidence": 0.95,
       "rationale": "Anticipating emerging accounting standards is strategic professional judgment, not automated operations.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -540,9 +540,9 @@
       "confidence": 0.97,
       "rationale": "Shaping accounting policy efforts is policy-setting and governance work that belongs to humans.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -565,9 +565,9 @@
       "confidence": 0.9,
       "rationale": "Shaping change-management efforts is a people/project leadership task rather than a finance-operations workflow.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -590,9 +590,9 @@
       "confidence": 0.96,
       "rationale": "Translating new guidance into implementation strategies requires judgment and design, not a covered automated task.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -615,9 +615,9 @@
       "confidence": 0.95,
       "rationale": "Translating new guidance into disclosures is judgmental disclosure drafting, not a mapped reporting workflow.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -640,9 +640,9 @@
       "confidence": 0.87,
       "rationale": "Translating new guidance into reporting calendars is a process-planning task without a direct platform capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -665,9 +665,9 @@
       "confidence": 0.92,
       "rationale": "Translating new guidance into scalable reporting processes is process design and implementation work.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -690,9 +690,9 @@
       "confidence": 0.98,
       "rationale": "Leading purchase accounting activities under ASC 805 is acquisition accounting judgment and coordination, not a mapped automation workflow.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -715,9 +715,9 @@
       "confidence": 0.93,
       "rationale": "Coordinating valuation is a judgment-based transaction support activity outside the platform map.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -740,8 +740,8 @@
       "confidence": 0.83,
       "rationale": "Reviewing an opening balance sheet is transaction accounting review work rather than a direct reconciliation or close task.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -765,8 +765,8 @@
       "confidence": 0.94,
       "rationale": "Performing transaction accounting is specialized accounting judgment not matched to a specific platform capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -790,8 +790,8 @@
       "confidence": 0.97,
       "rationale": "Preparing technical accounting memoranda for transaction conclusions is novel accounting analysis outside the automated capabilities.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -815,8 +815,8 @@
       "confidence": 0.89,
       "rationale": "Exploring accounting policy changes is policy analysis and judgment, not an operational workflow.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -840,9 +840,9 @@
       "confidence": 0.58,
       "rationale": "Participating in process improvements across accounting operations is too broad to map to a specific covered action.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -886,9 +886,9 @@
       "confidence": 0.52,
       "rationale": "Supporting the monthly closes is too vague to distinguish between close checklist execution and general help.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
       }
     },
     {
@@ -911,8 +911,8 @@
       "confidence": 0.46,
       "rationale": "Performing financial reviews is too vague to identify a specific covered capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -1020,8 +1020,8 @@
       "confidence": 0.44,
       "rationale": "Reviewing associated outcomes in automated systems is too vague to map to a specific finance workflow.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },

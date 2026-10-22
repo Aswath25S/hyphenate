@@ -85,8 +85,8 @@
       "confidence": 0.98,
       "rationale": "Serving as a primary business partner to senior leaders is advisory cross-functional work rather than a finance-ops capability.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -110,9 +110,9 @@
       "confidence": 0.96,
       "rationale": "Driving financial planning and budgeting is FP&A planning work, which is explicitly outside the covered capabilities.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -156,8 +156,8 @@
       "confidence": 0.62,
       "rationale": "Identifying opportunities to improve resource allocation and efficiency is strategic analysis, but the duty is too broad to map cleanly to a specific capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -181,8 +181,8 @@
       "confidence": 0.97,
       "rationale": "Working cross-functionally on critical change projects is project leadership and collaboration work by nature.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -206,8 +206,8 @@
       "confidence": 0.66,
       "rationale": "Improving tooling, self-serve automation, and internal processes is too vague and reads as a general process-improvement project.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },

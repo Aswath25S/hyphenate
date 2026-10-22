@@ -5,19 +5,19 @@
   "domain": "reddit.com",
   "title": "International Payroll Analyst",
   "role_family": "Payroll",
-  "seniority": "senior",
-  "n": 49,
+  "seniority": "mid",
+  "n": 47,
   "C": 2,
   "A": 0,
-  "covered_share": 0.04081632653061224,
-  "overlap": 0.04081632653061224,
-  "weighted_overlap": 0.04081632653061224,
+  "covered_share": 0.0425531914893617,
+  "overlap": 0.0425531914893617,
+  "weighted_overlap": 0.0425531914893617,
   "thin": false,
   "salary_min": 105400,
   "salary_max": 147500,
   "salary_varies": false,
   "salary_source": "posting_text",
-  "savings": 2151.020408163265,
+  "savings": 2242.553191489362,
   "savings_reason": null,
   "lead_product": "GL accounting",
   "product_split": {
@@ -27,17 +27,17 @@
       "weighted": 2
     }
   },
-  "erp": [
-    "Workday"
-  ],
+  "erp": [],
   "tools": [
+    "Workday Payroll",
     "Excel",
     "Google Sheets"
   ],
   "posted_at": "2026-09-14T08:05:09-04:00",
   "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8192369",
   "locations": [
-    "Remote - United States"
+    "Remote - United States",
+    "Remote - United Kingdom"
   ],
   "remote": "remote",
   "excluded": null,
@@ -58,95 +58,116 @@
     "entity_count": null
   },
   "pain_phrases": [
-    "scale our international payroll operations",
+    "own and scale our international payroll operations",
+    "multi-country payroll delivery across 15+ international countries",
+    "proactively managing dependencies, cutoffs, exceptions, and risks",
     "global payroll vendor implementations",
     "build scalable, best-in-class operational processes",
-    "proactively managing dependencies, cutoffs, exceptions, and risks",
-    "audit readiness",
-    "complex data analysis, reconciliation, and audit modeling",
-    "multi-currency payroll distribution",
-    "international expansion or payroll transformation"
+    "support a rapidly growing workforce",
+    "M&A integrations",
+    "new country market entries"
   ],
   "fetched_at": "2026-10-21T17:33:55.793Z",
   "ats": "greenhouse",
   "duties": [
     {
       "duty_id": "a244699191518a52-01",
-      "text": "Manage multi-country payroll delivery across 15+ international countries",
-      "source_span": "Manage, audit, and execute multi-country payroll delivery across 15+ international countries",
-      "is_boilerplate": false,
+      "text": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet.",
+      "source_span": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet.",
+      "is_boilerplate": true,
       "is_requirement": false,
-      "scored": true,
+      "scored": false,
       "span": {
-        "start": 1359,
-        "end": 1451
+        "start": 0,
+        "end": 163
       },
-      "label": "gap_candidate",
-      "model_label": "gap_candidate",
+      "label": null,
+      "model_label": null,
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.92,
-      "rationale": "Managing multi-country payroll delivery is payroll processing/operations work that is repetitive and not covered by the listed finance-ops capabilities.",
-      "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
-        "bucket": "possible_gap"
-      }
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
     },
     {
       "duty_id": "a244699191518a52-02",
-      "text": "Audit multi-country payroll delivery across 15+ international countries",
-      "source_span": "Manage, audit, and execute multi-country payroll delivery across 15+ international countries",
+      "text": "Manage multi-country payroll delivery across 15+ international countries",
+      "source_span": "multi-country payroll delivery across 15+ international countries",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 1359,
+        "start": 1386,
         "end": 1451
       },
-      "label": "gap_candidate",
-      "model_label": "gap_candidate",
-      "adjusted": null,
-      "capability_id": null,
-      "capability": null,
-      "product": null,
-      "confidence": 0.89,
-      "rationale": "Auditing payroll delivery is a payroll control/checking activity with no matching capability on the map.",
-      "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
-        "bucket": "possible_gap"
-      }
-    },
-    {
-      "duty_id": "a244699191518a52-03",
-      "text": "Execute multi-country payroll delivery across 15+ international countries",
-      "source_span": "Manage, audit, and execute multi-country payroll delivery across 15+ international countries",
-      "is_boilerplate": false,
-      "is_requirement": false,
-      "scored": true,
-      "span": {
-        "start": 1359,
-        "end": 1451
-      },
-      "label": "gap_candidate",
-      "model_label": "gap_candidate",
+      "label": "human",
+      "model_label": "human",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
       "confidence": 0.97,
-      "rationale": "Executing payroll delivery is payroll processing work, which is explicitly outside the listed capabilities.",
+      "rationale": "Managing multi-country payroll delivery is coordination and ownership work rather than an automated finance operation.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a244699191518a52-03",
+      "text": "Audit multi-country payroll delivery across 15+ international countries",
+      "source_span": "multi-country payroll delivery across 15+ international countries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1386,
+        "end": 1451
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.78,
+      "rationale": "Auditing payroll delivery is a rules-based review task, but no payroll-audit capability is listed.",
+      "gap_theme": {
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
     {
       "duty_id": "a244699191518a52-04",
+      "text": "Execute multi-country payroll delivery across 15+ international countries",
+      "source_span": "multi-country payroll delivery across 15+ international countries",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1386,
+        "end": 1451
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Executing payroll delivery is payroll processing, which is not covered in the capability map.",
+      "gap_theme": {
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a244699191518a52-05",
       "text": "Manage payroll inputs",
       "source_span": "payroll inputs",
       "is_boilerplate": false,
@@ -156,23 +177,23 @@
         "start": 1463,
         "end": 1477
       },
-      "label": "gap_candidate",
-      "model_label": "gap_candidate",
+      "label": "human",
+      "model_label": "human",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.96,
-      "rationale": "Managing payroll inputs is a repetitive payroll-processing task with no direct capability match.",
+      "confidence": 0.9,
+      "rationale": "Managing payroll inputs is a coordination task that depends on people and source data handling.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-05",
-      "text": "Manage validation",
+      "duty_id": "a244699191518a52-06",
+      "text": "Manage payroll validation",
       "source_span": "validation",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -181,23 +202,23 @@
         "start": 1479,
         "end": 1489
       },
-      "label": "gap_candidate",
-      "model_label": "gap_candidate",
+      "label": "human",
+      "model_label": "human",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.96,
-      "rationale": "Managing validation in payroll is operational checking work that is not covered by the map.",
+      "confidence": 0.84,
+      "rationale": "Managing payroll validation is oversight of a process step rather than an end-to-end platform capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-06",
-      "text": "Manage approvals",
+      "duty_id": "a244699191518a52-07",
+      "text": "Manage payroll approvals",
       "source_span": "approvals",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -206,22 +227,22 @@
         "start": 1491,
         "end": 1500
       },
-      "label": "gap_candidate",
-      "model_label": "gap_candidate",
+      "label": "human",
+      "model_label": "human",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.95,
-      "rationale": "Managing approvals here refers to payroll workflow approvals, which are not one of the listed approval capabilities.",
+      "confidence": 0.94,
+      "rationale": "Managing payroll approvals is approval workflow oversight, which is people-driven and policy-based.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-07",
+      "duty_id": "a244699191518a52-08",
       "text": "Manage funding coordination",
       "source_span": "funding coordination",
       "is_boilerplate": false,
@@ -231,23 +252,23 @@
         "start": 1502,
         "end": 1522
       },
-      "label": "gap_candidate",
-      "model_label": "gap_candidate",
+      "label": "human",
+      "model_label": "human",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.95,
-      "rationale": "Managing funding coordination is payroll funding operations, which has no matching capability listed.",
+      "confidence": 0.92,
+      "rationale": "Managing funding coordination requires cross-functional coordination with banks, payroll providers, and internal teams.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-08",
-      "text": "Manage reconciliations",
+      "duty_id": "a244699191518a52-09",
+      "text": "Manage payroll reconciliations",
       "source_span": "reconciliations",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -262,16 +283,16 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.94,
-      "rationale": "Managing reconciliations in payroll is a rules-based reconciliation task without a payroll-specific capability on the map.",
+      "confidence": 0.89,
+      "rationale": "Managing payroll reconciliations is a repetitive reconciliation task with no matching capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-09",
+      "duty_id": "a244699191518a52-10",
       "text": "Manage statutory filings",
       "source_span": "statutory filings",
       "is_boilerplate": false,
@@ -287,16 +308,16 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.98,
-      "rationale": "Managing statutory filings is tax/payroll compliance filing work and is not covered by the advertised capabilities.",
+      "confidence": 0.96,
+      "rationale": "Managing statutory filings is a compliance filing process that is not covered by the platform capabilities listed.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-10",
+      "duty_id": "a244699191518a52-11",
       "text": "Manage post-payroll activities",
       "source_span": "post-payroll activities",
       "is_boilerplate": false,
@@ -306,79 +327,29 @@
         "start": 1564,
         "end": 1587
       },
-      "label": "gap_candidate",
-      "model_label": "gap_candidate",
-      "adjusted": null,
-      "capability_id": null,
-      "capability": null,
-      "product": null,
-      "confidence": 0.92,
-      "rationale": "Post-payroll activities are payroll operations with no direct capability match.",
-      "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
-        "bucket": "possible_gap"
-      }
-    },
-    {
-      "duty_id": "a244699191518a52-11",
-      "text": "Ensure high accuracy",
-      "source_span": "ensure high accuracy",
-      "is_boilerplate": false,
-      "is_requirement": false,
-      "scored": true,
-      "span": {
-        "start": 1588,
-        "end": 1608
-      },
       "label": "unclear",
       "model_label": "unclear",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.78,
-      "rationale": "Ensuring high accuracy is a broad performance goal rather than a specific operational action to map.",
+      "confidence": 0.8,
+      "rationale": "Post-payroll activities is too broad to map to a single core action.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
     {
       "duty_id": "a244699191518a52-12",
-      "text": "Ensure strict adherence to strict regional pay schedules",
-      "source_span": "strict adherence to strict regional pay schedules",
-      "is_boilerplate": false,
-      "is_requirement": false,
-      "scored": true,
-      "span": {
-        "start": 1613,
-        "end": 1662
-      },
-      "label": "gap_candidate",
-      "model_label": "gap_candidate",
-      "adjusted": null,
-      "capability_id": null,
-      "capability": null,
-      "product": null,
-      "confidence": 0.91,
-      "rationale": "Ensuring adherence to regional pay schedules is payroll cadence management with no listed capability match.",
-      "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
-      }
-    },
-    {
-      "duty_id": "a244699191518a52-13",
       "text": "Lead the payroll calendar across countries",
-      "source_span": "Lead the payroll calendar",
+      "source_span": "payroll calendar",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 1667,
+        "start": 1676,
         "end": 1692
       },
       "label": "human",
@@ -387,16 +358,16 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.89,
-      "rationale": "Leading the payroll calendar is a coordination/leadership activity rather than an automatable finance-operation capability.",
+      "confidence": 0.98,
+      "rationale": "Leading the payroll calendar across countries is team/process leadership, which is human work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-14",
+      "duty_id": "a244699191518a52-13",
       "text": "Lead the operating cadence across countries",
       "source_span": "operating cadence across countries",
       "is_boilerplate": false,
@@ -412,16 +383,16 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.86,
-      "rationale": "Leading the operating cadence across countries is a cross-functional leadership task, not a platform-executed workflow.",
+      "confidence": 0.97,
+      "rationale": "Leading the operating cadence across countries is leadership and coordination, not an automated finance operation.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-15",
+      "duty_id": "a244699191518a52-14",
       "text": "Manage dependencies",
       "source_span": "dependencies",
       "is_boilerplate": false,
@@ -437,16 +408,16 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.72,
-      "rationale": "Managing dependencies is too vague to map to a specific finance-operations capability.",
+      "confidence": 0.88,
+      "rationale": "Managing dependencies is too vague without knowing what dependencies or what the operational action is.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-16",
+      "duty_id": "a244699191518a52-15",
       "text": "Manage cutoffs",
       "source_span": "cutoffs",
       "is_boilerplate": false,
@@ -462,16 +433,16 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.9,
-      "rationale": "Managing cutoffs is a process-control task in payroll operations with no matching capability.",
+      "confidence": 0.79,
+      "rationale": "Managing cutoffs is a repetitive process-control task with no direct capability match.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-17",
+      "duty_id": "a244699191518a52-16",
       "text": "Manage exceptions",
       "source_span": "exceptions",
       "is_boilerplate": false,
@@ -487,16 +458,16 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.9,
-      "rationale": "Managing exceptions in payroll is operational exception handling without a corresponding listed capability.",
+      "confidence": 0.91,
+      "rationale": "Managing exceptions is rules-based exception handling, but there is no payroll exception capability listed.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-18",
+      "duty_id": "a244699191518a52-17",
       "text": "Manage risks",
       "source_span": "risks",
       "is_boilerplate": false,
@@ -512,23 +483,23 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.76,
-      "rationale": "Managing risks is too broad and unspecific to classify against the capability map.",
+      "confidence": 0.9,
+      "rationale": "Managing risks is too vague to map to a specific operational capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-19",
+      "duty_id": "a244699191518a52-18",
       "text": "Ensure employees are paid accurately and on time",
-      "source_span": "ensure employees are paid accurately and on time",
+      "source_span": "employees are paid accurately and on time",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 1802,
+        "start": 1809,
         "end": 1850
       },
       "label": "gap_candidate",
@@ -537,23 +508,23 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.94,
-      "rationale": "Ensuring employees are paid accurately and on time is payroll processing and delivery work not covered by the map.",
+      "confidence": 0.86,
+      "rationale": "Ensuring employees are paid accurately and on time is payroll processing work with no matching capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-20",
+      "duty_id": "a244699191518a52-19",
       "text": "Partner with local in-country payroll providers",
-      "source_span": "Partner with local in-country payroll providers",
+      "source_span": "local in-country payroll providers",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 1855,
+        "start": 1868,
         "end": 1902
       },
       "label": "human",
@@ -562,24 +533,24 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.95,
-      "rationale": "Partnering with local payroll providers is a relationship and coordination task that requires human interaction.",
+      "confidence": 0.98,
+      "rationale": "Partnering with local in-country payroll providers is external coordination and relationship management.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-21",
-      "text": "Maintain strict adherence to regional pay schedules",
-      "source_span": "maintain strict adherence to regional pay schedules",
+      "duty_id": "a244699191518a52-20",
+      "text": "Maintain regional pay schedules",
+      "source_span": "regional pay schedules",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 1906,
-        "end": 1957
+        "start": 1640,
+        "end": 1662
       },
       "label": "gap_candidate",
       "model_label": "gap_candidate",
@@ -587,16 +558,16 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.93,
-      "rationale": "Maintaining adherence to regional pay schedules is payroll operations timing work with no listed capability match.",
+      "confidence": 0.82,
+      "rationale": "Maintaining regional pay schedules is administrative payroll operations, which is not covered.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-22",
+      "duty_id": "a244699191518a52-21",
       "text": "Maintain statutory processing windows",
       "source_span": "statutory processing windows",
       "is_boilerplate": false,
@@ -612,24 +583,24 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.93,
-      "rationale": "Maintaining statutory processing windows is compliance-timing work in payroll that is not covered by the map.",
+      "confidence": 0.81,
+      "rationale": "Maintaining statutory processing windows is a rules-based scheduling task with no listed capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-23",
+      "duty_id": "a244699191518a52-22",
       "text": "Oversee international equity compensation payroll processing",
-      "source_span": "Oversee international equity compensation payroll processing",
+      "source_span": "international equity compensation payroll processing (RSUs, Stock Options)",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 2027,
-        "end": 2087
+        "start": 2035,
+        "end": 2109
       },
       "label": "gap_candidate",
       "model_label": "gap_candidate",
@@ -638,22 +609,22 @@
       "capability": null,
       "product": null,
       "confidence": 0.88,
-      "rationale": "Overseeing international equity compensation payroll processing is specialized payroll processing with no direct capability match.",
+      "rationale": "Overseeing international equity compensation payroll processing is specialized payroll processing not covered by the map.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-24",
-      "text": "Ensure full regulatory compliance across international tax jurisdictions",
-      "source_span": "ensure full regulatory compliance across international tax jurisdictions",
+      "duty_id": "a244699191518a52-23",
+      "text": "Ensure regulatory compliance across international tax jurisdictions",
+      "source_span": "international tax jurisdictions",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 2114,
+        "start": 2155,
         "end": 2186
       },
       "label": "gap_candidate",
@@ -662,17 +633,17 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.94,
-      "rationale": "Ensuring tax-jurisdiction compliance is a payroll compliance task not covered by the listed capabilities.",
+      "confidence": 0.84,
+      "rationale": "Ensuring regulatory compliance across tax jurisdictions is compliance administration, but no matching capability is listed.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-25",
-      "text": "Ensure full regulatory compliance with localized statutory benefits",
+      "duty_id": "a244699191518a52-24",
+      "text": "Ensure compliance with localized statutory benefits",
       "source_span": "localized statutory benefits",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -687,17 +658,17 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.94,
-      "rationale": "Ensuring compliance with localized statutory benefits is payroll compliance administration with no matching capability.",
+      "confidence": 0.84,
+      "rationale": "Ensuring compliance with localized statutory benefits is compliance administration outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-26",
-      "text": "Ensure full regulatory compliance with reporting requirements",
+      "duty_id": "a244699191518a52-25",
+      "text": "Ensure compliance with reporting requirements",
       "source_span": "reporting requirements",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -712,23 +683,23 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.92,
-      "rationale": "Ensuring compliance with reporting requirements is compliance administration outside the advertised capabilities.",
+      "confidence": 0.79,
+      "rationale": "Ensuring compliance with reporting requirements is compliance work with no direct capability match.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
-      "duty_id": "a244699191518a52-27",
+      "duty_id": "a244699191518a52-26",
       "text": "Act as functional lead for payroll technology projects",
-      "source_span": "Act as functional lead for payroll technology projects",
+      "source_span": "payroll technology projects",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 2280,
+        "start": 2307,
         "end": 2334
       },
       "label": "human",
@@ -737,17 +708,17 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.9,
-      "rationale": "Acting as functional lead for payroll technology projects is project leadership, which is a human task.",
+      "confidence": 0.97,
+      "rationale": "Acting as functional lead for payroll technology projects is project leadership and coordination work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-28",
-      "text": "Leverage Workday to automate workflows",
+      "duty_id": "a244699191518a52-27",
+      "text": "Use Workday to automate workflows",
       "source_span": "leveraging Workday to automate workflows",
       "is_boilerplate": false,
       "is_requirement": false,
@@ -762,16 +733,16 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.84,
-      "rationale": "Leveraging Workday to automate workflows is a systems automation implementation task with no direct capability match.",
+      "confidence": 0.78,
+      "rationale": "Using Workday to automate workflows is an implementation task not covered by the finance-ops capabilities listed.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-29",
+      "duty_id": "a244699191518a52-28",
       "text": "Optimize system configurations",
       "source_span": "optimize system configurations",
       "is_boilerplate": false,
@@ -787,16 +758,16 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.7,
-      "rationale": "Optimizing system configurations is a technical implementation task that is too unspecific to map cleanly.",
+      "confidence": 0.76,
+      "rationale": "Optimize system configurations is too vague to determine the underlying finance operation.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-30",
+      "duty_id": "a244699191518a52-29",
       "text": "Build custom reporting",
       "source_span": "build custom reporting",
       "is_boilerplate": false,
@@ -812,23 +783,23 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.82,
-      "rationale": "Building custom reporting is report creation work, but payroll-specific reporting is not one of the listed reporting capabilities.",
+      "confidence": 0.77,
+      "rationale": "Building custom reporting is a general reporting task, but no payroll-specific reporting capability is listed.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-31",
-      "text": "Partner with the Sr. Global Payroll Manager to implement upcoming enterprise Global Payroll solutions",
-      "source_span": "partner with the Sr. Global payroll Manager to implement upcoming enterprise Global Payroll solutions",
+      "duty_id": "a244699191518a52-30",
+      "text": "Implement enterprise Global Payroll solutions",
+      "source_span": "implement upcoming enterprise Global Payroll solutions",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 2438,
+        "start": 2485,
         "end": 2539
       },
       "label": "human",
@@ -837,23 +808,23 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.91,
-      "rationale": "Partnering to implement enterprise payroll solutions is cross-functional project work requiring human coordination.",
+      "confidence": 0.96,
+      "rationale": "Implementing enterprise global payroll solutions is a project and change-management effort.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-32",
+      "duty_id": "a244699191518a52-31",
       "text": "Partner with Benefits",
-      "source_span": "Partner with Benefits",
+      "source_span": "Benefits",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 2582,
+        "start": 2595,
         "end": 2603
       },
       "label": "human",
@@ -862,16 +833,16 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.97,
-      "rationale": "Partnering with Benefits is a cross-functional advisory/coordination activity.",
+      "confidence": 0.99,
+      "rationale": "Partnering with Benefits is cross-functional relationship work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-33",
+      "duty_id": "a244699191518a52-32",
       "text": "Partner with People Operations",
       "source_span": "People Operations",
       "is_boilerplate": false,
@@ -887,16 +858,16 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.97,
-      "rationale": "Partnering with People Operations is a cross-functional advisory/coordination activity.",
+      "confidence": 0.99,
+      "rationale": "Partnering with People Operations is cross-functional relationship work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
-      "duty_id": "a244699191518a52-34",
+      "duty_id": "a244699191518a52-33",
       "text": "Partner with Legal",
       "source_span": "Legal",
       "is_boilerplate": false,
@@ -912,16 +883,16 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.97,
-      "rationale": "Partnering with Legal is a human coordination task, not an automatable finance operation.",
+      "confidence": 0.99,
+      "rationale": "Partnering with Legal is advisory and relationship work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
-      "duty_id": "a244699191518a52-35",
+      "duty_id": "a244699191518a52-34",
       "text": "Partner with Finance",
       "source_span": "Finance",
       "is_boilerplate": false,
@@ -937,23 +908,23 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.96,
-      "rationale": "Partnering with Finance is a cross-functional coordination task that requires human interaction.",
+      "confidence": 0.99,
+      "rationale": "Partnering with Finance is cross-functional coordination and advisory work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-36",
+      "duty_id": "a244699191518a52-35",
       "text": "Manage external vendor relationships",
-      "source_span": "manage external vendor relationships",
+      "source_span": "external vendor relationships",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 2644,
+        "start": 2651,
         "end": 2680
       },
       "label": "human",
@@ -962,16 +933,16 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.96,
-      "rationale": "Managing external vendor relationships is relationship management, which is explicitly human work.",
+      "confidence": 0.98,
+      "rationale": "Managing external vendor relationships is relationship management, which is human work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-37",
+      "duty_id": "a244699191518a52-36",
       "text": "Manage third-party tax fulfillment partners",
       "source_span": "third-party tax fulfillment partners",
       "is_boilerplate": false,
@@ -987,23 +958,23 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.94,
-      "rationale": "Managing third-party tax fulfillment partners is vendor relationship management and coordination.",
+      "confidence": 0.97,
+      "rationale": "Managing third-party tax fulfillment partners is vendor relationship management.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-38",
+      "duty_id": "a244699191518a52-37",
       "text": "Ensure seamless funds reconciliation",
-      "source_span": "ensure seamless funds reconciliation",
+      "source_span": "funds reconciliation",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 2725,
+        "start": 2741,
         "end": 2761
       },
       "label": "gap_candidate",
@@ -1012,16 +983,16 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.92,
-      "rationale": "Ensuring funds reconciliation is a reconciliation task, but payroll funds reconciliation is not a listed capability.",
+      "confidence": 0.85,
+      "rationale": "Ensuring funds reconciliation is a reconciliation task with no payroll-specific capability match.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
     {
-      "duty_id": "a244699191518a52-39",
+      "duty_id": "a244699191518a52-38",
       "text": "Ensure local tax compliance",
       "source_span": "local tax compliance",
       "is_boilerplate": false,
@@ -1037,91 +1008,91 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.95,
-      "rationale": "Ensuring local tax compliance is compliance administration and filing work outside the capability map.",
+      "confidence": 0.87,
+      "rationale": "Ensuring local tax compliance is a rules-based compliance task not covered by the map.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "a244699191518a52-39",
+      "text": "Establish global payroll policies",
+      "source_span": "global payroll policies",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2842,
+        "end": 2865
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Establishing global payroll policies is policy-setting work, which is explicitly human.",
+      "gap_theme": {
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
       "duty_id": "a244699191518a52-40",
-      "text": "Establish global payroll policies",
-      "source_span": "Establish, document, and enforce global payroll policies",
+      "text": "Document global payroll policies",
+      "source_span": "global payroll policies",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 2809,
+        "start": 2842,
         "end": 2865
       },
-      "label": "human",
-      "model_label": "human",
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.97,
-      "rationale": "Establishing global payroll policies is policy-setting, which is human judgment work by definition.",
+      "confidence": 0.72,
+      "rationale": "Documenting global payroll policies is documentation work, but it does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
       "duty_id": "a244699191518a52-41",
-      "text": "Document global payroll policies",
-      "source_span": "Establish, document, and enforce global payroll policies",
+      "text": "Enforce global payroll policies",
+      "source_span": "global payroll policies",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 2809,
+        "start": 2842,
         "end": 2865
       },
-      "label": "human",
-      "model_label": "human",
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.9,
-      "rationale": "Documenting global payroll policies supports policy-setting work and is not an end-to-end finance operation.",
+      "confidence": 0.8,
+      "rationale": "Enforcing global payroll policies is operational compliance enforcement with no direct capability match.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
     {
       "duty_id": "a244699191518a52-42",
-      "text": "Enforce global payroll policies",
-      "source_span": "Establish, document, and enforce global payroll policies",
-      "is_boilerplate": false,
-      "is_requirement": false,
-      "scored": true,
-      "span": {
-        "start": 2809,
-        "end": 2865
-      },
-      "label": "human",
-      "model_label": "human",
-      "adjusted": null,
-      "capability_id": null,
-      "capability": null,
-      "product": null,
-      "confidence": 0.92,
-      "rationale": "Enforcing global payroll policies is policy enforcement and governance work that requires human oversight.",
-      "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
-      }
-    },
-    {
-      "duty_id": "a244699191518a52-43",
       "text": "Establish SOX controls",
       "source_span": "SOX controls",
       "is_boilerplate": false,
@@ -1138,15 +1109,15 @@
       "capability": null,
       "product": null,
       "confidence": 0.98,
-      "rationale": "Establishing SOX controls is designing the control framework, which the map explicitly excludes.",
+      "rationale": "Establishing SOX controls is designing the control framework, which requires human judgment.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-44",
+      "duty_id": "a244699191518a52-43",
       "text": "Document SOX controls",
       "source_span": "SOX controls",
       "is_boilerplate": false,
@@ -1162,12 +1133,12 @@
       "capability_id": "gl.controls",
       "capability": "Monitor manual entries and close controls",
       "product": "GL accounting",
-      "confidence": 0.82,
-      "rationale": "Documenting SOX controls matches maintaining documentation of key controls under the controls capability.",
+      "confidence": 0.93,
+      "rationale": "Documenting SOX controls matches the capability to maintain documentation of key controls.",
       "gap_theme": null
     },
     {
-      "duty_id": "a244699191518a52-45",
+      "duty_id": "a244699191518a52-44",
       "text": "Enforce SOX controls",
       "source_span": "SOX controls",
       "is_boilerplate": false,
@@ -1183,12 +1154,12 @@
       "capability_id": "gl.controls",
       "capability": "Monitor manual entries and close controls",
       "product": "GL accounting",
-      "confidence": 0.84,
-      "rationale": "Enforcing SOX controls is operational control execution and monitoring, which fits the controls capability.",
+      "confidence": 0.92,
+      "rationale": "Enforcing SOX controls aligns with executing and monitoring internal controls over financial reporting.",
       "gap_theme": null
     },
     {
-      "duty_id": "a244699191518a52-46",
+      "duty_id": "a244699191518a52-45",
       "text": "Establish standard operating procedures",
       "source_span": "standard operating procedures",
       "is_boilerplate": false,
@@ -1204,16 +1175,16 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.96,
-      "rationale": "Establishing standard operating procedures is process design and policy-setting work.",
+      "confidence": 0.98,
+      "rationale": "Establishing standard operating procedures is process design and policy setting.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
-      "duty_id": "a244699191518a52-47",
+      "duty_id": "a244699191518a52-46",
       "text": "Document standard operating procedures",
       "source_span": "standard operating procedures",
       "is_boilerplate": false,
@@ -1223,22 +1194,22 @@
         "start": 2885,
         "end": 2914
       },
-      "label": "unclear",
-      "model_label": "unclear",
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.69,
-      "rationale": "Documenting standard operating procedures is administrative documentation that is too generic to map precisely.",
+      "confidence": 0.81,
+      "rationale": "Documenting standard operating procedures is administrative documentation with no direct capability match.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
-      "duty_id": "a244699191518a52-48",
+      "duty_id": "a244699191518a52-47",
       "text": "Enforce standard operating procedures",
       "source_span": "standard operating procedures",
       "is_boilerplate": false,
@@ -1248,30 +1219,30 @@
         "start": 2885,
         "end": 2914
       },
-      "label": "human",
-      "model_label": "human",
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
       "adjusted": null,
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.9,
-      "rationale": "Enforcing standard operating procedures is governance and oversight work requiring human judgment.",
+      "confidence": 0.79,
+      "rationale": "Enforcing standard operating procedures is operational compliance enforcement not covered by the map.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
-      "duty_id": "a244699191518a52-49",
+      "duty_id": "a244699191518a52-48",
       "text": "Streamline audit readiness",
-      "source_span": "streamline audit readiness",
+      "source_span": "audit readiness (401k, Workers’ Comp, Financial Audits)",
       "is_boilerplate": false,
       "is_requirement": false,
       "scored": true,
       "span": {
-        "start": 2918,
-        "end": 2944
+        "start": 2929,
+        "end": 2984
       },
       "label": "unclear",
       "model_label": "unclear",
@@ -1279,24 +1250,24 @@
       "capability_id": null,
       "capability": null,
       "product": null,
-      "confidence": 0.83,
-      "rationale": "Streamlining audit readiness is a vague process-improvement activity without a specific capability match.",
+      "confidence": 0.86,
+      "rationale": "Streamlining audit readiness is too vague and sounds like a process-improvement project rather than a specific finance task.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
-      "duty_id": "a244699191518a52-50",
-      "text": "Support special business initiatives",
-      "source_span": "Support special business initiatives, including M&A integrations, new country market entries, and business-critical cross-functional launches",
+      "duty_id": "a244699191518a52-49",
+      "text": "Support special business initiatives, including M&A integrations, new country market entries, and business-critical cross-functional launches.",
+      "source_span": "Support special business initiatives, including M&A integrations, new country market entries, and business-critical cross-functional launches.",
       "is_boilerplate": true,
       "is_requirement": false,
       "scored": false,
       "span": {
         "start": 3016,
-        "end": 3157
+        "end": 3158
       },
       "label": null,
       "model_label": null,
@@ -1309,8 +1280,8 @@
       "gap_theme": null
     },
     {
-      "duty_id": "a244699191518a52-51",
-      "text": "3-5 years of progressive payroll operations experience in a high-growth, publicly traded tech company with a global footprint",
+      "duty_id": "a244699191518a52-50",
+      "text": "3-5 years of progressive payroll operations experience in a high-growth, publicly traded tech company with a global footprint.",
       "source_span": "3-5 years of progressive payroll operations experience in a high-growth, publicly traded tech company with a global footprint.",
       "is_boilerplate": false,
       "is_requirement": true,
@@ -1330,8 +1301,8 @@
       "gap_theme": null
     },
     {
-      "duty_id": "a244699191518a52-52",
-      "text": "Bachelor's degree or equivalent practical experience in payroll, accounting, finance, human resources, or a related field",
+      "duty_id": "a244699191518a52-51",
+      "text": "Bachelor's degree or equivalent practical experience in payroll, accounting, finance, human resources, or a related field.",
       "source_span": "Bachelor's degree or equivalent practical experience in payroll, accounting, finance, human resources, or a related field.",
       "is_boilerplate": false,
       "is_requirement": true,
@@ -1351,8 +1322,8 @@
       "gap_theme": null
     },
     {
-      "duty_id": "a244699191518a52-53",
-      "text": "Advanced proficiency with Workday Payroll (reporting, configuration, integrations) and global payroll software platforms",
+      "duty_id": "a244699191518a52-52",
+      "text": "Advanced proficiency with Workday Payroll (reporting, configuration, integrations) and global payroll software platforms.",
       "source_span": "Advanced proficiency with Workday Payroll (reporting, configuration, integrations) and global payroll software platforms.",
       "is_boilerplate": false,
       "is_requirement": true,
@@ -1372,8 +1343,8 @@
       "gap_theme": null
     },
     {
-      "duty_id": "a244699191518a52-54",
-      "text": "Advanced proficiency in Excel/Google Sheets (vlookups, index/match, pivot tables) for complex data analysis, reconciliation, and audit modeling",
+      "duty_id": "a244699191518a52-53",
+      "text": "Advanced proficiency in Excel/Google Sheets (vlookups, index/match, pivot tables) for complex data analysis, reconciliation, and audit modeling.",
       "source_span": "Advanced proficiency in Excel/Google Sheets (vlookups, index/match, pivot tables) for complex data analysis, reconciliation, and audit modeling.",
       "is_boilerplate": false,
       "is_requirement": true,
@@ -1393,8 +1364,8 @@
       "gap_theme": null
     },
     {
-      "duty_id": "a244699191518a52-55",
-      "text": "Thorough understanding of global equity taxation, statutory compliance, international labor laws, and multi-currency payroll distribution",
+      "duty_id": "a244699191518a52-54",
+      "text": "Thorough understanding of global equity taxation, statutory compliance, international labor laws, and multi-currency payroll distribution.",
       "source_span": "Thorough understanding of global equity taxation, statutory compliance, international labor laws, and multi-currency payroll distribution.",
       "is_boilerplate": false,
       "is_requirement": true,
@@ -1414,8 +1385,8 @@
       "gap_theme": null
     },
     {
-      "duty_id": "a244699191518a52-56",
-      "text": "Strong problem-solving capabilities, high discretion handling confidential data, and exceptional communication skills to collaborate seamlessly across teams",
+      "duty_id": "a244699191518a52-55",
+      "text": "Strong problem-solving capabilities, high discretion handling confidential data, and exceptional communication skills to collaborate seamlessly across teams.",
       "source_span": "Strong problem-solving capabilities, high discretion handling confidential data, and exceptional communication skills to collaborate seamlessly across teams.",
       "is_boilerplate": false,
       "is_requirement": true,
@@ -1435,8 +1406,8 @@
       "gap_theme": null
     },
     {
-      "duty_id": "a244699191518a52-57",
-      "text": "Responding to internal, external, statutory, and financial audit requests, including preparation of reconciliations, control evidence, and supporting documentation",
+      "duty_id": "a244699191518a52-56",
+      "text": "Responding to internal, external, statutory, and financial audit requests, including preparation of reconciliations, control evidence, and supporting documentation.",
       "source_span": "Responding to internal, external, statutory, and financial audit requests, including preparation of reconciliations, control evidence, and supporting documentation.",
       "is_boilerplate": false,
       "is_requirement": true,
@@ -1456,8 +1427,8 @@
       "gap_theme": null
     },
     {
-      "duty_id": "a244699191518a52-58",
-      "text": "Applying automation or AI tools to payroll operations, analytics, controls, case management, or knowledge documentation",
+      "duty_id": "a244699191518a52-57",
+      "text": "Applying automation or AI tools to payroll operations, analytics, controls, case management, or knowledge documentation.",
       "source_span": "Applying automation or AI tools to payroll operations, analytics, controls, case management, or knowledge documentation.",
       "is_boilerplate": false,
       "is_requirement": true,
@@ -1477,8 +1448,8 @@
       "gap_theme": null
     },
     {
-      "duty_id": "a244699191518a52-59",
-      "text": "Providing high-quality customer service to employees and business partners across regions, cultures, and time zones",
+      "duty_id": "a244699191518a52-58",
+      "text": "Providing high-quality customer service to employees and business partners across regions, cultures, and time zones.",
       "source_span": "Providing high-quality customer service to employees and business partners across regions, cultures, and time zones.",
       "is_boilerplate": false,
       "is_requirement": true,
@@ -1498,8 +1469,8 @@
       "gap_theme": null
     },
     {
-      "duty_id": "a244699191518a52-60",
-      "text": "Working in a publicly traded, technology, or high-growth company and supporting international expansion or payroll transformation",
+      "duty_id": "a244699191518a52-59",
+      "text": "Working in a publicly traded, technology, or high-growth company and supporting international expansion or payroll transformation.",
       "source_span": "Working in a publicly traded, technology, or high-growth company and supporting international expansion or payroll transformation.",
       "is_boilerplate": false,
       "is_requirement": true,
@@ -1507,6 +1478,174 @@
       "span": {
         "start": 4562,
         "end": 4692
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a244699191518a52-60",
+      "text": "Comprehensive Healthcare Benefits and Income Replacement Programs",
+      "source_span": "Comprehensive Healthcare Benefits and Income Replacement Programs",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5249,
+        "end": 5314
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a244699191518a52-61",
+      "text": "401k with Employer Match",
+      "source_span": "401k with Employer Match",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5318,
+        "end": 5342
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a244699191518a52-62",
+      "text": "Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support",
+      "source_span": "Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5346,
+        "end": 5459
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a244699191518a52-63",
+      "text": "Family Planning Support",
+      "source_span": "Family Planning Support",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5463,
+        "end": 5486
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a244699191518a52-64",
+      "text": "Gender-Affirming Care",
+      "source_span": "Gender-Affirming Care",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5490,
+        "end": 5511
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a244699191518a52-65",
+      "text": "Mental Health & Coaching Benefits",
+      "source_span": "Mental Health & Coaching Benefits",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5515,
+        "end": 5548
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a244699191518a52-66",
+      "text": "Flexible Vacation & Paid Volunteer Time Off",
+      "source_span": "Flexible Vacation & Paid Volunteer Time Off",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5552,
+        "end": 5595
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "a244699191518a52-67",
+      "text": "Generous Paid Parental Leave",
+      "source_span": "Generous Paid Parental Leave",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 5599,
+        "end": 5627
       },
       "label": null,
       "model_label": null,

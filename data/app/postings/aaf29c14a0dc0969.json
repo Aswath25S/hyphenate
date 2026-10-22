@@ -139,9 +139,9 @@
       "confidence": 0.98,
       "rationale": "Employee travel and expense reimbursement processing is not covered by any listed capability and is explicitly outside the payments capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -206,8 +206,8 @@
       "confidence": 0.88,
       "rationale": "Resolving processing blocks is operational exception handling that does not map to a specific listed capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -228,8 +228,8 @@
       "confidence": 0.97,
       "rationale": "Gathering daily manufacturing data is repetitive data collection with no matching capability in the map.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -253,8 +253,8 @@
       "confidence": 0.99,
       "rationale": "Inputting daily manufacturing data into ERP systems is manual data entry outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -278,8 +278,8 @@
       "confidence": 0.93,
       "rationale": "Auditing daily logs for discrepancies is rule-based checking but does not match any covered finance capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -303,9 +303,9 @@
       "confidence": 0.92,
       "rationale": "Maintaining bills of materials is inventory/operations master data work with no corresponding capability listed.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -328,8 +328,8 @@
       "confidence": 0.98,
       "rationale": "Maintaining item costs in the ERP is inventory and cost accounting, which is explicitly outside the map.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -353,8 +353,8 @@
       "confidence": 0.91,
       "rationale": "Flagging discrepancies between planned and actual configurations is anomaly detection without a matching capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -378,9 +378,9 @@
       "confidence": 0.96,
       "rationale": "Coordinating inventory reconciliations is inventory control work and not covered by the finance-operations capabilities listed.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -403,8 +403,8 @@
       "confidence": 0.97,
       "rationale": "Researching inventory counting variances is inventory variance investigation, which is outside the map.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -428,8 +428,8 @@
       "confidence": 0.74,
       "rationale": "Looking for small daily efficiencies is too vague to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -453,8 +453,8 @@
       "confidence": 0.96,
       "rationale": "Partnering with leadership to identify bottlenecks is cross-functional advising and relationship work by nature.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },

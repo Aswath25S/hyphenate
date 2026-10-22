@@ -60,3 +60,10 @@ Choices made inside the spec's latitude. Newest at the bottom of each section.
 - **Spot check.** `npm run spotcheck` writes 20 random labels to `docs/spot-check.md`. The spec asks for the results here after each full run; none yet, because the full run has not happened.
 - **Live-demo limits are in memory.** Good enough for a demo on one server; a public deploy should use a shared store.
 - **Pages are statically prerendered.** The data only changes when the pipeline runs, so rebuild (`npm run build`) after publishing.
+
+## Deduplication (22 Oct 2026)
+
+- **Trigger events.** One story covered by several outlets was stored as several triggers (86 articles for 34 events). Items of the same trigger type within 14 days (`TRIGGER_DEDUPE_DAYS`) are now one event. The representative is the item that already scores highest for timing, so lead scores are unchanged; the other outlets are kept as `also_reported` and shown as "Also reported by" links.
+- **Roles.** The spec's 90% similarity threshold missed copies of one role posted for different locations (Reddit UK/US, Oscar Health). Same company + same normalised title now merges at 75%. Different titles merge only when the descriptions are near-verbatim (≥ 95%) and the titles do not differ only by a site suffix, so "Plant Controller, Cape / Stennis / Long Beach" stay three openings. This merged 5 postings (Fivetran, Oscar Health, Reddit ×2, Samsara).
+- **Left separate on purpose:** level variants with different titles and 83–90% similar text (Samsara "Revenue Accounting Manager" vs "Senior Manager, Revenue Accounting"; Headway "Strategic Finance Manager" vs "Senior Strategic Finance Manager"; Mixpanel G&A vs GTM). They may be one hiring need at two levels; review if you want them merged.
+- **Re-run scope.** Filter was re-run with `--as-of 2026-10-21` on the already-collected postings, then extract → publish. News was not re-fetched. Astranis's Financial Analyst posting sits on the 60-day edge and is now included.

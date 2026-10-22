@@ -78,8 +78,8 @@
       "confidence": 0.93,
       "rationale": "Building and maintaining project finance models is FP&A-style modeling work that is not covered by any listed finance-operations capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -103,9 +103,9 @@
       "confidence": 0.96,
       "rationale": "Scenario analysis is a planning/modeling task that matches no listed capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -128,8 +128,8 @@
       "confidence": 0.96,
       "rationale": "Sensitivity testing is a modeling exercise outside the coverage map.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -153,8 +153,8 @@
       "confidence": 0.95,
       "rationale": "Producing IRR and NPV outputs is financial modeling work with no matching capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -178,8 +178,8 @@
       "confidence": 0.98,
       "rationale": "Preparing investor-ready presentations is a presentation and communication duty that is human by nature.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -203,8 +203,8 @@
       "confidence": 0.99,
       "rationale": "Supporting contract negotiation is human work, and the duty explicitly includes negotiation.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -228,8 +228,8 @@
       "confidence": 0.84,
       "rationale": "Providing financial analysis and recommendations is advisory work to other teams rather than a covered operations process.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -253,8 +253,8 @@
       "confidence": 0.77,
       "rationale": "Owning the financial diligence and approval package is a transaction support task with no direct match in the map.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -299,8 +299,8 @@
       "confidence": 0.92,
       "rationale": "Developing pricing frameworks is pricing-policy design and strategic judgment, which is not a platform capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -324,9 +324,9 @@
       "confidence": 0.97,
       "rationale": "Partnering with sales and BD is an advisory cross-functional relationship duty that is human by nature.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {

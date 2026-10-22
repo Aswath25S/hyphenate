@@ -1,0 +1,715 @@
+{
+  "posting_id": "23597d58012f47d6",
+  "company": "Astranis",
+  "slug": "astranis",
+  "domain": "astranis.com",
+  "title": "Financial Analyst",
+  "role_family": "Reporting_FPA",
+  "seniority": "mid",
+  "n": 18,
+  "C": 0,
+  "A": 4,
+  "covered_share": 0,
+  "overlap": 0.2222222222222222,
+  "weighted_overlap": 0.1111111111111111,
+  "thin": false,
+  "salary_min": 70000,
+  "salary_max": 100000,
+  "salary_varies": false,
+  "salary_source": "posting_text",
+  "savings": 0,
+  "savings_reason": null,
+  "lead_product": "GL accounting",
+  "product_split": {
+    "GL accounting": {
+      "covered": 0,
+      "assisted": 2,
+      "weighted": 1
+    },
+    "Reporting": {
+      "covered": 0,
+      "assisted": 2,
+      "weighted": 1
+    }
+  },
+  "erp": [],
+  "tools": [
+    "Excel"
+  ],
+  "posted_at": "2026-09-28T13:56:17-04:00",
+  "source_url": "https://job-boards.greenhouse.io/astranis/jobs/4678367006",
+  "locations": [
+    "San Francisco",
+    "San Francisco, California, United States"
+  ],
+  "remote": "onsite",
+  "excluded": null,
+  "text": "Astranis builds advanced satellites for high orbits, expanding humanity’s reach into the solar system. Today Astranis satellites provide dedicated, secure networks to highly-sophisticated customers across the globe – large enterprises, sovereign governments, and the US military.\n\nWith five satellites on orbit and many more set to launch soon, the company is servicing a backlog of more than $1 billion of commercial contracts. Astranis is the preferred satellite communications partner for buyers with stringent requirements for uptime, data security, network visibility, and customization.\n\nAstranis has raised over $1.2 billion from some of the world’s best investors, including Andreessen Horowitz, Baillie Gifford, Blackrock, Fidelity, Franklin Templeton, and Snowpoint, and employs a team of 500 engineers and entrepreneurs. Astranis designs, builds, and operates its satellites out of its 153,000 sq. ft. headquarters in Northern California, USA.\n\nFinancial Analyst\n\nAs Astranis’s Financial Analyst, you will partner cross-functionally across engineering, program management, and business teams to ensure financial discipline and clarity as we scale. We are seeking an analysis-driven finance professional who thrives at budgeting, forecasting, and tracking program spend while driving accountability across company initiatives.\n\nYou are an ideal candidate if you have strong analytical skills, can manage detailed financial models, and are eager to balance an analysis-heavy workload with strategic business partnership. You should be motivated by tracking program budgets, evaluating cost trade-offs, and improving transparency into how Astranis invests its resources.\n\nRole\n\n• Own program budgeting, spend tracking, financial planning, reporting, and analysis, serving as a key financial partner to program managers and cross-functional teams.\n\n• Support program managers and project leads in tracking budgets, actuals, and forecasts against key milestones.\n\n• Balance rigorous financial analysis with effective cross-functional business partnership and clear communication.\n\n• Partner with department and initiative leaders on headcount planning, resource allocation, and spend management.\n\n• Deliver timely variance analysis and actionable insights to drive departmental and program accountability.\n\n• Build scalable reporting tools and dashboards to provide leadership with clear visibility into program and operating costs.\n\n• Support the monthly and quarterly close process in coordination with Accounting and Finance.\n\nRequirements\n\n• 1–3 years of financial planning & analysis (FP&A) or corporate finance experience.\n\n• Bachelor’s degree in finance, accounting, economics, or a related field.\n\n• Strong financial modeling, Excel, and reporting skills, with experience managing budgets and project/program spend tracking.\n\n• Detail-oriented mindset with the ability to \"zoom out\" and provide strategic insights to business leaders.\n\n• Demonstrated ability to work cross-functionally, bridging the gap between data analysis and operational decision-making.\n\n• High adaptability and curiosity to operate in a fast-paced technology or hardware company environment.\n\nWhat we offer:\n\nAll our positions offer a compensation package that includes equity and robust benefits.\n\nBase pay is just one component of Astranis’s total rewards package. Your compensation also includes a significant equity package via incentive stock options, high-quality company-subsidized healthcare, disability and life insurance, 401(k) retirement planning, flexible PTO, and free on-site catered meals.\n\nAstranis pay ranges are informed and defined through professional-grade salary surveys and compensation data sources. The actual base salary offered to a successful candidate will additionally be influenced by a variety of factors including experience, credentials & certifications, educational attainment, skill level requirements, and the level and scope of the position.\n\nBase Salary\n\n$70,000—$100,000 USD\n\nU.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required\n\n(To comply with U.S. Government space technology export regulations, applicant must be a U.S. citizen, lawful permanent resident of the United States, or other protected individual as defined by 8 U.S.C. 1324b(a)(3))\n\nOur mission and products are built for everyone, regardless of gender, race, creed, or background. We believe in a diverse and inclusive workplace, and we invite all people to join our team and bring their unique perspectives to make us stronger.\n\nAstranis SMS Terms of Service\n\n•\n\nRecruiting Updates: By opting in, you agree to receive SMS updates, interview coordination, and recruiting communications from Astranis Space Technologies Corp.\n\n•\n\nOpt-Out: You can cancel this service at any time by replying STOP. We will send one final text confirming your unsubscription.\n\n•\n\nOpt-In Again: To resume receiving messages, reply START or YES.\n\n•\n\nSupport & Rates: For assistance, reply HELP or contact us at coordinators@astranis.com. Message and data rates may apply. Message frequency varies; carriers are not liable for delayed or undelivered messages.\n\n•\n\nPrivacy: For details on how we protect your data, view our Privacy Policy.",
+  "extra_salary_lines": [],
+  "salary_raw": {
+    "min": 70000,
+    "max": 100000,
+    "period": "year",
+    "currency": "USD",
+    "raw_text": "$70,000—$100,000 USD"
+  },
+  "complexity": {
+    "multi_entity": false,
+    "multi_currency": false,
+    "usage_based_billing": false,
+    "high_volume": false,
+    "entity_count": null
+  },
+  "pain_phrases": [
+    "financial discipline and clarity as we scale",
+    "analysis-heavy workload",
+    "tracking program budgets",
+    "tracking budgets, actuals, and forecasts against key milestones",
+    "build scalable reporting tools and dashboards"
+  ],
+  "fetched_at": "2026-10-21T17:34:48.465Z",
+  "ats": "greenhouse",
+  "duties": [
+    {
+      "duty_id": "23597d58012f47d6-01",
+      "text": "Own program budgeting",
+      "source_span": "Own program budgeting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1688,
+        "end": 1709
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Owning program budgeting is FP&A planning work, which is explicitly outside the platform’s covered capabilities.",
+      "gap_theme": {
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "23597d58012f47d6-02",
+      "text": "Own spend tracking",
+      "source_span": "spend tracking",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1711,
+        "end": 1725
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.84,
+      "rationale": "Owning spend tracking is ongoing budget-to-actual monitoring, which is not a listed capability.",
+      "gap_theme": {
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "23597d58012f47d6-03",
+      "text": "Own financial planning",
+      "source_span": "financial planning",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1727,
+        "end": 1745
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Owning financial planning maps to budgeting and long-range planning, which the map says is not covered.",
+      "gap_theme": {
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "23597d58012f47d6-04",
+      "text": "Own reporting",
+      "source_span": "reporting",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1747,
+        "end": 1756
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.67,
+      "rationale": "Owning reporting is too vague to determine whether it means management reporting, ad hoc analysis, or something else.",
+      "gap_theme": {
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "23597d58012f47d6-05",
+      "text": "Own analysis",
+      "source_span": "analysis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1177,
+        "end": 1185
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.78,
+      "rationale": "Owning analysis is too vague without a defined type of analysis or source data.",
+      "gap_theme": {
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "23597d58012f47d6-06",
+      "text": "Serve as a key financial partner to program managers and cross-functional teams",
+      "source_span": "serving as a key financial partner to program managers and cross-functional teams",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1772,
+        "end": 1853
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.98,
+      "rationale": "Serving as a key financial partner is cross-functional advising and relationship work, which is human by nature.",
+      "gap_theme": {
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "23597d58012f47d6-07",
+      "text": "Support program managers and project leads in tracking budgets",
+      "source_span": "Support program managers and project leads in tracking budgets",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1858,
+        "end": 1920
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.9,
+      "rationale": "Tracking budgets for program managers is budget management work, which is outside the platform’s capabilities.",
+      "gap_theme": {
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "23597d58012f47d6-08",
+      "text": "Support program managers and project leads in tracking actuals",
+      "source_span": "actuals",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1922,
+        "end": 1929
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.81,
+      "rationale": "Tracking actuals for program managers is routine FP&A monitoring, but no capability directly covers actuals tracking.",
+      "gap_theme": {
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "23597d58012f47d6-09",
+      "text": "Support program managers and project leads in tracking forecasts against key milestones",
+      "source_span": "forecasts against key milestones",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1935,
+        "end": 1967
+      },
+      "label": "gap_candidate",
+      "model_label": "gap_candidate",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.86,
+      "rationale": "Tracking forecasts against milestones is forecast monitoring and planning work, which is not covered.",
+      "gap_theme": {
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
+      }
+    },
+    {
+      "duty_id": "23597d58012f47d6-10",
+      "text": "Balance rigorous financial analysis with effective cross-functional business partnership and clear communication",
+      "source_span": "Balance rigorous financial analysis with effective cross-functional business partnership and clear communication",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 1972,
+        "end": 2084
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.99,
+      "rationale": "Balancing cross-functional partnership and clear communication is advisory and relationship-driven work.",
+      "gap_theme": {
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "23597d58012f47d6-11",
+      "text": "Partner with department and initiative leaders on headcount planning",
+      "source_span": "headcount planning",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2139,
+        "end": 2157
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.97,
+      "rationale": "Partnering with leaders on headcount planning is collaborative advisory work, and planning itself is not a covered automation task.",
+      "gap_theme": {
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "23597d58012f47d6-12",
+      "text": "Partner with department and initiative leaders on resource allocation",
+      "source_span": "resource allocation",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2159,
+        "end": 2178
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.96,
+      "rationale": "Partnering on resource allocation is cross-functional advisory work rather than a platform-executed finance operation.",
+      "gap_theme": {
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "23597d58012f47d6-13",
+      "text": "Partner with department and initiative leaders on spend management",
+      "source_span": "spend management",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2184,
+        "end": 2200
+      },
+      "label": "human",
+      "model_label": "human",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.95,
+      "rationale": "Partnering on spend management is advisory and decision-support work that requires human judgment.",
+      "gap_theme": {
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "23597d58012f47d6-14",
+      "text": "Deliver timely variance analysis",
+      "source_span": "Deliver timely variance analysis",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2205,
+        "end": 2237
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.flux",
+      "capability": "Variance (flux) analysis with draft commentary",
+      "product": "GL accounting",
+      "confidence": 0.91,
+      "rationale": "Delivering variance analysis matches the platform’s flux analysis capability with draft commentary.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-15",
+      "text": "Deliver actionable insights to drive departmental and program accountability",
+      "source_span": "actionable insights to drive departmental and program accountability",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2242,
+        "end": 2310
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.adhoc_analysis",
+      "capability": "Answer finance questions traced to source entries",
+      "product": "Reporting",
+      "confidence": 0.78,
+      "rationale": "Delivering actionable insights is ad hoc analysis and reporting work that can be traced to source data.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-16",
+      "text": "Build scalable reporting tools",
+      "source_span": "Build scalable reporting tools",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2315,
+        "end": 2345
+      },
+      "label": "unclear",
+      "model_label": "unclear",
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": 0.72,
+      "rationale": "Building scalable reporting tools is too broad and sounds more like BI/process development than a specific covered finance operation.",
+      "gap_theme": {
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
+      }
+    },
+    {
+      "duty_id": "23597d58012f47d6-17",
+      "text": "Build dashboards to provide leadership with clear visibility into program and operating costs",
+      "source_span": "dashboards to provide leadership with clear visibility into program and operating costs",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2350,
+        "end": 2437
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "rep.management_reports",
+      "capability": "Build management reports and board decks",
+      "product": "Reporting",
+      "confidence": 0.89,
+      "rationale": "Building dashboards for leadership visibility aligns with management reporting and recurring leadership reports.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-18",
+      "text": "Support the monthly and quarterly close process in coordination with Accounting and Finance",
+      "source_span": "Support the monthly and quarterly close process in coordination with Accounting and Finance",
+      "is_boilerplate": false,
+      "is_requirement": false,
+      "scored": true,
+      "span": {
+        "start": 2442,
+        "end": 2533
+      },
+      "label": "assisted",
+      "model_label": "assisted",
+      "adjusted": null,
+      "capability_id": "gl.close_checklist",
+      "capability": "Run month-end close checklist tasks",
+      "product": "GL accounting",
+      "confidence": 0.82,
+      "rationale": "Supporting the monthly and quarterly close process matches month-end close checklist work, though coordination adds some human involvement.",
+      "gap_theme": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-19",
+      "text": "1–3 years of financial planning & analysis (FP&A) or corporate finance experience.",
+      "source_span": "1–3 years of financial planning & analysis (FP&A) or corporate finance experience.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2552,
+        "end": 2634
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-20",
+      "text": "Bachelor's degree in finance, accounting, economics, or a related field.",
+      "source_span": "Bachelor's degree in finance, accounting, economics, or a related field.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": null,
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-21",
+      "text": "Strong financial modeling, Excel, and reporting skills, with experience managing budgets and project/program spend tracking.",
+      "source_span": "Strong financial modeling, Excel, and reporting skills, with experience managing budgets and project/program spend tracking.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2714,
+        "end": 2838
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-22",
+      "text": "Detail-oriented mindset with the ability to \"zoom out\" and provide strategic insights to business leaders.",
+      "source_span": "Detail-oriented mindset with the ability to \"zoom out\" and provide strategic insights to business leaders.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2842,
+        "end": 2948
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-23",
+      "text": "Demonstrated ability to work cross-functionally, bridging the gap between data analysis and operational decision-making.",
+      "source_span": "Demonstrated ability to work cross-functionally, bridging the gap between data analysis and operational decision-making.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 2952,
+        "end": 3072
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-24",
+      "text": "High adaptability and curiosity to operate in a fast-paced technology or hardware company environment.",
+      "source_span": "High adaptability and curiosity to operate in a fast-paced technology or hardware company environment.",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 3076,
+        "end": 3178
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-25",
+      "text": "U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required",
+      "source_span": "U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required",
+      "is_boilerplate": false,
+      "is_requirement": true,
+      "scored": false,
+      "span": {
+        "start": 4004,
+        "end": 4083
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-26",
+      "text": "Astranis builds advanced satellites for high orbits, expanding humanity’s reach into the solar system.",
+      "source_span": "Astranis builds advanced satellites for high orbits, expanding humanity’s reach into the solar system.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 0,
+        "end": 102
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-27",
+      "text": "All our positions offer a compensation package that includes equity and robust benefits.",
+      "source_span": "All our positions offer a compensation package that includes equity and robust benefits.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 3196,
+        "end": 3284
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    },
+    {
+      "duty_id": "23597d58012f47d6-28",
+      "text": "Our mission and products are built for everyone, regardless of gender, race, creed, or background.",
+      "source_span": "Our mission and products are built for everyone, regardless of gender, race, creed, or background.",
+      "is_boilerplate": true,
+      "is_requirement": false,
+      "scored": false,
+      "span": {
+        "start": 4303,
+        "end": 4401
+      },
+      "label": null,
+      "model_label": null,
+      "adjusted": null,
+      "capability_id": null,
+      "capability": null,
+      "product": null,
+      "confidence": null,
+      "rationale": null,
+      "gap_theme": null
+    }
+  ]
+}

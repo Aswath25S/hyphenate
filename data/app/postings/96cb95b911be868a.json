@@ -97,8 +97,8 @@
       "confidence": 0.98,
       "rationale": "Maintaining payroll data is repetitive payroll administration with no matching capability in the map.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -122,8 +122,8 @@
       "confidence": 0.97,
       "rationale": "Reviewing payroll data is payroll validation work that is not covered by any listed capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -147,9 +147,9 @@
       "confidence": 0.97,
       "rationale": "Validating payroll data is routine payroll operations that do not match a listed capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -172,8 +172,8 @@
       "confidence": 0.98,
       "rationale": "Processing final paycheck payments is payroll processing, which is outside the coverage map.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -197,8 +197,8 @@
       "confidence": 0.98,
       "rationale": "Processing payroll adjustments is routine payroll payment work with no matching capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -222,8 +222,8 @@
       "confidence": 0.98,
       "rationale": "Processing special pay is payroll processing that is not covered by any listed capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -247,9 +247,9 @@
       "confidence": 0.96,
       "rationale": "Processing employee expense reports is a rules-based AP/expense task that is not in the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -272,8 +272,8 @@
       "confidence": 0.99,
       "rationale": "Approving expense reports is a budget-owner approval decision, which is explicitly human work.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -297,8 +297,8 @@
       "confidence": 0.88,
       "rationale": "Managing the travel platform is system administration work that does not match a listed finance-operations capability.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -322,8 +322,8 @@
       "confidence": 0.93,
       "rationale": "Maintaining payroll compliance requires interpreting laws and policies, which is human judgment work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -368,8 +368,8 @@
       "confidence": 0.89,
       "rationale": "Auditing payroll tax records is compliance review work that is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -393,9 +393,9 @@
       "confidence": 0.99,
       "rationale": "Leading the annual 401k audit is managing an audit relationship, which is human work by definition.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -418,9 +418,9 @@
       "confidence": 0.99,
       "rationale": "Leading the annual workers compensation audit is managing an audit relationship, which is human work by definition.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -527,9 +527,9 @@
       "confidence": 0.85,
       "rationale": "Addressing employee payroll inquiries is support work that does not map to a listed capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -552,8 +552,8 @@
       "confidence": 0.85,
       "rationale": "Addressing employee payroll concerns is support work that does not map to a listed capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -577,8 +577,8 @@
       "confidence": 0.91,
       "rationale": "Providing exceptional customer service and support is too vague to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -602,8 +602,8 @@
       "confidence": 0.88,
       "rationale": "Staying updated on tax regulations is too vague and descriptive to map to a specific automation capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -669,9 +669,9 @@
       "confidence": 0.95,
       "rationale": "Administering payroll systems is system administration work that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -694,8 +694,8 @@
       "confidence": 0.95,
       "rationale": "Maintaining payroll systems is system administration work that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -719,9 +719,9 @@
       "confidence": 0.9,
       "rationale": "Ensuring data integrity is too vague to determine a specific finance-operation capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -744,8 +744,8 @@
       "confidence": 0.88,
       "rationale": "Implementing system upgrades and enhancements is a project activity that is too vague to map precisely.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -769,8 +769,8 @@
       "confidence": 0.95,
       "rationale": "Collaborating with HR, finance, and other departments is cross-functional partnering, which is human work.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
         "bucket": "possible_gap"
       }
     },
@@ -794,9 +794,9 @@
       "confidence": 0.9,
       "rationale": "Validating payroll information is routine data checking that does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -819,8 +819,8 @@
       "confidence": 0.92,
       "rationale": "Maintaining employee data changes in spend platforms is administrative data upkeep with no matching capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -844,8 +844,8 @@
       "confidence": 0.92,
       "rationale": "Maintaining manager and department updates in spend platforms is administrative data upkeep with no matching capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -869,9 +869,9 @@
       "confidence": 0.87,
       "rationale": "Maintaining employee benefit allocations is an allocation/administration task that does not match the listed capabilities.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -894,8 +894,8 @@
       "confidence": 0.9,
       "rationale": "Maintaining employee program trackers is administrative tracking work with no matching capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },

@@ -77,8 +77,8 @@
       "confidence": 0.74,
       "rationale": "The phrase 'support global tax operations' is too broad to map to a specific covered action.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -102,8 +102,8 @@
       "confidence": 0.98,
       "rationale": "Recurring sales and use tax compliance is repetitive tax filing work with no matching capability.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -127,8 +127,8 @@
       "confidence": 0.98,
       "rationale": "VAT/GST compliance and filing is repetitive tax work that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -152,8 +152,8 @@
       "confidence": 0.9,
       "rationale": "Owning business tax compliance and reporting is tax-filing work with no matching capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -177,8 +177,8 @@
       "confidence": 0.93,
       "rationale": "Managing registrations is administrative compliance work with no matching capability.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -202,8 +202,8 @@
       "confidence": 0.88,
       "rationale": "Handling tax notices is compliance correspondence work that does not match a covered capability.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -227,8 +227,8 @@
       "confidence": 0.97,
       "rationale": "Reconciliations outside the listed GL/bank/intercompany capabilities are repetitive finance work with no match.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -252,8 +252,8 @@
       "confidence": 0.87,
       "rationale": "Maintaining related tax controls is control work but not one of the listed finance-ops capabilities.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -277,8 +277,8 @@
       "confidence": 0.99,
       "rationale": "Recurring indirect-tax filings are compliance filings that are not covered by the map.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -302,8 +302,8 @@
       "confidence": 0.8,
       "rationale": "Managing calendars is administrative coordination work with no matching finance-ops capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -327,8 +327,8 @@
       "confidence": 0.78,
       "rationale": "Managing data packages is data-prep coordination work that does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -352,8 +352,8 @@
       "confidence": 0.88,
       "rationale": "Managing notices is compliance correspondence work with no matching capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -377,8 +377,8 @@
       "confidence": 0.93,
       "rationale": "Managing registrations is administrative compliance work with no matching capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -402,8 +402,8 @@
       "confidence": 0.81,
       "rationale": "'Provide close support' is too vague to map to a specific action or capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -427,8 +427,8 @@
       "confidence": 0.79,
       "rationale": "Establishing a reconciliation workflow is process design and coordination rather than a direct system capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -452,8 +452,8 @@
       "confidence": 0.77,
       "rationale": "Establishing an exception workflow is process design work that requires human judgment and coordination.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -477,8 +477,8 @@
       "confidence": 0.95,
       "rationale": "Escalating issues clearly and early is a human communication and coordination task.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -502,8 +502,8 @@
       "confidence": 0.57,
       "rationale": "Investigating variances with data tools matches ad hoc analysis of finance questions traced to source data.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -527,8 +527,8 @@
       "confidence": 0.7,
       "rationale": "Quality-checking work papers is review work with no specific matching capability in the map.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -552,8 +552,8 @@
       "confidence": 0.74,
       "rationale": "Improving documentation is a process-improvement task that is not directly covered.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -577,9 +577,9 @@
       "confidence": 0.85,
       "rationale": "Preserving human review and controls is governance and oversight work by nature.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -602,9 +602,9 @@
       "confidence": 0.89,
       "rationale": "Strengthening controls is control-framework judgment and oversight rather than a direct automated task.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -627,9 +627,9 @@
       "confidence": 0.83,
       "rationale": "Strengthening process documentation is a process-improvement task with no direct capability match.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -652,9 +652,9 @@
       "confidence": 0.86,
       "rationale": "Strengthening evidence is documentation and evidence-management work that is not directly covered.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -677,9 +677,9 @@
       "confidence": 0.84,
       "rationale": "Strengthening handoffs is cross-functional coordination and process improvement work.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -702,9 +702,9 @@
       "confidence": 0.69,
       "rationale": "Strengthening audit support is audit-prep process work but not the direct act of preparing support.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -727,8 +727,8 @@
       "confidence": 0.56,
       "rationale": "Building SOX walkthrough readiness aligns with maintaining and testing internal controls for SOX.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -752,9 +752,9 @@
       "confidence": 0.98,
       "rationale": "Partnering with Accounting is cross-team collaboration and advisory work by nature.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -777,9 +777,9 @@
       "confidence": 0.98,
       "rationale": "Partnering with Revenue is cross-functional collaboration and advisory work by nature.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -802,8 +802,8 @@
       "confidence": 0.98,
       "rationale": "Partnering with Billing is cross-functional collaboration and advisory work by nature.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -827,8 +827,8 @@
       "confidence": 0.98,
       "rationale": "Partnering with Product is cross-functional collaboration and advisory work by nature.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -852,9 +852,9 @@
       "confidence": 0.98,
       "rationale": "Partnering with Engineering is cross-functional collaboration and advisory work by nature.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -877,8 +877,8 @@
       "confidence": 0.98,
       "rationale": "Partnering with Data is cross-functional collaboration and advisory work by nature.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -902,8 +902,8 @@
       "confidence": 0.98,
       "rationale": "Partnering with Customer Experience is cross-functional collaboration and advisory work by nature.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -927,9 +927,9 @@
       "confidence": 0.94,
       "rationale": "Income tax compliance and reporting is repetitive tax compliance work with no matching capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {

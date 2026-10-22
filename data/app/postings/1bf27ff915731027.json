@@ -84,9 +84,9 @@
       "confidence": 0.97,
       "rationale": "Leading and improving the team’s processes is management and process redesign work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -109,9 +109,9 @@
       "confidence": 0.82,
       "rationale": "Overseeing monthly close activities is supervisory close management rather than executing a specific close task end to end.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -134,8 +134,8 @@
       "confidence": 0.98,
       "rationale": "Reviewing, verifying, and approving journal entries is human review and approval, not preparing and posting them.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -159,8 +159,8 @@
       "confidence": 0.97,
       "rationale": "Reviewing reconciliations for compliance is human review of work product rather than performing the reconciliation itself.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -184,9 +184,9 @@
       "confidence": 0.76,
       "rationale": "Reviewing account balances and classifications is account analysis review, but the action is verification rather than doing a reconciliation workflow.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -230,8 +230,8 @@
       "confidence": 0.95,
       "rationale": "Reviewing flux explanations and ensuring presentation to leadership is human review and presentation work.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -255,8 +255,8 @@
       "confidence": 0.94,
       "rationale": "Identifying SOX impacts from process and systems changes requires judgment about controls and policy, which is human work.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -280,9 +280,9 @@
       "confidence": 0.96,
       "rationale": "Partnering with Internal Audit and updating flowcharts and the risk-control matrix is cross-functional relationship work.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -305,9 +305,9 @@
       "confidence": 0.88,
       "rationale": "Delivering reporting by working cross-functionally is partnership work, not a specific automated reporting capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -330,8 +330,8 @@
       "confidence": 0.98,
       "rationale": "Managing day-to-day task assignments is staff/work management, which is human by nature.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -355,8 +355,8 @@
       "confidence": 0.74,
       "rationale": "Maintaining the chart of accounts is routine finance master-data administration that could be automated but matches no listed capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -380,8 +380,8 @@
       "confidence": 0.62,
       "rationale": "Maintaining financial report content is routine reporting administration, but no listed capability directly covers report maintenance.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -405,8 +405,8 @@
       "confidence": 0.48,
       "rationale": "Issue escalation and resolution is too vague to determine the specific finance operation being performed.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -430,8 +430,8 @@
       "confidence": 0.96,
       "rationale": "Assisting with 10-Q/K footnote preparation and review is SEC reporting support, which is outside the platform capabilities.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -455,8 +455,8 @@
       "confidence": 0.95,
       "rationale": "Annual accounting policy review is policy-setting and interpretation work, which requires human judgment.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -480,8 +480,8 @@
       "confidence": 0.93,
       "rationale": "Convention analysis for assigned areas is technical accounting judgment, not a standard automated workflow.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -505,8 +505,8 @@
       "confidence": 0.92,
       "rationale": "Improving the month-end close and other accounting processes is process redesign work, which is human-led.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },

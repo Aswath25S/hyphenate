@@ -143,8 +143,8 @@
       "confidence": 0.61,
       "rationale": "Reviewing the trial balance is a repetitive close task but no listed capability directly covers trial balance review.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -168,9 +168,9 @@
       "confidence": 0.58,
       "rationale": "Reviewing financial statements is reporting work, but no capability here covers that review step end to end.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -214,8 +214,8 @@
       "confidence": 0.9,
       "rationale": "Reviewing adjusting entries is human approval and review rather than automated entry preparation.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -239,9 +239,9 @@
       "confidence": 0.87,
       "rationale": "Coordinating with the accounting team is a people-management action, not a platform capability.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -264,9 +264,9 @@
       "confidence": 0.93,
       "rationale": "Serving as an internal subject matter expert is advisory judgment work by nature.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -289,8 +289,8 @@
       "confidence": 0.96,
       "rationale": "Partnering with external vendors on 409A valuations is relationship management and specialist judgment.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -314,8 +314,8 @@
       "confidence": 0.95,
       "rationale": "Partnering with external vendors on stock-based compensation is advisory and vendor-facing judgment work.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -339,8 +339,8 @@
       "confidence": 0.9,
       "rationale": "Partnering with external vendors on deferred fulfillment matters is external coordination and technical judgment.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -364,8 +364,8 @@
       "confidence": 0.88,
       "rationale": "Managing technical accounting for intangible assets and goodwill is judgment-heavy accounting work not covered here.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -431,8 +431,8 @@
       "confidence": 0.89,
       "rationale": "Performing impairment analysis is technical accounting judgment with no direct platform capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -456,8 +456,8 @@
       "confidence": 0.93,
       "rationale": "Ensuring standards compliance is policy and judgment work rather than a listed operational capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -502,9 +502,9 @@
       "confidence": 0.88,
       "rationale": "Updating accounting memos is technical accounting documentation and judgment work not covered by the platform.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -527,9 +527,9 @@
       "confidence": 0.92,
       "rationale": "Creating accounting memos is technical accounting judgment and documentation, which is not a platform automation capability.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -594,9 +594,9 @@
       "confidence": 0.84,
       "rationale": "Leading the transition of legacy systems is a project leadership action, not an accounting workflow capability.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -619,9 +619,9 @@
       "confidence": 0.83,
       "rationale": "Leading the sunsetting of legacy processes is project leadership rather than a core finance-operation workflow.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -644,8 +644,8 @@
       "confidence": 0.94,
       "rationale": "Supporting due diligence for M&A is advisory project work with no matching automation capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -669,8 +669,8 @@
       "confidence": 0.93,
       "rationale": "Supporting integration for M&A is project coordination and change management, not a listed platform task.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -715,8 +715,8 @@
       "confidence": 0.92,
       "rationale": "Delivering commentary is presenting to stakeholders, which is a human action.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
         "bucket": "possible_gap"
       }
     },
@@ -761,8 +761,8 @@
       "confidence": 0.94,
       "rationale": "Delivering materials to the Audit Committee is a presentation and relationship action performed by people.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
         "bucket": "possible_gap"
       }
     },
@@ -807,8 +807,8 @@
       "confidence": 0.94,
       "rationale": "Partnering with Tax on data requests is cross-functional coordination and advisory work.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -832,9 +832,9 @@
       "confidence": 0.91,
       "rationale": "Calculating state sales tax is repetitive rules-based work, but no listed capability covers tax calculations.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -857,8 +857,8 @@
       "confidence": 0.91,
       "rationale": "Ensuring compliance with sales tax laws involves policy interpretation and judgment.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -882,8 +882,8 @@
       "confidence": 0.89,
       "rationale": "Managing state and local tax filings is repetitive compliance work with no matching capability listed.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -907,9 +907,9 @@
       "confidence": 0.86,
       "rationale": "Serving as the Workday system expert is a people-facing system ownership role, not a finance-operation workflow.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -932,9 +932,9 @@
       "confidence": 0.41,
       "rationale": "Support configuration is too vague to map to a specific finance-operations capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -957,9 +957,9 @@
       "confidence": 0.41,
       "rationale": "Support troubleshooting is too vague to determine the underlying finance workflow.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -982,9 +982,9 @@
       "confidence": 0.35,
       "rationale": "Drive process improvements is too broad and does not specify a finance action.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1049,9 +1049,9 @@
       "confidence": 0.7,
       "rationale": "Updating related disclosures is a reporting compliance task with no direct capability listed.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1074,9 +1074,9 @@
       "confidence": 0.96,
       "rationale": "Building stakeholder relationships is inherently human and not a platform workflow.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1099,9 +1099,9 @@
       "confidence": 0.93,
       "rationale": "Serving as the team AI champion is change leadership and internal advocacy, which is human work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1124,9 +1124,9 @@
       "confidence": 0.36,
       "rationale": "Driving process efficiencies in own work is too vague to map to one specific capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -1149,9 +1149,9 @@
       "confidence": 0.9,
       "rationale": "Sharing best practices with the accounting team is training and collaboration work.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1174,8 +1174,8 @@
       "confidence": 0.98,
       "rationale": "Building a high performing and motivated team is people management by nature.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -1199,9 +1199,9 @@
       "confidence": 0.97,
       "rationale": "Creating career development opportunities is a management and talent-development responsibility.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1224,8 +1224,8 @@
       "confidence": 0.98,
       "rationale": "Providing leadership and structure for the team is managerial work rather than an automatable finance task.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },

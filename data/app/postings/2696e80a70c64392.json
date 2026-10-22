@@ -92,8 +92,8 @@
       "confidence": 0.99,
       "rationale": "Managing bi-weekly and off-cycle payroll runs is payroll processing, which is repetitive rules-based work not covered in the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -117,8 +117,8 @@
       "confidence": 0.98,
       "rationale": "Reconciling payroll runs is payroll-specific reconciliation work that has no matching capability in the coverage map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -142,8 +142,8 @@
       "confidence": 0.83,
       "rationale": "Owning the Workday time tracking module is system administration work for timekeeping, which is not covered by any listed capability.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -167,9 +167,9 @@
       "confidence": 0.83,
       "rationale": "Administering the Workday time tracking module is repetitive payroll-adjacent administration with no direct capability match.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -192,8 +192,8 @@
       "confidence": 0.9,
       "rationale": "Ensuring timecards are submitted and approved on time is timekeeping administration, which is not in the map.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -217,8 +217,8 @@
       "confidence": 0.96,
       "rationale": "Processing leave of absence amounts is payroll calculation work that is not covered by any listed capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -242,8 +242,8 @@
       "confidence": 0.95,
       "rationale": "Processing fringe benefits is payroll benefits administration, which has no matching capability here.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -267,8 +267,8 @@
       "confidence": 0.97,
       "rationale": "Processing equity transactions is stock compensation/equity accounting, which is explicitly outside the listed subledger capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -292,8 +292,8 @@
       "confidence": 0.96,
       "rationale": "Processing 401K and Roth contributions is payroll deductions work that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -317,9 +317,9 @@
       "confidence": 0.95,
       "rationale": "Liaising with the ADP support team is external coordination and relationship management rather than platform-executable work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -342,9 +342,9 @@
       "confidence": 0.95,
       "rationale": "Liaising with the ADP support team on taxes is external coordination work, which is human relationship management.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -367,9 +367,9 @@
       "confidence": 0.95,
       "rationale": "Liaising with the ADP support team on net pay is external coordination and support interaction, which is human work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -392,9 +392,9 @@
       "confidence": 0.9,
       "rationale": "Collaborating with the People team to improve payroll workflows is cross-functional partnership and process improvement work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -417,9 +417,9 @@
       "confidence": 0.9,
       "rationale": "Collaborating with the Finance team to improve payroll workflows is cross-functional partnership work rather than a platform capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -442,9 +442,9 @@
       "confidence": 0.9,
       "rationale": "Collaborating with external payroll partners to improve workflows is relationship-driven coordination work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -467,8 +467,8 @@
       "confidence": 0.96,
       "rationale": "Serving as the first point of contact for payroll inquiries is employee support and relationship management.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -492,9 +492,9 @@
       "confidence": 0.86,
       "rationale": "Generating payroll reports in Workday is reporting work, but payroll reporting is not one of the listed finance-reporting capabilities.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -517,8 +517,8 @@
       "confidence": 0.81,
       "rationale": "Analyzing payroll reports is analytics work, but the map does not include payroll-specific analysis.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -542,9 +542,9 @@
       "confidence": 0.7,
       "rationale": "Reconciling payroll journal entries is accounting work, but the listed journal-entry capability is about preparing and posting entries rather than payroll reconciliation specifically.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -609,9 +609,9 @@
       "confidence": 0.93,
       "rationale": "Serving as additional support to the Senior Payroll Analyst is too vague to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {

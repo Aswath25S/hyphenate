@@ -310,9 +310,9 @@
       "confidence": 0.9,
       "rationale": "Supporting 1099 reporting is repetitive AP tax work with no matching capability.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -356,8 +356,8 @@
       "confidence": 0.84,
       "rationale": "Processing vendor credits is AP transaction processing not explicitly covered by a capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -381,9 +381,9 @@
       "confidence": 0.86,
       "rationale": "Checking that documentation is complete is an invoice validation task with no exact match.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -448,9 +448,9 @@
       "confidence": 0.88,
       "rationale": "Checking duplicate submissions is a rules-based invoice screening task with no explicit match.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -473,9 +473,9 @@
       "confidence": 0.97,
       "rationale": "Partnering with other teams to obtain invoice reviews is cross-functional coordination.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -498,8 +498,8 @@
       "confidence": 0.89,
       "rationale": "Obtaining timely approvals requires chasing people and coordinating with approvers.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -523,8 +523,8 @@
       "confidence": 0.87,
       "rationale": "Obtaining supporting information is partner-facing coordination work.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -569,8 +569,8 @@
       "confidence": 0.74,
       "rationale": "Preparing supporting documentation for review and approval is a generic AP support task with no direct capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -612,8 +612,8 @@
       "confidence": 0.84,
       "rationale": "Researching invoice discrepancies is exception handling not explicitly covered.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -637,8 +637,8 @@
       "confidence": 0.84,
       "rationale": "Researching payment discrepancies is exception handling not explicitly covered.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -764,8 +764,8 @@
       "confidence": 0.8,
       "rationale": "Flagging other issues requiring follow-up is a generic exception task with no exact match.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -831,8 +831,8 @@
       "confidence": 0.75,
       "rationale": "Escalating unresolved differences requires human judgment and handoff.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -853,9 +853,9 @@
       "confidence": 0.72,
       "rationale": "Completing assigned transaction processing within deadlines is too generic to map cleanly.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -878,9 +878,9 @@
       "confidence": 0.72,
       "rationale": "Completing close-support tasks within deadlines is too vague to judge.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -945,8 +945,8 @@
       "confidence": 0.64,
       "rationale": "Maintaining supporting schedules for other activities is too broad to classify.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -1054,9 +1054,9 @@
       "confidence": 0.77,
       "rationale": "Verifying transaction dates against guidelines is a rules-based validation task with no explicit match.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1079,8 +1079,8 @@
       "confidence": 0.76,
       "rationale": "Escalating unusual items depends on human judgment about exceptions.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -1104,8 +1104,8 @@
       "confidence": 0.76,
       "rationale": "Escalating unclear items requires human judgment to determine next steps.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -1147,8 +1147,8 @@
       "confidence": 0.8,
       "rationale": "Helping resolve missing transaction records is data cleanup work without a direct capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -1169,8 +1169,8 @@
       "confidence": 0.8,
       "rationale": "Helping resolve incomplete transaction records is data cleanup work without a direct capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -1194,8 +1194,8 @@
       "confidence": 0.8,
       "rationale": "Helping resolve inaccurate transaction records is data cleanup work without a direct capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -1219,8 +1219,8 @@
       "confidence": 0.78,
       "rationale": "Keeping invoices complete and accessible is document maintenance not covered by a capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -1244,9 +1244,9 @@
       "confidence": 0.78,
       "rationale": "Keeping approvals complete and accessible is document maintenance not covered by a capability.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1269,8 +1269,8 @@
       "confidence": 0.78,
       "rationale": "Keeping payment records complete and accessible is document maintenance not covered by a capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -1294,8 +1294,8 @@
       "confidence": 0.78,
       "rationale": "Keeping reconciliations complete and accessible is document maintenance not covered by a capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -1319,8 +1319,8 @@
       "confidence": 0.78,
       "rationale": "Keeping other supporting documents complete and accessible is document maintenance not covered by a capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -1344,8 +1344,8 @@
       "confidence": 0.84,
       "rationale": "Reviewing transaction reports for missing information is a repetitive validation task with no exact match.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -1369,8 +1369,8 @@
       "confidence": 0.84,
       "rationale": "Reviewing transaction reports for duplicate entries is a repetitive validation task with no exact match.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -1394,8 +1394,8 @@
       "confidence": 0.82,
       "rationale": "Reviewing transaction reports for other potential errors is a generic exception review task.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -1419,8 +1419,8 @@
       "confidence": 0.67,
       "rationale": "Retrieving records is generic administrative work with no specific capability match.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -1465,8 +1465,8 @@
       "confidence": 0.83,
       "rationale": "Preparing documentation for tax requests is support work with no matching capability and tax audits are excluded.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -1490,8 +1490,8 @@
       "confidence": 0.74,
       "rationale": "Preparing documentation for other accounting requests is too generic to map to a covered capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -1557,8 +1557,8 @@
       "confidence": 0.84,
       "rationale": "Flagging exceptions is a generic rules-based exception task with no direct AP capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -1582,8 +1582,8 @@
       "confidence": 0.84,
       "rationale": "Flagging discrepancies is a generic rules-based exception task with no direct AP capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -1607,8 +1607,8 @@
       "confidence": 0.93,
       "rationale": "Handling confidential vendor information is a general professional duty rather than a platform action.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -1632,8 +1632,8 @@
       "confidence": 0.93,
       "rationale": "Handling confidential payment information is a general professional duty rather than a platform action.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -1657,8 +1657,8 @@
       "confidence": 0.93,
       "rationale": "Handling confidential business information is a general professional duty rather than a platform action.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -1682,8 +1682,8 @@
       "confidence": 0.77,
       "rationale": "Identifying ways to improve data accuracy is too open-ended to classify confidently.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -1707,9 +1707,9 @@
       "confidence": 0.77,
       "rationale": "Simplifying routine reconciliations is a process-improvement objective rather than a specific automation task.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1732,9 +1732,9 @@
       "confidence": 0.77,
       "rationale": "Reducing manual work is a broad improvement goal with no specific capability match.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1757,9 +1757,9 @@
       "confidence": 0.76,
       "rationale": "Assisting with testing accounting system updates is project support rather than a covered finance operation.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1782,9 +1782,9 @@
       "confidence": 0.76,
       "rationale": "Assisting with testing workflow changes is project support rather than a covered finance operation.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1807,8 +1807,8 @@
       "confidence": 0.76,
       "rationale": "Supporting responsible use of approved automation and AI tools is too broad to map to a capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -1832,9 +1832,9 @@
       "confidence": 0.78,
       "rationale": "Verifying outputs before use is a generic review step with no specific capability match.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1857,8 +1857,8 @@
       "confidence": 0.79,
       "rationale": "Maintaining clear process documentation is routine documentation work with no direct capability match.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -1882,8 +1882,8 @@
       "confidence": 0.74,
       "rationale": "Providing backup support for related accounting tasks is too vague to classify.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },

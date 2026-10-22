@@ -97,9 +97,9 @@
       "confidence": 0.97,
       "rationale": "Building forecasting and budgeting models is FP&A planning work, which is not a covered capability here.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -122,9 +122,9 @@
       "confidence": 0.97,
       "rationale": "Maintaining long-term planning and budgeting models is budgeting-model work with no matching capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -147,9 +147,9 @@
       "confidence": 0.96,
       "rationale": "Scaling forecasting and planning models is model-development work outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -193,8 +193,8 @@
       "confidence": 0.94,
       "rationale": "Delivering actionable recommendations to leadership is advisory work to decision-makers, which is a human responsibility.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
         "bucket": "possible_gap"
       }
     },
@@ -218,8 +218,8 @@
       "confidence": 0.83,
       "rationale": "Providing financial support on program health is too vague to map to a specific automated finance action.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -264,9 +264,9 @@
       "confidence": 0.95,
       "rationale": "Headcount planning is a workforce planning model task, which is not covered by the platform.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -394,9 +394,9 @@
       "confidence": 0.94,
       "rationale": "Assisting with financial operational planning cycles is planning-model work with no matching capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
-        "bucket": "possible_gap"
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
       }
     },
     {
@@ -419,9 +419,9 @@
       "confidence": 0.9,
       "rationale": "Assisting with business reviews is partnering with and presenting to other teams, which is human-facing work.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
       }
     },
     {
@@ -444,9 +444,9 @@
       "confidence": 0.95,
       "rationale": "Investment decision-making is a management judgment activity rather than an automated finance-operations task.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -469,8 +469,8 @@
       "confidence": 0.82,
       "rationale": "Supporting data transformation initiatives is a vague project activity without a direct capability match.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
         "bucket": "human_work"
       }
     },
@@ -494,8 +494,8 @@
       "confidence": 0.86,
       "rationale": "Supporting basic modeling efforts is model-building work, but budgeting and planning models are not covered capabilities.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
         "bucket": "human_work"
       }
     },
@@ -519,8 +519,8 @@
       "confidence": 0.88,
       "rationale": "Driving process improvement by identifying automation opportunities is too project-oriented and broad to map cleanly.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -544,9 +544,9 @@
       "confidence": 0.8,
       "rationale": "Monitoring material movement is operational tracking with no matching finance-operations capability in the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -569,8 +569,8 @@
       "confidence": 0.78,
       "rationale": "Monitoring usage is too vague because it could refer to multiple different finance processes.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -615,8 +615,8 @@
       "confidence": 0.98,
       "rationale": "Monitoring actuals versus plan is budget-versus-actual planning analysis, which is explicitly outside the covered capabilities.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -640,9 +640,9 @@
       "confidence": 0.84,
       "rationale": "Flagging risks and opportunities is too generic to identify a specific automated finance action.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -665,9 +665,9 @@
       "confidence": 0.92,
       "rationale": "Supporting EAC updates is project forecasting work with no matching capability in the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -690,9 +690,9 @@
       "confidence": 0.91,
       "rationale": "Ensuring financial alignment through operational reviews and ad hoc analysis is advisory work with other teams and leadership.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {

@@ -219,9 +219,9 @@
       "confidence": 0.96,
       "rationale": "The duty is inventory accounting, which is repetitive accounting work but has no matching capability in the map.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -244,9 +244,9 @@
       "confidence": 0.96,
       "rationale": "The duty is manufacturing cost accounting, which is a cost-accounting task not covered by any listed capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -269,9 +269,9 @@
       "confidence": 0.92,
       "rationale": "The duty concerns labor accounting at a plant, which is payroll/cost accounting work without a matching capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -315,9 +315,9 @@
       "confidence": 0.9,
       "rationale": "The duty is capital project accounting/CIP work, which is not specifically covered by the map.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -361,9 +361,9 @@
       "confidence": 0.77,
       "rationale": "The duty says reconciliations in general without specifying the account type or task.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -470,9 +470,9 @@
       "confidence": 0.94,
       "rationale": "The duty is supporting standard costs, which is manufacturing cost accounting not listed in the map.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -495,8 +495,8 @@
       "confidence": 0.93,
       "rationale": "The duty is supporting labor and machine rates, which is standard-costing work outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -520,8 +520,8 @@
       "confidence": 0.93,
       "rationale": "The duty is overhead absorption support, which is manufacturing cost accounting not covered by the map.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -545,8 +545,8 @@
       "confidence": 0.9,
       "rationale": "The duty is supporting bills of material, which is manufacturing master-data work with no matching capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -570,9 +570,9 @@
       "confidence": 0.9,
       "rationale": "The duty is supporting work centers, which is manufacturing data support not represented in the map.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -595,9 +595,9 @@
       "confidence": 0.9,
       "rationale": "The duty is supporting routings, which is manufacturing master-data support without a matching capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -620,9 +620,9 @@
       "confidence": 0.72,
       "rationale": "The duty says work-order review without enough detail to map it to a specific finance operation.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -792,8 +792,8 @@
       "confidence": 0.94,
       "rationale": "The duty is supporting cycle counts, which is inventory-control work not covered by the map.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -817,8 +817,8 @@
       "confidence": 0.94,
       "rationale": "The duty is supporting physical inventories, which is inventory-count work outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -863,8 +863,8 @@
       "confidence": 0.68,
       "rationale": "The duty only says adjustments, which is too vague to map to a specific finance capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -888,8 +888,8 @@
       "confidence": 0.93,
       "rationale": "The duty is evaluating excess or obsolete material, which is inventory valuation work not covered by the map.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -934,9 +934,9 @@
       "confidence": 0.92,
       "rationale": "The duty is handling capital projects, which is project accounting not specifically covered.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -959,9 +959,9 @@
       "confidence": 0.9,
       "rationale": "The duty is deciding capital versus expense treatment, which is technical accounting judgment without a direct capability match.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1068,8 +1068,8 @@
       "confidence": 0.91,
       "rationale": "The duty is releasing completed projects from CIP, which is capital-project accounting not in the map.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -1093,9 +1093,9 @@
       "confidence": 0.99,
       "rationale": "The duty is partnering daily with Operations, which is cross-functional relationship work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1118,9 +1118,9 @@
       "confidence": 0.99,
       "rationale": "The duty is partnering daily with Supply Chain, which is cross-functional relationship work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1143,9 +1143,9 @@
       "confidence": 0.99,
       "rationale": "The duty is partnering daily with Engineering, which is cross-functional relationship work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1168,8 +1168,8 @@
       "confidence": 0.99,
       "rationale": "The duty is partnering daily with Quality, which is cross-functional relationship work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -1193,9 +1193,9 @@
       "confidence": 0.99,
       "rationale": "The duty is partnering daily with Corporate Accounting, which is cross-functional relationship work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1218,9 +1218,9 @@
       "confidence": 0.82,
       "rationale": "The duty is investigating transaction issues, which is exception handling but does not match a specific listed capability.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1285,9 +1285,9 @@
       "confidence": 0.74,
       "rationale": "The duty is driving process improvements, which is too broad to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1310,9 +1310,9 @@
       "confidence": 0.74,
       "rationale": "The duty is driving master-data improvements, which is too vague and project-like to classify precisely.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -1335,9 +1335,9 @@
       "confidence": 0.74,
       "rationale": "The duty is driving ERP improvements, which is a broad systems-improvement project rather than a listed capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {

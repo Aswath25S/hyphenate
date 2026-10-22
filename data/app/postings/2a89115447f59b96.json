@@ -88,8 +88,8 @@
       "confidence": 0.55,
       "rationale": "Owning and managing a P&L is a broad responsibility rather than a specific finance-ops task in the coverage map.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -113,8 +113,8 @@
       "confidence": 0.5,
       "rationale": "Ensuring accuracy and accountability for the P&L is an ownership statement, not a specific automatable workflow.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -138,8 +138,8 @@
       "confidence": 0.98,
       "rationale": "Developing annual budgets and forecasts is FP&A planning work that is explicitly outside the forecast capability listed here.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -163,9 +163,9 @@
       "confidence": 0.56,
       "rationale": "Aligning budgets and forecasts to corporate strategy is strategic judgment without a matching platform capability.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -188,9 +188,9 @@
       "confidence": 0.91,
       "rationale": "Tracking actual expenses against projections is budget-versus-actual monitoring, which is not covered by the map.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -318,9 +318,9 @@
       "confidence": 0.94,
       "rationale": "Comparing actual results to forecasts and budgets is FP&A budget-versus-actual analysis, which is not covered.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -343,8 +343,8 @@
       "confidence": 0.96,
       "rationale": "Providing recommendations to senior management is advisory judgment, which is classified as human work.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -368,8 +368,8 @@
       "confidence": 0.9,
       "rationale": "Assisting in long-term strategic planning is strategic advisory work, not an automation workflow.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -393,9 +393,9 @@
       "confidence": 0.97,
       "rationale": "Developing financial models is FP&A modeling work with no matching capability in the map.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -418,9 +418,9 @@
       "confidence": 0.96,
       "rationale": "Conducting scenario analysis is planning-model work that is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -443,8 +443,8 @@
       "confidence": 0.95,
       "rationale": "Forecasting the impact of new initiatives or business changes is a planning model task outside the coverage map.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -468,8 +468,8 @@
       "confidence": 0.92,
       "rationale": "Identifying opportunities for cost reductions is analytical FP&A work with no direct capability match.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -493,8 +493,8 @@
       "confidence": 0.92,
       "rationale": "Identifying opportunities for efficiency improvements is strategic analysis rather than a covered finance-ops process.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -518,8 +518,8 @@
       "confidence": 0.95,
       "rationale": "Working cross-functionally to implement cost-saving initiatives is partnering and change management, which is human work.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -543,9 +543,9 @@
       "confidence": 0.94,
       "rationale": "Partnering with business leaders to provide financial support is cross-functional advisory work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -568,9 +568,9 @@
       "confidence": 0.88,
       "rationale": "Ensuring alignment of financial performance with business goals is strategic leadership and advisory work.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -614,9 +614,9 @@
       "confidence": 0.98,
       "rationale": "Presenting findings and recommendations to senior leadership is presentation work, which is classified as human.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {

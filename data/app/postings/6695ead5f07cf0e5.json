@@ -81,9 +81,9 @@
       "confidence": 0.98,
       "rationale": "Serving as a finance partner to executives is advisory and cross-functional relationship work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -106,8 +106,8 @@
       "confidence": 0.99,
       "rationale": "Building trusted relationships and being a thought partner is partnering and advising other teams, which is human work.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -131,8 +131,8 @@
       "confidence": 0.71,
       "rationale": "Developing AI-powered workflows describes building systems rather than a specific advertised finance-operations capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -156,9 +156,9 @@
       "confidence": 0.72,
       "rationale": "Developing automated analyses is too broad and reads like building analytics tooling, which is not a listed end-to-end capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -181,8 +181,8 @@
       "confidence": 0.8,
       "rationale": "Developing intelligence systems is a vague systems-building duty that does not map cleanly to a specific covered finance workflow.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -206,9 +206,9 @@
       "confidence": 0.9,
       "rationale": "Assessing current and future strategic priorities is judgment and advisory work, not an automated finance-ops task.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -252,9 +252,9 @@
       "confidence": 0.97,
       "rationale": "Advocating for initiatives is influence and advisory work, which is human rather than a platform capability.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -277,9 +277,9 @@
       "confidence": 0.94,
       "rationale": "Delivering recommendations to inform tactics and roadmaps is cross-functional advising and presentation work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -302,8 +302,8 @@
       "confidence": 0.78,
       "rationale": "Building frameworks for sales efficiency and productivity is a model-design task that does not match a specific advertised capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -327,8 +327,8 @@
       "confidence": 0.93,
       "rationale": "Partnering with Data Analytics to develop reporting is collaboration with another team, which is human work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -352,8 +352,8 @@
       "confidence": 0.95,
       "rationale": "Owning annual and long-range planning is FP&A planning work, which is a common finance task not covered in the map.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -377,8 +377,8 @@
       "confidence": 0.99,
       "rationale": "Developing and growing an analyst is management and training of staff, which is human by nature.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },

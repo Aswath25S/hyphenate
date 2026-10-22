@@ -91,8 +91,8 @@
       "confidence": 0.97,
       "rationale": "Architecting a three-statement planning model is FP&A modeling work that is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -116,8 +116,8 @@
       "confidence": 0.95,
       "rationale": "Owning consolidated planning across the statements is a budgeting/forecasting model task with no direct capability match.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -141,8 +141,8 @@
       "confidence": 0.93,
       "rationale": "Equity planning and dilution roll-forward are planning-model activities, not covered accounting operations here.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -166,9 +166,9 @@
       "confidence": 0.98,
       "rationale": "Leading the Annual Operating Plan is process leadership and management work rather than a platform task.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -191,8 +191,8 @@
       "confidence": 0.98,
       "rationale": "Scenario modeling is a finance planning model task with no matching capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -216,8 +216,8 @@
       "confidence": 0.98,
       "rationale": "Sensitivity analysis is FP&A modeling work and is not covered by the map.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -241,8 +241,8 @@
       "confidence": 0.97,
       "rationale": "Driver-based forecasting is a budgeting and forecasting model task outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -266,9 +266,9 @@
       "confidence": 0.96,
       "rationale": "Translating production ramps into financial outcomes is a custom forecasting/modeling task with no match.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -291,9 +291,9 @@
       "confidence": 0.96,
       "rationale": "Translating R&D investments into financial outcomes is planning-model work, not a listed operation.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -316,9 +316,9 @@
       "confidence": 0.94,
       "rationale": "Translating contract timing into financial outcomes is a planning/forecasting model task, not contract extraction or revenue accounting.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -341,9 +341,9 @@
       "confidence": 0.95,
       "rationale": "Translating government milestones into financial outcomes is specialized forecast modeling with no capability match.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -366,9 +366,9 @@
       "confidence": 0.95,
       "rationale": "Translating GTM strategy into financial outcomes is a strategic planning model task outside the coverage map.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -391,8 +391,8 @@
       "confidence": 0.72,
       "rationale": "Maintaining a forward-looking view of risks is strategic planning work with no explicit capability match.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -416,8 +416,8 @@
       "confidence": 0.72,
       "rationale": "Maintaining a forward-looking view of opportunities is strategic planning work without a listed capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -441,9 +441,9 @@
       "confidence": 0.8,
       "rationale": "Maintaining a forward-looking view of capital needs is forecasting/planning work not covered by the map.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -466,8 +466,8 @@
       "confidence": 0.68,
       "rationale": "Maintaining a view of strategic inflection points is broad strategic planning, not a specific covered capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -491,8 +491,8 @@
       "confidence": 0.97,
       "rationale": "Owning the AOP end to end is process leadership and accountability, which is human work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -516,8 +516,8 @@
       "confidence": 0.86,
       "rationale": "Owning the AOP calendar is administrative process management with no direct capability match.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -541,8 +541,8 @@
       "confidence": 0.83,
       "rationale": "Owning AOP templates is a planning-process artifact task, not a covered finance operation.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -566,8 +566,8 @@
       "confidence": 0.82,
       "rationale": "Owning AOP driver frameworks is model design work that is not in the map.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -591,8 +591,8 @@
       "confidence": 0.86,
       "rationale": "Owning AOP consolidation is planning consolidation work, not entity/report consolidation under the coverage map.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -616,8 +616,8 @@
       "confidence": 0.97,
       "rationale": "Owning the executive review is leadership and presentation work, which is human.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -641,8 +641,8 @@
       "confidence": 0.96,
       "rationale": "Partnering with functional and business leaders to build budgets is cross-functional advisory work.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -666,9 +666,9 @@
       "confidence": 0.95,
       "rationale": "Running the recurring forecast cycle is FP&A forecasting workflow not covered beyond short-term cash forecasting.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -691,9 +691,9 @@
       "confidence": 0.93,
       "rationale": "Connecting short-term forecasting with the long-range plan is planning-model integration work with no match.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -716,8 +716,8 @@
       "confidence": 0.55,
       "rationale": "Full accountability for forecast accuracy is too broad and describes ownership rather than a specific automatable action.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -741,8 +741,8 @@
       "confidence": 0.5,
       "rationale": "Improving results with each actualized quarter is vague and does not specify a finance operation.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -808,8 +808,8 @@
       "confidence": 0.95,
       "rationale": "Modeling production curves is a custom forecast model and is not covered by any listed capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -875,8 +875,8 @@
       "confidence": 0.9,
       "rationale": "Supporting capital allocation strategies is strategic advisory work rather than a platform operation.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
         "bucket": "human_work"
       }
     },
@@ -900,8 +900,8 @@
       "confidence": 0.92,
       "rationale": "Supporting financing strategies is strategic advisory work that belongs with people, not the platform.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -1009,9 +1009,9 @@
       "confidence": 0.96,
       "rationale": "Delivering strategic context to the Board is advisory and presentation work, which is human.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1034,8 +1034,8 @@
       "confidence": 0.95,
       "rationale": "Partnering with systems teams to evolve tools is cross-functional collaboration, which is human work.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -1059,9 +1059,9 @@
       "confidence": 0.9,
       "rationale": "Designing modular, scalable model architectures is planning model design with no direct capability match.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1084,9 +1084,9 @@
       "confidence": 0.45,
       "rationale": "Using Excel only where it adds leverage is too vague to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1109,9 +1109,9 @@
       "confidence": 0.48,
       "rationale": "Integrating automation to improve clarity is vague process-improvement language without a clear finance operation.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1134,9 +1134,9 @@
       "confidence": 0.48,
       "rationale": "Integrating analytics to improve clarity is too broad to classify against the coverage map.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1159,9 +1159,9 @@
       "confidence": 0.52,
       "rationale": "Reducing manual work is a generic improvement goal rather than a specific duty.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1184,9 +1184,9 @@
       "confidence": 0.5,
       "rationale": "Increasing decision velocity is an outcome statement, not a specific automatable action.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1209,8 +1209,8 @@
       "confidence": 0.98,
       "rationale": "Working closely with senior leaders on planning and strategy is advisory cross-functional work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -1234,9 +1234,9 @@
       "confidence": 0.94,
       "rationale": "Translating engineering plans into financial impacts is FP&A modeling work with no direct capability match.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1259,9 +1259,9 @@
       "confidence": 0.94,
       "rationale": "Translating program plans into financial impacts is a planning-model task not covered by the map.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1284,9 +1284,9 @@
       "confidence": 0.94,
       "rationale": "Translating operations plans into financial impacts is forecast/model work without a matching capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1309,8 +1309,8 @@
       "confidence": 0.82,
       "rationale": "Developing a point of view on unit economics is analytical judgment that does not map cleanly to a listed capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -1334,8 +1334,8 @@
       "confidence": 0.8,
       "rationale": "Developing a point of view on efficiency is strategic analysis not explicitly covered.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -1359,8 +1359,8 @@
       "confidence": 0.78,
       "rationale": "Developing a point of view on scale is strategic analysis with no direct capability match.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -1384,8 +1384,8 @@
       "confidence": 0.83,
       "rationale": "Developing a point of view on profitability is analytical judgment that is not a listed operation.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -1409,8 +1409,8 @@
       "confidence": 0.9,
       "rationale": "Developing a point of view on capital allocation is strategic advisory work and capital allocation decisions are explicitly human.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -1434,8 +1434,8 @@
       "confidence": 0.97,
       "rationale": "Presenting insights to improve execution and decision quality is presentation and advisory work, which is human.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },

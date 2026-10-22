@@ -103,8 +103,8 @@
       "confidence": 0.87,
       "rationale": "Partnering with Revenue Accounting to ensure accuracy is cross-functional collaboration, not an automated platform task.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -128,8 +128,8 @@
       "confidence": 0.91,
       "rationale": "Assessing compliance with revenue recognition guidance requires accounting judgment and policy interpretation.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -195,8 +195,8 @@
       "confidence": 0.94,
       "rationale": "Working with internal customer success teams is cross-team coordination and relationship management.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -241,8 +241,8 @@
       "confidence": 0.46,
       "rationale": "Developing key metrics is too open-ended and reads more like metric design than a specific supported workflow.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -266,8 +266,8 @@
       "confidence": 0.67,
       "rationale": "Reviewing received and deposited customer payments is manual review rather than cash application itself.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -291,9 +291,9 @@
       "confidence": 0.95,
       "rationale": "Working closely with CSMs to get support for invoicing and true-ups is partnering with another team.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -337,9 +337,9 @@
       "confidence": 0.93,
       "rationale": "Coordinating with CSMs to understand invoicing changes is cross-functional collaboration.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -362,9 +362,9 @@
       "confidence": 0.55,
       "rationale": "Classifying a refund liability is revenue-accounting treatment under ASC 606 and needs accounting judgment.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -513,8 +513,8 @@
       "confidence": 0.9,
       "rationale": "Reviewing and approving invoices before release is human approval, not automated invoice creation.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -580,8 +580,8 @@
       "confidence": 0.84,
       "rationale": "Responding to invoice disputes and payment discrepancies involves dispute handling and negotiation-like judgment.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -605,8 +605,8 @@
       "confidence": 0.88,
       "rationale": "Providing explanations of invoice activity and balances is a human-facing advisory task.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -630,9 +630,9 @@
       "confidence": 0.96,
       "rationale": "Partnering with Sales and Client Success on billing requirements is cross-functional collaboration.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -697,8 +697,8 @@
       "confidence": 0.41,
       "rationale": "Customer account reconciliations are too vague to map cleanly to a specific supported workflow.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -722,8 +722,8 @@
       "confidence": 0.39,
       "rationale": "Investigating variances is too broad without specifying the financial process or data source.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -747,9 +747,9 @@
       "confidence": 0.95,
       "rationale": "Coordinating corrective actions with internal and customer-facing partners is relationship and project coordination.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -814,9 +814,9 @@
       "confidence": 0.92,
       "rationale": "Coordinating implementation handoffs and tracking open items is project coordination across teams.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -860,8 +860,8 @@
       "confidence": 0.44,
       "rationale": "Identifying and escalating billing gaps is an exception-management task but the action is too unspecific.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -906,9 +906,9 @@
       "confidence": 0.77,
       "rationale": "Updating procedures or job aids is process documentation and improvement work done by people.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -931,8 +931,8 @@
       "confidence": 0.43,
       "rationale": "Post-implementation review of billing issues and contract changes is too broad to map cleanly.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -956,8 +956,8 @@
       "confidence": 0.36,
       "rationale": "Incorporating lessons learned into process improvements is too vague and not a specific supported operation.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -1086,8 +1086,8 @@
       "confidence": 0.4,
       "rationale": "Supporting reconciliations is too vague without saying which accounts or workflow.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -1216,9 +1216,9 @@
       "confidence": 0.96,
       "rationale": "Partnering with technical teams to investigate system issues is cross-functional collaboration.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1241,8 +1241,8 @@
       "confidence": 0.5,
       "rationale": "Documenting billing requirements, procedures, and playbooks is documentation work but not a specific mapped capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -1266,9 +1266,9 @@
       "confidence": 0.45,
       "rationale": "Testing and validating changes before implementation is a broad QA task without a matching finance-operation capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1291,8 +1291,8 @@
       "confidence": 0.31,
       "rationale": "Identifying root causes is too vague to classify.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -1316,9 +1316,9 @@
       "confidence": 0.32,
       "rationale": "Reducing manual effort is a goal rather than a specific duty.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1341,8 +1341,8 @@
       "confidence": 0.32,
       "rationale": "Strengthening data quality is too broad and not a specific mapped workflow.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },
@@ -1366,8 +1366,8 @@
       "confidence": 0.34,
       "rationale": "Improving visibility into billing status and customer account health is too vague to map precisely.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },

@@ -96,9 +96,9 @@
       "confidence": 0.96,
       "rationale": "Leading end-to-end AP operations is management of a function rather than an automated AP transaction task.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -331,9 +331,9 @@
       "confidence": 0.68,
       "rationale": "Reducing post-close adjustments is an outcome-oriented process-improvement goal, not a specific covered AP/GL action.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -356,8 +356,8 @@
       "confidence": 0.63,
       "rationale": "Supporting a clean trial balance is too outcome-oriented to map cleanly to a specific platform capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -402,8 +402,8 @@
       "confidence": 0.95,
       "rationale": "Reviewing PBCs is human review of prepared audit support rather than an automated preparation step.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -448,8 +448,8 @@
       "confidence": 0.98,
       "rationale": "Serving as the primary SME for external auditors is a human relationship and auditor-facing role.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -473,9 +473,9 @@
       "confidence": 0.81,
       "rationale": "Driving process improvements is too broad and project-based to match a specific listed capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -498,8 +498,8 @@
       "confidence": 0.84,
       "rationale": "Driving automation initiatives is a change project rather than a specific finance-operation workflow capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -523,9 +523,9 @@
       "confidence": 0.82,
       "rationale": "Scaling AP workflows is too broad and project-oriented to map directly to one covered action.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -548,9 +548,9 @@
       "confidence": 0.77,
       "rationale": "Reducing manual effort is an optimization goal, not a specific operational task in the coverage map.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -573,9 +573,9 @@
       "confidence": 0.71,
       "rationale": "Strengthening internal controls is a broad control-design effort, which is not a direct covered capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -598,9 +598,9 @@
       "confidence": 0.97,
       "rationale": "Partnering with Corporate Accounting is cross-functional collaboration, which is human work by nature.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -623,9 +623,9 @@
       "confidence": 0.97,
       "rationale": "Partnering with FP&A is advisory cross-functional work rather than an automated AP operation.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -711,8 +711,8 @@
       "confidence": 0.9,
       "rationale": "Building standardized AP procedures is setting operating policy and process design, which is human work.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -736,8 +736,8 @@
       "confidence": 0.9,
       "rationale": "Building standardized AP expectations is policy-setting and role-definition work rather than a transactional capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -761,8 +761,8 @@
       "confidence": 0.98,
       "rationale": "Mentoring AP resources is people management and coaching, which is inherently human.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -786,8 +786,8 @@
       "confidence": 0.99,
       "rationale": "Managing additional AP resources is team management, not a platform task.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -811,9 +811,9 @@
       "confidence": 0.8,
       "rationale": "Leveraging AI tools to streamline workflows is a generic improvement initiative without a specific covered finance action.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -836,9 +836,9 @@
       "confidence": 0.76,
       "rationale": "Reducing manual effort is an unspecific optimization goal rather than a distinct operational duty.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -861,8 +861,8 @@
       "confidence": 0.79,
       "rationale": "Improving accuracy across operations is too broad to map to a single covered or assisted capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -886,8 +886,8 @@
       "confidence": 0.78,
       "rationale": "Improving scalability across operations is a broad transformation goal, not a specific finance-operations workflow.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },

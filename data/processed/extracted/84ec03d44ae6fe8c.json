@@ -8,15 +8,16 @@
   "locations": [
     "Atlanta, Georgia, United States",
     "New York, New York, United States",
-    "Dallas, Texas, United States"
+    "Dallas, Texas, United States",
+    "Tempe, Arizona, United States"
   ],
   "remote": "remote",
   "salary": {
     "min": 196733,
-    "max": 258212,
+    "max": 286902,
     "period": "year",
     "currency": "USD",
-    "raw_text": "The base pay for this role is: $196,733 - $258,212 per year."
+    "raw_text": "Pay Transparency: The base pay for this role is: $196,733 - $258,212 per year. Pay listed on other location postings for this same role: Tempe, Arizona, United States; New York, New York, United States: Pay Transparency: The base pay for this role is: 196,733 - $258,212 per year. New York, New York, United States: Pay Transparency: The base pay for this role is: $218,592 - $286,902 per year."
   },
   "erp": [],
   "tools": [],
@@ -38,277 +39,216 @@
     },
     {
       "duty_id": "84ec03d44ae6fe8c-02",
-      "text": "Partner with Finance, Strategy, and business leaders",
-      "source_span": "partnering with Finance, Strategy, and business leaders",
+      "text": "Partner with Finance, Strategy, and business leaders to translate company priorities into financial plans",
+      "source_span": "partnering with Finance, Strategy, and business leaders to translate company priorities into financial plans",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
       "duty_id": "84ec03d44ae6fe8c-03",
-      "text": "Translate company priorities into financial plans",
-      "source_span": "financial plans",
-      "is_boilerplate": false,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-04",
-      "text": "Translate company priorities into targets",
+      "text": "Partner with Finance, Strategy, and business leaders to translate company priorities into targets",
       "source_span": "targets",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
+      "duty_id": "84ec03d44ae6fe8c-04",
+      "text": "Partner with Finance, Strategy, and business leaders to translate company priorities into investment decisions",
+      "source_span": "investment decisions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
       "duty_id": "84ec03d44ae6fe8c-05",
-      "text": "Produce executive-ready materials",
-      "source_span": "executive-ready materials",
+      "text": "Partner with business leaders to evaluate strategic investment opportunities",
+      "source_span": "Partner with business leaders to evaluate strategic investment opportunities",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
       "duty_id": "84ec03d44ae6fe8c-06",
-      "text": "Drive the strategic investment process",
-      "source_span": "drive the strategic investment process",
+      "text": "Assess trade-offs",
+      "source_span": "assess trade-offs",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
       "duty_id": "84ec03d44ae6fe8c-07",
-      "text": "Build business cases",
-      "source_span": "building business cases",
+      "text": "Ensure capital and operating resources are allocated against the company's highest-priority initiatives",
+      "source_span": "ensure capital and operating resources are allocated against the company's highest-priority initiatives",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
       "duty_id": "84ec03d44ae6fe8c-08",
-      "text": "Evaluate trade-offs",
-      "source_span": "evaluating trade-offs",
-      "is_boilerplate": false,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-09",
-      "text": "Support resource allocation toward the company's highest-priority initiatives",
-      "source_span": "supporting resource allocation toward the company's highest-priority initiatives",
-      "is_boilerplate": false,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-10",
       "text": "Build financial models",
       "source_span": "Build financial models",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "84ec03d44ae6fe8c-11",
+      "duty_id": "84ec03d44ae6fe8c-09",
+      "text": "Build business cases",
+      "source_span": "business cases",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "84ec03d44ae6fe8c-10",
       "text": "Build decision frameworks",
       "source_span": "decision frameworks",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
+      "duty_id": "84ec03d44ae6fe8c-11",
+      "text": "Develop clear reporting and insights on plan performance, investment progress, risks, and opportunities for senior leadership",
+      "source_span": "Develop clear reporting and insights on plan performance, investment progress, risks, and opportunities for senior leadership",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
       "duty_id": "84ec03d44ae6fe8c-12",
-      "text": "Support investment prioritization",
-      "source_span": "investment prioritization",
+      "text": "Support executive discussions by synthesizing complex financial and operational inputs into concise recommendations",
+      "source_span": "support executive discussions by synthesizing complex financial and operational inputs into concise recommendations",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
       "duty_id": "84ec03d44ae6fe8c-13",
-      "text": "Support ROI assessment",
-      "source_span": "ROI assessment",
-      "is_boilerplate": false,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-14",
-      "text": "Support long-range value creation",
-      "source_span": "long-range value creation",
-      "is_boilerplate": false,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-15",
-      "text": "Develop clear reporting and insights on plan performance",
-      "source_span": "plan performance",
-      "is_boilerplate": false,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-16",
-      "text": "Develop clear reporting and insights on investment progress",
-      "source_span": "investment progress",
-      "is_boilerplate": false,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-17",
-      "text": "Develop clear reporting and insights on risks",
-      "source_span": "risks",
-      "is_boilerplate": false,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-18",
-      "text": "Develop clear reporting and insights on opportunities for senior leadership",
-      "source_span": "opportunities for senior leadership",
-      "is_boilerplate": false,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-19",
-      "text": "Support executive discussions",
-      "source_span": "Support executive discussions",
-      "is_boilerplate": false,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-20",
-      "text": "Synthesize complex financial and operational inputs into concise recommendations",
-      "source_span": "synthesizing complex financial and operational inputs into concise recommendations",
-      "is_boilerplate": false,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-21",
       "text": "Identify opportunities to improve planning accuracy",
       "source_span": "Identify opportunities to improve planning accuracy",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "84ec03d44ae6fe8c-22",
+      "duty_id": "84ec03d44ae6fe8c-14",
       "text": "Identify opportunities to improve resource allocation",
       "source_span": "resource allocation",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "84ec03d44ae6fe8c-23",
+      "duty_id": "84ec03d44ae6fe8c-15",
       "text": "Identify opportunities to improve investment discipline across the organization",
       "source_span": "investment discipline across the organization",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "84ec03d44ae6fe8c-24",
+      "duty_id": "84ec03d44ae6fe8c-16",
       "text": "Compliance with all applicable laws and regulations",
       "source_span": "Compliance with all applicable laws and regulations",
-      "is_boilerplate": true,
+      "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "84ec03d44ae6fe8c-25",
+      "duty_id": "84ec03d44ae6fe8c-17",
       "text": "Other duties as assigned",
       "source_span": "Other duties as assigned",
       "is_boilerplate": true,
       "is_requirement": false
     },
     {
+      "duty_id": "84ec03d44ae6fe8c-18",
+      "text": "12+ years of experience in finance, FP&A, corporate strategy, investment banking, consulting, or a related strategic finance role",
+      "source_span": "12+ years of experience in finance, FP&A, corporate strategy, investment banking, consulting, or a related strategic finance role",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "84ec03d44ae6fe8c-19",
+      "text": "FP&A or strategic finance experience",
+      "source_span": "FP&A or strategic finance experience",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "84ec03d44ae6fe8c-20",
+      "text": "Experience leading or supporting annual planning, budgeting, forecasting, long-range planning, or capital allocation processes",
+      "source_span": "Experience leading or supporting annual planning, budgeting, forecasting, long-range planning, or capital allocation processes",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "84ec03d44ae6fe8c-21",
+      "text": "Strong financial modeling, analytical, and business case development skills",
+      "source_span": "Strong financial modeling, analytical, and business case development skills",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "84ec03d44ae6fe8c-22",
+      "text": "the judgment to influence senior stakeholders",
+      "source_span": "the judgment to influence senior stakeholders",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "84ec03d44ae6fe8c-23",
+      "text": "Influence senior stakeholders and drive alignment across cross-functional teams",
+      "source_span": "Influence senior stakeholders and drive alignment across cross-functional teams",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "84ec03d44ae6fe8c-24",
+      "text": "Excellent communication skills, with the ability to turn analysis into clear executive-level recommendations",
+      "source_span": "Excellent communication skills, with the ability to turn analysis into clear executive-level recommendations",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
+      "duty_id": "84ec03d44ae6fe8c-25",
+      "text": "Strong project management skills and comfort operating in complex, fast-paced environments",
+      "source_span": "Strong project management skills and comfort operating in complex, fast-paced environments",
+      "is_boilerplate": false,
+      "is_requirement": true
+    },
+    {
       "duty_id": "84ec03d44ae6fe8c-26",
-      "text": "Oscar is the first health insurance company built around a full stack technology platform and a relentless focus on serving our members.",
-      "source_span": "Oscar is the first health insurance company built around a full stack technology platform and a relentless focus on serving our members.",
-      "is_boilerplate": true,
-      "is_requirement": false
+      "text": "High degree of ownership, and ability to balance strategic thinking with operational execution",
+      "source_span": "High degree of ownership, and ability to balance strategic thinking with operational execution",
+      "is_boilerplate": false,
+      "is_requirement": true
     },
     {
       "duty_id": "84ec03d44ae6fe8c-27",
-      "text": "We started Oscar in 2012 to create the kind of health insurance company we would want for ourselves—one that behaves like a doctor in the family.",
-      "source_span": "We started Oscar in 2012 to create the kind of health insurance company we would want for ourselves—one that behaves like a doctor in the family.",
-      "is_boilerplate": true,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-28",
-      "text": "This is an authentic Oscar Health job opportunity.",
-      "source_span": "This is an authentic Oscar Health job opportunity.",
-      "is_boilerplate": true,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-29",
-      "text": "You are also eligible for employee benefits, participation in Oscar's unlimited vacation program, company equity grants and annual performance bonuses.",
-      "source_span": "You are also eligible for employee benefits, participation in Oscar's unlimited vacation program, company equity grants and annual performance bonuses.",
-      "is_boilerplate": true,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-30",
-      "text": "12+ years of experience in finance, FP&A, corporate strategy, investment banking, consulting, or a related strategic finance role.",
-      "source_span": "12+ years of experience in finance, FP&A, corporate strategy, investment banking, consulting, or a related strategic finance role.",
-      "is_boilerplate": false,
-      "is_requirement": true
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-31",
-      "text": "Experience leading or supporting annual planning, budgeting, forecasting, long-range planning, or capital allocation processes.",
-      "source_span": "Experience leading or supporting annual planning, budgeting, forecasting, long-range planning, or capital allocation processes.",
-      "is_boilerplate": false,
-      "is_requirement": true
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-32",
-      "text": "Strong financial modeling, analytical, and business case development skills.",
-      "source_span": "Strong financial modeling, analytical, and business case development skills.",
-      "is_boilerplate": false,
-      "is_requirement": true
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-33",
-      "text": "Influence senior stakeholders and drive alignment across cross-functional teams.",
-      "source_span": "Influence senior stakeholders and drive alignment across cross-functional teams.",
-      "is_boilerplate": false,
-      "is_requirement": true
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-34",
-      "text": "Excellent communication skills, with the ability to turn analysis into clear executive-level recommendations.",
-      "source_span": "Excellent communication skills, with the ability to turn analysis into clear executive-level recommendations.",
-      "is_boilerplate": false,
-      "is_requirement": true
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-35",
-      "text": "Strong project management skills and comfort operating in complex, fast-paced environments.",
-      "source_span": "Strong project management skills and comfort operating in complex, fast-paced environments.",
-      "is_boilerplate": false,
-      "is_requirement": true
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-36",
-      "text": "High degree of ownership, and ability to balance strategic thinking with operational execution.",
-      "source_span": "High degree of ownership, and ability to balance strategic thinking with operational execution.",
-      "is_boilerplate": false,
-      "is_requirement": true
-    },
-    {
-      "duty_id": "84ec03d44ae6fe8c-37",
       "text": "Experience in similar roles in strategy consulting, financial services, or insurance industries (ex: private equity, venture capital, investment banking)",
       "source_span": "Experience in similar roles in strategy consulting, financial services, or insurance industries (ex: private equity, venture capital, investment banking)",
       "is_boilerplate": false,
       "is_requirement": true
     },
     {
-      "duty_id": "84ec03d44ae6fe8c-38",
-      "text": "Strong preference for healthcare industry experience and deep market knowledge.",
-      "source_span": "Strong preference for healthcare industry experience and deep market knowledge.",
+      "duty_id": "84ec03d44ae6fe8c-28",
+      "text": "Strong preference for healthcare industry experience and deep market knowledge",
+      "source_span": "Strong preference for healthcare industry experience and deep market knowledge",
       "is_boilerplate": false,
       "is_requirement": true
     },
     {
-      "duty_id": "84ec03d44ae6fe8c-39",
-      "text": "Advanced degrees or professional designations, such as an MBA or CFA.",
-      "source_span": "Advanced degrees or professional designations, such as an MBA or CFA.",
+      "duty_id": "84ec03d44ae6fe8c-29",
+      "text": "Advanced degrees or professional designations, such as an MBA or CFA",
+      "source_span": "Advanced degrees or professional designations, such as an MBA or CFA",
       "is_boilerplate": false,
       "is_requirement": true
     }
   ],
-  "posted_at": "2026-09-25T09:25:39-04:00",
+  "posted_at": "2026-09-25T09:19:46-04:00",
   "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8232870",
   "fetched_at": "2026-10-21T17:33:54.851Z",
   "prompt_version": "extract-v1",
   "text": "Hi, we're Oscar. We're hiring a Senior Director, Strategic Finance and Enterprise Planning to join our Strategic Finance team.\n\nOscar is the first health insurance company built around a full stack technology platform and a relentless focus on serving our members. We started Oscar in 2012 to create the kind of health insurance company we would want for ourselves—one that behaves like a doctor in the family.\n\nAbout the role:\n\nThe Senior Director of Strategic Finance & Enterprise role will help lead the annual operating plan cycle, partnering with Finance, Strategy, and business leaders to translate company priorities into financial plans, targets, and executive-ready materials. You will also drive the strategic investment process by building business cases, evaluating trade-offs, and supporting resource allocation toward the company's highest-priority initiatives. You bring FP&A or strategic finance experience, excellent financial modeling and the judgment to influence senior stakeholders.\n\nYou will report into the VP, FP&A.\n\nWork Location: This is a remote position, open to candidates who reside in: Atlanta, GA. You will be fully remote; however, our approach to work may adapt over time. Future models could potentially involve a hybrid presence at the hub office associated with your metro area. #LI-Remote\n\nPay Transparency: The base pay for this role is: $196,733 - $258,212 per year. You are also eligible for employee benefits, participation in Oscar's unlimited vacation program, company equity grants and annual performance bonuses.\n\nResponsibilities:\n\n• Lead key components of the annual operating plan cycle, partnering with Finance, Strategy, and business leaders to translate company priorities into financial plans, targets, and investment decisions.\n\n• Partner with business leaders to evaluate strategic investment opportunities, assess trade-offs, and ensure capital and operating resources are allocated against the company's highest-priority initiatives.\n\n• Build financial models, business cases, and decision frameworks to support investment prioritization, ROI assessment, and long-range value creation.\n\n• Develop clear reporting and insights on plan performance, investment progress, risks, and opportunities for senior leadership.\n\n• Support executive discussions by synthesizing complex financial and operational inputs into concise recommendations.\n\n• Identify opportunities to improve planning accuracy, resource allocation, and investment discipline across the organization.\n\n• Compliance with all applicable laws and regulations\n\n• Other duties as assigned\n\nRequirements:\n\n• 12+ years of experience in finance, FP&A, corporate strategy, investment banking, consulting, or a related strategic finance role.\n\n• Experience leading or supporting annual planning, budgeting, forecasting, long-range planning, or capital allocation processes.\n\n• Strong financial modeling, analytical, and business case development skills.\n\n• Influence senior stakeholders and drive alignment across cross-functional teams.\n\n• Excellent communication skills, with the ability to turn analysis into clear executive-level recommendations.\n\n• Strong project management skills and comfort operating in complex, fast-paced environments.\n\n• High degree of ownership, and ability to balance strategic thinking with operational execution.\n\nBonus points:\n\n• Experience in similar roles in strategy consulting, financial services, or insurance industries (ex: private equity, venture capital, investment banking)\n\n• Strong preference for healthcare industry experience and deep market knowledge.\n\n• Advanced degrees or professional designations, such as an MBA or CFA.\n\nThis is an authentic Oscar Health job opportunity.\n\nAt Oscar, being an Equal Opportunity Employer means more than upholding discrimination-free hiring practices. It means that we cultivate an environment where people can be their most authentic selves and find both belonging and support. We're on a mission to change health care -- an experience made whole by our unique backgrounds and perspectives.\n\nPay Transparency: Final offer amounts, within the base pay set forth above, are determined by factors including your relevant skills, education, and experience. Full-time employees are eligible for benefits including: medical, dental, and vision benefits, 11 paid holidays, paid sick time, paid parental leave, 401(k) plan participation, life and disability insurance, and paid wellness time and reimbursements.\n\nArtificial Intelligence (AI): Our AI Guidelines outline the acceptable use of artificial intelligence for candidates and detail how we use AI to support our recruiting efforts.\n\nReasonable Accommodation: Oscar applicants are considered solely based on their qualifications, without regard to applicant’s disability or need for accommodation. Any Oscar applicant who requires reasonable accommodations during the application process should contact the Oscar Benefits Team (accommodations@hioscar.com) to make the need for an accommodation known.\n\nCalifornia Residents: For information about our collection, use, and disclosure of applicants’ personal information as well as applicants’ rights over their personal information, please see our Privacy Policy.",
-  "extra_salary_lines": [],
+  "extra_salary_lines": [
+    {
+      "location": "Tempe, Arizona, United States; New York, New York, United States",
+      "line": "Pay Transparency: The base pay for this role is: 196,733 - $258,212 per year. You are also eligible for employee benefits, participation in Oscar's unlimited vacation program, company equity grants and annual performance bonuses."
+    },
+    {
+      "location": "New York, New York, United States",
+      "line": "Pay Transparency: The base pay for this role is: $218,592 - $286,902 per year. You are also eligible for employee benefits, participation in Oscar's unlimited vacation program, company equity grants and annual performance bonuses."
+    }
+  ],
   "salary_source": "posting_text",
   "ats": "greenhouse"
 }

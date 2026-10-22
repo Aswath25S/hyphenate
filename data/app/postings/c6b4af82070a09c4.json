@@ -89,8 +89,8 @@
       "confidence": 0.84,
       "rationale": "Developing unit economic frameworks is FP&A-style modeling work that is rules-based but not covered by any listed capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -114,8 +114,8 @@
       "confidence": 0.83,
       "rationale": "Evaluating ROI for products, features, and strategies is planning analysis rather than any covered reporting or accounting workflow.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -139,8 +139,8 @@
       "confidence": 0.95,
       "rationale": "Guiding decision-making is advisory leadership work, which is explicitly human rather than platform-executed.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -164,8 +164,8 @@
       "confidence": 0.86,
       "rationale": "Evaluating economic viability is strategic analysis work that does not match a specific listed capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -189,9 +189,9 @@
       "confidence": 0.94,
       "rationale": "Driving strategy for new and emerging products is a strategic business function that requires human judgment.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -214,9 +214,9 @@
       "confidence": 0.98,
       "rationale": "Building strong working relationships with cross-functional teams is relationship management, which is human by nature.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -239,9 +239,9 @@
       "confidence": 0.93,
       "rationale": "Strategically advising on financial impact is advisory judgment work, not an operational finance automation task.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -264,8 +264,8 @@
       "confidence": 0.67,
       "rationale": "Improving business performance is too broad to map to a specific covered capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -289,8 +289,8 @@
       "confidence": 0.88,
       "rationale": "Managing and owning financial forecasts is FP&A forecasting work that is outside the listed cash-forecast capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -314,9 +314,9 @@
       "confidence": 0.97,
       "rationale": "Advising executive leadership on performance is leadership-facing advisory work that requires human judgment.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -360,9 +360,9 @@
       "confidence": 0.81,
       "rationale": "Contributing to public-facing materials and disclosures is external reporting work not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
       }
     },
     {
@@ -385,9 +385,9 @@
       "confidence": 0.8,
       "rationale": "Other external reporting is a broad reporting duty that does not match a specific capability in the map.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
       }
     },
     {
@@ -410,9 +410,9 @@
       "confidence": 0.96,
       "rationale": "Advising investors on company financial health is investor relations and advisory work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -435,9 +435,9 @@
       "confidence": 0.96,
       "rationale": "Advising investors on product positioning and performance is strategic communication, not platform-executed finance ops.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -460,8 +460,8 @@
       "confidence": 0.97,
       "rationale": "Partnering closely with the Analytics team is cross-functional collaboration, which is human work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -527,9 +527,9 @@
       "confidence": 0.6,
       "rationale": "Tracking product health is too vague to determine whether it is reporting, analysis, or operational monitoring.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -552,8 +552,8 @@
       "confidence": 0.58,
       "rationale": "Evaluating experimental results is ambiguous and could be many types of analysis, so it is not a clear capability match.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -577,8 +577,8 @@
       "confidence": 0.93,
       "rationale": "Championing adoption of AI and automation across a process is change-management and influence work, which is human-led.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
         "bucket": "human_work"
       }
     },
@@ -602,9 +602,9 @@
       "confidence": 0.64,
       "rationale": "Compressing close-to-forecast turnaround is a vague process-improvement goal without a specific mapped capability.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -627,9 +627,9 @@
       "confidence": 0.79,
       "rationale": "Standardizing recurring reporting is repetitive reporting process work that could be automated but is not explicitly covered.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -652,9 +652,9 @@
       "confidence": 0.82,
       "rationale": "Reducing manual effort in Pigment and Sheets is process automation and spreadsheet cleanup work outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {

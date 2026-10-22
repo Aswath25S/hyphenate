@@ -108,9 +108,9 @@
       "confidence": 0.98,
       "rationale": "Processing employee expense reports is a rules-based AP task that is explicitly outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -217,9 +217,9 @@
       "confidence": 0.55,
       "rationale": "Resolving discrepancies is too vague to tell whether it is invoice, payment, or reconciliation work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -263,9 +263,9 @@
       "confidence": 0.87,
       "rationale": "Ensuring compliance with company policies is a broad judgment and governance responsibility rather than a specific platform workflow.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -393,9 +393,9 @@
       "confidence": 0.9,
       "rationale": "Collaborating with internal teams is relationship and coordination work rather than a finance-operations automation task.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -418,8 +418,8 @@
       "confidence": 0.9,
       "rationale": "Collaborating with internal teams on issue resolution is human coordination and problem-solving across functions.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
         "bucket": "possible_gap"
       }
     },

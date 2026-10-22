@@ -92,9 +92,9 @@
       "confidence": 0.86,
       "rationale": "Leading finance for inference and model spend is management/ownership work, not an automated platform workflow.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -117,8 +117,8 @@
       "confidence": 0.92,
       "rationale": "Budgeting inference and model spend is an FP&A planning model outside the coverage map.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -142,8 +142,8 @@
       "confidence": 0.9,
       "rationale": "Forecasting inference and model spend monthly is an FP&A forecast model, not the covered cash forecast.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -188,9 +188,9 @@
       "confidence": 0.93,
       "rationale": "Maintaining the financial plan is budgeting and planning model work outside coverage.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -213,8 +213,8 @@
       "confidence": 0.95,
       "rationale": "Building and maintaining product-margin models is FP&A modeling with no matching capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -259,9 +259,9 @@
       "confidence": 0.9,
       "rationale": "Reconciling serving cost from production usage data is custom cost modeling outside the coverage map.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -284,9 +284,9 @@
       "confidence": 0.9,
       "rationale": "Reconciling gross margin from production usage data is a custom margin model outside coverage.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -309,8 +309,8 @@
       "confidence": 0.84,
       "rationale": "Developing deep expertise in model provider contracts is a human knowledge and advisory task.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -334,8 +334,8 @@
       "confidence": 0.84,
       "rationale": "Developing deep expertise in pricing structures is strategic analysis and judgment, not platform execution.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -359,8 +359,8 @@
       "confidence": 0.82,
       "rationale": "Developing deep expertise in cost drivers is an analytical expertise task rather than an automatable workflow.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },
@@ -426,9 +426,9 @@
       "confidence": 0.9,
       "rationale": "Serving as subject matter expert for product unit economics is advisory work by nature.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -451,8 +451,8 @@
       "confidence": 0.88,
       "rationale": "Owning the source of truth on cost per request is metric/model maintenance outside the coverage map.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -476,8 +476,8 @@
       "confidence": 0.88,
       "rationale": "Owning the source of truth on margin by product and tier is custom economics reporting outside coverage.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -501,8 +501,8 @@
       "confidence": 0.88,
       "rationale": "Owning the source of truth on customer-segment and feature-level economics is custom economics reporting outside coverage.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -526,8 +526,8 @@
       "confidence": 0.91,
       "rationale": "Owning the consolidated model-cost forecast is an FP&A forecast model outside coverage.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -551,9 +551,9 @@
       "confidence": 0.92,
       "rationale": "Translating roadmaps and model transitions into forward-looking spend and margin trajectories is custom planning-model work.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -639,8 +639,8 @@
       "confidence": 0.86,
       "rationale": "Distilling findings into a strategy framework is advisory work that requires judgment.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -664,8 +664,8 @@
       "confidence": 0.93,
       "rationale": "Partnering closely with product, inference, and data engineering is cross-functional relationship work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -710,9 +710,9 @@
       "confidence": 0.82,
       "rationale": "Translating technical dynamics into financial frameworks is interpretive advisory work rather than a covered workflow.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {

@@ -91,8 +91,8 @@
       "confidence": 0.89,
       "rationale": "The duty only says to manage financial processes, which is too vague to map to a specific covered or assisted capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -116,9 +116,9 @@
       "confidence": 0.77,
       "rationale": "The duty refers broadly to forecasting without specifying short-term cash forecasting or another defined platform capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -141,8 +141,8 @@
       "confidence": 0.97,
       "rationale": "Budget planning is an FP&A planning model task that is explicitly outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -187,8 +187,8 @@
       "confidence": 0.98,
       "rationale": "Long-range planning is annual planning work that is explicitly not covered by the forecast capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -233,8 +233,8 @@
       "confidence": 0.95,
       "rationale": "Balance sheet forecasting is a planning-model task and has no matching capability in the map.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -258,8 +258,8 @@
       "confidence": 0.97,
       "rationale": "Collaborating with finance, IR, and data teams to drive metrics is cross-functional partnering, which is a human duty.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -283,8 +283,8 @@
       "confidence": 0.98,
       "rationale": "Acting as a strategic finance partner to department leaders is advisory relationship work, not platform execution.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -305,8 +305,8 @@
       "confidence": 0.93,
       "rationale": "Helping leaders navigate budget constraints is advisory and judgment-based, which fits human work.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -330,8 +330,8 @@
       "confidence": 0.94,
       "rationale": "Evaluating ROI on new initiatives is analytical FP&A work that is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -418,9 +418,9 @@
       "confidence": 0.96,
       "rationale": "Translating complex financial data into compelling narratives for non-finance stakeholders is communication and presentation work.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -443,9 +443,9 @@
       "confidence": 0.86,
       "rationale": "Driving process improvements and automation is too broad and project-oriented to map cleanly to a specific capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -468,9 +468,9 @@
       "confidence": 0.91,
       "rationale": "Reducing manual work is too vague to determine a specific covered, assisted, or gap capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {

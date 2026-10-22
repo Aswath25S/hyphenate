@@ -87,8 +87,8 @@
       "confidence": 0.93,
       "rationale": "Owning collections performance is team management and accountability, not the platform’s core collections execution.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -112,8 +112,8 @@
       "confidence": 0.88,
       "rationale": "Balancing cash outcomes with customer experience requires judgment and tradeoff decisions beyond automated collections work.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -137,9 +137,9 @@
       "confidence": 0.97,
       "rationale": "Providing guidance and supporting development is people management, which is explicitly human work.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -162,9 +162,9 @@
       "confidence": 0.98,
       "rationale": "Coaching and managing performance for staff is supervisory work rather than a platform capability.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -187,9 +187,9 @@
       "confidence": 0.92,
       "rationale": "Leading strategic initiatives is project leadership and judgment, not end-to-end collections processing.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -212,9 +212,9 @@
       "confidence": 0.95,
       "rationale": "Aligning collections strategy with leadership and enterprise goals is cross-functional management work.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -237,8 +237,8 @@
       "confidence": 0.96,
       "rationale": "Managing escalations on complex accounts requires human judgment and negotiation, not routine collections automation.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -262,8 +262,8 @@
       "confidence": 0.94,
       "rationale": "Managing customer communication on complex accounts is relationship handling and judgment-driven work.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -287,8 +287,8 @@
       "confidence": 0.98,
       "rationale": "Navigating sensitive situations with professionalism is inherently human judgment and interpersonal work.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -312,8 +312,8 @@
       "confidence": 0.94,
       "rationale": "Partnering cross-functionally to resolve invoicing, contract, and payment issues is collaborative human work.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -337,8 +337,8 @@
       "confidence": 0.86,
       "rationale": "Removing blockers to payment is broad coordination and problem-solving rather than a specific automated collections task.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -362,8 +362,8 @@
       "confidence": 0.9,
       "rationale": "Driving process improvements is managerial process design work, not a listed platform capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -387,8 +387,8 @@
       "confidence": 0.74,
       "rationale": "Implementing automation is a project activity and the duty is too broad to map cleanly to a specific capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -412,8 +412,8 @@
       "confidence": 0.97,
       "rationale": "Participating in policy and SOX reviews with senior leadership is governance and leadership work.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -437,9 +437,9 @@
       "confidence": 0.88,
       "rationale": "Ensuring team practices stay compliant and current is oversight and policy enforcement, not automated collections execution.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -462,8 +462,8 @@
       "confidence": 0.92,
       "rationale": "Representing OTC/Collections in cross-functional initiatives is partnership and coordination work.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -508,9 +508,9 @@
       "confidence": 0.99,
       "rationale": "Hiring an inclusive, engaged, high-performing team is explicitly people management.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -533,8 +533,8 @@
       "confidence": 0.99,
       "rationale": "Developing an inclusive, engaged, high-performing team is coaching and leadership work.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },
@@ -558,8 +558,8 @@
       "confidence": 0.99,
       "rationale": "Leading an inclusive, engaged, high-performing team is managerial leadership, not a platform operation.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },

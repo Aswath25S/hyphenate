@@ -92,8 +92,8 @@
       "confidence": 0.91,
       "rationale": "The core action is company-wide forecasting and long-range planning, which is FP&A budgeting/modeling work not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -117,8 +117,8 @@
       "confidence": 0.84,
       "rationale": "The core action is running forecast and budget-to-actual planning cadence, which is planning-model work rather than a listed reporting or close capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -142,8 +142,8 @@
       "confidence": 0.98,
       "rationale": "The duty centers on partnering closely with Accounting during close, which is relationship and coordination work by nature.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -167,8 +167,8 @@
       "confidence": 0.93,
       "rationale": "The core action is headcount planning and compensation forecasting, which is a budgeting/planning model task not covered in the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -213,9 +213,9 @@
       "confidence": 0.99,
       "rationale": "The duty is serving as a finance partner advising leaders on tradeoffs and resource allocation, which is partnering and advising other teams.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -238,8 +238,8 @@
       "confidence": 0.89,
       "rationale": "The duty is overseeing another manager's cost-management work, which is managerial oversight rather than a specific platform-executed finance process.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -263,8 +263,8 @@
       "confidence": 0.73,
       "rationale": "The duty is a broad improvement project for FP&A systems, models, and data infrastructure rather than a specific finance operation capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -288,8 +288,8 @@
       "confidence": 0.98,
       "rationale": "The duty is building working relationships across functions so planning is integrated, which is cross-functional partnering work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -313,8 +313,8 @@
       "confidence": 0.8,
       "rationale": "The duty is setting standards for what should be standardized, automated, or redesigned, which is process policy and judgment work.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },

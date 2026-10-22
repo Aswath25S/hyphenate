@@ -84,8 +84,8 @@
       "confidence": 0.91,
       "rationale": "Preparing and filing SEC reports is recurring compliance reporting, but no listed capability covers SEC filing work end to end.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -109,8 +109,8 @@
       "confidence": 0.82,
       "rationale": "Drafting MD&A, disclosures, and earnings press releases is disclosure writing work that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -134,8 +134,8 @@
       "confidence": 0.96,
       "rationale": "Reviewing MD&A, disclosures, and press releases is human judgment over disclosure quality and accuracy.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -159,8 +159,8 @@
       "confidence": 0.48,
       "rationale": "Continuously improving disclosures is too vague to map cleanly to a specific automated finance action.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -184,9 +184,9 @@
       "confidence": 0.88,
       "rationale": "Managing XBRL tagging is rules-based reporting work with no matching capability listed.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -209,9 +209,9 @@
       "confidence": 0.9,
       "rationale": "Maintaining EDGAR submissions is administrative SEC filing work not covered by the map.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -234,8 +234,8 @@
       "confidence": 0.83,
       "rationale": "Staying current on SEC rules and disclosure best practices is professional judgment and expertise work.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -259,9 +259,9 @@
       "confidence": 0.79,
       "rationale": "Updating disclosures for new guidance is disclosure maintenance work without a listed capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -284,9 +284,9 @@
       "confidence": 0.99,
       "rationale": "Serving as the primary contact for external auditors is a relationship-management duty.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -309,9 +309,9 @@
       "confidence": 0.95,
       "rationale": "Acting as the US GAAP subject matter expert is advisory judgment work by nature.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -334,9 +334,9 @@
       "confidence": 0.98,
       "rationale": "Providing authoritative guidance on complex accounting areas requires human technical accounting judgment.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -359,8 +359,8 @@
       "confidence": 0.94,
       "rationale": "Researching accounting positions on new transactions and strategic deals is novel technical accounting analysis.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -384,9 +384,9 @@
       "confidence": 0.88,
       "rationale": "Documenting accounting positions on novel transactions is technical memo work that depends on human judgment.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -409,9 +409,9 @@
       "confidence": 0.93,
       "rationale": "Communicating accounting positions to others is advisory work requiring human judgment and alignment.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -434,9 +434,9 @@
       "confidence": 0.99,
       "rationale": "Developing company-wide accounting policies is policy-setting work that belongs to humans.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -459,9 +459,9 @@
       "confidence": 0.85,
       "rationale": "Maintaining company-wide accounting policies is policy stewardship and governance work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -484,8 +484,8 @@
       "confidence": 0.9,
       "rationale": "Ensuring consistent application across the organization is cross-functional judgment and enforcement work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -509,8 +509,8 @@
       "confidence": 0.86,
       "rationale": "Monitoring new accounting standards is technical accounting judgment, not a listed automation capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -534,8 +534,8 @@
       "confidence": 0.91,
       "rationale": "Assessing the impact of new accounting standards requires human technical accounting judgment.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -559,8 +559,8 @@
       "confidence": 0.52,
       "rationale": "Preparing implementation plans is too broad to classify against a specific finance-ops capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -584,9 +584,9 @@
       "confidence": 0.94,
       "rationale": "Communicating implications to stakeholders is a human advisory and coordination activity.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -609,8 +609,8 @@
       "confidence": 0.89,
       "rationale": "Overseeing the SOX control environment is governance and management work rather than a specific control execution task.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -634,9 +634,9 @@
       "confidence": 0.87,
       "rationale": "Strengthening the SOX control environment is a managerial and judgment-based responsibility.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -659,9 +659,9 @@
       "confidence": 0.98,
       "rationale": "Designing control activities is explicitly excluded because control framework design requires human judgment.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -726,9 +726,9 @@
       "confidence": 0.76,
       "rationale": "Remediating control activities is a judgment-heavy fix-and-verify responsibility not listed as a capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -751,9 +751,9 @@
       "confidence": 0.99,
       "rationale": "Partnering with internal and external auditors is relationship management with auditors, which is explicitly human.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -776,8 +776,8 @@
       "confidence": 0.9,
       "rationale": "Ensuring disclosure controls and procedures are effective is governance and oversight work requiring human judgment.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -801,9 +801,9 @@
       "confidence": 0.99,
       "rationale": "Recruiting accounting professionals is a hiring function that is inherently human.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -826,8 +826,8 @@
       "confidence": 0.99,
       "rationale": "Managing a team of accounting professionals is people management, which is explicitly human.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -851,8 +851,8 @@
       "confidence": 0.99,
       "rationale": "Mentoring accounting professionals is people development work by nature.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -876,9 +876,9 @@
       "confidence": 0.98,
       "rationale": "Developing a team of accounting professionals is leadership and training work.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -901,9 +901,9 @@
       "confidence": 0.97,
       "rationale": "Advising the Controller and CFO on complex transactions is strategic human judgment work.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -926,9 +926,9 @@
       "confidence": 0.98,
       "rationale": "Partnering with FP&A, Legal, Tax, and Accounting is cross-functional coordination and alignment work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -951,8 +951,8 @@
       "confidence": 0.54,
       "rationale": "Driving scalability and efficiency through process improvements and AI is broad project language without a specific mapped capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },

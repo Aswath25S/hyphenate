@@ -91,8 +91,8 @@
       "confidence": 0.83,
       "rationale": "Owning AP is function management rather than a single automatable transaction, so it falls on people.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -221,8 +221,8 @@
       "confidence": 0.96,
       "rationale": "The annual 1099 process is a rules-based AP/tax workflow that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -246,9 +246,9 @@
       "confidence": 0.77,
       "rationale": "Running procurement end to end includes broader ownership and judgment beyond the listed automations.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -271,9 +271,9 @@
       "confidence": 0.82,
       "rationale": "Managing purchase orders is an operational procurement task that has no direct capability match here.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -317,9 +317,9 @@
       "confidence": 0.97,
       "rationale": "Managing ongoing process improvements is too vague to map to a specific finance operation.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -342,9 +342,9 @@
       "confidence": 0.95,
       "rationale": "Improving how Ramp and NetSuite work together is a systems project rather than a listed finance workflow.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -367,8 +367,8 @@
       "confidence": 0.91,
       "rationale": "Using automation to reduce manual coding is a process-improvement goal, not a specific finance operation.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -392,8 +392,8 @@
       "confidence": 0.9,
       "rationale": "Using automation to reduce matching describes an improvement effort rather than the matching workflow itself.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -417,8 +417,8 @@
       "confidence": 0.89,
       "rationale": "Reducing reconciliation through automation is a project goal, not the reconciliation task itself.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -442,9 +442,9 @@
       "confidence": 0.88,
       "rationale": "Supporting month-end close is too broad to map to one specific close workflow.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -488,8 +488,8 @@
       "confidence": 0.82,
       "rationale": "Consolidation-related AP tasks are too vague to tie to one reporting capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },

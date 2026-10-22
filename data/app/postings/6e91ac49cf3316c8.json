@@ -85,8 +85,8 @@
       "confidence": 0.97,
       "rationale": "Partnering in strategic discussions is advisory cross-functional work rather than a finance-operations task the platform performs end to end.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -110,8 +110,8 @@
       "confidence": 0.88,
       "rationale": "Providing insights to influence decision-making is advisory work to other teams, which is human judgment rather than a specific automated finance operation.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -135,8 +135,8 @@
       "confidence": 0.98,
       "rationale": "Building trust with cross-functional stakeholders is relationship management by nature.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -160,8 +160,8 @@
       "confidence": 0.63,
       "rationale": "Owning monthly FP&A processes is too broad to map to a specific platform capability.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -185,8 +185,8 @@
       "confidence": 0.63,
       "rationale": "Owning quarterly FP&A processes is too vague and not a specific covered capability.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -210,8 +210,8 @@
       "confidence": 0.63,
       "rationale": "Owning annual FP&A processes is too broad and does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -235,8 +235,8 @@
       "confidence": 0.98,
       "rationale": "Budgeting and forecasting processes are FP&A planning models, which are explicitly outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -281,9 +281,9 @@
       "confidence": 0.96,
       "rationale": "Budget versus actual analysis for planning is explicitly excluded from the flux-analysis capability.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -306,9 +306,9 @@
       "confidence": 0.74,
       "rationale": "Pigment administration is system administration work that does not map cleanly to a listed finance-operation capability.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -331,8 +331,8 @@
       "confidence": 0.96,
       "rationale": "Leading the continued evolution of Pigment is a management/project leadership activity rather than a specific finance operation.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -356,9 +356,9 @@
       "confidence": 0.9,
       "rationale": "Designing the data model is system design work that requires human judgment and architecture decisions.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -381,8 +381,8 @@
       "confidence": 0.71,
       "rationale": "Building system integrations is a technical implementation task that does not match a listed finance-operations capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -406,8 +406,8 @@
       "confidence": 0.97,
       "rationale": "Building new forecast models is FP&A planning-model work, which is outside the coverage map.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -431,9 +431,9 @@
       "confidence": 0.95,
       "rationale": "Streamlining existing forecast models is FP&A model work that is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -456,9 +456,9 @@
       "confidence": 0.9,
       "rationale": "Collaborating with Finance peers to track performance metrics is cross-functional coordination work.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -481,9 +481,9 @@
       "confidence": 0.9,
       "rationale": "Collaborating with Finance peers to track KPIs is cross-functional coordination rather than a specific automated finance operation.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -506,8 +506,8 @@
       "confidence": 0.68,
       "rationale": "Monitoring business results is too vague to map confidently to a specific reporting or analysis capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -531,9 +531,9 @@
       "confidence": 0.97,
       "rationale": "Driving stakeholder engagement is relationship and coordination work by nature.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -556,8 +556,8 @@
       "confidence": 0.94,
       "rationale": "Driving accountability is a management and influence activity rather than an automated finance operation.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -581,9 +581,9 @@
       "confidence": 0.69,
       "rationale": "Simplifying FP&A processes is a vague process-improvement statement with no specific capability match.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -606,9 +606,9 @@
       "confidence": 0.69,
       "rationale": "Streamlining FP&A processes is too broad to map to a specific covered or assisted capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -631,8 +631,8 @@
       "confidence": 0.86,
       "rationale": "Automating FP&A processes is a finance-planning automation effort that matches no listed capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -656,9 +656,9 @@
       "confidence": 0.74,
       "rationale": "Using forecasting capabilities is too generic to determine whether it refers to the covered cash forecast or an FP&A planning model.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -681,9 +681,9 @@
       "confidence": 0.73,
       "rationale": "Using financial system capabilities is too broad and does not identify a specific finance-operation action.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -706,9 +706,9 @@
       "confidence": 0.67,
       "rationale": "Scaling rapidly and globally is a broad business-growth objective rather than a specific finance operation.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -731,8 +731,8 @@
       "confidence": 0.9,
       "rationale": "Highlighting opportunities to improve operations is advisory analysis intended to influence other teams.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -756,8 +756,8 @@
       "confidence": 0.9,
       "rationale": "Highlighting opportunities to increase revenue is strategic advisory work rather than a defined automated finance workflow.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -781,9 +781,9 @@
       "confidence": 0.9,
       "rationale": "Highlighting opportunities to decrease costs is advisory analysis and recommendation work by nature.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {

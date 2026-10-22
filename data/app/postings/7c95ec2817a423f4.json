@@ -98,9 +98,9 @@
       "confidence": 0.96,
       "rationale": "Building forecasting and budgeting models is FP&A planning work with no matching platform capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -123,9 +123,9 @@
       "confidence": 0.95,
       "rationale": "Maintaining long-range planning and budgeting models is FP&A model upkeep, which is not covered.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -148,9 +148,9 @@
       "confidence": 0.95,
       "rationale": "Scaling forecasting and budgeting models is planning-model work that does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -194,8 +194,8 @@
       "confidence": 0.95,
       "rationale": "Delivering actionable recommendations to leadership is advisory work that requires human judgment.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
         "bucket": "possible_gap"
       }
     },
@@ -219,9 +219,9 @@
       "confidence": 0.98,
       "rationale": "Partnering with Program Management and Aircraft Ops is cross-functional collaboration, which is human work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
-        "bucket": "possible_gap"
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
       }
     },
     {
@@ -244,8 +244,8 @@
       "confidence": 0.98,
       "rationale": "Partnering with other teams on spend trends is a relationship and advisory function, not platform execution.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -269,9 +269,9 @@
       "confidence": 0.98,
       "rationale": "Partnering with teams on headcount planning is collaborative planning work requiring human judgment.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -336,8 +336,8 @@
       "confidence": 0.66,
       "rationale": "Participating in the month-end close process is too vague to map to a specific close task.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -361,8 +361,8 @@
       "confidence": 0.66,
       "rationale": "Participating in the quarter-end close process is too vague to determine a specific capability.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -428,8 +428,8 @@
       "confidence": 0.89,
       "rationale": "Supporting financial operational planning cycles is FP&A planning work with no listed capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -453,8 +453,8 @@
       "confidence": 0.96,
       "rationale": "Assisting with business reviews is a presentation and collaboration activity that is human by nature.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -478,8 +478,8 @@
       "confidence": 0.97,
       "rationale": "Supporting investment decision-making is advisory decision support that requires human judgment.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -503,8 +503,8 @@
       "confidence": 0.72,
       "rationale": "Supporting data transformation initiatives is too broad to map to a specific finance operation capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
         "bucket": "human_work"
       }
     },
@@ -528,8 +528,8 @@
       "confidence": 0.84,
       "rationale": "Supporting basic modeling efforts is modeling work, but not one of the listed covered or assisted capabilities.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
         "bucket": "human_work"
       }
     },
@@ -553,9 +553,9 @@
       "confidence": 0.77,
       "rationale": "Driving continuous process improvement is a broad improvement initiative without a specific automatable finance action.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -578,8 +578,8 @@
       "confidence": 0.79,
       "rationale": "Identifying automation opportunities is a strategic improvement activity rather than a defined platform task.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -603,8 +603,8 @@
       "confidence": 0.78,
       "rationale": "Identifying efficiency opportunities is broad process-improvement work without a matching capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -628,9 +628,9 @@
       "confidence": 0.97,
       "rationale": "Partnering with inventory and supply chain teams is cross-functional collaboration, which is human work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -653,8 +653,8 @@
       "confidence": 0.97,
       "rationale": "Partnering with inventory and supply chain teams on usage is collaborative work rather than platform automation.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -678,8 +678,8 @@
       "confidence": 0.97,
       "rationale": "Partnering with inventory and supply chain teams on cost trends is a cross-functional advisory activity.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -703,8 +703,8 @@
       "confidence": 0.88,
       "rationale": "Monitoring actuals versus plan is budget-versus-actual analysis, which is an FP&A task not listed in the map.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -728,9 +728,9 @@
       "confidence": 0.88,
       "rationale": "Flagging risks and opportunities is too vague to determine a specific finance-operations capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -753,9 +753,9 @@
       "confidence": 0.9,
       "rationale": "Supporting EAC updates is project forecasting and planning work with no matching capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -778,9 +778,9 @@
       "confidence": 0.95,
       "rationale": "Ensuring alignment through regular operational reviews is a human review and partnership activity.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {

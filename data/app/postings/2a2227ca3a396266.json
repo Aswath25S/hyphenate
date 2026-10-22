@@ -199,9 +199,9 @@
       "confidence": 0.88,
       "rationale": "Keeping customer conversation records current is repetitive record maintenance with no matching capability.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -224,8 +224,8 @@
       "confidence": 0.88,
       "rationale": "Keeping payment promise records current is administrative tracking that is not an advertised capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -249,9 +249,9 @@
       "confidence": 0.88,
       "rationale": "Keeping dispute records current is routine tracking work without a direct capability match.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -274,8 +274,8 @@
       "confidence": 0.87,
       "rationale": "Keeping next-step records current is generic workflow administration not covered by the map.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -299,8 +299,8 @@
       "confidence": 0.97,
       "rationale": "Building relationships with customers' AP teams is relationship management work done by people.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -324,8 +324,8 @@
       "confidence": 0.96,
       "rationale": "Being the point of contact for collections and payment questions is customer-facing relationship work.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -349,9 +349,9 @@
       "confidence": 0.67,
       "rationale": "Coordinating incoming requests is too vague to map to a specific finance-ops capability.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -374,8 +374,8 @@
       "confidence": 0.86,
       "rationale": "Handling initial escalations is human triage and judgment work rather than a platform workflow.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -399,9 +399,9 @@
       "confidence": 0.7,
       "rationale": "Resolving issues promptly is too generic to identify a specific covered action.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -424,8 +424,8 @@
       "confidence": 0.96,
       "rationale": "Bringing in the right team for further review is cross-functional coordination with people.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -470,8 +470,8 @@
       "confidence": 0.97,
       "rationale": "Recommending next steps based on facts, history, and risk requires human judgment.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -558,8 +558,8 @@
       "confidence": 0.95,
       "rationale": "Working with other teams to resolve customers' AR/AP questions is cross-functional partnering work.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -583,8 +583,8 @@
       "confidence": 0.82,
       "rationale": "Arranging approved payment schedules still involves coordinating payment plans with customers, which is human judgment work.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -629,9 +629,9 @@
       "confidence": 0.98,
       "rationale": "Leading biweekly reviews with business leaders is presenting and partnering with leadership.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -654,8 +654,8 @@
       "confidence": 0.97,
       "rationale": "Working with Credit, Sales, Disputes, and Legal to resolve delays is cross-functional relationship work.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -679,8 +679,8 @@
       "confidence": 0.92,
       "rationale": "Summarizing account histories with AI tools is useful automation but has no matching advertised capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -701,8 +701,8 @@
       "confidence": 0.91,
       "rationale": "Analyzing aging data with AI tools is analytical support that is not explicitly covered by the platform map.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -744,9 +744,9 @@
       "confidence": 0.86,
       "rationale": "Verifying amounts and claims before acting is a manual review step with no direct capability match.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -769,8 +769,8 @@
       "confidence": 0.74,
       "rationale": "Protecting customer information is a policy and compliance responsibility handled by people.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -794,9 +794,9 @@
       "confidence": 0.95,
       "rationale": "Testing and documenting process improvements with the AR manager is a human process-improvement activity.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -819,9 +819,9 @@
       "confidence": 0.84,
       "rationale": "Supporting month-end close activities is too vague to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -844,9 +844,9 @@
       "confidence": 0.89,
       "rationale": "Maintaining accurate account records is repetitive record upkeep that is not directly covered by the map.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {

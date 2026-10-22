@@ -119,9 +119,9 @@
       "confidence": 0.87,
       "rationale": "Reviewing invoices is repetitive invoice QA work, but no capability here covers invoice review as the primary action.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -186,8 +186,8 @@
       "confidence": 0.83,
       "rationale": "Reviewing credit adjustments is a rules-based review step that is not covered by a specific capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -232,8 +232,8 @@
       "confidence": 0.98,
       "rationale": "Data entry is repetitive back-office work with no direct matching capability in the map.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -257,8 +257,8 @@
       "confidence": 0.92,
       "rationale": "Validation is generic rules-based checking that does not map cleanly to a listed capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -282,9 +282,9 @@
       "confidence": 0.89,
       "rationale": "Performing reconciliation is repetitive finance work, but the duty is too generic to match a specific reconciliation capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -307,8 +307,8 @@
       "confidence": 0.88,
       "rationale": "Cross-system checks to keep billing records accurate are validation/reconciliation work not covered by a specific capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -353,8 +353,8 @@
       "confidence": 0.84,
       "rationale": "Reconciling billing and financial systems is a reconciliation task, but no listed capability covers this specific cross-system billing reconciliation.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -378,9 +378,9 @@
       "confidence": 0.97,
       "rationale": "Collaborating cross-functionally is relationship and coordination work rather than an automated finance-operation task.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -403,8 +403,8 @@
       "confidence": 0.95,
       "rationale": "Cross-functional collaboration on revenue recognition requires human coordination and judgment.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -449,8 +449,8 @@
       "confidence": 0.9,
       "rationale": "Managing billing escalations is escalation handling and cross-team coordination, which is human work.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -474,8 +474,8 @@
       "confidence": 0.99,
       "rationale": "Participating in time-zone meetings is a human coordination activity, not a finance-operations capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -499,8 +499,8 @@
       "confidence": 0.76,
       "rationale": "Contributing to project coordination is too vague to map to a specific finance-operation capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -524,9 +524,9 @@
       "confidence": 0.74,
       "rationale": "Using financial systems and tools to support billing operations and process improvements is too broad to classify cleanly.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {

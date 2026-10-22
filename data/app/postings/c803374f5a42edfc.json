@@ -120,8 +120,8 @@
       "confidence": 0.55,
       "rationale": "The duty is broad expense management, which is FP&A-style spend control but matches no specific covered capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -145,8 +145,8 @@
       "confidence": 0.98,
       "rationale": "Approving vendor and invoice approvals is a budget-owner approval decision, which is explicitly human.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -170,8 +170,8 @@
       "confidence": 0.88,
       "rationale": "Planning headcount is budgeting and workforce planning, which is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -195,8 +195,8 @@
       "confidence": 0.94,
       "rationale": "Forecasting non-headcount spend is a budgeting/forecasting model task with no direct capability match.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -220,9 +220,9 @@
       "confidence": 0.82,
       "rationale": "Tracking cloud infrastructure costs is spend analysis outside the listed reporting or accounting capabilities.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -287,9 +287,9 @@
       "confidence": 0.91,
       "rationale": "Driving expense forecasting is a forecasting/budgeting model task that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -312,8 +312,8 @@
       "confidence": 0.98,
       "rationale": "Approving vendor approvals is a spend-approval decision made by a human budget owner.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -379,8 +379,8 @@
       "confidence": 0.89,
       "rationale": "Preparing BvA reporting is budget-versus-actual planning work, which is outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -467,8 +467,8 @@
       "confidence": 0.38,
       "rationale": "Billings actualization is too vague to map confidently to a listed capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -492,8 +492,8 @@
       "confidence": 0.9,
       "rationale": "Forecasting billings is a planning model task that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -517,9 +517,9 @@
       "confidence": 0.97,
       "rationale": "Delivering finance readouts to executive leadership is presenting to leadership, which is human work.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -542,9 +542,9 @@
       "confidence": 0.96,
       "rationale": "Partnering with Accounting through close is cross-functional collaboration, which is human by nature.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -609,8 +609,8 @@
       "confidence": 0.97,
       "rationale": "Reviewing results with budget owners is a human partnership and discussion activity.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -634,8 +634,8 @@
       "confidence": 0.93,
       "rationale": "Maintaining rolling forecasts is forecasting model work that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -680,9 +680,9 @@
       "confidence": 0.89,
       "rationale": "Locking forecasts on a monthly cadence is a forecasting workflow step with no listed capability match.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -705,9 +705,9 @@
       "confidence": 0.97,
       "rationale": "Collaborating cross-functionally on headcount and spend decisions is a human decision-making activity.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -730,9 +730,9 @@
       "confidence": 0.31,
       "rationale": "Leveraging AI tools to accelerate forecasting workflows describes tool usage rather than a finance-operation duty the platform performs.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -755,9 +755,9 @@
       "confidence": 0.31,
       "rationale": "Leveraging AI tools to accelerate variance commentary is too meta and does not map cleanly to a platform capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -780,9 +780,9 @@
       "confidence": 0.31,
       "rationale": "Leveraging AI tools to accelerate ad-hoc analysis describes tool usage rather than a specific finance operation.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {

@@ -87,9 +87,9 @@
       "confidence": 0.87,
       "rationale": "Leading the comprehensive planning cycle is process and team orchestration rather than a platform-finance operation.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -112,8 +112,8 @@
       "confidence": 0.95,
       "rationale": "Managing annual budgeting is FP&A planning/modeling work with no matching capability in the map.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -137,8 +137,8 @@
       "confidence": 0.95,
       "rationale": "Managing quarterly forecasting is a budgeting and forecasting task that is outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -162,8 +162,8 @@
       "confidence": 0.96,
       "rationale": "Managing long-range strategic planning is an FP&A planning model activity not covered by the platform.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -187,9 +187,9 @@
       "confidence": 0.97,
       "rationale": "Developing financial models for P&L, balance sheet, and cash flow is budgeting/forecasting model work with no direct capability match.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -212,9 +212,9 @@
       "confidence": 0.97,
       "rationale": "Maintaining those FP&A models is ongoing planning-model maintenance not covered by the map.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -237,9 +237,9 @@
       "confidence": 0.9,
       "rationale": "Scenario planning is an FP&A modeling activity outside the listed operational finance capabilities.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -262,9 +262,9 @@
       "confidence": 0.58,
       "rationale": "Supporting strategic initiatives is too vague to map to a specific finance-operations capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -287,8 +287,8 @@
       "confidence": 0.62,
       "rationale": "Supporting growth opportunities is too broad to judge against the capability map.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -312,9 +312,9 @@
       "confidence": 0.88,
       "rationale": "Orchestrating the FP&A process is management and coordination work rather than an automatable finance operation.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -337,9 +337,9 @@
       "confidence": 0.74,
       "rationale": "Coordinating the forecasting calendar is an administrative planning task with no direct capability match.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -362,9 +362,9 @@
       "confidence": 0.7,
       "rationale": "Consolidating diverse financial inputs is aggregation work for FP&A planning, not one of the listed covered workflows.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -387,9 +387,9 @@
       "confidence": 0.91,
       "rationale": "Collaborating with business unit finance leads is partnering and cross-functional communication work by nature.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -412,9 +412,9 @@
       "confidence": 0.9,
       "rationale": "Collaborating with accounting to understand historical performance is a cross-functional partnership activity.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -437,8 +437,8 @@
       "confidence": 0.92,
       "rationale": "Actual-versus-budget/forecast variance analysis is FP&A planning analysis and is explicitly outside the listed reporting capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -483,8 +483,8 @@
       "confidence": 0.95,
       "rationale": "Presenting actionable insights to management is a human-facing presentation and advisory duty.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -508,8 +508,8 @@
       "confidence": 0.9,
       "rationale": "Partnering with department heads is cross-functional relationship and advisory work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -533,8 +533,8 @@
       "confidence": 0.89,
       "rationale": "Understanding department financial needs is advisory partnering work with business stakeholders.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -558,9 +558,9 @@
       "confidence": 0.9,
       "rationale": "Providing financial guidance is an advisory human judgment task rather than an automated finance workflow.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -583,9 +583,9 @@
       "confidence": 0.88,
       "rationale": "Ensuring alignment with company goals is strategic coordination and judgment work.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -629,9 +629,9 @@
       "confidence": 0.97,
       "rationale": "Presenting reports to senior management and stakeholders is a human presentation duty.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -654,9 +654,9 @@
       "confidence": 0.63,
       "rationale": "Identifying process improvements and automation opportunities is too broad to map cleanly to a specific capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -679,9 +679,9 @@
       "confidence": 0.56,
       "rationale": "Implementing FP&A process improvements and automation is a project activity that does not match a specific listed workflow.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -704,8 +704,8 @@
       "confidence": 0.9,
       "rationale": "Managing the implementation of Aleph is project leadership and change management, not one of the platform's core finance operations.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },

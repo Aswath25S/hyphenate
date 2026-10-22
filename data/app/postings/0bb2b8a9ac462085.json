@@ -87,9 +87,9 @@
       "confidence": 0.89,
       "rationale": "Leading end-to-end accounting for acquired businesses is function leadership and coordination rather than a discrete automatable accounting task.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -196,9 +196,9 @@
       "confidence": 0.84,
       "rationale": "Documenting accounting conclusions depends on accounting judgment and memo-level reasoning.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -242,9 +242,9 @@
       "confidence": 0.9,
       "rationale": "Managing accounting and finance operations integrations is a cross-functional implementation effort, not a discrete platform task.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -267,8 +267,8 @@
       "confidence": 0.97,
       "rationale": "Designing processes is process design and judgment, which is human work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
         "bucket": "possible_gap"
       }
     },
@@ -292,8 +292,8 @@
       "confidence": 0.61,
       "rationale": "Mapping systems and data is too vague to match a specific covered capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -317,8 +317,8 @@
       "confidence": 0.63,
       "rationale": "Managing subledger flows is broad and does not clearly map to a specific subledger or close capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -342,8 +342,8 @@
       "confidence": 0.96,
       "rationale": "Managing cross-functional handoffs is coordination with other teams, which is human work.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -367,8 +367,8 @@
       "confidence": 0.64,
       "rationale": "Preparing transition readiness is a vague project activity without a direct capability match.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -392,9 +392,9 @@
       "confidence": 0.93,
       "rationale": "Leading accounting operations for acquired businesses is leadership and oversight rather than an automatable task.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -417,8 +417,8 @@
       "confidence": 0.92,
       "rationale": "Managing AR/AP accounting is broad function management rather than a single covered workflow.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -442,9 +442,9 @@
       "confidence": 0.95,
       "rationale": "Designing an accounting structure is policy and framework design, which is human judgment.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -467,9 +467,9 @@
       "confidence": 0.69,
       "rationale": "Design data is too vague to identify a specific finance operations capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -534,8 +534,8 @@
       "confidence": 0.91,
       "rationale": "Providing accounting leadership is a leadership and advisory duty, not a platform task.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -559,9 +559,9 @@
       "confidence": 0.9,
       "rationale": "Managing revenue accounting is function oversight and policy execution beyond the platform's core workflow.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -584,8 +584,8 @@
       "confidence": 0.86,
       "rationale": "Managing receivables accounting is broader oversight of AR work rather than a single automatable action.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -609,8 +609,8 @@
       "confidence": 0.84,
       "rationale": "Managing partner activity is relationship coordination, which is human work.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -634,8 +634,8 @@
       "confidence": 0.87,
       "rationale": "Managing related platform accounting processes is broad operational management without a specific capability match.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -701,9 +701,9 @@
       "confidence": 0.97,
       "rationale": "Communicating drivers and risks to leadership and stakeholders is presentation and advisory work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -726,8 +726,8 @@
       "confidence": 0.85,
       "rationale": "Supporting future M&A accounting is an advisory project activity rather than a defined platform workflow.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -751,8 +751,8 @@
       "confidence": 0.94,
       "rationale": "Providing diligence input is advisory work for a transaction process.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -776,8 +776,8 @@
       "confidence": 0.66,
       "rationale": "Close-readiness is too vague and project-oriented to map cleanly to a specific capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -801,9 +801,9 @@
       "confidence": 0.95,
       "rationale": "Aligning policies and controls is policy-setting and coordination, which is human work.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -826,9 +826,9 @@
       "confidence": 0.96,
       "rationale": "Integrating systems and data is an implementation project, not a discrete finance-operation task.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -851,8 +851,8 @@
       "confidence": 0.62,
       "rationale": "Supporting post-close accounting operations is too broad to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -876,8 +876,8 @@
       "confidence": 0.94,
       "rationale": "Developing scalable policies is policy design and judgment, which is human work.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -922,8 +922,8 @@
       "confidence": 0.89,
       "rationale": "Developing reconciliations is designing the reconciliation approach rather than performing the reconciliation itself.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -947,8 +947,8 @@
       "confidence": 0.96,
       "rationale": "Developing controls is control design, which requires human judgment.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -972,8 +972,8 @@
       "confidence": 0.9,
       "rationale": "Developing process documentation is documentation and process design work handled by people.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -997,9 +997,9 @@
       "confidence": 0.98,
       "rationale": "Partnering with other teams and auditors is relationship management and collaboration.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -1022,9 +1022,9 @@
       "confidence": 0.58,
       "rationale": "Complying with laws and regulations is a broad requirement rather than a specific operational duty.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {

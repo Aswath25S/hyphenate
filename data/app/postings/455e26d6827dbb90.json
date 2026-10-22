@@ -81,8 +81,8 @@
       "confidence": 0.95,
       "rationale": "Owning corporate accounting operations is a broad management/accountability duty rather than a specific automated accounting workflow.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -106,9 +106,9 @@
       "confidence": 0.92,
       "rationale": "Owning the general ledger is oversight of an accounting function, not the act of preparing a specific GL task.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -131,8 +131,8 @@
       "confidence": 0.94,
       "rationale": "Owning month-end and quarter-end close is close management, not the close tasks themselves.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -156,8 +156,8 @@
       "confidence": 0.94,
       "rationale": "Owning reconciliations is management of reconciliations rather than performing account reconciliations end to end.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -181,8 +181,8 @@
       "confidence": 0.93,
       "rationale": "Owning accruals is oversight of the accrual process, not the accrual preparation work itself.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -206,8 +206,8 @@
       "confidence": 0.91,
       "rationale": "Owning prepaids is functional ownership, not maintaining prepaid schedules directly.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -231,8 +231,8 @@
       "confidence": 0.91,
       "rationale": "Owning fixed assets is accounting function ownership, not maintaining the fixed asset register.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -256,8 +256,8 @@
       "confidence": 0.91,
       "rationale": "Owning intercompany activities is oversight of intercompany accounting rather than executing eliminations and recs.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -281,9 +281,9 @@
       "confidence": 0.96,
       "rationale": "Leading the monthly close is team/process leadership, which is a management duty.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -306,9 +306,9 @@
       "confidence": 0.96,
       "rationale": "Leading the quarterly close is management of the close process rather than a discrete close task.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -331,9 +331,9 @@
       "confidence": 0.96,
       "rationale": "Leading the annual close is a leadership responsibility, not an automated accounting action.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -356,8 +356,8 @@
       "confidence": 0.84,
       "rationale": "Ensuring financial results are accurate is a broad accountability/oversight duty rather than a specific platform workflow.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -381,8 +381,8 @@
       "confidence": 0.85,
       "rationale": "Ensuring financial results are well-supported is audit/management oversight, not a discrete operational task.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -406,8 +406,8 @@
       "confidence": 0.84,
       "rationale": "Ensuring financial results are controlled is oversight of controls, not execution of a defined control workflow.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -431,8 +431,8 @@
       "confidence": 0.84,
       "rationale": "Ensuring financial results are delivered on time is a management/accountability duty rather than a specific finance operation.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -456,9 +456,9 @@
       "confidence": 0.88,
       "rationale": "Maintaining a strong internal control environment is control oversight and governance, not just running controls.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -481,8 +481,8 @@
       "confidence": 0.66,
       "rationale": "Building scalable processes is process leadership and redesign work, which is broader than a specific automated accounting capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -506,8 +506,8 @@
       "confidence": 0.97,
       "rationale": "Partnering with Technical Accounting is cross-functional collaboration, which fits the human label.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -531,9 +531,9 @@
       "confidence": 0.97,
       "rationale": "Partnering with Revenue is collaboration/advising across functions, not an operational finance workflow.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -556,9 +556,9 @@
       "confidence": 0.97,
       "rationale": "Partnering with FP&A is cross-functional collaboration rather than an automated finance task.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -581,9 +581,9 @@
       "confidence": 0.97,
       "rationale": "Partnering with Tax is advisory cross-functional work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -606,8 +606,8 @@
       "confidence": 0.97,
       "rationale": "Partnering with Treasury is collaboration with another team, not a platform-performed accounting action.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -631,8 +631,8 @@
       "confidence": 0.97,
       "rationale": "Partnering with Payroll is cross-functional coordination, which is human work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -656,9 +656,9 @@
       "confidence": 0.97,
       "rationale": "Partnering with Legal is advisory and cross-functional, not a finance-operations workflow.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -681,8 +681,8 @@
       "confidence": 0.97,
       "rationale": "Partnering with IT is cross-functional coordination rather than an accounting automation task.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -706,8 +706,8 @@
       "confidence": 0.96,
       "rationale": "Supporting external audits is a relationship-driven audit support duty handled by people.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -731,9 +731,9 @@
       "confidence": 0.46,
       "rationale": "Supporting financial reporting requirements is too broad to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -756,9 +756,9 @@
       "confidence": 0.95,
       "rationale": "Serving as a transformation leader is leadership and change management, which is human work.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -781,8 +781,8 @@
       "confidence": 0.92,
       "rationale": "Developing and executing a transformation roadmap is strategic leadership rather than an operational finance workflow.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -806,9 +806,9 @@
       "confidence": 0.56,
       "rationale": "Identifying opportunities to eliminate manual work is a broad improvement activity without a specific operational action.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -831,9 +831,9 @@
       "confidence": 0.54,
       "rationale": "Identifying opportunities to accelerate the close is too broad and does not name a specific task.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -856,9 +856,9 @@
       "confidence": 0.53,
       "rationale": "Identifying opportunities to improve data quality is a general improvement objective rather than a specific finance operation.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -881,9 +881,9 @@
       "confidence": 0.55,
       "rationale": "Identifying opportunities to strengthen controls is a broad control-improvement activity without a defined workflow.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -906,8 +906,8 @@
       "confidence": 0.54,
       "rationale": "Identifying opportunities to standardize processes is vague process-improvement work, not a specific finance capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -931,9 +931,9 @@
       "confidence": 0.97,
       "rationale": "Leading cross-functional initiatives is project leadership across teams, which is human work.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -956,9 +956,9 @@
       "confidence": 0.94,
       "rationale": "Championing responsible AI adoption is leadership and governance, not an automated accounting operation.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -981,8 +981,8 @@
       "confidence": 0.98,
       "rationale": "Building AI capabilities through training is explicitly staff development, which is human by nature.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -1006,8 +1006,8 @@
       "confidence": 0.95,
       "rationale": "Building AI capabilities through experimentation is team enablement and leadership rather than a finance workflow.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -1031,8 +1031,8 @@
       "confidence": 0.98,
       "rationale": "Building AI capabilities through best-practice sharing is coaching and knowledge-sharing work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -1056,8 +1056,8 @@
       "confidence": 0.95,
       "rationale": "Establishing governance and human oversight is policy/oversight work, which is human in nature.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -1081,8 +1081,8 @@
       "confidence": 0.58,
       "rationale": "Establishing metrics is too vague without specifying what is being measured or how.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -1106,8 +1106,8 @@
       "confidence": 0.59,
       "rationale": "Measuring improvements in close performance is a broad KPI activity rather than a defined operational task.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -1131,8 +1131,8 @@
       "confidence": 0.59,
       "rationale": "Measuring improvements in automation is a generic measurement objective without a specific workflow.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -1156,8 +1156,8 @@
       "confidence": 0.58,
       "rationale": "Measuring productivity improvements is too broad to map to a specific finance-operations capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -1181,8 +1181,8 @@
       "confidence": 0.58,
       "rationale": "Measuring quality improvements is a general performance metric activity rather than a specific task.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -1206,9 +1206,9 @@
       "confidence": 0.98,
       "rationale": "Leading the accounting team is management work, which is human by definition.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1231,9 +1231,9 @@
       "confidence": 0.98,
       "rationale": "Coaching the accounting team is people leadership and development, not an automated task.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1256,9 +1256,9 @@
       "confidence": 0.98,
       "rationale": "Developing the accounting team is staff development and management work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1281,9 +1281,9 @@
       "confidence": 0.51,
       "rationale": "Increasing ownership is too vague to map to a specific finance action or capability.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1306,8 +1306,8 @@
       "confidence": 0.92,
       "rationale": "Building stronger accounting capabilities is team development and capability-building work.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -1331,8 +1331,8 @@
       "confidence": 0.91,
       "rationale": "Building stronger technology capabilities is people development and enablement, which is human work.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -1356,8 +1356,8 @@
       "confidence": 0.92,
       "rationale": "Building stronger business capabilities across the team is training and development, not an operational accounting workflow.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -1381,9 +1381,9 @@
       "confidence": 0.95,
       "rationale": "Fostering a culture of continuous improvement is leadership and culture-building work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1406,9 +1406,9 @@
       "confidence": 0.93,
       "rationale": "Challenging existing processes is change leadership and process design, which is human work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1431,9 +1431,9 @@
       "confidence": 0.93,
       "rationale": "Embracing technology is a leadership mindset and adoption effort rather than a specific finance workflow.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -1456,9 +1456,9 @@
       "confidence": 0.93,
       "rationale": "Embracing automation is change leadership and adoption, not a discrete platform task.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -1481,9 +1481,9 @@
       "confidence": 0.92,
       "rationale": "Embracing new ways of working is organizational change leadership, which is human work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -1506,8 +1506,8 @@
       "confidence": 0.94,
       "rationale": "Balancing operational excellence with transformation is strategic management rather than a specific finance-operations capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },

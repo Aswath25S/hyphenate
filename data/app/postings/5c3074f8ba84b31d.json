@@ -115,8 +115,8 @@
       "confidence": 0.8,
       "rationale": "Assisting with quarterly and annual SEC filings is filing-support work that is not covered by the listed finance-ops capabilities.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -161,9 +161,9 @@
       "confidence": 0.82,
       "rationale": "Preparing footnotes is SEC-reporting support work with no matching capability in the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -186,8 +186,8 @@
       "confidence": 0.86,
       "rationale": "Preparing EPS is specialized reporting work and is not covered by any listed capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -211,8 +211,8 @@
       "confidence": 0.83,
       "rationale": "Preparing equity rollforwards is a specialized reporting schedule with no direct capability match.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -236,8 +236,8 @@
       "confidence": 0.76,
       "rationale": "Managing the reporting calendar is administrative coordination that is not a listed capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -261,8 +261,8 @@
       "confidence": 0.76,
       "rationale": "Managing disclosure checklists is a process-tracking task with no direct capability match.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -286,9 +286,9 @@
       "confidence": 0.78,
       "rationale": "Managing XBRL tagging is SEC filing production work that is not covered in the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -311,8 +311,8 @@
       "confidence": 0.74,
       "rationale": "Managing tie-out support files is supporting documentation work with no matching capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -336,9 +336,9 @@
       "confidence": 0.95,
       "rationale": "Coordinating deliverables across Legal, FP&A, IR and auditors is cross-functional partnership work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -361,9 +361,9 @@
       "confidence": 0.92,
       "rationale": "Owning ASC 718 equity accounting for RSUs, options and ESPP matches stock-comp accounting, which is not covered.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -386,9 +386,9 @@
       "confidence": 0.93,
       "rationale": "Accounting for modifications is stock-comp accounting work outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -411,9 +411,9 @@
       "confidence": 0.93,
       "rationale": "Accounting for cancellations is stock-comp accounting work outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -436,9 +436,9 @@
       "confidence": 0.9,
       "rationale": "Accounting for other non-routine award activity is specialized stock-comp accounting with no capability match.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -461,8 +461,8 @@
       "confidence": 0.88,
       "rationale": "Preparing statutory and regulatory financial statements and filings is not covered by the reporting capabilities listed.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -486,8 +486,8 @@
       "confidence": 0.89,
       "rationale": "Reviewing statutory and regulatory filings is a human review and approval activity rather than automated execution.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -511,8 +511,8 @@
       "confidence": 0.66,
       "rationale": "Establishing scalable intercompany accounting processes is process design and implementation work rather than transaction processing.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -536,8 +536,8 @@
       "confidence": 0.64,
       "rationale": "Establishing scalable intercompany reporting is reporting design and process ownership, which is not a listed automation capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -561,8 +561,8 @@
       "confidence": 0.6,
       "rationale": "Supporting a growing multi-entity structure is broad cross-functional coordination and ownership work.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -586,9 +586,9 @@
       "confidence": 0.97,
       "rationale": "Reviewing journal entries is human review, which is explicitly excluded from the journal-entry capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -611,9 +611,9 @@
       "confidence": 0.97,
       "rationale": "Reviewing reconciliations is human review rather than the reconciliations capability itself.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -636,8 +636,8 @@
       "confidence": 0.94,
       "rationale": "Reviewing flux analysis is oversight of variance work, which is treated as human review in the map.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -661,8 +661,8 @@
       "confidence": 0.84,
       "rationale": "Documenting SOX-compliant accounting policies is documentation work with no direct capability match.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -686,9 +686,9 @@
       "confidence": 0.83,
       "rationale": "Maintaining SOX-compliant accounting policies is policy upkeep outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -711,8 +711,8 @@
       "confidence": 0.82,
       "rationale": "Documenting SOX-compliant processes is process documentation work that is not explicitly covered.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -736,8 +736,8 @@
       "confidence": 0.8,
       "rationale": "Maintaining SOX-compliant processes is process upkeep work with no direct capability match.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -803,9 +803,9 @@
       "confidence": 0.63,
       "rationale": "Driving automation of manual procedures is a broad process-improvement initiative that is too open-ended to map cleanly.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {

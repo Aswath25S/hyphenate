@@ -92,9 +92,9 @@
       "confidence": 0.94,
       "rationale": "Leading planning and budgeting is managerial planning work, not an ops task the platform executes.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -117,8 +117,8 @@
       "confidence": 0.91,
       "rationale": "Developing headcount and vendor investment models is budgeting/modeling work with no matching capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -142,8 +142,8 @@
       "confidence": 0.88,
       "rationale": "Creating budget reporting packages is reporting/model-building for planning, which is not covered.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -167,9 +167,9 @@
       "confidence": 0.95,
       "rationale": "Leading the corporate budgeting process is project leadership and coordination.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -192,8 +192,8 @@
       "confidence": 0.89,
       "rationale": "Supporting leadership on resource allocation is advisory work for other teams.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -238,9 +238,9 @@
       "confidence": 0.85,
       "rationale": "Designing scalable financial processes is process design and judgment work.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -263,8 +263,8 @@
       "confidence": 0.51,
       "rationale": "Continuously evaluating processes and systems is too broad to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -288,9 +288,9 @@
       "confidence": 0.48,
       "rationale": "Identifying areas for improvement is too vague to classify.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -313,8 +313,8 @@
       "confidence": 0.46,
       "rationale": "Implementing best practices is nonspecific and not tied to a listed capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -338,8 +338,8 @@
       "confidence": 0.82,
       "rationale": "Recommending enhancements is advisory work rather than an operational finance process.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -363,8 +363,8 @@
       "confidence": 0.78,
       "rationale": "Scoping and implementing planning software is a strategic project implementation task.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -388,8 +388,8 @@
       "confidence": 0.9,
       "rationale": "Establishing and rolling out policies is policy-setting and process leadership.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -413,8 +413,8 @@
       "confidence": 0.89,
       "rationale": "Partnering with other functions to build systems is cross-functional collaboration.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -438,9 +438,9 @@
       "confidence": 0.96,
       "rationale": "Serving as the organization-wide budgeting contact is a liaison role.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -463,8 +463,8 @@
       "confidence": 0.86,
       "rationale": "Building ROI-based business cases is financial modeling not covered by the map.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -488,8 +488,8 @@
       "confidence": 0.84,
       "rationale": "Evaluating investment tradeoffs is decision support and judgment.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -513,9 +513,9 @@
       "confidence": 0.93,
       "rationale": "Acting as the primary budget lead to external stakeholders and vendors is relationship management.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -538,8 +538,8 @@
       "confidence": 0.82,
       "rationale": "Managing contracts and renewals is administrative contract tracking with no matching capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -563,9 +563,9 @@
       "confidence": 0.73,
       "rationale": "Conducting due diligence on new systems and processes is evaluative project work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -588,8 +588,8 @@
       "confidence": 0.88,
       "rationale": "Partnering with Accounting on cash management and bank reviews is cross-team collaboration.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -655,8 +655,8 @@
       "confidence": 0.57,
       "rationale": "Improving margin by finding efficiency opportunities is too general to map cleanly.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -680,9 +680,9 @@
       "confidence": 0.84,
       "rationale": "Aligning departmental spend to revenue outcomes is planning/modeling work outside the coverage map.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -705,8 +705,8 @@
       "confidence": 0.79,
       "rationale": "Planning and implementing a scalable planning system is a strategic implementation project.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -730,8 +730,8 @@
       "confidence": 0.98,
       "rationale": "Managing and developing a senior analyst is people management.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -755,8 +755,8 @@
       "confidence": 0.92,
       "rationale": "Building a long-term planning and budgeting plan with team growth is strategic leadership work.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },

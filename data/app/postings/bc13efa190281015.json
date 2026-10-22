@@ -79,8 +79,8 @@
       "confidence": 0.83,
       "rationale": "Developing customer economics and investment recommendations is strategic analysis and advising other teams, which is people work rather than a covered operational workflow.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -104,8 +104,8 @@
       "confidence": 0.84,
       "rationale": "Evaluating CAC, LTV, and payback is a repeatable growth-investment model that is not covered by the listed finance-operations capabilities.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -129,8 +129,8 @@
       "confidence": 0.97,
       "rationale": "Partnering with Marketing and Growth leaders is cross-functional collaboration and advisory work by nature.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -154,8 +154,8 @@
       "confidence": 0.78,
       "rationale": "Identify constraints is too vague to map to a specific finance-operations capability or human-only duty.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -179,9 +179,9 @@
       "confidence": 0.88,
       "rationale": "Determining the resources and changes needed to produce more business is strategic planning and advising, not a covered transactional process.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -204,8 +204,8 @@
       "confidence": 0.86,
       "rationale": "Building models and analyses to guide growth investments is FP&A-style modeling that is not covered by the platform capabilities.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -229,9 +229,9 @@
       "confidence": 0.84,
       "rationale": "Translating plans into resource requirements and spending forecasts is a planning/forecasting model task outside the covered capabilities.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -254,9 +254,9 @@
       "confidence": 0.74,
       "rationale": "Track commitments as plans evolve is too vague to determine the underlying finance action.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -279,9 +279,9 @@
       "confidence": 0.87,
       "rationale": "Strengthening measurement and attribution with business partners is collaborative analysis and process improvement, which is human work.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -325,9 +325,9 @@
       "confidence": 0.95,
       "rationale": "Helping teams make investment decisions with incomplete information is advisory judgment work, not an automated finance-operations task.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
       }
     },
     {
@@ -350,8 +350,8 @@
       "confidence": 0.8,
       "rationale": "Make assumptions explicit is too vague without a specific finance process or output.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -375,9 +375,9 @@
       "confidence": 0.89,
       "rationale": "Using results to refine where to invest is strategic decision support and recommendation work for other teams.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -400,8 +400,8 @@
       "confidence": 0.77,
       "rationale": "Take ownership of emerging strategic questions across GTM is too broad and unspecified to map cleanly.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -425,8 +425,8 @@
       "confidence": 0.96,
       "rationale": "Bringing clear recommendations is advisory work, which is human judgment rather than a covered operational capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -450,9 +450,9 @@
       "confidence": 0.82,
       "rationale": "Adapt as priorities change is too general to identify a specific finance operation or analysis task.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {

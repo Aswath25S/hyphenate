@@ -78,8 +78,8 @@
       "confidence": 0.97,
       "rationale": "Developing an ASC 606 policy framework is setting accounting policy, which is human judgment by nature.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -103,9 +103,9 @@
       "confidence": 0.95,
       "rationale": "Maintaining a defensible ASC 606 policy framework is ongoing accounting policy management, which requires human judgment.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -128,9 +128,9 @@
       "confidence": 0.96,
       "rationale": "Delivering conclusions on complex deals is technical accounting judgment on novel arrangements, not a routine system task.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -153,8 +153,8 @@
       "confidence": 0.98,
       "rationale": "Reviewing strategic, non-standard arrangements is deal judgment and legal/accounting review, which is human work.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -178,8 +178,8 @@
       "confidence": 0.97,
       "rationale": "Capturing reasoning in technical memos for complex revenue conclusions is human judgment and documentation of policy decisions.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -203,9 +203,9 @@
       "confidence": 0.99,
       "rationale": "Partnering with Sales, Legal, Deal Desk, FP&A, and RevOps is cross-functional collaboration and advisory work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -228,9 +228,9 @@
       "confidence": 0.93,
       "rationale": "Surfacing revenue considerations before deals are signed is advisory support to the deal process, not an automated revenue workflow.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -253,8 +253,8 @@
       "confidence": 0.62,
       "rationale": "Supporting timely, accurate revenue results each close is too vague to map to a specific platform capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -278,8 +278,8 @@
       "confidence": 0.9,
       "rationale": "Building a more scalable revenue function is a broad process-improvement project rather than a specific automatable duty.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -303,9 +303,9 @@
       "confidence": 0.9,
       "rationale": "Creating templates is too generic and does not match a specific covered finance-operations capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -328,9 +328,9 @@
       "confidence": 0.92,
       "rationale": "Creating checklists is a generic process-design task and not the execution of a listed platform capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -353,9 +353,9 @@
       "confidence": 0.9,
       "rationale": "Creating playbooks is a broad enablement task that does not map to a specific covered workflow.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -378,9 +378,9 @@
       "confidence": 0.88,
       "rationale": "Identifying automation opportunities is a process-improvement activity, not a defined end-to-end finance operation capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {

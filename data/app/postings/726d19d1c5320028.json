@@ -96,9 +96,9 @@
       "confidence": 0.77,
       "rationale": "The duty broadly covers owning revenue accounting and billing operations without a specific operational action that maps cleanly to one capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -121,8 +121,8 @@
       "confidence": 0.84,
       "rationale": "The duty centers on validating and approving sales orders and milestone schedules, which is a rules-based review/approval workflow not directly covered by the map.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -167,8 +167,8 @@
       "confidence": 0.71,
       "rationale": "The duty reviews milestone eligibility, a judgment-heavy contract/billing determination that does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -192,8 +192,8 @@
       "confidence": 0.79,
       "rationale": "The duty reconciles CLINs, which is a contract-line-item matching task not explicitly covered by the map.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -238,9 +238,9 @@
       "confidence": 0.83,
       "rationale": "The duty maintains billing and payment status in tracking systems, an administrative tracking task with no direct capability match.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -263,8 +263,8 @@
       "confidence": 0.95,
       "rationale": "The duty drafts ASC 606 technical accounting memos, which requires technical accounting judgment and interpretation.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -372,8 +372,8 @@
       "confidence": 0.82,
       "rationale": "The duty is a broad process-improvement request for billing and revenue workflows without a specific executable action.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -397,8 +397,8 @@
       "confidence": 0.85,
       "rationale": "The duty supports automation and systems initiatives, which is too vague and project-oriented to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -422,8 +422,8 @@
       "confidence": 0.96,
       "rationale": "The duty partners with other teams to align contract terms, billing schedules, and revenue treatment, which is cross-functional coordination and advisory work.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },

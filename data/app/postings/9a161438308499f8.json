@@ -84,9 +84,9 @@
       "confidence": 0.82,
       "rationale": "Coordinating concurrent loan purchases is an operational transaction workflow that does not match any treasury capability on the map.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -109,8 +109,8 @@
       "confidence": 0.81,
       "rationale": "Managing loan purchases across origination and servicer networks is counterparties-and-process work with no matching capability listed.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -155,8 +155,8 @@
       "confidence": 0.76,
       "rationale": "Monitoring facility draw capacities is a liquidity-monitoring task but not one of the listed treasury capabilities.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -201,9 +201,9 @@
       "confidence": 0.86,
       "rationale": "Tracking portfolio concentration limits is a compliance monitoring task with no matching capability on the map.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -226,9 +226,9 @@
       "confidence": 0.9,
       "rationale": "Tracking borrowing base parameters is rules-based monitoring that is not covered by any listed capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -251,9 +251,9 @@
       "confidence": 0.9,
       "rationale": "Tracking eligibility criteria for asset allocation is compliance checking against deal terms, which is not a listed capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -276,9 +276,9 @@
       "confidence": 0.92,
       "rationale": "Operational setup of bank accounts is specifically excluded from the bank reconciliation capability and is not otherwise covered.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -301,9 +301,9 @@
       "confidence": 0.91,
       "rationale": "Operational setup of trust accounts is account-opening work that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -326,8 +326,8 @@
       "confidence": 0.88,
       "rationale": "Managing entitlements is access administration rather than a listed finance-operations capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -351,8 +351,8 @@
       "confidence": 0.87,
       "rationale": "Managing portal configurations is system administration and does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -376,8 +376,8 @@
       "confidence": 0.83,
       "rationale": "Managing onboarding checklists is workflow administration that is not covered by the capability map.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -398,9 +398,9 @@
       "confidence": 0.96,
       "rationale": "Being the main operational point of contact for external parties is relationship management, which is labeled human.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -420,9 +420,9 @@
       "confidence": 0.8,
       "rationale": "Coordinating daily cash flows is treasury operations work but not a listed automated capability.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -463,8 +463,8 @@
       "confidence": 0.89,
       "rationale": "Owning KYC/AML documentation packages is compliance documentation work with no matching capability listed.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -488,8 +488,8 @@
       "confidence": 0.84,
       "rationale": "Owning periodic account reviews is a recurring compliance/account-maintenance task not covered by the map.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -513,9 +513,9 @@
       "confidence": 0.86,
       "rationale": "Managing legal entity updates across relationships is entity administration that does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -601,8 +601,8 @@
       "confidence": 0.78,
       "rationale": "Identifying friction points in treasury workflows is process-improvement analysis with no matching capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -626,8 +626,8 @@
       "confidence": 0.88,
       "rationale": "Implementing updated procedures is process-change work rather than a listed finance-operations capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -651,8 +651,8 @@
       "confidence": 0.9,
       "rationale": "Implementing controls is control-design work, which is not covered by the monitoring-controls capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -676,8 +676,8 @@
       "confidence": 0.87,
       "rationale": "Implementing reporting templates is template design and rollout, not a listed reporting capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },

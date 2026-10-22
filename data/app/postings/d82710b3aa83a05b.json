@@ -82,8 +82,8 @@
       "confidence": 0.91,
       "rationale": "Owning pieces of a revenue forecast is forecasting model work, which is a gap candidate because revenue forecasting is not in the coverage map.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -107,8 +107,8 @@
       "confidence": 0.97,
       "rationale": "Building and refining revenue forecast models is a budgeting/forecasting model task that is not covered by the platform.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -132,8 +132,8 @@
       "confidence": 0.73,
       "rationale": "Refining forecast processes is a vague process-improvement duty that does not map cleanly to a specific covered capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -199,8 +199,8 @@
       "confidence": 0.84,
       "rationale": "Analyzing external market and macro factors is too broad and not tied to a covered finance-operations capability.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -224,9 +224,9 @@
       "confidence": 0.9,
       "rationale": "Making the process more automated and scalable is a generic process-improvement/project duty without a specific mapped capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -249,8 +249,8 @@
       "confidence": 0.98,
       "rationale": "Partnering day-to-day with the GTM organization is cross-functional relationship work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -337,8 +337,8 @@
       "confidence": 0.99,
       "rationale": "Helping recruit and grow a finance team is hiring and team development, which is human work.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },

@@ -77,8 +77,8 @@
       "confidence": 0.98,
       "rationale": "Owning priority customer escalations end to end is human case ownership and coordination, not a platform workflow.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -102,9 +102,9 @@
       "confidence": 0.9,
       "rationale": "Triage of priority customer escalations requires judgment on severity, ownership, and next steps.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -127,9 +127,9 @@
       "confidence": 0.95,
       "rationale": "Creating action plans for escalations is judgment-based problem solving and not a covered finance operation.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -152,9 +152,9 @@
       "confidence": 0.97,
       "rationale": "Coordinating cross-functional resources is partnering with other teams, which is a human function.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -177,8 +177,8 @@
       "confidence": 0.94,
       "rationale": "Managing risk on escalations is judgment-heavy and outside the platform's automated finance workflows.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -202,9 +202,9 @@
       "confidence": 0.97,
       "rationale": "Providing real-time status updates to customers and executives is communication and stakeholder management.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -227,8 +227,8 @@
       "confidence": 0.98,
       "rationale": "Serving as the single-threaded owner is human ownership and accountability, not an automatable process.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -252,9 +252,9 @@
       "confidence": 0.98,
       "rationale": "Creating accountability across partner teams is cross-functional leadership and coordination.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -277,9 +277,9 @@
       "confidence": 0.92,
       "rationale": "Delivering post-mortems is a stakeholder communication and analysis task rather than a covered operation.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -302,8 +302,8 @@
       "confidence": 0.93,
       "rationale": "Delivering executive summaries is presenting/summarizing to stakeholders, which is human work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
         "bucket": "possible_gap"
       }
     },
@@ -327,8 +327,8 @@
       "confidence": 0.78,
       "rationale": "Tracking resolution progress through closure is repetitive case tracking with no matching capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -352,8 +352,8 @@
       "confidence": 0.78,
       "rationale": "Tracking commitments through closure is administrative follow-up work that could be automated but is not covered.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -377,8 +377,8 @@
       "confidence": 0.78,
       "rationale": "Tracking follow-up actions through closure is task tracking and workflow administration with no direct capability match.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -402,8 +402,8 @@
       "confidence": 0.48,
       "rationale": "Analyzing escalation themes is an analytical task, but it does not clearly map to any listed finance capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -427,9 +427,9 @@
       "confidence": 0.47,
       "rationale": "Quantifying business impact is a general analysis task without a clear fit to a covered capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -449,8 +449,8 @@
       "confidence": 0.44,
       "rationale": "Identifying opportunities for process, product, and workflow improvement is broad process-improvement judgment rather than a covered operation.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -474,9 +474,9 @@
       "confidence": 0.9,
       "rationale": "Prioritizing improvement opportunities requires judgment and decision-making, which is human work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -499,8 +499,8 @@
       "confidence": 0.98,
       "rationale": "Leading cross-functional programs to improve customer experience is program leadership and coordination.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -524,8 +524,8 @@
       "confidence": 0.5,
       "rationale": "Standardizing escalation workflows is process design, but it does not map cleanly to a listed capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -549,9 +549,9 @@
       "confidence": 0.94,
       "rationale": "Standardizing service-level expectations is setting policy and expectations, which is human work.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -574,8 +574,8 @@
       "confidence": 0.46,
       "rationale": "Standardizing tooling is a project/process-design activity with no matching platform capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -599,8 +599,8 @@
       "confidence": 0.45,
       "rationale": "Standardizing reporting is broad reporting-design work that does not clearly match a listed capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -624,8 +624,8 @@
       "confidence": 0.45,
       "rationale": "Standardizing dashboards is report-design work without a direct capability match.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -649,8 +649,8 @@
       "confidence": 0.98,
       "rationale": "Coaching frontline teams is training and people development, which is human work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -674,8 +674,8 @@
       "confidence": 0.98,
       "rationale": "Coaching frontline teams on de-escalation is training staff, not an automated finance operation.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -699,8 +699,8 @@
       "confidence": 0.98,
       "rationale": "Coaching frontline teams on customer communication is training and advisory work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -724,8 +724,8 @@
       "confidence": 0.98,
       "rationale": "Coaching frontline teams on escalation processes is staff training and process adoption support.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },

@@ -92,9 +92,9 @@
       "confidence": 0.98,
       "rationale": "This is people management of an AP team, which is managerial work by nature.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -117,8 +117,8 @@
       "confidence": 0.98,
       "rationale": "Mentoring AP specialists is staff development and coaching, which is human work.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -142,8 +142,8 @@
       "confidence": 0.98,
       "rationale": "Developing specialists is training and talent development, which is human work.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -167,8 +167,8 @@
       "confidence": 0.93,
       "rationale": "Fostering accountability is team management and oversight, not a platform workflow.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -192,8 +192,8 @@
       "confidence": 0.93,
       "rationale": "Fostering growth is people leadership and coaching, which is human work.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -217,8 +217,8 @@
       "confidence": 0.93,
       "rationale": "Fostering high performance is a management responsibility rather than an automatable finance task.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -242,8 +242,8 @@
       "confidence": 0.9,
       "rationale": "Overseeing end-to-end AP operations is overall operational management, not a specific platform capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -309,9 +309,9 @@
       "confidence": 0.97,
       "rationale": "Expense reimbursements are repetitive AP work but are not covered by the listed AP payment capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -373,8 +373,8 @@
       "confidence": 0.9,
       "rationale": "Handling foreign currency transactions is finance operations work but no listed capability covers FX transaction handling.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -398,8 +398,8 @@
       "confidence": 0.84,
       "rationale": "Ensuring compliance with local regulations is a policy/compliance oversight duty rather than a defined automation capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -423,9 +423,9 @@
       "confidence": 0.98,
       "rationale": "Partnering with other functions is collaboration and advisory work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -469,9 +469,9 @@
       "confidence": 0.72,
       "rationale": "Streamlining workflows is too vague to map to a specific finance-operations capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -494,9 +494,9 @@
       "confidence": 0.98,
       "rationale": "Year-end 1099 processing is a repetitive tax/reporting task that is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -519,8 +519,8 @@
       "confidence": 0.98,
       "rationale": "Submitting year-end 1099 forms is a tax filing task outside the coverage map.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },
@@ -544,8 +544,8 @@
       "confidence": 0.97,
       "rationale": "Preparing sales tax allocation reports is tax compliance work that is not covered here.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -569,8 +569,8 @@
       "confidence": 0.86,
       "rationale": "Maintaining compliance with laws and regulations is compliance oversight and policy work, which is not a platform workflow.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -636,8 +636,8 @@
       "confidence": 0.7,
       "rationale": "Preparing reporting is too vague to determine whether it is management reporting, audit support, or another task.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -661,9 +661,9 @@
       "confidence": 0.93,
       "rationale": "Driving process improvements is a broad initiative with no specific automatable finance action stated.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -686,8 +686,8 @@
       "confidence": 0.9,
       "rationale": "Driving automation is too broad and describes an initiative rather than a specific covered capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -711,9 +711,9 @@
       "confidence": 0.9,
       "rationale": "Driving system enhancements is a project/initiative statement without a specific covered operational action.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -736,8 +736,8 @@
       "confidence": 0.97,
       "rationale": "Maintaining positive vendor relationships is relationship management, which is human work.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -761,8 +761,8 @@
       "confidence": 0.9,
       "rationale": "Resolving escalations is relationship handling and judgment work, not a specific automated workflow.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -828,8 +828,8 @@
       "confidence": 0.8,
       "rationale": "Providing explanations is too vague without knowing whether it is audit, variance, or vendor communication.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -853,8 +853,8 @@
       "confidence": 0.88,
       "rationale": "Providing process insights is too vague to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },

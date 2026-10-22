@@ -86,9 +86,9 @@
       "confidence": 0.83,
       "rationale": "Leading finance for GPU compute spend is a strategic ownership/partnering activity rather than an automated finance operation.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -111,8 +111,8 @@
       "confidence": 0.98,
       "rationale": "Budgeting GPU compute spend is an FP&A planning task that matches no covered capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -136,8 +136,8 @@
       "confidence": 0.96,
       "rationale": "Forecasting GPU compute spend monthly is a budgeting/forecasting model activity outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -182,9 +182,9 @@
       "confidence": 0.98,
       "rationale": "Maintaining the financial plan is FP&A planning work not covered by the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -207,8 +207,8 @@
       "confidence": 0.99,
       "rationale": "Building and maintaining detailed bottoms-up financial models is a planning-model task with no matching capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -232,8 +232,8 @@
       "confidence": 0.78,
       "rationale": "Forecasting GPU fleet capacity is a capacity-planning forecast that does not match any listed finance-ops capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -278,8 +278,8 @@
       "confidence": 0.95,
       "rationale": "Modeling investment scenarios is a strategic planning activity not covered by the map.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -303,9 +303,9 @@
       "confidence": 0.72,
       "rationale": "Developing deep expertise in vendor contracts is a knowledge/relationship activity rather than a finance automation task.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -328,9 +328,9 @@
       "confidence": 0.58,
       "rationale": "Developing deep expertise in pricing structures is too vague and does not specify an automatable finance action.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -353,9 +353,9 @@
       "confidence": 0.58,
       "rationale": "Developing deep expertise in cost drivers is too vague to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -378,8 +378,8 @@
       "confidence": 0.74,
       "rationale": "Surfacing optimization opportunities across the fleet is strategic analysis and recommendation work with no direct match.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -403,9 +403,9 @@
       "confidence": 0.9,
       "rationale": "Serving as subject matter expert for the capacity plan is advisory work for another team.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -428,8 +428,8 @@
       "confidence": 0.69,
       "rationale": "Owning a source of truth on utilization is data maintenance/reporting work without a direct capability match.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -453,8 +453,8 @@
       "confidence": 0.71,
       "rationale": "Owning a source of truth on committed-versus-consumed spend is reporting data maintenance that is not directly covered.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -478,8 +478,8 @@
       "confidence": 0.7,
       "rationale": "Owning a source of truth on capacity by vendor and cluster is operational reporting maintenance with no matching capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -503,8 +503,8 @@
       "confidence": 0.94,
       "rationale": "Building token-cost curves is a finance modeling task outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -528,9 +528,9 @@
       "confidence": 0.92,
       "rationale": "Translating cost curves into internal token pricing is pricing-model work not covered by the map.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -553,9 +553,9 @@
       "confidence": 0.92,
       "rationale": "Translating cost curves into external token pricing is pricing design work with no matching capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -578,8 +578,8 @@
       "confidence": 0.95,
       "rationale": "Analyzing ROI of in-house inference and training is an investment-planning analysis outside the coverage map.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -603,8 +603,8 @@
       "confidence": 0.93,
       "rationale": "Analyzing opportunity cost across chips, clusters and workloads is strategic scenario analysis not covered here.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -628,8 +628,8 @@
       "confidence": 0.88,
       "rationale": "Distilling results into a capacity deployment framework is a strategic planning framework task with no direct match.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -653,8 +653,8 @@
       "confidence": 0.97,
       "rationale": "Partnering closely with engineering is cross-functional collaboration work by nature.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -678,8 +678,8 @@
       "confidence": 0.55,
       "rationale": "Understanding how workloads scale is too vague and describes knowledge rather than a specific finance operation.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -703,9 +703,9 @@
       "confidence": 0.86,
       "rationale": "Translating technical dynamics into financial frameworks is planning-model development not covered by the map.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {

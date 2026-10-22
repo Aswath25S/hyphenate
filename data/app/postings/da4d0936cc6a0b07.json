@@ -164,9 +164,9 @@
       "confidence": 0.96,
       "rationale": "The core action is cross-functional collaboration to identify opportunities, which is stakeholder-facing partnership work by nature.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -189,8 +189,8 @@
       "confidence": 0.98,
       "rationale": "Establishing strong partnerships with stakeholders is relationship management, not an automatable finance-operation task.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -214,9 +214,9 @@
       "confidence": 0.95,
       "rationale": "Driving initiatives from ideation to completion is broad project leadership and execution, which is human-led.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -239,9 +239,9 @@
       "confidence": 0.97,
       "rationale": "Influencing decisions through clear recommendations is advisory judgment and persuasion, which fits human work.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -264,9 +264,9 @@
       "confidence": 0.97,
       "rationale": "Constructive challenge and stakeholder alignment are change-management and collaboration activities that require people judgment.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -289,8 +289,8 @@
       "confidence": 0.91,
       "rationale": "Building planning, investment, and resource-allocation models is FP&A planning work that is rules-based but not covered by the map.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -314,8 +314,8 @@
       "confidence": 0.9,
       "rationale": "Building forecasts for planning and resource allocation is FP&A forecasting, which is outside the covered treasury forecast capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -339,9 +339,9 @@
       "confidence": 0.91,
       "rationale": "Building business cases for investment decisions is planning analysis and does not match any listed finance-ops capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -364,9 +364,9 @@
       "confidence": 0.74,
       "rationale": "Conducting market research is an analytical task, but the duty is too generic to map to a specific covered capability.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -389,8 +389,8 @@
       "confidence": 0.79,
       "rationale": "Analyzing industry trends is broad research/analysis without a specific matching finance-operations capability.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -414,8 +414,8 @@
       "confidence": 0.77,
       "rationale": "Analyzing the competitive landscape is general strategic analysis and does not fit any listed capability.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -439,8 +439,8 @@
       "confidence": 0.76,
       "rationale": "Analyzing user and advertiser needs is market analysis, but the duty is too general to map confidently.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -464,8 +464,8 @@
       "confidence": 0.82,
       "rationale": "Developing strategic growth initiatives is strategy design, which is outside the finance-operations coverage map.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -489,9 +489,9 @@
       "confidence": 0.98,
       "rationale": "Presenting strategic growth initiatives is presentation work to stakeholders, which is explicitly human.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -514,9 +514,9 @@
       "confidence": 0.96,
       "rationale": "Working with Investor Relations partners is cross-team partnering and advisory collaboration, not platform automation.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -539,8 +539,8 @@
       "confidence": 0.73,
       "rationale": "Continuously monitoring strategic initiatives is vague oversight work that does not map to a specific capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -564,8 +564,8 @@
       "confidence": 0.78,
       "rationale": "Evaluating the effectiveness of strategic initiatives is general analysis and not tied to a listed finance operation.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -589,9 +589,9 @@
       "confidence": 0.81,
       "rationale": "Adjusting strategic initiatives as needed is strategic judgment and does not fit a specific covered workflow.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -614,9 +614,9 @@
       "confidence": 0.7,
       "rationale": "Improving processes is too vague to determine whether it refers to an automatable finance task or general process work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -639,8 +639,8 @@
       "confidence": 0.72,
       "rationale": "Improving reporting is a broad process-improvement statement rather than a specific reporting-build capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -664,8 +664,8 @@
       "confidence": 0.95,
       "rationale": "Driving adoption across teams is change management and stakeholder coordination, which is human-led.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -689,9 +689,9 @@
       "confidence": 0.94,
       "rationale": "Sharing expertise across teams is advisory and cross-functional knowledge transfer, which is human work.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {

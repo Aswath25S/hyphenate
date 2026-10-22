@@ -164,8 +164,8 @@
       "confidence": 0.72,
       "rationale": "Owning the product investment envelope is budgeting and resource allocation work, which is not a listed platform capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -189,8 +189,8 @@
       "confidence": 0.97,
       "rationale": "Managing OpEx budgets is budgeting/modeling work that the map does not cover.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -214,8 +214,8 @@
       "confidence": 0.97,
       "rationale": "Managing headcount budgets is a workforce-planning/budgeting task outside the coverage map.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -239,9 +239,9 @@
       "confidence": 0.9,
       "rationale": "Ensuring investments align with company strategy is a judgment and advisory action, not an automated finance operation.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -264,8 +264,8 @@
       "confidence": 0.8,
       "rationale": "Maintaining spend and margin targets is planning/control work that matches no listed capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -289,9 +289,9 @@
       "confidence": 0.95,
       "rationale": "Driving workforce planning across teams is an FP&A planning function that is not in the map.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -314,9 +314,9 @@
       "confidence": 0.98,
       "rationale": "Building bottom-up headcount models is a budgeting model task with no matching capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -339,9 +339,9 @@
       "confidence": 0.94,
       "rationale": "Partnering with Engineering leaders to sequence hiring is cross-functional advising and coordination.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -364,9 +364,9 @@
       "confidence": 0.94,
       "rationale": "Partnering with Engineering leaders on compliance-driven hiring decisions is advisory work requiring human judgment.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -389,9 +389,9 @@
       "confidence": 0.94,
       "rationale": "Partnering with Engineering leaders to sequence hiring for scale is collaborative decision-making, not a finance platform workflow.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -414,8 +414,8 @@
       "confidence": 0.95,
       "rationale": "Modeling infrastructure and internal systems economics is a forecasting/modeling task with no direct capability match.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -439,8 +439,8 @@
       "confidence": 0.96,
       "rationale": "Forecasting cloud hosting costs is a budgeting model task not covered by the map.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -464,8 +464,8 @@
       "confidence": 0.96,
       "rationale": "Forecasting AI/compute costs is a planning model task with no matching capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -489,8 +489,8 @@
       "confidence": 0.96,
       "rationale": "Forecasting internal tooling costs is a planning/modeling activity outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -514,8 +514,8 @@
       "confidence": 0.96,
       "rationale": "Forecasting SaaS application costs is a budgeting model task not covered by the map.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -539,8 +539,8 @@
       "confidence": 0.96,
       "rationale": "Forecasting enterprise systems costs is a planning model task with no direct capability match.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -564,9 +564,9 @@
       "confidence": 0.84,
       "rationale": "Identifying optimization opportunities across tech spend is analysis and process improvement that the map does not cover.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -589,9 +589,9 @@
       "confidence": 0.92,
       "rationale": "Translating corporate priorities into financial tradeoffs is strategic advisory work requiring judgment.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -614,8 +614,8 @@
       "confidence": 0.93,
       "rationale": "Evaluating build-versus-buy decisions is a judgment-heavy business decision, not an operational finance workflow.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -639,8 +639,8 @@
       "confidence": 0.95,
       "rationale": "Evaluating capitalizable versus expensed R&D is accounting policy judgment rather than an automated routine.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -661,8 +661,8 @@
       "confidence": 0.9,
       "rationale": "Evaluating vendor investments is an advisory decision-making task, not a covered platform workflow.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -686,8 +686,8 @@
       "confidence": 0.92,
       "rationale": "Providing ROI-based recommendations is advisory work that depends on human judgment.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -711,8 +711,8 @@
       "confidence": 0.87,
       "rationale": "Elevating budget-versus-actual rigor across the organization is influencing and change management work.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -736,9 +736,9 @@
       "confidence": 0.95,
       "rationale": "Leading monthly BvA reviews is a facilitation and presentation duty, not a platform automation.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -761,9 +761,9 @@
       "confidence": 0.88,
       "rationale": "Automating reporting is a generic automation task that matches no specific capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -786,8 +786,8 @@
       "confidence": 0.77,
       "rationale": "Improving accrual accuracy is process improvement around accruals, which is not a listed capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -832,9 +832,9 @@
       "confidence": 0.91,
       "rationale": "Designing scalable financial controls is control-framework judgment, which the map excludes.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -857,8 +857,8 @@
       "confidence": 0.78,
       "rationale": "Implementing approval workflows for headcount is a vague workflow project with no direct capability match.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -879,8 +879,8 @@
       "confidence": 0.81,
       "rationale": "Implementing approval workflows for vendor spend is a workflow project, but the exact finance operation is not specified.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -901,8 +901,8 @@
       "confidence": 0.81,
       "rationale": "Implementing approval workflows for enterprise tooling is too project-oriented and does not map cleanly to a capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -926,9 +926,9 @@
       "confidence": 0.85,
       "rationale": "Using automation and AI to reduce manual review is a generic process-improvement statement without a specific covered capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -951,8 +951,8 @@
       "confidence": 0.85,
       "rationale": "Using automation and AI to eliminate bottlenecks is a broad optimization goal rather than a defined finance workflow.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },

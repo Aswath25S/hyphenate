@@ -191,8 +191,8 @@
       "confidence": 0.96,
       "rationale": "Analyzing new and complex transactions requires accounting judgment on novel arrangements rather than a defined platform workflow.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -216,9 +216,9 @@
       "confidence": 0.93,
       "rationale": "Preparing technical accounting memos and whitepapers under U.S. GAAP is judgment-heavy policy and interpretation work, not a mapped automation capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -241,8 +241,8 @@
       "confidence": 0.74,
       "rationale": "Preparing GAAP financial statements is a structured reporting task, but no capability explicitly covers generic GAAP statement preparation.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -266,9 +266,9 @@
       "confidence": 0.8,
       "rationale": "Preparing footnotes is a rules-based financial reporting output with no direct capability match in the map.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -291,8 +291,8 @@
       "confidence": 0.83,
       "rationale": "Preparing supporting schedules is repetitive financial reporting support that is not explicitly covered by any listed capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -316,8 +316,8 @@
       "confidence": 0.79,
       "rationale": "Maintaining roll forwards is a schedule-maintenance reporting task that does not directly match a listed capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -341,8 +341,8 @@
       "confidence": 0.84,
       "rationale": "Maintaining tie-outs is a reconciliation-style reporting task but no capability specifically covers it.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -387,9 +387,9 @@
       "confidence": 0.97,
       "rationale": "Coordinating external-audit requests involves managing the auditor relationship, which is explicitly human work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -454,8 +454,8 @@
       "confidence": 0.95,
       "rationale": "Monitoring new accounting guidance requires interpreting policy and judgment rather than a defined operational workflow.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -479,9 +479,9 @@
       "confidence": 0.96,
       "rationale": "Updating assigned policies is setting or changing accounting policy, which is explicitly human judgment work.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -504,8 +504,8 @@
       "confidence": 0.71,
       "rationale": "Improving reporting templates is a vague process-improvement duty without a specific mapped finance operation.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -529,8 +529,8 @@
       "confidence": 0.74,
       "rationale": "Improving workflows is too broad to map cleanly to a specific capability or operational action.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -554,8 +554,8 @@
       "confidence": 0.72,
       "rationale": "Improving systems through standardization and automation is a generic transformation effort rather than a specific finance operation.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -579,8 +579,8 @@
       "confidence": 0.98,
       "rationale": "Working with other departments to evaluate transactions is cross-functional advising and partnering, which is human work by definition.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -604,8 +604,8 @@
       "confidence": 0.67,
       "rationale": "Implementing approved accounting conclusions is too broad to determine whether it is a covered operational task or a project activity.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },

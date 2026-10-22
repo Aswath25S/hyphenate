@@ -111,9 +111,9 @@
       "confidence": 0.52,
       "rationale": "Managing accounts payable is too broad and could span bill capture, approvals, aging, and payments rather than one specific covered action.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -157,9 +157,9 @@
       "confidence": 0.93,
       "rationale": "Managing payroll is repetitive operational work but no payroll-processing capability is listed.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -182,8 +182,8 @@
       "confidence": 0.58,
       "rationale": "Cash management is too broad because it could include cash position, forecasting, payments, and treasury decisions.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -207,8 +207,8 @@
       "confidence": 0.81,
       "rationale": "Building AI workflows and agents is a systems/project task, not a finance-operations capability in the map.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -232,9 +232,9 @@
       "confidence": 0.8,
       "rationale": "Leveraging ERP automation to improve efficiency is implementation work rather than a specific finance-ops process capability.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -257,9 +257,9 @@
       "confidence": 0.76,
       "rationale": "Driving process improvement is a broad optimization project and does not match a specific automated finance action.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -282,8 +282,8 @@
       "confidence": 0.9,
       "rationale": "Developing internal controls is designing policy and control framework work, which is a human judgment task.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -307,9 +307,9 @@
       "confidence": 0.95,
       "rationale": "Designing a SOX-ready control framework is policy/control design work, not an operational capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -374,8 +374,8 @@
       "confidence": 0.96,
       "rationale": "Presenting accounting insights to leadership is a human communication and presentation task.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
         "bucket": "possible_gap"
       }
     },
@@ -399,9 +399,9 @@
       "confidence": 0.95,
       "rationale": "Working closely with the finance team is collaboration and partnership work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
       }
     },
     {
@@ -424,8 +424,8 @@
       "confidence": 0.95,
       "rationale": "Working with the finance team on budget preparation is collaborative planning work rather than an automated finance-ops task.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -449,9 +449,9 @@
       "confidence": 0.92,
       "rationale": "Budget-versus-actual analysis is a planning-style analysis that is not covered by the listed reporting capabilities.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -474,9 +474,9 @@
       "confidence": 0.84,
       "rationale": "Suggesting process improvements is advisory and judgment-based rather than a specific finance-ops processing task.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -520,9 +520,9 @@
       "confidence": 0.89,
       "rationale": "Supporting tax compliance is a compliance workstream not covered by the finance-operations capabilities listed.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -545,9 +545,9 @@
       "confidence": 0.98,
       "rationale": "Serving as the primary liaison to external auditors is a relationship-management role explicitly excluded from automation.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -591,8 +591,8 @@
       "confidence": 0.89,
       "rationale": "Managing audit timelines is project coordination with external auditors, which is human relationship work.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -616,9 +616,9 @@
       "confidence": 0.97,
       "rationale": "Resolving technical accounting matters requires judgment on novel accounting issues and is not a listed capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -662,8 +662,8 @@
       "confidence": 0.74,
       "rationale": "Staying current on accounting pronouncements is professional research and learning, not a specific automatable finance workflow.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -687,9 +687,9 @@
       "confidence": 0.93,
       "rationale": "Informing management of new requirements is communication and advisory work rather than an automated process.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -712,9 +712,9 @@
       "confidence": 0.93,
       "rationale": "Informing management of changes to financial reporting is a human communication task.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -737,8 +737,8 @@
       "confidence": 0.99,
       "rationale": "The duty text is incomplete and does not describe a specific action.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },

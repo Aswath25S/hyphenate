@@ -93,3 +93,18 @@ export function locateSpan(text: string, span: string): { start: number; end: nu
   if (at < 0) return null;
   return { start: map[at], end: map[at + target.length - 1] + 1 };
 }
+
+/**
+ * True when two titles share a base and differ only by a trailing site/location
+ * suffix, e.g. "Plant Controller, Cape" vs "Plant Controller, Stennis". Those are
+ * separate openings even when the descriptions are identical.
+ */
+export function isSiteVariant(a: string, b: string): boolean {
+  const split = (t: string) => {
+    const m = t.match(/^(.*?)(?:\s*[,|]\s*|\s+[-–—]\s+)([^,|]+)$/);
+    return m ? { base: m[1].trim().toLowerCase(), suffix: m[2].trim().toLowerCase() } : null;
+  };
+  const x = split(a);
+  const y = split(b);
+  return Boolean(x && y && x.base === y.base && x.suffix !== y.suffix);
+}

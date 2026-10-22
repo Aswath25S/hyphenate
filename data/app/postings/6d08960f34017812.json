@@ -129,8 +129,8 @@
       "confidence": 0.99,
       "rationale": "Preparing presentations for senior leadership is a presentation and communication task done by people.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -238,9 +238,9 @@
       "confidence": 0.95,
       "rationale": "Partnering with FP&A to align accounting results is cross-functional collaboration done by people.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -263,9 +263,9 @@
       "confidence": 0.72,
       "rationale": "Leading or supporting process improvement initiatives is too broad and project-oriented to map cleanly to a specific capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -288,8 +288,8 @@
       "confidence": 0.72,
       "rationale": "Leading or supporting automation initiatives is a project activity rather than a specific finance-operation workflow.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -313,8 +313,8 @@
       "confidence": 0.96,
       "rationale": "Improving internal controls requires control design and judgment beyond monitoring or execution.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -338,9 +338,9 @@
       "confidence": 0.88,
       "rationale": "Enhancing end-to-end operational effectiveness is too vague to map to a specific automated finance duty.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -363,8 +363,8 @@
       "confidence": 0.9,
       "rationale": "Building and using AI agents is a technology initiative rather than a listed finance operations capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -388,8 +388,8 @@
       "confidence": 0.84,
       "rationale": "Supporting M&A activities is too broad and context-dependent to match a specific covered workflow.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -413,8 +413,8 @@
       "confidence": 0.79,
       "rationale": "Onboarding new entities is a setup/project activity that does not match a specific covered finance workflow.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -438,8 +438,8 @@
       "confidence": 0.97,
       "rationale": "Preparing documentation is too vague without a specific accounting or operations action.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -463,8 +463,8 @@
       "confidence": 0.98,
       "rationale": "Responding to auditor inquiries involves working with external auditors as a relationship task.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -488,9 +488,9 @@
       "confidence": 0.8,
       "rationale": "Supporting testing efforts is too vague to determine whether it is controls testing, audit support, or another activity.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {

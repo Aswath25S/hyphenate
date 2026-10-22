@@ -83,9 +83,9 @@
       "confidence": 0.98,
       "rationale": "Building cross-functional relationships with business leaders is relationship management and advisory work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -108,9 +108,9 @@
       "confidence": 0.97,
       "rationale": "Serving as a liaison between business leaders and executive management is a human coordination and communication function.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -133,9 +133,9 @@
       "confidence": 0.93,
       "rationale": "Detailed custom financial modeling is FP&A planning work that is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -158,9 +158,9 @@
       "confidence": 0.95,
       "rationale": "Scenario analysis for planning is a budgeting/forecasting modeling task that matches no covered capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -183,8 +183,8 @@
       "confidence": 0.88,
       "rationale": "Providing market insights to product and commercial teams is advisory support to other teams, which is human work.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -208,8 +208,8 @@
       "confidence": 0.94,
       "rationale": "Analyzing actual results versus budget/forecast is budget-vs-actual FP&A analysis, which is not in the coverage map.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -233,8 +233,8 @@
       "confidence": 0.96,
       "rationale": "Partnering with business leaders to drive decision support is advisory collaboration with other teams, which is human work.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -258,8 +258,8 @@
       "confidence": 0.95,
       "rationale": "Supporting investor relations, benchmarking, and evaluating partnerships or acquisitions involves strategic advisory and external-facing judgment work.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -283,8 +283,8 @@
       "confidence": 0.97,
       "rationale": "Forecasting, budgeting, resource allocation, and long-range planning are FP&A planning tasks that are not covered here.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -308,8 +308,8 @@
       "confidence": 0.74,
       "rationale": "Supporting month-end and quarter-end close is too vague to determine which close task is actually being performed.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },

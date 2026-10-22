@@ -86,9 +86,9 @@
       "confidence": 0.98,
       "rationale": "Serving as a finance partner to business leaders is advisory and cross-functional relationship work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -111,8 +111,8 @@
       "confidence": 0.97,
       "rationale": "Owning the full forecast cycle is FP&A planning work that is not covered by the cash-forecast capability and is a classic automation gap.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -136,8 +136,8 @@
       "confidence": 0.99,
       "rationale": "Building the annual operating plan is budgeting and long-range planning, which is outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -161,8 +161,8 @@
       "confidence": 0.96,
       "rationale": "Building monthly planning is FP&A planning/modeling work with no matching capability on the map.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -186,8 +186,8 @@
       "confidence": 0.96,
       "rationale": "Building quarterly planning is a planning-model task that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -211,8 +211,8 @@
       "confidence": 0.99,
       "rationale": "Bottoms-up budget builds are budgeting models, which are explicitly outside the covered capabilities.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -236,8 +236,8 @@
       "confidence": 0.98,
       "rationale": "Headcount planning is an FP&A planning model and does not match any covered capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -261,9 +261,9 @@
       "confidence": 0.94,
       "rationale": "Scenario modeling for executives is planning work and not one of the listed finance-operations capabilities.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -286,8 +286,8 @@
       "confidence": 0.85,
       "rationale": "Investment analysis is broader FP&A analysis and does not map cleanly to a covered reporting or accounting capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -311,9 +311,9 @@
       "confidence": 0.97,
       "rationale": "Dynamic headcount models are planning models and are outside the covered set.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -336,8 +336,8 @@
       "confidence": 0.98,
       "rationale": "Dynamic OpEx models are budgeting/planning models, which are not covered capabilities.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -361,8 +361,8 @@
       "confidence": 0.97,
       "rationale": "Dynamic unit economics models are FP&A planning models with no matching capability on the map.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -386,9 +386,9 @@
       "confidence": 0.96,
       "rationale": "Leading monthly business reviews and presenting a point of view is leadership presentation work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -411,9 +411,9 @@
       "confidence": 0.96,
       "rationale": "Leading quarterly business reviews is a leadership and presentation duty, not an automated finance-operation task.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -436,8 +436,8 @@
       "confidence": 0.9,
       "rationale": "Proactively surfacing risks requires judgment and advisory work rather than a covered operational capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -461,8 +461,8 @@
       "confidence": 0.9,
       "rationale": "Proactively surfacing opportunities is strategic advisory work and therefore human-led.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -486,8 +486,8 @@
       "confidence": 0.93,
       "rationale": "Surfacing financial implications of strategic choices is judgment-heavy advising, not a covered automated workflow.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -511,9 +511,9 @@
       "confidence": 0.98,
       "rationale": "Partnering cross-functionally with Accounting is relationship and collaboration work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -536,8 +536,8 @@
       "confidence": 0.98,
       "rationale": "Partnering cross-functionally with Sales Finance is collaboration and advisory work rather than an automated finance operation.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -561,9 +561,9 @@
       "confidence": 0.97,
       "rationale": "Connecting operational drivers to financial outcomes for other business units is advisory cross-functional work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -586,8 +586,8 @@
       "confidence": 0.92,
       "rationale": "Contributing to core FP&A processes is too vague to map to a specific covered or gap capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -653,8 +653,8 @@
       "confidence": 0.95,
       "rationale": "Providing Board narrative support is board-facing advisory/presentation work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -699,8 +699,8 @@
       "confidence": 0.77,
       "rationale": "Maintaining corporate financial systems is operational system administration with no matching capability listed.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -724,8 +724,8 @@
       "confidence": 0.86,
       "rationale": "Improving corporate financial systems is too broad and could describe a project rather than a specific finance-operation task.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -749,8 +749,8 @@
       "confidence": 0.72,
       "rationale": "Maintaining rollforwards is vague without knowing whether it refers to a specific covered subledger schedule.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -774,8 +774,8 @@
       "confidence": 0.79,
       "rationale": "Improving rollforwards is too vague to map cleanly to a specific capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -799,8 +799,8 @@
       "confidence": 0.88,
       "rationale": "Maintaining planning infrastructure is vague and does not identify a specific covered finance operation.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -824,8 +824,8 @@
       "confidence": 0.88,
       "rationale": "Improving planning infrastructure is a broad project statement with no specific mapped capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -891,8 +891,8 @@
       "confidence": 0.95,
       "rationale": "Automating recurring scenario planning is FP&A planning-model automation with no matching capability on the map.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },

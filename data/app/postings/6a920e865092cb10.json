@@ -85,8 +85,8 @@
       "confidence": 0.93,
       "rationale": "Owning a payroll deduction reconciliation queue is repetitive reconciliation work, but no payroll reconciliation capability is in the map.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -110,8 +110,8 @@
       "confidence": 0.9,
       "rationale": "Reviewing new and updated deductions before each payroll run is a rules-based payroll review task with no matching capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -132,8 +132,8 @@
       "confidence": 0.88,
       "rationale": "Approving flagged discrepancies is manual exception handling for payroll reconciliation, which is not covered by the map.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -157,8 +157,8 @@
       "confidence": 0.88,
       "rationale": "Escalating flagged discrepancies is operational queue handling, but there is no payroll escalation capability listed.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -182,9 +182,9 @@
       "confidence": 0.87,
       "rationale": "Tracing reconciliation errors to root cause across source data is investigation work that does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -207,9 +207,9 @@
       "confidence": 0.74,
       "rationale": "Driving upstream fixes is process improvement work, but the duty is too broad to map to a specific finance-ops capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -232,8 +232,8 @@
       "confidence": 0.98,
       "rationale": "Partnering with Engineering to scope and prioritize automation opportunities is cross-functional collaboration and prioritization work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -257,8 +257,8 @@
       "confidence": 0.9,
       "rationale": "Managing escalations from payroll connection failures is exception handling with no matching capability in the map.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -282,8 +282,8 @@
       "confidence": 0.89,
       "rationale": "Managing escalations from invoice review queues is queue triage work, but invoice review itself is not the core action here.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -307,9 +307,9 @@
       "confidence": 0.84,
       "rationale": "Routing issues to the right stakeholder is workflow triage, which is not a listed finance-ops capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -332,8 +332,8 @@
       "confidence": 0.82,
       "rationale": "Building SOPs is process documentation work, but the duty is too unspecific to map cleanly.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -417,9 +417,9 @@
       "confidence": 0.96,
       "rationale": "Surfacing trends and risk areas to leadership is an advising and presentation task.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {

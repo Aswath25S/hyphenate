@@ -86,8 +86,8 @@
       "confidence": 0.96,
       "rationale": "The duty is budgeting and reforecasting, which is FP&A planning work that is not covered by the platform capabilities.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -174,8 +174,8 @@
       "confidence": 0.9,
       "rationale": "The duty is developing cost allocation frameworks, which is allocation methodology design and not a covered capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -199,8 +199,8 @@
       "confidence": 0.77,
       "rationale": "The duty is providing insight and oversight into internal finance processes and planning systems, which is advisory work across teams rather than an operational task the platform performs end to end.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -224,8 +224,8 @@
       "confidence": 0.99,
       "rationale": "The duty is managing FP&A professionals, which is people management by nature.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -249,9 +249,9 @@
       "confidence": 0.99,
       "rationale": "The duty is coaching FP&A professionals, which is a human leadership and development activity.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -274,9 +274,9 @@
       "confidence": 0.98,
       "rationale": "The duty is communicating financial results and recommendations to leadership and stakeholders, which is presenting and advising other teams.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {

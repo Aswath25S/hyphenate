@@ -122,8 +122,8 @@
       "confidence": 0.86,
       "rationale": "Managing renewals, amendments, and cancellations is subscription lifecycle work that is not directly covered by the map.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -168,8 +168,8 @@
       "confidence": 0.98,
       "rationale": "Reviewing nonstandard billing terms with Sales and Deal Desk before signature is cross-functional contract negotiation and judgment.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -193,8 +193,8 @@
       "confidence": 0.3,
       "rationale": "Assess operational feasibility is too vague to map to a specific finance-operation action.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -260,8 +260,8 @@
       "confidence": 0.84,
       "rationale": "Managing seat changes is a repetitive subscription-update task that is not explicitly covered by the map.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -285,8 +285,8 @@
       "confidence": 0.84,
       "rationale": "Managing tiered discounting is billing/pricing maintenance without a direct matching capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -310,8 +310,8 @@
       "confidence": 0.83,
       "rationale": "Managing prorations is a billing calculation task that is not specifically listed in the coverage map.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -335,8 +335,8 @@
       "confidence": 0.8,
       "rationale": "Managing co-terminations is subscription timing maintenance with no direct capability match.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -360,8 +360,8 @@
       "confidence": 0.82,
       "rationale": "Managing prepaid credits is a billing-balance maintenance task that is not explicitly covered.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -406,9 +406,9 @@
       "confidence": 0.99,
       "rationale": "Serving as the primary point of contact for billing questions is relationship management and customer support by nature.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
       }
     },
     {
@@ -431,8 +431,8 @@
       "confidence": 0.76,
       "rationale": "Investigating discrepancies is repetitive exception work but does not map cleanly to a covered capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -477,8 +477,8 @@
       "confidence": 0.28,
       "rationale": "Addressing underlying causes to prevent recurring issues is too broad to classify precisely.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -502,8 +502,8 @@
       "confidence": 0.78,
       "rationale": "Reconciling contract data to billing output is data matching and validation that is not directly covered.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -527,9 +527,9 @@
       "confidence": 0.78,
       "rationale": "Reconciling subscription data to billing output is repetitive matching work without a specific capability match.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -552,9 +552,9 @@
       "confidence": 0.78,
       "rationale": "Reconciling usage data to billing output is validation work that is not explicitly covered.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -577,8 +577,8 @@
       "confidence": 0.8,
       "rationale": "Investigating billing discrepancies is exception handling, but no billing-specific capability in the map covers it end to end.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -665,8 +665,8 @@
       "confidence": 0.84,
       "rationale": "Identifying billing system integration failures is technical monitoring not covered by the map.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -690,8 +690,8 @@
       "confidence": 0.85,
       "rationale": "Resolving billing system integration failures is technical troubleshooting with no direct capability match.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -715,9 +715,9 @@
       "confidence": 0.98,
       "rationale": "Partnering with Customer Success, Sales, and Deal Desk on renewals and expansions is cross-functional collaboration and relationship work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
-        "bucket": "possible_gap"
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
       }
     },
     {
@@ -740,8 +740,8 @@
       "confidence": 0.76,
       "rationale": "Preparing seat analyses is repetitive analysis work but not a named capability in the map.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -828,9 +828,9 @@
       "confidence": 0.79,
       "rationale": "Calculating true-ups is a billing adjustment calculation that is not explicitly covered.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -916,9 +916,9 @@
       "confidence": 0.95,
       "rationale": "Coordinating resolution of billing issues that affect renewals and customer experience is cross-functional customer-facing work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {

@@ -87,9 +87,9 @@
       "confidence": 0.99,
       "rationale": "Serving as the primary Finance partner is cross-functional partnering and advising, which is people work by nature.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -112,8 +112,8 @@
       "confidence": 0.84,
       "rationale": "Developing a deep understanding of the portfolio and strategy is too broad and does not specify an automatable finance operation.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -137,8 +137,8 @@
       "confidence": 0.97,
       "rationale": "Building business cases is FP&A planning and modeling work that is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -183,9 +183,9 @@
       "confidence": 0.99,
       "rationale": "Partnering with leadership to establish targets is advisory and involves setting goals with people.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -208,8 +208,8 @@
       "confidence": 0.77,
       "rationale": "Evaluating performance is too vague to map to a specific finance operation capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -233,8 +233,8 @@
       "confidence": 0.85,
       "rationale": "Identifying risks and opportunities is high-level analysis without a specific covered finance operation.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -258,9 +258,9 @@
       "confidence": 0.98,
       "rationale": "Incorporating outlook into the broader financial forecast is FP&A forecasting work that is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -283,8 +283,8 @@
       "confidence": 0.99,
       "rationale": "Owning and improving Anaplan models and planning processes is budgeting/planning model work outside the coverage map.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -308,8 +308,8 @@
       "confidence": 0.94,
       "rationale": "Ensuring models are scalable and aligned to operations is model design and maintenance work not covered by the map.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -333,8 +333,8 @@
       "confidence": 0.98,
       "rationale": "Building complex models for strategic initiatives is FP&A planning/modeling work with no matching capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -358,9 +358,9 @@
       "confidence": 0.98,
       "rationale": "Turning analysis into recommendations for leadership is advisory work that depends on human judgment.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -383,9 +383,9 @@
       "confidence": 0.97,
       "rationale": "Connecting operational assumptions to the long-term plan is planning-model work outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -429,8 +429,8 @@
       "confidence": 0.8,
       "rationale": "Identifying structural risks and opportunities before results change is too broad to map cleanly to a specific capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -454,9 +454,9 @@
       "confidence": 0.98,
       "rationale": "Challenging assumptions is judgment-based analytical work that requires human interpretation.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -479,8 +479,8 @@
       "confidence": 0.99,
       "rationale": "Helping business leaders understand the financial implications of decisions is advisory and collaborative work.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -504,9 +504,9 @@
       "confidence": 0.99,
       "rationale": "Aligning financial strategy across multiple teams is cross-functional partnering and coordination work.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -529,8 +529,8 @@
       "confidence": 0.97,
       "rationale": "Raising the analytical standard of the FP&A team is team development and leadership work.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -554,8 +554,8 @@
       "confidence": 0.98,
       "rationale": "Improving modeling practices, planning processes, and Anaplan usage is FP&A process and model work not covered by the map.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },

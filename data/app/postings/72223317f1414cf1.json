@@ -81,8 +81,8 @@
       "confidence": 0.93,
       "rationale": "Preparing ASC 740 tax provisions is tax accounting work, but no tax provision capability is in the coverage map.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -106,9 +106,9 @@
       "confidence": 0.9,
       "rationale": "Preparing tax-related financial statement disclosures is disclosure drafting work, but it does not match any covered capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -131,8 +131,8 @@
       "confidence": 0.97,
       "rationale": "Preparing and filing global corporate income tax returns is a tax compliance filing task with no matching capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -156,8 +156,8 @@
       "confidence": 0.92,
       "rationale": "Managing tax credits such as R&D credits is repetitive tax compliance work, but there is no tax credits capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -181,8 +181,8 @@
       "confidence": 0.9,
       "rationale": "Managing incentives is tax compliance/administration work that is not covered by the platform map.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -206,8 +206,8 @@
       "confidence": 0.84,
       "rationale": "Preparing tax-related accounts is accounting work, but it does not cleanly match any listed GL capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -231,9 +231,9 @@
       "confidence": 0.82,
       "rationale": "Maintaining tax-related accounts during close is close-related accounting work, but no specific capability covers tax account maintenance.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -256,8 +256,8 @@
       "confidence": 0.99,
       "rationale": "Serving as the key point of contact for external auditors is a relationship-management duty, which the map explicitly excludes.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -302,8 +302,8 @@
       "confidence": 0.9,
       "rationale": "Enhancing internal controls to ensure SOX compliance involves designing and improving the control framework, which is a judgment-heavy human task.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -327,8 +327,8 @@
       "confidence": 0.95,
       "rationale": "Partnering with cross-functional teams on transfer pricing documentation is collaboration and coordination work, not a platform-executed task.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -352,9 +352,9 @@
       "confidence": 0.95,
       "rationale": "Partnering with cross-functional teams on intercompany transactions is cross-functional coordination, which falls under human work.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -377,9 +377,9 @@
       "confidence": 0.95,
       "rationale": "Partnering on special tax planning initiatives is advisory and planning work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {

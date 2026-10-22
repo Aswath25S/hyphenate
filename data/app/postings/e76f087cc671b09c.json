@@ -247,9 +247,9 @@
       "confidence": 0.98,
       "rationale": "The duty is to collaborate with other teams, which is partnership work by nature.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -272,9 +272,9 @@
       "confidence": 0.95,
       "rationale": "The duty is to support system enhancements, which is project collaboration with other teams rather than a finance-ops workflow.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -297,8 +297,8 @@
       "confidence": 0.95,
       "rationale": "The duty is to support API implementations, which is cross-functional implementation work rather than a finance-ops capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -322,8 +322,8 @@
       "confidence": 0.89,
       "rationale": "The duty is to support process automation, which is a cross-functional improvement project rather than an end-to-end platform task.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -368,8 +368,8 @@
       "confidence": 0.77,
       "rationale": "The duty is to perform complex O2C reconciliations, which is repetitive reconciliation work but does not match a specific capability in the map.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -393,8 +393,8 @@
       "confidence": 0.92,
       "rationale": "The duty is to support product and marketing program launches, which is cross-functional project support rather than a finance-ops workflow.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -418,9 +418,9 @@
       "confidence": 0.86,
       "rationale": "The duty is to configure systems for launches, which is implementation/project work with other teams.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -443,9 +443,9 @@
       "confidence": 0.83,
       "rationale": "The duty is to test systems for launches, which is project testing rather than a finance-operations capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -489,9 +489,9 @@
       "confidence": 0.88,
       "rationale": "The duty is to assist with SOX implementation, which is control-framework project work rather than routine control execution.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
+        "bucket": "possible_gap"
       }
     },
     {

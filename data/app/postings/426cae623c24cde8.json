@@ -114,9 +114,9 @@
       "confidence": 0.95,
       "rationale": "Reviewing financial statements is human review rather than an automated reporting action.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -160,8 +160,8 @@
       "confidence": 0.95,
       "rationale": "Reviewing supporting work papers is a human review task, not a platform execution action.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -185,8 +185,8 @@
       "confidence": 0.86,
       "rationale": "Preparing disclosure checklists is structured reporting work with no matching advertised capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -210,8 +210,8 @@
       "confidence": 0.94,
       "rationale": "Reviewing disclosure checklists is human review rather than an automated finance-operations action.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -235,9 +235,9 @@
       "confidence": 0.84,
       "rationale": "Ensuring GAAP-compliant financial reporting is judgment-heavy oversight rather than a specific platform process.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -260,9 +260,9 @@
       "confidence": 0.98,
       "rationale": "Serving as the key point of contact for external audit is a relationship role with auditors.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -285,8 +285,8 @@
       "confidence": 0.91,
       "rationale": "Owning quarterly and annual financial reporting controls is managerial oversight, not a defined platform workflow.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -331,8 +331,8 @@
       "confidence": 0.97,
       "rationale": "Reviewing complex, judgment-heavy areas requires accounting judgment and human review.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -356,8 +356,8 @@
       "confidence": 0.93,
       "rationale": "Reviewing commissions is a recurring finance task with no matching capability and commissions are explicitly out of scope.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -381,9 +381,9 @@
       "confidence": 0.76,
       "rationale": "Ensuring transactions are properly accounted for and well-supported is broad accounting oversight that needs judgment.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -406,9 +406,9 @@
       "confidence": 0.98,
       "rationale": "Owning technical accounting research on complex and non-recurring transactions is judgment-based work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -431,8 +431,8 @@
       "confidence": 0.98,
       "rationale": "Applying GAAP and authoritative literature to reach conclusions is technical accounting judgment by nature.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -456,8 +456,8 @@
       "confidence": 0.92,
       "rationale": "Drafting well-documented technical accounting memos is judgment-heavy documentation work rather than a platform process.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -481,9 +481,9 @@
       "confidence": 0.97,
       "rationale": "Evaluating and adopting new accounting standards is policy and judgment work done by people.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -506,9 +506,9 @@
       "confidence": 0.98,
       "rationale": "Developing accounting policies is setting policy, which is explicitly human work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -531,9 +531,9 @@
       "confidence": 0.95,
       "rationale": "Maintaining accounting policies is policy oversight and updating rather than an advertised automation capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -556,8 +556,8 @@
       "confidence": 0.72,
       "rationale": "Proactively identifying emerging complexity in the close process is too vague to map cleanly to a specific capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -581,8 +581,8 @@
       "confidence": 0.99,
       "rationale": "Partnering with cross-functional teams is collaboration and coordination work done by people.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -606,9 +606,9 @@
       "confidence": 0.99,
       "rationale": "Partnering cross-functionally to understand business transactions is advisory, collaborative human work.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -631,9 +631,9 @@
       "confidence": 0.98,
       "rationale": "Communicating accounting and equity issues to stakeholders is stakeholder communication, which is human work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {

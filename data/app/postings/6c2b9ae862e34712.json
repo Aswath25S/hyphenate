@@ -76,9 +76,9 @@
       "confidence": 0.99,
       "rationale": "Leading a team is people management work by nature rather than an automatable finance operation.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -101,8 +101,8 @@
       "confidence": 0.98,
       "rationale": "Supporting team members' daily activities is direct people management and coordination.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -126,9 +126,9 @@
       "confidence": 0.97,
       "rationale": "Creating a development culture is leadership and team management work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -151,9 +151,9 @@
       "confidence": 0.99,
       "rationale": "Mentoring the team is inherently human coaching and development work.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -176,8 +176,8 @@
       "confidence": 0.99,
       "rationale": "Coaching the team is people management, not a platform-executable finance task.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },
@@ -201,8 +201,8 @@
       "confidence": 0.99,
       "rationale": "Providing feedback is a managerial human judgment activity.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -226,9 +226,9 @@
       "confidence": 0.88,
       "rationale": "Empowering a team to use systems and metrics is leadership over people and process, not a finance operations workflow.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -251,8 +251,8 @@
       "confidence": 0.86,
       "rationale": "Understanding team performance is managerial oversight and evaluation.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -276,9 +276,9 @@
       "confidence": 0.99,
       "rationale": "Coaching individuals to meet goals is direct people management.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -301,8 +301,8 @@
       "confidence": 0.74,
       "rationale": "Monitoring and improving customer experience is outside the finance-operations coverage map and the specific action is too context-dependent.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -326,9 +326,9 @@
       "confidence": 0.9,
       "rationale": "Communicating company initiatives, OKRs, and metrics is a managerial coordination task.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -351,8 +351,8 @@
       "confidence": 0.82,
       "rationale": "Identifying process improvements from data is too vague and not tied to a covered finance workflow.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -376,9 +376,9 @@
       "confidence": 0.95,
       "rationale": "Building collaboration with another team is cross-functional relationship management.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -401,9 +401,9 @@
       "confidence": 0.78,
       "rationale": "Prioritizing product enhancements is a cross-functional decision and partnership activity, not finance operations automation.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -426,9 +426,9 @@
       "confidence": 0.81,
       "rationale": "Reducing inbound inquiries is too vague and does not map cleanly to a covered finance task.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -451,8 +451,8 @@
       "confidence": 0.94,
       "rationale": "Partnering cross-functionally to develop the team is people leadership and collaboration work.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -476,9 +476,9 @@
       "confidence": 0.92,
       "rationale": "Utilizing AI to learn quickly is not a specific duty that maps to a covered finance operation.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -501,9 +501,9 @@
       "confidence": 0.86,
       "rationale": "Creating process improvement is too vague to map to a specific covered capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -526,8 +526,8 @@
       "confidence": 0.9,
       "rationale": "Gaining efficiencies is too generic to judge as a specific automatable finance task.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -551,9 +551,9 @@
       "confidence": 0.95,
       "rationale": "Driving organizational change is leadership and change management work by nature.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {

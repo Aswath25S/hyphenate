@@ -90,8 +90,8 @@
       "confidence": 0.95,
       "rationale": "This is FP&A forecasting work, which is not one of the listed finance-ops capabilities and is closer to budgeting models.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -157,8 +157,8 @@
       "confidence": 0.92,
       "rationale": "Partnering closely with Engineering and infrastructure leaders is cross-functional advising, which is a human responsibility.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -182,9 +182,9 @@
       "confidence": 0.94,
       "rationale": "Translating technical consumption into forecasts is a modeling task that fits FP&A planning rather than any listed capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -249,8 +249,8 @@
       "confidence": 0.86,
       "rationale": "Evaluating commercial decisions and tradeoffs is advisory judgment rather than a listed automated finance-ops capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -274,8 +274,8 @@
       "confidence": 0.93,
       "rationale": "Building a scalable expense-management process is process redesign and does not map to a listed capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -299,8 +299,8 @@
       "confidence": 0.93,
       "rationale": "Partnering with functional leaders on budgets, forecasts, and business cases is cross-functional advisory work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -324,8 +324,8 @@
       "confidence": 0.91,
       "rationale": "Budget-to-actual analysis and forecast updates are FP&A planning tasks that do not fit the listed capabilities.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -349,8 +349,8 @@
       "confidence": 0.95,
       "rationale": "Company-wide planning and headcount forecasting are FP&A modeling activities outside the coverage map.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -395,9 +395,9 @@
       "confidence": 0.9,
       "rationale": "Identifying opportunities to automate reporting is process-improvement work that is not a listed capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -420,8 +420,8 @@
       "confidence": 0.84,
       "rationale": "Improving source data is a data-quality/process task with no direct capability match.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -445,8 +445,8 @@
       "confidence": 0.93,
       "rationale": "Replacing manual or fragmented finance processes with scalable ones is automation/process redesign outside the coverage map.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -470,8 +470,8 @@
       "confidence": 0.94,
       "rationale": "Working cross-functionally with other teams to drive action is partnering and advising, which is human work by nature.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },

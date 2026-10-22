@@ -227,8 +227,8 @@
       "confidence": 0.98,
       "rationale": "Partnering closely with Product and Clinical Operations is cross-functional collaboration and relationship management, which is human work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -252,9 +252,9 @@
       "confidence": 0.96,
       "rationale": "Shaping patient retention strategy is setting strategy and making judgment calls, not a finance operations automation task.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -277,8 +277,8 @@
       "confidence": 0.84,
       "rationale": "Evaluating trade-offs is strategic judgment that requires human decision-making.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -302,9 +302,9 @@
       "confidence": 0.9,
       "rationale": "Driving strategic trade-offs with modeling and analysis is decision support for strategy, which remains human-led.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -348,8 +348,8 @@
       "confidence": 0.89,
       "rationale": "Balancing short-term efficiency with long-term impact is strategic judgment rather than a defined automated finance workflow.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -373,8 +373,8 @@
       "confidence": 0.98,
       "rationale": "Navigate ambiguity is too vague to map to a specific finance operations capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -398,9 +398,9 @@
       "confidence": 0.97,
       "rationale": "Shaping strategic decisions is leadership and advisory work that depends on human judgment.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {

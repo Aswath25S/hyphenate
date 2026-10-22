@@ -170,8 +170,8 @@
       "confidence": 0.96,
       "rationale": "Gathering inputs from Marketing stakeholders is cross-functional partnering with people, which is human work.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -384,8 +384,8 @@
       "confidence": 0.95,
       "rationale": "Partnering with other teams to support capex initiatives is cross-functional collaboration and advisory work.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -451,8 +451,8 @@
       "confidence": 0.56,
       "rationale": "Reviewing vendor contracts is document review work that could be automated but does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -497,8 +497,8 @@
       "confidence": 0.62,
       "rationale": "Supporting company-wide expense management is too broad to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -522,8 +522,8 @@
       "confidence": 0.88,
       "rationale": "Ensuring accurate reporting is too vague to determine a specific platform capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -547,9 +547,9 @@
       "confidence": 0.78,
       "rationale": "Ensuring policy compliance is too general without a specific compliance or control action.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -572,8 +572,8 @@
       "confidence": 0.82,
       "rationale": "Ensuring scalable controls is too vague to map cleanly to a listed capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -639,8 +639,8 @@
       "confidence": 0.94,
       "rationale": "Preparing schedules is too vague without knowing which financial schedule is meant.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -706,9 +706,9 @@
       "confidence": 0.8,
       "rationale": "Contributing to process improvement initiatives is too broad and project-oriented to map precisely.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -731,8 +731,8 @@
       "confidence": 0.82,
       "rationale": "Contributing to finance transformation initiatives is a vague project duty rather than a specific finance operation.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -756,8 +756,8 @@
       "confidence": 0.88,
       "rationale": "Supporting system implementations is project implementation work, which is not a listed end-to-end capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -781,9 +781,9 @@
       "confidence": 0.74,
       "rationale": "Documenting standard operating procedures is process documentation that does not map to a specific capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -806,9 +806,9 @@
       "confidence": 0.65,
       "rationale": "Leveraging automation and AI-driven solutions describes a method rather than a specific finance duty.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {

@@ -12,68 +12,67 @@
   "filter": {
     "stage": "filter",
     "in": 292,
-    "out": 169,
+    "out": 164,
     "notes": [
       "97 companies",
       "dropped 39: not US",
       "dropped 66: older than 60 days",
       "dropped 1: unclear title, LLM check said drop",
-      "dropped 17: duplicate (merged)"
+      "dropped 22: duplicate (merged)"
     ],
-    "at": "2026-10-21T17:35:10.657Z"
+    "at": "2026-10-22T03:31:28.297Z"
   },
   "extract": {
     "stage": "extract",
-    "in": 169,
-    "out": 166,
+    "in": 164,
+    "out": 161,
     "failed": 0,
     "notes": [
       "3 dropped (non-USD)",
       "new spend $0.00"
     ],
-    "at": "2026-10-21T17:57:44.868Z"
+    "at": "2026-10-22T03:32:45.436Z"
   },
   "match": {
     "stage": "match",
-    "in": 166,
-    "out": 165,
-    "failed": 1,
+    "in": 161,
+    "out": 161,
+    "failed": 0,
     "notes": [
       "new spend $0.00"
     ],
-    "at": "2026-10-21T18:12:16.058Z"
+    "at": "2026-10-22T03:33:14.336Z"
   },
   "score": {
     "stage": "score",
-    "in": 166,
-    "out": 165,
+    "in": 161,
+    "out": 161,
     "notes": [
-      "95 companies",
+      "96 companies",
       "1 thin postings",
-      "149 with salary",
-      "no match labels for 23597d58012f47d6; skipped"
+      "147 with salary"
     ],
-    "at": "2026-10-21T18:12:16.109Z"
+    "at": "2026-10-22T03:33:14.756Z"
   },
   "publish": {
     "stage": "publish",
-    "in": 165,
-    "out": 165,
+    "in": 161,
+    "out": 161,
     "notes": [
-      "95 companies",
-      "7027/7093 duty spans located in posting text"
+      "96 companies",
+      "6829/6897 duty spans located in posting text"
     ],
-    "at": "2026-10-21T18:27:35.143Z"
+    "at": "2026-10-22T03:44:07.866Z"
   },
   "gaps": {
     "stage": "gaps",
-    "in": 3333,
-    "out": 20,
+    "in": 3211,
+    "out": 19,
     "notes": [
-      "2957 canonical tasks",
+      "2900 canonical tasks",
       "every uncovered duty sits in exactly one theme"
     ],
-    "at": "2026-10-21T18:26:08.241Z"
+    "at": "2026-10-22T03:43:02.454Z"
   },
   "news": {
     "stage": "news",
@@ -92,6 +91,6 @@
     "notes": [
       "every kept brief passed the fact check"
     ],
-    "at": "2026-10-21T18:27:35.004Z"
+    "at": "2026-10-22T03:44:07.509Z"
   }
 }

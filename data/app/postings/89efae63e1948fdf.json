@@ -81,8 +81,8 @@
       "confidence": 0.79,
       "rationale": "Strategic financial planning is leadership and judgment work rather than a specific automated finance operation in the coverage map.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -127,9 +127,9 @@
       "confidence": 0.95,
       "rationale": "Turning analysis into executive recommendations is advisory work to leadership.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -152,9 +152,9 @@
       "confidence": 0.97,
       "rationale": "Serving as a key voice to the Executive Team is a presenting and advisory role.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -177,9 +177,9 @@
       "confidence": 0.96,
       "rationale": "Shaping the financial narrative for reporting, investor relations, and fundraising is executive communication and relationship work.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -202,8 +202,8 @@
       "confidence": 0.98,
       "rationale": "Acting as a close partner to the CFO is partnering and advising, not a covered automation task.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -227,9 +227,9 @@
       "confidence": 0.95,
       "rationale": "Partnering with business leaders to turn data into insights is cross-functional advising work.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -252,9 +252,9 @@
       "confidence": 0.94,
       "rationale": "Challenging other leaders with evidence is advisory and persuasive human work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -277,9 +277,9 @@
       "confidence": 0.72,
       "rationale": "Scenario modeling for major decisions is FP&A modeling work that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -302,9 +302,9 @@
       "confidence": 0.72,
       "rationale": "Sensitivity analysis for major decisions is FP&A modeling work with no matching capability.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -327,9 +327,9 @@
       "confidence": 0.58,
       "rationale": "Leading investment cases is strategic FP&A analysis that is not a listed capability.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -352,9 +352,9 @@
       "confidence": 0.98,
       "rationale": "Building and scaling the FP&A team and operating model is management and organizational design work.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -377,8 +377,8 @@
       "confidence": 0.98,
       "rationale": "Developing talent is people management work.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -402,8 +402,8 @@
       "confidence": 0.98,
       "rationale": "Maintaining succession readiness is leadership and workforce planning work.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -427,9 +427,9 @@
       "confidence": 0.92,
       "rationale": "Establishing governance is policy-setting and oversight work.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -473,9 +473,9 @@
       "confidence": 0.52,
       "rationale": "Keeping what works is too vague to map to a specific finance operation.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -498,9 +498,9 @@
       "confidence": 0.54,
       "rationale": "Redesigning what does not work is a vague process-improvement duty with no specific mapped capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -523,9 +523,9 @@
       "confidence": 0.59,
       "rationale": "Redesigning forecasting workflows with AI is a transformation project, not a specific finance-ops capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -548,9 +548,9 @@
       "confidence": 0.59,
       "rationale": "Redesigning planning workflows with AI is a workflow project rather than a mapped finance operation.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -573,9 +573,9 @@
       "confidence": 0.59,
       "rationale": "Redesigning variance workflows with AI is a workflow redesign project, not an operational finance task.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -598,9 +598,9 @@
       "confidence": 0.59,
       "rationale": "Redesigning reporting workflows with AI is a transformation project and not a specific covered capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -623,9 +623,9 @@
       "confidence": 0.66,
       "rationale": "Validating outputs is too vague to determine whether it is review, QA, or another finance task.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -648,8 +648,8 @@
       "confidence": 0.61,
       "rationale": "Protecting confidential data is a broad governance duty that does not map cleanly to a listed capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -673,8 +673,8 @@
       "confidence": 0.9,
       "rationale": "Overseeing sales compensation administration is commissions administration work, which is explicitly outside the map.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -698,9 +698,9 @@
       "confidence": 0.9,
       "rationale": "Aligning incentive plans with company goals is policy and design work requiring judgment.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -723,8 +723,8 @@
       "confidence": 0.92,
       "rationale": "Executing incentive plans accurately is commissions administration work with no matching capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },

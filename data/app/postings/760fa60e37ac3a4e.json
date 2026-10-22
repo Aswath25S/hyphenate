@@ -129,9 +129,9 @@
       "confidence": 0.9,
       "rationale": "The duty is about ASC 606 commission accounting and amortization/impairment of sales commissions, which is repetitive accounting work but not covered by any listed capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -175,8 +175,8 @@
       "confidence": 0.98,
       "rationale": "The duty is about collaborating with external auditors, which is a human relationship/coordination function.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -200,9 +200,9 @@
       "confidence": 0.88,
       "rationale": "The duty describes broad process-improvement and automation initiatives without a specific finance-operation task to map.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {

@@ -216,8 +216,8 @@
       "confidence": 0.61,
       "rationale": "Monitoring financial activity is too vague to map to a specific finance-ops capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -241,8 +241,8 @@
       "confidence": 0.6,
       "rationale": "Reviewing financial activity is too broad to determine the core automated action.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -287,9 +287,9 @@
       "confidence": 0.96,
       "rationale": "Partnering with internal teams is cross-functional collaboration rather than platform work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -312,9 +312,9 @@
       "confidence": 0.97,
       "rationale": "Partnering with external business contacts is relationship work rather than automated finance operations.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -421,8 +421,8 @@
       "confidence": 0.58,
       "rationale": "Processing financial transactions using accounting systems and tools is too generic to identify a specific covered workflow.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -467,8 +467,8 @@
       "confidence": 0.62,
       "rationale": "Maintaining financial transactions using accounting systems and tools is too vague to map reliably to a listed capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },

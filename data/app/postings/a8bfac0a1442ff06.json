@@ -90,8 +90,8 @@
       "confidence": 0.73,
       "rationale": "The duty is broad expense-management ownership without a specific workflow that matches a listed capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -115,8 +115,8 @@
       "confidence": 0.96,
       "rationale": "Serving as a trusted finance partner to senior leaders is advisory and cross-functional by nature.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -140,9 +140,9 @@
       "confidence": 0.84,
       "rationale": "Being a point of coordination is too vague to map to a specific platform capability.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -165,8 +165,8 @@
       "confidence": 0.81,
       "rationale": "Driving AI and automation transformation is a change initiative rather than a defined finance operation.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -190,8 +190,8 @@
       "confidence": 0.94,
       "rationale": "Owning the cost of revenue forecast is FP&A forecasting work, which is not covered in the map.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -236,8 +236,8 @@
       "confidence": 0.95,
       "rationale": "Partnering across FP&A and accounting is cross-functional collaboration that requires people coordination.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -261,8 +261,8 @@
       "confidence": 0.76,
       "rationale": "Identifying material risks is broad judgment-based analysis without a specific covered workflow.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -286,8 +286,8 @@
       "confidence": 0.76,
       "rationale": "Identifying material opportunities is broad judgment-based analysis without a specific covered workflow.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -311,8 +311,8 @@
       "confidence": 0.88,
       "rationale": "Identifying drivers behind performance versus plan is FP&A variance analysis outside the advertised capabilities.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -336,9 +336,9 @@
       "confidence": 0.97,
       "rationale": "Building financial models is planning/modeling work outside the map's covered workflows.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -361,8 +361,8 @@
       "confidence": 0.98,
       "rationale": "Driver-based scenario analysis for investment and planning is FP&A modeling outside the map.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -407,9 +407,9 @@
       "confidence": 0.96,
       "rationale": "Managing vendor spend and relationships involves vendor relationship work and judgment.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {

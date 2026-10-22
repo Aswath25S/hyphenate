@@ -89,8 +89,8 @@
       "confidence": 0.98,
       "rationale": "Managing and coaching the auditor is people management, not platform work.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -114,9 +114,9 @@
       "confidence": 0.97,
       "rationale": "Setting an employee's priorities is managerial judgment.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -139,8 +139,8 @@
       "confidence": 0.94,
       "rationale": "Reviewing workpapers is human audit review, not an automated finance workflow.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -164,8 +164,8 @@
       "confidence": 0.98,
       "rationale": "Providing feedback and development is a managerial duty.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -189,8 +189,8 @@
       "confidence": 0.92,
       "rationale": "Overseeing co-sourced testing is vendor and team management.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -214,9 +214,9 @@
       "confidence": 0.95,
       "rationale": "Reviewing workpapers for quality and consistency is human review and judgment.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -239,8 +239,8 @@
       "confidence": 0.96,
       "rationale": "Owning the annual IT SOX plan is setting policy and strategy.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -264,8 +264,8 @@
       "confidence": 0.86,
       "rationale": "Performing a risk assessment requires professional judgment and is not a defined platform workflow.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -289,9 +289,9 @@
       "confidence": 0.88,
       "rationale": "Scoping in-scope systems is judgment-heavy audit planning.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -314,8 +314,8 @@
       "confidence": 0.99,
       "rationale": "Aligning with the external auditor is a human relationship and coordination task.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -339,8 +339,8 @@
       "confidence": 0.93,
       "rationale": "Rationalizing IT SOX scope is strategic judgment, not automated processing.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -364,8 +364,8 @@
       "confidence": 0.97,
       "rationale": "Leading the end-to-end IT SOX program is broad human ownership and execution.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -410,8 +410,8 @@
       "confidence": 0.84,
       "rationale": "Reviewing SOC 1 reports and bridge letters requires judgment on vendor assurance documents.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -435,8 +435,8 @@
       "confidence": 0.9,
       "rationale": "Evaluating deficiencies and determining root cause and severity is judgment-based analysis.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -460,9 +460,9 @@
       "confidence": 0.95,
       "rationale": "Driving remediation with control owners is cross-functional coordination and follow-up.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -485,9 +485,9 @@
       "confidence": 0.98,
       "rationale": "Coordinating with providers, auditors, and business partners is relationship management.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -510,9 +510,9 @@
       "confidence": 0.97,
       "rationale": "Providing readiness advisory to business partners is advisory work and not control operation.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -535,9 +535,9 @@
       "confidence": 0.99,
       "rationale": "Training and enabling control owners is people development.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -560,9 +560,9 @@
       "confidence": 0.96,
       "rationale": "Status reporting to leadership and stakeholders is human communication and presentation.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -585,9 +585,9 @@
       "confidence": 0.93,
       "rationale": "Leading technology audits is an audit-management role, not a covered finance-ops workflow.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -610,9 +610,9 @@
       "confidence": 0.92,
       "rationale": "Setting standards for AI use is policy-setting and governance judgment.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -635,8 +635,8 @@
       "confidence": 0.66,
       "rationale": "Building reusable prompts, workflows, and automations is technical enablement that does not map cleanly to a listed capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -660,9 +660,9 @@
       "confidence": 0.99,
       "rationale": "Coaching the auditor on building and using automations is training and mentorship.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -685,8 +685,8 @@
       "confidence": 0.74,
       "rationale": "Automated control testing and full-population analysis is rules-based analytical work with no matching capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -710,8 +710,8 @@
       "confidence": 0.94,
       "rationale": "Assessing AI tool risk in the reporting environment requires control judgment and governance.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -735,9 +735,9 @@
       "confidence": 0.95,
       "rationale": "Advising on control design for AI-driven processes is human control-design judgment.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -760,8 +760,8 @@
       "confidence": 0.78,
       "rationale": "Staying current on literature and trends is professional development rather than a specific operational workflow.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },

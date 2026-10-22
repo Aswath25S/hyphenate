@@ -92,8 +92,8 @@
       "confidence": 0.97,
       "rationale": "Managing relationships with banking and investment partners is relationship management, which is explicitly outside the platform's operational capabilities.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -138,8 +138,8 @@
       "confidence": 0.96,
       "rationale": "Partnering with Finance and Accounting to run projects end-to-end is cross-functional project leadership, not a specific automated treasury task.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -163,8 +163,8 @@
       "confidence": 0.92,
       "rationale": "Monitoring and managing an investment portfolio is treasury asset management, which is not covered by any listed capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -188,8 +188,8 @@
       "confidence": 0.88,
       "rationale": "Quantifying and analyzing foreign currency exposures is analytical treasury work with no matching capability in the coverage map.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -213,8 +213,8 @@
       "confidence": 0.98,
       "rationale": "Making hedging recommendations requires judgment and policy decisions, which are not automated capabilities here.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -259,9 +259,9 @@
       "confidence": 0.9,
       "rationale": "Maintaining appropriate capital levels is a capital structure/policy decision rather than a covered finance-ops workflow.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -284,8 +284,8 @@
       "confidence": 0.87,
       "rationale": "Managing FX translation exposure is treasury risk management that does not map to a listed capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },

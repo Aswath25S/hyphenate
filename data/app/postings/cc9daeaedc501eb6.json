@@ -98,8 +98,8 @@
       "confidence": 0.41,
       "rationale": "The duty only says to proactively surface risks, which is too vague to map to a specific finance operation.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -123,8 +123,8 @@
       "confidence": 0.41,
       "rationale": "The duty only says to proactively surface opportunities, which is too vague to map to a specific finance operation.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -148,9 +148,9 @@
       "confidence": 0.86,
       "rationale": "Proactively recommending operational and strategic actions is advisory work for people, not a covered finance-operations task.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -215,8 +215,8 @@
       "confidence": 0.91,
       "rationale": "Ecommerce forecasting is FP&A planning work, which is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -240,8 +240,8 @@
       "confidence": 0.96,
       "rationale": "Ecommerce budgeting is annual planning/modeling work and is explicitly outside the covered capabilities.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -265,8 +265,8 @@
       "confidence": 0.9,
       "rationale": "Variance analysis in a planning partnership is FP&A budget-versus-actual work and does not map cleanly to the covered flux capability.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -290,9 +290,9 @@
       "confidence": 0.93,
       "rationale": "Pricing analysis is analytical FP&A work and pricing design is not a listed capability.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -315,9 +315,9 @@
       "confidence": 0.94,
       "rationale": "Promotional analysis is FP&A analysis work with no matching covered capability.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -340,8 +340,8 @@
       "confidence": 0.95,
       "rationale": "Evaluating ROI is a planning/analysis task that does not match any listed finance-operations capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -365,8 +365,8 @@
       "confidence": 0.94,
       "rationale": "Optimizing pricing and promotions is strategic FP&A work rather than a covered finance-operations capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -390,8 +390,8 @@
       "confidence": 0.95,
       "rationale": "Analyzing Co-Op programs is program profitability analysis with no direct capability match.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -415,8 +415,8 @@
       "confidence": 0.95,
       "rationale": "Analyzing DDA programs is specialized FP&A analysis that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -440,8 +440,8 @@
       "confidence": 0.95,
       "rationale": "Analyzing rebate programs is rules-based finance analysis without a matching listed capability.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -507,8 +507,8 @@
       "confidence": 0.88,
       "rationale": "Ensuring metric data integrity in partnership with Data and Engineering is cross-functional coordination work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -637,8 +637,8 @@
       "confidence": 0.72,
       "rationale": "Establishing new financial processes is process design and governance work that requires human judgment.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -662,8 +662,8 @@
       "confidence": 0.48,
       "rationale": "Managing reporting frameworks is too vague to map cleanly to a specific covered capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -708,9 +708,9 @@
       "confidence": 0.96,
       "rationale": "Contributing to board presentations is presentation work, which is explicitly human.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -733,9 +733,9 @@
       "confidence": 0.96,
       "rationale": "Contributing to quarterly board presentations is presentation work, which is explicitly human.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -758,8 +758,8 @@
       "confidence": 0.9,
       "rationale": "Annual planning is FP&A planning work and is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
         "bucket": "possible_gap"
       }
     },
@@ -783,8 +783,8 @@
       "confidence": 0.92,
       "rationale": "Long-range planning is FP&A planning work and is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
         "bucket": "possible_gap"
       }
     },
@@ -808,8 +808,8 @@
       "confidence": 0.56,
       "rationale": "Identifying AI-enabled improvements is a vague process-improvement activity without a direct capability match.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -833,8 +833,8 @@
       "confidence": 0.56,
       "rationale": "Implementing AI-enabled improvements is a project/implementation task that does not map cleanly to a finance-operations capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },

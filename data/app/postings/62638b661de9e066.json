@@ -103,9 +103,9 @@
       "confidence": 0.97,
       "rationale": "Managing accounts payable operations is team/process management rather than an individual AP automation task.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -125,8 +125,8 @@
       "confidence": 0.97,
       "rationale": "Managing procurement operations is a people-and-process leadership duty, not a specific automated transaction action.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -192,9 +192,9 @@
       "confidence": 0.86,
       "rationale": "Managing purchase order workflow is operational work but does not match a listed capability for issuing or matching POs.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -217,8 +217,8 @@
       "confidence": 0.98,
       "rationale": "Approving contracts is a judgment and authorization task, which is a human responsibility.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -263,8 +263,8 @@
       "confidence": 0.93,
       "rationale": "Managing vendor escalations involves relationship handling and judgment, not a listed automation capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -288,8 +288,8 @@
       "confidence": 0.9,
       "rationale": "Payroll accounting is repetitive finance work but has no matching capability in the map.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -313,8 +313,8 @@
       "confidence": 0.9,
       "rationale": "Benefits accounting is repetitive accounting work but is not covered by a listed capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -401,9 +401,9 @@
       "confidence": 0.98,
       "rationale": "Reviewing journal entries is human review and approval, which the capability explicitly excludes.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -447,9 +447,9 @@
       "confidence": 0.77,
       "rationale": "Supporting the monthly close process is too vague to map to a specific covered duty.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -472,8 +472,8 @@
       "confidence": 0.74,
       "rationale": "Ensuring deadlines are met is a broad coordination goal rather than a specific finance-operations action.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -497,9 +497,9 @@
       "confidence": 0.84,
       "rationale": "Ensuring results are accurate and US GAAP compliant requires judgment and accounting oversight.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -522,9 +522,9 @@
       "confidence": 0.88,
       "rationale": "Speeding up the close is a performance goal, not a discrete automatable duty.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -652,9 +652,9 @@
       "confidence": 0.99,
       "rationale": "Managing a team is a people-leadership responsibility.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -677,8 +677,8 @@
       "confidence": 0.99,
       "rationale": "Providing day-to-day supervision is direct people management.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -702,8 +702,8 @@
       "confidence": 0.98,
       "rationale": "Assigning workload is a supervisory task that involves managing staff.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -727,8 +727,8 @@
       "confidence": 0.98,
       "rationale": "Reviewing work is human oversight and quality control of others' output.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -752,9 +752,9 @@
       "confidence": 0.98,
       "rationale": "Partnering cross-functionally with FP&A is collaboration with another team, which is a human duty.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -777,8 +777,8 @@
       "confidence": 0.97,
       "rationale": "Partnering with external consultants is relationship management and coordination with outside people.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -823,9 +823,9 @@
       "confidence": 0.82,
       "rationale": "Identifying opportunities for automation is a broad improvement activity without a specific mapped capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -848,9 +848,9 @@
       "confidence": 0.82,
       "rationale": "Identifying opportunities for process optimization is too broad and project-oriented to map cleanly.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -873,8 +873,8 @@
       "confidence": 0.76,
       "rationale": "Implementing AI automation for journal entries and workflows is a project initiative rather than the platform's end-state workflow.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },

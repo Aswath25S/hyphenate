@@ -87,9 +87,9 @@
       "confidence": 0.93,
       "rationale": "Researching technical accounting issues and drafting memos is novel technical accounting work not covered by the listed automation capabilities.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -112,8 +112,8 @@
       "confidence": 0.93,
       "rationale": "Analyzing technical accounting issues and memos is technical accounting judgment work with no direct capability match.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -137,8 +137,8 @@
       "confidence": 0.95,
       "rationale": "Documenting technical accounting issues and memos is specialized accounting documentation not covered by the map.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -162,8 +162,8 @@
       "confidence": 0.82,
       "rationale": "Preparing calculations to support accounting conclusions is calculation work for novel accounting issues, which has no direct capability match.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -187,8 +187,8 @@
       "confidence": 0.98,
       "rationale": "Facilitating external audit reviews is working with external auditors as a relationship, which is explicitly human work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -212,9 +212,9 @@
       "confidence": 0.99,
       "rationale": "Developing accounting policies and procedures is setting policy, which is human judgment work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -237,9 +237,9 @@
       "confidence": 0.95,
       "rationale": "Maintaining accounting policies and procedures is policy ownership and governance rather than an automation capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -262,9 +262,9 @@
       "confidence": 0.94,
       "rationale": "Leading implementation of significant changes is project leadership and coordination, which is human work.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -287,8 +287,8 @@
       "confidence": 0.98,
       "rationale": "Working with external valuation specialists is partnering with outside experts, which is human relationship work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -312,8 +312,8 @@
       "confidence": 0.77,
       "rationale": "Ensuring complex transaction valuations are completed accurately and on time is valuation oversight with no matching platform capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -337,8 +337,8 @@
       "confidence": 0.9,
       "rationale": "Managing inputs for 409A, intangible asset, and equity award valuations is specialized valuation support not covered by the map.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -362,8 +362,8 @@
       "confidence": 0.91,
       "rationale": "Reviewing valuation deliverables is human review and approval of specialist work rather than automated processing.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -387,9 +387,9 @@
       "confidence": 0.99,
       "rationale": "Collaborating across Accounting Operations, Engineering, Finance, Legal, and HR is cross-functional partnering, which is human work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -412,8 +412,8 @@
       "confidence": 0.88,
       "rationale": "Ensuring technical guidance is operationalized and understood is a human enablement and coordination task.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -437,9 +437,9 @@
       "confidence": 0.55,
       "rationale": "Supporting initiatives to enhance external reporting readiness is too vague to map to a specific covered action.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
       }
     },
     {
@@ -462,8 +462,8 @@
       "confidence": 0.93,
       "rationale": "Designing efficient, SOX-compliant accounting processes is process design and judgment, not a covered execution capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
         "bucket": "possible_gap"
       }
     },
@@ -487,8 +487,8 @@
       "confidence": 0.92,
       "rationale": "Implementing efficient, SOX-compliant accounting processes is project implementation work rather than a listed end-to-end capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -512,8 +512,8 @@
       "confidence": 0.98,
       "rationale": "Designing internal controls is explicitly judgmental framework design, which is not covered.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
         "bucket": "possible_gap"
       }
     },
@@ -537,8 +537,8 @@
       "confidence": 0.88,
       "rationale": "Implementing internal controls is control setup and project work, not the covered monitoring or testing activities.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -562,8 +562,8 @@
       "confidence": 0.98,
       "rationale": "Partnering with external auditors and consultants is relationship management and advisory coordination, which is human work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -587,9 +587,9 @@
       "confidence": 0.99,
       "rationale": "Providing training to team members is people management and education, which is human work by definition.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -612,9 +612,9 @@
       "confidence": 0.98,
       "rationale": "Providing mentorship on emerging standards is coaching and people development, which is human work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {

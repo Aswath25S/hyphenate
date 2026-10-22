@@ -101,8 +101,8 @@
       "confidence": 0.41,
       "rationale": "The duty is too broad—providing daily accounting functions spans many activities that do not map cleanly to one capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -147,8 +147,8 @@
       "confidence": 0.37,
       "rationale": "Distributing reports is a delivery task rather than a clear reporting capability in the map.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -235,8 +235,8 @@
       "confidence": 0.9,
       "rationale": "Preparing monthly client distributions is repetitive payment/disbursement processing with no direct matching capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -260,9 +260,9 @@
       "confidence": 0.46,
       "rationale": "Reviewing and maintaining general ledger accuracy is too general to map to a single covered action.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -369,9 +369,9 @@
       "confidence": 0.9,
       "rationale": "Supporting property accounting managers is a people-support duty rather than an automated finance operation.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -394,8 +394,8 @@
       "confidence": 0.9,
       "rationale": "Supporting property accounting managers with distributions is managerial support, not a platform task.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -440,8 +440,8 @@
       "confidence": 0.44,
       "rationale": "Monitoring tenant billings is vague oversight and does not clearly match a specific invoicing action.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -465,8 +465,8 @@
       "confidence": 0.45,
       "rationale": "Monitoring billing adjustments is too vague to map cleanly to invoicing or order-to-cash processing.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -529,8 +529,8 @@
       "confidence": 0.42,
       "rationale": "Reviewing invoice workflow is too vague and does not directly match a single approval or coding action.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -554,9 +554,9 @@
       "confidence": 0.88,
       "rationale": "Ensuring adherence to capitalization policies involves accounting policy judgment and enforcement.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -600,9 +600,9 @@
       "confidence": 0.96,
       "rationale": "Coordinating with various departments is cross-functional partnering work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -625,8 +625,8 @@
       "confidence": 0.47,
       "rationale": "Ensuring accounting accuracy and completeness of financial packages is a broad quality-assurance statement without a specific mapped action.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -671,8 +671,8 @@
       "confidence": 0.92,
       "rationale": "Providing responses to portfolio managers and regional directors is advisory cross-functional communication.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -717,8 +717,8 @@
       "confidence": 0.74,
       "rationale": "Researching new accounting laws and regulations requires human interpretation and policy judgment.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -742,8 +742,8 @@
       "confidence": 0.99,
       "rationale": "Preparing 1099 reporting is tax form processing that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -767,8 +767,8 @@
       "confidence": 0.99,
       "rationale": "Preparing 1096 reporting is tax form filing work outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -792,8 +792,8 @@
       "confidence": 0.99,
       "rationale": "Preparing quarterly 592 forms is state tax filing work with no matching capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -817,8 +817,8 @@
       "confidence": 0.99,
       "rationale": "Preparing quarterly 588 forms is state tax filing work with no matching capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },

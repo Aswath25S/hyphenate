@@ -183,11 +183,22 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
         {c.triggers.length ? (
           <div className="card overflow-hidden">
             {[...c.triggers].sort((a, b) => (b.event_date ?? '').localeCompare(a.event_date ?? '')).map((t) => (
-              <a key={t.url} href={t.url} target="_blank" rel="noreferrer" className="dash-row grid grid-cols-1 gap-2 px-5 py-4 hover:bg-surface-tint sm:grid-cols-[10rem_12rem_1fr]">
+              <div key={t.url} className="dash-row grid grid-cols-1 gap-2 px-5 py-4 sm:grid-cols-[10rem_12rem_1fr]">
                 <Mono>{shortDate(t.event_date)}</Mono>
                 <span className="text-[14px] font-medium">{TRIGGER_LABELS[t.trigger_type] ?? t.trigger_type}</span>
-                <span className="text-[14px]"><span className="link">{t.headline}</span><span className="mt-1 block text-ink-muted">{t.summary} · {t.source} · confidence {t.confidence.toFixed(2)}</span></span>
-              </a>
+                <span className="text-[14px]">
+                  <a href={t.url} target="_blank" rel="noreferrer" className="link">{t.headline}</a>
+                  <span className="mt-1 block text-ink-muted">{t.summary} · {t.source} · confidence {t.confidence.toFixed(2)}</span>
+                  {t.also_reported && t.also_reported.length > 0 && (
+                    <span className="mt-1.5 block text-[13px] text-ink-muted">
+                      Also reported by{' '}
+                      {t.also_reported.map((o, i) => (
+                        <span key={o.url}>{i > 0 && ', '}<a href={o.url} target="_blank" rel="noreferrer" className="link" title={o.headline}>{o.source || 'another outlet'}</a></span>
+                      ))}
+                    </span>
+                  )}
+                </span>
+              </div>
             ))}
           </div>
         ) : <Note>{c.news_searched ? 'Google News and newsroom feeds were searched; nothing qualified (confidence ≥ 0.7, company named in the headline, within 180 days).' : 'News runs only for the top 30 companies by pain and fit.'}</Note>}

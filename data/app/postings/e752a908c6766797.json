@@ -158,8 +158,8 @@
       "confidence": 0.54,
       "rationale": "The duty only says maintaining weekly and monthly schedules, which is too vague to map to a specific finance operation.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -225,9 +225,9 @@
       "confidence": 0.38,
       "rationale": "The duty only says communicating issues timely, which is too generic to identify a covered finance-operation action.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -271,9 +271,9 @@
       "confidence": 0.99,
       "rationale": "The duty is reviewing expense reports, which is repetitive finance work but has no matching capability in the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -317,9 +317,9 @@
       "confidence": 0.93,
       "rationale": "The duty is liaising with business partners about accrual accounting, which is cross-functional collaboration and judgment.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -384,8 +384,8 @@
       "confidence": 0.96,
       "rationale": "The duty is supporting the planning and budgeting team, which is partnering with another team rather than performing an automated finance operation.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -430,9 +430,9 @@
       "confidence": 0.56,
       "rationale": "The duty only says compiling schedules, which is too vague without knowing whether they are close, audit, or reconciliation schedules.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {

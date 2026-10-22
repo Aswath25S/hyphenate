@@ -96,8 +96,8 @@
       "confidence": 0.66,
       "rationale": "The duty is a broad FP&A support statement without a specific action that maps to a listed capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -121,9 +121,9 @@
       "confidence": 0.97,
       "rationale": "Annual budgeting is FP&A planning work that is repetitive and rules-based but has no matching capability here.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -146,8 +146,8 @@
       "confidence": 0.97,
       "rationale": "Quarterly forecasting is planning work that fits the gap pattern rather than a listed capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -171,9 +171,9 @@
       "confidence": 0.97,
       "rationale": "Long-range planning is budgeting/modeling work with no direct capability match.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work"
       }
     },
     {
@@ -217,9 +217,9 @@
       "confidence": 0.95,
       "rationale": "Budget versus actual analysis is FP&A planning analysis and not a listed reporting capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -242,8 +242,8 @@
       "confidence": 0.96,
       "rationale": "Preparing forecast updates is forecasting work that falls outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -309,9 +309,9 @@
       "confidence": 0.98,
       "rationale": "Partnering cross-functionally with business leaders is advisory relationship work that people perform.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -376,9 +376,9 @@
       "confidence": 0.98,
       "rationale": "Building financial models is FP&A modeling work with no listed capability match.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -401,9 +401,9 @@
       "confidence": 0.98,
       "rationale": "Maintaining financial models is ongoing FP&A modeling work that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -426,8 +426,8 @@
       "confidence": 0.95,
       "rationale": "Supporting operating forecasts is forecasting/planning work without a listed capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -451,9 +451,9 @@
       "confidence": 0.96,
       "rationale": "Supporting headcount planning is an FP&A planning activity not covered by the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -497,8 +497,8 @@
       "confidence": 0.97,
       "rationale": "Supporting strategic decision-making is advisory judgment work that belongs to people.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },
@@ -669,8 +669,8 @@
       "confidence": 0.74,
       "rationale": "Identifying risks is too vague and does not map cleanly to a listed capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -694,8 +694,8 @@
       "confidence": 0.74,
       "rationale": "Identifying opportunities to improve financial outcomes is broad strategic analysis without a direct match.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -719,8 +719,8 @@
       "confidence": 0.96,
       "rationale": "Supporting capital allocation decision-making is strategic judgment work that people perform.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
         "bucket": "human_work"
       }
     },
@@ -744,9 +744,9 @@
       "confidence": 0.96,
       "rationale": "Supporting investment decision-making is strategic judgment work that belongs to people.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -769,9 +769,9 @@
       "confidence": 0.97,
       "rationale": "Scenario analysis is planning-model work that is not directly covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -794,8 +794,8 @@
       "confidence": 0.97,
       "rationale": "Sensitivity modeling is FP&A modeling work with no direct capability match.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -819,8 +819,8 @@
       "confidence": 0.95,
       "rationale": "ROI assessments are planning/analysis work not covered by the map.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -844,8 +844,8 @@
       "confidence": 0.91,
       "rationale": "Partnering with Accounting during month-end close is cross-functional coordination work people do.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -869,8 +869,8 @@
       "confidence": 0.78,
       "rationale": "Ensuring accurate financial reporting is too broad to map to one specific automated capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -894,9 +894,9 @@
       "confidence": 0.94,
       "rationale": "Ensuring alignment between actuals and forecasts is FP&A planning reconciliation work without a listed match.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -919,9 +919,9 @@
       "confidence": 0.88,
       "rationale": "Driving improvements in financial processes is vague process-improvement work rather than a specific capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -944,8 +944,8 @@
       "confidence": 0.86,
       "rationale": "Driving improvements in reporting tools is a vague systems-improvement statement, not a specific finance operation.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -969,8 +969,8 @@
       "confidence": 0.84,
       "rationale": "Driving improvements in planning frameworks is too vague and does not map cleanly to a capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -994,9 +994,9 @@
       "confidence": 0.82,
       "rationale": "Supporting a scalable finance function is a broad organizational objective rather than a discrete task.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1019,9 +1019,9 @@
       "confidence": 0.86,
       "rationale": "Contributing to strategic finance initiatives is too broad to classify against a specific capability.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1044,8 +1044,8 @@
       "confidence": 0.88,
       "rationale": "Developing KPIs is metric-design work not directly covered by the reporting capabilities.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -1090,8 +1090,8 @@
       "confidence": 0.82,
       "rationale": "Standardizing processes across the organization is too broad to map to a single covered action.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },

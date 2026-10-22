@@ -85,8 +85,8 @@
       "confidence": 0.98,
       "rationale": "Reimagining the FP&A operating model is a strategic redesign decision, not an automated finance operation.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -110,9 +110,9 @@
       "confidence": 0.98,
       "rationale": "Leading a function-wide transformation is change management and leadership work rather than a platform task.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -135,8 +135,8 @@
       "confidence": 0.97,
       "rationale": "Partnering with another internal team is cross-functional relationship work that requires people coordination.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -160,8 +160,8 @@
       "confidence": 0.91,
       "rationale": "Long-range strategic planning is a planning-model activity that is not covered by the platform map.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -185,8 +185,8 @@
       "confidence": 0.97,
       "rationale": "Building a long-range financial model is a budgeting and planning model task outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -210,8 +210,8 @@
       "confidence": 0.94,
       "rationale": "Planning and resource allocation is FP&A budgeting work that is not covered by the platform.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -235,9 +235,9 @@
       "confidence": 0.98,
       "rationale": "Shaping pricing and packaging is a strategic product/pricing decision, not a finance-operations automation task.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -260,9 +260,9 @@
       "confidence": 0.97,
       "rationale": "Shaping the go-to-market motion is a cross-functional business strategy activity that needs human judgment.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -285,9 +285,9 @@
       "confidence": 0.97,
       "rationale": "Sales compensation design is policy and incentive design, not a covered finance workflow.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -310,8 +310,8 @@
       "confidence": 0.93,
       "rationale": "Owning the company-wide planning and forecasting process is broader FP&A planning work not covered by the map.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -335,9 +335,9 @@
       "confidence": 0.89,
       "rationale": "Rolling, continuously updated forecasting is a forecasting-model activity beyond the specific cash forecast capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -360,8 +360,8 @@
       "confidence": 0.95,
       "rationale": "Incorporating revenue pipeline signals is driver-based planning work that is not a listed capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -385,8 +385,8 @@
       "confidence": 0.95,
       "rationale": "Incorporating product usage signals into forecasts is planning-model work outside the coverage map.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -410,8 +410,8 @@
       "confidence": 0.94,
       "rationale": "Incorporating churn indicators into planning is a forecasting-model task not covered by the platform.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -435,8 +435,8 @@
       "confidence": 0.96,
       "rationale": "Incorporating headcount inputs is workforce-planning model work with no matching capability.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -460,9 +460,9 @@
       "confidence": 0.92,
       "rationale": "Refreshing forecasts dynamically is FP&A forecasting work that is not the covered treasury cash forecast.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -485,8 +485,8 @@
       "confidence": 0.99,
       "rationale": "Serving as a strategic finance partner is advisory leadership work with the CFO and executives.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -531,9 +531,9 @@
       "confidence": 0.96,
       "rationale": "Turning signals into business recommendations is advisory work that requires human judgment and prioritization.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -577,8 +577,8 @@
       "confidence": 0.93,
       "rationale": "Investor-facing package work is external stakeholder communication and not a covered reporting workflow.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -623,9 +623,9 @@
       "confidence": 0.96,
       "rationale": "Scenario modeling is FP&A planning work with no matching capability in the coverage map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -648,8 +648,8 @@
       "confidence": 0.92,
       "rationale": "Ensuring precision and credibility is a quality standard and judgment call rather than a specific platform workflow.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -673,9 +673,9 @@
       "confidence": 0.95,
       "rationale": "Interactive real-time scenario modeling is planning analysis that is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -698,8 +698,8 @@
       "confidence": 0.95,
       "rationale": "Moving to AI-powered what-if analysis is scenario modeling work outside the coverage map.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -723,8 +723,8 @@
       "confidence": 0.97,
       "rationale": "Modeling pricing changes is a financial planning and sensitivity analysis task not covered here.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -748,8 +748,8 @@
       "confidence": 0.97,
       "rationale": "Modeling investment shifts is FP&A scenario analysis, which is not a listed capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -773,8 +773,8 @@
       "confidence": 0.96,
       "rationale": "Modeling revenue tailwinds is planning-model work outside the platform's coverage.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -798,8 +798,8 @@
       "confidence": 0.96,
       "rationale": "Modeling revenue headwinds is forecasting and scenario analysis that is not covered by the map.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -823,9 +823,9 @@
       "confidence": 0.88,
       "rationale": "Deploying self-serve financial intelligence is an enablement and rollout activity, not a defined finance workflow.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -848,9 +848,9 @@
       "confidence": 0.92,
       "rationale": "Enabling leaders to answer their own questions is cross-functional enablement and partnership work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -873,9 +873,9 @@
       "confidence": 0.92,
       "rationale": "Enabling GTM leaders to self-serve financial questions is business partnering and enablement work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -898,9 +898,9 @@
       "confidence": 0.92,
       "rationale": "Enabling G&A leaders to self-serve financial questions is cross-functional partnering work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -923,8 +923,8 @@
       "confidence": 0.98,
       "rationale": "Partnering cross-functionally with R&D leadership is a relationship and advisory duty.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -948,8 +948,8 @@
       "confidence": 0.98,
       "rationale": "Partnering cross-functionally with GTM leadership is advisory collaboration work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -973,8 +973,8 @@
       "confidence": 0.98,
       "rationale": "Partnering cross-functionally with G&A leadership is human collaboration and advising work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -998,8 +998,8 @@
       "confidence": 0.95,
       "rationale": "Building a business partnering model is a management and operating-model design activity.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -1023,8 +1023,8 @@
       "confidence": 0.99,
       "rationale": "Leading an FP&A team is people management work by nature.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -1048,8 +1048,8 @@
       "confidence": 0.99,
       "rationale": "Managing a small team is a direct people-management responsibility.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -1073,9 +1073,9 @@
       "confidence": 0.94,
       "rationale": "Making AI fluency a core competency is a training and competency-setting decision.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -1098,9 +1098,9 @@
       "confidence": 0.94,
       "rationale": "Making analytical judgment a core competency is a people and capability standard-setting task.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -1123,9 +1123,9 @@
       "confidence": 0.94,
       "rationale": "Making strategic communication a core competency is a team-development and policy decision.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -1148,9 +1148,9 @@
       "confidence": 0.91,
       "rationale": "Favoring hands-on contribution over headcount is a staffing philosophy and management judgment.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {

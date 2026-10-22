@@ -84,9 +84,9 @@
       "confidence": 0.98,
       "rationale": "The action is serving as the senior leader for the site accounting function, which is people leadership rather than a platform task.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -109,9 +109,9 @@
       "confidence": 0.61,
       "rationale": "The duty states ownership of result integrity without a concrete operational action, so it is too broad to classify.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -134,9 +134,9 @@
       "confidence": 0.98,
       "rationale": "Partnering with plant leadership is advisory and relationship work, which is human.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -159,9 +159,9 @@
       "confidence": 0.91,
       "rationale": "Leading manufacturing-cost accounting is cost accounting work that is not covered by the platform map.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -184,9 +184,9 @@
       "confidence": 0.89,
       "rationale": "Leading close activities for inventory is oversight rather than direct inventory accounting work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -209,8 +209,8 @@
       "confidence": 0.89,
       "rationale": "Leading close activities for fixed assets is oversight rather than simply maintaining subledgers.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },
@@ -234,8 +234,8 @@
       "confidence": 0.85,
       "rationale": "Leading close activities for capital projects is project-accounting work with no matching capability.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },
@@ -259,9 +259,9 @@
       "confidence": 0.88,
       "rationale": "Leading reconciliations as part of close is oversight rather than direct account reconciliation work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -284,8 +284,8 @@
       "confidence": 0.89,
       "rationale": "Leading accrual close activities is oversight of accrual work rather than the accrual preparation itself.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },
@@ -309,8 +309,8 @@
       "confidence": 0.9,
       "rationale": "Leading financial reporting close activities is management of the reporting process, not a report-building task.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -334,9 +334,9 @@
       "confidence": 0.97,
       "rationale": "Manufacturing and cost accounting is a cost accounting function outside the coverage map.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -359,9 +359,9 @@
       "confidence": 0.96,
       "rationale": "Standard cost ownership is inventory and cost accounting work with no matching capability.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -384,9 +384,9 @@
       "confidence": 0.95,
       "rationale": "Labor and overhead costing is manufacturing cost accounting, which is not covered.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -409,9 +409,9 @@
       "confidence": 0.95,
       "rationale": "Work-in-process accounting is inventory and cost accounting work with no matching capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -434,9 +434,9 @@
       "confidence": 0.98,
       "rationale": "Inventory valuation is cost accounting work that the map explicitly treats as a gap.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -456,9 +456,9 @@
       "confidence": 0.93,
       "rationale": "Analyzing production variances is manufacturing variance analysis with no direct capability match.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -481,8 +481,8 @@
       "confidence": 0.93,
       "rationale": "Analyzing manufacturing variances is cost and variance accounting not covered by the platform.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -506,9 +506,9 @@
       "confidence": 0.95,
       "rationale": "Establishing controls over inventory is designing a control framework, which is human judgment.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -531,9 +531,9 @@
       "confidence": 0.95,
       "rationale": "Establishing controls over production reporting is control design work rather than monitoring existing controls.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -556,9 +556,9 @@
       "confidence": 0.96,
       "rationale": "Establishing controls over purchasing is control design and policy work, which is human.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -581,9 +581,9 @@
       "confidence": 0.95,
       "rationale": "Establishing controls over receiving is control framework design, not a platform-run control.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -606,9 +606,9 @@
       "confidence": 0.95,
       "rationale": "Establishing controls over fixed assets is control design work rather than subledger maintenance.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -631,9 +631,9 @@
       "confidence": 0.95,
       "rationale": "Establishing controls over capital expenditures is policy and control design, which is human.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -656,9 +656,9 @@
       "confidence": 0.93,
       "rationale": "Establishing controls over other plant operations is broad control design work and too human-driven to automate.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -681,9 +681,9 @@
       "confidence": 0.98,
       "rationale": "Partnering closely with Operations is cross-functional advising and relationship work, which is human.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -706,9 +706,9 @@
       "confidence": 0.98,
       "rationale": "Partnering closely with Engineering is cross-functional relationship work, not an operational finance task.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -731,9 +731,9 @@
       "confidence": 0.98,
       "rationale": "Partnering closely with Supply Chain is advisory coordination with another team, which is human.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -756,9 +756,9 @@
       "confidence": 0.98,
       "rationale": "Partnering closely with FP&A is cross-functional collaboration, which is human.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -781,9 +781,9 @@
       "confidence": 0.98,
       "rationale": "Partnering closely with Corporate Accounting is relationship and advisory work, not a platform task.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -827,9 +827,9 @@
       "confidence": 0.9,
       "rationale": "Improving business decisions is an outcome, not a specific finance operation, so it is too vague to classify.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -852,9 +852,9 @@
       "confidence": 0.82,
       "rationale": "Building and strengthening accounting infrastructure is a strategic process-improvement project with no exact capability match.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -877,8 +877,8 @@
       "confidence": 0.99,
       "rationale": "Leading the site accounting team is people management, which is human.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -902,8 +902,8 @@
       "confidence": 0.99,
       "rationale": "Developing the site accounting team is training and talent development, which is human.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },

@@ -85,9 +85,9 @@
       "confidence": 0.98,
       "rationale": "Leading a team of analysts is people management, which is a human duty rather than an automated finance operation.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -110,8 +110,8 @@
       "confidence": 0.98,
       "rationale": "Mentoring analysts is coaching and development work, which is inherently human.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -135,8 +135,8 @@
       "confidence": 0.94,
       "rationale": "Overseeing workstreams is management and coordination of people and projects, not a platform capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -160,8 +160,8 @@
       "confidence": 0.98,
       "rationale": "Supporting career development is staff development and leadership, which is human work.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -185,8 +185,8 @@
       "confidence": 0.93,
       "rationale": "Balancing workload is team management and prioritization, not a finance-ops automation task.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -210,8 +210,8 @@
       "confidence": 0.99,
       "rationale": "Driving annual budgeting is FP&A planning work that is explicitly outside the covered capabilities.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -235,9 +235,9 @@
       "confidence": 0.99,
       "rationale": "Driving long-range financial planning is an FP&A planning model activity that is not covered.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -260,9 +260,9 @@
       "confidence": 0.96,
       "rationale": "Serving as a strategic partner to operational teams is advising and cross-functional collaboration, which is human work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -285,8 +285,8 @@
       "confidence": 0.86,
       "rationale": "Helping unlock performance through financial insight is advisory and partner-facing work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -310,9 +310,9 @@
       "confidence": 0.97,
       "rationale": "Building scenario models is FP&A modeling work and matches no covered capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -335,9 +335,9 @@
       "confidence": 0.96,
       "rationale": "Building business cases is rules-based FP&A analysis and modeling that is not in the coverage map.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -360,8 +360,8 @@
       "confidence": 0.36,
       "rationale": "Supporting new initiatives is too vague to map to a specific finance operation capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -406,9 +406,9 @@
       "confidence": 0.58,
       "rationale": "Identifying areas for optimization is ad hoc analysis of financial data, though it requires judgment to turn into recommendations.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -431,9 +431,9 @@
       "confidence": 0.56,
       "rationale": "Identifying areas for growth is ad hoc analytical work on business performance, but not a covered end-to-end capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -456,9 +456,9 @@
       "confidence": 0.95,
       "rationale": "Delivering recommendations to senior stakeholders is presenting and advising other teams, which is human work.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -481,9 +481,9 @@
       "confidence": 0.95,
       "rationale": "Influencing priorities across departments through storytelling is cross-functional persuasion and partnership, which is human.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -506,9 +506,9 @@
       "confidence": 0.94,
       "rationale": "Championing best practices in financial analysis is setting standards and coaching others, which is human work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -531,9 +531,9 @@
       "confidence": 0.94,
       "rationale": "Championing best practices in modeling is methodology leadership and training, which is human work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -556,9 +556,9 @@
       "confidence": 0.94,
       "rationale": "Championing best practices in operational rigor is leadership and process advocacy, which is human work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {

@@ -362,8 +362,8 @@
       "confidence": 0.95,
       "rationale": "Partnering with FP&A and stakeholders is cross-functional collaboration and advisory work.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -387,9 +387,9 @@
       "confidence": 0.67,
       "rationale": "Using AI tools to streamline analysis is a method statement, not a specific finance operation capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -412,9 +412,9 @@
       "confidence": 0.67,
       "rationale": "Using AI tools to streamline reconciliations describes process improvement rather than the reconciliation work itself.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -437,9 +437,9 @@
       "confidence": 0.7,
       "rationale": "Using AI tools to streamline recurring workflows is too broad and does not map to a specific capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -462,9 +462,9 @@
       "confidence": 0.58,
       "rationale": "Strengthening controls is a broad process-improvement goal rather than monitored control execution.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -487,9 +487,9 @@
       "confidence": 0.62,
       "rationale": "Strengthening accounting processes is a vague improvement objective, not a defined platform workflow.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -512,8 +512,8 @@
       "confidence": 0.72,
       "rationale": "Supporting accurate financial statements is too generic to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -537,9 +537,9 @@
       "confidence": 0.74,
       "rationale": "Driving scalable improvements across Corporate Accounting is process redesign work rather than a covered finance operation.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -562,9 +562,9 @@
       "confidence": 0.98,
       "rationale": "Collaborating with FP&A, AP, Legal, and other teams is cross-functional partnership work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {

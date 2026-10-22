@@ -90,9 +90,9 @@
       "confidence": 0.98,
       "rationale": "Serving as the senior accounting leader is a leadership role rather than an automatable accounting task.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -115,8 +115,8 @@
       "confidence": 0.68,
       "rationale": "Owning the accuracy and integrity of site financial results is a broad responsibility, not a specific process action.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -140,9 +140,9 @@
       "confidence": 0.99,
       "rationale": "Partnering closely with site leadership is cross-functional relationship work done by people.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -165,9 +165,9 @@
       "confidence": 0.93,
       "rationale": "Leading plant accounting and close activities is management of the function rather than the underlying accounting task.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -190,8 +190,8 @@
       "confidence": 0.9,
       "rationale": "Managing inventory is repetitive manufacturing accounting work with no matching capability in the map.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -236,9 +236,9 @@
       "confidence": 0.92,
       "rationale": "Managing capital projects is project accounting work not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -324,9 +324,9 @@
       "confidence": 0.94,
       "rationale": "Owning manufacturing and cost accounting is cost accounting work with no direct capability match.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -349,8 +349,8 @@
       "confidence": 0.93,
       "rationale": "Managing standard costs is cost-accounting maintenance not covered by the map.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -374,8 +374,8 @@
       "confidence": 0.92,
       "rationale": "Managing labor and overhead is manufacturing cost accounting work not covered by the map.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -399,8 +399,8 @@
       "confidence": 0.93,
       "rationale": "Managing work in process is manufacturing inventory accounting not covered by the map.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -424,8 +424,8 @@
       "confidence": 0.92,
       "rationale": "Managing inventory valuation is cost accounting work with no matching capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -470,8 +470,8 @@
       "confidence": 0.86,
       "rationale": "Establishing strong financial controls is designing the control framework, which requires human judgment.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -495,9 +495,9 @@
       "confidence": 0.69,
       "rationale": "Establishing disciplined processes across inventory is process-improvement work rather than a specific platform capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -520,9 +520,9 @@
       "confidence": 0.69,
       "rationale": "Establishing disciplined processes across production reporting is process-improvement work rather than a specific platform capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -545,9 +545,9 @@
       "confidence": 0.69,
       "rationale": "Establishing disciplined processes across purchasing is process-improvement work rather than a specific platform capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -570,9 +570,9 @@
       "confidence": 0.69,
       "rationale": "Establishing disciplined processes across receiving is process-improvement work rather than a specific platform capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -595,9 +595,9 @@
       "confidence": 0.69,
       "rationale": "Establishing disciplined processes across fixed assets is process-improvement work rather than a specific platform capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -620,9 +620,9 @@
       "confidence": 0.69,
       "rationale": "Establishing disciplined processes across capital expenditures is process-improvement work rather than a specific platform capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -645,9 +645,9 @@
       "confidence": 0.7,
       "rationale": "Establishing disciplined processes across other plant operations is too broad to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -670,9 +670,9 @@
       "confidence": 0.99,
       "rationale": "Partnering closely with other functions is cross-functional collaboration done by people.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -716,9 +716,9 @@
       "confidence": 0.64,
       "rationale": "Building the accounting infrastructure for a manufacturing transition is a broad implementation project, not a specific covered workflow.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -741,9 +741,9 @@
       "confidence": 0.99,
       "rationale": "Leading and developing the site accounting team is people management and training work.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {

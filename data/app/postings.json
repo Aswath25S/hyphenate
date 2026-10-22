@@ -194,19 +194,19 @@
     "title": "Global Indirect Tax Manager",
     "role_family": "Tax",
     "seniority": "manager",
-    "n": 40,
+    "n": 48,
     "C": 3,
     "A": 2,
-    "covered_share": 0.075,
-    "overlap": 0.125,
-    "weighted_overlap": 0.1,
+    "covered_share": 0.0625,
+    "overlap": 0.10416666666666667,
+    "weighted_overlap": 0.08333333333333333,
     "thin": false,
-    "salary_min": null,
-    "salary_max": null,
-    "salary_varies": false,
-    "salary_source": null,
-    "savings": null,
-    "savings_reason": "no_salary",
+    "salary_min": 154700,
+    "salary_max": 216600,
+    "salary_varies": true,
+    "salary_source": "posting_text",
+    "savings": 4834.375,
+    "savings_reason": null,
     "lead_product": "GL accounting",
     "product_split": {
       "GL accounting": {
@@ -221,7 +221,7 @@
       "Alteryx",
       "SQL"
     ],
-    "posted_at": "2026-09-09T18:42:58-04:00",
+    "posted_at": "2026-09-09T11:13:02-04:00",
     "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8189894",
     "locations": [
       "Remote - United Kingdom",
@@ -605,44 +605,6 @@
     "excluded": null
   },
   {
-    "posting_id": "15fb278a9ee5fff5",
-    "company": "Fivetran",
-    "slug": "fivetran",
-    "domain": "fivetran.com",
-    "title": "Technical Accounting Senior Manager",
-    "role_family": "Reporting_FPA",
-    "seniority": "manager",
-    "n": 27,
-    "C": 0,
-    "A": 0,
-    "covered_share": 0,
-    "overlap": 0,
-    "weighted_overlap": 0,
-    "thin": false,
-    "salary_min": 154377,
-    "salary_max": 205836,
-    "salary_varies": true,
-    "salary_source": "posting_text",
-    "savings": 0,
-    "savings_reason": null,
-    "lead_product": null,
-    "product_split": {},
-    "erp": [
-      "NetSuite"
-    ],
-    "tools": [
-      "Workiva"
-    ],
-    "posted_at": "2026-09-23T14:45:20-04:00",
-    "source_url": "https://www.fivetran.com/careers/job?gh_jid=8003707003",
-    "locations": [
-      "Denver, Colorado, United States, AMER",
-      "Oakland, California, United States, AMER"
-    ],
-    "remote": "hybrid",
-    "excluded": null
-  },
-  {
     "posting_id": "1933b9bcb0a4f0ff",
     "company": "Sentry",
     "slug": "sentry",
@@ -956,6 +918,53 @@
       "Denver, Colorado, United States, AMER"
     ],
     "remote": "hybrid",
+    "excluded": null
+  },
+  {
+    "posting_id": "23597d58012f47d6",
+    "company": "Astranis",
+    "slug": "astranis",
+    "domain": "astranis.com",
+    "title": "Financial Analyst",
+    "role_family": "Reporting_FPA",
+    "seniority": "mid",
+    "n": 18,
+    "C": 0,
+    "A": 4,
+    "covered_share": 0,
+    "overlap": 0.2222222222222222,
+    "weighted_overlap": 0.1111111111111111,
+    "thin": false,
+    "salary_min": 70000,
+    "salary_max": 100000,
+    "salary_varies": false,
+    "salary_source": "posting_text",
+    "savings": 0,
+    "savings_reason": null,
+    "lead_product": "GL accounting",
+    "product_split": {
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "erp": [],
+    "tools": [
+      "Excel"
+    ],
+    "posted_at": "2026-09-28T13:56:17-04:00",
+    "source_url": "https://job-boards.greenhouse.io/astranis/jobs/4678367006",
+    "locations": [
+      "San Francisco",
+      "San Francisco, California, United States"
+    ],
+    "remote": "onsite",
     "excluded": null
   },
   {
@@ -1535,46 +1544,6 @@
       "Remote (US)"
     ],
     "remote": "remote",
-    "excluded": null
-  },
-  {
-    "posting_id": "3401c83ba0cd0add",
-    "company": "Oscar Health",
-    "slug": "oscar-health",
-    "domain": "hioscar.com",
-    "title": "Senior Director, Strategic Finance & Enterprise Planning",
-    "role_family": "Reporting_FPA",
-    "seniority": "director_plus",
-    "n": 19,
-    "C": 0,
-    "A": 1,
-    "covered_share": 0,
-    "overlap": 0.05263157894736842,
-    "weighted_overlap": 0.02631578947368421,
-    "thin": false,
-    "salary_min": 196733,
-    "salary_max": 286902,
-    "salary_varies": true,
-    "salary_source": "posting_text",
-    "savings": 0,
-    "savings_reason": null,
-    "lead_product": "Reporting",
-    "product_split": {
-      "Reporting": {
-        "covered": 0,
-        "assisted": 1,
-        "weighted": 0.5
-      }
-    },
-    "erp": [],
-    "tools": [],
-    "posted_at": "2026-09-25T09:19:46-04:00",
-    "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8232864",
-    "locations": [
-      "Tempe, Arizona, United States",
-      "New York, New York, United States"
-    ],
-    "remote": "hybrid",
     "excluded": null
   },
   {
@@ -2829,50 +2798,6 @@
     "source_url": "https://jobs.ashbyhq.com/headway/e58bd5b3-72cf-40f0-adab-8fbe7dfcef37",
     "locations": [
       "Remote"
-    ],
-    "remote": "remote",
-    "excluded": null
-  },
-  {
-    "posting_id": "59ba14769ebbbaa2",
-    "company": "Reddit",
-    "slug": "reddit",
-    "domain": "reddit.com",
-    "title": "International Payroll Analyst",
-    "role_family": "Payroll",
-    "seniority": "senior",
-    "n": 28,
-    "C": 0,
-    "A": 1,
-    "covered_share": 0,
-    "overlap": 0.03571428571428571,
-    "weighted_overlap": 0.017857142857142856,
-    "thin": false,
-    "salary_min": null,
-    "salary_max": null,
-    "salary_varies": false,
-    "salary_source": null,
-    "savings": null,
-    "savings_reason": "no_salary",
-    "lead_product": "Reporting",
-    "product_split": {
-      "Reporting": {
-        "covered": 0,
-        "assisted": 1,
-        "weighted": 0.5
-      }
-    },
-    "erp": [],
-    "tools": [
-      "Workday Payroll",
-      "Excel",
-      "Google Sheets"
-    ],
-    "posted_at": "2026-09-25T16:27:39-04:00",
-    "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8234154",
-    "locations": [
-      "Remote - United Kingdom",
-      "Remote - United States"
     ],
     "remote": "remote",
     "excluded": null
@@ -4467,16 +4392,16 @@
     "title": "Senior Director, Strategic Finance & Enterprise Planning",
     "role_family": "Reporting_FPA",
     "seniority": "director_plus",
-    "n": 23,
+    "n": 16,
     "C": 0,
-    "A": 5,
+    "A": 1,
     "covered_share": 0,
-    "overlap": 0.21739130434782608,
-    "weighted_overlap": 0.10869565217391304,
+    "overlap": 0.0625,
+    "weighted_overlap": 0.03125,
     "thin": false,
     "salary_min": 196733,
-    "salary_max": 258212,
-    "salary_varies": false,
+    "salary_max": 286902,
+    "salary_varies": true,
     "salary_source": "posting_text",
     "savings": 0,
     "savings_reason": null,
@@ -4484,18 +4409,19 @@
     "product_split": {
       "Reporting": {
         "covered": 0,
-        "assisted": 5,
-        "weighted": 2.5
+        "assisted": 1,
+        "weighted": 0.5
       }
     },
     "erp": [],
     "tools": [],
-    "posted_at": "2026-09-25T09:25:39-04:00",
+    "posted_at": "2026-09-25T09:19:46-04:00",
     "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8232870",
     "locations": [
       "Atlanta, Georgia, United States",
       "New York, New York, United States",
-      "Dallas, Texas, United States"
+      "Dallas, Texas, United States",
+      "Tempe, Arizona, United States"
     ],
     "remote": "remote",
     "excluded": null
@@ -4690,40 +4616,6 @@
     "source_url": "https://jobs.ashbyhq.com/clickhouse/8ea8a116-f05f-4f5a-98f5-2c6ffde7c2ad",
     "locations": [
       "United States"
-    ],
-    "remote": "remote",
-    "excluded": null
-  },
-  {
-    "posting_id": "9062a898c821d6ca",
-    "company": "Samsara",
-    "slug": "samsara",
-    "domain": "samsara.com",
-    "title": "Sr Customer Experience Specialist - Finance",
-    "role_family": "Other",
-    "seniority": "senior",
-    "n": 31,
-    "C": 0,
-    "A": 0,
-    "covered_share": 0,
-    "overlap": 0,
-    "weighted_overlap": 0,
-    "thin": false,
-    "salary_min": 102042,
-    "salary_max": 154350,
-    "salary_varies": false,
-    "salary_source": "posting_text",
-    "savings": 0,
-    "savings_reason": null,
-    "lead_product": null,
-    "product_split": {},
-    "erp": [],
-    "tools": [],
-    "posted_at": "2026-10-01T13:59:33-04:00",
-    "source_url": "https://www.samsara.com/company/careers/roles/8247289?gh_jid=8247289",
-    "locations": [
-      "Remote - US",
-      "Remote - CA"
     ],
     "remote": "remote",
     "excluded": null
@@ -5286,19 +5178,19 @@
     "domain": "reddit.com",
     "title": "International Payroll Analyst",
     "role_family": "Payroll",
-    "seniority": "senior",
-    "n": 49,
+    "seniority": "mid",
+    "n": 47,
     "C": 2,
     "A": 0,
-    "covered_share": 0.04081632653061224,
-    "overlap": 0.04081632653061224,
-    "weighted_overlap": 0.04081632653061224,
+    "covered_share": 0.0425531914893617,
+    "overlap": 0.0425531914893617,
+    "weighted_overlap": 0.0425531914893617,
     "thin": false,
     "salary_min": 105400,
     "salary_max": 147500,
     "salary_varies": false,
     "salary_source": "posting_text",
-    "savings": 2151.020408163265,
+    "savings": 2242.553191489362,
     "savings_reason": null,
     "lead_product": "GL accounting",
     "product_split": {
@@ -5308,17 +5200,17 @@
         "weighted": 2
       }
     },
-    "erp": [
-      "Workday"
-    ],
+    "erp": [],
     "tools": [
+      "Workday Payroll",
       "Excel",
       "Google Sheets"
     ],
     "posted_at": "2026-09-14T08:05:09-04:00",
     "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8192369",
     "locations": [
-      "Remote - United States"
+      "Remote - United States",
+      "Remote - United Kingdom"
     ],
     "remote": "remote",
     "excluded": null
@@ -5783,49 +5675,6 @@
     "locations": [
       "Remote, USA",
       "San Francisco, CA, United States"
-    ],
-    "remote": "remote",
-    "excluded": null
-  },
-  {
-    "posting_id": "b6f3bdc427d56105",
-    "company": "Reddit",
-    "slug": "reddit",
-    "domain": "reddit.com",
-    "title": "Global Indirect Tax Manager",
-    "role_family": "Tax",
-    "seniority": "manager",
-    "n": 42,
-    "C": 4,
-    "A": 2,
-    "covered_share": 0.09523809523809523,
-    "overlap": 0.14285714285714285,
-    "weighted_overlap": 0.11904761904761904,
-    "thin": false,
-    "salary_min": 154700,
-    "salary_max": 216600,
-    "salary_varies": false,
-    "salary_source": "posting_text",
-    "savings": 7366.666666666666,
-    "savings_reason": null,
-    "lead_product": "GL accounting",
-    "product_split": {
-      "GL accounting": {
-        "covered": 4,
-        "assisted": 2,
-        "weighted": 5
-      }
-    },
-    "erp": [],
-    "tools": [
-      "Vertex",
-      "Alteryx",
-      "SQL"
-    ],
-    "posted_at": "2026-09-09T11:13:02-04:00",
-    "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8186566",
-    "locations": [
-      "Remote - United States"
     ],
     "remote": "remote",
     "excluded": null

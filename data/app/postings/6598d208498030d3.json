@@ -76,8 +76,8 @@
       "confidence": 0.95,
       "rationale": "The duty is about guiding company growth strategy, which is advisory judgment rather than an operational finance workflow.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -101,9 +101,9 @@
       "confidence": 0.98,
       "rationale": "Partnering closely with Sales, Marketing, and Revenue Operations is cross-functional collaboration with other teams.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -126,9 +126,9 @@
       "confidence": 0.97,
       "rationale": "Shaping growth strategy is strategic decision-making and business advising, not a finance-operations process.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -151,8 +151,8 @@
       "confidence": 0.88,
       "rationale": "Evaluating trade-offs is a judgment-heavy advisory action rather than a mapped automated finance workflow.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -176,9 +176,9 @@
       "confidence": 0.86,
       "rationale": "Developing strategic forecasting is an FP&A planning model task that is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -222,8 +222,8 @@
       "confidence": 0.92,
       "rationale": "Balancing short-term efficiency with long-term impact is strategic judgment and trade-off evaluation.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },

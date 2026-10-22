@@ -204,9 +204,9 @@
       "confidence": 0.88,
       "rationale": "Bank account administration across entities and banking partners is relationship and admin work rather than an automated treasury operation.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -229,8 +229,8 @@
       "confidence": 0.94,
       "rationale": "Managing account openings is bank relationship/admin work that is not covered by the platform.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -254,8 +254,8 @@
       "confidence": 0.94,
       "rationale": "Managing account closures is bank relationship/admin work that is not covered by the platform.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -279,9 +279,9 @@
       "confidence": 0.93,
       "rationale": "Managing signer updates is external banking administration and requires human coordination.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -304,8 +304,8 @@
       "confidence": 0.91,
       "rationale": "KYC requests involve coordinating with banks and making administrative responses, which is human work.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -329,8 +329,8 @@
       "confidence": 0.73,
       "rationale": "Reviewing portal access reviews is routine control/admin work with no matching capability in the map.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -396,8 +396,8 @@
       "confidence": 0.65,
       "rationale": "Overseeing segregation of duties is control governance and policy oversight rather than an automated operations task.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -442,8 +442,8 @@
       "confidence": 0.96,
       "rationale": "Managing the investment portfolio and making policy-aligned investment decisions is judgment-based work not covered by the platform.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -467,8 +467,8 @@
       "confidence": 0.94,
       "rationale": "Overseeing external investment managers is relationship and vendor-management work rather than a platform capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -492,8 +492,8 @@
       "confidence": 0.89,
       "rationale": "Designing and building an investment and hedging program is a strategic policy and program-design task, not an operations workflow.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -538,9 +538,9 @@
       "confidence": 0.74,
       "rationale": "Monitoring FX exposure is repetitive treasury risk analysis that has no direct capability match in the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -563,8 +563,8 @@
       "confidence": 0.82,
       "rationale": "Supporting hedging analysis and execution involves judgment and financial decision-making that is not covered by the platform.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -588,8 +588,8 @@
       "confidence": 0.76,
       "rationale": "Automating treasury work is an implementation project rather than a finance-operations duty that maps cleanly to a capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -613,8 +613,8 @@
       "confidence": 0.92,
       "rationale": "Keeping people accountable for approvals and money movement is managerial oversight rather than an automatable ops task.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -638,8 +638,8 @@
       "confidence": 0.93,
       "rationale": "Preparing FBAR filings is a repetitive regulatory filing that is not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -663,8 +663,8 @@
       "confidence": 0.78,
       "rationale": "Managing letters of credit requires human coordination with banks and counterparties and is not covered by the platform.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -688,8 +688,8 @@
       "confidence": 0.78,
       "rationale": "Managing bank guarantees requires human coordination with banks and counterparties and is not covered by the platform.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },

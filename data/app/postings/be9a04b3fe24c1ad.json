@@ -78,8 +78,8 @@
       "confidence": 0.98,
       "rationale": "Owning revenue and opex models is FP&A budgeting/forecasting work, which is not covered by the map and is explicitly called out as a gap example.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -103,8 +103,8 @@
       "confidence": 0.84,
       "rationale": "Developing AI-powered workflows is too vague and sounds like a technical project rather than a specific finance-operation capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -128,9 +128,9 @@
       "confidence": 0.79,
       "rationale": "Developing automated analyses is nonspecific and does not clearly map to a listed finance workflow capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -153,8 +153,8 @@
       "confidence": 0.86,
       "rationale": "Creating intelligence systems is a broad systems-building project, not a defined finance-operations task in the coverage map.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
         "bucket": "human_work"
       }
     },
@@ -178,9 +178,9 @@
       "confidence": 0.87,
       "rationale": "Assessing and defining strategic priorities is a judgment-heavy strategic decision-making task rather than an automatable finance workflow.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -203,9 +203,9 @@
       "confidence": 0.82,
       "rationale": "Driving influence toward high-ROI initiatives is cross-functional strategic advisory work that depends on human judgment and persuasion.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -228,9 +228,9 @@
       "confidence": 0.88,
       "rationale": "Delivering insights and recommendations for tactics, roadmaps, and board/investor materials is advisory and presentation work, not a covered automated capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -253,8 +253,8 @@
       "confidence": 0.98,
       "rationale": "Collaborating with Sales, Product, Finance, and Corporate Development is cross-functional partnering work done by people.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },
@@ -278,8 +278,8 @@
       "confidence": 0.95,
       "rationale": "Contributing to long-range, annual, and quarterly planning is FP&A planning work that matches the gap example of budgeting and forecasting models.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },

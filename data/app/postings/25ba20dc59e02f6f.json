@@ -231,9 +231,9 @@
       "confidence": 0.96,
       "rationale": "Serving as a finance advisor to CTO and R&D leadership is partnering and advising other teams, which is human work by nature.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -256,8 +256,8 @@
       "confidence": 0.95,
       "rationale": "Holding partners accountable for execution against plan is cross-functional management and accountability, which is human work.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -281,9 +281,9 @@
       "confidence": 0.89,
       "rationale": "Connecting R&D priorities to company financial targets is strategic advising across teams, not an automated finance operation.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -306,8 +306,8 @@
       "confidence": 0.94,
       "rationale": "Leading annual planning is FP&A budgeting/planning work that is rules-based but not covered by the platform map.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
         "bucket": "possible_gap"
       }
     },
@@ -331,9 +331,9 @@
       "confidence": 0.93,
       "rationale": "Leading rolling forecasts for R&D is planning/forecasting model work outside the covered cash-forecast capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -356,8 +356,8 @@
       "confidence": 0.96,
       "rationale": "Owning the headcount operating plan is an FP&A planning model, which is a gap rather than a covered capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -381,8 +381,8 @@
       "confidence": 0.95,
       "rationale": "Owning the compensation operating plan is budgeting/planning work that matches no listed capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -406,8 +406,8 @@
       "confidence": 0.95,
       "rationale": "Owning the contractor operating plan is FP&A planning work not covered by the map.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -431,8 +431,8 @@
       "confidence": 0.95,
       "rationale": "Owning the hosting and cloud operating plan is a budgeting model task outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -456,8 +456,8 @@
       "confidence": 0.95,
       "rationale": "Owning the AI and LLM cost operating plan is planning work with no matching capability in the map.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -481,8 +481,8 @@
       "confidence": 0.95,
       "rationale": "Owning the software operating plan is FP&A budgeting/planning rather than a covered finance operations workflow.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -506,8 +506,8 @@
       "confidence": 0.95,
       "rationale": "Owning the tooling operating plan is a recurring budgeting task that is not covered.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -531,8 +531,8 @@
       "confidence": 0.42,
       "rationale": "Building frameworks that connect R&D investment to roadmap outcomes is strategic analysis, but the action is too broad to map cleanly.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -556,8 +556,8 @@
       "confidence": 0.86,
       "rationale": "Evaluating business cases for new initiatives is FP&A decision support that is not a listed capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -581,8 +581,8 @@
       "confidence": 0.86,
       "rationale": "Evaluating business cases for AI capabilities is business-case analysis outside the coverage map.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -606,8 +606,8 @@
       "confidence": 0.89,
       "rationale": "Evaluating build-versus-buy decisions is business-case analysis that is not covered by the platform.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -631,8 +631,8 @@
       "confidence": 0.84,
       "rationale": "Evaluating business cases for vendor commitments is planning analysis rather than a covered operational workflow.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -656,9 +656,9 @@
       "confidence": 0.97,
       "rationale": "Presenting risks and opportunities to leadership is presenting to leadership, which is human work by nature.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -681,9 +681,9 @@
       "confidence": 0.88,
       "rationale": "Defining R&D efficiency metrics is setting measurement policy and KPIs, which is a human judgment task.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -832,8 +832,8 @@
       "confidence": 0.95,
       "rationale": "Seeing opportunities through to completion is execution management and cross-functional follow-through, which is human work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -857,8 +857,8 @@
       "confidence": 0.97,
       "rationale": "Partnering with People and R&D leaders on hiring plans is collaboration and workforce planning, which is human work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -882,8 +882,8 @@
       "confidence": 0.96,
       "rationale": "Partnering with leaders on location strategy is advisory and strategic work with other teams.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -907,8 +907,8 @@
       "confidence": 0.96,
       "rationale": "Partnering with leaders on organizational design is human advisory and design work, not an automated finance operation.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -932,8 +932,8 @@
       "confidence": 0.9,
       "rationale": "Keeping headcount forecasts accurate is forecasting/planning model work not covered by the map.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -957,9 +957,9 @@
       "confidence": 0.88,
       "rationale": "Reconciling headcount forecasts to actuals is forecast variance analysis outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -982,9 +982,9 @@
       "confidence": 0.48,
       "rationale": "Leading the AI transformation of R&D finance is a broad change initiative that is too vague to map precisely.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1007,9 +1007,9 @@
       "confidence": 0.52,
       "rationale": "Rethinking planning workflows is process redesign work, but the action is too broad to classify against the map.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -1032,9 +1032,9 @@
       "confidence": 0.52,
       "rationale": "Rethinking forecasting workflows is a broad redesign task without a direct capability match.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -1057,9 +1057,9 @@
       "confidence": 0.52,
       "rationale": "Rethinking reporting workflows is a broad process redesign task that does not map cleanly to a single capability.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -1082,9 +1082,9 @@
       "confidence": 0.44,
       "rationale": "Using AI tools to make workflows faster is a generic optimization statement, not a specific covered action.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1107,9 +1107,9 @@
       "confidence": 0.44,
       "rationale": "Using AI tools to make workflows more accurate is too broad and does not match a specific capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1132,9 +1132,9 @@
       "confidence": 0.44,
       "rationale": "Using AI tools to make workflows more insightful is a generic improvement goal rather than a specific finance operation.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1157,9 +1157,9 @@
       "confidence": 0.55,
       "rationale": "Redesigning FP&A processes is process redesign work, but the map does not include FP&A process design.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1182,9 +1182,9 @@
       "confidence": 0.92,
       "rationale": "Redesigning FP&A policies is setting policy, which is explicitly human work.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1207,9 +1207,9 @@
       "confidence": 0.53,
       "rationale": "Redesigning planning and reporting systems for efficiency is a broad systems redesign task without a direct match.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1232,8 +1232,8 @@
       "confidence": 0.9,
       "rationale": "Working with Accounting on capitalized software is cross-functional partnering, which is human work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -1257,8 +1257,8 @@
       "confidence": 0.9,
       "rationale": "Working with Accounting on accruals is collaboration with another team, which is human work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -1282,8 +1282,8 @@
       "confidence": 0.9,
       "rationale": "Working with Accounting on allocations is partnering with another team rather than performing the allocation work itself.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -1307,9 +1307,9 @@
       "confidence": 0.9,
       "rationale": "Working with Procurement on process improvements is cross-functional collaboration and process work, which is human work.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1332,9 +1332,9 @@
       "confidence": 0.98,
       "rationale": "Leading the R&D finance team is team management, which is human work by nature.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1357,8 +1357,8 @@
       "confidence": 0.98,
       "rationale": "Hiring team members is a human management activity.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -1382,8 +1382,8 @@
       "confidence": 0.98,
       "rationale": "Coaching team members is people management and development, which is human work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
         "bucket": "human_work"
       }
     },
@@ -1407,9 +1407,9 @@
       "confidence": 0.97,
       "rationale": "Setting goals and priorities is managerial work and not a finance-operations automation capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1432,8 +1432,8 @@
       "confidence": 0.96,
       "rationale": "Giving expert feedback is coaching and performance management, which is human work.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },

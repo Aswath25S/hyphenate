@@ -5,7 +5,7 @@ import { listJson, readJson, shortHash, writeJson } from '../lib/io';
 import { P } from '../lib/paths';
 import { classifyTitle } from '../lib/roles';
 import { isUsLocation } from '../lib/geo';
-import { normaliseTitle, textSimilarity } from '../lib/text';
+import { isSiteVariant, normaliseTitle, textSimilarity } from '../lib/text';
 import { callLlm, hasCredentials } from '../lib/llm';
 import { TITLE_SYSTEM, TITLE_TOOL, titleCheckSchema, titleUser } from '../prompts/filter';
 import { recordStage } from '../lib/stats';
@@ -20,11 +20,18 @@ function salaryLines(text: string): string[] {
   return text.split('\n').filter((l) => /\$\s?\d/.test(l) && /(salary|pay|compensation|range|base|hour|annual|year|\$\s?\d[\d,]*\s*[-–—]|to \$)/i.test(l)).map((l) => l.trim()).slice(0, 6);
 }
 
+/** Same company is checked by the caller. */
+export function isSameRole(a: Pick<FilteredPosting, 'title' | 'text'>, b: Pick<FilteredPosting, 'title' | 'text'>): boolean {
+  const sim = textSimilarity(a.text, b.text);
+  if (normaliseTitle(a.title) === normaliseTitle(b.title)) return sim >= FILTER.dedupeSimilarity;
+  return sim >= FILTER.dedupeNearIdentical && !isSiteVariant(a.title, b.title);
+}
+
 export function dedupe(postings: FilteredPosting[]): { kept: FilteredPosting[]; merged: number } {
   const kept: FilteredPosting[] = [];
   let merged = 0;
   for (const p of postings) {
-    const twin = kept.find((k) => k.domain === p.domain && normaliseTitle(k.title) === normaliseTitle(p.title) && textSimilarity(k.text, p.text) >= FILTER.dedupeSimilarity);
+    const twin = kept.find((k) => k.domain === p.domain && isSameRole(k, p));
     if (!twin) { kept.push(p); continue; }
     merged++;
     twin.merged_raw_ids.push(p.raw_id);

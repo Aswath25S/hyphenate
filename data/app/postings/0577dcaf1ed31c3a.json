@@ -89,8 +89,8 @@
       "confidence": 0.45,
       "rationale": "Managing a high-volume queue is a workflow-management description rather than a specific finance operation capability.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -177,8 +177,8 @@
       "confidence": 0.58,
       "rationale": "Resolving coverage corrections is a repetitive billing correction task but does not match a listed capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -244,8 +244,8 @@
       "confidence": 0.52,
       "rationale": "Using billing and Stripe payment records is too vague to map to a specific end-to-end capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -269,8 +269,8 @@
       "confidence": 0.99,
       "rationale": "Making independent, judgment-based decisions on collections strategy is human judgment by nature.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -315,8 +315,8 @@
       "confidence": 0.78,
       "rationale": "Escalating collections issues is cross-functional coordination with people rather than an automated finance operation.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -340,8 +340,8 @@
       "confidence": 0.96,
       "rationale": "Extending flexibility to an employer is a negotiation decision that requires human judgment.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -365,9 +365,9 @@
       "confidence": 0.99,
       "rationale": "Involving leadership is a human escalation and coordination activity.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -387,8 +387,8 @@
       "confidence": 0.97,
       "rationale": "Balancing collection outcomes against the employer relationship is a judgment and negotiation tradeoff handled by people.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -475,8 +475,8 @@
       "confidence": 0.92,
       "rationale": "Building SOPs is process design and documentation work that depends on human judgment.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -500,9 +500,9 @@
       "confidence": 0.82,
       "rationale": "Maintaining SOPs is ongoing process documentation and ownership rather than a listed finance automation capability.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -525,8 +525,8 @@
       "confidence": 0.98,
       "rationale": "Partnering with Engineering to improve tooling is cross-functional collaboration with another team.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -550,8 +550,8 @@
       "confidence": 0.96,
       "rationale": "Collaborating cross-functionally to resolve employer billing needs is partnering with other teams.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -575,8 +575,8 @@
       "confidence": 0.72,
       "rationale": "Flagging systemic issues is a human escalation and advisory action rather than a specific covered finance operation.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },

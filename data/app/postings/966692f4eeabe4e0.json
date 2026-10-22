@@ -127,9 +127,9 @@
       "confidence": 0.96,
       "rationale": "The duty centers on cross-functional collaboration and providing recommendations to other teams, which is advisory human work.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -152,8 +152,8 @@
       "confidence": 0.82,
       "rationale": "The duty is strategic analysis and modeling for new revenue streams and procurement decisions, which is FP&A-style modeling with no matching capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -177,9 +177,9 @@
       "confidence": 0.97,
       "rationale": "The duty involves presenting and partnering with senior leadership, which is human advisory and presentation work.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -202,8 +202,8 @@
       "confidence": 0.98,
       "rationale": "The duty is owning the FP&A budgeting process and tracking budget vs actuals, which is budgeting work outside the coverage map.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -227,8 +227,8 @@
       "confidence": 0.97,
       "rationale": "The duty is building scenario-based driver models, which is planning-model work not covered by the listed capabilities.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -252,8 +252,8 @@
       "confidence": 0.93,
       "rationale": "The duty describes general work style and time management rather than a specific finance operation.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -277,8 +277,8 @@
       "confidence": 0.84,
       "rationale": "The duty is broad external market and competitor analysis, which does not map cleanly to a listed finance operations capability.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },

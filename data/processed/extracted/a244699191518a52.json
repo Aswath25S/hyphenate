@@ -4,9 +4,10 @@
   "domain": "reddit.com",
   "title": "International Payroll Analyst",
   "role_family": "Payroll",
-  "seniority": "senior",
+  "seniority": "mid",
   "locations": [
-    "Remote - United States"
+    "Remote - United States",
+    "Remote - United Kingdom"
   ],
   "remote": "remote",
   "salary": {
@@ -16,10 +17,9 @@
     "currency": "USD",
     "raw_text": "The base salary range for this position is:\n\n$105,400—$147,500 USD"
   },
-  "erp": [
-    "Workday"
-  ],
+  "erp": [],
   "tools": [
+    "Workday Payroll",
     "Excel",
     "Google Sheets"
   ],
@@ -31,435 +31,484 @@
     "entity_count": null
   },
   "pain_phrases": [
-    "scale our international payroll operations",
+    "own and scale our international payroll operations",
+    "multi-country payroll delivery across 15+ international countries",
+    "proactively managing dependencies, cutoffs, exceptions, and risks",
     "global payroll vendor implementations",
     "build scalable, best-in-class operational processes",
-    "proactively managing dependencies, cutoffs, exceptions, and risks",
-    "audit readiness",
-    "complex data analysis, reconciliation, and audit modeling",
-    "multi-currency payroll distribution",
-    "international expansion or payroll transformation"
+    "support a rapidly growing workforce",
+    "M&A integrations",
+    "new country market entries"
   ],
   "duties": [
     {
       "duty_id": "a244699191518a52-01",
-      "text": "Manage multi-country payroll delivery across 15+ international countries",
-      "source_span": "Manage, audit, and execute multi-country payroll delivery across 15+ international countries",
-      "is_boilerplate": false,
+      "text": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet.",
+      "source_span": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet.",
+      "is_boilerplate": true,
       "is_requirement": false
     },
     {
       "duty_id": "a244699191518a52-02",
-      "text": "Audit multi-country payroll delivery across 15+ international countries",
-      "source_span": "Manage, audit, and execute multi-country payroll delivery across 15+ international countries",
+      "text": "Manage multi-country payroll delivery across 15+ international countries",
+      "source_span": "multi-country payroll delivery across 15+ international countries",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
       "duty_id": "a244699191518a52-03",
-      "text": "Execute multi-country payroll delivery across 15+ international countries",
-      "source_span": "Manage, audit, and execute multi-country payroll delivery across 15+ international countries",
+      "text": "Audit multi-country payroll delivery across 15+ international countries",
+      "source_span": "multi-country payroll delivery across 15+ international countries",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
       "duty_id": "a244699191518a52-04",
+      "text": "Execute multi-country payroll delivery across 15+ international countries",
+      "source_span": "multi-country payroll delivery across 15+ international countries",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a244699191518a52-05",
       "text": "Manage payroll inputs",
       "source_span": "payroll inputs",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-05",
-      "text": "Manage validation",
+      "duty_id": "a244699191518a52-06",
+      "text": "Manage payroll validation",
       "source_span": "validation",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-06",
-      "text": "Manage approvals",
+      "duty_id": "a244699191518a52-07",
+      "text": "Manage payroll approvals",
       "source_span": "approvals",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-07",
+      "duty_id": "a244699191518a52-08",
       "text": "Manage funding coordination",
       "source_span": "funding coordination",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-08",
-      "text": "Manage reconciliations",
+      "duty_id": "a244699191518a52-09",
+      "text": "Manage payroll reconciliations",
       "source_span": "reconciliations",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-09",
+      "duty_id": "a244699191518a52-10",
       "text": "Manage statutory filings",
       "source_span": "statutory filings",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-10",
+      "duty_id": "a244699191518a52-11",
       "text": "Manage post-payroll activities",
       "source_span": "post-payroll activities",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-11",
-      "text": "Ensure high accuracy",
-      "source_span": "ensure high accuracy",
-      "is_boilerplate": false,
-      "is_requirement": false
-    },
-    {
       "duty_id": "a244699191518a52-12",
-      "text": "Ensure strict adherence to strict regional pay schedules",
-      "source_span": "strict adherence to strict regional pay schedules",
+      "text": "Lead the payroll calendar across countries",
+      "source_span": "payroll calendar",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
       "duty_id": "a244699191518a52-13",
-      "text": "Lead the payroll calendar across countries",
-      "source_span": "Lead the payroll calendar",
-      "is_boilerplate": false,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "a244699191518a52-14",
       "text": "Lead the operating cadence across countries",
       "source_span": "operating cadence across countries",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-15",
+      "duty_id": "a244699191518a52-14",
       "text": "Manage dependencies",
       "source_span": "dependencies",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-16",
+      "duty_id": "a244699191518a52-15",
       "text": "Manage cutoffs",
       "source_span": "cutoffs",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-17",
+      "duty_id": "a244699191518a52-16",
       "text": "Manage exceptions",
       "source_span": "exceptions",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-18",
+      "duty_id": "a244699191518a52-17",
       "text": "Manage risks",
       "source_span": "risks",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-19",
+      "duty_id": "a244699191518a52-18",
       "text": "Ensure employees are paid accurately and on time",
-      "source_span": "ensure employees are paid accurately and on time",
+      "source_span": "employees are paid accurately and on time",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a244699191518a52-19",
+      "text": "Partner with local in-country payroll providers",
+      "source_span": "local in-country payroll providers",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
       "duty_id": "a244699191518a52-20",
-      "text": "Partner with local in-country payroll providers",
-      "source_span": "Partner with local in-country payroll providers",
+      "text": "Maintain regional pay schedules",
+      "source_span": "regional pay schedules",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
       "duty_id": "a244699191518a52-21",
-      "text": "Maintain strict adherence to regional pay schedules",
-      "source_span": "maintain strict adherence to regional pay schedules",
-      "is_boilerplate": false,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "a244699191518a52-22",
       "text": "Maintain statutory processing windows",
       "source_span": "statutory processing windows",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-23",
+      "duty_id": "a244699191518a52-22",
       "text": "Oversee international equity compensation payroll processing",
-      "source_span": "Oversee international equity compensation payroll processing",
+      "source_span": "international equity compensation payroll processing (RSUs, Stock Options)",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a244699191518a52-23",
+      "text": "Ensure regulatory compliance across international tax jurisdictions",
+      "source_span": "international tax jurisdictions",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
       "duty_id": "a244699191518a52-24",
-      "text": "Ensure full regulatory compliance across international tax jurisdictions",
-      "source_span": "ensure full regulatory compliance across international tax jurisdictions",
-      "is_boilerplate": false,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "a244699191518a52-25",
-      "text": "Ensure full regulatory compliance with localized statutory benefits",
+      "text": "Ensure compliance with localized statutory benefits",
       "source_span": "localized statutory benefits",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-26",
-      "text": "Ensure full regulatory compliance with reporting requirements",
+      "duty_id": "a244699191518a52-25",
+      "text": "Ensure compliance with reporting requirements",
       "source_span": "reporting requirements",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-27",
+      "duty_id": "a244699191518a52-26",
       "text": "Act as functional lead for payroll technology projects",
-      "source_span": "Act as functional lead for payroll technology projects",
+      "source_span": "payroll technology projects",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-28",
-      "text": "Leverage Workday to automate workflows",
+      "duty_id": "a244699191518a52-27",
+      "text": "Use Workday to automate workflows",
       "source_span": "leveraging Workday to automate workflows",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-29",
+      "duty_id": "a244699191518a52-28",
       "text": "Optimize system configurations",
       "source_span": "optimize system configurations",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-30",
+      "duty_id": "a244699191518a52-29",
       "text": "Build custom reporting",
       "source_span": "build custom reporting",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
+      "duty_id": "a244699191518a52-30",
+      "text": "Implement enterprise Global Payroll solutions",
+      "source_span": "implement upcoming enterprise Global Payroll solutions",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
       "duty_id": "a244699191518a52-31",
-      "text": "Partner with the Sr. Global Payroll Manager to implement upcoming enterprise Global Payroll solutions",
-      "source_span": "partner with the Sr. Global payroll Manager to implement upcoming enterprise Global Payroll solutions",
+      "text": "Partner with Benefits",
+      "source_span": "Benefits",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
       "duty_id": "a244699191518a52-32",
-      "text": "Partner with Benefits",
-      "source_span": "Partner with Benefits",
-      "is_boilerplate": false,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "a244699191518a52-33",
       "text": "Partner with People Operations",
       "source_span": "People Operations",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-34",
+      "duty_id": "a244699191518a52-33",
       "text": "Partner with Legal",
       "source_span": "Legal",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-35",
+      "duty_id": "a244699191518a52-34",
       "text": "Partner with Finance",
       "source_span": "Finance",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-36",
+      "duty_id": "a244699191518a52-35",
       "text": "Manage external vendor relationships",
-      "source_span": "manage external vendor relationships",
+      "source_span": "external vendor relationships",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-37",
+      "duty_id": "a244699191518a52-36",
       "text": "Manage third-party tax fulfillment partners",
       "source_span": "third-party tax fulfillment partners",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-38",
+      "duty_id": "a244699191518a52-37",
       "text": "Ensure seamless funds reconciliation",
-      "source_span": "ensure seamless funds reconciliation",
+      "source_span": "funds reconciliation",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-39",
+      "duty_id": "a244699191518a52-38",
       "text": "Ensure local tax compliance",
       "source_span": "local tax compliance",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-40",
+      "duty_id": "a244699191518a52-39",
       "text": "Establish global payroll policies",
-      "source_span": "Establish, document, and enforce global payroll policies",
+      "source_span": "global payroll policies",
+      "is_boilerplate": false,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a244699191518a52-40",
+      "text": "Document global payroll policies",
+      "source_span": "global payroll policies",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
       "duty_id": "a244699191518a52-41",
-      "text": "Document global payroll policies",
-      "source_span": "Establish, document, and enforce global payroll policies",
+      "text": "Enforce global payroll policies",
+      "source_span": "global payroll policies",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
       "duty_id": "a244699191518a52-42",
-      "text": "Enforce global payroll policies",
-      "source_span": "Establish, document, and enforce global payroll policies",
-      "is_boilerplate": false,
-      "is_requirement": false
-    },
-    {
-      "duty_id": "a244699191518a52-43",
       "text": "Establish SOX controls",
       "source_span": "SOX controls",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-44",
+      "duty_id": "a244699191518a52-43",
       "text": "Document SOX controls",
       "source_span": "SOX controls",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-45",
+      "duty_id": "a244699191518a52-44",
       "text": "Enforce SOX controls",
       "source_span": "SOX controls",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-46",
+      "duty_id": "a244699191518a52-45",
       "text": "Establish standard operating procedures",
       "source_span": "standard operating procedures",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-47",
+      "duty_id": "a244699191518a52-46",
       "text": "Document standard operating procedures",
       "source_span": "standard operating procedures",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-48",
+      "duty_id": "a244699191518a52-47",
       "text": "Enforce standard operating procedures",
       "source_span": "standard operating procedures",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-49",
+      "duty_id": "a244699191518a52-48",
       "text": "Streamline audit readiness",
-      "source_span": "streamline audit readiness",
+      "source_span": "audit readiness (401k, Workers’ Comp, Financial Audits)",
       "is_boilerplate": false,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-50",
-      "text": "Support special business initiatives",
-      "source_span": "Support special business initiatives, including M&A integrations, new country market entries, and business-critical cross-functional launches",
+      "duty_id": "a244699191518a52-49",
+      "text": "Support special business initiatives, including M&A integrations, new country market entries, and business-critical cross-functional launches.",
+      "source_span": "Support special business initiatives, including M&A integrations, new country market entries, and business-critical cross-functional launches.",
       "is_boilerplate": true,
       "is_requirement": false
     },
     {
-      "duty_id": "a244699191518a52-51",
-      "text": "3-5 years of progressive payroll operations experience in a high-growth, publicly traded tech company with a global footprint",
+      "duty_id": "a244699191518a52-50",
+      "text": "3-5 years of progressive payroll operations experience in a high-growth, publicly traded tech company with a global footprint.",
       "source_span": "3-5 years of progressive payroll operations experience in a high-growth, publicly traded tech company with a global footprint.",
       "is_boilerplate": false,
       "is_requirement": true
     },
     {
-      "duty_id": "a244699191518a52-52",
-      "text": "Bachelor's degree or equivalent practical experience in payroll, accounting, finance, human resources, or a related field",
+      "duty_id": "a244699191518a52-51",
+      "text": "Bachelor's degree or equivalent practical experience in payroll, accounting, finance, human resources, or a related field.",
       "source_span": "Bachelor's degree or equivalent practical experience in payroll, accounting, finance, human resources, or a related field.",
       "is_boilerplate": false,
       "is_requirement": true
     },
     {
-      "duty_id": "a244699191518a52-53",
-      "text": "Advanced proficiency with Workday Payroll (reporting, configuration, integrations) and global payroll software platforms",
+      "duty_id": "a244699191518a52-52",
+      "text": "Advanced proficiency with Workday Payroll (reporting, configuration, integrations) and global payroll software platforms.",
       "source_span": "Advanced proficiency with Workday Payroll (reporting, configuration, integrations) and global payroll software platforms.",
       "is_boilerplate": false,
       "is_requirement": true
     },
     {
-      "duty_id": "a244699191518a52-54",
-      "text": "Advanced proficiency in Excel/Google Sheets (vlookups, index/match, pivot tables) for complex data analysis, reconciliation, and audit modeling",
+      "duty_id": "a244699191518a52-53",
+      "text": "Advanced proficiency in Excel/Google Sheets (vlookups, index/match, pivot tables) for complex data analysis, reconciliation, and audit modeling.",
       "source_span": "Advanced proficiency in Excel/Google Sheets (vlookups, index/match, pivot tables) for complex data analysis, reconciliation, and audit modeling.",
       "is_boilerplate": false,
       "is_requirement": true
     },
     {
-      "duty_id": "a244699191518a52-55",
-      "text": "Thorough understanding of global equity taxation, statutory compliance, international labor laws, and multi-currency payroll distribution",
+      "duty_id": "a244699191518a52-54",
+      "text": "Thorough understanding of global equity taxation, statutory compliance, international labor laws, and multi-currency payroll distribution.",
       "source_span": "Thorough understanding of global equity taxation, statutory compliance, international labor laws, and multi-currency payroll distribution.",
       "is_boilerplate": false,
       "is_requirement": true
     },
     {
-      "duty_id": "a244699191518a52-56",
-      "text": "Strong problem-solving capabilities, high discretion handling confidential data, and exceptional communication skills to collaborate seamlessly across teams",
+      "duty_id": "a244699191518a52-55",
+      "text": "Strong problem-solving capabilities, high discretion handling confidential data, and exceptional communication skills to collaborate seamlessly across teams.",
       "source_span": "Strong problem-solving capabilities, high discretion handling confidential data, and exceptional communication skills to collaborate seamlessly across teams.",
       "is_boilerplate": false,
       "is_requirement": true
     },
     {
-      "duty_id": "a244699191518a52-57",
-      "text": "Responding to internal, external, statutory, and financial audit requests, including preparation of reconciliations, control evidence, and supporting documentation",
+      "duty_id": "a244699191518a52-56",
+      "text": "Responding to internal, external, statutory, and financial audit requests, including preparation of reconciliations, control evidence, and supporting documentation.",
       "source_span": "Responding to internal, external, statutory, and financial audit requests, including preparation of reconciliations, control evidence, and supporting documentation.",
       "is_boilerplate": false,
       "is_requirement": true
     },
     {
-      "duty_id": "a244699191518a52-58",
-      "text": "Applying automation or AI tools to payroll operations, analytics, controls, case management, or knowledge documentation",
+      "duty_id": "a244699191518a52-57",
+      "text": "Applying automation or AI tools to payroll operations, analytics, controls, case management, or knowledge documentation.",
       "source_span": "Applying automation or AI tools to payroll operations, analytics, controls, case management, or knowledge documentation.",
       "is_boilerplate": false,
       "is_requirement": true
     },
     {
-      "duty_id": "a244699191518a52-59",
-      "text": "Providing high-quality customer service to employees and business partners across regions, cultures, and time zones",
+      "duty_id": "a244699191518a52-58",
+      "text": "Providing high-quality customer service to employees and business partners across regions, cultures, and time zones.",
       "source_span": "Providing high-quality customer service to employees and business partners across regions, cultures, and time zones.",
       "is_boilerplate": false,
       "is_requirement": true
     },
     {
-      "duty_id": "a244699191518a52-60",
-      "text": "Working in a publicly traded, technology, or high-growth company and supporting international expansion or payroll transformation",
+      "duty_id": "a244699191518a52-59",
+      "text": "Working in a publicly traded, technology, or high-growth company and supporting international expansion or payroll transformation.",
       "source_span": "Working in a publicly traded, technology, or high-growth company and supporting international expansion or payroll transformation.",
       "is_boilerplate": false,
       "is_requirement": true
+    },
+    {
+      "duty_id": "a244699191518a52-60",
+      "text": "Comprehensive Healthcare Benefits and Income Replacement Programs",
+      "source_span": "Comprehensive Healthcare Benefits and Income Replacement Programs",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a244699191518a52-61",
+      "text": "401k with Employer Match",
+      "source_span": "401k with Employer Match",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a244699191518a52-62",
+      "text": "Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support",
+      "source_span": "Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a244699191518a52-63",
+      "text": "Family Planning Support",
+      "source_span": "Family Planning Support",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a244699191518a52-64",
+      "text": "Gender-Affirming Care",
+      "source_span": "Gender-Affirming Care",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a244699191518a52-65",
+      "text": "Mental Health & Coaching Benefits",
+      "source_span": "Mental Health & Coaching Benefits",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a244699191518a52-66",
+      "text": "Flexible Vacation & Paid Volunteer Time Off",
+      "source_span": "Flexible Vacation & Paid Volunteer Time Off",
+      "is_boilerplate": true,
+      "is_requirement": false
+    },
+    {
+      "duty_id": "a244699191518a52-67",
+      "text": "Generous Paid Parental Leave",
+      "source_span": "Generous Paid Parental Leave",
+      "is_boilerplate": true,
+      "is_requirement": false
     }
   ],
   "posted_at": "2026-09-14T08:05:09-04:00",

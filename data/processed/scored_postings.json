@@ -306,21 +306,21 @@
     "title": "Global Indirect Tax Manager",
     "role_family": "Tax",
     "seniority": "manager",
-    "n": 40,
+    "n": 48,
     "C": 3,
     "A": 2,
-    "covered_share": 0.075,
-    "overlap": 0.125,
-    "weighted_overlap": 0.1,
+    "covered_share": 0.0625,
+    "overlap": 0.10416666666666667,
+    "weighted_overlap": 0.08333333333333333,
     "thin": false,
     "covered_ids": [
-      "07fb48f155c17720-24",
-      "07fb48f155c17720-27",
-      "07fb48f155c17720-28"
+      "07fb48f155c17720-26",
+      "07fb48f155c17720-29",
+      "07fb48f155c17720-30"
     ],
     "assisted_ids": [
-      "07fb48f155c17720-25",
-      "07fb48f155c17720-26"
+      "07fb48f155c17720-27",
+      "07fb48f155c17720-28"
     ],
     "product_split": {
       "GL accounting": {
@@ -331,18 +331,18 @@
     },
     "lead_product": "GL accounting",
     "salary": {
-      "min": null,
-      "max": null,
-      "period_in": null,
-      "varies_by_location": false,
-      "raw_text": null
+      "min": 154700,
+      "max": 216600,
+      "period_in": "year",
+      "varies_by_location": true,
+      "raw_text": "Pay listed on other location postings for this same role: Remote - United States: $154,700—$216,600 USD"
     },
-    "salary_source": null,
+    "salary_source": "posting_text",
     "savings": {
-      "value": null,
-      "reason": "no_salary",
-      "salary_used": null,
-      "share": null
+      "value": 4834.375,
+      "reason": null,
+      "salary_used": 154700,
+      "share": 0.0625
     },
     "erp": [],
     "tools": [
@@ -357,7 +357,7 @@
       "high_volume": true,
       "entity_count": null
     },
-    "posted_at": "2026-09-09T18:42:58-04:00",
+    "posted_at": "2026-09-09T11:13:02-04:00",
     "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8189894",
     "locations": [
       "Remote - United Kingdom",
@@ -935,61 +935,6 @@
     "matched": true
   },
   {
-    "posting_id": "15fb278a9ee5fff5",
-    "company": "Fivetran",
-    "domain": "fivetran.com",
-    "slug": "fivetran",
-    "title": "Technical Accounting Senior Manager",
-    "role_family": "Reporting_FPA",
-    "seniority": "manager",
-    "n": 27,
-    "C": 0,
-    "A": 0,
-    "covered_share": 0,
-    "overlap": 0,
-    "weighted_overlap": 0,
-    "thin": false,
-    "covered_ids": [],
-    "assisted_ids": [],
-    "product_split": {},
-    "lead_product": null,
-    "salary": {
-      "min": 154377,
-      "max": 205836,
-      "period_in": "year",
-      "varies_by_location": true,
-      "raw_text": "The compensation range displayed on this job posting reflects the minimum and maximum target for new hire compensation for the target position and level, and may include sales incentives or target bonuses depending on the role. Our compensation ranges are determined by role, level, and location. Our job titles may span more than one career level. Within the range, individual compensation is determined by additional factors, including job-related skills, experience, relevant education or training, business need, market demands. The compensation range is subject to change and may be modified in the future. Your recruiter can share more about the specific compensation range for your location during the hiring process.\n\nOakland Pay Range\n\n$164,669—$205,836 USD\n\nThe compensation range displayed on this job posting reflects the minimum and maximum target for new hire compensation for the target position and level, and may include sales incentives or target bonuses depending on the role. Our compensation ranges are determined by role, level, and location. Our job titles may span more than one career level. Within the range, individual compensation is determined by additional factors, including job-related skills, experience, relevant education or training, business need, market demands. The compensation range is subject to change and may be modified in the future. Your recruiter can share more about the specific compensation range for your location during the hiring process.\n\nDenver Pay Range\n\n$154,377—$192,971.25 USD\n\nOTE (On Target Earning)\n\n$164,669—$205,836 USD"
-    },
-    "salary_source": "posting_text",
-    "savings": {
-      "value": 0,
-      "reason": null,
-      "salary_used": 154377,
-      "share": 0
-    },
-    "erp": [
-      "NetSuite"
-    ],
-    "tools": [
-      "Workiva"
-    ],
-    "complexity": {
-      "multi_entity": false,
-      "multi_currency": false,
-      "usage_based_billing": false,
-      "high_volume": false,
-      "entity_count": null
-    },
-    "posted_at": "2026-09-23T14:45:20-04:00",
-    "source_url": "https://www.fivetran.com/careers/job?gh_jid=8003707003",
-    "locations": [
-      "Denver, Colorado, United States, AMER",
-      "Oakland, California, United States, AMER"
-    ],
-    "remote": "hybrid",
-    "matched": true
-  },
-  {
     "posting_id": "1933b9bcb0a4f0ff",
     "company": "Sentry",
     "domain": "sentry.io",
@@ -1457,6 +1402,75 @@
       "Denver, Colorado, United States, AMER"
     ],
     "remote": "hybrid",
+    "matched": true
+  },
+  {
+    "posting_id": "23597d58012f47d6",
+    "company": "Astranis",
+    "domain": "astranis.com",
+    "slug": "astranis",
+    "title": "Financial Analyst",
+    "role_family": "Reporting_FPA",
+    "seniority": "mid",
+    "n": 18,
+    "C": 0,
+    "A": 4,
+    "covered_share": 0,
+    "overlap": 0.2222222222222222,
+    "weighted_overlap": 0.1111111111111111,
+    "thin": false,
+    "covered_ids": [],
+    "assisted_ids": [
+      "23597d58012f47d6-14",
+      "23597d58012f47d6-15",
+      "23597d58012f47d6-17",
+      "23597d58012f47d6-18"
+    ],
+    "product_split": {
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "lead_product": "GL accounting",
+    "salary": {
+      "min": 70000,
+      "max": 100000,
+      "period_in": "year",
+      "varies_by_location": false,
+      "raw_text": "$70,000—$100,000 USD"
+    },
+    "salary_source": "posting_text",
+    "savings": {
+      "value": 0,
+      "reason": null,
+      "salary_used": 70000,
+      "share": 0
+    },
+    "erp": [],
+    "tools": [
+      "Excel"
+    ],
+    "complexity": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false,
+      "entity_count": null
+    },
+    "posted_at": "2026-09-28T13:56:17-04:00",
+    "source_url": "https://job-boards.greenhouse.io/astranis/jobs/4678367006",
+    "locations": [
+      "San Francisco",
+      "San Francisco, California, United States"
+    ],
+    "remote": "onsite",
     "matched": true
   },
   {
@@ -2334,65 +2348,6 @@
       "Remote (US)"
     ],
     "remote": "remote",
-    "matched": true
-  },
-  {
-    "posting_id": "3401c83ba0cd0add",
-    "company": "Oscar Health",
-    "domain": "hioscar.com",
-    "slug": "oscar-health",
-    "title": "Senior Director, Strategic Finance & Enterprise Planning",
-    "role_family": "Reporting_FPA",
-    "seniority": "director_plus",
-    "n": 19,
-    "C": 0,
-    "A": 1,
-    "covered_share": 0,
-    "overlap": 0.05263157894736842,
-    "weighted_overlap": 0.02631578947368421,
-    "thin": false,
-    "covered_ids": [],
-    "assisted_ids": [
-      "3401c83ba0cd0add-17"
-    ],
-    "product_split": {
-      "Reporting": {
-        "covered": 0,
-        "assisted": 1,
-        "weighted": 0.5
-      }
-    },
-    "lead_product": "Reporting",
-    "salary": {
-      "min": 196733,
-      "max": 286902,
-      "period_in": "year",
-      "varies_by_location": true,
-      "raw_text": "Pay Transparency: The base pay for this role is: 196,733 - $258,212 per year.\nNew York, New York, United States: Pay Transparency: The base pay for this role is: $218,592 - $286,902 per year."
-    },
-    "salary_source": "posting_text",
-    "savings": {
-      "value": 0,
-      "reason": null,
-      "salary_used": 196733,
-      "share": 0
-    },
-    "erp": [],
-    "tools": [],
-    "complexity": {
-      "multi_entity": false,
-      "multi_currency": false,
-      "usage_based_billing": false,
-      "high_volume": false,
-      "entity_count": null
-    },
-    "posted_at": "2026-09-25T09:19:46-04:00",
-    "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8232864",
-    "locations": [
-      "Tempe, Arizona, United States",
-      "New York, New York, United States"
-    ],
-    "remote": "hybrid",
     "matched": true
   },
   {
@@ -4320,69 +4275,6 @@
     "source_url": "https://jobs.ashbyhq.com/headway/e58bd5b3-72cf-40f0-adab-8fbe7dfcef37",
     "locations": [
       "Remote"
-    ],
-    "remote": "remote",
-    "matched": true
-  },
-  {
-    "posting_id": "59ba14769ebbbaa2",
-    "company": "Reddit",
-    "domain": "reddit.com",
-    "slug": "reddit",
-    "title": "International Payroll Analyst",
-    "role_family": "Payroll",
-    "seniority": "senior",
-    "n": 28,
-    "C": 0,
-    "A": 1,
-    "covered_share": 0,
-    "overlap": 0.03571428571428571,
-    "weighted_overlap": 0.017857142857142856,
-    "thin": false,
-    "covered_ids": [],
-    "assisted_ids": [
-      "59ba14769ebbbaa2-19"
-    ],
-    "product_split": {
-      "Reporting": {
-        "covered": 0,
-        "assisted": 1,
-        "weighted": 0.5
-      }
-    },
-    "lead_product": "Reporting",
-    "salary": {
-      "min": null,
-      "max": null,
-      "period_in": null,
-      "varies_by_location": false,
-      "raw_text": null
-    },
-    "salary_source": null,
-    "savings": {
-      "value": null,
-      "reason": "no_salary",
-      "salary_used": null,
-      "share": null
-    },
-    "erp": [],
-    "tools": [
-      "Workday Payroll",
-      "Excel",
-      "Google Sheets"
-    ],
-    "complexity": {
-      "multi_entity": false,
-      "multi_currency": true,
-      "usage_based_billing": false,
-      "high_volume": false,
-      "entity_count": null
-    },
-    "posted_at": "2026-09-25T16:27:39-04:00",
-    "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8234154",
-    "locations": [
-      "Remote - United Kingdom",
-      "Remote - United States"
     ],
     "remote": "remote",
     "matched": true
@@ -6762,35 +6654,31 @@
     "title": "Senior Director, Strategic Finance & Enterprise Planning",
     "role_family": "Reporting_FPA",
     "seniority": "director_plus",
-    "n": 23,
+    "n": 16,
     "C": 0,
-    "A": 5,
+    "A": 1,
     "covered_share": 0,
-    "overlap": 0.21739130434782608,
-    "weighted_overlap": 0.10869565217391304,
+    "overlap": 0.0625,
+    "weighted_overlap": 0.03125,
     "thin": false,
     "covered_ids": [],
     "assisted_ids": [
-      "84ec03d44ae6fe8c-05",
-      "84ec03d44ae6fe8c-15",
-      "84ec03d44ae6fe8c-16",
-      "84ec03d44ae6fe8c-17",
-      "84ec03d44ae6fe8c-18"
+      "84ec03d44ae6fe8c-11"
     ],
     "product_split": {
       "Reporting": {
         "covered": 0,
-        "assisted": 5,
-        "weighted": 2.5
+        "assisted": 1,
+        "weighted": 0.5
       }
     },
     "lead_product": "Reporting",
     "salary": {
       "min": 196733,
-      "max": 258212,
+      "max": 286902,
       "period_in": "year",
-      "varies_by_location": false,
-      "raw_text": "The base pay for this role is: $196,733 - $258,212 per year."
+      "varies_by_location": true,
+      "raw_text": "Pay Transparency: The base pay for this role is: $196,733 - $258,212 per year. Pay listed on other location postings for this same role: Tempe, Arizona, United States; New York, New York, United States: Pay Transparency: The base pay for this role is: 196,733 - $258,212 per year. New York, New York, United States: Pay Transparency: The base pay for this role is: $218,592 - $286,902 per year."
     },
     "salary_source": "posting_text",
     "savings": {
@@ -6808,12 +6696,13 @@
       "high_volume": false,
       "entity_count": null
     },
-    "posted_at": "2026-09-25T09:25:39-04:00",
+    "posted_at": "2026-09-25T09:19:46-04:00",
     "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8232870",
     "locations": [
       "Atlanta, Georgia, United States",
       "New York, New York, United States",
-      "Dallas, Texas, United States"
+      "Dallas, Texas, United States",
+      "Tempe, Arizona, United States"
     ],
     "remote": "remote",
     "matched": true
@@ -7112,57 +7001,6 @@
     "source_url": "https://jobs.ashbyhq.com/clickhouse/8ea8a116-f05f-4f5a-98f5-2c6ffde7c2ad",
     "locations": [
       "United States"
-    ],
-    "remote": "remote",
-    "matched": true
-  },
-  {
-    "posting_id": "9062a898c821d6ca",
-    "company": "Samsara",
-    "domain": "samsara.com",
-    "slug": "samsara",
-    "title": "Sr Customer Experience Specialist - Finance",
-    "role_family": "Other",
-    "seniority": "senior",
-    "n": 31,
-    "C": 0,
-    "A": 0,
-    "covered_share": 0,
-    "overlap": 0,
-    "weighted_overlap": 0,
-    "thin": false,
-    "covered_ids": [],
-    "assisted_ids": [],
-    "product_split": {},
-    "lead_product": null,
-    "salary": {
-      "min": 102042,
-      "max": 154350,
-      "period_in": "year",
-      "varies_by_location": false,
-      "raw_text": "Annual Base Salary\n\n$102,042—$154,350 USD"
-    },
-    "salary_source": "posting_text",
-    "savings": {
-      "value": 0,
-      "reason": null,
-      "salary_used": 102042,
-      "share": 0
-    },
-    "erp": [],
-    "tools": [],
-    "complexity": {
-      "multi_entity": false,
-      "multi_currency": false,
-      "usage_based_billing": false,
-      "high_volume": false,
-      "entity_count": null
-    },
-    "posted_at": "2026-10-01T13:59:33-04:00",
-    "source_url": "https://www.samsara.com/company/careers/roles/8247289?gh_jid=8247289",
-    "locations": [
-      "Remote - US",
-      "Remote - CA"
     ],
     "remote": "remote",
     "matched": true
@@ -8003,17 +7841,17 @@
     "slug": "reddit",
     "title": "International Payroll Analyst",
     "role_family": "Payroll",
-    "seniority": "senior",
-    "n": 49,
+    "seniority": "mid",
+    "n": 47,
     "C": 2,
     "A": 0,
-    "covered_share": 0.04081632653061224,
-    "overlap": 0.04081632653061224,
-    "weighted_overlap": 0.04081632653061224,
+    "covered_share": 0.0425531914893617,
+    "overlap": 0.0425531914893617,
+    "weighted_overlap": 0.0425531914893617,
     "thin": false,
     "covered_ids": [
-      "a244699191518a52-44",
-      "a244699191518a52-45"
+      "a244699191518a52-43",
+      "a244699191518a52-44"
     ],
     "assisted_ids": [],
     "product_split": {
@@ -8033,15 +7871,14 @@
     },
     "salary_source": "posting_text",
     "savings": {
-      "value": 2151.020408163265,
+      "value": 2242.553191489362,
       "reason": null,
       "salary_used": 105400,
-      "share": 0.04081632653061224
+      "share": 0.0425531914893617
     },
-    "erp": [
-      "Workday"
-    ],
+    "erp": [],
     "tools": [
+      "Workday Payroll",
       "Excel",
       "Google Sheets"
     ],
@@ -8055,7 +7892,8 @@
     "posted_at": "2026-09-14T08:05:09-04:00",
     "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8192369",
     "locations": [
-      "Remote - United States"
+      "Remote - United States",
+      "Remote - United Kingdom"
     ],
     "remote": "remote",
     "matched": true
@@ -8753,74 +8591,6 @@
     "locations": [
       "Remote, USA",
       "San Francisco, CA, United States"
-    ],
-    "remote": "remote",
-    "matched": true
-  },
-  {
-    "posting_id": "b6f3bdc427d56105",
-    "company": "Reddit",
-    "domain": "reddit.com",
-    "slug": "reddit",
-    "title": "Global Indirect Tax Manager",
-    "role_family": "Tax",
-    "seniority": "manager",
-    "n": 42,
-    "C": 4,
-    "A": 2,
-    "covered_share": 0.09523809523809523,
-    "overlap": 0.14285714285714285,
-    "weighted_overlap": 0.11904761904761904,
-    "thin": false,
-    "covered_ids": [
-      "b6f3bdc427d56105-09",
-      "b6f3bdc427d56105-24",
-      "b6f3bdc427d56105-27",
-      "b6f3bdc427d56105-28"
-    ],
-    "assisted_ids": [
-      "b6f3bdc427d56105-25",
-      "b6f3bdc427d56105-26"
-    ],
-    "product_split": {
-      "GL accounting": {
-        "covered": 4,
-        "assisted": 2,
-        "weighted": 5
-      }
-    },
-    "lead_product": "GL accounting",
-    "salary": {
-      "min": 154700,
-      "max": 216600,
-      "period_in": "year",
-      "varies_by_location": false,
-      "raw_text": "The base salary range for this position is:\n\n$154,700—$216,600 USD"
-    },
-    "salary_source": "posting_text",
-    "savings": {
-      "value": 7366.666666666666,
-      "reason": null,
-      "salary_used": 154700,
-      "share": 0.09523809523809523
-    },
-    "erp": [],
-    "tools": [
-      "Vertex",
-      "Alteryx",
-      "SQL"
-    ],
-    "complexity": {
-      "multi_entity": false,
-      "multi_currency": false,
-      "usage_based_billing": false,
-      "high_volume": true,
-      "entity_count": null
-    },
-    "posted_at": "2026-09-09T11:13:02-04:00",
-    "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8186566",
-    "locations": [
-      "Remote - United States"
     ],
     "remote": "remote",
     "matched": true

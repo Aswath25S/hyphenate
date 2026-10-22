@@ -120,8 +120,8 @@
       "confidence": 0.97,
       "rationale": "Owning the order-to-cash process is process leadership and coordination, not the platform executing a specific O2C task end to end.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -145,9 +145,9 @@
       "confidence": 0.98,
       "rationale": "Leading finance automation across the team is management and transformation work rather than a finance operation capability.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -170,8 +170,8 @@
       "confidence": 0.95,
       "rationale": "Owning the collections strategy is setting policy and approach, which is human judgment rather than collections execution.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -195,8 +195,8 @@
       "confidence": 0.57,
       "rationale": "Owning the AR balance is too vague to tell whether it means operational management, analysis, or reconciliation work.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -220,8 +220,8 @@
       "confidence": 0.96,
       "rationale": "Running a weekly cash review with leadership is a meeting and presentation activity, not cash reporting execution.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -266,8 +266,8 @@
       "confidence": 0.88,
       "rationale": "Resolving disputes with internal partners is relationship and judgment work rather than a defined platform workflow.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -312,8 +312,8 @@
       "confidence": 0.95,
       "rationale": "Serving as the escalation point for key accounts is human relationship management and negotiation support.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -358,9 +358,9 @@
       "confidence": 0.97,
       "rationale": "Driving fixes with Sales, Ops, and Product is cross-functional partnering and coordination work.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work"
       }
     },
     {
@@ -383,9 +383,9 @@
       "confidence": 0.61,
       "rationale": "Owning invoicing setup QA is too vague to map cleanly to invoice creation or another specific capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
-        "bucket": "human_work"
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -450,8 +450,8 @@
       "confidence": 0.66,
       "rationale": "Supporting month-end close with reserves is a rules-based accounting estimate that is not covered by a specific capability here.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -475,9 +475,9 @@
       "confidence": 0.98,
       "rationale": "Overseeing and coaching analysts is team management and people development work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -500,9 +500,9 @@
       "confidence": 0.97,
       "rationale": "Setting priorities and performance expectations is managerial leadership, not platform execution.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -525,9 +525,9 @@
       "confidence": 0.94,
       "rationale": "Shifting team work toward exception handling is managing work allocation and process change.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -550,8 +550,8 @@
       "confidence": 0.96,
       "rationale": "Establishing and owning the credit approval process is policy design and governance.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -575,9 +575,9 @@
       "confidence": 0.86,
       "rationale": "Running credit checks is repetitive operational work, but no credit-check capability appears in the coverage map.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
-        "bucket": "human_work"
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -600,8 +600,8 @@
       "confidence": 0.95,
       "rationale": "Working with Sales on creative credit options is negotiating or advising on credit terms, which is human judgment.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -625,8 +625,8 @@
       "confidence": 0.7,
       "rationale": "Building AI agents and workflows is a technical implementation task that is not a listed finance-operations capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -650,8 +650,8 @@
       "confidence": 0.7,
       "rationale": "Building AI agents for remittance matching is development work rather than the matching operation itself.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -675,8 +675,8 @@
       "confidence": 0.7,
       "rationale": "Building AI agents for dispute triage is a technical build task, not a covered finance operation.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -700,8 +700,8 @@
       "confidence": 0.7,
       "rationale": "Building AI agents for VMS portal tracking is implementation work outside the listed operational capabilities.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -725,8 +725,8 @@
       "confidence": 0.7,
       "rationale": "Building AI agents for pre-send invoice checks is tooling development, not invoice creation or review execution.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -750,8 +750,8 @@
       "confidence": 0.95,
       "rationale": "Partnering with Accounting and FP&A to map workflows is cross-functional coordination and process discovery.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -775,9 +775,9 @@
       "confidence": 0.9,
       "rationale": "Ranking automation opportunities is prioritization and judgment, not a finance operation task.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -800,8 +800,8 @@
       "confidence": 0.94,
       "rationale": "Managing a prioritized backlog is project management work.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -825,9 +825,9 @@
       "confidence": 0.68,
       "rationale": "Building and deploying AI/LLM workflows is product/engineering implementation rather than a specific finance-operations workflow.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1165,8 +1165,8 @@
       "confidence": 0.85,
       "rationale": "Automating lender compliance reporting is repetitive finance reporting work with no matching capability in the map.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -1190,8 +1190,8 @@
       "confidence": 0.78,
       "rationale": "Building integrations and data flows is systems engineering work, not a defined finance-operations capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -1236,9 +1236,9 @@
       "confidence": 0.98,
       "rationale": "Designing human-in-the-loop controls is control framework design, which requires human judgment.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1261,9 +1261,9 @@
       "confidence": 0.95,
       "rationale": "Designing audit trails is framework and governance design rather than an execution workflow.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1286,9 +1286,9 @@
       "confidence": 0.9,
       "rationale": "Designing documentation is documentation planning work, not a specific operational capability.",
       "gap_theme": {
-        "theme_id": "leadership_people",
-        "name": "Leadership people",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1311,8 +1311,8 @@
       "confidence": 0.98,
       "rationale": "Training the Finance team is people enablement and change management.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
         "bucket": "possible_gap"
       }
     },
@@ -1336,9 +1336,9 @@
       "confidence": 0.64,
       "rationale": "Writing runbooks is operational documentation work, but it is too generic to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -1361,8 +1361,8 @@
       "confidence": 0.62,
       "rationale": "Owning what you ship in production is too vague and sounds like broad product accountability rather than a finance operation task.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },

@@ -97,8 +97,8 @@
       "confidence": 0.78,
       "rationale": "Owning an end-to-end revenue workstream is too broad and does not map to a specific automatable finance action.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -122,9 +122,9 @@
       "confidence": 0.84,
       "rationale": "Challenging the status quo and implementing best practices is process-improvement work that is too vague for a specific capability match.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -147,8 +147,8 @@
       "confidence": 0.99,
       "rationale": "Providing daily supervision of team members is people management, which is inherently human work.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -193,9 +193,9 @@
       "confidence": 0.98,
       "rationale": "Interacting with business partners and external auditors is relationship management and auditor coordination, which is human work.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -218,8 +218,8 @@
       "confidence": 0.95,
       "rationale": "Preparing journal entries fits the system, but reviewing them is human review and makes the duty a human role overall.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -243,9 +243,9 @@
       "confidence": 0.96,
       "rationale": "Preparing account reconciliations is supported, but reviewing them is human review and dominates the duty.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -289,9 +289,9 @@
       "confidence": 0.99,
       "rationale": "Presenting analytics to finance leadership is a human presentation activity.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -314,9 +314,9 @@
       "confidence": 0.98,
       "rationale": "Communicating analytics to finance leadership is stakeholder communication work that is human by nature.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -381,9 +381,9 @@
       "confidence": 0.77,
       "rationale": "Ensuring data integrity and compliance across systems is too broad to map cleanly to a single listed capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -406,9 +406,9 @@
       "confidence": 0.66,
       "rationale": "Investigating reporting discrepancies is too vague to tell whether it is variance analysis, reconciliation, or another finance task.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -431,9 +431,9 @@
       "confidence": 0.99,
       "rationale": "Communicating issues effectively is general stakeholder communication, which is human work.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -456,8 +456,8 @@
       "confidence": 0.83,
       "rationale": "Continuously improving business processes through automation and benchmarking is broad process-improvement work without a specific capability match.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -481,8 +481,8 @@
       "confidence": 0.97,
       "rationale": "Partnering with other teams to support business processes is cross-functional collaboration, which is human work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },

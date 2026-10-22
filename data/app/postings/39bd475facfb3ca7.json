@@ -160,8 +160,8 @@
       "confidence": 0.39,
       "rationale": "The duty says to own accounting operations and reporting, which is too broad to map to one specific platform action.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -185,9 +185,9 @@
       "confidence": 0.44,
       "rationale": "Owning the GL is a broad responsibility rather than a specific automatable accounting action.",
       "gap_theme": {
-        "theme_id": "process_automation",
-        "name": "Process automation",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -210,8 +210,8 @@
       "confidence": 0.42,
       "rationale": "Owning AP/AR spans multiple processes and is too vague to tie to one capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -277,8 +277,8 @@
       "confidence": 0.46,
       "rationale": "Shortening and automating the close is a process-improvement project, not a specific listed finance operation.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -302,8 +302,8 @@
       "confidence": 0.99,
       "rationale": "Managing a Senior Accountant is people management work by nature.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -327,8 +327,8 @@
       "confidence": 0.99,
       "rationale": "Managing an outsourced accounting team is staff/vendor management rather than platform work.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -352,9 +352,9 @@
       "confidence": 0.95,
       "rationale": "Leading the transition of work in-house is a change-management and coordination responsibility.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -440,9 +440,9 @@
       "confidence": 0.93,
       "rationale": "Preparing technical accounting memos requires accounting judgment on novel issues, which is not a covered workflow.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -486,8 +486,8 @@
       "confidence": 0.96,
       "rationale": "Applying technical accounting policies requires human judgment and interpretation of policy.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -553,8 +553,8 @@
       "confidence": 0.38,
       "rationale": "Evaluating accounting systems and workflows is too broad and not a specific listed capability.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -578,8 +578,8 @@
       "confidence": 0.42,
       "rationale": "Implementing accounting systems and workflows is a project task rather than a mapped finance operation.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -603,8 +603,8 @@
       "confidence": 0.41,
       "rationale": "Optimizing accounting systems and workflows is process improvement that does not map cleanly to a capability.",
       "gap_theme": {
-        "theme_id": "inventory_cost",
-        "name": "Inventory cost",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -628,8 +628,8 @@
       "confidence": 0.99,
       "rationale": "Partnering with Sales is cross-functional relationship work rather than platform execution.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -653,8 +653,8 @@
       "confidence": 0.99,
       "rationale": "Partnering with Marketing is cross-functional relationship work rather than platform execution.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -678,9 +678,9 @@
       "confidence": 0.99,
       "rationale": "Partnering with Engineering is cross-functional collaboration work rather than an accounting workflow.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -703,8 +703,8 @@
       "confidence": 0.99,
       "rationale": "Partnering with Support is cross-functional relationship work rather than platform execution.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -728,9 +728,9 @@
       "confidence": 0.98,
       "rationale": "Being a thought partner to the Director of Finance is advisory leadership work, not an automatable task.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -753,8 +753,8 @@
       "confidence": 0.43,
       "rationale": "Automating close and operations is a broad improvement initiative without a specific listed capability.",
       "gap_theme": {
-        "theme_id": "analysis_insights",
-        "name": "Analysis insights",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -778,8 +778,8 @@
       "confidence": 0.52,
       "rationale": "Using AI where it drives impact is too vague to map to a concrete finance operation.",
       "gap_theme": {
-        "theme_id": "reporting_close",
-        "name": "Reporting close",
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
         "bucket": "possible_gap"
       }
     },
@@ -803,8 +803,8 @@
       "confidence": 0.35,
       "rationale": "Growing into broader ownership is a career-development statement rather than an operational duty.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },

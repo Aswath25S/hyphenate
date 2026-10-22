@@ -84,9 +84,9 @@
       "confidence": 0.98,
       "rationale": "Running end-to-end payroll processing is routine payroll operations with no matching capability on the map.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
-        "bucket": "possible_gap"
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work"
       }
     },
     {
@@ -109,8 +109,8 @@
       "confidence": 0.99,
       "rationale": "Processing biweekly payroll cycles is payroll processing, which is not covered by any listed capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
         "bucket": "human_work"
       }
     },
@@ -134,8 +134,8 @@
       "confidence": 0.99,
       "rationale": "Processing semi-monthly payroll cycles is standard payroll operations and has no direct capability match.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -159,8 +159,8 @@
       "confidence": 0.99,
       "rationale": "Processing off-cycle payments is payroll processing work outside the coverage map.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
         "bucket": "human_work"
       }
     },
@@ -184,8 +184,8 @@
       "confidence": 0.99,
       "rationale": "Processing final pay is a payroll administration task with no matching capability.",
       "gap_theme": {
-        "theme_id": "corporate_development",
-        "name": "Corporate development",
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
         "bucket": "human_work"
       }
     },
@@ -209,9 +209,9 @@
       "confidence": 0.92,
       "rationale": "Configuring Workday payroll modules is system administration outside the listed finance-ops capabilities.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -234,8 +234,8 @@
       "confidence": 0.92,
       "rationale": "Maintaining Workday payroll modules is payroll system administration with no capability match.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
@@ -259,9 +259,9 @@
       "confidence": 0.91,
       "rationale": "Troubleshooting Workday payroll modules is technical payroll support outside the map.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -284,9 +284,9 @@
       "confidence": 0.94,
       "rationale": "Configuring earnings and deduction codes is payroll setup work that is not covered.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -309,9 +309,9 @@
       "confidence": 0.95,
       "rationale": "Configuring tax setups is payroll tax administration with no listed capability.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -334,9 +334,9 @@
       "confidence": 0.91,
       "rationale": "Configuring retro pay is payroll setup work outside the coverage map.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -359,9 +359,9 @@
       "confidence": 0.9,
       "rationale": "Configuring time-tracking integrations is system implementation, not a listed finance operation.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -384,9 +384,9 @@
       "confidence": 0.9,
       "rationale": "Configuring benefits integrations is system implementation outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "cross_functional_partnerships",
-        "name": "Cross functional partnerships",
-        "bucket": "human_work"
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -409,8 +409,8 @@
       "confidence": 0.97,
       "rationale": "Ensuring payroll tax calculations is a payroll compliance/calculation task with no matching capability.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
         "bucket": "possible_gap"
       }
     },
@@ -434,8 +434,8 @@
       "confidence": 0.97,
       "rationale": "Ensuring payroll tax remittance is payroll tax administration not covered by the map.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -459,8 +459,8 @@
       "confidence": 0.97,
       "rationale": "Managing payroll tax filings across jurisdictions is a filing task with no matching capability.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -484,9 +484,9 @@
       "confidence": 0.99,
       "rationale": "Leading payroll compliance efforts is management and policy-oriented work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -509,8 +509,8 @@
       "confidence": 0.99,
       "rationale": "Ensuring wage and hour law compliance requires policy interpretation and human judgment.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -534,8 +534,8 @@
       "confidence": 0.98,
       "rationale": "Ensuring FLSA classification compliance is a legal classification judgment, not an automated finance task.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
         "bucket": "possible_gap"
       }
     },
@@ -559,8 +559,8 @@
       "confidence": 0.95,
       "rationale": "Managing garnishments is a rules-based payroll administration task with no direct capability match.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -584,8 +584,8 @@
       "confidence": 0.95,
       "rationale": "Managing multi-state registration requirements is payroll compliance administration outside the map.",
       "gap_theme": {
-        "theme_id": "ap_ar_billing",
-        "name": "AP AR billing",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -609,9 +609,9 @@
       "confidence": 0.99,
       "rationale": "Partnering with People teams is cross-functional collaboration, which is human work by nature.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -634,9 +634,9 @@
       "confidence": 0.99,
       "rationale": "Partnering with Finance teams is advisory and collaborative work that the platform does not do end to end.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -659,9 +659,9 @@
       "confidence": 0.99,
       "rationale": "Partnering with Total Rewards teams is cross-functional coordination and advisory work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -684,9 +684,9 @@
       "confidence": 0.99,
       "rationale": "Partnering with Legal teams is relationship and policy coordination work, which is human by nature.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -709,8 +709,8 @@
       "confidence": 0.95,
       "rationale": "Supporting new hires is payroll onboarding administration with no listed capability match.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -734,9 +734,9 @@
       "confidence": 0.95,
       "rationale": "Supporting terminations is payroll administration outside the coverage map.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
-        "bucket": "human_work"
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -759,8 +759,8 @@
       "confidence": 0.94,
       "rationale": "Supporting leaves of absence is HR/payroll administration not covered by the map.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -784,8 +784,8 @@
       "confidence": 0.94,
       "rationale": "Supporting equity payouts is a payroll execution task with no direct capability match.",
       "gap_theme": {
-        "theme_id": "governance_risk",
-        "name": "Governance risk",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -809,8 +809,8 @@
       "confidence": 0.95,
       "rationale": "Supporting bonus payouts is payroll processing work outside the listed capabilities.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -834,8 +834,8 @@
       "confidence": 0.94,
       "rationale": "Supporting benefits deductions is payroll administration with no matching capability.",
       "gap_theme": {
-        "theme_id": "customer_support",
-        "name": "Customer support",
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
         "bucket": "human_work"
       }
     },
@@ -943,9 +943,9 @@
       "confidence": 0.9,
       "rationale": "Preparing payroll reports is routine reporting work with no dedicated payroll reporting capability listed.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -968,8 +968,8 @@
       "confidence": 0.98,
       "rationale": "Reviewing payroll reports is human review work rather than an automated platform capability.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
         "bucket": "possible_gap"
       }
     },
@@ -1014,8 +1014,8 @@
       "confidence": 0.98,
       "rationale": "Reviewing payroll audits is human review and judgment work.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -1039,8 +1039,8 @@
       "confidence": 0.88,
       "rationale": "Preparing payroll analytics is analysis/reporting work without a specific matching capability.",
       "gap_theme": {
-        "theme_id": "vendor_contracts",
-        "name": "Vendor contracts",
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
         "bucket": "possible_gap"
       }
     },
@@ -1064,8 +1064,8 @@
       "confidence": 0.98,
       "rationale": "Reviewing payroll analytics is human review and interpretation work.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -1089,9 +1089,9 @@
       "confidence": 0.97,
       "rationale": "Serving as the primary escalation point for payroll discrepancies is relationship and judgment work.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1114,8 +1114,8 @@
       "confidence": 0.97,
       "rationale": "Serving as the primary escalation point for employee inquiries is support and coordination work by nature.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -1139,8 +1139,8 @@
       "confidence": 0.95,
       "rationale": "Serving as the primary escalation point for system issues is coordination/support work that requires human intervention.",
       "gap_theme": {
-        "theme_id": "systems_integration",
-        "name": "Systems integration",
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
         "bucket": "possible_gap"
       }
     },
@@ -1164,9 +1164,9 @@
       "confidence": 0.78,
       "rationale": "Driving process improvements is too vague to map to a specific capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
-        "bucket": "possible_gap"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1189,8 +1189,8 @@
       "confidence": 0.75,
       "rationale": "Driving Workday payroll optimizations is too vague and sounds like a broad project rather than a specific covered action.",
       "gap_theme": {
-        "theme_id": "accounting_policy",
-        "name": "Accounting policy",
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
         "bucket": "possible_gap"
       }
     },
@@ -1298,9 +1298,9 @@
       "confidence": 0.98,
       "rationale": "Staying current on federal payroll law changes is policy/legal interpretation work that requires human judgment.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1323,9 +1323,9 @@
       "confidence": 0.98,
       "rationale": "Staying current on state payroll law changes is legal interpretation and policy work.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1348,9 +1348,9 @@
       "confidence": 0.98,
       "rationale": "Staying current on local payroll law changes is regulatory interpretation work that is human by nature.",
       "gap_theme": {
-        "theme_id": "misc_support",
-        "name": "Misc support",
-        "bucket": "unclear"
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work"
       }
     },
     {
@@ -1373,8 +1373,8 @@
       "confidence": 0.84,
       "rationale": "Ensuring timely implementation of required updates is operational work with no direct capability match.",
       "gap_theme": {
-        "theme_id": "tax_compliance",
-        "name": "Tax compliance",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },

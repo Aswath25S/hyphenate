@@ -83,8 +83,8 @@
       "confidence": 0.94,
       "rationale": "Shepherding the planning and goal-setting process is managerial planning work rather than a finance-operations workflow the platform performs end to end.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
         "bucket": "possible_gap"
       }
     },
@@ -108,8 +108,8 @@
       "confidence": 0.86,
       "rationale": "Forecasting bookings and pipeline is a rules-based FP&A planning task, but the platform map only covers short-term cash forecasting, not GTM revenue/pipeline forecasting.",
       "gap_theme": {
-        "theme_id": "payroll_benefits",
-        "name": "Payroll and benefits",
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
         "bucket": "possible_gap"
       }
     },
@@ -133,9 +133,9 @@
       "confidence": 0.98,
       "rationale": "Driving weekly business reviews with the CRO and CFO is presenting and partnering with leadership, which is human relationship work.",
       "gap_theme": {
-        "theme_id": "audit_assurance",
-        "name": "Audit assurance",
-        "bucket": "human_work"
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap"
       }
     },
     {
@@ -221,9 +221,9 @@
       "confidence": 0.99,
       "rationale": "Being the accountable owner for a GTM budget is budget ownership and decision accountability, which is human finance leadership work.",
       "gap_theme": {
-        "theme_id": "treasury_banking",
-        "name": "Treasury banking",
-        "bucket": "possible_gap"
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work"
       }
     },
     {
@@ -246,8 +246,8 @@
       "confidence": 0.97,
       "rationale": "Partnering on open-ended GTM strategy questions is advisory and strategic work that requires human judgment.",
       "gap_theme": {
-        "theme_id": "revenue_commissions",
-        "name": "Revenue commissions",
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap"
       }
     },
@@ -271,8 +271,8 @@
       "confidence": 0.75,
       "rationale": "Tackling critical change projects is project and change management work rather than a specific finance-operations capability.",
       "gap_theme": {
-        "theme_id": "strategic_planning_models",
-        "name": "Strategic planning models",
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
         "bucket": "possible_gap"
       }
     },
