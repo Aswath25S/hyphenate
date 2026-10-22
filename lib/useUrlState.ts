@@ -1,11 +1,15 @@
 'use client';
-import { usePathname, useRouter, useSearchParams } from 'next/navigation';
+import { usePathname, useSearchParams } from 'next/navigation';
 import { useCallback } from 'react';
 
-/** Sorting, filters and sliders live in the URL so a view can be shared. */
+/**
+ * Sorting, filters and sliders live in the URL so a view can be shared.
+ * Uses history.replaceState (Next keeps useSearchParams in sync) rather than
+ * router.replace, so a filter change is not a navigation and does not trigger
+ * the page cross-fade.
+ */
 export function useUrlState() {
   const params = useSearchParams();
-  const router = useRouter();
   const pathname = usePathname();
   const get = useCallback((k: string, fallback = '') => params.get(k) ?? fallback, [params]);
   const getNum = useCallback((k: string, fallback: number) => {
@@ -20,13 +24,13 @@ export function useUrlState() {
       else next.set(k, String(v));
     }
     const qs = next.toString();
-    router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
-  }, [params, pathname, router]);
+    window.history.replaceState(null, '', qs ? `${pathname}?${qs}` : pathname);
+  }, [params, pathname]);
   const reset = useCallback((keys: string[]) => {
     const next = new URLSearchParams(params.toString());
     for (const k of keys) next.delete(k);
     const qs = next.toString();
-    router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
-  }, [params, pathname, router]);
+    window.history.replaceState(null, '', qs ? `${pathname}?${qs}` : pathname);
+  }, [params, pathname]);
   return { get, getNum, set, reset, params };
 }
