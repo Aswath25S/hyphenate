@@ -16,7 +16,7 @@ const LINKS = [
 export function Nav() {
   const path = usePathname();
   const [open, setOpen] = useState(false);
-  const active = (href: string) => (href === '/' ? path === '/' : path.startsWith(href) || (href === '/leads' && path.startsWith('/companies')));
+  const active = (href: string) => (href === '/' ? path === '/' : path.startsWith(href) || (href === '/leads' && path.startsWith('/companies')) || (href === '/savings' && path.startsWith('/postings')));
   return (
     <header className="sticky top-3 z-40 px-4 sm:px-6">
       <nav className="mx-auto flex max-w-[1180px] items-center justify-between gap-4 rounded-[10px] border border-line bg-white/95 px-4 py-2.5 shadow-[0_8px_30px_rgba(120,60,20,0.07)] backdrop-blur">

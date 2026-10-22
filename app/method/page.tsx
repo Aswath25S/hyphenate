@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Container, Mono, Note, PageHero, Section } from '@/components/ui';
+import { StageList, type Stage } from '@/components/StageList';
+import { Formula, Frac, V } from '@/components/Math';
 import { getMeta } from '@/lib/data';
 import * as C from '@/config/scoring';
 import { COVERAGE_AS_OF } from '@/config/site';
@@ -9,16 +11,37 @@ import coverageMap from '@/config/coverage_map.json';
 
 export const metadata: Metadata = { title: 'Method' };
 
-const STAGES = [
-  ['collect', 'Fetch postings from public Greenhouse, Lever and Ashby job-board APIs for the seed companies.', false],
-  ['filter', 'Keep US finance and CFO-office roles posted in the last 60 days; dedupe near-identical postings.', 'unclear titles'],
-  ['extract', 'Turn each posting into structured fields and single duties, each with a verbatim source span.', true],
-  ['match', 'Label each scored duty against the 30-capability coverage map.', true],
-  ['score', 'Compute overlap, fit, pain and minimum savings. Pure code: the same labels always give the same numbers.', false],
-  ['gaps', 'Normalise uncovered duties into canonical tasks and cluster them into themes.', true],
-  ['brief', 'Write a short brief per top-15 company from structured data only; fact-check it in code.', true],
-  ['publish', 'Write the JSON files this dashboard reads.', false],
-] as const;
+const STAGES: Stage[] = [
+  { key: 'collect', name: 'Collect', summary: 'Fetch open jobs from public job boards.', details: [
+    'Each seed company publishes its open jobs through a public Greenhouse, Lever or Ashby job board. These boards have APIs meant for exactly this kind of reading.',
+    'We download every open job, keep the ones whose titles look like finance roles, and store the full description with its source link and the time it was fetched. LinkedIn, Indeed and Glassdoor are never touched.',
+  ] },
+  { key: 'filter', name: 'Filter', summary: 'Keep recent US finance roles and remove duplicates.', details: [
+    'A role is kept when its title is a finance or CFO-office role (accounts payable and receivable, accountants, controllers, treasury, FP&A, payroll, tax), it is based in the US, and it was posted in the last 60 days. Unclear titles are checked by the language model.',
+    'The same role is often posted several times, once per location. Those copies are merged into one role, and every location’s pay range is kept.',
+  ] },
+  { key: 'extract', name: 'Extract', summary: 'Split each posting into single duties.', details: [
+    'A language model reads each posting and lists the separate tasks it describes, one action per duty, for example "Apply customer payments daily". Each duty keeps the exact sentence it came from, which is what the role breakdown page highlights.',
+    'It also records the salary, ERP, tools and signs of complexity such as multiple entities. Qualifications and culture lines are marked so they are not counted as work.',
+  ] },
+  { key: 'match', name: 'Match', summary: 'Compare every duty with what Hyphenate offers.', details: [
+    'Each duty is compared with 30 capabilities read from Hyphenate’s website. It is labelled as something Hyphenate does end to end, something it prepares for a person to approve, work that needs a person, a possible gap, or too vague to judge.',
+    'When the model is unsure, the stricter label wins. Low-confidence labels become "too vague", so uncertain matches never inflate the numbers.',
+  ] },
+  { key: 'score', name: 'Score', summary: 'Turn the labels into overlap, lead scores and savings.', details: [
+    'Plain arithmetic, no model: the same labels always give the same numbers. The formulas are listed in the next section.',
+  ] },
+  { key: 'gaps', name: 'Find gaps', summary: 'Group the work Hyphenate does not mention into themes.', details: [
+    'Every duty that is not on Hyphenate’s site is rewritten as a short standard task, then grouped into themes such as sales tax filing or expense report review.',
+    'Themes are ranked by how often they show up in otherwise strong leads, because a gap inside a good lead is the one most likely to come up in a sales call.',
+  ] },
+  { key: 'brief', name: 'Write briefs', summary: 'Write a short sales brief for the top 15 companies.', details: [
+    'The model writes each brief only from the numbers already computed for that company. A code check then confirms that every number and name in the brief appears in that data; a brief that fails is rewritten once, then dropped.',
+  ] },
+  { key: 'publish', name: 'Publish', summary: 'Package everything for this website.', details: [
+    'The results are saved as files that this site reads. The site itself never calls a language model, so every page shows exactly what the pipeline produced.',
+  ] },
+];
 
 const LIMITS = [
   'A posting shows pain and intent to hire, not budget or the real day-to-day work.',
@@ -30,19 +53,8 @@ const LIMITS = [
   'Employee bands in the seed list are unverified estimates until replaced with a public source.',
 ];
 
-function KV({ rows }: { rows: [string, React.ReactNode][] }) {
-  return (
-    <dl className="divide-y divide-dashed divide-line-dashed">
-      {rows.map(([k, v], i) => <div key={`${i}-${k}`} className="grid grid-cols-[1fr_auto] gap-4 py-2 text-[14px]"><dt className="text-ink/80">{k}</dt><dd className="num text-right font-mono text-[13px]">{v}</dd></div>)}
-    </dl>
-  );
-}
-
 export default function MethodPage() {
   const meta = getMeta();
-  const stats = meta?.stage_stats ?? {};
-  const cost = meta?.cost_report ?? {};
-  const totalCost = Object.values(cost).reduce((a, s) => a + s.cost_usd, 0);
   const caps = coverageMap.capabilities;
   return (
     <>
@@ -53,41 +65,9 @@ export default function MethodPage() {
         meta={meta ? `As of ${meta.as_of} · model ${meta.model} · generated ${shortDate(meta.generated_at)}` : 'No pipeline run yet'}
       />
 
-      <Section id="how" eyebrow="How it works" title="Eight stages, each rerunnable on its own.">
-        <div className="card overflow-x-auto">
-          <table className="w-full min-w-[720px] text-[14px]">
-            <thead className="border-b border-line"><tr>{['', 'Stage', 'What it does', 'LLM', 'In → out'].map((h, i) => <th key={i} className={`px-4 py-3 text-left font-normal ${i === 4 ? 'text-right' : ''}`}><Mono>{h}</Mono></th>)}</tr></thead>
-            <tbody>
-              {STAGES.map(([name, what, llm], i) => (
-                <tr key={name} className="border-t border-dashed border-line-dashed align-top">
-                  <td className="px-4 py-3 font-mono text-[12px] text-accent">{String(i + 1).padStart(2, '0')}</td>
-                  <td className="px-4 py-3 font-medium">{name}</td>
-                  <td className="px-4 py-3 text-ink/80">{what}</td>
-                  <td className="px-4 py-3">{llm === true ? <span className="rounded-full bg-accent-soft px-2 py-0.5 font-mono text-[11px] uppercase text-accent-ink">Yes</span> : llm ? <span className="text-[13px] text-ink-muted">{llm}</span> : <span className="text-ink-muted">No</span>}</td>
-                  <td className="num px-4 py-3 text-right font-mono text-[13px]">{stats[name] ? `${stats[name].in} → ${stats[name].out}${stats[name].failed ? ` (${stats[name].failed} failed)` : ''}` : '–'}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-        <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-3">
-          <div className="card-flat p-5 text-[14px] leading-relaxed"><Mono>Cached and validated</Mono><p className="mt-2">Every model call is cached by a hash of its input, so reruns cost nothing and results stay stable. Every response is validated against a schema, retried once on failure, then logged as failed.</p></div>
-          <div className="card-flat p-5 text-[14px] leading-relaxed"><Mono>Strict labels</Mono><p className="mt-2">Covered or assisted labels need a capability id. Confidence below {C.OVERLAP.unclearConfidenceBelow} becomes unclear. A covered label on an assisted capability is downgraded to assisted.</p></div>
-          <div className="card-flat p-5 text-[14px] leading-relaxed"><Mono>Spans located</Mono><p className="mt-2">{meta ? `${meta.spans.found} of ${meta.spans.total}` : '–'} duty spans were found verbatim in the posting text, so each can be highlighted in the evidence view.</p></div>
-        </div>
-        {Object.keys(cost).length > 0 && (
-          <div className="mt-6 card overflow-x-auto">
-            <table className="w-full min-w-[560px] text-[14px]">
-              <thead className="border-b border-line"><tr>{['Stage', 'Model calls', 'Cache hits', 'Input tokens', 'Output tokens', 'Cost'].map((h, i) => <th key={h} className={`px-4 py-3 font-normal ${i ? 'text-right' : 'text-left'}`}><Mono>{h}</Mono></th>)}</tr></thead>
-              <tbody>
-                {Object.entries(cost).map(([k, v]) => (
-                  <tr key={k} className="num border-t border-dashed border-line-dashed font-mono text-[13px]"><td className="px-4 py-2.5 font-sans text-[14px]">{k}</td><td className="px-4 py-2.5 text-right">{v.calls}</td><td className="px-4 py-2.5 text-right">{v.cached}</td><td className="px-4 py-2.5 text-right">{v.input_tokens.toLocaleString()}</td><td className="px-4 py-2.5 text-right">{v.output_tokens.toLocaleString()}</td><td className="px-4 py-2.5 text-right">{v.unpriced_calls ? 'price not set' : `$${v.cost_usd.toFixed(2)}`}</td></tr>
-                ))}
-                <tr className="num border-t border-line font-mono text-[13px]"><td className="px-4 py-2.5 font-sans font-medium">Total</td><td colSpan={4} /><td className="px-4 py-2.5 text-right font-medium">{Object.values(cost).some((v) => v.unpriced_calls) ? 'price not set' : `$${totalCost.toFixed(2)}`}</td></tr>
-              </tbody>
-            </table>
-          </div>
-        )}
+      <Section id="how" eyebrow="How it works" title="Eight steps from job posting to lead.">
+        <p className="mb-6 max-w-[760px] text-[15px] leading-relaxed text-ink/80">Click a step to see what it does.</p>
+        <StageList stages={STAGES} />
       </Section>
 
       <Section id="coverage" eyebrow="Coverage map" title="30 capabilities across five products.">
@@ -111,23 +91,83 @@ export default function MethodPage() {
         <div className="mt-4"><Note>Known areas the public site does not advertise, used to seed the gap analysis: {coverageMap.known_not_advertised.join(', ')}.</Note></div>
       </Section>
 
-      <Section id="scoring" eyebrow="Every assumption" title="All weights live in one config file.">
-        <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
-          <div className="card p-5"><Mono>Overlap</Mono>
-            <KV rows={[['Covered share', 'C ÷ n'], ['Overlap (headline)', '(C + A) ÷ n'], ['Weighted overlap (lead score)', `(C + ${C.OVERLAP.assistedWeight}A) ÷ n`], ['Thin posting', `< ${C.OVERLAP.thinPostingMinDuties} scored duties`], ['Strong lead (gaps)', `overlap ≥ ${pct(C.OVERLAP.strongLeadOverlap)}`]]} /></div>
-          <div className="card p-5"><Mono>Lead score</Mono>
-            <KV rows={[['Weight: Hyphenate can do the work (pain)', pct(C.LEAD_WEIGHTS.pain)], ['Weight: looks like a customer (fit)', pct(C.LEAD_WEIGHTS.fit)], ['Pain, overlap part', `${C.PAIN.overlapWeight} × avg weighted overlap`], ['Pain, open-roles part', `${C.PAIN.rolesWeight} × min(roles, ${C.PAIN.rolesCap}) ÷ ${C.PAIN.rolesCap}`], ['Fit formula', `${C.FIT_WEIGHTS.erp} ERP + ${C.FIT_WEIGHTS.size} size + ${C.FIT_WEIGHTS.complexity} complexity`]]} /></div>
-          <div className="card p-5"><Mono>Fit factors</Mono>
-            <KV rows={[['ERP: NetSuite, SAP, Intacct, Dynamics, Oracle', C.ERP_SCORES.enterprise], ['ERP: not stated', C.ERP_SCORES.notStated], ['ERP: QuickBooks or Xero only', C.ERP_SCORES.smbOnly], ...C.SIZE_BRACKETS.map((b) => [`Size ${b.label} employees`, b.score] as [string, number]), ['Size unknown', C.SIZE_UNKNOWN_SCORE], ['Complexity 2+ / 1 / none', `${C.COMPLEXITY_SCORES.twoOrMore} / ${C.COMPLEXITY_SCORES.one} / ${C.COMPLEXITY_SCORES.none}`]]} /></div>
-          <div className="card p-5"><Mono>Minimum savings</Mono>
-            <KV rows={[['Formula', 'salary_min × C/n × d'], ['Salary used', 'Bottom of range'], ['Discount d', C.SAVINGS_DEFAULTS.discount], ['Assisted duties', 'Off (or 0.25)'], ['Loaded-cost multiplier', C.SAVINGS_DEFAULTS.loadedCostMultiplier], ['Hourly pay', `× ${C.SALARY.hoursPerYear.toLocaleString()} hours`]]} /></div>
-          <div className="card p-5"><Mono>Collection</Mono>
-            <KV rows={[['Posting window', `${C.FILTER.maxAgeDays} days`], ['Dedupe similarity', `≥ ${pct(C.FILTER.dedupeSimilarity)}`], ['Briefs for top companies', C.BRIEFS.topCompanies], ['Gap themes', `${C.GAPS.minThemes}–${C.GAPS.maxThemes}, merge < ${C.GAPS.minThemeSize}`]]} /></div>
+      <Section id="scoring" eyebrow="Formulas and assumptions" title="The maths behind every number.">
+        <p className="mb-8 max-w-[760px] text-[15px] leading-relaxed text-ink/80">
+          For one open role, let <V>n</V> be the number of duties the model found, <V>C</V> the duties Hyphenate does end to end, and <V>A</V> the duties it prepares for a person to approve.
+          Everything else is built from these three counts and the posted salary.
+        </p>
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+          <Formula title="1 · Overlap of one role" where={[
+            [<V key="o">overlap</V>, 'Share of the role’s duties on Hyphenate’s site. This is the percentage shown across the site.'],
+            [<V key="w">w</V>, `Weighted overlap: duties Hyphenate only prepares count ${C.OVERLAP.assistedWeight === 0.5 ? 'half' : C.OVERLAP.assistedWeight}. Used in the lead score.`],
+          ]}>
+            <V>overlap</V> = <Frac num={<><V>C</V> + <V>A</V></>} den={<V>n</V>} />
+            <span className="mx-4 text-ink-muted">and</span>
+            <V>w</V> = <Frac num={<><V>C</V> + {C.OVERLAP.assistedWeight}<V>A</V></>} den={<V>n</V>} />
+          </Formula>
+
+          <Formula title="2 · How much work Hyphenate can do for a company (pain)" where={[
+            [<V key="w">w̄</V>, 'Average weighted overlap across the company’s open finance roles.'],
+            [<V key="r">R</V>, `Number of open finance roles; more roles mean more pain, up to ${C.PAIN.rolesCap}.`],
+          ]}>
+            <V>P</V> = {C.PAIN.overlapWeight}<V>w̄</V> + {C.PAIN.rolesWeight} · <Frac num={<>min(<V>R</V>, {C.PAIN.rolesCap})</>} den={C.PAIN.rolesCap} />
+          </Formula>
+
+          <Formula title="3 · How much the company looks like a Hyphenate customer (fit)" where={[
+            [<V key="e">E</V>, <>ERP: {C.ERP_SCORES.enterprise} for NetSuite, SAP, Sage Intacct, Microsoft Dynamics or Oracle; {C.ERP_SCORES.notStated} if not stated; {C.ERP_SCORES.smbOnly} for QuickBooks or Xero only.</>],
+            [<V key="s">S</V>, <>Size by employees: {C.SIZE_BRACKETS.map((b) => `${b.label} → ${b.score}`).join(', ')}; unknown → {C.SIZE_UNKNOWN_SCORE}.</>],
+            [<V key="x">X</V>, <>Complex finance (several entities, currencies, usage-based billing or high volume): {C.COMPLEXITY_SCORES.twoOrMore} for two or more signs, {C.COMPLEXITY_SCORES.one} for one, {C.COMPLEXITY_SCORES.none} for none.</>],
+          ]}>
+            <V>F</V> = {C.FIT_WEIGHTS.erp}<V>E</V> + {C.FIT_WEIGHTS.size}<V>S</V> + {C.FIT_WEIGHTS.complexity}<V>X</V>
+          </Formula>
+
+          <Formula title="4 · Lead score" where={[
+            [<V key="a">α</V>, <>Balance between the two parts. Default {(C.LEAD_WEIGHTS.pain).toFixed(2)} (about {pct(C.LEAD_WEIGHTS.pain)}); the slider on the Leads page changes it.</>],
+            [<V key="l">L</V>, 'From 0 to 100. Companies are ranked by it.'],
+          ]}>
+            <V>L</V> = 100 · ( <V>α</V><V>P</V> + (1 − <V>α</V>)<V>F</V> )
+          </Formula>
+
+          <Formula title="5 · Minimum savings for one role" where={[
+            [<V key="s">s</V>, <>Lowest posted yearly salary. Hourly pay × {C.SALARY.hoursPerYear.toLocaleString()} hours. No salary posted means no figure.</>],
+            [<V key="d">d</V>, <>Safety discount, {C.SAVINGS_DEFAULTS.discount} by default, for review time and duties that take unequal time.</>],
+            [<V key="m">m</V>, <>Benefits and payroll taxes, {C.SAVINGS_DEFAULTS.loadedCostMultiplier.toFixed(1)} by default (ignored).</>],
+          ]}>
+            <V>M</V> = <V>s</V> · <Frac num={<V>C</V>} den={<V>n</V>} /> · <V>d</V> · <V>m</V>
+          </Formula>
+
+          <Formula title="6 · Totals" where={[
+            [<V key="sm">s̃</V>, 'Middle of the posted salary range (or the single figure).'],
+            [<V key="t">T</V>, `Overview figure: total salary of roles with at least ${pct(C.OVERLAP.salaryHeadlineMinOverlap)} overlap.`],
+          ]}>
+            <span className="whitespace-nowrap">company savings = Σ <V>M</V></span>
+            <span className="mx-4 text-ink-muted">and</span>
+            <span className="whitespace-nowrap"><V>T</V> = Σ <V>s̃</V> over roles with <V>overlap</V> ≥ {C.OVERLAP.salaryHeadlineMinOverlap}</span>
+          </Formula>
+
+          <Formula title="7 · Ranking gaps" where={[
+            [<V key="g">G</V>, `Share of strong roles (overlap ≥ ${pct(C.OVERLAP.strongLeadOverlap)}) that include the theme.`],
+            [<V key="k">k</V>, 'Duties in the role that belong to the theme.'],
+          ]}>
+            <V>G</V> = <Frac num="strong roles with the theme" den="all strong roles" />
+            <span className="mx-4 text-ink-muted">and</span>
+            salary attached = Σ <V>s</V> · <Frac num={<V>k</V>} den={<V>n</V>} />
+          </Formula>
         </div>
-        <div className="mt-6 space-y-2">
-          <Note>No salary in the posting means no figure; we never estimate one. Thin postings are excluded from savings. Savings are gross value, not net of Hyphenate&apos;s price, and always framed as work Hyphenate could absorb before the next hire.</Note>
-          <Note>Existing customers named on hyphenate.ai and finance-software vendors stay in research totals but never appear as leads.</Note>
-        </div>
+
+        <h3 className="t-sub mt-14">Assumptions</h3>
+        <ul className="mt-5 grid grid-cols-1 gap-3 md:grid-cols-2">
+          {[
+            `Only roles posted in the last ${C.FILTER.maxAgeDays} days count.`,
+            `Copies of one role posted for different locations are merged when their descriptions are at least ${pct(C.FILTER.dedupeSimilarity)} alike.`,
+            `A role with fewer than ${C.OVERLAP.thinPostingMinDuties} duties is scored but left out of savings.`,
+            `A label the model is less than ${pct(C.OVERLAP.unclearConfidenceBelow)} sure of becomes "too vague", and a duty that only matches a prepare-for-approval capability is never counted as done end to end.`,
+            'Duties are not weighted by how long they take; the safety discount stands in for that.',
+            'Savings are gross: Hyphenate’s own price is unknown, and the figure is work it could take on before the next hire, not people to cut.',
+            'Existing Hyphenate customers and finance-software vendors are analysed but never shown as leads.',
+            'Employee counts are estimates and need checking against a public source.',
+          ].map((a) => <li key={a} className="card-flat p-4 text-[15px] leading-relaxed">{a}</li>)}
+        </ul>
       </Section>
 
       <Section id="limits" eyebrow="Known limits" title="What this cannot tell you.">

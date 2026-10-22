@@ -1,26 +1,28 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Container, Mono, PageHero, Section } from '@/components/ui';
+import { Mono, PageHero, Section } from '@/components/ui';
 import { getMeta } from '@/lib/data';
 import { AUTHOR_EMAIL, AUTHOR_GITHUB, AUTHOR_LINKEDIN, AUTHOR_NAME, AUTHOR_WEBSITE, PRODUCT_NAME, ROLE_APPLIED_FOR, ROLE_URL } from '@/config/site';
 
 export const metadata: Metadata = { title: 'About' };
 
+const strip = (u: string) => u.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
+
 export default function AboutPage() {
   const h = getMeta()?.headlines;
   const contacts = [
     AUTHOR_EMAIL && { label: 'Email', value: AUTHOR_EMAIL, href: `mailto:${AUTHOR_EMAIL}` },
-    AUTHOR_LINKEDIN && { label: 'LinkedIn', value: AUTHOR_LINKEDIN.replace(/^https?:\/\/(www\.)?/, ''), href: AUTHOR_LINKEDIN },
-    AUTHOR_GITHUB && { label: 'GitHub', value: AUTHOR_GITHUB.replace(/^https?:\/\/(www\.)?/, ''), href: AUTHOR_GITHUB },
-    AUTHOR_WEBSITE && { label: 'Website', value: AUTHOR_WEBSITE.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, ''), href: AUTHOR_WEBSITE },
+    AUTHOR_LINKEDIN && { label: 'LinkedIn', value: strip(AUTHOR_LINKEDIN), href: AUTHOR_LINKEDIN },
+    AUTHOR_GITHUB && { label: 'GitHub', value: strip(AUTHOR_GITHUB), href: AUTHOR_GITHUB },
+    AUTHOR_WEBSITE && { label: 'Website', value: strip(AUTHOR_WEBSITE), href: AUTHOR_WEBSITE },
   ].filter(Boolean) as { label: string; value: string; href: string }[];
 
   return (
-    <>
+    <div className="theme-inverted">
       <PageHero
         eyebrow="About"
         title={<>I&apos;m {AUTHOR_NAME}, and I&apos;d like to join Hyphenate as a {ROLE_APPLIED_FOR}.</>}
-        sub={<>My main goal is to be considered for the {ROLE_APPLIED_FOR} role at Hyphenate. {PRODUCT_NAME} is the demo I built for that application: instead of only telling you how I would help, I tried to do a slice of the job.</>}
+        sub={<>{PRODUCT_NAME} is the demo I built for that application. Instead of only saying how I would help, I tried to do a slice of the job.</>}
       >
         <div className="flex flex-wrap gap-3 pt-2">
           <a href={ROLE_URL} target="_blank" rel="noreferrer" className="btn-primary">View the role ↗</a>
@@ -28,31 +30,17 @@ export default function AboutPage() {
         </div>
       </PageHero>
 
-      <Section eyebrow="Why I built it" title="Job postings are a buying signal hiding in plain sight.">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1.2fr_1fr]">
-          <div className="space-y-4 text-[17px] leading-relaxed text-ink/85">
-            <p>When a company posts a job for an accounts payable clerk or a staff accountant, it is announcing that it is about to spend money on work Hyphenate&apos;s agents already do.</p>
-            <p>I wanted to know how often that is true, which companies it is true for, and what those postings ask for that Hyphenate does not yet advertise. So I read {h ? `${h.postings} open finance postings from ${h.companies} US companies` : 'open finance job postings'}, duty by duty, and matched every duty against Hyphenate&apos;s public product pages.</p>
-            <p>The result is a ranked lead list for sales, a gap report for product, and a conservative estimate of the salary tied to work Hyphenate could take on. Every number links back to the posting text that produced it, so you can check my work.</p>
-          </div>
-          <div className="card space-y-4 p-6">
-            <Mono>What went into it</Mono>
-            <ul className="space-y-3 text-[15px] leading-relaxed">
-              <li><b className="font-medium">Data pipeline.</b> Nine stages that collect public job-board postings, filter them, split duties with an LLM, and score them in plain code.</li>
-              <li><b className="font-medium">Coverage map.</b> 30 capabilities read from hyphenate.ai, each with near misses so the model does not over-claim.</li>
-              <li><b className="font-medium">Honesty rules.</b> No salary means no figure, gaps are &ldquo;not on the public site&rdquo; rather than &ldquo;cannot do&rdquo;, and every assumption is adjustable.</li>
-              <li><b className="font-medium">Checks.</b> Hand-labelled test postings, schema validation on every model answer, and a fact check on every written brief.</li>
-            </ul>
-            <Link href="/method" className="link inline-block text-[14px]">Read the full method</Link>
-          </div>
+      <Section eyebrow="Why I built it" title="A finance job posting is a buying signal.">
+        <div className="max-w-[760px] space-y-4 text-[17px] leading-relaxed text-ink/90">
+          <p>A company hiring an accounts payable clerk or a staff accountant is about to spend money on work Hyphenate&apos;s agents already do.</p>
+          <p>
+            I read {h ? `${h.postings} open finance roles from ${h.companies} US companies` : 'open finance roles'}, duty by duty, and matched each duty against Hyphenate&apos;s public product pages.
+            The result is a ranked lead list for sales, a gap list for product, and the salary tied to work Hyphenate could take on. <Link href="/method" className="link">How it works</Link>.
+          </p>
         </div>
       </Section>
 
       <Section eyebrow="Contact" title="I would love to talk about the role.">
-        <p className="mb-6 max-w-[760px] text-[16px] leading-relaxed text-ink/80">
-          If this is the kind of work a {ROLE_APPLIED_FOR} would do at Hyphenate, I would be glad to walk you through it, hear where it is wrong, and talk about what I would build next.{' '}
-          <a href={ROLE_URL} target="_blank" rel="noreferrer" className="link">The role on Hyphenate&apos;s job board ↗</a>
-        </p>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {contacts.map((c) => (
             <a key={c.label} href={c.href} target={c.href.startsWith('mailto:') ? undefined : '_blank'} rel="noreferrer" className="card block p-5 transition-transform hover:-translate-y-0.5">
@@ -61,8 +49,8 @@ export default function AboutPage() {
             </a>
           ))}
         </div>
-        <p className="mt-6 max-w-[720px] text-[14px] text-ink-muted">This is an independent prototype. It is not affiliated with or endorsed by Hyphenate, and the coverage map is my reading of hyphenate.ai, to be validated with the team.</p>
+        <p className="mt-6 max-w-[720px] text-[14px] text-ink-muted">Independent prototype, not affiliated with or endorsed by Hyphenate.</p>
       </Section>
-    </>
+    </div>
   );
 }

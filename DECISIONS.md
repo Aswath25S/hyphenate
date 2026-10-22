@@ -81,3 +81,12 @@ Choices made inside the spec's latitude. Newest at the bottom of each section.
 - **Leads table shows average salary** (mean of each role's posted-range midpoint) instead of minimum savings; minimum savings stay on Roles & Savings.
 - **The live demo was removed** (page, API route, rate limiter, tests, env vars). The site no longer calls the LLM at request time, so a public deploy has no API cost exposure.
 - **Overview headline figure** is now the total yearly salary (midpoint of posted range) of roles with at least 20% overlap (`OVERLAP.salaryHeadlineMinOverlap`). It is a measure of addressable salary, not savings; the conservative minimum-savings figure remains on Roles & Savings.
+
+## Corrections 4.0 (22 Oct 2026)
+
+- Company pages add a "Total salary of roles" box (sum of posted-range midpoints).
+- Role pages highlight "Roles & Savings" in the nav.
+- About page uses an inverted palette (`.theme-inverted` redefines the colour tokens) and shorter copy.
+- Gaps: verification column removed; table has fixed column widths and rows expand with a height transition.
+- Savings formula explained term by term with a worked example from the data.
+- Method: "How it works" is an expandable list of the eight steps (cost and stage-count tables removed); "Every assumption" is now the formulas written mathematically plus a plain list of assumptions.

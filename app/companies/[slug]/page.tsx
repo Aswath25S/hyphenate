@@ -5,6 +5,7 @@ import { Container, Eyebrow, LabelChip, Mono, Note, OverlapBar, OverlapLegend, S
 import { BackLink } from '@/components/BackLink';
 import { getCompanies, getCompany, getGaps, getPosting, getPostings } from '@/lib/data';
 import { PRODUCT_ORDER, ROLE_LABELS, formatBand, pct, shortDate, usd } from '@/lib/format';
+import { salaryMid } from '@/lib/scoring';
 
 export function generateStaticParams() {
   return getCompanies().map((c) => ({ slug: c.slug }));
@@ -20,6 +21,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
   if (!c) notFound();
   const roles = getPostings().filter((p) => c.posting_ids.includes(p.posting_id)).sort((a, b) => b.overlap - a.overlap);
   const themes = getGaps().themes.filter((t) => t.company_domains.includes(c.domain));
+  const salaryRoles = roles.filter((r) => r.salary_min !== null);
+  const totalSalary = salaryRoles.reduce((a, r) => a + salaryMid(r.salary_min!, r.salary_max), 0);
   const maxW = Math.max(1, ...Object.values(c.product_split).map((v) => v.covered + v.assisted));
   const headline = c.brief?.headline
     ?? (roles.length ? `${c.company} is hiring ${c.open_roles} finance ${c.open_roles === 1 ? 'role' : 'roles'} with ${pct(c.avg_overlap)} average overlap.` : c.company);
@@ -43,10 +46,11 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
 
       <section className="hatch border-b border-line py-10 sm:py-14">
         <Container>
-          <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-5">
             <StatBlock value={c.lead_score.toFixed(0)} label="Lead score" href="#score" note="Out of 100. See the breakdown below." />
             <StatBlock value={pct(c.avg_overlap)} label="Average overlap" href="#roles" note={`${c.open_roles} open ${c.open_roles === 1 ? 'role' : 'roles'}`} />
             <StatBlock value={c.savings_roles ? usd(c.savings_total, { compact: true }) : '–'} label="Minimum savings a year" href="#savings" note={c.savings_roles ? `At least ${usd(c.savings_total)} across ${c.savings_roles} ${c.savings_roles === 1 ? 'role' : 'roles'}` : 'No salary posted'} />
+            <StatBlock value={salaryRoles.length ? usd(totalSalary, { compact: true }) : '–'} label="Total salary of roles" href="#roles" note={salaryRoles.length ? `${salaryRoles.length} of ${roles.length} ${roles.length === 1 ? 'role lists' : 'roles list'} pay; middle of each posted range` : 'No salary posted'} />
             <StatBlock value={<span className="text-[26px] tracking-[-0.02em] sm:text-[34px]">{c.lead_product ?? '–'}</span>} label="Lead with" href="#products" />
           </div>
         </Container>

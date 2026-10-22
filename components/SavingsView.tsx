@@ -31,6 +31,8 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
   }), [rows, s.salaryBasis, s.discount, s.countAssisted, s.loadedCostMultiplier]);
 
   const eligible = calc.filter((r) => r.def !== null);
+  // Worked example: the eligible role with the largest figure under the current settings.
+  const ex = [...eligible].sort((x, y) => (y.yours ?? 0) - (x.yours ?? 0))[0] as (typeof eligible)[number] & { salary_used: number; yours: number } | undefined;
   const withSalary = calc.filter((r) => r.salary_min !== null);
   const totalDef = eligible.reduce((a, r) => a + (r.def ?? 0), 0);
   const totalYours = eligible.reduce((a, r) => a + (r.yours ?? 0), 0);
@@ -69,7 +71,7 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
             </div>
           )}
           <div className="mt-5 space-y-1 text-[13px] text-ink-muted">
-            <p>Based on {withSalary.length} of {rows.length} postings that list a salary; {withSalary.length - eligible.length} thin postings excluded.</p>
+            <p>Based on {withSalary.length} of {rows.length} postings that list a salary; {withSalary.length - eligible.length} thin {withSalary.length - eligible.length === 1 ? 'posting' : 'postings'} excluded.</p>
             <p>Gross value, not net savings: Hyphenate&apos;s price is unknown.</p>
             <p>Work Hyphenate could absorb before the next hire, never people to cut.</p>
           </div>
@@ -77,9 +79,26 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
 
         <div className="card p-6 sm:p-8">
           <div className="flex items-baseline justify-between"><span className="t-mono">The formula</span><button onClick={() => u.reset(KEYS)} className="link text-[13px]">Reset to defaults</button></div>
-          <p className="mt-3 rounded-lg bg-bg px-4 py-3 font-mono text-[14px] leading-relaxed">
-            salary<sub>{s.salaryBasis === 'midpoint' ? 'mid' : 'min'}</sub> × (C{s.countAssisted ? ` + ${s.assistedWeight}A` : ''}) ÷ n × {s.discount.toFixed(2)}{s.loadedCostMultiplier !== 1 ? ` × ${s.loadedCostMultiplier.toFixed(2)}` : ''}
-          </p>
+          <p className="mt-3 text-[15px] font-medium">Minimum savings for one role =</p>
+          <ol className="mt-2 divide-y divide-dashed divide-line-dashed rounded-lg border border-line bg-bg">
+            {[
+              { op: '', name: s.salaryBasis === 'midpoint' ? 'Salary (middle of posted range)' : 'Salary (lowest of posted range)', value: ex ? usd(ex.salary_used) : '–', desc: 'The yearly pay the job posting lists.' },
+              { op: '×', name: 'Share of duties Hyphenate does', value: ex ? `${ex.C}${s.countAssisted ? ` + ${s.assistedWeight}×${ex.A}` : ''} ÷ ${ex.n}` : '–', desc: s.countAssisted ? `Duties Hyphenate does end to end, plus ${s.assistedWeight} for each duty it prepares for approval, divided by all the role's duties.` : "Duties Hyphenate does end to end, divided by all the role's duties. Duties it only prepares for approval are left out." },
+              { op: '×', name: 'Safety discount', value: s.discount.toFixed(2), desc: 'Halves the result by default, to allow for review time and duties that take unequal time.' },
+              { op: '×', name: 'Benefits and payroll taxes', value: s.loadedCostMultiplier.toFixed(2), desc: '1.00 ignores them; raise it to count the full cost of an employee.' },
+            ].map((t) => (
+              <li key={t.name} className="grid grid-cols-[1.25rem_1fr_auto] items-start gap-2 px-3 py-2.5">
+                <span className="font-mono text-[14px] text-ink-muted">{t.op}</span>
+                <span><span className="text-[14px] font-medium">{t.name}</span><span className="block text-[12.5px] leading-snug text-ink-muted">{t.desc}</span></span>
+                <span className="num whitespace-nowrap font-mono text-[13px] text-ink-display">{t.value}</span>
+              </li>
+            ))}
+          </ol>
+          {ex && (
+            <p className="mt-3 text-[13px] leading-relaxed text-ink/80">
+              Example: <Link href={`/postings/${ex.posting_id}`} className="link">{ex.title}</Link> at {ex.company}. {usd(ex.salary_used)} × {ex.C}{s.countAssisted ? ` + ${s.assistedWeight}×${ex.A}` : ''}/{ex.n} × {s.discount.toFixed(2)}{s.loadedCostMultiplier !== 1 ? ` × ${s.loadedCostMultiplier.toFixed(2)}` : ''} = <b className="font-medium text-ink">{usd(ex.yours)}</b> a year.
+            </p>
+          )}
           <div className="mt-5 space-y-5">
             <fieldset>
               <legend className="text-[14px]">Salary used</legend>
@@ -90,7 +109,7 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
               </div>
             </fieldset>
             <label className="block">
-              <span className="flex justify-between text-[14px]"><span>Safety discount d</span><span className="num font-mono text-[12px] text-ink-muted">{s.discount.toFixed(2)}</span></span>
+              <span className="flex justify-between text-[14px]"><span>Safety discount</span><span className="num font-mono text-[12px] text-ink-muted">{s.discount.toFixed(2)}</span></span>
               <input type="range" min={SAVINGS_RANGES.discount.min} max={SAVINGS_RANGES.discount.max} step={SAVINGS_RANGES.discount.step} value={s.discount} onChange={(e) => u.set({ d: e.target.value })} className="mt-2 w-full" />
               <span className="text-[12.5px] text-ink-muted">Stands in for exception review and unequal duty time. Default 0.5.</span>
             </label>
@@ -99,7 +118,7 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
               Count assisted duties at {s.assistedWeight} weight <span className="text-ink-muted">(default off)</span>
             </label>
             <label className="block">
-              <span className="flex justify-between text-[14px]"><span>Loaded-cost multiplier</span><span className="num font-mono text-[12px] text-ink-muted">{s.loadedCostMultiplier.toFixed(2)}</span></span>
+              <span className="flex justify-between text-[14px]"><span>Benefits and payroll taxes</span><span className="num font-mono text-[12px] text-ink-muted">{s.loadedCostMultiplier.toFixed(2)}</span></span>
               <input type="range" min={SAVINGS_RANGES.loadedCostMultiplier.min} max={SAVINGS_RANGES.loadedCostMultiplier.max} step={SAVINGS_RANGES.loadedCostMultiplier.step} value={s.loadedCostMultiplier} onChange={(e) => u.set({ loaded: e.target.value })} className="mt-2 w-full" />
               <span className="text-[12.5px] text-ink-muted">Benefits and payroll taxes. Default 1.0 ignores them.</span>
             </label>

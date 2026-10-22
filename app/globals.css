@@ -104,3 +104,30 @@ select {
   background-size: 14px 14px;
   padding-right: 2.25rem !important;
 }
+
+/* Inverted palette (About page): oxblood ground, cream ink. Components read the
+   same tokens, so everything inside picks up the inversion. */
+.theme-inverted {
+  --bg: #550004;
+  --bg-raised: #5E0A0E;
+  --surface: #6A1217;
+  --surface-tint: #741A1F;
+  --ink-display: #F9F7F1;
+  --ink: #F3EEE6;
+  --ink-muted: #D8C3B6;
+  --line: rgba(249, 247, 241, 0.16);
+  --line-dashed: rgba(249, 247, 241, 0.2);
+  --brand: #F9F7F1;
+  --brand-hover: #FFFFFF;
+  --accent-soft: rgba(255, 103, 22, 0.18);
+  --accent-ink: #FFB48C;
+  --shadow-card: 0 20px 60px rgba(0, 0, 0, 0.25);
+  background: var(--bg);
+  color: var(--ink);
+}
+.theme-inverted .btn-primary { background: #F9F7F1; color: #550004; }
+.theme-inverted .btn-primary:hover { background: #FFFFFF; }
+.theme-inverted .hero-lines {
+  background-image: repeating-linear-gradient(to bottom, transparent 0 47px, rgba(249, 247, 241, 0.08) 47px 48px);
+}
+.theme-inverted ::selection { background: #F9F7F1; color: #550004; }
