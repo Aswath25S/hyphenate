@@ -90,3 +90,9 @@ Choices made inside the spec's latitude. Newest at the bottom of each section.
 - Gaps: verification column removed; table has fixed column widths and rows expand with a height transition.
 - Savings formula explained term by term with a worked example from the data.
 - Method: "How it works" is an expandable list of the eight steps (cost and stage-count tables removed); "Every assumption" is now the formulas written mathematically plus a plain list of assumptions.
+
+## Corrections 5.0 (22 Oct 2026)
+
+- The benefits-and-payroll (loaded-cost) multiplier was removed from the savings formula, config, UI and tests. It defaulted to 1.0, so published figures are unchanged.
+- Method formulas are written in words with numbers (no single-letter variables): a plain sentence, the formula, and a short note per card.
+- The About page inverts the whole document, nav and footer included, via `:root:has(.theme-inverted)`; the nav card reads its background from the theme.

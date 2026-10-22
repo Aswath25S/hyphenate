@@ -9,7 +9,7 @@ import { useUrlState } from '@/lib/useUrlState';
 
 export type SavingsRow = { posting_id: string; company: string; slug: string; title: string; role_family: string; salary_min: number | null; salary_max: number | null; n: number; C: number; A: number; excluded: string | null };
 
-const KEYS = ['basis', 'd', 'assisted', 'loaded'];
+const KEYS = ['basis', 'd', 'assisted'];
 
 export function SavingsView({ rows }: { rows: SavingsRow[] }) {
   const u = useUrlState();
@@ -18,9 +18,8 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
     discount: u.getNum('d', SAVINGS_DEFAULTS.discount),
     countAssisted: u.get('assisted') === '1',
     assistedWeight: SAVINGS_DEFAULTS.assistedWeight,
-    loadedCostMultiplier: u.getNum('loaded', SAVINGS_DEFAULTS.loadedCostMultiplier),
   };
-  const custom = s.salaryBasis !== SAVINGS_DEFAULTS.salaryBasis || s.discount !== SAVINGS_DEFAULTS.discount || s.countAssisted !== SAVINGS_DEFAULTS.countAssisted || s.loadedCostMultiplier !== SAVINGS_DEFAULTS.loadedCostMultiplier;
+  const custom = s.salaryBasis !== SAVINGS_DEFAULTS.salaryBasis || s.discount !== SAVINGS_DEFAULTS.discount || s.countAssisted !== SAVINGS_DEFAULTS.countAssisted;
 
   const calc = useMemo(() => rows.map((r) => {
     const i = { salary_min: r.salary_min, salary_max: r.salary_max, n: r.n, C: r.C, A: r.A };
@@ -28,7 +27,7 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
     const yours = minimumSavings(i, s);
     return { ...r, def: def.eligible ? def.value : null, yours: yours.eligible ? yours.value : null, reason: def.eligible ? null : def.reason, salary_used: yours.eligible ? yours.salary_used : null };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }), [rows, s.salaryBasis, s.discount, s.countAssisted, s.loadedCostMultiplier]);
+  }), [rows, s.salaryBasis, s.discount, s.countAssisted]);
 
   const eligible = calc.filter((r) => r.def !== null);
   // Worked example: the eligible role with the largest figure under the current settings.
@@ -36,7 +35,7 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
   const withSalary = calc.filter((r) => r.salary_min !== null);
   const totalDef = eligible.reduce((a, r) => a + (r.def ?? 0), 0);
   const totalYours = eligible.reduce((a, r) => a + (r.yours ?? 0), 0);
-  const salaryPool = eligible.reduce((a, r) => a + (r.salary_used ?? r.salary_min ?? 0) * s.loadedCostMultiplier, 0);
+  const salaryPool = eligible.reduce((a, r) => a + (r.salary_used ?? r.salary_min ?? 0), 0);
   const shown = custom ? totalYours : totalDef;
 
   const byCompany = useMemo(() => {
@@ -85,7 +84,6 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
               { op: '', name: s.salaryBasis === 'midpoint' ? 'Salary (middle of posted range)' : 'Salary (lowest of posted range)', value: ex ? usd(ex.salary_used) : '–', desc: 'The yearly pay the job posting lists.' },
               { op: '×', name: 'Share of duties Hyphenate does', value: ex ? `${ex.C}${s.countAssisted ? ` + ${s.assistedWeight}×${ex.A}` : ''} ÷ ${ex.n}` : '–', desc: s.countAssisted ? `Duties Hyphenate does end to end, plus ${s.assistedWeight} for each duty it prepares for approval, divided by all the role's duties.` : "Duties Hyphenate does end to end, divided by all the role's duties. Duties it only prepares for approval are left out." },
               { op: '×', name: 'Safety discount', value: s.discount.toFixed(2), desc: 'Halves the result by default, to allow for review time and duties that take unequal time.' },
-              { op: '×', name: 'Benefits and payroll taxes', value: s.loadedCostMultiplier.toFixed(2), desc: '1.00 ignores them; raise it to count the full cost of an employee.' },
             ].map((t) => (
               <li key={t.name} className="grid grid-cols-[1.25rem_1fr_auto] items-start gap-2 px-3 py-2.5">
                 <span className="font-mono text-[14px] text-ink-muted">{t.op}</span>
@@ -96,7 +94,7 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
           </ol>
           {ex && (
             <p className="mt-3 text-[13px] leading-relaxed text-ink/80">
-              Example: <Link href={`/postings/${ex.posting_id}`} className="link">{ex.title}</Link> at {ex.company}. {usd(ex.salary_used)} × {ex.C}{s.countAssisted ? ` + ${s.assistedWeight}×${ex.A}` : ''}/{ex.n} × {s.discount.toFixed(2)}{s.loadedCostMultiplier !== 1 ? ` × ${s.loadedCostMultiplier.toFixed(2)}` : ''} = <b className="font-medium text-ink">{usd(ex.yours)}</b> a year.
+              Example: <Link href={`/postings/${ex.posting_id}`} className="link">{ex.title}</Link> at {ex.company}. {usd(ex.salary_used)} × {ex.C}{s.countAssisted ? ` + ${s.assistedWeight}×${ex.A}` : ''}/{ex.n} × {s.discount.toFixed(2)} = <b className="font-medium text-ink">{usd(ex.yours)}</b> a year.
             </p>
           )}
           <div className="mt-5 space-y-5">
@@ -116,11 +114,6 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
             <label className="flex items-center gap-3 text-[14px]">
               <input type="checkbox" checked={s.countAssisted} onChange={(e) => u.set({ assisted: e.target.checked ? 1 : null })} className="h-4 w-4 accent-[var(--accent)]" />
               Count assisted duties at {s.assistedWeight} weight <span className="text-ink-muted">(default off)</span>
-            </label>
-            <label className="block">
-              <span className="flex justify-between text-[14px]"><span>Benefits and payroll taxes</span><span className="num font-mono text-[12px] text-ink-muted">{s.loadedCostMultiplier.toFixed(2)}</span></span>
-              <input type="range" min={SAVINGS_RANGES.loadedCostMultiplier.min} max={SAVINGS_RANGES.loadedCostMultiplier.max} step={SAVINGS_RANGES.loadedCostMultiplier.step} value={s.loadedCostMultiplier} onChange={(e) => u.set({ loaded: e.target.value })} className="mt-2 w-full" />
-              <span className="text-[12.5px] text-ink-muted">Benefits and payroll taxes. Default 1.0 ignores them.</span>
             </label>
           </div>
         </div>

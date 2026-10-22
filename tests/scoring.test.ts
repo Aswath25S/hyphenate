@@ -135,9 +135,9 @@ describe('minimum savings', () => {
     expect(d.eligible && d.value).toBe(80000 * 0.5 * 0.5);
     expect(withA.eligible && withA.value).toBe(80000 * ((4 + 1) / 8) * 0.5);
   });
-  it('midpoint and loaded-cost options', () => {
-    const r = minimumSavings({ salary_min: 80000, salary_max: 100000, n: 4, C: 2, A: 0 }, { ...SAVINGS_DEFAULTS, salaryBasis: 'midpoint', loadedCostMultiplier: 1.2, discount: 1 });
-    expect(r.eligible && r.value).toBeCloseTo(90000 * 0.5 * 1.2);
+  it('midpoint option', () => {
+    const r = minimumSavings({ salary_min: 80000, salary_max: 100000, n: 4, C: 2, A: 0 }, { ...SAVINGS_DEFAULTS, salaryBasis: 'midpoint', discount: 1 });
+    expect(r.eligible && r.value).toBeCloseTo(90000 * 0.5);
   });
   it('midpoint falls back to min when there is no max', () => {
     const r = minimumSavings({ salary_min: 80000, salary_max: null, n: 4, C: 2, A: 0 }, { ...SAVINGS_DEFAULTS, salaryBasis: 'midpoint' });

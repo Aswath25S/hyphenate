@@ -213,7 +213,7 @@ export function minimumSavings(i: SavingsInput, s: SavingsSettings = SAVINGS_DEF
   if (i.n < OVERLAP.thinPostingMinDuties) return { eligible: false, reason: 'thin_posting', value: null };
   const salary = s.salaryBasis === 'midpoint' && i.salary_max !== null ? (i.salary_min + i.salary_max) / 2 : i.salary_min;
   const share = (i.C + (s.countAssisted ? s.assistedWeight * i.A : 0)) / i.n;
-  return { eligible: true, value: salary * share * s.discount * s.loadedCostMultiplier, salary_used: salary, share };
+  return { eligible: true, value: salary * share * s.discount, salary_used: salary, share };
 }
 
 /** Middle of a posted range, or the single figure when there is no maximum. */

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Container, Mono, Note, PageHero, Section } from '@/components/ui';
 import { StageList, type Stage } from '@/components/StageList';
-import { Formula, Frac, V } from '@/components/Math';
+import { Formula, Frac } from '@/components/Math';
 import { getMeta } from '@/lib/data';
 import * as C from '@/config/scoring';
 import { COVERAGE_AS_OF } from '@/config/site';
@@ -70,7 +70,7 @@ export default function MethodPage() {
         <StageList stages={STAGES} />
       </Section>
 
-      <Section id="coverage" eyebrow="Coverage map" title="30 capabilities across five products.">
+      <Section id="coverage" eyebrow="Coverage map" title="Hyphenate’s 30 capabilities and features, across its five products.">
         <p className="mb-6 max-w-[760px] text-[15px] text-ink/80">Our reading of claims on hyphenate.ai&apos;s <a className="link" href="https://hyphenate.ai/platform" target="_blank" rel="noreferrer">platform</a> and <a className="link" href="https://hyphenate.ai/controller" target="_blank" rel="noreferrer">controller</a> pages as of {COVERAGE_AS_OF}. <b className="font-medium">Based on public site, to be validated.</b> It is not Hyphenate&apos;s own list. Covered means the site says the agent does the work end to end; assisted means the agent prepares it and a person approves, or the task needs judgment.</p>
         <div className="card overflow-x-auto">
           <table className="w-full min-w-[820px] text-[14px]">
@@ -91,67 +91,51 @@ export default function MethodPage() {
         <div className="mt-4"><Note>Known areas the public site does not advertise, used to seed the gap analysis: {coverageMap.known_not_advertised.join(', ')}.</Note></div>
       </Section>
 
-      <Section id="scoring" eyebrow="Formulas and assumptions" title="The maths behind every number.">
+      <Section id="scoring" eyebrow="Formulas and assumptions" title="How every number is worked out.">
         <p className="mb-8 max-w-[760px] text-[15px] leading-relaxed text-ink/80">
-          For one open role, let <V>n</V> be the number of duties the model found, <V>C</V> the duties Hyphenate does end to end, and <V>A</V> the duties it prepares for a person to approve.
-          Everything else is built from these three counts and the posted salary.
+          Every number starts from one thing: for each open role, which of its duties Hyphenate does end to end, which it prepares for a person to approve, and which it does not mention.
+          The rest is simple arithmetic on those counts and the posted salary.
         </p>
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
-          <Formula title="1 · Overlap of one role" where={[
-            [<V key="o">overlap</V>, 'Share of the role’s duties on Hyphenate’s site. This is the percentage shown across the site.'],
-            [<V key="w">w</V>, `Weighted overlap: duties Hyphenate only prepares count ${C.OVERLAP.assistedWeight === 0.5 ? 'half' : C.OVERLAP.assistedWeight}. Used in the lead score.`],
-          ]}>
-            <V>overlap</V> = <Frac num={<><V>C</V> + <V>A</V></>} den={<V>n</V>} />
-            <span className="mx-4 text-ink-muted">and</span>
-            <V>w</V> = <Frac num={<><V>C</V> + {C.OVERLAP.assistedWeight}<V>A</V></>} den={<V>n</V>} />
+          <Formula title="1. Overlap of a role" desc="The share of a role’s duties that are on Hyphenate’s site. This is the percentage shown throughout the site."
+            note={<>For the lead score, duties Hyphenate only prepares count {C.OVERLAP.assistedWeight === 0.5 ? 'half' : `${C.OVERLAP.assistedWeight}×`}. This is called the weighted overlap.</>}>
+            Overlap = <Frac num="duties Hyphenate does + duties it prepares" den="all duties in the role" />
           </Formula>
 
-          <Formula title="2 · How much work Hyphenate can do for a company (pain)" where={[
-            [<V key="w">w̄</V>, 'Average weighted overlap across the company’s open finance roles.'],
-            [<V key="r">R</V>, `Number of open finance roles; more roles mean more pain, up to ${C.PAIN.rolesCap}.`],
-          ]}>
-            <V>P</V> = {C.PAIN.overlapWeight}<V>w̄</V> + {C.PAIN.rolesWeight} · <Frac num={<>min(<V>R</V>, {C.PAIN.rolesCap})</>} den={C.PAIN.rolesCap} />
+          <Formula title="2. How much work Hyphenate can do for a company" desc="Mostly how much of each open role Hyphenate covers, plus a bonus for hiring several finance roles at once."
+            note={<>Three open accounts payable roles count for more than one. The bonus stops growing after {C.PAIN.rolesCap} roles.</>}>
+            Work score = {C.PAIN.overlapWeight} × average weighted overlap + {C.PAIN.rolesWeight} × <Frac num={`open roles (up to ${C.PAIN.rolesCap})`} den={C.PAIN.rolesCap} />
           </Formula>
 
-          <Formula title="3 · How much the company looks like a Hyphenate customer (fit)" where={[
-            [<V key="e">E</V>, <>ERP: {C.ERP_SCORES.enterprise} for NetSuite, SAP, Sage Intacct, Microsoft Dynamics or Oracle; {C.ERP_SCORES.notStated} if not stated; {C.ERP_SCORES.smbOnly} for QuickBooks or Xero only.</>],
-            [<V key="s">S</V>, <>Size by employees: {C.SIZE_BRACKETS.map((b) => `${b.label} → ${b.score}`).join(', ')}; unknown → {C.SIZE_UNKNOWN_SCORE}.</>],
-            [<V key="x">X</V>, <>Complex finance (several entities, currencies, usage-based billing or high volume): {C.COMPLEXITY_SCORES.twoOrMore} for two or more signs, {C.COMPLEXITY_SCORES.one} for one, {C.COMPLEXITY_SCORES.none} for none.</>],
-          ]}>
-            <V>F</V> = {C.FIT_WEIGHTS.erp}<V>E</V> + {C.FIT_WEIGHTS.size}<V>S</V> + {C.FIT_WEIGHTS.complexity}<V>X</V>
+          <Formula title="3. How much the company looks like a Hyphenate customer" desc="Three things Hyphenate’s best customers tend to have: an ERP it runs on, a decent size, and complex finance."
+            note={
+              <ul className="space-y-1">
+                <li><b className="font-medium text-ink">ERP:</b> {C.ERP_SCORES.enterprise} for NetSuite, SAP, Sage Intacct, Microsoft Dynamics or Oracle · {C.ERP_SCORES.notStated} if not stated · {C.ERP_SCORES.smbOnly} for QuickBooks or Xero only.</li>
+                <li><b className="font-medium text-ink">Size:</b> bigger scores higher. {C.SIZE_BRACKETS.map((b) => `${b.label} employees → ${b.score}`).join(' · ')} · unknown → {C.SIZE_UNKNOWN_SCORE}.</li>
+                <li><b className="font-medium text-ink">Complexity:</b> several entities, currencies, usage-based billing or high volume. {C.COMPLEXITY_SCORES.twoOrMore} for two or more · {C.COMPLEXITY_SCORES.one} for one · {C.COMPLEXITY_SCORES.none} for none.</li>
+              </ul>
+            }>
+            Fit score = {C.FIT_WEIGHTS.erp} × ERP + {C.FIT_WEIGHTS.size} × size + {C.FIT_WEIGHTS.complexity} × complexity
           </Formula>
 
-          <Formula title="4 · Lead score" where={[
-            [<V key="a">α</V>, <>Balance between the two parts. Default {(C.LEAD_WEIGHTS.pain).toFixed(2)} (about {pct(C.LEAD_WEIGHTS.pain)}); the slider on the Leads page changes it.</>],
-            [<V key="l">L</V>, 'From 0 to 100. Companies are ranked by it.'],
-          ]}>
-            <V>L</V> = 100 · ( <V>α</V><V>P</V> + (1 − <V>α</V>)<V>F</V> )
+          <Formula title="4. Lead score" desc="Combines the two scores above into one number from 0 to 100. Companies are ranked by it."
+            note="The slider on the Leads page changes the balance between the two parts.">
+            Lead score = 100 × ( {pct(C.LEAD_WEIGHTS.pain)} × work score + {pct(C.LEAD_WEIGHTS.fit)} × fit score )
           </Formula>
 
-          <Formula title="5 · Minimum savings for one role" where={[
-            [<V key="s">s</V>, <>Lowest posted yearly salary. Hourly pay × {C.SALARY.hoursPerYear.toLocaleString()} hours. No salary posted means no figure.</>],
-            [<V key="d">d</V>, <>Safety discount, {C.SAVINGS_DEFAULTS.discount} by default, for review time and duties that take unequal time.</>],
-            [<V key="m">m</V>, <>Benefits and payroll taxes, {C.SAVINGS_DEFAULTS.loadedCostMultiplier.toFixed(1)} by default (ignored).</>],
-          ]}>
-            <V>M</V> = <V>s</V> · <Frac num={<V>C</V>} den={<V>n</V>} /> · <V>d</V> · <V>m</V>
+          <Formula title="5. Minimum savings for a role" desc="The part of a role’s salary tied to duties Hyphenate does end to end. It is deliberately low."
+            note={<>Hourly pay is converted at {C.SALARY.hoursPerYear.toLocaleString()} hours a year. No salary posted means no figure, and roles with fewer than {C.OVERLAP.thinPostingMinDuties} duties are left out. The {C.SAVINGS_DEFAULTS.discount} safety discount allows for review time and duties that take unequal time.</>}>
+            Minimum savings = lowest posted salary × <Frac num="duties Hyphenate does end to end" den="all duties in the role" /> × {C.SAVINGS_DEFAULTS.discount}
           </Formula>
 
-          <Formula title="6 · Totals" where={[
-            [<V key="sm">s̃</V>, 'Middle of the posted salary range (or the single figure).'],
-            [<V key="t">T</V>, `Overview figure: total salary of roles with at least ${pct(C.OVERLAP.salaryHeadlineMinOverlap)} overlap.`],
-          ]}>
-            <span className="whitespace-nowrap">company savings = Σ <V>M</V></span>
-            <span className="mx-4 text-ink-muted">and</span>
-            <span className="whitespace-nowrap"><V>T</V> = Σ <V>s̃</V> over roles with <V>overlap</V> ≥ {C.OVERLAP.salaryHeadlineMinOverlap}</span>
+          <Formula title="6. Totals" desc="A company’s minimum savings add up its roles. The Overview’s salary figure measures the size of the opportunity rather than savings."
+            note={<>The salary figure uses the middle of each posted pay range and counts roles where at least {pct(C.OVERLAP.salaryHeadlineMinOverlap)} of duties are on Hyphenate’s site.</>}>
+            Overview salary = sum of mid-range salaries for roles with overlap ≥ {pct(C.OVERLAP.salaryHeadlineMinOverlap)}
           </Formula>
 
-          <Formula title="7 · Ranking gaps" where={[
-            [<V key="g">G</V>, `Share of strong roles (overlap ≥ ${pct(C.OVERLAP.strongLeadOverlap)}) that include the theme.`],
-            [<V key="k">k</V>, 'Duties in the role that belong to the theme.'],
-          ]}>
-            <V>G</V> = <Frac num="strong roles with the theme" den="all strong roles" />
-            <span className="mx-4 text-ink-muted">and</span>
-            salary attached = Σ <V>s</V> · <Frac num={<V>k</V>} den={<V>n</V>} />
+          <Formula title="7. Ranking gaps" desc="A gap matters most when it shows up in a role Hyphenate otherwise covers well, because that is where it could block a deal."
+            note={<>A strong role is one with at least {pct(C.OVERLAP.strongLeadOverlap)} overlap. Salary attached adds up each role’s lowest posted salary times the share of its duties in the theme.</>}>
+            Gap rank = <Frac num="strong roles that include the gap" den="all strong roles" />
           </Formula>
         </div>
 

@@ -106,7 +106,9 @@ select {
 }
 
 /* Inverted palette (About page): oxblood ground, cream ink. Components read the
-   same tokens, so everything inside picks up the inversion. */
+   same tokens, so everything picks up the inversion. Applied to the whole document
+   (nav, page and footer) whenever an inverted page is showing. */
+:root:has(.theme-inverted),
 .theme-inverted {
   --bg: #550004;
   --bg-raised: #5E0A0E;
@@ -125,9 +127,10 @@ select {
   background: var(--bg);
   color: var(--ink);
 }
-.theme-inverted .btn-primary { background: #F9F7F1; color: #550004; }
-.theme-inverted .btn-primary:hover { background: #FFFFFF; }
+:root:has(.theme-inverted) .btn-primary { background: #F9F7F1; color: #550004; }
+:root:has(.theme-inverted) .btn-primary:hover { background: #FFFFFF; }
+:root:has(.theme-inverted) nav { box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25); }
 .theme-inverted .hero-lines {
   background-image: repeating-linear-gradient(to bottom, transparent 0 47px, rgba(249, 247, 241, 0.08) 47px 48px);
 }
-.theme-inverted ::selection { background: #F9F7F1; color: #550004; }
+:root:has(.theme-inverted) ::selection { background: #F9F7F1; color: #550004; }

@@ -19,7 +19,7 @@ export function Nav() {
   const active = (href: string) => (href === '/' ? path === '/' : path.startsWith(href) || (href === '/leads' && path.startsWith('/companies')) || (href === '/savings' && path.startsWith('/postings')));
   return (
     <header className="sticky top-3 z-40 px-4 sm:px-6">
-      <nav className="mx-auto flex max-w-[1180px] items-center justify-between gap-4 rounded-[10px] border border-line bg-white/95 px-4 py-2.5 shadow-[0_8px_30px_rgba(120,60,20,0.07)] backdrop-blur">
+      <nav className="mx-auto flex max-w-[1180px] items-center justify-between gap-4 rounded-[10px] border border-line bg-surface/95 px-4 py-2.5 shadow-[0_8px_30px_rgba(120,60,20,0.07)] backdrop-blur">
         <Wordmark />
         <ul className="hidden items-center gap-1 md:flex">
           {LINKS.map((l) => (
@@ -37,7 +37,7 @@ export function Nav() {
         </div>
       </nav>
       {open && (
-        <ul className="mx-auto mt-2 max-w-[1180px] rounded-[10px] border border-line bg-white p-2 shadow-[0_8px_30px_rgba(120,60,20,0.07)] md:hidden">
+        <ul className="mx-auto mt-2 max-w-[1180px] rounded-[10px] border border-line bg-surface p-2 shadow-[0_8px_30px_rgba(120,60,20,0.07)] md:hidden">
           {LINKS.map((l) => (
             <li key={l.href}>
               <Link href={l.href} onClick={() => setOpen(false)} className={`block rounded-md px-3 py-2 text-[15px] ${active(l.href) ? 'border-l-[3px] border-accent bg-surface-tint text-accent-ink' : ''}`}>{l.label}</Link>

@@ -65,12 +65,10 @@ export const SAVINGS_DEFAULTS = {
   discount: 0.5,
   countAssisted: false,
   assistedWeight: 0.25,
-  loadedCostMultiplier: 1.0,
 };
 
 export const SAVINGS_RANGES = {
   discount: { min: 0.25, max: 1.0, step: 0.05 },
-  loadedCostMultiplier: { min: 1.0, max: 1.4, step: 0.05 },
 };
 
 export const SALARY = { hoursPerYear: 2080 };
