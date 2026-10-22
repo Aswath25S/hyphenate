@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import { Fragment, useMemo } from 'react';
+import { Fragment, useMemo, useState } from 'react';
 import { LEAD_WEIGHTS, SIZE_BRACKETS } from '@/config/scoring';
 import { leadScore } from '@/lib/scoring';
 import { ROLE_LABELS, formatBand, pct, usd } from '@/lib/format';
@@ -22,7 +22,7 @@ export type LeadRow = {
 
 const ERP_CLASS: Record<string, string> = { enterprise: 'Enterprise ERP', smb_only: 'QuickBooks/Xero only', not_stated: 'Not stated', other: 'Other' };
 const SIZE_OPTIONS: [string, string][] = [...SIZE_BRACKETS.map((b) => [b.label, `${b.label} employees`] as [string, string]), ['unknown', 'Unknown']];
-const KEYS = ['wp', 'sort', 'dir', 'role', 'erp', 'size', 'salary', 'open'];
+const KEYS = ['wp', 'sort', 'dir', 'role', 'erp', 'size', 'salary'];
 
 /** Average-salary buckets for the Salary filter. */
 const SALARY_BUCKETS: { value: string; label: string; test: (s: number) => boolean }[] = [
@@ -42,8 +42,9 @@ const PARTS = {
 
 export function LeadsView({ rows, excludedCount }: { rows: LeadRow[]; excludedCount: number }) {
   const u = useUrlState();
-  const open = u.get('open') || null;
-  const setOpen = (slug: string | null) => u.set({ open: slug });
+  // Open row is local state (as on the Gaps page) so it animates on the next frame;
+  // routing it through the URL delayed the transition. ?open= still works on load.
+  const [open, setOpen] = useState<string | null>(() => u.get('open') || null);
   // One slider: the share given to "Hyphenate can do the work"; the rest goes to fit.
   const painW = Math.min(1, Math.max(0, u.getNum('wp', LEAD_WEIGHTS.pain)));
   const weights = { pain: painW, fit: 1 - painW };
