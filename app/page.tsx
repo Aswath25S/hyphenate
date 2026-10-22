@@ -48,20 +48,30 @@ export default function Overview() {
       <Section eyebrow="The leads" title="Top five companies to call first." action={<Link href="/leads" className="btn-secondary">All {h.lead_companies} lead companies</Link>}>
         <OverlapLegend className="mb-4" />
         <div className="card overflow-hidden">
-          <div className="hidden grid-cols-[1.1fr_1.6fr_1fr_1.1fr] gap-4 border-b border-line px-5 py-3 md:grid">
+          <div className="hidden gap-6 border-b border-line px-5 py-3 md:grid md:grid-cols-[minmax(0,1fr)_minmax(0,1.35fr)_minmax(0,1fr)_minmax(0,1fr)]">
             <Mono>Company</Mono><Mono>Open finance roles</Mono><Mono>Role type</Mono><Mono>Work Hyphenate does</Mono>
           </div>
           {leads.map((c) => {
             const roles = postings.filter((p) => c.posting_ids.includes(p.posting_id)).sort((a, b) => b.overlap - a.overlap);
             const covered = roles.length ? roles.reduce((a, p) => a + p.covered_share, 0) / roles.length : 0;
             return (
-              <Link key={c.slug} href={`/companies/${c.slug}`} className="dash-row grid grid-cols-1 gap-3 px-5 py-4 transition-colors hover:bg-surface-tint md:grid-cols-[1.1fr_1.6fr_1fr_1.1fr] md:items-center md:gap-4">
-                <span className="t-card">{c.company}</span>
-                <span className="text-[14px]">
-                  {roles.slice(0, 2).map((p) => <span key={p.posting_id} className="block">{p.title}</span>)}
-                  {roles.length > 2 && <span className="t-mono">+{roles.length - 2} more</span>}
+              <Link key={c.slug} href={`/companies/${c.slug}`} className="dash-row grid grid-cols-1 gap-3 px-5 py-4 transition-colors hover:bg-surface-tint md:h-[78px] md:items-center md:gap-6 md:py-0 md:grid-cols-[minmax(0,1fr)_minmax(0,1.35fr)_minmax(0,1fr)_minmax(0,1fr)]">
+                <span className="t-card truncate">{c.company}</span>
+                <span className="min-w-0">
+                  <span className="block truncate text-[14px]" title={roles.map((p) => p.title).join('\n')}>{roles[0]?.title ?? '–'}</span>
+                  <Mono className="mt-0.5 block">{roles.length > 1 ? `+${roles.length - 1} more ${roles.length - 1 === 1 ? 'role' : 'roles'}` : '1 open role'}</Mono>
                 </span>
-                <span className="text-[14px] text-ink/80">{[...new Set(roles.map((p) => ROLE_LABELS[p.role_family] ?? p.role_family))].join(', ')}</span>
+                <span className="min-w-0">
+                  {(() => {
+                    const families = [...new Set(roles.map((p) => ROLE_LABELS[p.role_family] ?? p.role_family))];
+                    return (
+                      <>
+                        <span className="block truncate text-[14px] text-ink/80" title={families.join(', ')}>{families[0] ?? '–'}</span>
+                        <Mono className="mt-0.5 block">{families.length > 1 ? `+${families.length - 1} more ${families.length - 1 === 1 ? 'type' : 'types'}` : roles.length > 1 ? 'all roles' : '\u00a0'}</Mono>
+                      </>
+                    );
+                  })()}
+                </span>
                 <span>
                   <OverlapBar covered={covered} assisted={Math.max(0, c.avg_overlap - covered)} />
                   <Mono className="mt-1 block">{pct(c.avg_overlap)} of duties</Mono>
