@@ -31,7 +31,7 @@ function hlClass(d: DutyView): string {
   return `hl hl-${d.label ?? 'unclear'}`;
 }
 
-export function PostingEvidence({ p, live = false }: { p: PostingDetail; live?: boolean }) {
+export function PostingEvidence({ p }: { p: PostingDetail }) {
   const [selected, setSelected] = useState<number | null>(null);
   const [hover, setHover] = useState<number | null>(null);
   const segs = useMemo(() => segments(p.text, p.duties), [p.text, p.duties]);
@@ -100,7 +100,7 @@ export function PostingEvidence({ p, live = false }: { p: PostingDetail; live?: 
         <div className="card min-w-0 p-5 sm:p-8">
           <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
             <Mono>Original posting</Mono>
-            {!live && <a href={p.source_url} target="_blank" rel="noreferrer" className="link text-[13px]">View on {p.ats === 'greenhouse' ? 'Greenhouse' : p.ats === 'lever' ? 'Lever' : p.ats === 'ashby' ? 'Ashby' : 'source'} ↗</a>}
+            <a href={p.source_url} target="_blank" rel="noreferrer" className="link text-[13px]">View on {p.ats === 'greenhouse' ? 'Greenhouse' : p.ats === 'lever' ? 'Lever' : p.ats === 'ashby' ? 'Ashby' : 'source'} ↗</a>
           </div>
           <div className="whitespace-pre-wrap break-words text-[15px] leading-[1.75] text-ink/90">
             {segs.map((s, k) => s.duty === null ? <span key={k}>{s.text}</span> : (
@@ -125,7 +125,7 @@ export function PostingEvidence({ p, live = false }: { p: PostingDetail; live?: 
             <Mono>Role</Mono>
             <p className="text-[15px] font-medium leading-snug">{p.title}</p>
             <Mono className="mt-2 block">Company</Mono>
-            <p className="text-[15px] leading-snug">{live || !p.slug ? p.company : <Link href={`/companies/${p.slug}`} className="link">{p.company}</Link>}</p>
+            <p className="text-[15px] leading-snug">{!p.slug ? p.company : <Link href={`/companies/${p.slug}`} className="link">{p.company}</Link>}</p>
           </div>
           <div className="card p-5 lg:min-h-[300px]">
             {ad ? (
@@ -175,7 +175,7 @@ export function PostingEvidence({ p, live = false }: { p: PostingDetail; live?: 
               <dt className="text-ink-muted">Tools</dt><dd>{p.tools.join(', ') || '–'}</dd>
               <dt className="text-ink-muted">Complexity</dt><dd>{Object.entries(p.complexity ?? {}).filter(([k, v]) => v === true && k !== 'entity_count').map(([k]) => k.replace(/_/g, ' ')).join(', ') || 'None stated'}{p.complexity?.entity_count ? ` · ${p.complexity.entity_count} entities` : ''}</dd>
               <dt className="text-ink-muted">Lead product</dt><dd>{p.lead_product ?? '–'}</dd>
-              {!live && <><dt className="text-ink-muted">Posted</dt><dd>{shortDate(p.posted_at)}</dd><dt className="text-ink-muted">Fetched</dt><dd>{shortDate(p.fetched_at)}</dd></>}
+              <><dt className="text-ink-muted">Posted</dt><dd>{shortDate(p.posted_at)}</dd><dt className="text-ink-muted">Fetched</dt><dd>{shortDate(p.fetched_at)}</dd></>
             </dl>
             {p.pain_phrases?.length > 0 && <div><Mono>Pain phrases</Mono><ul className="mt-1 flex flex-wrap gap-1.5">{p.pain_phrases.map((x) => <li key={x} className="rounded-full bg-accent-soft px-2.5 py-0.5 text-[12.5px] text-accent-ink">{x}</li>)}</ul></div>}
           </div>

@@ -1,10 +1,10 @@
 /**
- * Pure scoring code shared by the pipeline (score stage), the live demo and
+ * Pure scoring code shared by the pipeline (score stage) and
  * the UI's client-side recompute. No I/O, no LLM. Same inputs, same numbers.
  */
 import {
   COMPLEXITY_SCORES, ENTERPRISE_ERPS, ERP_SCORES, FIT_WEIGHTS, LEAD_WEIGHTS, OVERLAP, PAIN,
-  SALARY, SAVINGS_DEFAULTS, SIZE_BAND, SIZE_SCORES, SMB_ERPS,
+  SALARY, SAVINGS_DEFAULTS, SIZE_BRACKETS, SIZE_UNKNOWN_SCORE, SMB_ERPS,
 } from '../config/scoring';
 import type { Label, Salary } from './schemas';
 
@@ -163,18 +163,18 @@ export function parseBand(band: string | null | undefined): [number, number] | n
   return null;
 }
 
-export type SizeClass = 'in_band' | 'out_of_band' | 'unknown';
+/** Bracket label from config, or 'unknown'. */
+export type SizeClass = string;
 
 export function classifySize(band: string | null | undefined): SizeClass {
   const r = parseBand(band);
   if (!r) return 'unknown';
-  const [lo, hi] = r;
-  // In band only when the whole band sits inside 200-5,000.
-  return lo >= SIZE_BAND.min && hi <= SIZE_BAND.max ? 'in_band' : 'out_of_band';
+  const lo = r[0];
+  return (SIZE_BRACKETS.find((b) => lo <= b.max) ?? SIZE_BRACKETS[SIZE_BRACKETS.length - 1]).label;
 }
 
 export function sizeScore(c: SizeClass): number {
-  return c === 'in_band' ? SIZE_SCORES.inBand : c === 'unknown' ? SIZE_SCORES.unknown : SIZE_SCORES.outOfBand;
+  return SIZE_BRACKETS.find((b) => b.label === c)?.score ?? SIZE_UNKNOWN_SCORE;
 }
 
 export type ComplexityFlags = { multi_entity: boolean; multi_currency: boolean; usage_based_billing: boolean; high_volume: boolean };
@@ -214,6 +214,11 @@ export function minimumSavings(i: SavingsInput, s: SavingsSettings = SAVINGS_DEF
   const salary = s.salaryBasis === 'midpoint' && i.salary_max !== null ? (i.salary_min + i.salary_max) / 2 : i.salary_min;
   const share = (i.C + (s.countAssisted ? s.assistedWeight * i.A : 0)) / i.n;
   return { eligible: true, value: salary * share * s.discount * s.loadedCostMultiplier, salary_used: salary, share };
+}
+
+/** Middle of a posted range, or the single figure when there is no maximum. */
+export function salaryMid(min: number, max: number | null): number {
+  return max !== null && max >= min ? (min + max) / 2 : min;
 }
 
 export function median(xs: number[]): number | null {

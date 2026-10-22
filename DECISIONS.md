@@ -73,3 +73,11 @@ Choices made inside the spec's latitude. Newest at the bottom of each section.
 - **The news/trigger feature was removed from the demo** as too heavy for its purpose: the news stage, Google News RSS fetching, trigger classification and dedupe, the "Why now" section, the trigger filter and column, and the brief's "why now" field. The pipeline is now eight stages.
 - **Lead score is now pain and fit only.** The 25% timing weight was dropped and the other two keep their 2:1 ratio: pain 2/3 (≈67%), fit 1/3 (≈33%), in `config/scoring.ts → LEAD_WEIGHTS`. This changes the scoring formula from the spec at the user's request. Rankings shifted (Latitude still first); briefs were regenerated for the new top 15.
 - The earlier "Deduplication" note's trigger part no longer applies; the role dedupe still does.
+
+## Corrections 3.0 (22 Oct 2026, user decisions)
+
+- **Size is bracketed** (`SIZE_BRACKETS`): up to 200 → 0.3, 201–500 → 0.5, 501–1,000 → 0.65, 1,001–5,000 → 0.85, 5,000+ → 1.0, unknown → 0.5, placed by the band's lower bound. This replaces the spec's single 200–5,000 band and changes fit scores and rankings. Bands are still unverified estimates.
+- **One balance slider** sets pain's weight; fit gets the rest.
+- **Leads table shows average salary** (mean of each role's posted-range midpoint) instead of minimum savings; minimum savings stay on Roles & Savings.
+- **The live demo was removed** (page, API route, rate limiter, tests, env vars). The site no longer calls the LLM at request time, so a public deploy has no API cost exposure.
+- **Overview headline figure** is now the total yearly salary (midpoint of posted range) of roles with at least 20% overlap (`OVERLAP.salaryHeadlineMinOverlap`). It is a measure of addressable salary, not savings; the conservative minimum-savings figure remains on Roles & Savings.

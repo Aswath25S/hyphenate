@@ -51,7 +51,7 @@ export type LlmRequest<T> = {
   /** Extra semantic checks after zod; return an error string to trigger a retry. */
   check?: (out: T) => string | null;
   maxTokens?: number;
-  /** Live demo: no cache, no content in logs. */
+  /** No cache, no content in logs. */
   ephemeral?: boolean;
   effort?: Effort;
 };

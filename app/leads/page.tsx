@@ -4,8 +4,15 @@ import { Container, EmptyState, PageHero, Section } from '@/components/ui';
 import { LeadsView, type LeadRow } from '@/components/LeadsView';
 import { getCompanies, getMeta, getPostings } from '@/lib/data';
 import { pct } from '@/lib/format';
+import { salaryMid } from '@/lib/scoring';
 
 export const metadata: Metadata = { title: 'Leads' };
+
+/** Average of each role's posted salary midpoint (or single figure), roles with a salary only. */
+function avgSalary(ps: { salary_min: number | null; salary_max: number | null }[]): number | null {
+  const xs = ps.filter((p) => p.salary_min !== null).map((p) => salaryMid(p.salary_min!, p.salary_max));
+  return xs.length ? xs.reduce((a, b) => a + b, 0) / xs.length : null;
+}
 
 export default function LeadsPage() {
   const meta = getMeta();
@@ -24,7 +31,8 @@ export default function LeadsPage() {
       hq_state: c.hq_state, role_families: [...new Set(ps.map((p) => p.role_family))],
       covered_share_avg: ps.length ? ps.reduce((a, p) => a + p.covered_share, 0) / ps.length : 0,
       tools: c.tools, has_brief: Boolean(c.brief),
-      roles: [...ps].sort((a, b) => b.overlap - a.overlap).map((p) => ({ posting_id: p.posting_id, title: p.title, role_family: p.role_family, source_url: p.source_url, overlap: p.overlap, covered_share: p.covered_share, salary_min: p.salary_min, savings: p.savings })),
+      roles: [...ps].sort((a, b) => b.overlap - a.overlap).map((p) => ({ posting_id: p.posting_id, title: p.title, role_family: p.role_family, source_url: p.source_url, overlap: p.overlap, covered_share: p.covered_share, salary_min: p.salary_min, salary_max: p.salary_max, savings: p.savings })),
+      avg_salary: avgSalary(ps),
     };
   });
   const strong = leads.filter((c) => c.avg_overlap >= 0.5).length;

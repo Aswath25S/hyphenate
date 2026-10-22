@@ -83,11 +83,17 @@ describe('pain, fit, lead score', () => {
   });
   it('classifies size bands', () => {
     expect(parseBand('1,001-5,000')).toEqual([1001, 5000]);
-    expect(classifySize('201-500')).toBe('in_band');
-    expect(classifySize('5001-10000')).toBe('out_of_band');
-    expect(classifySize('51-200')).toBe('out_of_band');
+    expect(classifySize('51-200')).toBe('1–200');
+    expect(classifySize('201-500')).toBe('201–500');
+    expect(classifySize('501-1000')).toBe('501–1,000');
+    expect(classifySize('1,001-5,000')).toBe('1,001–5,000');
+    expect(classifySize('5001-10000')).toBe('5,000+');
     expect(classifySize('')).toBe('unknown');
-    expect(sizeScore('out_of_band')).toBe(0.3);
+  });
+  it('scores bigger companies higher', () => {
+    const scores = ['51-200', '201-500', '501-1000', '1001-5000', '5001-10000'].map((b) => sizeScore(classifySize(b)));
+    for (let i = 1; i < scores.length; i++) expect(scores[i]).toBeGreaterThan(scores[i - 1]);
+    expect(sizeScore('unknown')).toBe(0.5);
   });
   it('scores complexity', () => {
     expect(complexityScore({ multi_entity: true, multi_currency: true, usage_based_billing: false, high_volume: false })).toEqual({ score: 1, count: 2 });

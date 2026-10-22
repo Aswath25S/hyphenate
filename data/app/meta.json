@@ -1,6 +1,6 @@
 {
   "as_of": "2026-10-21",
-  "generated_at": "2026-10-22T04:09:39.697Z",
+  "generated_at": "2026-10-22T04:55:18.746Z",
   "mode": "pipeline",
   "model": "gpt-5.4-mini",
   "headlines": {
@@ -13,7 +13,10 @@
     "savings_postings": 146,
     "salary_postings": 147,
     "thin_postings": 1,
-    "strong_postings": 7
+    "strong_postings": 7,
+    "overlap_salary_min_overlap": 0.2,
+    "overlap_salary_total": 9062560.5,
+    "overlap_salary_roles": 67
   },
   "stage_stats": {
     "collect": {
@@ -69,7 +72,7 @@
         "1 thin postings",
         "147 with salary"
       ],
-      "at": "2026-10-22T04:08:26.314Z"
+      "at": "2026-10-22T04:55:12.725Z"
     },
     "publish": {
       "stage": "publish",
@@ -79,7 +82,7 @@
         "96 companies",
         "6829/6897 duty spans located in posting text"
       ],
-      "at": "2026-10-22T03:44:07.866Z"
+      "at": "2026-10-22T04:09:39.698Z"
     },
     "gaps": {
       "stage": "gaps",
@@ -99,7 +102,7 @@
       "notes": [
         "every kept brief passed the fact check"
       ],
-      "at": "2026-10-22T04:09:39.353Z"
+      "at": "2026-10-22T04:55:18.395Z"
     }
   },
   "cost_report": {
@@ -152,12 +155,12 @@
       "unpriced_calls": 2
     },
     "brief": {
-      "calls": 46,
-      "cached": 0,
-      "input_tokens": 31327,
-      "output_tokens": 33388,
+      "calls": 47,
+      "cached": 14,
+      "input_tokens": 31951,
+      "output_tokens": 34054,
       "cost_usd": 0,
-      "unpriced_calls": 46
+      "unpriced_calls": 47
     }
   },
   "spans": {
@@ -708,15 +711,34 @@
       "smbOnly": 0.2,
       "other": 0.5
     },
-    "SIZE_SCORES": {
-      "inBand": 1,
-      "unknown": 0.5,
-      "outOfBand": 0.3
-    },
-    "SIZE_BAND": {
-      "min": 200,
-      "max": 5000
-    },
+    "SIZE_BRACKETS": [
+      {
+        "label": "1–200",
+        "max": 200,
+        "score": 0.3
+      },
+      {
+        "label": "201–500",
+        "max": 500,
+        "score": 0.5
+      },
+      {
+        "label": "501–1,000",
+        "max": 1000,
+        "score": 0.65
+      },
+      {
+        "label": "1,001–5,000",
+        "max": 5000,
+        "score": 0.85
+      },
+      {
+        "label": "5,000+",
+        "max": null,
+        "score": 1
+      }
+    ],
+    "SIZE_UNKNOWN_SCORE": 0.5,
     "COMPLEXITY_SCORES": {
       "twoOrMore": 1,
       "one": 0.5,
@@ -726,7 +748,8 @@
       "assistedWeight": 0.5,
       "thinPostingMinDuties": 4,
       "unclearConfidenceBelow": 0.6,
-      "strongLeadOverlap": 0.6
+      "strongLeadOverlap": 0.6,
+      "salaryHeadlineMinOverlap": 0.2
     },
     "SAVINGS_DEFAULTS": {
       "salaryBasis": "bottom",

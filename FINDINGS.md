@@ -10,11 +10,11 @@ Data as of 2026-10-21. 161 US finance postings from 96 companies, read duty by d
 
 ## Who to call first
 
-- **Latitude** (lead score 63): 1 open role, 78% overlap, lead with Procure-to-pay.
-- **Applied Intuition** (lead score 57): 3 open roles, 34% overlap, lead with GL accounting.
-- **Saronic** (lead score 57): 4 open roles, 29% overlap, lead with GL accounting.
-- **ElevenLabs** (lead score 55): 1 open role, 67% overlap, lead with GL accounting.
-- **AngelList** (lead score 55): 1 open role, 45% overlap, lead with GL accounting.
+- **Latitude** (lead score 58): 1 open role, 78% overlap, lead with Procure-to-pay.
+- **Applied Intuition** (lead score 56): 3 open roles, 34% overlap, lead with GL accounting.
+- **Saronic** (lead score 54): 4 open roles, 29% overlap, lead with GL accounting.
+- **Poshmark** (lead score 51): 1 open role, 55% overlap, lead with GL accounting.
+- **ElevenLabs** (lead score 50): 1 open role, 67% overlap, lead with GL accounting.
 
 ## What prospects will ask about
 

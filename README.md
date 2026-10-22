@@ -38,16 +38,16 @@ Other commands:
 | `npm run seed:discover -- <file>` | Probe candidate board slugs on Greenhouse, Lever and Ashby. |
 | `npm test` · `npm run typecheck` · `npm run build` | Tests, types, production build. |
 
-Environment: `OPENAI_API_KEY` (required for LLM stages), `OPENAI_MODEL` (default `gpt-5.5`), `LIVE_DEMO_ENABLED` (default `true`), `LIVE_DEMO_DAILY_LIMIT` (default `200`).
+Environment: `OPENAI_API_KEY` (required for LLM stages), `OPENAI_MODEL` (default `gpt-5.5`).
 
 ## How it is built
 
 - `pipeline/stages/*.ts`: one file per stage, each reading the previous stage's JSON in `data/`.
 - `pipeline/prompts/*.ts`: prompt text and schemas. Every LLM call (OpenAI, strict JSON-schema output) is cached by input hash, validated with zod, retried once, and logged with token cost.
-- `lib/scoring.ts`: every formula, pure code, shared by the pipeline, the live demo and the dashboard sliders.
+- `lib/scoring.ts`: every formula, pure code, shared by the pipeline and the dashboard sliders.
 - `config/scoring.ts`: every weight, discount and threshold.
 - `config/coverage_map.json`: 30 capabilities read from hyphenate.ai on 20 Oct 2026. Based on the public site, to be validated.
-- `app/`, `components/`: Next.js dashboard. Only `/api/analyze` (the live demo) calls the LLM at request time.
+- `app/`, `components/`: Next.js dashboard. It only reads published JSON; it never calls the LLM.
 
 See `SPEC.md` for the full specification and `DECISIONS.md` for every judgment call.
 
@@ -61,7 +61,7 @@ See `SPEC.md` for the full specification and `DECISIONS.md` for every judgment c
 | M3 Collection | Done: 152 postings from 94 companies (`docs/collection-report.md`). |
 | M4 Full pipeline | All stages built and tested end to end with a fake LLM. Real run needs an API key. |
 | M5 Dashboard | Done: 8 routes, evidence links, client-side recompute, 375 px checked. |
-| M6 Live demo | Built and tested with a fake LLM. Timing target needs a real key to verify. |
+| M6 Live demo | Removed at the user's request (22 Oct 2026). |
 | M7 Polish | `/method`, CSV exports, `FINDINGS.md` generator. Findings show preview numbers until the real run. |
 
 ## Known limits

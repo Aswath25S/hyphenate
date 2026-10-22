@@ -20,9 +20,9 @@ npm run typecheck
 
 ## Conventions
 
-- Pipeline writes JSON; the UI only reads `data/app/*.json`. Only `/api/analyze` calls the LLM (OpenAI) at request time.
+- Pipeline writes JSON; the UI only reads `data/app/*.json`. The site never calls the LLM at request time.
 - Every tunable number lives in `config/scoring.ts`. Never hard-code weights in components or stages.
-- Scoring formulas live in `lib/scoring.ts` (pure, shared by pipeline, live demo and client-side sliders).
+- Scoring formulas live in `lib/scoring.ts` (pure, shared by pipeline and client-side sliders).
 - Every LLM call goes through `pipeline/lib/llm.ts` → `callLlm` (OpenAI chat completions, strict JSON-schema output): cached by input hash in `data/cache/`, zod-validated, retried once, usage logged to `data/logs/usage.jsonl`.
 - Prompts and their schemas live in `pipeline/prompts/*.ts`; zod schemas in `lib/schemas.ts`.
 - Bump `CACHE_VERSION` in `pipeline/lib/llm.ts` or the prompt text to force re-calls.

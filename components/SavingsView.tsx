@@ -171,15 +171,16 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
 
       {/* Every role */}
       <div id="roles">
-        <h3 className="t-sub">Every role behind the total.</h3>
+        <h3 className="t-sub">Every role, with its breakdown.</h3>
         <div className="card mt-5 overflow-x-auto">
-          <table className="w-full min-w-[760px] text-[14px]">
-            <thead className="border-b border-line"><tr>{['Role', 'Company', 'Salary min', 'Covered', 'Default', custom ? 'Yours' : ''].map((h, i) => <th key={i} className={`px-4 py-3 font-normal ${i < 2 ? 'text-left' : 'text-right'}`}><span className="t-mono">{h}</span></th>)}</tr></thead>
+          <table className="w-full min-w-[900px] text-[14px]">
+            <thead className="border-b border-line"><tr>{['Role', 'Company', 'Role breakdown', 'Salary min', 'Covered', 'Default', custom ? 'Yours' : ''].map((h, i) => <th key={i} className={`whitespace-nowrap px-4 py-3 font-normal ${i < 3 ? 'text-left' : 'text-right'}`}><span className="t-mono">{h}</span></th>)}</tr></thead>
             <tbody>
               {[...calc].sort((a, b) => (b.def ?? -1) - (a.def ?? -1)).map((r) => (
                 <tr key={r.posting_id} className="border-t border-dashed border-line-dashed">
-                  <td className="px-4 py-2.5"><Link href={`/postings/${r.posting_id}`} className="link">{r.title}</Link></td>
+                  <td className="px-4 py-2.5">{r.title}</td>
                   <td className="px-4 py-2.5"><Link href={`/companies/${r.slug}`} className="hover:text-brand">{r.company}</Link></td>
+                  <td className="whitespace-nowrap px-4 py-2.5"><Link href={`/postings/${r.posting_id}`} className="link">Role breakdown</Link></td>
                   <td className="num px-4 py-2.5 text-right">{r.salary_min !== null ? usd(r.salary_min) : '–'}</td>
                   <td className="num px-4 py-2.5 text-right">{r.C}/{r.n}</td>
                   <td className="num px-4 py-2.5 text-right">{r.def !== null ? usd(r.def) : <span className="text-[13px] text-ink-muted">{r.reason === 'no_salary' ? 'No salary posted' : r.reason === 'thin_posting' ? 'Thin posting' : 'No duties'}</span>}</td>

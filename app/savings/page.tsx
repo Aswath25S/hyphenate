@@ -5,7 +5,7 @@ import { SavingsView, type SavingsRow } from '@/components/SavingsView';
 import { getMeta, getPostings } from '@/lib/data';
 import { usd } from '@/lib/format';
 
-export const metadata: Metadata = { title: 'Savings' };
+export const metadata: Metadata = { title: 'Roles & Savings' };
 
 export default function SavingsPage() {
   const meta = getMeta();
@@ -15,7 +15,7 @@ export default function SavingsPage() {
   return (
     <>
       <PageHero
-        eyebrow="The money"
+        eyebrow="Roles & Savings"
         title={<>Across {h.savings_postings} postings with salaries, at least {usd(h.savings_total)} a year is tied to duties Hyphenate&apos;s agents already handle.</>}
         sub="A deliberate floor: the lowest advertised salary, times the share of fully covered duties, cut in half. Every input is shown and adjustable below."
         meta={`Based on ${h.salary_postings} of ${h.postings} postings that list a salary · gross value, not net savings`}

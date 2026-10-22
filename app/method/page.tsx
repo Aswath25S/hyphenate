@@ -118,7 +118,7 @@ export default function MethodPage() {
           <div className="card p-5"><Mono>Lead score</Mono>
             <KV rows={[['Weight: Hyphenate can do the work (pain)', pct(C.LEAD_WEIGHTS.pain)], ['Weight: looks like a customer (fit)', pct(C.LEAD_WEIGHTS.fit)], ['Pain, overlap part', `${C.PAIN.overlapWeight} × avg weighted overlap`], ['Pain, open-roles part', `${C.PAIN.rolesWeight} × min(roles, ${C.PAIN.rolesCap}) ÷ ${C.PAIN.rolesCap}`], ['Fit formula', `${C.FIT_WEIGHTS.erp} ERP + ${C.FIT_WEIGHTS.size} size + ${C.FIT_WEIGHTS.complexity} complexity`]]} /></div>
           <div className="card p-5"><Mono>Fit factors</Mono>
-            <KV rows={[['ERP: NetSuite, SAP, Intacct, Dynamics, Oracle', C.ERP_SCORES.enterprise], ['ERP: not stated', C.ERP_SCORES.notStated], ['ERP: QuickBooks or Xero only', C.ERP_SCORES.smbOnly], [`Size ${C.SIZE_BAND.min.toLocaleString()}–${C.SIZE_BAND.max.toLocaleString()}`, C.SIZE_SCORES.inBand], ['Size unknown / outside', `${C.SIZE_SCORES.unknown} / ${C.SIZE_SCORES.outOfBand}`], ['Complexity 2+ / 1 / none', `${C.COMPLEXITY_SCORES.twoOrMore} / ${C.COMPLEXITY_SCORES.one} / ${C.COMPLEXITY_SCORES.none}`]]} /></div>
+            <KV rows={[['ERP: NetSuite, SAP, Intacct, Dynamics, Oracle', C.ERP_SCORES.enterprise], ['ERP: not stated', C.ERP_SCORES.notStated], ['ERP: QuickBooks or Xero only', C.ERP_SCORES.smbOnly], ...C.SIZE_BRACKETS.map((b) => [`Size ${b.label} employees`, b.score] as [string, number]), ['Size unknown', C.SIZE_UNKNOWN_SCORE], ['Complexity 2+ / 1 / none', `${C.COMPLEXITY_SCORES.twoOrMore} / ${C.COMPLEXITY_SCORES.one} / ${C.COMPLEXITY_SCORES.none}`]]} /></div>
           <div className="card p-5"><Mono>Minimum savings</Mono>
             <KV rows={[['Formula', 'salary_min × C/n × d'], ['Salary used', 'Bottom of range'], ['Discount d', C.SAVINGS_DEFAULTS.discount], ['Assisted duties', 'Off (or 0.25)'], ['Loaded-cost multiplier', C.SAVINGS_DEFAULTS.loadedCostMultiplier], ['Hourly pay', `× ${C.SALARY.hoursPerYear.toLocaleString()} hours`]]} /></div>
           <div className="card p-5"><Mono>Collection</Mono>
@@ -148,7 +148,7 @@ export default function MethodPage() {
           </div>
           <div className="card p-5 text-[14px] leading-relaxed">
             <Mono>Privacy</Mono>
-            <p className="mt-2">Data is kept at company level. No recruiter or hiring-manager names are stored. Text pasted into the <Link href="/try" className="link">live demo</Link> is never stored or logged.</p>
+            <p className="mt-2">Data is kept at company level. No recruiter or hiring-manager names are stored.</p>
           </div>
         </div>
       </Section>

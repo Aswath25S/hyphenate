@@ -32,6 +32,7 @@ export default async function PostingPage({ params }: { params: Promise<{ id: st
           <div className="flex flex-wrap gap-2">
             <BackLink href={`/companies/${p.slug}`} label={p.company} />
             <BackLink href="/leads" label="All lead companies" />
+            <BackLink href="/savings" label="Roles & Savings" />
           </div>
           <Eyebrow>Role breakdown</Eyebrow>
           <div className="space-y-2">

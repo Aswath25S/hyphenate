@@ -43,6 +43,7 @@ export type Meta = {
   headlines: {
     postings: number; companies: number; lead_companies: number; median_overlap: number | null; companies_with_covered_work: number;
     savings_total: number; savings_postings: number; salary_postings: number; thin_postings: number; strong_postings: number;
+    overlap_salary_min_overlap: number; overlap_salary_total: number; overlap_salary_roles: number;
   };
   stage_stats: Record<string, StageStat>;
   cost_report: Record<string, { calls: number; cached: number; input_tokens: number; output_tokens: number; cost_usd: number; unpriced_calls?: number }>;

@@ -164,90 +164,6 @@
       },
       "attempts": 1
     },
-    "elevenlabs.io": {
-      "brief": {
-        "headline": "ElevenLabs is hiring a Revenue Accountant for 67% overlap work.",
-        "why_them": "ElevenLabs has 1 open finance role, and the Revenue Accountant posting shows 67% overlap. ERP is not stated.",
-        "lead_with": "GL accounting, because it covers 5 duties and assists 5.",
-        "minimum_savings": "No salary posted, so no figure.",
-        "may_not_cover": "Reporting and filing support, Standardization and validation, and Process redesign and systems are not on Hyphenate's public site.",
-        "angle": "Before your next hire, GL accounting could absorb the Revenue Accountant work already showing 67% overlap."
-      },
-      "data": {
-        "company": "ElevenLabs",
-        "open_finance_roles": 1,
-        "roles": [
-          {
-            "title": "Revenue Accountant",
-            "role_family": "Revenue",
-            "overlap": "67%",
-            "posting_id": "3e4022fc21b9a4c6"
-          }
-        ],
-        "average_overlap": "67%",
-        "erp": [
-          "not stated"
-        ],
-        "lead_product": "GL accounting",
-        "lead_product_duties": {
-          "covered": 5,
-          "assisted": 5
-        },
-        "minimum_savings": null,
-        "top_gap_themes": [
-          "Reporting and filing support",
-          "Standardization and validation",
-          "Process redesign and systems"
-        ],
-        "tools_named_in_postings": [
-          "HubiFi",
-          "Metronome",
-          "Stripe"
-        ]
-      },
-      "attempts": 1
-    },
-    "angellist.com": {
-      "brief": {
-        "headline": "AngelList is hiring a Staff Accountant, AP & Procurement to cover AP and procurement work at 45% overlap.",
-        "why_them": "AngelList has 1 open finance role at 45% average overlap. It works in NetSuite and the posting names Ramp.",
-        "lead_with": "GL accounting for close and accounting operations.",
-        "minimum_savings": "Work worth at least $12,500 a year across 1 role could be absorbed before the next hire.",
-        "may_not_cover": "Close and accounting operations, Process redesign and systems, and Systems, data, and analytics are not on AngelList's public site.",
-        "angle": "Before your next hire, AngelList could absorb AP and procurement work."
-      },
-      "data": {
-        "company": "AngelList",
-        "open_finance_roles": 1,
-        "roles": [
-          {
-            "title": "Staff Accountant, AP & Procurement",
-            "role_family": "AP",
-            "overlap": "45%",
-            "posting_id": "cbb765df78854fb8"
-          }
-        ],
-        "average_overlap": "45%",
-        "erp": [
-          "NetSuite"
-        ],
-        "lead_product": "GL accounting",
-        "lead_product_duties": {
-          "covered": 3,
-          "assisted": 3
-        },
-        "minimum_savings": "at least $12,500 a year across 1 role",
-        "top_gap_themes": [
-          "Close and accounting operations",
-          "Process redesign and systems",
-          "Systems, data, and analytics"
-        ],
-        "tools_named_in_postings": [
-          "Ramp"
-        ]
-      },
-      "attempts": 1
-    },
     "poshmark.com": {
       "brief": {
         "headline": "Poshmark is hiring a Senior Revenue Accountant to cover revenue work around NetSuite.",
@@ -292,6 +208,49 @@
       },
       "attempts": 1
     },
+    "elevenlabs.io": {
+      "brief": {
+        "headline": "ElevenLabs is hiring a Revenue Accountant for 67% overlap work.",
+        "why_them": "ElevenLabs has 1 open finance role, and the Revenue Accountant posting shows 67% overlap. ERP is not stated.",
+        "lead_with": "GL accounting, because it covers 5 duties and assists 5.",
+        "minimum_savings": "No salary posted, so no figure.",
+        "may_not_cover": "Reporting and filing support, Standardization and validation, and Process redesign and systems are not on Hyphenate's public site.",
+        "angle": "Before your next hire, GL accounting could absorb the Revenue Accountant work already showing 67% overlap."
+      },
+      "data": {
+        "company": "ElevenLabs",
+        "open_finance_roles": 1,
+        "roles": [
+          {
+            "title": "Revenue Accountant",
+            "role_family": "Revenue",
+            "overlap": "67%",
+            "posting_id": "3e4022fc21b9a4c6"
+          }
+        ],
+        "average_overlap": "67%",
+        "erp": [
+          "not stated"
+        ],
+        "lead_product": "GL accounting",
+        "lead_product_duties": {
+          "covered": 5,
+          "assisted": 5
+        },
+        "minimum_savings": null,
+        "top_gap_themes": [
+          "Reporting and filing support",
+          "Standardization and validation",
+          "Process redesign and systems"
+        ],
+        "tools_named_in_postings": [
+          "HubiFi",
+          "Metronome",
+          "Stripe"
+        ]
+      },
+      "attempts": 1
+    },
     "forter.com": {
       "brief": {
         "headline": "Forter is hiring a Senior Accountant for 50% overlap on GL work.",
@@ -327,6 +286,47 @@
           "ADP",
           "CIQ",
           "Microsoft Excel"
+        ]
+      },
+      "attempts": 1
+    },
+    "angellist.com": {
+      "brief": {
+        "headline": "AngelList is hiring a Staff Accountant, AP & Procurement to cover AP and procurement work at 45% overlap.",
+        "why_them": "AngelList has 1 open finance role at 45% average overlap. It works in NetSuite and the posting names Ramp.",
+        "lead_with": "GL accounting for close and accounting operations.",
+        "minimum_savings": "Work worth at least $12,500 a year across 1 role could be absorbed before the next hire.",
+        "may_not_cover": "Close and accounting operations, Process redesign and systems, and Systems, data, and analytics are not on AngelList's public site.",
+        "angle": "Before your next hire, AngelList could absorb AP and procurement work."
+      },
+      "data": {
+        "company": "AngelList",
+        "open_finance_roles": 1,
+        "roles": [
+          {
+            "title": "Staff Accountant, AP & Procurement",
+            "role_family": "AP",
+            "overlap": "45%",
+            "posting_id": "cbb765df78854fb8"
+          }
+        ],
+        "average_overlap": "45%",
+        "erp": [
+          "NetSuite"
+        ],
+        "lead_product": "GL accounting",
+        "lead_product_duties": {
+          "covered": 3,
+          "assisted": 3
+        },
+        "minimum_savings": "at least $12,500 a year across 1 role",
+        "top_gap_themes": [
+          "Close and accounting operations",
+          "Process redesign and systems",
+          "Systems, data, and analytics"
+        ],
+        "tools_named_in_postings": [
+          "Ramp"
         ]
       },
       "attempts": 1
@@ -456,48 +456,6 @@
       },
       "attempts": 1
     },
-    "clickhouse.com": {
-      "brief": {
-        "headline": "ClickHouse is hiring a Senior Revenue Accountant to cover revenue work tied to NetSuite.",
-        "why_them": "It has 1 open finance role with 55% overlap. The posting sits against NetSuite.",
-        "lead_with": "GL accounting for the covered and assisted revenue tasks.",
-        "minimum_savings": "At least $12,700 a year across 1 role could be absorbed before the next hire.",
-        "may_not_cover": "Reporting and filing support, standardization and validation, and process redesign and systems are not on Hyphenate's public site.",
-        "angle": "Before your next hire, use GL accounting to absorb the revenue accounting work in this 1-role stack."
-      },
-      "data": {
-        "company": "ClickHouse",
-        "open_finance_roles": 1,
-        "roles": [
-          {
-            "title": "Senior Revenue Accountant",
-            "role_family": "Revenue",
-            "overlap": "55%",
-            "posting_id": "8ddb414440333fcc"
-          }
-        ],
-        "average_overlap": "55%",
-        "erp": [
-          "NetSuite"
-        ],
-        "lead_product": "GL accounting",
-        "lead_product_duties": {
-          "covered": 2,
-          "assisted": 4
-        },
-        "minimum_savings": "at least $12,700 a year across 1 role",
-        "top_gap_themes": [
-          "Reporting and filing support",
-          "Standardization and validation",
-          "Process redesign and systems"
-        ],
-        "tools_named_in_postings": [
-          "Salesforce",
-          "Stripe"
-        ]
-      },
-      "attempts": 1
-    },
     "avetta.com": {
       "brief": {
         "headline": "Avetta is hiring a Billing Specialist (B2B) for order-to-cash work with 32% overlap.",
@@ -594,56 +552,6 @@
           "Microsoft Excel",
           "Microsoft Suite",
           "Salesforce"
-        ]
-      },
-      "attempts": 1
-    },
-    "roofstock.com": {
-      "brief": {
-        "headline": "Roofstock is hiring a Property Accountant, Institutional to cover GL work.",
-        "why_them": "The two open finance roles show 39% average overlap, with Property Accountant, Institutional at 42% and Accounting Manager at 36%. Roofstock runs NetSuite.",
-        "lead_with": "GL accounting, because it covers 6 duties and assists 5.",
-        "minimum_savings": "At least $19,500 a year across 2 roles could be absorbed before the next hire.",
-        "may_not_cover": "Reporting and filing support, compliance and governance, and operating model and controls are not on Hyphenate's public site.",
-        "angle": "Before your next hire, GL accounting can absorb the highest-overlap work."
-      },
-      "data": {
-        "company": "Roofstock",
-        "open_finance_roles": 2,
-        "roles": [
-          {
-            "title": "Property Accountant, Institutional",
-            "role_family": "GL",
-            "overlap": "42%",
-            "posting_id": "9dab558bef433de4"
-          },
-          {
-            "title": "Accounting Manager",
-            "role_family": "Close mgmt",
-            "overlap": "36%",
-            "posting_id": "62638b661de9e066"
-          }
-        ],
-        "average_overlap": "39%",
-        "erp": [
-          "NetSuite"
-        ],
-        "lead_product": "GL accounting",
-        "lead_product_duties": {
-          "covered": 6,
-          "assisted": 5
-        },
-        "minimum_savings": "at least $19,500 a year across 2 roles",
-        "top_gap_themes": [
-          "Reporting and filing support",
-          "Compliance and governance",
-          "Operating model and controls"
-        ],
-        "tools_named_in_postings": [
-          "Excel",
-          "Google Suite",
-          "Ramp",
-          "Zip"
         ]
       },
       "attempts": 1
@@ -745,6 +653,102 @@
           "Clearwater",
           "Excel",
           "Google Workspace",
+          "Trovata"
+        ]
+      },
+      "attempts": 1
+    },
+    "clickhouse.com": {
+      "brief": {
+        "headline": "ClickHouse is hiring a Senior Revenue Accountant to cover revenue work tied to NetSuite.",
+        "why_them": "It has 1 open finance role with 55% overlap. The posting sits against NetSuite.",
+        "lead_with": "GL accounting for the covered and assisted revenue tasks.",
+        "minimum_savings": "At least $12,700 a year across 1 role could be absorbed before the next hire.",
+        "may_not_cover": "Reporting and filing support, standardization and validation, and process redesign and systems are not on Hyphenate's public site.",
+        "angle": "Before your next hire, use GL accounting to absorb the revenue accounting work in this 1-role stack."
+      },
+      "data": {
+        "company": "ClickHouse",
+        "open_finance_roles": 1,
+        "roles": [
+          {
+            "title": "Senior Revenue Accountant",
+            "role_family": "Revenue",
+            "overlap": "55%",
+            "posting_id": "8ddb414440333fcc"
+          }
+        ],
+        "average_overlap": "55%",
+        "erp": [
+          "NetSuite"
+        ],
+        "lead_product": "GL accounting",
+        "lead_product_duties": {
+          "covered": 2,
+          "assisted": 4
+        },
+        "minimum_savings": "at least $12,700 a year across 1 role",
+        "top_gap_themes": [
+          "Reporting and filing support",
+          "Standardization and validation",
+          "Process redesign and systems"
+        ],
+        "tools_named_in_postings": [
+          "Salesforce",
+          "Stripe"
+        ]
+      },
+      "attempts": 1
+    },
+    "klaviyo.com": {
+      "brief": {
+        "headline": "Klaviyo is hiring a Lead Treasury Analyst to cover treasury work.",
+        "why_them": "Klaviyo has 2 open finance roles with 20% average overlap and NetSuite in the stack. The openings span Treasury and Other.",
+        "lead_with": "GL accounting, because it covers 2 duties and assists 1.",
+        "minimum_savings": "At least $8,400 a year across 2 roles could be absorbed before the next hire.",
+        "may_not_cover": "Close and accounting operations, Reporting and filing support, and Standardization and validation are not on Hyphenate's public site.",
+        "angle": "Before your next hire, this is a chance to absorb overlapping work and keep moving."
+      },
+      "data": {
+        "company": "Klaviyo",
+        "open_finance_roles": 2,
+        "roles": [
+          {
+            "title": "Lead Treasury Analyst",
+            "role_family": "Treasury",
+            "overlap": "35%",
+            "posting_id": "2ad92cdccb8e118d"
+          },
+          {
+            "title": "Manager, IT SOX",
+            "role_family": "Other",
+            "overlap": "4%",
+            "posting_id": "5a8bc39f61e891c2"
+          }
+        ],
+        "average_overlap": "20%",
+        "erp": [
+          "NetSuite"
+        ],
+        "lead_product": "GL accounting",
+        "lead_product_duties": {
+          "covered": 2,
+          "assisted": 1
+        },
+        "minimum_savings": "at least $8,400 a year across 2 roles",
+        "top_gap_themes": [
+          "Close and accounting operations",
+          "Reporting and filing support",
+          "Standardization and validation"
+        ],
+        "tools_named_in_postings": [
+          "AuditBoard",
+          "CitiDirect",
+          "FXAll",
+          "Google Sheets",
+          "Microsoft Excel",
+          "Optro",
+          "Tableau",
           "Trovata"
         ]
       },

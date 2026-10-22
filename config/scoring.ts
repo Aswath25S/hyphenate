@@ -35,8 +35,18 @@ export const ENTERPRISE_ERPS = [
 ];
 export const SMB_ERPS = ['quickbooks', 'qbo', 'xero'];
 
-export const SIZE_SCORES = { inBand: 1.0, unknown: 0.5, outOfBand: 0.3 };
-export const SIZE_BAND = { min: 200, max: 5000 };
+/**
+ * Employee-count brackets for the size part of fit: more employees, higher score.
+ * A company is placed by the lower bound of its employee band (e.g. "201-500" → 201).
+ */
+export const SIZE_BRACKETS = [
+  { label: '1–200', max: 200, score: 0.3 },
+  { label: '201–500', max: 500, score: 0.5 },
+  { label: '501–1,000', max: 1000, score: 0.65 },
+  { label: '1,001–5,000', max: 5000, score: 0.85 },
+  { label: '5,000+', max: Infinity, score: 1.0 },
+];
+export const SIZE_UNKNOWN_SCORE = 0.5;
 
 export const COMPLEXITY_SCORES = { twoOrMore: 1.0, one: 0.5, none: 0.2 };
 
@@ -45,6 +55,7 @@ export const OVERLAP = {
   thinPostingMinDuties: 4,
   unclearConfidenceBelow: 0.6,
   strongLeadOverlap: 0.6, // gap ranking: share of postings with overlap >= this
+  salaryHeadlineMinOverlap: 0.2, // overview: total salary of roles with at least this overlap
 };
 
 export type SalaryBasis = 'bottom' | 'midpoint';
@@ -82,12 +93,6 @@ export const FILTER = {
   // Different titles: one role only when descriptions are near-verbatim, and the titles
   // do not differ only by a site suffix ("Plant Controller, Cape" vs "…, Stennis").
   dedupeNearIdentical: 0.95,
-};
-
-export const LIVE_DEMO = {
-  maxChars: 20000,
-  perIpPerHour: 10,
-  defaultDailyLimit: 200,
 };
 
 export const LLM = {

@@ -8,7 +8,7 @@ import { loadCoverage } from '../lib/coverage';
 import { computeLeads } from '../lib/leads';
 import { locateSpan } from '../lib/text';
 import { recordStage, type StageStat } from '../lib/stats';
-import { median } from '../../lib/scoring';
+import { median, salaryMid } from '../../lib/scoring';
 import { MODEL } from '../lib/llm';
 import type { ExtractedPosting, MatchedPosting } from '../lib/types';
 import type { CompanyBase, PostingScore } from './score';
@@ -24,7 +24,6 @@ export function costReport(): Record<string, CostRow> {
   for (const line of fs.readFileSync(file, 'utf8').split('\n')) {
     if (!line.trim()) continue;
     const u = JSON.parse(line);
-    if (u.stage === 'live') continue;
     const s = (out[u.stage] ??= { calls: 0, cached: 0, input_tokens: 0, output_tokens: 0, cost_usd: 0, unpriced_calls: 0 });
     if (u.cached) s.cached++;
     else {
@@ -115,6 +114,9 @@ export async function publish(opts: { asOf?: Date; mode?: 'pipeline' | 'fixture_
     salary_postings: withSalary.length,
     thin_postings: postingRows.filter((p) => p.thin).length,
     strong_postings: postingRows.filter((p) => p.overlap >= CONFIG.OVERLAP.strongLeadOverlap).length,
+    overlap_salary_min_overlap: CONFIG.OVERLAP.salaryHeadlineMinOverlap,
+    overlap_salary_total: withSalary.filter((p) => p.overlap >= CONFIG.OVERLAP.salaryHeadlineMinOverlap).reduce((a, p) => a + salaryMid(p.salary_min!, p.salary_max), 0),
+    overlap_salary_roles: withSalary.filter((p) => p.overlap >= CONFIG.OVERLAP.salaryHeadlineMinOverlap).length,
   };
 
   const stageStats = readJson<Record<string, StageStat>>(path.join(P.processed, 'stage_stats.json'), {});
@@ -128,7 +130,7 @@ export async function publish(opts: { asOf?: Date; mode?: 'pipeline' | 'fixture_
     briefs: { count: Object.keys(briefs.briefs).length, dropped: briefs.dropped.length },
     coverage, config: {
       LEAD_WEIGHTS: CONFIG.LEAD_WEIGHTS, PAIN: CONFIG.PAIN, FIT_WEIGHTS: CONFIG.FIT_WEIGHTS, ERP_SCORES: CONFIG.ERP_SCORES,
-      SIZE_SCORES: CONFIG.SIZE_SCORES, SIZE_BAND: CONFIG.SIZE_BAND, COMPLEXITY_SCORES: CONFIG.COMPLEXITY_SCORES,
+      SIZE_BRACKETS: CONFIG.SIZE_BRACKETS, SIZE_UNKNOWN_SCORE: CONFIG.SIZE_UNKNOWN_SCORE, COMPLEXITY_SCORES: CONFIG.COMPLEXITY_SCORES,
       OVERLAP: CONFIG.OVERLAP,
       SAVINGS_DEFAULTS: CONFIG.SAVINGS_DEFAULTS, FILTER: CONFIG.FILTER,
     },

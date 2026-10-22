@@ -38,3 +38,9 @@ export function shortDate(iso: string | null | undefined): string {
   if (Number.isNaN(d.getTime())) return '–';
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
 }
+
+/** "1001-5000" → "1,001–5,000". */
+export function formatBand(band: string | null | undefined): string {
+  if (!band) return 'Unknown';
+  return band.replace(/\d+/g, (n) => Number(n).toLocaleString('en-US')).replace(/\s*-\s*/g, '–');
+}

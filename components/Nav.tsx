@@ -8,7 +8,7 @@ const LINKS = [
   { href: '/', label: 'Overview' },
   { href: '/leads', label: 'Leads' },
   { href: '/gaps', label: 'Gaps' },
-  { href: '/savings', label: 'Savings' },
+  { href: '/savings', label: 'Roles & Savings' },
   { href: '/method', label: 'Method' },
   { href: '/about', label: 'About' },
 ];
@@ -31,7 +31,6 @@ export function Nav() {
           ))}
         </ul>
         <div className="flex items-center gap-2">
-          <Link href="/try" className="btn-primary whitespace-nowrap !px-3 !py-2 !text-[14px]">Try it live</Link>
           <button className="rounded-md border border-line px-2.5 py-2 text-[13px] md:hidden" onClick={() => setOpen((o) => !o)} aria-expanded={open} aria-label="Menu">
             {open ? 'Close' : 'Menu'}
           </button>
