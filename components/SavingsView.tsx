@@ -117,9 +117,14 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
               <input type="range" min={SAVINGS_RANGES.discount.min} max={SAVINGS_RANGES.discount.max} step={SAVINGS_RANGES.discount.step} value={s.discount} onChange={(e) => u.set({ d: e.target.value })} className="mt-2 w-full" />
               <span className="text-[12.5px] text-ink-muted">Stands in for exception review and unequal duty time. Default 0.5.</span>
             </label>
-            <label className="flex items-center gap-3 text-[14px]">
-              <input type="checkbox" checked={s.countAssisted} onChange={(e) => u.set({ assisted: e.target.checked === SAVINGS_DEFAULTS.countAssisted ? null : e.target.checked ? 1 : 0 })} className="h-4 w-4 accent-[var(--accent)]" />
-              Count duties Hyphenate prepares at {s.assistedWeight} weight <span className="text-ink-muted">(default {SAVINGS_DEFAULTS.countAssisted ? 'on' : 'off'})</span>
+            <label className="flex items-start gap-3 text-[14px]">
+              <input type="checkbox" checked={s.countAssisted} onChange={(e) => u.set({ assisted: e.target.checked === SAVINGS_DEFAULTS.countAssisted ? null : e.target.checked ? 1 : 0 })} className="mt-0.5 h-4 w-4 shrink-0 accent-[var(--accent)]" />
+              <span>
+                Include work Hyphenate prepares for a person to approve
+                <span className="mt-0.5 block text-[12.5px] leading-relaxed text-ink-muted">
+                  Each of those duties counts as a quarter of a duty Hyphenate does end to end, since a person still has to review it. Untick to count only end-to-end work (the strict floor). On by default.
+                </span>
+              </span>
             </label>
           </div>
         </div>
