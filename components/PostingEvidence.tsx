@@ -75,26 +75,42 @@ export function PostingEvidence({ p }: { p: PostingDetail }) {
         </div>
       </div>
 
-      {/* Comparison bars */}
-      {p.n > 0 && (
-        <div className="hatch rounded-[var(--radius-card)] border border-line p-4 sm:p-5">
-          <div className="space-y-2.5">
-            <div className="relative h-10 overflow-hidden rounded-md border border-line bg-white">
-              <div className="flex h-full items-center px-3 font-mono text-[11px] uppercase tracking-[0.08em] text-ink-muted">All scored duties: {p.n}</div>
+      {/* One bar across all of the role's duties, split by what Hyphenate does with each. */}
+      {p.n > 0 && (() => {
+        const rest = p.n - p.C - p.A;
+        const parts = [
+          { key: 'covered', count: p.C, label: 'done end to end', bar: 'bg-success text-white', dot: 'bg-success' },
+          { key: 'assisted', count: p.A, label: 'prepared for a person to approve', bar: 'bg-accent text-white', dot: 'bg-accent' },
+          { key: 'rest', count: rest, label: 'not on Hyphenate’s site', bar: 'bg-bg text-ink-muted', dot: 'bg-bg ring-1 ring-line' },
+        ];
+        return (
+          <div className="card p-5 sm:p-6">
+            <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <p className="t-card">What Hyphenate can do in this role</p>
+              <Mono>{p.n} duties in total</Mono>
             </div>
-            <div className="relative h-10 rounded-md">
-              <div className="absolute inset-y-0 left-0 flex items-center rounded-md border border-accent bg-accent-soft px-3" style={{ width: `min(100%, max(${(p.overlap * 100).toFixed(1)}%, 17.5rem))` }}>
-                <span className="truncate whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.08em] text-accent-ink">Hyphenate covers: {p.C} of {p.n} duties<span className="hidden sm:inline">{p.A ? ` (+${p.A} assisted)` : ''}</span></span>
-              </div>
+            <div className="mt-4 flex h-11 gap-[3px] overflow-hidden rounded-md ring-1 ring-line" role="img"
+              aria-label={`${p.C} of ${p.n} duties done end to end, ${p.A} prepared for approval, ${rest} not on Hyphenate's site`}>
+              {parts.filter((x) => x.count > 0).map((x) => (
+                <div key={x.key} className={`flex min-w-[2.25rem] items-center justify-center font-mono text-[13px] font-medium ${x.bar}`} style={{ flexGrow: x.count, flexBasis: 0 }}>
+                  {x.count}
+                </div>
+              ))}
             </div>
+            <ul className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-3">
+              {parts.map((x) => (
+                <li key={x.key} className="flex items-start gap-2.5">
+                  <span className={`mt-1 h-3 w-3 shrink-0 rounded-sm ${x.dot}`} />
+                  <span className="text-[14px] leading-snug">
+                    <b className="num font-medium text-ink-display">{x.count} of {p.n}</b> {x.label}
+                    <span className="block text-[12.5px] text-ink-muted">{x.key === 'covered' ? 'Green highlight in the posting' : x.key === 'assisted' ? 'Orange highlight in the posting' : 'Dotted underline in the posting'}</span>
+                  </span>
+                </li>
+              ))}
+            </ul>
           </div>
-          <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 text-[12.5px] text-ink-muted">
-            <span><span className="hl hl-covered px-1">green highlight</span> Hyphenate does it end to end</span>
-            <span><span className="hl hl-assisted px-1">orange highlight</span> Hyphenate prepares it, a person approves</span>
-            <span><span className="hl hl-human">dotted underline</span> not on Hyphenate&apos;s site</span>
-          </div>
-        </div>
-      )}
+        );
+      })()}
 
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1fr)_380px]">
         {/* Original text */}
