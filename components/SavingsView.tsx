@@ -197,7 +197,7 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
         <h3 className="t-sub">Every role, with its breakdown.</h3>
         <div className="card mt-5 overflow-x-auto">
           <table className="w-full min-w-[900px] text-[14px]">
-            <thead className="border-b border-line"><tr>{['Role', 'Company', 'Role breakdown', 'Salary min', 'Savings (default)', custom ? 'Savings (yours)' : ''].map((h, i) => <th key={i} className={`whitespace-nowrap px-4 py-3 font-normal ${i < 3 ? 'text-left' : 'text-right'}`}><span className="t-mono">{h}</span></th>)}</tr></thead>
+            <thead className="border-b border-line"><tr>{['Role', 'Company', 'Role breakdown', 'Salary min', 'Savings (default)', custom ? 'Savings (custom)' : ''].map((h, i) => <th key={i} className={`whitespace-nowrap px-4 py-3 font-normal ${i < 3 ? 'text-left' : 'text-right'}`}><span className="t-mono">{h}</span></th>)}</tr></thead>
             <tbody>
               {[...calc].sort((a, b) => (b.def ?? -1) - (a.def ?? -1)).map((r) => (
                 <tr key={r.posting_id} className="border-t border-dashed border-line-dashed">
