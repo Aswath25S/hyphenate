@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 import { Container, Eyebrow, LabelChip, Mono, Note, OverlapBar, OverlapLegend, Section, StatBlock } from '@/components/ui';
 import { BackLink } from '@/components/BackLink';
 import { getCompanies, getCompany, getGaps, getPosting, getPostings } from '@/lib/data';
-import { PRODUCT_ORDER, ROLE_LABELS, TRIGGER_LABELS, pct, shortDate, usd } from '@/lib/format';
+import { PRODUCT_ORDER, ROLE_LABELS, pct, shortDate, usd } from '@/lib/format';
 
 export function generateStaticParams() {
   return getCompanies().map((c) => ({ slug: c.slug }));
@@ -53,9 +53,9 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
       </section>
 
       {c.brief && (
-        <Section eyebrow="The brief" title="Why them, why now.">
+        <Section eyebrow="The brief" title="Why them.">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            {([['Why them', c.brief.why_them], ['Why now', c.brief.why_now], ['Lead with', c.brief.lead_with], ['Minimum savings', c.brief.minimum_savings], ['What Hyphenate may not cover', c.brief.may_not_cover], ['Angle', c.brief.angle]] as const).map(([k, v]) => (
+            {([['Why them', c.brief.why_them], ['Lead with', c.brief.lead_with], ['Minimum savings', c.brief.minimum_savings], ['What Hyphenate may not cover', c.brief.may_not_cover], ['Angle', c.brief.angle]] as const).map(([k, v]) => (
               <div key={k} className="card p-5"><Mono>{k}</Mono><p className="mt-2 text-[16px] leading-relaxed">{v}</p></div>
             ))}
           </div>
@@ -163,11 +163,10 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
       </Section>
 
       <Section id="score" eyebrow="Score breakdown" title={`Lead score ${c.lead_score.toFixed(0)} out of 100.`}>
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           {([
             ['Hyphenate can do the work', c.pain, c.lead_parts.pain, `On average ${pct(c.avg_overlap)} of the duties in their ${c.open_roles} open finance ${c.open_roles === 1 ? 'role are' : 'roles are'} work Hyphenate advertises. More open roles raise this part.`],
             ['Looks like a Hyphenate customer', c.fit, c.lead_parts.fit, `ERP: ${c.erp.join(', ') || 'not stated'}. Size: ${c.employee_band ?? 'unknown'}${c.employee_band ? ' (unverified estimate)' : ''}. Complex finance: ${Object.entries(c.complexity_flags).filter(([, v]) => v).map(([k]) => k.replace(/_/g, ' ')).join(', ') || 'none stated'}.`],
-            ['Potential paying customer', c.timing, c.lead_parts.timing, c.top_trigger ? `${TRIGGER_LABELS[c.top_trigger.trigger_type]} on ${shortDate(c.top_trigger.event_date)}.${c.top_trigger.age_multiplier < 1 ? ' Counts half because it is over 90 days old.' : ''}` : c.news_searched ? 'No qualifying news in the last 180 days.' : 'News is only searched for the 30 strongest companies by the first two parts.'],
           ] as const).map(([name, v, pts, text]) => (
             <div key={name} className="card p-5">
               <div className="flex items-baseline justify-between gap-2"><span className="font-medium">{name}</span><span className="num font-mono text-[12px] text-ink-display">{pts.toFixed(1)} pts</span></div>
@@ -176,32 +175,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
             </div>
           ))}
         </div>
-        <div className="mt-4"><Note>Default weights: 50% for the work Hyphenate does, 25% for looking like a Hyphenate customer, 25% for being a potential paying customer. <Link href="/method#scoring" className="link">How scores are calculated</Link>.</Note></div>
-      </Section>
-
-      <Section eyebrow="Why now" title={c.triggers.length ? `${c.triggers.length} trigger ${c.triggers.length === 1 ? 'event' : 'events'}.` : 'No trigger events found.'}>
-        {c.triggers.length ? (
-          <div className="card overflow-hidden">
-            {[...c.triggers].sort((a, b) => (b.event_date ?? '').localeCompare(a.event_date ?? '')).map((t) => (
-              <div key={t.url} className="dash-row grid grid-cols-1 gap-2 px-5 py-4 sm:grid-cols-[10rem_12rem_1fr]">
-                <Mono>{shortDate(t.event_date)}</Mono>
-                <span className="text-[14px] font-medium">{TRIGGER_LABELS[t.trigger_type] ?? t.trigger_type}</span>
-                <span className="text-[14px]">
-                  <a href={t.url} target="_blank" rel="noreferrer" className="link">{t.headline}</a>
-                  <span className="mt-1 block text-ink-muted">{t.summary} · {t.source} · confidence {t.confidence.toFixed(2)}</span>
-                  {t.also_reported && t.also_reported.length > 0 && (
-                    <span className="mt-1.5 block text-[13px] text-ink-muted">
-                      Also reported by{' '}
-                      {t.also_reported.map((o, i) => (
-                        <span key={o.url}>{i > 0 && ', '}<a href={o.url} target="_blank" rel="noreferrer" className="link" title={o.headline}>{o.source || 'another outlet'}</a></span>
-                      ))}
-                    </span>
-                  )}
-                </span>
-              </div>
-            ))}
-          </div>
-        ) : <Note>{c.news_searched ? 'Google News and newsroom feeds were searched; nothing qualified (confidence ≥ 0.7, company named in the headline, within 180 days).' : 'News runs only for the top 30 companies by pain and fit.'}</Note>}
+        <div className="mt-4"><Note>Default weights: 67% for the work Hyphenate does, 33% for looking like a Hyphenate customer. <Link href="/method#scoring" className="link">How scores are calculated</Link>.</Note></div>
       </Section>
 
       <Section id="savings" eyebrow="The money" title={c.savings_roles ? `At least ${usd(c.savings_total)} a year across ${c.savings_roles} ${c.savings_roles === 1 ? 'role' : 'roles'}.` : 'No salary posted, so no figure.'}>

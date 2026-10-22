@@ -1,6 +1,6 @@
 {
   "as_of": "2026-10-21",
-  "generated_at": "2026-10-22T03:44:07.865Z",
+  "generated_at": "2026-10-22T04:09:39.697Z",
   "mode": "pipeline",
   "model": "gpt-5.4-mini",
   "headlines": {
@@ -69,17 +69,17 @@
         "1 thin postings",
         "147 with salary"
       ],
-      "at": "2026-10-22T03:33:14.756Z"
+      "at": "2026-10-22T04:08:26.314Z"
     },
     "publish": {
       "stage": "publish",
-      "in": 165,
-      "out": 165,
+      "in": 161,
+      "out": 161,
       "notes": [
-        "95 companies",
-        "7027/7093 duty spans located in posting text"
+        "96 companies",
+        "6829/6897 duty spans located in posting text"
       ],
-      "at": "2026-10-21T18:27:35.143Z"
+      "at": "2026-10-22T03:44:07.866Z"
     },
     "gaps": {
       "stage": "gaps",
@@ -91,15 +91,6 @@
       ],
       "at": "2026-10-22T03:43:02.454Z"
     },
-    "news": {
-      "stage": "news",
-      "in": 322,
-      "out": 86,
-      "notes": [
-        "30 companies searched"
-      ],
-      "at": "2026-10-21T18:15:18.821Z"
-    },
     "brief": {
       "stage": "brief",
       "in": 15,
@@ -108,7 +99,7 @@
       "notes": [
         "every kept brief passed the fact check"
       ],
-      "at": "2026-10-22T03:44:07.509Z"
+      "at": "2026-10-22T04:09:39.353Z"
     }
   },
   "cost_report": {
@@ -161,21 +152,17 @@
       "unpriced_calls": 2
     },
     "brief": {
-      "calls": 31,
+      "calls": 46,
       "cached": 0,
-      "input_tokens": 22373,
-      "output_tokens": 22253,
+      "input_tokens": 31327,
+      "output_tokens": 33388,
       "cost_usd": 0,
-      "unpriced_calls": 31
+      "unpriced_calls": 46
     }
   },
   "spans": {
     "found": 6829,
     "total": 6897
-  },
-  "news": {
-    "as_of": "2026-10-21",
-    "companies_searched": 30
   },
   "briefs": {
     "count": 15,
@@ -702,9 +689,8 @@
   },
   "config": {
     "LEAD_WEIGHTS": {
-      "pain": 0.5,
-      "fit": 0.25,
-      "timing": 0.25
+      "pain": 0.6666666666666666,
+      "fit": 0.3333333333333333
     },
     "PAIN": {
       "overlapWeight": 0.8,
@@ -735,31 +721,6 @@
       "twoOrMore": 1,
       "one": 0.5,
       "none": 0.2
-    },
-    "TRIGGER_WEIGHTS": {
-      "acquisition": 1,
-      "new_finance_leader": 0.9,
-      "erp_change": 0.9,
-      "ipo_sox": 0.9,
-      "funding": 0.8,
-      "international_expansion": 0.7,
-      "usage_based_pricing": 0.7,
-      "restructuring": 0.4
-    },
-    "TRIGGER_AGE": [
-      {
-        "maxDays": 90,
-        "multiplier": 1
-      },
-      {
-        "maxDays": 180,
-        "multiplier": 0.5
-      }
-    ],
-    "NEWS": {
-      "topCompanies": 30,
-      "minConfidence": 0.7,
-      "maxItemsPerCompany": 15
     },
     "OVERLAP": {
       "assistedWeight": 0.5,

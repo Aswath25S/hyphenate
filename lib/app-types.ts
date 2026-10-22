@@ -47,7 +47,6 @@ export type Meta = {
   stage_stats: Record<string, StageStat>;
   cost_report: Record<string, { calls: number; cached: number; input_tokens: number; output_tokens: number; cost_usd: number; unpriced_calls?: number }>;
   spans: { found: number; total: number };
-  news: { as_of: string | null; companies_searched: number };
   briefs: { count: number; dropped: number };
   coverage: CoverageMap;
   config: Record<string, unknown>;

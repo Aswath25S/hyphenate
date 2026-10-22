@@ -1,6 +1,6 @@
 /**
  * npm run pipeline            → all stages in order
- * npm run stage -- <name>     → one stage (collect, filter, extract, match, score, news, gaps, brief, publish)
+ * npm run stage -- <name>     → one stage (collect, filter, extract, match, score, gaps, brief, publish)
  * Options: --limit N (extract only), --as-of YYYY-MM-DD
  */
 import fs from 'node:fs';
@@ -9,7 +9,6 @@ import { filter } from './stages/filter';
 import { extract } from './stages/extract';
 import { match } from './stages/match';
 import { score } from './stages/score';
-import { news } from './stages/news';
 import { gaps } from './stages/gaps';
 import { brief } from './stages/brief';
 import { publish } from './stages/publish';
@@ -28,7 +27,6 @@ const STAGES: Record<string, () => Promise<void>> = {
   extract: () => extract({ limit }),
   match: () => match(),
   score: () => score(),
-  news: () => news(asOf),
   gaps: () => gaps(),
   brief: () => brief(asOf),
   publish: () => publish({ asOf }),

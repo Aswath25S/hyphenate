@@ -42,13 +42,6 @@ export async function getJson<T = unknown>(url: string): Promise<T> {
   return (await res.json()) as T;
 }
 
-/** For RSS/XML feeds. */
-export async function getXml(url: string): Promise<string> {
-  const res = await rawGet(url, 'application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.5');
-  if (!res.ok) throw new FetchError(url, res.status, `GET ${url} → ${res.status}`);
-  return await res.text();
-}
-
 async function disallowed(u: URL): Promise<boolean> {
   let rules = robotsCache.get(u.host);
   if (!rules) {

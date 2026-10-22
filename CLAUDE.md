@@ -8,8 +8,8 @@ Prospect-intelligence prototype: finance job postings → single duties → cove
 source venv/bin/activate          # Node is linked into the venv via nodeenv
 npm install
 cp .env.example .env              # set OPENAI_API_KEY
-npm run pipeline                  # all 9 stages
-npm run stage -- <name>           # one stage: collect filter extract match score news gaps brief publish
+npm run pipeline                  # all 8 stages
+npm run stage -- <name>           # one stage: collect filter extract match score gaps brief publish
 npm run stage -- filter --as-of 2026-10-20
 npm run golden                    # rerun the 10 hand-labelled fixtures, report agreement
 npm run preview:fixtures          # build data/app from fixture hand labels (no API key needed)

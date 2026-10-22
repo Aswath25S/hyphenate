@@ -83,27 +83,6 @@ export type DutyLabel = z.infer<typeof DutyLabelSchema>;
 
 export const MatchOutputSchema = z.object({ labels: z.array(DutyLabelSchema) });
 
-/* ---------- News ---------- */
-
-export const TRIGGER_TYPES = [
-  'acquisition', 'new_finance_leader', 'erp_change', 'ipo_sox', 'funding',
-  'international_expansion', 'usage_based_pricing', 'restructuring', 'none',
-] as const;
-export type TriggerType = (typeof TRIGGER_TYPES)[number];
-
-export const NewsClassificationSchema = z.object({
-  items: z.array(
-    z.object({
-      item_id: z.string(),
-      trigger_type: z.enum(TRIGGER_TYPES),
-      event_date: z.string().nullable(),
-      summary: z.string(),
-      confidence: z.number().min(0).max(1),
-      company_named_in_headline: z.boolean(),
-    }),
-  ),
-});
-
 /* ---------- Gaps ---------- */
 
 export const GAP_BUCKETS = ['human_work', 'possible_gap', 'unclear'] as const;
@@ -130,7 +109,6 @@ export const ClusterOutputSchema = z.object({
 export const BriefOutputSchema = z.object({
   headline: z.string().min(1),
   why_them: z.string().min(1),
-  why_now: z.string(),
   lead_with: z.string().min(1),
   minimum_savings: z.string(),
   may_not_cover: z.string(),

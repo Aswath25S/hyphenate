@@ -33,7 +33,7 @@ export type CompanyBase = {
   complexity_flags: { multi_entity: boolean; multi_currency: boolean; usage_based_billing: boolean; high_volume: boolean };
   complexity_count: number; complexity_score: number; fit: number;
   product_split: ProductSplit; lead_product: string | null; tools: string[];
-  savings_total: number; savings_roles: number; salary_roles: number; newsroom_rss: string | null;
+  savings_total: number; savings_roles: number; salary_roles: number;
 };
 
 export function scorePosting(p: ExtractedPosting, m: MatchedPosting | null, capProduct: Record<string, string>): PostingScore {
@@ -91,7 +91,7 @@ export function scoreCompanies(postings: PostingScore[], seeds: Seed[]): Company
       complexity_flags: flags, complexity_count: cx.count, complexity_score: cx.score, fit: fitScore(es, ss, cx.score),
       product_split: split, lead_product: leadProduct(split), tools: [...new Set(ps.flatMap((p) => p.tools))].sort(),
       savings_total: eligible.reduce((a, p) => a + (p.savings.value ?? 0), 0), savings_roles: eligible.length,
-      salary_roles: ps.filter((p) => p.salary.min !== null).length, newsroom_rss: seed?.newsroom_rss || null,
+      salary_roles: ps.filter((p) => p.salary.min !== null).length,
     });
   }
   return out.sort((a, b) => b.pain + b.fit - (a.pain + a.fit));

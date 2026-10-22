@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { BriefOutputSchema, ClusterOutputSchema, DutyLabelSchema, ExtractionOutputSchema, MatchOutputSchema, NewsClassificationSchema, NormaliseOutputSchema } from '../lib/schemas';
+import { BriefOutputSchema, ClusterOutputSchema, DutyLabelSchema, ExtractionOutputSchema, MatchOutputSchema, NormaliseOutputSchema } from '../lib/schemas';
 import { titleCheckSchema } from '../pipeline/prompts/filter';
 import { toResponseSchema } from '../pipeline/lib/llm';
 
@@ -24,17 +24,15 @@ describe('LLM output schemas', () => {
     expect(DutyLabelSchema.safeParse({ duty_id: 'a', label: 'maybe', capability_id: null, confidence: 0.5, rationale: 'x' }).success).toBe(false);
     expect(MatchOutputSchema.safeParse({ labels: [] }).success).toBe(true);
   });
-  it('news, gaps, brief and title schemas parse valid shapes', () => {
-    expect(NewsClassificationSchema.safeParse({ items: [{ item_id: 'a', trigger_type: 'funding', event_date: '2026-09-01', summary: 's', confidence: 0.9, company_named_in_headline: true }] }).success).toBe(true);
-    expect(NewsClassificationSchema.safeParse({ items: [{ item_id: 'a', trigger_type: 'merger', event_date: null, summary: 's', confidence: 0.9, company_named_in_headline: true }] }).success).toBe(false);
+  it('gaps, brief and title schemas parse valid shapes', () => {
     expect(NormaliseOutputSchema.safeParse({ items: [{ duty_id: 'a', canonical: 'file sales tax returns' }] }).success).toBe(true);
     expect(ClusterOutputSchema.safeParse({ themes: [{ theme_id: 't', name: 'Tax', description: 'd', bucket: 'possible_gap', task_ids: [0, 1] }] }).success).toBe(true);
     expect(ClusterOutputSchema.safeParse({ themes: [{ theme_id: 't', name: 'Tax', description: 'd', bucket: 'gap', task_ids: [] }] }).success).toBe(false);
-    expect(BriefOutputSchema.safeParse({ headline: 'h', why_them: 'w', why_now: '', lead_with: 'l', minimum_savings: '', may_not_cover: '', angle: 'a' }).success).toBe(true);
+    expect(BriefOutputSchema.safeParse({ headline: 'h', why_them: 'w', lead_with: 'l', minimum_savings: '', may_not_cover: '', angle: 'a' }).success).toBe(true);
     expect(titleCheckSchema.safeParse({ items: [{ id: '1', keep: true, reason: 'r' }] }).success).toBe(true);
   });
   it('every schema converts to a strict tool schema', () => {
-    for (const s of [ExtractionOutputSchema, MatchOutputSchema, NewsClassificationSchema, NormaliseOutputSchema, ClusterOutputSchema, BriefOutputSchema, titleCheckSchema]) {
+    for (const s of [ExtractionOutputSchema, MatchOutputSchema, NormaliseOutputSchema, ClusterOutputSchema, BriefOutputSchema, titleCheckSchema]) {
       const j = toResponseSchema(s) as { type: string; additionalProperties: boolean };
       expect(j.type).toBe('object');
       expect(j.additionalProperties).toBe(false);

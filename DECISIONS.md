@@ -67,3 +67,9 @@ Choices made inside the spec's latitude. Newest at the bottom of each section.
 - **Roles.** The spec's 90% similarity threshold missed copies of one role posted for different locations (Reddit UK/US, Oscar Health). Same company + same normalised title now merges at 75%. Different titles merge only when the descriptions are near-verbatim (≥ 95%) and the titles do not differ only by a site suffix, so "Plant Controller, Cape / Stennis / Long Beach" stay three openings. This merged 5 postings (Fivetran, Oscar Health, Reddit ×2, Samsara).
 - **Left separate on purpose:** level variants with different titles and 83–90% similar text (Samsara "Revenue Accounting Manager" vs "Senior Manager, Revenue Accounting"; Headway "Strategic Finance Manager" vs "Senior Strategic Finance Manager"; Mixpanel G&A vs GTM). They may be one hiring need at two levels; review if you want them merged.
 - **Re-run scope.** Filter was re-run with `--as-of 2026-10-21` on the already-collected postings, then extract → publish. News was not re-fetched. Astranis's Financial Analyst posting sits on the 60-day edge and is now included.
+
+## Triggers removed (22 Oct 2026, user decision)
+
+- **The news/trigger feature was removed from the demo** as too heavy for its purpose: the news stage, Google News RSS fetching, trigger classification and dedupe, the "Why now" section, the trigger filter and column, and the brief's "why now" field. The pipeline is now eight stages.
+- **Lead score is now pain and fit only.** The 25% timing weight was dropped and the other two keep their 2:1 ratio: pain 2/3 (≈67%), fit 1/3 (≈33%), in `config/scoring.ts → LEAD_WEIGHTS`. This changes the scoring formula from the spec at the user's request. Rankings shifted (Latitude still first); briefs were regenerated for the new top 15.
+- The earlier "Deduplication" note's trigger part no longer applies; the role dedupe still does.

@@ -9,7 +9,6 @@ export const BRIEF_SYSTEM = `You write short sales-research briefs from structur
 Fields:
 - headline: one sentence naming the company and the most telling open role, e.g. "Acme is hiring its third AR specialist to match payments by hand."
 - why_them: one or two sentences on overlap, open roles and ERP.
-- why_now: one sentence on the strongest trigger event, or "No recent trigger event found." if none.
 - lead_with: the lead product name and a few words on why.
 - minimum_savings: one sentence using the given minimum savings figure and role count, phrased as work that could be absorbed before the next hire; or "No salary posted, so no figure." if none.
 - may_not_cover: one sentence naming the top gap themes as "not on Hyphenate's public site", or "None found." if none.

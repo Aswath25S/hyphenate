@@ -45,7 +45,7 @@ export const fake: Transport = async ({ format, user }) => {
       ...usage,
       output: {
         headline: `${data.company} is hiring for finance work.`, why_them: `Average overlap is ${data.average_overlap}.`,
-        why_now: 'No recent trigger event found.', lead_with: `${data.lead_product}.`,
+        lead_with: `${data.lead_product}.`,
         minimum_savings: data.minimum_savings ? `It is ${data.minimum_savings}.` : 'No salary posted, so no figure.',
         may_not_cover: 'None found.', angle: 'Hire after the agents take the routine work.',
       },

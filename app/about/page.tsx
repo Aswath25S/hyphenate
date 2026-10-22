@@ -31,7 +31,7 @@ export default function AboutPage() {
       <Section eyebrow="Why I built it" title="Job postings are a buying signal hiding in plain sight.">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1.2fr_1fr]">
           <div className="space-y-4 text-[17px] leading-relaxed text-ink/85">
-            <p>When a company posts a job for an accounts payable clerk or a staff accountant, it is announcing that it is about to spend money on work Hyphenate&apos;s agents already do. Company news, such as a funding round or a new CFO, explains why now.</p>
+            <p>When a company posts a job for an accounts payable clerk or a staff accountant, it is announcing that it is about to spend money on work Hyphenate&apos;s agents already do.</p>
             <p>I wanted to know how often that is true, which companies it is true for, and what those postings ask for that Hyphenate does not yet advertise. So I read {h ? `${h.postings} open finance postings from ${h.companies} US companies` : 'open finance job postings'}, duty by duty, and matched every duty against Hyphenate&apos;s public product pages.</p>
             <p>The result is a ranked lead list for sales, a gap report for product, and a conservative estimate of the salary tied to work Hyphenate could take on. Every number links back to the posting text that produced it, so you can check my work.</p>
           </div>

@@ -10,11 +10,11 @@ Data as of 2026-10-21. 161 US finance postings from 96 companies, read duty by d
 
 ## Who to call first
 
-- **Latitude** (lead score 67): 1 open role, 78% overlap, lead with Procure-to-pay; trigger: Latitude Raises $35 Million Series A to Scale Stablecoin Payments Infrastructure - citybiz.
-- **ElevenLabs** (lead score 64): 1 open role, 67% overlap, lead with GL accounting; trigger: ElevenLabs Hires CFO, Eyes 2028 IPO - The Information.
-- **ClickHouse** (lead score 63): 1 open role, 55% overlap, lead with GL accounting; trigger: ClickHouse acquires RunReveal to deepen its push into security analytics - Dealroom.
-- **Applied Intuition** (lead score 63): 3 open roles, 34% overlap, lead with GL accounting; trigger: Applied Intuition Fields Offers at $30 Billion Valuation - The Information.
-- **Avetta** (lead score 61): 1 open role, 32% overlap, lead with Order-to-cash; trigger: EQT acquires Avetta from WCAS (supply-chain risk SaaS, Apr 2024) - Dealroom.
+- **Latitude** (lead score 63): 1 open role, 78% overlap, lead with Procure-to-pay.
+- **Applied Intuition** (lead score 57): 3 open roles, 34% overlap, lead with GL accounting.
+- **Saronic** (lead score 57): 4 open roles, 29% overlap, lead with GL accounting.
+- **ElevenLabs** (lead score 55): 1 open role, 67% overlap, lead with GL accounting.
+- **AngelList** (lead score 55): 1 open role, 45% overlap, lead with GL accounting.
 
 ## What prospects will ask about
 

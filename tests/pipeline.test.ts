@@ -5,12 +5,10 @@ import { checkClusters } from '../pipeline/prompts/gaps';
 import { checkExtraction } from '../pipeline/prompts/extract';
 import { dedupe, postingId } from '../pipeline/stages/filter';
 import { boardSalary, buildPosting } from '../pipeline/stages/extract';
-import { headlineNamesCompany } from '../pipeline/stages/news';
 import { htmlToText, locateSpan, normaliseTitle, textSimilarity } from '../pipeline/lib/text';
 import { parseRobots, assertAllowedHost } from '../pipeline/lib/fetch';
 import { classifyTitle } from '../pipeline/lib/roles';
 import { isUsLocation } from '../pipeline/lib/geo';
-import { parseFeed } from '../pipeline/lib/rss';
 import type { FilteredPosting } from '../pipeline/lib/types';
 
 const caps = new Set(['tre.bank_rec', 'gl.journal_entries']);
@@ -144,21 +142,10 @@ describe('role and location rules', () => {
     expect(isUsLocation(['London, UK'])).toBe(false);
     expect(isUsLocation(['Toronto, ON'])).toBe(false);
   });
-  it('checks the company is named in a headline', () => {
-    expect(headlineNamesCompany('Acme raises $40M Series C', 'Acme')).toBe(true);
-    expect(headlineNamesCompany('Acmeville council meets', 'Acme')).toBe(false);
-  });
 });
 
-describe('RSS parsing', () => {
-  it('reads Google News style items', () => {
-    const xml = `<?xml version="1.0"?><rss><channel><item><title>Acme acquires Beta - Reuters</title><link>https://news.example/1</link><pubDate>Tue, 01 Sep 2026 10:00:00 GMT</pubDate><source url="https://reuters.com">Reuters</source><description>&lt;a href="x"&gt;Acme acquires Beta&lt;/a&gt;</description></item></channel></rss>`;
-    const [it] = parseFeed(xml);
-    expect(it).toMatchObject({ title: 'Acme acquires Beta - Reuters', link: 'https://news.example/1', published: '2026-09-01', source: 'Reuters', snippet: 'Acme acquires Beta' });
-  });
-});
 
-describe('role and trigger dedupe', () => {
+describe('role dedupe', () => {
   it('treats same-title copies and near-verbatim retitles as one role, but not separate sites', async () => {
     const { isSameRole } = await import('../pipeline/stages/filter');
     const { isSiteVariant } = await import('../pipeline/lib/text');
@@ -171,15 +158,4 @@ describe('role and trigger dedupe', () => {
     expect(isSameRole({ title: 'Plant Controller, Cape', text: base }, { title: 'Plant Controller, Stennis', text: base })).toBe(false);
   });
 
-  it('collapses one story covered by several outlets into one trigger, keeping the scoring item', async () => {
-    const { dedupeTriggers } = await import('../pipeline/lib/triggers');
-    const t = (source: string, date: string, type = 'acquisition', confidence = 0.9) => ({ trigger_type: type, event_date: date, summary: 's', confidence, headline: `${source} headline`, url: `https://${source}.com/x`, source, published: date, fetched_at: '' });
-    const out = dedupeTriggers([t('a', '2026-09-02'), t('b', '2026-09-02', 'acquisition', 0.99), t('c', '2026-05-27', 'ipo_sox'), t('d', '2026-05-28', 'ipo_sox'), t('e', '2026-03-01')], '2026-10-21');
-    expect(out).toHaveLength(3);
-    const acq = out.find((x) => x.event_date === '2026-09-02')!;
-    expect(acq.source).toBe('b');
-    expect(acq.also_reported?.map((x) => x.source)).toEqual(['a']);
-    // A different acquisition months earlier stays separate.
-    expect(out.filter((x) => x.trigger_type === 'acquisition')).toHaveLength(2);
-  });
 });

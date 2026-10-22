@@ -8,7 +8,7 @@ import { callLlm, hasCredentials } from '../lib/llm';
 import { computeLeads, type CompanyLead } from '../lib/leads';
 import { BRIEF_SYSTEM, BRIEF_TOOL, briefSchema, briefUser, factCheckBrief } from '../prompts/brief';
 import { recordStage } from '../lib/stats';
-import { PRODUCT_ORDER, ROLE_LABELS, TRIGGER_LABELS, pct, shortDate, usd } from '../../lib/format';
+import { PRODUCT_ORDER, ROLE_LABELS, pct, usd } from '../../lib/format';
 import type { BriefOutput } from '../../lib/schemas';
 import type { CompanyBase, PostingScore } from './score';
 import type { GapTheme } from './gaps';
@@ -16,7 +16,7 @@ import type { GapTheme } from './gaps';
 const ALLOWED = [
   ...PRODUCT_ORDER, 'AR', 'AP', 'GL', 'FP&A', 'CFO', 'ERP', 'ASC', 'Hyphenate', "Hyphenate's", 'No', 'None', 'Lead', 'Why',
   'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December',
-  ...Object.values(TRIGGER_LABELS), ...Object.values(ROLE_LABELS), 'Order', 'Reporting', 'Treasury', 'Procure',
+  ...Object.values(ROLE_LABELS), 'Order', 'Reporting', 'Treasury', 'Procure',
 ];
 
 export function briefData(c: CompanyLead, postings: PostingScore[], themes: GapTheme[]) {
@@ -34,9 +34,6 @@ export function briefData(c: CompanyLead, postings: PostingScore[], themes: GapT
     erp: c.erp.length ? c.erp : ['not stated'],
     lead_product: c.lead_product ?? 'none',
     lead_product_duties: lp ? { covered: lp.covered, assisted: lp.assisted } : null,
-    strongest_trigger: c.top_trigger
-      ? { type: TRIGGER_LABELS[c.top_trigger.trigger_type] ?? c.top_trigger.trigger_type, date: shortDate(c.top_trigger.event_date), headline: c.top_trigger.headline, summary: c.top_trigger.summary }
-      : null,
     minimum_savings: c.savings_roles ? `at least ${usd(c.savings_total)} a year across ${c.savings_roles} ${c.savings_roles === 1 ? 'role' : 'roles'}` : null,
     top_gap_themes: topGaps,
     tools_named_in_postings: c.tools,
@@ -48,11 +45,9 @@ export async function brief(asOf = new Date()) {
   const asOfStr = asOf.toISOString().slice(0, 10);
   const companies = readJson<CompanyBase[]>(path.join(P.processed, 'scored_companies.json'));
   const postings = readJson<PostingScore[]>(path.join(P.processed, 'scored_postings.json'));
-  const newsFile = path.join(P.processed, 'news.json');
-  const news = fs.existsSync(newsFile) ? readJson<{ companies: string[]; triggers: Record<string, never[]> }>(newsFile) : null;
   const gapsFile = path.join(P.processed, 'gaps.json');
   const themes = fs.existsSync(gapsFile) ? readJson<{ themes: GapTheme[] }>(gapsFile).themes : [];
-  const leads = computeLeads(companies, news, asOfStr).filter((c) => c.rank !== null).slice(0, BRIEFS.topCompanies);
+  const leads = computeLeads(companies).filter((c) => c.rank !== null).slice(0, BRIEFS.topCompanies);
   const out: Record<string, { brief: BriefOutput; data: ReturnType<typeof briefData>; attempts: number }> = {};
   const dropped: { company: string; problems: string[] }[] = [];
 

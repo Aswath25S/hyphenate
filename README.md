@@ -2,7 +2,7 @@
 
 An independent prototype that reads US finance and CFO-office job postings, splits each into single duties, and measures how many of those duties Hyphenate's AI agents already advertise. One extraction engine feeds three outputs:
 
-- **Leads.** Which companies need Hyphenate now, and which product to lead with.
+- **Leads.** Which companies need Hyphenate most, and which product to lead with.
 - **Gaps.** What postings ask for that Hyphenate's public site does not mention.
 - **Minimum savings.** How much yearly salary is tied to duties Hyphenate already covers, as a deliberate floor.
 
@@ -16,7 +16,7 @@ Requires Node 20+ (the repo's `venv` links Node via nodeenv) and an OpenAI API k
 source venv/bin/activate
 npm install
 cp .env.example .env          # set OPENAI_API_KEY
-npm run pipeline              # collect → filter → extract → match → score → news → gaps → brief → publish
+npm run pipeline              # collect → filter → extract → match → score → gaps → brief → publish
 npm run findings              # writes FINDINGS.md from the published data
 npm run dev                   # http://localhost:3000
 ```
@@ -31,7 +31,7 @@ Other commands:
 
 | Command | What it does |
 | --- | --- |
-| `npm run stage -- <name>` | Run one stage. Add `--as-of YYYY-MM-DD` to pin the 60-day window and trigger ages. |
+| `npm run stage -- <name>` | Run one stage. Add `--as-of YYYY-MM-DD` to pin the 60-day window. |
 | `npm run golden` | Rerun extraction and matching on the fixtures; writes `tests/fixtures/golden_report.json` (M1/M2 targets). |
 | `npm run spotcheck` | Sample 20 random labels into `docs/spot-check.md` for human grading. |
 | `npm run report:collection` | Rewrite `docs/collection-report.md`. |

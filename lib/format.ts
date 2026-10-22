@@ -1,17 +1,6 @@
 /** Display formatting shared by pipeline (briefs) and UI. */
 export const PRODUCT_ORDER = ['Order-to-cash', 'Treasury', 'GL accounting', 'Procure-to-pay', 'Reporting'];
 
-export const TRIGGER_LABELS: Record<string, string> = {
-  acquisition: 'Acquisition',
-  new_finance_leader: 'New CFO or controller',
-  erp_change: 'ERP change',
-  ipo_sox: 'IPO or SOX readiness',
-  funding: 'Funding round',
-  international_expansion: 'International expansion',
-  usage_based_pricing: 'Usage-based pricing',
-  restructuring: 'Restructuring',
-};
-
 export const ROLE_LABELS: Record<string, string> = {
   AR: 'AR', AP: 'AP', GL: 'GL', Revenue: 'Revenue', Treasury: 'Treasury', Reporting_FPA: 'Reporting & FP&A',
   Close_Mgmt: 'Close mgmt', Controller: 'Controller', Payroll: 'Payroll', Tax: 'Tax', Other: 'Other',

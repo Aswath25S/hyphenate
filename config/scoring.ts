@@ -3,7 +3,8 @@
  * file; nothing else hard-codes a weight, discount or threshold.
  */
 
-export const LEAD_WEIGHTS = { pain: 0.5, fit: 0.25, timing: 0.25 };
+// Timing (news triggers) was removed on 22 Oct 2026; pain and fit keep their 2:1 ratio.
+export const LEAD_WEIGHTS = { pain: 2 / 3, fit: 1 / 3 };
 
 export const PAIN = {
   overlapWeight: 0.8,
@@ -38,31 +39,6 @@ export const SIZE_SCORES = { inBand: 1.0, unknown: 0.5, outOfBand: 0.3 };
 export const SIZE_BAND = { min: 200, max: 5000 };
 
 export const COMPLEXITY_SCORES = { twoOrMore: 1.0, one: 0.5, none: 0.2 };
-
-export const TRIGGER_WEIGHTS: Record<string, number> = {
-  acquisition: 1.0,
-  new_finance_leader: 0.9,
-  erp_change: 0.9,
-  ipo_sox: 0.9,
-  funding: 0.8,
-  international_expansion: 0.7,
-  usage_based_pricing: 0.7,
-  restructuring: 0.4,
-};
-
-export const TRIGGER_AGE = [
-  { maxDays: 90, multiplier: 1.0 },
-  { maxDays: 180, multiplier: 0.5 },
-];
-
-/** News items of the same trigger type this close together describe one event. */
-export const TRIGGER_DEDUPE_DAYS = 14;
-
-export const NEWS = {
-  topCompanies: 30, // run news only for the top N by pain + fit
-  minConfidence: 0.7,
-  maxItemsPerCompany: 15,
-};
 
 export const OVERLAP = {
   assistedWeight: 0.5, // weighted overlap = (C + 0.5A) / n

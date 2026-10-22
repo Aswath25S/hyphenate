@@ -4,7 +4,7 @@ import { Container, Mono, Note, PageHero, Section } from '@/components/ui';
 import { getMeta } from '@/lib/data';
 import * as C from '@/config/scoring';
 import { COVERAGE_AS_OF } from '@/config/site';
-import { TRIGGER_LABELS, pct, shortDate } from '@/lib/format';
+import { pct, shortDate } from '@/lib/format';
 import coverageMap from '@/config/coverage_map.json';
 
 export const metadata: Metadata = { title: 'Method' };
@@ -15,7 +15,6 @@ const STAGES = [
   ['extract', 'Turn each posting into structured fields and single duties, each with a verbatim source span.', true],
   ['match', 'Label each scored duty against the 30-capability coverage map.', true],
   ['score', 'Compute overlap, fit, pain and minimum savings. Pure code: the same labels always give the same numbers.', false],
-  ['news', 'Fetch Google News RSS for the top 30 companies by pain and fit; classify trigger events.', true],
   ['gaps', 'Normalise uncovered duties into canonical tasks and cluster them into themes.', true],
   ['brief', 'Write a short brief per top-15 company from structured data only; fact-check it in code.', true],
   ['publish', 'Write the JSON files this dashboard reads.', false],
@@ -54,7 +53,7 @@ export default function MethodPage() {
         meta={meta ? `As of ${meta.as_of} · model ${meta.model} · generated ${shortDate(meta.generated_at)}` : 'No pipeline run yet'}
       />
 
-      <Section id="how" eyebrow="How it works" title="Nine stages, each rerunnable on its own.">
+      <Section id="how" eyebrow="How it works" title="Eight stages, each rerunnable on its own.">
         <div className="card overflow-x-auto">
           <table className="w-full min-w-[720px] text-[14px]">
             <thead className="border-b border-line"><tr>{['', 'Stage', 'What it does', 'LLM', 'In → out'].map((h, i) => <th key={i} className={`px-4 py-3 text-left font-normal ${i === 4 ? 'text-right' : ''}`}><Mono>{h}</Mono></th>)}</tr></thead>
@@ -117,15 +116,13 @@ export default function MethodPage() {
           <div className="card p-5"><Mono>Overlap</Mono>
             <KV rows={[['Covered share', 'C ÷ n'], ['Overlap (headline)', '(C + A) ÷ n'], ['Weighted overlap (lead score)', `(C + ${C.OVERLAP.assistedWeight}A) ÷ n`], ['Thin posting', `< ${C.OVERLAP.thinPostingMinDuties} scored duties`], ['Strong lead (gaps)', `overlap ≥ ${pct(C.OVERLAP.strongLeadOverlap)}`]]} /></div>
           <div className="card p-5"><Mono>Lead score</Mono>
-            <KV rows={[['Weight: Hyphenate can do the work (pain)', pct(C.LEAD_WEIGHTS.pain)], ['Weight: looks like a customer (fit)', pct(C.LEAD_WEIGHTS.fit)], ['Weight: potential paying customer (timing)', pct(C.LEAD_WEIGHTS.timing)], ['Pain, overlap part', `${C.PAIN.overlapWeight} × avg weighted overlap`], ['Pain, open-roles part', `${C.PAIN.rolesWeight} × min(roles, ${C.PAIN.rolesCap}) ÷ ${C.PAIN.rolesCap}`], ['Fit formula', `${C.FIT_WEIGHTS.erp} ERP + ${C.FIT_WEIGHTS.size} size + ${C.FIT_WEIGHTS.complexity} complexity`]]} /></div>
+            <KV rows={[['Weight: Hyphenate can do the work (pain)', pct(C.LEAD_WEIGHTS.pain)], ['Weight: looks like a customer (fit)', pct(C.LEAD_WEIGHTS.fit)], ['Pain, overlap part', `${C.PAIN.overlapWeight} × avg weighted overlap`], ['Pain, open-roles part', `${C.PAIN.rolesWeight} × min(roles, ${C.PAIN.rolesCap}) ÷ ${C.PAIN.rolesCap}`], ['Fit formula', `${C.FIT_WEIGHTS.erp} ERP + ${C.FIT_WEIGHTS.size} size + ${C.FIT_WEIGHTS.complexity} complexity`]]} /></div>
           <div className="card p-5"><Mono>Fit factors</Mono>
             <KV rows={[['ERP: NetSuite, SAP, Intacct, Dynamics, Oracle', C.ERP_SCORES.enterprise], ['ERP: not stated', C.ERP_SCORES.notStated], ['ERP: QuickBooks or Xero only', C.ERP_SCORES.smbOnly], [`Size ${C.SIZE_BAND.min.toLocaleString()}–${C.SIZE_BAND.max.toLocaleString()}`, C.SIZE_SCORES.inBand], ['Size unknown / outside', `${C.SIZE_SCORES.unknown} / ${C.SIZE_SCORES.outOfBand}`], ['Complexity 2+ / 1 / none', `${C.COMPLEXITY_SCORES.twoOrMore} / ${C.COMPLEXITY_SCORES.one} / ${C.COMPLEXITY_SCORES.none}`]]} /></div>
-          <div className="card p-5"><Mono>Timing triggers</Mono>
-            <KV rows={[...Object.entries(C.TRIGGER_WEIGHTS).map(([k, v]) => [TRIGGER_LABELS[k] ?? k, v] as [string, number]), ['Age ≤ 90 / ≤ 180 / older', '1.0 / 0.5 / 0']]} /></div>
           <div className="card p-5"><Mono>Minimum savings</Mono>
             <KV rows={[['Formula', 'salary_min × C/n × d'], ['Salary used', 'Bottom of range'], ['Discount d', C.SAVINGS_DEFAULTS.discount], ['Assisted duties', 'Off (or 0.25)'], ['Loaded-cost multiplier', C.SAVINGS_DEFAULTS.loadedCostMultiplier], ['Hourly pay', `× ${C.SALARY.hoursPerYear.toLocaleString()} hours`]]} /></div>
-          <div className="card p-5"><Mono>Collection and news</Mono>
-            <KV rows={[['Posting window', `${C.FILTER.maxAgeDays} days`], ['Dedupe similarity', `≥ ${pct(C.FILTER.dedupeSimilarity)}`], ['News for top companies', C.NEWS.topCompanies], ['Trigger confidence', `≥ ${C.NEWS.minConfidence}`], ['Briefs for top companies', C.BRIEFS.topCompanies], ['Gap themes', `${C.GAPS.minThemes}–${C.GAPS.maxThemes}, merge < ${C.GAPS.minThemeSize}`]]} /></div>
+          <div className="card p-5"><Mono>Collection</Mono>
+            <KV rows={[['Posting window', `${C.FILTER.maxAgeDays} days`], ['Dedupe similarity', `≥ ${pct(C.FILTER.dedupeSimilarity)}`], ['Briefs for top companies', C.BRIEFS.topCompanies], ['Gap themes', `${C.GAPS.minThemes}–${C.GAPS.maxThemes}, merge < ${C.GAPS.minThemeSize}`]]} /></div>
         </div>
         <div className="mt-6 space-y-2">
           <Note>No salary in the posting means no figure; we never estimate one. Thin postings are excluded from savings. Savings are gross value, not net of Hyphenate&apos;s price, and always framed as work Hyphenate could absorb before the next hire.</Note>
@@ -144,10 +141,6 @@ export default function MethodPage() {
           <div className="card p-5 text-[14px] leading-relaxed">
             <Mono>Job postings</Mono>
             <p className="mt-2">Greenhouse, Lever and Ashby public job-board APIs, which companies publish for exactly this purpose. {meta?.collection.seeds ? `${meta.collection.seeds} seed companies, ${meta.collection.total_jobs?.toLocaleString()} jobs scanned, fetched ${shortDate(meta.collection.at)}.` : ''} One request per second per host, an honest user agent. LinkedIn, Indeed and Glassdoor are never fetched.</p>
-          </div>
-          <div className="card p-5 text-[14px] leading-relaxed">
-            <Mono>News</Mono>
-            <p className="mt-2">Google News RSS search per company, plus company newsroom feeds where listed. {meta?.news.as_of ? `Searched ${meta.news.companies_searched} companies as of ${meta.news.as_of}.` : 'Not run yet.'} Every trigger keeps its article URL.</p>
           </div>
           <div className="card p-5 text-[14px] leading-relaxed">
             <Mono>Hyphenate&apos;s capabilities</Mono>

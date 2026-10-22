@@ -4,7 +4,7 @@
  */
 import {
   COMPLEXITY_SCORES, ENTERPRISE_ERPS, ERP_SCORES, FIT_WEIGHTS, LEAD_WEIGHTS, OVERLAP, PAIN,
-  SALARY, SAVINGS_DEFAULTS, SIZE_BAND, SIZE_SCORES, SMB_ERPS, TRIGGER_AGE, TRIGGER_WEIGHTS,
+  SALARY, SAVINGS_DEFAULTS, SIZE_BAND, SIZE_SCORES, SMB_ERPS,
 } from '../config/scoring';
 import type { Label, Salary } from './schemas';
 
@@ -127,7 +127,7 @@ export function leadProduct(split: ProductSplit): string | null {
   return entries[0][0];
 }
 
-/* ---------------- Pain / Fit / Timing ---------------- */
+/* ---------------- Pain / Fit ---------------- */
 
 export function painScore(weightedOverlaps: number[]): { pain: number; avg_weighted_overlap: number; open_roles: number } {
   const open_roles = weightedOverlaps.length;
@@ -189,36 +189,11 @@ export function fitScore(erp: number, size: number, complexity: number): number 
   return FIT_WEIGHTS.erp * erp + FIT_WEIGHTS.size * size + FIT_WEIGHTS.complexity * complexity;
 }
 
-export type Trigger = { trigger_type: string; event_date: string | null; url: string; summary: string; headline?: string };
-
-export function daysBetween(a: string, b: string): number {
-  return Math.floor((new Date(b).getTime() - new Date(a).getTime()) / 86_400_000);
-}
-
-export function ageMultiplier(eventDate: string | null, asOf: string): number {
-  if (!eventDate) return 0;
-  const d = daysBetween(eventDate, asOf);
-  if (Number.isNaN(d) || d < -7) return 0; // malformed or future-dated
-  for (const band of TRIGGER_AGE) if (d <= band.maxDays) return band.multiplier;
-  return 0;
-}
-
-export function timingScore(triggers: Trigger[], asOf: string): { timing: number; top: (Trigger & { weight: number; age_multiplier: number; score: number }) | null } {
-  let best: (Trigger & { weight: number; age_multiplier: number; score: number }) | null = null;
-  for (const t of triggers) {
-    const weight = TRIGGER_WEIGHTS[t.trigger_type] ?? 0;
-    const age_multiplier = ageMultiplier(t.event_date, asOf);
-    const score = weight * age_multiplier;
-    if (score > 0 && (!best || score > best.score)) best = { ...t, weight, age_multiplier, score };
-  }
-  return { timing: best?.score ?? 0, top: best };
-}
-
 export type LeadWeights = typeof LEAD_WEIGHTS;
 
-export function leadScore(pain: number, fit: number, timing: number, w: LeadWeights = LEAD_WEIGHTS) {
-  const parts = { pain: 100 * w.pain * pain, fit: 100 * w.fit * fit, timing: 100 * w.timing * timing };
-  return { score: parts.pain + parts.fit + parts.timing, parts };
+export function leadScore(pain: number, fit: number, w: LeadWeights = LEAD_WEIGHTS) {
+  const parts = { pain: 100 * w.pain * pain, fit: 100 * w.fit * fit };
+  return { score: parts.pain + parts.fit, parts };
 }
 
 /* ---------------- Savings ---------------- */

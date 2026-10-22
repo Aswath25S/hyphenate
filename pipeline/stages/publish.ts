@@ -13,7 +13,6 @@ import { MODEL } from '../lib/llm';
 import type { ExtractedPosting, MatchedPosting } from '../lib/types';
 import type { CompanyBase, PostingScore } from './score';
 import type { GapTheme } from './gaps';
-import type { StoredTrigger } from './news';
 import type { BriefOutput } from '../../lib/schemas';
 
 type CostRow = { calls: number; cached: number; input_tokens: number; output_tokens: number; cost_usd: number; unpriced_calls: number };
@@ -42,14 +41,12 @@ export async function publish(opts: { asOf?: Date; mode?: 'pipeline' | 'fixture_
   const capById = new Map(coverage.capabilities.map((c) => [c.id, c]));
   const scored = readJson<PostingScore[]>(path.join(P.processed, 'scored_postings.json'));
   const companiesBase = readJson<CompanyBase[]>(path.join(P.processed, 'scored_companies.json'));
-  const newsFile = path.join(P.processed, 'news.json');
-  const news = fs.existsSync(newsFile) ? readJson<{ as_of: string; companies: string[]; triggers: Record<string, StoredTrigger[]> }>(newsFile) : null;
   const gapsFile = path.join(P.processed, 'gaps.json');
   const gapData = fs.existsSync(gapsFile) ? readJson<{ themes: GapTheme[] }>(gapsFile) : { themes: [] };
   const briefFile = path.join(P.processed, 'briefs.json');
   const briefs = fs.existsSync(briefFile) ? readJson<{ briefs: Record<string, { brief: BriefOutput; data: unknown }>; dropped: unknown[] }>(briefFile) : { briefs: {}, dropped: [] };
 
-  const leads = computeLeads(companiesBase, news, asOf);
+  const leads = computeLeads(companiesBase);
   const companyByDomain = new Map(leads.map((c) => [c.domain, c]));
   const themeByDuty = new Map<string, { theme_id: string; name: string; bucket: string }>();
   for (const t of gapData.themes) for (const d of t.duty_ids) themeByDuty.set(d, { theme_id: t.theme_id, name: t.name, bucket: t.bucket });
@@ -128,12 +125,11 @@ export async function publish(opts: { asOf?: Date; mode?: 'pipeline' | 'fixture_
   writeJson(path.join(P.app, 'meta.json'), {
     as_of: asOf, generated_at: new Date().toISOString(), mode: opts.mode ?? 'pipeline', model: opts.mode === 'fixture_preview' ? 'hand labels (no model calls)' : MODEL(),
     headlines, stage_stats: stageStats, cost_report: costReport(), spans: { found: spansFound, total: spansTotal },
-    news: { as_of: news?.as_of ?? null, companies_searched: news?.companies.length ?? 0 },
     briefs: { count: Object.keys(briefs.briefs).length, dropped: briefs.dropped.length },
     coverage, config: {
       LEAD_WEIGHTS: CONFIG.LEAD_WEIGHTS, PAIN: CONFIG.PAIN, FIT_WEIGHTS: CONFIG.FIT_WEIGHTS, ERP_SCORES: CONFIG.ERP_SCORES,
       SIZE_SCORES: CONFIG.SIZE_SCORES, SIZE_BAND: CONFIG.SIZE_BAND, COMPLEXITY_SCORES: CONFIG.COMPLEXITY_SCORES,
-      TRIGGER_WEIGHTS: CONFIG.TRIGGER_WEIGHTS, TRIGGER_AGE: CONFIG.TRIGGER_AGE, NEWS: CONFIG.NEWS, OVERLAP: CONFIG.OVERLAP,
+      OVERLAP: CONFIG.OVERLAP,
       SAVINGS_DEFAULTS: CONFIG.SAVINGS_DEFAULTS, FILTER: CONFIG.FILTER,
     },
     collection: { seeds: collection.seeds ?? null, total_jobs: collection.total_jobs ?? null, at: collection.at ?? null },

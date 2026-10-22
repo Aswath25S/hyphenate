@@ -70,7 +70,7 @@ export default function Overview() {
             );
           })}
         </div>
-        <div className="mt-3"><Note>Ranked by lead score, which also weighs how closely each company resembles a Hyphenate customer and recent news. See <Link href="/leads" className="link">all lead companies</Link> for the full ranking.</Note></div>
+        <div className="mt-3"><Note>Ranked by lead score, which also weighs how closely each company resembles a Hyphenate customer. See <Link href="/leads" className="link">all lead companies</Link> for the full ranking.</Note></div>
       </Section>
 
       <Section eyebrow="The gaps" title="What postings ask for that Hyphenate's site does not mention." action={<Link href="/gaps" className="btn-secondary">All gap themes</Link>}>

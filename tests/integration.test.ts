@@ -55,7 +55,7 @@ describe('pipeline plumbing with a fake LLM', () => {
   it('lead score breakdowns add up', () => {
     const companies = JSON.parse(fs.readFileSync(path.join(P.app, 'companies.json'), 'utf8'));
     expect(companies.length).toBe(3);
-    for (const c of companies) expect(c.lead_parts.pain + c.lead_parts.fit + c.lead_parts.timing).toBeCloseTo(c.lead_score);
+    for (const c of companies) expect(c.lead_parts.pain + c.lead_parts.fit).toBeCloseTo(c.lead_score);
   });
 
   it('every uncovered duty sits in exactly one gap theme', () => {

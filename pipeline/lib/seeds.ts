@@ -4,7 +4,7 @@ import { parseCsv } from './io';
 import { P } from './paths';
 import type { SeedRow } from './sources';
 
-export type Seed = SeedRow & { newsroom_rss?: string; size_note?: string };
+export type Seed = SeedRow & { size_note?: string };
 
 export function loadSeeds(): Seed[] {
   const file = path.join(P.config, 'sources.csv');

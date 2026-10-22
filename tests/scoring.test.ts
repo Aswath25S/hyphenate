@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import {
-  ageMultiplier, classifyErp, classifySize, complexityScore, computeOverlap, countSalaryRanges, erpScore, fitScore,
-  leadProduct, leadScore, median, minimumSavings, normaliseSalary, painScore, parseBand, productSplit, sizeScore, timingScore,
+  classifyErp, classifySize, complexityScore, computeOverlap, countSalaryRanges, erpScore, fitScore,
+  leadProduct, leadScore, median, minimumSavings, normaliseSalary, painScore, parseBand, productSplit, sizeScore,
   type LabelledDuty,
 } from '../lib/scoring';
 import { SAVINGS_DEFAULTS } from '../config/scoring';
@@ -64,7 +64,7 @@ describe('product split and lead product', () => {
   it('returns null with no matches', () => expect(leadProduct({})).toBeNull());
 });
 
-describe('pain, fit, timing, lead score', () => {
+describe('pain, fit, lead score', () => {
   it('pain rewards overlap and open roles, capped at 4', () => {
     expect(painScore([0.5]).pain).toBeCloseTo(0.8 * 0.5 + 0.2 * 0.25);
     expect(painScore([0.5, 0.5, 0.5, 0.5, 0.5, 0.5]).pain).toBeCloseTo(0.8 * 0.5 + 0.2);
@@ -98,28 +98,13 @@ describe('pain, fit, timing, lead score', () => {
     expect(fitScore(1, 1, 1)).toBeCloseTo(1);
     expect(fitScore(0.5, 0.5, 0.2)).toBeCloseTo(0.2 + 0.15 + 0.06);
   });
-  it('timing uses the strongest trigger by weight × age', () => {
-    const asOf = '2026-10-20';
-    const t = timingScore([
-      { trigger_type: 'funding', event_date: '2026-09-01', url: 'u1', summary: '' },
-      { trigger_type: 'acquisition', event_date: '2026-05-01', url: 'u2', summary: '' },
-    ], asOf);
-    expect(t.timing).toBeCloseTo(0.8); // funding 0.8 × 1.0 beats acquisition 1.0 × 0.5
-    expect(t.top?.url).toBe('u1');
-  });
-  it('no trigger means timing 0', () => {
-    expect(timingScore([], '2026-10-20')).toEqual({ timing: 0, top: null });
-  });
-  it('age multiplier bands', () => {
-    expect(ageMultiplier('2026-08-01', '2026-10-20')).toBe(1);
-    expect(ageMultiplier('2026-06-01', '2026-10-20')).toBe(0.5);
-    expect(ageMultiplier('2026-01-01', '2026-10-20')).toBe(0);
-    expect(ageMultiplier(null, '2026-10-20')).toBe(0);
-  });
   it('lead score breakdown adds up', () => {
-    const r = leadScore(0.7, 0.6, 0.8);
-    expect(r.parts.pain + r.parts.fit + r.parts.timing).toBeCloseTo(r.score);
-    expect(r.score).toBeCloseTo(100 * (0.5 * 0.7 + 0.25 * 0.6 + 0.25 * 0.8));
+    const r = leadScore(0.7, 0.6);
+    expect(r.parts.pain + r.parts.fit).toBeCloseTo(r.score);
+    expect(r.score).toBeCloseTo(100 * ((2 / 3) * 0.7 + (1 / 3) * 0.6));
+  });
+  it('lead score is 100 when pain and fit are both 1', () => {
+    expect(leadScore(1, 1).score).toBeCloseTo(100);
   });
 });
 

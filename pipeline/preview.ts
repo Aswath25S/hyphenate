@@ -79,7 +79,7 @@ async function main() {
   recordStage({ stage: 'extract', in: fixtures.length, out: fixtures.length, notes: ['fixture preview: hand labels, no model calls'] });
   recordStage({ stage: 'match', in: fixtures.length, out: fixtures.length, notes: ['fixture preview: hand labels, no model calls'] });
   // Stale downstream outputs from a previous real run must not leak into the preview.
-  for (const f of ['news.json', 'gaps.json', 'briefs.json']) fs.rmSync(path.join(P.processed, f), { force: true });
+  for (const f of ['gaps.json', 'briefs.json']) fs.rmSync(path.join(P.processed, f), { force: true });
   await score();
   previewGaps();
   await publish({ asOf: new Date('2026-10-20T12:00:00Z'), mode: 'fixture_preview' });
