@@ -50,8 +50,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
           <div className="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-5">
             <StatBlock value={c.lead_score.toFixed(0)} label="Lead score" href="#score" note="Out of 100. See the breakdown below." />
             <StatBlock value={pct(c.avg_overlap)} label="Average overlap" href="#roles" note={`${c.open_roles} open ${c.open_roles === 1 ? 'role' : 'roles'}`} />
-            <StatBlock value={c.savings_roles ? usd(c.savings_total, { compact: true }) : '–'} label="Minimum savings a year" href="#savings" note={c.savings_roles ? `At least ${usd(c.savings_total)} across ${c.savings_roles} ${c.savings_roles === 1 ? 'role' : 'roles'}` : 'No salary posted'} />
             <StatBlock value={salaryRoles.length ? usd(totalSalary, { compact: true }) : '–'} label="Total salary of roles" href="#roles" note={salaryRoles.length ? `${salaryRoles.length} of ${roles.length} ${roles.length === 1 ? 'role lists' : 'roles list'} pay; middle of each posted range` : 'No salary posted'} />
+            <StatBlock value={c.savings_roles ? usd(c.savings_total, { compact: true }) : '–'} label="Minimum savings a year" href="#savings" note={c.savings_roles ? `At least ${usd(c.savings_total)} across ${c.savings_roles} ${c.savings_roles === 1 ? 'role' : 'roles'}` : 'No salary posted'} />
             <StatBlock value={<span className="text-[26px] tracking-[-0.02em] sm:text-[34px]">{c.lead_product ?? '–'}</span>} label="Lead with" href="#products" />
           </div>
         </Container>
