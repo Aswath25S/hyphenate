@@ -2,7 +2,8 @@
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
 import type { DutyView, PostingDetail } from '@/lib/app-types';
-import { ROLE_LABELS, pct, shortDate, usd } from '@/lib/format';
+import { ROLE_LABELS, pct, savingsShare, shortDate, usd } from '@/lib/format';
+import { SAVINGS_DEFAULTS } from '@/config/scoring';
 import { LabelChip, Mono } from './ui';
 
 type Seg = { text: string; duty: number | null };
@@ -56,7 +57,7 @@ export function PostingEvidence({ p }: { p: PostingDetail }) {
         <div className="card p-5">
           <div className="num text-[44px] leading-none tracking-[-0.03em] text-ink-display">{p.n ? pct(p.covered_share) : '–'}</div>
           <div className="t-mono mt-2">Done end to end</div>
-          <div className="mt-2 text-[13px] text-ink-muted">Duties Hyphenate does end to end; used for savings</div>
+          <div className="mt-2 text-[13px] text-ink-muted">Duties Hyphenate does end to end</div>
         </div>
         <div className="card p-5">
           <div className="num text-[30px] leading-tight tracking-[-0.02em] text-ink-display">{p.salary_min !== null ? `${usd(p.salary_min)}${p.salary_max ? `–${usd(p.salary_max)}` : ''}` : 'No salary posted'}</div>
@@ -68,7 +69,7 @@ export function PostingEvidence({ p }: { p: PostingDetail }) {
           <div className="t-mono mt-2">Minimum savings a year</div>
           <div className="mt-2 text-[12.5px] text-ink-muted">
             {p.savings !== null
-              ? <>{usd(p.salary_min)} × {p.C}/{p.n} × 0.5. Work Hyphenate could absorb before the next hire.</>
+              ? <>{usd(p.salary_min)} × {savingsShare(p.C, p.A, SAVINGS_DEFAULTS.assistedWeight, SAVINGS_DEFAULTS.countAssisted)}/{p.n} × {SAVINGS_DEFAULTS.discount}. Duties Hyphenate prepares count a quarter.</>
               : p.savings_reason === 'thin_posting' ? 'Thin posting (fewer than 4 scored duties): excluded.' : p.savings_reason === 'no_salary' ? 'No salary posted, so no figure.' : 'No scored duties.'}
           </div>
         </div>

@@ -44,3 +44,8 @@ export function formatBand(band: string | null | undefined): string {
   if (!band) return 'Unknown';
   return band.replace(/\d+/g, (n) => Number(n).toLocaleString('en-US')).replace(/\s*-\s*/g, '–');
 }
+
+/** "4 + 0.25×6" style share numerator used in savings explanations. */
+export function savingsShare(C: number, A: number, assistedWeight: number, countAssisted = true): string {
+  return countAssisted && A > 0 ? `(${C} + ${assistedWeight}×${A})` : `${C}`;
+}

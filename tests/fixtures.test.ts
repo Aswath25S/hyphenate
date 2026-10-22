@@ -23,7 +23,7 @@ describe('golden fixtures', () => {
         expect(o.n).toBe(fx.expected.scored_duty_count);
         const s = minimumSavings({ salary_min: fx.expected.salary_annual.min, salary_max: fx.expected.salary_annual.max, n: o.n, C: o.C, A: o.A });
         if (fx.expected.salary_annual.min === null) expect(s.eligible).toBe(false);
-        else expect(s.eligible && s.value).toBeCloseTo(fx.expected.salary_annual.min * (o.C / o.n) * 0.5);
+        else expect(s.eligible && s.value).toBeCloseTo(fx.expected.salary_annual.min * ((o.C + 0.25 * o.A) / o.n) * 0.5);
       });
       it('expected fields fit the extraction enums', () => {
         const shape = ExtractionOutputSchema.shape;

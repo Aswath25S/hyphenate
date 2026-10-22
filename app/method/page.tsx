@@ -123,9 +123,9 @@ export default function MethodPage() {
             Lead score = 100 × ( {pct(C.LEAD_WEIGHTS.pain)} × work score + {pct(C.LEAD_WEIGHTS.fit)} × fit score )
           </Formula>
 
-          <Formula title="5. Minimum savings for a role" desc="The part of a role’s salary tied to duties Hyphenate does end to end. It is deliberately low."
-            note={<>Hourly pay is converted at {C.SALARY.hoursPerYear.toLocaleString()} hours a year. No salary posted means no figure, and roles with fewer than {C.OVERLAP.thinPostingMinDuties} duties are left out. The {C.SAVINGS_DEFAULTS.discount} safety discount allows for review time and duties that take unequal time.</>}>
-            Minimum savings = lowest posted salary × <Frac num="duties Hyphenate does end to end" den="all duties in the role" /> × {C.SAVINGS_DEFAULTS.discount}
+          <Formula title="5. Minimum savings for a role" desc="The part of a role’s salary tied to work Hyphenate does. Duties it prepares for a person to approve count a quarter, because a person still reviews them. It is deliberately low."
+            note={<>Hourly pay is converted at {C.SALARY.hoursPerYear.toLocaleString()} hours a year. No salary posted means no figure, and roles with fewer than {C.OVERLAP.thinPostingMinDuties} duties are left out. The {C.SAVINGS_DEFAULTS.discount} safety discount allows for review time and duties that take unequal time. Counting only end-to-end duties gives the strict floor shown on Roles &amp; Savings.</>}>
+            Minimum savings = lowest posted salary × <Frac num={`duties done end to end + ${C.SAVINGS_DEFAULTS.assistedWeight} × duties it prepares`} den="all duties in the role" /> × {C.SAVINGS_DEFAULTS.discount}
           </Formula>
 
           <Formula title="6. Totals" desc="A company’s minimum savings add up its roles. The Overview’s salary figure measures the size of the opportunity rather than savings."

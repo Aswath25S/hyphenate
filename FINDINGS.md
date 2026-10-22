@@ -6,7 +6,7 @@ Data as of 2026-10-21. 161 US finance postings from 96 companies, read duty by d
 
 1. **19% median overlap.** The median posting has 19% of its scored duties on Hyphenate's public site (covered or assisted). AP roles are highest at 44% median across 8 postings.
 2. **58 companies are hiring for work Hyphenate's agents already do.** That is 58 of 93 lead companies with at least one fully covered duty in an open role. GL accounting is the most common lead product (45 companies).
-3. **At least $508,100 a year** in posted salary is tied to duties Hyphenate's agents already handle, across 146 postings (based on 147 of 161 postings that list a salary). GL roles hold the most ($113,800). This is a floor: lowest advertised salary × covered share × 0.5. It is gross value, not net of Hyphenate's price, and it is work Hyphenate could absorb before the next hire, not people to cut.
+3. **At least $826,100 a year** in posted salary is tied to duties Hyphenate's agents already handle, across 146 postings (based on 147 of 161 postings that list a salary). Reporting & FP&A roles hold the most ($264,700). This is a floor: lowest advertised salary × covered share × 0.5. It is gross value, not net of Hyphenate's price, and it is work Hyphenate could absorb before the next hire, not people to cut.
 
 ## Who to call first
 

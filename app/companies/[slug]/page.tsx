@@ -4,7 +4,8 @@ import type { Metadata } from 'next';
 import { Container, Eyebrow, LabelChip, Mono, Note, OverlapBar, OverlapLegend, Section, StatBlock } from '@/components/ui';
 import { BackLink } from '@/components/BackLink';
 import { getCompanies, getCompany, getGaps, getPosting, getPostings } from '@/lib/data';
-import { PRODUCT_ORDER, ROLE_LABELS, formatBand, pct, shortDate, usd } from '@/lib/format';
+import { PRODUCT_ORDER, ROLE_LABELS, formatBand, pct, savingsShare, shortDate, usd } from '@/lib/format';
+import { SAVINGS_DEFAULTS } from '@/config/scoring';
 import { salaryMid } from '@/lib/scoring';
 
 export function generateStaticParams() {
@@ -185,13 +186,13 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
       <Section id="savings" eyebrow="The money" title={c.savings_roles ? `At least ${usd(c.savings_total)} a year across ${c.savings_roles} ${c.savings_roles === 1 ? 'role' : 'roles'}.` : 'No salary posted, so no figure.'}>
         <div className="card overflow-x-auto">
           <table className="w-full min-w-[640px] text-[14px]">
-            <thead className="border-b border-line"><tr>{['Role', 'Salary min', 'Covered share', 'Discount', 'Minimum savings'].map((h, i) => <th key={h} className={`px-4 py-3 font-normal ${i ? 'text-right' : 'text-left'}`}><Mono>{h}</Mono></th>)}</tr></thead>
+            <thead className="border-b border-line"><tr>{['Role', 'Salary min', 'Share done', 'Discount', 'Minimum savings'].map((h, i) => <th key={h} className={`px-4 py-3 font-normal ${i ? 'text-right' : 'text-left'}`}><Mono>{h}</Mono></th>)}</tr></thead>
             <tbody>
               {roles.map((r) => (
                 <tr key={r.posting_id} className="border-t border-dashed border-line-dashed">
                   <td className="px-4 py-3"><Link href={`/postings/${r.posting_id}`} className="link">{r.title}</Link></td>
                   <td className="num px-4 py-3 text-right">{r.salary_min !== null ? usd(r.salary_min) : '–'}</td>
-                  <td className="num px-4 py-3 text-right">{r.C}/{r.n}</td>
+                  <td className="num px-4 py-3 text-right">{savingsShare(r.C, r.A, SAVINGS_DEFAULTS.assistedWeight, SAVINGS_DEFAULTS.countAssisted)}/{r.n}</td>
                   <td className="num px-4 py-3 text-right">0.5</td>
                   <td className="num px-4 py-3 text-right">{r.savings !== null ? usd(r.savings) : <span className="text-ink-muted">{r.savings_reason === 'no_salary' ? 'No salary posted' : r.savings_reason === 'thin_posting' ? 'Thin posting' : '–'}</span>}</td>
                 </tr>

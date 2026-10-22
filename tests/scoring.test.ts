@@ -128,12 +128,12 @@ describe('minimum savings', () => {
   it('handles zero duties', () => {
     expect(minimumSavings({ salary_min: 65000, salary_max: null, n: 0, C: 0, A: 0 })).toMatchObject({ eligible: false, reason: 'zero_duties' });
   });
-  it('ignores assisted duties by default and counts them at 0.25 when asked', () => {
+  it('counts assisted duties at 0.25 by default, and can leave them out (strict floor)', () => {
     const base = { salary_min: 80000, salary_max: 100000, n: 8, C: 4, A: 4 };
     const d = minimumSavings(base);
-    const withA = minimumSavings(base, { ...SAVINGS_DEFAULTS, countAssisted: true });
-    expect(d.eligible && d.value).toBe(80000 * 0.5 * 0.5);
-    expect(withA.eligible && withA.value).toBe(80000 * ((4 + 1) / 8) * 0.5);
+    const strict = minimumSavings(base, { ...SAVINGS_DEFAULTS, countAssisted: false });
+    expect(d.eligible && d.value).toBe(80000 * ((4 + 1) / 8) * 0.5);
+    expect(strict.eligible && strict.value).toBe(80000 * 0.5 * 0.5);
   });
   it('midpoint option', () => {
     const r = minimumSavings({ salary_min: 80000, salary_max: 100000, n: 4, C: 2, A: 0 }, { ...SAVINGS_DEFAULTS, salaryBasis: 'midpoint', discount: 1 });

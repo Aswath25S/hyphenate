@@ -4,7 +4,7 @@ import { useMemo } from 'react';
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { SAVINGS_DEFAULTS, SAVINGS_RANGES, type SalaryBasis } from '@/config/scoring';
 import { median, minimumSavings } from '@/lib/scoring';
-import { ROLE_LABELS, usd } from '@/lib/format';
+import { ROLE_LABELS, savingsShare, usd } from '@/lib/format';
 import { useUrlState } from '@/lib/useUrlState';
 
 export type SavingsRow = { posting_id: string; company: string; slug: string; title: string; role_family: string; salary_min: number | null; salary_max: number | null; n: number; C: number; A: number; excluded: string | null };
@@ -16,7 +16,7 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
   const s = {
     salaryBasis: (u.get('basis', SAVINGS_DEFAULTS.salaryBasis) === 'midpoint' ? 'midpoint' : 'bottom') as SalaryBasis,
     discount: u.getNum('d', SAVINGS_DEFAULTS.discount),
-    countAssisted: u.get('assisted') === '1',
+    countAssisted: u.get('assisted') ? u.get('assisted') === '1' : SAVINGS_DEFAULTS.countAssisted,
     assistedWeight: SAVINGS_DEFAULTS.assistedWeight,
   };
   const custom = s.salaryBasis !== SAVINGS_DEFAULTS.salaryBasis || s.discount !== SAVINGS_DEFAULTS.discount || s.countAssisted !== SAVINGS_DEFAULTS.countAssisted;
@@ -35,6 +35,7 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
   const withSalary = calc.filter((r) => r.salary_min !== null);
   const totalDef = eligible.reduce((a, r) => a + (r.def ?? 0), 0);
   const totalYours = eligible.reduce((a, r) => a + (r.yours ?? 0), 0);
+  const totalStrict = eligible.reduce((a, r) => { const v = minimumSavings({ salary_min: r.salary_min, salary_max: r.salary_max, n: r.n, C: r.C, A: r.A }, { ...SAVINGS_DEFAULTS, countAssisted: false }); return a + (v.eligible ? v.value : 0); }, 0);
   const salaryPool = eligible.reduce((a, r) => a + (r.salary_used ?? r.salary_min ?? 0), 0);
   const shown = custom ? totalYours : totalDef;
 
@@ -63,6 +64,11 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
           <span className="t-mono">Dataset total, default assumptions</span>
           <div className="num mt-2 text-[52px] leading-none tracking-[-0.03em] text-ink-display sm:text-[64px]">{usd(totalDef)}</div>
           <p className="mt-3 text-[15px] text-ink/80">At least this much yearly salary is tied to duties Hyphenate&apos;s agents already handle, across {eligible.length} postings.</p>
+          <div className="mt-4 rounded-lg border border-line bg-bg px-4 py-3">
+            <span className="t-mono">Strict floor</span>
+            <div className="num mt-1 text-[24px] leading-none tracking-[-0.02em] text-ink-display">{usd(totalStrict)}</div>
+            <p className="mt-1.5 text-[13px] text-ink-muted">Counting only duties Hyphenate does end to end, leaving out the ones it prepares for a person to approve.</p>
+          </div>
           {custom && (
             <div className="mt-5 rounded-lg border border-accent bg-accent-soft p-4">
               <span className="font-mono text-[11px] uppercase tracking-[0.08em] text-accent-ink">Your assumptions</span>
@@ -82,7 +88,7 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
           <ol className="mt-2 divide-y divide-dashed divide-line-dashed rounded-lg border border-line bg-bg">
             {[
               { op: '', name: s.salaryBasis === 'midpoint' ? 'Salary (middle of posted range)' : 'Salary (lowest of posted range)', value: ex ? usd(ex.salary_used) : '–', desc: 'The yearly pay the job posting lists.' },
-              { op: '×', name: 'Share of duties Hyphenate does', value: ex ? `${ex.C}${s.countAssisted ? ` + ${s.assistedWeight}×${ex.A}` : ''} ÷ ${ex.n}` : '–', desc: s.countAssisted ? `Duties Hyphenate does end to end, plus ${s.assistedWeight} for each duty it prepares for approval, divided by all the role's duties.` : "Duties Hyphenate does end to end, divided by all the role's duties. Duties it only prepares for approval are left out." },
+              { op: '×', name: 'Share of the role Hyphenate does', value: ex ? `${savingsShare(ex.C, ex.A, s.assistedWeight, s.countAssisted)} ÷ ${ex.n}` : '–', desc: s.countAssisted ? `Duties Hyphenate does end to end, plus a quarter of each duty it prepares for a person to approve (a person still reviews those), divided by all the role's duties.` : "Duties Hyphenate does end to end, divided by all the role's duties. Duties it only prepares for approval are left out." },
               { op: '×', name: 'Safety discount', value: s.discount.toFixed(2), desc: 'Halves the result by default, to allow for review time and duties that take unequal time.' },
             ].map((t) => (
               <li key={t.name} className="grid grid-cols-[1.25rem_1fr_auto] items-start gap-2 px-3 py-2.5">
@@ -94,7 +100,7 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
           </ol>
           {ex && (
             <p className="mt-3 text-[13px] leading-relaxed text-ink/80">
-              Example: <Link href={`/postings/${ex.posting_id}`} className="link">{ex.title}</Link> at {ex.company}. {usd(ex.salary_used)} × {ex.C}{s.countAssisted ? ` + ${s.assistedWeight}×${ex.A}` : ''}/{ex.n} × {s.discount.toFixed(2)} = <b className="font-medium text-ink">{usd(ex.yours)}</b> a year.
+              Example: <Link href={`/postings/${ex.posting_id}`} className="link">{ex.title}</Link> at {ex.company}. {usd(ex.salary_used)} × {savingsShare(ex.C, ex.A, s.assistedWeight, s.countAssisted)}/{ex.n} × {s.discount.toFixed(2)} = <b className="font-medium text-ink">{usd(ex.yours)}</b> a year.
             </p>
           )}
           <div className="mt-5 space-y-5">
@@ -112,8 +118,8 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
               <span className="text-[12.5px] text-ink-muted">Stands in for exception review and unequal duty time. Default 0.5.</span>
             </label>
             <label className="flex items-center gap-3 text-[14px]">
-              <input type="checkbox" checked={s.countAssisted} onChange={(e) => u.set({ assisted: e.target.checked ? 1 : null })} className="h-4 w-4 accent-[var(--accent)]" />
-              Count assisted duties at {s.assistedWeight} weight <span className="text-ink-muted">(default off)</span>
+              <input type="checkbox" checked={s.countAssisted} onChange={(e) => u.set({ assisted: e.target.checked === SAVINGS_DEFAULTS.countAssisted ? null : e.target.checked ? 1 : 0 })} className="h-4 w-4 accent-[var(--accent)]" />
+              Count duties Hyphenate prepares at {s.assistedWeight} weight <span className="text-ink-muted">(default {SAVINGS_DEFAULTS.countAssisted ? 'on' : 'off'})</span>
             </label>
           </div>
         </div>
@@ -186,7 +192,7 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
         <h3 className="t-sub">Every role, with its breakdown.</h3>
         <div className="card mt-5 overflow-x-auto">
           <table className="w-full min-w-[900px] text-[14px]">
-            <thead className="border-b border-line"><tr>{['Role', 'Company', 'Role breakdown', 'Salary min', 'Covered', 'Default', custom ? 'Yours' : ''].map((h, i) => <th key={i} className={`whitespace-nowrap px-4 py-3 font-normal ${i < 3 ? 'text-left' : 'text-right'}`}><span className="t-mono">{h}</span></th>)}</tr></thead>
+            <thead className="border-b border-line"><tr>{['Role', 'Company', 'Role breakdown', 'Salary min', 'Share done', 'Default', custom ? 'Yours' : ''].map((h, i) => <th key={i} className={`whitespace-nowrap px-4 py-3 font-normal ${i < 3 ? 'text-left' : 'text-right'}`}><span className="t-mono">{h}</span></th>)}</tr></thead>
             <tbody>
               {[...calc].sort((a, b) => (b.def ?? -1) - (a.def ?? -1)).map((r) => (
                 <tr key={r.posting_id} className="border-t border-dashed border-line-dashed">
@@ -194,7 +200,7 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
                   <td className="px-4 py-2.5"><Link href={`/companies/${r.slug}`} className="hover:text-brand">{r.company}</Link></td>
                   <td className="whitespace-nowrap px-4 py-2.5"><Link href={`/postings/${r.posting_id}`} className="link">Role breakdown</Link></td>
                   <td className="num px-4 py-2.5 text-right">{r.salary_min !== null ? usd(r.salary_min) : '–'}</td>
-                  <td className="num px-4 py-2.5 text-right">{r.C}/{r.n}</td>
+                  <td className="num px-4 py-2.5 text-right">{savingsShare(r.C, r.A, s.assistedWeight, s.countAssisted)}/{r.n}</td>
                   <td className="num px-4 py-2.5 text-right">{r.def !== null ? usd(r.def) : <span className="text-[13px] text-ink-muted">{r.reason === 'no_salary' ? 'No salary posted' : r.reason === 'thin_posting' ? 'Thin posting' : 'No duties'}</span>}</td>
                   <td className="num px-4 py-2.5 text-right text-accent-ink">{custom && r.yours !== null ? usd(r.yours) : ''}</td>
                 </tr>

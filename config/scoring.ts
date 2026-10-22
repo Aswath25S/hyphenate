@@ -63,7 +63,8 @@ export type SalaryBasis = 'bottom' | 'midpoint';
 export const SAVINGS_DEFAULTS = {
   salaryBasis: 'bottom' as SalaryBasis,
   discount: 0.5,
-  countAssisted: false,
+  // Duties Hyphenate prepares for approval count at assistedWeight (user decision, 22 Oct 2026).
+  countAssisted: true,
   assistedWeight: 0.25,
 };
 

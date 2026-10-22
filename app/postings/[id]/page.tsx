@@ -42,8 +42,7 @@ export default async function PostingPage({ params }: { params: Promise<{ id: st
           </div>
           <p className="max-w-[900px] text-[20px] leading-snug text-ink">{headline}</p>
           <p className="max-w-[760px] text-[15px] text-ink/70">
-            Every highlight below is a duty the model split out of the original text, labelled against Hyphenate&apos;s public capabilities. Overlap {pct(p.overlap)}; savings use only duties Hyphenate does end to end.
-          </p>
+            Every highlight below is a duty the model split out of the original text, labelled against Hyphenate&apos;s public capabilities. Overlap {pct(p.overlap)}. Savings count duties Hyphenate does end to end in full and the ones it prepares at a quarter.</p>
         </Container>
       </section>
       <section className="py-10 sm:py-14"><Container><PostingEvidence p={p} /></Container></section>

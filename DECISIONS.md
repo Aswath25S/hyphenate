@@ -96,3 +96,8 @@ Choices made inside the spec's latitude. Newest at the bottom of each section.
 - The benefits-and-payroll (loaded-cost) multiplier was removed from the savings formula, config, UI and tests. It defaulted to 1.0, so published figures are unchanged.
 - Method formulas are written in words with numbers (no single-letter variables): a plain sentence, the formula, and a short note per card.
 - The About page inverts the whole document, nav and footer included, via `:root:has(.theme-inverted)`; the nav card reads its background from the theme.
+
+## Assisted duties in savings (22 Oct 2026, user decision)
+
+- Minimum savings now count duties Hyphenate prepares for approval at 0.25 by default (`SAVINGS_DEFAULTS.countAssisted = true`), on top of the 0.5 safety discount. Dataset total: $508K → $826K across 146 postings.
+- The covered-only figure is still shown on Roles & Savings as the "strict floor", and the toggle can switch it back.
