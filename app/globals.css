@@ -23,7 +23,7 @@
   --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 }
 
-html { background: var(--bg); }
+html { background: var(--bg); transition: background-color 450ms ease; }
 body {
   background: var(--bg);
   color: var(--ink);
@@ -134,3 +134,18 @@ select {
   background-image: repeating-linear-gradient(to bottom, transparent 0 47px, rgba(249, 247, 241, 0.08) 47px 48px);
 }
 :root:has(.theme-inverted) ::selection { background: #F9F7F1; color: #550004; }
+
+/* Page transitions: a gentle cross-fade on every navigation, so the About page's
+   colour inversion fades in and out instead of switching abruptly. */
+::view-transition-group(*),
+::view-transition-old(*),
+::view-transition-new(*) {
+  animation-duration: 450ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+::view-transition { pointer-events: none; }
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) { animation-duration: 0s !important; }
+}

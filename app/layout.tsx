@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next';
+import { ViewTransition } from 'react';
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 import './globals.css';
@@ -25,11 +26,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             Fixture preview: built from 10 hand-labelled postings, not the full pipeline run. Numbers are illustrative.
           </div>
         )}
-        <div className="relative z-10 pt-3">
-          <Nav />
-          <main>{children}</main>
-          <Footer asOf={meta?.as_of} />
-        </div>
+        {/* Route changes cross-fade, nav and footer included, so the About page's colour inversion fades. */}
+        <ViewTransition>
+          <div className="relative z-10 pt-3">
+            <Nav />
+            <main>{children}</main>
+            <Footer asOf={meta?.as_of} />
+          </div>
+        </ViewTransition>
       </body>
     </html>
   );
