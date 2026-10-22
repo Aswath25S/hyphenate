@@ -4,6 +4,7 @@ import { Fragment, useEffect, useState } from 'react';
 import type { GapTheme } from '@/lib/app-types';
 import { ROLE_LABELS, pct, usd } from '@/lib/format';
 import { downloadCsv } from '@/lib/csv';
+import { Collapsible } from './Collapsible';
 
 export function GapsView({ themes, companies, strongTotal }: { themes: GapTheme[]; companies: Record<string, { name: string; slug: string }>; strongTotal: number }) {
   const [open, setOpen] = useState<string | null>(null);
@@ -23,12 +24,12 @@ export function GapsView({ themes, companies, strongTotal }: { themes: GapTheme[
 
   const table = (list: GapTheme[]) => (
     <div className="card relative overflow-x-auto">
-      <table className="w-full min-w-[860px] table-fixed border-collapse text-[14px]">
+      <table className="w-full min-w-[900px] table-fixed border-collapse text-[14px]">
         {/* Fixed column widths so nothing shifts when a row opens. */}
         <colgroup>
           <col />
-          <col className="w-[10rem]" />
-          <col className="w-[6.5rem]" />
+          <col className="w-[11rem]" />
+          <col className="w-[8.5rem]" />
           <col className="w-[7rem]" />
           <col className="w-[9.5rem]" />
           <col className="w-[11rem]" />
@@ -107,21 +108,14 @@ export function GapsView({ themes, companies, strongTotal }: { themes: GapTheme[
         <button onClick={exportCsv} className="btn-secondary !py-1.5 !text-[13px]">Export CSV</button>
       </div>
       {table(gaps)}
-      <details className="group">
-        <summary className="cursor-pointer list-none">
-          <span className="t-sub">Human work <span className="text-ink-muted">({human.length} themes)</span></span>
-          <span className="ml-3 text-[14px] text-ink-muted group-open:hidden">Show</span>
-          <p className="mt-1 text-[14px] text-ink-muted">Needs people by nature: managing staff, presenting, partnering, auditor relationships. Not a product gap.</p>
-        </summary>
-        <div className="mt-4">{table(human)}</div>
-      </details>
-      <details className="group">
-        <summary className="cursor-pointer list-none">
-          <span className="t-sub">Too vague to judge <span className="text-ink-muted">({unclear.length} themes)</span></span>
-          <span className="ml-3 text-[14px] text-ink-muted group-open:hidden">Show</span>
-        </summary>
-        <div className="mt-4">{table(unclear)}</div>
-      </details>
+      <Collapsible title={<>Human work <span className="text-ink-muted">({human.length} themes)</span></>}
+        subtitle="Needs people by nature: managing staff, presenting, partnering, auditor relationships. Not a product gap.">
+        {table(human)}
+      </Collapsible>
+      <Collapsible title={<>Too vague to judge <span className="text-ink-muted">({unclear.length} themes)</span></>}
+        subtitle="Duties like “support the team as needed” that are too general to match.">
+        {table(unclear)}
+      </Collapsible>
     </div>
   );
 }

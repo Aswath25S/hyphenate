@@ -6,7 +6,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -97,7 +97,7 @@
     "ats": "ashby",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -291,7 +291,7 @@
     "ats": "ashby",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "TX",
     "excluded": null,
     "posting_ids": [
@@ -493,13 +493,124 @@
     ]
   },
   {
+    "slug": "elevenlabs",
+    "company": "ElevenLabs",
+    "domain": "elevenlabs.io",
+    "ats": "ashby",
+    "employee_band": "1000",
+    "size_source_url": "https://www.wikidata.org/wiki/Q116798355",
+    "size_note": "Wikidata, 2026-01",
+    "hq_state": "NY",
+    "excluded": null,
+    "posting_ids": [
+      "3e4022fc21b9a4c6"
+    ],
+    "open_roles": 1,
+    "avg_weighted_overlap": 0.47619047619047616,
+    "avg_overlap": 0.6666666666666666,
+    "pain": 0.4309523809523809,
+    "erp": [],
+    "erp_class": "not_stated",
+    "erp_score": 0.5,
+    "size_class": "501–1,000",
+    "size_score": 0.65,
+    "complexity_flags": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": true,
+      "high_volume": true
+    },
+    "complexity_count": 2,
+    "complexity_score": 1,
+    "fit": 0.6950000000000001,
+    "product_split": {
+      "GL accounting": {
+        "covered": 5,
+        "assisted": 5,
+        "weighted": 7.5
+      },
+      "Order-to-cash": {
+        "covered": 1,
+        "assisted": 3,
+        "weighted": 2.5
+      }
+    },
+    "lead_product": "GL accounting",
+    "tools": [
+      "HubiFi",
+      "Metronome",
+      "Stripe"
+    ],
+    "savings_total": 0,
+    "savings_roles": 0,
+    "salary_roles": 0,
+    "lead_score": 51.89682539682539,
+    "lead_parts": {
+      "pain": 28.730158730158724,
+      "fit": 23.166666666666664
+    },
+    "rank": 4,
+    "brief": {
+      "headline": "ElevenLabs is hiring a Revenue Accountant for 67% overlap work.",
+      "why_them": "ElevenLabs has 1 open finance role, and the Revenue Accountant posting shows 67% overlap. ERP is not stated.",
+      "lead_with": "GL accounting, because it covers 5 duties and assists 5.",
+      "minimum_savings": "No salary posted, so no figure.",
+      "may_not_cover": "Reporting and filing support, Standardization and validation, and Process redesign and systems are not on Hyphenate's public site.",
+      "angle": "Before your next hire, GL accounting could absorb the Revenue Accountant work already showing 67% overlap."
+    },
+    "gap_themes": [
+      {
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
+        "bucket": "possible_gap",
+        "duties": 1
+      },
+      {
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work",
+        "duties": 1
+      },
+      {
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap",
+        "duties": 1
+      },
+      {
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap",
+        "duties": 1
+      },
+      {
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work",
+        "duties": 1
+      },
+      {
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
+        "bucket": "possible_gap",
+        "duties": 1
+      },
+      {
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work",
+        "duties": 1
+      }
+    ]
+  },
+  {
     "slug": "poshmark",
     "company": "Poshmark",
     "domain": "poshmark.com",
     "ats": "ashby",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -557,7 +668,7 @@
       "pain": 25.999999999999996,
       "fit": 24.83333333333333
     },
-    "rank": 4,
+    "rank": 5,
     "brief": {
       "headline": "Poshmark is hiring a Senior Revenue Accountant to cover revenue work beside GL accounting.",
       "why_them": "The open role shows 55% overlap with GL accounting, and Poshmark runs on NetSuite. That points to adjacent finance work already in play around revenue.",
@@ -600,124 +711,13 @@
     ]
   },
   {
-    "slug": "elevenlabs",
-    "company": "ElevenLabs",
-    "domain": "elevenlabs.io",
-    "ats": "ashby",
-    "employee_band": "201-500",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
-    "hq_state": "NY",
-    "excluded": null,
-    "posting_ids": [
-      "3e4022fc21b9a4c6"
-    ],
-    "open_roles": 1,
-    "avg_weighted_overlap": 0.47619047619047616,
-    "avg_overlap": 0.6666666666666666,
-    "pain": 0.4309523809523809,
-    "erp": [],
-    "erp_class": "not_stated",
-    "erp_score": 0.5,
-    "size_class": "201–500",
-    "size_score": 0.5,
-    "complexity_flags": {
-      "multi_entity": false,
-      "multi_currency": false,
-      "usage_based_billing": true,
-      "high_volume": true
-    },
-    "complexity_count": 2,
-    "complexity_score": 1,
-    "fit": 0.6499999999999999,
-    "product_split": {
-      "GL accounting": {
-        "covered": 5,
-        "assisted": 5,
-        "weighted": 7.5
-      },
-      "Order-to-cash": {
-        "covered": 1,
-        "assisted": 3,
-        "weighted": 2.5
-      }
-    },
-    "lead_product": "GL accounting",
-    "tools": [
-      "HubiFi",
-      "Metronome",
-      "Stripe"
-    ],
-    "savings_total": 0,
-    "savings_roles": 0,
-    "salary_roles": 0,
-    "lead_score": 50.396825396825385,
-    "lead_parts": {
-      "pain": 28.730158730158724,
-      "fit": 21.66666666666666
-    },
-    "rank": 5,
-    "brief": {
-      "headline": "ElevenLabs is hiring a Revenue Accountant for 67% overlap work.",
-      "why_them": "ElevenLabs has 1 open finance role, and the Revenue Accountant posting shows 67% overlap. ERP is not stated.",
-      "lead_with": "GL accounting, because it covers 5 duties and assists 5.",
-      "minimum_savings": "No salary posted, so no figure.",
-      "may_not_cover": "Reporting and filing support, Standardization and validation, and Process redesign and systems are not on Hyphenate's public site.",
-      "angle": "Before your next hire, GL accounting could absorb the Revenue Accountant work already showing 67% overlap."
-    },
-    "gap_themes": [
-      {
-        "theme_id": "reporting_filings",
-        "name": "Reporting and filing support",
-        "bucket": "possible_gap",
-        "duties": 1
-      },
-      {
-        "theme_id": "finance_leadership_partnering",
-        "name": "Finance leadership and partnering",
-        "bucket": "human_work",
-        "duties": 1
-      },
-      {
-        "theme_id": "standardization_validation",
-        "name": "Standardization and validation",
-        "bucket": "possible_gap",
-        "duties": 1
-      },
-      {
-        "theme_id": "process_redesign",
-        "name": "Process redesign and systems",
-        "bucket": "possible_gap",
-        "duties": 1
-      },
-      {
-        "theme_id": "business_support_execution",
-        "name": "Business support and execution",
-        "bucket": "human_work",
-        "duties": 1
-      },
-      {
-        "theme_id": "compliance_governance",
-        "name": "Compliance and governance",
-        "bucket": "possible_gap",
-        "duties": 1
-      },
-      {
-        "theme_id": "technical_accounting",
-        "name": "Technical accounting and policy",
-        "bucket": "human_work",
-        "duties": 1
-      }
-    ]
-  },
-  {
     "slug": "forter",
     "company": "Forter",
     "domain": "forter.com",
     "ats": "greenhouse",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -801,7 +801,7 @@
     "ats": "lever",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -912,7 +912,7 @@
     "ats": "greenhouse",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -1017,7 +1017,7 @@
     "ats": "ashby",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -1228,7 +1228,7 @@
     "ats": "greenhouse",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "UT",
     "excluded": null,
     "posting_ids": [
@@ -1359,7 +1359,7 @@
     "ats": "lever",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -1548,9 +1548,9 @@
     "company": "Snyk",
     "domain": "snyk.io",
     "ats": "ashby",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1400",
+    "size_source_url": "https://en.wikipedia.org/wiki/Snyk",
+    "size_note": "Wikipedia infobox",
     "hq_state": "MA",
     "excluded": null,
     "posting_ids": [
@@ -1717,9 +1717,9 @@
     "company": "Lemonade",
     "domain": "lemonade.com",
     "ats": "ashby",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1235",
+    "size_source_url": "https://en.wikipedia.org/wiki/Lemonade%2C_Inc.",
+    "size_note": "Wikipedia infobox",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -1856,7 +1856,7 @@
     "ats": "ashby",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -1971,9 +1971,9 @@
     "company": "Klaviyo",
     "domain": "klaviyo.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "2368",
+    "size_source_url": "https://en.wikipedia.org/wiki/Klaviyo",
+    "size_note": "Wikipedia infobox, 2025",
     "hq_state": "MA",
     "excluded": null,
     "posting_ids": [
@@ -2156,13 +2156,191 @@
     ]
   },
   {
+    "slug": "oura",
+    "company": "Oura",
+    "domain": "ouraring.com",
+    "ats": "greenhouse",
+    "employee_band": "1200",
+    "size_source_url": "https://en.wikipedia.org/wiki/Oura_Ring",
+    "size_note": "Wikipedia infobox",
+    "hq_state": "CA",
+    "excluded": null,
+    "posting_ids": [
+      "0ae58f01342abcaf",
+      "3965e7a55df26bfa",
+      "67da9c5b3e879bee",
+      "e8039e5e382a675f"
+    ],
+    "open_roles": 4,
+    "avg_weighted_overlap": 0.12823609562739996,
+    "avg_overlap": 0.18808063916759568,
+    "pain": 0.30258887650192,
+    "erp": [
+      "NetSuite",
+      "Oracle",
+      "SAP"
+    ],
+    "erp_class": "enterprise",
+    "erp_score": 1,
+    "size_class": "1,001–5,000",
+    "size_score": 0.85,
+    "complexity_flags": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false
+    },
+    "complexity_count": 0,
+    "complexity_score": 0.2,
+    "fit": 0.7150000000000001,
+    "product_split": {
+      "GL accounting": {
+        "covered": 7,
+        "assisted": 11,
+        "weighted": 12.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "lead_product": "GL accounting",
+    "tools": [
+      "FloQast",
+      "LeaseQuery",
+      "Lucernex",
+      "Workiva"
+    ],
+    "savings_total": 23647.554347826088,
+    "savings_roles": 4,
+    "salary_roles": 4,
+    "lead_score": 44.005925100127996,
+    "lead_parts": {
+      "pain": 20.172591766794664,
+      "fit": 23.833333333333332
+    },
+    "rank": 16,
+    "brief": null,
+    "gap_themes": [
+      {
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap",
+        "duties": 2
+      },
+      {
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
+        "bucket": "possible_gap",
+        "duties": 8
+      },
+      {
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work",
+        "duties": 5
+      },
+      {
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap",
+        "duties": 5
+      },
+      {
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap",
+        "duties": 1
+      },
+      {
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work",
+        "duties": 1
+      },
+      {
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work",
+        "duties": 2
+      },
+      {
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
+        "bucket": "possible_gap",
+        "duties": 3
+      },
+      {
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work",
+        "duties": 5
+      },
+      {
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap",
+        "duties": 9
+      },
+      {
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work",
+        "duties": 6
+      },
+      {
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
+        "bucket": "possible_gap",
+        "duties": 5
+      },
+      {
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
+        "bucket": "possible_gap",
+        "duties": 1
+      },
+      {
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap",
+        "duties": 4
+      },
+      {
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap",
+        "duties": 3
+      },
+      {
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap",
+        "duties": 5
+      },
+      {
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
+        "bucket": "possible_gap",
+        "duties": 2
+      },
+      {
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
+        "bucket": "possible_gap",
+        "duties": 3
+      }
+    ]
+  },
+  {
     "slug": "flexport",
     "company": "Flexport",
     "domain": "flexport.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "2082",
+    "size_source_url": "https://www.wikidata.org/wiki/Q23016856",
+    "size_note": "Wikidata, 2026-01",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -2221,7 +2399,7 @@
       "pain": 17.139393939393937,
       "fit": 26.833333333333332
     },
-    "rank": 16,
+    "rank": 17,
     "brief": null,
     "gap_themes": [
       {
@@ -2317,13 +2495,189 @@
     ]
   },
   {
+    "slug": "shield-ai",
+    "company": "Shield AI",
+    "domain": "shield.ai",
+    "ats": "lever",
+    "employee_band": "1500",
+    "size_source_url": "https://en.wikipedia.org/wiki/Shield_AI",
+    "size_note": "Wikipedia infobox",
+    "hq_state": "CA",
+    "excluded": null,
+    "posting_ids": [
+      "60cda1db954b419c",
+      "7c95ec2817a423f4",
+      "ba522a400e348c6b",
+      "e791861b49dee539"
+    ],
+    "open_roles": 4,
+    "avg_weighted_overlap": 0.12084859584859585,
+    "avg_overlap": 0.20430402930402927,
+    "pain": 0.2966788766788767,
+    "erp": [
+      "Costpoint",
+      "Oracle"
+    ],
+    "erp_class": "enterprise",
+    "erp_score": 1,
+    "size_class": "1,001–5,000",
+    "size_score": 0.85,
+    "complexity_flags": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false
+    },
+    "complexity_count": 0,
+    "complexity_score": 0.2,
+    "fit": 0.7150000000000001,
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 15,
+        "weighted": 7.5
+      },
+      "GL accounting": {
+        "covered": 3,
+        "assisted": 3,
+        "weighted": 4.5
+      },
+      "Treasury": {
+        "covered": 0,
+        "assisted": 4,
+        "weighted": 2
+      }
+    },
+    "lead_product": "Reporting",
+    "tools": [
+      "Adaptive",
+      "Anaplan",
+      "DAX",
+      "Excel",
+      "Microsoft Fabric",
+      "Pigment",
+      "Power BI",
+      "Power Query",
+      "Vena",
+      "Workiva"
+    ],
+    "savings_total": 16054.945054945056,
+    "savings_roles": 4,
+    "salary_roles": 4,
+    "lead_score": 43.61192511192511,
+    "lead_parts": {
+      "pain": 19.778591778591778,
+      "fit": 23.833333333333332
+    },
+    "rank": 18,
+    "brief": null,
+    "gap_themes": [
+      {
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap",
+        "duties": 6
+      },
+      {
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
+        "bucket": "possible_gap",
+        "duties": 5
+      },
+      {
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work",
+        "duties": 13
+      },
+      {
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap",
+        "duties": 10
+      },
+      {
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap",
+        "duties": 9
+      },
+      {
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work",
+        "duties": 5
+      },
+      {
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
+        "bucket": "possible_gap",
+        "duties": 1
+      },
+      {
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work",
+        "duties": 13
+      },
+      {
+        "theme_id": "operating_model_controls",
+        "name": "Operating model and controls",
+        "bucket": "possible_gap",
+        "duties": 6
+      },
+      {
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work",
+        "duties": 5
+      },
+      {
+        "theme_id": "workflow_modernization",
+        "name": "Workflow and reporting automation",
+        "bucket": "possible_gap",
+        "duties": 3
+      },
+      {
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
+        "bucket": "possible_gap",
+        "duties": 12
+      },
+      {
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
+        "bucket": "possible_gap",
+        "duties": 7
+      },
+      {
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap",
+        "duties": 1
+      },
+      {
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap",
+        "duties": 2
+      },
+      {
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
+        "bucket": "possible_gap",
+        "duties": 7
+      }
+    ]
+  },
+  {
     "slug": "relativity-space",
     "company": "Relativity Space",
     "domain": "relativityspace.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "2000",
+    "size_source_url": "https://en.wikipedia.org/wiki/Relativity_Space",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -2381,7 +2735,7 @@
       "pain": 19.651860744297718,
       "fit": 23.833333333333332
     },
-    "rank": 17,
+    "rank": 19,
     "brief": null,
     "gap_themes": [
       {
@@ -2481,9 +2835,9 @@
     "company": "Roofstock",
     "domain": "roofstock.com",
     "ats": "greenhouse",
-    "employee_band": "201-500",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "205",
+    "size_source_url": "https://en.wikipedia.org/wiki/Roofstock",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -2547,7 +2901,7 @@
       "pain": 22.94558488106875,
       "fit": 20.333333333333332
     },
-    "rank": 18,
+    "rank": 20,
     "brief": null,
     "gap_themes": [
       {
@@ -2649,7 +3003,7 @@
     "ats": "ashby",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -2702,7 +3056,7 @@
       "pain": 24.999999999999996,
       "fit": 18.166666666666664
     },
-    "rank": 19,
+    "rank": 21,
     "brief": null,
     "gap_themes": [
       {
@@ -2742,9 +3096,9 @@
     "company": "Redwood Materials",
     "domain": "redwoodmaterials.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1100",
+    "size_source_url": "https://en.wikipedia.org/wiki/Redwood_Materials",
+    "size_note": "Wikipedia infobox, 2025",
     "hq_state": "NV",
     "excluded": null,
     "posting_ids": [
@@ -2799,7 +3153,7 @@
       "pain": 25.37878787878788,
       "fit": 17.166666666666664
     },
-    "rank": 20,
+    "rank": 22,
     "brief": null,
     "gap_themes": [
       {
@@ -2871,7 +3225,7 @@
     "ats": "ashby",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -2933,7 +3287,7 @@
       "pain": 20.6976430976431,
       "fit": 21.833333333333332
     },
-    "rank": 21,
+    "rank": 23,
     "brief": null,
     "gap_themes": [
       {
@@ -3051,9 +3405,9 @@
     "company": "Verkada",
     "domain": "verkada.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1700",
+    "size_source_url": "https://en.wikipedia.org/wiki/Verkada",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -3107,7 +3461,7 @@
       "pain": 18.484848484848488,
       "fit": 23.833333333333332
     },
-    "rank": 22,
+    "rank": 24,
     "brief": null,
     "gap_themes": [
       {
@@ -3215,7 +3569,7 @@
     "ats": "greenhouse",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -3270,7 +3624,7 @@
       "pain": 22.009259259259256,
       "fit": 20.166666666666664
     },
-    "rank": 23,
+    "rank": 25,
     "brief": null,
     "gap_themes": [
       {
@@ -3376,9 +3730,9 @@
     "company": "Peloton",
     "domain": "onepeloton.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "2145",
+    "size_source_url": "https://en.wikipedia.org/wiki/Peloton_Interactive",
+    "size_note": "Wikipedia infobox",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -3435,422 +3789,68 @@
       "pain": 18.26797385620915,
       "fit": 23.833333333333332
     },
-    "rank": 24,
-    "brief": null,
-    "gap_themes": [
-      {
-        "theme_id": "reporting_filings",
-        "name": "Reporting and filing support",
-        "bucket": "possible_gap",
-        "duties": 2
-      },
-      {
-        "theme_id": "finance_leadership_partnering",
-        "name": "Finance leadership and partnering",
-        "bucket": "human_work",
-        "duties": 4
-      },
-      {
-        "theme_id": "standardization_validation",
-        "name": "Standardization and validation",
-        "bucket": "possible_gap",
-        "duties": 1
-      },
-      {
-        "theme_id": "process_redesign",
-        "name": "Process redesign and systems",
-        "bucket": "possible_gap",
-        "duties": 1
-      },
-      {
-        "theme_id": "business_support_execution",
-        "name": "Business support and execution",
-        "bucket": "human_work",
-        "duties": 1
-      },
-      {
-        "theme_id": "executive_communication",
-        "name": "Executive communication and recommendations",
-        "bucket": "human_work",
-        "duties": 3
-      },
-      {
-        "theme_id": "analysis_decision_support",
-        "name": "Analysis and decision support",
-        "bucket": "human_work",
-        "duties": 2
-      },
-      {
-        "theme_id": "operating_model_controls",
-        "name": "Operating model and controls",
-        "bucket": "possible_gap",
-        "duties": 4
-      },
-      {
-        "theme_id": "technical_accounting",
-        "name": "Technical accounting and policy",
-        "bucket": "human_work",
-        "duties": 1
-      },
-      {
-        "theme_id": "manufacturing_costing",
-        "name": "Manufacturing and cost accounting",
-        "bucket": "possible_gap",
-        "duties": 4
-      },
-      {
-        "theme_id": "systems_data_analytics",
-        "name": "Systems, data, and analytics",
-        "bucket": "possible_gap",
-        "duties": 1
-      },
-      {
-        "theme_id": "planning_modeling",
-        "name": "Planning and modeling",
-        "bucket": "possible_gap",
-        "duties": 1
-      },
-      {
-        "theme_id": "automation_efficiency",
-        "name": "Automation and process improvement",
-        "bucket": "possible_gap",
-        "duties": 1
-      }
-    ]
-  },
-  {
-    "slug": "oura",
-    "company": "Oura",
-    "domain": "ouraring.com",
-    "ats": "greenhouse",
-    "employee_band": "501-1000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
-    "hq_state": "CA",
-    "excluded": null,
-    "posting_ids": [
-      "0ae58f01342abcaf",
-      "3965e7a55df26bfa",
-      "67da9c5b3e879bee",
-      "e8039e5e382a675f"
-    ],
-    "open_roles": 4,
-    "avg_weighted_overlap": 0.12823609562739996,
-    "avg_overlap": 0.18808063916759568,
-    "pain": 0.30258887650192,
-    "erp": [
-      "NetSuite",
-      "Oracle",
-      "SAP"
-    ],
-    "erp_class": "enterprise",
-    "erp_score": 1,
-    "size_class": "501–1,000",
-    "size_score": 0.65,
-    "complexity_flags": {
-      "multi_entity": false,
-      "multi_currency": false,
-      "usage_based_billing": false,
-      "high_volume": false
-    },
-    "complexity_count": 0,
-    "complexity_score": 0.2,
-    "fit": 0.655,
-    "product_split": {
-      "GL accounting": {
-        "covered": 7,
-        "assisted": 11,
-        "weighted": 12.5
-      },
-      "Reporting": {
-        "covered": 0,
-        "assisted": 1,
-        "weighted": 0.5
-      }
-    },
-    "lead_product": "GL accounting",
-    "tools": [
-      "FloQast",
-      "LeaseQuery",
-      "Lucernex",
-      "Workiva"
-    ],
-    "savings_total": 23647.554347826088,
-    "savings_roles": 4,
-    "salary_roles": 4,
-    "lead_score": 42.005925100127996,
-    "lead_parts": {
-      "pain": 20.172591766794664,
-      "fit": 21.833333333333332
-    },
-    "rank": 25,
-    "brief": null,
-    "gap_themes": [
-      {
-        "theme_id": "close_accounting_ops",
-        "name": "Close and accounting operations",
-        "bucket": "possible_gap",
-        "duties": 2
-      },
-      {
-        "theme_id": "reporting_filings",
-        "name": "Reporting and filing support",
-        "bucket": "possible_gap",
-        "duties": 8
-      },
-      {
-        "theme_id": "finance_leadership_partnering",
-        "name": "Finance leadership and partnering",
-        "bucket": "human_work",
-        "duties": 5
-      },
-      {
-        "theme_id": "standardization_validation",
-        "name": "Standardization and validation",
-        "bucket": "possible_gap",
-        "duties": 5
-      },
-      {
-        "theme_id": "process_redesign",
-        "name": "Process redesign and systems",
-        "bucket": "possible_gap",
-        "duties": 1
-      },
-      {
-        "theme_id": "business_support_execution",
-        "name": "Business support and execution",
-        "bucket": "human_work",
-        "duties": 1
-      },
-      {
-        "theme_id": "executive_communication",
-        "name": "Executive communication and recommendations",
-        "bucket": "human_work",
-        "duties": 2
-      },
-      {
-        "theme_id": "compliance_governance",
-        "name": "Compliance and governance",
-        "bucket": "possible_gap",
-        "duties": 3
-      },
-      {
-        "theme_id": "analysis_decision_support",
-        "name": "Analysis and decision support",
-        "bucket": "human_work",
-        "duties": 5
-      },
-      {
-        "theme_id": "operating_model_controls",
-        "name": "Operating model and controls",
-        "bucket": "possible_gap",
-        "duties": 9
-      },
-      {
-        "theme_id": "technical_accounting",
-        "name": "Technical accounting and policy",
-        "bucket": "human_work",
-        "duties": 6
-      },
-      {
-        "theme_id": "workflow_modernization",
-        "name": "Workflow and reporting automation",
-        "bucket": "possible_gap",
-        "duties": 5
-      },
-      {
-        "theme_id": "treasury_cash",
-        "name": "Treasury and cash management",
-        "bucket": "possible_gap",
-        "duties": 1
-      },
-      {
-        "theme_id": "exceptions_resolution",
-        "name": "Exceptions and reconciliations",
-        "bucket": "possible_gap",
-        "duties": 4
-      },
-      {
-        "theme_id": "systems_data_analytics",
-        "name": "Systems, data, and analytics",
-        "bucket": "possible_gap",
-        "duties": 3
-      },
-      {
-        "theme_id": "planning_modeling",
-        "name": "Planning and modeling",
-        "bucket": "possible_gap",
-        "duties": 5
-      },
-      {
-        "theme_id": "automation_efficiency",
-        "name": "Automation and process improvement",
-        "bucket": "possible_gap",
-        "duties": 2
-      },
-      {
-        "theme_id": "payroll_workforce_admin",
-        "name": "Payroll and workforce administration",
-        "bucket": "possible_gap",
-        "duties": 3
-      }
-    ]
-  },
-  {
-    "slug": "shield-ai",
-    "company": "Shield AI",
-    "domain": "shield.ai",
-    "ats": "lever",
-    "employee_band": "501-1000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
-    "hq_state": "CA",
-    "excluded": null,
-    "posting_ids": [
-      "60cda1db954b419c",
-      "7c95ec2817a423f4",
-      "ba522a400e348c6b",
-      "e791861b49dee539"
-    ],
-    "open_roles": 4,
-    "avg_weighted_overlap": 0.12084859584859585,
-    "avg_overlap": 0.20430402930402927,
-    "pain": 0.2966788766788767,
-    "erp": [
-      "Costpoint",
-      "Oracle"
-    ],
-    "erp_class": "enterprise",
-    "erp_score": 1,
-    "size_class": "501–1,000",
-    "size_score": 0.65,
-    "complexity_flags": {
-      "multi_entity": false,
-      "multi_currency": false,
-      "usage_based_billing": false,
-      "high_volume": false
-    },
-    "complexity_count": 0,
-    "complexity_score": 0.2,
-    "fit": 0.655,
-    "product_split": {
-      "Reporting": {
-        "covered": 0,
-        "assisted": 15,
-        "weighted": 7.5
-      },
-      "GL accounting": {
-        "covered": 3,
-        "assisted": 3,
-        "weighted": 4.5
-      },
-      "Treasury": {
-        "covered": 0,
-        "assisted": 4,
-        "weighted": 2
-      }
-    },
-    "lead_product": "Reporting",
-    "tools": [
-      "Adaptive",
-      "Anaplan",
-      "DAX",
-      "Excel",
-      "Microsoft Fabric",
-      "Pigment",
-      "Power BI",
-      "Power Query",
-      "Vena",
-      "Workiva"
-    ],
-    "savings_total": 16054.945054945056,
-    "savings_roles": 4,
-    "salary_roles": 4,
-    "lead_score": 41.61192511192511,
-    "lead_parts": {
-      "pain": 19.778591778591778,
-      "fit": 21.833333333333332
-    },
     "rank": 26,
     "brief": null,
     "gap_themes": [
       {
-        "theme_id": "close_accounting_ops",
-        "name": "Close and accounting operations",
-        "bucket": "possible_gap",
-        "duties": 6
-      },
-      {
         "theme_id": "reporting_filings",
         "name": "Reporting and filing support",
         "bucket": "possible_gap",
-        "duties": 5
+        "duties": 2
       },
       {
         "theme_id": "finance_leadership_partnering",
         "name": "Finance leadership and partnering",
         "bucket": "human_work",
-        "duties": 13
+        "duties": 4
       },
       {
         "theme_id": "standardization_validation",
         "name": "Standardization and validation",
         "bucket": "possible_gap",
-        "duties": 10
+        "duties": 1
       },
       {
         "theme_id": "process_redesign",
         "name": "Process redesign and systems",
         "bucket": "possible_gap",
-        "duties": 9
+        "duties": 1
       },
       {
         "theme_id": "business_support_execution",
         "name": "Business support and execution",
         "bucket": "human_work",
-        "duties": 5
+        "duties": 1
       },
       {
-        "theme_id": "compliance_governance",
-        "name": "Compliance and governance",
-        "bucket": "possible_gap",
-        "duties": 1
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work",
+        "duties": 3
       },
       {
         "theme_id": "analysis_decision_support",
         "name": "Analysis and decision support",
         "bucket": "human_work",
-        "duties": 13
+        "duties": 2
       },
       {
         "theme_id": "operating_model_controls",
         "name": "Operating model and controls",
         "bucket": "possible_gap",
-        "duties": 6
+        "duties": 4
       },
       {
         "theme_id": "technical_accounting",
         "name": "Technical accounting and policy",
         "bucket": "human_work",
-        "duties": 5
-      },
-      {
-        "theme_id": "workflow_modernization",
-        "name": "Workflow and reporting automation",
-        "bucket": "possible_gap",
-        "duties": 3
-      },
-      {
-        "theme_id": "treasury_cash",
-        "name": "Treasury and cash management",
-        "bucket": "possible_gap",
-        "duties": 12
+        "duties": 1
       },
       {
         "theme_id": "manufacturing_costing",
         "name": "Manufacturing and cost accounting",
         "bucket": "possible_gap",
-        "duties": 7
+        "duties": 4
       },
       {
         "theme_id": "systems_data_analytics",
@@ -3862,13 +3862,13 @@
         "theme_id": "planning_modeling",
         "name": "Planning and modeling",
         "bucket": "possible_gap",
-        "duties": 2
+        "duties": 1
       },
       {
         "theme_id": "automation_efficiency",
         "name": "Automation and process improvement",
         "bucket": "possible_gap",
-        "duties": 7
+        "duties": 1
       }
     ]
   },
@@ -3879,7 +3879,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -4030,7 +4030,7 @@
     "ats": "ashby",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -4182,7 +4182,7 @@
     "ats": "ashby",
     "employee_band": "51-200",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -4295,7 +4295,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -4465,9 +4465,9 @@
     "company": "WHOOP",
     "domain": "whoop.com",
     "ats": "ashby",
-    "employee_band": "501-1000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "800",
+    "size_source_url": "https://en.wikipedia.org/wiki/Whoop_%28company%29",
+    "size_note": "Wikipedia infobox",
     "hq_state": "MA",
     "excluded": null,
     "posting_ids": [
@@ -4623,9 +4623,9 @@
     "company": "Formlabs",
     "domain": "formlabs.com",
     "ats": "greenhouse",
-    "employee_band": "501-1000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "750",
+    "size_source_url": "https://en.wikipedia.org/wiki/Formlabs",
+    "size_note": "Wikipedia infobox, 2026",
     "hq_state": "MA",
     "excluded": null,
     "posting_ids": [
@@ -4741,7 +4741,7 @@
     "ats": "ashby",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -4903,9 +4903,9 @@
     "company": "Samsara",
     "domain": "samsara.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "3500",
+    "size_source_url": "https://en.wikipedia.org/wiki/Samsara_%28company%29",
+    "size_note": "Wikipedia infobox, 2025",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -5071,9 +5071,9 @@
     "company": "Rent the Runway",
     "domain": "renttherunway.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1800",
+    "size_source_url": "https://en.wikipedia.org/wiki/Rent_the_Runway",
+    "size_note": "Wikipedia infobox",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -5197,9 +5197,9 @@
     "company": "PagerDuty",
     "domain": "pagerduty.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1242",
+    "size_source_url": "https://en.wikipedia.org/wiki/PagerDuty",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -5337,7 +5337,7 @@
     "ats": "greenhouse",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -5489,9 +5489,9 @@
     "company": "Rover",
     "domain": "rover.com",
     "ats": "lever",
-    "employee_band": "501-1000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "555",
+    "size_source_url": "https://en.wikipedia.org/wiki/Rover_%28American_company%29",
+    "size_note": "Wikipedia infobox, 2025",
     "hq_state": "WA",
     "excluded": null,
     "posting_ids": [
@@ -5613,7 +5613,7 @@
     "ats": "greenhouse",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -5790,9 +5790,9 @@
     "company": "Reddit",
     "domain": "reddit.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "2555",
+    "size_source_url": "https://en.wikipedia.org/wiki/Reddit",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -5962,7 +5962,7 @@
     "ats": "ashby",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -6103,7 +6103,7 @@
     "ats": "ashby",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CO",
     "excluded": null,
     "posting_ids": [
@@ -6273,7 +6273,7 @@
     "ats": "ashby",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -6408,9 +6408,9 @@
     "company": "Coursera",
     "domain": "coursera.org",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1300",
+    "size_source_url": "https://en.wikipedia.org/wiki/Coursera",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -6517,7 +6517,7 @@
     "ats": "ashby",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -6621,9 +6621,9 @@
     "company": "Fastly",
     "domain": "fastly.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1140",
+    "size_source_url": "https://en.wikipedia.org/wiki/Fastly",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -6775,7 +6775,7 @@
     "ats": "ashby",
     "employee_band": "51-200",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -6896,7 +6896,7 @@
     "ats": "greenhouse",
     "employee_band": "51-200",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -7039,7 +7039,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -7203,9 +7203,9 @@
     "company": "Navan",
     "domain": "navan.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "3000",
+    "size_source_url": "https://en.wikipedia.org/wiki/Navan%2C_Inc.",
+    "size_note": "Wikipedia infobox, 2022",
     "hq_state": "CA",
     "excluded": "finance_software_vendor",
     "posting_ids": [
@@ -7309,9 +7309,9 @@
     "company": "Squarespace",
     "domain": "squarespace.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1749",
+    "size_source_url": "https://en.wikipedia.org/wiki/Squarespace",
+    "size_note": "Wikipedia infobox",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -7475,9 +7475,9 @@
     "company": "Stitch Fix",
     "domain": "stitchfix.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "4165",
+    "size_source_url": "https://en.wikipedia.org/wiki/Stitch_Fix",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -7578,7 +7578,7 @@
     "ats": "greenhouse",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -7711,9 +7711,9 @@
     "company": "Vercel",
     "domain": "vercel.com",
     "ats": "greenhouse",
-    "employee_band": "501-1000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "550",
+    "size_source_url": "https://en.wikipedia.org/wiki/Vercel",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -7878,9 +7878,9 @@
     "company": "Pagaya",
     "domain": "pagaya.com",
     "ats": "greenhouse",
-    "employee_band": "501-1000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "553",
+    "size_source_url": "https://en.wikipedia.org/wiki/Pagaya_Technologies",
+    "size_note": "Wikipedia infobox",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -7983,7 +7983,7 @@
     "ats": "ashby",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -8101,7 +8101,7 @@
     "ats": "ashby",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -8192,9 +8192,9 @@
     "company": "Plaid",
     "domain": "plaid.com",
     "ats": "ashby",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1200",
+    "size_source_url": "https://en.wikipedia.org/wiki/Plaid_Inc.",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -8332,7 +8332,7 @@
     "ats": "lever",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "WA",
     "excluded": null,
     "posting_ids": [
@@ -8442,7 +8442,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -8559,7 +8559,7 @@
     "ats": "greenhouse",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -8717,7 +8717,7 @@
     "ats": "greenhouse",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -8861,7 +8861,7 @@
     "ats": "ashby",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -8990,9 +8990,9 @@
     "company": "Yext",
     "domain": "yext.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1200",
+    "size_source_url": "https://en.wikipedia.org/wiki/Yext",
+    "size_note": "Wikipedia infobox",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -9131,9 +9131,9 @@
     "company": "Upgrade",
     "domain": "upgrade.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1950",
+    "size_source_url": "https://en.wikipedia.org/wiki/Upgrade%2C_Inc.",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -9270,7 +9270,7 @@
     "ats": "greenhouse",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "SD",
     "excluded": null,
     "posting_ids": [
@@ -9380,7 +9380,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -9494,7 +9494,7 @@
     "ats": "ashby",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -9629,148 +9629,13 @@
     ]
   },
   {
-    "slug": "via",
-    "company": "Via",
-    "domain": "ridewithvia.com",
-    "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
-    "hq_state": "NY",
-    "excluded": null,
-    "posting_ids": [
-      "d23d17e643423475"
-    ],
-    "open_roles": 1,
-    "avg_weighted_overlap": 0.045454545454545456,
-    "avg_overlap": 0.09090909090909091,
-    "pain": 0.08636363636363636,
-    "erp": [],
-    "erp_class": "not_stated",
-    "erp_score": 0.5,
-    "size_class": "1,001–5,000",
-    "size_score": 0.85,
-    "complexity_flags": {
-      "multi_entity": true,
-      "multi_currency": false,
-      "usage_based_billing": false,
-      "high_volume": false
-    },
-    "complexity_count": 1,
-    "complexity_score": 0.5,
-    "fit": 0.605,
-    "product_split": {
-      "Reporting": {
-        "covered": 0,
-        "assisted": 4,
-        "weighted": 2
-      },
-      "GL accounting": {
-        "covered": 0,
-        "assisted": 1,
-        "weighted": 0.5
-      }
-    },
-    "lead_product": "Reporting",
-    "tools": [
-      "Malam",
-      "P&I Loga",
-      "Workday",
-      "iiPay"
-    ],
-    "savings_total": 1988.6363636363637,
-    "savings_roles": 1,
-    "salary_roles": 1,
-    "lead_score": 25.924242424242422,
-    "lead_parts": {
-      "pain": 5.757575757575757,
-      "fit": 20.166666666666664
-    },
-    "rank": 68,
-    "brief": null,
-    "gap_themes": [
-      {
-        "theme_id": "reporting_filings",
-        "name": "Reporting and filing support",
-        "bucket": "possible_gap",
-        "duties": 2
-      },
-      {
-        "theme_id": "finance_leadership_partnering",
-        "name": "Finance leadership and partnering",
-        "bucket": "human_work",
-        "duties": 3
-      },
-      {
-        "theme_id": "standardization_validation",
-        "name": "Standardization and validation",
-        "bucket": "possible_gap",
-        "duties": 7
-      },
-      {
-        "theme_id": "process_redesign",
-        "name": "Process redesign and systems",
-        "bucket": "possible_gap",
-        "duties": 3
-      },
-      {
-        "theme_id": "executive_communication",
-        "name": "Executive communication and recommendations",
-        "bucket": "human_work",
-        "duties": 3
-      },
-      {
-        "theme_id": "compliance_governance",
-        "name": "Compliance and governance",
-        "bucket": "possible_gap",
-        "duties": 11
-      },
-      {
-        "theme_id": "analysis_decision_support",
-        "name": "Analysis and decision support",
-        "bucket": "human_work",
-        "duties": 1
-      },
-      {
-        "theme_id": "technical_accounting",
-        "name": "Technical accounting and policy",
-        "bucket": "human_work",
-        "duties": 4
-      },
-      {
-        "theme_id": "exceptions_resolution",
-        "name": "Exceptions and reconciliations",
-        "bucket": "possible_gap",
-        "duties": 2
-      },
-      {
-        "theme_id": "systems_data_analytics",
-        "name": "Systems, data, and analytics",
-        "bucket": "possible_gap",
-        "duties": 1
-      },
-      {
-        "theme_id": "planning_modeling",
-        "name": "Planning and modeling",
-        "bucket": "possible_gap",
-        "duties": 1
-      },
-      {
-        "theme_id": "payroll_workforce_admin",
-        "name": "Payroll and workforce administration",
-        "bucket": "possible_gap",
-        "duties": 12
-      }
-    ]
-  },
-  {
     "slug": "ag1",
     "company": "AG1",
     "domain": "drinkag1.com",
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -9821,7 +9686,7 @@
       "pain": 12.222222222222221,
       "fit": 13.666666666666664
     },
-    "rank": 69,
+    "rank": 68,
     "brief": null,
     "gap_themes": [
       {
@@ -9911,7 +9776,7 @@
     "ats": "greenhouse",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -9948,7 +9813,7 @@
       "pain": 3.333333333333333,
       "fit": 21.833333333333332
     },
-    "rank": 70,
+    "rank": 69,
     "brief": null,
     "gap_themes": [
       {
@@ -10038,7 +9903,7 @@
     "ats": "lever",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "GA",
     "excluded": null,
     "posting_ids": [
@@ -10084,7 +9949,7 @@
       "pain": 4.7368421052631575,
       "fit": 20.333333333333332
     },
-    "rank": 71,
+    "rank": 70,
     "brief": null,
     "gap_themes": [
       {
@@ -10156,7 +10021,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -10213,7 +10078,7 @@
       "pain": 11.219135802469134,
       "fit": 13.666666666666664
     },
-    "rank": 72,
+    "rank": 71,
     "brief": null,
     "gap_themes": [
       {
@@ -10315,109 +10180,13 @@
     ]
   },
   {
-    "slug": "astranis",
-    "company": "Astranis",
-    "domain": "astranis.com",
-    "ats": "greenhouse",
-    "employee_band": "501-1000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
-    "hq_state": "CA",
-    "excluded": null,
-    "posting_ids": [
-      "23597d58012f47d6"
-    ],
-    "open_roles": 1,
-    "avg_weighted_overlap": 0.1111111111111111,
-    "avg_overlap": 0.2222222222222222,
-    "pain": 0.1388888888888889,
-    "erp": [],
-    "erp_class": "not_stated",
-    "erp_score": 0.5,
-    "size_class": "501–1,000",
-    "size_score": 0.65,
-    "complexity_flags": {
-      "multi_entity": false,
-      "multi_currency": false,
-      "usage_based_billing": false,
-      "high_volume": false
-    },
-    "complexity_count": 0,
-    "complexity_score": 0.2,
-    "fit": 0.455,
-    "product_split": {
-      "GL accounting": {
-        "covered": 0,
-        "assisted": 2,
-        "weighted": 1
-      },
-      "Reporting": {
-        "covered": 0,
-        "assisted": 2,
-        "weighted": 1
-      }
-    },
-    "lead_product": "GL accounting",
-    "tools": [
-      "Excel"
-    ],
-    "savings_total": 1944.4444444444443,
-    "savings_roles": 1,
-    "salary_roles": 1,
-    "lead_score": 24.425925925925924,
-    "lead_parts": {
-      "pain": 9.259259259259258,
-      "fit": 15.166666666666664
-    },
-    "rank": 73,
-    "brief": null,
-    "gap_themes": [
-      {
-        "theme_id": "reporting_filings",
-        "name": "Reporting and filing support",
-        "bucket": "possible_gap",
-        "duties": 1
-      },
-      {
-        "theme_id": "business_support_execution",
-        "name": "Business support and execution",
-        "bucket": "human_work",
-        "duties": 3
-      },
-      {
-        "theme_id": "treasury_cash",
-        "name": "Treasury and cash management",
-        "bucket": "possible_gap",
-        "duties": 1
-      },
-      {
-        "theme_id": "manufacturing_costing",
-        "name": "Manufacturing and cost accounting",
-        "bucket": "possible_gap",
-        "duties": 7
-      },
-      {
-        "theme_id": "planning_modeling",
-        "name": "Planning and modeling",
-        "bucket": "possible_gap",
-        "duties": 1
-      },
-      {
-        "theme_id": "automation_efficiency",
-        "name": "Automation and process improvement",
-        "bucket": "possible_gap",
-        "duties": 1
-      }
-    ]
-  },
-  {
     "slug": "zoominfo",
     "company": "ZoomInfo",
     "domain": "zoominfo.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "3508",
+    "size_source_url": "https://en.wikipedia.org/wiki/ZoomInfo",
+    "size_note": "Wikipedia infobox",
     "hq_state": "WA",
     "excluded": null,
     "posting_ids": [
@@ -10465,7 +10234,7 @@
       "pain": 7.254901960784313,
       "fit": 17.166666666666664
     },
-    "rank": 74,
+    "rank": 72,
     "brief": null,
     "gap_themes": [
       {
@@ -10531,13 +10300,148 @@
     ]
   },
   {
+    "slug": "via",
+    "company": "Via",
+    "domain": "ridewithvia.com",
+    "ats": "greenhouse",
+    "employee_band": "950",
+    "size_source_url": "https://en.wikipedia.org/wiki/Via_Transportation",
+    "size_note": "Wikipedia infobox",
+    "hq_state": "NY",
+    "excluded": null,
+    "posting_ids": [
+      "d23d17e643423475"
+    ],
+    "open_roles": 1,
+    "avg_weighted_overlap": 0.045454545454545456,
+    "avg_overlap": 0.09090909090909091,
+    "pain": 0.08636363636363636,
+    "erp": [],
+    "erp_class": "not_stated",
+    "erp_score": 0.5,
+    "size_class": "501–1,000",
+    "size_score": 0.65,
+    "complexity_flags": {
+      "multi_entity": true,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false
+    },
+    "complexity_count": 1,
+    "complexity_score": 0.5,
+    "fit": 0.545,
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 4,
+        "weighted": 2
+      },
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "lead_product": "Reporting",
+    "tools": [
+      "Malam",
+      "P&I Loga",
+      "Workday",
+      "iiPay"
+    ],
+    "savings_total": 1988.6363636363637,
+    "savings_roles": 1,
+    "salary_roles": 1,
+    "lead_score": 23.924242424242422,
+    "lead_parts": {
+      "pain": 5.757575757575757,
+      "fit": 18.166666666666664
+    },
+    "rank": 73,
+    "brief": null,
+    "gap_themes": [
+      {
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
+        "bucket": "possible_gap",
+        "duties": 2
+      },
+      {
+        "theme_id": "finance_leadership_partnering",
+        "name": "Finance leadership and partnering",
+        "bucket": "human_work",
+        "duties": 3
+      },
+      {
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap",
+        "duties": 7
+      },
+      {
+        "theme_id": "process_redesign",
+        "name": "Process redesign and systems",
+        "bucket": "possible_gap",
+        "duties": 3
+      },
+      {
+        "theme_id": "executive_communication",
+        "name": "Executive communication and recommendations",
+        "bucket": "human_work",
+        "duties": 3
+      },
+      {
+        "theme_id": "compliance_governance",
+        "name": "Compliance and governance",
+        "bucket": "possible_gap",
+        "duties": 11
+      },
+      {
+        "theme_id": "analysis_decision_support",
+        "name": "Analysis and decision support",
+        "bucket": "human_work",
+        "duties": 1
+      },
+      {
+        "theme_id": "technical_accounting",
+        "name": "Technical accounting and policy",
+        "bucket": "human_work",
+        "duties": 4
+      },
+      {
+        "theme_id": "exceptions_resolution",
+        "name": "Exceptions and reconciliations",
+        "bucket": "possible_gap",
+        "duties": 2
+      },
+      {
+        "theme_id": "systems_data_analytics",
+        "name": "Systems, data, and analytics",
+        "bucket": "possible_gap",
+        "duties": 1
+      },
+      {
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap",
+        "duties": 1
+      },
+      {
+        "theme_id": "payroll_workforce_admin",
+        "name": "Payroll and workforce administration",
+        "bucket": "possible_gap",
+        "duties": 12
+      }
+    ]
+  },
+  {
     "slug": "rula",
     "company": "Rula",
     "domain": "rula.com",
     "ats": "ashby",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -10583,7 +10487,7 @@
       "pain": 10.238095238095237,
       "fit": 13.666666666666664
     },
-    "rank": 75,
+    "rank": 74,
     "brief": null,
     "gap_themes": [
       {
@@ -10643,7 +10547,7 @@
     "ats": "lever",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -10679,7 +10583,7 @@
       "pain": 6.666666666666666,
       "fit": 17.166666666666664
     },
-    "rank": 76,
+    "rank": 75,
     "brief": null,
     "gap_themes": [
       {
@@ -10769,90 +10673,13 @@
     ]
   },
   {
-    "slug": "outschool",
-    "company": "Outschool",
-    "domain": "outschool.com",
-    "ats": "ashby",
-    "employee_band": "201-500",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
-    "hq_state": "CA",
-    "excluded": null,
-    "posting_ids": [
-      "5b64604701b310ca"
-    ],
-    "open_roles": 1,
-    "avg_weighted_overlap": 0.125,
-    "avg_overlap": 0.25,
-    "pain": 0.15000000000000002,
-    "erp": [],
-    "erp_class": "not_stated",
-    "erp_score": 0.5,
-    "size_class": "201–500",
-    "size_score": 0.5,
-    "complexity_flags": {
-      "multi_entity": false,
-      "multi_currency": false,
-      "usage_based_billing": false,
-      "high_volume": false
-    },
-    "complexity_count": 0,
-    "complexity_score": 0.2,
-    "fit": 0.41,
-    "product_split": {
-      "Reporting": {
-        "covered": 0,
-        "assisted": 2,
-        "weighted": 1
-      }
-    },
-    "lead_product": "Reporting",
-    "tools": [],
-    "savings_total": 5167.96875,
-    "savings_roles": 1,
-    "salary_roles": 1,
-    "lead_score": 23.666666666666664,
-    "lead_parts": {
-      "pain": 10,
-      "fit": 13.666666666666664
-    },
-    "rank": 77,
-    "brief": null,
-    "gap_themes": [
-      {
-        "theme_id": "close_accounting_ops",
-        "name": "Close and accounting operations",
-        "bucket": "possible_gap",
-        "duties": 1
-      },
-      {
-        "theme_id": "reporting_filings",
-        "name": "Reporting and filing support",
-        "bucket": "possible_gap",
-        "duties": 1
-      },
-      {
-        "theme_id": "standardization_validation",
-        "name": "Standardization and validation",
-        "bucket": "possible_gap",
-        "duties": 1
-      },
-      {
-        "theme_id": "business_support_execution",
-        "name": "Business support and execution",
-        "bucket": "human_work",
-        "duties": 3
-      }
-    ]
-  },
-  {
     "slug": "braze",
     "company": "Braze",
     "domain": "braze.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "2000",
+    "size_source_url": "https://en.wikipedia.org/wiki/Braze%2C_Inc.",
+    "size_note": "Wikipedia infobox",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -10896,7 +10723,7 @@
       "pain": 6.296296296296295,
       "fit": 17.166666666666664
     },
-    "rank": 78,
+    "rank": 76,
     "brief": null,
     "gap_themes": [
       {
@@ -10932,13 +10759,109 @@
     ]
   },
   {
+    "slug": "astranis",
+    "company": "Astranis",
+    "domain": "astranis.com",
+    "ats": "greenhouse",
+    "employee_band": "250",
+    "size_source_url": "https://en.wikipedia.org/wiki/Astranis",
+    "size_note": "Wikipedia infobox, 2023",
+    "hq_state": "CA",
+    "excluded": null,
+    "posting_ids": [
+      "23597d58012f47d6"
+    ],
+    "open_roles": 1,
+    "avg_weighted_overlap": 0.1111111111111111,
+    "avg_overlap": 0.2222222222222222,
+    "pain": 0.1388888888888889,
+    "erp": [],
+    "erp_class": "not_stated",
+    "erp_score": 0.5,
+    "size_class": "201–500",
+    "size_score": 0.5,
+    "complexity_flags": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false
+    },
+    "complexity_count": 0,
+    "complexity_score": 0.2,
+    "fit": 0.41,
+    "product_split": {
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "lead_product": "GL accounting",
+    "tools": [
+      "Excel"
+    ],
+    "savings_total": 1944.4444444444443,
+    "savings_roles": 1,
+    "salary_roles": 1,
+    "lead_score": 22.925925925925924,
+    "lead_parts": {
+      "pain": 9.259259259259258,
+      "fit": 13.666666666666664
+    },
+    "rank": 77,
+    "brief": null,
+    "gap_themes": [
+      {
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
+        "bucket": "possible_gap",
+        "duties": 1
+      },
+      {
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work",
+        "duties": 3
+      },
+      {
+        "theme_id": "treasury_cash",
+        "name": "Treasury and cash management",
+        "bucket": "possible_gap",
+        "duties": 1
+      },
+      {
+        "theme_id": "manufacturing_costing",
+        "name": "Manufacturing and cost accounting",
+        "bucket": "possible_gap",
+        "duties": 7
+      },
+      {
+        "theme_id": "planning_modeling",
+        "name": "Planning and modeling",
+        "bucket": "possible_gap",
+        "duties": 1
+      },
+      {
+        "theme_id": "automation_efficiency",
+        "name": "Automation and process improvement",
+        "bucket": "possible_gap",
+        "duties": 1
+      }
+    ]
+  },
+  {
     "slug": "abnormal-security",
     "company": "Abnormal Security",
     "domain": "abnormalsecurity.com",
     "ats": "greenhouse",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -10979,7 +10902,7 @@
       "pain": 4.814814814814815,
       "fit": 17.166666666666664
     },
-    "rank": 79,
+    "rank": 78,
     "brief": null,
     "gap_themes": [
       {
@@ -11063,7 +10986,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -11107,7 +11030,7 @@
       "pain": 8.271604938271604,
       "fit": 13.666666666666664
     },
-    "rank": 80,
+    "rank": 79,
     "brief": null,
     "gap_themes": [
       {
@@ -11167,7 +11090,7 @@
     "ats": "ashby",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -11208,7 +11131,7 @@
       "pain": 8.181818181818182,
       "fit": 13.666666666666664
     },
-    "rank": 81,
+    "rank": 80,
     "brief": null,
     "gap_themes": [
       {
@@ -11256,13 +11179,90 @@
     ]
   },
   {
+    "slug": "outschool",
+    "company": "Outschool",
+    "domain": "outschool.com",
+    "ats": "ashby",
+    "employee_band": "110",
+    "size_source_url": "https://en.wikipedia.org/wiki/Outschool",
+    "size_note": "Wikipedia infobox, 2020",
+    "hq_state": "CA",
+    "excluded": null,
+    "posting_ids": [
+      "5b64604701b310ca"
+    ],
+    "open_roles": 1,
+    "avg_weighted_overlap": 0.125,
+    "avg_overlap": 0.25,
+    "pain": 0.15000000000000002,
+    "erp": [],
+    "erp_class": "not_stated",
+    "erp_score": 0.5,
+    "size_class": "1–200",
+    "size_score": 0.3,
+    "complexity_flags": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false
+    },
+    "complexity_count": 0,
+    "complexity_score": 0.2,
+    "fit": 0.35000000000000003,
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "lead_product": "Reporting",
+    "tools": [],
+    "savings_total": 5167.96875,
+    "savings_roles": 1,
+    "salary_roles": 1,
+    "lead_score": 21.666666666666664,
+    "lead_parts": {
+      "pain": 10,
+      "fit": 11.666666666666666
+    },
+    "rank": 81,
+    "brief": null,
+    "gap_themes": [
+      {
+        "theme_id": "close_accounting_ops",
+        "name": "Close and accounting operations",
+        "bucket": "possible_gap",
+        "duties": 1
+      },
+      {
+        "theme_id": "reporting_filings",
+        "name": "Reporting and filing support",
+        "bucket": "possible_gap",
+        "duties": 1
+      },
+      {
+        "theme_id": "standardization_validation",
+        "name": "Standardization and validation",
+        "bucket": "possible_gap",
+        "duties": 1
+      },
+      {
+        "theme_id": "business_support_execution",
+        "name": "Business support and execution",
+        "bucket": "human_work",
+        "duties": 3
+      }
+    ]
+  },
+  {
     "slug": "ro",
     "company": "Ro",
     "domain": "ro.co",
     "ats": "lever",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -11408,7 +11408,7 @@
     "ats": "greenhouse",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "MD",
     "excluded": null,
     "posting_ids": [
@@ -11550,7 +11550,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -11701,7 +11701,7 @@
     "ats": "greenhouse",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": "finance_software_vendor",
     "posting_ids": [
@@ -11829,7 +11829,7 @@
     "ats": "lever",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "GA",
     "excluded": null,
     "posting_ids": [
@@ -11919,9 +11919,9 @@
     "company": "Gusto",
     "domain": "gusto.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "2400",
+    "size_source_url": "https://en.wikipedia.org/wiki/Gusto%2C_Inc.",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": "finance_software_vendor",
     "posting_ids": [
@@ -12046,7 +12046,7 @@
     "ats": "greenhouse",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -12191,7 +12191,7 @@
     "ats": "greenhouse",
     "employee_band": "51-200",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -12302,7 +12302,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -12413,7 +12413,7 @@
     "ats": "greenhouse",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -12556,7 +12556,7 @@
     "ats": "greenhouse",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -12697,7 +12697,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -12807,7 +12807,7 @@
     "ats": "ashby",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -12940,9 +12940,9 @@
     "company": "ClassDojo",
     "domain": "classdojo.com",
     "ats": "ashby",
-    "employee_band": "201-500",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "40",
+    "size_source_url": "https://en.wikipedia.org/wiki/ClassDojo",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -12955,8 +12955,8 @@
     "erp": [],
     "erp_class": "not_stated",
     "erp_score": 0.5,
-    "size_class": "201–500",
-    "size_score": 0.5,
+    "size_class": "1–200",
+    "size_score": 0.3,
     "complexity_flags": {
       "multi_entity": false,
       "multi_currency": false,
@@ -12965,7 +12965,7 @@
     },
     "complexity_count": 0,
     "complexity_score": 0.2,
-    "fit": 0.41,
+    "fit": 0.35000000000000003,
     "product_split": {},
     "lead_product": null,
     "tools": [
@@ -12974,10 +12974,10 @@
     "savings_total": 0,
     "savings_roles": 1,
     "salary_roles": 1,
-    "lead_score": 16.999999999999996,
+    "lead_score": 15,
     "lead_parts": {
       "pain": 3.333333333333333,
-      "fit": 13.666666666666664
+      "fit": 11.666666666666666
     },
     "rank": 93,
     "brief": null,

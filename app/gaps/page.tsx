@@ -19,7 +19,7 @@ export default function GapsPage() {
       <PageHero
         eyebrow="The gaps"
         title={top ? <>{top.name} shows up in {pct(top.metrics.share_strong_leads)} of strong leads and is not on Hyphenate&apos;s public site.</> : <>What finance postings ask for that Hyphenate does not advertise.</>}
-        sub="Every duty labelled human, gap candidate or unclear is grouped into a theme. Possible gaps are product input: what to build next, and what prospects will ask about. This is not a claim that Hyphenate cannot do the work."
+        sub="Every duty in these postings that Hyphenate’s public site does not mention is grouped into a theme, such as sales tax filing or expense report review. Themes made of repetitive work point to what Hyphenate could build next, and what prospects are likely to ask about. Not being on the site does not mean Hyphenate cannot do it."
         meta={`${gaps.length} possible gaps · ${themes.length} themes · ${themes.reduce((a, t) => a + t.duty_ids.length, 0)} duties`}
       />
       <section className="py-12 sm:py-16">

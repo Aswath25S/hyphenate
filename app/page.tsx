@@ -40,7 +40,7 @@ export default function Overview() {
             <StatBlock value={h.postings} label="Postings analysed" href="/method#data" note="Open US finance roles, last 60 days" />
             <StatBlock value={h.companies} label="Companies analysed" href="/leads" note={excluded ? `${h.lead_companies} are leads; ${excluded} software ${excluded === 1 ? 'vendor' : 'vendors'} excluded` : `All ${h.lead_companies} are leads`} />
             <StatBlock value={pct(h.median_overlap)} label="Median overlap" href="/savings#roles" note="Covered + assisted duties ÷ scored duties" />
-            <StatBlock value={usd(h.overlap_salary_total, { compact: true })} label={`Salary in roles ≥${pct(h.overlap_salary_min_overlap)} on Hyphenate's site`} href="/savings" note={`Yearly salary across ${h.overlap_salary_roles} roles, middle of posted range`} />
+            <StatBlock value={usd(h.overlap_salary_total, { compact: true })} label="Salary in roles Hyphenate overlaps" href="/savings" note={`Yearly pay of the ${h.overlap_salary_roles} roles where at least ${pct(h.overlap_salary_min_overlap)} of the duties are on Hyphenate's site (middle of each posted range)`} />
           </div>
         </Container>
       </section>

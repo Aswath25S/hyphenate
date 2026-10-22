@@ -26,7 +26,7 @@ Choices made inside the spec's latitude. Newest at the bottom of each section.
 
 - **Seed discovery.** `pipeline/discover.ts` probed ~600 candidate slugs against the three public board APIs (Greenhouse, Lever, Ashby) and kept boards with recent US finance titles. `pipeline/discover-detail.ts` lists the surviving titles. Neither is a pipeline stage.
 - **Excluded from seeds as likely over 5,000 employees:** OpenAI, Anthropic, Databricks, Lucid Motors.
-- **Employee bands are unverified estimates.** Fetching a public size source (Wikipedia, company filings) would mean fetching a site not listed in the spec, which needs the user's go-ahead. Every row says `unverified estimate` in `size_note`, and `size_source_url` is blank. The UI shows "size unverified" next to every band. **Action for the user:** replace bands with sourced values.
+- **Employee counts** (updated 22 Oct 2026, at the user's request): `npm run seed:sizes` matches each seed to Wikidata by official website and reads the English Wikipedia infobox. 37 of 102 seeds now have a sourced count with a link (`size_source_url`, `size_note`); the rest keep an estimate, labelled as such in the UI. Checked against the sourced figures, the original estimates fell in the same size bracket 30 of 37 times. LinkedIn, Glassdoor and paid databases were not used.
 - **Collect stores only plausible titles.** Boards return ~9,000 jobs; `collect` keeps postings whose title is not rejected by the role rules (`pipeline/lib/roles.ts`) to keep `data/raw` small. Every board's total job count is kept in the collection report.
 - **Unclear titles** (e.g. "Head of Finance") go to a batched LLM check. Without an API key they are dropped and the count is logged.
 - **Dates.** All three APIs expose a first-published date (Greenhouse `first_published`, Lever `createdAt`, Ashby `publishedAt`). Postings older than 60 days at the `--as-of` date are dropped.
@@ -101,3 +101,11 @@ Choices made inside the spec's latitude. Newest at the bottom of each section.
 
 - Minimum savings now count duties Hyphenate prepares for approval at 0.25 by default (`SAVINGS_DEFAULTS.countAssisted = true`), on top of the 0.5 safety discount. Dataset total: $508K → $826K across 146 postings.
 - The covered-only figure is still shown on Roles & Savings as the "strict floor", and the toggle can switch it back.
+
+## Corrections 6.0 (22 Oct 2026)
+
+- Leads filters use a custom dropdown (opens below the button, consistent pointer cursor, keyboard support) instead of native selects.
+- Salary filter buckets on average salary: under $75K, $75–100K, $100–150K, $150–200K, $200K+, any, none.
+- Gaps: clearer intro, wider spacing between share and postings columns, smooth Human work / Too vague sections.
+- Roles & Savings table: "Share done" column removed; savings columns named "Savings (default)" / "Savings (yours)".
+- Method: retitled around how the project was made; seven steps (briefs step removed from the list); formulas are Overlap, Lead score (work + fit + combined), Minimum savings, Ranking gaps; savings wording now says it is a share of the posted salary.

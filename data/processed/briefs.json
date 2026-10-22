@@ -164,6 +164,49 @@
       },
       "attempts": 1
     },
+    "elevenlabs.io": {
+      "brief": {
+        "headline": "ElevenLabs is hiring a Revenue Accountant for 67% overlap work.",
+        "why_them": "ElevenLabs has 1 open finance role, and the Revenue Accountant posting shows 67% overlap. ERP is not stated.",
+        "lead_with": "GL accounting, because it covers 5 duties and assists 5.",
+        "minimum_savings": "No salary posted, so no figure.",
+        "may_not_cover": "Reporting and filing support, Standardization and validation, and Process redesign and systems are not on Hyphenate's public site.",
+        "angle": "Before your next hire, GL accounting could absorb the Revenue Accountant work already showing 67% overlap."
+      },
+      "data": {
+        "company": "ElevenLabs",
+        "open_finance_roles": 1,
+        "roles": [
+          {
+            "title": "Revenue Accountant",
+            "role_family": "Revenue",
+            "overlap": "67%",
+            "posting_id": "3e4022fc21b9a4c6"
+          }
+        ],
+        "average_overlap": "67%",
+        "erp": [
+          "not stated"
+        ],
+        "lead_product": "GL accounting",
+        "lead_product_duties": {
+          "covered": 5,
+          "assisted": 5
+        },
+        "minimum_savings": null,
+        "top_gap_themes": [
+          "Reporting and filing support",
+          "Standardization and validation",
+          "Process redesign and systems"
+        ],
+        "tools_named_in_postings": [
+          "HubiFi",
+          "Metronome",
+          "Stripe"
+        ]
+      },
+      "attempts": 1
+    },
     "poshmark.com": {
       "brief": {
         "headline": "Poshmark is hiring a Senior Revenue Accountant to cover revenue work beside GL accounting.",
@@ -204,49 +247,6 @@
           "Leapfin",
           "Looker",
           "MS Office"
-        ]
-      },
-      "attempts": 1
-    },
-    "elevenlabs.io": {
-      "brief": {
-        "headline": "ElevenLabs is hiring a Revenue Accountant for 67% overlap work.",
-        "why_them": "ElevenLabs has 1 open finance role, and the Revenue Accountant posting shows 67% overlap. ERP is not stated.",
-        "lead_with": "GL accounting, because it covers 5 duties and assists 5.",
-        "minimum_savings": "No salary posted, so no figure.",
-        "may_not_cover": "Reporting and filing support, Standardization and validation, and Process redesign and systems are not on Hyphenate's public site.",
-        "angle": "Before your next hire, GL accounting could absorb the Revenue Accountant work already showing 67% overlap."
-      },
-      "data": {
-        "company": "ElevenLabs",
-        "open_finance_roles": 1,
-        "roles": [
-          {
-            "title": "Revenue Accountant",
-            "role_family": "Revenue",
-            "overlap": "67%",
-            "posting_id": "3e4022fc21b9a4c6"
-          }
-        ],
-        "average_overlap": "67%",
-        "erp": [
-          "not stated"
-        ],
-        "lead_product": "GL accounting",
-        "lead_product_duties": {
-          "covered": 5,
-          "assisted": 5
-        },
-        "minimum_savings": null,
-        "top_gap_themes": [
-          "Reporting and filing support",
-          "Standardization and validation",
-          "Process redesign and systems"
-        ],
-        "tools_named_in_postings": [
-          "HubiFi",
-          "Metronome",
-          "Stripe"
         ]
       },
       "attempts": 1

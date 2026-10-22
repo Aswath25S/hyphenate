@@ -171,7 +171,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           {([
             ['Hyphenate can do the work', c.pain, c.lead_parts.pain, `On average ${pct(c.avg_overlap)} of the duties in their ${c.open_roles} open finance ${c.open_roles === 1 ? 'role are' : 'roles are'} work Hyphenate advertises. More open roles raise this part.`],
-            ['Looks like a Hyphenate customer', c.fit, c.lead_parts.fit, `ERP: ${c.erp.join(', ') || 'not stated'}. Size: ${c.employee_band ? `${formatBand(c.employee_band)} employees (unverified estimate)` : 'unknown'}. Complex finance: ${Object.entries(c.complexity_flags).filter(([, v]) => v).map(([k]) => k.replace(/_/g, ' ')).join(', ') || 'none stated'}.`],
+            ['Looks like a Hyphenate customer', c.fit, c.lead_parts.fit, `ERP: ${c.erp.join(', ') || 'not stated'}. Size: ${c.employee_band ? `${formatBand(c.employee_band)} employees (${c.size_source_url ? c.size_note : 'estimate'})` : 'unknown'}. Complex finance: ${Object.entries(c.complexity_flags).filter(([, v]) => v).map(([k]) => k.replace(/_/g, ' ')).join(', ') || 'none stated'}.`],
           ] as const).map(([name, v, pts, text]) => (
             <div key={name} className="card p-5">
               <div className="flex items-baseline justify-between gap-2"><span className="font-medium">{name}</span><span className="num font-mono text-[12px] text-ink-display">{pts.toFixed(1)} pts</span></div>
@@ -200,7 +200,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
             </tbody>
           </table>
         </div>
-        <div className="mt-3"><Note>Gross value, not net savings: Hyphenate&apos;s price is unknown. Work Hyphenate could absorb before the next hire, never people to cut. Based on {c.salary_roles} of {roles.length} roles that list a salary.</Note></div>
+        <div className="mt-3"><Note>Gross value, not net savings: Hyphenate&apos;s price is unknown. The figure is the share of each role&apos;s posted salary tied to duties Hyphenate could take on before the next hire, not a count of people to cut. Based on {c.salary_roles} of {roles.length} roles that list a salary.</Note></div>
       </Section>
 
       <Section eyebrow="Tools named" title={c.tools.length ? 'What the team already uses.' : 'No tools named in the postings.'}>

@@ -78,7 +78,7 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
           <div className="mt-5 space-y-1 text-[13px] text-ink-muted">
             <p>Based on {withSalary.length} of {rows.length} postings that list a salary; {withSalary.length - eligible.length} thin {withSalary.length - eligible.length === 1 ? 'posting' : 'postings'} excluded.</p>
             <p>Gross value, not net savings: Hyphenate&apos;s price is unknown.</p>
-            <p>Work Hyphenate could absorb before the next hire, never people to cut.</p>
+            <p>A share of each role’s posted salary: the pay tied to duties Hyphenate could take on before the next hire. Not a count of people to cut.</p>
           </div>
         </div>
 
@@ -139,7 +139,7 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
           </div>
           <div className="relative h-12">
             <div className="absolute inset-y-0 left-0 flex items-center rounded-md border border-accent bg-accent-soft px-3" style={{ width: `min(100%, max(${salaryPool ? ((shown / salaryPool) * 100).toFixed(1) : 0}%, 18rem))` }}>
-              <span className="truncate whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.08em] text-accent-ink">Hyphenate could absorb: {usd(shown)}</span>
+              <span className="truncate whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.08em] text-accent-ink">Salary tied to Hyphenate’s work: {usd(shown)}</span>
             </div>
           </div>
           <div className="flex justify-between font-mono text-[11px] text-ink-muted"><span>0</span><span>{salaryPool ? `${((shown / salaryPool) * 100).toFixed(0)}% of salary` : ''}</span><span>{usd(salaryPool, { compact: true })}</span></div>
@@ -197,7 +197,7 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
         <h3 className="t-sub">Every role, with its breakdown.</h3>
         <div className="card mt-5 overflow-x-auto">
           <table className="w-full min-w-[900px] text-[14px]">
-            <thead className="border-b border-line"><tr>{['Role', 'Company', 'Role breakdown', 'Salary min', 'Share done', 'Default', custom ? 'Yours' : ''].map((h, i) => <th key={i} className={`whitespace-nowrap px-4 py-3 font-normal ${i < 3 ? 'text-left' : 'text-right'}`}><span className="t-mono">{h}</span></th>)}</tr></thead>
+            <thead className="border-b border-line"><tr>{['Role', 'Company', 'Role breakdown', 'Salary min', 'Savings (default)', custom ? 'Savings (yours)' : ''].map((h, i) => <th key={i} className={`whitespace-nowrap px-4 py-3 font-normal ${i < 3 ? 'text-left' : 'text-right'}`}><span className="t-mono">{h}</span></th>)}</tr></thead>
             <tbody>
               {[...calc].sort((a, b) => (b.def ?? -1) - (a.def ?? -1)).map((r) => (
                 <tr key={r.posting_id} className="border-t border-dashed border-line-dashed">
@@ -205,7 +205,6 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
                   <td className="px-4 py-2.5"><Link href={`/companies/${r.slug}`} className="hover:text-brand">{r.company}</Link></td>
                   <td className="whitespace-nowrap px-4 py-2.5"><Link href={`/postings/${r.posting_id}`} className="link">Role breakdown</Link></td>
                   <td className="num px-4 py-2.5 text-right">{r.salary_min !== null ? usd(r.salary_min) : '–'}</td>
-                  <td className="num px-4 py-2.5 text-right">{savingsShare(r.C, r.A, s.assistedWeight, s.countAssisted)}/{r.n}</td>
                   <td className="num px-4 py-2.5 text-right">{r.def !== null ? usd(r.def) : <span className="text-[13px] text-ink-muted">{r.reason === 'no_salary' ? 'No salary posted' : r.reason === 'thin_posting' ? 'Thin posting' : 'No duties'}</span>}</td>
                   <td className="num px-4 py-2.5 text-right text-accent-ink">{custom && r.yours !== null ? usd(r.yours) : ''}</td>
                 </tr>

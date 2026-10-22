@@ -18,7 +18,8 @@
     "fixtures:build": "tsx tests/fixtures/build-fixtures.ts",
     "report:collection": "tsx pipeline/report-collection.ts",
     "findings": "tsx pipeline/findings.ts",
-    "spotcheck": "tsx pipeline/spotcheck.ts"
+    "spotcheck": "tsx pipeline/spotcheck.ts",
+    "seed:sizes": "tsx pipeline/size-lookup.ts"
   },
   "dependencies": {
     "geist": "^1.8.1",

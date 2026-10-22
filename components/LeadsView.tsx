@@ -7,6 +7,7 @@ import { ROLE_LABELS, formatBand, pct, usd } from '@/lib/format';
 import { useUrlState } from '@/lib/useUrlState';
 import { downloadCsv } from '@/lib/csv';
 import { Note, OverlapBar, OverlapLegend } from './ui';
+import { Select } from './Select';
 
 export type LeadRole = { posting_id: string; title: string; role_family: string; source_url: string; overlap: number; covered_share: number; salary_min: number | null; salary_max: number | null; savings: number | null };
 
@@ -14,7 +15,7 @@ export type LeadRow = {
   slug: string; company: string; domain: string; pain: number; fit: number;
   avg_overlap: number; avg_weighted_overlap: number; open_roles: number;
   savings_total: number; savings_roles: number; salary_roles: number; avg_salary: number | null; lead_product: string | null;
-  erp: string[]; erp_class: string; erp_score: number; size_class: string; size_score: number; employee_band: string | null;
+  erp: string[]; erp_class: string; erp_score: number; size_class: string; size_score: number; employee_band: string | null; size_source_url: string | null; size_note: string | null;
   complexity_score: number; complexity_count: number; complexity_flags: Record<string, boolean>; hq_state: string | null; role_families: string[];
   covered_share_avg: number; tools: string[]; has_brief: boolean; roles: LeadRole[];
 };
@@ -22,6 +23,16 @@ export type LeadRow = {
 const ERP_CLASS: Record<string, string> = { enterprise: 'Enterprise ERP', smb_only: 'QuickBooks/Xero only', not_stated: 'Not stated', other: 'Other' };
 const SIZE_OPTIONS: [string, string][] = [...SIZE_BRACKETS.map((b) => [b.label, `${b.label} employees`] as [string, string]), ['unknown', 'Unknown']];
 const KEYS = ['wp', 'sort', 'dir', 'role', 'erp', 'size', 'salary', 'open'];
+
+/** Average-salary buckets for the Salary filter. */
+const SALARY_BUCKETS: { value: string; label: string; test: (s: number) => boolean }[] = [
+  { value: 'lt75', label: 'Under $75K', test: (s) => s < 75_000 },
+  { value: '75-100', label: '$75K–$100K', test: (s) => s >= 75_000 && s < 100_000 },
+  { value: '100-150', label: '$100K–$150K', test: (s) => s >= 100_000 && s < 150_000 },
+  { value: '150-200', label: '$150K–$200K', test: (s) => s >= 150_000 && s < 200_000 },
+  { value: '200plus', label: '$200K and above', test: (s) => s >= 200_000 },
+];
+const SALARY_OPTIONS: [string, string][] = [['yes', 'Any posted salary'], ...SALARY_BUCKETS.map((b) => [b.value, `Avg. ${b.label}`] as [string, string]), ['none', 'No salary posted']];
 
 /** Plain-language names for the two score parts; formulas live on /method. */
 const PARTS = {
@@ -55,7 +66,9 @@ export function LeadsView({ rows, excludedCount }: { rows: LeadRow[]; excludedCo
     if (f.role) list = list.filter((r) => r.role_families.includes(f.role));
     if (f.erp) list = list.filter((r) => r.erp_class === f.erp);
     if (f.size) list = list.filter((r) => r.size_class === f.size);
-    if (f.salary === 'yes') list = list.filter((r) => r.salary_roles > 0);
+    if (f.salary === 'yes') list = list.filter((r) => r.avg_salary !== null);
+    else if (f.salary === 'none') list = list.filter((r) => r.avg_salary === null);
+    else if (f.salary) { const b = SALARY_BUCKETS.find((x) => x.value === f.salary); if (b) list = list.filter((r) => r.avg_salary !== null && b.test(r.avg_salary)); }
     const key: Record<string, (r: (typeof list)[number]) => number | string> = {
       score: (r) => r.score, company: (r) => r.company.toLowerCase(), overlap: (r) => r.avg_overlap,
       salary: (r) => r.avg_salary ?? -1, rank: (r) => -r.rank,
@@ -77,13 +90,7 @@ export function LeadsView({ rows, excludedCount }: { rows: LeadRow[]; excludedCo
     </th>
   );
   const select = (k: keyof typeof f, label: string, opts: [string, string][]) => (
-    <label className="flex min-w-0 flex-col gap-1">
-      <span className="t-mono">{label}</span>
-      <select value={f[k]} onChange={(e) => u.set({ [k]: e.target.value })} className="w-full min-w-0 rounded-md border border-line bg-surface px-2.5 py-2 text-[14px]">
-        <option value="">All</option>
-        {opts.map(([v, l]) => <option key={v} value={v}>{l}</option>)}
-      </select>
-    </label>
+    <Select label={label} value={f[k]} options={opts} onChange={(v) => u.set({ [k]: v })} />
   );
   const exportCsv = () => downloadCsv('leads.csv', ranked.map((r) => ({
     rank: r.rank, company: r.company, domain: r.domain, lead_score: r.score.toFixed(1), pain: r.pain.toFixed(3), fit: r.fit.toFixed(3),
@@ -128,7 +135,7 @@ export function LeadsView({ rows, excludedCount }: { rows: LeadRow[]; excludedCo
           {select('role', 'Role family', options.roles.map((r) => [r, ROLE_LABELS[r] ?? r]))}
           {select('erp', 'ERP', Object.entries(ERP_CLASS))}
           {select('size', 'Employees', SIZE_OPTIONS)}
-          {select('salary', 'Salary', [['yes', 'Has salary']])}
+          {select('salary', 'Avg. salary', SALARY_OPTIONS)}
         </div>
         <div className="flex flex-wrap items-center justify-between gap-3">
           <span className="t-mono">Showing {ranked.length} of {rows.length} lead companies{excludedCount ? ` · ${excludedCount} finance-software ${excludedCount === 1 ? 'vendor' : 'vendors'} not shown` : ''}</span>
@@ -230,7 +237,8 @@ function Details({ r, weights }: { r: LeadRow & { parts: { pain: number; fit: nu
   return (
     <div className="space-y-5 py-2">
       <dl className="flex flex-wrap gap-x-8 gap-y-2 text-[14px]">
-        <div><dt className="t-mono">Employees</dt><dd className="mt-0.5">{r.employee_band ? `${formatBand(r.employee_band)} (estimate)` : 'Unknown'}</dd></div>
+        <div><dt className="t-mono">Employees</dt><dd className="mt-0.5">{r.employee_band ? formatBand(r.employee_band) : 'Unknown'}{' '}
+          {r.size_source_url ? <a href={r.size_source_url} target="_blank" rel="noreferrer" className="link text-[12.5px]">({r.size_note?.split(',')[0]} ↗)</a> : r.employee_band ? <span className="text-[12.5px] text-ink-muted">(estimate)</span> : null}</dd></div>
         <div><dt className="t-mono">ERP</dt><dd className="mt-0.5">{r.erp.length ? r.erp.join(', ') : 'Not stated'}</dd></div>
       </dl>
 
@@ -260,7 +268,7 @@ function Details({ r, weights }: { r: LeadRow & { parts: { pain: number; fit: nu
         <span className="t-mono">Why it scores {r.score.toFixed(0)}</span>
         <div className="mt-2 grid grid-cols-1 gap-3 md:grid-cols-2">
           {part('pain', weights.pain, r.pain, r.parts.pain, <>On average {pct(r.avg_overlap)} of the duties in their {r.open_roles} open {r.open_roles === 1 ? 'role is' : 'roles are'} work Hyphenate advertises.</>)}
-          {part('fit', weights.fit, r.fit, r.parts.fit, <>ERP: {r.erp.length ? r.erp.join(', ') : 'not stated'}. Size: {r.employee_band ? `${formatBand(r.employee_band)} employees (unverified)` : 'unknown'}. Complexity: {flags.length ? flags.join(', ') : 'none stated'}.</>)}
+          {part('fit', weights.fit, r.fit, r.parts.fit, <>ERP: {r.erp.length ? r.erp.join(', ') : 'not stated'}. Size: {r.employee_band ? `${formatBand(r.employee_band)} employees${r.size_source_url ? '' : ' (estimate)'}` : 'unknown'}. Complexity: {flags.length ? flags.join(', ') : 'none stated'}.</>)}
         </div>
       </div>
 

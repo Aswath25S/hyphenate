@@ -11,9 +11,9 @@ export function Frac({ num, den }: { num: ReactNode; den: ReactNode }) {
 }
 
 /** A formula card: what it means in a sentence, the formula in words, then a short note. */
-export function Formula({ title, desc, children, note }: { title: string; desc: ReactNode; children: ReactNode; note?: ReactNode }) {
+export function Formula({ title, desc, children, note, className = '' }: { title: string; desc: ReactNode; children: ReactNode; note?: ReactNode; className?: string }) {
   return (
-    <div className="card flex flex-col p-5 sm:p-6">
+    <div className={`card flex flex-col p-5 sm:p-6 ${className}`}>
       <p className="t-card">{title}</p>
       <p className="mt-1.5 text-[14.5px] leading-relaxed text-ink/80">{desc}</p>
       <div className="my-4 overflow-x-auto rounded-lg bg-bg px-4 py-4 text-center text-[16px] leading-loose text-ink-display">{children}</div>

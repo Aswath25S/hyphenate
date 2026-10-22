@@ -25,7 +25,7 @@ let tmp: string;
 
 beforeAll(() => {
   tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'btnh-int-'));
-  for (const k of ['processed', 'extracted', 'matched', 'app', 'appPostings', 'cache', 'logs', 'rawNews'] as const) {
+  for (const k of ['processed', 'extracted', 'matched', 'app', 'appPostings', 'cache', 'logs', 'rawSize'] as const) {
     (P as Record<string, string>)[k] = path.join(tmp, k === 'extracted' || k === 'matched' ? `processed/${k}` : k === 'appPostings' ? 'app/postings' : k);
   }
   process.env.OPENAI_API_KEY = 'test-key';

@@ -6,7 +6,7 @@
     "ats": "ashby",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -76,7 +76,7 @@
     "ats": "ashby",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "TX",
     "excluded": null,
     "posting_ids": [
@@ -154,7 +154,7 @@
     "ats": "lever",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -207,7 +207,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -256,9 +256,9 @@
     "company": "Klaviyo",
     "domain": "klaviyo.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "2368",
+    "size_source_url": "https://en.wikipedia.org/wiki/Klaviyo",
+    "size_note": "Wikipedia infobox, 2025",
     "hq_state": "MA",
     "excluded": null,
     "posting_ids": [
@@ -329,7 +329,7 @@
     "ats": "ashby",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -410,7 +410,7 @@
     "ats": "ashby",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -471,7 +471,7 @@
     "ats": "greenhouse",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -515,13 +515,66 @@
     "salary_roles": 1
   },
   {
+    "slug": "elevenlabs",
+    "company": "ElevenLabs",
+    "domain": "elevenlabs.io",
+    "ats": "ashby",
+    "employee_band": "1000",
+    "size_source_url": "https://www.wikidata.org/wiki/Q116798355",
+    "size_note": "Wikidata, 2026-01",
+    "hq_state": "NY",
+    "excluded": null,
+    "posting_ids": [
+      "3e4022fc21b9a4c6"
+    ],
+    "open_roles": 1,
+    "avg_weighted_overlap": 0.47619047619047616,
+    "avg_overlap": 0.6666666666666666,
+    "pain": 0.4309523809523809,
+    "erp": [],
+    "erp_class": "not_stated",
+    "erp_score": 0.5,
+    "size_class": "501–1,000",
+    "size_score": 0.65,
+    "complexity_flags": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": true,
+      "high_volume": true
+    },
+    "complexity_count": 2,
+    "complexity_score": 1,
+    "fit": 0.6950000000000001,
+    "product_split": {
+      "GL accounting": {
+        "covered": 5,
+        "assisted": 5,
+        "weighted": 7.5
+      },
+      "Order-to-cash": {
+        "covered": 1,
+        "assisted": 3,
+        "weighted": 2.5
+      }
+    },
+    "lead_product": "GL accounting",
+    "tools": [
+      "HubiFi",
+      "Metronome",
+      "Stripe"
+    ],
+    "savings_total": 0,
+    "savings_roles": 0,
+    "salary_roles": 0
+  },
+  {
     "slug": "avetta",
     "company": "Avetta",
     "domain": "avetta.com",
     "ats": "greenhouse",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "UT",
     "excluded": null,
     "posting_ids": [
@@ -580,9 +633,9 @@
     "company": "Snyk",
     "domain": "snyk.io",
     "ats": "ashby",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1400",
+    "size_source_url": "https://en.wikipedia.org/wiki/Snyk",
+    "size_note": "Wikipedia infobox",
     "hq_state": "MA",
     "excluded": null,
     "posting_ids": [
@@ -651,7 +704,7 @@
     "ats": "lever",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -718,66 +771,13 @@
     "salary_roles": 2
   },
   {
-    "slug": "elevenlabs",
-    "company": "ElevenLabs",
-    "domain": "elevenlabs.io",
-    "ats": "ashby",
-    "employee_band": "201-500",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
-    "hq_state": "NY",
-    "excluded": null,
-    "posting_ids": [
-      "3e4022fc21b9a4c6"
-    ],
-    "open_roles": 1,
-    "avg_weighted_overlap": 0.47619047619047616,
-    "avg_overlap": 0.6666666666666666,
-    "pain": 0.4309523809523809,
-    "erp": [],
-    "erp_class": "not_stated",
-    "erp_score": 0.5,
-    "size_class": "201–500",
-    "size_score": 0.5,
-    "complexity_flags": {
-      "multi_entity": false,
-      "multi_currency": false,
-      "usage_based_billing": true,
-      "high_volume": true
-    },
-    "complexity_count": 2,
-    "complexity_score": 1,
-    "fit": 0.6499999999999999,
-    "product_split": {
-      "GL accounting": {
-        "covered": 5,
-        "assisted": 5,
-        "weighted": 7.5
-      },
-      "Order-to-cash": {
-        "covered": 1,
-        "assisted": 3,
-        "weighted": 2.5
-      }
-    },
-    "lead_product": "GL accounting",
-    "tools": [
-      "HubiFi",
-      "Metronome",
-      "Stripe"
-    ],
-    "savings_total": 0,
-    "savings_roles": 0,
-    "salary_roles": 0
-  },
-  {
     "slug": "thrive-market",
     "company": "Thrive Market",
     "domain": "thrivemarket.com",
     "ats": "greenhouse",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -828,9 +828,9 @@
     "company": "Lemonade",
     "domain": "lemonade.com",
     "ats": "ashby",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1235",
+    "size_source_url": "https://en.wikipedia.org/wiki/Lemonade%2C_Inc.",
+    "size_note": "Wikipedia infobox",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -895,9 +895,9 @@
     "company": "Flexport",
     "domain": "flexport.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "2082",
+    "size_source_url": "https://www.wikidata.org/wiki/Q23016856",
+    "size_note": "Wikidata, 2026-01",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -959,7 +959,7 @@
     "ats": "ashby",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -1012,13 +1012,145 @@
     "salary_roles": 1
   },
   {
+    "slug": "oura",
+    "company": "Oura",
+    "domain": "ouraring.com",
+    "ats": "greenhouse",
+    "employee_band": "1200",
+    "size_source_url": "https://en.wikipedia.org/wiki/Oura_Ring",
+    "size_note": "Wikipedia infobox",
+    "hq_state": "CA",
+    "excluded": null,
+    "posting_ids": [
+      "0ae58f01342abcaf",
+      "3965e7a55df26bfa",
+      "67da9c5b3e879bee",
+      "e8039e5e382a675f"
+    ],
+    "open_roles": 4,
+    "avg_weighted_overlap": 0.12823609562739996,
+    "avg_overlap": 0.18808063916759568,
+    "pain": 0.30258887650192,
+    "erp": [
+      "NetSuite",
+      "Oracle",
+      "SAP"
+    ],
+    "erp_class": "enterprise",
+    "erp_score": 1,
+    "size_class": "1,001–5,000",
+    "size_score": 0.85,
+    "complexity_flags": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false
+    },
+    "complexity_count": 0,
+    "complexity_score": 0.2,
+    "fit": 0.7150000000000001,
+    "product_split": {
+      "GL accounting": {
+        "covered": 7,
+        "assisted": 11,
+        "weighted": 12.5
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "lead_product": "GL accounting",
+    "tools": [
+      "FloQast",
+      "LeaseQuery",
+      "Lucernex",
+      "Workiva"
+    ],
+    "savings_total": 23647.554347826088,
+    "savings_roles": 4,
+    "salary_roles": 4
+  },
+  {
+    "slug": "shield-ai",
+    "company": "Shield AI",
+    "domain": "shield.ai",
+    "ats": "lever",
+    "employee_band": "1500",
+    "size_source_url": "https://en.wikipedia.org/wiki/Shield_AI",
+    "size_note": "Wikipedia infobox",
+    "hq_state": "CA",
+    "excluded": null,
+    "posting_ids": [
+      "60cda1db954b419c",
+      "7c95ec2817a423f4",
+      "ba522a400e348c6b",
+      "e791861b49dee539"
+    ],
+    "open_roles": 4,
+    "avg_weighted_overlap": 0.12084859584859585,
+    "avg_overlap": 0.20430402930402927,
+    "pain": 0.2966788766788767,
+    "erp": [
+      "Costpoint",
+      "Oracle"
+    ],
+    "erp_class": "enterprise",
+    "erp_score": 1,
+    "size_class": "1,001–5,000",
+    "size_score": 0.85,
+    "complexity_flags": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false
+    },
+    "complexity_count": 0,
+    "complexity_score": 0.2,
+    "fit": 0.7150000000000001,
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 15,
+        "weighted": 7.5
+      },
+      "GL accounting": {
+        "covered": 3,
+        "assisted": 3,
+        "weighted": 4.5
+      },
+      "Treasury": {
+        "covered": 0,
+        "assisted": 4,
+        "weighted": 2
+      }
+    },
+    "lead_product": "Reporting",
+    "tools": [
+      "Adaptive",
+      "Anaplan",
+      "DAX",
+      "Excel",
+      "Microsoft Fabric",
+      "Pigment",
+      "Power BI",
+      "Power Query",
+      "Vena",
+      "Workiva"
+    ],
+    "savings_total": 16054.945054945056,
+    "savings_roles": 4,
+    "salary_roles": 4
+  },
+  {
     "slug": "relativity-space",
     "company": "Relativity Space",
     "domain": "relativityspace.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "2000",
+    "size_source_url": "https://en.wikipedia.org/wiki/Relativity_Space",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -1079,7 +1211,7 @@
     "ats": "ashby",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -1142,9 +1274,9 @@
     "company": "Verkada",
     "domain": "verkada.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1700",
+    "size_source_url": "https://en.wikipedia.org/wiki/Verkada",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -1199,9 +1331,9 @@
     "company": "Peloton",
     "domain": "onepeloton.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "2145",
+    "size_source_url": "https://en.wikipedia.org/wiki/Peloton_Interactive",
+    "size_note": "Wikipedia infobox",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -1259,9 +1391,9 @@
     "company": "PagerDuty",
     "domain": "pagerduty.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1242",
+    "size_source_url": "https://en.wikipedia.org/wiki/PagerDuty",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -1318,7 +1450,7 @@
     "ats": "greenhouse",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -1379,7 +1511,7 @@
     "ats": "ashby",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -1444,7 +1576,7 @@
     "ats": "greenhouse",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -1494,74 +1626,13 @@
     "salary_roles": 3
   },
   {
-    "slug": "oura",
-    "company": "Oura",
-    "domain": "ouraring.com",
-    "ats": "greenhouse",
-    "employee_band": "501-1000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
-    "hq_state": "CA",
-    "excluded": null,
-    "posting_ids": [
-      "0ae58f01342abcaf",
-      "3965e7a55df26bfa",
-      "67da9c5b3e879bee",
-      "e8039e5e382a675f"
-    ],
-    "open_roles": 4,
-    "avg_weighted_overlap": 0.12823609562739996,
-    "avg_overlap": 0.18808063916759568,
-    "pain": 0.30258887650192,
-    "erp": [
-      "NetSuite",
-      "Oracle",
-      "SAP"
-    ],
-    "erp_class": "enterprise",
-    "erp_score": 1,
-    "size_class": "501–1,000",
-    "size_score": 0.65,
-    "complexity_flags": {
-      "multi_entity": false,
-      "multi_currency": false,
-      "usage_based_billing": false,
-      "high_volume": false
-    },
-    "complexity_count": 0,
-    "complexity_score": 0.2,
-    "fit": 0.655,
-    "product_split": {
-      "GL accounting": {
-        "covered": 7,
-        "assisted": 11,
-        "weighted": 12.5
-      },
-      "Reporting": {
-        "covered": 0,
-        "assisted": 1,
-        "weighted": 0.5
-      }
-    },
-    "lead_product": "GL accounting",
-    "tools": [
-      "FloQast",
-      "LeaseQuery",
-      "Lucernex",
-      "Workiva"
-    ],
-    "savings_total": 23647.554347826088,
-    "savings_roles": 4,
-    "salary_roles": 4
-  },
-  {
     "slug": "roofstock",
     "company": "Roofstock",
     "domain": "roofstock.com",
     "ats": "greenhouse",
-    "employee_band": "201-500",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "205",
+    "size_source_url": "https://en.wikipedia.org/wiki/Roofstock",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -1622,84 +1693,13 @@
     "salary_roles": 2
   },
   {
-    "slug": "shield-ai",
-    "company": "Shield AI",
-    "domain": "shield.ai",
-    "ats": "lever",
-    "employee_band": "501-1000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
-    "hq_state": "CA",
-    "excluded": null,
-    "posting_ids": [
-      "60cda1db954b419c",
-      "7c95ec2817a423f4",
-      "ba522a400e348c6b",
-      "e791861b49dee539"
-    ],
-    "open_roles": 4,
-    "avg_weighted_overlap": 0.12084859584859585,
-    "avg_overlap": 0.20430402930402927,
-    "pain": 0.2966788766788767,
-    "erp": [
-      "Costpoint",
-      "Oracle"
-    ],
-    "erp_class": "enterprise",
-    "erp_score": 1,
-    "size_class": "501–1,000",
-    "size_score": 0.65,
-    "complexity_flags": {
-      "multi_entity": false,
-      "multi_currency": false,
-      "usage_based_billing": false,
-      "high_volume": false
-    },
-    "complexity_count": 0,
-    "complexity_score": 0.2,
-    "fit": 0.655,
-    "product_split": {
-      "Reporting": {
-        "covered": 0,
-        "assisted": 15,
-        "weighted": 7.5
-      },
-      "GL accounting": {
-        "covered": 3,
-        "assisted": 3,
-        "weighted": 4.5
-      },
-      "Treasury": {
-        "covered": 0,
-        "assisted": 4,
-        "weighted": 2
-      }
-    },
-    "lead_product": "Reporting",
-    "tools": [
-      "Adaptive",
-      "Anaplan",
-      "DAX",
-      "Excel",
-      "Microsoft Fabric",
-      "Pigment",
-      "Power BI",
-      "Power Query",
-      "Vena",
-      "Workiva"
-    ],
-    "savings_total": 16054.945054945056,
-    "savings_roles": 4,
-    "salary_roles": 4
-  },
-  {
     "slug": "samsara",
     "company": "Samsara",
     "domain": "samsara.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "3500",
+    "size_source_url": "https://en.wikipedia.org/wiki/Samsara_%28company%29",
+    "size_note": "Wikipedia infobox, 2025",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -1760,9 +1760,9 @@
     "company": "Reddit",
     "domain": "reddit.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "2555",
+    "size_source_url": "https://en.wikipedia.org/wiki/Reddit",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -1813,9 +1813,9 @@
     "company": "WHOOP",
     "domain": "whoop.com",
     "ats": "ashby",
-    "employee_band": "501-1000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "800",
+    "size_source_url": "https://en.wikipedia.org/wiki/Whoop_%28company%29",
+    "size_note": "Wikipedia infobox",
     "hq_state": "MA",
     "excluded": null,
     "posting_ids": [
@@ -1874,7 +1874,7 @@
     "ats": "greenhouse",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -1932,7 +1932,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -1990,7 +1990,7 @@
     "ats": "ashby",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -2046,7 +2046,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -2123,9 +2123,9 @@
     "company": "Formlabs",
     "domain": "formlabs.com",
     "ats": "greenhouse",
-    "employee_band": "501-1000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "750",
+    "size_source_url": "https://en.wikipedia.org/wiki/Formlabs",
+    "size_note": "Wikipedia infobox, 2026",
     "hq_state": "MA",
     "excluded": null,
     "posting_ids": [
@@ -2184,7 +2184,7 @@
     "ats": "ashby",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -2247,9 +2247,9 @@
     "company": "Redwood Materials",
     "domain": "redwoodmaterials.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1100",
+    "size_source_url": "https://en.wikipedia.org/wiki/Redwood_Materials",
+    "size_note": "Wikipedia infobox, 2025",
     "hq_state": "NV",
     "excluded": null,
     "posting_ids": [
@@ -2305,9 +2305,9 @@
     "company": "Rover",
     "domain": "rover.com",
     "ats": "lever",
-    "employee_band": "501-1000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "555",
+    "size_source_url": "https://en.wikipedia.org/wiki/Rover_%28American_company%29",
+    "size_note": "Wikipedia infobox, 2025",
     "hq_state": "WA",
     "excluded": null,
     "posting_ids": [
@@ -2360,7 +2360,7 @@
     "ats": "ashby",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CO",
     "excluded": null,
     "posting_ids": [
@@ -2419,7 +2419,7 @@
     "ats": "ashby",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -2477,9 +2477,9 @@
     "company": "Coursera",
     "domain": "coursera.org",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1300",
+    "size_source_url": "https://en.wikipedia.org/wiki/Coursera",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -2535,7 +2535,7 @@
     "ats": "ashby",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -2589,9 +2589,9 @@
     "company": "Fastly",
     "domain": "fastly.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1140",
+    "size_source_url": "https://en.wikipedia.org/wiki/Fastly",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -2654,9 +2654,9 @@
     "company": "Navan",
     "domain": "navan.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "3000",
+    "size_source_url": "https://en.wikipedia.org/wiki/Navan%2C_Inc.",
+    "size_note": "Wikipedia infobox, 2022",
     "hq_state": "CA",
     "excluded": "finance_software_vendor",
     "posting_ids": [
@@ -2703,9 +2703,9 @@
     "company": "Squarespace",
     "domain": "squarespace.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1749",
+    "size_source_url": "https://en.wikipedia.org/wiki/Squarespace",
+    "size_note": "Wikipedia infobox",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -2758,9 +2758,9 @@
     "company": "Stitch Fix",
     "domain": "stitchfix.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "4165",
+    "size_source_url": "https://en.wikipedia.org/wiki/Stitch_Fix",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -2810,7 +2810,7 @@
     "ats": "ashby",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -2865,7 +2865,7 @@
     "ats": "greenhouse",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -2919,7 +2919,7 @@
     "ats": "ashby",
     "employee_band": "51-200",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -2973,9 +2973,9 @@
     "company": "Rent the Runway",
     "domain": "renttherunway.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1800",
+    "size_source_url": "https://en.wikipedia.org/wiki/Rent_the_Runway",
+    "size_note": "Wikipedia infobox",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -3032,7 +3032,7 @@
     "ats": "greenhouse",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -3083,7 +3083,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -3137,7 +3137,7 @@
     "ats": "ashby",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -3184,9 +3184,9 @@
     "company": "Yext",
     "domain": "yext.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1200",
+    "size_source_url": "https://en.wikipedia.org/wiki/Yext",
+    "size_note": "Wikipedia infobox",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -3238,9 +3238,9 @@
     "company": "Upgrade",
     "domain": "upgrade.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1950",
+    "size_source_url": "https://en.wikipedia.org/wiki/Upgrade%2C_Inc.",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -3290,7 +3290,7 @@
     "ats": "ashby",
     "employee_band": "51-200",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -3348,7 +3348,7 @@
     "ats": "ashby",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -3402,7 +3402,7 @@
     "ats": "ashby",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -3452,7 +3452,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -3511,9 +3511,9 @@
     "company": "Vercel",
     "domain": "vercel.com",
     "ats": "greenhouse",
-    "employee_band": "501-1000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "550",
+    "size_source_url": "https://en.wikipedia.org/wiki/Vercel",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -3561,9 +3561,9 @@
     "company": "Pagaya",
     "domain": "pagaya.com",
     "ats": "greenhouse",
-    "employee_band": "501-1000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "553",
+    "size_source_url": "https://en.wikipedia.org/wiki/Pagaya_Technologies",
+    "size_note": "Wikipedia infobox",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -3609,7 +3609,7 @@
     "ats": "greenhouse",
     "employee_band": "51-200",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -3671,7 +3671,7 @@
     "ats": "greenhouse",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -3734,9 +3734,9 @@
     "company": "Plaid",
     "domain": "plaid.com",
     "ats": "ashby",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "1200",
+    "size_source_url": "https://en.wikipedia.org/wiki/Plaid_Inc.",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -3787,7 +3787,7 @@
     "ats": "greenhouse",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -3827,7 +3827,7 @@
     "ats": "greenhouse",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "SD",
     "excluded": null,
     "posting_ids": [
@@ -3886,7 +3886,7 @@
     "ats": "lever",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "WA",
     "excluded": null,
     "posting_ids": [
@@ -3939,67 +3939,13 @@
     "salary_roles": 1
   },
   {
-    "slug": "via",
-    "company": "Via",
-    "domain": "ridewithvia.com",
-    "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
-    "hq_state": "NY",
-    "excluded": null,
-    "posting_ids": [
-      "d23d17e643423475"
-    ],
-    "open_roles": 1,
-    "avg_weighted_overlap": 0.045454545454545456,
-    "avg_overlap": 0.09090909090909091,
-    "pain": 0.08636363636363636,
-    "erp": [],
-    "erp_class": "not_stated",
-    "erp_score": 0.5,
-    "size_class": "1,001–5,000",
-    "size_score": 0.85,
-    "complexity_flags": {
-      "multi_entity": true,
-      "multi_currency": false,
-      "usage_based_billing": false,
-      "high_volume": false
-    },
-    "complexity_count": 1,
-    "complexity_score": 0.5,
-    "fit": 0.605,
-    "product_split": {
-      "Reporting": {
-        "covered": 0,
-        "assisted": 4,
-        "weighted": 2
-      },
-      "GL accounting": {
-        "covered": 0,
-        "assisted": 1,
-        "weighted": 0.5
-      }
-    },
-    "lead_product": "Reporting",
-    "tools": [
-      "Malam",
-      "P&I Loga",
-      "Workday",
-      "iiPay"
-    ],
-    "savings_total": 1988.6363636363637,
-    "savings_roles": 1,
-    "salary_roles": 1
-  },
-  {
     "slug": "hermeus",
     "company": "Hermeus",
     "domain": "hermeus.com",
     "ats": "lever",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "GA",
     "excluded": null,
     "posting_ids": [
@@ -4048,7 +3994,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -4105,7 +4051,7 @@
     "ats": "ashby",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -4153,13 +4099,67 @@
     "salary_roles": 0
   },
   {
+    "slug": "via",
+    "company": "Via",
+    "domain": "ridewithvia.com",
+    "ats": "greenhouse",
+    "employee_band": "950",
+    "size_source_url": "https://en.wikipedia.org/wiki/Via_Transportation",
+    "size_note": "Wikipedia infobox",
+    "hq_state": "NY",
+    "excluded": null,
+    "posting_ids": [
+      "d23d17e643423475"
+    ],
+    "open_roles": 1,
+    "avg_weighted_overlap": 0.045454545454545456,
+    "avg_overlap": 0.09090909090909091,
+    "pain": 0.08636363636363636,
+    "erp": [],
+    "erp_class": "not_stated",
+    "erp_score": 0.5,
+    "size_class": "501–1,000",
+    "size_score": 0.65,
+    "complexity_flags": {
+      "multi_entity": true,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false
+    },
+    "complexity_count": 1,
+    "complexity_score": 0.5,
+    "fit": 0.545,
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 4,
+        "weighted": 2
+      },
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 1,
+        "weighted": 0.5
+      }
+    },
+    "lead_product": "Reporting",
+    "tools": [
+      "Malam",
+      "P&I Loga",
+      "Workday",
+      "iiPay"
+    ],
+    "savings_total": 1988.6363636363637,
+    "savings_roles": 1,
+    "salary_roles": 1
+  },
+  {
     "slug": "zoominfo",
     "company": "ZoomInfo",
     "domain": "zoominfo.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "3508",
+    "size_source_url": "https://en.wikipedia.org/wiki/ZoomInfo",
+    "size_note": "Wikipedia infobox",
     "hq_state": "WA",
     "excluded": null,
     "posting_ids": [
@@ -4210,7 +4210,7 @@
     "ats": "lever",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -4247,9 +4247,9 @@
     "company": "Braze",
     "domain": "braze.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "2000",
+    "size_source_url": "https://en.wikipedia.org/wiki/Braze%2C_Inc.",
+    "size_note": "Wikipedia infobox",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -4296,7 +4296,7 @@
     "ats": "lever",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -4331,64 +4331,13 @@
     "salary_roles": 1
   },
   {
-    "slug": "astranis",
-    "company": "Astranis",
-    "domain": "astranis.com",
-    "ats": "greenhouse",
-    "employee_band": "501-1000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
-    "hq_state": "CA",
-    "excluded": null,
-    "posting_ids": [
-      "23597d58012f47d6"
-    ],
-    "open_roles": 1,
-    "avg_weighted_overlap": 0.1111111111111111,
-    "avg_overlap": 0.2222222222222222,
-    "pain": 0.1388888888888889,
-    "erp": [],
-    "erp_class": "not_stated",
-    "erp_score": 0.5,
-    "size_class": "501–1,000",
-    "size_score": 0.65,
-    "complexity_flags": {
-      "multi_entity": false,
-      "multi_currency": false,
-      "usage_based_billing": false,
-      "high_volume": false
-    },
-    "complexity_count": 0,
-    "complexity_score": 0.2,
-    "fit": 0.455,
-    "product_split": {
-      "GL accounting": {
-        "covered": 0,
-        "assisted": 2,
-        "weighted": 1
-      },
-      "Reporting": {
-        "covered": 0,
-        "assisted": 2,
-        "weighted": 1
-      }
-    },
-    "lead_product": "GL accounting",
-    "tools": [
-      "Excel"
-    ],
-    "savings_total": 1944.4444444444443,
-    "savings_roles": 1,
-    "salary_roles": 1
-  },
-  {
     "slug": "ag1",
     "company": "AG1",
     "domain": "drinkag1.com",
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -4442,7 +4391,7 @@
     "ats": "greenhouse",
     "employee_band": "1001-5000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -4486,7 +4435,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -4544,9 +4493,9 @@
     "company": "Gusto",
     "domain": "gusto.com",
     "ats": "greenhouse",
-    "employee_band": "1001-5000",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "2400",
+    "size_source_url": "https://en.wikipedia.org/wiki/Gusto%2C_Inc.",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": "finance_software_vendor",
     "posting_ids": [
@@ -4584,7 +4533,7 @@
     "ats": "ashby",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -4627,57 +4576,13 @@
     "salary_roles": 2
   },
   {
-    "slug": "outschool",
-    "company": "Outschool",
-    "domain": "outschool.com",
-    "ats": "ashby",
-    "employee_band": "201-500",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
-    "hq_state": "CA",
-    "excluded": null,
-    "posting_ids": [
-      "5b64604701b310ca"
-    ],
-    "open_roles": 1,
-    "avg_weighted_overlap": 0.125,
-    "avg_overlap": 0.25,
-    "pain": 0.15000000000000002,
-    "erp": [],
-    "erp_class": "not_stated",
-    "erp_score": 0.5,
-    "size_class": "201–500",
-    "size_score": 0.5,
-    "complexity_flags": {
-      "multi_entity": false,
-      "multi_currency": false,
-      "usage_based_billing": false,
-      "high_volume": false
-    },
-    "complexity_count": 0,
-    "complexity_score": 0.2,
-    "fit": 0.41,
-    "product_split": {
-      "Reporting": {
-        "covered": 0,
-        "assisted": 2,
-        "weighted": 1
-      }
-    },
-    "lead_product": "Reporting",
-    "tools": [],
-    "savings_total": 5167.96875,
-    "savings_roles": 1,
-    "salary_roles": 1
-  },
-  {
     "slug": "huntress",
     "company": "Huntress",
     "domain": "huntress.com",
     "ats": "greenhouse",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "MD",
     "excluded": null,
     "posting_ids": [
@@ -4720,13 +4625,64 @@
     "salary_roles": 1
   },
   {
+    "slug": "astranis",
+    "company": "Astranis",
+    "domain": "astranis.com",
+    "ats": "greenhouse",
+    "employee_band": "250",
+    "size_source_url": "https://en.wikipedia.org/wiki/Astranis",
+    "size_note": "Wikipedia infobox, 2023",
+    "hq_state": "CA",
+    "excluded": null,
+    "posting_ids": [
+      "23597d58012f47d6"
+    ],
+    "open_roles": 1,
+    "avg_weighted_overlap": 0.1111111111111111,
+    "avg_overlap": 0.2222222222222222,
+    "pain": 0.1388888888888889,
+    "erp": [],
+    "erp_class": "not_stated",
+    "erp_score": 0.5,
+    "size_class": "201–500",
+    "size_score": 0.5,
+    "complexity_flags": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false
+    },
+    "complexity_count": 0,
+    "complexity_score": 0.2,
+    "fit": 0.41,
+    "product_split": {
+      "GL accounting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      },
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "lead_product": "GL accounting",
+    "tools": [
+      "Excel"
+    ],
+    "savings_total": 1944.4444444444443,
+    "savings_roles": 1,
+    "salary_roles": 1
+  },
+  {
     "slug": "melio",
     "company": "Melio",
     "domain": "meliopayments.com",
     "ats": "greenhouse",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": "finance_software_vendor",
     "posting_ids": [
@@ -4773,7 +4729,7 @@
     "ats": "lever",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "GA",
     "excluded": null,
     "posting_ids": [
@@ -4820,7 +4776,7 @@
     "ats": "greenhouse",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -4872,7 +4828,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -4919,7 +4875,7 @@
     "ats": "ashby",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -4963,7 +4919,7 @@
     "ats": "greenhouse",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -5007,7 +4963,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -5059,7 +5015,7 @@
     "ats": "greenhouse",
     "employee_band": "501-1000",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -5107,7 +5063,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -5143,13 +5099,57 @@
     "salary_roles": 2
   },
   {
+    "slug": "outschool",
+    "company": "Outschool",
+    "domain": "outschool.com",
+    "ats": "ashby",
+    "employee_band": "110",
+    "size_source_url": "https://en.wikipedia.org/wiki/Outschool",
+    "size_note": "Wikipedia infobox, 2020",
+    "hq_state": "CA",
+    "excluded": null,
+    "posting_ids": [
+      "5b64604701b310ca"
+    ],
+    "open_roles": 1,
+    "avg_weighted_overlap": 0.125,
+    "avg_overlap": 0.25,
+    "pain": 0.15000000000000002,
+    "erp": [],
+    "erp_class": "not_stated",
+    "erp_score": 0.5,
+    "size_class": "1–200",
+    "size_score": 0.3,
+    "complexity_flags": {
+      "multi_entity": false,
+      "multi_currency": false,
+      "usage_based_billing": false,
+      "high_volume": false
+    },
+    "complexity_count": 0,
+    "complexity_score": 0.2,
+    "fit": 0.35000000000000003,
+    "product_split": {
+      "Reporting": {
+        "covered": 0,
+        "assisted": 2,
+        "weighted": 1
+      }
+    },
+    "lead_product": "Reporting",
+    "tools": [],
+    "savings_total": 5167.96875,
+    "savings_roles": 1,
+    "salary_roles": 1
+  },
+  {
     "slug": "mighty-networks",
     "company": "Mighty Networks",
     "domain": "mightynetworks.com",
     "ats": "greenhouse",
     "employee_band": "51-200",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -5197,7 +5197,7 @@
     "ats": "greenhouse",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "NY",
     "excluded": null,
     "posting_ids": [
@@ -5244,7 +5244,7 @@
     "ats": "ashby",
     "employee_band": "201-500",
     "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "size_note": "unverified estimate; no public figure found on Wikidata or Wikipedia",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -5290,9 +5290,9 @@
     "company": "ClassDojo",
     "domain": "classdojo.com",
     "ats": "ashby",
-    "employee_band": "201-500",
-    "size_source_url": null,
-    "size_note": "unverified estimate; replace with a public source",
+    "employee_band": "40",
+    "size_source_url": "https://en.wikipedia.org/wiki/ClassDojo",
+    "size_note": "Wikipedia infobox",
     "hq_state": "CA",
     "excluded": null,
     "posting_ids": [
@@ -5305,8 +5305,8 @@
     "erp": [],
     "erp_class": "not_stated",
     "erp_score": 0.5,
-    "size_class": "201–500",
-    "size_score": 0.5,
+    "size_class": "1–200",
+    "size_score": 0.3,
     "complexity_flags": {
       "multi_entity": false,
       "multi_currency": false,
@@ -5315,7 +5315,7 @@
     },
     "complexity_count": 0,
     "complexity_score": 0.2,
-    "fit": 0.41,
+    "fit": 0.35000000000000003,
     "product_split": {},
     "lead_product": null,
     "tools": [

@@ -1,0 +1,1238 @@
+{
+ "head": {
+  "vars": [
+   "site",
+   "item",
+   "itemLabel",
+   "emp",
+   "date"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q23016856"
+    },
+    "emp": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+     "type": "literal",
+     "value": "2082"
+    },
+    "date": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2026-01-04T00:00:00Z"
+    },
+    "site": {
+     "type": "uri",
+     "value": "https://www.flexport.com"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Flexport"
+    }
+   },
+   {
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q54263821"
+    },
+    "emp": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+     "type": "literal",
+     "value": "60"
+    },
+    "date": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2019-01-01T00:00:00Z"
+    },
+    "site": {
+     "type": "uri",
+     "value": "https://www.relativityspace.com/"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Relativity Space"
+    }
+   },
+   {
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q112629176"
+    },
+    "emp": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+     "type": "literal",
+     "value": "900"
+    },
+    "date": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2025-01-01T00:00:00Z"
+    },
+    "site": {
+     "type": "uri",
+     "value": "https://www.scale.com"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Scale AI"
+    }
+   },
+   {
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q116798355"
+    },
+    "emp": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+     "type": "literal",
+     "value": "1000"
+    },
+    "date": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2026-01-01T00:00:00Z"
+    },
+    "site": {
+     "type": "uri",
+     "value": "https://elevenlabs.io/"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "ElevenLabs"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.coursera.org"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q499962"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Coursera"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.betterment.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q4898585"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Betterment.com"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.pathward.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q6822267"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Pathward"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://www.renttherunway.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q7313510"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Rent The Runway"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.squarespace.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q7582097"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Squarespace"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://www.thumbtack.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q7798846"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Thumbtack"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://yext.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q8053341"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Yext"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.zoominfo.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q8074134"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "ZoomInfo"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.classdojo.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q13645977"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "ClassDojo"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.demandbase.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q16834870"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Demandbase"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://www.poshmark.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q17051868"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Poshmark"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://formlabs.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q18148514"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Formlabs"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.rover.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q18168341"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "rover.com"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.stitchfix.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q18385610"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Stitch Fix"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://classpass.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q19864979"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "ClassPass"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://gusto.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q20540697"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Gusto"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://www.cockroachlabs.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q20857873"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Cockroach Labs"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.braze.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q20880554"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Braze"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.forter.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q20988642"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Forter"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.hioscar.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q24204297"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Oscar Health"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://mixpanel.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q25048114"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Mixpanel"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://www.ridewithvia.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q25339988"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Via"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://thrivemarket.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q27150214"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Thrive Market"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://clickhouse.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q27825826"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "ClickHouse"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://plaid.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q30610132"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Plaid"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.fastly.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q34045622"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Fastly"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.lemonade.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q37019245"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Lemonade"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://navan.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q39055049"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Navan, Inc."
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://www.eightsleep.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q43080154"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Eight Sleep"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://grafana.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q43399271"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Grafana"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.ro.co/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q48743480"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Roman"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://www.pagerduty.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q48989804"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "PagerDuty"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://vercel.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q56069184"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Vercel Inc."
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.onepeloton.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q56276186"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Peloton"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.benchling.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q63417942"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Benchling"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://www.acorns.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q65072916"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Acorns"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://ouraring.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q65241898"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Oura Health"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://samsara.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q79543668"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Samsara"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.samsara.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q79543668"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Samsara"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://samsara.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q79543668"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Samsara"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://amplitude.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q81969219"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Amplitude"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.angi.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q85741689"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Angi"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://chime.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q85752013"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Chime"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://www.roofstock.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q85847091"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Roofstock"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.notion.so/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q89269703"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Notion"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://www.astranis.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q96372482"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Astranis"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.cockroachlabs.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q98731903"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "CockroachDB"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.upgrade.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q104231924"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Upgrade, Inc."
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://hermeus.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q104855455"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Quarterhorse"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://verkada.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q106059747"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Verkada Inc."
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://liquiddeath.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q106254248"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Liquid Death"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.klaviyo.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q106631196"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Klaviyo"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://www.lyrahealth.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q106828523"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Lyra Health, Inc."
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.outschool.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q107292206"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Outschool"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://www.mixpanel.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q107386649"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "mixpanel-api"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.outreach.io/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q107444761"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Outreach Corporation"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://snyk.io/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q108282404"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Snyk"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.redwoodmaterials.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q108555014"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Redwood Materials"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://pagaya.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q108837504"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Pagaya technologies"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://whoop.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q108907426"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "WHOOP"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://fivetran.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q109827378"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Fivetran"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.fivetran.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q109827378"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Fivetran"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.forter.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110188105"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Forter"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.honeycomb.io/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q113682321"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "honeycomb.io"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://shield.ai/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q114658539"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Shield AI"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "http://hermeus.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q116951797"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Hermeus"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.meliopayments.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q117359479"
+    },
+    "itemLabel": {
+     "type": "literal",
+     "value": "Q117359479"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.perplexity.ai/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q123403392"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Perplexity"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://clickup.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q123524232"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "ClickUp"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://ouraring.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q125877227"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Oura Ring"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://drinkag1.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q127792733"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "AG1"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.appliedintuition.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q130283280"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Applied Intuition"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://huntress.com"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q135927706"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Huntress"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://sentry.io"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q140835305"
+    },
+    "itemLabel": {
+     "type": "literal",
+     "value": "Q140835305"
+    }
+   },
+   {
+    "site": {
+     "type": "uri",
+     "value": "https://www.reddit.com/"
+    },
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1136"
+    },
+    "itemLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Reddit"
+    }
+   }
+  ]
+ }
+}

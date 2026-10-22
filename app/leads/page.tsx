@@ -27,7 +27,7 @@ export default function LeadsPage() {
       avg_overlap: c.avg_overlap, avg_weighted_overlap: c.avg_weighted_overlap, open_roles: c.open_roles,
       savings_total: c.savings_total, savings_roles: c.savings_roles, salary_roles: c.salary_roles, lead_product: c.lead_product,
       erp: c.erp, erp_class: c.erp_class, erp_score: c.erp_score, size_class: c.size_class, size_score: c.size_score,
-      employee_band: c.employee_band, complexity_score: c.complexity_score, complexity_count: c.complexity_count, complexity_flags: c.complexity_flags,
+      employee_band: c.employee_band, size_source_url: c.size_source_url, size_note: c.size_note, complexity_score: c.complexity_score, complexity_count: c.complexity_count, complexity_flags: c.complexity_flags,
       hq_state: c.hq_state, role_families: [...new Set(ps.map((p) => p.role_family))],
       covered_share_avg: ps.length ? ps.reduce((a, p) => a + p.covered_share, 0) / ps.length : 0,
       tools: c.tools, has_brief: Boolean(c.brief),
