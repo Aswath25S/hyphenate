@@ -36,15 +36,19 @@ export function Nav() {
           </button>
         </div>
       </nav>
-      {open && (
-        <ul className="mx-auto mt-2 max-w-[1180px] rounded-[10px] border border-line bg-surface p-2 shadow-[0_8px_30px_rgba(120,60,20,0.07)] md:hidden">
-          {LINKS.map((l) => (
-            <li key={l.href}>
-              <Link href={l.href} onClick={() => setOpen(false)} className={`block rounded-md px-3 py-2 text-[15px] ${active(l.href) ? 'border-l-[3px] border-accent bg-surface-tint text-accent-ink' : ''}`}>{l.label}</Link>
-            </li>
-          ))}
-        </ul>
-      )}
+      {/* Always rendered so it can slide and fade both ways. */}
+      <div className={`mx-auto grid max-w-[1180px] transition-[grid-template-rows,opacity,transform] duration-300 ease-out motion-reduce:transition-none md:hidden ${open ? 'grid-rows-[1fr] translate-y-0 opacity-100' : 'pointer-events-none grid-rows-[0fr] -translate-y-1 opacity-0'}`}
+        inert={!open} aria-hidden={!open}>
+        <div className="pointer-events-none -mx-1 -mb-8 min-h-0 overflow-hidden px-1 pb-8">{/* padding leaves room for the shadow */}
+          <ul className="pointer-events-auto mt-2 rounded-[10px] border border-line bg-surface p-2 shadow-[0_8px_30px_rgba(120,60,20,0.07)]">
+            {LINKS.map((l) => (
+              <li key={l.href}>
+                <Link href={l.href} onClick={() => setOpen(false)} className={`block rounded-md px-3 py-2 text-[15px] ${active(l.href) ? 'border-l-[3px] border-accent bg-surface-tint text-accent-ink' : ''}`}>{l.label}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </header>
   );
 }
