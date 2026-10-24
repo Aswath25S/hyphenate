@@ -135,11 +135,11 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
         <h3 className="t-sub">Salary in these roles, with and without the covered work.</h3>
         <div className="hatch mt-5 space-y-3 rounded-[var(--radius-card)] border border-line p-4 sm:p-6">
           <div className="relative h-12 overflow-hidden rounded-md border border-line bg-white">
-            <div className="flex h-full items-center justify-between gap-3 px-3 font-mono text-[11px] uppercase tracking-[0.08em] text-ink-muted"><span>Salary across {eligible.length} postings</span><span className="num">{usd(salaryPool)}</span></div>
+            <div className="flex h-full items-center justify-between gap-3 px-3 font-mono text-[11px] uppercase tracking-[0.08em] text-ink-muted"><span>Salary<span className="hidden sm:inline"> across</span><span className="sm:hidden">,</span> {eligible.length} postings</span><span className="num">{usd(salaryPool)}</span></div>
           </div>
           <div className="relative h-12">
-            <div className="absolute inset-y-0 left-0 flex items-center rounded-md border border-accent bg-accent-soft px-3" style={{ width: `min(100%, max(${salaryPool ? ((shown / salaryPool) * 100).toFixed(1) : 0}%, 18rem))` }}>
-              <span className="truncate whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.08em] text-accent-ink">Salary tied to Hyphenate’s work: {usd(shown)}</span>
+            <div className="absolute inset-y-0 left-0 flex items-center rounded-md border border-accent bg-accent-soft px-3" style={{ width: `min(100%, max(${salaryPool ? ((shown / salaryPool) * 100).toFixed(1) : 0}%, 15.5rem))` }}>
+              <span className="truncate whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.08em] text-accent-ink"><span className="hidden sm:inline">Salary tied to </span><span className="sm:hidden">Tied to </span>Hyphenate’s work: {usd(shown)}</span>
             </div>
           </div>
           <div className="flex justify-between font-mono text-[11px] text-ink-muted"><span>0</span><span>{salaryPool ? `${((shown / salaryPool) * 100).toFixed(0)}% of salary` : ''}</span><span>{usd(salaryPool, { compact: true })}</span></div>
@@ -175,16 +175,16 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
       <div id="families">
         <h3 className="t-sub">Where the money sits, by role family.</h3>
         <div className="card mt-5 overflow-x-auto">
-          <table className="w-full min-w-[560px] text-[14px]">
-            <thead className="border-b border-line"><tr>{['Role family', 'Roles', 'Total', '', 'Median'].map((h, i) => <th key={i} className={`px-4 py-3 font-normal ${i === 0 || i === 3 ? 'text-left' : 'text-right'}`}><span className="t-mono">{h}</span></th>)}</tr></thead>
+          <table className="w-full text-[14px] md:min-w-[560px]">
+            <thead className="border-b border-line"><tr>{['Role family', 'Roles', 'Total', '', 'Median'].map((h, i) => <th key={i} className={`px-3 py-3 font-normal sm:px-4 ${i === 0 || i === 3 ? 'text-left' : 'text-right'} ${i === 3 ? 'hidden sm:table-cell' : ''}`}><span className="t-mono">{h}</span></th>)}</tr></thead>
             <tbody>
               {byFamily.map((f) => (
                 <tr key={f.family} className="border-t border-dashed border-line-dashed">
-                  <td className="px-4 py-3">{ROLE_LABELS[f.family] ?? f.family}</td>
-                  <td className="num px-4 py-3 text-right">{f.roles}</td>
-                  <td className="num px-4 py-3 text-right">{usd(f.total)}</td>
-                  <td className="w-[35%] px-4 py-3"><div className="h-2 rounded-r-[4px] bg-accent" style={{ width: `${(f.total / maxFam) * 100}%` }} /></td>
-                  <td className="num px-4 py-3 text-right">{usd(f.median)}</td>
+                  <td className="px-3 py-3 sm:px-4">{ROLE_LABELS[f.family] ?? f.family}</td>
+                  <td className="num px-3 py-3 text-right sm:px-4">{f.roles}</td>
+                  <td className="num px-3 py-3 text-right sm:px-4">{usd(f.total)}</td>
+                  <td className="hidden w-[35%] px-4 py-3 sm:table-cell"><div className="h-2 rounded-r-[4px] bg-accent" style={{ width: `${(f.total / maxFam) * 100}%` }} /></td>
+                  <td className="num px-3 py-3 text-right sm:px-4">{usd(f.median)}</td>
                 </tr>
               ))}
             </tbody>
@@ -196,17 +196,25 @@ export function SavingsView({ rows }: { rows: SavingsRow[] }) {
       <div id="roles">
         <h3 className="t-sub">Every role, with its breakdown.</h3>
         <div className="card mt-5 overflow-x-auto">
-          <table className="w-full min-w-[900px] text-[14px]">
-            <thead className="border-b border-line"><tr>{['Role', 'Company', 'Role breakdown', 'Salary min', 'Savings (default)', custom ? 'Savings (custom)' : ''].map((h, i) => <th key={i} className={`whitespace-nowrap px-4 py-3 font-normal ${i < 3 ? 'text-left' : 'text-right'}`}><span className="t-mono">{h}</span></th>)}</tr></thead>
+          <table className="w-full text-[14px] md:min-w-[900px]">
+            <thead className="border-b border-line"><tr>{['Role', 'Company', 'Role breakdown', 'Salary min', 'Savings (default)', custom ? 'Savings (custom)' : ''].map((h, i) => <th key={i} className={`px-3 py-3 font-normal sm:px-4 md:whitespace-nowrap ${i < 3 ? 'text-left' : 'text-right'} ${i >= 1 && i <= 3 ? 'hidden md:table-cell' : ''} ${i === 5 && !custom ? 'hidden md:table-cell' : ''}`}><span className="t-mono">{h}</span></th>)}</tr></thead>
             <tbody>
               {[...calc].sort((a, b) => (b.def ?? -1) - (a.def ?? -1)).map((r) => (
                 <tr key={r.posting_id} className="border-t border-dashed border-line-dashed">
-                  <td className="px-4 py-2.5">{r.title}</td>
-                  <td className="px-4 py-2.5"><Link href={`/companies/${r.slug}`} className="hover:text-brand">{r.company}</Link></td>
-                  <td className="whitespace-nowrap px-4 py-2.5"><Link href={`/postings/${r.posting_id}`} className="link">Role breakdown</Link></td>
-                  <td className="num px-4 py-2.5 text-right">{r.salary_min !== null ? usd(r.salary_min) : '–'}</td>
-                  <td className="num px-4 py-2.5 text-right">{r.def !== null ? usd(r.def) : <span className="text-[13px] text-ink-muted">{r.reason === 'no_salary' ? 'No salary posted' : r.reason === 'thin_posting' ? 'Thin posting' : 'No duties'}</span>}</td>
-                  <td className="num px-4 py-2.5 text-right text-accent-ink">{custom && r.yours !== null ? usd(r.yours) : ''}</td>
+                  <td className="px-3 py-2.5 sm:px-4">
+                    {r.title}
+                    {/* On phones, company, breakdown link and salary sit under the title. */}
+                    <div className="mt-1 flex flex-wrap gap-x-3 gap-y-1 text-[13px] md:hidden">
+                      <Link href={`/companies/${r.slug}`} className="text-ink-muted hover:text-brand">{r.company}</Link>
+                      <Link href={`/postings/${r.posting_id}`} className="link">Role breakdown</Link>
+                      {r.salary_min !== null && <span className="num text-ink-muted">min {usd(r.salary_min)}</span>}
+                    </div>
+                  </td>
+                  <td className="hidden px-4 py-2.5 md:table-cell"><Link href={`/companies/${r.slug}`} className="hover:text-brand">{r.company}</Link></td>
+                  <td className="hidden whitespace-nowrap px-4 py-2.5 md:table-cell"><Link href={`/postings/${r.posting_id}`} className="link">Role breakdown</Link></td>
+                  <td className="num hidden px-4 py-2.5 text-right md:table-cell">{r.salary_min !== null ? usd(r.salary_min) : '–'}</td>
+                  <td className="num px-3 py-2.5 text-right align-top sm:px-4 md:align-middle">{r.def !== null ? usd(r.def) : <span className="text-[13px] text-ink-muted">{r.reason === 'no_salary' ? 'No salary posted' : r.reason === 'thin_posting' ? 'Thin posting' : 'No duties'}</span>}</td>
+                  <td className={`num px-3 py-2.5 text-right align-top text-accent-ink sm:px-4 md:table-cell md:align-middle ${custom ? '' : 'hidden'}`}>{custom && r.yours !== null ? usd(r.yours) : ''}</td>
                 </tr>
               ))}
             </tbody>

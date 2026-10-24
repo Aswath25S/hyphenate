@@ -72,16 +72,21 @@ export default function MethodPage() {
       <Section id="coverage" eyebrow="Coverage map" title="Hyphenate’s 30 capabilities and features, across its five products.">
         <p className="mb-6 max-w-[760px] text-[15px] text-ink/80">Our reading of claims on hyphenate.ai&apos;s <a className="link" href="https://hyphenate.ai/platform" target="_blank" rel="noreferrer">platform</a> and <a className="link" href="https://hyphenate.ai/controller" target="_blank" rel="noreferrer">controller</a> pages as of {COVERAGE_AS_OF}. <b className="font-medium">Based on public site, to be validated.</b> It is not Hyphenate&apos;s own list. Covered means the site says the agent does the work end to end; assisted means the agent prepares it and a person approves, or the task needs judgment.</p>
         <div className="card overflow-x-auto">
-          <table className="w-full min-w-[820px] text-[14px]">
-            <thead className="border-b border-line"><tr>{['Id', 'Product', 'Capability', 'Default', 'Not included (near misses)'].map((h) => <th key={h} className="px-4 py-3 text-left font-normal"><Mono>{h}</Mono></th>)}</tr></thead>
+          <table className="w-full text-[14px] md:min-w-[820px]">
+            <thead className="border-b border-line"><tr>{['Id', 'Product', 'Capability', 'Default', 'Not included (near misses)'].map((h) => <th key={h} className={`px-3 py-3 text-left font-normal sm:px-4 ${h === 'Capability' || h === 'Default' ? '' : 'hidden md:table-cell'}`}><Mono>{h}</Mono></th>)}</tr></thead>
             <tbody>
               {caps.map((c) => (
                 <tr key={c.id} className="border-t border-dashed border-line-dashed align-top">
-                  <td className="whitespace-nowrap px-4 py-2.5 font-mono text-[12px] text-ink-muted">{c.id}</td>
-                  <td className="whitespace-nowrap px-4 py-2.5">{c.product}</td>
-                  <td className="px-4 py-2.5">{c.capability}</td>
-                  <td className="px-4 py-2.5"><span className={`rounded-full px-2 py-0.5 font-mono text-[11px] uppercase ${c.default_level === 'covered' ? 'bg-success-soft text-success-ink' : 'bg-accent-soft text-accent-ink'}`}>{c.default_level}</span></td>
-                  <td className="px-4 py-2.5 text-[13px] text-ink-muted">{c.not_included.join('; ')}</td>
+                  <td className="hidden whitespace-nowrap px-4 py-2.5 font-mono text-[12px] text-ink-muted md:table-cell">{c.id}</td>
+                  <td className="hidden whitespace-nowrap px-4 py-2.5 md:table-cell">{c.product}</td>
+                  <td className="px-3 py-2.5 sm:px-4">
+                    {c.capability}
+                    {/* On phones, product and near misses sit under the capability. */}
+                    <div className="t-mono mt-1 md:hidden">{c.product}</div>
+                    {c.not_included.length > 0 && <div className="mt-1 text-[12.5px] text-ink-muted md:hidden">Not included: {c.not_included.join('; ')}</div>}
+                  </td>
+                  <td className="px-3 py-2.5 sm:px-4"><span className={`rounded-full px-2 py-0.5 font-mono text-[11px] uppercase ${c.default_level === 'covered' ? 'bg-success-soft text-success-ink' : 'bg-accent-soft text-accent-ink'}`}>{c.default_level}</span></td>
+                  <td className="hidden px-4 py-2.5 text-[13px] text-ink-muted md:table-cell">{c.not_included.join('; ')}</td>
                 </tr>
               ))}
             </tbody>

@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import { Fragment, useMemo, useState } from 'react';
+import { memo, useCallback, useMemo, useState } from 'react';
 import { LEAD_WEIGHTS, SIZE_BRACKETS } from '@/config/scoring';
 import { leadScore } from '@/lib/scoring';
 import { ROLE_LABELS, formatBand, pct, usd } from '@/lib/format';
@@ -45,9 +45,10 @@ export function LeadsView({ rows, excludedCount }: { rows: LeadRow[]; excludedCo
   // Open row is local state (as on the Gaps page) so it animates on the next frame;
   // routing it through the URL delayed the transition. ?open= still works on load.
   const [open, setOpen] = useState<string | null>(() => u.get('open') || null);
+  const toggle = useCallback((slug: string) => setOpen((o) => (o === slug ? null : slug)), []);
   // One slider: the share given to "Hyphenate can do the work"; the rest goes to fit.
   const painW = Math.min(1, Math.max(0, u.getNum('wp', LEAD_WEIGHTS.pain)));
-  const weights = { pain: painW, fit: 1 - painW };
+  const weights = useMemo(() => ({ pain: painW, fit: 1 - painW }), [painW]);
   const custom = Math.abs(painW - LEAD_WEIGHTS.pain) > 1e-6;
   const sort = u.get('sort', 'score');
   const dir = u.get('dir', 'desc');
@@ -83,9 +84,10 @@ export function LeadsView({ rows, excludedCount }: { rows: LeadRow[]; excludedCo
     roles: [...new Set(rows.flatMap((r) => r.role_families))].sort(),
   }), [rows]);
 
-  const th = (k: string, label: string, right = false) => (
-    <th scope="col" className={`whitespace-nowrap px-3 py-3 font-normal ${right ? 'text-right' : 'text-left'}`}>
-      <button className={`t-mono hover:text-brand ${sort === k ? '!text-accent-ink' : ''}`} onClick={() => u.set({ sort: k, dir: sort === k && dir === 'desc' ? 'asc' : 'desc' })}>
+  // Columns hidden on phones keep their (zero-width) cell, so later cells stay in their own column.
+  const th = (k: string, label: React.ReactNode, right = false, phoneHidden = false) => (
+    <th scope="col" className={`whitespace-nowrap px-2 py-3 font-normal sm:px-3 ${right ? 'text-right' : 'text-left'} ${phoneHidden ? 'max-md:!p-0' : ''}`}>
+      <button className={`t-mono hover:text-brand ${sort === k ? '!text-accent-ink' : ''} ${phoneHidden ? 'max-md:hidden' : ''}`} onClick={() => u.set({ sort: k, dir: sort === k && dir === 'desc' ? 'asc' : 'desc' })}>
         {label}{sort === k ? (dir === 'desc' ? ' ↓' : ' ↑') : ''}
       </button>
     </th>
@@ -147,68 +149,27 @@ export function LeadsView({ rows, excludedCount }: { rows: LeadRow[]; excludedCo
         </div>
         <OverlapLegend />
         <div className="card relative overflow-x-auto">
-          <table className="w-full min-w-[720px] table-fixed border-collapse text-[14px]">
-            {/* Fixed column widths so headers never shift when a row opens. */}
+          <table className="w-full table-fixed border-collapse text-[14px] md:min-w-[720px]">
+            {/* Fixed column widths so headers never shift when a row opens.
+                On phones, overlap and salary move under the company name. */}
             <colgroup>
-              <col className="w-[3.5rem]" />
+              <col className="w-[2.5rem] md:w-[3.5rem]" />
               <col />
-              <col className="w-[7.5rem]" />
-              <col className="w-[12rem]" />
-              <col className="w-[10rem]" />
-              <col className="w-[10.5rem]" />
+              <col className="w-[4.25rem] md:w-[7.5rem]" />
+              <col className="w-0 md:w-[12rem]" />
+              <col className="w-0 md:w-[10rem]" />
+              <col className="w-[3.25rem] md:w-[10.5rem]" />
             </colgroup>
             <thead className="border-b border-line">
               <tr>
-                {th('rank', '#')}{th('company', 'Company')}{th('score', 'Lead score', true)}{th('overlap', 'Overlap')}{th('salary', 'Avg. salary', true)}
-                <th scope="col" className="px-3 py-3"><span className="sr-only">Actions</span></th>
+                {th('rank', '#')}{th('company', 'Company')}{th('score', <><span className="hidden md:inline">Lead score</span><span className="md:hidden">Score</span></>, true)}{th('overlap', 'Overlap', false, true)}{th('salary', 'Avg. salary', true, true)}
+                <th scope="col" className="px-2 py-3 sm:px-3"><span className="sr-only">Actions</span></th>
               </tr>
             </thead>
             <tbody>
-              {ranked.map((r) => {
-                const isOpen = open === r.slug;
-                return (
-                  <Fragment key={r.slug}>
-                    <tr className={`cursor-pointer border-t border-dashed border-line-dashed transition-colors hover:bg-surface-tint ${isOpen ? 'bg-surface-tint' : ''}`} onClick={() => setOpen(isOpen ? null : r.slug)}>
-                      <td className="num px-3 py-4 font-mono text-[12px] text-ink-muted">{String(r.rank).padStart(2, '0')}</td>
-                      <td className="px-3 py-4">
-                        <span className="font-medium">{r.company}</span>
-                        <div className="t-mono mt-0.5">{r.open_roles} open finance {r.open_roles === 1 ? 'role' : 'roles'}</div>
-                      </td>
-                      <td className="px-3 py-4 text-right">
-                        <span className="num text-[22px] leading-none tracking-[-0.02em] text-ink-display">{r.score.toFixed(0)}</span>
-                        {custom && <div className="t-mono mt-1">default {r.default_score.toFixed(0)}</div>}
-                      </td>
-                      <td className="w-[170px] px-3 py-4">
-                        <OverlapBar covered={r.covered_share_avg} assisted={Math.max(0, r.avg_overlap - r.covered_share_avg)} />
-                        <div className="t-mono mt-1.5">{pct(r.avg_overlap)} of duties</div>
-                      </td>
-                      <td className="num px-3 py-4 text-right">
-                        {r.avg_salary !== null ? usd(r.avg_salary) : <span className="text-[13px] text-ink-muted">No salary posted</span>}
-                        {r.avg_salary !== null && r.salary_roles < r.open_roles && <div className="t-mono mt-1">{r.salary_roles} of {r.open_roles} roles</div>}
-                      </td>
-                      <td className="whitespace-nowrap px-3 py-4 text-right">
-                        <Link href={`/companies/${r.slug}`} onClick={(e) => e.stopPropagation()} className="btn-secondary !px-3 !py-1.5 !text-[13px]">View case</Link>
-                        <button className="ml-2 inline-flex h-8 w-8 items-center justify-center rounded-md border border-line text-ink-muted hover:border-brand hover:text-brand"
-                          aria-expanded={isOpen} aria-label={isOpen ? `Hide details for ${r.company}` : `Show details for ${r.company}`}
-                          onClick={(e) => { e.stopPropagation(); setOpen(isOpen ? null : r.slug); }}>
-                          <svg aria-hidden viewBox="0 0 16 16" className={`h-4 w-4 transition-transform ${isOpen ? "rotate-180" : ""}`}><path d="M3.5 6l4.5 4.5L12.5 6" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
-                        </button>
-                      </td>
-                    </tr>
-                    <tr className={isOpen ? 'bg-surface-tint' : ''} aria-hidden={!isOpen}>
-                      <td colSpan={6} className="p-0">
-                        <div className={`grid transition-[grid-template-rows,opacity] duration-300 ease-out motion-reduce:transition-none ${isOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
-                          <div className="min-h-0 overflow-hidden">
-                            <div className="px-3 pb-6 pt-2 sm:px-5" inert={!isOpen}>
-                              <Details r={r} weights={weights} />
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                  </Fragment>
-                );
-              })}
+              {ranked.map((r) => (
+                <LeadRowView key={r.slug} r={r} isOpen={open === r.slug} custom={custom} weights={weights} onToggle={toggle} />
+              ))}
               {!ranked.length && <tr><td colSpan={6} className="px-3 py-10 text-center text-ink-muted">No leads match these filters.</td></tr>}
             </tbody>
           </table>
@@ -221,6 +182,64 @@ export function LeadsView({ rows, excludedCount }: { rows: LeadRow[]; excludedCo
     </div>
   );
 }
+
+type ScoredLead = LeadRow & { parts: { pain: number; fit: number }; score: number; default_score: number; rank: number };
+
+/** One table row plus its expandable details. Memoised so opening a row re-renders only that row. */
+const LeadRowView = memo(function LeadRowView({ r, isOpen, custom, weights, onToggle }: {
+  r: ScoredLead; isOpen: boolean; custom: boolean; weights: { pain: number; fit: number }; onToggle: (slug: string) => void;
+}) {
+  return (
+    <>
+      <tr className={`cursor-pointer border-t border-dashed border-line-dashed transition-colors hover:bg-surface-tint ${isOpen ? 'bg-surface-tint' : ''}`} onClick={() => onToggle(r.slug)}>
+        <td className="num px-2 py-4 align-top font-mono text-[12px] text-ink-muted sm:px-3 md:align-middle">{String(r.rank).padStart(2, '0')}</td>
+        <td className="px-2 py-4 sm:px-3">
+          <span className="font-medium">{r.company}</span>
+          <div className="t-mono mt-0.5">{r.open_roles} open finance {r.open_roles === 1 ? 'role' : 'roles'}</div>
+          <div className="mt-2.5 md:hidden">
+            <OverlapBar covered={r.covered_share_avg} assisted={Math.max(0, r.avg_overlap - r.covered_share_avg)} />
+            <div className="t-mono mt-1.5 flex flex-wrap gap-x-2"><span className="whitespace-nowrap">{pct(r.avg_overlap)} of duties</span><span aria-hidden>·</span><span className="whitespace-nowrap">{r.avg_salary !== null ? `${usd(r.avg_salary)} avg. salary` : 'no salary posted'}</span></div>
+          </div>
+        </td>
+        <td className="px-2 py-4 text-right align-top sm:px-3 md:align-middle">
+          <span className="num text-[22px] leading-none tracking-[-0.02em] text-ink-display">{r.score.toFixed(0)}</span>
+          {custom && <div className="t-mono mt-1">default {r.default_score.toFixed(0)}</div>}
+        </td>
+        <td className="px-3 py-4 max-md:!p-0">
+          <div className="max-md:hidden">
+            <OverlapBar covered={r.covered_share_avg} assisted={Math.max(0, r.avg_overlap - r.covered_share_avg)} />
+            <div className="t-mono mt-1.5">{pct(r.avg_overlap)} of duties</div>
+          </div>
+        </td>
+        <td className="num px-3 py-4 text-right max-md:!p-0">
+          <div className="max-md:hidden">
+            {r.avg_salary !== null ? usd(r.avg_salary) : <span className="text-[13px] text-ink-muted">No salary posted</span>}
+            {r.avg_salary !== null && r.salary_roles < r.open_roles && <div className="t-mono mt-1">{r.salary_roles} of {r.open_roles} roles</div>}
+          </div>
+        </td>
+        <td className="whitespace-nowrap px-2 py-4 text-right align-top sm:px-3 md:align-middle">
+          <Link href={`/companies/${r.slug}`} onClick={(e) => e.stopPropagation()} className="btn-secondary !hidden !px-3 !py-1.5 !text-[13px] md:!inline-flex">View case</Link>
+          <button className="inline-flex h-9 w-9 md:ml-2 md:h-8 md:w-8 items-center justify-center rounded-md border border-line text-ink-muted hover:border-brand hover:text-brand"
+            aria-expanded={isOpen} aria-label={isOpen ? `Hide details for ${r.company}` : `Show details for ${r.company}`}
+            onClick={(e) => { e.stopPropagation(); onToggle(r.slug); }}>
+            <svg aria-hidden viewBox="0 0 16 16" className={`h-4 w-4 transition-transform ${isOpen ? "rotate-180" : ""}`}><path d="M3.5 6l4.5 4.5L12.5 6" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
+          </button>
+        </td>
+      </tr>
+      <tr className={isOpen ? 'bg-surface-tint' : ''} aria-hidden={!isOpen}>
+        <td colSpan={6} className="p-0">
+          <div className={`grid transition-[grid-template-rows,opacity] duration-300 ease-out motion-reduce:transition-none ${isOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
+            <div className="min-h-0 overflow-hidden">
+              <div className="px-3 pb-6 pt-2 sm:px-5" inert={!isOpen}>
+                <Details r={r} weights={weights} />
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </>
+  );
+});
 
 function Details({ r, weights }: { r: LeadRow & { parts: { pain: number; fit: number }; score: number }; weights: { pain: number; fit: number } }) {
   const flags = Object.entries(r.complexity_flags).filter(([, v]) => v).map(([k]) => k.replace(/_/g, ' '));

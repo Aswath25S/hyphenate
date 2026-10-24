@@ -40,10 +40,17 @@ export function PostingEvidence({ p }: { p: PostingDetail }) {
   const other = p.duties.map((d, i) => ({ d, i })).filter((x) => !x.d.scored);
   const active = hover ?? selected;
   const ad = active !== null ? p.duties[active] : null;
+  // Phones: the side panel sits below the posting, so a tapped duty opens a bottom sheet instead.
+  const [sheet, setSheet] = useState<number | null>(null);
+  const narrow = () => typeof window !== 'undefined' && window.matchMedia('(max-width: 1023px)').matches;
+  const pick = (i: number) => { setSelected(i); if (narrow()) setSheet(i); };
   const focus = (i: number) => {
-    setSelected(i);
+    pick(i);
     document.getElementById(`span-${i}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
   };
+  const [lastSheet, setLastSheet] = useState<number | null>(null);
+  if (sheet !== null && sheet !== lastSheet) setLastSheet(sheet); // keep content while the sheet slides away
+  const sd = lastSheet !== null ? p.duties[lastSheet] : null;
 
   return (
     <div className="space-y-8">
@@ -116,13 +123,13 @@ export function PostingEvidence({ p }: { p: PostingDetail }) {
         {/* Original text */}
         <div className="card min-w-0 p-5 sm:p-8">
           <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
-            <Mono>Original posting</Mono>
+            <Mono>Original posting<span className="lg:hidden"> · tap a highlight</span></Mono>
             <a href={p.source_url} target="_blank" rel="noreferrer" className="link text-[13px]">View on {p.ats === 'greenhouse' ? 'Greenhouse' : p.ats === 'lever' ? 'Lever' : p.ats === 'ashby' ? 'Ashby' : 'source'} ↗</a>
           </div>
           <div className="whitespace-pre-wrap break-words text-[15px] leading-[1.75] text-ink/90">
             {segs.map((s, k) => s.duty === null ? <span key={k}>{s.text}</span> : (
               <span key={k} id={`span-${s.duty}`} className={`${hlClass(p.duties[s.duty])} ${active === s.duty ? 'hl-active' : ''}`}
-                onMouseEnter={() => setHover(s.duty)} onMouseLeave={() => setHover(null)} onClick={() => setSelected(s.duty)}
+                onMouseEnter={() => setHover(s.duty)} onMouseLeave={() => setHover(null)} onClick={() => pick(s.duty!)}
                 title={p.duties[s.duty].scored ? `${p.duties[s.duty].label}${p.duties[s.duty].capability ? ` · ${p.duties[s.duty].capability}` : ''}` : undefined}>
                 {s.text}
               </span>
@@ -145,21 +152,7 @@ export function PostingEvidence({ p }: { p: PostingDetail }) {
             <p className="text-[15px] leading-snug">{!p.slug ? p.company : <Link href={`/companies/${p.slug}`} className="link">{p.company}</Link>}</p>
           </div>
           <div className="card p-5 lg:min-h-[300px]">
-            {ad ? (
-              <div className="space-y-3">
-                <div className="flex items-center justify-between gap-2"><LabelChip label={ad.scored ? ad.label : null} />{ad.confidence !== null && <Mono>Confidence {ad.confidence.toFixed(2)}</Mono>}</div>
-                <p className="t-card">{ad.text}</p>
-                {ad.scored ? (
-                  <>
-                    {ad.capability && <div><Mono>Capability</Mono><p className="mt-1 text-[14px]"><span className="font-mono text-[12px] text-ink-muted">{ad.capability_id}</span><br />{ad.product}: {ad.capability}</p></div>}
-                    {ad.rationale && <div><Mono>Rationale</Mono><p className="mt-1 text-[14px] text-ink/85">{ad.rationale}</p></div>}
-                    {ad.adjusted && <p className="text-[12.5px] text-ink-muted">Model said <b className="font-medium">{ad.model_label}</b>; adjusted by rule: {ad.adjusted}.</p>}
-                    {ad.gap_theme && <p className="text-[13px]">Gap theme: <Link href={`/gaps#${ad.gap_theme.theme_id}`} className="link">{ad.gap_theme.name}</Link></p>}
-                  </>
-                ) : <p className="text-[13px] text-ink-muted">{ad.is_requirement ? 'A qualification, not a task. Excluded from scoring.' : 'Boilerplate. Excluded from scoring.'}</p>}
-                <div><Mono>Source span</Mono><p className="mt-1 text-[13px] italic text-ink/75">&ldquo;{ad.source_span}&rdquo;</p></div>
-              </div>
-            ) : <p className="text-[14px] text-ink-muted">Hover over a highlight in the posting, or click a duty in the list below, to see its label, capability and rationale.</p>}
+            {ad ? <DutyDetail d={ad} /> : <p className="text-[14px] text-ink-muted">Hover over a highlight in the posting, or click a duty in the list below, to see its label, capability and rationale.</p>}
           </div>
 
           <div className="card-flat p-2">
@@ -199,6 +192,36 @@ export function PostingEvidence({ p }: { p: PostingDetail }) {
           {p.thin && <p className="text-[13px] text-ink-muted">Thin posting: fewer than 4 scored duties. It is scored but excluded from savings.</p>}
         </aside>
       </div>
+
+      {/* Bottom sheet for phones */}
+      <div role="dialog" aria-label="Duty details" aria-hidden={sheet === null} inert={sheet === null}
+        className={`fixed inset-x-0 bottom-0 z-50 max-h-[62vh] overflow-y-auto rounded-t-2xl border-t border-line bg-surface px-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] pt-3 shadow-[0_-12px_40px_rgba(120,60,20,0.18)] transition-transform duration-300 ease-out motion-reduce:transition-none lg:hidden ${sheet !== null ? 'translate-y-0' : 'translate-y-full'}`}>
+        <div className="sticky top-0 -mx-5 mb-2 flex items-center justify-between bg-surface px-5 pb-2">
+          <span className="mx-auto h-1 w-10 rounded-full bg-line" aria-hidden />
+        </div>
+        <button onClick={() => setSheet(null)} className="absolute right-3 top-3 inline-flex h-9 w-9 items-center justify-center rounded-md border border-line text-ink-muted" aria-label="Close duty details">
+          <svg aria-hidden viewBox="0 0 16 16" className="h-4 w-4"><path d="M4 4l8 8M12 4l-8 8" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" /></svg>
+        </button>
+        <div className="pr-10">{sd && <DutyDetail d={sd} />}</div>
+      </div>
+    </div>
+  );
+}
+
+function DutyDetail({ d }: { d: DutyView }) {
+  return (
+    <div className="space-y-3">
+      <div className="flex items-center justify-between gap-2"><LabelChip label={d.scored ? d.label : null} />{d.confidence !== null && <Mono>Confidence {d.confidence.toFixed(2)}</Mono>}</div>
+      <p className="t-card">{d.text}</p>
+      {d.scored ? (
+        <>
+          {d.capability && <div><Mono>Capability</Mono><p className="mt-1 text-[14px]"><span className="font-mono text-[12px] text-ink-muted">{d.capability_id}</span><br />{d.product}: {d.capability}</p></div>}
+          {d.rationale && <div><Mono>Rationale</Mono><p className="mt-1 text-[14px] text-ink/85">{d.rationale}</p></div>}
+          {d.adjusted && <p className="text-[12.5px] text-ink-muted">Model said <b className="font-medium">{d.model_label}</b>; adjusted by rule: {d.adjusted}.</p>}
+          {d.gap_theme && <p className="text-[13px]">Gap theme: <Link href={`/gaps#${d.gap_theme.theme_id}`} className="link">{d.gap_theme.name}</Link></p>}
+        </>
+      ) : <p className="text-[13px] text-ink-muted">{d.is_requirement ? 'A qualification, not a task. Excluded from scoring.' : 'Boilerplate. Excluded from scoring.'}</p>}
+      <div><Mono>Source span</Mono><p className="mt-1 text-[13px] italic text-ink/75">&ldquo;{d.source_span}&rdquo;</p></div>
     </div>
   );
 }

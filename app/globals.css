@@ -23,7 +23,7 @@
   --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 }
 
-html { background: var(--bg); transition: background-color 450ms ease; }
+html { background: var(--bg); transition: background-color 450ms ease; -webkit-tap-highlight-color: transparent; -webkit-text-size-adjust: 100%; }
 body {
   background: var(--bg);
   color: var(--ink);

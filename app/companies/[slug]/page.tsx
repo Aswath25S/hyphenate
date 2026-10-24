@@ -185,16 +185,16 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
 
       <Section id="savings" eyebrow="The money" title={c.savings_roles ? `At least ${usd(c.savings_total)} a year across ${c.savings_roles} ${c.savings_roles === 1 ? 'role' : 'roles'}.` : 'No salary posted, so no figure.'}>
         <div className="card overflow-x-auto">
-          <table className="w-full min-w-[640px] text-[14px]">
-            <thead className="border-b border-line"><tr>{['Role', 'Salary min', 'Share done', 'Discount', 'Minimum savings'].map((h, i) => <th key={h} className={`px-4 py-3 font-normal ${i ? 'text-right' : 'text-left'}`}><Mono>{h}</Mono></th>)}</tr></thead>
+          <table className="w-full text-[14px] md:min-w-[640px]">
+            <thead className="border-b border-line"><tr>{['Role', 'Salary min', 'Share done', 'Discount', 'Minimum savings'].map((h, i) => <th key={h} className={`px-3 py-3 font-normal sm:px-4 ${i ? 'text-right' : 'text-left'} ${i === 2 || i === 3 ? 'hidden sm:table-cell' : ''}`}><Mono>{h}</Mono></th>)}</tr></thead>
             <tbody>
               {roles.map((r) => (
                 <tr key={r.posting_id} className="border-t border-dashed border-line-dashed">
-                  <td className="px-4 py-3"><Link href={`/postings/${r.posting_id}`} className="link">{r.title}</Link></td>
-                  <td className="num px-4 py-3 text-right">{r.salary_min !== null ? usd(r.salary_min) : '–'}</td>
-                  <td className="num px-4 py-3 text-right">{savingsShare(r.C, r.A, SAVINGS_DEFAULTS.assistedWeight, SAVINGS_DEFAULTS.countAssisted)}/{r.n}</td>
-                  <td className="num px-4 py-3 text-right">0.5</td>
-                  <td className="num px-4 py-3 text-right">{r.savings !== null ? usd(r.savings) : <span className="text-ink-muted">{r.savings_reason === 'no_salary' ? 'No salary posted' : r.savings_reason === 'thin_posting' ? 'Thin posting' : '–'}</span>}</td>
+                  <td className="px-3 py-3 sm:px-4"><Link href={`/postings/${r.posting_id}`} className="link">{r.title}</Link></td>
+                  <td className="num px-3 py-3 text-right sm:px-4">{r.salary_min !== null ? usd(r.salary_min) : '–'}</td>
+                  <td className="num hidden px-4 py-3 text-right sm:table-cell">{savingsShare(r.C, r.A, SAVINGS_DEFAULTS.assistedWeight, SAVINGS_DEFAULTS.countAssisted)}/{r.n}</td>
+                  <td className="num hidden px-4 py-3 text-right sm:table-cell">0.5</td>
+                  <td className="num px-3 py-3 text-right sm:px-4">{r.savings !== null ? usd(r.savings) : <span className="text-ink-muted">{r.savings_reason === 'no_salary' ? 'No salary posted' : r.savings_reason === 'thin_posting' ? 'Thin posting' : '–'}</span>}</td>
                 </tr>
               ))}
             </tbody>
