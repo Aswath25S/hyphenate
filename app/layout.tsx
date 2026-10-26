@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { ViewTransition } from 'react';
+import { Analytics } from '@vercel/analytics/next';
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 import './globals.css';
@@ -34,6 +35,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Footer asOf={meta?.as_of} />
           </div>
         </ViewTransition>
+        {/* Visit counts in the Vercel dashboard; cookieless, no personal data. */}
+        <Analytics />
       </body>
     </html>
   );
