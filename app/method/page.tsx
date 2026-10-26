@@ -5,7 +5,7 @@ import { StageList, type Stage } from '@/components/StageList';
 import { Formula, Frac } from '@/components/Math';
 import { getCompanies, getMeta } from '@/lib/data';
 import * as C from '@/config/scoring';
-import { COVERAGE_AS_OF } from '@/config/site';
+import { COVERAGE_AS_OF, LISTING_CHECK } from '@/config/site';
 import { pct, shortDate } from '@/lib/format';
 import coverageMap from '@/config/coverage_map.json';
 
@@ -161,7 +161,7 @@ export default function MethodPage() {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="card p-5 text-[14px] leading-relaxed">
             <Mono>Job postings</Mono>
-            <p className="mt-2">Greenhouse, Lever and Ashby public job-board APIs, which companies publish for exactly this purpose. {meta?.collection.seeds ? `${meta.collection.seeds} seed companies, ${meta.collection.total_jobs?.toLocaleString()} jobs scanned, fetched ${shortDate(meta.collection.at)}.` : ''} One request per second per host, an honest user agent. LinkedIn, Indeed and Glassdoor are never fetched.</p>
+            <p className="mt-2">Greenhouse, Lever and Ashby public job-board APIs, which companies publish for exactly this purpose. {meta?.collection.seeds ? `${meta.collection.seeds} seed companies, ${meta.collection.total_jobs?.toLocaleString()} jobs scanned, fetched ${shortDate(meta.collection.at)}.` : ''} Rechecked on {LISTING_CHECK.date}: {LISTING_CHECK.stillListed} of {meta?.headlines.postings} analysed roles were still listed; the rest have closed. Figures are not re-scored. One request per second per host, an honest user agent. LinkedIn, Indeed and Glassdoor are never fetched.</p>
           </div>
           <div className="card p-5 text-[14px] leading-relaxed">
             <Mono>Hyphenate&apos;s capabilities</Mono>

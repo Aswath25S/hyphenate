@@ -10,3 +10,6 @@ export const AUTHOR_GITHUB: string = 'https://github.com/Aswath25S';
 export const AUTHOR_WEBSITE: string = 'https://aswath.app/';
 export const ROLE_URL = 'https://jobs.ashbyhq.com/hyphenate/b75360eb-63dc-4cb0-99b7-67e25986c584';
 export const ROLE_APPLIED_FOR = 'Startup Generalist (New Grad)';
+
+/** Re-check of the analysed postings against the live job boards (no re-scoring). */
+export const LISTING_CHECK = { date: 'Oct 26, 2026', stillListed: 154 };

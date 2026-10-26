@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Container, EmptyState, Mono, Note, OverlapBar, OverlapLegend, PageHero, Section, StatBlock } from '@/components/ui';
 import { getCompanies, getGaps, getMeta, getPostings } from '@/lib/data';
 import { ROLE_LABELS, pct, shortDate, usd } from '@/lib/format';
-import { PRODUCT_NAME } from '@/config/site';
+import { LISTING_CHECK, PRODUCT_NAME } from '@/config/site';
 
 export default function Overview() {
   const meta = getMeta();
@@ -37,7 +37,7 @@ export default function Overview() {
       <section className="hatch border-b border-line py-12 sm:py-16">
         <Container>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            <StatBlock value={h.postings} label="Postings analysed" href="/method#data" note="Open US finance roles, last 60 days" />
+            <StatBlock value={h.postings} label="Postings analysed" href="/method#data" note={`Open US finance roles, last 60 days. ${LISTING_CHECK.stillListed} of ${h.postings} were still listed on ${LISTING_CHECK.date}`} />
             <StatBlock value={h.companies} label="Companies analysed" href="/leads" note={excluded ? `${h.lead_companies} are leads; ${excluded} software ${excluded === 1 ? 'vendor' : 'vendors'} excluded` : `All ${h.lead_companies} are leads`} />
             <StatBlock value={pct(h.median_overlap)} label="Median overlap" href="/savings#roles" note="Covered + assisted duties ÷ scored duties" />
             <StatBlock value={usd(h.overlap_salary_total, { compact: true })} label="Salary in roles Hyphenate overlaps" href="/savings" note={`Yearly pay of the roles where at least ${pct(h.overlap_salary_min_overlap)} of the duties are on Hyphenate's site`} />
