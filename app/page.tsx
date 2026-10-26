@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Container, EmptyState, Mono, Note, OverlapBar, OverlapLegend, PageHero, Section, StatBlock } from '@/components/ui';
 import { getCompanies, getGaps, getMeta, getPostings } from '@/lib/data';
-import { ROLE_LABELS, pct, usd } from '@/lib/format';
+import { ROLE_LABELS, pct, shortDate, usd } from '@/lib/format';
 import { PRODUCT_NAME } from '@/config/site';
 
 export default function Overview() {
@@ -26,7 +26,7 @@ export default function Overview() {
         eyebrow="The finding"
         title={<>{h.companies_with_covered_work} companies are hiring for work Hyphenate&apos;s agents already do.</>}
         sub={<>We analysed {h.postings} open finance postings from {h.companies} US companies. {h.lead_companies} of those companies are leads{excluded ? <> ({excluded} finance-software {excluded === 1 ? 'vendor is' : 'vendors are'} analysed but never shown as {excluded === 1 ? 'a lead' : 'leads'})</> : null}, and {h.companies_with_covered_work} of the leads have at least one open role with a duty Hyphenate fully covers. The median posting has {pct(h.median_overlap)} of its duties on Hyphenate&apos;s public site. That is work that Hyphenate could replace.</>}
-        meta={`As of ${meta.as_of} · ${h.postings} postings · ${h.companies} companies`}
+        meta={`As of ${shortDate(meta.as_of)} · ${h.postings} postings · ${h.companies} companies`}
       >
         <div className="flex flex-wrap gap-3 pt-2">
           <Link href="/leads" className="btn-primary">See the leads</Link>

@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { Container, EmptyState, PageHero, Section } from '@/components/ui';
 import { LeadsView, type LeadRow } from '@/components/LeadsView';
 import { getCompanies, getMeta, getPostings } from '@/lib/data';
-import { pct } from '@/lib/format';
+import { pct, shortDate } from '@/lib/format';
 import { salaryMid } from '@/lib/scoring';
 
 export const metadata: Metadata = { title: 'Leads' };
@@ -43,7 +43,7 @@ export default function LeadsPage() {
         eyebrow="The leads"
         title={<>{strong} companies are hiring for roles where at least half the duties are on Hyphenate&apos;s site.</>}
         sub={top ? <>Every company gets a lead score from 0 to 100. By default, about two thirds (67%) of the score reflects how much of the work in its open finance jobs that Hyphenate already does, and the remaining third (33%) how closely it resembles a typical Hyphenate customer. Click any row to see its open jobs and the detailed breakdown.</> : undefined}
-        meta={`As of ${meta.as_of} · median overlap ${pct(meta.headlines.median_overlap)}`}
+        meta={`As of ${shortDate(meta.as_of)} · median overlap ${pct(meta.headlines.median_overlap)}`}
       />
       <section className="hatch border-b border-line py-10 sm:py-14">
         <Container>

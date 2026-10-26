@@ -61,7 +61,7 @@ export default function MethodPage() {
         eyebrow="The method"
         title="How this project was made, and the logic behind it."
         sub="How the job postings were collected and read, how each duty was compared with Hyphenate’s product, and the arithmetic behind every score and dollar figure. A language model reads and labels; plain code does all the maths."
-        meta={meta ? `As of ${meta.as_of} · model ${meta.model} · generated ${shortDate(meta.generated_at)}` : 'No pipeline run yet'}
+        meta={meta ? `As of ${shortDate(meta.as_of)} · model ${meta.model} · generated ${shortDate(meta.generated_at)}` : 'No pipeline run yet'}
       />
 
       <Section id="how" eyebrow="How it works" title="Seven steps from job posting to lead.">

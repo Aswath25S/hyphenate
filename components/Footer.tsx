@@ -1,4 +1,5 @@
 import { AUTHOR_NAME, COVERAGE_AS_OF, ROLE_APPLIED_FOR } from '@/config/site';
+import { shortDate } from '@/lib/format';
 import { Wordmark } from './Wordmark';
 
 export function Footer({ asOf }: { asOf?: string | null }) {
@@ -12,7 +13,7 @@ export function Footer({ asOf }: { asOf?: string | null }) {
             Coverage based on hyphenate.ai as of {COVERAGE_AS_OF}.
           </p>
         </div>
-        <p className="t-mono">{asOf ? `Data as of ${asOf}` : 'No pipeline data yet'}</p>
+        <p className="t-mono">{asOf ? `Data as of ${shortDate(asOf)}` : 'No pipeline data yet'}</p>
       </div>
     </footer>
   );
